@@ -1,0 +1,473 @@
+{
+  "case_id": "SANSEN-0436",
+  "slide_id": "0436",
+  "chapter": 4,
+  "slide_number_in_chapter": 36,
+  "source": {
+    "pdf_page": 132,
+    "printed_page": 135
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0132_01_0436.jpg",
+      "pdf_page": 132,
+      "printed_page": 135,
+      "bbox_pt": [
+        91.521622,
+        194.27496399999995,
+        374.78981,
+        390.734955
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 132,
+      "printed_page": 135,
+      "bbox_pt": [
+        0,
+        190.28539999999987,
+        595,
+        477.2775000000002
+      ],
+      "text_raw": "Another way to look at the\nnoise performance is to con-\ncentrate on the cascode\nonly.\nCurrent source i is the\nS\ninput current source,\ncoming eventually from\nanother transistor. Current\nsource i is the cascode\nN\nnoise current.\nFor large values of load\nresistor R , we find that the\nL\ncascode noise current i is\nN\nsimply multiplied by R\nS\ntoward the output. The\ninput signal current i is\nS\nmultiplied by a much larger factor, i.e. g r R , or g R times greater than i .\nm DS S m S N\nThis factor g R is therefore the value by which the input current is more amplified than the\nm S\ncascode noise current. This is why the noise of the cascode is negligible.\nThis factor g R depends on R however. If the cascode is not driven by a real current source,\nm S S\nwith large output resistance, then this noise reduction decreases, as shown next.",
+      "text": "Another way to look at the noise performance is to concentrate on the cascode only. Current source i is the S input current source, coming eventually from another transistor. Current source i is the cascode N noise current. For large values of load resistor R , we find that the L cascode noise current i is N simply multiplied by R S toward the output. The input signal current i is S multiplied by a much larger factor, i.e. g r R , or g R times greater than i . m DS S m S N This factor g R is therefore the value by which the input current is more amplified than the m S cascode noise current. This is why the noise of the cascode is negligible. This factor g R depends on R however. If the cascode is not driven by a real current source, m S S with large output resistance, then this noise reduction decreases, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Another way to look at the noise performance is to concentrate on the cascode only. Current source i is the S input current source, coming eventually from another transistor. Current source i is the cascode N noise current. For large values of load resistor R , we find that the L cascode noise current i is N simply multiplied by R S toward the output. The input signal current i is S multiplied by a much larger factor, i.e. g r R , or g R times greater than i . m DS S m S N This factor g R is therefore the value by which the input current is more amplified than the m S cascode noise current. This is why the noise of the cascode is negligible. This factor g R depends on R however. If the cascode is not driven by a real current source, m S S with large output resistance, then this noise reduction decreases, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Input referred noise of a cascode",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0132_01_0436.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432795608103,
+          0.0829268290243903,
+          0.6554054090371622,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Input referred noise of a cascode"
+      },
+      {
+        "bbox": [
+          0.16891891613623541,
+          0.19512195039024394,
+          0.2128378414988997,
+          0.30731707234146344
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "w1"
+      },
+      {
+        "bbox": [
+          0.20270270250000003,
+          0.24390243843902437,
+          0.2567567565540541,
+          0.3024390238048781
+        ],
+        "confidence": 0.5,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.06380357678798589,
+          0.32040523656899655,
+          0.15579101911388724,
+          0.37227769002596833
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m'Ds"
+      },
+      {
+        "bbox": [
+          0.0743243247635135,
+          0.39512195097560965,
+          0.11824324368243241,
+          0.45853658512195117
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+."
+      },
+      {
+        "bbox": [
+          0.10810810785472974,
+          0.5902439018292683,
+          0.15202702677364865,
+          0.6634146335365855
+        ],
+        "confidence": 1,
+        "text": "is"
+      },
+      {
+        "bbox": [
+          0.2533783775675676,
+          0.33658536624390245,
+          0.3344594586486487,
+          0.38536585404878054
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- Vout"
+      },
+      {
+        "bbox": [
+          0.2905405407094595,
+          0.42439024371273715,
+          0.3209459461148649,
+          0.47804878029810305
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "iN"
+      },
+      {
+        "bbox": [
+          0.2668918915118243,
+          0.5170731700609756,
+          0.3175675671875,
+          0.5707317066463415
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.17567567550675678,
+          0.5902439018815331,
+          0.2195945944256757,
+          0.668292682369338
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "D"
+      },
+      {
+        "bbox": [
+          0.22635135205115828,
+          0.5999999997909408,
+          0.3243243250241312,
+          0.7170731705226481
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3RS"
+      },
+      {
+        "bbox": [
+          0.3682432436444257,
+          0.21463414618902443,
+          0.4324324328336148,
+          0.26829268277439033
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.3918918922297297,
+          0.5804878046341463,
+          0.43243243277027027,
+          0.63902439
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.3885135138272201,
+          0.6536585364111499,
+          0.43243243274613896,
+          0.6975609754355402
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.5912162104090202,
+          0.2487804854268293,
+          0.6114864919558448,
+          0.43902438786585374
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- - - - ---"
+      },
+      {
+        "bbox": [
+          0.5945945912460328,
+          0.49756097451219516,
+          0.6114864887762018,
+          0.5853658525609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- --"
+      },
+      {
+        "bbox": [
+          0.665540540596847,
+          0.3902439019512196,
+          0.7601351351914415,
+          0.4487804873170732
+        ],
+        "confidence": 0.5,
+        "text": "9mRs"
+      },
+      {
+        "bbox": [
+          0.5605322545687504,
+          0.7448785661181571,
+          0.6928461246636684,
+          0.8014628964210702
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m'DsRs"
+      },
+      {
+        "bbox": [
+          0.7297297301351352,
+          0.21951219604878047,
+          0.952702703108108,
+          0.31219512287804874
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yout = gmlDsRs"
+      },
+      {
+        "bbox": [
+          0.7960044956174104,
+          0.3931319968348077,
+          0.9338776941524016,
+          0.49853834397002583
+        ],
+        "confidence": 0.5,
+        "text": "Vin = Rs"
+      },
+      {
+        "bbox": [
+          0.7871621609797298,
+          0.546341462601626,
+          0.9358108096283784,
+          0.6439024382113822
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yout = rps"
+      },
+      {
+        "bbox": [
+          0.8885135132038289,
+          0.7365853652845528,
+          0.9391891888795045,
+          0.804878048211382
+        ],
+        "confidence": 0.5,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.07087534989245106,
+          0.7898334732768387,
+          0.2331787074034044,
+          0.8491909163652771
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m'Ds >> 1"
+      },
+      {
+        "bbox": [
+          0.7263513530405405,
+          0.9414634141951219,
+          0.9358108125,
+          0.9853658532195121
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0436"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For large values of load resistor R , we find that the L cascode noise current i is N simply multiplied by R S toward the output.",
+      "pdf_page": 132,
+      "printed_page": 135,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If the cascode is not driven by a real current source, m S S with large output resistance, then this noise reduction decreases, as shown next.",
+      "pdf_page": 132,
+      "printed_page": 135,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0132_01_0436.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Current source i is the S input current source, coming eventually from another transistor.",
+        "pdf_page": 132,
+        "printed_page": 135,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Current source i is the cascode N noise current.",
+        "pdf_page": 132,
+        "printed_page": 135,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "If the cascode is not driven by a real current source, m S S with large output resistance, then this noise reduction decreases, as shown next.",
+        "pdf_page": 132,
+        "printed_page": 135,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The input signal current i is S multiplied by a much larger factor, i.e. g r R , or g R times greater than i . m DS S m S N This factor g R is therefore the value by which the input current is more amplified than the m S cascode noise current.",
+      "pdf_page": 132,
+      "printed_page": 135,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This factor g R depends on R however.",
+      "pdf_page": 132,
+      "printed_page": 135,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If the cascode is not driven by a real current source, m S S with large output resistance, then this noise reduction decreases, as shown next.",
+      "pdf_page": 132,
+      "printed_page": 135,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The input signal current i is S multiplied by a much larger factor, i.e. g r R , or g R times greater than i . m DS S m S N This factor g R is therefore the value by which the input current is more amplified than the m S cascode noise current.",
+      "pdf_page": 132,
+      "printed_page": 135,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0436-M01",
+      "ocr_text": "Yout = gmlDsRs",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7297297301351352,
+        0.21951219604878047,
+        0.952702703108108,
+        0.31219512287804874
+      ],
+      "context_crop": "regions/SANSEN-0436_math_01.png",
+      "context_bbox_normalized": [
+        0.6897297301351352,
+        0.13,
+        1,
+        0.44219512287804874
+      ],
+      "source_image": "slides/p0132_01_0436.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0436-M02",
+      "ocr_text": "Vin = Rs",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7960044956174104,
+        0.3931319968348077,
+        0.9338776941524016,
+        0.49853834397002583
+      ],
+      "context_crop": "regions/SANSEN-0436_math_02.png",
+      "context_bbox_normalized": [
+        0.7560044956174103,
+        0.29313199683480773,
+        1,
+        0.6285383439700258
+      ],
+      "source_image": "slides/p0132_01_0436.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0436-M03",
+      "ocr_text": "Yout = rps",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7871621609797298,
+        0.546341462601626,
+        0.9358108096283784,
+        0.6439024382113822
+      ],
+      "context_crop": "regions/SANSEN-0436_math_03.png",
+      "context_bbox_normalized": [
+        0.7471621609797298,
+        0.446341462601626,
+        1,
+        0.7739024382113822
+      ],
+      "source_image": "slides/p0132_01_0436.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0436-M04",
+      "ocr_text": "9m'Ds >> 1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07087534989245106,
+        0.7898334732768387,
+        0.2331787074034044,
+        0.8491909163652771
+      ],
+      "context_crop": "regions/SANSEN-0436_math_04.png",
+      "context_bbox_normalized": [
+        0.03087534989245106,
+        0.6898334732768387,
+        0.4631787074034044,
+        0.93
+      ],
+      "source_image": "slides/p0132_01_0436.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

@@ -1,0 +1,168 @@
+{
+  "case_id": "SANSEN-077",
+  "slide_id": "077",
+  "chapter": 7,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 209,
+    "printed_page": 214
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0209_01_077.jpg",
+      "pdf_page": 209,
+      "printed_page": 214,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 209,
+      "printed_page": 214,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        355.7543
+      ],
+      "text_raw": "A two-stage amplifier such\nas the CMOS Miller OTA\nneeds more power to reach\nsimilar values of GBW,\ncompared to a single-stage\namplifier.\nBiCMOS can now be\nconsidered to save power.\nThe design plans have\nbeen previously discussed.\nThey will be applied.",
+      "text": "A two-stage amplifier such as the CMOS Miller OTA needs more power to reach similar values of GBW, compared to a single-stage amplifier. BiCMOS can now be considered to save power. The design plans have been previously discussed. They will be applied."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A two-stage amplifier such as the CMOS Miller OTA needs more power to reach similar values of GBW, compared to a single-stage amplifier. BiCMOS can now be considered to save power. The design plans have been previously discussed. They will be applied.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0209_01_077.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270439189189,
+          0.0829268290243903,
+          0.3817567584459459,
+          0.1365853656097561
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.11486486780888021,
+          0.2878048777351916,
+          0.5270270299710423,
+          0.3512195118815331
+        ],
+        "confidence": 0.5,
+        "text": "• Simple CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.11148648926158296,
+          0.3658536582926828,
+          0.5000000027750965,
+          0.4292682924390243
+        ],
+        "confidence": 1,
+        "text": "• CMOS Miller OTA"
+      },
+      {
+        "bbox": [
+          0.11486486199324332,
+          0.44878048837398365,
+          0.6351351322635136,
+          0.517073171300813
+        ],
+        "confidence": 1,
+        "text": "• Symmetrical CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.11486486935810802,
+          0.536585365609756,
+          0.5641891936824324,
+          0.5902439021951219
+        ],
+        "confidence": 1,
+        "text": "• Folded cascode OTA"
+      },
+      {
+        "bbox": [
+          0.11389208949143906,
+          0.6146493557083303,
+          0.4331909883429883,
+          0.6876223302529486
+        ],
+        "confidence": 1,
+        "text": "• Other opamps"
+      },
+      {
+        "bbox": [
+          0.7229729759820339,
+          0.9414634147967479,
+          0.9290540441756242,
+          0.9804878050406504
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 077"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A two-stage amplifier such as the CMOS Miller OTA needs more power to reach similar values of GBW, compared to a single-stage amplifier.",
+      "pdf_page": 209,
+      "printed_page": 214,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0209_01_077.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

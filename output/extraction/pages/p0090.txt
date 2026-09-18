@@ -1,0 +1,56 @@
+92 Chapter #3
+037
+For low supply voltages, this
+current mirror is an ideal
+choice!
+This is actually a conven-
+tional two-transistor current
+mirror, in which two cas-
+codes M3 and M4 have been
+added. We find the same
+advantages as in both previ-
+ous current mirrors:
+1. Both voltages v and
+DS1
+v are equal resulting in
+DS2
+an accurate current ratio
+2. The output resistance is
+very high as for any cas-
+code configuration
+We now have a considerable advantage in that we can set the biasing voltage such that only 0.2
+Volt is left across M2 and M4, keeping both of them in saturation! For a V of 0.7 V, the V
+T GS
+is about 0.9 V. Hence V must be about 1.1 V.
+B
+The compliance voltage V is thus now reduced from 1.1 V to 0.4 V, which is a significant
+OUTmin
+difference.
+This is also a disadvantage, we now need an external biasing voltage V .
+B
+038
+Two examples are given
+of the low-voltage current
+mirror described previously.
+Both of them use cascodes.
+Both of them provide feed-
+back from the Drain of tran-
+sistor M3 to the Gates of
+current-mirror devices M1
+and M2. Both of them pro-
+vide a large output imped-
+ance and allow a large
+output voltage swing.
+On the left, an example is
+given of how to provide the
+biasing voltage V of the
+B
+cascode devices. It is clear
+that transistor M5 must have a much smaller W/L so that its V is about 0.2 V larger than
+GS
+that of cascode transistors M3 and M4. We need about 0.2 V as a V for both current mirror
+DS
+devices M1 and M2. A good value for the parameter is approximately 5.
+The current mirror on the right is simply the low-voltage current mirror given previously, in
+which gain-boosting is applied to the cascode transistors. It allows the same output swing as the
+circuit on the left but the output impedance is even higher.

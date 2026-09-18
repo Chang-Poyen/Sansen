@@ -1,0 +1,194 @@
+{
+  "case_id": "SANSEN-1132",
+  "slide_id": "1132",
+  "chapter": 11,
+  "slide_number_in_chapter": 32,
+  "source": {
+    "pdf_page": 309,
+    "printed_page": 316
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0309_02_1132.jpg",
+      "pdf_page": 309,
+      "printed_page": 316,
+      "bbox_pt": [
+        91.52162,
+        409.51898,
+        374.54222,
+        606.02882
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 309,
+      "printed_page": 316,
+      "bbox_pt": [
+        0,
+        405.52951000000013,
+        595,
+        797
+      ],
+      "text_raw": "This circuit contains mainly\none single-transistor ampli-\nfier.\nHow can we set the\naverage output voltage\nwithout feedback on this\ntransistor?\nThe answer is replica\nbiasing. A transistor with\nthe same characteristics is\nput in parallel. This one is\nnow part of a feedback loop.\nIts DC output voltage will\nbe V . The average output\nREF\nvoltage of the amplifier itself\nwill also be V .\nREF\nThe DC output voltage will not be exactly V of course, because some mismatch is always\nREF\npresent.\nThe capacitance is required to reduce the influence of the AC voltage on the biasing. The\nresistor R is to raise the AC input impedance of the amplifier.\nS",
+      "text": "This circuit contains mainly one single-transistor amplifier. How can we set the average output voltage without feedback on this transistor? The answer is replica biasing. A transistor with the same characteristics is put in parallel. This one is now part of a feedback loop. Its DC output voltage will be V . The average output REF voltage of the amplifier itself will also be V . REF The DC output voltage will not be exactly V of course, because some mismatch is always REF present. The capacitance is required to reduce the influence of the AC voltage on the biasing. The resistor R is to raise the AC input impedance of the amplifier. S"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This circuit contains mainly one single-transistor amplifier. How can we set the average output voltage without feedback on this transistor? The answer is replica biasing. A transistor with the same characteristics is put in parallel. This one is now part of a feedback loop. Its DC output voltage will be V . The average output REF voltage of the amplifier itself will also be V . REF The DC output voltage will not be exactly V of course, because some mismatch is always REF present. The capacitance is required to reduce the influence of the AC voltage on the biasing. The resistor R is to raise the AC input impedance of the amplifier. S",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Replica biasing with one transistor",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0309_02_1132.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627040677967,
+          0.07804878112195124,
+          0.6881355924406778,
+          0.14146341526829265
+        ],
+        "confidence": 1,
+        "text": "Replica biasing with one transistor"
+      },
+      {
+        "bbox": [
+          0.5152542368135593,
+          0.39024390263414643,
+          0.5627118639322034,
+          0.44878048800000003
+        ],
+        "confidence": 0.5,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.6983050853813559,
+          0.39512195195121946,
+          0.7559322040254237,
+          0.4536585373170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.5762711868135593,
+          0.4829268297560976,
+          0.6203389834237287,
+          0.5317073175609756
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.7593220330084746,
+          0.5073170732926828,
+          0.8305084736864407,
+          0.5560975610975609
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.14237288081920907,
+          0.6634146336585366,
+          0.21355932149717516,
+          0.7219512190243903
+        ],
+        "confidence": 0.5,
+        "text": "VREF"
+      },
+      {
+        "bbox": [
+          0.5118644062711865,
+          0.5951219514634145,
+          0.5728813554237288,
+          0.6536585368292682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "w"
+      },
+      {
+        "bbox": [
+          0.5254237283898305,
+          0.6682926830894308,
+          0.5762711860169492,
+          0.7365853660162601
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.7220339,
+          0.9414634141951219,
+          0.9322033915254238,
+          0.9853658532195121
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 11J6 1132"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0309_02_1132.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A transistor with the same characteristics is put in parallel.",
+        "pdf_page": 309,
+        "printed_page": 316,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "A transistor with the same characteristics is put in parallel.",
+      "pdf_page": 309,
+      "printed_page": 316,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

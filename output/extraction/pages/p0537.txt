@@ -1,0 +1,62 @@
+Distortion in elementary transistor circuits 547
+1857
+The question arises whether
+it is better for low distortion,
+to take a MOST with large
+V −V (as for MOST
+GS T
+M1), or to take MOST with
+small V −V and a series
+GS T
+resistor R (as for MOST 2).
+The difference between the
+V and the V is the
+GS1 GS2
+voltage across the resistor
+V .
+R
+The Gates are at the same
+voltage V . We also take
+G
+equal DC currents.
+It is clear that for third-
+order distortion IM , the
+3
+configuration with M1 is the best as it does not give any IM . The one with feedback resistor
+3
+R does give IM !
+3f
+For second-order distortion IM (for M1) and IM (for M2), we have to calculate the ratio
+2 2f
+IM /IM . The result is given in this slide.
+2f 2
+It shows that the voltage across the resistor V must be larger than V −V (or V ) to
+R GS1 T GST1
+make a difference. If this is the case, the distortion is inversely proportional to the voltage V .
+R
+For second-order distortion, it is better to use as large a resistor as possible, but not for third-
+order distortion!
+1858
+When the series resistor in
+the Source is greatly
+increased, i.e. when an ideal
+current source I is used
+B
+with infinite output resis-
+tance, then the distortion
+due to the non-linearity of
+the I −V characteristic
+DS GS
+is zero.
+In this case, the non-lin-
+earity of the output conduc-
+tance is dominant. It can
+again be described in terms
+of relative current swing U,
+as given in this slide. Voltage
+V L is the Early voltage of
+E
+the MOST. The larger the Early voltage, the smaller the relative current swing and the smaller
+the distortion is.
+The same applies to an emitter follower.
+We have silently assumed that the Bulk-Source voltage of the source follower is zero. This is

@@ -1,0 +1,331 @@
+{
+  "case_id": "SANSEN-1875",
+  "slide_id": "1875",
+  "chapter": 18,
+  "slide_number_in_chapter": 75,
+  "source": {
+    "pdf_page": 545,
+    "printed_page": 555
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0546_01_1875.jpg",
+      "pdf_page": 546,
+      "printed_page": 556,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 545,
+      "printed_page": 555,
+      "bbox_pt": [
+        0,
+        582.9065,
+        595,
+        797
+      ],
+      "text_raw": "If both amplifiers are nonlinear, with a low-pass filter in between, we find the distortion\ncomponents as given in this slide.\nThe contributions of the first stage carry coefficients a (black) whereas the second stage\ncoefficients b (red).\nIt is clear that at low frequencies the distortion of the output stage dominates. The reason is\nthat the input voltage of the output stage is fairly high, because of gain a .\n1\nAt higher frequencies however, the distortion of the input stage dominates, because it has\nstarted increasing at frequency f , which is the dominant pole of the amplifier.\np",
+      "text": "If both amplifiers are nonlinear, with a low-pass filter in between, we find the distortion components as given in this slide. The contributions of the first stage carry coefficients a (black) whereas the second stage coefficients b (red). It is clear that at low frequencies the distortion of the output stage dominates. The reason is that the input voltage of the output stage is fairly high, because of gain a . 1 At higher frequencies however, the distortion of the input stage dominates, because it has started increasing at frequency f , which is the dominant pole of the amplifier. p"
+    },
+    {
+      "pdf_page": 546,
+      "printed_page": 556,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        367.6625000000001
+      ],
+      "text_raw": "If we take now a Miller\nopamp with a differential\ninput stage (a =0) and a\n2\nsingle-ended output stage,\nthen all IM is due to the\n2\nnon-linearity of the output\ntransistor, at least at low fre-\nquencies. This is also true at\nhigh frequencies as a\ndifferential pair does not\ngenerate second-order dis-\ntortion. In practice, some\nother sources of distortion\ntake over. The output con-\nductance of the output tran-\nsistor then starts coming in.\nThe IM is also due to the\n3\nnon-linearity of the output stage at low frequencies. At high frequencies the non-linearity of the\ninput stage takes over.",
+      "text": "If we take now a Miller opamp with a differential input stage (a =0) and a 2 single-ended output stage, then all IM is due to the 2 non-linearity of the output transistor, at least at low frequencies. This is also true at high frequencies as a differential pair does not generate second-order distortion. In practice, some other sources of distortion take over. The output conductance of the output transistor then starts coming in. The IM is also due to the 3 non-linearity of the output stage at low frequencies. At high frequencies the non-linearity of the input stage takes over."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "If both amplifiers are nonlinear, with a low-pass filter in between, we find the distortion components as given in this slide. The contributions of the first stage carry coefficients a (black) whereas the second stage coefficients b (red). It is clear that at low frequencies the distortion of the output stage dominates. The reason is that the input voltage of the output stage is fairly high, because of gain a . 1 At higher frequencies however, the distortion of the input stage dominates, because it has started increasing at frequency f , which is the dominant pole of the amplifier. p\n\nIf we take now a Miller opamp with a differential input stage (a =0) and a 2 single-ended output stage, then all IM is due to the 2 non-linearity of the output transistor, at least at low frequencies. This is also true at high frequencies as a differential pair does not generate second-order distortion. In practice, some other sources of distortion take over. The output conductance of the output transistor then starts coming in. The IM is also due to the 3 non-linearity of the output stage at low frequencies. At high frequencies the non-linearity of the input stage takes over.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Two-stage opamp a & b",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0546_01_1875.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432977195937,
+          0.07804878018292682,
+          0.5101351405827702,
+          0.14146341432926834
+        ],
+        "confidence": 1,
+        "text": "Two-stage opamp a & b"
+      },
+      {
+        "bbox": [
+          0.07770270233671171,
+          0.20975609711382115,
+          0.1418918915259009,
+          0.26341463369918694
+        ],
+        "confidence": 0.5,
+        "text": "IM2f"
+      },
+      {
+        "bbox": [
+          0.5033783781813063,
+          0.19024390195121954,
+          0.5405405403434684,
+          0.24878048731707314
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "b2"
+      },
+      {
+        "bbox": [
+          0.5033783782094595,
+          0.26341463360975614,
+          0.5405405403716217,
+          0.31707317019512193
+        ],
+        "confidence": 0.5,
+        "text": "b,"
+      },
+      {
+        "bbox": [
+          0.550675675464527,
+          0.23414634091463415,
+          0.5810810808699325,
+          0.2780487799390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a1"
+      },
+      {
+        "bbox": [
+          0.543918919527027,
+          0.38536585370731713,
+          0.6047297303378378,
+          0.44878048785365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "22"
+      },
+      {
+        "bbox": [
+          0.7804054065878379,
+          0.2341463411788618,
+          0.9222972984797297,
+          0.2878048777642277
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T= a,b,F"
+      },
+      {
+        "bbox": [
+          0.07770270337837837,
+          0.5804878047317074,
+          0.14527027094594594,
+          0.6341463413170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IM3f"
+      },
+      {
+        "bbox": [
+          0.4864864861908784,
+          0.7609756099999999,
+          0.5101351348395271,
+          0.8000000002439024
+        ],
+        "confidence": 1,
+        "text": "3"
+      },
+      {
+        "bbox": [
+          0.48986486466216217,
+          0.7999999997560976,
+          0.5168918916891893,
+          0.8243902436585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-"
+      },
+      {
+        "bbox": [
+          0.48648648631756763,
+          0.8341463411498259,
+          0.5101351349662163,
+          0.8780487801742161
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.5101351344172297,
+          0.8390243903658537,
+          0.5675675668496621,
+          0.8878048781707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a1"
+      },
+      {
+        "bbox": [
+          0.6655405393581081,
+          0.5560975617886179,
+          0.8682432420608108,
+          0.653658537398374
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "b,bg-2b22"
+      },
+      {
+        "bbox": [
+          0.7466216221846846,
+          0.6341463419918699,
+          0.820945946509009,
+          0.6975609761382113
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "b,b3"
+      },
+      {
+        "bbox": [
+          0.5878378405686936,
+          0.7414634136178863,
+          0.9155405432713963,
+          0.8926829258130082
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T (t3 ( 20-=2 02"
+      },
+      {
+        "bbox": [
+          0.8006756751126126,
+          0.8390243904471545,
+          0.8682432426801802,
+          0.8829268294715448
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ajaз"
+      },
+      {
+        "bbox": [
+          0.7195945919341217,
+          0.9365853660365854,
+          0.9324324297719595,
+          0.9707317075
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1875"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "If both amplifiers are nonlinear, with a low-pass filter in between, we find the distortion components as given in this slide.",
+      "pdf_page": 545,
+      "printed_page": 555,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0546_01_1875.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The reason is that the input voltage of the output stage is fairly high, because of gain a . 1 At higher frequencies however, the distortion of the input stage dominates, because it has started increasing at frequency f , which is the dominant pole of the amplifier. p",
+      "pdf_page": 545,
+      "printed_page": 555,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1875-M01",
+      "ocr_text": "T= a,b,F",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7804054065878379,
+        0.2341463411788618,
+        0.9222972984797297,
+        0.2878048777642277
+      ],
+      "context_crop": "regions/SANSEN-1875_math_01.png",
+      "context_bbox_normalized": [
+        0.7404054065878378,
+        0.1341463411788618,
+        1,
+        0.4178048777642277
+      ],
+      "source_image": "slides/p0546_01_1875.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1875-M02",
+      "ocr_text": "T (t3 ( 20-=2 02",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5878378405686936,
+        0.7414634136178863,
+        0.9155405432713963,
+        0.8926829258130082
+      ],
+      "context_crop": "regions/SANSEN-1875_math_02.png",
+      "context_bbox_normalized": [
+        0.5478378405686936,
+        0.6414634136178863,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0546_01_1875.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

@@ -1,0 +1,309 @@
+{
+  "01-intrinsic-gain": {
+    "status": "representative_models_verified",
+    "title": "单管增益与 MOS／BJT 比较",
+    "case_ids": [
+      "intrinsic"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#01-intrinsic-gain",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "02-single-pole": {
+    "status": "representative_models_verified",
+    "title": "单极点、GBW 与尺寸数值题",
+    "case_ids": [
+      "loaded_cs",
+      "mos_cs"
+    ],
+    "linear_count": 1,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#02-single-pole",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "03-miller": {
+    "status": "representative_models_verified",
+    "title": "米勒反馈与 RHP 零点",
+    "case_ids": [
+      "miller",
+      "miller_low_rs",
+      "miller_high_rs",
+      "mos_miller",
+      "miller"
+    ],
+    "linear_count": 3,
+    "mos_count": 1,
+    "pz_count": 1,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#03-miller",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "04-degeneration": {
+    "status": "representative_models_verified",
+    "title": "源极负反馈与可调跨导",
+    "case_ids": [
+      "degeneration",
+      "degeneration_zin",
+      "mos_degen"
+    ],
+    "linear_count": 2,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#04-degeneration",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "05-diode-loads": {
+    "status": "representative_models_verified",
+    "title": "二极管连接与有源负载",
+    "case_ids": [
+      "diode_z",
+      "diode_load",
+      "mos_diode_load"
+    ],
+    "linear_count": 2,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#05-diode-loads",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "06-inverter-dc": {
+    "status": "representative_models_verified",
+    "title": "CMOS 反相器：DC 与匹配",
+    "case_ids": [
+      "inverter_dc"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#06-inverter-dc",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "07-inverter-ac": {
+    "status": "representative_models_verified",
+    "title": "CMOS 反相器：完整频率响应",
+    "case_ids": [
+      "inverter_ac",
+      "mos_inverter"
+    ],
+    "linear_count": 1,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#07-inverter-ac",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "08-followers-dc": {
+    "status": "representative_models_verified",
+    "title": "源极与射极跟随器：DC",
+    "case_ids": [
+      "follower_dc"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#08-followers-dc",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "09-followers-hf": {
+    "status": "representative_models_verified",
+    "title": "源极跟随器：极点、零点与峰化",
+    "case_ids": [
+      "follower_cancel",
+      "follower_cancel_z",
+      "follower_book",
+      "follower_book_z",
+      "follower_center",
+      "follower_center_z",
+      "mos_follower",
+      "follower_cancel",
+      "follower_center"
+    ],
+    "linear_count": 6,
+    "mos_count": 1,
+    "pz_count": 2,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#09-followers-hf",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "10-emitter-hf": {
+    "status": "representative_models_verified",
+    "title": "射极跟随器：有限 β 与高频阻抗",
+    "case_ids": [
+      "bjt_follower_z"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#10-emitter-hf",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "11-active-inductors": {
+    "status": "representative_models_verified",
+    "title": "有源电感与差分调谐负载",
+    "case_ids": [
+      "active_inductor"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#11-active-inductors",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "12-common-gate": {
+    "status": "representative_models_verified",
+    "title": "共栅级的输入、输出与跨阻",
+    "case_ids": [
+      "common_gate"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#12-common-gate",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "13-cascode": {
+    "status": "representative_models_verified",
+    "title": "共源共栅级：有限输出电阻的完整式",
+    "case_ids": [
+      "cascode",
+      "mos_cascode"
+    ],
+    "linear_count": 1,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#13-cascode",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "14-cascode-miller": {
+    "status": "representative_models_verified",
+    "title": "共源共栅级的米勒电容",
+    "case_ids": [
+      "cascode_miller"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#14-cascode-miller",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "15-cascode-middle-cap": {
+    "status": "representative_models_verified",
+    "title": "共源共栅级中间节点电容",
+    "case_ids": [
+      "cascode_cm_small",
+      "cascode_cm_large"
+    ],
+    "linear_count": 2,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#15-cascode-middle-cap",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "16-telescopic-folded": {
+    "status": "representative_models_verified",
+    "title": "套筒式与折叠式共源共栅级",
+    "case_ids": [
+      "telescopic",
+      "folded"
+    ],
+    "linear_count": 2,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#16-telescopic-folded",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "17-cascade": {
+    "status": "representative_models_verified",
+    "title": "级联与米勒补偿",
+    "case_ids": [
+      "two_stage",
+      "two_stage"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 1,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#17-cascade",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "18-gain-boosting": {
+    "status": "representative_models_verified",
+    "title": "调节型共源共栅级与增益增强",
+    "case_ids": [
+      "gainboost_slow",
+      "gainboost_fast",
+      "gainboost_slow"
+    ],
+    "linear_count": 2,
+    "mos_count": 0,
+    "pz_count": 1,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#18-gain-boosting",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "19-doublet-settling": {
+    "status": "representative_models_verified",
+    "title": "极零对与高精度建立过程",
+    "case_ids": [
+      "baseline",
+      "tail",
+      "overshoot"
+    ],
+    "linear_count": 0,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 3,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#19-doublet-settling",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "20-port-summary": {
+    "status": "representative_models_verified",
+    "title": "MOS／BJT 端口量总结",
+    "case_ids": [
+      "bjt_degen_gain",
+      "bjt_degen_zout"
+    ],
+    "linear_count": 2,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#20-port-summary",
+    "markdown": "../../simulations/ch02/report.md"
+  }
+}

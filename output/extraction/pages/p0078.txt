@@ -1,0 +1,66 @@
+Amplifiers, source followers and cascodes 79
+0256
+For cascode amplifiers with
+a DC current source as load,
+the gain is quite large. The
+gain across the input tran-
+sistor is also large. The
+impedance at the point
+between both transistors is
+the output resistance r (or
+DS1
+r ). The gain from the input
+o1
+to the middle point is thus
+g r , which is the gain of
+m1 DS1
+transistor M1. The Miller
+effect of M1 can thus also
+play a role, especially when
+source resistor R is higher.
+S
+The question is, which pole
+is now dominant, the one caused by C or the one caused by C ?
+L M
+Substitution of the transistors by their small-signal models (with g and r ), and calculation
+m DS
+of the total gain A , yields a second-order equation, the roots of which are easily found. They
+v
+are the two poles. They are plotted in a pole-zero position diagram with R as a variable as
+S
+shown in this slide.
+For low values of R , the load capacitance C is obviously dominant. This dominant-pole
+S L
+frequency f is simply determined by the load capacitance and the output resistance r g r
+d o2 m2 o1
+or A r . There is a nondominant pole however at f , caused by time constant R C !
+v2 o1 nd S M
+For high values of R however, the Miller effect of this capacitance C dominates. The
+S M
+dominant pole frequency f now decreases with increasing resistor R .
+d S
+The cross-over value of R is R . It is in the order of tens of MV’s as C is normally much
+S St SL
+larger than C , which is marginally more than C .
+M DG
+0257
+Another small capacitance
+may also play a role.
+Capacitance C from the
+m
+middle point to ground con-
+sists of C and C . They
+DS1 GS2
+are not that small. Do they
+create a pole of importance?
+Again, we have only two
+capacitances, that yields a
+second-order equation, the
+roots of which give two
+poles. They are plotted in a
+pole-zero position diagram
+with C as a variable as
+m
+shown in this slide.
+For low values of C , the
+m

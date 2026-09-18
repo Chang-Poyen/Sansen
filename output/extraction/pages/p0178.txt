@@ -1,0 +1,49 @@
+182 Chapter #6
+The GBW is obviously
+what could have been
+expected. Note that the load
+capacitance also contains
+some parasitic capacitances,
+which are due to the transis-
+tor capacitances. They are
+summarized as C , the sum
+n1
+of the transistor capaci-
+tances at node 1.
+Nevertheless, this circuit
+also contains a second node,
+and even a third one. Do we
+have to take the capaci-
+tances of these nodes to
+ground into account?
+Indeed, a capacitance to
+ground gives a pole. Do we therefore have two additional non-dominant poles?
+The answer is negative. First of all, at node three, no AC signal is present when the stage is
+driven differentially. Node 3 does not come in.
+At node 2 we do have a non-dominant pole. There are two reasons however, why it can be
+neglected.
+064
+Before we focus on the non-
+dominant poles, let us find
+out how much GBW can be
+expected from such a simple
+amplifier. We know already
+that it is the best for low-
+power consumption. What
+does this mean in actual
+numbers?
+The simplest Figure of
+Merit (FOM) for opamps is
+the one with the GBW, the
+C and the power consump-
+L
+tion. Later on, some other
+specifications could be
+added, such as noise, or
+swing, etc.
+Instead of the power consumption, the current consumption can also be taken.
+For this purpose, a differential configuration has been taken as sketched in this slide. The
+effective load capacitance is now only half of what we would have for a single-ended output. On
+the other hand, there is also no current mirror to double the output current. This OTA is
+representative for a single-stage amplifier!
+We find that for a 10 mA total current, a load capacitance of 1 pF can still yield a GBW of

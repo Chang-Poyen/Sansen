@@ -1,0 +1,303 @@
+{
+  "case_id": "SANSEN-1521",
+  "slide_id": "1521",
+  "chapter": 15,
+  "slide_number_in_chapter": 21,
+  "source": {
+    "pdf_page": 423,
+    "printed_page": 431
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0423_02_1521.jpg",
+      "pdf_page": 423,
+      "printed_page": 431,
+      "bbox_pt": [
+        91.52162,
+        385.60296999999997,
+        374.78981,
+        582.06296
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 423,
+      "printed_page": 431,
+      "bbox_pt": [
+        0,
+        381.6137093000001,
+        595,
+        797
+      ],
+      "text_raw": "For an average value for\nV L of 10 V, it becomes\nE B\nclear that decreasing the\noffset or increasing the\nCMRR is the same design\ntask.\nIf an offset can be\nexpected of about 10 mV, as\nfor many MOST differential\npairs and opamps, then a\nCMRR of approximately\n60 dB can be expected.\nIf, on the other hand, the\noffset is 10 times smaller, as\nfor bipolar opamps, then the\nCMRR is 20 dB higher as\nwell.\nIf the offset is trimmed down to the mV level, then the CMRR increases accordingly. Note\nhowever, that a CMRR of 120 dB can only be reached provided the offset is trimmed down to\n10 mV. This is not an easy task whatever technique is used.",
+      "text": "For an average value for V L of 10 V, it becomes E B clear that decreasing the offset or increasing the CMRR is the same design task. If an offset can be expected of about 10 mV, as for many MOST differential pairs and opamps, then a CMRR of approximately 60 dB can be expected. If, on the other hand, the offset is 10 times smaller, as for bipolar opamps, then the CMRR is 20 dB higher as well. If the offset is trimmed down to the mV level, then the CMRR increases accordingly. Note however, that a CMRR of 120 dB can only be reached provided the offset is trimmed down to 10 mV. This is not an easy task whatever technique is used."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For an average value for V L of 10 V, it becomes E B clear that decreasing the offset or increasing the CMRR is the same design task. If an offset can be expected of about 10 mV, as for many MOST differential pairs and opamps, then a CMRR of approximately 60 dB can be expected. If, on the other hand, the offset is 10 times smaller, as for bipolar opamps, then the CMRR is 20 dB higher as well. If the offset is trimmed down to the mV level, then the CMRR increases accordingly. Note however, that a CMRR of 120 dB can only be reached provided the offset is trimmed down to 10 mV. This is not an easy task whatever technique is used.",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Relation random offset and CMRR",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0423_02_1521.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432046030411,
+          0.0829268295121951,
+          0.6925675637035473,
+          0.1414634148780488
+        ],
+        "confidence": 1,
+        "text": "Relation random offset and CMRR"
+      },
+      {
+        "bbox": [
+          0.08783783949324327,
+          0.3024390237073171,
+          0.6520270286824325,
+          0.37073170663414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vosr CMRR, = VELg = 10V (~ LB)"
+      },
+      {
+        "bbox": [
+          0.08783784184362933,
+          0.4097560973170732,
+          0.64864865265444,
+          0.463414633902439
+        ],
+        "confidence": 0.5,
+        "text": "10 mV 60 dB = 10 V as for MOSTs"
+      },
+      {
+        "bbox": [
+          0.0878378430260617,
+          0.5073170729268293,
+          0.814189194377413,
+          0.5609756095121952
+        ],
+        "confidence": 0.5,
+        "text": "1 mV 80 dB = 10 V as for Bipolar transistors"
+      },
+      {
+        "bbox": [
+          0.09459460388513492,
+          0.6585365850609757,
+          0.8378378471283782,
+          0.7121951216463415
+        ],
+        "confidence": 0.5,
+        "text": "10 uV 120 dB = 10 V with trimming : with laser"
+      },
+      {
+        "bbox": [
+          0.685810809590841,
+          0.7073170734146342,
+          0.9054054041854354,
+          0.76097561
+        ],
+        "confidence": 1,
+        "text": "with Zener zap"
+      },
+      {
+        "bbox": [
+          0.6858108086993244,
+          0.7560975612601626,
+          0.9391891870777027,
+          0.8097560978455285
+        ],
+        "confidence": 1,
+        "text": "with fusible links"
+      },
+      {
+        "bbox": [
+          0.10135135234073353,
+          0.8195121955052265,
+          0.516891892881274,
+          0.8731707320905923
+        ],
+        "confidence": 0.5,
+        "text": "Low offset = High CMRR"
+      },
+      {
+        "bbox": [
+          0.7060810798611111,
+          0.9317073173170732,
+          0.9256756744557056,
+          0.985365853902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Wily Sansen 100s 1521"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0423_02_1521.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If the offset is trimmed down to the mV level, then the CMRR increases accordingly.",
+      "pdf_page": 423,
+      "printed_page": 431,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "If an offset can be expected of about 10 mV, as for many MOST differential pairs and opamps, then a CMRR of approximately 60 dB can be expected.",
+      "pdf_page": 423,
+      "printed_page": 431,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Note however, that a CMRR of 120 dB can only be reached provided the offset is trimmed down to 10 mV.",
+      "pdf_page": 423,
+      "printed_page": 431,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1521-M01",
+      "ocr_text": "Vosr CMRR, = VELg = 10V (~ LB)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08783783949324327,
+        0.3024390237073171,
+        0.6520270286824325,
+        0.37073170663414634
+      ],
+      "context_crop": "regions/SANSEN-1521_math_01.png",
+      "context_bbox_normalized": [
+        0.047837839493243266,
+        0.20243902370731712,
+        0.8820270286824324,
+        0.5007317066341463
+      ],
+      "source_image": "slides/p0423_02_1521.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1521-M02",
+      "ocr_text": "10 mV 60 dB = 10 V as for MOSTs",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08783784184362933,
+        0.4097560973170732,
+        0.64864865265444,
+        0.463414633902439
+      ],
+      "context_crop": "regions/SANSEN-1521_math_02.png",
+      "context_bbox_normalized": [
+        0.04783784184362933,
+        0.3097560973170732,
+        0.87864865265444,
+        0.593414633902439
+      ],
+      "source_image": "slides/p0423_02_1521.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1521-M03",
+      "ocr_text": "1 mV 80 dB = 10 V as for Bipolar transistors",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.0878378430260617,
+        0.5073170729268293,
+        0.814189194377413,
+        0.5609756095121952
+      ],
+      "context_crop": "regions/SANSEN-1521_math_03.png",
+      "context_bbox_normalized": [
+        0.04783784302606169,
+        0.4073170729268293,
+        1,
+        0.6909756095121952
+      ],
+      "source_image": "slides/p0423_02_1521.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1521-M04",
+      "ocr_text": "10 uV 120 dB = 10 V with trimming : with laser",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.09459460388513492,
+        0.6585365850609757,
+        0.8378378471283782,
+        0.7121951216463415
+      ],
+      "context_crop": "regions/SANSEN-1521_math_04.png",
+      "context_bbox_normalized": [
+        0.05459460388513492,
+        0.5585365850609757,
+        1,
+        0.8421951216463415
+      ],
+      "source_image": "slides/p0423_02_1521.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1521-M05",
+      "ocr_text": "Low offset = High CMRR",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.10135135234073353,
+        0.8195121955052265,
+        0.516891892881274,
+        0.8731707320905923
+      ],
+      "context_crop": "regions/SANSEN-1521_math_05.png",
+      "context_bbox_normalized": [
+        0.06135135234073353,
+        0.7195121955052265,
+        0.746891892881274,
+        0.93
+      ],
+      "source_image": "slides/p0423_02_1521.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

@@ -1,0 +1,180 @@
+{
+  "case_id": "SANSEN-0831",
+  "slide_id": "0831",
+  "chapter": 8,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 248,
+    "printed_page": 254
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0248_01_0831.jpg",
+      "pdf_page": 248,
+      "printed_page": 254,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 248,
+      "printed_page": 254,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        367.81198
+      ],
+      "text_raw": "Most fully-differential ampli-\nfiers use one of the three\ntypes of CMFB shown in\nthis slide. They may also use\nsome variations on these\nconfigurations, as shown\nnext.\nAlso some switching solu-\ntions are available, which\nare used in sampled-data\nsystems.",
+      "text": "Most fully-differential amplifiers use one of the three types of CMFB shown in this slide. They may also use some variations on these configurations, as shown next. Also some switching solutions are available, which are used in sampled-data systems."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Most fully-differential amplifiers use one of the three types of CMFB shown in this slide. They may also use some variations on these configurations, as shown next. Also some switching solutions are available, which are used in sampled-data systems.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0248_01_0831.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270053088803,
+          0.08292682944250873,
+          0.38175675458494207,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10135135061936933,
+          0.2878048785365853,
+          0.41216216143018014,
+          0.3463414639024389
+        ],
+        "confidence": 1,
+        "text": "• Requirements"
+      },
+      {
+        "bbox": [
+          0.10000002224284485,
+          0.3609756104487706,
+          0.8083333212095362,
+          0.4341463421560876
+        ],
+        "confidence": 1,
+        "text": "• Fully-diff. amps with linear MOSTs"
+      },
+      {
+        "bbox": [
+          0.09999999041708477,
+          0.43902439040521957,
+          0.9291666605204156,
+          0.5121951221125367
+        ],
+        "confidence": 1,
+        "text": "• FDA's with error amp.& source followers"
+      },
+      {
+        "bbox": [
+          0.0958333446138766,
+          0.5170731697998333,
+          0.8041666435805679,
+          0.5903614453556999
+        ],
+        "confidence": 1,
+        "text": "• Folded cascode OTA without SF's"
+      },
+      {
+        "bbox": [
+          0.09797297192567571,
+          0.6097560982439024,
+          0.6891891881418919,
+          0.6780487811707316
+        ],
+        "confidence": 1,
+        "text": "• Other fully-differential amps"
+      },
+      {
+        "bbox": [
+          0.09797297122747753,
+          0.6975609758536586,
+          0.307432430686937,
+          0.7463414636585366
+        ],
+        "confidence": 1,
+        "text": "• Exercise"
+      },
+      {
+        "bbox": [
+          0.7191803057569895,
+          0.940946911389712,
+          0.9329338384759575,
+          0.9869175583177083
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 0831"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Most fully-differential amplifiers use one of the three types of CMFB shown in this slide.",
+      "pdf_page": 248,
+      "printed_page": 254,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "They may also use some variations on these configurations, as shown next.",
+      "pdf_page": 248,
+      "printed_page": 254,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0248_01_0831.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

@@ -1,0 +1,205 @@
+{
+  "case_id": "SANSEN-1862",
+  "slide_id": "1862",
+  "chapter": 18,
+  "slide_number_in_chapter": 62,
+  "source": {
+    "pdf_page": 539,
+    "printed_page": 549
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0539_02_1862.jpg",
+      "pdf_page": 539,
+      "printed_page": 549,
+      "bbox_pt": [
+        91.52162,
+        421.47695999999996,
+        374.54222,
+        617.9868
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 539,
+      "printed_page": 549,
+      "bbox_pt": [
+        0,
+        417.4876096500002,
+        595,
+        797
+      ],
+      "text_raw": "Because of the limited\nsupply voltage, very large\nvalue of resistor R cannot be\nused. Additional feedback is\nnow required as shown in\nthis slide.\nThe purpose of all such\ncircuits is to increase the\nloop gain to reduce the dis-\ntortion. This can be done by\naddition of just one or two\ntransistors in the feedback\nloop, as shown on the left,\nor by an inclusion of a full\noperational amplifier, as\nshown on the right.\nIn the latter case, the loop gain at low frequencies is very high. As a result the differential\ninput voltage is enforced upon the resistor 2R, giving rise to a very linear voltage to current\nconversion.\nFor a high-frequency transconductor the circuit on the left may be preferred, as its loop gain\nmay be higher at high frequencies.",
+      "text": "Because of the limited supply voltage, very large value of resistor R cannot be used. Additional feedback is now required as shown in this slide. The purpose of all such circuits is to increase the loop gain to reduce the distortion. This can be done by addition of just one or two transistors in the feedback loop, as shown on the left, or by an inclusion of a full operational amplifier, as shown on the right. In the latter case, the loop gain at low frequencies is very high. As a result the differential input voltage is enforced upon the resistor 2R, giving rise to a very linear voltage to current conversion. For a high-frequency transconductor the circuit on the left may be preferred, as its loop gain may be higher at high frequencies."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Because of the limited supply voltage, very large value of resistor R cannot be used. Additional feedback is now required as shown in this slide. The purpose of all such circuits is to increase the loop gain to reduce the distortion. This can be done by addition of just one or two transistors in the feedback loop, as shown on the left, or by an inclusion of a full operational amplifier, as shown on the right. In the latter case, the loop gain at low frequencies is very high. As a result the differential input voltage is enforced upon the resistor 2R, giving rise to a very linear voltage to current conversion. For a high-frequency transconductor the circuit on the left may be preferred, as its loop gain may be higher at high frequencies.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Increasing the IPs by feedback",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0539_02_1862.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627054882973,
+          0.07804878041231122,
+          0.616949151904762,
+          0.14146341455865274
+        ],
+        "confidence": 1,
+        "text": "Increasing the IPs by feedback"
+      },
+      {
+        "bbox": [
+          0.23389830548728813,
+          0.5414634143902438,
+          0.29830508514830506,
+          0.5902439021951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "w"
+      },
+      {
+        "bbox": [
+          0.23389830449152543,
+          0.6048780490853658,
+          0.28135593161016953,
+          0.6487804881097561
+        ],
+        "confidence": 1,
+        "text": "2R"
+      },
+      {
+        "bbox": [
+          0.69830508490113,
+          0.6048780489430894,
+          0.7423728815112994,
+          0.6439024391869919
+        ],
+        "confidence": 1,
+        "text": "2R"
+      },
+      {
+        "bbox": [
+          0.13898304803389838,
+          0.8341463416585366,
+          0.4203389802372882,
+          0.8829268294634146
+        ],
+        "confidence": 1,
+        "text": "Additional local FB"
+      },
+      {
+        "bbox": [
+          0.57878088916289,
+          0.8298023497708852,
+          0.9024211500209409,
+          0.8944685093309259
+        ],
+        "confidence": 1,
+        "text": "More FB with opamps"
+      },
+      {
+        "bbox": [
+          0.7186440666101696,
+          0.9365853661951219,
+          0.9322033886440678,
+          0.9707317076585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 05 1852"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Additional feedback is now required as shown in this slide.",
+      "pdf_page": 539,
+      "printed_page": 549,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This can be done by addition of just one or two transistors in the feedback loop, as shown on the left, or by an inclusion of a full operational amplifier, as shown on the right.",
+      "pdf_page": 539,
+      "printed_page": 549,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0539_02_1862.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Because of the limited supply voltage, very large value of resistor R cannot be used.",
+      "pdf_page": 539,
+      "printed_page": 549,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The purpose of all such circuits is to increase the loop gain to reduce the distortion.",
+      "pdf_page": 539,
+      "printed_page": 549,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In the latter case, the loop gain at low frequencies is very high.",
+      "pdf_page": 539,
+      "printed_page": 549,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result the differential input voltage is enforced upon the resistor 2R, giving rise to a very linear voltage to current conversion.",
+      "pdf_page": 539,
+      "printed_page": 549,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For a high-frequency transconductor the circuit on the left may be preferred, as its loop gain may be higher at high frequencies.",
+      "pdf_page": 539,
+      "printed_page": 549,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

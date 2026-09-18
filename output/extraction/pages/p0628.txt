@@ -1,0 +1,47 @@
+L ow-power sigma-delta AD converters 639
+The size of one single step
+is the reference voltage
+divided by 2B in which B is
+the number of bits; for 8 bits
+this is 256. For a reference
+voltage of 1 V, this step is
+about 4 mV. This is barely
+larger than mismatch or
+offset. Additional techniques
+will be required to enhance
+the SNR. Noise shaping is
+such a technique. For this
+purpose, a noise filter is
+included in the feedback
+loop. This is explained in the
+next slide.
+For 8 bits, the number of
+256 corresponds to 48 dB. The precise value is 2 dB higher, which is 50 dB. For 16 bits we find,
+in a similar way 98 dB, which is a very high number indeed, this is required by a limited number
+of applications such as audio CD’s and some others.
+215
+The minimum number of
+components of the Delta-
+sigma feedback loop are the
+noise filter H(f ), the quan-
+tizer and the DAC.
+For a single-bit converter,
+the quantizer is only a com-
+parator. The DAC then
+switches between two DC
+reference voltages.
+For multi-bit converters,
+the quantizer is a real ADC,
+such a flash ADC or any
+other type, depending on the
+speed required. The DAC is
+then a real multi-bit DAC,
+in which linearity is one of the main specifications. The higher number of bits, the larger the
+resolution can be. This is the second design parameter of a Sigma-delta converter, i.e. the number
+of bits.
+Many Sigma-Delta converters stick with one single bit conversion as a comparator and a
+switch from DC reference voltages are so easy to realize. Matching is hardly an issue for single-
+bit converters.
+It is clear that for the incoming input signal x, the transfer function is as given in this slide. If
+H(z) has a high magnitude, the gain is about unity.
+For noise signals, generated in the feedback loop by the quantizer (comparator) for example,

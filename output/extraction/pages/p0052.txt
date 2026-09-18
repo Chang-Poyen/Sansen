@@ -1,0 +1,54 @@
+Amplifiers, source followers and cascodes 53
+Also, we take the take the
+value of V −V as small
+GS T
+as possible. A typical value
+is 0.15–0.2 V. We cannot go
+much lower as we then end
+up in the weak inversion
+region. The absolute value
+of the current and the trans-
+conductance then become
+so small that the noise
+becomes too large. Noise
+will be explained in detail in
+Chapter 3.
+Small values of the cur-
+rent inevitably lead to larger
+noise and smaller signal-
+to-noise ratios (SNR). For
+SNR values below 40 dB, weak inversion can be used. Sensor interface and biomedical preampli-
+fiers are comfortable with this. Communication amplifiers usually require more than 70 dB SNR.
+As a result we have to stay in the region between weak and strong inversion. A value of V −V
+GS T
+between 0.15 V and 0.2 V is therefore a good compromise.
+026
+Deep submicron CMOS
+devices provide less and less
+voltage gain however.
+Indeed for a relatively large
+channel length of 2.5 mm
+(and a V =4 V/mm) the V L
+E E
+factor is about 10 V, which
+yields a gain of 100, using a
+V −V =0.2 V.
+GS T
+For a minimum channel
+length of 90 nm however,
+parameter V does not
+E
+change all that much, and
+the voltage gain is now only
+3.6!! In practice it is a little
+bit more, but not much, i.e.
+about 6. As a result we will have to devise all possible tricks to enhance the gain. Cascodes offer
+such capability, and gain boosting, as explained later in this chapter.
+Even with a voltage gain of 100, three stages would be needed to obtain a voltage gain of 106,
+as is common in operational amplifiers. A bipolar transistor can provide the same gain in only
+two stages.
+Indeed in a bipolar transistor, the input voltage is scaled to kT/q rather than to (V −V )/2.
+GS T
+We now gain a factor of about 4! The other reason for larger gain is the slightly higher value of
+the V parameter.
+E

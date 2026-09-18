@@ -1,0 +1,45 @@
+458 Chapter #16
+163
+A current regulator is easily
+derived from a voltage
+reference.
+A single-ended version is
+shown on the left; a
+differential one on the right.
+In both cases, the refer-
+ence voltage is converted
+into a current by use of an
+opamp and a resistor. The
+absolute accuracy of the
+output current will depend
+on both the absolute accura-
+cies of the voltage reference
+and of the resistor. The
+latter one is by far the worst.
+In the section on current references, several examples are given of which resistances can be
+used. However, the absolute accuracy will always be a problem.
+164
+The physics of a bipolar
+transistor is reviewed to
+examine where the absolute
+accuracy and temperature
+coefficient are coming from.
+A correction circuit is added
+to equalize the output volt-
+age over temperature.
+Several realizations are
+now discussed in both bipo-
+lar and CMOS technologies.
+For supply voltages below
+1 V, it is still possible to use
+the same principle, but some
+more resistors must be
+added.
+Finally, a current reference is derived from the bandgap reference, by proper use of a few
+resistances.
+165
+A bandgap reference voltage uses a bipolar transistor, connected as a diode. Its current-voltage
+expression is then quite accurately given by the exponential. A real pn-junction may have a
+coefficient of 1.05–1.1 in front of the kT/q; a bipolar-transistor connected as a diode does not.
+For a constant-current drive, this diode exhibits a large dependence on temperature. It is
+about −2 mV/°C. We intend to reduce this value to less than 1/1000th!

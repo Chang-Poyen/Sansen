@@ -1,0 +1,402 @@
+{
+  "case_id": "SANSEN-0428",
+  "slide_id": "0428",
+  "chapter": 4,
+  "slide_number_in_chapter": 28,
+  "source": {
+    "pdf_page": 127,
+    "printed_page": 130
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0128_01_0428.jpg",
+      "pdf_page": 128,
+      "printed_page": 131,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 127,
+      "printed_page": 130,
+      "bbox_pt": [
+        0,
+        654.65451,
+        595,
+        797
+      ],
+      "text_raw": "Addition of an active load M2 to a single-transistor amplifier M1, gives the circuit in this slide.\nThe equivalent input noise source of the load transistor M2 is shown explicitly. It is in series",
+      "text": "Addition of an active load M2 to a single-transistor amplifier M1, gives the circuit in this slide. The equivalent input noise source of the load transistor M2 is shown explicitly. It is in series"
+    },
+    {
+      "pdf_page": 128,
+      "printed_page": 131,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        429.44550000000027
+      ],
+      "text_raw": "with the noise coming from\nthe biasing voltage V .\nB\nNormally, this biasing volt-\nage is followed by a large\ndecoupling capacitance to\nground, such that the noise\nfrom it can be ignored.\nThe noise of the load\ntransistor M2 is now ampli-\nfied by g towards the\nm2\noutput. It has to be divided\nby g to be referred to the\nm1\ninput. The noise of transis-\ntor M2 is therefore multi-\nplied by a factor g /g .\nm2 m1\nTo make the noise contri-\nbution of M2 negligible,\nwe must design this load transistor with large V −V or small W/L, which is actually the same.\nGS T\nBoth transistors now carry the same DC current. Transconductance g can only be made\nm2\nsmaller if it is designed for a larger V −V , such as 0.5 V. The input transistor then keeps\nGS T\n0.2 V as a V −V .\nGS T\nThis is an important conclusion, which will be repeated many times. Current source and\ncurrent mirror devices must be designed for small size W/L and hence for large V −V !\nGS T\nNote that only the white noise sources have been considered here.",
+      "text": "with the noise coming from the biasing voltage V . B Normally, this biasing voltage is followed by a large decoupling capacitance to ground, such that the noise from it can be ignored. The noise of the load transistor M2 is now amplified by g towards the m2 output. It has to be divided by g to be referred to the m1 input. The noise of transistor M2 is therefore multiplied by a factor g /g . m2 m1 To make the noise contribution of M2 negligible, we must design this load transistor with large V −V or small W/L, which is actually the same. GS T Both transistors now carry the same DC current. Transconductance g can only be made m2 smaller if it is designed for a larger V −V , such as 0.5 V. The input transistor then keeps GS T 0.2 V as a V −V . GS T This is an important conclusion, which will be repeated many times. Current source and current mirror devices must be designed for small size W/L and hence for large V −V ! GS T Note that only the white noise sources have been considered here."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Addition of an active load M2 to a single-transistor amplifier M1, gives the circuit in this slide. The equivalent input noise source of the load transistor M2 is shown explicitly. It is in series\n\nwith the noise coming from the biasing voltage V . B Normally, this biasing voltage is followed by a large decoupling capacitance to ground, such that the noise from it can be ignored. The noise of the load transistor M2 is now amplified by g towards the m2 output. It has to be divided by g to be referred to the m1 input. The noise of transistor M2 is therefore multiplied by a factor g /g . m2 m1 To make the noise contribution of M2 negligible, we must design this load transistor with large V −V or small W/L, which is actually the same. GS T Both transistors now carry the same DC current. Transconductance g can only be made m2 smaller if it is designed for a larger V −V , such as 0.5 V. The input transistor then keeps GS T 0.2 V as a V −V . GS T This is an important conclusion, which will be repeated many times. Current source and current mirror devices must be designed for small size W/L and hence for large V −V ! GS T Note that only the white noise sources have been considered here.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise of an amplifier with active load",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0128_01_0428.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431946790549,
+          0.07317073085365855,
+          0.7331081032516893,
+          0.14146341378048777
+        ],
+        "confidence": 1,
+        "text": "Noise of an amplifier with active load"
+      },
+      {
+        "bbox": [
+          0.11486486456081084,
+          0.25365853595121957,
+          0.2533783780743244,
+          0.3170731700975611
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvg? dv2"
+      },
+      {
+        "bbox": [
+          0.05743243315033782,
+          0.34146341457317075,
+          0.11486486558277026,
+          0.39512195115853666
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VB-"
+      },
+      {
+        "bbox": [
+          0.020797174114631545,
+          0.4974267201354631,
+          0.11161046293216612,
+          0.5774893723511881
+        ],
+        "confidence": 1,
+        "text": "dViea"
+      },
+      {
+        "bbox": [
+          0.0979729731981982,
+          0.49756097617886175,
+          0.11824324346846846,
+          0.5317073176422764
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.08783783795045044,
+          0.5804878054471545,
+          0.10810810822072073,
+          0.6146341469105692
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V"
+      },
+      {
+        "bbox": [
+          0.20270270297297294,
+          0.5073170725365854,
+          0.27027027054054054,
+          0.5707317066829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dv,2"
+      },
+      {
+        "bbox": [
+          0.3581081084740991,
+          0.3609756095121951,
+          0.402027027393018,
+          0.39999999975609746
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.41554053993243245,
+          0.4146341458048781,
+          0.4831081075,
+          0.4682926823902439
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.44594594618243244,
+          0.463414633902439,
+          0.46959459483108107,
+          0.49756097536585364
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.3547297302364865,
+          0.6048780485365853,
+          0.39527027077702703,
+          0.6439024387804877
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.577702700802365,
+          0.25365853579268294,
+          0.9121621602618244,
+          0.31707316993902446
+        ],
+        "confidence": 0.5,
+        "text": "If dvg? is negligible :"
+      },
+      {
+        "bbox": [
+          0.520270275591216,
+          0.4146341459146341,
+          0.9459459512668917,
+          0.4780487800609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "diout? = gm12 dv,2 + 9mz2 dv22"
+      },
+      {
+        "bbox": [
+          0.5135135156418918,
+          0.5317073161463415,
+          0.9020270291554053,
+          0.6243902429756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dViea = dv,2 + dv24 9m2)2"
+      },
+      {
+        "bbox": [
+          0.5100671174934486,
+          0.7019089229788146,
+          0.7635815362243132,
+          0.7712618056431926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dViea2 = dv,2 (1 +"
+      },
+      {
+        "bbox": [
+          0.7668918928209459,
+          0.6829268301829269,
+          0.847972973902027,
+          0.7560975618902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m2)"
+      },
+      {
+        "bbox": [
+          0.7668918925,
+          0.7414634144878047,
+          0.8277027033108109,
+          0.785365853512195
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.25337838315637057,
+          0.8292682925435539,
+          0.9222973020752894,
+          0.8878048779094077
+        ],
+        "confidence": 0.5,
+        "text": "Small 9m2 : small (W/L)2 or large (Vgs - V+)2"
+      },
+      {
+        "bbox": [
+          0.729729727668919,
+          0.9512195123902439,
+          0.9358108087499999,
+          0.9804878050731708
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.85 0428"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The equivalent input noise source of the load transistor M2 is shown explicitly.",
+      "pdf_page": 127,
+      "printed_page": 130,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0128_01_0428.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The equivalent input noise source of the load transistor M2 is shown explicitly.",
+        "pdf_page": 127,
+        "printed_page": 130,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It is in series",
+        "pdf_page": 127,
+        "printed_page": 130,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Current source and current mirror devices must be designed for small size W/L and hence for large V −V !",
+        "pdf_page": 128,
+        "printed_page": 131,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The noise of transistor M2 is therefore multiplied by a factor g /g . m2 m1 To make the noise contribution of M2 negligible, we must design this load transistor with large V −V or small W/L, which is actually the same.",
+      "pdf_page": 128,
+      "printed_page": 131,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS T This is an important conclusion, which will be repeated many times.",
+      "pdf_page": 128,
+      "printed_page": 131,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "B Normally, this biasing voltage is followed by a large decoupling capacitance to ground, such that the noise from it can be ignored.",
+      "pdf_page": 128,
+      "printed_page": 131,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0428-M01",
+      "ocr_text": "diout? = gm12 dv,2 + 9mz2 dv22",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.520270275591216,
+        0.4146341459146341,
+        0.9459459512668917,
+        0.4780487800609756
+      ],
+      "context_crop": "regions/SANSEN-0428_math_01.png",
+      "context_bbox_normalized": [
+        0.480270275591216,
+        0.3146341459146341,
+        1,
+        0.6080487800609756
+      ],
+      "source_image": "slides/p0128_01_0428.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0428-M02",
+      "ocr_text": "dViea = dv,2 + dv24 9m2)2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5135135156418918,
+        0.5317073161463415,
+        0.9020270291554053,
+        0.6243902429756097
+      ],
+      "context_crop": "regions/SANSEN-0428_math_02.png",
+      "context_bbox_normalized": [
+        0.47351351564189187,
+        0.4317073161463415,
+        1,
+        0.7543902429756097
+      ],
+      "source_image": "slides/p0128_01_0428.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0428-M03",
+      "ocr_text": "dViea2 = dv,2 (1 +",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5100671174934486,
+        0.7019089229788146,
+        0.7635815362243132,
+        0.7712618056431926
+      ],
+      "context_crop": "regions/SANSEN-0428_math_03.png",
+      "context_bbox_normalized": [
+        0.4700671174934486,
+        0.6019089229788146,
+        0.9935815362243132,
+        0.9012618056431926
+      ],
+      "source_image": "slides/p0128_01_0428.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

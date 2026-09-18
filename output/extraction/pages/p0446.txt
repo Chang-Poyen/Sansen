@@ -1,0 +1,48 @@
+454 Chapter #15
+1566
+Both the Dynamic Range
+limited by distortion (mis-
+match) and by noise are
+given in the graph in this
+slide. The power consump-
+tion required to carry out a
+certain function (filter,
+ADC, ...) at a certain fre-
+quency is plotted versus the
+required dynamic range.
+The curves are calculated
+with the expressions given
+before.
+A number of experimental
+points are given as well.
+They are taken from papers
+in the IEEE Journal of Solid-
+State Circuits. They reflect data from ADC’s, from continuous-time and switched-capacitor filters
+(without the power consumption due to the clocks).
+It is clear that mismatch data presents a more realistic estimate of the power/frequency ratio
+for a certain dynamic range than the noise does. Mismatch is now a more severe limit to the
+accuracy of analog integrated circuits than noise.
+1567
+As a conclusion to this
+Chapter, another point of
+concern is given about the
+maximum dynamic range
+for deep submicron CMOS.
+For ever smaller channel
+lengths, the supply voltage
+is shrinking, as predicted
+by the SIA roadmap (see
+Chapter 1). The maximum
+signal amplitude is a con-
+stant fraction of the supply
+voltage, determined by the
+distortion allowed.
+The parameter A
+VT
+describing the spreading on
+the threshold voltage decreases but if minimum-size devices are taken, the spreading on the V
+T
+increases. If six times this spreading is taken, then only a small voltage dynamic range is left. It
+seems to go to zero for CMOS technologies beyond 90 nm.
+A few obvious applications can live with such small dynamic ranges. Some biomedical applica-
+tions are happy with 20 dB, but most communication applications require more than 70 dB! To

@@ -1,0 +1,57 @@
+404 Chapter #14
+resistor is needed for safety, in case the electronics break down. Typical values are 0.5 to 1 MV.
+The body itself is modeled by a few resistances R and R . Their values are of the order of
+A B
+magnitude of 10 kV.
+The voltage on the body v is reduced by the loop gain!
+B
+1431
+Now that we know the prin-
+ciples of shunt-shunt feed-
+back, let us learn about the
+other type of feedback with
+shunt feedback at the input.
+It also takes input currents.
+It has series feedback at
+the output. It acts as a cur-
+rent generator. It is there-
+fore a current amplifier with
+gain A . It amplifies the
+I
+input current to the output
+with high precision. Its
+input resistance will be low
+and its output resistance
+high.
+1432
+A shunt-series feedback
+amplifier with an opamp is
+shown in this slide. Usually,
+the feedback resistor R is
+2
+much larger than 1/g .
+m
+Resistor R is also much
+E
+larger than 1/g .
+m
+For the loop gain, the
+output transistor acts as a
+Source Follower. This is
+why the loop gain is the gain
+of the opamp A itself. The
+0
+current gain A is easily
+I
+found, once it has become
+clear that the input voltage
+of the opamp is about zero,
+because of the high gain A .This current gain is very precise indeed as it only depends on resistor
+0
+ratios. This is a real current amplifier indeed.
+The input resistance is just about R in an open loop. For a closed loop, it must be divided
+2
+by the loop gain LG. It is therefore small indeed.
+The output resistance will be very large, this is large because of the local feedback of resistor
+R . This increases because of the feedback.
+E

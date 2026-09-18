@@ -1,0 +1,50 @@
+112 Chapter #3
+However, the AC voltage at the output of emitter follower Q3 is about the same as the actual
+output voltage v , which is the same as the AC voltage at the collector of the input transistor
+OUT
+Q1. There is now no AC voltage across resistor R. It is bootstrapped out. It appears to be
+infinitely high. As a result the voltage gain is quite high.
+0345
+In a similar way, transistor
+M5 bootstraps out the
+output resistance of transis-
+tor M4 such that only r is
+o2
+left in the gain expression.
+Transistor M5 actually
+functions as a source fol-
+lower. Its gain approximates
+to unity, as for the buffer
+A2 in the previous slide.
+Transistor M5 sees thus the
+same AC voltage at Drain
+and Source. As a result, its
+output resistance r is boot-
+o4
+strapped out.
+In order to really increase
+the gain, we would have to add cascodes in series with transistors M1 and M2, or design them
+with large channel lengths.
+Note that this gain enhancement technique does not affect the GBW, as we have seen before
+with all gain enhancement techniques.
+Bootstrapping is a fourth technique for gain enhancement. In practice we will use combinations
+of all these four techniques. We will need them as we go deeper and deeper into deep sub-
+micron CMOS!
+0346
+A practical example of this
+bootstrapping technique is
+shown in this slide. It uses
+bipolar transistors. This
+example was published a
+long time ago. Since the beta
+is an additional parameter
+in a bipolar transistor, it
+also appears in the gain
+expressions.
+Note that the output
+impedance, which was
+already low because we are
+dealing with an emitter fol-
+lower, is reduced further. It
+is now quite low. This is an
+ideal situation in view of the need to develop the next stage.

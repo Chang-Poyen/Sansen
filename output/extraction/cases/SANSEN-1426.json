@@ -1,0 +1,583 @@
+{
+  "case_id": "SANSEN-1426",
+  "slide_id": "1426",
+  "chapter": 14,
+  "slide_number_in_chapter": 26,
+  "source": {
+    "pdf_page": 393,
+    "printed_page": 401
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0393_02_1426.jpg",
+      "pdf_page": 393,
+      "printed_page": 401,
+      "bbox_pt": [
+        91.521622,
+        433.434937,
+        374.78981,
+        629.8949279999999
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 393,
+      "printed_page": 401,
+      "bbox_pt": [
+        0,
+        429.44550000000027,
+        595,
+        797
+      ],
+      "text_raw": "Even with an ideal input\ncurrent source, input load-\ning also shows up when\nthe input resistance of the\namplifier is not large. In this\ncase, there is an interaction\nbetween feedback resistor\nR and input resistance r\nF p1\n– they are in parallel for the\ninput resistance. Moreover,\nthey cause a voltage division\nin the loop gain LG.\nThe output resistance will\nbe quite small again,\nbecause a Source follower is\nused at the output. The\noutput resistance without feedback is the output resistance of an emitter follower Q2. It must\nbe divided by the loop gain to obtain the closed-loop output resistance.",
+      "text": "Even with an ideal input current source, input loading also shows up when the input resistance of the amplifier is not large. In this case, there is an interaction between feedback resistor R and input resistance r F p1 – they are in parallel for the input resistance. Moreover, they cause a voltage division in the loop gain LG. The output resistance will be quite small again, because a Source follower is used at the output. The output resistance without feedback is the output resistance of an emitter follower Q2. It must be divided by the loop gain to obtain the closed-loop output resistance."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Even with an ideal input current source, input loading also shows up when the input resistance of the amplifier is not large. In this case, there is an interaction between feedback resistor R and input resistance r F p1 – they are in parallel for the input resistance. Moreover, they cause a voltage division in the loop gain LG. The output resistance will be quite small again, because a Source follower is used at the output. The output resistance without feedback is the output resistance of an emitter follower Q2. It must be divided by the loop gain to obtain the closed-loop output resistance.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈跨阻放大器与电流放大器",
+  "title": "Shunt-shunt FB pair with input loading",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0393_02_1426.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432003800682,
+          0.09268292701219516,
+          0.7601351308488176,
+          0.15121951237804876
+        ],
+        "confidence": 1,
+        "text": "Shunt-shunt FB pair with input loading"
+      },
+      {
+        "bbox": [
+          0.0540540543918919,
+          0.4829268298048781,
+          0.09459459493243244,
+          0.5365853663902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TIN"
+      },
+      {
+        "bbox": [
+          0.3851351352477478,
+          0.3609756103252032,
+          0.432432432545045,
+          0.39512195178861775
+        ],
+        "confidence": 1,
+        "text": "Q2"
+      },
+      {
+        "bbox": [
+          0.28378378341216215,
+          0.4292682929268292,
+          0.3209459455743243,
+          0.4634146343902439
+        ],
+        "confidence": 1,
+        "text": "Q1"
+      },
+      {
+        "bbox": [
+          0.2702702704673423,
+          0.5999999993089432,
+          0.375000000197072,
+          0.6829268285772359
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "mRE"
+      },
+      {
+        "bbox": [
+          0.07770270646114856,
+          0.8000000006707317,
+          0.412162165920608,
+          0.8536585372560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Input loading : Rp = Гz1"
+      },
+      {
+        "bbox": [
+          0.4628378372297297,
+          0.21463414643902445,
+          0.5236486480405406,
+          0.27317073180487805
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.48648648665540545,
+          0.4195121957073171,
+          0.5101351353040541,
+          0.4780487810731707
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.46959459521396396,
+          0.4975609754471544,
+          0.5439189195382883,
+          0.5463414632520325
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6283783792712355,
+          0.23902439010452958,
+          0.7533783792712355,
+          0.2975609754703833
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AR = RF"
+      },
+      {
+        "bbox": [
+          0.8412162157094595,
+          0.346341462804878,
+          0.8885135130067567,
+          0.3951219506097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Гт1"
+      },
+      {
+        "bbox": [
+          0.6317567597972972,
+          0.375609756097561,
+          0.8141891922297296,
+          0.42439024390243896
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG = 9m1'o1"
+      },
+      {
+        "bbox": [
+          0.8108108116312741,
+          0.41463414623693384,
+          0.925675676496139,
+          0.46829268282229963
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RF+ I1"
+      },
+      {
+        "bbox": [
+          0.5675675671959459,
+          0.5365853653170731,
+          0.6182432428716216,
+          0.590243901902439
+        ],
+        "confidence": 1,
+        "text": "RIN"
+      },
+      {
+        "bbox": [
+          0.6182432442739365,
+          0.5414634151219512,
+          0.6452702696900272,
+          0.570731707804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.6507252669781806,
+          0.48502426891810424,
+          0.8202247544684479,
+          0.5838112324041942
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rfl| I71 = -"
+      },
+      {
+        "bbox": [
+          0.8277027030405405,
+          0.497560976097561,
+          0.8750000003378378,
+          0.5560975614634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.6858108107263514,
+          0.5756097566463415,
+          0.7331081080236487,
+          0.6195121956707317
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.8918918929054055,
+          0.536585366504065,
+          0.959459460472973,
+          0.57560975558495
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•= 0"
+      },
+      {
+        "bbox": [
+          0.8006756763754826,
+          0.5804878047038328,
+          0.8986486493484557,
+          0.624390243728223
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1°01"
+      },
+      {
+        "bbox": [
+          0.6891233419911211,
+          0.6581746194939996,
+          0.8041199041240854,
+          0.7028009903659389
+        ],
+        "confidence": 1,
+        "text": "ROUTOL"
+      },
+      {
+        "bbox": [
+          0.5709459453547298,
+          0.6926829263821138,
+          0.6486486480574325,
+          0.7463414629674797
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RouT"
+      },
+      {
+        "bbox": [
+          0.7829263238666778,
+          0.6896124795146196,
+          0.8660481584411968,
+          0.7281911619256273
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-*0"
+      },
+      {
+        "bbox": [
+          0.7162162161317568,
+          0.7219512201219511,
+          0.763513513429054,
+          0.7707317079268292
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.7331081083108107,
+          0.7902439029268292,
+          0.7601351353378378,
+          0.8390243907317073
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.5709459447916667,
+          0.8243902440243902,
+          0.7094594583051802,
+          0.8780487806097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RoUToL ="
+      },
+      {
+        "bbox": [
+          0.7567567569679053,
+          0.8146341457317073,
+          0.8141891894003378,
+          0.8634146335365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-+-"
+      },
+      {
+        "bbox": [
+          0.8006756760698199,
+          0.79512195101626,
+          0.8479729733671172,
+          0.8390243900406503
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ґо1"
+      },
+      {
+        "bbox": [
+          0.7195945952027027,
+          0.858536585219512,
+          0.7804054060135136,
+          0.9024390242439023
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.7195945972128378,
+          0.9317073168292683,
+          0.9290540566722972,
+          0.9609756095121952
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 1426"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Even with an ideal input current source, input loading also shows up when the input resistance of the amplifier is not large.",
+      "pdf_page": 393,
+      "printed_page": 401,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0393_02_1426.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Even with an ideal input current source, input loading also shows up when the input resistance of the amplifier is not large.",
+        "pdf_page": 393,
+        "printed_page": 401,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In this case, there is an interaction between feedback resistor R and input resistance r F p1 – they are in parallel for the input resistance.",
+        "pdf_page": 393,
+        "printed_page": 401,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The output resistance will be quite small again, because a Source follower is used at the output.",
+        "pdf_page": 393,
+        "printed_page": 401,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The output resistance without feedback is the output resistance of an emitter follower Q2.",
+        "pdf_page": 393,
+        "printed_page": 401,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Moreover, they cause a voltage division in the loop gain LG.",
+      "pdf_page": 393,
+      "printed_page": 401,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It must be divided by the loop gain to obtain the closed-loop output resistance.",
+      "pdf_page": 393,
+      "printed_page": 401,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1426-M01",
+      "ocr_text": "Input loading : Rp = Гz1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07770270646114856,
+        0.8000000006707317,
+        0.412162165920608,
+        0.8536585372560975
+      ],
+      "context_crop": "regions/SANSEN-1426_math_01.png",
+      "context_bbox_normalized": [
+        0.03770270646114856,
+        0.7000000006707318,
+        0.642162165920608,
+        0.93
+      ],
+      "source_image": "slides/p0393_02_1426.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1426-M02",
+      "ocr_text": "AR = RF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6283783792712355,
+        0.23902439010452958,
+        0.7533783792712355,
+        0.2975609754703833
+      ],
+      "context_crop": "regions/SANSEN-1426_math_02.png",
+      "context_bbox_normalized": [
+        0.5883783792712355,
+        0.13902439010452958,
+        0.9833783792712355,
+        0.4275609754703833
+      ],
+      "source_image": "slides/p0393_02_1426.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1426-M03",
+      "ocr_text": "LG = 9m1'o1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6317567597972972,
+        0.375609756097561,
+        0.8141891922297296,
+        0.42439024390243896
+      ],
+      "context_crop": "regions/SANSEN-1426_math_03.png",
+      "context_bbox_normalized": [
+        0.5917567597972971,
+        0.275609756097561,
+        1,
+        0.554390243902439
+      ],
+      "source_image": "slides/p0393_02_1426.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1426-M04",
+      "ocr_text": "=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6182432442739365,
+        0.5414634151219512,
+        0.6452702696900272,
+        0.570731707804878
+      ],
+      "context_crop": "regions/SANSEN-1426_math_04.png",
+      "context_bbox_normalized": [
+        0.5782432442739365,
+        0.4414634151219512,
+        0.8752702696900272,
+        0.700731707804878
+      ],
+      "source_image": "slides/p0393_02_1426.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1426-M05",
+      "ocr_text": "Rfl| I71 = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6507252669781806,
+        0.48502426891810424,
+        0.8202247544684479,
+        0.5838112324041942
+      ],
+      "context_crop": "regions/SANSEN-1426_math_05.png",
+      "context_bbox_normalized": [
+        0.6107252669781805,
+        0.38502426891810426,
+        1,
+        0.7138112324041942
+      ],
+      "source_image": "slides/p0393_02_1426.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1426-M06",
+      "ocr_text": "•= 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8918918929054055,
+        0.536585366504065,
+        0.959459460472973,
+        0.57560975558495
+      ],
+      "context_crop": "regions/SANSEN-1426_math_06.png",
+      "context_bbox_normalized": [
+        0.8518918929054055,
+        0.436585366504065,
+        1,
+        0.70560975558495
+      ],
+      "source_image": "slides/p0393_02_1426.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1426-M07",
+      "ocr_text": "RoUToL =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5709459447916667,
+        0.8243902440243902,
+        0.7094594583051802,
+        0.8780487806097561
+      ],
+      "context_crop": "regions/SANSEN-1426_math_07.png",
+      "context_bbox_normalized": [
+        0.5309459447916667,
+        0.7243902440243902,
+        0.9394594583051802,
+        0.93
+      ],
+      "source_image": "slides/p0393_02_1426.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback transimpedance and current amplifiers"
+}

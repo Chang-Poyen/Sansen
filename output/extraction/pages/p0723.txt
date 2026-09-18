@@ -1,0 +1,40 @@
+L ow-noise amplifiers 735
+2348
+Noise cancellation is sub-
+ject to the condition given
+in this slide. The summa-
+tion or adding amplifier
+consists of transistors M2a,
+M2b and M3. The resulting
+Noise Figure is quite low
+without a lot of additional
+power consumption.
+2349
+A differential LNA is shown
+in this slide. Its advantage is
+that it is less susceptible to
+spikes and noise on the sub-
+strate and the supply lines.
+However, it takes two times
+the DC current.
+It consists of two cascode
+amplifiers, to which four
+transistors M5–M8 have
+been added to suppress the
+3rd-order distortion. As a
+result the −1 dB compres-
+sion point is at −5 dBm,
+meaning that the IIP3 is
+about at 5 dBm, which is
+quite large indeed.
+The distortion cancellation operates as follows.
+For one single MOST the current is given on the right, together with its first three derivatives.
+The 3rd-order one G3 has a negative peak around a V of 0.7 V. It has a positive peak as well
+GS
+at 1.8 V.
+Another transistor combination M5–M7 is now added which shows a positive peak at only
+0.7 V. Addition of its current to the current of the previous transistor allows (partial) cancellation
+of the 3rd-order distortion components.
+It is clear that cancellation techniques always suffer from mismatch. Complete cancellation is
+always hard to achieve. However, an increase of the IIP3 with 5 dBm is normally sufficient. This
+is the case here.

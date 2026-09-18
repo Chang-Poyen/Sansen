@@ -1,0 +1,178 @@
+{
+  "case_id": "SANSEN-0533",
+  "slide_id": "0533",
+  "chapter": 5,
+  "slide_number_in_chapter": 33,
+  "source": {
+    "pdf_page": 161,
+    "printed_page": 165
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0162_01_0533.jpg",
+      "pdf_page": 162,
+      "printed_page": 166,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 161,
+      "printed_page": 165,
+      "bbox_pt": [
+        0,
+        654.6545000000002,
+        595,
+        797
+      ],
+      "text_raw": "The stability requirement forces us to position the non-dominant pole at sufficiently high\nfrequencies (around 3 GBW).",
+      "text": "The stability requirement forces us to position the non-dominant pole at sufficiently high frequencies (around 3 GBW)."
+    },
+    {
+      "pdf_page": 162,
+      "printed_page": 166,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        349.77540000000005
+      ],
+      "text_raw": "The question now is, how\nto carry out the design?\nWhich parameters are we\ngoing to use in the design\nplan to shift the non-domi-\nnant pole.\nWe will find that there are\ntwo possible design plans,\nboth with advantages and\ndisadvantages. Both of them\nlead to pole splitting, which\nallows us to move this non-\ndominant pole to even\nhigher values.",
+      "text": "The question now is, how to carry out the design? Which parameters are we going to use in the design plan to shift the non-dominant pole. We will find that there are two possible design plans, both with advantages and disadvantages. Both of them lead to pole splitting, which allows us to move this nondominant pole to even higher values."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The stability requirement forces us to position the non-dominant pole at sufficiently high frequencies (around 3 GBW).\n\nThe question now is, how to carry out the design? Which parameters are we going to use in the design plan to shift the non-dominant pole. We will find that there are two possible design plans, both with advantages and disadvantages. Both of them lead to pole splitting, which allows us to move this nondominant pole to even higher values.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0162_01_0533.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270441066063,
+          0.0780487802710027,
+          0.3851351368430931,
+          0.13658536563685642
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.12837838267374518,
+          0.24390243881533102,
+          0.7297297340250966,
+          0.30243902418118473
+        ],
+        "confidence": 1,
+        "text": "• Use of operational amplifiers"
+      },
+      {
+        "bbox": [
+          0.128378374469112,
+          0.351219512369338,
+          0.6756756717664094,
+          0.41463414651567954
+        ],
+        "confidence": 1,
+        "text": "• Stability of 2-stage opamp"
+      },
+      {
+        "bbox": [
+          0.12499999699324331,
+          0.4585365855121951,
+          0.425675672668919,
+          0.5219512196585365
+        ],
+        "confidence": 1,
+        "text": "• Pole splitting"
+      },
+      {
+        "bbox": [
+          0.13175676202139633,
+          0.5756097558536585,
+          0.7635135187781531,
+          0.6341463412195122
+        ],
+        "confidence": 1,
+        "text": "• Compensation of positive zero"
+      },
+      {
+        "bbox": [
+          0.1317567594932432,
+          0.6780487802926829,
+          0.6790540567905405,
+          0.7463414632195122
+        ],
+        "confidence": 1,
+        "text": "• Stability of 3-stage opamp"
+      },
+      {
+        "bbox": [
+          0.7297297396081597,
+          0.941463414390244,
+          0.9358108078017499,
+          0.9853658534146342
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 a5 0533"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We will find that there are two possible design plans, both with advantages and disadvantages.",
+      "pdf_page": 162,
+      "printed_page": 166,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0162_01_0533.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

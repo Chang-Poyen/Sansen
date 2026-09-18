@@ -1,0 +1,57 @@
+702 Chapter #22
+2249
+How to realize a capaci-
+tance that can be varied by
+means of a voltage or
+current?
+The Miller effect could be
+used. An alternative is the
+circuit in this slide. A differ-
+entiator with components
+R and C is inserted in a
+d d
+feedback loop with a vari-
+able G block. The input
+m
+admittance is easily calcu-
+lated. It is capacitance C ,
+d
+multiplied by G R . This
+m d
+factor is about 25 in this
+example. With 4 pF for C ,
+d
+this allows a capacitance change DC of about 100 pF.
+If G can now be made positive and negative, then we have a capacitance which is positive
+m
+and negative.
+Current I will be used to control the transconductance G from positive, through zero to
+2 m
+negative values.
+2250
+To realize a transconduct-
+ance G from positive to
+m
+negative values, a symmetri-
+cal opamp is used, in which
+the input stage is doubled.
+Moreover, the two input
+stages are cross-coupled.
+When both input pairs have
+the same biasing current,
+nothing can come out. The
+output currents cancel per-
+fectly. If one current, for
+example current I through
+1
+MI1, is larger than I
+2
+through MI2, then the
+differential pair MT1/MT2
+provides a larger output current I , which flows into the circuit.
+o
+If, on the other hand, current I is larger than I , than the output current changes polarity.
+2 1
+As a consequence we can obtain positive and negative output currents by allowing changes to
+I with respect to I , as indicated in this slide.
+2 1

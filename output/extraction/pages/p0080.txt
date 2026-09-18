@@ -1,0 +1,40 @@
+Amplifiers, source followers and cascodes 81
+source I with one single
+B1
+MOST and the current
+source I with two MOSTs
+B2
+in series, then the maximum
+output swing is again 0.8 V
+smaller than the supply
+voltage.
+We now find a good argu-
+ment to use a folded cascode
+rather than a telescopic one.
+Twice the current consump-
+tion for a folded cascode is
+a real drawback!!
+0260
+Note also that we are deal-
+ing here with a cascode, not
+a cascade amplifier. Such a
+cascade amplifier simply
+consists of two consecutive
+single-stage amplifiers.
+The voltage gains are
+equal but the bandwidths
+and GBW are very different.
+Moreover, the power dis-
+sipation of a cascade or two-
+stage amplifier is much
+higher.
+0261
+Indeed a cascode is actually a single-stage amplifier with gain enhancement (at low frequencies).
+This means that one single node is at high impedance. This is the node where the gain is realized
+and where the signal swing is large. This is also evident from the node where the load capacitance
+determines the dominant pole.
+In such a single-stage amplifier the GBW is always determined by that load capacitance and
+the input transconductance.
+A cascade amplifier is actually a two stage amplifier. This means that two nodes in that circuit
+are at high impedance. This also means that there are two nodes where the capacitance to
+ground gives a pole. Two poles can create stability problems. This problem can be eliminated

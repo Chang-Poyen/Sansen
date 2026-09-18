@@ -1,0 +1,181 @@
+{
+  "case_id": "SANSEN-052",
+  "slide_id": "052",
+  "chapter": 5,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 145,
+    "printed_page": 149
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0145_02_052.jpg",
+      "pdf_page": 145,
+      "printed_page": 149,
+      "bbox_pt": [
+        91.521622,
+        431.44201699999996,
+        374.78981,
+        627.902008
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 145,
+      "printed_page": 149,
+      "bbox_pt": [
+        0,
+        427.45250000000027,
+        595,
+        703.55922
+      ],
+      "text_raw": "First of all, we have to\nreview some of the terminol-\nogy of an operational ampli-\nfier, such as open-and\nclosed-loop gain. Also, we\nwant to review some basics\nof second-order systems.\nThese are the first two\nSections. We put emphasis\non two-stage amplifiers. We\nhave dealt with single-tran-\nsistor stages already in\nChapter 2.\nWe will focus especially\non that positive zero which\nshows up in any two-stage\nopamp. They can be avoided by means of additional current consumption. It is much more\nelegant however, to use some circuit tricks which allow the reduction of the total biasing current.\nFinally, we will extended the compensation techniques, adopted for a two-stage amplifier, to\nthree-stage amplifiers. Many class-AB amplifiers have three stages. Moreover, three stages become\na necessity once the gain per stages has gone down to real low values, as in nanometer CMOS.",
+      "text": "First of all, we have to review some of the terminology of an operational amplifier, such as open-and closed-loop gain. Also, we want to review some basics of second-order systems. These are the first two Sections. We put emphasis on two-stage amplifiers. We have dealt with single-transistor stages already in Chapter 2. We will focus especially on that positive zero which shows up in any two-stage opamp. They can be avoided by means of additional current consumption. It is much more elegant however, to use some circuit tricks which allow the reduction of the total biasing current. Finally, we will extended the compensation techniques, adopted for a two-stage amplifier, to three-stage amplifiers. Many class-AB amplifiers have three stages. Moreover, three stages become a necessity once the gain per stages has gone down to real low values, as in nanometer CMOS."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "First of all, we have to review some of the terminology of an operational amplifier, such as open-and closed-loop gain. Also, we want to review some basics of second-order systems. These are the first two Sections. We put emphasis on two-stage amplifiers. We have dealt with single-transistor stages already in Chapter 2. We will focus especially on that positive zero which shows up in any two-stage opamp. They can be avoided by means of additional current consumption. It is much more elegant however, to use some circuit tricks which allow the reduction of the total biasing current. Finally, we will extended the compensation techniques, adopted for a two-stage amplifier, to three-stage amplifiers. Many class-AB amplifiers have three stages. Moreover, three stages become a necessity once the gain per stages has gone down to real low values, as in nanometer CMOS.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0145_02_052.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270487451739,
+          0.08292682909407667,
+          0.3817567589285714,
+          0.13658536567944246
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.12837837336711722,
+          0.24390243918699184,
+          0.7297297247184685,
+          0.30243902455284544
+        ],
+        "confidence": 1,
+        "text": "• Use of operational amplifiers"
+      },
+      {
+        "bbox": [
+          0.12837837381756764,
+          0.3512195123983739,
+          0.6756756711148649,
+          0.4146341465447154
+        ],
+        "confidence": 1,
+        "text": "• Stability of 2-stage opamp"
+      },
+      {
+        "bbox": [
+          0.12837837654138518,
+          0.4634146343292683,
+          0.4222972954603041,
+          0.5219512196951219
+        ],
+        "confidence": 0.5,
+        "text": "• Pole splitting"
+      },
+      {
+        "bbox": [
+          0.13175675772804055,
+          0.5707317065243902,
+          0.7635135144847973,
+          0.6341463406707316
+        ],
+        "confidence": 1,
+        "text": "• Compensation of positive zero"
+      },
+      {
+        "bbox": [
+          0.13175675977852846,
+          0.6829268290785907,
+          0.6756756786974474,
+          0.7463414632249321
+        ],
+        "confidence": 1,
+        "text": "• Stability of 3-stage opamp"
+      },
+      {
+        "bbox": [
+          0.7293526359946562,
+          0.9410018583687295,
+          0.9296110585369188,
+          0.9869826584391432
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 os 052"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We will focus especially on that positive zero which shows up in any two-stage opamp.",
+      "pdf_page": 145,
+      "printed_page": 149,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0145_02_052.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "First of all, we have to review some of the terminology of an operational amplifier, such as open-and closed-loop gain.",
+      "pdf_page": 145,
+      "printed_page": 149,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Moreover, three stages become a necessity once the gain per stages has gone down to real low values, as in nanometer CMOS.",
+      "pdf_page": 145,
+      "printed_page": 149,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

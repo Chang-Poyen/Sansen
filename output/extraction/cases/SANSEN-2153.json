@@ -1,0 +1,209 @@
+{
+  "case_id": "SANSEN-2153",
+  "slide_id": "2153",
+  "chapter": 21,
+  "slide_number_in_chapter": 53,
+  "source": {
+    "pdf_page": 653,
+    "printed_page": 664
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0653_01_2153.jpg",
+      "pdf_page": 653,
+      "printed_page": 664,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 653,
+      "printed_page": 664,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        393.5715100000001
+      ],
+      "text_raw": "A single-loop topology is\npreferred for low-power\ndesigns since it is less sensi-\ntive to circuit non-idealities\nsuch as low opamp gain,\nswitch resistance and capac-\nitor mismatch.\nA clock is used of 4 MHz\nand an OSR of 100 to reach\na signal bandwidth of\n20 kHz.\nThe coefficients are such\nthat the same output swing\nis obtained for all integ-\nrators, which is about 80%\nof the reference voltage\n(which is 0.6 V) at an input voltage of −3 dB.\nThe minimum-gain requirement is only about 30 dB. This is easily achieved by a low-voltage\nopamp as discussed next.",
+      "text": "A single-loop topology is preferred for low-power designs since it is less sensitive to circuit non-idealities such as low opamp gain, switch resistance and capacitor mismatch. A clock is used of 4 MHz and an OSR of 100 to reach a signal bandwidth of 20 kHz. The coefficients are such that the same output swing is obtained for all integrators, which is about 80% of the reference voltage (which is 0.6 V) at an input voltage of −3 dB. The minimum-gain requirement is only about 30 dB. This is easily achieved by a low-voltage opamp as discussed next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A single-loop topology is preferred for low-power designs since it is less sensitive to circuit non-idealities such as low opamp gain, switch resistance and capacitor mismatch. A clock is used of 4 MHz and an OSR of 100 to reach a signal bandwidth of 20 kHz. The coefficients are such that the same output swing is obtained for all integrators, which is about 80% of the reference voltage (which is 0.6 V) at an input voltage of −3 dB. The minimum-gain requirement is only about 30 dB. This is easily achieved by a low-voltage opamp as discussed next.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "EA Modulator on 1 Volt in 90 nm CMOS",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0653_01_2153.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269822635145,
+          0.08292682948170726,
+          0.7939189144425677,
+          0.13658536606707317
+        ],
+        "confidence": 0.5,
+        "text": "EA Modulator on 1 Volt in 90 nm CMOS"
+      },
+      {
+        "bbox": [
+          0.12837837820945946,
+          0.2975609752195121,
+          0.15202702685810812,
+          0.33658536546341455
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.07770271407657622,
+          0.5512195121138211,
+          0.7601351465090087,
+          0.5951219511382113
+        ],
+        "confidence": 1,
+        "text": "• Single-loop third-order single-bit topology"
+      },
+      {
+        "bbox": [
+          0.14189188744369388,
+          0.6097560978861788,
+          0.40878377933558574,
+          0.6487804881300812
+        ],
+        "confidence": 1,
+        "text": "Simple and robust"
+      },
+      {
+        "bbox": [
+          0.12162161233108139,
+          0.6146341449593496,
+          0.6858108015202706,
+          0.6975609742276423
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• Tolerance to building block non-idealitis"
+      },
+      {
+        "bbox": [
+          0.07770271060810804,
+          0.7219512192682928,
+          0.8682432511486485,
+          0.765853658292683
+        ],
+        "confidence": 1,
+        "text": "+ Coefficients selected not sensitive to capacitance"
+      },
+      {
+        "bbox": [
+          0.14189189413006753,
+          0.7707317071341463,
+          0.3209459481841216,
+          0.804878048597561
+        ],
+        "confidence": 1,
+        "text": "mismatches"
+      },
+      {
+        "bbox": [
+          0.07432432833614856,
+          0.8341463411585365,
+          0.3952702742820945,
+          0.8682926826219511
+        ],
+        "confidence": 0.5,
+        "text": "Yao, ..., JSSC Nov.04, 1809-1818"
+      },
+      {
+        "bbox": [
+          0.07432431372466239,
+          0.8682926831097562,
+          0.9222972866976354,
+          0.9024390245731707
+        ],
+        "confidence": 1,
+        "text": "Yao. etal. \"Low-Power Low-Voltage EA modulators in Nanometer CMOS\", Springer '06"
+      },
+      {
+        "bbox": [
+          0.7229729758694213,
+          0.9414634147967479,
+          0.9358108008197684,
+          0.9707317074796747
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2153"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0653_01_2153.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "A single-loop topology is preferred for low-power designs since it is less sensitive to circuit non-idealities such as low opamp gain, switch resistance and capacitor mismatch.",
+      "pdf_page": 653,
+      "printed_page": 664,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A clock is used of 4 MHz and an OSR of 100 to reach a signal bandwidth of 20 kHz.",
+      "pdf_page": 653,
+      "printed_page": 664,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The minimum-gain requirement is only about 30 dB.",
+      "pdf_page": 653,
+      "printed_page": 664,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

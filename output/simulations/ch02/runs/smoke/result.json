@@ -1,0 +1,27 @@
+{
+  "deck": "simulations/ch02/netlists/smoke.scs",
+  "sha256": "a878897d822fe50a8b708376a08ce3d6ec740a61225bd37c3027d6a84bd1fd8f",
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "returncode": 0,
+    "output_dir": "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/smoke/smoke.raw",
+    "output_files": [
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/smoke/smoke.raw/ac.ac",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/smoke/smoke.raw/logStatus",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/smoke/smoke.raw/logFile",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/smoke/smoke.raw/dcOp.dc"
+    ],
+    "remote_host": "101.6.65.209",
+    "timings": {
+      "upload_total": 1.621112082968466,
+      "remote_exec": 1.7504090829752386,
+      "download_total": 6.351227749022655,
+      "parse_results": 0.0048187499633058906,
+      "total": 9.72932949999813
+    },
+    "command": "HOSTNAME=`hostname 2>/dev/null || echo localhost`; export HOSTNAME && export LD_LIBRARY_PATH=\"${LD_LIBRARY_PATH:-}\" && mkdir -p /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ed33594a/smoke.raw && csh -c ':; /eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ed33594a/smoke.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ed33594a/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ed33594a/smoke.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus' & SPID=$!; echo $SPID > /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ed33594a/spectre.pid; wait $SPID",
+    "spectre_command": "/eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ed33594a/smoke.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ed33594a/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ed33594a/smoke.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus"
+  },
+  "wall_s": 9.730623245239258
+}

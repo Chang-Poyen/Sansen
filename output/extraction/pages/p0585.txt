@@ -1,0 +1,50 @@
+596 Chapter #19
+1959
+A switched-capacitor resis-
+tor R is given by 1/Cf ,
+c
+in which f is the clock
+c
+frequency. As a result,
+the transconductance g is
+m
+adjusted such that it equals
+Cf . In other words, the time
+c
+constant g /C is accurately
+m
+locked to the clock fre-
+quency, which can be made
+very accurate indeed (for
+example with a crystal
+oscillator).
+Obviously, some scaling
+will have to be introduced
+to be able to separate the
+filter frequency further from the clock frequency. The required accuracy is achieved, however.
+Note also, that a low-pass filter is added at the output to suppress the ripple from the clock
+generator.
+1960
+An example of such a tuning
+system is shown in this slide.
+The Gm block to be tuned
+is G . It is matched to all
+mR
+other Gm blocks in the
+Bandpass Filter.
+The switched-capacitor
+resistor with capacitor C is
+R
+a better version than the one
+on the previous slide, as it is
+less sensitive to parasitic
+capacitances.
+Everything is fully differ-
+ential to be insensitive to
+disturbances on the ground
+and supply lines.
+This system used a clock of 1.5 MHz to tune filter frequencies between 150 and 800 kHz.
+These frequencies are still quite close, however. Indeed the capacitance C must be close to the
+R
+capacitances used in the BPF for good matching.
+A technique to separate the clock frequency from the filter frequencies is shown next.

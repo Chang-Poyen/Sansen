@@ -1,0 +1,588 @@
+{
+  "case_id": "SANSEN-0612",
+  "slide_id": "0612",
+  "chapter": 6,
+  "slide_number_in_chapter": 12,
+  "source": {
+    "pdf_page": 182,
+    "printed_page": 186
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0183_01_0612.jpg",
+      "pdf_page": 183,
+      "printed_page": 187,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 182,
+      "printed_page": 186,
+      "bbox_pt": [
+        0,
+        618.7805,
+        595,
+        797
+      ],
+      "text_raw": "For this particular amplifier, the pole-zero position and Bode diagrams are sketched in this slide.\nFor zero C , two poles are found, which are clearly too close together. Peaking would occur\nc\nif feedback is applied.\nThis capacitance has been increased to about 1 pF. In this case the dominant pole has\ndecreased a lot but what is more important is that the non-dominant pole has moved out until",
+      "text": "For this particular amplifier, the pole-zero position and Bode diagrams are sketched in this slide. For zero C , two poles are found, which are clearly too close together. Peaking would occur c if feedback is applied. This capacitance has been increased to about 1 pF. In this case the dominant pole has decreased a lot but what is more important is that the non-dominant pole has moved out until"
+    },
+    {
+      "pdf_page": 183,
+      "printed_page": 187,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        344.74300000000005
+      ],
+      "text_raw": "it is almost three times the\nGBW.\nThe zero is still too far to\nbother us!\nThe result is a CMOS\nMiller OTA with a gain of\nabout 3000 or 70 dB, a\nbandwidth of about 300 Hz\nand a GBW of 1 MHz.\nThe total power con-\nsumption is 27 mA. Its FOM\nis therefore 370 MHzpF/mA\nwhich is an excellent value\nfor a two-stage amplifier.\nActually, anything that is\nbetter than 100 is good!",
+      "text": "it is almost three times the GBW. The zero is still too far to bother us! The result is a CMOS Miller OTA with a gain of about 3000 or 70 dB, a bandwidth of about 300 Hz and a GBW of 1 MHz. The total power consumption is 27 mA. Its FOM is therefore 370 MHzpF/mA which is an excellent value for a two-stage amplifier. Actually, anything that is better than 100 is good!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For this particular amplifier, the pole-zero position and Bode diagrams are sketched in this slide. For zero C , two poles are found, which are clearly too close together. Peaking would occur c if feedback is applied. This capacitance has been increased to about 1 pF. In this case the dominant pole has decreased a lot but what is more important is that the non-dominant pole has moved out until\n\nit is almost three times the GBW. The zero is still too far to bother us! The result is a CMOS Miller OTA with a gain of about 3000 or 70 dB, a bandwidth of about 300 Hz and a GBW of 1 MHz. The total power consumption is 27 mA. Its FOM is therefore 370 MHzpF/mA which is an excellent value for a two-stage amplifier. Actually, anything that is better than 100 is good!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA : poles and zero",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0183_01_0612.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108552123551,
+          0.08780487783972124,
+          0.7027027071428572,
+          0.14634146320557484
+        ],
+        "confidence": 1,
+        "text": "Miller CMOS OTA : poles and zero"
+      },
+      {
+        "bbox": [
+          0.09459459496058557,
+          0.20975609747967483,
+          0.1385135138795045,
+          0.26829268284552843
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.09797297361486484,
+          0.2975609753658537,
+          0.16216216280405404,
+          0.33170731682926835
+        ],
+        "confidence": 0.5,
+        "text": "1pF -"
+      },
+      {
+        "bbox": [
+          0.08108108220720718,
+          0.3707317070731706,
+          0.14864864977477474,
+          0.40487804853658527
+        ],
+        "confidence": 0.5,
+        "text": "0.1pF."
+      },
+      {
+        "bbox": [
+          0.16554054010135136,
+          0.3999999994634147,
+          0.21621621577702704,
+          0.4536585360487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cct"
+      },
+      {
+        "bbox": [
+          0.09121621693412162,
+          0.44878048756097555,
+          0.14864864936655406,
+          0.487804877804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10fF-"
+      },
+      {
+        "bbox": [
+          0.08108108144707205,
+          0.4975609751219512,
+          0.2263513517173423,
+          0.5560975604878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IAVI 4AVO"
+      },
+      {
+        "bbox": [
+          0.07770270253378378,
+          0.5707317072166427,
+          0.13513513496621624,
+          0.6048780486800572
+        ],
+        "confidence": 1,
+        "text": "1000"
+      },
+      {
+        "bbox": [
+          0.08783783733108108,
+          0.6341463409146342,
+          0.1351351346283784,
+          0.6780487799390243
+        ],
+        "confidence": 1,
+        "text": "100"
+      },
+      {
+        "bbox": [
+          0.10135135171734232,
+          0.6975609753658537,
+          0.14527027063626125,
+          0.7560975607317074
+        ],
+        "confidence": 1,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.11486486466216217,
+          0.7756097555121952,
+          0.1418918916891892,
+          0.8341463408780488
+        ],
+        "confidence": 0.5,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.1959459463400901,
+          0.7658536583333333,
+          0.2432432436373874,
+          0.7999999997967479
+        ],
+        "confidence": 1,
+        "text": "BW"
+      },
+      {
+        "bbox": [
+          0.09797297294481982,
+          0.8585365850406503,
+          0.14189189186373874,
+          0.8975609752845528
+        ],
+        "confidence": 1,
+        "text": "0.1"
+      },
+      {
+        "bbox": [
+          0.23648648678209455,
+          0.24878048841463418,
+          0.2668918921874999,
+          0.29756097621951216
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Td"
+      },
+      {
+        "bbox": [
+          0.27364864818412166,
+          0.4634146335365854,
+          0.31756756710304057,
+          0.5121951213414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"1k"
+      },
+      {
+        "bbox": [
+          0.496621620945946,
+          0.346341463597561,
+          0.550675675,
+          0.4000000001829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd"
+      },
+      {
+        "bbox": [
+          0.5236486481756757,
+          0.46341463419512197,
+          0.570945945472973,
+          0.5073170732195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'Hz"
+      },
+      {
+        "bbox": [
+          0.45945945982545044,
+          0.46829268276422764,
+          0.5033783787443693,
+          0.5073170730081301
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1M"
+      },
+      {
+        "bbox": [
+          0.4155405416385135,
+          0.5756097559756098,
+          0.5033783794763513,
+          0.6243902437804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc = 0;"
+      },
+      {
+        "bbox": [
+          0.2597453995247393,
+          0.690695066833962,
+          0.3753897384933771,
+          0.7434512739977029
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C6 = 1pF"
+      },
+      {
+        "bbox": [
+          0.39864864891891894,
+          0.8195121947317073,
+          0.46621621648648653,
+          0.8585365849756097
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.2837837832207208,
+          0.8829268293495934,
+          0.31756756700450456,
+          0.9170731708130081
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1k"
+      },
+      {
+        "bbox": [
+          0.45270270314189187,
+          0.8780487809268294,
+          0.5033783788175675,
+          0.9219512199512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"1M"
+      },
+      {
+        "bbox": [
+          0.6924883787764026,
+          0.25299811496883107,
+          0.8852143207179474,
+          0.30309944635400154
+        ],
+        "confidence": 1,
+        "text": "Pole splitting"
+      },
+      {
+        "bbox": [
+          0.6924940564282384,
+          0.3117545921222491,
+          0.817641076922854,
+          0.3565380913049734
+        ],
+        "confidence": 1,
+        "text": "starts at"
+      },
+      {
+        "bbox": [
+          0.7837837822297297,
+          0.3902439017560976,
+          0.9459459443918918,
+          0.4585365846829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cn1 = 20 FF"
+      },
+      {
+        "bbox": [
+          0.6959459463175676,
+          0.42926829326829274,
+          0.7466216219932432,
+          0.48780487863414634
+        ],
+        "confidence": 1,
+        "text": "Cct"
+      },
+      {
+        "bbox": [
+          0.7837837842567568,
+          0.4682926835121951,
+          0.8378378383108108,
+          0.5268292688780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avz"
+      },
+      {
+        "bbox": [
+          0.699324325965251,
+          0.5463414631707317,
+          0.9290540556949807,
+          0.590243902195122
+        ],
+        "confidence": 1,
+        "text": "but is sufficient"
+      },
+      {
+        "bbox": [
+          0.6958534611473143,
+          0.6042711299425464,
+          0.8784708677346571,
+          0.6640215519783219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "for Cc = 1pF"
+      },
+      {
+        "bbox": [
+          0.7027027034628379,
+          0.7463414630487805,
+          0.793918919679054,
+          0.8195121947560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "12= -"
+      },
+      {
+        "bbox": [
+          0.7662957038752796,
+          0.7192539458991548,
+          0.8606120833192987,
+          0.7951793402830272
+        ],
+        "confidence": 1,
+        "text": "9m6"
+      },
+      {
+        "bbox": [
+          0.7702702693918919,
+          0.8048780488780488,
+          0.8581081072297299,
+          0.8634146342439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2m Cc"
+      },
+      {
+        "bbox": [
+          0.7263513607230245,
+          0.9317073163414634,
+          0.9290540505382363,
+          0.9756097553658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10-05 0612"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0183_01_0612.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This capacitance has been increased to about 1 pF.",
+      "pdf_page": 182,
+      "printed_page": 186,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In this case the dominant pole has decreased a lot but what is more important is that the non-dominant pole has moved out until",
+      "pdf_page": 182,
+      "printed_page": 186,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The result is a CMOS Miller OTA with a gain of about 3000 or 70 dB, a bandwidth of about 300 Hz and a GBW of 1 MHz.",
+      "pdf_page": 183,
+      "printed_page": 187,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its FOM is therefore 370 MHzpF/mA which is an excellent value for a two-stage amplifier.",
+      "pdf_page": 183,
+      "printed_page": 187,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "For this particular amplifier, the pole-zero position and Bode diagrams are sketched in this slide.",
+      "pdf_page": 182,
+      "printed_page": 186,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Peaking would occur c if feedback is applied.",
+      "pdf_page": 182,
+      "printed_page": 186,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0612-M01",
+      "ocr_text": "Cc = 0;",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4155405416385135,
+        0.5756097559756098,
+        0.5033783794763513,
+        0.6243902437804878
+      ],
+      "context_crop": "regions/SANSEN-0612_math_01.png",
+      "context_bbox_normalized": [
+        0.3755405416385135,
+        0.47560975597560984,
+        0.7333783794763513,
+        0.7543902437804878
+      ],
+      "source_image": "slides/p0183_01_0612.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0612-M02",
+      "ocr_text": "C6 = 1pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2597453995247393,
+        0.690695066833962,
+        0.3753897384933771,
+        0.7434512739977029
+      ],
+      "context_crop": "regions/SANSEN-0612_math_02.png",
+      "context_bbox_normalized": [
+        0.2197453995247393,
+        0.590695066833962,
+        0.6053897384933771,
+        0.873451273997703
+      ],
+      "source_image": "slides/p0183_01_0612.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0612-M03",
+      "ocr_text": "Cn1 = 20 FF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7837837822297297,
+        0.3902439017560976,
+        0.9459459443918918,
+        0.4585365846829268
+      ],
+      "context_crop": "regions/SANSEN-0612_math_03.png",
+      "context_bbox_normalized": [
+        0.7437837822297296,
+        0.2902439017560976,
+        1,
+        0.5885365846829268
+      ],
+      "source_image": "slides/p0183_01_0612.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0612-M04",
+      "ocr_text": "for Cc = 1pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6958534611473143,
+        0.6042711299425464,
+        0.8784708677346571,
+        0.6640215519783219
+      ],
+      "context_crop": "regions/SANSEN-0612_math_04.png",
+      "context_bbox_normalized": [
+        0.6558534611473142,
+        0.5042711299425464,
+        1,
+        0.7940215519783219
+      ],
+      "source_image": "slides/p0183_01_0612.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0612-M05",
+      "ocr_text": "12= -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7027027034628379,
+        0.7463414630487805,
+        0.793918919679054,
+        0.8195121947560976
+      ],
+      "context_crop": "regions/SANSEN-0612_math_05.png",
+      "context_bbox_normalized": [
+        0.6627027034628379,
+        0.6463414630487805,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0183_01_0612.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

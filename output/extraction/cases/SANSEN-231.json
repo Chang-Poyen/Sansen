@@ -1,0 +1,176 @@
+{
+  "case_id": "SANSEN-231",
+  "slide_id": "231",
+  "chapter": 23,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 699,
+    "printed_page": 711
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0699_01_231.jpg",
+      "pdf_page": 699,
+      "printed_page": 711,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 699,
+      "printed_page": 711,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        439.41050000000024
+      ],
+      "text_raw": "Low-noise amplifiers\n(LNA’s) are the first ampli-\nfiers in receivers. They must\noperate at the same high\nfrequencies as the carriers\nthemselves. For GSM,\nCDMA, etc., these frequen-\ncies are beyond 1 GHz,\nreaching 5 GHz today. In\ncar electronics, frequencies\nare reached beyond tens\nof GHz.\nMoreover, such an ampli-\nfier must be able to handle\nvery small signals close to\nthe noise level and at the\nsame time very high signal levels, close to the transmitter antenna. Noise and distortion are both\nof importance at the same time.\nFinally, the reception antenna is usually connected to the amplifier over a transmission line,\nusually with 50 V characteristic impedance.\nSuch an amplifier is full of compromises, despite its low count of transistors. Indeed, only a\nfew MOSTs are normally used.\nIn this Chapter, these compromises will be discussed. Design equations and guide lines will\nbe given and checked on their accuracy.",
+      "text": "Low-noise amplifiers (LNA’s) are the first amplifiers in receivers. They must operate at the same high frequencies as the carriers themselves. For GSM, CDMA, etc., these frequencies are beyond 1 GHz, reaching 5 GHz today. In car electronics, frequencies are reached beyond tens of GHz. Moreover, such an amplifier must be able to handle very small signals close to the noise level and at the same time very high signal levels, close to the transmitter antenna. Noise and distortion are both of importance at the same time. Finally, the reception antenna is usually connected to the amplifier over a transmission line, usually with 50 V characteristic impedance. Such an amplifier is full of compromises, despite its low count of transistors. Indeed, only a few MOSTs are normally used. In this Chapter, these compromises will be discussed. Design equations and guide lines will be given and checked on their accuracy."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Low-noise amplifiers (LNA’s) are the first amplifiers in receivers. They must operate at the same high frequencies as the carriers themselves. For GSM, CDMA, etc., these frequencies are beyond 1 GHz, reaching 5 GHz today. In car electronics, frequencies are reached beyond tens of GHz. Moreover, such an amplifier must be able to handle very small signals close to the noise level and at the same time very high signal levels, close to the transmitter antenna. Noise and distortion are both of importance at the same time. Finally, the reception antenna is usually connected to the amplifier over a transmission line, usually with 50 V characteristic impedance. Such an amplifier is full of compromises, despite its low count of transistors. Indeed, only a few MOSTs are normally used. In this Chapter, these compromises will be discussed. Design equations and guide lines will be given and checked on their accuracy.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Slide 231",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0699_01_231.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.06915837115321637,
+          0.6143091121040405,
+          0.11193671492094955,
+          0.8646498110905592
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "gIS:SEDES: SA0I0),"
+      },
+      {
+        "bbox": [
+          0.23310810323761266,
+          0.30243902451219506,
+          0.8175675626970721,
+          0.39512195134146344
+        ],
+        "confidence": 1,
+        "text": "Low-Noise Amplifiers"
+      },
+      {
+        "bbox": [
+          0.3812269037412018,
+          0.5946818573380871,
+          0.6354205447851999,
+          0.6606918975282489
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.310810810472973,
+          0.72195122,
+          0.6756756753378379,
+          0.770731707804878
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.3783783815033784,
+          0.7902439021951221,
+          0.6283783815033783,
+          0.8390243900000001
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.347972976858108,
+          0.8731707314634147,
+          0.6587837876689189,
+          0.9024390241463416
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7229729776712229,
+          0.9512195127642277,
+          0.9222972891080564,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 231"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0699_01_231.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Finally, the reception antenna is usually connected to the amplifier over a transmission line, usually with 50 V characteristic impedance.",
+        "pdf_page": 699,
+        "printed_page": 711,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Finally, the reception antenna is usually connected to the amplifier over a transmission line, usually with 50 V characteristic impedance.",
+      "pdf_page": 699,
+      "printed_page": 711,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

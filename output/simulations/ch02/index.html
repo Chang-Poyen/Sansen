@@ -1,0 +1,377 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sansen 第二章 · Spectre 仿真</title><link rel="stylesheet" href="../../derivations/ch02/assets/ch02.css"><link rel="stylesheet" href="../../derivations/ch02/assets/katex/katex.min.css"><style>article h4{font-size:18px;margin-top:32px}article img{max-height:780px;object-fit:contain}article>a[id]{scroll-margin-top:20px}nav strong{display:block;margin:15px 10px;font-size:13px}</style></head><body><header><div class="eyebrow">SANSEN · CHAPTER 02 · CADENCE SPECTRE 18.1</div><h1>从推导到实际仿真</h1><p>32 组线性 AC · 7 个 MOS 电路 · 5 组极零分析 · 3 组瞬态验证</p></header><div class="layout"><nav aria-label="仿真目录"><a href="../../derivations/ch02/index.html">← 第二章公式推导</a><a href="../../extraction/index.html">全书抽取数据库</a><a href="report.md">完整 Markdown</a><a href="verification.json">验证数值与运行记录</a><strong>20 组代表模型</strong><a href="#01-intrinsic-gain">01 · 单管增益与 MOS／BJT 比较</a><a href="#02-single-pole">02 · 单极点、GBW 与尺寸数值题</a><a href="#03-miller">03 · 米勒反馈与 RHP 零点</a><a href="#04-degeneration">04 · 源极负反馈与可调跨导</a><a href="#05-diode-loads">05 · 二极管连接与有源负载</a><a href="#06-inverter-dc">06 · CMOS 反相器：DC 与匹配</a><a href="#07-inverter-ac">07 · CMOS 反相器：完整频率响应</a><a href="#08-followers-dc">08 · 源极与射极跟随器：DC</a><a href="#09-followers-hf">09 · 源极跟随器：极点、零点与峰化</a><a href="#10-emitter-hf">10 · 射极跟随器：有限 β 与高频阻抗</a><a href="#11-active-inductors">11 · 有源电感与差分调谐负载</a><a href="#12-common-gate">12 · 共栅级的输入、输出与跨阻</a><a href="#13-cascode">13 · 共源共栅级：有限输出电阻的完整式</a><a href="#14-cascode-miller">14 · 共源共栅级的米勒电容</a><a href="#15-cascode-middle-cap">15 · 共源共栅级中间节点电容</a><a href="#16-telescopic-folded">16 · 套筒式与折叠式共源共栅级</a><a href="#17-cascade">17 · 级联与米勒补偿</a><a href="#18-gain-boosting">18 · 调节型共源共栅级与增益增强</a><a href="#19-doublet-settling">19 · 极零对与高精度建立过程</a><a href="#20-port-summary">20 · MOS／BJT 端口量总结</a></nav><main><div class="links"><a href="report.md">Markdown</a><a href="README.md">模型与重建说明</a><a href="gmid_selection.json">gm/Id 法确定尺寸</a></div><article><h1>第二章：Spectre 仿真与推导对照</h1>
+<p>本轮使用远程 <strong>Cadence Spectre 18.1.0.077</strong> 实际运行网表，通过 <code>virtuoso-bridge-lite 0.8.0</code> 下载原始 PSF。涵盖 20 组推导的代表模型；以下清楚列出每个电路与检查，没有将它等同于逐一完成所有幻灯片电路。</p>
+<h2>结果总览</h2>
+<table>
+<thead>
+<tr>
+<th>验证</th>
+<th align="right">数量</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>显式元件的小信号 AC</td>
+<td align="right">32</td>
+<td>全部通过</td>
+</tr>
+<tr>
+<td>gm/Id 法确定尺寸的 MOS1 电路 AC</td>
+<td align="right">7</td>
+<td>全部通过</td>
+</tr>
+<tr>
+<td>直接极零分析</td>
+<td align="right">5</td>
+<td>全部通过</td>
+</tr>
+<tr>
+<td>极零对／基准瞬态</td>
+<td align="right">3</td>
+<td>全部通过</td>
+</tr>
+<tr>
+<td>MOS 工作区</td>
+<td align="right">10 只</td>
+<td>全部在饱和区</td>
+</tr>
+</tbody></table>
+<p>比较完整式时，AC 与极零位置容许相对误差为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup></mrow><annotation encoding="application/x-tex">2\times10^{-5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span></span>；瞬态容许归一化输出的绝对误差为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup></mrow><annotation encoding="application/x-tex">2\times10^{-5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span></span>。线性 AC 最大误差约 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.59</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup></mrow><annotation encoding="application/x-tex">1.59\times10^{-5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.59</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span></span>，MOS AC 约 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4.69</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></mrow><annotation encoding="application/x-tex">4.69\times10^{-6}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">4.69</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span>，极零位置约 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.93</mn><mo>×</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></mrow><annotation encoding="application/x-tex">1.93\times10^{-6}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1.93</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span>。原始 PSF 有输出有效位数限制。</p>
+<p><a href="verification.json">完整验证记录</a> · <a href="gmid_selection.json">gm/Id 选点与尺寸</a> · <a href="mos_operating_points.json">MOS 工作点</a></p>
+<h2>模型与仿真层级</h2>
+<ol>
+<li><strong>线性元件模型</strong>：使用真正的 Spectre resistor、capacitor、inductor、vccs、vcvs 创建连接。KCL 闭式公式另由 Python 计算，不把完整 H(s) 塞进单个行为源再称作电路验证。增益增强的辅助极点用实际 R/C 实现。</li>
+<li><strong>晶体管模型</strong>：使用明列常数的 MOS1 教学模型，从 DC 扫描取得 gm/Id 与电流密度，选工作点与尺寸，再用 Spectre 求 DC／AC。</li>
+<li><strong>结果比对</strong>：MOS 仿真保留其本征 Cgs；把实际工作点的 gm、gds、电容代入相应完整小信号式。另列教材简式的近似偏差，不把近似失效混成仿真失败。</li>
+</ol>
+<p>没有指定晶圆厂 PDK，因此本轮不作工艺、工艺角、蒙特卡洛 或版图寄生验证。线性 AC 扫至 1 THz、MOS AC 扫至 10 GHz，是检查指定数学模型的极限；这些上限不代表长沟道 MOS 实际可用带宽。</p>
+<h2>gm/Id：先扫描，再选工作点与尺寸</h2>
+<p>NMOS／PMOS 各以 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi><mo>=</mo><mn>20</mn></mrow><annotation encoding="application/x-tex">W=20</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">20</span></span></span></span> µm、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">L=2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">L</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span></span></span></span> µm、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>V</mi><mrow><mi>D</mi><mi>S</mi></mrow></msub><mi mathvariant="normal">∣</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">|V_{DS}|=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">D</span><span class="mord mathnormal mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span> V，扫描 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mrow><mi>O</mi><mi>V</mi></mrow></msub><mo>=</mo><mn>0.05</mn></mrow><annotation encoding="application/x-tex">V_{OV}=0.05</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">O</span><span class="mord mathnormal mtight" style="margin-right:0.22222em;">V</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.05</span></span></span></span>–<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.60</mn></mrow><annotation encoding="application/x-tex">0.60</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.60</span></span></span></span> V，步长 5 mV。教学模型采 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>V</mi><mi>T</mi></msub><mi mathvariant="normal">∣</mi><mo>=</mo><mn>0.45</mn></mrow><annotation encoding="application/x-tex">|V_T|=0.45</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.13889em;">T</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.45</span></span></span></span> V、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mi>P</mi><mo>=</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">KP=100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span></span></span></span> µA/V²、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi><mo>=</mo><mn>0.1</mn></mrow><annotation encoding="application/x-tex">\lambda=0.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.1</span></span></span></span> V⁻¹、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>γ</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\gamma=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05556em;">γ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>t</mi><mrow><mi>o</mi><mi>x</mi></mrow></msub><mo>=</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">t_{ox}=10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7651em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">o</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span> nm。其余参数与引脚 D/G/S/B 顺序保存在网表。</p>
+<p><img loading="lazy" src="assets/gmid_lookup.svg" alt="gm/Id 查表"></p>
+<p>从仿真曲线选 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>g</mi><mi>m</mi></msub><mi mathvariant="normal">/</mi><msub><mi>I</mi><mi>D</mi></msub><mo>=</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">g_m/I_D=10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0785em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">D</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10</span></span></span></span> V⁻¹，对应 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>V</mi><mrow><mi>O</mi><mi>V</mi></mrow></msub><mo>=</mo><mn>0.2</mn></mrow><annotation encoding="application/x-tex">V_{OV}=0.2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">O</span><span class="mord mathnormal mtight" style="margin-right:0.22222em;">V</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.2</span></span></span></span> V；沿用 029 的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mi>B</mi><mi>W</mi><mo>=</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">GBW=100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">GB</span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">100</span></span></span></span> MHz、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>C</mi><mi>L</mi></msub><mo>=</mo><mn>3</mn></mrow><annotation encoding="application/x-tex">C_L=3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">L</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3</span></span></span></span> pF：</p>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>g</mi><mrow><mi>m</mi><mo separator="true">,</mo><mrow><mi mathvariant="normal">t</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>=</mo><mn>2</mn><mi>π</mi><mo stretchy="false">(</mo><mn>100</mn><mtext> </mtext><mrow><mi mathvariant="normal">M</mi><mi mathvariant="normal">H</mi><mi mathvariant="normal">z</mi></mrow><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>3</mn><mtext> </mtext><mrow><mi mathvariant="normal">p</mi><mi mathvariant="normal">F</mi></mrow><mo stretchy="false">)</mo><mo>=</mo><mn>1.88496</mn><mtext> </mtext><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">S</mi></mrow><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">g_{m,\mathrm{target}}=2\pi(100\,\mathrm{MHz})(3\,\mathrm{pF})=1.88496\,\mathrm{mS}.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="mpunct mtight">,</span><span class="mord mtight"><span class="mord mathrm mtight">target</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mopen">(</span><span class="mord">100</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathrm">MHz</span></span><span class="mclose">)</span><span class="mopen">(</span><span class="mord">3</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathrm">pF</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1.88496</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathrm">mS</span></span><span class="mord">.</span></span></span></span></span>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>I</mi><mrow><mi>D</mi><mo separator="true">,</mo><mrow><mi mathvariant="normal">t</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub><mo>=</mo><msub><mi>g</mi><mrow><mi>m</mi><mo separator="true">,</mo><mrow><mi mathvariant="normal">t</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub><mi mathvariant="normal">/</mi><mo stretchy="false">(</mo><msub><mi>g</mi><mi>m</mi></msub><mi mathvariant="normal">/</mi><msub><mi>I</mi><mi>D</mi></msub><mo stretchy="false">)</mo><mo>=</mo><mn>188.496</mn><mtext> </mtext><mi>μ</mi><mi mathvariant="normal">A</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">I_{D,\mathrm{target}}=g_{m,\mathrm{target}}/(g_m/I_D)=188.496\,\mu\mathrm A.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9694em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0785em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">D</span><span class="mpunct mtight">,</span><span class="mord mtight"><span class="mord mathrm mtight">target</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0361em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span><span class="mpunct mtight">,</span><span class="mord mtight"><span class="mord mathrm mtight">target</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0785em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">D</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord">188.496</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">μ</span><span class="mord mathrm">A</span><span class="mord">.</span></span></span></span></span>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>W</mi><mo>=</mo><mfrac><msub><mi>I</mi><mrow><mi>D</mi><mo separator="true">,</mo><mrow><mi mathvariant="normal">t</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">t</mi></mrow></mrow></msub><mrow><msub><mi>I</mi><mrow><mi>D</mi><mo separator="true">,</mo><mrow><mi mathvariant="normal">l</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">k</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">p</mi></mrow></mrow></msub><mi mathvariant="normal">/</mi><msub><mi>W</mi><mrow><mi mathvariant="normal">l</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">k</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">p</mi></mrow></msub></mrow></mfrac><mo>=</mo><mn>171.360</mn><mtext> </mtext><mi>μ</mi><mi mathvariant="normal">m</mi><mo separator="true">,</mo><mspace width="2em"/><mi>L</mi><mo>=</mo><mn>2</mn><mtext> </mtext><mi>μ</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">W=\frac{I_{D,\mathrm{target}}}{I_{D,\mathrm{lookup}}/W_{\mathrm{lookup}}}=171.360\,\mu\mathrm m,\qquad L=2\,\mu\mathrm m.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.3324em;vertical-align:-0.9721em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.0785em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">D</span><span class="mpunct mtight">,</span><span class="mord mtight"><span class="mord mathrm mtight">lookup</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">lookup</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0785em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">D</span><span class="mpunct mtight">,</span><span class="mord mtight"><span class="mord mathrm mtight">target</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9721em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord">171.360</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">μ</span><span class="mord mathrm">m</span><span class="mpunct">,</span><span class="mspace" style="margin-right:2em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">L</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8389em;vertical-align:-0.1944em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">μ</span><span class="mord mathrm">m</span><span class="mord">.</span></span></span></span></span>
+<p>教材忽略沟道长度调制的尺寸式给 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi><mo>=</mo><mn>188.496</mn></mrow><annotation encoding="application/x-tex">W=188.496</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">188.496</span></span></span></span> µm；本次 MOS1 电流含 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>λ</mi><msub><mi>V</mi><mrow><mi>D</mi><mi>S</mi></mrow></msub><mo stretchy="false">)</mo><mo>=</mo><mn>1.1</mn></mrow><annotation encoding="application/x-tex">(1+\lambda V_{DS})=1.1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">λ</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">D</span><span class="mord mathnormal mtight" style="margin-right:0.05764em;">S</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1.1</span></span></span></span>，因此查表选出的 W 较小。这是可解释的模型差异，没有直接把教材尺寸当成 PDK 尺寸。</p>
+<p><a href="netlists/gmid_characterization.scs">MOS1 查表网表</a> · <a href="csv/gmid_lookup.csv">完整查表 CSV</a> · <a href="netlists/mos_validation.scs">七个 MOS 电路网表</a></p>
+<h2>直接极零分析</h2>
+<p>使用 Spectre <code>pz</code>，并设 <code>docancel=no</code>，因此可以看到相消前重叠的极点与零点。PSF 中的位置单位是 Hz；与理论根 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span></span></span></span> 比较前先除以 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mi>π</mi></mrow><annotation encoding="application/x-tex">2\pi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span></span></span></span>。</p>
+<p><img loading="lazy" src="assets/pole_zero.svg" alt="直接极零分析"></p>
+<ul>
+<li>米勒右半平面零点约 <strong>+636.620 MHz</strong>。</li>
+<li>两级米勒补偿右半平面零点约 <strong>+212.207 MHz</strong>。</li>
+<li>跟随器相消案例在 <strong>−13.2629 MHz</strong> 有重叠极点／零点，剩余主极点约 <strong>−4.18829 MHz</strong>。</li>
+<li>跟随器复极点案例得到共轭极点，与二次分母判别式一致。</li>
+</ul>
+<p><a href="pz_results.json">极零解析值与理论值</a></p>
+<h2>极零对与建立过程</h2>
+<p>闭环由受控源、积分电容及一个 R/C 极点构成。输入为延迟 1 µs、上升时间 1 ns 的阶跃；理论参考对有限上升时间作了积分，避免把理想瞬时阶跃误差算给 Spectre。</p>
+<p><img loading="lazy" src="assets/doublet_transient.svg" alt="极零对的 Spectre 瞬态"></p>
+<p>单极点基准达到 0.1% 误差约需 <strong>1.101 µs</strong>；具有极零对引起的慢尾响应的案例约需 <strong>184.641 µs</strong>。另有一个慢速留数为负的案例呈现过冲，约 <strong>30.741 µs</strong> 进入 0.1% 范围。建立时间依下载波形的最后超差点估算，其时间分辨率受保存样点限制。</p>
+<p><a href="netlists/doublet_transient.scs">瞬态网表</a> · <a href="transient_results.json">瞬态验证数值</a></p>
+<h2>逐组电路、波形与近似差异</h2>
+<p><a id="01-intrinsic-gain"></a></p>
+<h3>01 · 单管增益与 MOS／BJT 比较</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/01-intrinsic-gain.html">完整公式推导</a></p>
+<h4>intrinsic · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>5e-08</strong>；保存点数：721。</p>
+<p>教材近似式另行比较：在 1 Hz–1 MHz，最大相对偏差为 <strong>0%</strong>。此数字与完整式验证分开；橙色虚线显示近似式。</p>
+<p><img loading="lazy" src="assets/intrinsic.svg" alt="intrinsic 仿真对照"></p>
+<p><a href="csv/intrinsic.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p><a id="02-single-pole"></a></p>
+<h3>02 · 单极点、GBW 与尺寸数值题</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/02-single-pole.html">完整公式推导</a></p>
+<h4>loaded_cs · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.57e-06</strong>；保存点数：721。</p>
+<p>教材近似式另行比较：在 1 Hz–1 MHz，最大相对偏差为 <strong>7.36e-05%</strong>。此数字与完整式验证分开；橙色虚线显示近似式。</p>
+<p><img loading="lazy" src="assets/loaded_cs.svg" alt="loaded_cs 仿真对照"></p>
+<p><a href="csv/loaded_cs.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>mos_cs · MOS1 教学晶体管</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.57e-06</strong>；保存点数：601。</p>
+<p>DC 输出：1 V；所有器件通过饱和区检查。完整式使用实际工作点的 gm、gds 与 Cgs。</p>
+<p><img loading="lazy" src="assets/mos_cs.svg" alt="mos_cs 仿真对照"></p>
+<p><a href="csv/mos_cs.csv">波形 CSV</a> · <a href="netlists/mos_validation.scs">运行网表</a></p>
+<p><a id="03-miller"></a></p>
+<h3>03 · 米勒反馈与 RHP 零点</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/03-miller.html">完整公式推导</a></p>
+<h4>miller · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.17e-06</strong>；保存点数：721。</p>
+<p>教材近似式另行比较：在 1 Hz–1 MHz，最大相对偏差为 <strong>5.77%</strong>。此数字与完整式验证分开；橙色虚线显示近似式。</p>
+<p><img loading="lazy" src="assets/miller.svg" alt="miller 仿真对照"></p>
+<p><a href="csv/miller.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>miller_low_rs · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>3.77e-06</strong>；保存点数：721。</p>
+<p>教材近似式另行比较：在 1 Hz–1 MHz，最大相对偏差为 <strong>15.9%</strong>。此数字与完整式验证分开；橙色虚线显示近似式。</p>
+<p><img loading="lazy" src="assets/miller_low_rs.svg" alt="miller_low_rs 仿真对照"></p>
+<p><a href="csv/miller_low_rs.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>miller_high_rs · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.63e-06</strong>；保存点数：721。</p>
+<p>教材近似式另行比较：在 1 Hz–1 MHz，最大相对偏差为 <strong>1.06%</strong>。此数字与完整式验证分开；橙色虚线显示近似式。</p>
+<p><img loading="lazy" src="assets/miller_high_rs.svg" alt="miller_high_rs 仿真对照"></p>
+<p><a href="csv/miller_high_rs.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>mos_miller · MOS1 教学晶体管</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.5e-06</strong>；保存点数：601。</p>
+<p>DC 输出：1 V；所有器件通过饱和区检查。完整式使用实际工作点的 gm、gds 与 Cgs。</p>
+<p><img loading="lazy" src="assets/mos_miller.svg" alt="mos_miller 仿真对照"></p>
+<p><a href="csv/mos_miller.csv">波形 CSV</a> · <a href="netlists/mos_validation.scs">运行网表</a></p>
+<p>本组另有直接 PZ 结果：miller。详见上方极零图与 JSON。</p>
+<p><a id="04-degeneration"></a></p>
+<h3>04 · 源极负反馈与可调跨导</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/04-degeneration.html">完整公式推导</a></p>
+<h4>degeneration · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>2e-08</strong>；保存点数：721。</p>
+<p>教材近似式另行比较：在 1 Hz–1 MHz，最大相对偏差为 <strong>61%</strong>。此数字与完整式验证分开；橙色虚线显示近似式。</p>
+<p><img loading="lazy" src="assets/degeneration.svg" alt="degeneration 仿真对照"></p>
+<p><a href="csv/degeneration.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>degeneration_zin · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>1.59e-05</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/degeneration_zin.svg" alt="degeneration_zin 仿真对照"></p>
+<p><a href="csv/degeneration_zin.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>mos_degen · MOS1 教学晶体管</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.23e-06</strong>；保存点数：601。</p>
+<p>DC 输出：1.2 V；所有器件通过饱和区检查。完整式使用实际工作点的 gm、gds 与 Cgs。</p>
+<p><img loading="lazy" src="assets/mos_degen.svg" alt="mos_degen 仿真对照"></p>
+<p><a href="csv/mos_degen.csv">波形 CSV</a> · <a href="netlists/mos_validation.scs">运行网表</a></p>
+<p><a id="05-diode-loads"></a></p>
+<h3>05 · 二极管连接与有源负载</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/05-diode-loads.html">完整公式推导</a></p>
+<h4>diode_z · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.55e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/diode_z.svg" alt="diode_z 仿真对照"></p>
+<p><a href="csv/diode_z.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>diode_load · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>3.98e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/diode_load.svg" alt="diode_load 仿真对照"></p>
+<p><a href="csv/diode_load.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>mos_diode_load · MOS1 教学晶体管</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>3.29e-06</strong>；保存点数：601。</p>
+<p>DC 输出：0.65 V；所有器件通过饱和区检查。完整式使用实际工作点的 gm、gds 与 Cgs。</p>
+<p><img loading="lazy" src="assets/mos_diode_load.svg" alt="mos_diode_load 仿真对照"></p>
+<p><a href="csv/mos_diode_load.csv">波形 CSV</a> · <a href="netlists/mos_validation.scs">运行网表</a></p>
+<p><a id="06-inverter-dc"></a></p>
+<h3>06 · CMOS 反相器：DC 与匹配</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/06-inverter-dc.html">完整公式推导</a></p>
+<h4>inverter_dc · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/inverter_dc.svg" alt="inverter_dc 仿真对照"></p>
+<p><a href="csv/inverter_dc.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p><a id="07-inverter-ac"></a></p>
+<h3>07 · CMOS 反相器：完整频率响应</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/07-inverter-ac.html">完整公式推导</a></p>
+<h4>inverter_ac · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.82e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/inverter_ac.svg" alt="inverter_ac 仿真对照"></p>
+<p><a href="csv/inverter_ac.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>mos_inverter · MOS1 教学晶体管</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.69e-06</strong>；保存点数：601。</p>
+<p>DC 输出：0.65 V；所有器件通过饱和区检查。完整式使用实际工作点的 gm、gds 与 Cgs。</p>
+<p><img loading="lazy" src="assets/mos_inverter.svg" alt="mos_inverter 仿真对照"></p>
+<p><a href="csv/mos_inverter.csv">波形 CSV</a> · <a href="netlists/mos_validation.scs">运行网表</a></p>
+<p><a id="08-followers-dc"></a></p>
+<h3>08 · 源极与射极跟随器：DC</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/08-followers-dc.html">完整公式推导</a></p>
+<h4>follower_dc · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.36e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/follower_dc.svg" alt="follower_dc 仿真对照"></p>
+<p><a href="csv/follower_dc.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p><a id="09-followers-hf"></a></p>
+<h3>09 · 源极跟随器：极点、零点与峰化</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/09-followers-hf.html">完整公式推导</a></p>
+<h4>follower_cancel · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.06e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/follower_cancel.svg" alt="follower_cancel 仿真对照"></p>
+<p><a href="csv/follower_cancel.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>follower_cancel_z · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.28e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/follower_cancel_z.svg" alt="follower_cancel_z 仿真对照"></p>
+<p><a href="csv/follower_cancel_z.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>follower_book · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>3.96e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/follower_book.svg" alt="follower_book 仿真对照"></p>
+<p><a href="csv/follower_book.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>follower_book_z · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.41e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/follower_book_z.svg" alt="follower_book_z 仿真对照"></p>
+<p><a href="csv/follower_book_z.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>follower_center · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>5e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/follower_center.svg" alt="follower_center 仿真对照"></p>
+<p><a href="csv/follower_center.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>follower_center_z · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.17e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/follower_center_z.svg" alt="follower_center_z 仿真对照"></p>
+<p><a href="csv/follower_center_z.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>mos_follower · MOS1 教学晶体管</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>3.76e-06</strong>；保存点数：601。</p>
+<p>DC 输出：1 V；所有器件通过饱和区检查。完整式使用实际工作点的 gm、gds 与 Cgs。</p>
+<p><img loading="lazy" src="assets/mos_follower.svg" alt="mos_follower 仿真对照"></p>
+<p><a href="csv/mos_follower.csv">波形 CSV</a> · <a href="netlists/mos_validation.scs">运行网表</a></p>
+<p>本组另有直接 PZ 结果：follower_cancel、follower_center。详见上方极零图与 JSON。</p>
+<p><a id="10-emitter-hf"></a></p>
+<h3>10 · 射极跟随器：有限 β 与高频阻抗</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/10-emitter-hf.html">完整公式推导</a></p>
+<h4>bjt_follower_z · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.03e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/bjt_follower_z.svg" alt="bjt_follower_z 仿真对照"></p>
+<p><a href="csv/bjt_follower_z.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p><a id="11-active-inductors"></a></p>
+<h3>11 · 有源电感与差分调谐负载</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/11-active-inductors.html">完整公式推导</a></p>
+<h4>active_inductor · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>3.83e-06</strong>；保存点数：721。</p>
+<p>教材近似式另行比较：在 1 Hz–1 MHz，最大相对偏差为 <strong>0.314%</strong>。此数字与完整式验证分开；橙色虚线显示近似式。</p>
+<p><img loading="lazy" src="assets/active_inductor.svg" alt="active_inductor 仿真对照"></p>
+<p><a href="csv/active_inductor.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p><a id="12-common-gate"></a></p>
+<h3>12 · 共栅级的输入、输出与跨阻</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/12-common-gate.html">完整公式推导</a></p>
+<h4>common_gate · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.46e-07</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/common_gate.svg" alt="common_gate 仿真对照"></p>
+<p><a href="csv/common_gate.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p><a id="13-cascode"></a></p>
+<h3>13 · 共源共栅级：有限输出电阻的完整式</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/13-cascode.html">完整公式推导</a></p>
+<h4>cascode · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.9e-06</strong>；保存点数：721。</p>
+<p>教材近似式另行比较：在 1 Hz–1 MHz，最大相对偏差为 <strong>0.991%</strong>。此数字与完整式验证分开；橙色虚线显示近似式。</p>
+<p><img loading="lazy" src="assets/cascode.svg" alt="cascode 仿真对照"></p>
+<p><a href="csv/cascode.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>mos_cascode · MOS1 教学晶体管</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.37e-06</strong>；保存点数：601。</p>
+<p>DC 输出：2 V；所有器件通过饱和区检查。完整式使用实际工作点的 gm、gds 与 Cgs。</p>
+<p><img loading="lazy" src="assets/mos_cascode.svg" alt="mos_cascode 仿真对照"></p>
+<p><a href="csv/mos_cascode.csv">波形 CSV</a> · <a href="netlists/mos_validation.scs">运行网表</a></p>
+<p><a id="14-cascode-miller"></a></p>
+<h3>14 · 共源共栅级的米勒电容</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/14-cascode-miller.html">完整公式推导</a></p>
+<h4>cascode_miller · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.95e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/cascode_miller.svg" alt="cascode_miller 仿真对照"></p>
+<p><a href="csv/cascode_miller.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p><a id="15-cascode-middle-cap"></a></p>
+<h3>15 · 共源共栅级中间节点电容</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/15-cascode-middle-cap.html">完整公式推导</a></p>
+<h4>cascode_cm_small · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.89e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/cascode_cm_small.svg" alt="cascode_cm_small 仿真对照"></p>
+<p><a href="csv/cascode_cm_small.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>cascode_cm_large · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.95e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/cascode_cm_large.svg" alt="cascode_cm_large 仿真对照"></p>
+<p><a href="csv/cascode_cm_large.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p><a id="16-telescopic-folded"></a></p>
+<h3>16 · 套筒式与折叠式共源共栅级</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/16-telescopic-folded.html">完整公式推导</a></p>
+<h4>telescopic · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.9e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/telescopic.svg" alt="telescopic 仿真对照"></p>
+<p><a href="csv/telescopic.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>folded · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.37e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/folded.svg" alt="folded 仿真对照"></p>
+<p><a href="csv/folded.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p><a id="17-cascade"></a></p>
+<h3>17 · 级联与米勒补偿</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/17-cascade.html">完整公式推导</a></p>
+<h4>two_stage · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.4e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/two_stage.svg" alt="two_stage 仿真对照"></p>
+<p><a href="csv/two_stage.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p>本组另有直接 PZ 结果：two_stage。详见上方极零图与 JSON。</p>
+<p><a id="18-gain-boosting"></a></p>
+<h3>18 · 调节型共源共栅级与增益增强</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/18-gain-boosting.html">完整公式推导</a></p>
+<h4>gainboost_slow · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.89e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/gainboost_slow.svg" alt="gainboost_slow 仿真对照"></p>
+<p><a href="csv/gainboost_slow.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>gainboost_fast · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>4.86e-06</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/gainboost_fast.svg" alt="gainboost_fast 仿真对照"></p>
+<p><a href="csv/gainboost_fast.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<p>本组另有直接 PZ 结果：gainboost_slow。详见上方极零图与 JSON。</p>
+<p><a id="19-doublet-settling"></a></p>
+<h3>19 · 极零对与高精度建立过程</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/19-doublet-settling.html">完整公式推导</a></p>
+<p>本组的三个瞬态情境及波形见上方极零对小节。</p>
+<p><a id="20-port-summary"></a></p>
+<h3>20 · MOS／BJT 端口量总结</h3>
+<p>本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。</p>
+<p><a href="../../derivations/ch02/20-port-summary.html">完整公式推导</a></p>
+<h4>bjt_degen_gain · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>5.77e-07</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/bjt_degen_gain.svg" alt="bjt_degen_gain 仿真对照"></p>
+<p><a href="csv/bjt_degen_gain.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h4>bjt_degen_zout · 显式小信号组件</h4>
+<p>由 Spectre 输出的复数波形，逐频点与完整式比较；相位与正负号均纳入。
+最大相对误差：<strong>3.26e-07</strong>；保存点数：721。</p>
+<p><img loading="lazy" src="assets/bjt_degen_zout.svg" alt="bjt_degen_zout 仿真对照"></p>
+<p><a href="csv/bjt_degen_zout.csv">波形 CSV</a> · <a href="netlists/linear_suite.scs">运行网表</a></p>
+<h2>尚待延伸的验证</h2>
+<ul>
+<li>以实际 PDK 替换 MOS1，重新产生 gm/Id、电容和增益查表。</li>
+<li>本轮针对各推导组的代表模型；例如 0216 的线性区可调 M2、0246–0247 的完整有源电感实现，仍需各自的器件级偏置与稳定性案例。</li>
+<li>BJT 目前使用显式 混合 π 型 等效元件；未使用工艺 BJT 模型扫描偏置。</li>
+<li>0244 的教材原模型／符号仍待厘清；仿真验证了本项目明列的等效模型，不能反向证明该教材原式。</li>
+</ul>
+<h2>重现与原始数据</h2>
+<p>所有正式网表、CSV、图及原始 PSF 都保存在本地工作区。远程 <code>/tmp</code> 只用作运行暂存；不依赖其长期存在。运行命令、exit code 与网表 SHA-256 保存在各 run 的 <code>result.json</code>。</p>
+<p><a href="README.md">使用与重建说明</a> · <a href="verification.json">运行记录索引</a></p>
+</article><footer>本地离线页面。原始 Spectre PSF、netlist 与解析结果保存在工作区。MOS1 为教学模型，尚无 晶圆厂 PDK 验证。</footer></main></div></body></html>

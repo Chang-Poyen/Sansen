@@ -1,0 +1,263 @@
+{
+  "case_id": "SANSEN-2014",
+  "slide_id": "2014",
+  "chapter": 20,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 598,
+    "printed_page": 609
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0598_02_2014.jpg",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "bbox_pt": [
+        91.521622,
+        455.358002,
+        374.78981,
+        651.817993
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 598,
+      "printed_page": 609,
+      "bbox_pt": [
+        0,
+        451.3685000000003,
+        595,
+        797
+      ],
+      "text_raw": "Nevertheless better match-\ning can be obtained by\nmeans of capacitors rather\nthan with transistors. If a\nresolution of 10 bit can be\neasily obtained with a resis-\ntor bank, then 12 bit can\nbe obtained with a matched\ncapacitor bank (see\nChapter 15).\nAn example of such 3-bit\ncapacitor bank is shown in\nthis slide. The larger capaci-\ntor 4C consists of 4 equal\ncapacitors C laid out prop-\nerly (see Chapter 15).\nBy means of charge redistribution, the output voltage is a sum of binary fractions of the\nreference voltage V .\nref\nIn clock phase W1 (as shown) all binary capacitors are charged to V .\nref",
+      "text": "Nevertheless better matching can be obtained by means of capacitors rather than with transistors. If a resolution of 10 bit can be easily obtained with a resistor bank, then 12 bit can be obtained with a matched capacitor bank (see Chapter 15). An example of such 3-bit capacitor bank is shown in this slide. The larger capacitor 4C consists of 4 equal capacitors C laid out properly (see Chapter 15). By means of charge redistribution, the output voltage is a sum of binary fractions of the reference voltage V . ref In clock phase W1 (as shown) all binary capacitors are charged to V . ref"
+    },
+    {
+      "pdf_page": 599,
+      "printed_page": 610,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        225.06328999999982
+      ],
+      "text_raw": "The output voltage holds the voltage obtained during the previous clock phase.\nIn clock phase W2, the charge of the capacitors which belong to the switches connected to\nground, is transferred to the output capacitor 8C.\nThe output voltage then changes depending on the charge transferred from these capacitors.\nNote that this circuit suffers from the same problems as switched capacitors filters. They can\neasily achieve a 70 dB dynamic range corresponding to about 12 bit, but not much more.",
+      "text": "The output voltage holds the voltage obtained during the previous clock phase. In clock phase W2, the charge of the capacitors which belong to the switches connected to ground, is transferred to the output capacitor 8C. The output voltage then changes depending on the charge transferred from these capacitors. Note that this circuit suffers from the same problems as switched capacitors filters. They can easily achieve a 70 dB dynamic range corresponding to about 12 bit, but not much more."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Nevertheless better matching can be obtained by means of capacitors rather than with transistors. If a resolution of 10 bit can be easily obtained with a resistor bank, then 12 bit can be obtained with a matched capacitor bank (see Chapter 15). An example of such 3-bit capacitor bank is shown in this slide. The larger capacitor 4C consists of 4 equal capacitors C laid out properly (see Chapter 15). By means of charge redistribution, the output voltage is a sum of binary fractions of the reference voltage V . ref In clock phase W1 (as shown) all binary capacitors are charged to V . ref\n\nThe output voltage holds the voltage obtained during the previous clock phase. In clock phase W2, the charge of the capacitors which belong to the switches connected to ground, is transferred to the output capacitor 8C. The output voltage then changes depending on the charge transferred from these capacitors. Note that this circuit suffers from the same problems as switched capacitors filters. They can easily achieve a 70 dB dynamic range corresponding to about 12 bit, but not much more.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "3-bit charge redistribution DAC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0598_02_2014.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432306949807,
+          0.07317073219512193,
+          0.6486486473938224,
+          0.14146341512195115
+        ],
+        "confidence": 1,
+        "text": "3-bit charge redistribution DAC"
+      },
+      {
+        "bbox": [
+          0.6858108101320318,
+          0.24390243951219515,
+          0.7027027036348601,
+          0.2829268297560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•."
+      },
+      {
+        "bbox": [
+          0.1891891890202703,
+          0.3707317071646341,
+          0.2162162160472973,
+          0.39512195106707315
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4C"
+      },
+      {
+        "bbox": [
+          0.1858108112331081,
+          0.45853658530487806,
+          0.21959459501689188,
+          0.49268292676829273
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B20"
+      },
+      {
+        "bbox": [
+          0.6993243236908784,
+          0.36097561,
+          0.749999999366554,
+          0.40000000024390236
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.631756757179054,
+          0.49756097536585364,
+          0.6655405409628378,
+          0.536585365609756
+        ],
+        "confidence": 1,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.08783783830236484,
+          0.5219512190243902,
+          0.16554054100506754,
+          0.5609756092682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vref Ф1"
+      },
+      {
+        "bbox": [
+          0.5168918956756756,
+          0.6634146335609757,
+          0.9358108145945945,
+          0.7219512189268293
+        ],
+        "confidence": 1,
+        "text": "Better capacitive matching !"
+      },
+      {
+        "bbox": [
+          0.09797297179054057,
+          0.7707317067479674,
+          0.17567567449324326,
+          0.804878048211382
+        ],
+        "confidence": 0.5,
+        "text": "Phase"
+      },
+      {
+        "bbox": [
+          0.1921452705126754,
+          0.7756097563414633,
+          0.21959459403153153,
+          0.8000000002439024
+        ],
+        "confidence": 0.5,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7297297276013514,
+          0.9414634149268293,
+          0.9425675654391892,
+          0.9902439027317073
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 2014"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "An example of such 3-bit capacitor bank is shown in this slide.",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "By means of charge redistribution, the output voltage is a sum of binary fractions of the reference voltage V . ref In clock phase W1 (as shown) all binary capacitors are charged to V . ref",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0598_02_2014.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In clock phase W2, the charge of the capacitors which belong to the switches connected to ground, is transferred to the output capacitor 8C.",
+        "pdf_page": 599,
+        "printed_page": 610,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The larger capacitor 4C consists of 4 equal capacitors C laid out properly (see Chapter 15).",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output voltage then changes depending on the charge transferred from these capacitors.",
+      "pdf_page": 599,
+      "printed_page": 610,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "By means of charge redistribution, the output voltage is a sum of binary fractions of the reference voltage V . ref In clock phase W1 (as shown) all binary capacitors are charged to V . ref",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output voltage holds the voltage obtained during the previous clock phase.",
+      "pdf_page": 599,
+      "printed_page": 610,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In clock phase W2, the charge of the capacitors which belong to the switches connected to ground, is transferred to the output capacitor 8C.",
+      "pdf_page": 599,
+      "printed_page": 610,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

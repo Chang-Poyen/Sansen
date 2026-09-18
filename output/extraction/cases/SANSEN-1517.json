@@ -1,0 +1,607 @@
+{
+  "case_id": "SANSEN-1517",
+  "slide_id": "1517",
+  "chapter": 15,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 421,
+    "printed_page": 429
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0421_01_1517.jpg",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "bbox_pt": [
+        91.521622,
+        193.27844299999992,
+        374.78981,
+        389.738434
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 421,
+      "printed_page": 429,
+      "bbox_pt": [
+        0,
+        189.2888999999999,
+        595,
+        570.9485000000002
+      ],
+      "text_raw": "Besides the offset voltage, a\ndifferential pair has another\nspecification, which also\nreflects the influences of\nthe spreadings. It is the\nCMRR or Common-mode\nRejection Ratio.\nRemember (from Chap-\nter 3) that a differential pair\nhas two inputs, which are\nbetter converted into a\ndifferential input v and a\nid\ncommon-mode (or average)\ninput v . The same applies\nic\nto the outputs. In this way\ninsight can be built up about\nthe actual operation.\nAs a result, we find four different gains. Up till now we have concentrated on the differential-\nto-differential gain A . This gain is easy to calculate as it is the differential output voltage v\ndd od\nobtained for a differential input voltage v , when the common-mode input voltage v is zero.\nid ic\nIn this case the differential-to-common-mode gain A does not play a role.\ndc\nIf the differential pair is driven with a common-mode voltage however, the gain A may come\ndc\nin. It is defined as the differential output voltage v obtained for a common-mode input voltage\nod\nv , when the differential input voltage v is zero. This situation is sketched in this slide. A\nic id\ncommon-mode input voltage v is applied and the differential output voltage v is measured.\ninc od\nThe ratio of the two gains is the CMRR. It is infinity if gain A (and not A !) is zero. Note\ndc cc\nalso that the CMRR does not play a role for a purely differential drive (v =0).\nic",
+      "text": "Besides the offset voltage, a differential pair has another specification, which also reflects the influences of the spreadings. It is the CMRR or Common-mode Rejection Ratio. Remember (from Chapter 3) that a differential pair has two inputs, which are better converted into a differential input v and a id common-mode (or average) input v . The same applies ic to the outputs. In this way insight can be built up about the actual operation. As a result, we find four different gains. Up till now we have concentrated on the differentialto-differential gain A . This gain is easy to calculate as it is the differential output voltage v dd od obtained for a differential input voltage v , when the common-mode input voltage v is zero. id ic In this case the differential-to-common-mode gain A does not play a role. dc If the differential pair is driven with a common-mode voltage however, the gain A may come dc in. It is defined as the differential output voltage v obtained for a common-mode input voltage od v , when the differential input voltage v is zero. This situation is sketched in this slide. A ic id common-mode input voltage v is applied and the differential output voltage v is measured. inc od The ratio of the two gains is the CMRR. It is infinity if gain A (and not A !) is zero. Note dc cc also that the CMRR does not play a role for a purely differential drive (v =0). ic"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Besides the offset voltage, a differential pair has another specification, which also reflects the influences of the spreadings. It is the CMRR or Common-mode Rejection Ratio. Remember (from Chapter 3) that a differential pair has two inputs, which are better converted into a differential input v and a id common-mode (or average) input v . The same applies ic to the outputs. In this way insight can be built up about the actual operation. As a result, we find four different gains. Up till now we have concentrated on the differentialto-differential gain A . This gain is easy to calculate as it is the differential output voltage v dd od obtained for a differential input voltage v , when the common-mode input voltage v is zero. id ic In this case the differential-to-common-mode gain A does not play a role. dc If the differential pair is driven with a common-mode voltage however, the gain A may come dc in. It is defined as the differential output voltage v obtained for a common-mode input voltage od v , when the differential input voltage v is zero. This situation is sketched in this slide. A ic id common-mode input voltage v is applied and the differential output voltage v is measured. inc od The ratio of the two gains is the CMRR. It is infinity if gain A (and not A !) is zero. Note dc cc also that the CMRR does not play a role for a purely differential drive (v =0). ic",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Random CMRR in differential pair -1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0421_01_1517.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433010979714,
+          0.08780487884146337,
+          0.733108113893581,
+          0.1512195129878049
+        ],
+        "confidence": 1,
+        "text": "Random CMRR in differential pair -1"
+      },
+      {
+        "bbox": [
+          0.16554054025096526,
+          0.25365853616724743,
+          0.21283783754826255,
+          0.312195121533101
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.10472972901182433,
+          0.34146341475609754,
+          0.16216216144425677,
+          0.39024390256097563
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vo1"
+      },
+      {
+        "bbox": [
+          0.08783783837837837,
+          0.4585365852682928,
+          0.14189189243243244,
+          0.49756097551219525
+        ],
+        "confidence": 1,
+        "text": "Vinc"
+      },
+      {
+        "bbox": [
+          0.2972972971283784,
+          0.37560975567073174,
+          0.31756756739864866,
+          0.4097560971341463
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.253378378856982,
+          0.41463414613821137,
+          0.31081081128941446,
+          0.45853658516260165
+        ],
+        "confidence": 0.5,
+        "text": "Vod"
+      },
+      {
+        "bbox": [
+          0.3542561837661092,
+          0.27538270038785206,
+          0.48020327257473594,
+          0.32949534877027153
+        ],
+        "confidence": 1,
+        "text": "RL+ARL"
+      },
+      {
+        "bbox": [
+          0.4121621625723938,
+          0.3414634144250872,
+          0.46959459500482625,
+          0.3902439022299652
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vo2"
+      },
+      {
+        "bbox": [
+          0.3850982651497065,
+          0.41439630433050445,
+          0.5203071425069833,
+          0.4587744267997784
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ДK' AW/L"
+      },
+      {
+        "bbox": [
+          0.45945946000000004,
+          0.46829268341463415,
+          0.5202702708108109,
+          0.5170731712195121
+        ],
+        "confidence": 1,
+        "text": "AVT"
+      },
+      {
+        "bbox": [
+          0.15202702808277024,
+          0.7463414632926828,
+          0.2364864875422297,
+          0.8048780486585365
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RB 3"
+      },
+      {
+        "bbox": [
+          0.33445945976914415,
+          0.7463414632113821,
+          0.3716216219313063,
+          0.7999999997967479
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Iв"
+      },
+      {
+        "bbox": [
+          0.5878378416807432,
+          0.2536585373170732,
+          0.9020270308699323,
+          0.31219512268292693
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vod = Add Vid + Adc Vic"
+      },
+      {
+        "bbox": [
+          0.587837840057915,
+          0.31219512184668985,
+          0.8986486508687258,
+          0.36585365843205575
+        ],
+        "confidence": 0.5,
+        "text": "Voc = Acd Vid + Acc Vic"
+      },
+      {
+        "bbox": [
+          0.652027026665058,
+          0.44878048794425096,
+          0.7027027023407336,
+          0.49756097574912894
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vod"
+      },
+      {
+        "bbox": [
+          0.5608108114864865,
+          0.482926828902439,
+          0.6418918925675675,
+          0.5365853654878049
+        ],
+        "confidence": 0.5,
+        "text": "Add ="
+      },
+      {
+        "bbox": [
+          0.6554054058277027,
+          0.5170731713414634,
+          0.7027027031249999,
+          0.5658536591463414
+        ],
+        "confidence": 1,
+        "text": "Vid"
+      },
+      {
+        "bbox": [
+          0.7162162160472973,
+          0.5365853665853658,
+          0.7939189187500001,
+          0.5804878056097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vic = 0"
+      },
+      {
+        "bbox": [
+          0.6554054047297297,
+          0.5951219504878049,
+          0.7027027020270271,
+          0.6390243895121951
+        ],
+        "confidence": 1,
+        "text": "Vod"
+      },
+      {
+        "bbox": [
+          0.5608108103378379,
+          0.6292682921463415,
+          0.6148648643918919,
+          0.6829268287317073
+        ],
+        "confidence": 1,
+        "text": "Adc"
+      },
+      {
+        "bbox": [
+          0.6148648652027027,
+          0.6341463412195123,
+          0.6418918922297298,
+          0.6634146339024392
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.6554054060388513,
+          0.6634146342682927,
+          0.7060810817145271,
+          0.7121951220731708
+        ],
+        "confidence": 1,
+        "text": "Vic"
+      },
+      {
+        "bbox": [
+          0.7162162160472973,
+          0.68292683,
+          0.7939189187500001,
+          0.7268292690243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vid = 0"
+      },
+      {
+        "bbox": [
+          0.6891891899493243,
+          0.7707317073780489,
+          0.7500000007601352,
+          0.8243902439634146
+        ],
+        "confidence": 1,
+        "text": "Add"
+      },
+      {
+        "bbox": [
+          0.5574324336486487,
+          0.8097560973658536,
+          0.6790540552702703,
+          0.8487804876097561
+        ],
+        "confidence": 1,
+        "text": "CMRR ="
+      },
+      {
+        "bbox": [
+          0.6891891898226351,
+          0.8390243909756098,
+          0.7466216222550676,
+          0.8975609763414635
+        ],
+        "confidence": 1,
+        "text": "Adc"
+      },
+      {
+        "bbox": [
+          0.8108108123310811,
+          0.482926829207317,
+          0.9324324339527028,
+          0.5365853657926829
+        ],
+        "confidence": 0.5,
+        "text": "= 9m RL"
+      },
+      {
+        "bbox": [
+          0.8175675677364865,
+          0.6292682921341464,
+          0.8648648650337839,
+          0.6731707311585365
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 0"
+      },
+      {
+        "bbox": [
+          0.7094594694505021,
+          0.9463414631707318,
+          0.9222972944008492,
+          0.9804878046341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 100s 1517"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "As a result, we find four different gains.",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This gain is easy to calculate as it is the differential output voltage v dd od obtained for a differential input voltage v , when the common-mode input voltage v is zero. id ic In this case the differential-to-common-mode gain A does not play a role. dc If the differential pair is driven with a common-mode voltage however, the gain A may come dc in.",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0421_01_1517.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, we find four different gains.",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Up till now we have concentrated on the differentialto-differential gain A .",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This gain is easy to calculate as it is the differential output voltage v dd od obtained for a differential input voltage v , when the common-mode input voltage v is zero. id ic In this case the differential-to-common-mode gain A does not play a role. dc If the differential pair is driven with a common-mode voltage however, the gain A may come dc in.",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is infinity if gain A (and not A !) is zero.",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1517-M01",
+      "ocr_text": "Vod = Add Vid + Adc Vic",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5878378416807432,
+        0.2536585373170732,
+        0.9020270308699323,
+        0.31219512268292693
+      ],
+      "context_crop": "regions/SANSEN-1517_math_01.png",
+      "context_bbox_normalized": [
+        0.5478378416807431,
+        0.1536585373170732,
+        1,
+        0.44219512268292693
+      ],
+      "source_image": "slides/p0421_01_1517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1517-M02",
+      "ocr_text": "Voc = Acd Vid + Acc Vic",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.587837840057915,
+        0.31219512184668985,
+        0.8986486508687258,
+        0.36585365843205575
+      ],
+      "context_crop": "regions/SANSEN-1517_math_02.png",
+      "context_bbox_normalized": [
+        0.5478378400579149,
+        0.21219512184668984,
+        1,
+        0.49585365843205575
+      ],
+      "source_image": "slides/p0421_01_1517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1517-M03",
+      "ocr_text": "Add =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5608108114864865,
+        0.482926828902439,
+        0.6418918925675675,
+        0.5365853654878049
+      ],
+      "context_crop": "regions/SANSEN-1517_math_03.png",
+      "context_bbox_normalized": [
+        0.5208108114864864,
+        0.382926828902439,
+        0.8718918925675675,
+        0.6665853654878049
+      ],
+      "source_image": "slides/p0421_01_1517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1517-M04",
+      "ocr_text": "Vic = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7162162160472973,
+        0.5365853665853658,
+        0.7939189187500001,
+        0.5804878056097561
+      ],
+      "context_crop": "regions/SANSEN-1517_math_04.png",
+      "context_bbox_normalized": [
+        0.6762162160472973,
+        0.43658536658536584,
+        1,
+        0.7104878056097561
+      ],
+      "source_image": "slides/p0421_01_1517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1517-M05",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.6148648652027027,
+        0.6341463412195123,
+        0.6418918922297298,
+        0.6634146339024392
+      ],
+      "context_crop": "regions/SANSEN-1517_math_05.png",
+      "context_bbox_normalized": [
+        0.5748648652027026,
+        0.5341463412195123,
+        0.8718918922297297,
+        0.7934146339024392
+      ],
+      "source_image": "slides/p0421_01_1517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1517-M06",
+      "ocr_text": "Vid = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7162162160472973,
+        0.68292683,
+        0.7939189187500001,
+        0.7268292690243903
+      ],
+      "context_crop": "regions/SANSEN-1517_math_06.png",
+      "context_bbox_normalized": [
+        0.6762162160472973,
+        0.58292683,
+        1,
+        0.8568292690243903
+      ],
+      "source_image": "slides/p0421_01_1517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1517-M07",
+      "ocr_text": "CMRR =",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.5574324336486487,
+        0.8097560973658536,
+        0.6790540552702703,
+        0.8487804876097561
+      ],
+      "context_crop": "regions/SANSEN-1517_math_07.png",
+      "context_bbox_normalized": [
+        0.5174324336486487,
+        0.7097560973658537,
+        0.9090540552702703,
+        0.93
+      ],
+      "source_image": "slides/p0421_01_1517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1517-M08",
+      "ocr_text": "= 9m RL",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.8108108123310811,
+        0.482926829207317,
+        0.9324324339527028,
+        0.5365853657926829
+      ],
+      "context_crop": "regions/SANSEN-1517_math_08.png",
+      "context_bbox_normalized": [
+        0.7708108123310811,
+        0.382926829207317,
+        1,
+        0.6665853657926829
+      ],
+      "source_image": "slides/p0421_01_1517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1517-M09",
+      "ocr_text": "= 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8175675677364865,
+        0.6292682921341464,
+        0.8648648650337839,
+        0.6731707311585365
+      ],
+      "context_crop": "regions/SANSEN-1517_math_09.png",
+      "context_bbox_normalized": [
+        0.7775675677364865,
+        0.5292682921341464,
+        1,
+        0.8031707311585365
+      ],
+      "source_image": "slides/p0421_01_1517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

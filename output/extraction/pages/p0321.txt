@@ -1,0 +1,47 @@
+328 Chapter #11
+1155
+Another way to keep the
+sum of the currents constant
+over the whole common-
+mode input range is shown
+in this slide. This will allow
+the sum of the transconduct-
+ances to stay constant, pro-
+vided the transistors are
+biased in weak inversion.
+The input stage is shown
+in this slide. A second stage
+has to be added to make a
+full opamp. This input stage
+consumes 2.3 mW, whereas
+the full opamp is 9 mW (all
+on 3.3 V). The supply volt-
+age can be as low as 2.2 V however, as demonstrated previously.
+When the input voltages are halfway the supply voltage, then all input nMOSTs M1-M4 are
+carrying a current I/2 (and so do the input pMOSTs M7-M10). Transistors M3 and M4 pull all
+current I away from the pMOSTs M11-M12, such that these latter devices are off. In the same
+way, transistors M5 and M6 are off.
+When the common-mode input voltage is high, pMOSTs M7-M10 go off. Transistors M9-M10
+do not pull current away any more from M5 and M6, which now carry current I/2 as well. The
+nMOSTs M1-M2 and M5-M6 now contribute to the total transconductance.
+For a high CM input voltage, transistors M5-M6 take over the role of M7-M8. This is in the
+same way as for low CM input voltages, M11-M12 takes over the role of M1-M2. The total
+current and transconductance is therefore constant over the whole common-mode input range.
+1156
+Distortion is the main prob-
+lem of CMOS rail-to-rail
+input amplifiers. Without
+trimming, they cannot offer
+more than 40–50 dB signal-
+to-distortion ratio.
+This amplifier provides a
+solution. Its signal-to-dis-
+tortion ratio can be as high
+as 90 dB!
+This is accomplished by
+using only one differential
+pair at the input. An internal
+voltage regulator is used,
+which provides an internal
+supply voltage, this is
+always higher than the external one by about 1 V. This Volt is sufficient to allow the input Gates

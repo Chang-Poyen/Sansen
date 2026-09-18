@@ -1,0 +1,273 @@
+{
+  "case_id": "SANSEN-2154",
+  "slide_id": "2154",
+  "chapter": 21,
+  "slide_number_in_chapter": 54,
+  "source": {
+    "pdf_page": 653,
+    "printed_page": 664
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0653_02_2154.jpg",
+      "pdf_page": 653,
+      "printed_page": 664,
+      "bbox_pt": [
+        91.52162,
+        397.56098,
+        374.54222,
+        594.07082
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 653,
+      "printed_page": 664,
+      "bbox_pt": [
+        0,
+        393.5715100000001,
+        595,
+        797
+      ],
+      "text_raw": "As an opamp a symmetrical\nOTA is used.\nCurrent starving is used\nhowever, to increase the\ngain (see Chapter 7). At such\na low supply voltage, too\nlittle room is available for\ncascodes.\nCurrent starving means\nthat a DC current source\ntakes away most of the DC\ncurrent from the load tran-\nsistors M2. As a result, the\nAC impedance of these tran-\nsistors increase, giving rise\nto more gain. A large factor\nB is used as well.\nThe first amplifier of this sigma-delta converter uses a k value of 0.8 and a B factor of 10.\nActually, factor k indicates what fraction of the current through the input transistor M1 is\ntaken up by the DC current source. The small-signal resistance 1/g of transistors M2 increases\nm2\nby a factor (1−k) in weak inversion, and so does the small-signal gain A.",
+      "text": "As an opamp a symmetrical OTA is used. Current starving is used however, to increase the gain (see Chapter 7). At such a low supply voltage, too little room is available for cascodes. Current starving means that a DC current source takes away most of the DC current from the load transistors M2. As a result, the AC impedance of these transistors increase, giving rise to more gain. A large factor B is used as well. The first amplifier of this sigma-delta converter uses a k value of 0.8 and a B factor of 10. Actually, factor k indicates what fraction of the current through the input transistor M1 is taken up by the DC current source. The small-signal resistance 1/g of transistors M2 increases m2 by a factor (1−k) in weak inversion, and so does the small-signal gain A."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As an opamp a symmetrical OTA is used. Current starving is used however, to increase the gain (see Chapter 7). At such a low supply voltage, too little room is available for cascodes. Current starving means that a DC current source takes away most of the DC current from the load transistors M2. As a result, the AC impedance of these transistors increase, giving rise to more gain. A large factor B is used as well. The first amplifier of this sigma-delta converter uses a k value of 0.8 and a B factor of 10. Actually, factor k indicates what fraction of the current through the input transistor M1 is taken up by the DC current source. The small-signal resistance 1/g of transistors M2 increases m2 by a factor (1−k) in weak inversion, and so does the small-signal gain A.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Gain enhancement",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0653_02_2154.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626783050851,
+          0.08292682946341468,
+          0.41016948816949156,
+          0.13170731726829266
+        ],
+        "confidence": 1,
+        "text": "Gain enhancement"
+      },
+      {
+        "bbox": [
+          0.5186440680790959,
+          0.2780487803252032,
+          0.5525423731638417,
+          0.31707317056910567
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "21,"
+      },
+      {
+        "bbox": [
+          0.5525423733898305,
+          0.40975609737804874,
+          0.5932203394915254,
+          0.4439024388414634
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.13220338949152544,
+          0.43902439048780484,
+          0.16610169457627122,
+          0.4731707319512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(anl"
+      },
+      {
+        "bbox": [
+          0.6610169487457628,
+          0.5463414636585365,
+          0.7016949148474577,
+          0.5804878051219511
+        ],
+        "confidence": 1,
+        "text": "1:B"
+      },
+      {
+        "bbox": [
+          0.7457627111440679,
+          0.5707317065853659,
+          0.816949151822034,
+          0.6292682919512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[ мз"
+      },
+      {
+        "bbox": [
+          0.6169491526271187,
+          0.6341463410365854,
+          0.6508474577118645,
+          0.6682926825000001
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.2610169485423729,
+          0.7951219514634146,
+          0.32203389769491525,
+          0.8390243904878047
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A ="
+      },
+      {
+        "bbox": [
+          0.4644067794915255,
+          0.7658536581097561,
+          0.48474576254237295,
+          0.7999999995731708
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.3254237308958838,
+          0.8292682925087109,
+          0.6169491546246973,
+          0.8829268290940767
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1- k)(Vos - Va)• 2g"
+      },
+      {
+        "bbox": [
+          0.6711864410169492,
+          0.7658536590731707,
+          0.7118644071186442,
+          0.8195121956585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1,"
+      },
+      {
+        "bbox": [
+          0.6576271189152543,
+          0.8292682923414634,
+          0.7254237290847458,
+          0.863414633804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 - k"
+      },
+      {
+        "bbox": [
+          0.7220339083299953,
+          0.9365853656097561,
+          0.9355932174327164,
+          0.9707317070731708
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2154"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0653_02_2154.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Current starving means that a DC current source takes away most of the DC current from the load transistors M2.",
+        "pdf_page": 653,
+        "printed_page": 664,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Actually, factor k indicates what fraction of the current through the input transistor M1 is taken up by the DC current source.",
+        "pdf_page": 653,
+        "printed_page": 664,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Current starving is used however, to increase the gain (see Chapter 7).",
+      "pdf_page": 653,
+      "printed_page": 664,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the AC impedance of these transistors increase, giving rise to more gain.",
+      "pdf_page": 653,
+      "printed_page": 664,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The small-signal resistance 1/g of transistors M2 increases m2 by a factor (1−k) in weak inversion, and so does the small-signal gain A.",
+      "pdf_page": 653,
+      "printed_page": 664,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2154-M01",
+      "ocr_text": "A =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2610169485423729,
+        0.7951219514634146,
+        0.32203389769491525,
+        0.8390243904878047
+      ],
+      "context_crop": "regions/SANSEN-2154_math_01.png",
+      "context_bbox_normalized": [
+        0.2210169485423729,
+        0.6951219514634146,
+        0.5520338976949153,
+        0.93
+      ],
+      "source_image": "slides/p0653_02_2154.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

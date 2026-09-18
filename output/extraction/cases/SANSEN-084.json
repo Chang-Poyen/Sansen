@@ -1,0 +1,410 @@
+{
+  "case_id": "SANSEN-084",
+  "slide_id": "084",
+  "chapter": 8,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 234,
+    "printed_page": 240
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0234_02_084.jpg",
+      "pdf_page": 234,
+      "printed_page": 240,
+      "bbox_pt": [
+        91.521622,
+        383.609955,
+        374.78981,
+        580.0699460000001
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 234,
+      "printed_page": 240,
+      "bbox_pt": [
+        0,
+        379.62050000000016,
+        595,
+        797
+      ],
+      "text_raw": "The biasing voltages V\nB1\nand V have to be such that\nB2\nall transistors are in the sat-\nuration region. Otherwise\nthey would exhibit a small\noutput resistance which\nwould deteriorate the gain.\nThe problem of the two\nbiasing voltages is that they\nhave to be matched to such\na degree that the average\noutput voltages are some-\nwhere halfway between the\nsupply voltages, to keep all\ntransistors in saturation,\neven for a large output swing.\nFor example, if V is fixed, then a value of V , which is 20 mV too high would reduce both\nB1 B2\noutput voltages by 1 V (if the gain of the nMOSTs is 50). Even worse, when the V is larger,\nB2\nthe average output voltages are so low that the nMOSTs M3/M4 end up in the linear region,\nkilling the gain!\nWe have the same problem when biasing voltage V is too low. Now the average output\nB2\nvoltages are too high and the pMOSTs M1/M2 end up in the linear region, killing the gain as well!\nThis kind of matching is impossible to realize. This is why we need an additional amplifier to\ntune V to the required average or common-mode output voltages. This amplifier only works\nB2\non common-mode signals. It is called the common-mode feedback amplifier.",
+      "text": "The biasing voltages V B1 and V have to be such that B2 all transistors are in the saturation region. Otherwise they would exhibit a small output resistance which would deteriorate the gain. The problem of the two biasing voltages is that they have to be matched to such a degree that the average output voltages are somewhere halfway between the supply voltages, to keep all transistors in saturation, even for a large output swing. For example, if V is fixed, then a value of V , which is 20 mV too high would reduce both B1 B2 output voltages by 1 V (if the gain of the nMOSTs is 50). Even worse, when the V is larger, B2 the average output voltages are so low that the nMOSTs M3/M4 end up in the linear region, killing the gain! We have the same problem when biasing voltage V is too low. Now the average output B2 voltages are too high and the pMOSTs M1/M2 end up in the linear region, killing the gain as well! This kind of matching is impossible to realize. This is why we need an additional amplifier to tune V to the required average or common-mode output voltages. This amplifier only works B2 on common-mode signals. It is called the common-mode feedback amplifier."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The biasing voltages V B1 and V have to be such that B2 all transistors are in the saturation region. Otherwise they would exhibit a small output resistance which would deteriorate the gain. The problem of the two biasing voltages is that they have to be matched to such a degree that the average output voltages are somewhere halfway between the supply voltages, to keep all transistors in saturation, even for a large output swing. For example, if V is fixed, then a value of V , which is 20 mV too high would reduce both B1 B2 output voltages by 1 V (if the gain of the nMOSTs is 50). Even worse, when the V is larger, B2 the average output voltages are so low that the nMOSTs M3/M4 end up in the linear region, killing the gain! We have the same problem when biasing voltage V is too low. Now the average output B2 voltages are too high and the pMOSTs M1/M2 end up in the linear region, killing the gain as well! This kind of matching is impossible to realize. This is why we need an additional amplifier to tune V to the required average or common-mode output voltages. This amplifier only works B2 on common-mode signals. It is called the common-mode feedback amplifier.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Simple CMOS fully-differential OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0234_02_084.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270636261256,
+          0.07804878018970185,
+          0.7364864901463963,
+          0.14146341433604337
+        ],
+        "confidence": 1,
+        "text": "Simple CMOS fully-differential OTA"
+      },
+      {
+        "bbox": [
+          0.28716216228885133,
+          0.23414634097560982,
+          0.3310810812077703,
+          0.2731707312195122
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.45945946026182427,
+          0.19512195128048782,
+          0.5236486494510135,
+          0.2585365854268292
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.4628378383164415,
+          0.26829268349593494,
+          0.5270270275056307,
+          0.33658536642276426
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VB1"
+      },
+      {
+        "bbox": [
+          0.33783783766891895,
+          0.4195121945121951,
+          0.364864864695946,
+          0.4682926823170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3"
+      },
+      {
+        "bbox": [
+          0.11148648724662161,
+          0.44878048774390233,
+          0.1722972980574324,
+          0.4926829267682926
+        ],
+        "confidence": 0.5,
+        "text": "VIN+"
+      },
+      {
+        "bbox": [
+          0.1081081070945946,
+          0.5414634147560975,
+          0.18918918817567568,
+          0.5902439025609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT-"
+      },
+      {
+        "bbox": [
+          0.3783783783361486,
+          0.4487804882926829,
+          0.42229729725506754,
+          0.4878048785365854
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.5236486481418918,
+          0.4439024385365854,
+          0.5810810805743243,
+          0.4926829263414634
+        ],
+        "confidence": 1,
+        "text": "VIN-"
+      },
+      {
+        "bbox": [
+          0.5067567575337838,
+          0.5414634145365853,
+          0.5844594602364865,
+          0.5804878047804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT+"
+      },
+      {
+        "bbox": [
+          0.32432432480292794,
+          0.5951219511788618,
+          0.3817567572353604,
+          0.6487804877642277
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vв2"
+      },
+      {
+        "bbox": [
+          0.21621621638513513,
+          0.6243902444390244,
+          0.24662162179054054,
+          0.6780487810243903
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.20945945992398646,
+          0.7073170736585366,
+          0.25337837884290537,
+          0.746341463902439
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.4493243239583334,
+          0.7024390246341462,
+          0.4932432428772523,
+          0.7414634148780487
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.47297297239864855,
+          0.7804878048780488,
+          0.530405404831081,
+          0.8390243902439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.6756756771283784,
+          0.20487804926829267,
+          0.9087837852364865,
+          0.25365853707317076
+        ],
+        "confidence": 1,
+        "text": "Differential pair"
+      },
+      {
+        "bbox": [
+          0.6756756735078829,
+          0.2585365856097561,
+          0.9358108086430181,
+          0.2975609758536586
+        ],
+        "confidence": 1,
+        "text": "No current mirror"
+      },
+      {
+        "bbox": [
+          0.6752829018929499,
+          0.36341288294707963,
+          0.8145819595183854,
+          0.4170749225410322
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.8297934672739569,
+          0.3307317032296908,
+          0.9150178508601188,
+          0.40353428408638625
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.8175675687922297,
+          0.40975609749999997,
+          0.9155405417652026,
+          0.4731707316463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CL"
+      },
+      {
+        "bbox": [
+          0.6586037064999131,
+          0.4964273236654324,
+          0.8177476441005386,
+          0.5523531627871813
+        ],
+        "confidence": 1,
+        "text": "Problem:"
+      },
+      {
+        "bbox": [
+          0.6786552887659436,
+          0.5671485487377542,
+          0.8956690344604907,
+          0.6279734035187422
+        ],
+        "confidence": 0.5,
+        "text": "keep M1-4 in"
+      },
+      {
+        "bbox": [
+          0.6788051709981011,
+          0.6369241502048423,
+          0.8684921266304912,
+          0.6899051174706459
+        ],
+        "confidence": 1,
+        "text": "saturation:"
+      },
+      {
+        "bbox": [
+          0.6587837860641892,
+          0.7756097560162601,
+          0.9324324347128379,
+          0.8341463413821139
+        ],
+        "confidence": 0.5,
+        "text": "Control Voutcom"
+      },
+      {
+        "bbox": [
+          0.658783785207529,
+          0.8439024388850174,
+          0.8581081095318533,
+          0.9024390242508711
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Control IDss"
+      },
+      {
+        "bbox": [
+          0.7195946040225741,
+          0.9512195116260161,
+          0.9256756722161644,
+          0.9853658530894308
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 084"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0234_02_084.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Otherwise they would exhibit a small output resistance which would deteriorate the gain.",
+      "pdf_page": 234,
+      "printed_page": 240,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For example, if V is fixed, then a value of V , which is 20 mV too high would reduce both B1 B2 output voltages by 1 V (if the gain of the nMOSTs is 50).",
+      "pdf_page": 234,
+      "printed_page": 240,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Even worse, when the V is larger, B2 the average output voltages are so low that the nMOSTs M3/M4 end up in the linear region, killing the gain!",
+      "pdf_page": 234,
+      "printed_page": 240,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Now the average output B2 voltages are too high and the pMOSTs M1/M2 end up in the linear region, killing the gain as well!",
+      "pdf_page": 234,
+      "printed_page": 240,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The biasing voltages V B1 and V have to be such that B2 all transistors are in the saturation region.",
+      "pdf_page": 234,
+      "printed_page": 240,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The problem of the two biasing voltages is that they have to be matched to such a degree that the average output voltages are somewhere halfway between the supply voltages, to keep all transistors in saturation, even for a large output swing.",
+      "pdf_page": 234,
+      "printed_page": 240,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-084-M01",
+      "ocr_text": "GBW =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6752829018929499,
+        0.36341288294707963,
+        0.8145819595183854,
+        0.4170749225410322
+      ],
+      "context_crop": "regions/SANSEN-084_math_01.png",
+      "context_bbox_normalized": [
+        0.6352829018929499,
+        0.26341288294707965,
+        1,
+        0.5470749225410322
+      ],
+      "source_image": "slides/p0234_02_084.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

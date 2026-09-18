@@ -1,0 +1,236 @@
+{
+  "case_id": "SANSEN-093",
+  "slide_id": "093",
+  "chapter": 9,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 257,
+    "printed_page": 264
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0257_01_093.jpg",
+      "pdf_page": 257,
+      "printed_page": 264,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 257,
+      "printed_page": 264,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        441.40350000000024
+      ],
+      "text_raw": "The main reason for more\nthan two stages is gain.\nDespite the availability of\ngain boosting, bootstrap-\nping, etc. to increase the\ngain, quite often the supply\nvoltage is just too low. In\nthis case, three stages or\nmore may be required.\nFor small channel lengths,\nthe gain per transistor,\nwhich is g r , has become\nm o\nquite small. For example, for\n130 nm CMOS, less than\nabout 15 (or 24 dB) per\ntransistor can be expected.\nFor large gains, three or more stages are therefore required.\nThis is certainly true if a small resistor or large capacitance must be driven. In this case, the\noutput stage provides little gain. Two more stages are then required to drive the output stage\nwith a lot of gain.\nFor very low supply voltages less than 1 V, cascoding is no longer possible because of the\nreduced output swings. Cascading is then required, as shown next.",
+      "text": "The main reason for more than two stages is gain. Despite the availability of gain boosting, bootstrapping, etc. to increase the gain, quite often the supply voltage is just too low. In this case, three stages or more may be required. For small channel lengths, the gain per transistor, which is g r , has become m o quite small. For example, for 130 nm CMOS, less than about 15 (or 24 dB) per transistor can be expected. For large gains, three or more stages are therefore required. This is certainly true if a small resistor or large capacitance must be driven. In this case, the output stage provides little gain. Two more stages are then required to drive the output stage with a lot of gain. For very low supply voltages less than 1 V, cascoding is no longer possible because of the reduced output swings. Cascading is then required, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The main reason for more than two stages is gain. Despite the availability of gain boosting, bootstrapping, etc. to increase the gain, quite often the supply voltage is just too low. In this case, three stages or more may be required. For small channel lengths, the gain per transistor, which is g r , has become m o quite small. For example, for 130 nm CMOS, less than about 15 (or 24 dB) per transistor can be expected. For large gains, three or more stages are therefore required. This is certainly true if a small resistor or large capacitance must be driven. In this case, the output stage provides little gain. Two more stages are then required to drive the output stage with a lot of gain. For very low supply voltages less than 1 V, cascoding is no longer possible because of the reduced output swings. Cascading is then required, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Why three-stage amplifiers ?",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0257_01_093.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0844594630550193,
+          0.08780487773519163,
+          0.5878378414333977,
+          0.15121951188153315
+        ],
+        "confidence": 1,
+        "text": "Why three-stage amplifiers ?"
+      },
+      {
+        "bbox": [
+          0.0775383713576836,
+          0.2583988542229271,
+          0.8379966216612098,
+          0.3286466625397859
+        ],
+        "confidence": 0.5,
+        "text": "1. Each MOST only gives 9mlo = 15 or 24 dB :"
+      },
+      {
+        "bbox": [
+          0.12162162812499988,
+          0.33170731634146344,
+          0.6756756821790539,
+          0.39024390170731704
+        ],
+        "confidence": 1,
+        "text": "High gain requires three stages !"
+      },
+      {
+        "bbox": [
+          0.07770270999999984,
+          0.48292682892682925,
+          0.8074324397297296,
+          0.5463414630731708
+        ],
+        "confidence": 0.5,
+        "text": "2. For drivers (small R_) : 9mR, is very low :"
+      },
+      {
+        "bbox": [
+          0.12162161817567572,
+          0.5560975615609756,
+          0.6756756722297298,
+          0.6146341469268293
+        ],
+        "confidence": 1,
+        "text": "High gain requires three stages !"
+      },
+      {
+        "bbox": [
+          0.07916667515332479,
+          0.6987951823551434,
+          0.8374999844300087,
+          0.7710843375243746
+        ],
+        "confidence": 1,
+        "text": "3. For low Vod, no cascoding but cascading !"
+      },
+      {
+        "bbox": [
+          0.12162162812499988,
+          0.7707317065243903,
+          0.6756756821790539,
+          0.8341463406707318
+        ],
+        "confidence": 1,
+        "text": "High gain requires three stages !"
+      },
+      {
+        "bbox": [
+          0.733108110472973,
+          0.9268292680487805,
+          0.9222972996621621,
+          0.9560975607317074
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 093"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Cascading is then required, as shown next.",
+      "pdf_page": 257,
+      "printed_page": 264,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0257_01_093.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The main reason for more than two stages is gain.",
+      "pdf_page": 257,
+      "printed_page": 264,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Despite the availability of gain boosting, bootstrapping, etc. to increase the gain, quite often the supply voltage is just too low.",
+      "pdf_page": 257,
+      "printed_page": 264,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For small channel lengths, the gain per transistor, which is g r , has become m o quite small.",
+      "pdf_page": 257,
+      "printed_page": 264,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For large gains, three or more stages are therefore required.",
+      "pdf_page": 257,
+      "printed_page": 264,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In this case, the output stage provides little gain.",
+      "pdf_page": 257,
+      "printed_page": 264,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Two more stages are then required to drive the output stage with a lot of gain.",
+      "pdf_page": 257,
+      "printed_page": 264,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-093-M01",
+      "ocr_text": "1. Each MOST only gives 9mlo = 15 or 24 dB :",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.0775383713576836,
+        0.2583988542229271,
+        0.8379966216612098,
+        0.3286466625397859
+      ],
+      "context_crop": "regions/SANSEN-093_math_01.png",
+      "context_bbox_normalized": [
+        0.0375383713576836,
+        0.15839885422292707,
+        1,
+        0.4586466625397859
+      ],
+      "source_image": "slides/p0257_01_093.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

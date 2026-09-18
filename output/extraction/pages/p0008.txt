@@ -1,0 +1,55 @@
+8 Chapter #1
+0113
+In many applications a
+MOST is simply used as a
+switch. Its voltage V is
+DS
+then very small. The MOST
+is then operating in the
+linear region (sometimes
+called the ohmic region). In
+this region the MOST tran-
+sistor is really a small resis-
+tor. It provides a linear
+voltage-current characteris-
+tic. The channel has the
+same conductivity at both
+sides – the Source side and
+the Drain side.
+Let us investigate what
+the actual resistance then is.
+0114
+Zooming in on the corner,
+for very small values of V ,
+DS
+we find that indeed the
+I −V curves are very
+DS DS
+linear. The MOST behaves
+as a pure resistor.
+The resistance value R
+on
+is given in this slide. In addi-
+tion to the dimensions W
+and L, a technological
+parameter appears, called
+KP.
+This parameter character-
+izes a certain CMOS tech-
+nology as will be explained
+on the next slide. Its dimen-
+sion is A/V2.
+It is clear that the transistor turns very nonlinear when we apply larger V voltages. The
+DS
+crossover value towards the saturation is reached for V =V −V , or more accurately for
+DS GS T
+V =(V −V )/n. We will drop this factor n however, as a kind of safety factor. We will, from
+DS GS T
+now on, assume that a transistor is operating in the saturation region provided V >V −V .
+DS GS T
+0115
+For sake of illustration let us a have a closer look at this resistor ‘‘in the corner’’. For this
+purpose we have to find an easy approximation for KP. It is given in this slide. Factor b (Greek
+beta) contains both the parameter KP and the dimensions of the resistor W and L.
+Actually, KP contains the oxide capacitance C , and the mobility m (Greek mu). This factor
+ox

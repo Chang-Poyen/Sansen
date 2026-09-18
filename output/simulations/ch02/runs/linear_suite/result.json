@@ -1,0 +1,27 @@
+{
+  "deck": "simulations/ch02/netlists/linear_suite.scs",
+  "sha256": "d7d7d475e5cac673ecaecf681d6e6f898ffc9fe8ef1cc50496660161edacdde5",
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "returncode": 0,
+    "output_dir": "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/linear_suite/linear_suite.raw",
+    "output_files": [
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/linear_suite/linear_suite.raw/ac.ac",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/linear_suite/linear_suite.raw/logStatus",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/linear_suite/linear_suite.raw/logFile",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/linear_suite/linear_suite.raw/dcOp.dc"
+    ],
+    "remote_host": "101.6.65.209",
+    "timings": {
+      "upload_total": 1.6247527910163626,
+      "remote_exec": 1.790850916004274,
+      "download_total": 6.049392748973332,
+      "parse_results": 0.04210395901463926,
+      "total": 9.50898129097186
+    },
+    "command": "HOSTNAME=`hostname 2>/dev/null || echo localhost`; export HOSTNAME && export LD_LIBRARY_PATH=\"${LD_LIBRARY_PATH:-}\" && mkdir -p /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ca619c42/linear_suite.raw && csh -c ':; /eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ca619c42/linear_suite.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ca619c42/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ca619c42/linear_suite.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus' & SPID=$!; echo $SPID > /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ca619c42/spectre.pid; wait $SPID",
+    "spectre_command": "/eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ca619c42/linear_suite.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ca619c42/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/ca619c42/linear_suite.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus"
+  },
+  "wall_s": 9.510715961456299
+}

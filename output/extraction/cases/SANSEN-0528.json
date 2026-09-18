@@ -1,0 +1,466 @@
+{
+  "case_id": "SANSEN-0528",
+  "slide_id": "0528",
+  "chapter": 5,
+  "slide_number_in_chapter": 28,
+  "source": {
+    "pdf_page": 159,
+    "printed_page": 163
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0159_01_0528.jpg",
+      "pdf_page": 159,
+      "printed_page": 163,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 159,
+      "printed_page": 163,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        465.31950000000035
+      ],
+      "text_raw": "Peaking in the frequency\ndomain corresponds to ring-\ning in the time domain.\nTo the same amplifier, we\napply now an input voltage\nv which has a square\nIN\nwaveform. The output volt-\nage v follows with some\nOUT\ndelay.\nFor small values of f how-\never, the output voltage\novershoots, followed by\nringing. The system is\nunderdamped. The peak of\nthe first overshoot P is\nt\ngiven.\nBy taking a damping f of 0.7, the overshoot is very light and there is no ringing. A value of\nf of 0.87 would not give any overshoot at all.\nThese values of f for no ringing are clearly similar to the values for no peaking. Ringing in\nthe time domain and peaking in the frequency domain are clearly equivalent.\nThe settling time is the time required to obtain the final value with a certain error. For\nexample, a square waveform applied to a first-order system, gives an exponential with a certain\ntime constant. For settling within 0.1%, we need to wait ln(1000) or 6.9 time constants.\nFor a slightly underdamped two-pole system, it is not so obvious to find the 0.1% settling\ntime. Certainly a f between 0.7 and 0.8 gives the best compromise between rise time and\nsettling time.",
+      "text": "Peaking in the frequency domain corresponds to ringing in the time domain. To the same amplifier, we apply now an input voltage v which has a square IN waveform. The output voltage v follows with some OUT delay. For small values of f however, the output voltage overshoots, followed by ringing. The system is underdamped. The peak of the first overshoot P is t given. By taking a damping f of 0.7, the overshoot is very light and there is no ringing. A value of f of 0.87 would not give any overshoot at all. These values of f for no ringing are clearly similar to the values for no peaking. Ringing in the time domain and peaking in the frequency domain are clearly equivalent. The settling time is the time required to obtain the final value with a certain error. For example, a square waveform applied to a first-order system, gives an exponential with a certain time constant. For settling within 0.1%, we need to wait ln(1000) or 6.9 time constants. For a slightly underdamped two-pole system, it is not so obvious to find the 0.1% settling time. Certainly a f between 0.7 and 0.8 gives the best compromise between rise time and settling time."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Peaking in the frequency domain corresponds to ringing in the time domain. To the same amplifier, we apply now an input voltage v which has a square IN waveform. The output voltage v follows with some OUT delay. For small values of f however, the output voltage overshoots, followed by ringing. The system is underdamped. The peak of the first overshoot P is t given. By taking a damping f of 0.7, the overshoot is very light and there is no ringing. A value of f of 0.87 would not give any overshoot at all. These values of f for no ringing are clearly similar to the values for no peaking. Ringing in the time domain and peaking in the frequency domain are clearly equivalent. The settling time is the time required to obtain the final value with a certain error. For example, a square waveform applied to a first-order system, gives an exponential with a certain time constant. For settling within 0.1%, we need to wait ln(1000) or 6.9 time constants. For a slightly underdamped two-pole system, it is not so obvious to find the 0.1% settling time. Certainly a f between 0.7 and 0.8 gives the best compromise between rise time and settling time.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Amplitude response vs time [ = 0.1,0.2, 0.4,0.7, 1.0,2.0",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0159_01_0528.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432925675664,
+          0.0829268290243903,
+          0.5675675724999999,
+          0.1463414631707317
+        ],
+        "confidence": 1,
+        "text": "Amplitude response vs time"
+      },
+      {
+        "bbox": [
+          0.09797297280405406,
+          0.21463414617886178,
+          0.12837837820945946,
+          0.24390243886178864
+        ],
+        "confidence": 1,
+        "text": "1.8"
+      },
+      {
+        "bbox": [
+          0.09797297327702703,
+          0.278048780292683,
+          0.12837837868243243,
+          0.30731707297560984
+        ],
+        "confidence": 1,
+        "text": "1.6"
+      },
+      {
+        "bbox": [
+          0.09459459403153153,
+          0.3463414635772357,
+          0.1283783778153153,
+          0.3756097562601626
+        ],
+        "confidence": 1,
+        "text": "1.4"
+      },
+      {
+        "bbox": [
+          0.09797297280405406,
+          0.40975609739837404,
+          0.12837837820945946,
+          0.4390243900813008
+        ],
+        "confidence": 0.5,
+        "text": "1.2"
+      },
+      {
+        "bbox": [
+          0.09459459403153153,
+          0.4780487807317073,
+          0.1283783778153153,
+          0.5024390246341464
+        ],
+        "confidence": 1,
+        "text": "1.0"
+      },
+      {
+        "bbox": [
+          0.06418918972409908,
+          0.5121951219918699,
+          0.12837837891328827,
+          0.5756097561382114
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0.8"
+      },
+      {
+        "bbox": [
+          0.09459459425675677,
+          0.6097560977560976,
+          0.12837837804054056,
+          0.6390243904390244
+        ],
+        "confidence": 1,
+        "text": "0.6"
+      },
+      {
+        "bbox": [
+          0.09459459425675677,
+          0.6780487806829268,
+          0.12837837804054056,
+          0.7073170733658537
+        ],
+        "confidence": 1,
+        "text": "0.4"
+      },
+      {
+        "bbox": [
+          0.09459459470720719,
+          0.7414634141463415,
+          0.12837837849099099,
+          0.7707317068292683
+        ],
+        "confidence": 1,
+        "text": "0.2"
+      },
+      {
+        "bbox": [
+          0.13851351393581082,
+          0.4439024389024391,
+          0.18918918961148648,
+          0.497560975487805
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.3040540496621623,
+          0.18048780560975608,
+          0.6013513469594596,
+          0.22439024463414636
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[ = 0.1,0.2, 0.4,0.7, 1.0,2.0"
+      },
+      {
+        "bbox": [
+          0.32094594597972975,
+          0.25853658497560983,
+          0.3581081081418919,
+          0.2975609752195122
+        ],
+        "confidence": 1,
+        "text": "0.1"
+      },
+      {
+        "bbox": [
+          0.2500000005743243,
+          0.37073170731707317,
+          0.3074324330067567,
+          0.41951219512195115
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0.4-"
+      },
+      {
+        "bbox": [
+          0.25675675641891893,
+          0.44878048741463417,
+          0.2972972969594595,
+          0.48780487765853653
+        ],
+        "confidence": 1,
+        "text": "0.7"
+      },
+      {
+        "bbox": [
+          0.41216216145270274,
+          0.43414634078048775,
+          0.49662162091216216,
+          0.5024390237073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.2837837839527027,
+          0.5512195140085459,
+          0.3006756758445946,
+          0.5902439019264134
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.28716216199324324,
+          0.6487804874146341,
+          0.3108108106418919,
+          0.6878048776585366
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.2094594593581081,
+          0.8292682923414634,
+          0.23310810800675677,
+          0.863414633804878
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.587837837668919,
+          0.8341463413109755,
+          0.614864864695946,
+          0.8585365852134146
+        ],
+        "confidence": 1,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.3918918938969724,
+          0.8731707311382113,
+          0.44256756635077543,
+          0.907317072601626
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "wn't"
+      },
+      {
+        "bbox": [
+          0.7396199235962603,
+          0.47158280376928086,
+          0.902271965057277,
+          0.5284171967820952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "<= Q = 0.7"
+      },
+      {
+        "bbox": [
+          0.7500000006418919,
+          0.6146341459024391,
+          0.814189189831081,
+          0.6682926824878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "P+="
+      },
+      {
+        "bbox": [
+          0.8378378383023649,
+          0.682926828597561,
+          0.9087837842483109,
+          0.7365853651829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- T S"
+      },
+      {
+        "bbox": [
+          0.7601351358530405,
+          0.8097560980487805,
+          0.8378378385557431,
+          0.8487804882926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + e"
+      },
+      {
+        "bbox": [
+          0.8344594586993243,
+          0.7658536579674796,
+          0.9391891884290541,
+          0.8341463408943088
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V1 -52"
+      },
+      {
+        "bbox": [
+          0.6790540544341216,
+          0.8341463412195123,
+          0.7094594598395271,
+          0.8634146339024391
+        ],
+        "confidence": 1,
+        "text": "12"
+      },
+      {
+        "bbox": [
+          0.7297297396081597,
+          0.9512195119512196,
+          0.9358108078017499,
+          0.9853658534146342
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0528"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For a slightly underdamped two-pole system, it is not so obvious to find the 0.1% settling time.",
+      "pdf_page": 159,
+      "printed_page": 163,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0159_01_0528.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Peaking in the frequency domain corresponds to ringing in the time domain.",
+      "pdf_page": 159,
+      "printed_page": 163,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The peak of the first overshoot P is t given.",
+      "pdf_page": 159,
+      "printed_page": 163,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "These values of f for no ringing are clearly similar to the values for no peaking.",
+      "pdf_page": 159,
+      "printed_page": 163,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Ringing in the time domain and peaking in the frequency domain are clearly equivalent.",
+      "pdf_page": 159,
+      "printed_page": 163,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0528-M01",
+      "ocr_text": "[ = 0.1,0.2, 0.4,0.7, 1.0,2.0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3040540496621623,
+        0.18048780560975608,
+        0.6013513469594596,
+        0.22439024463414636
+      ],
+      "context_crop": "regions/SANSEN-0528_math_01.png",
+      "context_bbox_normalized": [
+        0.26405404966216234,
+        0.13,
+        0.8313513469594596,
+        0.35439024463414637
+      ],
+      "source_image": "slides/p0159_01_0528.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0528-M02",
+      "ocr_text": "<= Q = 0.7",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7396199235962603,
+        0.47158280376928086,
+        0.902271965057277,
+        0.5284171967820952
+      ],
+      "context_crop": "regions/SANSEN-0528_math_02.png",
+      "context_bbox_normalized": [
+        0.6996199235962602,
+        0.3715828037692809,
+        1,
+        0.6584171967820952
+      ],
+      "source_image": "slides/p0159_01_0528.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0528-M03",
+      "ocr_text": "P+=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7500000006418919,
+        0.6146341459024391,
+        0.814189189831081,
+        0.6682926824878049
+      ],
+      "context_crop": "regions/SANSEN-0528_math_03.png",
+      "context_bbox_normalized": [
+        0.7100000006418918,
+        0.5146341459024392,
+        1,
+        0.7982926824878049
+      ],
+      "source_image": "slides/p0159_01_0528.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

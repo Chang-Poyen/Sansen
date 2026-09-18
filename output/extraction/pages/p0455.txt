@@ -1,0 +1,47 @@
+464 Chapter #16
+1615
+One of the problems of
+bipolar current mirrors is
+that some of the precision
+is lost because of base
+currents and output resist-
+ances. Moreover, mismatch
+between the bipolar device
+sizes leads to offset, and
+causes error voltages. In this
+realization, these errors are
+avoided. The pnp current
+mirrors on top are is series
+with npn devices. Also, a
+double reference voltage is
+taken to reduce the effect of
+mismatch. Its output volt-
+age is therefore about 2.4 V.
+1616
+Such a bandgap reference
+based on two current mir-
+rors has two operating
+points. A zero current is also
+perfectly possible. This cir-
+cuit does not start by itself.
+The two operating points
+are found by plotting the
+two currents versus the
+common voltage V . The
+BE1
+current of transistor Q2 is
+more linear as it has a feed-
+back resistor R .
+2
+The top current mirror
+has unity gain. The operat-
+ing points are now found at the crossings of the lines.
+Zero current works as well as the required operating point.
+Startup circuits are therefore required.
+1617
+A few simple startup circuits are shown in this slide.
+A capacitance at the base of the pnp current mirror draws a current when the supply voltage
+is switched on. This current flows through the pnp transistors and starts injecting a current in
+the bottom npn transistors as well, biasing up the bandgap reference circuit.
+However, if for some other reason the current drops to zero, then the supply voltage has to
+be switched on and off again.

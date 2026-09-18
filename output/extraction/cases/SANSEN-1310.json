@@ -1,0 +1,430 @@
+{
+  "case_id": "SANSEN-1310",
+  "slide_id": "1310",
+  "chapter": 13,
+  "slide_number_in_chapter": 10,
+  "source": {
+    "pdf_page": 361,
+    "printed_page": 368
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0361_01_1310.jpg",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "bbox_pt": [
+        91.52162,
+        122.52697999999998,
+        374.54215999999997,
+        318.98694
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 361,
+      "printed_page": 368,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        451.3685100000003
+      ],
+      "text_raw": "If we feed back the output\nvoltage in series with the\ninput, we obtain a series-\nshunt feedback loop. In its\nsimplest case, the output is\ndirectly connected to the\ninput, yielding a gain of\nunity. For an opamp with\nhigh gain, the difference\nbetween the terminals is\napproximately zero, what-\never the output may be. This\ncircuit is called a buffer\namplifier as it can deliver a\nlot of current without loss in\nvoltage gain.\nMore often however, a few resistors are used to set the gain at a precise value. The gain is\npositive as the output is in phase with the input. It is therefore a non-inverting amplifier. Since\nthe input is directly connected to the Gate of a MOST, the input current is zero and the input\nresistance infinity. No current flows through the input voltage source (or input sensor).\nLater we will prove that the input resistance goes up because of the series feedback at the\ninput. Parallel or shunt feedback always causes the resistance to go down. The output resistance\ntherefore goes down. This feedback causes this amplifier to behave as a voltage-to-voltage\namplifier. Indeed, the voltage is sensed at the input, without drawing current. At the output, the\namplifier behaves as a voltage source. Series-shunt feedback turns amplifiers in ideal voltage-to-\nvoltage amplifiers with precise voltage gain!",
+      "text": "If we feed back the output voltage in series with the input, we obtain a seriesshunt feedback loop. In its simplest case, the output is directly connected to the input, yielding a gain of unity. For an opamp with high gain, the difference between the terminals is approximately zero, whatever the output may be. This circuit is called a buffer amplifier as it can deliver a lot of current without loss in voltage gain. More often however, a few resistors are used to set the gain at a precise value. The gain is positive as the output is in phase with the input. It is therefore a non-inverting amplifier. Since the input is directly connected to the Gate of a MOST, the input current is zero and the input resistance infinity. No current flows through the input voltage source (or input sensor). Later we will prove that the input resistance goes up because of the series feedback at the input. Parallel or shunt feedback always causes the resistance to go down. The output resistance therefore goes down. This feedback causes this amplifier to behave as a voltage-to-voltage amplifier. Indeed, the voltage is sensed at the input, without drawing current. At the output, the amplifier behaves as a voltage source. Series-shunt feedback turns amplifiers in ideal voltage-tovoltage amplifiers with precise voltage gain!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "If we feed back the output voltage in series with the input, we obtain a seriesshunt feedback loop. In its simplest case, the output is directly connected to the input, yielding a gain of unity. For an opamp with high gain, the difference between the terminals is approximately zero, whatever the output may be. This circuit is called a buffer amplifier as it can deliver a lot of current without loss in voltage gain. More often however, a few resistors are used to set the gain at a precise value. The gain is positive as the output is in phase with the input. It is therefore a non-inverting amplifier. Since the input is directly connected to the Gate of a MOST, the input current is zero and the input resistance infinity. No current flows through the input voltage source (or input sensor). Later we will prove that the input resistance goes up because of the series feedback at the input. Parallel or shunt feedback always causes the resistance to go down. The output resistance therefore goes down. This feedback causes this amplifier to behave as a voltage-to-voltage amplifier. Indeed, the voltage is sensed at the input, without drawing current. At the output, the amplifier behaves as a voltage source. Series-shunt feedback turns amplifiers in ideal voltage-tovoltage amplifiers with precise voltage gain!",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Series-shunt feedback configurations",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0361_01_1310.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135593511299431,
+          0.09268292731707317,
+          0.7220339012146892,
+          0.15121951268292677
+        ],
+        "confidence": 1,
+        "text": "Series-shunt feedback configurations"
+      },
+      {
+        "bbox": [
+          0.7796610179237288,
+          0.23902439018292687,
+          0.857627119618644,
+          0.29268292676829266
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.4847457623050847,
+          0.31219512146341466,
+          0.5322033894237288,
+          0.36097560926829275
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.29830508381355936,
+          0.3512195122560976,
+          0.372881355,
+          0.39512195128048777
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6983050852881356,
+          0.38536585341463414,
+          0.7525423734237289,
+          0.4292682924390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.5966101698644067,
+          0.44390243897560966,
+          0.6338983054576272,
+          0.48780487799999994
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.17288135635593221,
+          0.5902439019918699,
+          0.2644067800847458,
+          0.6439024385772358
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A, = 1"
+      },
+      {
+        "bbox": [
+          0.1762711861440678,
+          0.6780487812195122,
+          0.29491525394067797,
+          0.7365853665853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN =00"
+      },
+      {
+        "bbox": [
+          0.14237288453389824,
+          0.7902439023780489,
+          0.39661017266949145,
+          0.8341463414024392
+        ],
+        "confidence": 0.5,
+        "text": "IN : series FB : RIN"
+      },
+      {
+        "bbox": [
+          0.14576271627118628,
+          0.8243902429268293,
+          0.444067801016949,
+          0.882926828292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OUT : shunt FB : RouT V"
+      },
+      {
+        "bbox": [
+          0.6576271180508475,
+          0.609756098292683,
+          0.7796610163559322,
+          0.6682926836585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A, = 1 +"
+      },
+      {
+        "bbox": [
+          0.7830508477966102,
+          0.6390243907723577,
+          0.8305084749152543,
+          0.7024390249186991
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ry"
+      },
+      {
+        "bbox": [
+          0.6644067806779661,
+          0.6975609752439025,
+          0.7864406789830509,
+          0.7512195118292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = 00"
+      },
+      {
+        "bbox": [
+          0.6000000019491526,
+          0.7804878043902439,
+          0.8813559341525424,
+          0.8390243897560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IN: series FB : RINT"
+      },
+      {
+        "bbox": [
+          0.6033898322760289,
+          0.8292682922648082,
+          0.9050847475302662,
+          0.887804877630662
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OUT : shunt FB : RouT V"
+      },
+      {
+        "bbox": [
+          0.7152542346186441,
+          0.9317073172560976,
+          0.9288135566525425,
+          0.9658536587195122
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 1310"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0361_01_1310.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "If we feed back the output voltage in series with the input, we obtain a seriesshunt feedback loop.",
+        "pdf_page": 361,
+        "printed_page": 368,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In its simplest case, the output is directly connected to the input, yielding a gain of unity.",
+        "pdf_page": 361,
+        "printed_page": 368,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Since the input is directly connected to the Gate of a MOST, the input current is zero and the input resistance infinity.",
+        "pdf_page": 361,
+        "printed_page": 368,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "No current flows through the input voltage source (or input sensor).",
+        "pdf_page": 361,
+        "printed_page": 368,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "At the output, the amplifier behaves as a voltage source.",
+        "pdf_page": 361,
+        "printed_page": 368,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In its simplest case, the output is directly connected to the input, yielding a gain of unity.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For an opamp with high gain, the difference between the terminals is approximately zero, whatever the output may be.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This circuit is called a buffer amplifier as it can deliver a lot of current without loss in voltage gain.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "More often however, a few resistors are used to set the gain at a precise value.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain is positive as the output is in phase with the input.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is therefore a non-inverting amplifier.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output resistance therefore goes down.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Series-shunt feedback turns amplifiers in ideal voltage-tovoltage amplifiers with precise voltage gain!",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The gain is positive as the output is in phase with the input.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "For an opamp with high gain, the difference between the terminals is approximately zero, whatever the output may be.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1310-M01",
+      "ocr_text": "A, = 1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.17288135635593221,
+        0.5902439019918699,
+        0.2644067800847458,
+        0.6439024385772358
+      ],
+      "context_crop": "regions/SANSEN-1310_math_01.png",
+      "context_bbox_normalized": [
+        0.1328813563559322,
+        0.49024390199186996,
+        0.4944067800847458,
+        0.7739024385772358
+      ],
+      "source_image": "slides/p0361_01_1310.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1310-M02",
+      "ocr_text": "RIN =00",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1762711861440678,
+        0.6780487812195122,
+        0.29491525394067797,
+        0.7365853665853659
+      ],
+      "context_crop": "regions/SANSEN-1310_math_02.png",
+      "context_bbox_normalized": [
+        0.1362711861440678,
+        0.5780487812195122,
+        0.524915253940678,
+        0.8665853665853659
+      ],
+      "source_image": "slides/p0361_01_1310.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1310-M03",
+      "ocr_text": "A, = 1 +",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6576271180508475,
+        0.609756098292683,
+        0.7796610163559322,
+        0.6682926836585366
+      ],
+      "context_crop": "regions/SANSEN-1310_math_03.png",
+      "context_bbox_normalized": [
+        0.6176271180508475,
+        0.509756098292683,
+        1,
+        0.7982926836585366
+      ],
+      "source_image": "slides/p0361_01_1310.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1310-M04",
+      "ocr_text": "RIN = 00",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6644067806779661,
+        0.6975609752439025,
+        0.7864406789830509,
+        0.7512195118292683
+      ],
+      "context_crop": "regions/SANSEN-1310_math_04.png",
+      "context_bbox_normalized": [
+        0.6244067806779661,
+        0.5975609752439025,
+        1,
+        0.8812195118292683
+      ],
+      "source_image": "slides/p0361_01_1310.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

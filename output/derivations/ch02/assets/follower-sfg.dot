@@ -1,0 +1,46 @@
+digraph follower_sfg {
+rankdir=TB; bgcolor="white"; pad=0.35; nodesep=0.45; ranksep=0.7;
+node [fontname="Helvetica",fontsize=17,color="#22696b",penwidth=1.4];
+edge [fontname="Helvetica",fontsize=13,color="#416b68",fontcolor="#234b52",arrowsize=0.75];
+vi [label="vi\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=2];
+it [label="it\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=2];
+vg [label="vg\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+vgs [label="vgs\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+im [label="im\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+iG [label="iG\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+iD [label="iD\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+iR [label="iR\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+vR [label="vR\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+iB [label="iB\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+iL [label="iL\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+iDS [label="iDS\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+io [label="io\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+vo [label="vo\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+{rank=same; vi;}
+{rank=same; vg;}
+{rank=same; vgs; iD;}
+{rank=same; im; iG;}
+{rank=same; it; iR; iB; iL; iDS;}
+{rank=same; vR; io;}
+{rank=same; vo;}
+vg -> vgs [label="1 [F1]",constraint=true,color="#416b68"];
+vo -> vgs [label="-1 [F1]",constraint=false,color="#ac4752"];
+vgs -> im [label="gm [F2]",constraint=true,color="#416b68"];
+vgs -> iG [label="s*Cg [F3]",constraint=true,color="#416b68"];
+vg -> iD [label="s*Cd [F4]",constraint=true,color="#416b68"];
+iG -> iR [label="1 [F5]",constraint=true,color="#416b68"];
+iD -> iR [label="1 [F5]",constraint=true,color="#416b68"];
+iR -> vR [label="Rs [F6]",constraint=true,color="#416b68"];
+vi -> vg [label="1 [F7]",constraint=true,color="#416b68"];
+vR -> vg [label="-1 [F7]",constraint=false,color="#ac4752"];
+vo -> iB [label="GB [F8]",constraint=false,color="#416b68"];
+vo -> iL [label="s*CL [F9]",constraint=false,color="#416b68"];
+vo -> iDS [label="s*CDS [F10]",constraint=false,color="#416b68"];
+im -> io [label="1 [F11]",constraint=true,color="#416b68"];
+iG -> io [label="1 [F11]",constraint=true,color="#416b68"];
+it -> io [label="1 [F11]",constraint=true,color="#416b68"];
+iB -> io [label="-1 [F11]",constraint=true,color="#ac4752"];
+iL -> io [label="-1 [F11]",constraint=true,color="#ac4752"];
+iDS -> io [label="-1 [F11]",constraint=true,color="#ac4752"];
+io -> vo [label="ro [F12]",constraint=true,color="#416b68"];
+}

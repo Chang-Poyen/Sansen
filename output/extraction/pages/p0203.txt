@@ -1,0 +1,48 @@
+Systematic design of operational amplifiers 207
+The noise starts rising
+because from the zero fre-
+quency on, the gain of the
+first stage goes down. As a
+result, the noise goes up.
+The result is not so bad
+in the sense that the noise
+density of the second stage
+never really takes over
+below the GBW. The maxi-
+mum noise contribution of
+the second stage is actually
+the input noise voltage, as
+given in the previous slide.
+Since g is much larger
+m6
+than g , the noise of the
+m1
+second stage is always negli-
+gible with respect to the
+noise of the first stage.
+0650
+In order to find the integ-
+rated noise of this OTA, we
+have to integrate the input
+noise density over all fre-
+quencies. Since we are deal-
+ing with a first-order roll-
+off, we will find again this
+increase of the bandwidth to
+the noise bandwidth by a
+factor of p/2.
+A unity-gain situation is
+used. The bandwidth equals
+the GBW.
+The total integrated noise
+is now simply the product of
+the equivalent input noise
+voltage with the noise bandwidth.
+Since transconductance g determines both, the input noise voltage and the GBW, it cancels
+m1
+out. As a result, the total integrated noise only contains the compensation capacitance C .
+c
+The noise of the second stage has been neglected although its contribution is close to 20%.
+Increasing the total integrated noise performance, will require larger capacitances, and hence
+larger currents.
+Low noise always leads to higher power consumption!

@@ -1,0 +1,451 @@
+{
+  "case_id": "SANSEN-2022",
+  "slide_id": "2022",
+  "chapter": 20,
+  "slide_number_in_chapter": 22,
+  "source": {
+    "pdf_page": 602,
+    "printed_page": 613
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0603_01_2022.jpg",
+      "pdf_page": 603,
+      "printed_page": 614,
+      "bbox_pt": [
+        91.52162,
+        122.57683999999995,
+        374.54215999999997,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 602,
+      "printed_page": 613,
+      "bbox_pt": [
+        0,
+        630.7385000000003,
+        595,
+        797
+      ],
+      "text_raw": "Since two D/A converters that are processed in the same technology do not necessarily have the\nsame specifications due to technological variations, it is of the utmost importance to know the\nprecise relationship that exists between the specifications of the circuit and the matching proper-\nties of the used technology.",
+      "text": "Since two D/A converters that are processed in the same technology do not necessarily have the same specifications due to technological variations, it is of the utmost importance to know the precise relationship that exists between the specifications of the circuit and the matching properties of the used technology."
+    },
+    {
+      "pdf_page": 603,
+      "printed_page": 614,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        463.2269550000003
+      ],
+      "text_raw": "For a current-steering\nD/A converter, the INL is\nmainly determined by the\nmatching behavior of the\ncurrent sources. The param-\neter that is best suited for\nexpressing this technology\nversus DAC-specification\nrelation is the INL yield.\nThis INL yield is defined as\nthe ratio of the number of\nD/A converters with an INL\nsmaller than (cid:1) LSB to the\ntotal number of tested D/A\nconverters.\nThe random variations\nare modeled using a normal\ndistribution with expected value zero and a relative standard deviation s(I)/I. The statistical\nrelationship has been investigated analytically, resulting in an accurate formula expressing directly\nthe relationship between the INL yield specification, the resolution and the relative unit current\nstandard deviation for the D/A converter. This was given before.\nNote that the gate area of the current sources is inversely proportional to the relative unit\ncurrent standard deviation. Since a high yield requires a small value for this standard deviation,\nthis directly implies a large current source area.\nTo obtain a 12 bit accuracy, a relative unit current source standard deviation of 0.25% is\nnecessary.",
+      "text": "For a current-steering D/A converter, the INL is mainly determined by the matching behavior of the current sources. The parameter that is best suited for expressing this technology versus DAC-specification relation is the INL yield. This INL yield is defined as the ratio of the number of D/A converters with an INL smaller than (cid:1) LSB to the total number of tested D/A converters. The random variations are modeled using a normal distribution with expected value zero and a relative standard deviation s(I)/I. The statistical relationship has been investigated analytically, resulting in an accurate formula expressing directly the relationship between the INL yield specification, the resolution and the relative unit current standard deviation for the D/A converter. This was given before. Note that the gate area of the current sources is inversely proportional to the relative unit current standard deviation. Since a high yield requires a small value for this standard deviation, this directly implies a large current source area. To obtain a 12 bit accuracy, a relative unit current source standard deviation of 0.25% is necessary."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Since two D/A converters that are processed in the same technology do not necessarily have the same specifications due to technological variations, it is of the utmost importance to know the precise relationship that exists between the specifications of the circuit and the matching properties of the used technology.\n\nFor a current-steering D/A converter, the INL is mainly determined by the matching behavior of the current sources. The parameter that is best suited for expressing this technology versus DAC-specification relation is the INL yield. This INL yield is defined as the ratio of the number of D/A converters with an INL smaller than (cid:1) LSB to the total number of tested D/A converters. The random variations are modeled using a normal distribution with expected value zero and a relative standard deviation s(I)/I. The statistical relationship has been investigated analytically, resulting in an accurate formula expressing directly the relationship between the INL yield specification, the resolution and the relative unit current standard deviation for the D/A converter. This was given before. Note that the gate area of the current sources is inversely proportional to the relative unit current standard deviation. Since a high yield requires a small value for this standard deviation, this directly implies a large current source area. To obtain a 12 bit accuracy, a relative unit current source standard deviation of 0.25% is necessary.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "DAC Design: Static Accuracy",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0603_01_2022.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08474576591101693,
+          0.09268292664634148,
+          0.596610172690678,
+          0.15121951201219508
+        ],
+        "confidence": 1,
+        "text": "DAC Design: Static Accuracy"
+      },
+      {
+        "bbox": [
+          0.0745762794237287,
+          0.2048780485365853,
+          0.8983050929830508,
+          0.2487804875609756
+        ],
+        "confidence": 1,
+        "text": "INL_yicld = percentagc of functional DIA converters with"
+      },
+      {
+        "bbox": [
+          0.07118644732203377,
+          0.2634146340487805,
+          0.7355932269830507,
+          0.3121951218536585
+        ],
+        "confidence": 1,
+        "text": "an INL specification smaller than half an LSB."
+      },
+      {
+        "bbox": [
+          0.1932203435593219,
+          0.3365853654878048,
+          0.5593220384745762,
+          0.39512195085365853
+        ],
+        "confidence": 0.5,
+        "text": "INL_yield = f (mismatch)"
+      },
+      {
+        "bbox": [
+          0.6101694910169492,
+          0.32682926853658534,
+          0.6610169486440678,
+          0.3707317075609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• (1)"
+      },
+      {
+        "bbox": [
+          0.22711864372881357,
+          0.4780487818134239,
+          0.24745762677966104,
+          0.5170731697312915
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.09491525326271186,
+          0.5268292685365854,
+          0.1728813549576271,
+          0.5658536587804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "WL ="
+      },
+      {
+        "bbox": [
+          0.1830508470762712,
+          0.5951219506097561,
+          0.22711864368644066,
+          0.6439024384146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2("
+      },
+      {
+        "bbox": [
+          0.4542372885310735,
+          0.47317073117886177,
+          0.5423728817514125,
+          0.5365853653252033
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4AvT"
+      },
+      {
+        "bbox": [
+          0.31186440684745764,
+          0.51707317,
+          0.41355932210169494,
+          0.590243901707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[A,2*"
+      },
+      {
+        "bbox": [
+          0.42372881487288133,
+          0.5658536577439024,
+          0.5627118657203389,
+          0.6292682918902438
+        ],
+        "confidence": 0.5,
+        "text": "(VGs-VT)2"
+      },
+      {
+        "bbox": [
+          0.6167646711116386,
+          0.4670588745898826,
+          0.7866251618136049,
+          0.5231850295127402
+        ],
+        "confidence": 0.5,
+        "text": "High yield"
+      },
+      {
+        "bbox": [
+          0.6779661018886199,
+          0.5317073168641115,
+          0.7050847459564165,
+          0.5707317071080139
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Д"
+      },
+      {
+        "bbox": [
+          0.6406779672881355,
+          0.5853658534756098,
+          0.7355932215254237,
+          0.6292682925
+        ],
+        "confidence": 0.5,
+        "text": "small"
+      },
+      {
+        "bbox": [
+          0.7491525427118644,
+          0.5560975607621952,
+          0.8033898308474576,
+          0.609756097347561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "o (0"
+      },
+      {
+        "bbox": [
+          0.18305084691525425,
+          0.7804878041463414,
+          0.29830508420338986,
+          0.8536585358536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0 0≤-"
+      },
+      {
+        "bbox": [
+          0.30508474604519775,
+          0.7609756096747968,
+          0.3389830511299435,
+          0.829268292601626
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.2745762721751412,
+          0.8341463412601625,
+          0.3932203399717514,
+          0.9073170729674797
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 c V2N"
+      },
+      {
+        "bbox": [
+          0.5180756565231934,
+          0.7020592102885224,
+          0.9563591306856669,
+          0.7695077286228879
+        ],
+        "confidence": 0.5,
+        "text": "Large current source area"
+      },
+      {
+        "bbox": [
+          0.5354374258245097,
+          0.7986465507557305,
+          0.878121896825569,
+          0.884280279899571
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "o (lunit)/ unit = 0.25 %"
+      },
+      {
+        "bbox": [
+          0.7288135613559321,
+          0.9317073165243902,
+          0.9322033918644067,
+          0.9756097555487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sanger •Cos 2022"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For a current-steering D/A converter, the INL is mainly determined by the matching behavior of the current sources.",
+      "pdf_page": 603,
+      "printed_page": 614,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0603_01_2022.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Note that the gate area of the current sources is inversely proportional to the relative unit current standard deviation.",
+        "pdf_page": 603,
+        "printed_page": 614,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Since a high yield requires a small value for this standard deviation, this directly implies a large current source area.",
+        "pdf_page": 603,
+        "printed_page": 614,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "To obtain a 12 bit accuracy, a relative unit current source standard deviation of 0.25% is necessary.",
+        "pdf_page": 603,
+        "printed_page": 614,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Note that the gate area of the current sources is inversely proportional to the relative unit current standard deviation.",
+      "pdf_page": 603,
+      "printed_page": 614,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2022-M01",
+      "ocr_text": "INL_yicld = percentagc of functional DIA converters with",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.0745762794237287,
+        0.2048780485365853,
+        0.8983050929830508,
+        0.2487804875609756
+      ],
+      "context_crop": "regions/SANSEN-2022_math_01.png",
+      "context_bbox_normalized": [
+        0.0345762794237287,
+        0.13,
+        1,
+        0.3787804875609756
+      ],
+      "source_image": "slides/p0603_01_2022.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2022-M02",
+      "ocr_text": "INL_yield = f (mismatch)",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.1932203435593219,
+        0.3365853654878048,
+        0.5593220384745762,
+        0.39512195085365853
+      ],
+      "context_crop": "regions/SANSEN-2022_math_02.png",
+      "context_bbox_normalized": [
+        0.1532203435593219,
+        0.23658536548780482,
+        0.7893220384745762,
+        0.5251219508536585
+      ],
+      "source_image": "slides/p0603_01_2022.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2022-M03",
+      "ocr_text": "WL =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09491525326271186,
+        0.5268292685365854,
+        0.1728813549576271,
+        0.5658536587804878
+      ],
+      "context_crop": "regions/SANSEN-2022_math_03.png",
+      "context_bbox_normalized": [
+        0.054915253262711856,
+        0.4268292685365854,
+        0.4028813549576271,
+        0.6958536587804878
+      ],
+      "source_image": "slides/p0603_01_2022.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2022-M04",
+      "ocr_text": "0 0≤-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.18305084691525425,
+        0.7804878041463414,
+        0.29830508420338986,
+        0.8536585358536585
+      ],
+      "context_crop": "regions/SANSEN-2022_math_04.png",
+      "context_bbox_normalized": [
+        0.14305084691525424,
+        0.6804878041463415,
+        0.5283050842033898,
+        0.93
+      ],
+      "source_image": "slides/p0603_01_2022.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2022-M05",
+      "ocr_text": "o (lunit)/ unit = 0.25 %",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5354374258245097,
+        0.7986465507557305,
+        0.878121896825569,
+        0.884280279899571
+      ],
+      "context_crop": "regions/SANSEN-2022_math_05.png",
+      "context_bbox_normalized": [
+        0.4954374258245097,
+        0.6986465507557306,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0603_01_2022.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

@@ -1,0 +1,285 @@
+{
+  "case_id": "SANSEN-2051",
+  "slide_id": "2051",
+  "chapter": 20,
+  "slide_number_in_chapter": 51,
+  "source": {
+    "pdf_page": 618,
+    "printed_page": 629
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0618_01_2051.jpg",
+      "pdf_page": 618,
+      "printed_page": 629,
+      "bbox_pt": [
+        91.521622,
+        157.40447999999992,
+        374.78981,
+        353.864471
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 618,
+      "printed_page": 629,
+      "bbox_pt": [
+        0,
+        153.41489999999988,
+        595,
+        487.24250000000035
+      ],
+      "text_raw": "Such a folding block is usu-\nally realized by means of a\nnumber of differential pairs\nin parallel, the outputs of\nsome of which are also con-\nnected in parallel.\nAn example of a folding\nblock with folding rate 4 is\nshown in this slide in bipolar\ntechnology.\nAll four differential pairs\nare connected in parallel at\nthe input. The appropriate\noutputs are connected two\nby two. Four equidistant ref-\nerences are connected to the\ninputs. They set the inversion points of the transfer characteristics of the differential pairs and\nhence determine the four folding regions.\nNote that the input sees four differential pairs in parallel. This is why folding does not decrease\nthe input capacitance. Each folding block has as many differential pairs in parallel as the folding\nrate indicates. The input capacitance is the same as for a flash ADC.\nNote also that the output frequency of a folding block is at a higher frequency than the input\nvoltage. This establishes the maximum frequency of operation.\nFinally, the 2-bit MSB ADC is easily realized with a circuit similar to the one in this slide. As\nreference voltages 4/16 V, 8/16 V, 12/16 V and 16/16 V have to be taken. The two MSBs are\navailable at the output of the second differential pair and at the V terminal in this slide.\nout",
+      "text": "Such a folding block is usually realized by means of a number of differential pairs in parallel, the outputs of some of which are also connected in parallel. An example of a folding block with folding rate 4 is shown in this slide in bipolar technology. All four differential pairs are connected in parallel at the input. The appropriate outputs are connected two by two. Four equidistant references are connected to the inputs. They set the inversion points of the transfer characteristics of the differential pairs and hence determine the four folding regions. Note that the input sees four differential pairs in parallel. This is why folding does not decrease the input capacitance. Each folding block has as many differential pairs in parallel as the folding rate indicates. The input capacitance is the same as for a flash ADC. Note also that the output frequency of a folding block is at a higher frequency than the input voltage. This establishes the maximum frequency of operation. Finally, the 2-bit MSB ADC is easily realized with a circuit similar to the one in this slide. As reference voltages 4/16 V, 8/16 V, 12/16 V and 16/16 V have to be taken. The two MSBs are available at the output of the second differential pair and at the V terminal in this slide. out"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Such a folding block is usually realized by means of a number of differential pairs in parallel, the outputs of some of which are also connected in parallel. An example of a folding block with folding rate 4 is shown in this slide in bipolar technology. All four differential pairs are connected in parallel at the input. The appropriate outputs are connected two by two. Four equidistant references are connected to the inputs. They set the inversion points of the transfer characteristics of the differential pairs and hence determine the four folding regions. Note that the input sees four differential pairs in parallel. This is why folding does not decrease the input capacitance. Each folding block has as many differential pairs in parallel as the folding rate indicates. The input capacitance is the same as for a flash ADC. Note also that the output frequency of a folding block is at a higher frequency than the input voltage. This establishes the maximum frequency of operation. Finally, the 2-bit MSB ADC is easily realized with a circuit similar to the one in this slide. As reference voltages 4/16 V, 8/16 V, 12/16 V and 16/16 V have to be taken. The two MSBs are available at the output of the second differential pair and at the V terminal in this slide. out",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Folding block realization",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0618_01_2051.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432294481982,
+          0.08292682975609755,
+          0.5168918905123874,
+          0.14146341512195115
+        ],
+        "confidence": 1,
+        "text": "Folding block realization"
+      },
+      {
+        "bbox": [
+          0.6925675673648649,
+          0.21463414687804883,
+          0.9358108106081081,
+          0.2682926834634146
+        ],
+        "confidence": 1,
+        "text": "Folding rate of 4"
+      },
+      {
+        "bbox": [
+          0.2128378384009009,
+          0.434146341300813,
+          0.2466216221846847,
+          0.46341463398373983
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "oV.,"
+      },
+      {
+        "bbox": [
+          0.09459459598817563,
+          0.8390243900000001,
+          0.20608108247466211,
+          0.8682926826829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vcc - VBE -1,R,"
+      },
+      {
+        "bbox": [
+          0.6385135146283784,
+          0.5073170736585367,
+          0.8445945957094594,
+          0.5560975614634147
+        ],
+        "confidence": 1,
+        "text": "Differential pairs"
+      },
+      {
+        "bbox": [
+          0.6350808673064753,
+          0.5557583779606148,
+          0.7804596760239452,
+          0.605217230588997
+        ],
+        "confidence": 1,
+        "text": "in parallel !"
+      },
+      {
+        "bbox": [
+          0.6380267281819748,
+          0.6370570570631268,
+          0.7775138142976314,
+          0.7141624582650727
+        ],
+        "confidence": 0.5,
+        "text": "Large Cin!"
+      },
+      {
+        "bbox": [
+          0.6385135159346846,
+          0.7560975606910568,
+          0.9290540564752252,
+          0.7999999997154471
+        ],
+        "confidence": 0.5,
+        "text": "Output at higher freq. ="
+      },
+      {
+        "bbox": [
+          0.6348942022066653,
+          0.8029106424376764,
+          0.8380787681889683,
+          0.8605039927318361
+        ],
+        "confidence": 0.5,
+        "text": "fin x folding rate"
+      },
+      {
+        "bbox": [
+          0.6790540572635134,
+          0.8926829265243902,
+          0.9358108140202701,
+          0.9268292679878047
+        ],
+        "confidence": 1,
+        "text": "Johns, Martin, Wiley 1997"
+      },
+      {
+        "bbox": [
+          0.7331081180428445,
+          0.9560975606504065,
+          0.9425675646148132,
+          0.9853658533333333
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10 as 2051"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "An example of a folding block with folding rate 4 is shown in this slide in bipolar technology.",
+      "pdf_page": 618,
+      "printed_page": 629,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "They set the inversion points of the transfer characteristics of the differential pairs and hence determine the four folding regions.",
+      "pdf_page": 618,
+      "printed_page": 629,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0618_01_2051.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Such a folding block is usually realized by means of a number of differential pairs in parallel, the outputs of some of which are also connected in parallel.",
+        "pdf_page": 618,
+        "printed_page": 629,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "All four differential pairs are connected in parallel at the input.",
+        "pdf_page": 618,
+        "printed_page": 629,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The appropriate outputs are connected two by two.",
+        "pdf_page": 618,
+        "printed_page": 629,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Four equidistant references are connected to the inputs.",
+        "pdf_page": 618,
+        "printed_page": 629,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Note that the input sees four differential pairs in parallel.",
+        "pdf_page": 618,
+        "printed_page": 629,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Each folding block has as many differential pairs in parallel as the folding rate indicates.",
+        "pdf_page": 618,
+        "printed_page": 629,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This is why folding does not decrease the input capacitance.",
+      "pdf_page": 618,
+      "printed_page": 629,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "They set the inversion points of the transfer characteristics of the differential pairs and hence determine the four folding regions.",
+      "pdf_page": 618,
+      "printed_page": 629,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2051-M01",
+      "ocr_text": "Output at higher freq. =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6385135159346846,
+        0.7560975606910568,
+        0.9290540564752252,
+        0.7999999997154471
+      ],
+      "context_crop": "regions/SANSEN-2051_math_01.png",
+      "context_bbox_normalized": [
+        0.5985135159346846,
+        0.6560975606910568,
+        1,
+        0.9299999997154471
+      ],
+      "source_image": "slides/p0618_01_2051.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

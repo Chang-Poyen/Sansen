@@ -1,0 +1,55 @@
+374 Chapter #13
+1322
+The output resistance R
+OUT
+is the open-loop output
+resistance R divided
+OUTOL
+by the loop gain LG.
+The open-loop output
+resistance R is the par-
+OUTOL
+allel combination of the
+small output resistor R and
+O
+the feedback resistors in
+series. Since output resis-
+tance R is small, the effect
+O
+of the feedback resistors is
+negligible.
+Application of shunt feed-
+back will make the closed-
+loop output resistance R
+OUT
+nearly zero.
+Note that for the calculation of the open-loop output resistance, the effect of the feedback
+must be eliminated. This is again done by setting the gain A to zero.
+0
+1323
+A popular series-shunt feed-
+back amplifier is shown in
+this slide. It contains only a
+few transistors. It has two
+amplifiers M1 and M2 and
+a source follower. It is called
+a series-shunt feedback pair.
+The source follower does
+not seem to count and yet it
+provides a lot more loop
+gain as we will find out next.
+Note that a pMOST is
+used as a second amplifier
+as it provides easier DC
+biasing. Indeed the Sources
+of transistors M1 and M3
+are at nearly equal DC voltage levels. Transistor M2 must now provide a lower DC voltage at
+the output than at the input. This is a lot easier with a pMOST than with an nMOST.
+Note also that the feedback resistor is usually larger than 1/g to make sure that all the
+m1
+feedback current coming from R flows into the transistor, in order to increase the loop gain.
+2
+This is not always obvious however, as shown next. We need to know more about the input
+resistance at the Source of transistor M1. After all, transistor M1 behaves as a cascode transistor
+for the feedback current. What then is its input resistance?
+This is reviewed on the next slide.

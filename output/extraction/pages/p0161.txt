@@ -1,0 +1,58 @@
+Stability of operational amplifiers 165
+This pole f is determined by the other capacitance, i.e. the load capacitance C . The time
+nd L
+constant is given by the product of this load capacitance C and the resistance seen by it. This
+L
+is resistor R but especially resistance 1/g , offered by the second stage, across which C acts
+L m2 c
+as a short-circuit at these high frequencies, where f is expected to occur.
+nd
+Indeed the second stage is usually a single transistor. Its Drain is then connected to its Gate.
+Its resistance is simply 1/g .
+m2
+Therefore, the non-dominant pole is mainly determined by time constant C /g . An exact
+L m2
+calculation reveals that we have to take into account that a small capacitance C is present at
+n1
+node 1. The capacitive division C /C is a kind of correction factor. We normally choose
+n1 c
+capacitor C to be at least three times larger than C .
+c n1
+0532
+Both the GBW and the non-
+dominant pole are linked by
+the stability requirement.
+The f /GBW must be
+nd
+about three!
+Rewriting this provides
+an important relationship
+between the trans-conduc-
+tances on one hand, and the
+capacitances on the other.
+The correction factor
+C /C is simply taken to be
+n1 c
+0.3. Combining this with the
+ratio f /GBW of three, we
+nd
+obtain a factor of 4.
+This relationship shows
+why the current in the second stage of a 2-stage opamp always consumes much more power
+than the first stage. Indeed for a specific V −V (such as 0.2 V), the transconductances represent
+GS T
+the currents. Normally, we choose the compensation capacitance to be smaller than the load
+capacitance. It is usually 2–3 times smaller.
+As a result, the current in the second stage is 8–12 times larger than the current in an input
+transistor.
+This relationship also shows that a redesign for larger C , requires either a larger C or a
+L c
+larger g . These are the two techniques, that we will use to compensate a two-stage opamp.
+m2
+As an example, for a specific GBW and C , the equations can easily be solved to find the two
+L
+g ’s, provided we firstly choose C !
+m c
+0533
+The stability requirement forces us to position the non-dominant pole at sufficiently high
+frequencies (around 3 GBW).

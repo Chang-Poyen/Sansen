@@ -1,0 +1,400 @@
+{
+  "case_id": "SANSEN-0638",
+  "slide_id": "0638",
+  "chapter": 6,
+  "slide_number_in_chapter": 38,
+  "source": {
+    "pdf_page": 197,
+    "printed_page": 201
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0197_01_0638.jpg",
+      "pdf_page": 197,
+      "printed_page": 201,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 197,
+      "printed_page": 201,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        463.3265000000003
+      ],
+      "text_raw": "The output voltage range is\na lot better!\nIt depends on whether a\nresistive load is added to the\ncapacitive one or not.\nNormally, there is no resis-\ntive load on-chip. Blocks are\nput in series such that they\nonly see Gates as loads. This\ndepends on the application\nhowever.\nIf no resistive loads are\npresent, then the output can\ngo rail-to-rail. Indeed, even\nfor output voltages close to\nthe positive rail, when the\noutput transistor ends up in the linear region, the capacitor is still charged further until the\noutput voltage reaches the positive supply voltage. Of course, in this region, the gain will have\ndecreased. Some distortion will now show up. Nevertheless, the supply rail can be reached! The\nsame applies to the negative rail.\nIf there is a resistive load, a resistive divider is created as soon as the output transistor M5\nenters the linear region, as illustrated in this slide. In this case, the supply rail can never be\nreached. The output can get close though, depending on the size of the output transistor.\nNote that this is the ideal output structure for a wide-swing opamp. No cascodes are used.\nMoreover, the output devices are connected drain-to-drain. This is why class AB output drivers\nuse this output configuration. Only the Gate drive circuits differ (see Chapter 12).",
+      "text": "The output voltage range is a lot better! It depends on whether a resistive load is added to the capacitive one or not. Normally, there is no resistive load on-chip. Blocks are put in series such that they only see Gates as loads. This depends on the application however. If no resistive loads are present, then the output can go rail-to-rail. Indeed, even for output voltages close to the positive rail, when the output transistor ends up in the linear region, the capacitor is still charged further until the output voltage reaches the positive supply voltage. Of course, in this region, the gain will have decreased. Some distortion will now show up. Nevertheless, the supply rail can be reached! The same applies to the negative rail. If there is a resistive load, a resistive divider is created as soon as the output transistor M5 enters the linear region, as illustrated in this slide. In this case, the supply rail can never be reached. The output can get close though, depending on the size of the output transistor. Note that this is the ideal output structure for a wide-swing opamp. No cascodes are used. Moreover, the output devices are connected drain-to-drain. This is why class AB output drivers use this output configuration. Only the Gate drive circuits differ (see Chapter 12)."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The output voltage range is a lot better! It depends on whether a resistive load is added to the capacitive one or not. Normally, there is no resistive load on-chip. Blocks are put in series such that they only see Gates as loads. This depends on the application however. If no resistive loads are present, then the output can go rail-to-rail. Indeed, even for output voltages close to the positive rail, when the output transistor ends up in the linear region, the capacitor is still charged further until the output voltage reaches the positive supply voltage. Of course, in this region, the gain will have decreased. Some distortion will now show up. Nevertheless, the supply rail can be reached! The same applies to the negative rail. If there is a resistive load, a resistive divider is created as soon as the output transistor M5 enters the linear region, as illustrated in this slide. In this case, the supply rail can never be reached. The output can get close though, depending on the size of the output transistor. Note that this is the ideal output structure for a wide-swing opamp. No cascodes are used. Moreover, the output devices are connected drain-to-drain. This is why class AB output drivers use this output configuration. Only the Gate drive circuits differ (see Chapter 12).",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA : Output Voltage Range",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0197_01_0638.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431798986502,
+          0.07804877969512192,
+          0.851351345016892,
+          0.14146341384146344
+        ],
+        "confidence": 0.5,
+        "text": "Miller CMOS OTA : Output Voltage Range"
+      },
+      {
+        "bbox": [
+          0.18581081016891893,
+          0.21463414575609763,
+          0.25675675611486487,
+          0.2731707311219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT"
+      },
+      {
+        "bbox": [
+          0.48648649189189175,
+          0.1951219521341463,
+          0.9324324378378377,
+          0.26829268384146343
+        ],
+        "confidence": 0.5,
+        "text": "Rail-to-rail output if no R_"
+      },
+      {
+        "bbox": [
+          0.2770270266680743,
+          0.3365853654573171,
+          0.3412162158572635,
+          0.3999999996036585
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5468058797052082,
+          0.3296954722336801,
+          0.6592752048996959,
+          0.3922557491025469
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouTmax"
+      },
+      {
+        "bbox": [
+          0.7871621620101352,
+          0.33658536568292685,
+          0.8243243241722974,
+          0.3707317071463414
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.08783783820945945,
+          0.25365853639024394,
+          0.12500000037162162,
+          0.2926829266341463
+        ],
+        "confidence": 1,
+        "text": "3V"
+      },
+      {
+        "bbox": [
+          0.0912162160472973,
+          0.3463414632520325,
+          0.12162162145270271,
+          0.3756097559349594
+        ],
+        "confidence": 1,
+        "text": "2V"
+      },
+      {
+        "bbox": [
+          0.0878378375,
+          0.43414634170731703,
+          0.1216216212837838,
+          0.4682926831707317
+        ],
+        "confidence": 1,
+        "text": "1V"
+      },
+      {
+        "bbox": [
+          0.09459459442567568,
+          0.5268292681571816,
+          0.1249999998310811,
+          0.5512195120596205
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OVI"
+      },
+      {
+        "bbox": [
+          0.07770270317567567,
+          0.614634146097561,
+          0.12500000047297297,
+          0.6487804875609755
+        ],
+        "confidence": 0.5,
+        "text": "-1V"
+      },
+      {
+        "bbox": [
+          0.08108108152027026,
+          0.7024390241463414,
+          0.12500000043918919,
+          0.7365853656097561
+        ],
+        "confidence": 1,
+        "text": "-2V"
+      },
+      {
+        "bbox": [
+          0.08108108034909912,
+          0.780487805203252,
+          0.12499999926801802,
+          0.8097560978861789
+        ],
+        "confidence": 1,
+        "text": "-3V"
+      },
+      {
+        "bbox": [
+          0.8243243250337837,
+          0.44878048770731704,
+          0.8952702709797297,
+          0.49756097551219514
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.4797297291948198,
+          0.5707317068292683,
+          0.5506756751407658,
+          0.6292682921951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.2770270266891892,
+          0.6829268288719512,
+          0.3378378375,
+          0.7463414630182927
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.5540540551689188,
+          0.7268292683414634,
+          0.6655405416554053,
+          0.7804878049268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vou Tmin"
+      },
+      {
+        "bbox": [
+          0.2837837836148649,
+          0.8439024388414634,
+          0.3108108106418919,
+          0.8731707315243903
+        ],
+        "confidence": 1,
+        "text": "1V"
+      },
+      {
+        "bbox": [
+          0.3986486486064189,
+          0.8439024395121951,
+          0.435810810768581,
+          0.8829268297560975
+        ],
+        "confidence": 1,
+        "text": "2V"
+      },
+      {
+        "bbox": [
+          0.4459102521826942,
+          0.8436577590113493,
+          0.5574681224805128,
+          0.8782934621679834
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+2.5V 3V"
+      },
+      {
+        "bbox": [
+          0.6486486484984985,
+          0.8439024388346884,
+          0.6824324322822822,
+          0.878048780298103
+        ],
+        "confidence": 1,
+        "text": "4V"
+      },
+      {
+        "bbox": [
+          0.7295701622272478,
+          0.8283128251645646,
+          0.8954298357015339,
+          0.8887603459090745
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD = |Vssl"
+      },
+      {
+        "bbox": [
+          0.729729734315367,
+          0.9512195127642277,
+          0.9358108025089574,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 0638"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Some distortion will now show up.",
+      "pdf_page": 197,
+      "printed_page": 201,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If there is a resistive load, a resistive divider is created as soon as the output transistor M5 enters the linear region, as illustrated in this slide.",
+      "pdf_page": 197,
+      "printed_page": 201,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0197_01_0638.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Blocks are put in series such that they only see Gates as loads.",
+        "pdf_page": 197,
+        "printed_page": 201,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Moreover, the output devices are connected drain-to-drain.",
+        "pdf_page": 197,
+        "printed_page": 201,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Only the Gate drive circuits differ (see Chapter 12).",
+        "pdf_page": 197,
+        "printed_page": 201,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It depends on whether a resistive load is added to the capacitive one or not.",
+      "pdf_page": 197,
+      "printed_page": 201,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This depends on the application however.",
+      "pdf_page": 197,
+      "printed_page": 201,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Of course, in this region, the gain will have decreased.",
+      "pdf_page": 197,
+      "printed_page": 201,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output can get close though, depending on the size of the output transistor.",
+      "pdf_page": 197,
+      "printed_page": 201,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0638-M01",
+      "ocr_text": "VDD = |Vssl",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7295701622272478,
+        0.8283128251645646,
+        0.8954298357015339,
+        0.8887603459090745
+      ],
+      "context_crop": "regions/SANSEN-0638_math_01.png",
+      "context_bbox_normalized": [
+        0.6895701622272478,
+        0.7283128251645646,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0197_01_0638.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

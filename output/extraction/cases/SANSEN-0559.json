@@ -1,0 +1,159 @@
+{
+  "case_id": "SANSEN-0559",
+  "slide_id": "0559",
+  "chapter": 5,
+  "slide_number_in_chapter": 59,
+  "source": {
+    "pdf_page": 176,
+    "printed_page": 180
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0176_01_0559.jpg",
+      "pdf_page": 176,
+      "printed_page": 180,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 176,
+      "printed_page": 180,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        797
+      ],
+      "text_raw": "We have now acquired\nsufficient knowledge about\nthe stability of an opera-\ntional transconductance\namplifier, to be able to\nimplement it by means of\nMOSTs or bipolar\ntransistors.\nThis is discussed in the\nnext Chapter.",
+      "text": "We have now acquired sufficient knowledge about the stability of an operational transconductance amplifier, to be able to implement it by means of MOSTs or bipolar transistors. This is discussed in the next Chapter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "We have now acquired sufficient knowledge about the stability of an operational transconductance amplifier, to be able to implement it by means of MOSTs or bipolar transistors. This is discussed in the next Chapter.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0176_01_0559.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627504237281,
+          0.08292682908536586,
+          0.38305085131355926,
+          0.13658536567073165
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.12881356307203373,
+          0.24390243874999995,
+          0.7288135630720337,
+          0.30731707289634147
+        ],
+        "confidence": 1,
+        "text": "• Use of operational amplifiers"
+      },
+      {
+        "bbox": [
+          0.12881356235404895,
+          0.35121951200542,
+          0.6745762742184558,
+          0.41463414615176153
+        ],
+        "confidence": 0.5,
+        "text": "• Stability of 2-stage opamp"
+      },
+      {
+        "bbox": [
+          0.12542372579661024,
+          0.4585365855121951,
+          0.4271186410508475,
+          0.5219512196585365
+        ],
+        "confidence": 1,
+        "text": "• Pole splitting"
+      },
+      {
+        "bbox": [
+          0.12881356105084749,
+          0.5707317079512194,
+          0.7627118661355933,
+          0.6341463420975609
+        ],
+        "confidence": 1,
+        "text": "• Compensation of positive zero"
+      },
+      {
+        "bbox": [
+          0.12881355542372885,
+          0.6829268294425086,
+          0.6745762672881356,
+          0.7463414635888501
+        ],
+        "confidence": 0.5,
+        "text": "• Stability of 3-stage opamp"
+      },
+      {
+        "bbox": [
+          0.7288135610451977,
+          0.9414634143495935,
+          0.9355932220621468,
+          0.9853658533739837
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen tan 0559"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0176_01_0559.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

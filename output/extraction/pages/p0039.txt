@@ -1,0 +1,48 @@
+Comparison of MOST and bipolar transistors 39
+The two transition points
+on either side of the strong-
+inversion region must be
+checked. This means that we
+have to have a look at the
+continuity of the current
+itself and its first derivative.
+Also the second and third
+derivative must be con-
+tinuous if we are inter-
+ested in distortion (see
+Chapter 18).
+Continuity must also be
+ensured of the current and
+its first derivative at all tran-
+sition points for the voltage
+applied. They are
+– transition between linear and saturation region (for increasing v )
+DS
+– transition around zero v
+DS
+The models must also be verified if noise models are used.
+Finally, for high-frequency design, the input impedance (derived from parameter s ) and the
+11
+gain (from s ) had better be verified versus frequency. Of course the other two s parameters
+21
+can be added as well.
+0173
+Considerable attention has
+been paid up till now to
+models of MOST devices,
+despite the fact that the
+bipolar transistors are his-
+torically first. Bipolar tran-
+sistors are easily found
+nowadays in BiCMOS pro-
+cesses in which MOST
+devices and bipolar transis-
+tors are integrated together.
+We will have a look at
+models for bipolar transis-
+tors first, and carry out a
+comparison in performance
+afterwards.
+0174
+A bipolar transistor consists of two diodes back to back, very close together. The first one is
+forward biased, whereas the other one reverse biased. It is a device which is very different from

@@ -1,0 +1,56 @@
+460 Chapter #16
+about 5 mV, on 50°C dis-
+tance from the reference
+temperature T (which is
+r
+300 K in this example). This
+is of the same order of mag-
+nitude of mismatch. It is
+therefore negligible if the
+temperature range is not all
+that large.
+If we allow the current to
+have a positive temperature
+coefficient (m=1), then this
+curvature correction is even
+smaller. This is the case if
+we need the (bipolar transis-
+tor) transconductance g to
+m
+be independent of temper-
+ature, for example.
+Since, for many applications, the curvature term is negligible, let us concentrate on the linear
+term with coefficient l.
+168
+For a constant current, the
+voltage V across the
+BE
+diode-connected transistor
+decreases with temperature
+in a linear way with slope
+coefficient l. Its value is
+about −2 mV/°C.
+If we now find a way
+to add a voltage V to
+C
+this diode voltage V ,
+BE
+which is Proportional To
+the Absolute Temperature
+(PTAT) with the same slope
+l, then we obtain a reference
+voltage V which is inde-
+ref
+pendent of temperature.
+Moreover, we will find that this reference voltage is the bandgap voltage itself. It provides a high
+absolute accuracy!
+Since both V and V are of similar size, the reference voltage will be around 1.2 V. Since it
+BE C
+is difficult to predict the actual voltage V , we will need to trim the added voltage V such that
+BE C
+the reference voltage is constant around our reference temperature T . This is the same as saying
+r
+that we will need to trim the added voltage V such that the curvature is symmetrical with
+C
+respect to the reference temperature T .
+r

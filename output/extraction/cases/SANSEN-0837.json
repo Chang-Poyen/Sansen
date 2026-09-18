@@ -1,0 +1,234 @@
+{
+  "case_id": "SANSEN-0837",
+  "slide_id": "0837",
+  "chapter": 8,
+  "slide_number_in_chapter": 37,
+  "source": {
+    "pdf_page": 251,
+    "printed_page": 257
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0251_01_0837.jpg",
+      "pdf_page": 251,
+      "printed_page": 257,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 251,
+      "printed_page": 257,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        429.4455100000002
+      ],
+      "text_raw": "Common-mode feedback\ncan also be embedded in\nthe differential amplifier as\nshown in this slide.\nAfter all, this is a symmet-\nrical OTA with current\nfactor B.\nHowever, the current mir-\nrors M2/M3 have an addi-\ntional output current with\ntransistors M4, to cancel\nthe differential signals at the\ndiode-connected MOSTs\nM6. These latter devices are\nthe inputs of current mirrors\nM5/M6 which close the\nfeedback loop.\nThe actual output voltages can be modified by injecting currents with transistors M7 driven\nby some other CMFB loop.\nThe additional power consumption in this solution, is quite modest. Moreover, the output\nswing is not hampered by the CMFB amplifier.\nAs a consequence, this is an attractive solution indeed!",
+      "text": "Common-mode feedback can also be embedded in the differential amplifier as shown in this slide. After all, this is a symmetrical OTA with current factor B. However, the current mirrors M2/M3 have an additional output current with transistors M4, to cancel the differential signals at the diode-connected MOSTs M6. These latter devices are the inputs of current mirrors M5/M6 which close the feedback loop. The actual output voltages can be modified by injecting currents with transistors M7 driven by some other CMFB loop. The additional power consumption in this solution, is quite modest. Moreover, the output swing is not hampered by the CMFB amplifier. As a consequence, this is an attractive solution indeed!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Common-mode feedback can also be embedded in the differential amplifier as shown in this slide. After all, this is a symmetrical OTA with current factor B. However, the current mirrors M2/M3 have an additional output current with transistors M4, to cancel the differential signals at the diode-connected MOSTs M6. These latter devices are the inputs of current mirrors M5/M6 which close the feedback loop. The actual output voltages can be modified by injecting currents with transistors M7 driven by some other CMFB loop. The additional power consumption in this solution, is quite modest. Moreover, the output swing is not hampered by the CMFB amplifier. As a consequence, this is an attractive solution indeed!",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "CMFB over 2 pseudo-differential amps",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0251_01_0837.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.06756756562499999,
+          0.07804878134146342,
+          0.7567567548141891,
+          0.14634146426829264
+        ],
+        "confidence": 1,
+        "text": "CMFB over 2 pseudo-differential amps"
+      },
+      {
+        "bbox": [
+          0.7060810814527028,
+          0.2585365851219512,
+          0.7432432436148648,
+          0.2926829265853659
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.8324018301309005,
+          0.2671312103979999,
+          0.8898143836088321,
+          0.29985415572761953
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VсM"
+      },
+      {
+        "bbox": [
+          0.6317567573198198,
+          0.3024390241463415,
+          0.6655405411036036,
+          0.32682926804878054
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.7736486487162163,
+          0.33658536546341455,
+          0.8141891892567568,
+          0.37560975570731703
+        ],
+        "confidence": 1,
+        "text": "M7"
+      },
+      {
+        "bbox": [
+          0.1418918916385135,
+          0.4682926825203252,
+          0.17905405380067566,
+          0.5170731703252033
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.2162162164864865,
+          0.487804877804878,
+          0.24324324351351354,
+          0.5219512192682927
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.7601351347635135,
+          0.46829268312195116,
+          0.7972972969256756,
+          0.5170731709268293
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.45945945950168915,
+          0.5317073174390244,
+          0.4898648649070945,
+          0.5609756101219512
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.6283783781756757,
+          0.7121951216097561,
+          0.6554054052027027,
+          0.7463414630731707
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.45608108099662154,
+          0.7512195126829267,
+          0.4966216215371621,
+          0.7902439029268292
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.7060810806756757,
+          0.7170731709756099,
+          0.7466216212162162,
+          0.7512195124390244
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.7195945969172296,
+          0.9512195117682928,
+          0.9324324347550675,
+          0.9853658532317074
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 0837"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Common-mode feedback can also be embedded in the differential amplifier as shown in this slide.",
+      "pdf_page": 251,
+      "printed_page": 257,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0251_01_0837.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "However, the current mirrors M2/M3 have an additional output current with transistors M4, to cancel the differential signals at the diode-connected MOSTs M6.",
+        "pdf_page": 251,
+        "printed_page": 257,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

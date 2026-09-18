@@ -1,0 +1,67 @@
+76 Chapter #2
+0250
+Most often, the output cur-
+rent of a cascode is con-
+verted into a voltage by
+means of a resistance R .
+L
+We thus obtain a current-
+to-voltage converter or
+transresistance amplifier.
+The higher the resistance R
+L
+the higher the gain, since the
+transresistance v /i =A
+out in R
+is simply R itself. This is
+L
+true whilst R is not too
+L
+high.
+For not too high values of
+R , the input resistance
+L
+v /i =R is then low, or
+in in in
+simply 1/g .
+m
+We will try to make the value of R as high as possible, in order to achieve a high gain. This
+L
+can be done by cascoding a few transistors as a load. The question then is, what will the gain be?
+Indeed, for very high values of R , it is not clear what the gain will be. For example, for
+L
+infinite R , the current i cannot flow any more. What can the ratio v /i be?
+L in out in
+0251
+The only possible way to
+respect the laws of Kirchoff,
+is to add either an output
+resistance to the input cur-
+rent source or to limit the
+load resistor to finite values.
+Let us see what happens
+when we make the load
+resistor infinity and we add
+an output resistance R in
+B
+parallel with the input cur-
+rent source. Moreover, we
+separate the output resistor
+r from the transistor itself,
+DS
+to determine where the cur-
+rents are actually flowing.
+Two currents are now calculated, the current i in the transistor itself and the current through
+ds
+the load resistor i .
+L
+This latter current i is constant as imposed by the input current source. However, if R is
+L L
+larger than a specific value R , then this current has to go to zero!
+Lc
+The transistor current i on the other hand, increases with the load resistor, to become
+ds
+constant once R is larger than R . The transistor thus amplifies the input current to fairly
+L Lc
+large values! Normally, g R is much larger than unity!
+m B

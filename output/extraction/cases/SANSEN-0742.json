@@ -1,0 +1,387 @@
+{
+  "case_id": "SANSEN-0742",
+  "slide_id": "0742",
+  "chapter": 7,
+  "slide_number_in_chapter": 42,
+  "source": {
+    "pdf_page": 226,
+    "printed_page": 231
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0227_01_0742.jpg",
+      "pdf_page": 227,
+      "printed_page": 232,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 226,
+      "printed_page": 231,
+      "bbox_pt": [
+        0,
+        582.9065000000003,
+        595,
+        797
+      ],
+      "text_raw": "Indeed, for common-mode or average input signals in the middle, both input stages are in\noperation. The total transconductance is now the sum of the transconductances of the nMOSTs\nand pMOSTs at the input.\nFor higher common-mode input signals however, the pMOSTs are shut off. The transconduct-\nance is now only half. The same is true for low common-mode input signals. The total transcon-\nductance has a bell shape versus the input common-mode input voltage, as shown in this slide,\nand so does the GBW.\nThis gives a lot of distortion.",
+      "text": "Indeed, for common-mode or average input signals in the middle, both input stages are in operation. The total transconductance is now the sum of the transconductances of the nMOSTs and pMOSTs at the input. For higher common-mode input signals however, the pMOSTs are shut off. The transconductance is now only half. The same is true for low common-mode input signals. The total transconductance has a bell shape versus the input common-mode input voltage, as shown in this slide, and so does the GBW. This gives a lot of distortion."
+    },
+    {
+      "pdf_page": 227,
+      "printed_page": 232,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        343.7465
+      ],
+      "text_raw": "Some circuitry has to be\nadded to equalize the trans-\nconductance over the full\ncommon-mode input range.\nIn other words, for low\ncommon-mode input volt-\nages, we need to double\nthe transconductance of the\npMOSTs; for high voltages,\nwe need to double the\ntransconductances of the\nnMOSTs.\nVarious circuits can be\ndevised to carry out such a\ntask. One of these is\nexplained next. The others\nare discussed in Chapter 11.",
+      "text": "Some circuitry has to be added to equalize the transconductance over the full common-mode input range. In other words, for low common-mode input voltages, we need to double the transconductance of the pMOSTs; for high voltages, we need to double the transconductances of the nMOSTs. Various circuits can be devised to carry out such a task. One of these is explained next. The others are discussed in Chapter 11."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Indeed, for common-mode or average input signals in the middle, both input stages are in operation. The total transconductance is now the sum of the transconductances of the nMOSTs and pMOSTs at the input. For higher common-mode input signals however, the pMOSTs are shut off. The transconductance is now only half. The same is true for low common-mode input signals. The total transconductance has a bell shape versus the input common-mode input voltage, as shown in this slide, and so does the GBW. This gives a lot of distortion.\n\nSome circuitry has to be added to equalize the transconductance over the full common-mode input range. In other words, for low common-mode input voltages, we need to double the transconductance of the pMOSTs; for high voltages, we need to double the transconductances of the nMOSTs. Various circuits can be devised to carry out such a task. One of these is explained next. The others are discussed in Chapter 11.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Problem: unequal gmtot",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0227_01_0742.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432729247104,
+          0.08780487790940761,
+          0.48986486783301164,
+          0.14634146327526132
+        ],
+        "confidence": 1,
+        "text": "Problem: unequal gmtot"
+      },
+      {
+        "bbox": [
+          0.08445945905405407,
+          0.25365853609756095,
+          0.13175675635135137,
+          0.30243902390243904
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.29054053956925674,
+          0.39999999932926833,
+          0.38175675578547297,
+          0.4536585359146341
+        ],
+        "confidence": 0.5,
+        "text": "/9mtot"
+      },
+      {
+        "bbox": [
+          0.1621621615990991,
+          0.526829268699187,
+          0.277027026463964,
+          0.575609756504065
+        ],
+        "confidence": 1,
+        "text": "pMOST"
+      },
+      {
+        "bbox": [
+          0.5337269765201946,
+          0.5362826717034389,
+          0.6453270791252411,
+          0.5807904985318141
+        ],
+        "confidence": 1,
+        "text": "nMOST"
+      },
+      {
+        "bbox": [
+          0.31081081030405405,
+          0.5951219507317074,
+          0.36824324273648645,
+          0.6439024385365854
+        ],
+        "confidence": 1,
+        "text": "9mn"
+      },
+      {
+        "bbox": [
+          0.43581081038851355,
+          0.5951219508130081,
+          0.493243242820946,
+          0.6439024386178862
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mр"
+      },
+      {
+        "bbox": [
+          0.13513513682432432,
+          0.6878048775121951,
+          0.30405405574324323,
+          0.7512195116585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss = 0 1.1 V"
+      },
+      {
+        "bbox": [
+          0.3749999994449807,
+          0.7024390245993032,
+          0.4527027021476834,
+          0.7512195124041813
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDo /2"
+      },
+      {
+        "bbox": [
+          0.49645551565629364,
+          0.6821480771176072,
+          0.604895837501271,
+          0.7324860685994812
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDo-1.1 V"
+      },
+      {
+        "bbox": [
+          0.12837838190154444,
+          0.8195121947735191,
+          0.6216216251447877,
+          0.8780487801393727
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "pMOST on : VINCM < VDD - 1.1 V"
+      },
+      {
+        "bbox": [
+          0.6418918914527028,
+          0.7024390239024391,
+          0.6925675671283784,
+          0.7512195117073172
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.7297297312017375,
+          0.4487804875958188,
+          0.9358108122828186,
+          0.4975609754006969
+        ],
+        "confidence": 0.5,
+        "text": "nMOST on :"
+      },
+      {
+        "bbox": [
+          0.7297297309755068,
+          0.5073170728658537,
+          0.929054055299831,
+          0.5658536582317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VINCM > 1.1 V"
+      },
+      {
+        "bbox": [
+          0.6959459447635136,
+          0.6439024391219513,
+          0.8141891880067568,
+          0.7024390244878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• VINCM"
+      },
+      {
+        "bbox": [
+          0.7229729713803089,
+          0.7853658537630661,
+          0.9459459443532818,
+          0.8390243903484319
+        ],
+        "confidence": 1,
+        "text": "Increase 9m*"
+      },
+      {
+        "bbox": [
+          0.7263045720227219,
+          0.8484557472496321,
+          0.9527494865570071,
+          0.917397910298353
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mn+ 9mp= ct"
+      },
+      {
+        "bbox": [
+          0.7229729758694213,
+          0.9512195123577235,
+          0.9358108008197684,
+          0.9804878050406504
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0742"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The total transconductance has a bell shape versus the input common-mode input voltage, as shown in this slide, and so does the GBW.",
+      "pdf_page": 226,
+      "printed_page": 231,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "One of these is explained next.",
+      "pdf_page": 227,
+      "printed_page": 232,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0227_01_0742.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Some circuitry has to be added to equalize the transconductance over the full common-mode input range.",
+      "pdf_page": 227,
+      "printed_page": 232,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0742-M01",
+      "ocr_text": "Vss = 0 1.1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.13513513682432432,
+        0.6878048775121951,
+        0.30405405574324323,
+        0.7512195116585366
+      ],
+      "context_crop": "regions/SANSEN-0742_math_01.png",
+      "context_bbox_normalized": [
+        0.09513513682432431,
+        0.5878048775121951,
+        0.5340540557432433,
+        0.8812195116585366
+      ],
+      "source_image": "slides/p0227_01_0742.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0742-M02",
+      "ocr_text": "pMOST on : VINCM < VDD - 1.1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.12837838190154444,
+        0.8195121947735191,
+        0.6216216251447877,
+        0.8780487801393727
+      ],
+      "context_crop": "regions/SANSEN-0742_math_02.png",
+      "context_bbox_normalized": [
+        0.08837838190154443,
+        0.7195121947735191,
+        0.8516216251447877,
+        0.93
+      ],
+      "source_image": "slides/p0227_01_0742.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0742-M03",
+      "ocr_text": "VINCM > 1.1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7297297309755068,
+        0.5073170728658537,
+        0.929054055299831,
+        0.5658536582317073
+      ],
+      "context_crop": "regions/SANSEN-0742_math_03.png",
+      "context_bbox_normalized": [
+        0.6897297309755067,
+        0.4073170728658537,
+        1,
+        0.6958536582317073
+      ],
+      "source_image": "slides/p0227_01_0742.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0742-M04",
+      "ocr_text": "9mn+ 9mp= ct",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7263045720227219,
+        0.8484557472496321,
+        0.9527494865570071,
+        0.917397910298353
+      ],
+      "context_crop": "regions/SANSEN-0742_math_04.png",
+      "context_bbox_normalized": [
+        0.6863045720227219,
+        0.7484557472496322,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0227_01_0742.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

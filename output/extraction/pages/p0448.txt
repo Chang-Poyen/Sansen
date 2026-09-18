@@ -1,0 +1,48 @@
+161
+Bandgap references are
+directly derived from the
+bandgap of silicon. This is
+why they provide the only
+real voltage reference, which
+is available. It is about 1.2 V.
+A current reference does
+not actually exist. They are
+derived from the bandgap
+voltage references and one
+or two resistors.
+In this Chapter, we will
+see how a voltage reference
+can be realized, the absolute
+value of which is highly
+accurate. Moreover, its tem-
+perature coefficient can be reduced to ppm’s per degree Celsius. As a consequence, they can be
+used over very large temperature ranges.
+162
+First of all, we have to look
+at what voltage references
+are actually used for.
+They are used in Analog-
+to-digital converters. They
+can also be used in both
+voltage and current regula-
+tors. Both schematics are
+given.
+A voltage regulator locks
+the output voltage to the ref-
+erence voltage by use of a
+resistor ratio. Actually it is
+a two-stage feedback ampli-
+fier, with the reference volt-
+age V as an input. The first
+ref
+stage is the opamp, whereas the second stage is a source follower. This follower can deliver a
+large current to the load, depending on its W/L ratio.
+The load is not shown. It is usually a combination of resistances and capacitances, which can
+vary over a very wide range, depending on the current drawn from the regulator.
+The supply voltage V usually contains a ripple, which will be suppressed by the regulator.
+DD
+The accuracy of the output voltage depends on the accuracy of the resistor ratio and the absolute
+accuracy of the reference voltage. This resistor ratio can have a smaller error than 0.1% (see
+Chapter 15), if they are large in area. The final accuracy will therefore depend on the absolute
+error of the reference voltage. We will see that this can also be 0.1%!
+457

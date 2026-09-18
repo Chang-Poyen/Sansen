@@ -1,0 +1,13 @@
+simulator lang=spectre
+global 0
+Vin (vin 0) vsource dc=0 mag=1
+// CASE miller: miller
+RESISTOR8 (vin miller_g) resistor r=10000
+VCCS9 (miller 0 miller_g 0) vccs gm=0.002
+RESISTOR10 (miller 0) resistor r=50000
+CAPACITOR11 (miller_g miller) capacitor c=5e-13
+
+poles (miller 0) pz iprobe=Vin docancel=no
+ac ac start=1 stop=1T dec=10
+save miller
+saveOptions options save=selected

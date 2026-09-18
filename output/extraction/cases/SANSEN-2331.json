@@ -1,0 +1,177 @@
+{
+  "case_id": "SANSEN-2331",
+  "slide_id": "2331",
+  "chapter": 23,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 714,
+    "printed_page": 726
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0714_02_2331.jpg",
+      "pdf_page": 714,
+      "printed_page": 726,
+      "bbox_pt": [
+        91.52162,
+        397.56098,
+        374.78981,
+        594.02097
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 714,
+      "printed_page": 726,
+      "bbox_pt": [
+        0,
+        393.5715100000001,
+        595,
+        797
+      ],
+      "text_raw": "Now that the design equa-\ntions have been identified\nfor low-noise LNA’s, taking\ninto account Non-quasi-\nstatic effects, we focus on\nsome realizations.\nIt is clear that the config-\nurations only differ a small\namount. The transistor sizes\nand currents however, are\nlargely different depending\non the frequencies. Also, the\nsizes of the inductors which\nare added, can be very\ndifferent.",
+      "text": "Now that the design equations have been identified for low-noise LNA’s, taking into account Non-quasistatic effects, we focus on some realizations. It is clear that the configurations only differ a small amount. The transistor sizes and currents however, are largely different depending on the frequencies. Also, the sizes of the inductors which are added, can be very different."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that the design equations have been identified for low-noise LNA’s, taking into account Non-quasistatic effects, we focus on some realizations. It is clear that the configurations only differ a small amount. The transistor sizes and currents however, are largely different depending on the frequencies. Also, the sizes of the inductors which are added, can be very different.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0714_02_2331.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432125000006,
+          0.08292682941463414,
+          0.3817567536824325,
+          0.13658536600000004
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.07432431937741317,
+          0.29756097581881535,
+          0.7668918869449808,
+          0.35609756118466906
+        ],
+        "confidence": 1,
+        "text": "• Noise Figure and Impedance Matching"
+      },
+      {
+        "bbox": [
+          0.07432433016891885,
+          0.39999999975609757,
+          0.6587837896283784,
+          0.45365853634146336
+        ],
+        "confidence": 1,
+        "text": "• LNA specifications and linearity"
+      },
+      {
+        "bbox": [
+          0.07432432777509654,
+          0.49268292662020907,
+          0.5574324358832047,
+          0.5512195119860627
+        ],
+        "confidence": 1,
+        "text": "• Input amplifier or cascode"
+      },
+      {
+        "bbox": [
+          0.07432432081925686,
+          0.5902439031707316,
+          0.6249999964949325,
+          0.6487804885365854
+        ],
+        "confidence": 1,
+        "text": "• Non-quasi-static MOST model"
+      },
+      {
+        "bbox": [
+          0.0709459492905405,
+          0.6878048779512195,
+          0.40540540875,
+          0.7365853657560975
+        ],
+        "confidence": 1,
+        "text": "• More realizations"
+      },
+      {
+        "bbox": [
+          0.07432432905405396,
+          0.7853658535121951,
+          0.547297302027027,
+          0.839024390097561
+        ],
+        "confidence": 1,
+        "text": "• Inductive ESD protection"
+      },
+      {
+        "bbox": [
+          0.7225427448461846,
+          0.9409240800589196,
+          0.9329526954118321,
+          0.9868779051023885
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2331"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0714_02_2331.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The transistor sizes and currents however, are largely different depending on the frequencies.",
+      "pdf_page": 714,
+      "printed_page": 726,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

@@ -1,0 +1,206 @@
+{
+  "case_id": "SANSEN-246",
+  "slide_id": "246",
+  "chapter": 24,
+  "slide_number_in_chapter": 6,
+  "source": {
+    "pdf_page": 733,
+    "printed_page": 745
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0733_02_246.jpg",
+      "pdf_page": 733,
+      "printed_page": 745,
+      "bbox_pt": [
+        91.52162,
+        385.60296999999997,
+        374.78981,
+        582.06296
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 733,
+      "printed_page": 745,
+      "bbox_pt": [
+        0,
+        381.6136096500001,
+        595,
+        797
+      ],
+      "text_raw": "However, analog circuits\ncan also cause current\nspikes. For example, class-\nAB stages draw currents\nwhich are larger than their\nquiescent current.\nAs an example, look at\nthe class-AB input stage\nshown in this slide. For large\ninput voltages, the currents\ncan become quite large.\nWhen the current is moni-\ntored through the positive\nsupply line. Large current\nspikes are visible, nearly 50\ntimes the quiescent current.\nEvidently, this amplifier is used in a switched-capacitor filter. At each clock cycle, the opamp\nis driven hard, causing these current spikes to flow.\nAn important compromise is now to be taken. Class AB circuits allow considerable reduction\nin quiescent power consumption. On the other hand, they cause current spikes which may impair\nthe SNR.",
+      "text": "However, analog circuits can also cause current spikes. For example, class- AB stages draw currents which are larger than their quiescent current. As an example, look at the class-AB input stage shown in this slide. For large input voltages, the currents can become quite large. When the current is monitored through the positive supply line. Large current spikes are visible, nearly 50 times the quiescent current. Evidently, this amplifier is used in a switched-capacitor filter. At each clock cycle, the opamp is driven hard, causing these current spikes to flow. An important compromise is now to be taken. Class AB circuits allow considerable reduction in quiescent power consumption. On the other hand, they cause current spikes which may impair the SNR."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "However, analog circuits can also cause current spikes. For example, class- AB stages draw currents which are larger than their quiescent current. As an example, look at the class-AB input stage shown in this slide. For large input voltages, the currents can become quite large. When the current is monitored through the positive supply line. Large current spikes are visible, nearly 50 times the quiescent current. Evidently, this amplifier is used in a switched-capacitor filter. At each clock cycle, the opamp is driven hard, causing these current spikes to flow. An important compromise is now to be taken. Class AB circuits allow considerable reduction in quiescent power consumption. On the other hand, they cause current spikes which may impair the SNR.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Class AB Input structures",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0733_02_246.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432760617758,
+          0.07804878027874562,
+          0.533783787065637,
+          0.13658536564459922
+        ],
+        "confidence": 1,
+        "text": "Class AB Input structures"
+      },
+      {
+        "bbox": [
+          0.21959459585051322,
+          0.26829268268292683,
+          0.2466216212666039,
+          0.2926829265853659
+        ],
+        "confidence": 0.5,
+        "text": "Yoo"
+      },
+      {
+        "bbox": [
+          0.07094594552364868,
+          0.31707317091463416,
+          0.10472972930743246,
+          0.3414634148170732
+        ],
+        "confidence": 0.5,
+        "text": "B2:1"
+      },
+      {
+        "bbox": [
+          0.36824324375,
+          0.3170731711506145,
+          0.39864864915540543,
+          0.3365853651095483
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "181"
+      },
+      {
+        "bbox": [
+          0.5168918926801801,
+          0.49268292658536583,
+          0.5641891899774774,
+          0.5170731704878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "266-4"
+      },
+      {
+        "bbox": [
+          0.5202702701013514,
+          0.5853658535772357,
+          0.560810810641892,
+          0.6048780486991869
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10E-4"
+      },
+      {
+        "bbox": [
+          0.7160850526354984,
+          0.30669893583500873,
+          0.8143203504829369,
+          0.3518376484621404
+        ],
+        "confidence": 0.5,
+        "text": "500 pA"
+      },
+      {
+        "bbox": [
+          0.7567567578547297,
+          0.6195121948780489,
+          0.8445945956925676,
+          0.668292682682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10 pA"
+      },
+      {
+        "bbox": [
+          0.671940566659819,
+          0.7774740148212889,
+          0.8584648418467186,
+          0.8322820825152318
+        ],
+        "confidence": 0.5,
+        "text": "Over 50 x"
+      },
+      {
+        "bbox": [
+          0.7668918939189189,
+          0.873170731402439,
+          0.9290540560810812,
+          0.9073170728658535
+        ],
+        "confidence": 1,
+        "text": "Halonen, CICC"
+      },
+      {
+        "bbox": [
+          0.7293669703874736,
+          0.9458982365259622,
+          0.9329678796463418,
+          0.9870229293032702
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 246"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "As an example, look at the class-AB input stage shown in this slide.",
+      "pdf_page": 733,
+      "printed_page": 745,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0733_02_246.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

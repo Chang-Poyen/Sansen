@@ -1,0 +1,659 @@
+{
+  "case_id": "SANSEN-106",
+  "slide_id": "106",
+  "chapter": 10,
+  "slide_number_in_chapter": 6,
+  "source": {
+    "pdf_page": 286,
+    "printed_page": 293
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0286_02_106.jpg",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "bbox_pt": [
+        91.521622,
+        493.07550100000003,
+        374.78981,
+        689.535492
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 286,
+      "printed_page": 293,
+      "bbox_pt": [
+        0,
+        489.0860500000003,
+        595,
+        797
+      ],
+      "text_raw": "For a MOST cascode, the\ncontributions of the input\ncurrent i and of the transis-\nin\ntor current noise source i\nN\nare compared. Both are\ncalculated to the output.\nFinally, the ratio of input\nnoise to the transistor noise\ncurrent i /i is calculated.\nin N\nThis shows what the equiva-\nlent input noise current is as\na result of the transistor\nnoise, which is the same in\nall cases, and which is pro-\nportional to g .\nm",
+      "text": "For a MOST cascode, the contributions of the input current i and of the transisin tor current noise source i N are compared. Both are calculated to the output. Finally, the ratio of input noise to the transistor noise current i /i is calculated. in N This shows what the equivalent input noise current is as a result of the transistor noise, which is the same in all cases, and which is proportional to g . m"
+    },
+    {
+      "pdf_page": 287,
+      "printed_page": 294,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        261.0368999999997
+      ],
+      "text_raw": "Four cases can be distinguished depending on whether the cascode has a real current drive\n(cases 2 and 4). Resistance R is then the output resistance of the input current source i . It is\nBB in\nlarger than R unless R is substituted by a current source I .\nL L L\nWhen the cascode is driven by a low resistance R , it acts rather as a voltage source. Again,\nB\nthe load can be a small resistor R or large, as a current source I .\nL L\nIt is clear that the contribution of the transistor noise to the input current is always small,\nexcept when the cascode is voltage driven (or driven with another 1/g ) and at the same time,\nm\na small load resistor is used, or the input 1/g of a current mirror.\nm\nThere is one single condition where the noise of a cascode is important. In all other cases it\nis negligible.",
+      "text": "Four cases can be distinguished depending on whether the cascode has a real current drive (cases 2 and 4). Resistance R is then the output resistance of the input current source i . It is BB in larger than R unless R is substituted by a current source I . L L L When the cascode is driven by a low resistance R , it acts rather as a voltage source. Again, B the load can be a small resistor R or large, as a current source I . L L It is clear that the contribution of the transistor noise to the input current is always small, except when the cascode is voltage driven (or driven with another 1/g ) and at the same time, m a small load resistor is used, or the input 1/g of a current mirror. m There is one single condition where the noise of a cascode is important. In all other cases it is negligible."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For a MOST cascode, the contributions of the input current i and of the transisin tor current noise source i N are compared. Both are calculated to the output. Finally, the ratio of input noise to the transistor noise current i /i is calculated. in N This shows what the equivalent input noise current is as a result of the transistor noise, which is the same in all cases, and which is proportional to g . m\n\nFour cases can be distinguished depending on whether the cascode has a real current drive (cases 2 and 4). Resistance R is then the output resistance of the input current source i . It is BB in larger than R unless R is substituted by a current source I . L L L When the cascode is driven by a low resistance R , it acts rather as a voltage source. Again, B the load can be a small resistor R or large, as a current source I . L L It is clear that the contribution of the transistor noise to the input current is always small, except when the cascode is voltage driven (or driven with another 1/g ) and at the same time, m a small load resistor is used, or the input 1/g of a current mirror. m There is one single condition where the noise of a cascode is important. In all other cases it is negligible.",
+  "schema_version": "1.0",
+  "chapter_title": "电流输入型运算放大器",
+  "title": "Gain and noise in MOST cascodes",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0286_02_106.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07094595199324315,
+          0.08292682912195126,
+          0.6756756817229729,
+          0.13658536570731705
+        ],
+        "confidence": 1,
+        "text": "Gain and noise in MOST cascodes"
+      },
+      {
+        "bbox": [
+          0.0844594591554054,
+          0.41951219463414635,
+          0.12162162131756757,
+          0.46829268243902444
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RB"
+      },
+      {
+        "bbox": [
+          0.04729729793074323,
+          0.5902439023170732,
+          0.0979729736064189,
+          0.6292682925609756
+        ],
+        "confidence": 0.5,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.054054053673986496,
+          0.648780487195122,
+          0.09121621583614865,
+          0.697560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Tin"
+      },
+      {
+        "bbox": [
+          0.04729729777027026,
+          0.7121951218536584,
+          0.09459459506756755,
+          0.7512195120975609
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.20945945895270274,
+          0.2390243896341464,
+          0.27027026976351354,
+          0.2878048774390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "_Yout"
+      },
+      {
+        "bbox": [
+          0.20945945971283786,
+          0.3121951225609756,
+          0.24324324349662163,
+          0.3609756103658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "In"
+      },
+      {
+        "bbox": [
+          0.2635135142736486,
+          0.3853658536585366,
+          0.32432432508445946,
+          0.4341463414634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RBB!"
+      },
+      {
+        "bbox": [
+          0.20945946013513508,
+          0.41951219512195115,
+          0.26351351418918917,
+          0.46829268292682924
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lin"
+      },
+      {
+        "bbox": [
+          0.11486486617398647,
+          0.5365853657926829,
+          0.2195945959037162,
+          0.5804878048170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'Ds > RL"
+      },
+      {
+        "bbox": [
+          0.21283783775337842,
+          0.5853658531097561,
+          0.26689189180743245,
+          0.6292682921341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RB"
+      },
+      {
+        "bbox": [
+          0.12500000002815315,
+          0.6195121947560975,
+          0.1959459459740991,
+          0.6634146337804878
+        ],
+        "confidence": 0.5,
+        "text": "9mRL"
+      },
+      {
+        "bbox": [
+          0.19932432459459462,
+          0.6487804883414634,
+          0.30067567594594596,
+          0.7024390249268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+9mRB"
+      },
+      {
+        "bbox": [
+          0.1689189185810811,
+          0.7073170726219512,
+          0.20270270236486487,
+          0.7512195116463415
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.13513513572635133,
+          0.7512195113414635,
+          0.2364864870777027,
+          0.8195121942682927
+        ],
+        "confidence": 0.5,
+        "text": "1+gmRg"
+      },
+      {
+        "bbox": [
+          0.1520270274324324,
+          0.8731707310731708,
+          0.22635135175675675,
+          0.9365853652195123
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mRB"
+      },
+      {
+        "bbox": [
+          0.4628378384712838,
+          0.243902438902439,
+          0.5135135141469594,
+          0.2829268291463414
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.4594594592483107,
+          0.31707317024390247,
+          0.4831081078969594,
+          0.35609756048780494
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IN"
+      },
+      {
+        "bbox": [
+          0.6621621626351352,
+          0.24390243892682928,
+          0.7094594599324324,
+          0.28292682917073164
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.6047297292953668,
+          0.2878048775261324,
+          0.6858108103764479,
+          0.3609756092334495
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OiN"
+      },
+      {
+        "bbox": [
+          0.6655405410050675,
+          0.4243902438414633,
+          0.7027027031672297,
+          0.46829268286585357
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'in"
+      },
+      {
+        "bbox": [
+          0.7060810806081081,
+          0.380487804390244,
+          0.7601351346621622,
+          0.42926829219512197
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RBB"
+      },
+      {
+        "bbox": [
+          0.905405404856419,
+          0.24390243853658533,
+          0.9560810805320946,
+          0.2829268287804878
+        ],
+        "confidence": 1,
+        "text": "Yout"
+      },
+      {
+        "bbox": [
+          0.8547297295270271,
+          0.29268292619512193,
+          0.8952702700675677,
+          0.35609756034146334
+        ],
+        "confidence": 0.5,
+        "text": "Đ"
+      },
+      {
+        "bbox": [
+          0.9020270268243243,
+          0.3170731703414633,
+          0.9290540538513514,
+          0.3560975605853658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IN"
+      },
+      {
+        "bbox": [
+          0.9121621627533782,
+          0.4243902438414633,
+          0.9594594600506756,
+          0.46829268286585357
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'in"
+      },
+      {
+        "bbox": [
+          0.33783783865830114,
+          0.5365853657142857,
+          0.452702703523166,
+          0.5853658535191638
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RBB> RL"
+      },
+      {
+        "bbox": [
+          0.37837837812499997,
+          0.6195121947154472,
+          0.41554054028716214,
+          0.6682926825203253
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.37499999966216213,
+          0.7073170733739839,
+          0.4155405402027027,
+          0.751219512398374
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.344594594527027,
+          0.7658536579999999,
+          0.43243243236486484,
+          0.8195121945853658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mRBB"
+      },
+      {
+        "bbox": [
+          0.3547297295945946,
+          0.8878048775609756,
+          0.4425675674324324,
+          0.9365853653658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mRgB"
+      },
+      {
+        "bbox": [
+          0.5270270275337838,
+          0.41951219512195115,
+          0.5675675680743243,
+          0.46829268292682924
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rg"
+      },
+      {
+        "bbox": [
+          0.5270270282432432,
+          0.5365853655121952,
+          0.6486486498648649,
+          0.5804878045365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m'Ds > 1"
+      },
+      {
+        "bbox": [
+          0.5270270275760135,
+          0.6146341457317074,
+          0.6385135140625,
+          0.6634146335365855
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m DsRg"
+      },
+      {
+        "bbox": [
+          0.5506756759411197,
+          0.7365853657142857,
+          0.5878378381032818,
+          0.7853658535191638
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RB"
+      },
+      {
+        "bbox": [
+          0.5675675673986487,
+          0.8341463419760256,
+          0.5844594592905406,
+          0.8731707298938931
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.5302648438751921,
+          0.8872808846479097,
+          0.6082486678576371,
+          0.9322313094004939
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m Ds"
+      },
+      {
+        "bbox": [
+          0.7566320955206174,
+          0.6188190232537928,
+          0.8852597952952823,
+          0.6689858557822561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m DsRBB"
+      },
+      {
+        "bbox": [
+          0.7939189184966217,
+          0.7414634140243903,
+          0.8412162157939189,
+          0.7902439018292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TDs"
+      },
+      {
+        "bbox": [
+          0.8074324326576576,
+          0.8341463432768387,
+          0.8277027029279279,
+          0.8731707311947061
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7702702700168919,
+          0.8878048787195122,
+          0.8581081078547297,
+          0.941463415304878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mRBB"
+      },
+      {
+        "bbox": [
+          0.7128378393158783,
+          0.9560975607317074,
+          0.8310810825591215,
+          0.9853658534146342
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.8511960787145016,
+          0.9552528360737663,
+          0.9258309464599784,
+          0.9862105790904513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10 05 106"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For a MOST cascode, the contributions of the input current i and of the transisin tor current noise source i N are compared.",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Both are calculated to the output.",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Finally, the ratio of input noise to the transistor noise current i /i is calculated. in N This shows what the equivalent input noise current is as a result of the transistor noise, which is the same in all cases, and which is proportional to g . m",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0286_02_106.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For a MOST cascode, the contributions of the input current i and of the transisin tor current noise source i N are compared.",
+        "pdf_page": 286,
+        "printed_page": 293,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Resistance R is then the output resistance of the input current source i .",
+        "pdf_page": 287,
+        "printed_page": 294,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It is BB in larger than R unless R is substituted by a current source I .",
+        "pdf_page": 287,
+        "printed_page": 294,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "L L L When the cascode is driven by a low resistance R , it acts rather as a voltage source.",
+        "pdf_page": 287,
+        "printed_page": 294,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Again, B the load can be a small resistor R or large, as a current source I .",
+        "pdf_page": 287,
+        "printed_page": 294,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Finally, the ratio of input noise to the transistor noise current i /i is calculated. in N This shows what the equivalent input noise current is as a result of the transistor noise, which is the same in all cases, and which is proportional to g . m",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Four cases can be distinguished depending on whether the cascode has a real current drive (cases 2 and 4).",
+      "pdf_page": 287,
+      "printed_page": 294,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-106-M01",
+      "ocr_text": "'Ds > RL",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11486486617398647,
+        0.5365853657926829,
+        0.2195945959037162,
+        0.5804878048170731
+      ],
+      "context_crop": "regions/SANSEN-106_math_01.png",
+      "context_bbox_normalized": [
+        0.07486486617398647,
+        0.4365853657926829,
+        0.4495945959037162,
+        0.7104878048170731
+      ],
+      "source_image": "slides/p0286_02_106.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-106-M02",
+      "ocr_text": "RBB> RL",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.33783783865830114,
+        0.5365853657142857,
+        0.452702703523166,
+        0.5853658535191638
+      ],
+      "context_crop": "regions/SANSEN-106_math_02.png",
+      "context_bbox_normalized": [
+        0.29783783865830116,
+        0.43658536571428574,
+        0.682702703523166,
+        0.7153658535191638
+      ],
+      "source_image": "slides/p0286_02_106.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-106-M03",
+      "ocr_text": "9m'Ds > 1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5270270282432432,
+        0.5365853655121952,
+        0.6486486498648649,
+        0.5804878045365853
+      ],
+      "context_crop": "regions/SANSEN-106_math_03.png",
+      "context_bbox_normalized": [
+        0.48702702824324323,
+        0.4365853655121952,
+        0.8786486498648649,
+        0.7104878045365853
+      ],
+      "source_image": "slides/p0286_02_106.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Current-input operational amplifiers"
+}

@@ -1,0 +1,47 @@
+162 Chapter #5
+0526
+The actual values of the
+phase margin and peaking
+are now easily calculated.
+They are given in this slide.
+Also, the amount of peaking
+in the frequency domain P
+f
+is given, followed by the
+amount of peaking in the
+time domain P .
+t
+For a ratio of three
+between the non-dominant
+pole and the GBW, the
+phase margin is 72°. The
+corresponding f is 0.87
+(or Q=0.57). No peaking
+occurs in the Bode diagram.
+We could be allowed to reduce the non-dominant pole a bit, to two times the GBW. The
+phase margin decreases to 63°, decreasing the f as well to 0.71 (and Q=0.71) and we still do
+not have peaking.
+We cannot forget, however, that we are using hand calculations here. After this part of the
+design procedure, we want to verify the circuit performance by means of a numerical simulator
+such as SPICE, Then all parasitic capacitances come in, pushing the non-dominant pole to lower
+values and
+decreasing the phase margin. A value of three is thus a good safety position to start with.
+0527
+A better sketch of the peak-
+ing in the frequency domain
+(or in the Bode diagram) is
+shown in this slide.
+The value of the maxi-
+mum peaking P is given as
+f
+well. It is clear that for a
+damping f of 0.7, we obtain
+a maximally-flat response.
+Going to larger f reduces
+the bandwidth too much.
+Also, going to smaller
+values of f causes peaking
+indeed.
+For zero f, we would have
+a peak to infinity, which is
+typical for an oscillator.

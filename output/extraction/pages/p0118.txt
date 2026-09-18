@@ -1,0 +1,50 @@
+Noise performance of elementary transistor stages 121
+However, the bandwidth BW also contains R . As a result R is cancelled out in the expression
+S S
+of the integrated noise. A very simple result emerges. The integrated noise is simply kT/C .
+L
+For 1 pF the integrated noise is 65 mV . For less noise, we have to increase the size of the
+RMS
+capacitance. For 10 pF that would be 65/√10 or about 21 mV .
+RMS
+This can be understood by realizing that for larger resistors, the noise increases but the
+bandwidth is reduced by exactly the same amount.
+Filters all use the integrated noise as a specification or the SNR. They all use large capacitances
+to increase their SNR, and an amplitude which is as high as possible.
+049
+In this way we reach the
+important conclusion that
+noise density depends on the
+resistor and integrated noise
+depends on the capacitance.
+For low noise density we
+need a small series resistance
+(or large parallel resistance).
+For low integrated or
+total noise, we need a large
+capacitance to ground.
+Both obviously depend
+on absolute temperature.
+A designer will therefore
+have to determine whether
+he deals with a narrow-band
+system (receivers, bandpass filters, ...) or a wide-band system (switched-capacitor filters, low-pass
+filters, ...).
+In a narrow-band system, the narrow band noise (spot noise) is the noise density, multiplied
+by the bandwidth. The resistances determine the noise performance.
+In a wide-band system, the kT/C noise is dominant. For low noise, we have to increase the
+capacitances. Doing this will obviously increase the power consumption.
+This is a rule of thumb. Low noise requires smaller resistances and or larger capacitances.
+Both increase the power consumption. Increasing the noise performance inevitably leads to larger
+power consumption. A low-noise low-power circuit requirement certainly leads to a severe
+compromise!
+0410
+A resistor also exhibits 1/f noise.
+In general, 1/f noise is dependent on size and the quality of conduction (or homogeneity).
+This is why the expression for the 1/f noise is a result of fitting lots of data. It contains the
+DC voltage across the resistor, the size (A or WL) and a factor KF , that indicates what
+R R
+material is to be used.
+For example a n-well resistor is single-crystalline silicon. This material is very homogeneous.
+As a result the KF factor is small.
+R

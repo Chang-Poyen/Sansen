@@ -1,0 +1,332 @@
+{
+  "case_id": "SANSEN-1762",
+  "slide_id": "1762",
+  "chapter": 17,
+  "slide_number_in_chapter": 62,
+  "source": {
+    "pdf_page": 506,
+    "printed_page": 516
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0506_01_1762.jpg",
+      "pdf_page": 506,
+      "printed_page": 516,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 506,
+      "printed_page": 516,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        405.52950000000016
+      ],
+      "text_raw": "Indeed, when a switch is\nadded to a current mirror as\nshown in this slide, the oper-\nation is exactly as in a cur-\nrent mirror when the switch\nis closed. For equal transis-\ntor sizes, the output current\nI equals the input cur-\nout\nrent I .\nin\nWhen the switch opens\nhowever, capacitance C\nGS2\nholds the voltage at the\nGate of M2. As a result, the\noutput current I contin-\nout\nues to flow, independent of\nwhat happens at the input.\nThis stage has memory. It generates a delay of half a clock period. It can thus be used as a\nfilter in a similar way as a switched-capacitor block acts as a memory and generates delay.\nSuch a filter is shown next.",
+      "text": "Indeed, when a switch is added to a current mirror as shown in this slide, the operation is exactly as in a current mirror when the switch is closed. For equal transistor sizes, the output current I equals the input curout rent I . in When the switch opens however, capacitance C GS2 holds the voltage at the Gate of M2. As a result, the output current I continout ues to flow, independent of what happens at the input. This stage has memory. It generates a delay of half a clock period. It can thus be used as a filter in a similar way as a switched-capacitor block acts as a memory and generates delay. Such a filter is shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Indeed, when a switch is added to a current mirror as shown in this slide, the operation is exactly as in a current mirror when the switch is closed. For equal transistor sizes, the output current I equals the input curout rent I . in When the switch opens however, capacitance C GS2 holds the voltage at the Gate of M2. As a result, the output current I continout ues to flow, independent of what happens at the input. This stage has memory. It generates a delay of half a clock period. It can thus be used as a filter in a similar way as a switched-capacitor block acts as a memory and generates delay. Such a filter is shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Switched-current delay block",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0506_01_1762.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432001689203,
+          0.07317073113821138,
+          0.5979729686655407,
+          0.1414634140650407
+        ],
+        "confidence": 1,
+        "text": "Switched-current delay block"
+      },
+      {
+        "bbox": [
+          0.10135135168918917,
+          0.3902439031097561,
+          0.1418918922297297,
+          0.4439024396951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "in"
+      },
+      {
+        "bbox": [
+          0.12162162131193695,
+          0.5609756100000001,
+          0.1587837834740991,
+          0.6000000002439025
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.27027026949324323,
+          0.3853658538536586,
+          0.347972972195946,
+          0.424390244097561
+        ],
+        "confidence": 1,
+        "text": "Clock"
+      },
+      {
+        "bbox": [
+          0.4358108111486486,
+          0.39024390216802174,
+          0.4966216219594594,
+          0.4780487802168022
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout"
+      },
+      {
+        "bbox": [
+          0.41554054062500007,
+          0.5658536580487805,
+          0.4560810811655406,
+          0.604878048292683
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.20945945966216217,
+          0.5853658542926828,
+          0.3040540542567568,
+          0.6487804884390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1:1"
+      },
+      {
+        "bbox": [
+          0.5337837874999999,
+          0.3512195128292682,
+          0.9121621658783783,
+          0.41463414697560963
+        ],
+        "confidence": 0.5,
+        "text": "Switch closed : track Vgs"
+      },
+      {
+        "bbox": [
+          0.6418918928088804,
+          0.41463414623693384,
+          0.7702702711872587,
+          0.47804878038327525
+        ],
+        "confidence": 0.5,
+        "text": "lout = lin"
+      },
+      {
+        "bbox": [
+          0.533783786697635,
+          0.5658536578048781,
+          0.8750000029138513,
+          0.6243902431707317
+        ],
+        "confidence": 1,
+        "text": "Switch open : hold Vgs"
+      },
+      {
+        "bbox": [
+          0.6417094677699975,
+          0.6376775905800867,
+          0.8447770153361794,
+          0.6989077778798616
+        ],
+        "confidence": 0.5,
+        "text": "lout = lin (ATc)"
+      },
+      {
+        "bbox": [
+          0.6418918924324323,
+          0.7073170738536585,
+          0.8310810816216214,
+          0.7756097567804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout = lin z-112"
+      },
+      {
+        "bbox": [
+          0.581081078125,
+          0.8829268294715448,
+          0.9358108078547297,
+          0.9170731709349594
+        ],
+        "confidence": 1,
+        "text": "Ref. Zele JSSC Feb. 96, 157- 168"
+      },
+      {
+        "bbox": [
+          0.7195945967483108,
+          0.9414634140853658,
+          0.9391891913429052,
+          0.9853658531097561
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s N1762"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Indeed, when a switch is added to a current mirror as shown in this slide, the operation is exactly as in a current mirror when the switch is closed.",
+      "pdf_page": 506,
+      "printed_page": 516,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Such a filter is shown next.",
+      "pdf_page": 506,
+      "printed_page": 516,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0506_01_1762.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For equal transistor sizes, the output current I equals the input curout rent I . in When the switch opens however, capacitance C GS2 holds the voltage at the Gate of M2.",
+        "pdf_page": 506,
+        "printed_page": 516,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For equal transistor sizes, the output current I equals the input curout rent I . in When the switch opens however, capacitance C GS2 holds the voltage at the Gate of M2.",
+      "pdf_page": 506,
+      "printed_page": 516,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the output current I continout ues to flow, independent of what happens at the input.",
+      "pdf_page": 506,
+      "printed_page": 516,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It can thus be used as a filter in a similar way as a switched-capacitor block acts as a memory and generates delay.",
+      "pdf_page": 506,
+      "printed_page": 516,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1762-M01",
+      "ocr_text": "lout = lin",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6418918928088804,
+        0.41463414623693384,
+        0.7702702711872587,
+        0.47804878038327525
+      ],
+      "context_crop": "regions/SANSEN-1762_math_01.png",
+      "context_bbox_normalized": [
+        0.6018918928088803,
+        0.31463414623693386,
+        1,
+        0.6080487803832753
+      ],
+      "source_image": "slides/p0506_01_1762.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1762-M02",
+      "ocr_text": "lout = lin (ATc)",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6417094677699975,
+        0.6376775905800867,
+        0.8447770153361794,
+        0.6989077778798616
+      ],
+      "context_crop": "regions/SANSEN-1762_math_02.png",
+      "context_bbox_normalized": [
+        0.6017094677699975,
+        0.5376775905800867,
+        1,
+        0.8289077778798616
+      ],
+      "source_image": "slides/p0506_01_1762.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1762-M03",
+      "ocr_text": "lout = lin z-112",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6418918924324323,
+        0.7073170738536585,
+        0.8310810816216214,
+        0.7756097567804878
+      ],
+      "context_crop": "regions/SANSEN-1762_math_03.png",
+      "context_bbox_normalized": [
+        0.6018918924324322,
+        0.6073170738536585,
+        1,
+        0.9056097567804878
+      ],
+      "source_image": "slides/p0506_01_1762.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

@@ -1,0 +1,56 @@
+OVset and CMRR: random and systematic 427
+a worst case never occurs in practice. They never cancel out either.
+Three of them are scaled by (V −V )/2. The offset can now be reduced by designing the
+GS T
+transistors with small values of V −V , or by pushing them into weak inversion.
+GS T
+Note that trimming the resistors allows it to compensate for all other terms. It is clear however,
+that this cancellation point depends on the stability of the biasing point (through V −V ) with
+GS T
+respect to other biasing and supply voltages and with respect to temperature. This is exceedingly
+difficult to realize in practice. Trimming of the offset voltage for MOSTs is therefore a real problem.
+1513
+Two matched transistors are
+also used in current mirrors.
+The difference with a differ-
+ential pair however, is that
+we now have to concentrate
+on the output currents,
+rather than on the differ-
+ential input voltage.
+The relative spreading on
+the output current depends
+again on the transistor
+parameter spreadings.
+It is easy to understand
+that when one transistor is
+1% larger than the other
+one, the currents differ
+accordingly.
+This time the spreading in threshold voltage must be scaled by (V −V )/2.
+GS T
+This leads to the conclusion that current source transistors are well matched if they have been
+designed for large value of V −V . In this case, the A is the dominant source of mismatch.
+GS T WL
+Remember that this one does not scale with technology.
+1514
+Note however, that current
+mirrors, which are used for
+biasing, may have errors in
+the output currents, caused
+by resistances in the supply
+lines. On the left such a cur-
+rent mirror is shown. It is
+duplicated on the right with
+some series resistance R in
+S
+the supply line.
+The output current I
+out2
+will be decreased because a
+voltage drop R I has to
+S out2
+be subtracted from its V .
+GS2
+This voltage drop must
+always be subtracted. It is

@@ -1,0 +1,476 @@
+{
+  "case_id": "SANSEN-134",
+  "slide_id": "134",
+  "chapter": 13,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 357,
+    "printed_page": 364
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0358_01_134.jpg",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 357,
+      "printed_page": 364,
+      "bbox_pt": [
+        0,
+        570.9484500000003,
+        595,
+        797
+      ],
+      "text_raw": "One of the simplest cases of feedback is an operational amplifier with a resistor from the output\nto the input. Of course, the feedback resistor has to be connected to the negative input. Otherwise\nthe loop gain would build up an ever-increasing output voltage, only to stop at the positive\nsupply voltage. Stable feedback is always negative feedback.\nThis is a case of shunt (or parallel) feedback at both input and output. Output shunt feedback\nmeans that the output terminal is in parallel with the feedback element terminal. This is also the\ncase at the input.\nThe gain of the amplifier itself is A , which is also quite large, between 10.000 and 1.000.000.\n0\nThis is also the loop gain LG, as will be calculated on the next slide.",
+      "text": "One of the simplest cases of feedback is an operational amplifier with a resistor from the output to the input. Of course, the feedback resistor has to be connected to the negative input. Otherwise the loop gain would build up an ever-increasing output voltage, only to stop at the positive supply voltage. Stable feedback is always negative feedback. This is a case of shunt (or parallel) feedback at both input and output. Output shunt feedback means that the output terminal is in parallel with the feedback element terminal. This is also the case at the input. The gain of the amplifier itself is A , which is also quite large, between 10.000 and 1.000.000. 0 This is also the loop gain LG, as will be calculated on the next slide."
+    },
+    {
+      "pdf_page": 358,
+      "printed_page": 365,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        331.7884
+      ],
+      "text_raw": "The output voltage\nsimply equals the input cur-\nrent into the feedback resis-\ntor. The closed-loop gain is\nsimply R . It is therefore\nF\na transresistance amplifier\nwith gain R .\nF\nThe input and output\nresistances are both affected\nby the feedback. In the case\nof shunt feedback, the resis-\ntance decreases by an\namount equal to the loop\ngain LG, or actually 1+LG.",
+      "text": "The output voltage simply equals the input current into the feedback resistor. The closed-loop gain is simply R . It is therefore F a transresistance amplifier with gain R . F The input and output resistances are both affected by the feedback. In the case of shunt feedback, the resistance decreases by an amount equal to the loop gain LG, or actually 1+LG."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "One of the simplest cases of feedback is an operational amplifier with a resistor from the output to the input. Of course, the feedback resistor has to be connected to the negative input. Otherwise the loop gain would build up an ever-increasing output voltage, only to stop at the positive supply voltage. Stable feedback is always negative feedback. This is a case of shunt (or parallel) feedback at both input and output. Output shunt feedback means that the output terminal is in parallel with the feedback element terminal. This is also the case at the input. The gain of the amplifier itself is A , which is also quite large, between 10.000 and 1.000.000. 0 This is also the loop gain LG, as will be calculated on the next slide.\n\nThe output voltage simply equals the input current into the feedback resistor. The closed-loop gain is simply R . It is therefore F a transresistance amplifier with gain R . F The input and output resistances are both affected by the feedback. In the case of shunt feedback, the resistance decreases by an amount equal to the loop gain LG, or actually 1+LG.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Shunt-shunt feedback configurations",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0358_01_134.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108914695923,
+          0.09268292658536592,
+          0.7263513594172295,
+          0.15121951195121952
+        ],
+        "confidence": 1,
+        "text": "Shunt-shunt feedback configurations"
+      },
+      {
+        "bbox": [
+          0.18243243283783783,
+          0.2926829272682926,
+          0.22972973013513512,
+          0.3365853662926829
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.29054054097972976,
+          0.22439024380487804,
+          0.33445945989864867,
+          0.273170731609756
+        ],
+        "confidence": 0.5,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.29391891851351354,
+          0.27804878073170736,
+          0.33445945905405405,
+          0.32195121975609753
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.3952702702702703,
+          0.35609756164634143,
+          0.46959459459459457,
+          0.4097560982317072
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.16891891875,
+          0.6195121945365855,
+          0.28716216199324324,
+          0.6780487799024392
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AR = RF"
+      },
+      {
+        "bbox": [
+          0.1689189177364865,
+          0.7024390244878049,
+          0.28716216097972974,
+          0.751219512292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = 0"
+      },
+      {
+        "bbox": [
+          0.13513513724662157,
+          0.7951219510569106,
+          0.38851351562499997,
+          0.8439024388617887
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IN: shunt FB : RIN"
+      },
+      {
+        "bbox": [
+          0.13513513842905397,
+          0.829268291890244,
+          0.44594594923986486,
+          0.8926829260365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OUT : shunt FB : RouT J"
+      },
+      {
+        "bbox": [
+          0.563606995151288,
+          0.25842183648487516,
+          0.905987596157873,
+          0.3562123080037872
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG = VOUT = AvOL= Ao"
+      },
+      {
+        "bbox": [
+          0.6722972959121623,
+          0.42439024453658525,
+          0.8851351337500001,
+          0.48780487868292677
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ao =104 ... 106"
+      },
+      {
+        "bbox": [
+          0.6756756771396396,
+          0.5219512193495935,
+          0.8513513528153153,
+          0.560975609593496
+        ],
+        "confidence": 0.5,
+        "text": "OL Open Loop"
+      },
+      {
+        "bbox": [
+          0.493243239231419,
+          0.6487804878658537,
+          0.8141891851773649,
+          0.7024390244512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Input shunt : RIN = -"
+      },
+      {
+        "bbox": [
+          0.796658140784442,
+          0.6036914967198382,
+          0.9000182653209047,
+          0.6777851060412464
+        ],
+        "confidence": 1,
+        "text": "RINOL"
+      },
+      {
+        "bbox": [
+          0.8040540548986487,
+          0.6829268298170732,
+          0.8851351359797296,
+          0.7268292688414635
+        ],
+        "confidence": 1,
+        "text": "1+LG"
+      },
+      {
+        "bbox": [
+          0.8274956986861068,
+          0.7698212258351721,
+          0.9393961958133306,
+          0.8253007267685634
+        ],
+        "confidence": 1,
+        "text": "ROUTOL"
+      },
+      {
+        "bbox": [
+          0.49662162580236474,
+          0.8097560971341464,
+          0.8310810852618242,
+          0.8634146337195123
+        ],
+        "confidence": 0.5,
+        "text": "Output shunt : Rouт ="
+      },
+      {
+        "bbox": [
+          0.8378378383445946,
+          0.8439024388109756,
+          0.9189189194256757,
+          0.8878048778353659
+        ],
+        "confidence": 1,
+        "text": "1+LG"
+      },
+      {
+        "bbox": [
+          0.716216219225277,
+          0.9365853660162601,
+          0.9222972874188674,
+          0.9658536586991869
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 os 134"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The gain of the amplifier itself is A , which is also quite large, between 10.000 and 1.000.000. 0 This is also the loop gain LG, as will be calculated on the next slide.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0358_01_134.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Of course, the feedback resistor has to be connected to the negative input.",
+        "pdf_page": 357,
+        "printed_page": 364,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Output shunt feedback means that the output terminal is in parallel with the feedback element terminal.",
+        "pdf_page": 357,
+        "printed_page": 364,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Otherwise the loop gain would build up an ever-increasing output voltage, only to stop at the positive supply voltage.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain of the amplifier itself is A , which is also quite large, between 10.000 and 1.000.000. 0 This is also the loop gain LG, as will be calculated on the next slide.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output voltage simply equals the input current into the feedback resistor.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The closed-loop gain is simply R .",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is therefore F a transresistance amplifier with gain R .",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In the case of shunt feedback, the resistance decreases by an amount equal to the loop gain LG, or actually 1+LG.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-134-M01",
+      "ocr_text": "AR = RF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.16891891875,
+        0.6195121945365855,
+        0.28716216199324324,
+        0.6780487799024392
+      ],
+      "context_crop": "regions/SANSEN-134_math_01.png",
+      "context_bbox_normalized": [
+        0.12891891875,
+        0.5195121945365855,
+        0.5171621619932433,
+        0.8080487799024392
+      ],
+      "source_image": "slides/p0358_01_134.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-134-M02",
+      "ocr_text": "RIN = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1689189177364865,
+        0.7024390244878049,
+        0.28716216097972974,
+        0.751219512292683
+      ],
+      "context_crop": "regions/SANSEN-134_math_02.png",
+      "context_bbox_normalized": [
+        0.1289189177364865,
+        0.602439024487805,
+        0.5171621609797298,
+        0.881219512292683
+      ],
+      "source_image": "slides/p0358_01_134.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-134-M03",
+      "ocr_text": "LG = VOUT = AvOL= Ao",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.563606995151288,
+        0.25842183648487516,
+        0.905987596157873,
+        0.3562123080037872
+      ],
+      "context_crop": "regions/SANSEN-134_math_03.png",
+      "context_bbox_normalized": [
+        0.523606995151288,
+        0.15842183648487515,
+        1,
+        0.48621230800378723
+      ],
+      "source_image": "slides/p0358_01_134.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-134-M04",
+      "ocr_text": "Ao =104 ... 106",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6722972959121623,
+        0.42439024453658525,
+        0.8851351337500001,
+        0.48780487868292677
+      ],
+      "context_crop": "regions/SANSEN-134_math_04.png",
+      "context_bbox_normalized": [
+        0.6322972959121622,
+        0.32439024453658527,
+        1,
+        0.6178048786829268
+      ],
+      "source_image": "slides/p0358_01_134.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-134-M05",
+      "ocr_text": "Input shunt : RIN = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.493243239231419,
+        0.6487804878658537,
+        0.8141891851773649,
+        0.7024390244512195
+      ],
+      "context_crop": "regions/SANSEN-134_math_05.png",
+      "context_bbox_normalized": [
+        0.453243239231419,
+        0.5487804878658538,
+        1,
+        0.8324390244512195
+      ],
+      "source_image": "slides/p0358_01_134.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-134-M06",
+      "ocr_text": "Output shunt : Rouт =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.49662162580236474,
+        0.8097560971341464,
+        0.8310810852618242,
+        0.8634146337195123
+      ],
+      "context_crop": "regions/SANSEN-134_math_06.png",
+      "context_bbox_normalized": [
+        0.45662162580236476,
+        0.7097560971341464,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0358_01_134.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

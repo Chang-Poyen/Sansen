@@ -1,0 +1,52 @@
+684 Chapter #22
+an amplifier. At resonance,
+the crystal behaves as a
+small resistor. The voltages
+at the Drain and at the Gate
+are almost identical. The
+output can therefore be
+taken either at the Gate or
+at the Drain.
+In the Colpitts oscillator,
+the Gate is grounded. The
+crystal is also grounded. It
+is a single-pin oscillator with
+the crystal connected to the
+Drain. The transistor looks
+more like a source follower.
+The output can only be
+taken at the Source. Indeed
+the Drain only carries a very small signal as it is connected to ground by the crystal, which
+behaves as a small resistor.
+In the third oscillator, the Drain is grounded. It is a single-pin oscillator with the crystal
+connected to the Gate. The transistor looks more like a cascode. The output can only be taken
+at the Source again. The Gate is connected to ground by the crystal, which behaves as a small
+resistor. The current output can also be taken by insertion of a current mirror in the Drain to
+ground connection.
+2215
+The analysis of the oscilla-
+tion condition now applies
+to all three configurations.
+For this purpose, the
+package capacitance C is
+p
+included in capacitance C .
+3
+The transistor capacitance
+C is included in C and
+GS 1
+the total output capacitance
+is C .
+2
+What value of g is
+m
+required for sustained
+oscillation?
+We carry out a split
+analysis with the crystal on
+one side and the circuit with
+all three capacitances on the other side.
+Barkhausen requires the sum of both impedances to be zero, which can be written in both the
+Real and Imaginary part.
+Since the Real part of the crystal impedance is only R , we find that the circuit must present
+s

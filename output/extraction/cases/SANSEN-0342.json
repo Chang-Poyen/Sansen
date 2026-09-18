@@ -1,0 +1,349 @@
+{
+  "case_id": "SANSEN-0342",
+  "slide_id": "0342",
+  "chapter": 3,
+  "slide_number_in_chapter": 42,
+  "source": {
+    "pdf_page": 108,
+    "printed_page": 110
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0108_02_0342.jpg",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "bbox_pt": [
+        91.52162,
+        359.89324,
+        374.54222,
+        556.40308
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 108,
+      "printed_page": 110,
+      "bbox_pt": [
+        0,
+        355.903745,
+        595,
+        797
+      ],
+      "text_raw": "This buffer has a very high\ninput impedance, despite the\nbiasing resistors R and R .\n1 2\nIt is often used to measure\nbio-impedances. For safety,\na coupling capacitor has\nto be used. Biasing resistors\nare thus needed to define\nthe DC conditions of the\nopamp. The+input is now\nat ground and so is the\noutput.\nThese resistors would also\ndraw AC current, which is\nnot allowed. For this pur-\npose resistor R is boot-\n1\nstrapped out by use of feedback capacitor C .\nF\nFor sufficient high gain in the opamp, the output follows the input voltage. The voltage across\nresistor R is approximately zero. It is thus bootstrapped out. It presents a resistance of infinity.\n1\nThis phenomenon starts where capacitance C starts to take effect, which is at the zero fre-\nF\nquency f .\nz\nIn practice however the gain of the opamp is limited. Its gain decreases towards the GBW.\nAs a consequence, the input impedance will not continue to rise. It settles around the frequency\nhalfway between f and the GBW (on a logarithmic scale).\n2\nFor example, if two resistors are taken of 1 MV and a capacitor C of 0.1 mF, the zero\nF\nfrequency f is 0.8 Hz and the peak frequency occurs at 1.3 kHz for a GBW of 1 MHz. At this\nz\npoint Z is about 1.6 GV.\nIN",
+      "text": "This buffer has a very high input impedance, despite the biasing resistors R and R . 1 2 It is often used to measure bio-impedances. For safety, a coupling capacitor has to be used. Biasing resistors are thus needed to define the DC conditions of the opamp. The+input is now at ground and so is the output. These resistors would also draw AC current, which is not allowed. For this purpose resistor R is boot- 1 strapped out by use of feedback capacitor C . F For sufficient high gain in the opamp, the output follows the input voltage. The voltage across resistor R is approximately zero. It is thus bootstrapped out. It presents a resistance of infinity. 1 This phenomenon starts where capacitance C starts to take effect, which is at the zero fre- F quency f . z In practice however the gain of the opamp is limited. Its gain decreases towards the GBW. As a consequence, the input impedance will not continue to rise. It settles around the frequency halfway between f and the GBW (on a logarithmic scale). 2 For example, if two resistors are taken of 1 MV and a capacitor C of 0.1 mF, the zero F frequency f is 0.8 Hz and the peak frequency occurs at 1.3 kHz for a GBW of 1 MHz. At this z point Z is about 1.6 GV. IN"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This buffer has a very high input impedance, despite the biasing resistors R and R . 1 2 It is often used to measure bio-impedances. For safety, a coupling capacitor has to be used. Biasing resistors are thus needed to define the DC conditions of the opamp. The+input is now at ground and so is the output. These resistors would also draw AC current, which is not allowed. For this purpose resistor R is boot- 1 strapped out by use of feedback capacitor C . F For sufficient high gain in the opamp, the output follows the input voltage. The voltage across resistor R is approximately zero. It is thus bootstrapped out. It presents a resistance of infinity. 1 This phenomenon starts where capacitance C starts to take effect, which is at the zero fre- F quency f . z In practice however the gain of the opamp is limited. Its gain decreases towards the GBW. As a consequence, the input impedance will not continue to rise. It settles around the frequency halfway between f and the GBW (on a logarithmic scale). 2 For example, if two resistors are taken of 1 MV and a capacitor C of 0.1 mF, the zero F frequency f is 0.8 Hz and the peak frequency occurs at 1.3 kHz for a GBW of 1 MHz. At this z point Z is about 1.6 GV. IN",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Bootstrapping for high input impedance",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0108_02_0342.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457628008474555,
+          0.0829268290243903,
+          0.7864406868644065,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Bootstrapping for high input impedance"
+      },
+      {
+        "bbox": [
+          0.1288135597996918,
+          0.29268292649667405,
+          0.2338983055624037,
+          0.3951219508869179
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc Z"
+      },
+      {
+        "bbox": [
+          0.47457627057627116,
+          0.3073170726341463,
+          0.5423728807457627,
+          0.3609756092195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.6542372881920904,
+          0.23902439073170734,
+          0.7084745763276836,
+          0.29756097609756094
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "12="
+      },
+      {
+        "bbox": [
+          0.654237287661017,
+          0.39512195063414635,
+          0.7084745757966102,
+          0.45365853600000006
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f2="
+      },
+      {
+        "bbox": [
+          0.05762711823728814,
+          0.4390243897560976,
+          0.10508474535593221,
+          0.48780487756097557
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.7932203390847458,
+          0.20000000043902433,
+          0.8169491526440678,
+          0.2439024394634146
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7184029222968202,
+          0.2716128354337559,
+          0.9121055553948406,
+          0.33814326313389165
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T (R,+R2)C."
+      },
+      {
+        "bbox": [
+          0.7627118645762712,
+          0.35609756146341454,
+          0.7830508476271186,
+          0.395121951707317
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7181585401701547,
+          0.4319019575296409,
+          0.8343838312768151,
+          0.4900492623436772
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2m R2CF"
+      },
+      {
+        "bbox": [
+          0.2508474573898305,
+          0.46829268243902444,
+          0.28813559298305086,
+          0.5170731702439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.25084745736077485,
+          0.6097560971428571,
+          0.29491525397094437,
+          0.6682926825087107
+        ],
+        "confidence": 0.5,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.328813559039548,
+          0.47804878004065043,
+          0.36949152514124295,
+          0.5317073166260162
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CF"
+      },
+      {
+        "bbox": [
+          0.5254237292881356,
+          0.512195121902439,
+          0.5728813564067796,
+          0.5756097560487804
+        ],
+        "confidence": 0.5,
+        "text": "ZIN"
+      },
+      {
+        "bbox": [
+          0.49152542362711865,
+          0.6780487810731707,
+          0.5830508473559323,
+          0.7365853664390243
+        ],
+        "confidence": 1,
+        "text": "R,+R2"
+      },
+      {
+        "bbox": [
+          0.6539581292105753,
+          0.82778597031587,
+          0.8511266152076622,
+          0.9087993986084933
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fz Vt2GBW"
+      },
+      {
+        "bbox": [
+          0.7182352205485143,
+          0.9410570844118943,
+          0.9293782874720113,
+          0.9867837674935445
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0342"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0108_02_0342.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Biasing resistors are thus needed to define the DC conditions of the opamp.",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "F For sufficient high gain in the opamp, the output follows the input voltage.",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is thus bootstrapped out.",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It presents a resistance of infinity. 1 This phenomenon starts where capacitance C starts to take effect, which is at the zero fre- F quency f . z In practice however the gain of the opamp is limited.",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its gain decreases towards the GBW.",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "It settles around the frequency halfway between f and the GBW (on a logarithmic scale). 2 For example, if two resistors are taken of 1 MV and a capacitor C of 0.1 mF, the zero F frequency f is 0.8 Hz and the peak frequency occurs at 1.3 kHz for a GBW of 1 MHz.",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The voltage across resistor R is approximately zero.",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0342-M01",
+      "ocr_text": "12=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6542372881920904,
+        0.23902439073170734,
+        0.7084745763276836,
+        0.29756097609756094
+      ],
+      "context_crop": "regions/SANSEN-0342_math_01.png",
+      "context_bbox_normalized": [
+        0.6142372881920903,
+        0.13902439073170733,
+        0.9384745763276836,
+        0.42756097609756094
+      ],
+      "source_image": "slides/p0108_02_0342.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0342-M02",
+      "ocr_text": "f2=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.654237287661017,
+        0.39512195063414635,
+        0.7084745757966102,
+        0.45365853600000006
+      ],
+      "context_crop": "regions/SANSEN-0342_math_02.png",
+      "context_bbox_normalized": [
+        0.6142372876610169,
+        0.29512195063414637,
+        0.9384745757966102,
+        0.5836585360000001
+      ],
+      "source_image": "slides/p0108_02_0342.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

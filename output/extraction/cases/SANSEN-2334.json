@@ -1,0 +1,248 @@
+{
+  "case_id": "SANSEN-2334",
+  "slide_id": "2334",
+  "chapter": 23,
+  "slide_number_in_chapter": 34,
+  "source": {
+    "pdf_page": 716,
+    "printed_page": 728
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0716_01_2334.jpg",
+      "pdf_page": 716,
+      "printed_page": 728,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 716,
+      "printed_page": 728,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        381.6135000000001
+      ],
+      "text_raw": "Current reuse can also be\neffectuated in another way.\nIf a two-stage amplifier is\nrequired, or an amplifier fol-\nlowed by a source follower,\nthen current is used twice,\nas shown on the right.\nHowever, a judicious set\nof capacitors allows limiting\nthe current to just one single\npath. This is shown on the\nleft.\nTransistor M1 sees a\nsignal ground at its Source.\nIts output is coupled to the\nSource follower underneath.\nThe same technique is used three times in the following LNA.",
+      "text": "Current reuse can also be effectuated in another way. If a two-stage amplifier is required, or an amplifier followed by a source follower, then current is used twice, as shown on the right. However, a judicious set of capacitors allows limiting the current to just one single path. This is shown on the left. Transistor M1 sees a signal ground at its Source. Its output is coupled to the Source follower underneath. The same technique is used three times in the following LNA."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Current reuse can also be effectuated in another way. If a two-stage amplifier is required, or an amplifier followed by a source follower, then current is used twice, as shown on the right. However, a judicious set of capacitors allows limiting the current to just one single path. This is shown on the left. Transistor M1 sees a signal ground at its Source. Its output is coupled to the Source follower underneath. The same technique is used three times in the following LNA.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "LNA with reuse",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0716_01_2334.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432635135133,
+          0.08292682909407667,
+          0.3581081101351351,
+          0.13658536567944246
+        ],
+        "confidence": 1,
+        "text": "LNA with reuse"
+      },
+      {
+        "bbox": [
+          0.08445946009290538,
+          0.3951219512195122,
+          0.13513513576858105,
+          0.4439024390243902
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.35135135076013513,
+          0.27804878054878057,
+          0.39864864805743244,
+          0.33170731713414636
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.341216215926641,
+          0.4341463416724738,
+          0.3817567564671815,
+          0.47317073191637626
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.34121621590250967,
+          0.556097561184669,
+          0.3851351348214286,
+          0.5951219514285714
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.30067567547860363,
+          0.6097560969512196,
+          0.42567567547860363,
+          0.6829268286585367
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ YOUT"
+      },
+      {
+        "bbox": [
+          0.5033783779391893,
+          0.3951219506829269,
+          0.5540540536148649,
+          0.44878048726829267
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.7297297290118243,
+          0.27804878054878057,
+          0.7871621614442568,
+          0.33170731713414636
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.7263513519003378,
+          0.43902439000000004,
+          0.7702702708192567,
+          0.4780487802439024
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.8716216219876126,
+          0.3219512192682926,
+          0.9155405409065315,
+          0.3609756095121951
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.8547297313187195,
+          0.37560975650406503,
+          0.9527026978479471,
+          0.42926829308943093
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.7226250831973999,
+          0.941041741745664,
+          0.9329430944039495,
+          0.986842862596762
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2334"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "If a two-stage amplifier is required, or an amplifier followed by a source follower, then current is used twice, as shown on the right.",
+      "pdf_page": 716,
+      "printed_page": 728,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is shown on the left.",
+      "pdf_page": 716,
+      "printed_page": 728,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0716_01_2334.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "If a two-stage amplifier is required, or an amplifier followed by a source follower, then current is used twice, as shown on the right.",
+        "pdf_page": 716,
+        "printed_page": 728,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Transistor M1 sees a signal ground at its Source.",
+        "pdf_page": 716,
+        "printed_page": 728,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Its output is coupled to the Source follower underneath.",
+        "pdf_page": 716,
+        "printed_page": 728,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "However, a judicious set of capacitors allows limiting the current to just one single path.",
+      "pdf_page": 716,
+      "printed_page": 728,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

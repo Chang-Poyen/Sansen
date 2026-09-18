@@ -1,0 +1,540 @@
+{
+  "case_id": "SANSEN-1326",
+  "slide_id": "1326",
+  "chapter": 13,
+  "slide_number_in_chapter": 26,
+  "source": {
+    "pdf_page": 369,
+    "printed_page": 376
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0369_01_1326.jpg",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 369,
+      "printed_page": 376,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        465.3195000000003
+      ],
+      "text_raw": "Now we are in a situation\nthat we can easily calculate\nthe loop gain.\nWhen a current source\nis used in the first stage,\nthe loop gain includes the\neffect of the potentiometric\ndivider with resistors R and\n1\nR , followed by transistor\n2\nM1, which is g r .\nm1 o1\nTransistor M1 acts as an\namplifier for the input\nsignal, but as a cascode for\nthe feedback signal.\nThis gain is much larger,\nwhen a current source is\nused as a load (right). Then the gains of both transistor M1 and M2 occur in the loop gain LG.\nIt is now much larger indeed!\nThe input and output resistances are now easily found.\nEven without feedback, the input resistance is already infinity. If some Gate current is present,\nthen the input resistance is lower, as for a bipolar transistor amplifier (see later).\nThe output resistance without feedback is just 1/g . Indeed resistor R is usually a lot larger\nm3 2\nand can therefore be neglected.\nWith feedback, this resistor 1/g must be divided by the loop gain. The closed-loop output\nm3\nresistance R is nearly zero.\nOUT",
+      "text": "Now we are in a situation that we can easily calculate the loop gain. When a current source is used in the first stage, the loop gain includes the effect of the potentiometric divider with resistors R and 1 R , followed by transistor 2 M1, which is g r . m1 o1 Transistor M1 acts as an amplifier for the input signal, but as a cascode for the feedback signal. This gain is much larger, when a current source is used as a load (right). Then the gains of both transistor M1 and M2 occur in the loop gain LG. It is now much larger indeed! The input and output resistances are now easily found. Even without feedback, the input resistance is already infinity. If some Gate current is present, then the input resistance is lower, as for a bipolar transistor amplifier (see later). The output resistance without feedback is just 1/g . Indeed resistor R is usually a lot larger m3 2 and can therefore be neglected. With feedback, this resistor 1/g must be divided by the loop gain. The closed-loop output m3 resistance R is nearly zero. OUT"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now we are in a situation that we can easily calculate the loop gain. When a current source is used in the first stage, the loop gain includes the effect of the potentiometric divider with resistors R and 1 R , followed by transistor 2 M1, which is g r . m1 o1 Transistor M1 acts as an amplifier for the input signal, but as a cascode for the feedback signal. This gain is much larger, when a current source is used as a load (right). Then the gains of both transistor M1 and M2 occur in the loop gain LG. It is now much larger indeed! The input and output resistances are now easily found. Even without feedback, the input resistance is already infinity. If some Gate current is present, then the input resistance is lower, as for a bipolar transistor amplifier (see later). The output resistance without feedback is just 1/g . Indeed resistor R is usually a lot larger m3 2 and can therefore be neglected. With feedback, this resistor 1/g must be divided by the loop gain. The closed-loop output m3 resistance R is nearly zero. OUT",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Series-shunt FB pair : input & output resistance",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0369_01_1326.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08333334887770083,
+          0.09024390187597287,
+          0.9208333282577155,
+          0.15662650540499579
+        ],
+        "confidence": 0.5,
+        "text": "Series-shunt FB pair : input & output resistance"
+      },
+      {
+        "bbox": [
+          0.5371621617117117,
+          0.20487804833333334,
+          0.5979729725225225,
+          0.25853658491869913
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.37162162118243247,
+          0.3512195124390244,
+          0.4155405401013514,
+          0.38536585390243894
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.7297297295366795,
+          0.2682926824738676,
+          0.8445945944015444,
+          0.33170731662020914
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2 + R1"
+      },
+      {
+        "bbox": [
+          0.6486486491342905,
+          0.3024390240853658,
+          0.7263513518369933,
+          0.36097560945121954
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av="
+      },
+      {
+        "bbox": [
+          0.7601351356841216,
+          0.35121951219512193,
+          0.8040540546030405,
+          0.4
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.07432432466216217,
+          0.4731707315331011,
+          0.12162162195945947,
+          0.5170731705574912
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.22972972929054059,
+          0.44878048800000003,
+          0.2736486482094595,
+          0.4878048782439024
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.2972972969172297,
+          0.4390243896951219,
+          0.3344594590793919,
+          0.4829268287195122
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.21621621604729727,
+          0.5609756103658536,
+          0.2972972971283783,
+          0.6341463420731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "§R1"
+      },
+      {
+        "bbox": [
+          0.2094594610135135,
+          0.7073170731219511,
+          0.3648648664189189,
+          0.760975609707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R, > 1/9m1"
+      },
+      {
+        "bbox": [
+          0.49999999984643734,
+          0.4048780486252772,
+          0.5405405403869779,
+          0.43902439008869176
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.5540540543918918,
+          0.5121951218902439,
+          0.5810810814189188,
+          0.5560975609146341
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.5540540533783784,
+          0.5804878043902439,
+          0.6283783777027028,
+          0.6292682921951219
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6486157556217119,
+          0.46328364606314354,
+          0.7230058641426321,
+          0.5025700129677976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG ="
+      },
+      {
+        "bbox": [
+          0.8749999995608109,
+          0.5024390245365853,
+          0.9189189184797297,
+          0.5560975611219512
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.6486486495777027,
+          0.5463414640243902,
+          0.8513513522804055,
+          0.5951219518292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1°o1 9m2o2"
+      },
+      {
+        "bbox": [
+          0.8547297306418918,
+          0.5756097566341464,
+          0.9527027036148649,
+          0.6292682932195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1+R2"
+      },
+      {
+        "bbox": [
+          0.6486486495495495,
+          0.6731707313414634,
+          0.7567567576576576,
+          0.7268292679268292
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = 00"
+      },
+      {
+        "bbox": [
+          0.7668918912443693,
+          0.7609756093089431,
+          0.8513513507038287,
+          0.8146341458943089
+        ],
+        "confidence": 1,
+        "text": "1/9m3"
+      },
+      {
+        "bbox": [
+          0.6486486472972973,
+          0.8000000001829268,
+          0.7567567554054054,
+          0.8536585367682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RouT ="
+      },
+      {
+        "bbox": [
+          0.8378378391328828,
+          0.800000001813424,
+          0.9222972985923423,
+          0.8390243897312916
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-=0"
+      },
+      {
+        "bbox": [
+          0.7837837838682432,
+          0.8341463409146341,
+          0.8310810811655405,
+          0.8780487799390244
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.7162162191126644,
+          0.9365853660162601,
+          0.9290540440630116,
+          0.9658536586991869
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 1326"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Now we are in a situation that we can easily calculate the loop gain.",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0369_01_1326.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "When a current source is used in the first stage, the loop gain includes the effect of the potentiometric divider with resistors R and 1 R , followed by transistor 2 M1, which is g r . m1 o1 Transistor M1 acts as an amplifier for the input signal, but as a cascode for the feedback signal.",
+        "pdf_page": 369,
+        "printed_page": 376,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This gain is much larger, when a current source is used as a load (right).",
+        "pdf_page": 369,
+        "printed_page": 376,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "If some Gate current is present, then the input resistance is lower, as for a bipolar transistor amplifier (see later).",
+        "pdf_page": 369,
+        "printed_page": 376,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Now we are in a situation that we can easily calculate the loop gain.",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When a current source is used in the first stage, the loop gain includes the effect of the potentiometric divider with resistors R and 1 R , followed by transistor 2 M1, which is g r . m1 o1 Transistor M1 acts as an amplifier for the input signal, but as a cascode for the feedback signal.",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This gain is much larger, when a current source is used as a load (right).",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Then the gains of both transistor M1 and M2 occur in the loop gain LG.",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Indeed resistor R is usually a lot larger m3 2 and can therefore be neglected.",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "With feedback, this resistor 1/g must be divided by the loop gain.",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "This gain is much larger, when a current source is used as a load (right).",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is now much larger indeed!",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Indeed resistor R is usually a lot larger m3 2 and can therefore be neglected.",
+      "pdf_page": 369,
+      "printed_page": 376,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1326-M01",
+      "ocr_text": "Av=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6486486491342905,
+        0.3024390240853658,
+        0.7263513518369933,
+        0.36097560945121954
+      ],
+      "context_crop": "regions/SANSEN-1326_math_01.png",
+      "context_bbox_normalized": [
+        0.6086486491342905,
+        0.20243902408536582,
+        0.9563513518369933,
+        0.49097560945121954
+      ],
+      "source_image": "slides/p0369_01_1326.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1326-M02",
+      "ocr_text": "R, > 1/9m1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2094594610135135,
+        0.7073170731219511,
+        0.3648648664189189,
+        0.760975609707317
+      ],
+      "context_crop": "regions/SANSEN-1326_math_02.png",
+      "context_bbox_normalized": [
+        0.1694594610135135,
+        0.6073170731219512,
+        0.5948648664189189,
+        0.890975609707317
+      ],
+      "source_image": "slides/p0369_01_1326.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1326-M03",
+      "ocr_text": "LG =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6486157556217119,
+        0.46328364606314354,
+        0.7230058641426321,
+        0.5025700129677976
+      ],
+      "context_crop": "regions/SANSEN-1326_math_03.png",
+      "context_bbox_normalized": [
+        0.6086157556217119,
+        0.36328364606314356,
+        0.9530058641426321,
+        0.6325700129677976
+      ],
+      "source_image": "slides/p0369_01_1326.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1326-M04",
+      "ocr_text": "RIN = 00",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6486486495495495,
+        0.6731707313414634,
+        0.7567567576576576,
+        0.7268292679268292
+      ],
+      "context_crop": "regions/SANSEN-1326_math_04.png",
+      "context_bbox_normalized": [
+        0.6086486495495494,
+        0.5731707313414635,
+        0.9867567576576576,
+        0.8568292679268292
+      ],
+      "source_image": "slides/p0369_01_1326.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1326-M05",
+      "ocr_text": "RouT =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6486486472972973,
+        0.8000000001829268,
+        0.7567567554054054,
+        0.8536585367682927
+      ],
+      "context_crop": "regions/SANSEN-1326_math_05.png",
+      "context_bbox_normalized": [
+        0.6086486472972973,
+        0.7000000001829269,
+        0.9867567554054054,
+        0.93
+      ],
+      "source_image": "slides/p0369_01_1326.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1326-M06",
+      "ocr_text": "-=0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8378378391328828,
+        0.800000001813424,
+        0.9222972985923423,
+        0.8390243897312916
+      ],
+      "context_crop": "regions/SANSEN-1326_math_06.png",
+      "context_bbox_normalized": [
+        0.7978378391328828,
+        0.700000001813424,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0369_01_1326.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

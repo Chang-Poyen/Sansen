@@ -1,0 +1,27 @@
+{
+  "deck": "simulations/ch02/netlists/mos_validation.scs",
+  "sha256": "721b0c6907b647d466b2d9fc92638015c4e694513b76f89824ed44dc7f2262a4",
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "returncode": 0,
+    "output_dir": "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/mos_validation/mos_validation.raw",
+    "output_files": [
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/mos_validation/mos_validation.raw/ac.ac",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/mos_validation/mos_validation.raw/logStatus",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/mos_validation/mos_validation.raw/logFile",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/mos_validation/mos_validation.raw/dcOp.dc"
+    ],
+    "remote_host": "101.6.65.209",
+    "timings": {
+      "upload_total": 1.5911965410341509,
+      "remote_exec": 1.74228108295938,
+      "download_total": 5.9536797919427045,
+      "parse_results": 0.0123950419947505,
+      "total": 9.301481082977261
+    },
+    "command": "HOSTNAME=`hostname 2>/dev/null || echo localhost`; export HOSTNAME && export LD_LIBRARY_PATH=\"${LD_LIBRARY_PATH:-}\" && mkdir -p /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/9e95b23e/mos_validation.raw && csh -c ':; /eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/9e95b23e/mos_validation.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/9e95b23e/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/9e95b23e/mos_validation.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus' & SPID=$!; echo $SPID > /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/9e95b23e/spectre.pid; wait $SPID",
+    "spectre_command": "/eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/9e95b23e/mos_validation.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/9e95b23e/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/9e95b23e/mos_validation.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus"
+  },
+  "wall_s": 9.303510665893555
+}

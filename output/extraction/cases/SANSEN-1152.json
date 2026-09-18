@@ -1,0 +1,129 @@
+{
+  "case_id": "SANSEN-1152",
+  "slide_id": "1152",
+  "chapter": 11,
+  "slide_number_in_chapter": 52,
+  "source": {
+    "pdf_page": 319,
+    "printed_page": 326
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0319_02_1152.jpg",
+      "pdf_page": 319,
+      "printed_page": 326,
+      "bbox_pt": [
+        91.521622,
+        397.560975,
+        374.78981,
+        594.020966
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 319,
+      "printed_page": 326,
+      "bbox_pt": [
+        0,
+        393.5715000000001,
+        595,
+        797
+      ],
+      "text_raw": "The area of this opamp is\nabout 1.5×0.8 mm. This is\nquite large as many two rep-\nlica input stages have been\nadded. Moreover, all input\ntransistors work in weak\ninversion such that they\nhave large sizes. This is\nclearly visible.",
+      "text": "The area of this opamp is about 1.5×0.8 mm. This is quite large as many two replica input stages have been added. Moreover, all input transistors work in weak inversion such that they have large sizes. This is clearly visible."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The area of this opamp is about 1.5×0.8 mm. This is quite large as many two replica input stages have been added. Moreover, all input transistors work in weak inversion such that they have large sizes. This is clearly visible.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Rtr Opamp with Voo-regulator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0319_02_1152.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243197072073,
+          0.07804878060975606,
+          0.6283783737612613,
+          0.14146341475609758
+        ],
+        "confidence": 0.5,
+        "text": "Rtr Opamp with Voo-regulator"
+      },
+      {
+        "bbox": [
+          0.23278311848105526,
+          0.25220203605441416,
+          0.3145141801587302,
+          0.29413942682381444
+        ],
+        "confidence": 1,
+        "text": "GF WS"
+      },
+      {
+        "bbox": [
+          0.5000000017736486,
+          0.5414634142682927,
+          0.6418918936655406,
+          0.5804878045121951
+        ],
+        "confidence": 1,
+        "text": "KULEUVEN"
+      },
+      {
+        "bbox": [
+          0.7263513607793309,
+          0.9463414628455283,
+          0.9324324289729212,
+          0.980487804308943
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 os 1152"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0319_02_1152.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

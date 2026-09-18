@@ -1,0 +1,569 @@
+{
+  "case_id": "SANSEN-0618",
+  "slide_id": "0618",
+  "chapter": 6,
+  "slide_number_in_chapter": 18,
+  "source": {
+    "pdf_page": 186,
+    "printed_page": 190
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0186_01_0618.jpg",
+      "pdf_page": 186,
+      "printed_page": 190,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 186,
+      "printed_page": 190,
+      "bbox_pt": [
+        0,
+        118.58729999999991,
+        595,
+        475.1849250000003
+      ],
+      "text_raw": "As an example, we take the\nsame CMOS Miller OTA of\n1 MHz for 10 pF, which has\nbeen used before.\nThe currents in both\nstages, i.e. 2g , g and\nm1 m6\ng are plotted versus com-\nmtot\npensation capacitance C .\nc\nRemember that they stand\nfor 2I , I and I but\nDS1 DS6 tot\nare 10 times larger (for\nV −V =0.2 V).\nGS T\nIt is clear that the mini-\nmum has a different shape\nfrom the previous\nillustration.\nThis is an ideal plot to select a value of C . It shows that the value of 1 pF is indeed a good\nc\nchoice, at least if no other specifications have to be taken into account.\nWe could have also taken 2 or even 3 pF as well. Indeed, the additional current consumption\nis still less than the current through the output stage. A larger capacitance would reduce the\nnoise, as we will see later in this Chapter.\nFinally, note that for these plots a constant value of C has been assumed. This is not quite\nn1\ntrue, however. For larger g , the current is also larger and so is the size W/L and the input\nm\ncapacitance. As a result C increases with g . If we introduce this relationship, then g is\nn1 m6 m6\nmuch flatter versus C for small values of C . This does not change our choice of compensation\nc c\ncapacitance however, since we have to select a value of at least 2–3 times C .\nn1",
+      "text": "As an example, we take the same CMOS Miller OTA of 1 MHz for 10 pF, which has been used before. The currents in both stages, i.e. 2g , g and m1 m6 g are plotted versus commtot pensation capacitance C . c Remember that they stand for 2I , I and I but DS1 DS6 tot are 10 times larger (for V −V =0.2 V). GS T It is clear that the minimum has a different shape from the previous illustration. This is an ideal plot to select a value of C . It shows that the value of 1 pF is indeed a good c choice, at least if no other specifications have to be taken into account. We could have also taken 2 or even 3 pF as well. Indeed, the additional current consumption is still less than the current through the output stage. A larger capacitance would reduce the noise, as we will see later in this Chapter. Finally, note that for these plots a constant value of C has been assumed. This is not quite n1 true, however. For larger g , the current is also larger and so is the size W/L and the input m capacitance. As a result C increases with g . If we introduce this relationship, then g is n1 m6 m6 much flatter versus C for small values of C . This does not change our choice of compensation c c capacitance however, since we have to select a value of at least 2–3 times C . n1"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As an example, we take the same CMOS Miller OTA of 1 MHz for 10 pF, which has been used before. The currents in both stages, i.e. 2g , g and m1 m6 g are plotted versus commtot pensation capacitance C . c Remember that they stand for 2I , I and I but DS1 DS6 tot are 10 times larger (for V −V =0.2 V). GS T It is clear that the minimum has a different shape from the previous illustration. This is an ideal plot to select a value of C . It shows that the value of 1 pF is indeed a good c choice, at least if no other specifications have to be taken into account. We could have also taken 2 or even 3 pF as well. Indeed, the additional current consumption is still less than the current through the output stage. A larger capacitance would reduce the noise, as we will see later in this Chapter. Finally, note that for these plots a constant value of C has been assumed. This is not quite n1 true, however. For larger g , the current is also larger and so is the size W/L and the input m capacitance. As a result C increases with g . If we introduce this relationship, then g is n1 m6 m6 much flatter versus C for small values of C . This does not change our choice of compensation c c capacitance however, since we have to select a value of at least 2–3 times C . n1",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "1 MHz Miller CMOS OTA: Design vs Ce",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0186_01_0618.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433145270259,
+          0.08292682990243905,
+          0.800675682804054,
+          0.14634146404878046
+        ],
+        "confidence": 0.5,
+        "text": "1 MHz Miller CMOS OTA: Design vs Ce"
+      },
+      {
+        "bbox": [
+          0.09459459370777029,
+          0.3317073164024391,
+          0.17905405316722975,
+          0.3853658529878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cn1 ct"
+      },
+      {
+        "bbox": [
+          0.09455798624219748,
+          0.5461290679604007,
+          0.21625282169883944,
+          0.5904562967856675
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cn1 ~ 9m6."
+      },
+      {
+        "bbox": [
+          0.33445945948761263,
+          0.17560975642276422,
+          0.37837837840653155,
+          0.2146341466666667
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "mS"
+      },
+      {
+        "bbox": [
+          0.3344594592905406,
+          0.2146341460487805,
+          0.3513513511824325,
+          0.24390243873170736
+        ],
+        "confidence": 0.5,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.31418918872466217,
+          0.26829268310975607,
+          0.35135135088682434,
+          0.2926829270121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1.8"
+      },
+      {
+        "bbox": [
+          0.31418918872466217,
+          0.31707317091463416,
+          0.35135135088682434,
+          0.3414634148170732
+        ],
+        "confidence": 0.5,
+        "text": "1.6"
+      },
+      {
+        "bbox": [
+          0.31418918923141886,
+          0.3658536581707317,
+          0.35135135139358104,
+          0.39512195085365853
+        ],
+        "confidence": 0.5,
+        "text": "1.4"
+      },
+      {
+        "bbox": [
+          0.31756756739864866,
+          0.41951219500000003,
+          0.35135135118243244,
+          0.4439024389024391
+        ],
+        "confidence": 0.5,
+        "text": "1.2"
+      },
+      {
+        "bbox": [
+          0.33445945962837836,
+          0.46829268341463415,
+          0.35135135152027025,
+          0.497560976097561
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.31418918872466217,
+          0.5170731709756098,
+          0.35135135088682434,
+          0.5463414636585365
+        ],
+        "confidence": 1,
+        "text": "0.8"
+      },
+      {
+        "bbox": [
+          0.31418918872466217,
+          0.5707317075,
+          0.35135135088682434,
+          0.5951219514024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0,6"
+      },
+      {
+        "bbox": [
+          0.3141891896537162,
+          0.6195121948780489,
+          0.35135135181587834,
+          0.6487804875609757
+        ],
+        "confidence": 1,
+        "text": "0.4"
+      },
+      {
+        "bbox": [
+          0.31418918856981987,
+          0.6731707319512195,
+          0.351351350731982,
+          0.6975609758536585
+        ],
+        "confidence": 0.5,
+        "text": "0.2"
+      },
+      {
+        "bbox": [
+          0.5506756749155405,
+          0.3951219507317074,
+          0.6182432424831081,
+          0.4341463409756098
+        ],
+        "confidence": 1,
+        "text": "9mtot"
+      },
+      {
+        "bbox": [
+          0.6486486478885135,
+          0.40487804810975614,
+          0.716216215456081,
+          0.45853658469512193
+        ],
+        "confidence": 0.5,
+        "text": "29m1"
+      },
+      {
+        "bbox": [
+          0.7601351368243243,
+          0.24878048760975613,
+          0.9290540557432433,
+          0.278048780292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW = 1 MHz"
+      },
+      {
+        "bbox": [
+          0.7562728630455383,
+          0.3144796771996061,
+          0.8889974059210859,
+          0.3733251995451723
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C, = 10 pF"
+      },
+      {
+        "bbox": [
+          0.7567567558488175,
+          0.3951219514329267,
+          0.9020270261190878,
+          0.439024390457317
+        ],
+        "confidence": 0.5,
+        "text": "Cn1 = 0.4 pF"
+      },
+      {
+        "bbox": [
+          0.756524900059139,
+          0.4616453909787057,
+          0.9292859150490435,
+          0.5139643640547585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "K' = 20 MA/V2"
+      },
+      {
+        "bbox": [
+          0.7532448078744415,
+          0.5355855704978946,
+          0.9427011418596413,
+          0.5912436969567837
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs-V, = 0.2 V"
+      },
+      {
+        "bbox": [
+          0.7567567584037161,
+          0.6048780485365853,
+          0.8885135151604728,
+          0.6439024387804877
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "L = 10 um"
+      },
+      {
+        "bbox": [
+          0.05743243293918918,
+          0.7463414632317074,
+          0.09797297347972972,
+          0.7707317071341463
+        ],
+        "confidence": 1,
+        "text": "0.01"
+      },
+      {
+        "bbox": [
+          0.20270270219594594,
+          0.7463414636585365,
+          0.23310810760135134,
+          0.7707317075609755
+        ],
+        "confidence": 1,
+        "text": "0.1"
+      },
+      {
+        "bbox": [
+          0.48986486520270267,
+          0.7463414632317074,
+          0.5168918922297298,
+          0.7707317071341463
+        ],
+        "confidence": 1,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.6486486480996622,
+          0.6682926824390244,
+          0.6993243237753379,
+          0.7073170726829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mб"
+      },
+      {
+        "bbox": [
+          0.6249999984375,
+          0.7463414632926828,
+          0.7499999984375,
+          0.8048780486585365
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "100 pF Cc"
+      },
+      {
+        "bbox": [
+          0.29011941732889274,
+          0.8215843035011123,
+          0.42271842315692537,
+          0.8710986227581508
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cn1 = 0.4 pF"
+      },
+      {
+        "bbox": [
+          0.729729734315367,
+          0.9463414640650407,
+          0.9358108025089574,
+          0.9853658531459257
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 0618"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It shows that the value of 1 pF is indeed a good c choice, at least if no other specifications have to be taken into account.",
+      "pdf_page": 186,
+      "printed_page": 190,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0186_01_0618.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result C increases with g .",
+      "pdf_page": 186,
+      "printed_page": 190,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The currents in both stages, i.e. 2g , g and m1 m6 g are plotted versus commtot pensation capacitance C . c Remember that they stand for 2I , I and I but DS1 DS6 tot are 10 times larger (for V −V =0.2 V).",
+      "pdf_page": 186,
+      "printed_page": 190,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is an ideal plot to select a value of C .",
+      "pdf_page": 186,
+      "printed_page": 190,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Finally, note that for these plots a constant value of C has been assumed.",
+      "pdf_page": 186,
+      "printed_page": 190,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Finally, note that for these plots a constant value of C has been assumed.",
+      "pdf_page": 186,
+      "printed_page": 190,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0618-M01",
+      "ocr_text": "GBW = 1 MHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7601351368243243,
+        0.24878048760975613,
+        0.9290540557432433,
+        0.278048780292683
+      ],
+      "context_crop": "regions/SANSEN-0618_math_01.png",
+      "context_bbox_normalized": [
+        0.7201351368243243,
+        0.14878048760975612,
+        1,
+        0.408048780292683
+      ],
+      "source_image": "slides/p0186_01_0618.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0618-M02",
+      "ocr_text": "C, = 10 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7562728630455383,
+        0.3144796771996061,
+        0.8889974059210859,
+        0.3733251995451723
+      ],
+      "context_crop": "regions/SANSEN-0618_math_02.png",
+      "context_bbox_normalized": [
+        0.7162728630455383,
+        0.21447967719960612,
+        1,
+        0.5033251995451723
+      ],
+      "source_image": "slides/p0186_01_0618.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0618-M03",
+      "ocr_text": "Cn1 = 0.4 pF",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7567567558488175,
+        0.3951219514329267,
+        0.9020270261190878,
+        0.439024390457317
+      ],
+      "context_crop": "regions/SANSEN-0618_math_03.png",
+      "context_bbox_normalized": [
+        0.7167567558488175,
+        0.29512195143292674,
+        1,
+        0.569024390457317
+      ],
+      "source_image": "slides/p0186_01_0618.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0618-M04",
+      "ocr_text": "K' = 20 MA/V2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.756524900059139,
+        0.4616453909787057,
+        0.9292859150490435,
+        0.5139643640547585
+      ],
+      "context_crop": "regions/SANSEN-0618_math_04.png",
+      "context_bbox_normalized": [
+        0.7165249000591389,
+        0.36164539097870574,
+        1,
+        0.6439643640547585
+      ],
+      "source_image": "slides/p0186_01_0618.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0618-M05",
+      "ocr_text": "VGs-V, = 0.2 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7532448078744415,
+        0.5355855704978946,
+        0.9427011418596413,
+        0.5912436969567837
+      ],
+      "context_crop": "regions/SANSEN-0618_math_05.png",
+      "context_bbox_normalized": [
+        0.7132448078744414,
+        0.4355855704978946,
+        1,
+        0.7212436969567837
+      ],
+      "source_image": "slides/p0186_01_0618.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0618-M06",
+      "ocr_text": "L = 10 um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7567567584037161,
+        0.6048780485365853,
+        0.8885135151604728,
+        0.6439024387804877
+      ],
+      "context_crop": "regions/SANSEN-0618_math_06.png",
+      "context_bbox_normalized": [
+        0.7167567584037161,
+        0.5048780485365854,
+        1,
+        0.7739024387804877
+      ],
+      "source_image": "slides/p0186_01_0618.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0618-M07",
+      "ocr_text": "Cn1 = 0.4 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.29011941732889274,
+        0.8215843035011123,
+        0.42271842315692537,
+        0.8710986227581508
+      ],
+      "context_crop": "regions/SANSEN-0618_math_07.png",
+      "context_bbox_normalized": [
+        0.25011941732889276,
+        0.7215843035011124,
+        0.6527184231569254,
+        0.93
+      ],
+      "source_image": "slides/p0186_01_0618.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

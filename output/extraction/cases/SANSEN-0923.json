@@ -1,0 +1,202 @@
+{
+  "case_id": "SANSEN-0923",
+  "slide_id": "0923",
+  "chapter": 9,
+  "slide_number_in_chapter": 23,
+  "source": {
+    "pdf_page": 267,
+    "printed_page": 274
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0267_02_0923.jpg",
+      "pdf_page": 267,
+      "printed_page": 274,
+      "bbox_pt": [
+        91.52162,
+        397.56098,
+        374.54222,
+        594.07082
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 267,
+      "printed_page": 274,
+      "bbox_pt": [
+        0,
+        393.5715100000001,
+        595,
+        797
+      ],
+      "text_raw": "More sophisticated current\nmirrors can be used as well.\nIn the second one, only\nnMOST devices are used. It\nmost probably has a larger\nbandwidth than the first\none. However, it consumes\n50% more current!\nWould the increase in\nbandwidth be offset by\nthe increase in power con-\nsumption?\nProbably, the difference\nbetween both is minor.",
+      "text": "More sophisticated current mirrors can be used as well. In the second one, only nMOST devices are used. It most probably has a larger bandwidth than the first one. However, it consumes 50% more current! Would the increase in bandwidth be offset by the increase in power consumption? Probably, the difference between both is minor."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "More sophisticated current mirrors can be used as well. In the second one, only nMOST devices are used. It most probably has a larger bandwidth than the first one. However, it consumes 50% more current! Would the increase in bandwidth be offset by the increase in power consumption? Probably, the difference between both is minor.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Two types of current mirroring",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0267_02_0923.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626800000007,
+          0.08292682990243905,
+          0.6305084713898306,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "Two types of current mirroring"
+      },
+      {
+        "bbox": [
+          0.6067796611525423,
+          0.23902439107317064,
+          0.6542372882711864,
+          0.3219512203414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "D"
+      },
+      {
+        "bbox": [
+          0.6440677973559322,
+          0.26829268268292683,
+          0.718644068542373,
+          0.3219512192682926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "21B"
+      },
+      {
+        "bbox": [
+          0.40677966021186446,
+          0.3414634140243902,
+          0.47796610088983055,
+          0.39024390182926827
+        ],
+        "confidence": 1,
+        "text": "+Vod"
+      },
+      {
+        "bbox": [
+          0.8474576283050848,
+          0.3512195121138212,
+          0.9186440689830508,
+          0.39512195113821136
+        ],
+        "confidence": 0.5,
+        "text": "+Vod"
+      },
+      {
+        "bbox": [
+          0.06440677993220338,
+          0.639024390097561,
+          0.091525424,
+          0.6731707315609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vi"
+      },
+      {
+        "bbox": [
+          0.4711864409685231,
+          0.6390243900696865,
+          0.511864407070218,
+          0.6829268290940768
+        ],
+        "confidence": 0.5,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.1966101711581921,
+          0.8585365851219513,
+          0.3966101711581921,
+          0.8975609753658538
+        ],
+        "confidence": 1,
+        "text": "Current mirror 1"
+      },
+      {
+        "bbox": [
+          0.5186440704842614,
+          0.8585365851219513,
+          0.8949152569249395,
+          0.9024390241463416
+        ],
+        "confidence": 0.5,
+        "text": "Current mirror 2 (only nMOST)"
+      },
+      {
+        "bbox": [
+          0.7322033944316904,
+          0.9317073176422765,
+          0.9389830425174623,
+          0.9658536591056911
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 0923"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0267_02_0923.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It most probably has a larger bandwidth than the first one.",
+      "pdf_page": 267,
+      "printed_page": 274,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Would the increase in bandwidth be offset by the increase in power consumption?",
+      "pdf_page": 267,
+      "printed_page": 274,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

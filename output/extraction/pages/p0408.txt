@@ -1,0 +1,52 @@
+416 Chapter #14
+1455
+One of the biggest problems
+with high-speed transimped-
+ance amplifiers is the feed-
+back resistor R . High
+F
+values are difficult to obtain
+at high frequencies.
+A conventional polysili-
+con resistor with length L
+for example (the length is
+the distance between the
+two contacts), has a certain
+sheet resistance R but also
+S
+a parallel distributed capaci-
+tance C to ground. It thus
+0
+acts as a kind of transmis-
+sion line. Its −3 dB fre-
+quency heavily depends on the resistor length L. It is easy to calculate that poly resistors are
+difficult to make beyond about 100 MHz.
+A much better solution is to use a MOST in the linear region. Their areas W×L are quite
+small and so are their parallel capacitances. Their −3 dB frequency can therefore be much higher.
+In this example a nMOST is taken of merely 1.3×1 mm. This is the Gate voltage used which
+corresponds to about 150 kV.
+Indeed a MOST resistor can be made larger or smaller depending on the Gate voltage This
+allows dynamic compression, as shown next.
+1456
+Such transimpedance ampli-
+fiers must generate an out-
+put signal amplitude which
+is better by being constant.
+For a small diode current, a
+lot of gain is now required,
+or a large value of feedback
+resistor R . For a large
+F
+input current, a small value
+of feedback resistor R is
+F
+preferred. This gain com-
+pression is easily realized
+with a MOST, rather than
+with a constant resistor.
+This is illustrated in this
+slide. For input currents of
+40 mA the resistor R is decreased to about 40 kV such that the output signal is about 1.6 V. A
+F
+post amplifier is used with a gain of two, to boost this to 3.2 V. For small input currents, the
+resistor is over 200 kV and the output signal about 1.5 V.

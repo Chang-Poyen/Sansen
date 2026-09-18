@@ -1,0 +1,55 @@
+Continuous-time filters 599
+As a result, the distortion
+increases and the dynamic
+range decreases. This is
+especially true for the SC
+realization, where the DR
+suffers from clock injection
+and charge redistribution.
+Moreover, the power con-
+sumption of the Gm-RC
+realization is better as
+simple differential pairs pro-
+vide much better perfor-
+mance at high frequencies
+than full operational
+amplifiers.
+It can be concluded that
+from 10 MHz on Gm-C and
+Gm-RC filters are the best choice.
+A more elaborate comparison follows at the end of this Chapter.
+1966
+As a final example of fre-
+quency and Q tuning, a 7th
+order filter is discussed con-
+sisting of three biquads and
+one first-order section. Such
+a biquad is shown in this
+slide. Its goal is accurate fre-
+quency and phase behavior
+at high frequencies (here
+50 MHz).
+In order to increase the
+parasitic pole frequencies as
+much as possible, no capaci-
+tances have been added. The
+node capacitance C consists
+of the sum of all parasitic
+node capacitances. In order
+to make sure that capacitance C is the same on both nodes, two dummy g blocks are added.
+m
+Each node now sees three input capacitances (of blocks g , g and g ) and three output
+m1 m2 m3
+capacitances (also of blocks g , g and g ).
+m1 m2 m3
+For high frequency performance, the g blocks consist of full-differential pairs with local
+m
+CMFB. They have large V −V values (0.5 V) for low distortion.
+GS T
+The gain A , the characteristic frequency f and Q are readily obtained. Note that g * also
+v o m2
+includes the output conductances.
+The Q factor can be tuned by tuning factor c, which is a ratio of two transconductances. The
+frequency f can be tuned by tuning the time constant t.
+o
+Two parameters c and constant t need a tuning system. This is discussed next.

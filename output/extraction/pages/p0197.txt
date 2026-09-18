@@ -1,0 +1,49 @@
+Systematic design of operational amplifiers 201
+0638
+The output voltage range is
+a lot better!
+It depends on whether a
+resistive load is added to the
+capacitive one or not.
+Normally, there is no resis-
+tive load on-chip. Blocks are
+put in series such that they
+only see Gates as loads. This
+depends on the application
+however.
+If no resistive loads are
+present, then the output can
+go rail-to-rail. Indeed, even
+for output voltages close to
+the positive rail, when the
+output transistor ends up in the linear region, the capacitor is still charged further until the
+output voltage reaches the positive supply voltage. Of course, in this region, the gain will have
+decreased. Some distortion will now show up. Nevertheless, the supply rail can be reached! The
+same applies to the negative rail.
+If there is a resistive load, a resistive divider is created as soon as the output transistor M5
+enters the linear region, as illustrated in this slide. In this case, the supply rail can never be
+reached. The output can get close though, depending on the size of the output transistor.
+Note that this is the ideal output structure for a wide-swing opamp. No cascodes are used.
+Moreover, the output devices are connected drain-to-drain. This is why class AB output drivers
+use this output configuration. Only the Gate drive circuits differ (see Chapter 12).
+0639
+Whenever an opamp is
+driven with a large input
+voltage, slewing occurs at
+the output.
+Large input voltages are
+used to try to make the
+opamp go faster.
+In this case, the input
+transistors are overdriven,
+i.e. one is on and the other
+is off, as illustrated in this
+slide.
+The input transistor
+which is on, now operates as
+a cascode, driven by the
+total input stage current I .
+B1
+The current mirror then
+draws the same current from the compensation capacitance C .
+c

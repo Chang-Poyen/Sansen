@@ -1,0 +1,176 @@
+{
+  "case_id": "SANSEN-2017",
+  "slide_id": "2017",
+  "chapter": 20,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 600,
+    "printed_page": 611
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0600_01_2017.jpg",
+      "pdf_page": 600,
+      "printed_page": 611,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 600,
+      "printed_page": 611,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        439.4105100000003
+      ],
+      "text_raw": "In this current-steering\nDAC thermometer code is\nused for both row and col-\numns. This results in good\nmonotonicity.\nCurrent is switched to the\noutput when both the row\nand column lines for a\nspecific cell are high. These\ncurrents add up toward the\ninput of an opamp with a\nresistor in the feedback\nloop. Also, simple resistor\ncan be used as shown in this\nslide. This is especially true\nfor high-frequency realiza-\ntions where a resistor is\n50 V.\nThe switch itself is also shown in this slide.\nIt consists of a differential pair, the current source of which carries the binary current. How\ncan the matching between these transistors Q be improved, will be explained in the next slide.\n4\nThe transistors of the differential pair Q and Q are driven by the digital control signals.\n1 2\nThey are on or off, and conduct the current either to ground or to the output.\nNote that a cascode transistor Q is used to better isolate the analog current sources (transistors\n3\nQ ) from the digital switches Q and Q .\n4 1 2",
+      "text": "In this current-steering DAC thermometer code is used for both row and columns. This results in good monotonicity. Current is switched to the output when both the row and column lines for a specific cell are high. These currents add up toward the input of an opamp with a resistor in the feedback loop. Also, simple resistor can be used as shown in this slide. This is especially true for high-frequency realizations where a resistor is 50 V. The switch itself is also shown in this slide. It consists of a differential pair, the current source of which carries the binary current. How can the matching between these transistors Q be improved, will be explained in the next slide. 4 The transistors of the differential pair Q and Q are driven by the digital control signals. 1 2 They are on or off, and conduct the current either to ground or to the output. Note that a cascode transistor Q is used to better isolate the analog current sources (transistors 3 Q ) from the digital switches Q and Q . 4 1 2"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this current-steering DAC thermometer code is used for both row and columns. This results in good monotonicity. Current is switched to the output when both the row and column lines for a specific cell are high. These currents add up toward the input of an opamp with a resistor in the feedback loop. Also, simple resistor can be used as shown in this slide. This is especially true for high-frequency realizations where a resistor is 50 V. The switch itself is also shown in this slide. It consists of a differential pair, the current source of which carries the binary current. How can the matching between these transistors Q be improved, will be explained in the next slide. 4 The transistors of the differential pair Q and Q are driven by the digital control signals. 1 2 They are on or off, and conduct the current either to ground or to the output. Note that a cascode transistor Q is used to better isolate the analog current sources (transistors 3 Q ) from the digital switches Q and Q . 4 1 2",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Thermometer-code Current steering DAC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0600_01_2017.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627864406755,
+          0.08292682887804881,
+          0.8203389905084744,
+          0.1414634142439024
+        ],
+        "confidence": 1,
+        "text": "Thermometer-code Current steering DAC"
+      },
+      {
+        "bbox": [
+          0.1254237410418592,
+          0.5463414634146342,
+          0.2406779653988176,
+          0.5560975609756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A colranhhonee"
+      },
+      {
+        "bbox": [
+          0.12203389632768369,
+          0.56097561,
+          0.24067796412429387,
+          0.5853658539024389
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Pre d'ecuat sa bo."
+      },
+      {
+        "bbox": [
+          0.4440677977542372,
+          0.5658536588414633,
+          0.5559322045338982,
+          0.5902439027439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Columr decose\""
+      },
+      {
+        "bbox": [
+          0.15254237322033895,
+          0.7365853656707317,
+          0.17966101728813558,
+          0.7609756095731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "d. o"
+      },
+      {
+        "bbox": [
+          0.7322033944316904,
+          0.9512195127642277,
+          0.9389830425174623,
+          0.9853658542276423
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2017"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Also, simple resistor can be used as shown in this slide.",
+      "pdf_page": 600,
+      "printed_page": 611,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The switch itself is also shown in this slide.",
+      "pdf_page": 600,
+      "printed_page": 611,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "How can the matching between these transistors Q be improved, will be explained in the next slide. 4 The transistors of the differential pair Q and Q are driven by the digital control signals. 1 2 They are on or off, and conduct the current either to ground or to the output.",
+      "pdf_page": 600,
+      "printed_page": 611,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0600_01_2017.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It consists of a differential pair, the current source of which carries the binary current.",
+        "pdf_page": 600,
+        "printed_page": 611,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

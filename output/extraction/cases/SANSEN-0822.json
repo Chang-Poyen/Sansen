@@ -1,0 +1,183 @@
+{
+  "case_id": "SANSEN-0822",
+  "slide_id": "0822",
+  "chapter": 8,
+  "slide_number_in_chapter": 22,
+  "source": {
+    "pdf_page": 243,
+    "printed_page": 249
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0243_02_0822.jpg",
+      "pdf_page": 243,
+      "printed_page": 249,
+      "bbox_pt": [
+        91.521622,
+        457.350983,
+        374.78981,
+        653.810974
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 243,
+      "printed_page": 249,
+      "bbox_pt": [
+        0,
+        453.3615000000003,
+        595,
+        797
+      ],
+      "text_raw": "The main advantage of this\nfirst principle of CMFB is\nthat no additional power is\nrequired. The main disad-\nvantage is that this CMFB\namplifier may not be suffi-\nciently fast, depending on\nthe application.\nThis second principle has\nexactly the opposite charac-\nteristics. It takes two more\nstages, resulting in much\nmore power consumption.\nThe speed however, can be\nset independently of the\ndifferential amplifier, and\ncan be made as large as the\ndesigner likes.",
+      "text": "The main advantage of this first principle of CMFB is that no additional power is required. The main disadvantage is that this CMFB amplifier may not be sufficiently fast, depending on the application. This second principle has exactly the opposite characteristics. It takes two more stages, resulting in much more power consumption. The speed however, can be set independently of the differential amplifier, and can be made as large as the designer likes."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The main advantage of this first principle of CMFB is that no additional power is required. The main disadvantage is that this CMFB amplifier may not be sufficiently fast, depending on the application. This second principle has exactly the opposite characteristics. It takes two more stages, resulting in much more power consumption. The speed however, can be set independently of the differential amplifier, and can be made as large as the designer likes.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0243_02_0822.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270053088803,
+          0.08292682944250873,
+          0.38175675458494207,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.0979729690456082,
+          0.28780487817073164,
+          0.4121621582347974,
+          0.34634146353658535
+        ],
+        "confidence": 1,
+        "text": "• Requirements"
+      },
+      {
+        "bbox": [
+          0.10000002224284485,
+          0.3609756104487706,
+          0.8083333212095362,
+          0.4341463421560876
+        ],
+        "confidence": 1,
+        "text": "• Fully-diff. amps with linear MOSTs"
+      },
+      {
+        "bbox": [
+          0.09583333535165939,
+          0.43373494015293335,
+          0.9333333147316741,
+          0.5121951217846265
+        ],
+        "confidence": 1,
+        "text": "• FDA's with error amp.& source followers"
+      },
+      {
+        "bbox": [
+          0.09797297922297284,
+          0.5219512188780489,
+          0.8040540603040539,
+          0.5853658530243903
+        ],
+        "confidence": 0.5,
+        "text": "• Folded cascode OTA without SF's"
+      },
+      {
+        "bbox": [
+          0.09797297195945948,
+          0.6146341469756097,
+          0.6858108097972972,
+          0.6780487811219512
+        ],
+        "confidence": 1,
+        "text": "• Other fully-differential amps"
+      },
+      {
+        "bbox": [
+          0.09787264503726525,
+          0.6919250038932022,
+          0.30753276272789287,
+          0.7519774336506693
+        ],
+        "confidence": 1,
+        "text": "• Exercise"
+      },
+      {
+        "bbox": [
+          0.7195945968327703,
+          0.9414634140853658,
+          0.9324324346706081,
+          0.9853658531097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10-0s 0822"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0243_02_0822.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The main disadvantage is that this CMFB amplifier may not be sufficiently fast, depending on the application.",
+      "pdf_page": 243,
+      "printed_page": 249,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "This second principle has exactly the opposite characteristics.",
+      "pdf_page": 243,
+      "printed_page": 249,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

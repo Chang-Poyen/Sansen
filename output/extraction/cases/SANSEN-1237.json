@@ -1,0 +1,311 @@
+{
+  "case_id": "SANSEN-1237",
+  "slide_id": "1237",
+  "chapter": 12,
+  "slide_number_in_chapter": 37,
+  "source": {
+    "pdf_page": 348,
+    "printed_page": 355
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0348_02_1237.jpg",
+      "pdf_page": 348,
+      "printed_page": 355,
+      "bbox_pt": [
+        91.521622,
+        431.342377,
+        374.78981,
+        627.802368
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 348,
+      "printed_page": 355,
+      "bbox_pt": [
+        0,
+        427.3529250000002,
+        595,
+        797
+      ],
+      "text_raw": "This amplifier has two\noutput stages in parallel.\nThe top one uses source fol-\nlowers. It can provide mod-\nerate voltage swing but with\nvery low distortion.\nHowever, most of the gain\nand current (power) comes\nfrom the bottom amplifier.\nIt consists of two error\namplifiers followed by two\noutput transistors, Drain to\nDrain. Some offset is built\nin the error amplifiers\n(shown on the right) so that\nthe output devices are\nturned off for small output signals. In this way they do not generate cross-over distortion. The\nsource follower amplifier carries out all the tasks.\nFor large output swing, the source follower amplifier cannot follow any more. The class-AB\npower amplifier can still provide rail-to-rail output swing, even when the output devices end up\nin the linear region. The error amplifier still provides sufficient gain.",
+      "text": "This amplifier has two output stages in parallel. The top one uses source followers. It can provide moderate voltage swing but with very low distortion. However, most of the gain and current (power) comes from the bottom amplifier. It consists of two error amplifiers followed by two output transistors, Drain to Drain. Some offset is built in the error amplifiers (shown on the right) so that the output devices are turned off for small output signals. In this way they do not generate cross-over distortion. The source follower amplifier carries out all the tasks. For large output swing, the source follower amplifier cannot follow any more. The class-AB power amplifier can still provide rail-to-rail output swing, even when the output devices end up in the linear region. The error amplifier still provides sufficient gain."
+    },
+    {
+      "pdf_page": 349,
+      "printed_page": 356,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        202.14374999999984
+      ],
+      "text_raw": "The quiescent current in the low-distortion source-follower amplifier is set by the translinear\nloop of transistors MO16/MO19 and MO17/MO20. The DC current through MO17/17 sets the\ncurrent in the output devices MO19/20.\nFor a 1 kV/150 pF load, the Slew Rate is 7 V/ms. The GBW is 5.5 MHz and power dissipation\n6.5 mW (±5 V). The equivalent input noise is 10 nV /√Hz, which is quite low.\nRMS",
+      "text": "The quiescent current in the low-distortion source-follower amplifier is set by the translinear loop of transistors MO16/MO19 and MO17/MO20. The DC current through MO17/17 sets the current in the output devices MO19/20. For a 1 kV/150 pF load, the Slew Rate is 7 V/ms. The GBW is 5.5 MHz and power dissipation 6.5 mW (±5 V). The equivalent input noise is 10 nV /√Hz, which is quite low. RMS"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This amplifier has two output stages in parallel. The top one uses source followers. It can provide moderate voltage swing but with very low distortion. However, most of the gain and current (power) comes from the bottom amplifier. It consists of two error amplifiers followed by two output transistors, Drain to Drain. Some offset is built in the error amplifiers (shown on the right) so that the output devices are turned off for small output signals. In this way they do not generate cross-over distortion. The source follower amplifier carries out all the tasks. For large output swing, the source follower amplifier cannot follow any more. The class-AB power amplifier can still provide rail-to-rail output swing, even when the output devices end up in the linear region. The error amplifier still provides sufficient gain.\n\nThe quiescent current in the low-distortion source-follower amplifier is set by the translinear loop of transistors MO16/MO19 and MO17/MO20. The DC current through MO17/17 sets the current in the output devices MO19/20. For a 1 kV/150 pF load, the Slew Rate is 7 V/ms. The GBW is 5.5 MHz and power dissipation 6.5 mW (±5 V). The equivalent input noise is 10 nV /√Hz, which is quite low. RMS",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Low-distortion symmetrical class-AB amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0348_02_1237.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433124999993,
+          0.08292682898373982,
+          0.905405412331081,
+          0.14634146313008134
+        ],
+        "confidence": 1,
+        "text": "Low-distortion symmetrical class-AB amplifier"
+      },
+      {
+        "bbox": [
+          0.12837837820945946,
+          0.32682926815331004,
+          0.15202702685810812,
+          0.3463414632752613
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "I2w4"
+      },
+      {
+        "bbox": [
+          0.7905405399774775,
+          0.2634146348904518,
+          0.8243243237612613,
+          0.2829268288493856
+        ],
+        "confidence": 1,
+        "text": "200/4"
+      },
+      {
+        "bbox": [
+          0.7736486493243243,
+          0.28292682968719984,
+          0.8141891898648648,
+          0.3024390236461336
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MO%"
+      },
+      {
+        "bbox": [
+          0.7905405402027027,
+          0.3170731703252032,
+          0.8243243239864865,
+          0.34146341422764226
+        ],
+        "confidence": 0.5,
+        "text": "200/4"
+      },
+      {
+        "bbox": [
+          0.6283783791666666,
+          0.4097560973170732,
+          0.6756756764639639,
+          0.43414634121951223
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Va LX"
+      },
+      {
+        "bbox": [
+          0.8986486484797296,
+          0.44390243897018977,
+          0.9594594592905404,
+          0.4634146340921409
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "HI. MUs"
+      },
+      {
+        "bbox": [
+          0.1385135142454955,
+          0.5804878046341463,
+          0.1824324331644144,
+          0.6048780485365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MISTH"
+      },
+      {
+        "bbox": [
+          0.6249999973817568,
+          0.624390244186992,
+          0.939189186570946,
+          0.6682926832113821
+        ],
+        "confidence": 1,
+        "text": "Class-AB source foll."
+      },
+      {
+        "bbox": [
+          0.6216216244087837,
+          0.6780487802439025,
+          0.8445945973817567,
+          0.7268292680487806
+        ],
+        "confidence": 0.5,
+        "text": "In parallel with"
+      },
+      {
+        "bbox": [
+          0.6250000032432431,
+          0.7317073169756096,
+          0.9493243275675675,
+          0.7804878047804877
+        ],
+        "confidence": 0.5,
+        "text": "Class-AB power amp."
+      },
+      {
+        "bbox": [
+          0.1722972961148649,
+          0.7756097563414633,
+          0.24324324206081083,
+          0.8000000002439024
+        ],
+        "confidence": 0.5,
+        "text": "Inpur Suge"
+      },
+      {
+        "bbox": [
+          0.7364864865861054,
+          0.8585365854033771,
+          0.9222972973969161,
+          0.8878048780863039
+        ],
+        "confidence": 1,
+        "text": "Ref. Saether, JSSC"
+      },
+      {
+        "bbox": [
+          0.7364864864864865,
+          0.8926829273983741,
+          0.8986486486486487,
+          0.9268292688617887
+        ],
+        "confidence": 1,
+        "text": "Febr.96, 255-258"
+      },
+      {
+        "bbox": [
+          0.7263513543041059,
+          0.9560975611382113,
+          0.9358108008760745,
+          0.9853658538211382
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1237"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Some offset is built in the error amplifiers (shown on the right) so that the output devices are turned off for small output signals.",
+      "pdf_page": 348,
+      "printed_page": 355,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0348_02_1237.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This amplifier has two output stages in parallel.",
+        "pdf_page": 348,
+        "printed_page": 355,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The top one uses source followers.",
+        "pdf_page": 348,
+        "printed_page": 355,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It consists of two error amplifiers followed by two output transistors, Drain to Drain.",
+        "pdf_page": 348,
+        "printed_page": 355,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The source follower amplifier carries out all the tasks.",
+        "pdf_page": 348,
+        "printed_page": 355,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "For large output swing, the source follower amplifier cannot follow any more.",
+        "pdf_page": 348,
+        "printed_page": 355,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The quiescent current in the low-distortion source-follower amplifier is set by the translinear loop of transistors MO16/MO19 and MO17/MO20.",
+        "pdf_page": 349,
+        "printed_page": 356,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "However, most of the gain and current (power) comes from the bottom amplifier.",
+      "pdf_page": 348,
+      "printed_page": 355,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The error amplifier still provides sufficient gain.",
+      "pdf_page": 348,
+      "printed_page": 355,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

@@ -1,0 +1,37 @@
+041
+Before we go into more
+detail in opamp design, we
+want to know more about
+the limits of operation. At
+the low end this is noise,
+whereas at the high end it is
+distortion. This latter topic
+is discussed in Chapter 15.
+We now want to learn more
+about noise.
+042
+Every amplifier has noise.
+When we apply a small-
+signal input to an amplifier,
+then the output signal is an
+accurate replica of the input,
+but amplified. The output is
+proportional to the input, at
+least in the middle range.
+When we increase the
+input signal amplitude, the
+output amplitude levels off.
+We generate distortion. The
+higher we increase the in-
+put the flatter the response
+becomes and the more dis-
+tortion is generated. In most
+systems we can allow something like 0.1% distortion. In some audio amplifiers and
+high-performance analog-to-digital converters we would want rather less than 0.001%
+distortion!!
+When we decrease the signal amplitude, it gets lost in noise. The Signal-to-Noise Ratio (SNR)
+is the highest possible range of input signals we can obtain regardless of distortion.
+The Signal-to-Noise-and-Distortion Ratio (SNDR) on the other hand, limits this SNR to a
+certain amount of distortion. Above the 0.1% SNDR is shown, for which the distortion is limited
+to 0.1%. Clearly the SNDR is always smaller than the SNR.
+117

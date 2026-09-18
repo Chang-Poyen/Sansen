@@ -1,0 +1,520 @@
+{
+  "case_id": "SANSEN-0447",
+  "slide_id": "0447",
+  "chapter": 4,
+  "slide_number_in_chapter": 47,
+  "source": {
+    "pdf_page": 137,
+    "printed_page": 140
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0137_02_0447.jpg",
+      "pdf_page": 137,
+      "printed_page": 140,
+      "bbox_pt": [
+        91.521622,
+        479.27398700000003,
+        374.78981,
+        675.733978
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 137,
+      "printed_page": 140,
+      "bbox_pt": [
+        0,
+        475.2844000000001,
+        595,
+        797
+      ],
+      "text_raw": "A circuit technique that is\nsometimes used to reduce\nthe output noise of a current\nsource is given in this slide.\nThe transistor is split up\ninto parts. One of them, usu-\nally the one with the larger\ncurrent, then receives a\nseries resistor to reduce its\nnoise output. In this exam-\nple, this latter one takes 3/4\nof the total current.\nHow well does this work?\nObviously in order to be\nable to accommodate this\nseries resistor, we need to\ntake a V biasing voltage that is quite large. It is much larger than V . We compare two\nG2 G1",
+      "text": "A circuit technique that is sometimes used to reduce the output noise of a current source is given in this slide. The transistor is split up into parts. One of them, usually the one with the larger current, then receives a series resistor to reduce its noise output. In this example, this latter one takes 3/4 of the total current. How well does this work? Obviously in order to be able to accommodate this series resistor, we need to take a V biasing voltage that is quite large. It is much larger than V . We compare two G2 G1"
+    },
+    {
+      "pdf_page": 138,
+      "printed_page": 141,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        261.98361499999965
+      ],
+      "text_raw": "cases. In the first case we have only one single MOST, which takes all the DC current. Its output\nnoise current is then known.\nIn the other case, we take two MOSTs. One has a much larger V than the other. In this\nG2\ncase, we have two contributions to the output noise current. The first one is due to transistor\nM1, which runs at 1/4 of the DC current. The other one is due to the resistor R. This resistor\nhowever, must have a value (V −V )/(0.75I ).\nG2 G1 out\nTwo terms appear in the total noise of the second case. The first one is the transistor noise\nwhereas the second one is due to the resistor. It is clear that we need a really large V to make\nG2\nthis work. If we applied that same V to the single MOST of the first case, we would obtain\nG2\nsimilar noise performance. This technique therefore does not work!",
+      "text": "cases. In the first case we have only one single MOST, which takes all the DC current. Its output noise current is then known. In the other case, we take two MOSTs. One has a much larger V than the other. In this G2 case, we have two contributions to the output noise current. The first one is due to transistor M1, which runs at 1/4 of the DC current. The other one is due to the resistor R. This resistor however, must have a value (V −V )/(0.75I ). G2 G1 out Two terms appear in the total noise of the second case. The first one is the transistor noise whereas the second one is due to the resistor. It is clear that we need a really large V to make G2 this work. If we applied that same V to the single MOST of the first case, we would obtain G2 similar noise performance. This technique therefore does not work!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A circuit technique that is sometimes used to reduce the output noise of a current source is given in this slide. The transistor is split up into parts. One of them, usually the one with the larger current, then receives a series resistor to reduce its noise output. In this example, this latter one takes 3/4 of the total current. How well does this work? Obviously in order to be able to accommodate this series resistor, we need to take a V biasing voltage that is quite large. It is much larger than V . We compare two G2 G1\n\ncases. In the first case we have only one single MOST, which takes all the DC current. Its output noise current is then known. In the other case, we take two MOSTs. One has a much larger V than the other. In this G2 case, we have two contributions to the output noise current. The first one is due to transistor M1, which runs at 1/4 of the DC current. The other one is due to the resistor R. This resistor however, must have a value (V −V )/(0.75I ). G2 G1 out Two terms appear in the total noise of the second case. The first one is the transistor noise whereas the second one is due to the resistor. It is clear that we need a really large V to make G2 this work. If we applied that same V to the single MOST of the first case, we would obtain G2 similar noise performance. This technique therefore does not work!",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Low-noise current mirror with series R",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0137_02_0447.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.05743243610641881,
+          0.07804877975609759,
+          0.7500000036739864,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Low-noise current mirror with series R"
+      },
+      {
+        "bbox": [
+          0.12500000245553095,
+          0.341463414308943,
+          0.17567567490933392,
+          0.37073170699186986
+        ],
+        "confidence": 1,
+        "text": "out"
+      },
+      {
+        "bbox": [
+          0.07770270375844592,
+          0.45365853652439025,
+          0.1621621632179054,
+          0.5073170731097562
+        ],
+        "confidence": 0.5,
+        "text": "dioutt"
+      },
+      {
+        "bbox": [
+          0.15202702690033784,
+          0.4390243896951219,
+          0.17567567554898647,
+          0.4829268287195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.08445945976351352,
+          0.6390243900000001,
+          0.11486486516891892,
+          0.6829268290243903
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.06756756684966218,
+          0.6975609756707317,
+          0.1249999992820946,
+          0.7512195122560976
+        ],
+        "confidence": 0.5,
+        "text": "VG1"
+      },
+      {
+        "bbox": [
+          0.2088044227903812,
+          0.20313635934445862,
+          0.308087467193045,
+          0.2846685166841594
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ",lout"
+      },
+      {
+        "bbox": [
+          0.2094594590934685,
+          0.6439024392682926,
+          0.25337837801238744,
+          0.6829268295121951
+        ],
+        "confidence": 0.5,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.2668918923648649,
+          0.5707317071219512,
+          0.31418918966216214,
+          0.6097560973658537
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.27364864907094594,
+          0.6926829265243902,
+          0.3074324328547297,
+          0.7365853655487805
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.37837837858108103,
+          0.29268292668292684,
+          0.3986486488513513,
+          0.3268292681463415
+        ],
+        "confidence": 0.5,
+        "text": "3"
+      },
+      {
+        "bbox": [
+          0.37499999847972976,
+          0.31707317089430886,
+          0.466216214695946,
+          0.36585365869918696
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "— lout"
+      },
+      {
+        "bbox": [
+          0.3783783782094595,
+          0.3560975605487805,
+          0.3986486484797298,
+          0.39024390201219505
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.3648648654681467,
+          0.4536585364808362,
+          0.4493243249276062,
+          0.5073170730662021
+        ],
+        "confidence": 0.5,
+        "text": "diout2"
+      },
+      {
+        "bbox": [
+          0.4425675677364864,
+          0.443902439390244,
+          0.4628378380067567,
+          0.47317073207317073
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.40202702719594596,
+          0.5707317077560976,
+          0.4324324326013513,
+          0.6146341467804878
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.38851351304054055,
+          0.6292682921463415,
+          0.4425675670945946,
+          0.6829268287317073
+        ],
+        "confidence": 0.5,
+        "text": "VG2"
+      },
+      {
+        "bbox": [
+          0.3885135132179054,
+          0.6878048773780489,
+          0.4594594591638514,
+          0.7414634139634146
+        ],
+        "confidence": 0.5,
+        "text": ">VG1"
+      },
+      {
+        "bbox": [
+          0.2837111127432182,
+          0.8530199258920487,
+          0.4662888902964672,
+          0.898199586037878
+        ],
+        "confidence": 0.5,
+        "text": "Large R or VG2"
+      },
+      {
+        "bbox": [
+          0.5337837826013514,
+          0.21463414719512197,
+          0.9256756744932433,
+          0.2829268301219512
+        ],
+        "confidence": 0.5,
+        "text": "Same lout & different Vg :"
+      },
+      {
+        "bbox": [
+          0.7633605079234898,
+          0.3064739235105296,
+          0.9292070619321798,
+          0.3715748562133152
+        ],
+        "confidence": 0.5,
+        "text": "8KT 2lout df"
+      },
+      {
+        "bbox": [
+          0.5097736366689585,
+          0.3481013017797989,
+          0.7199560972476707,
+          0.40799625897331315
+        ],
+        "confidence": 0.5,
+        "text": "1 MOST: diout*"
+      },
+      {
+        "bbox": [
+          0.7770270285135136,
+          0.3756097559512195,
+          0.9256756771621621,
+          0.439024390097561
+        ],
+        "confidence": 0.5,
+        "text": "3 VGs-VT"
+      },
+      {
+        "bbox": [
+          0.5101351379729729,
+          0.4731707316585365,
+          0.7939189217567567,
+          0.5268292682439024
+        ],
+        "confidence": 0.5,
+        "text": "2 MOSTs: Vg2>VG1"
+      },
+      {
+        "bbox": [
+          0.5101351375337838,
+          0.5804878055609756,
+          0.878378380777027,
+          0.6487804884878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "diout?= diouti? + dioutz? ="
+      },
+      {
+        "bbox": [
+          0.5032653178561198,
+          0.7066152940615407,
+          0.6757887390663315,
+          0.7665554344833383
+        ],
+        "confidence": 0.5,
+        "text": "8kT 2lout df"
+      },
+      {
+        "bbox": [
+          0.5236486498873874,
+          0.7756097559756098,
+          0.672297298536036,
+          0.8292682925609757
+        ],
+        "confidence": 0.5,
+        "text": "3 VG1-VT"
+      },
+      {
+        "bbox": [
+          0.7027027028434685,
+          0.7121951217479674,
+          0.7195945947353604,
+          0.7463414632113821
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6993243241554055,
+          0.7756097557723577,
+          0.7195945944256757,
+          0.8146341460162602
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.8006756743918919,
+          0.7024390242439025,
+          0.9290540527702704,
+          0.7853658535121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VG-VT)"
+      },
+      {
+        "bbox": [
+          0.7533783769707207,
+          0.7756097561788617,
+          0.9222972958896396,
+          0.8341463415447155
+        ],
+        "confidence": 0.5,
+        "text": "16 VG2-VG1"
+      },
+      {
+        "bbox": [
+          0.7297297391577093,
+          0.9414634151467572,
+          0.9358108073512996,
+          0.9804878042276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 a5 0447"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We compare two G2 G1",
+      "pdf_page": 137,
+      "printed_page": 140,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0137_02_0447.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A circuit technique that is sometimes used to reduce the output noise of a current source is given in this slide.",
+        "pdf_page": 137,
+        "printed_page": 140,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This technique therefore does not work!",
+      "pdf_page": 138,
+      "printed_page": 141,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "It is much larger than V .",
+      "pdf_page": 137,
+      "printed_page": 140,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "One has a much larger V than the other.",
+      "pdf_page": 138,
+      "printed_page": 141,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0447-M01",
+      "ocr_text": ">VG1",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.3885135132179054,
+        0.6878048773780489,
+        0.4594594591638514,
+        0.7414634139634146
+      ],
+      "context_crop": "regions/SANSEN-0447_math_01.png",
+      "context_bbox_normalized": [
+        0.3485135132179054,
+        0.5878048773780489,
+        0.6894594591638514,
+        0.8714634139634146
+      ],
+      "source_image": "slides/p0137_02_0447.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0447-M02",
+      "ocr_text": "2 MOSTs: Vg2>VG1",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5101351379729729,
+        0.4731707316585365,
+        0.7939189217567567,
+        0.5268292682439024
+      ],
+      "context_crop": "regions/SANSEN-0447_math_02.png",
+      "context_bbox_normalized": [
+        0.47013513797297296,
+        0.37317073165853654,
+        1,
+        0.6568292682439024
+      ],
+      "source_image": "slides/p0137_02_0447.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0447-M03",
+      "ocr_text": "diout?= diouti? + dioutz? =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5101351375337838,
+        0.5804878055609756,
+        0.878378380777027,
+        0.6487804884878049
+      ],
+      "context_crop": "regions/SANSEN-0447_math_03.png",
+      "context_bbox_normalized": [
+        0.47013513753378383,
+        0.4804878055609756,
+        1,
+        0.7787804884878049
+      ],
+      "source_image": "slides/p0137_02_0447.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

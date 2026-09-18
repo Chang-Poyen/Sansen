@@ -1,0 +1,47 @@
+L ow-power sigma-delta AD converters 651
+2127
+A low-pass biquadratic filter
+using this technique, is
+shown in this slide.
+Each opamp is switched
+according to the switch of
+the next sampling capacitor.
+An extra switched opamp is
+added to provide the feed-
+back on phase 2.The mini-
+mum supply voltages for
+this realization is about
+1.5 V. In this older CMOS
+technology the V is about
+T
+0.9 V and the V is 1.2 V
+GS
+(for V −V #0.3 V). For
+GS T
+an input voltage of 0.6 V ,
+ptp
+the minimum supply voltage is about 1.5 V.
+The input switch on phase 2 is the main problem. It limits the input range to V minus V
+DD T
+or about 0.6 V.
+2128
+The low-pass filter charac-
+teristic is as expected. It
+shows a −40 dB/decade
+roll-off for frequencies
+beyond the bandwidth
+(which is 1.5 kHz), up to
+about half the clock fre-
+quency of 115 kHz.
+At low frequencies the
+gain is a factor of 2 or 6 dB.
+Let us observe the noise
+and distortion.
+2129
+The input noise is mainly the kT/C noise, typical for a switched-capacitor filter. It is therefore
+fairly high.
+The distortion comes up rather strongly once the input signal has become so large that the
+input switch cannot be fully switched on any more. This occurs at about 0.6 V input amplitude.
+ptp
+The resulting DR is close to 70 dB which is typical for switched-capacitor filters.
+No additional disadvantages are present as a result of the switched opamp approach.

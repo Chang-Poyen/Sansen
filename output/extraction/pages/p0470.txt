@@ -1,0 +1,50 @@
+Bandgap and current reference circuits 479
+has a strong temperature
+coefficient. Also, some ion-
+implanted resistors with
+high resistivity (1–2 kV/
+square) have high temper-
+ature coefficients, depending
+a bit on the annealing used.
+Base resistances are some-
+where in between, depend-
+ing on the technology used.
+Also the K∞ factor in
+the MOST current-voltage
+expression contains the
+mobility. It decreases to
+some extent with temper-
+ature. A typical value is
+K∞~T−1.5.
+1646
+For precise conversion of a
+bandgap reference voltage
+to a current, the circuit in
+this slide can be used. A
+bandgap voltage of 1.25 V is
+applied to the input.
+The same bandgap volt-
+age appears at the emitter of
+Q and across resistor R .
+2 1
+The current through Q is
+2
+therefore independent of
+temperature.
+The voltage at the emitter
+of Q and across resistor R
+3 2
+is PTAT, as it is a bandgap
+voltage minus a V . The
+BE
+current through Q is also PTAT.
+3
+Both currents are added and generate a voltage across R , which drives the output transistors.
+4
+Current feedback is applied through M5.
+Transistor M6 cancels the threshold voltage of the output devices. In this way, resistor R
+3
+does not play a role for the precision. Transistor M6 is driven by M4 and M7. Its Gate acts as
+a virtual ground for the voltage-to-current conversion.
+Transistors M6 and M8 are shown double to indicate that they are large and well matched
+by means of centroide layout, etc. (see Chapter 15).

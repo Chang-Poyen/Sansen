@@ -1,0 +1,176 @@
+{
+  "case_id": "SANSEN-2213",
+  "slide_id": "2213",
+  "chapter": 22,
+  "slide_number_in_chapter": 13,
+  "source": {
+    "pdf_page": 672,
+    "printed_page": 683
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0672_02_2213.jpg",
+      "pdf_page": 672,
+      "printed_page": 683,
+      "bbox_pt": [
+        91.521622,
+        360.69046099999997,
+        374.78981,
+        557.150452
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 672,
+      "printed_page": 683,
+      "bbox_pt": [
+        0,
+        356.7010000000001,
+        595,
+        606.8225000000001
+      ],
+      "text_raw": "Let us now apply the oscilla-\ntion condition to the combi-\nnation of a single-transistor\namplifier, which is capaci-\ntive, and a crystal, which is\ninductive.\nThe main question is,\nwhich circuit components to\nuse to set the pulling factor\nat sufficiently low values.\nClearly one single transis-\ntor can provide sufficient\ngain to carry out this task.\nFor a differential operation\nwe would need two transis-\ntors. Obviously if one trans-\nistor can do it, many more transistors can also do it. Many transistor oscillators now exist.\nThere is only one single-transistor oscillator, however.",
+      "text": "Let us now apply the oscillation condition to the combination of a single-transistor amplifier, which is capacitive, and a crystal, which is inductive. The main question is, which circuit components to use to set the pulling factor at sufficiently low values. Clearly one single transistor can provide sufficient gain to carry out this task. For a differential operation we would need two transistors. Obviously if one transistor can do it, many more transistors can also do it. Many transistor oscillators now exist. There is only one single-transistor oscillator, however."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us now apply the oscillation condition to the combination of a single-transistor amplifier, which is capacitive, and a crystal, which is inductive. The main question is, which circuit components to use to set the pulling factor at sufficiently low values. Clearly one single transistor can provide sufficient gain to carry out this task. For a differential operation we would need two transistors. Obviously if one transistor can do it, many more transistors can also do it. Many transistor oscillators now exist. There is only one single-transistor oscillator, however.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0672_02_2213.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027008023649,
+          0.07804878070121957,
+          0.38175675485641897,
+          0.13170731728658536
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459458956925686,
+          0.28780487884146344,
+          0.5439189138935813,
+          0.35121951298780485
+        ],
+        "confidence": 1,
+        "text": "• Oscillation principles"
+      },
+      {
+        "bbox": [
+          0.09447458186491162,
+          0.360225114312124,
+          0.29741731408306116,
+          0.43001878757157996
+        ],
+        "confidence": 0.5,
+        "text": "+ Crystals"
+      },
+      {
+        "bbox": [
+          0.09459459926801794,
+          0.4487804874796748,
+          0.6554054100788288,
+          0.5073170728455284
+        ],
+        "confidence": 1,
+        "text": "+ Single-transistor oscillator"
+      },
+      {
+        "bbox": [
+          0.09459458889358122,
+          0.5317073178658536,
+          0.5979729672719596,
+          0.5951219520121951
+        ],
+        "confidence": 1,
+        "text": "• MOST oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09797297751266883,
+          0.6146341460975611,
+          0.8243243288640202,
+          0.6731707314634148
+        ],
+        "confidence": 1,
+        "text": "• Bipolar-transistor oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09459459203265771,
+          0.6975609761382113,
+          0.45608107851914415,
+          0.7609756102845529
+        ],
+        "confidence": 1,
+        "text": "• Other oscillators"
+      },
+      {
+        "bbox": [
+          0.7263513534206081,
+          0.9414634140853658,
+          0.9391891912584459,
+          0.9853658531097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 2213"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0672_02_2213.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Clearly one single transistor can provide sufficient gain to carry out this task.",
+      "pdf_page": 672,
+      "printed_page": 683,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

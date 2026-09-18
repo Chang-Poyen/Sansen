@@ -1,0 +1,490 @@
+{
+  "case_id": "SANSEN-2316",
+  "slide_id": "2316",
+  "chapter": 23,
+  "slide_number_in_chapter": 16,
+  "source": {
+    "pdf_page": 707,
+    "printed_page": 719
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0707_01_2316.jpg",
+      "pdf_page": 707,
+      "printed_page": 719,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 707,
+      "printed_page": 719,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        441.40390860000025
+      ],
+      "text_raw": "The matching of the input\nimpedance to the source\nresistor R (usually 50 V)\nis not carried out with a\nresistor because it kills the\nNoise Figure. Normally,\ntwo inductances are used,\none in the Source L and\nS\none in the Gate L . The\nG\nlatter one L is usually the\nG\nbonding wire.\nBoth of them are used to\ntune out the input capaci-\ntance C , as indicated by\nGS\nthe equation number one.\nThis occurs only around\nthe operating frequency f\nin\n(=v /2p).\nin\nUnder this condition, the input impedance is purely resistive and equal to v L which is made\nT S\nequal to R. This is the design equation number two.\nFor a given transistor (C and v , which is g /2pC ) and a given frequency f , both L\nGS T m GS in S\nand L are now determined.\nG\nHow much is the gain, and the Noise Figure?",
+      "text": "The matching of the input impedance to the source resistor R (usually 50 V) is not carried out with a resistor because it kills the Noise Figure. Normally, two inductances are used, one in the Source L and S one in the Gate L . The G latter one L is usually the G bonding wire. Both of them are used to tune out the input capacitance C , as indicated by GS the equation number one. This occurs only around the operating frequency f in (=v /2p). in Under this condition, the input impedance is purely resistive and equal to v L which is made T S equal to R. This is the design equation number two. For a given transistor (C and v , which is g /2pC ) and a given frequency f , both L GS T m GS in S and L are now determined. G How much is the gain, and the Noise Figure?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The matching of the input impedance to the source resistor R (usually 50 V) is not carried out with a resistor because it kills the Noise Figure. Normally, two inductances are used, one in the Source L and S one in the Gate L . The G latter one L is usually the G bonding wire. Both of them are used to tune out the input capacitance C , as indicated by GS the equation number one. This occurs only around the operating frequency f in (=v /2p). in Under this condition, the input impedance is purely resistive and equal to v L which is made T S equal to R. This is the design equation number two. For a given transistor (C and v , which is g /2pC ) and a given frequency f , both L GS T m GS in S and L are now determined. G How much is the gain, and the Noise Figure?",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Inductive degeneration in Source and Gate",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0707_01_2316.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432155405416,
+          0.08292682990243905,
+          0.8310810783108109,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "Inductive degeneration in Source and Gate"
+      },
+      {
+        "bbox": [
+          0.1655405410135135,
+          0.24878048775609762,
+          0.2128378383108108,
+          0.3024390243414634
+        ],
+        "confidence": 0.5,
+        "text": "Zin"
+      },
+      {
+        "bbox": [
+          0.12162162141047297,
+          0.312195121402439,
+          0.14527027005912163,
+          0.3560975604268293
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.23310810839768337,
+          0.2975609755052264,
+          0.2736486489382239,
+          0.3512195120905923
+        ],
+        "confidence": 0.5,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.45945945874155414,
+          0.3024390236585366,
+          0.5304054046875001,
+          0.3609756090243903
+        ],
+        "confidence": 0.5,
+        "text": "Zin ="
+      },
+      {
+        "bbox": [
+          0.06418918888513514,
+          0.3414634141463415,
+          0.1013513510472973,
+          0.3902439019512196
+        ],
+        "confidence": 0.5,
+        "text": "Vs"
+      },
+      {
+        "bbox": [
+          0.06418918885135134,
+          0.40487804829268303,
+          0.10472972939189189,
+          0.453658536097561
+        ],
+        "confidence": 0.5,
+        "text": "Vn"
+      },
+      {
+        "bbox": [
+          0.577702702557915,
+          0.2780487806968641,
+          0.5979729728281853,
+          0.3170731709407666
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.641891892483108,
+          0.3073170739024391,
+          0.9391891897804053,
+          0.3658536592682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+jo (LotLs)+orLs"
+      },
+      {
+        "bbox": [
+          0.5405405396959458,
+          0.3560975611788617,
+          0.6418918910472972,
+          0.4097560977642276
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "jwCGs"
+      },
+      {
+        "bbox": [
+          0.27702702647804056,
+          0.4975609749390244,
+          0.334459458910473,
+          0.5512195115243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CGS"
+      },
+      {
+        "bbox": [
+          0.35135135115427923,
+          0.4975609762601625,
+          0.429054053856982,
+          0.5756097567479674
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ELs"
+      },
+      {
+        "bbox": [
+          0.05405405559845559,
+          0.6536585363763066,
+          0.2702702718146718,
+          0.741463414425087
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Lo+Ls="
+      },
+      {
+        "bbox": [
+          0.33783783800675676,
+          0.6390243908130082,
+          0.35472972989864865,
+          0.6731707322764229
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.2837837846959459,
+          0.7121951212682927,
+          0.41554054145270264,
+          0.780487804195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CGs win"
+      },
+      {
+        "bbox": [
+          0.0574324335867117,
+          0.7999999997967479,
+          0.19594594710022523,
+          0.8829268290650406
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 45="
+      },
+      {
+        "bbox": [
+          0.20270270418918918,
+          0.790243902487805,
+          0.3513513528378378,
+          0.863414634195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RCoS ="
+      },
+      {
+        "bbox": [
+          0.3445945941891892,
+          0.7853658542926829,
+          0.38513513472972977,
+          0.8585365859999999
+        ],
+        "confidence": 0.5,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.21283783766891892,
+          0.8682926823780488,
+          0.27364864847972975,
+          0.912195121402439
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.34459459497466216,
+          0.8682926835365853,
+          0.3885135138935811,
+          0.9170731713414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "@T"
+      },
+      {
+        "bbox": [
+          0.5096244759833644,
+          0.6366888661565437,
+          0.8452783738616504,
+          0.7048917176148374
+        ],
+        "confidence": 1,
+        "text": "Impedance Match :"
+      },
+      {
+        "bbox": [
+          0.5168918971283784,
+          0.7268292682926829,
+          0.9358108160472972,
+          0.7951219512195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Re (Zin) = Rin = R at in"
+      },
+      {
+        "bbox": [
+          0.5127057518113302,
+          0.7998643046055413,
+          0.7035104652925116,
+          0.8781844728913764
+        ],
+        "confidence": 0.5,
+        "text": "Im (Zin) = 0"
+      },
+      {
+        "bbox": [
+          0.7225640462118329,
+          0.9409576223480344,
+          0.9329248954376762,
+          0.9867837666827809
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2316"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For a given transistor (C and v , which is g /2pC ) and a given frequency f , both L GS T m GS in S and L are now determined.",
+      "pdf_page": 707,
+      "printed_page": 719,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0707_01_2316.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The matching of the input impedance to the source resistor R (usually 50 V) is not carried out with a resistor because it kills the Noise Figure.",
+        "pdf_page": 707,
+        "printed_page": 719,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Normally, two inductances are used, one in the Source L and S one in the Gate L .",
+        "pdf_page": 707,
+        "printed_page": 719,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This occurs only around the operating frequency f in (=v /2p). in Under this condition, the input impedance is purely resistive and equal to v L which is made T S equal to R.",
+      "pdf_page": 707,
+      "printed_page": 719,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "G How much is the gain, and the Noise Figure?",
+      "pdf_page": 707,
+      "printed_page": 719,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2316-M01",
+      "ocr_text": "Zin =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.45945945874155414,
+        0.3024390236585366,
+        0.5304054046875001,
+        0.3609756090243903
+      ],
+      "context_crop": "regions/SANSEN-2316_math_01.png",
+      "context_bbox_normalized": [
+        0.41945945874155416,
+        0.20243902365853658,
+        0.7604054046875001,
+        0.4909756090243903
+      ],
+      "source_image": "slides/p0707_01_2316.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2316-M02",
+      "ocr_text": "Lo+Ls=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.05405405559845559,
+        0.6536585363763066,
+        0.2702702718146718,
+        0.741463414425087
+      ],
+      "context_crop": "regions/SANSEN-2316_math_02.png",
+      "context_bbox_normalized": [
+        0.014054055598455586,
+        0.5536585363763066,
+        0.5002702718146718,
+        0.871463414425087
+      ],
+      "source_image": "slides/p0707_01_2316.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2316-M03",
+      "ocr_text": "2 45=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0574324335867117,
+        0.7999999997967479,
+        0.19594594710022523,
+        0.8829268290650406
+      ],
+      "context_crop": "regions/SANSEN-2316_math_03.png",
+      "context_bbox_normalized": [
+        0.017432433586711697,
+        0.6999999997967479,
+        0.42594594710022526,
+        0.93
+      ],
+      "source_image": "slides/p0707_01_2316.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2316-M04",
+      "ocr_text": "RCoS =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.20270270418918918,
+        0.790243902487805,
+        0.3513513528378378,
+        0.863414634195122
+      ],
+      "context_crop": "regions/SANSEN-2316_math_04.png",
+      "context_bbox_normalized": [
+        0.16270270418918917,
+        0.690243902487805,
+        0.5813513528378378,
+        0.93
+      ],
+      "source_image": "slides/p0707_01_2316.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2316-M05",
+      "ocr_text": "Re (Zin) = Rin = R at in",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5168918971283784,
+        0.7268292682926829,
+        0.9358108160472972,
+        0.7951219512195122
+      ],
+      "context_crop": "regions/SANSEN-2316_math_05.png",
+      "context_bbox_normalized": [
+        0.4768918971283784,
+        0.6268292682926829,
+        1,
+        0.9251219512195122
+      ],
+      "source_image": "slides/p0707_01_2316.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2316-M06",
+      "ocr_text": "Im (Zin) = 0",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5127057518113302,
+        0.7998643046055413,
+        0.7035104652925116,
+        0.8781844728913764
+      ],
+      "context_crop": "regions/SANSEN-2316_math_06.png",
+      "context_bbox_normalized": [
+        0.4727057518113302,
+        0.6998643046055413,
+        0.9335104652925116,
+        0.93
+      ],
+      "source_image": "slides/p0707_01_2316.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

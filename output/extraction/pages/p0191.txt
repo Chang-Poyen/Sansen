@@ -1,0 +1,50 @@
+Systematic design of operational amplifiers 195
+0627
+The expression of parameter
+f for both the weak inver-
+T
+sion and strong inversion
+regions is taken from
+Chapter 1. Clearly, it
+depends on inversion
+coefficient i and L.
+The expression of the
+GBW with only f as a
+T
+parameter, is the same as
+previously mentioned.
+For the values chosen
+before, we find that the max-
+imum GBW is about 1/16 of
+the f of the output device.
+T
+A two-stage Miller
+CMOS OTA can have a small GBW, provided we select proper values of L and i.
+The actual power consumption will depend on the capacitive load. The larger the load, the
+higher the power consumption!
+The optimum design plan has become fairly simple now, as shown next.
+0628
+The three design choices
+have to be selected first.
+We choose the actual
+channel length L . It can be
+6
+the minimum channel
+length or a somewhat larger
+value, depending on the gain
+required. However, this
+value of L sets the fre-
+6
+quency f .
+TH6
+The value of i is now
+easily calculated as f /f .
+TH TH6
+The capacitive load now
+determines the output tran-
+sistor width, and its current.
+All other values are now
+easily derived.
+0629
+A numerical example is worked out below.
+The values speak for themselves.

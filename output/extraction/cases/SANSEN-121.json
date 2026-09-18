@@ -1,0 +1,166 @@
+{
+  "case_id": "SANSEN-121",
+  "slide_id": "121",
+  "chapter": 12,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 330,
+    "printed_page": 337
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0330_01_121.jpg",
+      "pdf_page": 330,
+      "printed_page": 337,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 330,
+      "printed_page": 337,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        417.4875000000002
+      ],
+      "text_raw": "To deliver power to small\nresistors or large capacitors\ncannot be achieved with\nconventional output stages.\nThe output currents are too\nlarge. For this purpose we\nneed to bias the output\nstages in class AB. They\nhave small quiescent cur-\nrents but can deliver very\nlarge currents to the load.\nExamples are obviously\naudio amplifiers for loud-\nspeakers and headphones,\nbut also communications\napplications such as ADSL\nand XDSL. All of them require large output currents but very low distortion at the same time.\nAudio amplifiers are limited to little over 20 kHz but XDSL amplifiers extend now to 1–3 MHz\nand even higher in the future. The distortion must be less than −80 dB so as not to mix up\nchannels. This is a very severe specification indeed.",
+      "text": "To deliver power to small resistors or large capacitors cannot be achieved with conventional output stages. The output currents are too large. For this purpose we need to bias the output stages in class AB. They have small quiescent currents but can deliver very large currents to the load. Examples are obviously audio amplifiers for loudspeakers and headphones, but also communications applications such as ADSL and XDSL. All of them require large output currents but very low distortion at the same time. Audio amplifiers are limited to little over 20 kHz but XDSL amplifiers extend now to 1–3 MHz and even higher in the future. The distortion must be less than −80 dB so as not to mix up channels. This is a very severe specification indeed."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "To deliver power to small resistors or large capacitors cannot be achieved with conventional output stages. The output currents are too large. For this purpose we need to bias the output stages in class AB. They have small quiescent currents but can deliver very large currents to the load. Examples are obviously audio amplifiers for loudspeakers and headphones, but also communications applications such as ADSL and XDSL. All of them require large output currents but very low distortion at the same time. Audio amplifiers are limited to little over 20 kHz but XDSL amplifiers extend now to 1–3 MHz and even higher in the future. The distortion must be less than −80 dB so as not to mix up channels. This is a very severe specification indeed.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Slide 121",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0330_01_121.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946273226347,
+          0.2975609761585365,
+          0.9189189221917229,
+          0.38536585420731706
+        ],
+        "confidence": 1,
+        "text": "Class AB and driver amplifiers"
+      },
+      {
+        "bbox": [
+          0.06680662238112639,
+          0.5877113669072693,
+          0.11905276123734407,
+          0.8641938699143673
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GIG: SEDESI SRDIanG"
+      },
+      {
+        "bbox": [
+          0.3812269037412018,
+          0.5946818573380871,
+          0.6354205447851999,
+          0.6606918975282489
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.310810810472973,
+          0.72195122,
+          0.6756756753378379,
+          0.770731707804878
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.37837838087837833,
+          0.7902439022439024,
+          0.6283783808783784,
+          0.8390243900487805
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.347972976858108,
+          0.8731707314634147,
+          0.6587837876689189,
+          0.9024390241463416
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7263513544167185,
+          0.9512195124390244,
+          0.9290540442319303,
+          0.9853658539024389
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10-05 121"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0330_01_121.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Audio amplifiers are limited to little over 20 kHz but XDSL amplifiers extend now to 1–3 MHz and even higher in the future.",
+      "pdf_page": 330,
+      "printed_page": 337,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

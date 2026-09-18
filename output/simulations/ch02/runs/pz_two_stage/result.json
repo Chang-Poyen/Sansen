@@ -1,0 +1,27 @@
+{
+  "deck": "simulations/ch02/netlists/pz_two_stage.scs",
+  "sha256": "31c5844ba24310438111bd1f7c1ccccd3bf567b6030b0b8ffbcf148de2d3ebc4",
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "returncode": 0,
+    "output_dir": "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_two_stage/pz_two_stage.raw",
+    "output_files": [
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_two_stage/pz_two_stage.raw/ac.ac",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_two_stage/pz_two_stage.raw/logStatus",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_two_stage/pz_two_stage.raw/poles.pz",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_two_stage/pz_two_stage.raw/logFile"
+    ],
+    "remote_host": "101.6.65.209",
+    "timings": {
+      "upload_total": 1.721263707964681,
+      "remote_exec": 1.6359673329861835,
+      "download_total": 5.783924916002434,
+      "parse_results": 0.0028105410165153444,
+      "total": 9.145969833014533
+    },
+    "command": "HOSTNAME=`hostname 2>/dev/null || echo localhost`; export HOSTNAME && export LD_LIBRARY_PATH=\"${LD_LIBRARY_PATH:-}\" && mkdir -p /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/057b317e/pz_two_stage.raw && csh -c ':; /eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/057b317e/pz_two_stage.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/057b317e/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/057b317e/pz_two_stage.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus' & SPID=$!; echo $SPID > /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/057b317e/spectre.pid; wait $SPID",
+    "spectre_command": "/eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/057b317e/pz_two_stage.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/057b317e/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/057b317e/pz_two_stage.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus"
+  },
+  "wall_s": 9.147637128829956
+}

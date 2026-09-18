@@ -1,0 +1,198 @@
+{
+  "case_id": "SANSEN-1121",
+  "slide_id": "1121",
+  "chapter": 11,
+  "slide_number_in_chapter": 21,
+  "source": {
+    "pdf_page": 304,
+    "printed_page": 311
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0304_01_1121.jpg",
+      "pdf_page": 304,
+      "printed_page": 311,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 304,
+      "printed_page": 311,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        379.77000000000004
+      ],
+      "text_raw": "A much better behavior\nis achieved by taking an\nelectronic Zener. For this\npurpose, an amplifier is\nadded in parallel with the\nnMOST Zener diode fol-\nlowed by a source follower.\nThe transitions are now\nmuch better defined. This\nmeans that the error in\ntransconductance over the\ncommon-mode input range\nis smaller.",
+      "text": "A much better behavior is achieved by taking an electronic Zener. For this purpose, an amplifier is added in parallel with the nMOST Zener diode followed by a source follower. The transitions are now much better defined. This means that the error in transconductance over the common-mode input range is smaller."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A much better behavior is achieved by taking an electronic Zener. For this purpose, an amplifier is added in parallel with the nMOST Zener diode followed by a source follower. The transitions are now much better defined. This means that the error in transconductance over the common-mode input range is smaller.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Rtr amp. with electronic Zener",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0304_01_1121.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243210726352,
+          0.07804878128048776,
+          0.6249999967483109,
+          0.14146341542682928
+        ],
+        "confidence": 1,
+        "text": "Rtr amp. with electronic Zener"
+      },
+      {
+        "bbox": [
+          0.3344594598986486,
+          0.2439024396097561,
+          0.38513513557432427,
+          0.3024390249756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "8lg"
+      },
+      {
+        "bbox": [
+          0.5810810813175675,
+          0.25853658580487804,
+          0.611486486722973,
+          0.3024390248292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Iв"
+      },
+      {
+        "bbox": [
+          0.8851351347128377,
+          0.19024390195121954,
+          0.9425675671452701,
+          0.24878048731707314
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.2060810804054054,
+          0.41951219445121946,
+          0.2668918912162162,
+          0.47317073103658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mp"
+      },
+      {
+        "bbox": [
+          0.44256756735038616,
+          0.5024390239721255,
+          0.4864864862693051,
+          0.5609756093379792
+        ],
+        "confidence": 1,
+        "text": "Vz"
+      },
+      {
+        "bbox": [
+          0.8108108094172298,
+          0.8682926830487806,
+          0.9222972959037163,
+          0.9268292684146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss = 0"
+      },
+      {
+        "bbox": [
+          0.7263513535472972,
+          0.946341462987805,
+          0.9290540562499998,
+          0.9804878044512196
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 os 1121"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0304_01_1121.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For this purpose, an amplifier is added in parallel with the nMOST Zener diode followed by a source follower.",
+        "pdf_page": 304,
+        "printed_page": 311,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1121-M01",
+      "ocr_text": "Vss = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8108108094172298,
+        0.8682926830487806,
+        0.9222972959037163,
+        0.9268292684146342
+      ],
+      "context_crop": "regions/SANSEN-1121_math_01.png",
+      "context_bbox_normalized": [
+        0.7708108094172298,
+        0.7682926830487806,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0304_01_1121.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

@@ -1,0 +1,383 @@
+{
+  "case_id": "SANSEN-2129",
+  "slide_id": "2129",
+  "chapter": 21,
+  "slide_number_in_chapter": 29,
+  "source": {
+    "pdf_page": 640,
+    "printed_page": 651
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0641_01_2129.jpg",
+      "pdf_page": 641,
+      "printed_page": 652,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 640,
+      "printed_page": 651,
+      "bbox_pt": [
+        0,
+        606.82251,
+        595,
+        797
+      ],
+      "text_raw": "The input noise is mainly the kT/C noise, typical for a switched-capacitor filter. It is therefore\nfairly high.\nThe distortion comes up rather strongly once the input signal has become so large that the\ninput switch cannot be fully switched on any more. This occurs at about 0.6 V input amplitude.\nptp\nThe resulting DR is close to 70 dB which is typical for switched-capacitor filters.\nNo additional disadvantages are present as a result of the switched opamp approach.",
+      "text": "The input noise is mainly the kT/C noise, typical for a switched-capacitor filter. It is therefore fairly high. The distortion comes up rather strongly once the input signal has become so large that the input switch cannot be fully switched on any more. This occurs at about 0.6 V input amplitude. ptp The resulting DR is close to 70 dB which is typical for switched-capacitor filters. No additional disadvantages are present as a result of the switched opamp approach."
+    },
+    {
+      "pdf_page": 641,
+      "printed_page": 652,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        345.6896750000001
+      ],
+      "text_raw": "The total power con-\nsumption (at this 2.4 mm\nCMOS technology) is\n110 mW at 1.5 V supply\nvoltage. This is quite\nlow. Indeed, an additional\nadvantage of the switched-\nopamp approach is that the\nopamps are off 50% of the\ntime. The power consump-\ntion is therefore halved as\nwell, which is a considerable\nadvantage.\nEven more power can be\nconsumed when a class-AB\nstage is used at the output.\nThis will be shown later.",
+      "text": "The total power consumption (at this 2.4 mm CMOS technology) is 110 mW at 1.5 V supply voltage. This is quite low. Indeed, an additional advantage of the switchedopamp approach is that the opamps are off 50% of the time. The power consumption is therefore halved as well, which is a considerable advantage. Even more power can be consumed when a class-AB stage is used at the output. This will be shown later."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The input noise is mainly the kT/C noise, typical for a switched-capacitor filter. It is therefore fairly high. The distortion comes up rather strongly once the input signal has become so large that the input switch cannot be fully switched on any more. This occurs at about 0.6 V input amplitude. ptp The resulting DR is close to 70 dB which is typical for switched-capacitor filters. No additional disadvantages are present as a result of the switched opamp approach.\n\nThe total power consumption (at this 2.4 mm CMOS technology) is 110 mW at 1.5 V supply voltage. This is quite low. Indeed, an additional advantage of the switchedopamp approach is that the opamps are off 50% of the time. The power consumption is therefore halved as well, which is a considerable advantage. Even more power can be consumed when a class-AB stage is used at the output. This will be shown later.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "THD versus input signal swing",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0641_01_2129.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432690033777,
+          0.07804878134146342,
+          0.6182432458192567,
+          0.14634146426829264
+        ],
+        "confidence": 1,
+        "text": "THD versus input signal swing"
+      },
+      {
+        "bbox": [
+          0.11148648710585583,
+          0.21951219487804874,
+          0.148648649268018,
+          0.24390243878048778
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-10"
+      },
+      {
+        "bbox": [
+          0.10472972915540543,
+          0.29756097580487806,
+          0.16216216158783786,
+          0.34634146360975615
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-20-"
+      },
+      {
+        "bbox": [
+          0.07770270354729729,
+          0.3804878042926829,
+          0.16216216300675676,
+          0.44878048721951225
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "=-30-"
+      },
+      {
+        "bbox": [
+          0.1047297304617117,
+          0.46341463382113823,
+          0.14864864938063063,
+          0.4926829265040651
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'-40"
+      },
+      {
+        "bbox": [
+          0.07770270363175673,
+          0.5219512195121951,
+          0.15202702795608106,
+          0.5804878048780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "F -50-"
+      },
+      {
+        "bbox": [
+          0.11486486532939187,
+          0.6292682923780487,
+          0.15202702749155403,
+          0.6634146338414633
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-60-"
+      },
+      {
+        "bbox": [
+          0.10810810715090094,
+          0.7073170735772357,
+          0.16554053958333337,
+          0.7414634150406504
+        ],
+        "confidence": 0.5,
+        "text": "-70 +"
+      },
+      {
+        "bbox": [
+          0.1418918920608108,
+          0.7414634140650406,
+          0.17905405422297296,
+          0.7756097555284552
+        ],
+        "confidence": 1,
+        "text": "0.2"
+      },
+      {
+        "bbox": [
+          0.6148648652702702,
+          0.63902439,
+          0.6554054058108107,
+          0.6731707314634146
+        ],
+        "confidence": 1,
+        "text": "60"
+      },
+      {
+        "bbox": [
+          0.6587837842229729,
+          0.6390243899512196,
+          0.7027027031418919,
+          0.678048780195122
+        ],
+        "confidence": 1,
+        "text": "dB"
+      },
+      {
+        "bbox": [
+          0.290341477251036,
+          0.7445351412739312,
+          0.6015504084264741,
+          0.8213185168976807
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• Signal swing (Vptp]"
+      },
+      {
+        "bbox": [
+          0.6013513517229729,
+          0.7463414632195122,
+          0.6385135138851351,
+          0.775609755902439
+        ],
+        "confidence": 0.5,
+        "text": "0.8"
+      },
+      {
+        "bbox": [
+          0.07094594966216214,
+          0.8585365850174215,
+          0.5912162199324325,
+          0.9170731703832752
+        ],
+        "confidence": 0.5,
+        "text": "Input noise 140 uVRMS : DR > 70 dB"
+      },
+      {
+        "bbox": [
+          0.7128378396959458,
+          0.6341463422560975,
+          0.9155405423986486,
+          0.697560976402439
+        ],
+        "confidence": 1,
+        "text": "for < 0.6 Vptp"
+      },
+      {
+        "bbox": [
+          0.7533783788851351,
+          0.7463414631707318,
+          0.7939189194256757,
+          0.7853658534146343
+        ],
+        "confidence": 1,
+        "text": "1.0"
+      },
+      {
+        "bbox": [
+          0.7702702678490991,
+          0.8390243903252033,
+          0.9155405381193694,
+          0.8731707317886178
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Crols, --, JSSC"
+      },
+      {
+        "bbox": [
+          0.7702702729729728,
+          0.873170731300813,
+          0.932432435135135,
+          0.9073170727642277
+        ],
+        "confidence": 1,
+        "text": "Aug.94, 936-942"
+      },
+      {
+        "bbox": [
+          0.7229729758694213,
+          0.9414634147967479,
+          0.9358108008197684,
+          0.9707317074796747
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2129"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This will be shown later.",
+      "pdf_page": 641,
+      "printed_page": 652,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0641_01_2129.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is therefore fairly high.",
+      "pdf_page": 640,
+      "printed_page": 651,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "No additional disadvantages are present as a result of the switched opamp approach.",
+      "pdf_page": 640,
+      "printed_page": 651,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The power consumption is therefore halved as well, which is a considerable advantage.",
+      "pdf_page": 641,
+      "printed_page": 652,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2129-M01",
+      "ocr_text": "=-30-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07770270354729729,
+        0.3804878042926829,
+        0.16216216300675676,
+        0.44878048721951225
+      ],
+      "context_crop": "regions/SANSEN-2129_math_01.png",
+      "context_bbox_normalized": [
+        0.03770270354729729,
+        0.28048780429268294,
+        0.39216216300675677,
+        0.5787804872195123
+      ],
+      "source_image": "slides/p0641_01_2129.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2129-M02",
+      "ocr_text": "Input noise 140 uVRMS : DR > 70 dB",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.07094594966216214,
+        0.8585365850174215,
+        0.5912162199324325,
+        0.9170731703832752
+      ],
+      "context_crop": "regions/SANSEN-2129_math_02.png",
+      "context_bbox_normalized": [
+        0.030945949662162138,
+        0.7585365850174215,
+        0.8212162199324324,
+        0.93
+      ],
+      "source_image": "slides/p0641_01_2129.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2129-M03",
+      "ocr_text": "for < 0.6 Vptp",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.7128378396959458,
+        0.6341463422560975,
+        0.9155405423986486,
+        0.697560976402439
+      ],
+      "context_crop": "regions/SANSEN-2129_math_03.png",
+      "context_bbox_normalized": [
+        0.6728378396959458,
+        0.5341463422560975,
+        1,
+        0.827560976402439
+      ],
+      "source_image": "slides/p0641_01_2129.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

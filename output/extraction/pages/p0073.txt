@@ -1,0 +1,56 @@
+74 Chapter #2
+C acts as a short, As a result the output resistance gradually becomes R . When R is larger
+GS S S
+than 1/g , the output impedance must therefore rise, which causes the output impedance to be
+m
+inductive. Obviously, if R were equal to 1/g , the output impedance would be resistive up to
+S m
+very high frequencies.
+The output impedance is thus inductive because R is much larger than 1/g .
+S m
+0246
+Many other circuits are pos-
+sible to realize this high
+value of source resistor R .
+S
+A diode connected MOST
+can be taken, as in the cir-
+cuit in the middle. The
+source resistor then has the
+value R =1/g .
+S mp
+The preferred circuit is on
+the right. This is a feedback
+circuit, in which the drain of
+the pMOST is still shorted
+to its gate, over a nMOST
+source follower. As a result,
+the source resistor R still
+S
+equals 1/g .
+mp
+The advantage of the latter circuit is that the voltage drop across is lower than for the middle
+circuit. It is only V . This is obviously important for deep submicron CMOS circuits, where
+DSn
+the supply voltage is little over 1 V.
+0247
+A good example of a wide-
+band (differential) amplifier
+is shown in this slide. The
+capacitances from the
+output terminals to ground
+cause a reduction in band-
+width. Adding resistors in
+the bases of the top bipolar
+transistors T , causes their
+2
+output impedances to be
+inductive, with value L. As
+a result, peaking occurs,
+increasing the bandwidth.
+This bandwidth increase can
+thus be tuned by means of
+these base resistors.
+The gain itself is simply given by the ratio of the two transconductances. Its value is low,
+which is typical for wideband amplifiers, e.g. for the transimpedance input amplifier of an
+optical receiver.

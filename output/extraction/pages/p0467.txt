@@ -1,0 +1,47 @@
+476 Chapter #16
+with 7 ppm/°C over −50°C to 160°C consuming only 26 mW at 1 V supply voltage. A folded
+cascode is then used as an opamp.
+1639
+The BiCMOS opamp which
+operates at a supply voltage
+below 1 V is shown in this
+slide.
+It uses a pseudo-differ-
+ential input stage. This is
+easy, as the input voltages
+are connected to the V ’s
+BE
+of the bandgap. Actually,
+the input transistors form
+current mirrors with the
+diode connected npn tran-
+sistors of the bandgap refer-
+ence. The currents are now
+well defined!
+The outputs of the input
+transistors lead to the output through one or two current mirrors. It is therefore a single-stage
+opamp. The gain is moderate, but the dominant pole is high, as indicated by the GBW.
+The minimum supply voltage is V +V . For a V of about 0.5 V this is only about 0.9 V.
+GS DSsat T
+1640
+The startup circuit is added
+in this slide.
+When the supply voltage
+is turned up, the resistor
+does not yet carry any cur-
+rent, and turns on transistor
+M . This also turns on the
+S
+bandgap reference.
+The npn current mirror
+then starts conducting and
+turns on the pMOST cur-
+rent mirror, the Gates of
+which are always set at a
+biasing voltage V .The
+B
+resistor now carries a large
+current, such that the Gate
+of M is close to the supply voltage. Transistor M is turned off again. It does not influence the
+S S
+current balance in the bandgap reference.

@@ -1,0 +1,280 @@
+{
+  "case_id": "SANSEN-1113",
+  "slide_id": "1113",
+  "chapter": 11,
+  "slide_number_in_chapter": 13,
+  "source": {
+    "pdf_page": 300,
+    "printed_page": 307
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0300_01_1113.jpg",
+      "pdf_page": 300,
+      "printed_page": 307,
+      "bbox_pt": [
+        91.521622,
+        122.72634900000003,
+        374.78981,
+        319.18634
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 300,
+      "printed_page": 307,
+      "bbox_pt": [
+        0,
+        118.73680000000002,
+        595,
+        476.87890000000027
+      ],
+      "text_raw": "A circuit that is able to add\nthree times more current to\nthe existing current than\nalready present, is shown in\nthis slide.\nFor a common-mode (or\naverage) input voltage in the\nmiddle, both pairs are oper-\national. The transistor M\nrn\nis then off. Its gate voltage\nV is too high compared to\nrn\nthe common-mode input\nvoltage.\nWhen the input voltages\nincrease however, the\npMOSTs turn off, and all\ncurrent I flows through M to the 3× current mirror, which is then added to the current I\nB rn B\nof the nMOST current source. This current is thus multiplied by four. The nMOST transconduct-\nances are now doubled.\nThe actual voltage at which the current is taken from the input pMOSTs towards M is\nrn\nreference voltage V . The transistor M now forms a differential pair with both input pMOSTs.\nrn rn\nWhen the common-mode input voltage is exactly V , half the current I flows through the\nrn B\npMOSTs and the other half through the transistor M . When the average input voltage is\nrn\nhigher than V , all the current flows through M . The input pMOSTs are now completely\nrn rn\nshut off.\nNote that reference voltage V must be about 1.1 V lower than the supply voltage if V is 0.7 V.\nrn T",
+      "text": "A circuit that is able to add three times more current to the existing current than already present, is shown in this slide. For a common-mode (or average) input voltage in the middle, both pairs are operational. The transistor M rn is then off. Its gate voltage V is too high compared to rn the common-mode input voltage. When the input voltages increase however, the pMOSTs turn off, and all current I flows through M to the 3× current mirror, which is then added to the current I B rn B of the nMOST current source. This current is thus multiplied by four. The nMOST transconductances are now doubled. The actual voltage at which the current is taken from the input pMOSTs towards M is rn reference voltage V . The transistor M now forms a differential pair with both input pMOSTs. rn rn When the common-mode input voltage is exactly V , half the current I flows through the rn B pMOSTs and the other half through the transistor M . When the average input voltage is rn higher than V , all the current flows through M . The input pMOSTs are now completely rn rn shut off. Note that reference voltage V must be about 1.1 V lower than the supply voltage if V is 0.7 V. rn T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A circuit that is able to add three times more current to the existing current than already present, is shown in this slide. For a common-mode (or average) input voltage in the middle, both pairs are operational. The transistor M rn is then off. Its gate voltage V is too high compared to rn the common-mode input voltage. When the input voltages increase however, the pMOSTs turn off, and all current I flows through M to the 3× current mirror, which is then added to the current I B rn B of the nMOST current source. This current is thus multiplied by four. The nMOST transconductances are now doubled. The actual voltage at which the current is taken from the input pMOSTs towards M is rn reference voltage V . The transistor M now forms a differential pair with both input pMOSTs. rn rn When the common-mode input voltage is exactly V , half the current I flows through the rn B pMOSTs and the other half through the transistor M . When the average input voltage is rn higher than V , all the current flows through M . The input pMOSTs are now completely rn rn shut off. Note that reference voltage V must be about 1.1 V lower than the supply voltage if V is 0.7 V. rn T",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "3x Current mirror for nMOSTs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0300_01_1113.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432785050667,
+          0.07804878027439022,
+          0.6385135170396959,
+          0.13170731685975612
+        ],
+        "confidence": 1,
+        "text": "3x Current mirror for nMOSTs"
+      },
+      {
+        "bbox": [
+          0.8108108103716216,
+          0.22439024331707325,
+          0.8682432428040541,
+          0.28292682868292685
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.0810810806418919,
+          0.478048779902439,
+          0.13175675631756759,
+          0.5365853652682926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vrn"
+      },
+      {
+        "bbox": [
+          0.22972973027027027,
+          0.48292682921951213,
+          0.28378378432432433,
+          0.536585365804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Mrn"
+      },
+      {
+        "bbox": [
+          0.3851351360923423,
+          0.4536585377483833,
+          0.44256756852477475,
+          0.4926829256662508
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mn"
+      },
+      {
+        "bbox": [
+          0.37499999983108107,
+          0.541463414195122,
+          0.4054054052364865,
+          0.5853658532195123
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.47635135074324325,
+          0.46829268312195116,
+          0.537162161554054,
+          0.5170731709268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mр"
+      },
+      {
+        "bbox": [
+          0.30067567564189185,
+          0.8048780483902439,
+          0.337837837804054,
+          0.8439024386341463
+        ],
+        "confidence": 0.5,
+        "text": ": 3"
+      },
+      {
+        "bbox": [
+          0.5912162165057915,
+          0.7853658532752614,
+          0.6790540543436293,
+          0.8390243898606272
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 x 4"
+      },
+      {
+        "bbox": [
+          0.7972972978322073,
+          0.6829268289430894,
+          0.8614864870213964,
+          0.7317073167479674
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout+"
+      },
+      {
+        "bbox": [
+          0.7972972965793919,
+          0.7414634140243903,
+          0.8614864857685811,
+          0.7902439018292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yout\""
+      },
+      {
+        "bbox": [
+          0.7972972963175676,
+          0.829268292097561,
+          0.908783782804054,
+          0.8878048774634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss = 0"
+      },
+      {
+        "bbox": [
+          0.7297297318412161,
+          0.9414634141463415,
+          0.9324324345439189,
+          0.980487804390244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1113"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A circuit that is able to add three times more current to the existing current than already present, is shown in this slide.",
+      "pdf_page": 300,
+      "printed_page": 307,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its gate voltage V is too high compared to rn the common-mode input voltage.",
+      "pdf_page": 300,
+      "printed_page": 307,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0300_01_1113.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Its gate voltage V is too high compared to rn the common-mode input voltage.",
+        "pdf_page": 300,
+        "printed_page": 307,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "When the input voltages increase however, the pMOSTs turn off, and all current I flows through M to the 3× current mirror, which is then added to the current I B rn B of the nMOST current source.",
+        "pdf_page": 300,
+        "printed_page": 307,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "When the input voltages increase however, the pMOSTs turn off, and all current I flows through M to the 3× current mirror, which is then added to the current I B rn B of the nMOST current source.",
+      "pdf_page": 300,
+      "printed_page": 307,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This current is thus multiplied by four.",
+      "pdf_page": 300,
+      "printed_page": 307,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1113-M01",
+      "ocr_text": "Vss = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7972972963175676,
+        0.829268292097561,
+        0.908783782804054,
+        0.8878048774634147
+      ],
+      "context_crop": "regions/SANSEN-1113_math_01.png",
+      "context_bbox_normalized": [
+        0.7572972963175676,
+        0.729268292097561,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0300_01_1113.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

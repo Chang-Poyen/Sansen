@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "simulator": "Cadence Spectre 18.1.0.077",
+  "bridge_version": "0.8.0",
+  "bridge_commit": "74649fbc28af14f1a6853ae8586b43cdba3747a1",
+  "source_book": "Analog Design Essentials (Willy Sansen).pdf",
+  "scope": "Representative models across 20 derivation groups, not every original slide circuit. Explicit-element linear simulation plus educational MOS1 transistor validation; no foundry PDK or layout parasitics.",
+  "linear_ac_tests": 32,
+  "mos_ac_tests": 7,
+  "pz_tests": 5,
+  "transient_tests": 3,
+  "total_checks": 47,
+  "groups": 20,
+  "MOS_devices": 10,
+  "thresholds": {
+    "ac_max_pointwise_complex_relative_error": 2e-05,
+    "pz_relative_root_error": 2e-05,
+    "transient_max_absolute_normalized_output_error": 2e-05,
+    "MOS_region": "region==2 and abs(Vds)>abs(Vdsat)"
+  },
+  "max_linear_ac_error": 1.5919512964524337e-05,
+  "max_mos_ac_error": 4.691264921655804e-06,
+  "max_pz_error": 1.928360493889091e-06,
+  "max_transient_error": 4.943560928394319e-06,
+  "all_MOS_saturation_passed": true,
+  "runs": [
+    {
+      "name": "doublet_transient",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/doublet_transient.scs",
+      "deck_sha256": "532a1eba94dc4cf409441c3aa4e2fc76a06d5cc7117f20a14afe439d9070111c",
+      "spectre_log": "runs/doublet_transient/spectre.out",
+      "metadata": "runs/doublet_transient/result.json"
+    },
+    {
+      "name": "gmid_characterization",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/gmid_characterization.scs",
+      "deck_sha256": "ab368a8d29d34e0330e83a682fcd5ca86b927e3260d96d7856a4f6e4aad7c09e",
+      "spectre_log": "runs/gmid_characterization/spectre.out",
+      "metadata": "runs/gmid_characterization/result.json"
+    },
+    {
+      "name": "linear_suite",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/linear_suite.scs",
+      "deck_sha256": "d7d7d475e5cac673ecaecf681d6e6f898ffc9fe8ef1cc50496660161edacdde5",
+      "spectre_log": "runs/linear_suite/spectre.out",
+      "metadata": "runs/linear_suite/result.json"
+    },
+    {
+      "name": "mos_validation",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/mos_validation.scs",
+      "deck_sha256": "721b0c6907b647d466b2d9fc92638015c4e694513b76f89824ed44dc7f2262a4",
+      "spectre_log": "runs/mos_validation/spectre.out",
+      "metadata": "runs/mos_validation/result.json"
+    },
+    {
+      "name": "pz_follower_cancel",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/pz_follower_cancel.scs",
+      "deck_sha256": "197c64fe68ef86c060964f41dfc2a08ec415730ce97d0e3a73936322b369f836",
+      "spectre_log": "runs/pz_follower_cancel/spectre.out",
+      "metadata": "runs/pz_follower_cancel/result.json"
+    },
+    {
+      "name": "pz_follower_center",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/pz_follower_center.scs",
+      "deck_sha256": "7648a1829e3d0433258ee35eb6c89408b6d73c0842b637bcf08479a97f121522",
+      "spectre_log": "runs/pz_follower_center/spectre.out",
+      "metadata": "runs/pz_follower_center/result.json"
+    },
+    {
+      "name": "pz_gainboost_slow",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/pz_gainboost_slow.scs",
+      "deck_sha256": "a6c0dbd63b43a9a86992a19e85df234457c5131297817fae259cc9a0be076dcd",
+      "spectre_log": "runs/pz_gainboost_slow/spectre.out",
+      "metadata": "runs/pz_gainboost_slow/result.json"
+    },
+    {
+      "name": "pz_miller",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/pz_miller.scs",
+      "deck_sha256": "caa8fe7e874d2f323d6e522525a5a17559468584137f02679e94dd5d193c51d9",
+      "spectre_log": "runs/pz_miller/spectre.out",
+      "metadata": "runs/pz_miller/result.json"
+    },
+    {
+      "name": "pz_two_stage",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/pz_two_stage.scs",
+      "deck_sha256": "31c5844ba24310438111bd1f7c1ccccd3bf567b6030b0b8ffbcf148de2d3ebc4",
+      "spectre_log": "runs/pz_two_stage/spectre.out",
+      "metadata": "runs/pz_two_stage/result.json"
+    },
+    {
+      "name": "smoke",
+      "ok": true,
+      "returncode": 0,
+      "deck": "simulations/ch02/netlists/smoke.scs",
+      "deck_sha256": "a878897d822fe50a8b708376a08ce3d6ec740a61225bd37c3027d6a84bd1fd8f",
+      "spectre_log": "runs/smoke/spectre.out",
+      "metadata": "runs/smoke/result.json"
+    }
+  ],
+  "theory_source_hashes": {
+    "11-active-inductors.md": "6f26b6b1e142acf03d38731e3a02edfc5e620dc1d728438baf3edde9ee470280",
+    "19-doublet-settling.md": "99abc3897c6c979949fece9c5ae6d10844390439ae35135b715443d6fd8e773e",
+    "10-emitter-hf.md": "e5248239c59632c5401f921047b7088141ad2ae898c2e7dac7cb7968b00a7c14",
+    "18-gain-boosting.md": "1d63f62f048b9450878123e1f5b9097914d3580ad6cc0c30e02a9a7b4ad048a7",
+    "07-inverter-ac.md": "c73ee3bd0b564092be7a5d7535feef60061f62b4658b2498b9746a7f9632bc47",
+    "06-inverter-dc.md": "478330287df105f8d0694c61af012fed100c2a920153d976dfc96274aa96f04e",
+    "04-degeneration.md": "25429ce8c83427b75afb4e10eb42e216691487ab20e0a9c8a456a9bd63265900",
+    "09-followers-hf.md": "34c7a8757f79205ac1976b0b99dca05bc394f6d5fe0ee47e526aaf92378d6780",
+    "05-diode-loads.md": "64b3c03ec06f8c534e4bda192aa7fb05292b11a2ce926db34fb332d7771244a5",
+    "03-miller.md": "54312f9444e600857c3b58ef46b19956f028e6cb0c33b2a048ebd7900d234c19",
+    "12-common-gate.md": "ae2e5f20c7ac9fbb574abcbe837f1ce40b760f9d1ff1b02992787f6aa8419b73",
+    "20-port-summary.md": "f64509eb2a3c84a57fdccfaa3e28f1561918105271852bdca31fd9f29093e4f4",
+    "02-single-pole.md": "0e04a1f04d5d5d95cd931f1c549291fc73de55dbd31f06feedcf7358b5f4f28b",
+    "16-telescopic-folded.md": "993e83b1c9ea30a71fc67aa88dda4a0dd71db3208af316cfe7e82448beefc541",
+    "13-cascode.md": "7f2789db27fecf4b8521a6ec0a7fe86dc6f41b791beca02fe2b871def4e44118",
+    "01-intrinsic-gain.md": "ee82cd94a6fccd22b3a64d5459875289f1e75149a4c93c806b79dafb3a6bacad",
+    "08-followers-dc.md": "319ba17a59f5f48d484b82b32b26d43f0b21b3d490eccf4742eeb4663a4ebbf6",
+    "14-cascode-miller.md": "e4d9d20155e5c7a087b34d93ff88fc47bb49f796f8afcfb1d901224d6d29ddf9",
+    "17-cascade.md": "60d266fa773fb02c518a10c631b78e323530069b908ce54cf6cfc56405d6689f",
+    "00-conventions.md": "f1899db7d29060cabd2bd9cca7fb2c06bc62ae37ecfb9ccc971fd4610a7e3f7f",
+    "15-cascode-middle-cap.md": "22f0d01accbc938c696e16f26f137b3237c6c7338bf0e74773e7d28108ea3ebc"
+  }
+}

@@ -1,0 +1,59 @@
+Bandgap and current reference circuits 461
+169
+Now let us build a voltage
+reference with this diode.
+We need to generate a cir-
+cuit which provides a volt-
+age V which is PTAT.
+C
+Such a circuit is shown in
+this slide. It consists of a
+bipolar transistor current
+mirror. Transistor Q2 is
+much larger (by a factor r)
+than transistor Q1 such that
+its V is smaller. This
+BE
+difference in voltage DV is
+BE
+taken up by a resistor R .
+2
+The equations show that
+the voltage across R is
+2
+PTAT. The current through it is also PTAT. Obviously, this is only true if transistor R has a
+2
+negligible temperature coefficient.
+Note also that both transistor currents I are made equal.
+C
+For example, if r=10, then DV is about 60 mV. For a resistor of R =2 kV, the currents
+BE 2
+are 30 mA.
+Clearly this current must fall in the region where the exponential current voltage relationship
+is precisely exponential, for both transistors. The current density of the smaller transistor Q1 is
+much higher, which may cause some mismatch problems.
+1610
+Remember that both tran-
+sistor currents I must be
+C
+made equal. This can be
+achieved by another current
+mirror on top. Moreover,
+this pnp current mirror can
+be used to add another cur-
+rent ratio n.
+The result is that now
+both DV and the currents
+BE
+are PTAT, with a factor nr.
+The added voltage V is
+C
+then easily found to be
+PTAT and proportional to
+a resistor ratio, which can
+now be accurately attained.
+The reference voltage is now the sum of both. It can be trimmed by adjusting resistor R . The
+1
+resulting value will be around 1.2 V.
+Two more specifications are important in such a bandgap reference. The first one is the output
+impedance. It indicates if current can be pulled out from the reference. For this purpose an

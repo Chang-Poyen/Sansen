@@ -1,0 +1,55 @@
+Noise performance of elementary transistor stages 127
+0420
+As an exercise, let us try to
+calculate the equivalent
+input noise voltage of a
+MOST biased at 65 mA.
+Only thermal noise is taken
+into account and the layout
+is such that all Gate and
+Bulk resistances can be
+ignored. The expression is
+repeated in this slide. A
+transistor with 65 mA cur-
+rent, generates a transcon-
+ductance of g =0.65 mS
+m
+(if V −V =0.2 V is
+GS T
+chosen). The noise resis-
+tance 2/3/g is then about
+m
+1 kV. The equivalent input noise voltage is therefore 4 nV /√Hz.
+RMS
+0421
+A MOST device also exhib-
+its a lot of 1/f noise. This is
+due to the surface states.
+The silicon has a crystal
+structure, which is cut off at
+the surface, where Gate
+oxide is grown on top. This
+causes surface states which
+contribute to the 1/ noise.
+Several expressions are in
+use. The one with C 2 in
+ox
+the denominator has the
+advantage, that coefficient
+KF is nearly independent
+F
+of the technology. Actually,
+all technology effects are
+represented by the C 2. If we use a KF with C only, then we lose this advantage.
+ox ox
+Obviously, the transistor size WL (not W/L) is also included. A MOST with a thin oxide or
+a small channel length, and a large WL product shows little 1/f noise.
+We also note that a p-JFET is the transistor with lowest 1/f noise. A pMOST is about ten
+times worse. A nMOST is by far the worst transistor for 1/f noise. It is 30–60 times larger than
+for a pMOST of the same size. The expression gives a factor of 40, but there is a large spreading
+on it!
+It is for this reason that some audio preamplifiers still want JFETs at their inputs. This also
+applies to some radiation detection circuitry.
+Finally note that the equivalent input 1/f noise voltage does not depend on the DC biasing
+current. The output current depends on the DC current, but not the equivalent input voltage. A
+small current dependency may sometimes be detected. This is usually negligible.

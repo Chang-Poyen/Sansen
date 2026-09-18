@@ -1,0 +1,216 @@
+{
+  "case_id": "SANSEN-0720",
+  "slide_id": "0720",
+  "chapter": 7,
+  "slide_number_in_chapter": 20,
+  "source": {
+    "pdf_page": 215,
+    "printed_page": 220
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0215_02_0720.jpg",
+      "pdf_page": 215,
+      "printed_page": 220,
+      "bbox_pt": [
+        91.52162,
+        412.20947,
+        374.54222,
+        608.71931
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 215,
+      "printed_page": 220,
+      "bbox_pt": [
+        0,
+        408.2198953500001,
+        595,
+        642.6964399999999
+      ],
+      "text_raw": "An earlier realization of\nsuch a symmetrical OTA is\nshown in this slide. It is a\nbipolar realization.\nThe current mirrors are\nquite elaborate, to obtain\nprecise current mirroring\nand good matching.\nThe specifications obvi-\nously depend on the actual\nDC currents flowing.\nActually, this circuit block\ncan be tuned to any value of\nGBW by modifying the cur-\nrent through Q3. The non-\ndominant pole tracks the\nGBW.",
+      "text": "An earlier realization of such a symmetrical OTA is shown in this slide. It is a bipolar realization. The current mirrors are quite elaborate, to obtain precise current mirroring and good matching. The specifications obviously depend on the actual DC currents flowing. Actually, this circuit block can be tuned to any value of GBW by modifying the current through Q3. The nondominant pole tracks the GBW."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An earlier realization of such a symmetrical OTA is shown in this slide. It is a bipolar realization. The current mirrors are quite elaborate, to obtain precise current mirroring and good matching. The specifications obviously depend on the actual DC currents flowing. Actually, this circuit block can be tuned to any value of GBW by modifying the current through Q3. The nondominant pole tracks the GBW.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Bipolar transistor symmetrical amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0215_02_0720.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.074576275677966,
+          0.08292682896341463,
+          0.7932203434745762,
+          0.14146341432926834
+        ],
+        "confidence": 1,
+        "text": "Bipolar transistor symmetrical amplifier"
+      },
+      {
+        "bbox": [
+          0.2271186443220339,
+          0.3560975607317073,
+          0.2576271188983051,
+          0.39512195097560965
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "*"
+      },
+      {
+        "bbox": [
+          0.7252546142839096,
+          0.32604458062471875,
+          0.8442369099506204,
+          0.3812724929693023
+        ],
+        "confidence": 0.5,
+        "text": "CA3080"
+      },
+      {
+        "bbox": [
+          0.09491525411622276,
+          0.4878048783623694,
+          0.16610169479418885,
+          0.5317073173867596
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "HEEATNS"
+      },
+      {
+        "bbox": [
+          0.09830508517890771,
+          0.6341463412466124,
+          0.17627118687382295,
+          0.6829268290514905
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "sumenE"
+      },
+      {
+        "bbox": [
+          0.7219682714233714,
+          0.48249251689095374,
+          0.8610825737191208,
+          0.5272635810910061
+        ],
+        "confidence": 0.5,
+        "text": "0.12 MHz"
+      },
+      {
+        "bbox": [
+          0.7322033906101695,
+          0.5560975615121951,
+          0.8508474584067796,
+          0.609756098097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1.2 V/uS"
+      },
+      {
+        "bbox": [
+          0.7220338997627118,
+          0.6292682922439023,
+          0.8677966116271186,
+          0.6926829263902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "l3 = 10 MA"
+      },
+      {
+        "bbox": [
+          0.7186440699661016,
+          0.941463414390244,
+          0.9355932225084745,
+          0.9853658534146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10€s 0720"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "An earlier realization of such a symmetrical OTA is shown in this slide.",
+      "pdf_page": 215,
+      "printed_page": 220,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0215_02_0720.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The specifications obviously depend on the actual DC currents flowing.",
+      "pdf_page": 215,
+      "printed_page": 220,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0720-M01",
+      "ocr_text": "l3 = 10 MA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7220338997627118,
+        0.6292682922439023,
+        0.8677966116271186,
+        0.6926829263902439
+      ],
+      "context_crop": "regions/SANSEN-0720_math_01.png",
+      "context_bbox_normalized": [
+        0.6820338997627118,
+        0.5292682922439024,
+        1,
+        0.8226829263902439
+      ],
+      "source_image": "slides/p0215_02_0720.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

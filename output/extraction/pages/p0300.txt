@@ -1,0 +1,57 @@
+Rail-to-rail input and output amplifiers 307
+1113
+A circuit that is able to add
+three times more current to
+the existing current than
+already present, is shown in
+this slide.
+For a common-mode (or
+average) input voltage in the
+middle, both pairs are oper-
+ational. The transistor M
+rn
+is then off. Its gate voltage
+V is too high compared to
+rn
+the common-mode input
+voltage.
+When the input voltages
+increase however, the
+pMOSTs turn off, and all
+current I flows through M to the 3× current mirror, which is then added to the current I
+B rn B
+of the nMOST current source. This current is thus multiplied by four. The nMOST transconduct-
+ances are now doubled.
+The actual voltage at which the current is taken from the input pMOSTs towards M is
+rn
+reference voltage V . The transistor M now forms a differential pair with both input pMOSTs.
+rn rn
+When the common-mode input voltage is exactly V , half the current I flows through the
+rn B
+pMOSTs and the other half through the transistor M . When the average input voltage is
+rn
+higher than V , all the current flows through M . The input pMOSTs are now completely
+rn rn
+shut off.
+Note that reference voltage V must be about 1.1 V lower than the supply voltage if V is 0.7 V.
+rn T
+1114
+The same arrangement can
+be made for the nMOSTs.
+Another reference voltage
+V is now added, which is
+rp
+about 1.1 V.
+When the average input
+voltage is less than 1.1 V, all
+current I of the nMOST
+B
+current source is pulled
+through transistor M . It
+rp
+is then multiplied by three
+and added to the current
+already flowing through the
+pMOSTs. The current is
+multiplied by four and the
+transconductance by two (if they operate in strong inversion).

@@ -1,0 +1,31 @@
+Switched-capacitor filters 515
+1760
+Because the GBW is always
+larger than the clock fre-
+quency f , the noise is folded
+c
+back towards the lowest fre-
+quency band. Actually, this
+is a heavy case of aliasing.
+The total integrated noise
+of an opamp with load
+capacitance C (or compen-
+sation capacitance for a
+two-stage opamp) is close to
+kT/C (see Chapter 4).
+The integrated input
+noise voltage power has to
+be multiplied by the ratio of
+the GBW to the clock fre-
+quency as shown in this slide. For a GBW which is about 3 times f , this gives a multiplication
+c
+factor of 6 for the noise power or about 2.5 for the noise voltage.
+For less noise, larger capacitors must be used. Also, minimum values of GBW must be used.
+1761
+Now that switched-capaci-
+tor techniques have been
+discussed, switched-current
+circuits are added for sake
+of comparison. They use
+currents rather than
+voltages.

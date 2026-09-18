@@ -1,0 +1,60 @@
+102 Chapter #3
+0325
+For a differential pair with
+bipolar transistors, a similar
+reasoning can be applied.
+For a large input signal (as
+for a digital input drive) all
+current flows in one transis-
+tor and the other ones is off.
+The maximum output volt-
+age is reached, i.e. R I . The
+L B
+differential pair therefore
+behaves as a limiter, when
+overdriven.
+In this case we have to
+use the full current expres-
+sion. Taking into account
+that
+– the input voltage is applied between both v ’s and that
+BE
+– the sum of the currents is still I ,
+B
+we can fairly easily find the differential output current i , which is twice the Collector current
+Od
+in one transistor. This expression consists of exponentials. It is clear that this differential output
+current i is very nonlinear, as shown next.
+Od
+0326
+The differential output cur-
+rent i is plotted for both a
+Od
+MOST differential pair
+(with V −V =0.2 V) and
+GS T
+for a bipolar differential
+pair.
+For a MOST differential
+pair, it is clear that this
+curve is only valid up until
+v =√2(V −V ) which is
+Id GS T
+about 0.283 V in this exam-
+ple. For larger values of v ,
+Id
+i =I . For small values of
+Od B
+the input voltage, the slope
+is the transconductance g .
+m
+For a bipolar differential
+pair, the effect of the exponentials is clearly seen. The differential output current i reaches its
+Od
+final value within 1% after about 6 times kT/q or 0.14 V.
+If we consider a MOST in moderate inversion with a V −V =52 mV, as for a bipolar
+GS T
+transistor, then the transconductances would be the same. The differential output current in the
+MOST pair then reaches its maximum value I already at √2×52#70 mV, which is 70 mV
+B
+earlier than the −1% point of a bipolar differential pair!

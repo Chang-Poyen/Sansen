@@ -1,0 +1,363 @@
+{
+  "case_id": "SANSEN-1747",
+  "slide_id": "1747",
+  "chapter": 17,
+  "slide_number_in_chapter": 47,
+  "source": {
+    "pdf_page": 498,
+    "printed_page": 508
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0498_02_1747.jpg",
+      "pdf_page": 498,
+      "printed_page": 508,
+      "bbox_pt": [
+        91.521622,
+        347.885437,
+        374.78981,
+        544.3454280000001
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 498,
+      "printed_page": 508,
+      "bbox_pt": [
+        0,
+        343.896,
+        595,
+        797
+      ],
+      "text_raw": "Let us first investigate\nsome variations on the\nintegrators.\nSwitches are now also\nconnected to the output.\nThey are actually the input\nswitches of the next stage.\nThey determine on which\nswitch the output becomes\navailable. The delay through\nthe inverter is obviously\naffected by them.\nAll the integrators in this\nslide have only a single\ncapacitance in the feedback\nloop. This is why they are\ncalled ‘‘loss-less’’. They do not have a resister in the feedback loop which would ‘‘dampen’’ the\nintegration.\nThe top integrator with output on phase 1, has been discussed before. It has a non-inverting\ngain C /C , and half a clock delay.\n1 2\nHowever, when the output is sampled on phase 2, another half cock delay is added. The gain\nis again C /C , but the delay is now a full clock period.\n1 2\nIn the bottom integrator, the two switches at the input have been interchanged. In clock phase\n2, the well-known inverting amplifier configuration appears. It has gain C /C and no delay.\n1 2\nTaking the output on phase 1, adds half a clock period delay.",
+      "text": "Let us first investigate some variations on the integrators. Switches are now also connected to the output. They are actually the input switches of the next stage. They determine on which switch the output becomes available. The delay through the inverter is obviously affected by them. All the integrators in this slide have only a single capacitance in the feedback loop. This is why they are called ‘‘loss-less’’. They do not have a resister in the feedback loop which would ‘‘dampen’’ the integration. The top integrator with output on phase 1, has been discussed before. It has a non-inverting gain C /C , and half a clock delay. 1 2 However, when the output is sampled on phase 2, another half cock delay is added. The gain is again C /C , but the delay is now a full clock period. 1 2 In the bottom integrator, the two switches at the input have been interchanged. In clock phase 2, the well-known inverting amplifier configuration appears. It has gain C /C and no delay. 1 2 Taking the output on phase 1, adds half a clock period delay."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us first investigate some variations on the integrators. Switches are now also connected to the output. They are actually the input switches of the next stage. They determine on which switch the output becomes available. The delay through the inverter is obviously affected by them. All the integrators in this slide have only a single capacitance in the feedback loop. This is why they are called ‘‘loss-less’’. They do not have a resister in the feedback loop which would ‘‘dampen’’ the integration. The top integrator with output on phase 1, has been discussed before. It has a non-inverting gain C /C , and half a clock delay. 1 2 However, when the output is sampled on phase 2, another half cock delay is added. The gain is again C /C , but the delay is now a full clock period. 1 2 In the bottom integrator, the two switches at the input have been interchanged. In clock phase 2, the well-known inverting amplifier configuration appears. It has gain C /C and no delay. 1 2 Taking the output on phase 1, adds half a clock period delay.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Loss-less Integrators",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0498_02_1747.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432739301797,
+          0.0829268290243903,
+          0.4425675706362613,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Loss-less Integrators"
+      },
+      {
+        "bbox": [
+          0.7804054058445946,
+          0.21463414643902445,
+          0.8243243247635135,
+          0.27317073180487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C,"
+      },
+      {
+        "bbox": [
+          0.668918917820946,
+          0.258536584695122,
+          0.7702702691722974,
+          0.3121951212804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H(z) ="
+      },
+      {
+        "bbox": [
+          0.7837837823902027,
+          0.2926829259146342,
+          0.9290540526604731,
+          0.3658536576219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C, 1-71"
+      },
+      {
+        "bbox": [
+          0.864864864667793,
+          0.40000000044715445,
+          0.9290540538569821,
+          0.45365853703252035
+        ],
+        "confidence": 0.5,
+        "text": "7-1/2"
+      },
+      {
+        "bbox": [
+          0.6689189180461712,
+          0.44878048739837406,
+          0.7804054045326577,
+          0.49756097520325204
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H(z) ="
+      },
+      {
+        "bbox": [
+          0.8412162168074323,
+          0.47804877969512205,
+          0.9290540546452701,
+          0.5414634138414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1-z1"
+      },
+      {
+        "bbox": [
+          0.6554054034206082,
+          0.5902439030487804,
+          0.8141891872043919,
+          0.6682926835365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H(2)= -"
+      },
+      {
+        "bbox": [
+          0.8648648645945946,
+          0.5756097566829268,
+          0.9324324321621621,
+          0.6341463420487804
+        ],
+        "confidence": 0.5,
+        "text": "7-1/2"
+      },
+      {
+        "bbox": [
+          0.7871621608445946,
+          0.6585365847317074,
+          0.925675674358108,
+          0.7219512188780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "G, 1-2"
+      },
+      {
+        "bbox": [
+          0.8682432434121621,
+          0.7658536589756099,
+          0.8918918920608108,
+          0.809756098
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6513712209007181,
+          0.7970731732760239,
+          0.9312201960049727,
+          0.9160401737256
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "HQ) = C, 1-z1"
+      },
+      {
+        "bbox": [
+          0.719594593445946,
+          0.9512195125365853,
+          0.9358108096621622,
+          0.985365854
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 N1747"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "They determine on which switch the output becomes available.",
+      "pdf_page": 498,
+      "printed_page": 508,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0498_02_1747.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Switches are now also connected to the output.",
+        "pdf_page": 498,
+        "printed_page": 508,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It has a non-inverting gain C /C , and half a clock delay. 1 2 However, when the output is sampled on phase 2, another half cock delay is added.",
+      "pdf_page": 498,
+      "printed_page": 508,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain is again C /C , but the delay is now a full clock period. 1 2 In the bottom integrator, the two switches at the input have been interchanged.",
+      "pdf_page": 498,
+      "printed_page": 508,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It has gain C /C and no delay. 1 2 Taking the output on phase 1, adds half a clock period delay.",
+      "pdf_page": 498,
+      "printed_page": 508,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The top integrator with output on phase 1, has been discussed before.",
+      "pdf_page": 498,
+      "printed_page": 508,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It has a non-inverting gain C /C , and half a clock delay. 1 2 However, when the output is sampled on phase 2, another half cock delay is added.",
+      "pdf_page": 498,
+      "printed_page": 508,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In clock phase 2, the well-known inverting amplifier configuration appears.",
+      "pdf_page": 498,
+      "printed_page": 508,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It has gain C /C and no delay. 1 2 Taking the output on phase 1, adds half a clock period delay.",
+      "pdf_page": 498,
+      "printed_page": 508,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1747-M01",
+      "ocr_text": "H(z) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.668918917820946,
+        0.258536584695122,
+        0.7702702691722974,
+        0.3121951212804879
+      ],
+      "context_crop": "regions/SANSEN-1747_math_01.png",
+      "context_bbox_normalized": [
+        0.628918917820946,
+        0.15853658469512197,
+        1,
+        0.4421951212804879
+      ],
+      "source_image": "slides/p0498_02_1747.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1747-M02",
+      "ocr_text": "H(z) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6689189180461712,
+        0.44878048739837406,
+        0.7804054045326577,
+        0.49756097520325204
+      ],
+      "context_crop": "regions/SANSEN-1747_math_02.png",
+      "context_bbox_normalized": [
+        0.6289189180461712,
+        0.3487804873983741,
+        1,
+        0.627560975203252
+      ],
+      "source_image": "slides/p0498_02_1747.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1747-M03",
+      "ocr_text": "H(2)= -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6554054034206082,
+        0.5902439030487804,
+        0.8141891872043919,
+        0.6682926835365853
+      ],
+      "context_crop": "regions/SANSEN-1747_math_03.png",
+      "context_bbox_normalized": [
+        0.6154054034206081,
+        0.4902439030487804,
+        1,
+        0.7982926835365853
+      ],
+      "source_image": "slides/p0498_02_1747.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1747-M04",
+      "ocr_text": "HQ) = C, 1-z1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6513712209007181,
+        0.7970731732760239,
+        0.9312201960049727,
+        0.9160401737256
+      ],
+      "context_crop": "regions/SANSEN-1747_math_04.png",
+      "context_bbox_normalized": [
+        0.611371220900718,
+        0.6970731732760239,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0498_02_1747.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

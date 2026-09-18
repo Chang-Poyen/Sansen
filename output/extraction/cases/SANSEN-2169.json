@@ -1,0 +1,363 @@
+{
+  "case_id": "SANSEN-2169",
+  "slide_id": "2169",
+  "chapter": 21,
+  "slide_number_in_chapter": 69,
+  "source": {
+    "pdf_page": 661,
+    "printed_page": 672
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0661_01_2169.jpg",
+      "pdf_page": 661,
+      "printed_page": 672,
+      "bbox_pt": [
+        91.52162,
+        122.52697,
+        374.54215999999997,
+        318.93713
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 661,
+      "printed_page": 672,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        391.67811000000006
+      ],
+      "text_raw": "First of all, the gain itself\ncan be relaxed from 60 to\n30 dB, which is easily\nachieved, even in nanometer\nCMOS at 1 V supply\nvoltage.\nMoreover, the effect of the\ndistortion is much smaller.\nThe gain of each opamp\nis modeled as given by\nA=A (1+a v +a v 2)\n0 1 o 2 o\nin which the a represents\n1\nthe second-order non-lin-\nearity and a the third-\n2\norder one.\nIt is shown in this slide that for equal nonlinearities in the opamps, full feedforward considerably\nreduces the distortion at the output. Only a modest gain of 40 dB is used. This is not sufficient\nfor a conventional sigma-delta converter, but more than sufficient for the full-feedforward one.",
+      "text": "First of all, the gain itself can be relaxed from 60 to 30 dB, which is easily achieved, even in nanometer CMOS at 1 V supply voltage. Moreover, the effect of the distortion is much smaller. The gain of each opamp is modeled as given by A=A (1+a v +a v 2) 0 1 o 2 o in which the a represents 1 the second-order non-linearity and a the third- 2 order one. It is shown in this slide that for equal nonlinearities in the opamps, full feedforward considerably reduces the distortion at the output. Only a modest gain of 40 dB is used. This is not sufficient for a conventional sigma-delta converter, but more than sufficient for the full-feedforward one."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "First of all, the gain itself can be relaxed from 60 to 30 dB, which is easily achieved, even in nanometer CMOS at 1 V supply voltage. Moreover, the effect of the distortion is much smaller. The gain of each opamp is modeled as given by A=A (1+a v +a v 2) 0 1 o 2 o in which the a represents 1 the second-order non-linearity and a the third- 2 order one. It is shown in this slide that for equal nonlinearities in the opamps, full feedforward considerably reduces the distortion at the output. Only a modest gain of 40 dB is used. This is not sufficient for a conventional sigma-delta converter, but more than sufficient for the full-feedforward one.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Performance comparison",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0661_01_2169.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627299435024,
+          0.08292682975609755,
+          0.5220339001129943,
+          0.14146341512195115
+        ],
+        "confidence": 1,
+        "text": "Performance comparison"
+      },
+      {
+        "bbox": [
+          0.06779660514124312,
+          0.1951219519512195,
+          0.40338982548022617,
+          0.23902439097560968
+        ],
+        "confidence": 1,
+        "text": "+ 4th-urder conventional"
+      },
+      {
+        "bbox": [
+          0.49830508857627115,
+          0.19024390209756104,
+          0.8813559360338983,
+          0.2341463411219512
+        ],
+        "confidence": 1,
+        "text": "• 4th-order full feedforward"
+      },
+      {
+        "bbox": [
+          0.09429705339131207,
+          0.23082226715805143,
+          0.21417752276200858,
+          0.2862509023598545
+        ],
+        "confidence": 1,
+        "text": "topology"
+      },
+      {
+        "bbox": [
+          0.525423728779661,
+          0.23414634097560982,
+          0.6440677965762711,
+          0.2829268287804878
+        ],
+        "confidence": 1,
+        "text": "topology"
+      },
+      {
+        "bbox": [
+          0.062499989531250154,
+          0.29268292704509946,
+          0.89999998953125,
+          0.34146341484997755
+        ],
+        "confidence": 1,
+        "text": "+ Behavioral simulation with: + Behavioral simulation with:"
+      },
+      {
+        "bbox": [
+          0.09830508381355936,
+          0.3560975617073171,
+          0.4440677956779661,
+          0.4146341470731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a,--0.1, a2--0.1, A,=40 dB"
+      },
+      {
+        "bbox": [
+          0.5288135568523002,
+          0.3560975612195122,
+          0.874576268716707,
+          0.409756097804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4,--0.1, a,=-0.1, A,-40 dB"
+      },
+      {
+        "bbox": [
+          0.09830508566101692,
+          0.45365853634146336,
+          0.18983050938983048,
+          0.49756097536585364
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GNDn;7(, 98)"
+      },
+      {
+        "bbox": [
+          0.5762711863841808,
+          0.44878048723577235,
+          0.6610169490960452,
+          0.482926828699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SNNH-AI.7ON"
+      },
+      {
+        "bbox": [
+          0.0474576164425711,
+          0.5219512219870669,
+          0.06101695706503659,
+          0.7951219350861046
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Powar apecirel danaity le Bben l"
+      },
+      {
+        "bbox": [
+          0.5423728812711863,
+          0.658536585,
+          0.569491525338983,
+          0.6878048776829269
+        ],
+        "confidence": 0.5,
+        "text": "-109"
+      },
+      {
+        "bbox": [
+          0.5389830514124294,
+          0.7512195119512196,
+          0.5728813564971751,
+          0.7756097558536587
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- 140-"
+      },
+      {
+        "bbox": [
+          0.0644067801694915,
+          0.8487804875609757,
+          0.09491525474576269,
+          0.8731707314634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-18>"
+      },
+      {
+        "bbox": [
+          0.18968250676244694,
+          0.8623486123700675,
+          0.35608020925433653,
+          0.913261146106878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MAMADA PATUR (1)"
+      },
+      {
+        "bbox": [
+          0.6610169463276837,
+          0.8634146346341465,
+          0.8305084717514125,
+          0.902439024878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "No-mstisd trequienty fite)"
+      },
+      {
+        "bbox": [
+          0.7220338956779662,
+          0.9414634147560975,
+          0.9322033872033899,
+          0.9707317074390244
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2169"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It is shown in this slide that for equal nonlinearities in the opamps, full feedforward considerably reduces the distortion at the output.",
+      "pdf_page": 661,
+      "printed_page": 672,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0661_01_2169.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "First of all, the gain itself can be relaxed from 60 to 30 dB, which is easily achieved, even in nanometer CMOS at 1 V supply voltage.",
+      "pdf_page": 661,
+      "printed_page": 672,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain of each opamp is modeled as given by A=A (1+a v +a v 2) 0 1 o 2 o in which the a represents 1 the second-order non-linearity and a the third- 2 order one.",
+      "pdf_page": 661,
+      "printed_page": 672,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is shown in this slide that for equal nonlinearities in the opamps, full feedforward considerably reduces the distortion at the output.",
+      "pdf_page": 661,
+      "printed_page": 672,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Only a modest gain of 40 dB is used.",
+      "pdf_page": 661,
+      "printed_page": 672,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Moreover, the effect of the distortion is much smaller.",
+      "pdf_page": 661,
+      "printed_page": 672,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2169-M01",
+      "ocr_text": "a,--0.1, a2--0.1, A,=40 dB",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09830508381355936,
+        0.3560975617073171,
+        0.4440677956779661,
+        0.4146341470731707
+      ],
+      "context_crop": "regions/SANSEN-2169_math_01.png",
+      "context_bbox_normalized": [
+        0.05830508381355936,
+        0.2560975617073171,
+        0.6740677956779662,
+        0.5446341470731707
+      ],
+      "source_image": "slides/p0661_01_2169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2169-M02",
+      "ocr_text": "4,--0.1, a,=-0.1, A,-40 dB",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5288135568523002,
+        0.3560975612195122,
+        0.874576268716707,
+        0.409756097804878
+      ],
+      "context_crop": "regions/SANSEN-2169_math_02.png",
+      "context_bbox_normalized": [
+        0.48881355685230027,
+        0.2560975612195122,
+        1,
+        0.539756097804878
+      ],
+      "source_image": "slides/p0661_01_2169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2169-M03",
+      "ocr_text": "-18>",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0644067801694915,
+        0.8487804875609757,
+        0.09491525474576269,
+        0.8731707314634147
+      ],
+      "context_crop": "regions/SANSEN-2169_math_03.png",
+      "context_bbox_normalized": [
+        0.0244067801694915,
+        0.7487804875609757,
+        0.3249152547457627,
+        0.93
+      ],
+      "source_image": "slides/p0661_01_2169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

@@ -1,0 +1,156 @@
+{
+  "case_id": "SANSEN-0949",
+  "slide_id": "0949",
+  "chapter": 9,
+  "slide_number_in_chapter": 49,
+  "source": {
+    "pdf_page": 280,
+    "printed_page": 287
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0280_02_0949.jpg",
+      "pdf_page": 280,
+      "printed_page": 287,
+      "bbox_pt": [
+        91.52162,
+        409.51898,
+        374.78981,
+        605.97897
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 280,
+      "printed_page": 287,
+      "bbox_pt": [
+        0,
+        405.52951000000013,
+        595,
+        797
+      ],
+      "text_raw": "As many different configu-\nrations have been discussed,\nthey have to be compared\nwith some kind of Figure\nof Merit.\nSuch a Figure of Merit\nnormally includes the power\ndissipation for a certain\nGBW and load capacitance.\nHowever, two different\nFOMs exist. One of them\ntakes into account the\nactual power dissipation in\nmW, whereas the other one\ntakes only the current into\naccount. The difference is\nthe supply voltage used.",
+      "text": "As many different configurations have been discussed, they have to be compared with some kind of Figure of Merit. Such a Figure of Merit normally includes the power dissipation for a certain GBW and load capacitance. However, two different FOMs exist. One of them takes into account the actual power dissipation in mW, whereas the other one takes only the current into account. The difference is the supply voltage used."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As many different configurations have been discussed, they have to be compared with some kind of Figure of Merit. Such a Figure of Merit normally includes the power dissipation for a certain GBW and load capacitance. However, two different FOMs exist. One of them takes into account the actual power dissipation in mW, whereas the other one takes only the current into account. The difference is the supply voltage used.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0280_02_0949.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.13175675343468468,
+          0.31219512211382106,
+          0.5304054020833333,
+          0.37073170747967477
+        ],
+        "confidence": 1,
+        "text": "• Design procedure"
+      },
+      {
+        "bbox": [
+          0.1312424997287722,
+          0.3945475632818667,
+          0.6052303883742536,
+          0.46514618651110284
+        ],
+        "confidence": 1,
+        "text": "• Nested-Miller designs"
+      },
+      {
+        "bbox": [
+          0.12837837402027036,
+          0.497560975804878,
+          0.5641891848310812,
+          0.5560975611707317
+        ],
+        "confidence": 1,
+        "text": "• Low-power designs"
+      },
+      {
+        "bbox": [
+          0.13175675709459458,
+          0.5902439032317073,
+          0.4222972976351351,
+          0.6536585373780487
+        ],
+        "confidence": 1,
+        "text": "• Comparison"
+      },
+      {
+        "bbox": [
+          0.7331081111171689,
+          0.9317073173170731,
+          0.9391891793107593,
+          0.9658536587804877
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.as 0949"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "As many different configurations have been discussed, they have to be compared with some kind of Figure of Merit.",
+      "pdf_page": 280,
+      "printed_page": 287,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0280_02_0949.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

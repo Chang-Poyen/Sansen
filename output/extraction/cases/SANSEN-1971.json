@@ -1,0 +1,179 @@
+{
+  "case_id": "SANSEN-1971",
+  "slide_id": "1971",
+  "chapter": 19,
+  "slide_number_in_chapter": 71,
+  "source": {
+    "pdf_page": 591,
+    "printed_page": 602
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0591_01_1971.jpg",
+      "pdf_page": 591,
+      "printed_page": 602,
+      "bbox_pt": [
+        91.521622,
+        301.896973,
+        374.78981,
+        498.356964
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 591,
+      "printed_page": 602,
+      "bbox_pt": [
+        0,
+        297.9073999999996,
+        595,
+        797
+      ],
+      "text_raw": "In this Chapter, continuous-\ntime filters have been dis-\ncussed. Considerable atten-\ntion has gone to Gm-C\nfilters as they are capable of\na reasonable performance at\nthe higher frequencies.\nAt low frequencies how-\never, OTA-RC filters pro-\nvide the highest dynamic\nrange. The other types of\nfilters provide a perfor-\nmance in between. This is\nalso true for switched-\ncapacitor filters.\nThe main disadvantage of\nGm-C filters is that they need tuning circuitry and that they give more distortion. For dynamic\nranges up to about 60 dB, however, they provide lower power consumption at higher frequencies.",
+      "text": "In this Chapter, continuoustime filters have been discussed. Considerable attention has gone to Gm-C filters as they are capable of a reasonable performance at the higher frequencies. At low frequencies however, OTA-RC filters provide the highest dynamic range. The other types of filters provide a performance in between. This is also true for switchedcapacitor filters. The main disadvantage of Gm-C filters is that they need tuning circuitry and that they give more distortion. For dynamic ranges up to about 60 dB, however, they provide lower power consumption at higher frequencies."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter, continuoustime filters have been discussed. Considerable attention has gone to Gm-C filters as they are capable of a reasonable performance at the higher frequencies. At low frequencies however, OTA-RC filters provide the highest dynamic range. The other types of filters provide a performance in between. This is also true for switchedcapacitor filters. The main disadvantage of Gm-C filters is that they need tuning circuitry and that they give more distortion. For dynamic ranges up to about 60 dB, however, they provide lower power consumption at higher frequencies.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0591_01_1971.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270053088803,
+          0.08292682944250873,
+          0.38175675458494207,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10472973231177607,
+          0.31219512177700337,
+          0.4662162187982625,
+          0.36585365836236927
+        ],
+        "confidence": 1,
+        "text": "• Active RC filters"
+      },
+      {
+        "bbox": [
+          0.10472972738899614,
+          0.40975609794425083,
+          0.4864864841457528,
+          0.4634146345296166
+        ],
+        "confidence": 1,
+        "text": "• MOSFET-C filters"
+      },
+      {
+        "bbox": [
+          0.10472973195382883,
+          0.5073170729674797,
+          0.3716216238457207,
+          0.5609756095528456
+        ],
+        "confidence": 0.5,
+        "text": "• GmC filters"
+      },
+      {
+        "bbox": [
+          0.10135135257601348,
+          0.5999999992073172,
+          0.38851351473817564,
+          0.6634146333536586
+        ],
+        "confidence": 1,
+        "text": "• Comparison"
+      },
+      {
+        "bbox": [
+          0.08108107260135154,
+          0.7707317074634148,
+          0.9290540455743245,
+          0.814634146487805
+        ],
+        "confidence": 1,
+        "text": "Ref.: Tsividis, Voorman, Integrated Cont.-time filters, IEEE Press 1993"
+      },
+      {
+        "bbox": [
+          0.14189189570945943,
+          0.8146341462439024,
+          0.5236486524662162,
+          0.8634146340487804
+        ],
+        "confidence": 1,
+        "text": "J. Silva-Martinez, Kluwer 1993,"
+      },
+      {
+        "bbox": [
+          0.14189188797860366,
+          0.8585365855284552,
+          0.6114864825731983,
+          0.9073170733333332
+        ],
+        "confidence": 1,
+        "text": "W. Dehaene, JSSC, July 1997, 977-988"
+      },
+      {
+        "bbox": [
+          0.725949116161899,
+          0.945746433874626,
+          0.9396026935025148,
+          0.9867569695102253
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1971"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0591_01_1971.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

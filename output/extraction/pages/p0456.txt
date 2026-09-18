@@ -1,0 +1,48 @@
+Bandgap and current reference circuits 465
+The other circuit is better
+with this respect. When the
+supply voltage is switched
+on, diode D is forward
+2
+biased, drawing current
+through the pnp transistors,
+and biasing up the total cir-
+cuit. However, the current
+also starts flowing through
+resistor R .The voltage
+start
+across this resistor increases
+until about 0.7 V below the
+supply voltage. Diode D is
+2
+then reverse biased, and dis-
+connected from the actual
+bandgap circuit. In this way
+the currents in the bandgap are not disturbed.
+A similar arrangement with diodes is shown below.
+The startup circuit below left is different. When the supply voltage is turned on, transistor Q4
+starts drawing current, biasing up the bandgap reference. This circuit on its turn drives Q3,
+which switches Q4 off again. As a result transistor Q4 does not influence the current balance in
+the bandgap circuit.
+1618
+One of the first bandgap ref-
+erences is shown in this
+slide.
+The PTAT current gener-
+ator Q1-Q2-R2 provides a
+PTAT voltage across resis-
+tor R1. This voltage is added
+to the V of transistor Q1,
+BE1
+towards a bandgap refer-
+ence voltage indeed.
+Again, the output imped-
+ance is low, because an emit-
+ter follower is used to close
+the feedback loop at the
+output.
+1619
+An all-npn realization of a bandgap circuit is given in this slide. It is less simple but highly
+symmetrical. Many error terms as a result of too low beta’s, output resistances, etc. are cancelled.
+A ratio of 100 is used between the sizes of Q3 and Q4, giving a fairly large DV (of about
+BE

@@ -1,0 +1,290 @@
+{
+  "case_id": "SANSEN-2124",
+  "slide_id": "2124",
+  "chapter": 21,
+  "slide_number_in_chapter": 24,
+  "source": {
+    "pdf_page": 638,
+    "printed_page": 649
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0638_02_2124.jpg",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "bbox_pt": [
+        91.521622,
+        431.44201699999996,
+        374.78981,
+        627.902008
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 638,
+      "printed_page": 649,
+      "bbox_pt": [
+        0,
+        427.45250000000027,
+        595,
+        797
+      ],
+      "text_raw": "A solution is obtained by\nswitching the preceding\nopamp. This obviously only\nworks if several switched-\ncapacitor integrators are put\nin series.\nTake the integrator in the\nframe. Its input switch on\nphase w2 has been shifted to\nthe preceding opamp. The\nwhole opamp is switched in\nand out at clock phase w2.\nIn a similar way, the\nopamp within the frame is\nswitched in and out at clock\nphase w1, in order to be able\nto provide the input voltage to the next integrator.\nThe last opamp shown is now switched at clock phase w2.\nIt is easier to realize an opamp with a low supply voltage than to realize an input switch with\na low supply (or clock) voltage. Moreover, it is fairly straightforward to switch an opamp. This\nis discussed next.",
+      "text": "A solution is obtained by switching the preceding opamp. This obviously only works if several switchedcapacitor integrators are put in series. Take the integrator in the frame. Its input switch on phase w2 has been shifted to the preceding opamp. The whole opamp is switched in and out at clock phase w2. In a similar way, the opamp within the frame is switched in and out at clock phase w1, in order to be able to provide the input voltage to the next integrator. The last opamp shown is now switched at clock phase w2. It is easier to realize an opamp with a low supply voltage than to realize an input switch with a low supply (or clock) voltage. Moreover, it is fairly straightforward to switch an opamp. This is discussed next."
+    },
+    {
+      "pdf_page": 639,
+      "printed_page": 650,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        171.3518999999999
+      ],
+      "text_raw": "The only problem left is the very first input switch. At the input, a compromise will have to\nbe taken for the maximum input voltage. Alternative solutions will be discussed later in this\nSection.",
+      "text": "The only problem left is the very first input switch. At the input, a compromise will have to be taken for the maximum input voltage. Alternative solutions will be discussed later in this Section."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A solution is obtained by switching the preceding opamp. This obviously only works if several switchedcapacitor integrators are put in series. Take the integrator in the frame. Its input switch on phase w2 has been shifted to the preceding opamp. The whole opamp is switched in and out at clock phase w2. In a similar way, the opamp within the frame is switched in and out at clock phase w1, in order to be able to provide the input voltage to the next integrator. The last opamp shown is now switched at clock phase w2. It is easier to realize an opamp with a low supply voltage than to realize an input switch with a low supply (or clock) voltage. Moreover, it is fairly straightforward to switch an opamp. This is discussed next.\n\nThe only problem left is the very first input switch. At the input, a compromise will have to be taken for the maximum input voltage. Alternative solutions will be discussed later in this Section.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Switched Opamp",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0638_02_2124.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432799831075,
+          0.08292683006097556,
+          0.3817567604307432,
+          0.14634146420731708
+        ],
+        "confidence": 1,
+        "text": "Switched Opamp"
+      },
+      {
+        "bbox": [
+          0.07770270570945939,
+          0.21951219453658544,
+          0.4189189219256756,
+          0.27804877990243904
+        ],
+        "confidence": 1,
+        "text": "Critical input switch"
+      },
+      {
+        "bbox": [
+          0.07094593880912177,
+          0.28780487817073164,
+          0.6418918847550678,
+          0.34634146353658535
+        ],
+        "confidence": 1,
+        "text": "is replaced by a switched opamp"
+      },
+      {
+        "bbox": [
+          0.2500000002111486,
+          0.6243902434146342,
+          0.30743243264358106,
+          0.6634146336585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-ф1"
+      },
+      {
+        "bbox": [
+          0.37162162124155407,
+          0.634146341707317,
+          0.40202702664695944,
+          0.6731707319512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ф2"
+      },
+      {
+        "bbox": [
+          0.611486486722973,
+          0.6536585369756098,
+          0.6486486488851352,
+          0.6926829272195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- ф2"
+      },
+      {
+        "bbox": [
+          0.7195945944256757,
+          0.6487804874796748,
+          0.7466216214527027,
+          0.6878048777235772
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ф1"
+      },
+      {
+        "bbox": [
+          0.2229729726632883,
+          0.7707317069105691,
+          0.2668918915822072,
+          0.8195121947154471
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vret"
+      },
+      {
+        "bbox": [
+          0.31756756811655407,
+          0.7756097559146341,
+          0.361486487035473,
+          0.8195121949390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vrer"
+      },
+      {
+        "bbox": [
+          0.4121621625,
+          0.7756097559349594,
+          0.4527027030405405,
+          0.8146341461788619
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vrer"
+      },
+      {
+        "bbox": [
+          0.5675675672860361,
+          0.7707317069105691,
+          0.6081081078265765,
+          0.8195121947154471
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vier"
+      },
+      {
+        "bbox": [
+          0.6587837842229729,
+          0.7756097559512194,
+          0.7027027031418919,
+          0.8195121949756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vret"
+      },
+      {
+        "bbox": [
+          0.7533783787162163,
+          0.7756097558943089,
+          0.7939189192567568,
+          0.8195121949186991
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vret"
+      },
+      {
+        "bbox": [
+          0.6047297258445947,
+          0.8780487806707317,
+          0.9155405366554054,
+          0.9121951221341463
+        ],
+        "confidence": 0.5,
+        "text": "Crols, .., JSSC Aug.94, 936-942"
+      },
+      {
+        "bbox": [
+          0.722972977502304,
+          0.9414634152032522,
+          0.9324324240742727,
+          0.9756097566666667
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2124"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The last opamp shown is now switched at clock phase w2.",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0638_02_2124.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This obviously only works if several switchedcapacitor integrators are put in series.",
+        "pdf_page": 638,
+        "printed_page": 649,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Its input switch on phase w2 has been shifted to the preceding opamp.",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The whole opamp is switched in and out at clock phase w2.",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In a similar way, the opamp within the frame is switched in and out at clock phase w1, in order to be able to provide the input voltage to the next integrator.",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The last opamp shown is now switched at clock phase w2.",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

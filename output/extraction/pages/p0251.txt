@@ -1,0 +1,46 @@
+Fully-diVerential amplifiers 257
+0837
+Common-mode feedback
+can also be embedded in
+the differential amplifier as
+shown in this slide.
+After all, this is a symmet-
+rical OTA with current
+factor B.
+However, the current mir-
+rors M2/M3 have an addi-
+tional output current with
+transistors M4, to cancel
+the differential signals at the
+diode-connected MOSTs
+M6. These latter devices are
+the inputs of current mirrors
+M5/M6 which close the
+feedback loop.
+The actual output voltages can be modified by injecting currents with transistors M7 driven
+by some other CMFB loop.
+The additional power consumption in this solution, is quite modest. Moreover, the output
+swing is not hampered by the CMFB amplifier.
+As a consequence, this is an attractive solution indeed!
+0838
+When a clock is avail-
+able, as in all sampled-
+data circuitry, it can be
+used towards a low-power
+CMFB loop.
+This amplifier is just a
+symmetrical OTA.
+The outputs are measured
+by a number of switches and
+capacitors, which provide
+common-mode feedback to
+the gates of transistors
+M11/M12.
+This feedback is not
+applied directly to the Gates
+of M8/M6 to make sure that
+not all current can be switched in the output devices. For common-mode disturbance in the
+supply lines or substrate, large transients at the outputs can be avoided in this way.
+In order to see how this circuit works, it is copied when all transistors are on, driven by clock
+W , and then when all transistors are on, driven by clock W .
+1 2

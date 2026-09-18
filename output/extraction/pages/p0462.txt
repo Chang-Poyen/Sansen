@@ -1,0 +1,44 @@
+Bandgap and current reference circuits 471
+There is one important
+difference however. CMOS
+opamps have a larger offset.
+This means that they are
+only self-starting if the offset
+is right. Moreover, the offset
+gives a much larger error in
+the current equalization and
+therefore in the output
+voltage.
+The circuit on the right
+has again a worse PSRR.
+1630
+A practical example of a
+bandgap reference is shown
+in this slide. The output
+voltage is trimmed to 1.2 V,
+with a variation of maxi-
+mum 20 mV. The temper-
+ature coefficient is only
+4000 ppm or 0.4% over a
+very wide temperature
+range, or 20 ppm/°C.
+The PTAT current is gen-
+erated by transistors Q1/Q2
+and resistor R . Resistors
+PTAT
+R and R are equal and
+1 2
+generate the output voltage,
+together with R , which
+TRIM
+is trimmed.
+The operational amplifier is a folded cascode, with M1/M2 as input devices and the Drains
+of M3B/M4B (point PDII) as output. They operate in weak inversion and are now quite large
+to suppress offset and 1/f noise. It is a two-stage amplifier. A compensation capacitance is
+therefore required.
+The startup circuit is on the left. It includes a Power-Down function. The Drain of transistor
+M7 (point PDII) biases the amplifier and the bandgap reference. There are two inverters between
+this point and PD, by means of transistors M8/M9 and M6/M7. When PD is high. The output
+of the first inverter is low (point PDI) and the output of the next inverter is high (point PDII).
+All pMOSTs connected at this point are thus off and so is the opamp and bandgap. The output
+is low.

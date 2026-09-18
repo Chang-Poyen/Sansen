@@ -1,0 +1,463 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "18.1.0.077"
+"date" "10:44:55 AM, Tue Sep 15, 2026"
+"design" ""
+"analysis type" "dc"
+"analysis name" "dcOp"
+"analysis description" "DC Analysis `dcOp'"
+"xVecSorted" "unsorted"
+"tolerance.relative" 1.00000e-07
+"reltol" 1.00000e-07
+"abstol(V)" 1.00000e-10
+"abstol(I)" 1.00000e-15
+"temp" 27.0000
+"tnom" 27.0000
+"tempeffects" "all"
+"gmindc" 1.00000e-16
+TYPE
+"LogicV" FLOAT DOUBLE PROP(
+"key" "node"
+)
+"V" FLOAT DOUBLE PROP(
+"units" "V"
+"key" "node"
+"tolerance" 1.00000e-10
+)
+"I" FLOAT DOUBLE PROP(
+"units" "A"
+"key" "branch"
+"tolerance" 1.00000e-15
+)
+"MMF" FLOAT DOUBLE PROP(
+"units" "A*turn"
+"key" "node"
+"tolerance" 1.00000e-12
+)
+"Wb" FLOAT DOUBLE PROP(
+"units" "Wb"
+"key" "node"
+"tolerance" 1.00000e-09
+)
+"Temp" FLOAT DOUBLE PROP(
+"units" "C"
+"key" "node"
+"tolerance" 0.000100000
+)
+"Pwr" FLOAT DOUBLE PROP(
+"units" "W"
+"key" "node"
+"tolerance" 1.00000e-09
+)
+"U" FLOAT DOUBLE PROP(
+"units" ""
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"V/Sec" FLOAT DOUBLE PROP(
+"units" "V/s"
+"key" "node"
+"tolerance" 0.000100000
+)
+"I/Sec" FLOAT DOUBLE PROP(
+"units" "A/s"
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"1/Sec" FLOAT DOUBLE PROP(
+"units" "1/s"
+"key" "node"
+"tolerance" 0.000100000
+)
+"HOD" FLOAT DOUBLE PROP(
+"units" ""
+"key" "node"
+"tolerance" 0.0100000
+)
+"Q" FLOAT DOUBLE PROP(
+"units" "Coul"
+"key" "node"
+"tolerance" 1.00000e-15
+)
+"F" FLOAT DOUBLE PROP(
+"key" "inst"
+)
+"S" FLOAT DOUBLE PROP(
+"key" "inst"
+)
+"-enum" FLOAT DOUBLE PROP(
+"key" "inst"
+)
+"A" FLOAT DOUBLE PROP(
+"key" "inst"
+)
+VALUE
+"M_mos_miller:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_miller:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_miller:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_miller:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_miller:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_miller:gds" "S" 1.713595992867200e-05 PROP(
+"units" "S"
+)
+"M_mos_miller:gm" "S" 1.884955592052900e-03 PROP(
+"units" "S"
+)
+"M_mos_cascode_bottom:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_cascode_bottom:ids" "A" 1.884955592052900e-04 PROP(
+"units" "A"
+)
+"M_mos_cascode_bottom:vgs" "V" 6.500000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_cascode_bottom:vds" "V" 9.999999994104778e-01 PROP(
+"units" "V"
+)
+"M_mos_cascode_bottom:vdsat" "V" 2.000000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_cascode_bottom:gm" "S" 1.884955592052900e-03 PROP(
+"units" "S"
+)
+"M_mos_cascode_bottom:gds" "S" 1.713595992867200e-05 PROP(
+"units" "S"
+)
+"M_mos_cascode_bottom:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cascode_bottom:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cascode_bottom:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_cascode_bottom:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cascode_bottom:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cascode_top:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_cascode_top:ids" "A" 1.884955592052902e-04 PROP(
+"units" "A"
+)
+"M_mos_cascode_top:vgs" "V" 6.500000005895221e-01 PROP(
+"units" "V"
+)
+"M_mos_cascode_top:vds" "V" 9.999999345630575e-01 PROP(
+"units" "V"
+)
+"M_mos_cascode_top:vdsat" "V" 2.000000005895221e-01 PROP(
+"units" "V"
+)
+"M_mos_cascode_top:gm" "S" 1.884955586496787e-03 PROP(
+"units" "S"
+)
+"M_mos_cascode_top:gds" "S" 1.713596002969227e-05 PROP(
+"units" "S"
+)
+"M_mos_cascode_top:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cascode_top:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cascode_top:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_cascode_top:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cascode_top:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cs:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_cs:ids" "A" 1.884955592052900e-04 PROP(
+"units" "A"
+)
+"M_mos_cs:vgs" "V" 6.500000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_cs:vds" "V" 9.999999994104788e-01 PROP(
+"units" "V"
+)
+"M_mos_cs:vdsat" "V" 2.000000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_cs:gm" "S" 1.884955592052900e-03 PROP(
+"units" "S"
+)
+"M_mos_cs:gds" "S" 1.713595992867200e-05 PROP(
+"units" "S"
+)
+"M_mos_cs:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cs:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cs:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_cs:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_cs:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_degen:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_degen:ids" "A" 1.884955592084522e-04 PROP(
+"units" "A"
+)
+"M_mos_degen:vgs" "V" 6.499999999966364e-01 PROP(
+"units" "V"
+)
+"M_mos_degen:vds" "V" 9.999999999650148e-01 PROP(
+"units" "V"
+)
+"M_mos_degen:vdsat" "V" 1.999999999966364e-01 PROP(
+"units" "V"
+)
+"M_mos_degen:gm" "S" 1.884955592116223e-03 PROP(
+"units" "S"
+)
+"M_mos_degen:gds" "S" 1.713595992809561e-05 PROP(
+"units" "S"
+)
+"M_mos_degen:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_degen:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_degen:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_degen:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_degen:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_diode_load_n:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_diode_load_n:ids" "A" 1.824979732403568e-04 PROP(
+"units" "A"
+)
+"M_mos_diode_load_n:vgs" "V" 6.500000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_diode_load_n:vds" "V" 6.500000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_diode_load_n:vdsat" "V" 2.000000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_diode_load_n:gm" "S" 1.824979732403568e-03 PROP(
+"units" "S"
+)
+"M_mos_diode_load_n:gds" "S" 1.713595992867200e-05 PROP(
+"units" "S"
+)
+"M_mos_diode_load_n:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_diode_load_n:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_diode_load_n:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_diode_load_n:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_diode_load_n:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_diode_load_p:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_diode_load_p:ids" "A" -1.824979732403568e-04 PROP(
+"units" "A"
+)
+"M_mos_diode_load_p:vgs" "V" -6.500000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_diode_load_p:vds" "V" -6.500000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_diode_load_p:vdsat" "V" -2.000000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_diode_load_p:gm" "S" 1.824979732403568e-03 PROP(
+"units" "S"
+)
+"M_mos_diode_load_p:gds" "S" 1.713595992867200e-05 PROP(
+"units" "S"
+)
+"M_mos_diode_load_p:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_diode_load_p:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_diode_load_p:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_diode_load_p:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_diode_load_p:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_follower:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_follower:ids" "A" 1.884955596544487e-04 PROP(
+"units" "A"
+)
+"M_mos_follower:vgs" "V" 6.500000002308284e-01 PROP(
+"units" "V"
+)
+"M_mos_follower:vds" "V" 1.000000000230828e+00 PROP(
+"units" "V"
+)
+"M_mos_follower:vdsat" "V" 2.000000002308284e-01 PROP(
+"units" "V"
+)
+"M_mos_follower:gm" "S" 1.884955594368981e-03 PROP(
+"units" "S"
+)
+"M_mos_follower:gds" "S" 1.713595996822666e-05 PROP(
+"units" "S"
+)
+"M_mos_follower:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_follower:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_follower:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_follower:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_follower:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_inverter_n:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_inverter_n:ids" "A" 1.824979732403568e-04 PROP(
+"units" "A"
+)
+"M_mos_inverter_n:vgs" "V" 6.500000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_inverter_n:vds" "V" 6.500000000000005e-01 PROP(
+"units" "V"
+)
+"M_mos_inverter_n:vdsat" "V" 2.000000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_inverter_n:gm" "S" 1.824979732403568e-03 PROP(
+"units" "S"
+)
+"M_mos_inverter_n:gds" "S" 1.713595992867200e-05 PROP(
+"units" "S"
+)
+"M_mos_inverter_n:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_inverter_n:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_inverter_n:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_inverter_n:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_inverter_n:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_inverter_p:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_inverter_p:ids" "A" -1.824979732403568e-04 PROP(
+"units" "A"
+)
+"M_mos_inverter_p:vgs" "V" -6.500000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_inverter_p:vds" "V" -6.499999999999996e-01 PROP(
+"units" "V"
+)
+"M_mos_inverter_p:vdsat" "V" -2.000000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_inverter_p:gm" "S" 1.824979732403568e-03 PROP(
+"units" "S"
+)
+"M_mos_inverter_p:gds" "S" 1.713595992867200e-05 PROP(
+"units" "S"
+)
+"M_mos_inverter_p:cbd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_inverter_p:cbs" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_inverter_p:cgs" "F" 7.889700492213244e-13 PROP(
+"units" "F"
+)
+"M_mos_inverter_p:cgd" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_inverter_p:cgb" "F" 0.000000000000000e+00 PROP(
+"units" "F"
+)
+"M_mos_miller:region" "-enum" 2.000000000000000e+00 PROP(
+"units" "-enum"
+)
+"M_mos_miller:ids" "A" 1.884955592052900e-04 PROP(
+"units" "A"
+)
+"M_mos_miller:vgs" "V" 6.500000000000000e-01 PROP(
+"units" "V"
+)
+"M_mos_miller:vds" "V" 9.999999994104787e-01 PROP(
+"units" "V"
+)
+"M_mos_miller:vdsat" "V" 2.000000000000000e-01 PROP(
+"units" "V"
+)
+"mos_degen" "V" 1.199999999968378e+00
+"mos_diode_load" "V" 6.500000000000000e-01
+"mos_inverter" "V" 6.500000000000005e-01
+"mos_cascode" "V" 1.999999933973535e+00
+"mos_follower" "V" 9.999999997691715e-01
+"mos_miller" "V" 9.999999994104787e-01
+"mos_cs" "V" 9.999999994104788e-01
+END

@@ -1,0 +1,54 @@
+Switched-capacitor filters 487
+175
+Substitution of all resistors
+by switched capacitors
+yields a circuit with only
+capacitors and switches, and
+an opamp.
+Substitution of all R’s in
+the expressions gives only
+C’s. The low-frequency gain
+A is now a ratio of capaci-
+v0
+tors, which can be made
+even more accurate, than a
+ratio of resistors.
+The cut-off frequency
+f now depends on a
+−3dB
+ratio of capacitors as well,
+and on the absolute value of
+clock frequency f . This latter frequency is normally derived from a crystal oscillator and is very
+c
+accurate indeed (see Chapter 22). The ratio of capacitors can be made quite accurate as well.
+The larger we make the capacitors in area the better the matching will be (see Chapter 15).
+Values of less than 0.2% can be reached.
+As a result, a fully integratable low-pass filter can be realized at low frequencies. There are
+only two drawbacks. It can only function at signal frequencies much lower than the clock
+frequency. Moreover the ratio of the signal frequency to the clock frequency is determined by a
+capacitor ratio. Large values of this ratio are not easy to realize. The signal frequency cannot
+thus allowed to be too large but not too small either!
+Finally, note how the charges flow in this circuit. On phase 1 the input voltage is stored on
+C . On phase 2 the node goes back to zero as it is connected to the input of the opamp. All the
+1
+charge of C is now transferred to capacitor C , which changes the output voltage accordingly.
+1 2
+The charge is conserved and hence C V =C V .
+1 IN 2 OUT
+176
+As an example, a 4th order
+LC ladder filter is shown
+with its switched-capacitor
+equivalent. There is an
+opamp with switched capac-
+itors all around. Opamp
+OA5 is just an output buffer.
+Note that this filter in-
+volves only capacitor ratios.
+The smallest one has to be
+chosen. In this example, it is
+0.5 pF. The smaller this min-
+imum capacitor or unit
+capacitor is chosen, the
+more parasitic capacitances
+will cause errors in the

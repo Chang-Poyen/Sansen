@@ -1,0 +1,36 @@
+694 Chapter #22
+The capacitance of transistor M3 reduces the ripple at node 3.
+A point of equilibrium is reached in this way, which depends on the voltage at node 3.
+2233
+Of course it is also possible
+to realize crystal oscillators
+by means of CMOS invert-
+ers as amplifiers. A few
+examples are given in this
+slide. Since the gain is usu-
+ally too high, resistors are
+added to reduce the gain.
+Moreover, resistors are
+added in series with the out-
+puts to limit the output cur-
+rents. If not, large current
+spikes are drawn from the
+supply voltage, which causes
+large voltage spikes on the
+supply voltages. They prop-
+agate to all other circuits connected to the same supplies. As a result, the Power-supply-rejection-
+ratio is poor.
+Moreover the gain setting is not so precise. The transistors are always largely overdriven. The
+oscillation frequency is thus not precise at all, despite the high quality factor of the crystal used.
+2234
+Crystal oscillators are easy
+to design with bipolar tran-
+sistors. Actually, the oldest
+crystal oscillators have been
+made with bipolar devices
+as discrete devices on a
+printed circuit board. They
+usually consist of one single
+transistor with fixed biasing,
+rather than with an AGC
+circuit.

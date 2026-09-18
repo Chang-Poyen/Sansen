@@ -1,0 +1,280 @@
+{
+  "case_id": "SANSEN-1830",
+  "slide_id": "1830",
+  "chapter": 18,
+  "slide_number_in_chapter": 30,
+  "source": {
+    "pdf_page": 523,
+    "printed_page": 533
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0523_02_1830.jpg",
+      "pdf_page": 523,
+      "printed_page": 533,
+      "bbox_pt": [
+        91.52162,
+        433.43494,
+        374.78981,
+        629.8949299999999
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 523,
+      "printed_page": 533,
+      "bbox_pt": [
+        0,
+        429.4457093000002,
+        595,
+        797
+      ],
+      "text_raw": "An example is given in this\nslide.\nFor a peak relative cur-\nrent swing of 40%, the IM\n2\nis quite high, i.e. 10%. This\nis reached for an input volt-\nage of 71 mV if V −\nRMS GS\nV =0.5 V.\nT",
+      "text": "An example is given in this slide. For a peak relative current swing of 40%, the IM 2 is quite high, i.e. 10%. This is reached for an input voltage of 71 mV if V − RMS GS V =0.5 V. T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An example is given in this slide. For a peak relative current swing of 40%, the IM 2 is quite high, i.e. 10%. This is reached for an input voltage of 71 mV if V − RMS GS V =0.5 V. T",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Numerical example",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0523_02_1830.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08035947318551274,
+          0.08142333328472229,
+          0.42301316012134993,
+          0.14819318673707915
+        ],
+        "confidence": 1,
+        "text": "Numerical example"
+      },
+      {
+        "bbox": [
+          0.08445946351351341,
+          0.29268292682926833,
+          0.5709459499999999,
+          0.36097560975609755
+        ],
+        "confidence": 1,
+        "text": "The peak value of Vgs is Vgsp"
+      },
+      {
+        "bbox": [
+          0.5708011143000296,
+          0.2916585367907558,
+          0.7332529357045641,
+          0.3424878054556043
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 100 mV"
+      },
+      {
+        "bbox": [
+          0.229729727027027,
+          0.3853658542926829,
+          0.7432432405405405,
+          0.4487804884390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(then VgsRMs = 100 /N2 = 71 mVRMs)"
+      },
+      {
+        "bbox": [
+          0.08333334460165925,
+          0.4634146353778662,
+          0.7958333239816742,
+          0.5421686743048979
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "if VGs-V, = 0.5 V then Vgsp/[ 2(VGs-VT] = 0.1"
+      },
+      {
+        "bbox": [
+          0.09459460158783782,
+          0.639024389707317,
+          0.7939189259121622,
+          0.7121951214146341
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "gives IM2 = 10 % (HD2 = 5%) & IM3 = 0"
+      },
+      {
+        "bbox": [
+          0.09166669296457085,
+          0.7650602404157874,
+          0.8624999919312621,
+          0.831707316441029
+        ],
+        "confidence": 1,
+        "text": "The relative current swing U = 0.1/0.25 = 0.4!"
+      },
+      {
+        "bbox": [
+          0.7162162262072588,
+          0.9317073168292683,
+          0.9290540511576059,
+          0.965853658292683
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 1830"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0523_02_1830.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "For a peak relative current swing of 40%, the IM 2 is quite high, i.e. 10%.",
+      "pdf_page": 523,
+      "printed_page": 533,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1830-M01",
+      "ocr_text": "= 100 mV",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5708011143000296,
+        0.2916585367907558,
+        0.7332529357045641,
+        0.3424878054556043
+      ],
+      "context_crop": "regions/SANSEN-1830_math_01.png",
+      "context_bbox_normalized": [
+        0.5308011143000295,
+        0.1916585367907558,
+        0.963252935704564,
+        0.4724878054556043
+      ],
+      "source_image": "slides/p0523_02_1830.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1830-M02",
+      "ocr_text": "(then VgsRMs = 100 /N2 = 71 mVRMs)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.229729727027027,
+        0.3853658542926829,
+        0.7432432405405405,
+        0.4487804884390243
+      ],
+      "context_crop": "regions/SANSEN-1830_math_02.png",
+      "context_bbox_normalized": [
+        0.18972972702702698,
+        0.2853658542926829,
+        0.9732432405405405,
+        0.5787804884390243
+      ],
+      "source_image": "slides/p0523_02_1830.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1830-M03",
+      "ocr_text": "if VGs-V, = 0.5 V then Vgsp/[ 2(VGs-VT] = 0.1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08333334460165925,
+        0.4634146353778662,
+        0.7958333239816742,
+        0.5421686743048979
+      ],
+      "context_crop": "regions/SANSEN-1830_math_03.png",
+      "context_bbox_normalized": [
+        0.04333334460165925,
+        0.3634146353778662,
+        1,
+        0.6721686743048979
+      ],
+      "source_image": "slides/p0523_02_1830.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1830-M04",
+      "ocr_text": "gives IM2 = 10 % (HD2 = 5%) & IM3 = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09459460158783782,
+        0.639024389707317,
+        0.7939189259121622,
+        0.7121951214146341
+      ],
+      "context_crop": "regions/SANSEN-1830_math_04.png",
+      "context_bbox_normalized": [
+        0.05459460158783782,
+        0.539024389707317,
+        1,
+        0.8421951214146342
+      ],
+      "source_image": "slides/p0523_02_1830.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1830-M05",
+      "ocr_text": "The relative current swing U = 0.1/0.25 = 0.4!",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.09166669296457085,
+        0.7650602404157874,
+        0.8624999919312621,
+        0.831707316441029
+      ],
+      "context_crop": "regions/SANSEN-1830_math_05.png",
+      "context_bbox_normalized": [
+        0.05166669296457085,
+        0.6650602404157874,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0523_02_1830.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

@@ -1,0 +1,366 @@
+{
+  "case_id": "SANSEN-0444",
+  "slide_id": "0444",
+  "chapter": 4,
+  "slide_number_in_chapter": 44,
+  "source": {
+    "pdf_page": 135,
+    "printed_page": 138
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0136_01_0444.jpg",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 135,
+      "printed_page": 138,
+      "bbox_pt": [
+        0,
+        630.7384999999999,
+        595,
+        797
+      ],
+      "text_raw": "This log-log plot shows the contributions of the transistors themselves, marked by M, and of\nthe series resistors, marked by R. The current factor B is taken as unity for simplicity. Also both\nresistors are identical.\nIt is clear that for low resistors the noise of the transistors is dominant. The output noise is",
+      "text": "This log-log plot shows the contributions of the transistors themselves, marked by M, and of the series resistors, marked by R. The current factor B is taken as unity for simplicity. Also both resistors are identical. It is clear that for low resistors the noise of the transistors is dominant. The output noise is"
+    },
+    {
+      "pdf_page": 136,
+      "printed_page": 139,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        427.4524000000002
+      ],
+      "text_raw": "simply the sum of the noise\npower of the two transistors.\nHowever, if we increase\nthe resistors to beyond 1/g ,\nm\nwe find two important\nresults:\n– The transistor noise is\ndecreased as a result\nof the feedback factor\ng R . The power is\nm2 2\ndecreased by the square of\nthis factor.\n– Also the total output\nnoise is smaller than\nbefore; it has decreased to\nsmaller values.\nActually, the resistor noise\nhas taken over the transistor noise. As a result the output noise power decreases inversely\nproportional to that resistor value. Also their 1/f noise may be much lower.\nThis is a remarkable result. Series resistors will always be used to realize current sources with\nultra-low output noise.\nThis is a result that has been known for bipolar transistor current sources since 1975. Why\nthen, is this technique not used routinely for MOST’s?",
+      "text": "simply the sum of the noise power of the two transistors. However, if we increase the resistors to beyond 1/g , m we find two important results: – The transistor noise is decreased as a result of the feedback factor g R . The power is m2 2 decreased by the square of this factor. – Also the total output noise is smaller than before; it has decreased to smaller values. Actually, the resistor noise has taken over the transistor noise. As a result the output noise power decreases inversely proportional to that resistor value. Also their 1/f noise may be much lower. This is a remarkable result. Series resistors will always be used to realize current sources with ultra-low output noise. This is a result that has been known for bipolar transistor current sources since 1975. Why then, is this technique not used routinely for MOST’s?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This log-log plot shows the contributions of the transistors themselves, marked by M, and of the series resistors, marked by R. The current factor B is taken as unity for simplicity. Also both resistors are identical. It is clear that for low resistors the noise of the transistors is dominant. The output noise is\n\nsimply the sum of the noise power of the two transistors. However, if we increase the resistors to beyond 1/g , m we find two important results: – The transistor noise is decreased as a result of the feedback factor g R . The power is m2 2 decreased by the square of this factor. – Also the total output noise is smaller than before; it has decreased to smaller values. Actually, the resistor noise has taken over the transistor noise. As a result the output noise power decreases inversely proportional to that resistor value. Also their 1/f noise may be much lower. This is a remarkable result. Series resistors will always be used to realize current sources with ultra-low output noise. This is a result that has been known for bipolar transistor current sources since 1975. Why then, is this technique not used routinely for MOST’s?",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise of a current mirror with series R",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0136_01_0444.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07094595082046332,
+          0.0780487802439025,
+          0.7533783832528957,
+          0.13170731682926828
+        ],
+        "confidence": 1,
+        "text": "Noise of a current mirror with series R"
+      },
+      {
+        "bbox": [
+          0.12162162073479732,
+          0.2682926830487805,
+          0.19256756668074326,
+          0.3170731708536585
+        ],
+        "confidence": 0.5,
+        "text": "d'out"
+      },
+      {
+        "bbox": [
+          0.1891891893581081,
+          0.2585365858536586,
+          0.20608108125,
+          0.2878048785365853
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.023339297090244824,
+          0.3592948549252921,
+          0.2232823240710831,
+          0.44070514664356575
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4KT(* )9m2df"
+      },
+      {
+        "bbox": [
+          0.27702702685810815,
+          0.3317073167944251,
+          0.3074324322635136,
+          0.3707317070383276
+        ],
+        "confidence": 1,
+        "text": "M"
+      },
+      {
+        "bbox": [
+          0.26689189174710426,
+          0.45853658508710804,
+          0.2939189187741313,
+          0.4975609753310104
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.6486486493918919,
+          0.5658536584878049,
+          0.7229729737162163,
+          0.6195121950731707
+        ],
+        "confidence": 0.5,
+        "text": "diout'"
+      },
+      {
+        "bbox": [
+          0.7128378371058559,
+          0.5560975611382114,
+          0.7567567560247749,
+          0.5951219513821139
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 ="
+      },
+      {
+        "bbox": [
+          0.5777027025760135,
+          0.6146341458536586,
+          0.6081081079814189,
+          0.653658536097561
+        ],
+        "confidence": 1,
+        "text": "M"
+      },
+      {
+        "bbox": [
+          0.4087837830405405,
+          0.736585366,
+          0.48310810736486487,
+          0.7902439025853658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1/gm"
+      },
+      {
+        "bbox": [
+          0.7770270274493243,
+          0.33170731682926835,
+          0.810810811233108,
+          0.3609756095121952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "8K"
+      },
+      {
+        "bbox": [
+          0.7837837842905405,
+          0.3999999998373984,
+          0.814189189695946,
+          0.42926829252032517
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ro"
+      },
+      {
+        "bbox": [
+          0.7804054052364865,
+          0.48780487743902434,
+          0.8074324322635136,
+          0.5365853652439023
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.7804054064527027,
+          0.5219512203414634,
+          0.9527027037500001,
+          0.6048780496097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3 4kT9m2 df"
+      },
+      {
+        "bbox": [
+          0.770270269847973,
+          0.590243903292683,
+          0.9054054049831082,
+          0.6585365862195122
+        ],
+        "confidence": 0.5,
+        "text": "(9m2R2)2"
+      },
+      {
+        "bbox": [
+          0.7195945937781532,
+          0.7365853659756098,
+          0.8175675667511261,
+          0.7902439025609755
+        ],
+        "confidence": 1,
+        "text": "R1=R2"
+      },
+      {
+        "bbox": [
+          0.6148648616891893,
+          0.8731707319512195,
+          0.932432429256757,
+          0.9073170734146342
+        ],
+        "confidence": 1,
+        "text": "Bilotti, JSSC Dec 75, 516-524"
+      },
+      {
+        "bbox": [
+          0.7293139091191365,
+          0.9410506552510819,
+          0.9362403709317487,
+          0.9818342350076558
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 05 0444"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This log-log plot shows the contributions of the transistors themselves, marked by M, and of the series resistors, marked by R.",
+      "pdf_page": 135,
+      "printed_page": 138,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "However, if we increase the resistors to beyond 1/g , m we find two important results: – The transistor noise is decreased as a result of the feedback factor g R .",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0136_01_0444.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "However, if we increase the resistors to beyond 1/g , m we find two important results: – The transistor noise is decreased as a result of the feedback factor g R .",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The power is m2 2 decreased by the square of this factor. – Also the total output noise is smaller than before; it has decreased to smaller values.",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result the output noise power decreases inversely proportional to that resistor value.",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "This log-log plot shows the contributions of the transistors themselves, marked by M, and of the series resistors, marked by R.",
+      "pdf_page": 135,
+      "printed_page": 138,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0444-M01",
+      "ocr_text": "2 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7128378371058559,
+        0.5560975611382114,
+        0.7567567560247749,
+        0.5951219513821139
+      ],
+      "context_crop": "regions/SANSEN-0444_math_01.png",
+      "context_bbox_normalized": [
+        0.6728378371058559,
+        0.4560975611382114,
+        0.9867567560247749,
+        0.7251219513821139
+      ],
+      "source_image": "slides/p0136_01_0444.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0444-M02",
+      "ocr_text": "R1=R2",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.7195945937781532,
+        0.7365853659756098,
+        0.8175675667511261,
+        0.7902439025609755
+      ],
+      "context_crop": "regions/SANSEN-0444_math_02.png",
+      "context_bbox_normalized": [
+        0.6795945937781531,
+        0.6365853659756098,
+        1,
+        0.9202439025609755
+      ],
+      "source_image": "slides/p0136_01_0444.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

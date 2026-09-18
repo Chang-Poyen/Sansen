@@ -1,0 +1,452 @@
+{
+  "case_id": "SANSEN-066",
+  "slide_id": "066",
+  "chapter": 6,
+  "slide_number_in_chapter": 6,
+  "source": {
+    "pdf_page": 179,
+    "printed_page": 183
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0179_02_066.jpg",
+      "pdf_page": 179,
+      "printed_page": 183,
+      "bbox_pt": [
+        91.521622,
+        479.27398700000003,
+        374.78981,
+        675.733978
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 179,
+      "printed_page": 183,
+      "bbox_pt": [
+        0,
+        475.28450000000015,
+        595,
+        797
+      ],
+      "text_raw": "The capacitance C on\nn2\nnode 2 does create a pole\nindeed, but also a zero.\nIndeed, a capacitance to\nground on the other side of\na differential amplifier with\na single output, creates a\npole f and a zero at twice\nnd\nthe frequency 2×f .\nnd\nAt higher frequencies, the\noutput current is divided by\ntwo, since the current mirror\ndoes not receive any more\ncurrent. A division by two\ncan only be represented by\na pole-zero doublet, the zero\nof which is a factor of two higher than the pole.",
+      "text": "The capacitance C on n2 node 2 does create a pole indeed, but also a zero. Indeed, a capacitance to ground on the other side of a differential amplifier with a single output, creates a pole f and a zero at twice nd the frequency 2×f . nd At higher frequencies, the output current is divided by two, since the current mirror does not receive any more current. A division by two can only be represented by a pole-zero doublet, the zero of which is a factor of two higher than the pole."
+    },
+    {
+      "pdf_page": 180,
+      "printed_page": 184,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        250.07539999999983
+      ],
+      "text_raw": "This is illustrated for the voltage amplifier in which all other capacitances are omitted.\nThe advantage of this zero is that it greatly compensates the phase shift of the pole. The net\nresult is a small change in phase shift.\nThe influence on the Phase Margin of this pole-zero pair is therefore negligible.\nAs a result, the capacitance C at node 2 can be ignored. We have now found two reasons\nn2\nfor that.",
+      "text": "This is illustrated for the voltage amplifier in which all other capacitances are omitted. The advantage of this zero is that it greatly compensates the phase shift of the pole. The net result is a small change in phase shift. The influence on the Phase Margin of this pole-zero pair is therefore negligible. As a result, the capacitance C at node 2 can be ignored. We have now found two reasons n2 for that."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The capacitance C on n2 node 2 does create a pole indeed, but also a zero. Indeed, a capacitance to ground on the other side of a differential amplifier with a single output, creates a pole f and a zero at twice nd the frequency 2×f . nd At higher frequencies, the output current is divided by two, since the current mirror does not receive any more current. A division by two can only be represented by a pole-zero doublet, the zero of which is a factor of two higher than the pole.\n\nThis is illustrated for the voltage amplifier in which all other capacitances are omitted. The advantage of this zero is that it greatly compensates the phase shift of the pole. The net result is a small change in phase shift. The influence on the Phase Margin of this pole-zero pair is therefore negligible. As a result, the capacitance C at node 2 can be ignored. We have now found two reasons n2 for that.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Simple CMOS OTA : fnd",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0179_02_066.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108419401543,
+          0.08780487790940761,
+          0.5168918950048262,
+          0.14634146327526132
+        ],
+        "confidence": 1,
+        "text": "Simple CMOS OTA : fnd"
+      },
+      {
+        "bbox": [
+          0.3614864865709459,
+          0.23902438975609752,
+          0.40202702711148647,
+          0.27804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.5878378375675676,
+          0.21951219468292682,
+          0.6216216213513513,
+          0.2634146337073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av"
+      },
+      {
+        "bbox": [
+          0.2702702706081081,
+          0.44878048756097555,
+          0.3108108111486486,
+          0.487804877804878
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.3716216220608108,
+          0.44878048756097555,
+          0.4155405409797297,
+          0.4829268290243902
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.8074324327421171,
+          0.45853658516260165,
+          0.8445945949042792,
+          0.4926829266260162
+        ],
+        "confidence": 1,
+        "text": "2x"
+      },
+      {
+        "bbox": [
+          0.43918918865427925,
+          0.5512195117073171,
+          0.5101351346002252,
+          0.6097560970731708
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.5945945943975225,
+          0.4878048777235773,
+          0.6249999998029279,
+          0.5268292679674796
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0°"
+      },
+      {
+        "bbox": [
+          0.5844594590371622,
+          0.5707317075203252,
+          0.6351351347128379,
+          0.6048780489837399
+        ],
+        "confidence": 1,
+        "text": "-90°"
+      },
+      {
+        "bbox": [
+          0.1148648653153153,
+          0.6487804882926829,
+          0.14864864909909908,
+          0.6780487809756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"n2"
+      },
+      {
+        "bbox": [
+          0.21283783803088802,
+          0.614634146759582,
+          0.24662162181467182,
+          0.6731707321254357
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.20608108163006758,
+          0.7024390241463415,
+          0.25000000054898647,
+          0.741463414390244
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.44256756756756754,
+          0.7024390248780488,
+          0.4831081081081081,
+          0.7414634151219512
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.719594595777027,
+          0.6146341462439023,
+          0.8378378390202702,
+          0.6634146340487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "nd 2ind"
+      },
+      {
+        "bbox": [
+          0.8648648655749003,
+          0.6634146343902438,
+          0.9189189164070816,
+          0.6975609758536585
+        ],
+        "confidence": 1,
+        "text": "9m3"
+      },
+      {
+        "bbox": [
+          0.7770270277702703,
+          0.6878048776585366,
+          0.8513513520945946,
+          0.7365853654634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd="
+      },
+      {
+        "bbox": [
+          0.847972973704955,
+          0.7170731706097562,
+          0.9358108115427928,
+          0.770731707195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 Cn2"
+      },
+      {
+        "bbox": [
+          0.5236486492036679,
+          0.7999999997560976,
+          0.6013513519063707,
+          0.8439024387804879
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.7364864860219594,
+          0.7951219518292683,
+          0.8141891887246621,
+          0.8439024396341462
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.2736486504102317,
+          0.8292682925087109,
+          0.5202702720318533,
+          0.8731707315331011
+        ],
+        "confidence": 0.5,
+        "text": "PM = 90° - arctan"
+      },
+      {
+        "bbox": [
+          0.5371621627956081,
+          0.8585365853658536,
+          0.5878378384712838,
+          0.9170731707317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd"
+      },
+      {
+        "bbox": [
+          0.5846877502444161,
+          0.8074621039249901,
+          0.8227173075498294,
+          0.9205932735000067
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- + arctan 2 fnd"
+      },
+      {
+        "bbox": [
+          0.8344594601914413,
+          0.829268292398374,
+          0.9222972980292792,
+          0.8731707314227641
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 85°"
+      },
+      {
+        "bbox": [
+          0.7263513489442568,
+          0.9463414636585366,
+          0.9189189165118244,
+          0.9756097563414633
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 066"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is illustrated for the voltage amplifier in which all other capacitances are omitted.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0179_02_066.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The influence on the Phase Margin of this pole-zero pair is therefore negligible.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the capacitance C at node 2 can be ignored.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The advantage of this zero is that it greatly compensates the phase shift of the pole.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The net result is a small change in phase shift.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The influence on the Phase Margin of this pole-zero pair is therefore negligible.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "As a result, the capacitance C at node 2 can be ignored.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-066-M01",
+      "ocr_text": "fnd=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7770270277702703,
+        0.6878048776585366,
+        0.8513513520945946,
+        0.7365853654634146
+      ],
+      "context_crop": "regions/SANSEN-066_math_01.png",
+      "context_bbox_normalized": [
+        0.7370270277702703,
+        0.5878048776585366,
+        1,
+        0.8665853654634146
+      ],
+      "source_image": "slides/p0179_02_066.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-066-M02",
+      "ocr_text": "PM = 90° - arctan",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.2736486504102317,
+        0.8292682925087109,
+        0.5202702720318533,
+        0.8731707315331011
+      ],
+      "context_crop": "regions/SANSEN-066_math_02.png",
+      "context_bbox_normalized": [
+        0.23364865041023167,
+        0.729268292508711,
+        0.7502702720318533,
+        0.93
+      ],
+      "source_image": "slides/p0179_02_066.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-066-M03",
+      "ocr_text": "= 85°",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8344594601914413,
+        0.829268292398374,
+        0.9222972980292792,
+        0.8731707314227641
+      ],
+      "context_crop": "regions/SANSEN-066_math_03.png",
+      "context_bbox_normalized": [
+        0.7944594601914413,
+        0.729268292398374,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0179_02_066.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

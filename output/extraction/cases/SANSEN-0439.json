@@ -1,0 +1,506 @@
+{
+  "case_id": "SANSEN-0439",
+  "slide_id": "0439",
+  "chapter": 4,
+  "slide_number_in_chapter": 39,
+  "source": {
+    "pdf_page": 133,
+    "printed_page": 136
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0133_02_0439.jpg",
+      "pdf_page": 133,
+      "printed_page": 136,
+      "bbox_pt": [
+        91.521622,
+        419.3844,
+        374.78981,
+        615.844391
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 133,
+      "printed_page": 136,
+      "bbox_pt": [
+        0,
+        415.39492500000017,
+        595,
+        797
+      ],
+      "text_raw": "Cascodes are sometimes\nused with an input transis-\ntor M1 in the linear region,\nto avoid distortion at the\ninput.\nIn this case, it is no longer\nclear whether the noise of\nthe cascode transistor is still\nnegligible.\nFor this purpose we have\nto introduce a parameter to\nindicate how deeply the\ninput transistor M1 works\nin the linear region. This is\nparameter a . For a =1, the\n1 1\ntransistor is on the onset of\nsaturation. Normally a is about 0.5 or less.\n1\nThe expression describing a MOST in the linear region is given, followed by its on resis-\ntance R .\non1\nThe voltage gain is smaller than before. Actually it is only a fraction of the gain of the cascode\nby itself !\nThe total equivalent input noise voltage is due to the on resistance R and the thermal noise\non1",
+      "text": "Cascodes are sometimes used with an input transistor M1 in the linear region, to avoid distortion at the input. In this case, it is no longer clear whether the noise of the cascode transistor is still negligible. For this purpose we have to introduce a parameter to indicate how deeply the input transistor M1 works in the linear region. This is parameter a . For a =1, the 1 1 transistor is on the onset of saturation. Normally a is about 0.5 or less. 1 The expression describing a MOST in the linear region is given, followed by its on resistance R . on1 The voltage gain is smaller than before. Actually it is only a fraction of the gain of the cascode by itself ! The total equivalent input noise voltage is due to the on resistance R and the thermal noise on1"
+    },
+    {
+      "pdf_page": 134,
+      "printed_page": 137,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        190.28539999999987
+      ],
+      "text_raw": "of the cascode. The latter noise source is no longer negligible! Moreover the input noise voltage\nis even larger because of the a factor in the denominator.\n1\nThe actual small-signal model and calculations are given next.",
+      "text": "of the cascode. The latter noise source is no longer negligible! Moreover the input noise voltage is even larger because of the a factor in the denominator. 1 The actual small-signal model and calculations are given next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Cascodes are sometimes used with an input transistor M1 in the linear region, to avoid distortion at the input. In this case, it is no longer clear whether the noise of the cascode transistor is still negligible. For this purpose we have to introduce a parameter to indicate how deeply the input transistor M1 works in the linear region. This is parameter a . For a =1, the 1 1 transistor is on the onset of saturation. Normally a is about 0.5 or less. 1 The expression describing a MOST in the linear region is given, followed by its on resistance R . on1 The voltage gain is smaller than before. Actually it is only a fraction of the gain of the cascode by itself ! The total equivalent input noise voltage is due to the on resistance R and the thermal noise on1\n\nof the cascode. The latter noise source is no longer negligible! Moreover the input noise voltage is even larger because of the a factor in the denominator. 1 The actual small-signal model and calculations are given next.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise of a cascode with linear M1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0133_02_0439.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432035472984,
+          0.07317073091463422,
+          0.6621621581925676,
+          0.13658536506097563
+        ],
+        "confidence": 1,
+        "text": "Noise of a cascode with linear M1"
+      },
+      {
+        "bbox": [
+          0.2972972976013513,
+          0.3219512188780489,
+          0.36824324354729726,
+          0.3853658530243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvz?"
+      },
+      {
+        "bbox": [
+          0.48648648581081083,
+          0.3170731701829268,
+          0.5472972966216216,
+          0.3609756092073171
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.24999999971042475,
+          0.4048780483623694,
+          0.3040540537644788,
+          0.463414633728223
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "++"
+      },
+      {
+        "bbox": [
+          0.23986486560810813,
+          0.5024390239512195,
+          0.31418918993243244,
+          0.5658536580975609
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dv,2"
+      },
+      {
+        "bbox": [
+          0.05802861126293948,
+          0.4946915308391695,
+          0.14745628217993498,
+          0.5721664273399198
+        ],
+        "confidence": 0.5,
+        "text": "dViea"
+      },
+      {
+        "bbox": [
+          0.13175675658783784,
+          0.49268292643902445,
+          0.1554054052364865,
+          0.5317073166829268
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.1418918914695946,
+          0.624390243292683,
+          0.1891891887668919,
+          0.6731707310975611
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.4560810815315316,
+          0.4390243907317073,
+          0.48986486531531537,
+          0.46829268341463415
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.4459459453828829,
+          0.5073170727235773,
+          0.5202702697072072,
+          0.5609756093089431
+        ],
+        "confidence": 0.5,
+        "text": "VDS1"
+      },
+      {
+        "bbox": [
+          0.4593317626017989,
+          0.5893880566881692,
+          0.5981006675197479,
+          0.635002189918239
+        ],
+        "confidence": 1,
+        "text": "M1 linear"
+      },
+      {
+        "bbox": [
+          0.4932432425337838,
+          0.7999999994146343,
+          0.5709459452364865,
+          0.8585365847804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dViea"
+      },
+      {
+        "bbox": [
+          0.6993243235810811,
+          0.20000000014634145,
+          0.7736486479054054,
+          0.25365853673170724
+        ],
+        "confidence": 1,
+        "text": "VDS1"
+      },
+      {
+        "bbox": [
+          0.6047297297297297,
+          0.24878048847560974,
+          0.6722972972972973,
+          0.30243902506097564
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "04 ="
+      },
+      {
+        "bbox": [
+          0.8440767704485911,
+          0.2475027649139223,
+          0.9607097603835639,
+          0.30006900480590504
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "04 < 0.5"
+      },
+      {
+        "bbox": [
+          0.6756756766650579,
+          0.28292682909407674,
+          0.8141891901785714,
+          0.3365853656794425
+        ],
+        "confidence": 0.5,
+        "text": "VGS1 - VT"
+      },
+      {
+        "bbox": [
+          0.5810810787499999,
+          0.38536585424390246,
+          0.9425675652364865,
+          0.44390243960975606
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs1 = B1 VDs1(VGs1 - VT)"
+      },
+      {
+        "bbox": [
+          0.6317567577364865,
+          0.5170731703902439,
+          0.7297297307094595,
+          0.5707317069756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ron1 ="
+      },
+      {
+        "bbox": [
+          0.7363268633309137,
+          0.5598205000689178,
+          0.9359704365764003,
+          0.6206673009893577
+        ],
+        "confidence": 0.5,
+        "text": "B1 (VGs1 - VT)"
+      },
+      {
+        "bbox": [
+          0.662115210837218,
+          0.6679232830856278,
+          0.8818037036895063,
+          0.7271986729662966
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av= a, 9m2 'o2"
+      },
+      {
+        "bbox": [
+          0.62162162121139,
+          0.7658536587804877,
+          0.6790540536438224,
+          0.809756097804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4kT"
+      },
+      {
+        "bbox": [
+          0.6783012304549942,
+          0.7868003723526182,
+          0.8014284976223691,
+          0.8522240168139011
+        ],
+        "confidence": 0.5,
+        "text": "(Ron1 +"
+      },
+      {
+        "bbox": [
+          0.8006756753800677,
+          0.7658536592073171,
+          0.8513513510557433,
+          0.8195121957926829
+        ],
+        "confidence": 1,
+        "text": "2/3"
+      },
+      {
+        "bbox": [
+          0.6317567572972973,
+          0.8390243897560975,
+          0.6858108113513514,
+          0.8975609751219511
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a42"
+      },
+      {
+        "bbox": [
+          0.8378378384290539,
+          0.7902439018292684,
+          0.918918919510135,
+          0.8390243896341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- ) df"
+      },
+      {
+        "bbox": [
+          0.7972972965793919,
+          0.8243902432317073,
+          0.8614864857685811,
+          0.8780487798170732
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.7297297391577093,
+          0.9463414628455283,
+          0.9358108073512996,
+          0.980487804308943
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 05 0439"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0133_02_0439.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The latter noise source is no longer negligible!",
+        "pdf_page": 134,
+        "printed_page": 137,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Normally a is about 0.5 or less. 1 The expression describing a MOST in the linear region is given, followed by its on resistance R . on1 The voltage gain is smaller than before.",
+      "pdf_page": 133,
+      "printed_page": 136,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Actually it is only a fraction of the gain of the cascode by itself !",
+      "pdf_page": 133,
+      "printed_page": 136,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "For a =1, the 1 1 transistor is on the onset of saturation.",
+      "pdf_page": 133,
+      "printed_page": 136,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0439-M01",
+      "ocr_text": "04 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6047297297297297,
+        0.24878048847560974,
+        0.6722972972972973,
+        0.30243902506097564
+      ],
+      "context_crop": "regions/SANSEN-0439_math_01.png",
+      "context_bbox_normalized": [
+        0.5647297297297297,
+        0.14878048847560973,
+        0.9022972972972972,
+        0.43243902506097565
+      ],
+      "source_image": "slides/p0133_02_0439.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0439-M02",
+      "ocr_text": "04 < 0.5",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8440767704485911,
+        0.2475027649139223,
+        0.9607097603835639,
+        0.30006900480590504
+      ],
+      "context_crop": "regions/SANSEN-0439_math_02.png",
+      "context_bbox_normalized": [
+        0.804076770448591,
+        0.1475027649139223,
+        1,
+        0.43006900480590504
+      ],
+      "source_image": "slides/p0133_02_0439.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0439-M03",
+      "ocr_text": "IDs1 = B1 VDs1(VGs1 - VT)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5810810787499999,
+        0.38536585424390246,
+        0.9425675652364865,
+        0.44390243960975606
+      ],
+      "context_crop": "regions/SANSEN-0439_math_03.png",
+      "context_bbox_normalized": [
+        0.5410810787499999,
+        0.2853658542439025,
+        1,
+        0.5739024396097561
+      ],
+      "source_image": "slides/p0133_02_0439.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0439-M04",
+      "ocr_text": "Ron1 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6317567577364865,
+        0.5170731703902439,
+        0.7297297307094595,
+        0.5707317069756097
+      ],
+      "context_crop": "regions/SANSEN-0439_math_04.png",
+      "context_bbox_normalized": [
+        0.5917567577364865,
+        0.41707317039024394,
+        0.9597297307094594,
+        0.7007317069756097
+      ],
+      "source_image": "slides/p0133_02_0439.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0439-M05",
+      "ocr_text": "Av= a, 9m2 'o2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.662115210837218,
+        0.6679232830856278,
+        0.8818037036895063,
+        0.7271986729662966
+      ],
+      "context_crop": "regions/SANSEN-0439_math_05.png",
+      "context_bbox_normalized": [
+        0.622115210837218,
+        0.5679232830856278,
+        1,
+        0.8571986729662966
+      ],
+      "source_image": "slides/p0133_02_0439.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

@@ -1,0 +1,43 @@
+241
+Today, most integrated cir-
+cuit realizations include
+both digital and analog
+functions, on the same sub-
+strate. Processors include
+ADCs and DACs. RF func-
+tions are added to digital
+processors. Many more
+examples can be found.
+This means that coupling
+occurs between both types
+of circuits. Most often, the
+digital blocks generate
+spikes on the ground and
+supply lines, which are
+sensed by the analog
+amplifiers.
+To avoid deterioration of the dynamic range of these high-performance analog functions,
+coupling must be minimized.
+This is discussed in this Chapter. First of all, several sources of coupling are categorized.
+Layout techniques are now discussed to reduce coupling. Attention is also paid to the specification
+power-supply-rejection-ratio and how it can be predicted for some specific amplifier blocks.
+242
+Coupling is best visible
+when a sinusoidal waveform
+is analyzed with high
+spectral purity. Switching
+on the logic functions on the
+same substrate, induces
+high-frequency noise on the
+waveform. This is a result of
+coupling. It deteriorates
+drastically the SNR. This is
+what has to be avoided in
+present-day mixed-signal
+circuits.
+243
+In coupling, three phenomena have to be investigated.
+The first one is the generator of the noise. The digital circuits usually work with a clock. They
+draw current spikes through their supply lines, which cause voltage spikes on the supply
+linesand ground.
+743

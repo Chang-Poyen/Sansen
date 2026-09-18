@@ -1,0 +1,443 @@
+{
+  "case_id": "SANSEN-1968",
+  "slide_id": "1968",
+  "chapter": 19,
+  "slide_number_in_chapter": 68,
+  "source": {
+    "pdf_page": 589,
+    "printed_page": 600
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0589_02_1968.jpg",
+      "pdf_page": 589,
+      "printed_page": 600,
+      "bbox_pt": [
+        91.521622,
+        431.44201699999996,
+        374.78981,
+        627.902008
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 589,
+      "printed_page": 600,
+      "bbox_pt": [
+        0,
+        427.45250000000027,
+        595,
+        797
+      ],
+      "text_raw": "The system to tune the time\nconstants is shown in this\nslide.\nActually, it does not tune\nthe absolute value of one\nsingle time constant but\nrather a ratio of time con-\nstants. Indeed, for a higher-\norder filter, the ratio of char-\nacteristic frequencies must\nbe more accurate than the\nabsolute value of one single\ntime constant.\nThe ratio of time con-\nstants t and t will be\n1 2\nlocked to the ratio of c\nvalues, which have been\ntuned by circuits as on a previous slide, and a constant k12, which is the ratio of the two\nintegrating capacitors.\nAgain, a charge balancing feedback circuit is used with capacitor C to make the input of the\n1\ndifferential amplifier OTA_dif zero. Again, an offset calibration cycle is added, using capacitor C .\n2",
+      "text": "The system to tune the time constants is shown in this slide. Actually, it does not tune the absolute value of one single time constant but rather a ratio of time constants. Indeed, for a higherorder filter, the ratio of characteristic frequencies must be more accurate than the absolute value of one single time constant. The ratio of time constants t and t will be 1 2 locked to the ratio of c values, which have been tuned by circuits as on a previous slide, and a constant k12, which is the ratio of the two integrating capacitors. Again, a charge balancing feedback circuit is used with capacitor C to make the input of the 1 differential amplifier OTA_dif zero. Again, an offset calibration cycle is added, using capacitor C . 2"
+    },
+    {
+      "pdf_page": 590,
+      "printed_page": 601,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        261.98357499999963
+      ],
+      "text_raw": "The two voltages at the input of the OTA_dif are provided by two matched circuits, both are\ndriven by V but with different integration capacitors. The one at the top has C whereas the\nref int\none at the bottom has k12C .\nint\nThe voltage at the output of the first g block on top is V . It is actually 2V /c . This\nm1 n1+,n1– ref 1\nvoltage is integrated over time t . As a result, the input voltage V equals the expression given\n1 1,int\nin this slide. In the same way, the voltage V is derived for the block at the bottom. The\n2,int\nequation of both, as a result of the feedback loop, shows that indeed the ratio of the time\nconstants is kept constant.\nDespite the tuning circuits, the total power consumption of this CMOS realization is quite\nlow. Moreover, no external trimming is required.",
+      "text": "The two voltages at the input of the OTA_dif are provided by two matched circuits, both are driven by V but with different integration capacitors. The one at the top has C whereas the ref int one at the bottom has k12C . int The voltage at the output of the first g block on top is V . It is actually 2V /c . This m1 n1+,n1– ref 1 voltage is integrated over time t . As a result, the input voltage V equals the expression given 1 1,int in this slide. In the same way, the voltage V is derived for the block at the bottom. The 2,int equation of both, as a result of the feedback loop, shows that indeed the ratio of the time constants is kept constant. Despite the tuning circuits, the total power consumption of this CMOS realization is quite low. Moreover, no external trimming is required."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The system to tune the time constants is shown in this slide. Actually, it does not tune the absolute value of one single time constant but rather a ratio of time constants. Indeed, for a higherorder filter, the ratio of characteristic frequencies must be more accurate than the absolute value of one single time constant. The ratio of time constants t and t will be 1 2 locked to the ratio of c values, which have been tuned by circuits as on a previous slide, and a constant k12, which is the ratio of the two integrating capacitors. Again, a charge balancing feedback circuit is used with capacitor C to make the input of the 1 differential amplifier OTA_dif zero. Again, an offset calibration cycle is added, using capacitor C . 2\n\nThe two voltages at the input of the OTA_dif are provided by two matched circuits, both are driven by V but with different integration capacitors. The one at the top has C whereas the ref int one at the bottom has k12C . int The voltage at the output of the first g block on top is V . It is actually 2V /c . This m1 n1+,n1– ref 1 voltage is integrated over time t . As a result, the input voltage V equals the expression given 1 1,int in this slide. In the same way, the voltage V is derived for the block at the bottom. The 2,int equation of both, as a result of the feedback loop, shows that indeed the ratio of the time constants is kept constant. Despite the tuning circuits, the total power consumption of this CMOS realization is quite low. Moreover, no external trimming is required.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Tuning system for the ratio of time constants Sample & Hold →, Substractor,",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0589_02_1968.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270396959464,
+          0.07804877969512192,
+          0.8682432445101351,
+          0.14146341384146344
+        ],
+        "confidence": 1,
+        "text": "Tuning system for the ratio of time constants"
+      },
+      {
+        "bbox": [
+          0.29054054211711705,
+          0.190243902195122,
+          0.3851351367117116,
+          0.21463414609756093
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Replica Nod."
+      },
+      {
+        "bbox": [
+          0.5236486495777026,
+          0.19024390225609755,
+          0.597972973902027,
+          0.2146341461585366
+        ],
+        "confidence": 0.5,
+        "text": "Integrator"
+      },
+      {
+        "bbox": [
+          0.6655405420185811,
+          0.18536585341463419,
+          0.7837837852618244,
+          0.21463414609756093
+        ],
+        "confidence": 0.5,
+        "text": "Sample & Hold"
+      },
+      {
+        "bbox": [
+          0.7837837818130632,
+          0.18536585414634144,
+          0.9020270250563064,
+          0.2243902443902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→, Substractor,"
+      },
+      {
+        "bbox": [
+          0.8074324332207207,
+          0.41463414585365854,
+          0.881756757545045,
+          0.4439024385365854
+        ],
+        "confidence": 1,
+        "text": "OTA_dif"
+      },
+      {
+        "bbox": [
+          0.16554054172297294,
+          0.46341463463414634,
+          0.27702702820945946,
+          0.4926829273170732
+        ],
+        "confidence": 0.5,
+        "text": "From tuning yl"
+      },
+      {
+        "bbox": [
+          0.3108108133023648,
+          0.4487804875000001,
+          0.5101351376266892,
+          0.48292682896341466
+        ],
+        "confidence": 1,
+        "text": "Vgml, externaly controlled"
+      },
+      {
+        "bbox": [
+          0.10472972869903634,
+          0.5804878043089431,
+          0.1182432438234862,
+          0.6146341457723578
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vcel"
+      },
+      {
+        "bbox": [
+          0.17229729837837837,
+          0.7121951217560976,
+          0.2804054064864865,
+          0.7414634144390244
+        ],
+        "confidence": 1,
+        "text": "From tuning 12"
+      },
+      {
+        "bbox": [
+          0.10472973167229731,
+          0.7804878046747967,
+          0.33783783978040544,
+          0.8146341461382113
+        ],
+        "confidence": 1,
+        "text": "Charge balancing :"
+      },
+      {
+        "bbox": [
+          0.13175675824324323,
+          0.8195121951219512,
+          0.28040540689189186,
+          0.8682926829268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V1,int = V2,int"
+      },
+      {
+        "bbox": [
+          0.29391891903153156,
+          0.8243902434146342,
+          0.3277027028153153,
+          0.853658536097561
+        ],
+        "confidence": 0.5,
+        "text": "or"
+      },
+      {
+        "bbox": [
+          0.371621620945946,
+          0.7902439026829268,
+          0.42567567500000003,
+          0.8390243904878047
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.3851351354307432,
+          0.8731707321951219,
+          0.4155405408361486,
+          0.9121951224390243
+        ],
+        "confidence": 1,
+        "text": "Y1"
+      },
+      {
+        "bbox": [
+          0.432432431883446,
+          0.8000000001829268,
+          0.4763513508023649,
+          0.8439024392073171
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.43581081038851355,
+          0.8585365847560976,
+          0.48310810768581086,
+          0.9073170725609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cint"
+      },
+      {
+        "bbox": [
+          0.5371621628378378,
+          0.7951219511585367,
+          0.5912162168918919,
+          0.839024390182927
+        ],
+        "confidence": 1,
+        "text": "ref"
+      },
+      {
+        "bbox": [
+          0.6114864871621621,
+          0.8000000011630175,
+          0.6520270277027027,
+          0.839024389080885
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.550675675892857,
+          0.8731707314982577,
+          0.5810810812982625,
+          0.9121951217421602
+        ],
+        "confidence": 1,
+        "text": "Y2"
+      },
+      {
+        "bbox": [
+          0.5844594582347974,
+          0.8536585368292682,
+          0.6824324312077703,
+          0.9024390246341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ky2Cint"
+      },
+      {
+        "bbox": [
+          0.7760333878106774,
+          0.7997130583885764,
+          0.8799682042227012,
+          0.8748923956807592
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "12 = K12"
+      },
+      {
+        "bbox": [
+          0.8783783787584459,
+          0.8048780485365854,
+          0.9087837841638514,
+          0.8439024387804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "12"
+      },
+      {
+        "bbox": [
+          0.8817567565878379,
+          0.8634146337560975,
+          0.9054054052364865,
+          0.902439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Y1"
+      },
+      {
+        "bbox": [
+          0.7263513492229731,
+          0.9560975611707317,
+          0.9391891870608109,
+          0.9853658538536586
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1968"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The system to tune the time constants is shown in this slide.",
+      "pdf_page": 589,
+      "printed_page": 600,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In the same way, the voltage V is derived for the block at the bottom.",
+      "pdf_page": 590,
+      "printed_page": 601,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The 2,int equation of both, as a result of the feedback loop, shows that indeed the ratio of the time constants is kept constant.",
+      "pdf_page": 590,
+      "printed_page": 601,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0589_02_1968.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the input voltage V equals the expression given 1 1,int in this slide.",
+      "pdf_page": 590,
+      "printed_page": 601,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The 2,int equation of both, as a result of the feedback loop, shows that indeed the ratio of the time constants is kept constant.",
+      "pdf_page": 590,
+      "printed_page": 601,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Indeed, for a higherorder filter, the ratio of characteristic frequencies must be more accurate than the absolute value of one single time constant.",
+      "pdf_page": 589,
+      "printed_page": 600,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The two voltages at the input of the OTA_dif are provided by two matched circuits, both are driven by V but with different integration capacitors.",
+      "pdf_page": 590,
+      "printed_page": 601,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1968-M01",
+      "ocr_text": "V1,int = V2,int",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.13175675824324323,
+        0.8195121951219512,
+        0.28040540689189186,
+        0.8682926829268293
+      ],
+      "context_crop": "regions/SANSEN-1968_math_01.png",
+      "context_bbox_normalized": [
+        0.09175675824324322,
+        0.7195121951219512,
+        0.5104054068918918,
+        0.93
+      ],
+      "source_image": "slides/p0589_02_1968.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1968-M02",
+      "ocr_text": "12 = K12",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7760333878106774,
+        0.7997130583885764,
+        0.8799682042227012,
+        0.8748923956807592
+      ],
+      "context_crop": "regions/SANSEN-1968_math_02.png",
+      "context_bbox_normalized": [
+        0.7360333878106774,
+        0.6997130583885764,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0589_02_1968.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

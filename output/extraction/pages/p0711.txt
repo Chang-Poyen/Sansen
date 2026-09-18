@@ -1,0 +1,43 @@
+L ow-noise amplifiers 723
+2324
+As LNA’s reach high fre-
+quencies, up to f /2, some
+T
+other phenomena show up.
+In addition to distributed
+capacitors, both to the sub-
+strate as between parallel
+lines, the distributed nature
+of the channel of a MOST
+starts playing as well.
+This is explained next.
+2325
+In a classical quasi-static
+model of a MOST, we
+assume that any change in
+Gate voltage is followed by
+an instantaneous change in
+channel charge. In practice,
+there is some delay, how-
+ever. To change the charge
+in the channel, or in the
+inversion layer, carriers
+must be drawn from Source
+and Drain, which takes
+time.
+In order to model this
+time delay to a first degree,
+a low-pass filter is added at
+the Gate. It is realized by addition of a resistor R , which forms a low-pass filter with input
+NQS
+capacitance C .
+GS
+The value of this resistor R must be about 1/5g (see Chapter 1, Tsividis 1987).
+NQS m
+Clearly, this effect is important for really high frequencies, higher than f /5. LNA’s and VCO’s
+T
+operate up to frequencies of f /3, however. This effect must now be taken into account if precise
+T
+predictions are important.
+Also, if an inductor is added in series with the Gate, then the effect of this resistor is even
+more important.

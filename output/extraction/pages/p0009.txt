@@ -1,0 +1,56 @@
+Comparison of MOST and bipolar transistors 9
+shows what speed (cm/s) an
+electron can develop, sub-
+ject to an electric field
+(V/cm). It is given in cm2/Vs.
+Electrons travel about twice
+as fast as holes.
+Values for a standard
+0.35 mm CMOS technology
+are given in this slide.
+Note that the oxide thick-
+ness is about L/50, as has
+been checked on most stan-
+dard CMOS processes of
+the last 20 years.
+As a rule of thumb, the
+resistor of a square transis-
+tor (W/L=1) for a drive
+voltage V −V =1 V is about 3.4 kV in 0.35 mm CMOS.
+GS T
+For deeper submicron CMOS technologies, KP is higher because of C . This square resistor
+ox
+now decreases!
+0116
+To have a time constant of
+0.5 ns with 4 pF we need a
+switch resistance of 125 V.
+This will, to a large extent,
+depend on the value of
+V −V used. Indeed, as
+GS T
+soon as the switch turns on,
+the output voltage is still at
+zero Volt and V −V =
+GS T
+2 V. At the end of the
+switching in, the output
+voltage has risen to 0.6 V: it
+has become the same as the
+input voltage. The V −V
+GS T
+has decreased by 0.6 V
+towards V −V =1.4 V.
+GS T
+The average value is now V −V =1.7 V.
+GS T
+For a transistor size W/L=1, the on-resistance is thus 2 kV (using KP=300 mA/V2). This is
+8× larger than what we can allow. We thus have to take a W/L of 8.
+Note that we will have great difficulties in switching large input voltages. Indeed, for v =
+OUT
+v =2 V, the V has become zero. As a result, the resistor has become infinity: the switch
+IN GS
+cannot be switched on any more!!
+Note also that we have forgotten to take into account the bulk effect. Indeed, V is not zero,
+BS
+it is 0.6 V. The parasitic JFET will play as well as we will see later.

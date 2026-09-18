@@ -1,0 +1,263 @@
+{
+  "case_id": "SANSEN-0333",
+  "slide_id": "0333",
+  "chapter": 3,
+  "slide_number_in_chapter": 33,
+  "source": {
+    "pdf_page": 104,
+    "printed_page": 106
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0104_01_0333.jpg",
+      "pdf_page": 104,
+      "printed_page": 106,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 104,
+      "printed_page": 106,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        367.86181000000005
+      ],
+      "text_raw": "The input impedance of a\ndifferential pair is two times\nthe input impedance of a\nsingle transistor. This means\nthat the input resistance\nmust be doubled, as in a\nbipolar transistor pair on\nthe right. The input capaci-\ntance must be halved,\nhowever.",
+      "text": "The input impedance of a differential pair is two times the input impedance of a single transistor. This means that the input resistance must be doubled, as in a bipolar transistor pair on the right. The input capacitance must be halved, however."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The input impedance of a differential pair is two times the input impedance of a single transistor. This means that the input resistance must be doubled, as in a bipolar transistor pair on the right. The input capacitance must be halved, however.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Input impedance",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0104_01_0333.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627307203385,
+          0.0829268290243903,
+          0.37627118832627116,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Input impedance"
+      },
+      {
+        "bbox": [
+          0.1118644063559322,
+          0.2780487798170732,
+          0.15932203347457627,
+          0.3317073164024391
+        ],
+        "confidence": 1,
+        "text": "ZIN"
+      },
+      {
+        "bbox": [
+          0.20677966030508477,
+          0.7756097555609756,
+          0.284745762,
+          0.8292682921463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CIN ="
+      },
+      {
+        "bbox": [
+          0.3016949159322033,
+          0.7317073177439024,
+          0.36271186508474573,
+          0.7853658543292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CGS"
+      },
+      {
+        "bbox": [
+          0.32203389819209033,
+          0.8146341468540743,
+          0.3423728812429378,
+          0.8536585347719419
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.5389830511652544,
+          0.27317073158536587,
+          0.589830508792373,
+          0.3317073169512196
+        ],
+        "confidence": 0.5,
+        "text": "ZIN"
+      },
+      {
+        "bbox": [
+          0.5559322015677967,
+          0.775609756097561,
+          0.7016949134322034,
+          0.8341463414634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = 2 гm"
+      },
+      {
+        "bbox": [
+          0.745762712838983,
+          0.7756097556707318,
+          0.8237288145338982,
+          0.8292682922560977
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CIN ="
+      },
+      {
+        "bbox": [
+          0.8372881358595641,
+          0.7317073169686412,
+          0.8745762714527845,
+          0.7853658535540071
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C,"
+      },
+      {
+        "bbox": [
+          0.8474576272881357,
+          0.8146341468292683,
+          0.8677966103389831,
+          0.8536585370731707
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.7186440777650236,
+          0.9512195118699187,
+          0.9288135563592701,
+          0.9804878045528455
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 0333"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0104_01_0333.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0333-M01",
+      "ocr_text": "CIN =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.20677966030508477,
+        0.7756097555609756,
+        0.284745762,
+        0.8292682921463415
+      ],
+      "context_crop": "regions/SANSEN-0333_math_01.png",
+      "context_bbox_normalized": [
+        0.16677966030508476,
+        0.6756097555609756,
+        0.514745762,
+        0.93
+      ],
+      "source_image": "slides/p0104_01_0333.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0333-M02",
+      "ocr_text": "RIN = 2 гm",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5559322015677967,
+        0.775609756097561,
+        0.7016949134322034,
+        0.8341463414634146
+      ],
+      "context_crop": "regions/SANSEN-0333_math_02.png",
+      "context_bbox_normalized": [
+        0.5159322015677966,
+        0.675609756097561,
+        0.9316949134322033,
+        0.93
+      ],
+      "source_image": "slides/p0104_01_0333.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0333-M03",
+      "ocr_text": "CIN =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.745762712838983,
+        0.7756097556707318,
+        0.8237288145338982,
+        0.8292682922560977
+      ],
+      "context_crop": "regions/SANSEN-0333_math_03.png",
+      "context_bbox_normalized": [
+        0.705762712838983,
+        0.6756097556707318,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0104_01_0333.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

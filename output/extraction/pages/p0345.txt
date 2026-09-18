@@ -1,0 +1,48 @@
+352 Chapter #12
+1230
+The input stage is a fully-
+differential rail-to-rail ampli-
+fier. Its outputs are labeled
+with big (red) dots. One of
+them goes directly to the
+nMOST output transistor.
+The other one is inverted
+first.
+A differential output
+needs common-mode feed-
+back. This is accomplished
+by measurement of the two
+outputs with transistors
+M20/M21. Their Sources
+are joined together to cancel
+the differential signal. This
+common-mode signal is then fed through a cascode (M22), to a current mirror with transistors
+M23, M16B and M17B.
+The same transistors are part of the translinear loops to set the quiescent current in the output
+stage. For the nMOST output transistor, the loop consists of transistors M2/M21 with M22/M5.
+For the pMOST output transistor, M4 is taken instead. The loop then consists of transistors
+M4/M20, again with M22/M5.
+The setting for the average output voltage of the first stage is also used to set the V ’s of the
+GS
+output devices, and hence the quiescent current.
+1231
+This class-AB amplifier uses
+a separate opamp to drive
+the Gates of all four output
+devices. The load is con-
+nected between the two
+output voltages. It is there-
+fore floating.
+These opamps are
+required to provide suffi-
+cient gain, even when the
+output devices enter the
+linear region. As a result, the
+distortion is always small.
+The amplifier EP which
+drives output transistor
+M58 is sketched as well. The
+feedback loop is not closed.
+It is a conventional voltage amplifier with input devices M51/M52. The load current mirror
+is shunted by two cascodes however M55/M56 to limit the gain (to about 7), again to reduce
+the distortion.

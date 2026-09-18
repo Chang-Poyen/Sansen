@@ -1,0 +1,272 @@
+{
+  "case_id": "SANSEN-213",
+  "slide_id": "213",
+  "chapter": 21,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 627,
+    "printed_page": 638
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0627_01_213.jpg",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "bbox_pt": [
+        91.521622,
+        169.36248799999998,
+        374.78981,
+        365.822479
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 627,
+      "printed_page": 638,
+      "bbox_pt": [
+        0,
+        165.37289999999996,
+        595,
+        582.9065000000005
+      ],
+      "text_raw": "A Sigma-Delta Analog-to-\ndigital converter samples\nthe incoming analog signal\nat a frequency, which is\nmuch higher than needed.\nThe minimum sampling\nfrequency according to\nNyquist, is twice the maxi-\nmum frequency of the\nincoming signal. For low-\nquality speech, the band-\nwidth is limited to 3.4 kHz.\nThe minimum sampling fre-\nquency would be 6.8 kHz.\nAn ECG (Electro Cardio\nGram) is limited to about\n150 Hz. Its minimum sampling frequency would be 300 Hz.\nIn Sigma-Delta ADCs the sampling frequency is much higher, 20 to 1000 times, depending on\nthe application. The ratio of this sampling frequency to the minimum Nyquist sampling frequency\nis called the oversampling ratio (OSR). It is the first design parameter in a Sigma-Delta converter.\nThe more the incoming signal is over-sampled, the more the signal information is emphasized\nwith respect to the noise. As a result, the SNR (Signal-to-Noise Ratio) will be higher for an\nhigher oversampling ratio (OSR). The resolution of the ADC will be higher for an higher\noversampling ratio (OSR).\nWe can state that the high oversampling leads to higher resolution. A Sigma-Delta ADC\nexchanges speed for resolution.\nTo effectively obtain this higher SNR however, the noise must be filtered out. This is achieved\nby noise shaping. This is realized by a filter H(f ).\nA Sigma-Delta converter consists of a feedback loop with a filter and a quantizer, which\ncarries out the AD Conversion. The feedback loop is closed over a DAC. A prefilter (anti-aliasing\nfilter) is required to make sure the incoming bandwidth is limited. A post filter (decimator filter)\nis applied to lower the sampling frequency to what satisfies Nyquist.",
+      "text": "A Sigma-Delta Analog-todigital converter samples the incoming analog signal at a frequency, which is much higher than needed. The minimum sampling frequency according to Nyquist, is twice the maximum frequency of the incoming signal. For lowquality speech, the bandwidth is limited to 3.4 kHz. The minimum sampling frequency would be 6.8 kHz. An ECG (Electro Cardio Gram) is limited to about 150 Hz. Its minimum sampling frequency would be 300 Hz. In Sigma-Delta ADCs the sampling frequency is much higher, 20 to 1000 times, depending on the application. The ratio of this sampling frequency to the minimum Nyquist sampling frequency is called the oversampling ratio (OSR). It is the first design parameter in a Sigma-Delta converter. The more the incoming signal is over-sampled, the more the signal information is emphasized with respect to the noise. As a result, the SNR (Signal-to-Noise Ratio) will be higher for an higher oversampling ratio (OSR). The resolution of the ADC will be higher for an higher oversampling ratio (OSR). We can state that the high oversampling leads to higher resolution. A Sigma-Delta ADC exchanges speed for resolution. To effectively obtain this higher SNR however, the noise must be filtered out. This is achieved by noise shaping. This is realized by a filter H(f ). A Sigma-Delta converter consists of a feedback loop with a filter and a quantizer, which carries out the AD Conversion. The feedback loop is closed over a DAC. A prefilter (anti-aliasing filter) is required to make sure the incoming bandwidth is limited. A post filter (decimator filter) is applied to lower the sampling frequency to what satisfies Nyquist."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A Sigma-Delta Analog-todigital converter samples the incoming analog signal at a frequency, which is much higher than needed. The minimum sampling frequency according to Nyquist, is twice the maximum frequency of the incoming signal. For lowquality speech, the bandwidth is limited to 3.4 kHz. The minimum sampling frequency would be 6.8 kHz. An ECG (Electro Cardio Gram) is limited to about 150 Hz. Its minimum sampling frequency would be 300 Hz. In Sigma-Delta ADCs the sampling frequency is much higher, 20 to 1000 times, depending on the application. The ratio of this sampling frequency to the minimum Nyquist sampling frequency is called the oversampling ratio (OSR). It is the first design parameter in a Sigma-Delta converter. The more the incoming signal is over-sampled, the more the signal information is emphasized with respect to the noise. As a result, the SNR (Signal-to-Noise Ratio) will be higher for an higher oversampling ratio (OSR). The resolution of the ADC will be higher for an higher oversampling ratio (OSR). We can state that the high oversampling leads to higher resolution. A Sigma-Delta ADC exchanges speed for resolution. To effectively obtain this higher SNR however, the noise must be filtered out. This is achieved by noise shaping. This is realized by a filter H(f ). A Sigma-Delta converter consists of a feedback loop with a filter and a quantizer, which carries out the AD Conversion. The feedback loop is closed over a DAC. A prefilter (anti-aliasing filter) is required to make sure the incoming bandwidth is limited. A post filter (decimator filter) is applied to lower the sampling frequency to what satisfies Nyquist.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Sigma-Delta ADC Sigma-Delta ADC exchanges resolution with speed",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0627_01_213.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432760135126,
+          0.07317073136585361,
+          0.40202703030405396,
+          0.14634146307317075
+        ],
+        "confidence": 1,
+        "text": "Sigma-Delta ADC"
+      },
+      {
+        "bbox": [
+          0.07432431896718152,
+          0.18048780508710793,
+          0.8243243189671815,
+          0.22926829289198603
+        ],
+        "confidence": 1,
+        "text": "Sigma-Delta ADC exchanges resolution with speed"
+      },
+      {
+        "bbox": [
+          0.07725276471684844,
+          0.2474226795414941,
+          0.2805800081093804,
+          0.2940569558617887
+        ],
+        "confidence": 0.5,
+        "text": "by means of :"
+      },
+      {
+        "bbox": [
+          0.0743243260698198,
+          0.3219512193495935,
+          0.28378378552927924,
+          0.37073170715447157
+        ],
+        "confidence": 1,
+        "text": "Oversampling"
+      },
+      {
+        "bbox": [
+          0.07432432690033777,
+          0.39512195182926835,
+          0.28716216473817563,
+          0.44390243963414633
+        ],
+        "confidence": 1,
+        "text": "Noise shaping"
+      },
+      {
+        "bbox": [
+          0.33076979157011016,
+          0.4610027364589834,
+          0.4496356166045868,
+          0.4999728742644569
+        ],
+        "confidence": 1,
+        "text": "Anti-aliasing"
+      },
+      {
+        "bbox": [
+          0.36486486537162166,
+          0.5073170730487805,
+          0.4054054059121622,
+          0.5365853657317073
+        ],
+        "confidence": 1,
+        "text": "filter"
+      },
+      {
+        "bbox": [
+          0.5777027031418919,
+          0.5073170735609757,
+          0.6283783788175675,
+          0.5463414638048781
+        ],
+        "confidence": 1,
+        "text": "Filter"
+      },
+      {
+        "bbox": [
+          0.6655405416807432,
+          0.5073170729878048,
+          0.7567567578969594,
+          0.5414634144512195
+        ],
+        "confidence": 1,
+        "text": "Quantizer"
+      },
+      {
+        "bbox": [
+          0.7804054071070079,
+          0.507317072601626,
+          0.8783783736362354,
+          0.5414634140650406
+        ],
+        "confidence": 1,
+        "text": "Decimator"
+      },
+      {
+        "bbox": [
+          0.8513513509411197,
+          0.5658536585365853,
+          0.9087837833735521,
+          0.6341463414634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "vin)"
+      },
+      {
+        "bbox": [
+          0.5337837848536037,
+          0.8439024387804879,
+          0.5979729740427928,
+          0.8780487802439025
+        ],
+        "confidence": 1,
+        "text": "Sigma-"
+      },
+      {
+        "bbox": [
+          0.6891891896621621,
+          0.7560975607804878,
+          0.7364864869594594,
+          0.7853658534634146
+        ],
+        "confidence": 1,
+        "text": "DAC"
+      },
+      {
+        "bbox": [
+          0.6587837851914413,
+          0.8487804875609757,
+          0.7432432446509007,
+          0.8731707314634147
+        ],
+        "confidence": 1,
+        "text": "nodulato:"
+      },
+      {
+        "bbox": [
+          0.7229729828514029,
+          0.9414634142276422,
+          0.9290540510449932,
+          0.9756097556910569
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10.05 213"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0627_01_213.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For lowquality speech, the bandwidth is limited to 3.4 kHz.",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "An ECG (Electro Cardio Gram) is limited to about 150 Hz.",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In Sigma-Delta ADCs the sampling frequency is much higher, 20 to 1000 times, depending on the application.",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the SNR (Signal-to-Noise Ratio) will be higher for an higher oversampling ratio (OSR).",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A prefilter (anti-aliasing filter) is required to make sure the incoming bandwidth is limited.",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

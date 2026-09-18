@@ -1,0 +1,233 @@
+{
+  "case_id": "SANSEN-1157",
+  "slide_id": "1157",
+  "chapter": 11,
+  "slide_number_in_chapter": 57,
+  "source": {
+    "pdf_page": 322,
+    "printed_page": 329
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0322_01_1157.jpg",
+      "pdf_page": 322,
+      "printed_page": 329,
+      "bbox_pt": [
+        91.521622,
+        175.241761,
+        374.78981,
+        371.701752
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 322,
+      "printed_page": 329,
+      "bbox_pt": [
+        0,
+        171.2522499999999,
+        595,
+        451.26880000000017
+      ],
+      "text_raw": "This rail-to-rail opamp is\nwell known. It consists of a\ndouble folded cascode fol-\nlowed by a class-AB second\nstage with Miller compensa-\ntion through the cascodes.\nThe g −equalization still\nm\nhas to be added though. The\nprinciple is discussed next.\nNote that for increasing\nVin-, both currents I and\ndsn\nI increase. One of them\ndsp\nwill disappear however,\nwhen the common-mode\nvoltage V is high or low.\nINCM\nWhen V is high, the\nINCM\ninput pMOSTs are off and I disappears but I survives.\ndsp dsn\nIf we now apply a maximum-current selecting circuit to I and I , the larger one will\ndsn dsp\nsurvive. This is the current that is passed on to the next stage.\nWe now have to insert a maximum-current selector between the Drains which carry I and\ndsn\nI and the second stage.\ndsp",
+      "text": "This rail-to-rail opamp is well known. It consists of a double folded cascode followed by a class-AB second stage with Miller compensation through the cascodes. The g −equalization still m has to be added though. The principle is discussed next. Note that for increasing Vin-, both currents I and dsn I increase. One of them dsp will disappear however, when the common-mode voltage V is high or low. INCM When V is high, the INCM input pMOSTs are off and I disappears but I survives. dsp dsn If we now apply a maximum-current selecting circuit to I and I , the larger one will dsn dsp survive. This is the current that is passed on to the next stage. We now have to insert a maximum-current selector between the Drains which carry I and dsn I and the second stage. dsp"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This rail-to-rail opamp is well known. It consists of a double folded cascode followed by a class-AB second stage with Miller compensation through the cascodes. The g −equalization still m has to be added though. The principle is discussed next. Note that for increasing Vin-, both currents I and dsn I increase. One of them dsp will disappear however, when the common-mode voltage V is high or low. INCM When V is high, the INCM input pMOSTs are off and I disappears but I survives. dsp dsn If we now apply a maximum-current selecting circuit to I and I , the larger one will dsn dsp survive. This is the current that is passed on to the next stage. We now have to insert a maximum-current selector between the Drains which carry I and dsn I and the second stage. dsp",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Rail-to-rail opamp with differential signal proc.",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0322_01_1157.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433033301149,
+          0.07804878038327523,
+          0.9155405465492277,
+          0.14146341452961675
+        ],
+        "confidence": 1,
+        "text": "Rail-to-rail opamp with differential signal proc."
+      },
+      {
+        "bbox": [
+          0.3581081076013513,
+          0.21463414658536584,
+          0.408783783277027,
+          0.2487804880487805
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5371621628800676,
+          0.3512195119512196,
+          0.5945945953125,
+          0.38048780463414633
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vb3 °"
+      },
+      {
+        "bbox": [
+          0.0878378386824324,
+          0.4390243907317073,
+          0.14527027111486485,
+          0.46829268341463415
+        ],
+        "confidence": 0.5,
+        "text": "Ibias1"
+      },
+      {
+        "bbox": [
+          0.20270270337837834,
+          0.3756097565853658,
+          0.27702702770270266,
+          0.42439024439024386
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Idsn +"
+      },
+      {
+        "bbox": [
+          0.21283783838682432,
+          0.48780487792682925,
+          0.25675675730574327,
+          0.5170731706097561
+        ],
+        "confidence": 1,
+        "text": "Vin-"
+      },
+      {
+        "bbox": [
+          0.456081081813063,
+          0.49268292674796743,
+          0.5000000007319819,
+          0.5170731706504065
+        ],
+        "confidence": 1,
+        "text": "Vin+"
+      },
+      {
+        "bbox": [
+          0.9054054049408783,
+          0.46829268225609755,
+          0.956081080616554,
+          0.5219512188414634
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.377901708092016,
+          0.5642996620042053,
+          0.4531793716579868,
+          0.6161881395157276
+        ],
+        "confidence": 0.5,
+        "text": "+ Idsp"
+      },
+      {
+        "bbox": [
+          0.5405405414977478,
+          0.5951219509756098,
+          0.5979729739301802,
+          0.6195121948780489
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vb2 o~"
+      },
+      {
+        "bbox": [
+          0.37500000054898647,
+          0.741463414390244,
+          0.4189189194679054,
+          0.7707317070731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VSS"
+      },
+      {
+        "bbox": [
+          0.07770270236486489,
+          0.8585365858784646,
+          0.36824324290540544,
+          0.8975609749593495
+        ],
+        "confidence": 1,
+        "text": "Ref.Lin, AICSP 1999, 153-162"
+      },
+      {
+        "bbox": [
+          0.7263513535472972,
+          0.946341462987805,
+          0.9290540562499998,
+          0.9804878044512196
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 1157"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0322_01_1157.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The g −equalization still m has to be added though.",
+      "pdf_page": 322,
+      "printed_page": 329,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Note that for increasing Vin-, both currents I and dsn I increase.",
+      "pdf_page": 322,
+      "printed_page": 329,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

@@ -1,0 +1,181 @@
+{
+  "case_id": "SANSEN-0123",
+  "slide_id": "0123",
+  "chapter": 1,
+  "slide_number_in_chapter": 23,
+  "source": {
+    "pdf_page": 13,
+    "printed_page": 13
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0013_01_0123.jpg",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "bbox_pt": [
+        91.521622,
+        205.236451,
+        374.78981,
+        401.696442
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 13,
+      "printed_page": 13,
+      "bbox_pt": [
+        0,
+        201.24689999999975,
+        595,
+        487.24240000000015
+      ],
+      "text_raw": "Having three expression for\nonly one single parameter\ng causes some ambiguity.\nm\nThe question asked is\nwhether g is proportional\nm\nto the square root of the cur-\nrent or to the current itself.\nThe expressions show that\nboth seem to be possible.\nThe answer becomes clear\nby checking the other\nparameters involved. During\nmeasurements, when the\ntransistor size W/L is\nobviously constant, the\nmiddle expression prevails.\nThen g is proportional to the square root of the current. Doubling the biasing current will\nm\nincrease the g only by 41%.\nm\nHowever, during the design procedure, the designer will fix the V −V at a certain value,\nGS T\nfor example at 0.2 V. Then g is proportional to the current itself. Doubling the biasing current\nm\nwill double the g as well.\nm",
+      "text": "Having three expression for only one single parameter g causes some ambiguity. m The question asked is whether g is proportional m to the square root of the current or to the current itself. The expressions show that both seem to be possible. The answer becomes clear by checking the other parameters involved. During measurements, when the transistor size W/L is obviously constant, the middle expression prevails. Then g is proportional to the square root of the current. Doubling the biasing current will m increase the g only by 41%. m However, during the design procedure, the designer will fix the V −V at a certain value, GS T for example at 0.2 V. Then g is proportional to the current itself. Doubling the biasing current m will double the g as well. m"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Having three expression for only one single parameter g causes some ambiguity. m The question asked is whether g is proportional m to the square root of the current or to the current itself. The expressions show that both seem to be possible. The answer becomes clear by checking the other parameters involved. During measurements, when the transistor size W/L is obviously constant, the middle expression prevails. Then g is proportional to the square root of the current. Doubling the biasing current will m increase the g only by 41%. m However, during the design procedure, the designer will fix the V −V at a certain value, GS T for example at 0.2 V. Then g is proportional to the current itself. Doubling the biasing current m will double the g as well. m",
+  "schema_version": "1.0",
+  "chapter_title": "MOS 晶体管与双极型晶体管的比较",
+  "title": "The transconductance gm",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0013_01_0123.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08055447822833561,
+          0.08144560449430349,
+          0.5242375354463202,
+          0.14752732610253516
+        ],
+        "confidence": 1,
+        "text": "The transconductance gm"
+      },
+      {
+        "bbox": [
+          0.09459459552364867,
+          0.38048780375,
+          0.5608108117398648,
+          0.5609756086280487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1s gm ~ Vlbs"
+      },
+      {
+        "bbox": [
+          0.1722972980011261,
+          0.6585365850813008,
+          0.2567567574605855,
+          0.7219512192276423
+        ],
+        "confidence": 1,
+        "text": "or"
+      },
+      {
+        "bbox": [
+          0.398648647972973,
+          0.6487804869512195,
+          0.5067567560810812,
+          0.7512195113414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'DS"
+      },
+      {
+        "bbox": [
+          0.6047297298986486,
+          0.6048780495365854,
+          0.6790540542229729,
+          0.7560975617317074
+        ],
+        "confidence": 1,
+        "text": "?"
+      },
+      {
+        "bbox": [
+          0.7263513543604122,
+          0.9463414635772357,
+          0.9324324225540026,
+          0.9756097562601626
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 0123"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The expressions show that both seem to be possible.",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0013_01_0123.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Having three expression for only one single parameter g causes some ambiguity. m The question asked is whether g is proportional m to the square root of the current or to the current itself.",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Then g is proportional to the square root of the current.",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Doubling the biasing current will m increase the g only by 41%. m However, during the design procedure, the designer will fix the V −V at a certain value, GS T for example at 0.2 V.",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Then g is proportional to the current itself.",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Comparison of MOST and bipolar transistors"
+}

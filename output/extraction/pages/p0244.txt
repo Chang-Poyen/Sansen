@@ -1,0 +1,38 @@
+250 Chapter #8
+0823
+This fully-differential ampli-
+fier uses two equal resistors
+R to cancel out the
+differential signals. In this
+way a common-mode bias-
+ing voltage is obtained for
+the Gates of transistors M2.
+Consequently, there is no
+biasing problem. Current
+source I determines all
+B
+currents.
+The main disadvantage is
+that the resistors R must be
+increased in size to ensure a
+lot of gain. An easy solution
+is to insert source followers
+between the Drains of the input transistors M1 and the two resistors R, as shown next. Smaller
+values of R are then possible.
+0824
+The circuit schematic is
+shown in this slide.
+The differential amplifier
+is just a folded cascode
+OTA, loaded with 4 pF
+capacitors.
+Its GBW is then readily
+DM
+obtained.
+Two more source follow-
+ers are added at the out-
+puts, which are required for
+the CMFB, but which can
+be used as outputs for
+differential operation as
+well.

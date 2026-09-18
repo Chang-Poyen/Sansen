@@ -1,0 +1,183 @@
+{
+  "case_id": "SANSEN-082",
+  "slide_id": "082",
+  "chapter": 8,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 233,
+    "printed_page": 239
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0233_02_082.jpg",
+      "pdf_page": 233,
+      "printed_page": 239,
+      "bbox_pt": [
+        91.521622,
+        409.518982,
+        374.78981,
+        605.978973
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 233,
+      "printed_page": 239,
+      "bbox_pt": [
+        0,
+        405.52950000000016,
+        595,
+        703.55922
+      ],
+      "text_raw": "Besides the power consump-\ntion, some other specifica-\ntions may come in, which\nare typical for CMFB\namplifiers. For example, the\ninput range is an important\ncharacteristic.\nAll requirements of\nCMFB amplifiers will be\nreviewed first.\nThey are followed by a\ndiscussion of the three most\nimportant types of CMFB\namplifiers. All of them have\nadvantages and disadvan-\ntages. None of them pro-\nvides an ideal solution.\nAfter this discussion, a number of practical realizations are examined. Their compromises are\ndiscussed.\nFinally, an exercise is launched to generate better insight. It includes the comparison of a\nCMOS with a BiCMOS solution.",
+      "text": "Besides the power consumption, some other specifications may come in, which are typical for CMFB amplifiers. For example, the input range is an important characteristic. All requirements of CMFB amplifiers will be reviewed first. They are followed by a discussion of the three most important types of CMFB amplifiers. All of them have advantages and disadvantages. None of them provides an ideal solution. After this discussion, a number of practical realizations are examined. Their compromises are discussed. Finally, an exercise is launched to generate better insight. It includes the comparison of a CMOS with a BiCMOS solution."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Besides the power consumption, some other specifications may come in, which are typical for CMFB amplifiers. For example, the input range is an important characteristic. All requirements of CMFB amplifiers will be reviewed first. They are followed by a discussion of the three most important types of CMFB amplifiers. All of them have advantages and disadvantages. None of them provides an ideal solution. After this discussion, a number of practical realizations are examined. Their compromises are discussed. Finally, an exercise is launched to generate better insight. It includes the comparison of a CMOS with a BiCMOS solution.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0233_02_082.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270053088803,
+          0.08292682944250873,
+          0.38175675458494207,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09797297226914414,
+          0.2878048785365853,
+          0.41216216145833334,
+          0.3463414639024389
+        ],
+        "confidence": 1,
+        "text": "• Requirements"
+      },
+      {
+        "bbox": [
+          0.10000002224284485,
+          0.3609756104487706,
+          0.8083333212095362,
+          0.4341463421560876
+        ],
+        "confidence": 1,
+        "text": "• Fully-diff. amps with linear MOSTs"
+      },
+      {
+        "bbox": [
+          0.1013513454054055,
+          0.44390243834146337,
+          0.9324324264864866,
+          0.5121951212682927
+        ],
+        "confidence": 1,
+        "text": "• FDA's with error amp.& source followers"
+      },
+      {
+        "bbox": [
+          0.09797297922297284,
+          0.5268292677073171,
+          0.8040540603040539,
+          0.5853658530731708
+        ],
+        "confidence": 1,
+        "text": "• Folded cascode OTA without SF's"
+      },
+      {
+        "bbox": [
+          0.09797297162162165,
+          0.6146341471341463,
+          0.6858108094594595,
+          0.6780487812804877
+        ],
+        "confidence": 1,
+        "text": "• Other fully-differential amps"
+      },
+      {
+        "bbox": [
+          0.09786274744409086,
+          0.6917707994675453,
+          0.3075426603205293,
+          0.7472535940663805
+        ],
+        "confidence": 1,
+        "text": "• Exercise"
+      },
+      {
+        "bbox": [
+          0.7195945932432434,
+          0.946341463902439,
+          0.9290540527027028,
+          0.9853658541463415
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 082"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "After this discussion, a number of practical realizations are examined.",
+      "pdf_page": 233,
+      "printed_page": 239,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0233_02_082.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "For example, the input range is an important characteristic.",
+      "pdf_page": 233,
+      "printed_page": 239,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

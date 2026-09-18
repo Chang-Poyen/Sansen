@@ -1,0 +1,162 @@
+[
+  {
+    "id": "E01",
+    "source": "vi",
+    "target": "im1",
+    "gain": "gm1",
+    "constraint": "G1",
+    "law": "M1 跨导源的本构关系"
+  },
+  {
+    "id": "E02",
+    "source": "va",
+    "target": "vgs2",
+    "gain": "1",
+    "constraint": "G2",
+    "law": "M2 栅源端电压定义（KVL）"
+  },
+  {
+    "id": "E03",
+    "source": "vx",
+    "target": "vgs2",
+    "gain": "-1",
+    "constraint": "G2",
+    "law": "M2 栅源端电压定义（KVL）"
+  },
+  {
+    "id": "E04",
+    "source": "vgs2",
+    "target": "im2",
+    "gain": "gm2",
+    "constraint": "G3",
+    "law": "M2 跨导源的本构关系"
+  },
+  {
+    "id": "E05",
+    "source": "vo",
+    "target": "iL",
+    "gain": "s*CL",
+    "constraint": "G4",
+    "law": "CL 的本构关系"
+  },
+  {
+    "id": "E06",
+    "source": "im2",
+    "target": "io2",
+    "gain": "-1",
+    "constraint": "G5",
+    "law": "输出节点 KCL"
+  },
+  {
+    "id": "E07",
+    "source": "iL",
+    "target": "io2",
+    "gain": "-1",
+    "constraint": "G5",
+    "law": "输出节点 KCL"
+  },
+  {
+    "id": "E08",
+    "source": "io2",
+    "target": "vR2",
+    "gain": "ro2",
+    "constraint": "G6",
+    "law": "ro2 的本构关系"
+  },
+  {
+    "id": "E09",
+    "source": "vx",
+    "target": "vo",
+    "gain": "1",
+    "constraint": "G7",
+    "law": "M2 漏源支路 KVL"
+  },
+  {
+    "id": "E10",
+    "source": "vR2",
+    "target": "vo",
+    "gain": "1",
+    "constraint": "G7",
+    "law": "M2 漏源支路 KVL"
+  },
+  {
+    "id": "E11",
+    "source": "im2",
+    "target": "io1",
+    "gain": "1",
+    "constraint": "G8",
+    "law": "中间节点 vx 的 KCL"
+  },
+  {
+    "id": "E12",
+    "source": "io2",
+    "target": "io1",
+    "gain": "1",
+    "constraint": "G8",
+    "law": "中间节点 vx 的 KCL"
+  },
+  {
+    "id": "E13",
+    "source": "im1",
+    "target": "io1",
+    "gain": "-1",
+    "constraint": "G8",
+    "law": "中间节点 vx 的 KCL"
+  },
+  {
+    "id": "E14",
+    "source": "io1",
+    "target": "vx",
+    "gain": "ro1",
+    "constraint": "G9",
+    "law": "ro1 的本构关系"
+  },
+  {
+    "id": "E15",
+    "source": "vx",
+    "target": "va0",
+    "gain": "-BA",
+    "constraint": "G10",
+    "law": "理想 VCVS 的本构关系"
+  },
+  {
+    "id": "E16",
+    "source": "va",
+    "target": "iCA",
+    "gain": "s*CA",
+    "constraint": "G11",
+    "law": "CA 的本构关系"
+  },
+  {
+    "id": "E17",
+    "source": "iCA",
+    "target": "iRA",
+    "gain": "1",
+    "constraint": "G12",
+    "law": "辅助级 RC 输出节点 KCL"
+  },
+  {
+    "id": "E18",
+    "source": "iRA",
+    "target": "vRA",
+    "gain": "RA",
+    "constraint": "G13",
+    "law": "RA 的本构关系"
+  },
+  {
+    "id": "E19",
+    "source": "va0",
+    "target": "va",
+    "gain": "1",
+    "constraint": "G14",
+    "law": "辅助级串联支路 KVL"
+  },
+  {
+    "id": "E20",
+    "source": "vRA",
+    "target": "va",
+    "gain": "-1",
+    "constraint": "G14",
+    "law": "辅助级串联支路 KVL"
+  }
+]

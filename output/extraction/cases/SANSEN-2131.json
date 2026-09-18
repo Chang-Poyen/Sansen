@@ -1,0 +1,421 @@
+{
+  "case_id": "SANSEN-2131",
+  "slide_id": "2131",
+  "chapter": 21,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 641,
+    "printed_page": 652
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0642_01_2131.jpg",
+      "pdf_page": 642,
+      "printed_page": 653,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 641,
+      "printed_page": 652,
+      "bbox_pt": [
+        0,
+        570.9485,
+        595,
+        797
+      ],
+      "text_raw": "The first remedy is to make everything fully differential. A fully-differential opamp is now used,\nas shown in this slide.\nIt is a two-stage Miller opamp with a folded cascode as a first stage. A second stage is needed\nto provide rail-to-rail output swing. The gain can be quite high, 75 dB in this example.\nFor a 1 pF load, the GBW is about 30 MHz, for only 80 mW power consumption. This gives\na high FOM indeed!\nThe opamp can be switched in and out because of the four switches (in blue). Only the output\nstage is switched in and out, by transistors M11. The input stage remains on, which improves\nthe settling time.",
+      "text": "The first remedy is to make everything fully differential. A fully-differential opamp is now used, as shown in this slide. It is a two-stage Miller opamp with a folded cascode as a first stage. A second stage is needed to provide rail-to-rail output swing. The gain can be quite high, 75 dB in this example. For a 1 pF load, the GBW is about 30 MHz, for only 80 mW power consumption. This gives a high FOM indeed! The opamp can be switched in and out because of the four switches (in blue). Only the output stage is switched in and out, by transistors M11. The input stage remains on, which improves the settling time."
+    },
+    {
+      "pdf_page": 642,
+      "printed_page": 653,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "Of more importance, is\nthat the compensation\ncapacitance CC has a series\nswitch MS. The voltage\nacross CC is therefore con-\nstant irrespective of the\nswitching. The settling time\nis greatly improved by this\narrangement.\nThe minimum supply\nvoltage V is only\nDD\nV +V or V +2 V .\nGS DSsat T DSsat\nFor a V of 0.6 V, a V of\nT DD\n1 V is easily achieved\n(V −V =0.2 V).\nGS T\nNote that the inputs oper-\nate close to ground. As a\nresult the whole supply voltage V is available for V of the input switch V .\nDD GS GS\nThe average output voltage is about 0.5 V however, for maximum output swing. A level shifter\nis required between output and input.",
+      "text": "Of more importance, is that the compensation capacitance CC has a series switch MS. The voltage across CC is therefore constant irrespective of the switching. The settling time is greatly improved by this arrangement. The minimum supply voltage V is only DD V +V or V +2 V . GS DSsat T DSsat For a V of 0.6 V, a V of T DD 1 V is easily achieved (V −V =0.2 V). GS T Note that the inputs operate close to ground. As a result the whole supply voltage V is available for V of the input switch V . DD GS GS The average output voltage is about 0.5 V however, for maximum output swing. A level shifter is required between output and input."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The first remedy is to make everything fully differential. A fully-differential opamp is now used, as shown in this slide. It is a two-stage Miller opamp with a folded cascode as a first stage. A second stage is needed to provide rail-to-rail output swing. The gain can be quite high, 75 dB in this example. For a 1 pF load, the GBW is about 30 MHz, for only 80 mW power consumption. This gives a high FOM indeed! The opamp can be switched in and out because of the four switches (in blue). Only the output stage is switched in and out, by transistors M11. The input stage remains on, which improves the settling time.\n\nOf more importance, is that the compensation capacitance CC has a series switch MS. The voltage across CC is therefore constant irrespective of the switching. The settling time is greatly improved by this arrangement. The minimum supply voltage V is only DD V +V or V +2 V . GS DSsat T DSsat For a V of 0.6 V, a V of T DD 1 V is easily achieved (V −V =0.2 V). GS T Note that the inputs operate close to ground. As a result the whole supply voltage V is available for V of the input switch V . DD GS GS The average output voltage is about 0.5 V however, for maximum output swing. A level shifter is required between output and input.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "1 Volt OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0642_01_2131.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07417903660230278,
+          0.08171797330301156,
+          0.28392907031597864,
+          0.1377942254727369
+        ],
+        "confidence": 1,
+        "text": "1 Volt OTA"
+      },
+      {
+        "bbox": [
+          0.08783783842905404,
+          0.2097560973780488,
+          0.13513513572635133,
+          0.23414634128048784
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.19932432391891894,
+          0.287804877707317,
+          0.24662162121621622,
+          0.32195121917073166
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OVb"
+      },
+      {
+        "bbox": [
+          0.3513513493806307,
+          0.2878048783739837,
+          0.469594592623874,
+          0.3170731710569106
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OVь VьO"
+      },
+      {
+        "bbox": [
+          0.49999999949324325,
+          0.2878048782113821,
+          0.5304054048986486,
+          0.317073170894309
+        ],
+        "confidence": 0.5,
+        "text": "MI"
+      },
+      {
+        "bbox": [
+          0.6079537678104263,
+          0.26757494696200057,
+          0.7265056922324068,
+          0.3226689541284211
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VONM8"
+      },
+      {
+        "bbox": [
+          0.7635135127956081,
+          0.287804878292683,
+          0.8209459452280405,
+          0.3170731709756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VьО-"
+      },
+      {
+        "bbox": [
+          0.8479729725506757,
+          0.2878048782317073,
+          0.8817567563344595,
+          0.31219512213414635
+        ],
+        "confidence": 1,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.07770270346283782,
+          0.4097560973170732,
+          0.13851351427364864,
+          0.43902439000000004
+        ],
+        "confidence": 0.5,
+        "text": "Vo+O"
+      },
+      {
+        "bbox": [
+          0.37162162083333333,
+          0.3999999995121952,
+          0.43243243164414413,
+          0.42926829219512197
+        ],
+        "confidence": 0.5,
+        "text": "Vi+o"
+      },
+      {
+        "bbox": [
+          0.46283783817567575,
+          0.40487804908536584,
+          0.4966216219594595,
+          0.4292682929878049
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.5844594601694949,
+          0.40000000032520333,
+          0.6385135110016763,
+          0.4292682930081302
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ToVi-"
+      },
+      {
+        "bbox": [
+          0.8783783793918919,
+          0.4097560974796748,
+          0.9391891902027028,
+          0.43414634138211383
+        ],
+        "confidence": 1,
+        "text": "• Vo-"
+      },
+      {
+        "bbox": [
+          0.6756756759853604,
+          0.5024390242276423,
+          0.7128378381475226,
+          0.5414634144715447
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Icc"
+      },
+      {
+        "bbox": [
+          0.8547297295608107,
+          0.4780487803861788,
+          0.8952702701013512,
+          0.5024390242886179
+        ],
+        "confidence": 0.5,
+        "text": "M10"
+      },
+      {
+        "bbox": [
+          0.05743243306587836,
+          0.565853658292683,
+          0.10810810874155403,
+          0.5951219509756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2n •"
+      },
+      {
+        "bbox": [
+          0.8378378385698197,
+          0.5658536582926829,
+          0.8817567574887387,
+          0.5902439021951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M11"
+      },
+      {
+        "bbox": [
+          0.9020270277370624,
+          0.5658536587804878,
+          0.9560810785692437,
+          0.5902439026829267
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-02n"
+      },
+      {
+        "bbox": [
+          0.07770269923986495,
+          0.7121951220731708,
+          0.354729726266892,
+          0.7609756098780489
+        ],
+        "confidence": 0.5,
+        "text": "1 V (min: V,+2VDSsat)"
+      },
+      {
+        "bbox": [
+          0.08108107880067573,
+          0.7658536590243902,
+          0.37837837609797303,
+          0.8048780492682927
+        ],
+        "confidence": 1,
+        "text": "Fully differential : 75 dB"
+      },
+      {
+        "bbox": [
+          0.0777027053378378,
+          0.8146341460487805,
+          0.34121621885135134,
+          0.853658536292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "30 MHz 1 pF 80 uA"
+      },
+      {
+        "bbox": [
+          0.07765656417744435,
+          0.863066461862239,
+          0.18247856834103177,
+          0.8930310996185867
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "< 100 ns"
+      },
+      {
+        "bbox": [
+          0.49662162105855856,
+          0.6829268287804878,
+          0.5371621615990991,
+          0.7121951214634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vcm"
+      },
+      {
+        "bbox": [
+          0.5844594575675676,
+          0.7268292685365855,
+          0.7736486467567568,
+          0.76097561
+        ],
+        "confidence": 0.5,
+        "text": "4 Switches 2n :"
+      },
+      {
+        "bbox": [
+          0.584459453434685,
+          0.7804878050406503,
+          0.9459459399211715,
+          0.8195121952845528
+        ],
+        "confidence": 0.5,
+        "text": "Only 2nd stage switched off !"
+      },
+      {
+        "bbox": [
+          0.5236486537162162,
+          0.8731707314634147,
+          0.9290540591216214,
+          0.9024390241463416
+        ],
+        "confidence": 0.5,
+        "text": "Baschirotto, JSSC Dec.97,pp.1979-1986"
+      },
+      {
+        "bbox": [
+          0.7229729759257276,
+          0.9414634147967479,
+          0.9324324224976963,
+          0.9707317074796747
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2131"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A fully-differential opamp is now used, as shown in this slide.",
+      "pdf_page": 641,
+      "printed_page": 652,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0642_01_2131.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The gain can be quite high, 75 dB in this example.",
+      "pdf_page": 641,
+      "printed_page": 652,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The voltage across CC is therefore constant irrespective of the switching.",
+      "pdf_page": 642,
+      "printed_page": 653,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result the whole supply voltage V is available for V of the input switch V .",
+      "pdf_page": 642,
+      "printed_page": 653,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2131-M01",
+      "ocr_text": "< 100 ns",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07765656417744435,
+        0.863066461862239,
+        0.18247856834103177,
+        0.8930310996185867
+      ],
+      "context_crop": "regions/SANSEN-2131_math_01.png",
+      "context_bbox_normalized": [
+        0.03765656417744435,
+        0.763066461862239,
+        0.4124785683410318,
+        0.93
+      ],
+      "source_image": "slides/p0642_01_2131.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

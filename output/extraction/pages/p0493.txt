@@ -1,0 +1,46 @@
+Switched-capacitor filters 503
+The resulting gain is exactly the same as for a purely analog integrator, provided the time
+constant T /a.
+c
+This is approximation however, for low frequencies. For higher frequencies, an error is made,
+discussed next.
+1736
+To find out what the transfer
+characteristic is for all
+frequencies, the original
+expression H(z) in z is
+taken again.
+The exponentials can be
+rewritten in terms of vT /2.
+c
+They can be combined in a
+sine function.
+The same expression of an
+integrator is obtained, but
+multiplied by a sin(x)/x
+function. This function is the
+error functional which is
+typical for all sampling of
+analog signals.
+This function is calculated on the next slide. A rule of thumb is that for a frequency one tenth
+of the clock frequency, the error is about one tenth of a percent. This error grows with the
+square of the frequency, as shown on the next slide.
+1737
+The sin(x)/x function is
+easily calculated, as shown
+in this slide. It starts at 1 for
+small x and goes through
+zero at x=p=3.14.
+For small values of x, the
+sine function can be repre-
+sented by a power series and
+cut off after the first two
+terms.
+For x=0.1, the function
+drops to 0.3% below unity.
+For x=0.05 as on the previ-
+ous slide, the function drops
+to 0.08% below unity. This
+is taken to be about 0.1%.
+Note also that this function changes with x2. The errors decrease rapidly for smaller values of
+x. For example, for an error of 0.05% the value is about 0.04. An error of 0.05% is a typical

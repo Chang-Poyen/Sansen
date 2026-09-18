@@ -1,0 +1,264 @@
+{
+  "case_id": "SANSEN-1825",
+  "slide_id": "1825",
+  "chapter": 18,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 521,
+    "printed_page": 531
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0521_01_1825.jpg",
+      "pdf_page": 521,
+      "printed_page": 531,
+      "bbox_pt": [
+        95.25214,
+        122.52695999999992,
+        378.27274,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 521,
+      "printed_page": 531,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        393.5715100000001
+      ],
+      "text_raw": "The current of a MOST can\nstill be described by a\nsquare-law relationship in\nits simplest form.\nApplication of a small-\nsignal v , with amplitude\ngs\nV , superimposed on a DC\ngs\nbiasing voltage V , yields\nGS\na small-signal current i\nds\nsuperimposed on the DC\ncurrent I .\nDS\nNote that we have to\nwrite voltages and currents\nin the correct way so as to\nclarify which components\nare actually needed.\nA graphical explanation is\ngiven next.",
+      "text": "The current of a MOST can still be described by a square-law relationship in its simplest form. Application of a smallsignal v , with amplitude gs V , superimposed on a DC gs biasing voltage V , yields GS a small-signal current i ds superimposed on the DC current I . DS Note that we have to write voltages and currents in the correct way so as to clarify which components are actually needed. A graphical explanation is given next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The current of a MOST can still be described by a square-law relationship in its simplest form. Application of a smallsignal v , with amplitude gs V , superimposed on a DC gs biasing voltage V , yields GS a small-signal current i ds superimposed on the DC current I . DS Note that we have to write voltages and currents in the correct way so as to clarify which components are actually needed. A graphical explanation is given next.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Distortion in a single-MOST amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0521_01_1825.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626556497185,
+          0.07804878060975606,
+          0.7491525367514126,
+          0.14146341475609758
+        ],
+        "confidence": 1,
+        "text": "Distortion in a single-MOST amplifier"
+      },
+      {
+        "bbox": [
+          0.11525424063559313,
+          0.26829268201219514,
+          0.4169491558898304,
+          0.3414634137195123
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "iDs = K (Vgs - VT)2"
+      },
+      {
+        "bbox": [
+          0.11525424090395471,
+          0.39512195048780485,
+          0.6033898341242937,
+          0.4829268285365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ips + ids = K (Ves + Vgs - V,)="
+      },
+      {
+        "bbox": [
+          0.6711864406053268,
+          0.2292682922996515,
+          0.7152542372154963,
+          0.2829268288850174
+        ],
+        "confidence": 0.5,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.5593220348587571,
+          0.26341463369918694,
+          0.6745762721468928,
+          0.32682926784552846
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "K= K'"
+      },
+      {
+        "bbox": [
+          0.6813559323728813,
+          0.31219512243902436,
+          0.7118644069491525,
+          0.36097561024390235
+        ],
+        "confidence": 0.5,
+        "text": "L"
+      },
+      {
+        "bbox": [
+          0.117989816308799,
+          0.5762282673579232,
+          0.5465461227921808,
+          0.6507183004843821
+        ],
+        "confidence": 0.5,
+        "text": "IDs is the DC component"
+      },
+      {
+        "bbox": [
+          0.11476060420649759,
+          0.6514265852213159,
+          0.6276177115952688,
+          0.7334595843995744
+        ],
+        "confidence": 0.5,
+        "text": "ips is the DC + ac component"
+      },
+      {
+        "bbox": [
+          0.12203389674576273,
+          0.7365853661707317,
+          0.5288135577627119,
+          0.8000000003170732
+        ],
+        "confidence": 0.5,
+        "text": "ids is the ac component"
+      },
+      {
+        "bbox": [
+          0.11666665791666687,
+          0.8023952112312898,
+          0.8166666579166668,
+          0.874251495954339
+        ],
+        "confidence": 1,
+        "text": "Ids is the amplitude of the ac component"
+      },
+      {
+        "bbox": [
+          0.7186440701271186,
+          0.9317073165853659,
+          0.932203392161017,
+          0.9707317068292683
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 05 1825"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0521_01_1825.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1825-M01",
+      "ocr_text": "iDs = K (Vgs - VT)2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11525424063559313,
+        0.26829268201219514,
+        0.4169491558898304,
+        0.3414634137195123
+      ],
+      "context_crop": "regions/SANSEN-1825_math_01.png",
+      "context_bbox_normalized": [
+        0.07525424063559313,
+        0.16829268201219513,
+        0.6469491558898304,
+        0.4714634137195123
+      ],
+      "source_image": "slides/p0521_01_1825.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1825-M02",
+      "ocr_text": "Ips + ids = K (Ves + Vgs - V,)=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11525424090395471,
+        0.39512195048780485,
+        0.6033898341242937,
+        0.4829268285365853
+      ],
+      "context_crop": "regions/SANSEN-1825_math_02.png",
+      "context_bbox_normalized": [
+        0.07525424090395472,
+        0.2951219504878049,
+        0.8333898341242937,
+        0.6129268285365853
+      ],
+      "source_image": "slides/p0521_01_1825.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1825-M03",
+      "ocr_text": "K= K'",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5593220348587571,
+        0.26341463369918694,
+        0.6745762721468928,
+        0.32682926784552846
+      ],
+      "context_crop": "regions/SANSEN-1825_math_03.png",
+      "context_bbox_normalized": [
+        0.519322034858757,
+        0.16341463369918693,
+        0.9045762721468927,
+        0.45682926784552846
+      ],
+      "source_image": "slides/p0521_01_1825.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

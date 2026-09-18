@@ -1,0 +1,253 @@
+{
+  "case_id": "SANSEN-1217",
+  "slide_id": "1217",
+  "chapter": 12,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 338,
+    "printed_page": 345
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0338_01_1217.jpg",
+      "pdf_page": 338,
+      "printed_page": 345,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 338,
+      "printed_page": 345,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        487.24250000000035
+      ],
+      "text_raw": "An adaptive biasing ampli-\nfier adapts its biasing to be\nable to provide larger\noutput currents.\nThe amplifier in this slide\nis a symmetrical amplifier,\nwhich is single ended.\nNowadays it would be\ndifferential.\nTwo times two current\nmirrors are added, i.e. with\ntransistors M11/M12 and\nM13/M14. Without these\ntransistors the maximum\noutput current would be\nlimited to BI .\nP\nIn order to increase this maximum current, biasing current I must be made larger for larger\np\ninput voltages. This biasing current is adapted to the input signal level. This is why it is in\nparallel with two more current mirrors through transistors M18 and M19. Let us follow the\npath to transistor M19.\nTransistors M19 forms a current mirror (with current factor A) with M20. This latter transistor\ntake the difference in current I –I , which are proportional to the currents in the input stage.\n1 2\nThe larger of these two currents wins. If I is larger than I then AI current is added to I ,\n1 2 1 p\nincreasing the total biasing current of the first stage, and also increasing the maximum output\ncurrent.\nIf, however, I is larger than I , then it is mirrored by M17/M18, also multiplied by A and\n2 1\nalso added to I .\np\nThe adaptive current feedback is a kind of rectifier, as shown next.",
+      "text": "An adaptive biasing amplifier adapts its biasing to be able to provide larger output currents. The amplifier in this slide is a symmetrical amplifier, which is single ended. Nowadays it would be differential. Two times two current mirrors are added, i.e. with transistors M11/M12 and M13/M14. Without these transistors the maximum output current would be limited to BI . P In order to increase this maximum current, biasing current I must be made larger for larger p input voltages. This biasing current is adapted to the input signal level. This is why it is in parallel with two more current mirrors through transistors M18 and M19. Let us follow the path to transistor M19. Transistors M19 forms a current mirror (with current factor A) with M20. This latter transistor take the difference in current I –I , which are proportional to the currents in the input stage. 1 2 The larger of these two currents wins. If I is larger than I then AI current is added to I , 1 2 1 p increasing the total biasing current of the first stage, and also increasing the maximum output current. If, however, I is larger than I , then it is mirrored by M17/M18, also multiplied by A and 2 1 also added to I . p The adaptive current feedback is a kind of rectifier, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An adaptive biasing amplifier adapts its biasing to be able to provide larger output currents. The amplifier in this slide is a symmetrical amplifier, which is single ended. Nowadays it would be differential. Two times two current mirrors are added, i.e. with transistors M11/M12 and M13/M14. Without these transistors the maximum output current would be limited to BI . P In order to increase this maximum current, biasing current I must be made larger for larger p input voltages. This biasing current is adapted to the input signal level. This is why it is in parallel with two more current mirrors through transistors M18 and M19. Let us follow the path to transistor M19. Transistors M19 forms a current mirror (with current factor A) with M20. This latter transistor take the difference in current I –I , which are proportional to the currents in the input stage. 1 2 The larger of these two currents wins. If I is larger than I then AI current is added to I , 1 2 1 p increasing the total biasing current of the first stage, and also increasing the maximum output current. If, however, I is larger than I , then it is mirrored by M17/M18, also multiplied by A and 2 1 also added to I . p The adaptive current feedback is a kind of rectifier, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Adaptive Biasing Amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0338_01_1217.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432779922776,
+          0.08292682898954706,
+          0.5608108142857143,
+          0.14146341435540066
+        ],
+        "confidence": 1,
+        "text": "Adaptive Biasing Amplifier"
+      },
+      {
+        "bbox": [
+          0.5844594589949323,
+          0.26341463432926826,
+          0.6216216211570945,
+          0.2878048782317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M13"
+      },
+      {
+        "bbox": [
+          0.6722972979729729,
+          0.26341463406504073,
+          0.7128378385135135,
+          0.2878048779674798
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M14"
+      },
+      {
+        "bbox": [
+          0.6790540534346847,
+          0.3121951221951219,
+          0.7162162155968469,
+          0.33658536609756096
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1.8"
+      },
+      {
+        "bbox": [
+          0.25,
+          0.6975609761788619,
+          0.2972972972972973,
+          0.7317073176422765
+        ],
+        "confidence": 0.5,
+        "text": "M17,"
+      },
+      {
+        "bbox": [
+          0.37837837791385137,
+          0.707317073414634,
+          0.41554054007601354,
+          0.7365853660975609
+        ],
+        "confidence": 0.5,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.31418918910472976,
+          0.7512195125609756,
+          0.3547297296452703,
+          0.7804878052439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M18"
+      },
+      {
+        "bbox": [
+          0.4054054049831081,
+          0.8048780489634146,
+          0.43918918876689195,
+          0.8292682928658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1:8"
+      },
+      {
+        "bbox": [
+          0.5000000005405406,
+          0.8487804875609756,
+          0.5540540545945947,
+          0.8829268290243902
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A : 1"
+      },
+      {
+        "bbox": [
+          0.7263513518581082,
+          0.8048780505939118,
+          0.7635135140202702,
+          0.8439024385117794
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.7837837836148649,
+          0.809756097195122,
+          0.8040540538851352,
+          0.8390243898780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.5574324285810812,
+          0.8926829270243902,
+          0.9425675637162162,
+          0.9219512197073171
+        ],
+        "confidence": 1,
+        "text": "Ref. Degrauwe, JSSC June 82, 522-528"
+      },
+      {
+        "bbox": [
+          0.7263513607230246,
+          0.946341463927245,
+          0.9358108072949933,
+          0.9853658530081301
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 1217"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "If, however, I is larger than I , then it is mirrored by M17/M18, also multiplied by A and 2 1 also added to I . p The adaptive current feedback is a kind of rectifier, as shown next.",
+      "pdf_page": 338,
+      "printed_page": 345,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0338_01_1217.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This is why it is in parallel with two more current mirrors through transistors M18 and M19.",
+        "pdf_page": 338,
+        "printed_page": 345,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Without these transistors the maximum output current would be limited to BI .",
+      "pdf_page": 338,
+      "printed_page": 345,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "P In order to increase this maximum current, biasing current I must be made larger for larger p input voltages.",
+      "pdf_page": 338,
+      "printed_page": 345,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This latter transistor take the difference in current I –I , which are proportional to the currents in the input stage. 1 2 The larger of these two currents wins.",
+      "pdf_page": 338,
+      "printed_page": 345,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

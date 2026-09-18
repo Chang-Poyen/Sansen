@@ -1,0 +1,46 @@
+L ow-noise amplifiers 739
+2356
+For sake of illustration, the
+effect is shown of the ESD
+capacitance on the Noise
+Figure for a 1.6 GHz LNA
+(in 0.25 mm CMOS). The
+current is 6 mA. The input
+C is about 0.15 pF.
+GS
+For a C increasing to
+ESD
+0.35 pF, the NF increases
+from 0.9 dB to 1.5 dB. The
+power gain then decreases
+from 19.3 to 15.7 dB.
+This ESD protection pro-
+vides better protection, as
+shown in the second plot.
+2357
+If capacitive protection
+devices are used, it is now
+better to connect them in a
+p-network, as shown in this
+slide. The addition of an
+inductor L inbetween in-
+g
+creases the protection some-
+what. This inductor is actu-
+ally too small to play a role
+at the ESD-frequencies. It
+does play a role for the input
+impedance matching at the
+RF frequencies.
+Also, any parasitic capaci-
+tance at the Gate of the
+MOST to ground, can be
+absorbed by the ESD-device capacitance C . This latter capacitor must always be included in
+2
+the design process, for high-frequency LNA’s.
+The design of such a p-network is not obvious, as even more degrees of freedom are available.
+However, the main concern is to make C as small as possible.
+1
+The Noise Figure will be reduced somewhat as the inductor L has some series resistance
+g
+(typically 2 V/nH).

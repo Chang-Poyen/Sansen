@@ -1,0 +1,45 @@
+L ow-noise amplifiers 727
+2332
+Our overview starts with a
+very simple LNA.A cascode
+is used to improve the isola-
+tion between output and
+input. This is especially
+required to avoid leakage
+from the next block, which
+is usually a mixer, to the
+input of the LNA.
+In order to avoid noise
+coming from the cascode, its
+DC current is reduced.
+A current source with
+pMOST, provides some of
+the DC current to the input
+transistor. In this way, the
+contribution of the noise of the load devices can be reduced somewhat.
+At the input, the bond-wire is shown. It is used to tune out the effect of the input MOST
+capacitance and of the bonding pad capacitance.
+2333
+This LNA consists of two
+equal stages.
+The input transistors M1
+and M2 are connected as a
+common CMOS inverter
+amplifier. Both of them con-
+tribute to the transconduct-
+ance. The current in the
+nMOST is now reused in
+the pMOST.
+However, the biasing cur-
+rent of a CMOS inverter
+amplifier heavily depends
+on the supply voltage. This
+problem is solved here by a
+biasing block consisting of
+transistors M3-M7. This block provides DC feedback such that the DC output voltage equals
+V for the first LNA. It is fully decoupled from the AC operation by means of two decoupling
+B1
+capacitors C and C .
+B X
+At the input a matching network N is provided.
+S

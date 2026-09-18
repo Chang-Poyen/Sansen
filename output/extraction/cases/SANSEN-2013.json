@@ -1,0 +1,268 @@
+{
+  "case_id": "SANSEN-2013",
+  "slide_id": "2013",
+  "chapter": 20,
+  "slide_number_in_chapter": 13,
+  "source": {
+    "pdf_page": 597,
+    "printed_page": 608
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0598_01_2013.jpg",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 597,
+      "printed_page": 608,
+      "bbox_pt": [
+        0,
+        642.69638035,
+        595,
+        797
+      ],
+      "text_raw": "In this DAC only resistors are used of two sizes r and 2R. Actually, all resistors have equal size\nbut for 2R two resistors are put in series. This greatly facilitates the matching between the\nresistors (see Chapter 15). A resolution of 10 bit is fairly easily achieved.",
+      "text": "In this DAC only resistors are used of two sizes r and 2R. Actually, all resistors have equal size but for 2R two resistors are put in series. This greatly facilitates the matching between the resistors (see Chapter 15). A resolution of 10 bit is fairly easily achieved."
+    },
+    {
+      "pdf_page": 598,
+      "printed_page": 609,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        451.3685000000003
+      ],
+      "text_raw": "Moreover, the total sum\nof resistor area is much\nsmaller indeed!\nTo see how this 4-bit con-\nverter works, the currents\nare indicated, through all\nthe branches.\nThe current through the\nmost left resistor 2R, and\nswitch B3, is current I . This\nR\nis actually V /2R. This\nREF\ncurrent always flows as it is\ndirected by switch B3, either\nto the input of the opamp\n(as shown) or to ground.\nThe current through the\nmost left (horizontal) resis-\ntor R is also current I . Indeed, it is followed by another resistor 2R through switch B2 in\nR\nparallel with another (horizontal) resistor R, which again sees a resistor R. As a result, each\n(horizontal) resistor R sees a resistance R to the right.\nAt the end of the resistor string, it is clear that the two most right resistors 2R are in parallel\nand offer a resistance R to the most right (horizontal) resistance. At all nodes, a resistance R is\nseen to the right with respect to ground.\nWhen the switches are in position 1111 (as shown), then all currents are directed into the\nopamp and through the feedback resistor R towards the output. If a switch is in position 0, then\nits current flows to ground and does not contribute to the output voltage.",
+      "text": "Moreover, the total sum of resistor area is much smaller indeed! To see how this 4-bit converter works, the currents are indicated, through all the branches. The current through the most left resistor 2R, and switch B3, is current I . This R is actually V /2R. This REF current always flows as it is directed by switch B3, either to the input of the opamp (as shown) or to ground. The current through the most left (horizontal) resistor R is also current I . Indeed, it is followed by another resistor 2R through switch B2 in R parallel with another (horizontal) resistor R, which again sees a resistor R. As a result, each (horizontal) resistor R sees a resistance R to the right. At the end of the resistor string, it is clear that the two most right resistors 2R are in parallel and offer a resistance R to the most right (horizontal) resistance. At all nodes, a resistance R is seen to the right with respect to ground. When the switches are in position 1111 (as shown), then all currents are directed into the opamp and through the feedback resistor R towards the output. If a switch is in position 0, then its current flows to ground and does not contribute to the output voltage."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this DAC only resistors are used of two sizes r and 2R. Actually, all resistors have equal size but for 2R two resistors are put in series. This greatly facilitates the matching between the resistors (see Chapter 15). A resolution of 10 bit is fairly easily achieved.\n\nMoreover, the total sum of resistor area is much smaller indeed! To see how this 4-bit converter works, the currents are indicated, through all the branches. The current through the most left resistor 2R, and switch B3, is current I . This R is actually V /2R. This REF current always flows as it is directed by switch B3, either to the input of the opamp (as shown) or to ground. The current through the most left (horizontal) resistor R is also current I . Indeed, it is followed by another resistor 2R through switch B2 in R parallel with another (horizontal) resistor R, which again sees a resistor R. As a result, each (horizontal) resistor R sees a resistance R to the right. At the end of the resistor string, it is clear that the two most right resistors 2R are in parallel and offer a resistance R to the most right (horizontal) resistance. At all nodes, a resistance R is seen to the right with respect to ground. When the switches are in position 1111 (as shown), then all currents are directed into the opamp and through the feedback resistor R towards the output. If a switch is in position 0, then its current flows to ground and does not contribute to the output voltage.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "R-2R DAC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0598_01_2013.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432263513519,
+          0.07804878069105692,
+          0.2770270253378379,
+          0.1317073172764227
+        ],
+        "confidence": 0.5,
+        "text": "R-2R DAC"
+      },
+      {
+        "bbox": [
+          0.06418919031531527,
+          0.2878048778861788,
+          0.13175675788288282,
+          0.31707317056910567
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VREF O"
+      },
+      {
+        "bbox": [
+          0.20945946019144143,
+          0.2878048779674798,
+          0.2533783791103604,
+          0.3121951218699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "w"
+      },
+      {
+        "bbox": [
+          0.1587837832347973,
+          0.37560975548780484,
+          0.20945945891047296,
+          0.42439024329268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Z 2R"
+      },
+      {
+        "bbox": [
+          0.2939189187922297,
+          0.3902439020731707,
+          0.3175675674408784,
+          0.4195121947560976
+        ],
+        "confidence": 1,
+        "text": "2R"
+      },
+      {
+        "bbox": [
+          0.4054054051097973,
+          0.3951219514024391,
+          0.42905405375844596,
+          0.41951219530487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2R"
+      },
+      {
+        "bbox": [
+          0.11486488411496806,
+          0.7951219519512195,
+          0.5033783718535001,
+          0.8390243909756098
+        ],
+        "confidence": 0.5,
+        "text": "Smaller area in Resistors !"
+      },
+      {
+        "bbox": [
+          0.516891891722973,
+          0.39512195101626024,
+          0.5371621619932433,
+          0.4195121949186992
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2R"
+      },
+      {
+        "bbox": [
+          0.5844594598144771,
+          0.39512195146341456,
+          0.6114864852305678,
+          0.4195121953658536
+        ],
+        "confidence": 1,
+        "text": "2R"
+      },
+      {
+        "bbox": [
+          0.570945946241554,
+          0.6731707314634148,
+          0.5945945948902026,
+          0.7024390241463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "UN"
+      },
+      {
+        "bbox": [
+          0.7804054041666667,
+          0.6829268295121951,
+          0.854729728490991,
+          0.707317073414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• vOUT"
+      },
+      {
+        "bbox": [
+          0.7331081180428445,
+          0.9512195119512196,
+          0.9425675646148132,
+          0.9853658534146342
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 2013"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This REF current always flows as it is directed by switch B3, either to the input of the opamp (as shown) or to ground.",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When the switches are in position 1111 (as shown), then all currents are directed into the opamp and through the feedback resistor R towards the output.",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0598_01_2013.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Actually, all resistors have equal size but for 2R two resistors are put in series.",
+        "pdf_page": 597,
+        "printed_page": 608,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "At the end of the resistor string, it is clear that the two most right resistors 2R are in parallel and offer a resistance R to the most right (horizontal) resistance.",
+        "pdf_page": 598,
+        "printed_page": 609,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Actually, all resistors have equal size but for 2R two resistors are put in series.",
+      "pdf_page": 597,
+      "printed_page": 608,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, each (horizontal) resistor R sees a resistance R to the right.",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Moreover, the total sum of resistor area is much smaller indeed!",
+      "pdf_page": 598,
+      "printed_page": 609,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

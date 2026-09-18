@@ -1,0 +1,367 @@
+{
+  "case_id": "SANSEN-1720",
+  "slide_id": "1720",
+  "chapter": 17,
+  "slide_number_in_chapter": 20,
+  "source": {
+    "pdf_page": 484,
+    "printed_page": 494
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0484_02_1720.jpg",
+      "pdf_page": 484,
+      "printed_page": 494,
+      "bbox_pt": [
+        91.521622,
+        455.358002,
+        374.78981,
+        651.817993
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 484,
+      "printed_page": 494,
+      "bbox_pt": [
+        0,
+        451.3685000000003,
+        595,
+        797
+      ],
+      "text_raw": "The maximum clock fre-\nquency also sets the maxi-\nmum signal frequency, as\nthe clock frequency must\nalways be much larger than\nthe signal frequency. The\nerror which occurs when the\nclock frequency is not\nsufficiently large, will be cal-\nculated later.\nWe now need to know on\nwhat maximum clock fre-\nquencies can be achieved.\nA small switch is taken\nwith a R of 10 kV. The\non\ncapacitor is 1 pF. For an\nerror of 0.1% the settling time is 70 ns and minimum period 140 ns. This corresponds to a clock\nfrequency f of 7 MHz.\nmax\nAs a consequence, if we need higher clocks than about 10 MHz, the switches must have to be",
+      "text": "The maximum clock frequency also sets the maximum signal frequency, as the clock frequency must always be much larger than the signal frequency. The error which occurs when the clock frequency is not sufficiently large, will be calculated later. We now need to know on what maximum clock frequencies can be achieved. A small switch is taken with a R of 10 kV. The on capacitor is 1 pF. For an error of 0.1% the settling time is 70 ns and minimum period 140 ns. This corresponds to a clock frequency f of 7 MHz. max As a consequence, if we need higher clocks than about 10 MHz, the switches must have to be"
+    },
+    {
+      "pdf_page": 485,
+      "printed_page": 495,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        201.24689999999975
+      ],
+      "text_raw": "made larger (larger W/L) or the capacitor smaller. Minimum unit capacitors are about 0.2 pF.\nHowever, if some gain is required, the other capacitor will be larger.\nLarger switches store more charge and will give rise to other side effects, which will be\ndiscussed later.\nIt can be concluded that switched-capacitor filters do not easily work which clocks beyond a\nfew tens of MHz.",
+      "text": "made larger (larger W/L) or the capacitor smaller. Minimum unit capacitors are about 0.2 pF. However, if some gain is required, the other capacitor will be larger. Larger switches store more charge and will give rise to other side effects, which will be discussed later. It can be concluded that switched-capacitor filters do not easily work which clocks beyond a few tens of MHz."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The maximum clock frequency also sets the maximum signal frequency, as the clock frequency must always be much larger than the signal frequency. The error which occurs when the clock frequency is not sufficiently large, will be calculated later. We now need to know on what maximum clock frequencies can be achieved. A small switch is taken with a R of 10 kV. The on capacitor is 1 pF. For an error of 0.1% the settling time is 70 ns and minimum period 140 ns. This corresponds to a clock frequency f of 7 MHz. max As a consequence, if we need higher clocks than about 10 MHz, the switches must have to be\n\nmade larger (larger W/L) or the capacitor smaller. Minimum unit capacitors are about 0.2 pF. However, if some gain is required, the other capacitor will be larger. Larger switches store more charge and will give rise to other side effects, which will be discussed later. It can be concluded that switched-capacitor filters do not easily work which clocks beyond a few tens of MHz.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Maximum frequency of operation",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0484_02_1720.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269850386102,
+          0.08780487825783978,
+          0.6655405363416989,
+          0.14634146362369338
+        ],
+        "confidence": 1,
+        "text": "Maximum frequency of operation"
+      },
+      {
+        "bbox": [
+          0.08108108510698195,
+          0.23414634109756105,
+          0.5641891932150901,
+          0.29756097524390246
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "For W/L = 2 and VGs-Vy~ 1 V"
+      },
+      {
+        "bbox": [
+          0.08108107975386102,
+          0.30243902449477356,
+          0.26689189056467183,
+          0.36585365864111496
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ron ~ 10 kl"
+      },
+      {
+        "bbox": [
+          0.08096504337915639,
+          0.36981792728431484,
+          0.2805214456371273,
+          0.4253040271787687
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "For C=1 pF"
+      },
+      {
+        "bbox": [
+          0.08084234144862217,
+          0.43710928497724766,
+          0.2806441473056877,
+          0.49459803115510703
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "For & = 0.1%"
+      },
+      {
+        "bbox": [
+          0.0801408517344086,
+          0.49901132068242304,
+          0.33853279909406075,
+          0.5621181785404761
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ts = 7RC ≥ 70 ns"
+      },
+      {
+        "bbox": [
+          0.08108107681587845,
+          0.5707317081707317,
+          0.5033783741131758,
+          0.6390243910975609
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T, =140 ns → fmax ~ 7 MHz"
+      },
+      {
+        "bbox": [
+          0.08783783783783784,
+          0.6585365858536585,
+          0.43243243243243246,
+          0.7073170736585366
+        ],
+        "confidence": 0.5,
+        "text": "Due to only one switch"
+      },
+      {
+        "bbox": [
+          0.09459459763513514,
+          0.7658536582229966,
+          0.5202702733108108,
+          0.8292682923693381
+        ],
+        "confidence": 0.5,
+        "text": "→ practical fmax : 1-10 MHz"
+      },
+      {
+        "bbox": [
+          0.6993243260135135,
+          0.6146341461463415,
+          0.8682432449324324,
+          0.6536585363902438
+        ],
+        "confidence": 1,
+        "text": "Tmax = 1/fmax"
+      },
+      {
+        "bbox": [
+          0.6515720872554853,
+          0.758429633860647,
+          0.8686981860944977,
+          0.8464484140804927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "L*→ Ron*"
+      },
+      {
+        "bbox": [
+          0.7162162135135136,
+          0.9365853662195122,
+          0.9324324297297298,
+          0.9756097564634146
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 N1720"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The error which occurs when the clock frequency is not sufficiently large, will be calculated later.",
+      "pdf_page": 484,
+      "printed_page": 494,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0484_02_1720.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "However, if some gain is required, the other capacitor will be larger.",
+      "pdf_page": 485,
+      "printed_page": 495,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The maximum clock frequency also sets the maximum signal frequency, as the clock frequency must always be much larger than the signal frequency.",
+      "pdf_page": 484,
+      "printed_page": 494,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1720-M01",
+      "ocr_text": "For W/L = 2 and VGs-Vy~ 1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08108108510698195,
+        0.23414634109756105,
+        0.5641891932150901,
+        0.29756097524390246
+      ],
+      "context_crop": "regions/SANSEN-1720_math_01.png",
+      "context_bbox_normalized": [
+        0.04108108510698195,
+        0.13414634109756104,
+        0.7941891932150901,
+        0.42756097524390246
+      ],
+      "source_image": "slides/p0484_02_1720.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1720-M02",
+      "ocr_text": "For C=1 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08096504337915639,
+        0.36981792728431484,
+        0.2805214456371273,
+        0.4253040271787687
+      ],
+      "context_crop": "regions/SANSEN-1720_math_02.png",
+      "context_bbox_normalized": [
+        0.040965043379156386,
+        0.26981792728431486,
+        0.5105214456371273,
+        0.5553040271787687
+      ],
+      "source_image": "slides/p0484_02_1720.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1720-M03",
+      "ocr_text": "For & = 0.1%",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08084234144862217,
+        0.43710928497724766,
+        0.2806441473056877,
+        0.49459803115510703
+      ],
+      "context_crop": "regions/SANSEN-1720_math_03.png",
+      "context_bbox_normalized": [
+        0.040842341448622164,
+        0.3371092849772477,
+        0.5106441473056877,
+        0.624598031155107
+      ],
+      "source_image": "slides/p0484_02_1720.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1720-M04",
+      "ocr_text": "ts = 7RC ≥ 70 ns",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0801408517344086,
+        0.49901132068242304,
+        0.33853279909406075,
+        0.5621181785404761
+      ],
+      "context_crop": "regions/SANSEN-1720_math_04.png",
+      "context_bbox_normalized": [
+        0.0401408517344086,
+        0.39901132068242307,
+        0.5685327990940607,
+        0.6921181785404761
+      ],
+      "source_image": "slides/p0484_02_1720.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1720-M05",
+      "ocr_text": "T, =140 ns → fmax ~ 7 MHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08108107681587845,
+        0.5707317081707317,
+        0.5033783741131758,
+        0.6390243910975609
+      ],
+      "context_crop": "regions/SANSEN-1720_math_05.png",
+      "context_bbox_normalized": [
+        0.04108107681587845,
+        0.47073170817073173,
+        0.7333783741131757,
+        0.7690243910975609
+      ],
+      "source_image": "slides/p0484_02_1720.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1720-M06",
+      "ocr_text": "Tmax = 1/fmax",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.6993243260135135,
+        0.6146341461463415,
+        0.8682432449324324,
+        0.6536585363902438
+      ],
+      "context_crop": "regions/SANSEN-1720_math_06.png",
+      "context_bbox_normalized": [
+        0.6593243260135134,
+        0.5146341461463415,
+        1,
+        0.7836585363902439
+      ],
+      "source_image": "slides/p0484_02_1720.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

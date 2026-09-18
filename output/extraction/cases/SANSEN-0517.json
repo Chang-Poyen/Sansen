@@ -1,0 +1,451 @@
+{
+  "case_id": "SANSEN-0517",
+  "slide_id": "0517",
+  "chapter": 5,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 153,
+    "printed_page": 157
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0153_01_0517.jpg",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "bbox_pt": [
+        91.521622,
+        266.02295000000004,
+        374.78981,
+        462.482941
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 153,
+      "printed_page": 157,
+      "bbox_pt": [
+        0,
+        262.0333999999998,
+        595,
+        797
+      ],
+      "text_raw": "This is very different for an\nopamp with two poles at fre-\nquencies f and f .\n1 2\nEach pole causes a phase\nshift of −90°. As a result,\nwe find a phase shift at high\nfrequencies. This means that\nat high frequencies, the\nsignal is inverted. There\nis still a loop gain slightly\nlarger than unity. Negative\nfeedback turns into positive\nfeedback with a little bit of\ngain. We obtain therefore,\nan oscillator rather than an\namplifier!\nAt the frequency where the loop gain becomes unity (which here is the GBW), the phase\nmargin PM is not quite zero. If it were zero we would have a real oscillator. It is not quite zero\nbut very small. This is why this amplifier shows a tendency for oscillation. It shows a large\namount of peaking at that frequency.\nWe do not want peaking because such a peak is very irreproducible. Moreover the noise is\ndeteriorated by that peak. Remember, noise has to be looked at on a linear frequency axis. Such\na peak then extends over most of the frequency range.\nThe question is, how far do we have to stay with our phase characteristic from this critical\n−180°; how large can the phase margin PM be allowed to increase to avoid this peaking?",
+      "text": "This is very different for an opamp with two poles at frequencies f and f . 1 2 Each pole causes a phase shift of −90°. As a result, we find a phase shift at high frequencies. This means that at high frequencies, the signal is inverted. There is still a loop gain slightly larger than unity. Negative feedback turns into positive feedback with a little bit of gain. We obtain therefore, an oscillator rather than an amplifier! At the frequency where the loop gain becomes unity (which here is the GBW), the phase margin PM is not quite zero. If it were zero we would have a real oscillator. It is not quite zero but very small. This is why this amplifier shows a tendency for oscillation. It shows a large amount of peaking at that frequency. We do not want peaking because such a peak is very irreproducible. Moreover the noise is deteriorated by that peak. Remember, noise has to be looked at on a linear frequency axis. Such a peak then extends over most of the frequency range. The question is, how far do we have to stay with our phase characteristic from this critical −180°; how large can the phase margin PM be allowed to increase to avoid this peaking?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This is very different for an opamp with two poles at frequencies f and f . 1 2 Each pole causes a phase shift of −90°. As a result, we find a phase shift at high frequencies. This means that at high frequencies, the signal is inverted. There is still a loop gain slightly larger than unity. Negative feedback turns into positive feedback with a little bit of gain. We obtain therefore, an oscillator rather than an amplifier! At the frequency where the loop gain becomes unity (which here is the GBW), the phase margin PM is not quite zero. If it were zero we would have a real oscillator. It is not quite zero but very small. This is why this amplifier shows a tendency for oscillation. It shows a large amount of peaking at that frequency. We do not want peaking because such a peak is very irreproducible. Moreover the noise is deteriorated by that peak. Remember, noise has to be looked at on a linear frequency axis. Such a peak then extends over most of the frequency range. The question is, how far do we have to stay with our phase characteristic from this critical −180°; how large can the phase margin PM be allowed to increase to avoid this peaking?",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Two-pole system",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0153_01_0517.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269979729734,
+          0.08292682863414635,
+          0.37499999709459464,
+          0.14634146278048776
+        ],
+        "confidence": 1,
+        "text": "Two-pole system"
+      },
+      {
+        "bbox": [
+          0.09121621596283783,
+          0.19024390195121954,
+          0.15540540515202703,
+          0.24878048731707314
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IAI A"
+      },
+      {
+        "bbox": [
+          0.09459459506756755,
+          0.2536585364878049,
+          0.14189189236486485,
+          0.3121951218536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ao"
+      },
+      {
+        "bbox": [
+          0.3445390155582252,
+          0.33129179222483107,
+          0.4831636836795631,
+          0.3711472328763292
+        ],
+        "confidence": 1,
+        "text": "-20 dB/dec"
+      },
+      {
+        "bbox": [
+          0.17567567449324326,
+          0.4536585367479675,
+          0.31756756638513517,
+          0.5024390245528455
+        ],
+        "confidence": 1,
+        "text": "loop gain"
+      },
+      {
+        "bbox": [
+          0.4797297306165541,
+          0.45853658512195117,
+          0.5506756765625,
+          0.49756097536585364
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.5641891865878379,
+          0.21463414575609763,
+          0.8310810784797298,
+          0.2731707311219512
+        ],
+        "confidence": 1,
+        "text": "Ao open loop gain"
+      },
+      {
+        "bbox": [
+          0.5641891932010136,
+          0.3170731698780488,
+          0.9189189229307433,
+          0.385365852804878
+        ],
+        "confidence": 0.5,
+        "text": "Closed loop gain Ac = 1"
+      },
+      {
+        "bbox": [
+          0.7060810806869369,
+          0.443902438495935,
+          0.7601351347409909,
+          0.5073170726422764
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.8479729720016893,
+          0.48780487810975615,
+          0.9256756747043919,
+          0.5317073171341464
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.5033415926825512,
+          0.5362868772324078,
+          0.6351719241240696,
+          0.5710301978835784
+        ],
+        "confidence": 0.5,
+        "text": "40 dB/dec"
+      },
+      {
+        "bbox": [
+          0.07432432440878381,
+          0.600000000406504,
+          0.13851351359797298,
+          0.6487804882113821
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ac=1"
+      },
+      {
+        "bbox": [
+          0.09459459405405406,
+          0.6585365848780488,
+          0.15540540486486487,
+          0.7073170726829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ФАА"
+      },
+      {
+        "bbox": [
+          0.10472973006756754,
+          0.712195121707317,
+          0.13851351385135133,
+          0.7463414631707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0°"
+      },
+      {
+        "bbox": [
+          0.08783783984291833,
+          0.7902439018699187,
+          0.13851351229672132,
+          0.8243902433333332
+        ],
+        "confidence": 1,
+        "text": "-90°"
+      },
+      {
+        "bbox": [
+          0.07770270326576577,
+          0.8682926823577235,
+          0.13851351407657658,
+          0.9024390238211382
+        ],
+        "confidence": 0.5,
+        "text": "-180°"
+      },
+      {
+        "bbox": [
+          0.297297296410473,
+          0.7512195124390243,
+          0.3682432423564189,
+          0.7804878051219512
+        ],
+        "confidence": 1,
+        "text": "open"
+      },
+      {
+        "bbox": [
+          0.47635135377252247,
+          0.7463414631707318,
+          0.6216216240427928,
+          0.7804878046341465
+        ],
+        "confidence": 1,
+        "text": "closed loop"
+      },
+      {
+        "bbox": [
+          0.4864864865146396,
+          0.8243902435365853,
+          0.5371621621903153,
+          0.8682926825609756
+        ],
+        "confidence": 1,
+        "text": "PM"
+      },
+      {
+        "bbox": [
+          0.6756756789273648,
+          0.8292682924390244,
+          0.9358108140625,
+          0.8780487802439025
+        ],
+        "confidence": 1,
+        "text": "PM phase margin"
+      },
+      {
+        "bbox": [
+          0.7297297391014029,
+          0.941463413902439,
+          0.9324324289166147,
+          0.9853658529268292
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 0517"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "As a result, we find a phase shift at high frequencies.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is why this amplifier shows a tendency for oscillation.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It shows a large amount of peaking at that frequency.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0153_01_0517.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, we find a phase shift at high frequencies.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "There is still a loop gain slightly larger than unity.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Negative feedback turns into positive feedback with a little bit of gain.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We obtain therefore, an oscillator rather than an amplifier!",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "At the frequency where the loop gain becomes unity (which here is the GBW), the phase margin PM is not quite zero.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The question is, how far do we have to stay with our phase characteristic from this critical −180°; how large can the phase margin PM be allowed to increase to avoid this peaking?",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "This is very different for an opamp with two poles at frequencies f and f . 1 2 Each pole causes a phase shift of −90°.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, we find a phase shift at high frequencies.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "At the frequency where the loop gain becomes unity (which here is the GBW), the phase margin PM is not quite zero.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It shows a large amount of peaking at that frequency.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We do not want peaking because such a peak is very irreproducible.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Moreover the noise is deteriorated by that peak.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Remember, noise has to be looked at on a linear frequency axis.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Such a peak then extends over most of the frequency range.",
+      "pdf_page": 153,
+      "printed_page": 157,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0517-M01",
+      "ocr_text": "Closed loop gain Ac = 1",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5641891932010136,
+        0.3170731698780488,
+        0.9189189229307433,
+        0.385365852804878
+      ],
+      "context_crop": "regions/SANSEN-0517_math_01.png",
+      "context_bbox_normalized": [
+        0.5241891932010135,
+        0.21707316987804878,
+        1,
+        0.515365852804878
+      ],
+      "source_image": "slides/p0153_01_0517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0517-M02",
+      "ocr_text": "Ac=1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07432432440878381,
+        0.600000000406504,
+        0.13851351359797298,
+        0.6487804882113821
+      ],
+      "context_crop": "regions/SANSEN-0517_math_02.png",
+      "context_bbox_normalized": [
+        0.03432432440878381,
+        0.500000000406504,
+        0.368513513597973,
+        0.7787804882113821
+      ],
+      "source_image": "slides/p0153_01_0517.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

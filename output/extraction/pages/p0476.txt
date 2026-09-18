@@ -1,0 +1,61 @@
+486 Chapter #17
+173
+Switching a capacitor in and
+out at the rate of a high-
+frequency clock passes a
+charge, which is peaked.
+Indeed, a clock is taken
+with frequency f , which has
+c
+two non-overlapping phases
+W1 and W2, which are both
+somewhat smaller than half
+the period T .
+c
+Charging capacitor C to
+voltage V during phase W1
+1
+and discharging capacitor
+C to voltage V during
+2
+phase W2, passes a charge
+C(V −V ) from the input
+1 2
+to the output terminal during period T .
+c
+The current which flows out of the output terminal is peaked, as it only flows at the beginning
+of phase W2. Its average however, I , can be regarded as an average current flowing from the
+av
+input to the output terminal, as a result of the voltage difference V −V . It can be regarded as
+1 2
+a current flowing between a voltage V −V because of a resistor R.
+1 2
+A switched capacitor now behaves as a resistor, provided averages are taken. This is true for
+low frequencies which are very low compared to the clock frequency.
+The equivalent resistance R is 1/f C. It can be increased in size for small values of clock
+c
+frequency and capacitor. For 100 kHz and 1 pF we already find a resistance of 10 MV, a value
+which is impossible to integrate otherwise.
+174
+Take as an example, this
+low-pass filter. The low-fre-
+quency gain A is a ratio of
+v0
+resistors, which can be made
+quite accurately.
+The cut-off frequency
+f however depends on a
+−3dB
+product of a resistor R and
+2
+the capacitor C. There is no
+way that this product R C
+2
+can be realized in an accu-
+rate way. Errors of more
+than 20% cannot be
+avoided.
+Substitution of this resis-
+tor R by its switched-
+2
+capacitor equivalent, will involve ratios only, which are easily realized with great accuracy.

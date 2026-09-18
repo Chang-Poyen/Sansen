@@ -1,0 +1,62 @@
+Feedback transimpedance and current amplifiers 391
+145
+This feedback arrangement
+is very simple indeed. The
+input signal current i will
+IN
+flow through the feedback
+resistor R to create an
+F
+output voltage i R . The
+IN F
+transresistance is simply R
+F
+itself.
+This amplifier has a lot of
+gain (A is between 104 and
+0
+106). As a result, whatever
+the output voltage is, the
+differential input voltage v
+IN
+will be quite small, compar-
+able to noise. The minus ter-
+minal of the amplifier is now
+at about zero Volt. The current through input resistance R is also about zero. This is certainly
+NP
+the case for a MOST for which resistor R is infinity. This is also true however, for a bipolar
+NP
+transistor which has a finite input resistance R .
+NP
+All the input current flows through the feedback resistor R . This is why the output voltage
+F
+is quite accurately equal to i R .
+IN F
+The feedback resistor R is usually much larger than the output resistance R . Later on we
+F O
+will find out what to do if this is not the case. We will call it output loading then.
+We want to learn about the loop gain first.
+146
+There are several places
+where we can break the
+loop. We have taken here
+the output of the amplifier.
+Now we have to calcu-
+late the ratio v /v .
+OUTLG INLG
+Remember that we break
+the loop only for AC perfor-
+mance, whereas the DC con-
+ditions are kept the same.
+Note that the input cur-
+rent source has been
+assumed to be ideal. It is left
+out for this calculation.
+No current can flow
+through R ; indeed resistor
+F
+R is infinite for MOST input devices. As a result, resistor R does not appear in the result.
+NP F
+The loop gain is therefore the same as the open-loop gain of the amplifier A . Its value is quite
+0
+high indeed.

@@ -1,0 +1,223 @@
+{
+  "case_id": "SANSEN-188",
+  "slide_id": "188",
+  "chapter": 18,
+  "slide_number_in_chapter": 8,
+  "source": {
+    "pdf_page": 512,
+    "printed_page": 522
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0512_02_188.jpg",
+      "pdf_page": 512,
+      "printed_page": 522,
+      "bbox_pt": [
+        91.521622,
+        397.560975,
+        374.78981,
+        594.020966
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 512,
+      "printed_page": 522,
+      "bbox_pt": [
+        0,
+        393.5715000000001,
+        595,
+        797
+      ],
+      "text_raw": "Such soft nonlinearity can\nbe described by means of a\npower series, as shown in\nthis slide.\nThe coefficient a gives\n0\nthe DC output voltage\nin quiescent point Q.\nCoefficient a gives the\n1\nsmall-signal gain. It is the\nslope of the transfer curve in\npoint Q. Coefficient a gives\n2\nthe second-order nonlinear-\nity. Actually, it represents\nthe even-order nonlinearit-\nies, as coefficients a , a , etc.\n4 4\nbecome gradually smaller.\nIn the same way, third-order coefficient a represents the higher-order ones a , a , etc.\n3 5 7",
+      "text": "Such soft nonlinearity can be described by means of a power series, as shown in this slide. The coefficient a gives 0 the DC output voltage in quiescent point Q. Coefficient a gives the 1 small-signal gain. It is the slope of the transfer curve in point Q. Coefficient a gives 2 the second-order nonlinearity. Actually, it represents the even-order nonlinearities, as coefficients a , a , etc. 4 4 become gradually smaller. In the same way, third-order coefficient a represents the higher-order ones a , a , etc. 3 5 7"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Such soft nonlinearity can be described by means of a power series, as shown in this slide. The coefficient a gives 0 the DC output voltage in quiescent point Q. Coefficient a gives the 1 small-signal gain. It is the slope of the transfer curve in point Q. Coefficient a gives 2 the second-order nonlinearity. Actually, it represents the even-order nonlinearities, as coefficients a , a , etc. 4 4 become gradually smaller. In the same way, third-order coefficient a represents the higher-order ones a , a , etc. 3 5 7",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Non-linearity : by power series",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0512_02_188.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431987612621,
+          0.07804877995934956,
+          0.6216216171734235,
+          0.14146341410569108
+        ],
+        "confidence": 1,
+        "text": "Non-linearity : by power series"
+      },
+      {
+        "bbox": [
+          0.060810809501689204,
+          0.19999999914634148,
+          0.1722972959881757,
+          0.2682926820731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.5405405418918918,
+          0.4195121947317073,
+          0.6756756770270269,
+          0.4682926825365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN(t) -"
+      },
+      {
+        "bbox": [
+          0.6790540525000001,
+          0.4195121952195122,
+          0.8344594579054055,
+          0.4682926830243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ VoUT(t)"
+      },
+      {
+        "bbox": [
+          0.4290540536679537,
+          0.46341463435540065,
+          0.48310810772200774,
+          0.502439024599303
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ t"
+      },
+      {
+        "bbox": [
+          0.422297296722973,
+          0.6341463416585364,
+          0.4797297291554054,
+          0.6926829270243902
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.5304054029560812,
+          0.6536585367682927,
+          0.7263513489020271,
+          0.7170731709146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT = ao+"
+      },
+      {
+        "bbox": [
+          0.5337837869087837,
+          0.7219512185365854,
+          0.9594594625844595,
+          0.7999999990243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a,VIN + azVIN?+ agVINS+..."
+      },
+      {
+        "bbox": [
+          0.7195945971706079,
+          0.9365853655487804,
+          0.9256756782516891,
+          0.970731707012195
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10a5 188"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Such soft nonlinearity can be described by means of a power series, as shown in this slide.",
+      "pdf_page": 512,
+      "printed_page": 522,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0512_02_188.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Coefficient a gives the 1 small-signal gain.",
+      "pdf_page": 512,
+      "printed_page": 522,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "It is the slope of the transfer curve in point Q.",
+      "pdf_page": 512,
+      "printed_page": 522,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-188-M01",
+      "ocr_text": "VouT = ao+",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5304054029560812,
+        0.6536585367682927,
+        0.7263513489020271,
+        0.7170731709146342
+      ],
+      "context_crop": "regions/SANSEN-188_math_01.png",
+      "context_bbox_normalized": [
+        0.4904054029560812,
+        0.5536585367682927,
+        0.9563513489020271,
+        0.8470731709146342
+      ],
+      "source_image": "slides/p0512_02_188.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

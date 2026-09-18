@@ -1,0 +1,413 @@
+{
+  "case_id": "SANSEN-0552",
+  "slide_id": "0552",
+  "chapter": 5,
+  "slide_number_in_chapter": 52,
+  "source": {
+    "pdf_page": 172,
+    "printed_page": 176
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0172_02_0552.jpg",
+      "pdf_page": 172,
+      "printed_page": 176,
+      "bbox_pt": [
+        91.521622,
+        383.759461,
+        374.78981,
+        580.219452
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 172,
+      "printed_page": 176,
+      "bbox_pt": [
+        0,
+        379.77000000000004,
+        595,
+        797
+      ],
+      "text_raw": "A three-stage amplifier has\nthree high-impedance points.\nThese three points must be\nconnected by two compen-\nsation capacitances C and\nC\nC to carry out pole\nD\nsplitting.\nThe most efficient way to\nachieve this is to nest these\ntwo Miller capacitances,\nresulting in the Nested-\nMiller configuration. Cap-\nacitance C is the overall\nC\ncompensation capacitance.\nThis is why it determines the\nGBW. The other one merely\nleads to a non-dominant pole.\nAgain, it is the input g which determines this GBW. There are now two non-dominant\nm1\npoles. One of them is again determined by the load capacitance C , as for a two-stage amplifier.\nL\nThe other is determined by the additional compensation capacitance C . The question now is,\nD\nhow to deal with two non-dominant poles rather than one?",
+      "text": "A three-stage amplifier has three high-impedance points. These three points must be connected by two compensation capacitances C and C C to carry out pole D splitting. The most efficient way to achieve this is to nest these two Miller capacitances, resulting in the Nested- Miller configuration. Capacitance C is the overall C compensation capacitance. This is why it determines the GBW. The other one merely leads to a non-dominant pole. Again, it is the input g which determines this GBW. There are now two non-dominant m1 poles. One of them is again determined by the load capacitance C , as for a two-stage amplifier. L The other is determined by the additional compensation capacitance C . The question now is, D how to deal with two non-dominant poles rather than one?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A three-stage amplifier has three high-impedance points. These three points must be connected by two compensation capacitances C and C C to carry out pole D splitting. The most efficient way to achieve this is to nest these two Miller capacitances, resulting in the Nested- Miller configuration. Capacitance C is the overall C compensation capacitance. This is why it determines the GBW. The other one merely leads to a non-dominant pole. Again, it is the input g which determines this GBW. There are now two non-dominant m1 poles. One of them is again determined by the load capacitance C , as for a two-stage amplifier. L The other is determined by the additional compensation capacitance C . The question now is, D how to deal with two non-dominant poles rather than one?",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "3-stage Nested Miller CMOS OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0172_02_0552.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431934121639,
+          0.08292683006097556,
+          0.6824324274493245,
+          0.14634146420731708
+        ],
+        "confidence": 1,
+        "text": "3-stage Nested Miller CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.6520270267736487,
+          0.5365853654471545,
+          0.6891891889358108,
+          0.5853658532520325
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.20270270308277027,
+          0.6926829261585367,
+          0.2736486490287162,
+          0.7463414627439025
+        ],
+        "confidence": 0.5,
+        "text": "9m1:"
+      },
+      {
+        "bbox": [
+          0.36148648631756763,
+          0.5999999998686679,
+          0.40540540523648655,
+          0.6341463413320825
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.3614864857432433,
+          0.6975609758048781,
+          0.43581081006756767,
+          0.7463414636097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m2:"
+      },
+      {
+        "bbox": [
+          0.5304054049662162,
+          0.6146341465853659,
+          0.5743243238851352,
+          0.6487804880487805
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.5371621628800676,
+          0.6975609755487806,
+          0.5945945953125,
+          0.7414634145731708
+        ],
+        "confidence": 0.5,
+        "text": "9m3"
+      },
+      {
+        "bbox": [
+          0.699324323503861,
+          0.2585365856097561,
+          0.8141891883687259,
+          0.3024390246341464
+        ],
+        "confidence": 0.5,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.5777027032939189,
+          0.43414634134146346,
+          0.6486486492398649,
+          0.47804878036585374
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.06418918956081081,
+          0.546341463902439,
+          0.10810810847972974,
+          0.5951219517073171
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.841216215608108,
+          0.38536585312195126,
+          0.9087837831756755,
+          0.43902438970731705
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.7229729736245174,
+          0.4195121947735192,
+          0.8141891898407336,
+          0.4780487801393729
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ind1 ="
+      },
+      {
+        "bbox": [
+          0.8243243251689188,
+          0.4585365852845529,
+          0.9256756765202702,
+          0.5170731706504065
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 CD"
+      },
+      {
+        "bbox": [
+          0.841216215608108,
+          0.5512195116585367,
+          0.9087837831756755,
+          0.6048780482439025
+        ],
+        "confidence": 0.5,
+        "text": "9m3"
+      },
+      {
+        "bbox": [
+          0.7263513529966475,
+          0.5853658526829268,
+          0.8344594546610102,
+          0.6439024380487806
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd2 ="
+      },
+      {
+        "bbox": [
+          0.8243243236245174,
+          0.6243902440069686,
+          0.9222972965974903,
+          0.6878048781533102
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2т CL"
+      },
+      {
+        "bbox": [
+          0.7263513529842343,
+          0.7658536581707317,
+          0.9222972989301802,
+          0.8195121947560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd1 = 3 GBW"
+      },
+      {
+        "bbox": [
+          0.7260269622860825,
+          0.8266775476260371,
+          0.9226216902919815,
+          0.8855175758771268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd2 = 5 GBW"
+      },
+      {
+        "bbox": [
+          0.7331081174797813,
+          0.941463413902439,
+          0.9358108072949931,
+          0.9853658529268292
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 0552"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is why it determines the GBW.",
+      "pdf_page": 172,
+      "printed_page": 176,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Again, it is the input g which determines this GBW.",
+      "pdf_page": 172,
+      "printed_page": 176,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "One of them is again determined by the load capacitance C , as for a two-stage amplifier.",
+      "pdf_page": 172,
+      "printed_page": 176,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0172_02_0552.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "These three points must be connected by two compensation capacitances C and C C to carry out pole D splitting.",
+        "pdf_page": 172,
+        "printed_page": 176,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0552-M01",
+      "ocr_text": "GBW =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.699324323503861,
+        0.2585365856097561,
+        0.8141891883687259,
+        0.3024390246341464
+      ],
+      "context_crop": "regions/SANSEN-0552_math_01.png",
+      "context_bbox_normalized": [
+        0.6593243235038609,
+        0.15853658560975611,
+        1,
+        0.4324390246341464
+      ],
+      "source_image": "slides/p0172_02_0552.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0552-M02",
+      "ocr_text": "Ind1 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7229729736245174,
+        0.4195121947735192,
+        0.8141891898407336,
+        0.4780487801393729
+      ],
+      "context_crop": "regions/SANSEN-0552_math_02.png",
+      "context_bbox_normalized": [
+        0.6829729736245174,
+        0.3195121947735192,
+        1,
+        0.6080487801393729
+      ],
+      "source_image": "slides/p0172_02_0552.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0552-M03",
+      "ocr_text": "fnd2 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7263513529966475,
+        0.5853658526829268,
+        0.8344594546610102,
+        0.6439024380487806
+      ],
+      "context_crop": "regions/SANSEN-0552_math_03.png",
+      "context_bbox_normalized": [
+        0.6863513529966475,
+        0.48536585268292687,
+        1,
+        0.7739024380487806
+      ],
+      "source_image": "slides/p0172_02_0552.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0552-M04",
+      "ocr_text": "fnd1 = 3 GBW",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7263513529842343,
+        0.7658536581707317,
+        0.9222972989301802,
+        0.8195121947560976
+      ],
+      "context_crop": "regions/SANSEN-0552_math_04.png",
+      "context_bbox_normalized": [
+        0.6863513529842342,
+        0.6658536581707317,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0172_02_0552.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0552-M05",
+      "ocr_text": "fnd2 = 5 GBW",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7260269622860825,
+        0.8266775476260371,
+        0.9226216902919815,
+        0.8855175758771268
+      ],
+      "context_crop": "regions/SANSEN-0552_math_05.png",
+      "context_bbox_normalized": [
+        0.6860269622860825,
+        0.7266775476260371,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0172_02_0552.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

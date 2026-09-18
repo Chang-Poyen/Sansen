@@ -1,0 +1,40 @@
+Design of crystal oscillators 691
+2227
+Let us now observe some
+full oscillator circuits.
+Circuitry is added to pro-
+vide AGC but also to buffer
+the output.
+2228
+A practical realization of a
+Pierce oscillator is shown in
+this slide.
+Transistor M is the
+1
+actual oscillator amplifier.
+The capacitors C and C
+1 2
+are indicated. Capacitor C
+c
+is a coupling capacitor to
+separate DC and AC. The
+output is take at the left side
+of the crystal.
+The current is set by tran-
+sistor M2, which is part of
+an AGC system shown on
+the next slide.
+The biasing resistor R is
+B
+now represented by transistor M6. It is biased at zero V such that its resistance can be quite
+DS
+high although inaccurate. This is achieved by connecting two diodes to the Gate of M6. Both
+Source and Drain of M6 are at one single V below the supply voltage.
+GS
+The numerical values indicate that all capacitances are quite small in order to limit the power
+consumption to a minimum. All transistors work in weak inversion!
+2229
+The AGC circuit is now easily found. It is called an Amplitude Regulator.
+The output of the oscillator, at the left of the crystal, is connected to the Q1 input of the AGC
+circuit, in series with a coupling capacitor C7. It is also connected to the Q1 input of the Output
+Amplifier, towards a series of inverters.

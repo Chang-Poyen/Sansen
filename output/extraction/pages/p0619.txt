@@ -1,0 +1,41 @@
+630 Chapter #20
+time with four resistors. The zero crossings are now at 1/256 V intervals, with a 1 V reference
+voltage.
+2053
+A pipelined converter is a
+pipeline of ADC stages, each
+providing n bits. One such
+k
+ADC stage is shown in this
+slide (on top). It is a similar
+algorithmic conversion as
+before.
+After a sample-and-hold
+operation, the input signal is
+converted into n bits. The
+k
+quantization error (or resi-
+due) is obtained after a DAC
+conversion, by taking the
+difference with the input
+signal itself. This difference
+is then multiplied by a factor
+of 2nk to be submitted to the next stage.
+A single-bit pipelined ADC converter is a converter with as many stages as bits, each stage
+doing a 1-bit conversion, starting with the MSB. Such a stage is shown in this slide (at the
+bottom). The ADC is now just a comparator. The DAC is merely a switch from the reference
+voltage. The amplifier has now a gain of two.
+It is clear that the weakness is the amplifier. This is why a single-bit pipelined ADC is preferred.
+It is fairly easy to realize an amplifier with a precise gain of two, as will be shown later.
+Nevertheless, the resolution is normally limited to about 12 bits. Digital correction allows the
+resolution to be expanded to 15 bits.
+In order to speed up the conversion, the first stage starts immediately converting the next
+sample, after completion of the first one. This applies to the other stages as well, as shown in
+the next slide.
+2054
+In this block diagram a converter stage, as shown in the previous slide, is called a Digital
+approximator DAPRX. It thus carries out the conversion, starting with a S/H and ending up
+with an amplifier.
+Each clock sample a new sample can be introduced to this ADC. It still takes N clock samples
+however to complete a conversion. The latency is thus N, but the processing rate is one sample
+per clock cycle.

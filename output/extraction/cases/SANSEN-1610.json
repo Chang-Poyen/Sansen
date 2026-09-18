@@ -1,0 +1,615 @@
+{
+  "case_id": "SANSEN-1610",
+  "slide_id": "1610",
+  "chapter": 16,
+  "slide_number_in_chapter": 10,
+  "source": {
+    "pdf_page": 452,
+    "printed_page": 461
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0452_02_1610.jpg",
+      "pdf_page": 452,
+      "printed_page": 461,
+      "bbox_pt": [
+        91.521622,
+        443.399964,
+        374.78981,
+        639.859955
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 452,
+      "printed_page": 461,
+      "bbox_pt": [
+        0,
+        439.41050000000024,
+        595,
+        797
+      ],
+      "text_raw": "Remember that both tran-\nsistor currents I must be\nC\nmade equal. This can be\nachieved by another current\nmirror on top. Moreover,\nthis pnp current mirror can\nbe used to add another cur-\nrent ratio n.\nThe result is that now\nboth DV and the currents\nBE\nare PTAT, with a factor nr.\nThe added voltage V is\nC\nthen easily found to be\nPTAT and proportional to\na resistor ratio, which can\nnow be accurately attained.\nThe reference voltage is now the sum of both. It can be trimmed by adjusting resistor R . The\n1\nresulting value will be around 1.2 V.\nTwo more specifications are important in such a bandgap reference. The first one is the output\nimpedance. It indicates if current can be pulled out from the reference. For this purpose an",
+      "text": "Remember that both transistor currents I must be C made equal. This can be achieved by another current mirror on top. Moreover, this pnp current mirror can be used to add another current ratio n. The result is that now both DV and the currents BE are PTAT, with a factor nr. The added voltage V is C then easily found to be PTAT and proportional to a resistor ratio, which can now be accurately attained. The reference voltage is now the sum of both. It can be trimmed by adjusting resistor R . The 1 resulting value will be around 1.2 V. Two more specifications are important in such a bandgap reference. The first one is the output impedance. It indicates if current can be pulled out from the reference. For this purpose an"
+    },
+    {
+      "pdf_page": 453,
+      "printed_page": 462,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        183.30989999999986
+      ],
+      "text_raw": "emitter follower is usually added, or an additional current mirror, as illustrated in the realizations\nlater on.\nThe other characteristic is the output noise. Since this reference voltage is probably used to\nbias a number of circuits, its output noise risks entering the circuitry. This has to be avoided.",
+      "text": "emitter follower is usually added, or an additional current mirror, as illustrated in the realizations later on. The other characteristic is the output noise. Since this reference voltage is probably used to bias a number of circuits, its output noise risks entering the circuitry. This has to be avoided."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Remember that both transistor currents I must be C made equal. This can be achieved by another current mirror on top. Moreover, this pnp current mirror can be used to add another current ratio n. The result is that now both DV and the currents BE are PTAT, with a factor nr. The added voltage V is C then easily found to be PTAT and proportional to a resistor ratio, which can now be accurately attained. The reference voltage is now the sum of both. It can be trimmed by adjusting resistor R . The 1 resulting value will be around 1.2 V. Two more specifications are important in such a bandgap reference. The first one is the output impedance. It indicates if current can be pulled out from the reference. For this purpose an\n\nemitter follower is usually added, or an additional current mirror, as illustrated in the realizations later on. The other characteristic is the output noise. Since this reference voltage is probably used to bias a number of circuits, its output noise risks entering the circuitry. This has to be avoided.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Bandgap reference circuit",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0452_02_1610.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108564189181,
+          0.08780487770731704,
+          0.5371621667229729,
+          0.15121951185365856
+        ],
+        "confidence": 1,
+        "text": "Bandgap reference circuit"
+      },
+      {
+        "bbox": [
+          0.39864864819819823,
+          0.19999999955284553,
+          0.459459459009009,
+          0.2536585361382113
+        ],
+        "confidence": 0.5,
+        "text": "VBE"
+      },
+      {
+        "bbox": [
+          0.19932432497184682,
+          0.23902438991869912,
+          0.2770270276745495,
+          0.2878048777235772
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "n: 1"
+      },
+      {
+        "bbox": [
+          0.12162162131193695,
+          0.31219512215447154,
+          0.1587837834740991,
+          0.3463414636178862
+        ],
+        "confidence": 1,
+        "text": "Q4"
+      },
+      {
+        "bbox": [
+          0.3141891886824324,
+          0.3073170734146342,
+          0.35472972922297297,
+          0.3463414636585366
+        ],
+        "confidence": 1,
+        "text": "Q3"
+      },
+      {
+        "bbox": [
+          0.40540540608108105,
+          0.273170731609756,
+          0.4729729736486486,
+          0.33170731697560973
+        ],
+        "confidence": 0.5,
+        "text": "Vgoo"
+      },
+      {
+        "bbox": [
+          0.5269893836795465,
+          0.38511976589430597,
+          0.6486862940222011,
+          0.42463633117066113
+        ],
+        "confidence": 0.5,
+        "text": "- 2 mV/°C"
+      },
+      {
+        "bbox": [
+          0.08445945996621619,
+          0.44878048756097555,
+          0.145270270777027,
+          0.487804877804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ +"
+      },
+      {
+        "bbox": [
+          0.11088002668863987,
+          0.48543841367272256,
+          0.22695781063408435,
+          0.5535859752810138
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V3R1"
+      },
+      {
+        "bbox": [
+          0.0675675681081081,
+          0.5804878047804878,
+          0.12162162216216216,
+          0.6292682925853658
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.12837837837837837,
+          0.6487804882926829,
+          0.16216216216216217,
+          0.6780487809756097
+        ],
+        "confidence": 1,
+        "text": "Q1"
+      },
+      {
+        "bbox": [
+          0.20270270283783784,
+          0.712195122390244,
+          0.27702702716216215,
+          0.7560975614146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1: r"
+      },
+      {
+        "bbox": [
+          0.31418918949887387,
+          0.6439024388211382,
+          0.35135135166103604,
+          0.6780487802845527
+        ],
+        "confidence": 1,
+        "text": "Q2"
+      },
+      {
+        "bbox": [
+          0.32094594484797295,
+          0.7024390242682927,
+          0.4087837826858108,
+          0.770731707195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "*AVBE"
+      },
+      {
+        "bbox": [
+          0.5168918920326577,
+          0.6536585369918699,
+          0.5608108109515766,
+          0.7024390247967479
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "kT"
+      },
+      {
+        "bbox": [
+          0.41216216347128376,
+          0.6878048777439024,
+          0.5168918932010135,
+          0.7414634143292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AVBE ="
+      },
+      {
+        "bbox": [
+          0.5675675668581082,
+          0.6926829270243903,
+          0.6385135128040541,
+          0.7317073172682927
+        ],
+        "confidence": 0.5,
+        "text": "In nr"
+      },
+      {
+        "bbox": [
+          0.34121621658783785,
+          0.7756097566341463,
+          0.38513513550675677,
+          0.8292682932195122
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.43187867824072773,
+          0.8295480516421124,
+          0.6289321364803089,
+          0.8924031697190882
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ref = VBE + Vc"
+      },
+      {
+        "bbox": [
+          0.8243243249577703,
+          0.2390243898170732,
+          0.9087837844172297,
+          0.27317073128048786
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 1.2 V"
+      },
+      {
+        "bbox": [
+          0.7060810787162163,
+          0.2975609745121952,
+          0.9087837814189189,
+          0.38536585256097566
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 PTAT= 0.6 v"
+      },
+      {
+        "bbox": [
+          0.736486486036036,
+          0.47804878004065043,
+          0.7972972968468468,
+          0.5317073166260162
+        ],
+        "confidence": 1,
+        "text": "VBE"
+      },
+      {
+        "bbox": [
+          0.8513513511824324,
+          0.5853658533797909,
+          0.8749999998310809,
+          0.6243902436236933
+        ],
+        "confidence": 1,
+        "text": "T"
+      },
+      {
+        "bbox": [
+          0.7601351357263514,
+          0.6585365849390244,
+          0.8074324330236486,
+          0.7024390239634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "KT"
+      },
+      {
+        "bbox": [
+          0.6689189196621622,
+          0.6926829263902439,
+          0.7432432439864864,
+          0.7463414629756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ic2="
+      },
+      {
+        "bbox": [
+          0.8141891876126127,
+          0.6878048783739836,
+          0.9087837822072073,
+          0.7268292686178861
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "In nr ="
+      },
+      {
+        "bbox": [
+          0.7499999998552124,
+          0.7170731703484321,
+          0.81756756742278,
+          0.770731706933798
+        ],
+        "confidence": 1,
+        "text": "qR2"
+      },
+      {
+        "bbox": [
+          0.9121621618806305,
+          0.7219512190650407,
+          0.952702702421171,
+          0.7756097556504066
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.6790540531418919,
+          0.8243902433658536,
+          0.777027026114865,
+          0.8780487799512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vc = n"
+      },
+      {
+        "bbox": [
+          0.7804054058445946,
+          0.7902439017560976,
+          0.864864865304054,
+          0.8585365846829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R, KT"
+      },
+      {
+        "bbox": [
+          0.8614864851351353,
+          0.8292682929268291,
+          0.9425675662162163,
+          0.8634146343902438
+        ],
+        "confidence": 1,
+        "text": "In nr"
+      },
+      {
+        "bbox": [
+          0.7736486494594594,
+          0.8585365851219513,
+          0.8547297305405405,
+          0.9121951217073172
+        ],
+        "confidence": 0.5,
+        "text": "R2 9"
+      },
+      {
+        "bbox": [
+          0.7094594638198717,
+          0.94634146398374,
+          0.9222972887702188,
+          0.9804878054471545
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1610"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "emitter follower is usually added, or an additional current mirror, as illustrated in the realizations later on.",
+      "pdf_page": 453,
+      "printed_page": 462,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0452_02_1610.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "emitter follower is usually added, or an additional current mirror, as illustrated in the realizations later on.",
+        "pdf_page": 453,
+        "printed_page": 462,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Remember that both transistor currents I must be C made equal.",
+      "pdf_page": 452,
+      "printed_page": 461,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The added voltage V is C then easily found to be PTAT and proportional to a resistor ratio, which can now be accurately attained.",
+      "pdf_page": 452,
+      "printed_page": 461,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The other characteristic is the output noise.",
+      "pdf_page": 453,
+      "printed_page": 462,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1610-M01",
+      "ocr_text": "AVBE =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.41216216347128376,
+        0.6878048777439024,
+        0.5168918932010135,
+        0.7414634143292683
+      ],
+      "context_crop": "regions/SANSEN-1610_math_01.png",
+      "context_bbox_normalized": [
+        0.3721621634712838,
+        0.5878048777439024,
+        0.7468918932010135,
+        0.8714634143292683
+      ],
+      "source_image": "slides/p0452_02_1610.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1610-M02",
+      "ocr_text": "ref = VBE + Vc",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.43187867824072773,
+        0.8295480516421124,
+        0.6289321364803089,
+        0.8924031697190882
+      ],
+      "context_crop": "regions/SANSEN-1610_math_02.png",
+      "context_bbox_normalized": [
+        0.39187867824072775,
+        0.7295480516421124,
+        0.8589321364803089,
+        0.93
+      ],
+      "source_image": "slides/p0452_02_1610.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1610-M03",
+      "ocr_text": "= 1.2 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8243243249577703,
+        0.2390243898170732,
+        0.9087837844172297,
+        0.27317073128048786
+      ],
+      "context_crop": "regions/SANSEN-1610_math_03.png",
+      "context_bbox_normalized": [
+        0.7843243249577703,
+        0.13902438981707319,
+        1,
+        0.40317073128048786
+      ],
+      "source_image": "slides/p0452_02_1610.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1610-M04",
+      "ocr_text": "1 PTAT= 0.6 v",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7060810787162163,
+        0.2975609745121952,
+        0.9087837814189189,
+        0.38536585256097566
+      ],
+      "context_crop": "regions/SANSEN-1610_math_04.png",
+      "context_bbox_normalized": [
+        0.6660810787162162,
+        0.1975609745121952,
+        1,
+        0.5153658525609757
+      ],
+      "source_image": "slides/p0452_02_1610.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1610-M05",
+      "ocr_text": "Ic2=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6689189196621622,
+        0.6926829263902439,
+        0.7432432439864864,
+        0.7463414629756097
+      ],
+      "context_crop": "regions/SANSEN-1610_math_05.png",
+      "context_bbox_normalized": [
+        0.6289189196621622,
+        0.5926829263902439,
+        0.9732432439864864,
+        0.8763414629756097
+      ],
+      "source_image": "slides/p0452_02_1610.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1610-M06",
+      "ocr_text": "In nr =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8141891876126127,
+        0.6878048783739836,
+        0.9087837822072073,
+        0.7268292686178861
+      ],
+      "context_crop": "regions/SANSEN-1610_math_06.png",
+      "context_bbox_normalized": [
+        0.7741891876126127,
+        0.5878048783739837,
+        1,
+        0.8568292686178861
+      ],
+      "source_image": "slides/p0452_02_1610.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1610-M07",
+      "ocr_text": "Vc = n",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6790540531418919,
+        0.8243902433658536,
+        0.777027026114865,
+        0.8780487799512195
+      ],
+      "context_crop": "regions/SANSEN-1610_math_07.png",
+      "context_bbox_normalized": [
+        0.6390540531418919,
+        0.7243902433658537,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0452_02_1610.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

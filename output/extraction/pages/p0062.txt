@@ -1,0 +1,55 @@
+Amplifiers, source followers and cascodes 63
+Also, note that the sum of
+the V ’s is V , and that
+DS DD
+the sum of the V ’s is also
+GS
+V . For a low input volt-
+DD
+age, the V is also low and
+GSn
+the V is high. In this case,
+GSp
+the nMOST is off and the
+pMOST is on. The crossing
+point of their I −V
+DS DS
+curves is thus at point 1.
+Indeed the pMOST is
+biased as a small resistor,
+and the output voltage is the
+same as the supply voltage.
+Increasing the input volt-
+age will cause the crossing
+point to shift from point 1,
+to 2, and so on, all the way to point 7. At this latter point the pMOST is off and the nMOST
+has a large V , but small V . It is in the linear region and so behaves as a small resistor. The
+GS DS
+output voltage is now zero. The transistor currents are zero as well.
+When the input voltage is about halfway, the transistor current flows, and the output voltage
+is about halfway as well. This is point 4. This is the normal biasing for this circuit as an analog
+amplifier.
+0226
+The transfer characteristic is
+now easily reconstructed. It
+is a plot of the output volt-
+age versus input voltage.
+For each input voltage, the
+output voltage is found by
+the points 1 to 7 and added
+to the plot. The correspond-
+ing transistor current is
+added underneath.
+It is clear that no current
+flows in the points 1 and 7,
+when the output is at a digi-
+tal ‘‘1’’ or ‘‘0’’.
+The current reaches its
+maximum in the middle.
+This current is denoted by I . The analog amplifier is always biased in this point. It is its
+DSA
+quiescent current.
+The exact calculation of the whole transfer characteristic is not that easy. It is only easy in
+the extreme points 1, 4 and 7. This exact calculation is better left to a circuit simulator such
+as SPICE.
+We now concentrate on this amplifier, biased in the middle point 4.

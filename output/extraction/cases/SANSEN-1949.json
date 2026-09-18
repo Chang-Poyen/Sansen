@@ -1,0 +1,516 @@
+{
+  "case_id": "SANSEN-1949",
+  "slide_id": "1949",
+  "chapter": 19,
+  "slide_number_in_chapter": 49,
+  "source": {
+    "pdf_page": 579,
+    "printed_page": 590
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0580_01_1949.jpg",
+      "pdf_page": 580,
+      "printed_page": 591,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 579,
+      "printed_page": 590,
+      "bbox_pt": [
+        0,
+        642.6965,
+        595,
+        797
+      ],
+      "text_raw": "Similar CMOS inverters are used in the transconductor shown in this slide. It is a pseudo-\ndifferential realization as a change in current in one inverter does not cause an opposite change\nof current in the other inverter. They have to be driven in a differential way.",
+      "text": "Similar CMOS inverters are used in the transconductor shown in this slide. It is a pseudodifferential realization as a change in current in one inverter does not cause an opposite change of current in the other inverter. They have to be driven in a differential way."
+    },
+    {
+      "pdf_page": 580,
+      "printed_page": 591,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        439.3109250000002
+      ],
+      "text_raw": "The differential resistive\nload R for the top\nDM1\ninverter Inv1 are the two\ndiode-connected MOSTs of\nInv5 and a contribution\nfrom the output of the other\ninverter Inv2 through\ninverter Inv6. If all g ’s are\nm\nthe same, this differential\nresistive load is very large,\nproviding a very large\ndifferential gain. The same\nis true for the resistive\nload R of the bottom\nDM2\ninverter Inv2.\nThe average or common-\nmode output resistance\nR with respect to ground is low on the other hand. Indeed, R equals the sum of the\nCM1 CM1\ntransconductances of Inv5 and Inv6. This also applies to R .\nCM2\nThis transconductor has the advantage that the differential gain is high. It can be tuned by\nchanging the supply voltages V . The common-mode gain is low however, because the common-\ndd\nmode output resistances are low. Parasitic capacitances at the output nodes are of little impor-\ntance. Moreover, this circuit has only an input and output node. It is capable of a very-high-\nfrequency performance.",
+      "text": "The differential resistive load R for the top DM1 inverter Inv1 are the two diode-connected MOSTs of Inv5 and a contribution from the output of the other inverter Inv2 through inverter Inv6. If all g ’s are m the same, this differential resistive load is very large, providing a very large differential gain. The same is true for the resistive load R of the bottom DM2 inverter Inv2. The average or commonmode output resistance R with respect to ground is low on the other hand. Indeed, R equals the sum of the CM1 CM1 transconductances of Inv5 and Inv6. This also applies to R . CM2 This transconductor has the advantage that the differential gain is high. It can be tuned by changing the supply voltages V . The common-mode gain is low however, because the commondd mode output resistances are low. Parasitic capacitances at the output nodes are of little importance. Moreover, this circuit has only an input and output node. It is capable of a very-highfrequency performance."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Similar CMOS inverters are used in the transconductor shown in this slide. It is a pseudodifferential realization as a change in current in one inverter does not cause an opposite change of current in the other inverter. They have to be driven in a differential way.\n\nThe differential resistive load R for the top DM1 inverter Inv1 are the two diode-connected MOSTs of Inv5 and a contribution from the output of the other inverter Inv2 through inverter Inv6. If all g ’s are m the same, this differential resistive load is very large, providing a very large differential gain. The same is true for the resistive load R of the bottom DM2 inverter Inv2. The average or commonmode output resistance R with respect to ground is low on the other hand. Indeed, R equals the sum of the CM1 CM1 transconductances of Inv5 and Inv6. This also applies to R . CM2 This transconductor has the advantage that the differential gain is high. It can be tuned by changing the supply voltages V . The common-mode gain is low however, because the commondd mode output resistances are low. Parasitic capacitances at the output nodes are of little importance. Moreover, this circuit has only an input and output node. It is capable of a very-highfrequency performance.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Transconductor for High Frequencies (2 nodes)",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0580_01_1949.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269671814681,
+          0.08292682940766549,
+          0.9155405345559847,
+          0.1414634147735192
+        ],
+        "confidence": 1,
+        "text": "Transconductor for High Frequencies (2 nodes)"
+      },
+      {
+        "bbox": [
+          0.06418918910472972,
+          0.37560975548780484,
+          0.13851351342905405,
+          0.42439024329268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vc+}Vid"
+      },
+      {
+        "bbox": [
+          0.06418918830236488,
+          0.6439024384146342,
+          0.14189189100506758,
+          0.6926829262195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vc-WVid"
+      },
+      {
+        "bbox": [
+          0.189189189527027,
+          0.2341463420121952,
+          0.22972973006756756,
+          0.27804878103658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vdd"
+      },
+      {
+        "bbox": [
+          0.6081081048648649,
+          0.2097560977560976,
+          0.9324324291891893,
+          0.2682926831219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lod = 101 - 102 = 9md Via"
+      },
+      {
+        "bbox": [
+          0.26013513800675675,
+          0.21951219585365855,
+          0.4966216244932432,
+          0.27804878121951226
+        ],
+        "confidence": 1,
+        "text": "Tuning with Vad"
+      },
+      {
+        "bbox": [
+          0.2094594596846847,
+          0.4292682924390244,
+          0.23648648671171174,
+          0.4780487802439024
+        ],
+        "confidence": 0.5,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.31418918980855853,
+          0.3951219508943089,
+          0.3513513519707207,
+          0.42439024357723576
+        ],
+        "confidence": 1,
+        "text": "Vdd"
+      },
+      {
+        "bbox": [
+          0.37837837858108103,
+          0.3951219515121951,
+          0.4189189191216216,
+          0.42439024419512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vdd'"
+      },
+      {
+        "bbox": [
+          0.4594594596283783,
+          0.3902439020731707,
+          0.5000000001689189,
+          0.4195121947560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vdd"
+      },
+      {
+        "bbox": [
+          0.5236486490709459,
+          0.39512195097560976,
+          0.5574324328547297,
+          0.4243902436585366
+        ],
+        "confidence": 0.5,
+        "text": "Vdd"
+      },
+      {
+        "bbox": [
+          0.6858108105574324,
+          0.48780487756097557,
+          0.7195945943412162,
+          0.526829267804878
+        ],
+        "confidence": 1,
+        "text": "int"
+      },
+      {
+        "bbox": [
+          0.3108108103462838,
+          0.643902439207317,
+          0.34797297250844594,
+          0.6682926831097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Inv3"
+      },
+      {
+        "bbox": [
+          0.7364864873648648,
+          0.3463414630731707,
+          0.8243243252027026,
+          0.3999999996585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RDM1 ="
+      },
+      {
+        "bbox": [
+          0.8277027040118243,
+          0.37560975597560975,
+          0.932432433741554,
+          0.4146341462195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m5-9m6"
+      },
+      {
+        "bbox": [
+          0.8682432435247749,
+          0.4341463412195121,
+          0.8851351354166668,
+          0.4682926826829268
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7331081082347973,
+          0.4634146348170731,
+          0.8243243244510136,
+          0.517073171402439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RDM2 ="
+      },
+      {
+        "bbox": [
+          0.8243243251970721,
+          0.49268292670731717,
+          0.9290540549268018,
+          0.5365853657317073
+        ],
+        "confidence": 1,
+        "text": "9m4-9m3"
+      },
+      {
+        "bbox": [
+          0.8682432434684684,
+          0.5707317080487805,
+          0.8885135137387387,
+          0.6146341470731707
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7398648657432432,
+          0.6048780484878049,
+          0.827702703581081,
+          0.653658536292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RcM1 ="
+      },
+      {
+        "bbox": [
+          0.8277027024493243,
+          0.6292682920731708,
+          0.9425675673141892,
+          0.6780487798780489
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9ms*9ms"
+      },
+      {
+        "bbox": [
+          0.6824324323198199,
+          0.6829268289837398,
+          0.7094594593468468,
+          0.7170731704471545
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "o2"
+      },
+      {
+        "bbox": [
+          0.5743243247888514,
+          0.7268292681097561,
+          0.6114864869510136,
+          0.7707317071341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'02"
+      },
+      {
+        "bbox": [
+          0.7331081086570946,
+          0.7365853665243902,
+          0.8243243248733109,
+          0.7902439031097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RcM2 ="
+      },
+      {
+        "bbox": [
+          0.824324325472973,
+          0.7658536584878048,
+          0.9391891903378378,
+          0.8097560975121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m4*9m3"
+      },
+      {
+        "bbox": [
+          0.5777027045608107,
+          0.8780487808292683,
+          0.9391891910472973,
+          0.912195122292683
+        ],
+        "confidence": 1,
+        "text": "Ref. Nauta JSSC Febr.92,142-146"
+      },
+      {
+        "bbox": [
+          0.7229729758131148,
+          0.9560975611382113,
+          0.9391891791418403,
+          0.9853658538211382
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1949"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Similar CMOS inverters are used in the transconductor shown in this slide.",
+      "pdf_page": 579,
+      "printed_page": 590,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0580_01_1949.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The differential resistive load R for the top DM1 inverter Inv1 are the two diode-connected MOSTs of Inv5 and a contribution from the output of the other inverter Inv2 through inverter Inv6.",
+        "pdf_page": 580,
+        "printed_page": 591,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If all g ’s are m the same, this differential resistive load is very large, providing a very large differential gain.",
+      "pdf_page": 580,
+      "printed_page": 591,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Indeed, R equals the sum of the CM1 CM1 transconductances of Inv5 and Inv6.",
+      "pdf_page": 580,
+      "printed_page": 591,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "CM2 This transconductor has the advantage that the differential gain is high.",
+      "pdf_page": 580,
+      "printed_page": 591,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The common-mode gain is low however, because the commondd mode output resistances are low.",
+      "pdf_page": 580,
+      "printed_page": 591,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1949-M01",
+      "ocr_text": "lod = 101 - 102 = 9md Via",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6081081048648649,
+        0.2097560977560976,
+        0.9324324291891893,
+        0.2682926831219512
+      ],
+      "context_crop": "regions/SANSEN-1949_math_01.png",
+      "context_bbox_normalized": [
+        0.5681081048648648,
+        0.13,
+        1,
+        0.3982926831219512
+      ],
+      "source_image": "slides/p0580_01_1949.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1949-M02",
+      "ocr_text": "RDM1 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7364864873648648,
+        0.3463414630731707,
+        0.8243243252027026,
+        0.3999999996585366
+      ],
+      "context_crop": "regions/SANSEN-1949_math_02.png",
+      "context_bbox_normalized": [
+        0.6964864873648647,
+        0.2463414630731707,
+        1,
+        0.5299999996585366
+      ],
+      "source_image": "slides/p0580_01_1949.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1949-M03",
+      "ocr_text": "RDM2 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7331081082347973,
+        0.4634146348170731,
+        0.8243243244510136,
+        0.517073171402439
+      ],
+      "context_crop": "regions/SANSEN-1949_math_03.png",
+      "context_bbox_normalized": [
+        0.6931081082347973,
+        0.36341463481707315,
+        1,
+        0.647073171402439
+      ],
+      "source_image": "slides/p0580_01_1949.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1949-M04",
+      "ocr_text": "RcM1 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7398648657432432,
+        0.6048780484878049,
+        0.827702703581081,
+        0.653658536292683
+      ],
+      "context_crop": "regions/SANSEN-1949_math_04.png",
+      "context_bbox_normalized": [
+        0.6998648657432431,
+        0.5048780484878049,
+        1,
+        0.783658536292683
+      ],
+      "source_image": "slides/p0580_01_1949.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1949-M05",
+      "ocr_text": "RcM2 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7331081086570946,
+        0.7365853665243902,
+        0.8243243248733109,
+        0.7902439031097561
+      ],
+      "context_crop": "regions/SANSEN-1949_math_05.png",
+      "context_bbox_normalized": [
+        0.6931081086570946,
+        0.6365853665243902,
+        1,
+        0.9202439031097561
+      ],
+      "source_image": "slides/p0580_01_1949.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

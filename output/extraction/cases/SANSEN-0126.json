@@ -1,0 +1,224 @@
+{
+  "case_id": "SANSEN-0126",
+  "slide_id": "0126",
+  "chapter": 1,
+  "slide_number_in_chapter": 26,
+  "source": {
+    "pdf_page": 14,
+    "printed_page": 14
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0015_01_0126.jpg",
+      "pdf_page": 15,
+      "printed_page": 15,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 14,
+      "printed_page": 14,
+      "bbox_pt": [
+        0,
+        618.7805796500003,
+        595,
+        797
+      ],
+      "text_raw": "Indeed, for each transistor in the signal path, two independent choices will have to be made in\nthe design procedure. They are the values of L and V −V . A single-transistor amplifier can\nGS T\ngive a large amount of gain provided its L is large and its V −V is small. This will apply to\nGS T\nall applications where high gain, low noise and low offset are most important, such as in\noperational amplifiers.",
+      "text": "Indeed, for each transistor in the signal path, two independent choices will have to be made in the design procedure. They are the values of L and V −V . A single-transistor amplifier can GS T give a large amount of gain provided its L is large and its V −V is small. This will apply to GS T all applications where high gain, low noise and low offset are most important, such as in operational amplifiers."
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 15,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        429.4455100000002
+      ],
+      "text_raw": "Expressions cannot be\nused to establish these\nvalues. They have to be\nchosen at the very start of\nthe design procedure.\nUnfortunately, for high\nspeed, we will see that\nexactly the opposite conclu-\nsions will have to be drawn.\nFor high speed, a transistor\nin the signal path requires\nthe L to be small and the\nV −V large. This will\nGS T\napply to all RF circuits such\nas Low Noise Amplifiers\n(LNA’s), Voltage Control-\nled Oscillators (VCO’s),\nMixers, etc.\nThis compromise is one of the most basic compromises in analog CMOS design. After all it\nis gain versus speed!\nFinally, note that the value of V −V sets the ratio g /I . However, we need to have a\nGS T m DS\nlook at weak inversion first. Choosing the value of V −V or choosing the value of g /I ,\nGS T m DS\nwill ultimately be the same choice.",
+      "text": "Expressions cannot be used to establish these values. They have to be chosen at the very start of the design procedure. Unfortunately, for high speed, we will see that exactly the opposite conclusions will have to be drawn. For high speed, a transistor in the signal path requires the L to be small and the V −V large. This will GS T apply to all RF circuits such as Low Noise Amplifiers (LNA’s), Voltage Controlled Oscillators (VCO’s), Mixers, etc. This compromise is one of the most basic compromises in analog CMOS design. After all it is gain versus speed! Finally, note that the value of V −V sets the ratio g /I . However, we need to have a GS T m DS look at weak inversion first. Choosing the value of V −V or choosing the value of g /I , GS T m DS will ultimately be the same choice."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Indeed, for each transistor in the signal path, two independent choices will have to be made in the design procedure. They are the values of L and V −V . A single-transistor amplifier can GS T give a large amount of gain provided its L is large and its V −V is small. This will apply to GS T all applications where high gain, low noise and low offset are most important, such as in operational amplifiers.\n\nExpressions cannot be used to establish these values. They have to be chosen at the very start of the design procedure. Unfortunately, for high speed, we will see that exactly the opposite conclusions will have to be drawn. For high speed, a transistor in the signal path requires the L to be small and the V −V large. This will GS T apply to all RF circuits such as Low Noise Amplifiers (LNA’s), Voltage Controlled Oscillators (VCO’s), Mixers, etc. This compromise is one of the most basic compromises in analog CMOS design. After all it is gain versus speed! Finally, note that the value of V −V sets the ratio g /I . However, we need to have a GS T m DS look at weak inversion first. Choosing the value of V −V or choosing the value of g /I , GS T m DS will ultimately be the same choice.",
+  "schema_version": "1.0",
+  "chapter_title": "MOS 晶体管与双极型晶体管的比较",
+  "title": "Design for high gain :",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0015_01_0126.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626925423734,
+          0.07317073190243906,
+          0.461016947220339,
+          0.14146341482926827
+        ],
+        "confidence": 0.5,
+        "text": "Design for high gain :"
+      },
+      {
+        "bbox": [
+          0.15593220288135592,
+          0.4682926831504065,
+          0.27796610118644066,
+          0.5414634148577235
+        ],
+        "confidence": 0.5,
+        "text": "VGs-VT"
+      },
+      {
+        "bbox": [
+          0.2033898308474576,
+          0.6097560974634147,
+          0.23728813593220338,
+          0.678048780390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "L"
+      },
+      {
+        "bbox": [
+          0.3694915237627119,
+          0.336585366,
+          0.5355932186779662,
+          0.3902439025853659
+        ],
+        "confidence": 1,
+        "text": "High gain"
+      },
+      {
+        "bbox": [
+          0.35593220396610165,
+          0.4731707311219512,
+          0.5491525429491525,
+          0.5317073164878048
+        ],
+        "confidence": 1,
+        "text": "Low (0.2 V)"
+      },
+      {
+        "bbox": [
+          0.4135593223002421,
+          0.6048780492334495,
+          0.4983050850121065,
+          0.6682926833797909
+        ],
+        "confidence": 1,
+        "text": "High"
+      },
+      {
+        "bbox": [
+          0.15254237745762703,
+          0.7902439016585365,
+          0.6508474622033898,
+          0.8682926821463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs-V, sets the ratio gm'Ds !"
+      },
+      {
+        "bbox": [
+          0.6132206301147485,
+          0.3244572612730059,
+          0.8206776779166552,
+          0.3926159110897516
+        ],
+        "confidence": 1,
+        "text": "High speed"
+      },
+      {
+        "bbox": [
+          0.7288135615254238,
+          0.9365853652439025,
+          0.9389830530508475,
+          0.9853658530487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Wilty Sansen W.s 0126"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0015_01_0126.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Indeed, for each transistor in the signal path, two independent choices will have to be made in the design procedure.",
+      "pdf_page": 14,
+      "printed_page": 14,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A single-transistor amplifier can GS T give a large amount of gain provided its L is large and its V −V is small.",
+      "pdf_page": 14,
+      "printed_page": 14,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This will apply to GS T all applications where high gain, low noise and low offset are most important, such as in operational amplifiers.",
+      "pdf_page": 14,
+      "printed_page": 14,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "After all it is gain versus speed!",
+      "pdf_page": 15,
+      "printed_page": 15,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "A single-transistor amplifier can GS T give a large amount of gain provided its L is large and its V −V is small.",
+      "pdf_page": 14,
+      "printed_page": 14,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Comparison of MOST and bipolar transistors"
+}

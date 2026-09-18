@@ -1,0 +1,157 @@
+{
+  "case_id": "SANSEN-0235",
+  "slide_id": "0235",
+  "chapter": 2,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 67,
+    "printed_page": 68
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0067_01_0235.jpg",
+      "pdf_page": 67,
+      "printed_page": 68,
+      "bbox_pt": [
+        91.521622,
+        122.7761539999999,
+        374.78981,
+        319.23614499999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 67,
+      "printed_page": 68,
+      "bbox_pt": [
+        0,
+        118.78660000000002,
+        595,
+        355.4055
+      ],
+      "text_raw": "Up till now, only amplifiers\nhave been discussed. There\nare two more functions that\ncan be carried out by means\nof a single-transistor. They\nare a source-follower and a\ncascode.\nOf course we can still use\na transistor as a switch, as\nwe will do in Chapter 14 on\nSwitched-capacitor filters.",
+      "text": "Up till now, only amplifiers have been discussed. There are two more functions that can be carried out by means of a single-transistor. They are a source-follower and a cascode. Of course we can still use a transistor as a switch, as we will do in Chapter 14 on Switched-capacitor filters."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Up till now, only amplifiers have been discussed. There are two more functions that can be carried out by means of a single-transistor. They are a source-follower and a cascode. Of course we can still use a transistor as a switch, as we will do in Chapter 14 on Switched-capacitor filters.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0067_01_0235.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.1385135107432433,
+          0.33658536643902437,
+          0.6452702675000002,
+          0.3951219518048781
+        ],
+        "confidence": 1,
+        "text": "• Single-transistor amplifiers"
+      },
+      {
+        "bbox": [
+          0.13851351558277028,
+          0.4292682925,
+          0.4695945966638513,
+          0.4780487803048781
+        ],
+        "confidence": 1,
+        "text": "• Source followers"
+      },
+      {
+        "bbox": [
+          0.13851351528716213,
+          0.5219512192682928,
+          0.351351353125,
+          0.5707317070731708
+        ],
+        "confidence": 1,
+        "text": "• Cascodes"
+      },
+      {
+        "bbox": [
+          0.7191785015882257,
+          0.9261369498355299,
+          0.9364831694992398,
+          0.9746190259686996
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0235"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0067_01_0235.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "They are a source-follower and a cascode.",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_applicable",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "本页为章节脉络，无独立小信号模型需建图。"
+  },
+  "simulation_status": "not_started_theory_and_nodal_checks_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "00-conventions",
+    "title": "章节脉络与共同模型",
+    "summary_zh": "跟随器部分的过渡页；相应推导见第 08–11 组。",
+    "html": "../derivations/ch02/00-conventions.html",
+    "markdown": "../derivations/ch02/00-conventions.md",
+    "status": "context_reviewed_no_independent_derivation",
+    "discrepancy_ids": [],
+    "sfg": "not_applicable",
+    "sfg_reason": "本页为章节脉络，无独立小信号模型需建图。"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

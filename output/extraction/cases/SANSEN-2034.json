@@ -1,0 +1,527 @@
+{
+  "case_id": "SANSEN-2034",
+  "slide_id": "2034",
+  "chapter": 20,
+  "slide_number_in_chapter": 34,
+  "source": {
+    "pdf_page": 608,
+    "printed_page": 619
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0609_01_2034.jpg",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 608,
+      "printed_page": 619,
+      "bbox_pt": [
+        0,
+        642.6965700000001,
+        595,
+        797
+      ],
+      "text_raw": "For such applications a SAR ADC is used.\nIt consists of a Sample-and-hold at the input, to maintain a constant voltage during the\nconversion.",
+      "text": "For such applications a SAR ADC is used. It consists of a Sample-and-hold at the input, to maintain a constant voltage during the conversion."
+    },
+    {
+      "pdf_page": 609,
+      "printed_page": 620,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        439.41050000000024
+      ],
+      "text_raw": "This is followed by a com-\nparator, which generates the\nbits by successive approxi-\nmation. The bits are fed\nback through a DAC to\nclose the loop. The succes-\nsive-approximation register\ncompares the incoming volt-\nage to the next binary value\nas shown in this slide.\nAssume that the input\nvoltage is 0.4 V (the refer-\nence voltage is 1 V).\nIn a first comparison\n0.4 V is found to be less than\n1 V. This yields a digital 0,\nwhich is the MSB.\nThe interval is now divided by 2 and the incoming voltage is compared to\n0.5 V. This again yields a digital 0.\nThe interval is now divided by 2 and the incoming voltage is compared to 0.25 V. This now\nyields a digital 1. Moreover, this 1 is used as a control signal to indicate that in the next\ncomparison the interval 0.25 to 0.375 has to be selected, not the one between 0.125 and 0.25 V.\nThis sequence is continued for N comparisons or N bits.\nThis successive approximation takes only N clock cycles. It is therefore much faster than an\nintegrating ADC. It is sensitive to the offset of the comparator, however.",
+      "text": "This is followed by a comparator, which generates the bits by successive approximation. The bits are fed back through a DAC to close the loop. The successive-approximation register compares the incoming voltage to the next binary value as shown in this slide. Assume that the input voltage is 0.4 V (the reference voltage is 1 V). In a first comparison 0.4 V is found to be less than 1 V. This yields a digital 0, which is the MSB. The interval is now divided by 2 and the incoming voltage is compared to 0.5 V. This again yields a digital 0. The interval is now divided by 2 and the incoming voltage is compared to 0.25 V. This now yields a digital 1. Moreover, this 1 is used as a control signal to indicate that in the next comparison the interval 0.25 to 0.375 has to be selected, not the one between 0.125 and 0.25 V. This sequence is continued for N comparisons or N bits. This successive approximation takes only N clock cycles. It is therefore much faster than an integrating ADC. It is sensitive to the offset of the comparator, however."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For such applications a SAR ADC is used. It consists of a Sample-and-hold at the input, to maintain a constant voltage during the conversion.\n\nThis is followed by a comparator, which generates the bits by successive approximation. The bits are fed back through a DAC to close the loop. The successive-approximation register compares the incoming voltage to the next binary value as shown in this slide. Assume that the input voltage is 0.4 V (the reference voltage is 1 V). In a first comparison 0.4 V is found to be less than 1 V. This yields a digital 0, which is the MSB. The interval is now divided by 2 and the incoming voltage is compared to 0.5 V. This again yields a digital 0. The interval is now divided by 2 and the incoming voltage is compared to 0.25 V. This now yields a digital 1. Moreover, this 1 is used as a control signal to indicate that in the next comparison the interval 0.25 to 0.375 has to be selected, not the one between 0.125 and 0.25 V. This sequence is continued for N comparisons or N bits. This successive approximation takes only N clock cycles. It is therefore much faster than an integrating ADC. It is sensitive to the offset of the comparator, however.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Successive-approximation ADC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0609_01_2034.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432069256767,
+          0.07804877969512192,
+          0.6351351315033785,
+          0.14146341384146344
+        ],
+        "confidence": 1,
+        "text": "Successive-approximation ADC"
+      },
+      {
+        "bbox": [
+          0.33108108433277017,
+          0.22926829243902436,
+          0.5912162194679053,
+          0.2585365851219512
+        ],
+        "confidence": 1,
+        "text": "Successive-approximation register"
+      },
+      {
+        "bbox": [
+          0.33445946161317563,
+          0.2585365851219512,
+          0.506756758910473,
+          0.28780487780487807
+        ],
+        "confidence": 1,
+        "text": "SAR) and control logic"
+      },
+      {
+        "bbox": [
+          0.3783783786317568,
+          0.3317073168902439,
+          0.39864864890202706,
+          0.35609756079268284
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ba"
+      },
+      {
+        "bbox": [
+          0.3884174584017378,
+          0.3992412774602736,
+          0.49671768033463876,
+          0.4300270148468376
+        ],
+        "confidence": 1,
+        "text": "D/A converter"
+      },
+      {
+        "bbox": [
+          0.15202702679054053,
+          0.7512195116585366,
+          0.18243243219594596,
+          0.8048780482439024
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.19594594537162163,
+          0.8048780490243902,
+          0.2533783778040541,
+          0.8487804880487804
+        ],
+        "confidence": 1,
+        "text": "0.25"
+      },
+      {
+        "bbox": [
+          0.32094594555180184,
+          0.8000000002439025,
+          0.36824324284909915,
+          0.8487804880487806
+        ],
+        "confidence": 1,
+        "text": "0.5"
+      },
+      {
+        "bbox": [
+          0.5608108108952703,
+          0.804878048292683,
+          0.6081081081925676,
+          0.8439024385365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1V"
+      },
+      {
+        "bbox": [
+          0.6520270266328829,
+          0.4292682921138211,
+          0.6891891887950451,
+          0.4634146335772358
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Viet"
+      },
+      {
+        "bbox": [
+          0.6520270244594595,
+          0.48780487819512186,
+          0.9087837812162163,
+          0.5317073172195121
+        ],
+        "confidence": 1,
+        "text": "Divide interval by 2;"
+      },
+      {
+        "bbox": [
+          0.655405407643581,
+          0.5414634151829267,
+          0.8412162184543919,
+          0.585365854207317
+        ],
+        "confidence": 1,
+        "text": "Determine bit :"
+      },
+      {
+        "bbox": [
+          0.6520270271114865,
+          0.5902439019512196,
+          0.6925675676520271,
+          0.6292682921951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "<1"
+      },
+      {
+        "bbox": [
+          0.760135135641892,
+          0.5902439021341463,
+          0.8006756761824324,
+          0.6341463411585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ": 0"
+      },
+      {
+        "bbox": [
+          0.814189187162162,
+          0.5951219513821138,
+          0.9358108087837838,
+          0.6341463416260162
+        ],
+        "confidence": 0.5,
+        "text": "b, = MSB"
+      },
+      {
+        "bbox": [
+          0.6554054056306308,
+          0.6439024384552845,
+          0.7297297299549551,
+          0.678048779918699
+        ],
+        "confidence": 1,
+        "text": "< 0.5"
+      },
+      {
+        "bbox": [
+          0.7635135139358108,
+          0.6487804875609757,
+          0.7972972977195946,
+          0.6780487802439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ": 0"
+      },
+      {
+        "bbox": [
+          0.8243243245777027,
+          0.6487804883536585,
+          0.8513513516047297,
+          0.6926829273780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "bz"
+      },
+      {
+        "bbox": [
+          0.6520270277702703,
+          0.6975609754146341,
+          0.7263513520945946,
+          0.7365853656585366
+        ],
+        "confidence": 0.5,
+        "text": "> 0.25"
+      },
+      {
+        "bbox": [
+          0.7601351357545045,
+          0.6975609753658537,
+          0.7972972979166666,
+          0.7317073168292684
+        ],
+        "confidence": 0.5,
+        "text": ":1"
+      },
+      {
+        "bbox": [
+          0.6520270295045044,
+          0.7512195119512196,
+          0.8006756781531531,
+          0.7853658534146343
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "> 0.375 : 1"
+      },
+      {
+        "bbox": [
+          0.6554054068243242,
+          0.7999999997560975,
+          0.7972972987162162,
+          0.8341463412195121
+        ],
+        "confidence": 0.5,
+        "text": "< 0.4375 : 0"
+      },
+      {
+        "bbox": [
+          0.820945946241554,
+          0.8048780493292683,
+          0.8513513516469594,
+          0.8487804883536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ds"
+      },
+      {
+        "bbox": [
+          0.6790540498873875,
+          0.8829268297809035,
+          0.9358108066441442,
+          0.9219512188617885
+        ],
+        "confidence": 1,
+        "text": "Johns, Martin, Wiley 1997"
+      },
+      {
+        "bbox": [
+          0.7331081180428445,
+          0.9560975606504065,
+          0.9425675646148132,
+          0.9853658533333333
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 2034"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The successive-approximation register compares the incoming voltage to the next binary value as shown in this slide.",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The interval is now divided by 2 and the incoming voltage is compared to 0.5 V.",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The interval is now divided by 2 and the incoming voltage is compared to 0.25 V.",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0609_01_2034.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is therefore much faster than an integrating ADC.",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "This is followed by a comparator, which generates the bits by successive approximation.",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The successive-approximation register compares the incoming voltage to the next binary value as shown in this slide.",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Assume that the input voltage is 0.4 V (the reference voltage is 1 V).",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This successive approximation takes only N clock cycles.",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2034-M01",
+      "ocr_text": "<1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6520270271114865,
+        0.5902439019512196,
+        0.6925675676520271,
+        0.6292682921951219
+      ],
+      "context_crop": "regions/SANSEN-2034_math_01.png",
+      "context_bbox_normalized": [
+        0.6120270271114865,
+        0.4902439019512196,
+        0.9225675676520271,
+        0.7592682921951219
+      ],
+      "source_image": "slides/p0609_01_2034.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2034-M02",
+      "ocr_text": "b, = MSB",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.814189187162162,
+        0.5951219513821138,
+        0.9358108087837838,
+        0.6341463416260162
+      ],
+      "context_crop": "regions/SANSEN-2034_math_02.png",
+      "context_bbox_normalized": [
+        0.774189187162162,
+        0.4951219513821138,
+        1,
+        0.7641463416260162
+      ],
+      "source_image": "slides/p0609_01_2034.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2034-M03",
+      "ocr_text": "< 0.5",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.6554054056306308,
+        0.6439024384552845,
+        0.7297297299549551,
+        0.678048779918699
+      ],
+      "context_crop": "regions/SANSEN-2034_math_03.png",
+      "context_bbox_normalized": [
+        0.6154054056306307,
+        0.5439024384552845,
+        0.9597297299549551,
+        0.8080487799186991
+      ],
+      "source_image": "slides/p0609_01_2034.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2034-M04",
+      "ocr_text": "> 0.25",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6520270277702703,
+        0.6975609754146341,
+        0.7263513520945946,
+        0.7365853656585366
+      ],
+      "context_crop": "regions/SANSEN-2034_math_04.png",
+      "context_bbox_normalized": [
+        0.6120270277702703,
+        0.5975609754146342,
+        0.9563513520945945,
+        0.8665853656585366
+      ],
+      "source_image": "slides/p0609_01_2034.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2034-M05",
+      "ocr_text": "> 0.375 : 1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6520270295045044,
+        0.7512195119512196,
+        0.8006756781531531,
+        0.7853658534146343
+      ],
+      "context_crop": "regions/SANSEN-2034_math_05.png",
+      "context_bbox_normalized": [
+        0.6120270295045044,
+        0.6512195119512196,
+        1,
+        0.9153658534146343
+      ],
+      "source_image": "slides/p0609_01_2034.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2034-M06",
+      "ocr_text": "< 0.4375 : 0",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6554054068243242,
+        0.7999999997560975,
+        0.7972972987162162,
+        0.8341463412195121
+      ],
+      "context_crop": "regions/SANSEN-2034_math_06.png",
+      "context_bbox_normalized": [
+        0.6154054068243242,
+        0.6999999997560975,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0609_01_2034.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

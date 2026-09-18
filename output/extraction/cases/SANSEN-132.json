@@ -1,0 +1,207 @@
+{
+  "case_id": "SANSEN-132",
+  "slide_id": "132",
+  "chapter": 13,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 356,
+    "printed_page": 363
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0356_02_132.jpg",
+      "pdf_page": 356,
+      "printed_page": 363,
+      "bbox_pt": [
+        91.521622,
+        455.358002,
+        374.78981,
+        651.817993
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 356,
+      "printed_page": 363,
+      "bbox_pt": [
+        0,
+        451.3685000000003,
+        595,
+        703.55922
+      ],
+      "text_raw": "First of all, we want to\nlearn about the definitions.\nFor example, what is the\nactual loop gain? For large\nvalues of the loop gain, it is\nthe ratio of the open-loop\ngain and the closed-loop\ngain, or simply the differ-\nence if we use dB. For exam-\nple, an operational amplifier\n(shortened to opamp) with\nan open-loop gain of 85 dB,\nwhich is used in a negative\nfeedback loop resulting in a\ngain of 10 or 20 dB, has a\nloop gain of 65 dB.\nThis loop gain is the gain by which the characteristics of the amplifier are improved such as\nthe precision of the gain. It also reduces the noise and the distortion, but above all it improves\nthe bandwidth a great deal.",
+      "text": "First of all, we want to learn about the definitions. For example, what is the actual loop gain? For large values of the loop gain, it is the ratio of the open-loop gain and the closed-loop gain, or simply the difference if we use dB. For example, an operational amplifier (shortened to opamp) with an open-loop gain of 85 dB, which is used in a negative feedback loop resulting in a gain of 10 or 20 dB, has a loop gain of 65 dB. This loop gain is the gain by which the characteristics of the amplifier are improved such as the precision of the gain. It also reduces the noise and the distortion, but above all it improves the bandwidth a great deal."
+    },
+    {
+      "pdf_page": 357,
+      "printed_page": 364,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        207.1262499999998
+      ],
+      "text_raw": "We will look into these phenomena at a later stage. We first want to examine the four cases\nof feedback. The input can be connected in parallel (shunt) or in series, giving rise to four\ndifferent cases.\nIn this Chapter we will focus on voltage and transconductance amplifiers. Both types of\nfeedback circuits take voltages at the input.",
+      "text": "We will look into these phenomena at a later stage. We first want to examine the four cases of feedback. The input can be connected in parallel (shunt) or in series, giving rise to four different cases. In this Chapter we will focus on voltage and transconductance amplifiers. Both types of feedback circuits take voltages at the input."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "First of all, we want to learn about the definitions. For example, what is the actual loop gain? For large values of the loop gain, it is the ratio of the open-loop gain and the closed-loop gain, or simply the difference if we use dB. For example, an operational amplifier (shortened to opamp) with an open-loop gain of 85 dB, which is used in a negative feedback loop resulting in a gain of 10 or 20 dB, has a loop gain of 65 dB. This loop gain is the gain by which the characteristics of the amplifier are improved such as the precision of the gain. It also reduces the noise and the distortion, but above all it improves the bandwidth a great deal.\n\nWe will look into these phenomena at a later stage. We first want to examine the four cases of feedback. The input can be connected in parallel (shunt) or in series, giving rise to four different cases. In this Chapter we will focus on voltage and transconductance amplifiers. Both types of feedback circuits take voltages at the input.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0356_02_132.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270441066063,
+          0.0780487802710027,
+          0.3851351368430931,
+          0.13658536563685642
+        ],
+        "confidence": 0.5,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10810811089527017,
+          0.326829268902439,
+          0.3378378406249999,
+          0.3756097567073171
+        ],
+        "confidence": 1,
+        "text": "• Definitions"
+      },
+      {
+        "bbox": [
+          0.10416668046624247,
+          0.39756097542918667,
+          0.8166666598462573,
+          0.463855422234815
+        ],
+        "confidence": 1,
+        "text": "• Series-shunt FB for Voltage amplifiers."
+      },
+      {
+        "bbox": [
+          0.11148648137668926,
+          0.4780487797560976,
+          0.939189184079392,
+          0.5365853651219512
+        ],
+        "confidence": 1,
+        "text": "• Series-series FB for Transconductance amps."
+      },
+      {
+        "bbox": [
+          0.7195945919763513,
+          0.9414634148780487,
+          0.9290540514358109,
+          0.9707317075609755
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 132"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback",
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We first want to examine the four cases of feedback.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0356_02_132.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The input can be connected in parallel (shunt) or in series, giving rise to four different cases.",
+        "pdf_page": 357,
+        "printed_page": 364,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For example, what is the actual loop gain?",
+      "pdf_page": 356,
+      "printed_page": 363,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For large values of the loop gain, it is the ratio of the open-loop gain and the closed-loop gain, or simply the difference if we use dB.",
+      "pdf_page": 356,
+      "printed_page": 363,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For example, an operational amplifier (shortened to opamp) with an open-loop gain of 85 dB, which is used in a negative feedback loop resulting in a gain of 10 or 20 dB, has a loop gain of 65 dB.",
+      "pdf_page": 356,
+      "printed_page": 363,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This loop gain is the gain by which the characteristics of the amplifier are improved such as the precision of the gain.",
+      "pdf_page": 356,
+      "printed_page": 363,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It also reduces the noise and the distortion, but above all it improves the bandwidth a great deal.",
+      "pdf_page": 356,
+      "printed_page": 363,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "This loop gain is the gain by which the characteristics of the amplifier are improved such as the precision of the gain.",
+      "pdf_page": 356,
+      "printed_page": 363,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

@@ -1,0 +1,53 @@
+142 Chapter #4
+Both are equivalent! Indeed the noise voltage is squared at the end of the calculations. As a
+result, it does not make any difference whether the noise is applied to the positive or negative
+side. We prefer the side where it is easier to do the calculations!
+As a result, the total equivalent input noise source is simply twice the noise voltage power of
+one single transistor.
+A differential amplifier always gives √2 or 41% more input noise voltage than a single
+amplifier. The lowest-noise amplifiers are single-input. On the other hand, these single-input
+amplifiers are much more sensitive to substrate noise. The debate on whether to use differential
+input amplifiers in RF receivers for example, is therefore still ongoing.
+0450
+A voltage differential ampli-
+fier with single-ended out-
+put is shown in this slide.
+The noise sources of all four
+transistors are added by
+their current sources.
+This is a circuit with two
+equal halves. If we know the
+input noise power for one
+halve, we simply multiply
+by two.
+Moreover each half con-
+sists of an amplifying tran-
+sistor loaded by a current
+source. We already know
+how to reduce the noise con-
+tribution of the current source. We simply design it with a larger V −V .
+GS T
+The resulting equivalent input voltage is now what we expected. It contains a factor of two
+for the two halves. Also it contains the g ratio, which is typical for an active load.
+m
+If we succeed in making the load V −V small, then we can limit the input noise to the two
+GS T
+input transistors only. However, if we choose the same V −V for all transistors, or if we have
+GS T
+bipolar transistors, then the noise of all 4 transistors is equally important!
+0451
+Differential pairs with large V −V values are actually called transconductors. If we cannot
+GS T
+make the V −V sufficiently large, because of velocity saturation, we can still add resistors. In
+GS T
+both cases we assume equal resistors and we also take g R>1.
+m
+For small signals both realizations are equivalent. Indeed their gains are the same.
+How about noise?
+First of all, we notice that in the first case, DC current I /2 flows through the resistors R,
+B
+which is not true in the second case. We therefore need a larger DC supply voltage.
+Moreover, the noise performance is quite different. In the first case the equivalent input noise
+voltage is the noise contributed by both resistors. This is because for g R>1, the transistor
+m
+noise is negligible.

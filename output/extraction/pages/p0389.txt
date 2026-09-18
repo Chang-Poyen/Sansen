@@ -1,0 +1,56 @@
+Feedback transimpedance and current amplifiers 397
+1417
+Shunt-shunt feedback
+around a single-transistor
+amplifier is far from ideal:
+the loop gain is simply too
+small.
+Note also, that the feed-
+back resistor R is compar-
+F
+able in size to the output
+resistance r . This does not
+o
+decrease the LG because R
+F
+leads to an infinite input
+resistance at the Gate.
+As a result, the simple
+equations that we have
+derived before, may not pro-
+vide accurate results. The
+closed loop gain is still about right, however, i.e. R .
+F
+The other quantities, the loop gain and both the input and output impedances can only be
+approximated in a crude way by the simple expressions given in this slide. To obtain more
+accurate expressions the method has to be used, which always works but which asks much more
+analysis. The transistor has to be substituted by its small-signal equivalent circuit (with mainly
+g and r at low frequencies) and the equations stating the laws of Kirchoff have to be solved.
+m o
+Needless to say that SPICE or any other similar circuit simulator should provide the same results.
+The reference actually describes a combination of a single-transistor amplifier followed by a
+shunt-shunt single-transistor feedback stage.
+1418
+Shunt-shunt feedback
+around a single-transistor
+amplifier is far from ideal:
+the loop gain is simply too
+small. Moreover, the feed-
+back resistor R is compar-
+F
+able in size to the output
+resistance r . This causes
+o
+what is called ‘‘output load-
+ing’’. In all previous cases we
+had a source follower at the
+output. Now we do not.
+As a result, none of the
+simple equations that we
+have derived, provide accu-
+rate results. The closed loop
+gain is just about right, i.e. R .
+F
+The other quantities however, the loop gain and both the input and output impedances can
+only be approximated in a crude way by the simple expressions given in this slide. This is why
+question marks are added.

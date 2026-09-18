@@ -1,0 +1,459 @@
+{
+  "case_id": "SANSEN-239",
+  "slide_id": "239",
+  "chapter": 23,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 703,
+    "printed_page": 715
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0703_01_239.jpg",
+      "pdf_page": 703,
+      "printed_page": 715,
+      "bbox_pt": [
+        91.521622,
+        218.19097899999997,
+        374.78981,
+        414.65097
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 703,
+      "printed_page": 715,
+      "bbox_pt": [
+        0,
+        214.2013999999998,
+        595,
+        797
+      ],
+      "text_raw": "Let us take as an example,\na DCS-1800 receiver. It\noperates at a carrier fre-\nquency of 1.8 GHz.\nSeveral sensitivities and\nvalues of Noise Figures are\nshown in this slide.\nRemember that 1 dBm is 1\nmW in 50 V, which corres-\nponds to 224 mV . A sen-\nRMS\nsitivity is specified of\n−100 dBm for an input\nSNR of 9 dB. The input\nnoise must be at −109 dBm.\nThe bandwidth is\n200 kHz. The Noise Figure\nis 12 dB. If 3 dB loss is taken into account for the channel filter, then a Noise Figure of 9 dB is\nrequired.\nLet us now try to find out about the distortion.\nDistortion is important to avoid leakage from one channel to the adjacent channels. Especially\nintermodulation and cross-modulation distortion are to be avoided. Both are described by the\n3rd-order intermodulation intercept (IIP3) as shown in Chapter 18.\nA minimum input signal is taken 3 dB higher than the sensitivity specifies. For a high input\nsignal at −49 dBm, the SNR must still be 9 dB.\nThe distortion specification now leads to a IIP3 of −20.5 dBm.\nAgain, to take into account the attenuation in the preceding channel filter, 3 dB has to be\nsubtracted, leading to an IIP3 of −23.5 dBm.\nNormally, MOST amplifiers can easily satisfy such a specification, depending on the choice\nof the V −V .\nGS T",
+      "text": "Let us take as an example, a DCS-1800 receiver. It operates at a carrier frequency of 1.8 GHz. Several sensitivities and values of Noise Figures are shown in this slide. Remember that 1 dBm is 1 mW in 50 V, which corresponds to 224 mV . A sen- RMS sitivity is specified of −100 dBm for an input SNR of 9 dB. The input noise must be at −109 dBm. The bandwidth is 200 kHz. The Noise Figure is 12 dB. If 3 dB loss is taken into account for the channel filter, then a Noise Figure of 9 dB is required. Let us now try to find out about the distortion. Distortion is important to avoid leakage from one channel to the adjacent channels. Especially intermodulation and cross-modulation distortion are to be avoided. Both are described by the 3rd-order intermodulation intercept (IIP3) as shown in Chapter 18. A minimum input signal is taken 3 dB higher than the sensitivity specifies. For a high input signal at −49 dBm, the SNR must still be 9 dB. The distortion specification now leads to a IIP3 of −20.5 dBm. Again, to take into account the attenuation in the preceding channel filter, 3 dB has to be subtracted, leading to an IIP3 of −23.5 dBm. Normally, MOST amplifiers can easily satisfy such a specification, depending on the choice of the V −V . GS T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us take as an example, a DCS-1800 receiver. It operates at a carrier frequency of 1.8 GHz. Several sensitivities and values of Noise Figures are shown in this slide. Remember that 1 dBm is 1 mW in 50 V, which corresponds to 224 mV . A sen- RMS sitivity is specified of −100 dBm for an input SNR of 9 dB. The input noise must be at −109 dBm. The bandwidth is 200 kHz. The Noise Figure is 12 dB. If 3 dB loss is taken into account for the channel filter, then a Noise Figure of 9 dB is required. Let us now try to find out about the distortion. Distortion is important to avoid leakage from one channel to the adjacent channels. Especially intermodulation and cross-modulation distortion are to be avoided. Both are described by the 3rd-order intermodulation intercept (IIP3) as shown in Chapter 18. A minimum input signal is taken 3 dB higher than the sensitivity specifies. For a high input signal at −49 dBm, the SNR must still be 9 dB. The distortion specification now leads to a IIP3 of −20.5 dBm. Again, to take into account the attenuation in the preceding channel filter, 3 dB has to be subtracted, leading to an IIP3 of −23.5 dBm. Normally, MOST amplifiers can easily satisfy such a specification, depending on the choice of the V −V . GS T",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Minimum NF and IIP3 for DCS-1800",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0703_01_239.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432018581084,
+          0.08292682948170726,
+          0.736486482347973,
+          0.13658536606707317
+        ],
+        "confidence": 1,
+        "text": "Minimum NF and IIP3 for DCS-1800"
+      },
+      {
+        "bbox": [
+          0.0776140934080406,
+          0.2091803110121736,
+          0.2129264444286474,
+          0.2542343234037989
+        ],
+        "confidence": 1,
+        "text": "Sensitivity"
+      },
+      {
+        "bbox": [
+          0.07770270219594595,
+          0.27317073195121955,
+          0.13851351300675677,
+          0.3121951221951219
+        ],
+        "confidence": 1,
+        "text": "SNR"
+      },
+      {
+        "bbox": [
+          0.17217492531231215,
+          0.3308673786969192,
+          0.3143115635412699,
+          0.3764496940953448
+        ],
+        "confidence": 1,
+        "text": "Input noise"
+      },
+      {
+        "bbox": [
+          0.1722972977759009,
+          0.39512195097560965,
+          0.22972973020833332,
+          0.4341463412195121
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "kT ="
+      },
+      {
+        "bbox": [
+          0.0777027001013514,
+          0.4585365855121951,
+          0.33783783523648653,
+          0.5024390245365853
+        ],
+        "confidence": 1,
+        "text": "Bandwidth (200 kHz)"
+      },
+      {
+        "bbox": [
+          0.17229729957770268,
+          0.5219512192276423,
+          0.44594594822635136,
+          0.5658536582520326
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "NF: -109 - (-174+53) ="
+      },
+      {
+        "bbox": [
+          0.0810810760979731,
+          0.5853658537804878,
+          0.4797297247466217,
+          0.6243902440243903
+        ],
+        "confidence": 1,
+        "text": "Attenuating blocking filter : 3 dB"
+      },
+      {
+        "bbox": [
+          0.5370636321342848,
+          0.2090687144912191,
+          0.6656390731339087,
+          0.24946787045688457
+        ],
+        "confidence": 1,
+        "text": "-100 dBm"
+      },
+      {
+        "bbox": [
+          0.5641891889864865,
+          0.2682926834146342,
+          0.631756756554054,
+          0.3170731712195122
+        ],
+        "confidence": 1,
+        "text": "9 dB"
+      },
+      {
+        "bbox": [
+          0.5368870142837114,
+          0.32531556557058416,
+          0.6624373101392593,
+          0.3771234576023701
+        ],
+        "confidence": 1,
+        "text": "-109 dBm"
+      },
+      {
+        "bbox": [
+          0.5369432307545602,
+          0.38901367403057796,
+          0.6657594745190767,
+          0.44025461831143486
+        ],
+        "confidence": 1,
+        "text": "-174 dBm"
+      },
+      {
+        "bbox": [
+          0.5370996088945135,
+          0.4485331750018624,
+          0.6385760655624393,
+          0.5026863405865196
+        ],
+        "confidence": 0.5,
+        "text": "+ 53 dB"
+      },
+      {
+        "bbox": [
+          0.5369505020447815,
+          0.5163302884676775,
+          0.6184549049786754,
+          0.5665965403806086
+        ],
+        "confidence": 0.5,
+        "text": "12 dB"
+      },
+      {
+        "bbox": [
+          0.6350779136619595,
+          0.5849357269666179,
+          0.7568139762015499,
+          0.6199423210430072
+        ],
+        "confidence": 0.5,
+        "text": "NF < 9 dB"
+      },
+      {
+        "bbox": [
+          0.06756756547297299,
+          0.67804878,
+          0.29054053844594596,
+          0.7268292678048781
+        ],
+        "confidence": 1,
+        "text": "+ 3 dB Sensitivity"
+      },
+      {
+        "bbox": [
+          0.533664079099314,
+          0.6822235454337188,
+          0.6420115981233124,
+          0.722654505274819
+        ],
+        "confidence": 0.5,
+        "text": "-97 dBm"
+      },
+      {
+        "bbox": [
+          0.07432432584459456,
+          0.7463414632012195,
+          0.3175675690878378,
+          0.7902439022256098
+        ],
+        "confidence": 0.5,
+        "text": "SNR (-49 dBm sine)"
+      },
+      {
+        "bbox": [
+          0.5472972979391891,
+          0.7414634143414635,
+          0.6114864871283783,
+          0.7902439021463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9 dB"
+      },
+      {
+        "bbox": [
+          0.16216216719594587,
+          0.8048780485853658,
+          0.6655405455743243,
+          0.8536585363902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IIP3 =-49 +(-49- (-106/2)) = -20.5 dBm"
+      },
+      {
+        "bbox": [
+          0.07432432815315308,
+          0.8682926826422764,
+          0.5337837876126126,
+          0.9121951216666666
+        ],
+        "confidence": 1,
+        "text": "With attenuating blocking filter : 3 dB"
+      },
+      {
+        "bbox": [
+          0.6148648710270788,
+          0.8682926835772359,
+          0.8277026959774259,
+          0.9073170726581208
+        ],
+        "confidence": 0.5,
+        "text": "IIP3 < -23.5 dBm"
+      },
+      {
+        "bbox": [
+          0.7263513607230245,
+          0.941463413902439,
+          0.9290540505382363,
+          0.9853658529268292
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 239"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Several sensitivities and values of Noise Figures are shown in this slide.",
+      "pdf_page": 703,
+      "printed_page": 715,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Let us now try to find out about the distortion.",
+      "pdf_page": 703,
+      "printed_page": 715,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Both are described by the 3rd-order intermodulation intercept (IIP3) as shown in Chapter 18.",
+      "pdf_page": 703,
+      "printed_page": 715,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0703_01_239.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The bandwidth is 200 kHz.",
+      "pdf_page": 703,
+      "printed_page": 715,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Normally, MOST amplifiers can easily satisfy such a specification, depending on the choice of the V −V .",
+      "pdf_page": 703,
+      "printed_page": 715,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-239-M01",
+      "ocr_text": "kT =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1722972977759009,
+        0.39512195097560965,
+        0.22972973020833332,
+        0.4341463412195121
+      ],
+      "context_crop": "regions/SANSEN-239_math_01.png",
+      "context_bbox_normalized": [
+        0.13229729777590088,
+        0.29512195097560967,
+        0.4597297302083333,
+        0.5641463412195121
+      ],
+      "source_image": "slides/p0703_01_239.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-239-M02",
+      "ocr_text": "NF: -109 - (-174+53) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.17229729957770268,
+        0.5219512192276423,
+        0.44594594822635136,
+        0.5658536582520326
+      ],
+      "context_crop": "regions/SANSEN-239_math_02.png",
+      "context_bbox_normalized": [
+        0.13229729957770267,
+        0.42195121922764234,
+        0.6759459482263513,
+        0.6958536582520326
+      ],
+      "source_image": "slides/p0703_01_239.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-239-M03",
+      "ocr_text": "NF < 9 dB",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6350779136619595,
+        0.5849357269666179,
+        0.7568139762015499,
+        0.6199423210430072
+      ],
+      "context_crop": "regions/SANSEN-239_math_03.png",
+      "context_bbox_normalized": [
+        0.5950779136619595,
+        0.4849357269666179,
+        0.9868139762015499,
+        0.7499423210430072
+      ],
+      "source_image": "slides/p0703_01_239.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-239-M04",
+      "ocr_text": "IIP3 =-49 +(-49- (-106/2)) = -20.5 dBm",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.16216216719594587,
+        0.8048780485853658,
+        0.6655405455743243,
+        0.8536585363902439
+      ],
+      "context_crop": "regions/SANSEN-239_math_04.png",
+      "context_bbox_normalized": [
+        0.12216216719594586,
+        0.7048780485853658,
+        0.8955405455743243,
+        0.93
+      ],
+      "source_image": "slides/p0703_01_239.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-239-M05",
+      "ocr_text": "IIP3 < -23.5 dBm",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6148648710270788,
+        0.8682926835772359,
+        0.8277026959774259,
+        0.9073170726581208
+      ],
+      "context_crop": "regions/SANSEN-239_math_05.png",
+      "context_bbox_normalized": [
+        0.5748648710270787,
+        0.7682926835772359,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0703_01_239.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

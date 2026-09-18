@@ -1,0 +1,41 @@
+DiVerential voltage and current amplifiers 95
+for small collector currents. In BiCMOS technologies however, the processing is a lot cleaner.
+The beta hardly drops at low currents and this resistor can then be omitted.
+In a BiCMOS technology, a MOST could be used for transistor M3. Its Gate current is zero
+and so would be the current error. We have to be careful however with the M1, M3 feedback
+loop. If we reduce the capacitance C too much, by replacing it with a small MOST, we may
+BE3
+find some peaking in the current transfer function, as a result of too many poles too close
+together! A pole-zero position diagram of the current gain with C as a variable is the best
+BE3
+way to study this phenomenon.
+0313
+The same techniques can be
+used as before to make the
+current difference zero. Two
+transistors M3 and M4 are
+added, which have as a first
+objective to make the volt-
+ages v across the current
+CE
+mirror devices M1 and M2
+as equal as possible. We
+have again two realizations.
+The left one is a passive
+circuit as it consists of a
+voltage divider utilizing two
+diode connected transistors
+M1 and M3, connected to a
+cascoded amplifier M2 and
+M4.
+Transistors M4 and M2 have the same W/L ratio as M2 and M1, which is B. Transistors M3
+and M4 must have the same V because their currents have the same ratio B. As a result, the
+BE
+voltages v and v must also be the same. The current ratio will therefore be quite accurate.
+CE1 CE2
+The same is true for the current mirror on the right. It is an active circuit however. It is a
+feedback amplifier with loop gain T. Multiple poles occur, leading to peaking in the current
+transfer characteristic.
+An important disadvantage of both current mirrors, is again that their minimum output
+voltage (compliance voltage) is quite high! As a result they cannot be used in low-voltage
+applications! One of the low-voltage current mirrors should be used!

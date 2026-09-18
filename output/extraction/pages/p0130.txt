@@ -1,0 +1,42 @@
+Noise performance of elementary transistor stages 133
+drive, the larger current gives a larger base shot noise and hence a larger NF. This is exactly the
+opposite result.
+A MOST does not have an input noise current. Its NF is a straight line, decreasing
+continuously.
+It is clear that for large source impedances, a bipolar transistor will never be used. The base
+noise current would flow in this large source resistance and kill the noise performance. Large
+source resistances are very common. Examples are preamplifiers for photodiodes, biopotentials,
+but also low-frequency capacitive pressure sensors, etc.
+0432
+Now that we know how
+an amplifier performs with
+respect to low noise, let us
+observe the two other single-
+transistor stages. They are
+the source follower and the
+cascode.
+We will find that the noise
+performance of a source
+follower is really poor
+whereas a cascode performs
+beautifully!
+0433
+A source follower, or an
+emitter follower in this case,
+has a gain of at most unity.
+As a result, the noise of the
+next amplifier is not attenu-
+ated when we refer its noise
+to the input.
+When we identify all noise
+sources for a bipolar realiza-
+tion, not forgetting the out-
+put noise of the DC biasing
+current source I , we then
+T
+easily find their contribu-
+tions to the output. Dividing
+all output components by
+the gain gives us the total
+equivalent input noise voltage.
+It is clear that the input noise voltages of both the emitter follower and the amplifier, appear

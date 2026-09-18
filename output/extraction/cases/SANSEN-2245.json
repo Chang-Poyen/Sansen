@@ -1,0 +1,203 @@
+{
+  "case_id": "SANSEN-2245",
+  "slide_id": "2245",
+  "chapter": 22,
+  "slide_number_in_chapter": 45,
+  "source": {
+    "pdf_page": 688,
+    "printed_page": 699
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0689_01_2245.jpg",
+      "pdf_page": 689,
+      "printed_page": 700,
+      "bbox_pt": [
+        91.52162,
+        122.57681000000002,
+        374.78981,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 688,
+      "printed_page": 699,
+      "bbox_pt": [
+        0,
+        630.73840035,
+        595,
+        797
+      ],
+      "text_raw": "Leaving out the crystal yields a relaxation oscillator. The frequency is now set by the currents\nI , capacitor C and the limiting voltage, which is here a V of a bipolar transistor. Actually, it\nB BE\nis I /(4CV ). Square waveforms are obtained at the outputs but a triangular one across the\nB BE\ntime setting capacitor C.",
+      "text": "Leaving out the crystal yields a relaxation oscillator. The frequency is now set by the currents I , capacitor C and the limiting voltage, which is here a V of a bipolar transistor. Actually, it B BE is I /(4CV ). Square waveforms are obtained at the outputs but a triangular one across the B BE time setting capacitor C."
+    },
+    {
+      "pdf_page": 689,
+      "printed_page": 700,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        368.6092800000001
+      ],
+      "text_raw": "Needless to say that this\nfrequency is not all that\naccurate and very temper-\nature dependent.\nMany such relaxation\noscillators have been built\nand published. This is one\nof the earlier ones.\nIts main advantage is its\ntunability by means of cur-\nrent I . This range is limited\nB\nhowever by the base cur-\nrents of the emitter follower\ntransistors. Substituting\nthem by MOST source fol-\nlowers allows a current and\nhence a frequency range of\nover 8 decades!",
+      "text": "Needless to say that this frequency is not all that accurate and very temperature dependent. Many such relaxation oscillators have been built and published. This is one of the earlier ones. Its main advantage is its tunability by means of current I . This range is limited B however by the base currents of the emitter follower transistors. Substituting them by MOST source followers allows a current and hence a frequency range of over 8 decades!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Leaving out the crystal yields a relaxation oscillator. The frequency is now set by the currents I , capacitor C and the limiting voltage, which is here a V of a bipolar transistor. Actually, it B BE is I /(4CV ). Square waveforms are obtained at the outputs but a triangular one across the B BE time setting capacitor C.\n\nNeedless to say that this frequency is not all that accurate and very temperature dependent. Many such relaxation oscillators have been built and published. This is one of the earlier ones. Its main advantage is its tunability by means of current I . This range is limited B however by the base currents of the emitter follower transistors. Substituting them by MOST source followers allows a current and hence a frequency range of over 8 decades!",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Relaxation Oscillator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0689_01_2245.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270540540539,
+          0.07804878031358886,
+          0.45608108378378376,
+          0.13170731689895465
+        ],
+        "confidence": 1,
+        "text": "Relaxation Oscillator"
+      },
+      {
+        "bbox": [
+          0.2466216217905406,
+          0.27804878087804874,
+          0.2702702704391892,
+          0.3170731711219512
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.12837837833614865,
+          0.41463414701219503,
+          0.20608108103885134,
+          0.46829268359756093
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.6216216223986487,
+          0.41463414619512196,
+          0.6993243251013513,
+          0.46829268278048786
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.12837837865990992,
+          0.7512195120325204,
+          0.1621621624436937,
+          0.7999999998373984
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'в"
+      },
+      {
+        "bbox": [
+          0.243243254842342,
+          0.9024390243089431,
+          0.9391892007882879,
+          0.9365853657723577
+        ],
+        "confidence": 1,
+        "text": "Ref. Grebene, JSSC, Aug.69, 110-122; Gray, Meyer, Wiley, 1984."
+      },
+      {
+        "bbox": [
+          0.7263513542477996,
+          0.9560975611382113,
+          0.9391891791981468,
+          0.9853658538211382
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2245"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0689_01_2245.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This range is limited B however by the base currents of the emitter follower transistors.",
+        "pdf_page": 689,
+        "printed_page": 700,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Substituting them by MOST source followers allows a current and hence a frequency range of over 8 decades!",
+        "pdf_page": 689,
+        "printed_page": 700,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The frequency is now set by the currents I , capacitor C and the limiting voltage, which is here a V of a bipolar transistor.",
+      "pdf_page": 688,
+      "printed_page": 699,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Needless to say that this frequency is not all that accurate and very temperature dependent.",
+      "pdf_page": 689,
+      "printed_page": 700,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This range is limited B however by the base currents of the emitter follower transistors.",
+      "pdf_page": 689,
+      "printed_page": 700,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

@@ -1,0 +1,179 @@
+{
+  "case_id": "SANSEN-2136",
+  "slide_id": "2136",
+  "chapter": 21,
+  "slide_number_in_chapter": 36,
+  "source": {
+    "pdf_page": 644,
+    "printed_page": 655
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0644_02_2136.jpg",
+      "pdf_page": 644,
+      "printed_page": 655,
+      "bbox_pt": [
+        91.52162,
+        391.4823,
+        374.78981,
+        587.94229
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 644,
+      "printed_page": 655,
+      "bbox_pt": [
+        0,
+        387.49286000000006,
+        595,
+        630.73851
+      ],
+      "text_raw": "Even less power consump-\ntion has been reached when\na class-AB amplifier is used\nas an output stage.\nMoreover, some other\ndesign tricks can be applied\nto minimize the power\nconsumption.\nThey are collected in this\ndesign example.",
+      "text": "Even less power consumption has been reached when a class-AB amplifier is used as an output stage. Moreover, some other design tricks can be applied to minimize the power consumption. They are collected in this design example."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Even less power consumption has been reached when a class-AB amplifier is used as an output stage. Moreover, some other design tricks can be applied to minimize the power consumption. They are collected in this design example.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0644_02_2136.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459459286317569,
+          0.2487804870731707,
+          0.5371621604307433,
+          0.3073170724390244
+        ],
+        "confidence": 1,
+        "text": "• Delta-sigma modulation"
+      },
+      {
+        "bbox": [
+          0.09459459724903473,
+          0.341463414425087,
+          0.4662162188706564,
+          0.3999999997909407
+        ],
+        "confidence": 1,
+        "text": "• The switch problem"
+      },
+      {
+        "bbox": [
+          0.09459459009009015,
+          0.4341463417479674,
+          0.6351351306306307,
+          0.4878048783333333
+        ],
+        "confidence": 1,
+        "text": "• The switched-opamp solution"
+      },
+      {
+        "bbox": [
+          0.138513517849099,
+          0.5219512192682928,
+          0.6587837881193692,
+          0.5707317070731708
+        ],
+        "confidence": 1,
+        "text": "• Principle : Switched opamp filter"
+      },
+      {
+        "bbox": [
+          0.1418918886486487,
+          0.6000000002439024,
+          0.4662162129729731,
+          0.6439024392682926
+        ],
+        "confidence": 1,
+        "text": "• Improved switching"
+      },
+      {
+        "bbox": [
+          0.13513512842060826,
+          0.6780487806707317,
+          0.6722972905827704,
+          0.7317073172560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• 0.9 V - 40 uW 12 bit CMOS SO EA"
+      },
+      {
+        "bbox": [
+          0.09166666676874398,
+          0.7650602420724137,
+          0.8208333162520897,
+          0.8317073180976555
+        ],
+        "confidence": 1,
+        "text": "+ Other low-power Delta-sigma converters"
+      },
+      {
+        "bbox": [
+          0.7229729825135651,
+          0.9365853652845527,
+          0.9358108074639122,
+          0.9707317067479674
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2136"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0644_02_2136.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

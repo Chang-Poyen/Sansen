@@ -1,0 +1,194 @@
+{
+  "case_id": "SANSEN-2148",
+  "slide_id": "2148",
+  "chapter": 21,
+  "slide_number_in_chapter": 48,
+  "source": {
+    "pdf_page": 650,
+    "printed_page": 661
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0650_02_2148.jpg",
+      "pdf_page": 650,
+      "printed_page": 661,
+      "bbox_pt": [
+        91.521622,
+        367.566315,
+        374.78981,
+        564.026306
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 650,
+      "printed_page": 661,
+      "bbox_pt": [
+        0,
+        363.5768500000001,
+        595,
+        594.8645
+      ],
+      "text_raw": "Several other low-voltage\nSigma-Delta converters\nexist, which all address the\nproblem of the series\nswitches and in particular of\nthe input switch.\nThey all operate at supply\nvoltages below 1 V.\nThe operating principles\nare discussed next, followed\nby some discussion on their\nadvantages and disadvan-\ntages.\nThe unity-gain-reset prin-\nciple is first.",
+      "text": "Several other low-voltage Sigma-Delta converters exist, which all address the problem of the series switches and in particular of the input switch. They all operate at supply voltages below 1 V. The operating principles are discussed next, followed by some discussion on their advantages and disadvantages. The unity-gain-reset principle is first."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Several other low-voltage Sigma-Delta converters exist, which all address the problem of the series switches and in particular of the input switch. They all operate at supply voltages below 1 V. The operating principles are discussed next, followed by some discussion on their advantages and disadvantages. The unity-gain-reset principle is first.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0650_02_2148.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.08445946342905399,
+          0.24390243829268288,
+          0.5236486526182431,
+          0.3024390236585366
+        ],
+        "confidence": 1,
+        "text": "* Delta-sigma modulation"
+      },
+      {
+        "bbox": [
+          0.08445945682915061,
+          0.3317073173867595,
+          0.4527027000723939,
+          0.3853658539721254
+        ],
+        "confidence": 0.5,
+        "text": "• The switch problem"
+      },
+      {
+        "bbox": [
+          0.08445946396396385,
+          0.414634146097561,
+          0.6250000045045044,
+          0.4731707314634146
+        ],
+        "confidence": 1,
+        "text": "• The switched-opamp solution"
+      },
+      {
+        "bbox": [
+          0.08333335483998888,
+          0.4999999995306481,
+          0.808333323910011,
+          0.5609756092867456
+        ],
+        "confidence": 1,
+        "text": "+ Other low-power Delta-sigma converters"
+      },
+      {
+        "bbox": [
+          0.12837838010979724,
+          0.5804878046341464,
+          0.40540540713682427,
+          0.6292682924390245
+        ],
+        "confidence": 1,
+        "text": "• Unity-gain-reset"
+      },
+      {
+        "bbox": [
+          0.12837837591216222,
+          0.6536585360487804,
+          0.5506756732094595,
+          0.7073170726341463
+        ],
+        "confidence": 1,
+        "text": "• Optimized input switching"
+      },
+      {
+        "bbox": [
+          0.12837837908783784,
+          0.7317073175609756,
+          0.5101351358445946,
+          0.7804878053658536
+        ],
+        "confidence": 0.5,
+        "text": "• Switched input resistor"
+      },
+      {
+        "bbox": [
+          0.13175675871138992,
+          0.8048780485714285,
+          0.40540540736003855,
+          0.843902438815331
+        ],
+        "confidence": 1,
+        "text": "• Full feedforward"
+      },
+      {
+        "bbox": [
+          0.7229729703125001,
+          0.9414634147560975,
+          0.9358108081503379,
+          0.9707317074390244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2148"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0650_02_2148.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The unity-gain-reset principle is first.",
+      "pdf_page": 650,
+      "printed_page": 661,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

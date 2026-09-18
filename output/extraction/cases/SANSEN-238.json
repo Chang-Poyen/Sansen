@@ -1,0 +1,289 @@
+{
+  "case_id": "SANSEN-238",
+  "slide_id": "238",
+  "chapter": 23,
+  "slide_number_in_chapter": 8,
+  "source": {
+    "pdf_page": 702,
+    "printed_page": 714
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0702_02_238.jpg",
+      "pdf_page": 702,
+      "printed_page": 714,
+      "bbox_pt": [
+        91.52162,
+        397.56097,
+        374.54215999999997,
+        593.97113
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 702,
+      "printed_page": 714,
+      "bbox_pt": [
+        0,
+        393.5715100000001,
+        595,
+        797
+      ],
+      "text_raw": "A transceiver consists of a\nreceiver and a transmitter as\nshown in this slide.\nThe input impedance\nmatching is important for\nthe LNA of the receiver for\nseveral reasons. First of all,\nreflections have to be\navoided over the transmis-\nsion line between the chan-\nnel (SAW) filter and the\nLNA. Secondly, the LNA\nmust provide the right load\nimpedance to this channel\nfilter.\nThe input impedance of\nthe LNA must be as close as possible to the source resistance R , which is usually 50 V. This is\nS\ncalled impedance matching.\nMoreover, the equivalent input noise must also be as small as possible. After all, the LNA is\nthe first active amplification block. Going for the minimum Noise Figure is called noise matching.\nThis has nothing to do with impedance matching. In practice, noise will be reduced as much as\npossible within the constraint of impedance matching.\nThe LNA leads to the mixer. Again a 50 V transmission line is used depending on the distance",
+      "text": "A transceiver consists of a receiver and a transmitter as shown in this slide. The input impedance matching is important for the LNA of the receiver for several reasons. First of all, reflections have to be avoided over the transmission line between the channel (SAW) filter and the LNA. Secondly, the LNA must provide the right load impedance to this channel filter. The input impedance of the LNA must be as close as possible to the source resistance R , which is usually 50 V. This is S called impedance matching. Moreover, the equivalent input noise must also be as small as possible. After all, the LNA is the first active amplification block. Going for the minimum Noise Figure is called noise matching. This has nothing to do with impedance matching. In practice, noise will be reduced as much as possible within the constraint of impedance matching. The LNA leads to the mixer. Again a 50 V transmission line is used depending on the distance"
+    },
+    {
+      "pdf_page": 703,
+      "printed_page": 715,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        214.2013999999998
+      ],
+      "text_raw": "between LNA and mixer. If they are next to each other there is no need for a 50 V line. Higher\noutput impedances can now be used in the LNA.\nNormally, a zero-IF or low-IF architecture is used. In any case, the LNA must have sufficient\ngain to avoid the noise of the mixer to appear at the antenna. Gains of 12–16 dB are typical.",
+      "text": "between LNA and mixer. If they are next to each other there is no need for a 50 V line. Higher output impedances can now be used in the LNA. Normally, a zero-IF or low-IF architecture is used. In any case, the LNA must have sufficient gain to avoid the noise of the mixer to appear at the antenna. Gains of 12–16 dB are typical."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A transceiver consists of a receiver and a transmitter as shown in this slide. The input impedance matching is important for the LNA of the receiver for several reasons. First of all, reflections have to be avoided over the transmission line between the channel (SAW) filter and the LNA. Secondly, the LNA must provide the right load impedance to this channel filter. The input impedance of the LNA must be as close as possible to the source resistance R , which is usually 50 V. This is S called impedance matching. Moreover, the equivalent input noise must also be as small as possible. After all, the LNA is the first active amplification block. Going for the minimum Noise Figure is called noise matching. This has nothing to do with impedance matching. In practice, noise will be reduced as much as possible within the constraint of impedance matching. The LNA leads to the mixer. Again a 50 V transmission line is used depending on the distance\n\nbetween LNA and mixer. If they are next to each other there is no need for a 50 V line. Higher output impedances can now be used in the LNA. Normally, a zero-IF or low-IF architecture is used. In any case, the LNA must have sufficient gain to avoid the noise of the mixer to appear at the antenna. Gains of 12–16 dB are typical.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Transceiver",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0702_02_238.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0776933004268523,
+          0.08061761134039214,
+          0.2884083971106778,
+          0.1388945832969708
+        ],
+        "confidence": 1,
+        "text": "Transceiver"
+      },
+      {
+        "bbox": [
+          0.09491525596610167,
+          0.20975609731707312,
+          0.26779661189830506,
+          0.2536585363414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "50 12 match"
+      },
+      {
+        "bbox": [
+          0.21355932345878303,
+          0.3219512196747968,
+          0.32203389326438087,
+          0.35121951235772353
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "frs Jato MIS"
+      },
+      {
+        "bbox": [
+          0.25084745745762715,
+          0.4243902438008129,
+          0.29152542355932204,
+          0.44878048770325196
+        ],
+        "confidence": 1,
+        "text": "SAW"
+      },
+      {
+        "bbox": [
+          0.22990040027387823,
+          0.6769524766345243,
+          0.3228027292823363,
+          0.7082021649458453
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Poшer Amp"
+      },
+      {
+        "bbox": [
+          0.3966101684180791,
+          0.6682926830894308,
+          0.46101694807909605,
+          0.6975609757723576
+        ],
+        "confidence": 1,
+        "text": "PseAmp"
+      },
+      {
+        "bbox": [
+          0.7525423720762712,
+          0.36097560993902444,
+          0.8169491517372882,
+          0.41463414652439023
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-i%"
+      },
+      {
+        "bbox": [
+          0.7894284295368583,
+          0.4696802335017547,
+          0.9052573671320319,
+          0.49998580633716516
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DIGITAL Can"
+      },
+      {
+        "bbox": [
+          0.7932203401129944,
+          0.5024390241463415,
+          0.8610169502824859,
+          0.5268292680487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MOOEM"
+      },
+      {
+        "bbox": [
+          0.5254237283050848,
+          0.697560975783972,
+          0.5966101689830509,
+          0.7414634148083623
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф.49"
+      },
+      {
+        "bbox": [
+          0.5288135582485876,
+          0.7414634148780487,
+          0.5932203379096045,
+          0.7658536587804877
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Symiwele"
+      },
+      {
+        "bbox": [
+          0.5491525427291025,
+          0.7658536592806957,
+          0.5762711851805019,
+          0.7853658532396294
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VSA"
+      },
+      {
+        "bbox": [
+          0.5220338981355933,
+          0.7804878048373984,
+          0.6033898303389831,
+          0.7999999999593496
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Pomal Ontt"
+      },
+      {
+        "bbox": [
+          0.7864406791525423,
+          0.6975609754471546,
+          0.8576271198305084,
+          0.7268292681300813
+        ],
+        "confidence": 1,
+        "text": "DIGITAL"
+      },
+      {
+        "bbox": [
+          0.7796610183615819,
+          0.7268292681300813,
+          0.8644067810734463,
+          0.7560975608130082
+        ],
+        "confidence": 1,
+        "text": "CONTROL"
+      },
+      {
+        "bbox": [
+          0.7254237268474577,
+          0.9512195123902439,
+          0.922033896338983,
+          0.9804878050731708
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 238"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A transceiver consists of a receiver and a transmitter as shown in this slide.",
+      "pdf_page": 702,
+      "printed_page": 714,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0702_02_238.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The input impedance of the LNA must be as close as possible to the source resistance R , which is usually 50 V.",
+        "pdf_page": 702,
+        "printed_page": 714,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Again a 50 V transmission line is used depending on the distance",
+      "pdf_page": 702,
+      "printed_page": 714,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In any case, the LNA must have sufficient gain to avoid the noise of the mixer to appear at the antenna.",
+      "pdf_page": 703,
+      "printed_page": 715,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

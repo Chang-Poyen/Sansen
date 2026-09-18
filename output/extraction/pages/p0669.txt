@@ -1,0 +1,52 @@
+680 Chapter #22
+used to contact the crystal, with the dielectric constant of quartz (4.5 times larger than air). It
+includes the package and mounting capacitances as well.
+227
+For example, a crystal of
+10.00 MHz can be modeled
+by a series LRC with an
+inductance of about 10 mH
+in series with 26 fF and a
+damping resistor of 5 V.
+Note that the inductors are
+fairly large and the capaci-
+tors very small. A rule of
+thumb says that they are
+about 1/200 to 1/250 of the
+package capacitance C .
+p
+Plate or package capaci-
+tances are always of the
+order of magnitude of pF’s.
+The series capacitance C is
+s
+always in the fF range.
+The resistors are very small because the quality factors Q are so high, of the order of 105!
+It is clear that the package capacitance C also forms a parallel resonant circuit with L . We
+p s
+have both a series and a parallel resonant circuit!
+We will try to make an oscillator at the series resonant frequency f however, as this is the
+s
+internal crystal frequency, independent of the package or mounting.
+228
+To recall what series and
+parallel resonance means,
+both are sketched in this
+slide.
+Both have the same
+expression for the resonant
+frequency f .
+r
+The impedances versus
+frequency look very,
+different however.
+A series resonant circuit
+has a sharp null at reso-
+nance. At resonance the
+impedance is reduced to the
+resistor R. The crystal is
+purely resistive.
+For frequencies lower
+than f , the impedance of the capacitor increases and therefore determines the current. The
+r
+impedance is capacitive, and the phase becomes −90°. For higher frequencies, the impedance

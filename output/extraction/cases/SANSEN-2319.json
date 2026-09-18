@@ -1,0 +1,426 @@
+{
+  "case_id": "SANSEN-2319",
+  "slide_id": "2319",
+  "chapter": 23,
+  "slide_number_in_chapter": 19,
+  "source": {
+    "pdf_page": 708,
+    "printed_page": 720
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0708_02_2319.jpg",
+      "pdf_page": 708,
+      "printed_page": 720,
+      "bbox_pt": [
+        91.52162,
+        373.64495999999997,
+        374.54215999999997,
+        570.10492
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 708,
+      "printed_page": 720,
+      "bbox_pt": [
+        0,
+        369.65551000000005,
+        595,
+        797
+      ],
+      "text_raw": "The Noise Figure NF is\ndefined as in Chapter 4.\nThe equivalent input\nnoise of the input transistor\nis as given in this slide. The\nterm 2/3 has been left out to\ntake into account that this\nMOST is probably operat-\ning close to velocity satura-\ntion where its thermal noise\nis probably larger. It may\nhelp somewhat to lower the\nDrain-Source voltage to\navoid velocity saturation.\nThe noise of the load R\nL\nis neglected.\nUnder the two matching conditions, the NF can then be rewritten as given in this slide.\nIt is striking that the NF decreaes for larger values of v , but not for larger g . Parameter\nT m\nv is therefore clearly the dominant transistor parameter.\nT\nAlso, note that the NF is quite low at lower frequencies, but increases versus frequency. At\nthe highest frequencies of interest the NF may not be all that attractive.",
+      "text": "The Noise Figure NF is defined as in Chapter 4. The equivalent input noise of the input transistor is as given in this slide. The term 2/3 has been left out to take into account that this MOST is probably operating close to velocity saturation where its thermal noise is probably larger. It may help somewhat to lower the Drain-Source voltage to avoid velocity saturation. The noise of the load R L is neglected. Under the two matching conditions, the NF can then be rewritten as given in this slide. It is striking that the NF decreaes for larger values of v , but not for larger g . Parameter T m v is therefore clearly the dominant transistor parameter. T Also, note that the NF is quite low at lower frequencies, but increases versus frequency. At the highest frequencies of interest the NF may not be all that attractive."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The Noise Figure NF is defined as in Chapter 4. The equivalent input noise of the input transistor is as given in this slide. The term 2/3 has been left out to take into account that this MOST is probably operating close to velocity saturation where its thermal noise is probably larger. It may help somewhat to lower the Drain-Source voltage to avoid velocity saturation. The noise of the load R L is neglected. Under the two matching conditions, the NF can then be rewritten as given in this slide. It is striking that the NF decreaes for larger values of v , but not for larger g . Parameter T m v is therefore clearly the dominant transistor parameter. T Also, note that the NF is quite low at lower frequencies, but increases versus frequency. At the highest frequencies of interest the NF may not be all that attractive.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Inductive degeneration : Noise Figure",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0708_02_2319.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0779660951186442,
+          0.08780487819512195,
+          0.735593213762712,
+          0.15121951234146347
+        ],
+        "confidence": 1,
+        "text": "Inductive degeneration : Noise Figure"
+      },
+      {
+        "bbox": [
+          0.21016949199999999,
+          0.24878048717073176,
+          0.298305085220339,
+          0.31219512131707317
+        ],
+        "confidence": 1,
+        "text": "dvin?"
+      },
+      {
+        "bbox": [
+          0.07796610242130753,
+          0.28780487770034835,
+          0.2271186447941889,
+          0.33658536550522644
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "NF = 1 + -"
+      },
+      {
+        "bbox": [
+          0.21355932101694916,
+          0.3268292684756098,
+          0.294915253220339,
+          0.3902439026219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvR?"
+      },
+      {
+        "bbox": [
+          0.3186440691949152,
+          0.29268292646341454,
+          0.4305084759745762,
+          0.331707316707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 1 +-"
+      },
+      {
+        "bbox": [
+          0.4338983057627118,
+          0.258536586097561,
+          0.5288135599999999,
+          0.31707317146341474
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R CGs"
+      },
+      {
+        "bbox": [
+          0.4099184571734479,
+          0.33489234304305193,
+          0.5799120484820417,
+          0.39193692820123716
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m (Lg+Ls)"
+      },
+      {
+        "bbox": [
+          0.4169491528601695,
+          0.4243902436585365,
+          0.46779661048728816,
+          0.4731707314634146
+        ],
+        "confidence": 1,
+        "text": "2/3"
+      },
+      {
+        "bbox": [
+          0.24406779616949156,
+          0.4487804871219512,
+          0.40338983006779666,
+          0.5170731700487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dv,,2 = 4kT"
+      },
+      {
+        "bbox": [
+          0.44058096726687457,
+          0.4577633977270925,
+          0.6068766557020573,
+          0.5032122150034656
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- df = 4kT"
+      },
+      {
+        "bbox": [
+          0.6169491528813559,
+          0.4292682924390244,
+          0.6508474579661017,
+          0.4829268290243902
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.4203389836440678,
+          0.49756097548780487,
+          0.46779661076271184,
+          0.5463414632926828
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.6169491522033899,
+          0.4975609752439024,
+          0.664406779322034,
+          0.5414634142682927
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.24740128493545716,
+          0.5752195817756389,
+          0.47463261128112716,
+          0.64429261220092
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvR?= 4kT R df"
+      },
+      {
+        "bbox": [
+          0.6677966102033899,
+          0.45853658492682936,
+          0.7050847457966102,
+          0.5024390239512195
+        ],
+        "confidence": 1,
+        "text": "df"
+      },
+      {
+        "bbox": [
+          0.09794405021892608,
+          0.7190077524466959,
+          0.4139203644403243,
+          0.8078215155766978
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "NF = 1 + gm R ( *n y2"
+      },
+      {
+        "bbox": [
+          0.7152542394915254,
+          0.9317073164634148,
+          0.9254237310169492,
+          0.9804878042682927
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-46 2319"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0708_02_2319.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It may help somewhat to lower the Drain-Source voltage to avoid velocity saturation.",
+        "pdf_page": 708,
+        "printed_page": 720,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Parameter T m v is therefore clearly the dominant transistor parameter.",
+      "pdf_page": 708,
+      "printed_page": 720,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "T Also, note that the NF is quite low at lower frequencies, but increases versus frequency.",
+      "pdf_page": 708,
+      "printed_page": 720,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The term 2/3 has been left out to take into account that this MOST is probably operating close to velocity saturation where its thermal noise is probably larger.",
+      "pdf_page": 708,
+      "printed_page": 720,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It may help somewhat to lower the Drain-Source voltage to avoid velocity saturation.",
+      "pdf_page": 708,
+      "printed_page": 720,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The noise of the load R L is neglected.",
+      "pdf_page": 708,
+      "printed_page": 720,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2319-M01",
+      "ocr_text": "NF = 1 + -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07796610242130753,
+        0.28780487770034835,
+        0.2271186447941889,
+        0.33658536550522644
+      ],
+      "context_crop": "regions/SANSEN-2319_math_01.png",
+      "context_bbox_normalized": [
+        0.037966102421307525,
+        0.18780487770034834,
+        0.4571186447941889,
+        0.46658536550522645
+      ],
+      "source_image": "slides/p0708_02_2319.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2319-M02",
+      "ocr_text": "= 1 +-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3186440691949152,
+        0.29268292646341454,
+        0.4305084759745762,
+        0.331707316707317
+      ],
+      "context_crop": "regions/SANSEN-2319_math_02.png",
+      "context_bbox_normalized": [
+        0.27864406919491524,
+        0.19268292646341453,
+        0.6605084759745762,
+        0.461707316707317
+      ],
+      "source_image": "slides/p0708_02_2319.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2319-M03",
+      "ocr_text": "dv,,2 = 4kT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.24406779616949156,
+        0.4487804871219512,
+        0.40338983006779666,
+        0.5170731700487805
+      ],
+      "context_crop": "regions/SANSEN-2319_math_03.png",
+      "context_bbox_normalized": [
+        0.20406779616949156,
+        0.3487804871219512,
+        0.6333898300677967,
+        0.6470731700487805
+      ],
+      "source_image": "slides/p0708_02_2319.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2319-M04",
+      "ocr_text": "- df = 4kT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.44058096726687457,
+        0.4577633977270925,
+        0.6068766557020573,
+        0.5032122150034656
+      ],
+      "context_crop": "regions/SANSEN-2319_math_04.png",
+      "context_bbox_normalized": [
+        0.4005809672668746,
+        0.35776339772709254,
+        0.8368766557020573,
+        0.6332122150034656
+      ],
+      "source_image": "slides/p0708_02_2319.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2319-M05",
+      "ocr_text": "dvR?= 4kT R df",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.24740128493545716,
+        0.5752195817756389,
+        0.47463261128112716,
+        0.64429261220092
+      ],
+      "context_crop": "regions/SANSEN-2319_math_05.png",
+      "context_bbox_normalized": [
+        0.20740128493545715,
+        0.47521958177563894,
+        0.7046326112811272,
+        0.77429261220092
+      ],
+      "source_image": "slides/p0708_02_2319.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2319-M06",
+      "ocr_text": "NF = 1 + gm R ( *n y2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09794405021892608,
+        0.7190077524466959,
+        0.4139203644403243,
+        0.8078215155766978
+      ],
+      "context_crop": "regions/SANSEN-2319_math_06.png",
+      "context_bbox_normalized": [
+        0.057944050218926076,
+        0.6190077524466959,
+        0.6439203644403243,
+        0.93
+      ],
+      "source_image": "slides/p0708_02_2319.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

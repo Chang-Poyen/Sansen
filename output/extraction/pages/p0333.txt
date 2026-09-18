@@ -1,0 +1,42 @@
+340 Chapter #12
+127
+A conventional differential
+pair has a limiting charac-
+teristic rather than an
+expanding one. It cannot be
+used in a class-AB amplifier.
+Circuit techniques will
+have to be devised to con-
+vert the limiting characteris-
+tic into an expanding one.
+The simplest solution is
+a conventional CMOS in-
+verter amplifier!
+128
+A simple CMOS inverter
+is an excellent class-AB
+amplifier.
+Normally it is biased at a
+small current I . The cur-
+Q
+rent through the capacitive
+load however, can be much
+larger, because the transis-
+tor V can be as much as
+GS
+the full supply voltage. The
+actual load current i is
+L
+the difference between the
+nMOST current i and the
+C2
+pMOST current i .
+C1
+In this circuit the square-
+law characteristic of a
+MOST is used. It has an expanding characteristic indeed.
+The main disadvantage of this circuit is that its two V ’s are between supply voltage and
+GS
+ground. As a consequence, the quiescent current depends on the supply voltage. Moreover, all
+spikes on the supply voltage (from digital blocks) enter this amplifier. Its PSRR is thus zero dB.
+Other circuit solutions are now required.

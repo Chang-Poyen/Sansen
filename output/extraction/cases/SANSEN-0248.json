@@ -1,0 +1,164 @@
+{
+  "case_id": "SANSEN-0248",
+  "slide_id": "0248",
+  "chapter": 2,
+  "slide_number_in_chapter": 48,
+  "source": {
+    "pdf_page": 74,
+    "printed_page": 75
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0074_01_0248.jpg",
+      "pdf_page": 74,
+      "printed_page": 75,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 74,
+      "printed_page": 75,
+      "bbox_pt": [
+        0,
+        118.58729999999991,
+        595,
+        367.56292500000006
+      ],
+      "text_raw": "With a single transistor, we\ncan make amplifiers, source\nfollowers and also cascodes.\nIf we do not consider tran-\nsistors used as switches,\nwe now have the third and\nlast single-transistor circuit\npossible.\nLater, we will combine\nthese three elementary\nsingle-transistor transistors\nto two or three elementary\ntwo-transistor circuits.\nMost analog circuits are\nbuilt up by means of these\nsingle-and two transistor\ncircuits. A thorough understanding of these elementary blocks is therefore of vital importance.",
+      "text": "With a single transistor, we can make amplifiers, source followers and also cascodes. If we do not consider transistors used as switches, we now have the third and last single-transistor circuit possible. Later, we will combine these three elementary single-transistor transistors to two or three elementary two-transistor circuits. Most analog circuits are built up by means of these single-and two transistor circuits. A thorough understanding of these elementary blocks is therefore of vital importance."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "With a single transistor, we can make amplifiers, source followers and also cascodes. If we do not consider transistors used as switches, we now have the third and last single-transistor circuit possible. Later, we will combine these three elementary single-transistor transistors to two or three elementary two-transistor circuits. Most analog circuits are built up by means of these single-and two transistor circuits. A thorough understanding of these elementary blocks is therefore of vital importance.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0074_01_0248.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270226351354,
+          0.07317073107317074,
+          0.38513513469594596,
+          0.13658536521951214
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.1283783748310812,
+          0.341463415304878,
+          0.6351351315878379,
+          0.3951219518902439
+        ],
+        "confidence": 1,
+        "text": "• Single-transistor amplifiers"
+      },
+      {
+        "bbox": [
+          0.12837837506756763,
+          0.42926829297560976,
+          0.4594594561486487,
+          0.47804878078048774
+        ],
+        "confidence": 1,
+        "text": "• Source followers"
+      },
+      {
+        "bbox": [
+          0.12837837797297294,
+          0.5170731701951219,
+          0.3378378374324324,
+          0.5707317067804878
+        ],
+        "confidence": 1,
+        "text": "• Cascodes"
+      },
+      {
+        "bbox": [
+          0.719178486742832,
+          0.9261329693395176,
+          0.9365796304096922,
+          0.9746190276444671
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0248"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0074_01_0248.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "With a single transistor, we can make amplifiers, source followers and also cascodes.",
+        "pdf_page": 74,
+        "printed_page": 75,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "A thorough understanding of these elementary blocks is therefore of vital importance.",
+      "pdf_page": 74,
+      "printed_page": 75,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_applicable",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "本页为章节脉络，无独立小信号模型需建图。"
+  },
+  "simulation_status": "not_started_theory_and_nodal_checks_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "00-conventions",
+    "title": "章节脉络与共同模型",
+    "summary_zh": "共栅与共源共栅级部分的过渡页；相应推导见第 12–18 组。",
+    "html": "../derivations/ch02/00-conventions.html",
+    "markdown": "../derivations/ch02/00-conventions.md",
+    "status": "context_reviewed_no_independent_derivation",
+    "discrepancy_ids": [],
+    "sfg": "not_applicable",
+    "sfg_reason": "本页为章节脉络，无独立小信号模型需建图。"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

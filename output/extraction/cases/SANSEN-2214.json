@@ -1,0 +1,407 @@
+{
+  "case_id": "SANSEN-2214",
+  "slide_id": "2214",
+  "chapter": 22,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 672,
+    "printed_page": 683
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0673_01_2214.jpg",
+      "pdf_page": 673,
+      "printed_page": 684,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 672,
+      "printed_page": 683,
+      "bbox_pt": [
+        0,
+        606.8225000000001,
+        595,
+        797
+      ],
+      "text_raw": "This circuit is shown on top. The crystal is connected between Drain and Gate to provide gain.\nThe biasing components are omitted.\nThis basic single-transistor oscillator gives rise to three different oscillator circuits depending\non which node is connected to ground. The output terminals obviously also depend on which\nnode is connected to ground.\nIn the Pierce oscillator, the source is grounded such that the transistor seems to function as",
+      "text": "This circuit is shown on top. The crystal is connected between Drain and Gate to provide gain. The biasing components are omitted. This basic single-transistor oscillator gives rise to three different oscillator circuits depending on which node is connected to ground. The output terminals obviously also depend on which node is connected to ground. In the Pierce oscillator, the source is grounded such that the transistor seems to function as"
+    },
+    {
+      "pdf_page": 673,
+      "printed_page": 684,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        439.3109250000002
+      ],
+      "text_raw": "an amplifier. At resonance,\nthe crystal behaves as a\nsmall resistor. The voltages\nat the Drain and at the Gate\nare almost identical. The\noutput can therefore be\ntaken either at the Gate or\nat the Drain.\nIn the Colpitts oscillator,\nthe Gate is grounded. The\ncrystal is also grounded. It\nis a single-pin oscillator with\nthe crystal connected to the\nDrain. The transistor looks\nmore like a source follower.\nThe output can only be\ntaken at the Source. Indeed\nthe Drain only carries a very small signal as it is connected to ground by the crystal, which\nbehaves as a small resistor.\nIn the third oscillator, the Drain is grounded. It is a single-pin oscillator with the crystal\nconnected to the Gate. The transistor looks more like a cascode. The output can only be taken\nat the Source again. The Gate is connected to ground by the crystal, which behaves as a small\nresistor. The current output can also be taken by insertion of a current mirror in the Drain to\nground connection.",
+      "text": "an amplifier. At resonance, the crystal behaves as a small resistor. The voltages at the Drain and at the Gate are almost identical. The output can therefore be taken either at the Gate or at the Drain. In the Colpitts oscillator, the Gate is grounded. The crystal is also grounded. It is a single-pin oscillator with the crystal connected to the Drain. The transistor looks more like a source follower. The output can only be taken at the Source. Indeed the Drain only carries a very small signal as it is connected to ground by the crystal, which behaves as a small resistor. In the third oscillator, the Drain is grounded. It is a single-pin oscillator with the crystal connected to the Gate. The transistor looks more like a cascode. The output can only be taken at the Source again. The Gate is connected to ground by the crystal, which behaves as a small resistor. The current output can also be taken by insertion of a current mirror in the Drain to ground connection."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This circuit is shown on top. The crystal is connected between Drain and Gate to provide gain. The biasing components are omitted. This basic single-transistor oscillator gives rise to three different oscillator circuits depending on which node is connected to ground. The output terminals obviously also depend on which node is connected to ground. In the Pierce oscillator, the source is grounded such that the transistor seems to function as\n\nan amplifier. At resonance, the crystal behaves as a small resistor. The voltages at the Drain and at the Gate are almost identical. The output can therefore be taken either at the Gate or at the Drain. In the Colpitts oscillator, the Gate is grounded. The crystal is also grounded. It is a single-pin oscillator with the crystal connected to the Drain. The transistor looks more like a source follower. The output can only be taken at the Source. Indeed the Drain only carries a very small signal as it is connected to ground by the crystal, which behaves as a small resistor. In the third oscillator, the Drain is grounded. It is a single-pin oscillator with the crystal connected to the Gate. The transistor looks more like a cascode. The output can only be taken at the Source again. The Gate is connected to ground by the crystal, which behaves as a small resistor. The current output can also be taken by insertion of a current mirror in the Drain to ground connection.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Single-transistor X-tal oscillator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0673_01_2214.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269980694992,
+          0.07804878090592338,
+          0.6452702673745175,
+          0.13658536627177698
+        ],
+        "confidence": 1,
+        "text": "Single-transistor X-tal oscillator"
+      },
+      {
+        "bbox": [
+          0.364864864695946,
+          0.20975609809756102,
+          0.8344594592905406,
+          0.2634146346829269
+        ],
+        "confidence": 1,
+        "text": "Basic three-point oscillator"
+      },
+      {
+        "bbox": [
+          0.2770270275675676,
+          0.24878048765853666,
+          0.33108108162162164,
+          0.3121951218048781
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.20608108147522525,
+          0.37073170715447157,
+          0.2533783787725225,
+          0.41951219495934966
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.11486486455518019,
+          0.4341463408943089,
+          0.16554054023085588,
+          0.5024390238211383
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C,"
+      },
+      {
+        "bbox": [
+          0.07432432499999998,
+          0.6048780493495934,
+          0.16216216283783783,
+          0.6731707322764227
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Д Cз"
+      },
+      {
+        "bbox": [
+          0.27702702671734236,
+          0.5902439019105692,
+          0.327702702393018,
+          0.6536585360569106
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.5912162164273649,
+          0.5902439022560976,
+          0.6418918921030405,
+          0.6634146339634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.8885135131756756,
+          0.5902439018048781,
+          0.9358108104729729,
+          0.6536585359512196
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.20608108070945946,
+          0.7121951214634147,
+          0.24999999962837838,
+          0.7609756092682927
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.20945946041666663,
+          0.8634146339837399,
+          0.3243243252815315,
+          0.912195121788618
+        ],
+        "confidence": 1,
+        "text": "- Pierce"
+      },
+      {
+        "bbox": [
+          0.520270269847973,
+          0.7121951213414635,
+          0.5675675671452703,
+          0.7609756091463415
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.3851351356606606,
+          0.7804878046883469,
+          0.4797297302552552,
+          0.853658536395664
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TC1"
+      },
+      {
+        "bbox": [
+          0.3682432456756757,
+          0.8682926826341464,
+          0.6114864889189189,
+          0.9170731704390245
+        ],
+        "confidence": 0.5,
+        "text": "Colpitts : 1-pin X=D"
+      },
+      {
+        "bbox": [
+          0.8141891887246622,
+          0.7121951213414635,
+          0.8581081076435811,
+          0.7609756091463415
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.6824324347635135,
+          0.8682926826829269,
+          0.9155405428716216,
+          0.9121951217073172
+        ],
+        "confidence": 0.5,
+        "text": "Santos : 1-pin X=G"
+      },
+      {
+        "bbox": [
+          0.7263513534206081,
+          0.9512195117682928,
+          0.9391891912584459,
+          0.9853658532317074
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2214"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This circuit is shown on top.",
+      "pdf_page": 672,
+      "printed_page": 683,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0673_01_2214.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The crystal is connected between Drain and Gate to provide gain.",
+        "pdf_page": 672,
+        "printed_page": 683,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This basic single-transistor oscillator gives rise to three different oscillator circuits depending on which node is connected to ground.",
+        "pdf_page": 672,
+        "printed_page": 683,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The output terminals obviously also depend on which node is connected to ground.",
+        "pdf_page": 672,
+        "printed_page": 683,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In the Pierce oscillator, the source is grounded such that the transistor seems to function as",
+        "pdf_page": 672,
+        "printed_page": 683,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The voltages at the Drain and at the Gate are almost identical.",
+        "pdf_page": 673,
+        "printed_page": 684,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The output can therefore be taken either at the Gate or at the Drain.",
+        "pdf_page": 673,
+        "printed_page": 684,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In the Colpitts oscillator, the Gate is grounded.",
+        "pdf_page": 673,
+        "printed_page": 684,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It is a single-pin oscillator with the crystal connected to the Drain.",
+        "pdf_page": 673,
+        "printed_page": 684,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The transistor looks more like a source follower.",
+        "pdf_page": 673,
+        "printed_page": 684,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The output can only be taken at the Source.",
+        "pdf_page": 673,
+        "printed_page": 684,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The crystal is connected between Drain and Gate to provide gain.",
+      "pdf_page": 672,
+      "printed_page": 683,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This basic single-transistor oscillator gives rise to three different oscillator circuits depending on which node is connected to ground.",
+      "pdf_page": 672,
+      "printed_page": 683,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output terminals obviously also depend on which node is connected to ground.",
+      "pdf_page": 672,
+      "printed_page": 683,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output can therefore be taken either at the Gate or at the Drain.",
+      "pdf_page": 673,
+      "printed_page": 684,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2214-M01",
+      "ocr_text": "Colpitts : 1-pin X=D",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.3682432456756757,
+        0.8682926826341464,
+        0.6114864889189189,
+        0.9170731704390245
+      ],
+      "context_crop": "regions/SANSEN-2214_math_01.png",
+      "context_bbox_normalized": [
+        0.3282432456756757,
+        0.7682926826341464,
+        0.8414864889189189,
+        0.93
+      ],
+      "source_image": "slides/p0673_01_2214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2214-M02",
+      "ocr_text": "Santos : 1-pin X=G",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6824324347635135,
+        0.8682926826829269,
+        0.9155405428716216,
+        0.9121951217073172
+      ],
+      "context_crop": "regions/SANSEN-2214_math_02.png",
+      "context_bbox_normalized": [
+        0.6424324347635134,
+        0.7682926826829269,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0673_01_2214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

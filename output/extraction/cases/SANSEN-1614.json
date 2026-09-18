@@ -1,0 +1,199 @@
+{
+  "case_id": "SANSEN-1614",
+  "slide_id": "1614",
+  "chapter": 16,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 454,
+    "printed_page": 463
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0454_02_1614.jpg",
+      "pdf_page": 454,
+      "printed_page": 463,
+      "bbox_pt": [
+        91.521622,
+        391.581971,
+        374.78981,
+        588.041962
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 454,
+      "printed_page": 463,
+      "bbox_pt": [
+        0,
+        387.5925000000001,
+        595,
+        797
+      ],
+      "text_raw": "Now that the principles are\nknown, let us have a look at\nhow they are implemented\nin bipolar technologies.",
+      "text": "Now that the principles are known, let us have a look at how they are implemented in bipolar technologies."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that the principles are known, let us have a look at how they are implemented in bipolar technologies.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0454_02_1614.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108322876448,
+          0.09268292665505229,
+          0.38175675890444016,
+          0.13658536567944246
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10122008055017599,
+          0.28666169528612495,
+          0.34134748937684933,
+          0.3474846496965849
+        ],
+        "confidence": 1,
+        "text": "• Principles"
+      },
+      {
+        "bbox": [
+          0.10135134554054064,
+          0.3707317074146341,
+          0.6824324266216217,
+          0.42926829278048784
+        ],
+        "confidence": 1,
+        "text": "• Bipolar bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135134570945954,
+          0.44878048785365854,
+          0.6655405348986487,
+          0.5121951220000001
+        ],
+        "confidence": 1,
+        "text": "• CMOS bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135134480574343,
+          0.5268292674390244,
+          0.6452702637246623,
+          0.5951219503658537
+        ],
+        "confidence": 0.5,
+        "text": "• Bandgap references < 1 V"
+      },
+      {
+        "bbox": [
+          0.10472973310810806,
+          0.6097560974390245,
+          0.5101351385135136,
+          0.6634146340243903
+        ],
+        "confidence": 1,
+        "text": "• Current references"
+      },
+      {
+        "bbox": [
+          0.10322695169235581,
+          0.6729857024713055,
+          0.4576537738392097,
+          0.7692010110561236
+        ],
+        "confidence": 1,
+        "text": "• LDO Regulators"
+      },
+      {
+        "bbox": [
+          0.1114864776463967,
+          0.8390243903252033,
+          0.6418918830518021,
+          0.8829268293495934
+        ],
+        "confidence": 1,
+        "text": "Ref.: B. Gilbert, G.Meijer, ACD, Kluwer 1995"
+      },
+      {
+        "bbox": [
+          0.7094594690563578,
+          0.9365853663662694,
+          0.9256756723850833,
+          0.9756097554471544
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 1614"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0454_02_1614.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1614-M01",
+      "ocr_text": "• Bandgap references < 1 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.10135134480574343,
+        0.5268292674390244,
+        0.6452702637246623,
+        0.5951219503658537
+      ],
+      "context_crop": "regions/SANSEN-1614_math_01.png",
+      "context_bbox_normalized": [
+        0.061351344805743425,
+        0.4268292674390244,
+        0.8752702637246623,
+        0.7251219503658537
+      ],
+      "source_image": "slides/p0454_02_1614.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

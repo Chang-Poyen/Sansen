@@ -1,0 +1,46 @@
+Noise performance of elementary transistor stages 123
+For example, a small thin-
+film diode gives a significant
+amount of 1/f noise.
+A large (power) diode in
+single-crystalline silicon is
+not too bad. This corres-
+ponds to the value given in
+this slide.
+Obviously, the spreading
+on this value is quite large!
+A measurement on one
+single device is not relevant.
+Averages have to be taken
+over hundreds of devices!
+0413
+A MOST has a resistive
+channel. As a result, it
+exhibits thermal noise, just
+like any other resistor.
+The channel is not very
+homogeneous, as it con-
+ducts well at the Source side,
+but is pinched off at the
+Drain side. This is why some
+integrals will be required to
+calculate the channel resis-
+tance and the noise gener-
+ated by it.
+Nevertheless, the channel
+noise can be represented by
+a noise current source in
+parallel with the g current source. The integral leads to a effective channel resistor R of
+m CH
+3/2g . The 4kT factor clearly shows that we are dealing with thermal noise.
+m
+In deep submicron or nanometer CMOS devices, velocity saturation appears. As a result the
+coefficient 2/3 increases (Ref. Han, JSSC, March ’05, 726–735). It is about 50% larger for 0.18 mm
+CMOS and doubles for 0.13 mm CMOS.
+The poly Gate resistor R cannot be discounted, however. Even if the Gate material is highly
+G
+doped, it can make a large contribution, depending on the actual dimensions, and on how long
+the Gate line is prolonged outside the active region.
+0414
+Normally we refer both white noise sources to the input, in order to be able to calculate the
+SNR at the input.

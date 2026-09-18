@@ -1,0 +1,51 @@
+DiVerential voltage and current amplifiers 103
+0327
+The problem with the previ-
+ous differential amplifier is
+that the gain g R is quite
+m L
+small. We need larger values
+of load resistor to increase
+this gain. For small supply
+voltages this is not possible.
+Sometimes resistors are
+used, when they need to be
+trimmed to reduce the effect
+of mismatch. See Chapter 12
+for more details.
+A first solution may be to
+use the output resistance of
+a MOST as a load, as shown
+in this slide. The gain
+increases to g r , which is all a single transistor can provide.
+m DS
+We could also put in cascodes, as shown previously.
+We will now see two more techniques to enhance the gain. They are current cancellation and
+bootstrapping.
+Before we go into detail, we have noticed that the circuit in this slide is not possible from the
+view of biasing. Both voltage V and current I intend to provide biasing currents to the
+B B
+amplifying devices M1. This is not possible. We will have to apply common-mode feedback as
+explained in Chapter 9.
+Finally, note that the input devices are pMOSTs, and that their Bulks are connected to their
+n-well. This is the most common input stage configuration in a n-well CMOS process. Connecting
+Bulk to Source improves the matching of the input devices, as will be explained in Chapter 12.
+Note that the Bulk connections are not always shown!
+0328
+If large-valued resistors are
+available, another self-bias-
+ing load can be found. It is
+shown in this slide.
+Actually, a virtual ground
+is realized between both
+transistors. This point does
+not carry any AC signal.
+The output resistance will
+thus be twice what is seen
+on either side. It is thus
+twice resistor R in parallel
+with the output resistance
+r or r of the transistor.
+DS o
+It is not as high as previ-
+ous. Moreover, we need to

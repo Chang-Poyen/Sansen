@@ -1,0 +1,420 @@
+{
+  "case_id": "SANSEN-0414",
+  "slide_id": "0414",
+  "chapter": 4,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 120,
+    "printed_page": 123
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0121_01_0414.jpg",
+      "pdf_page": 121,
+      "printed_page": 124,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 120,
+      "printed_page": 123,
+      "bbox_pt": [
+        0,
+        654.6545500000001,
+        595,
+        797
+      ],
+      "text_raw": "Normally we refer both white noise sources to the input, in order to be able to calculate the\nSNR at the input.",
+      "text": "Normally we refer both white noise sources to the input, in order to be able to calculate the SNR at the input."
+    },
+    {
+      "pdf_page": 121,
+      "printed_page": 124,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        441.4035100000002
+      ],
+      "text_raw": "The channel noise current\ncan easily be shifted to the\ninput by dividing it by g\nm\n(and the power by g 2).\nm\nThe two noise powers are\nthen added at the input. In\nthis way we obtain a ther-\nmal noise resistance R ,\neff\nwhich is the sum of both\nsources. The channel noise\ngives the first contribution.\nThe Gate resistor R is the\nG\nother one. The input noise\nvoltage is called the equiva-\nlent input noise voltage. It\nis inversely proportional\nto transconductance g , at\nm\nleast whilst the Gate resistor is small.\nAt very high frequencies, a capacitance C appears across the Gate-Source terminals. As a\nGS\nresult, for a low source resistance (typically 50 V) a noise current can flow through capacitance\nC as shown in this slide.\nGS\nThis current is obviously correlated to the equivalent input voltage. Their powers cannot be\nadded up. However, this noise current is only relevant at very high frequencies, beyond f /5. It\nT\nis only relevant in the noise optimization of LNA’s, VCO’s and RF mixers.",
+      "text": "The channel noise current can easily be shifted to the input by dividing it by g m (and the power by g 2). m The two noise powers are then added at the input. In this way we obtain a thermal noise resistance R , eff which is the sum of both sources. The channel noise gives the first contribution. The Gate resistor R is the G other one. The input noise voltage is called the equivalent input noise voltage. It is inversely proportional to transconductance g , at m least whilst the Gate resistor is small. At very high frequencies, a capacitance C appears across the Gate-Source terminals. As a GS result, for a low source resistance (typically 50 V) a noise current can flow through capacitance C as shown in this slide. GS This current is obviously correlated to the equivalent input voltage. Their powers cannot be added up. However, this noise current is only relevant at very high frequencies, beyond f /5. It T is only relevant in the noise optimization of LNA’s, VCO’s and RF mixers."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Normally we refer both white noise sources to the input, in order to be able to calculate the SNR at the input.\n\nThe channel noise current can easily be shifted to the input by dividing it by g m (and the power by g 2). m The two noise powers are then added at the input. In this way we obtain a thermal noise resistance R , eff which is the sum of both sources. The channel noise gives the first contribution. The Gate resistor R is the G other one. The input noise voltage is called the equivalent input noise voltage. It is inversely proportional to transconductance g , at m least whilst the Gate resistor is small. At very high frequencies, a capacitance C appears across the Gate-Source terminals. As a GS result, for a low source resistance (typically 50 V) a noise current can flow through capacitance C as shown in this slide. GS This current is obviously correlated to the equivalent input voltage. Their powers cannot be added up. However, this noise current is only relevant at very high frequencies, beyond f /5. It T is only relevant in the noise optimization of LNA’s, VCO’s and RF mixers.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "MOST: equivalent input noise : white",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0121_01_0414.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431600506778,
+          0.08292682945121954,
+          0.7398648565456083,
+          0.14634146359756095
+        ],
+        "confidence": 1,
+        "text": "MOST: equivalent input noise : white"
+      },
+      {
+        "bbox": [
+          0.09598569532916758,
+          0.2229555260037972,
+          0.18521462180737308,
+          0.2992826405742288
+        ],
+        "confidence": 1,
+        "text": "dViea"
+      },
+      {
+        "bbox": [
+          0.1756756758445946,
+          0.21951219569105684,
+          0.19256756773648648,
+          0.2536585371544715
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.10472972999999998,
+          0.29268292653658534,
+          0.131756757027027,
+          0.3317073167804878
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.1013513508445946,
+          0.37560975548780484,
+          0.1486486481418919,
+          0.42439024329268293
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.2668918915118243,
+          0.2195121944512195,
+          0.3108108104307432,
+          0.2731707310365854
+        ],
+        "confidence": 1,
+        "text": "RG"
+      },
+      {
+        "bbox": [
+          0.35135135037696424,
+          0.29268292532478735,
+          0.37500000063654926,
+          0.32682926911423693
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.3412162157094594,
+          0.3756097556097562,
+          0.3986486481418919,
+          0.42439024341463416
+        ],
+        "confidence": 0.5,
+        "text": "VGS"
+      },
+      {
+        "bbox": [
+          0.6891891890202704,
+          0.31707317030487814,
+          0.7094594592905406,
+          0.3512195117682927
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.6081081071509009,
+          0.40000000008130077,
+          0.6655405395833334,
+          0.43414634154471543
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"DS"
+      },
+      {
+        "bbox": [
+          0.6824324324887389,
+          0.38536585439024396,
+          0.746621621677928,
+          0.42926829341463413
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.4695945955405405,
+          0.4439024395121951,
+          0.5709459468918918,
+          0.4926829273170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mVGS"
+      },
+      {
+        "bbox": [
+          0.17229729619932435,
+          0.6,
+          0.26013513403716215,
+          0.6682926829268293
+        ],
+        "confidence": 1,
+        "text": "dVieq"
+      },
+      {
+        "bbox": [
+          0.25226914480067825,
+          0.5894841998703818,
+          0.5345730064702702,
+          0.6624518501210725
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2= 4kT (Reff ) df"
+      },
+      {
+        "bbox": [
+          0.6283783791385136,
+          0.6048780484146341,
+          0.7195945953547298,
+          0.658536585
+        ],
+        "confidence": 0.5,
+        "text": "Reff ="
+      },
+      {
+        "bbox": [
+          0.7466216222297297,
+          0.5658536584878049,
+          0.8074324330405406,
+          0.6195121950731707
+        ],
+        "confidence": 1,
+        "text": "2/3"
+      },
+      {
+        "bbox": [
+          0.8006756745777027,
+          0.6,
+          0.8885135124155407,
+          0.6585365853658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ RG"
+      },
+      {
+        "bbox": [
+          0.7466216211824325,
+          0.639024389707317,
+          0.7972972968581081,
+          0.6926829262926829
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.17083336239081834,
+          0.7585365842887348,
+          0.8458333211508479,
+          0.825301204162526
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Hi Freq.: dijea? = (CGs @)? dViea? is correlated"
+      },
+      {
+        "bbox": [
+          0.16882932978165893,
+          0.7700557919009079,
+          0.3784679640251859,
+          0.8299442106102675
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Hi Freq.: diieq"
+      },
+      {
+        "bbox": [
+          0.7297297314527026,
+          0.9414634142439025,
+          0.9358108125337836,
+          0.9804878044878048
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 a5 0414"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Normally we refer both white noise sources to the input, in order to be able to calculate the SNR at the input.",
+      "pdf_page": 120,
+      "printed_page": 123,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a GS result, for a low source resistance (typically 50 V) a noise current can flow through capacitance C as shown in this slide.",
+      "pdf_page": 121,
+      "printed_page": 124,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0121_01_0414.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The Gate resistor R is the G other one.",
+        "pdf_page": 121,
+        "printed_page": 124,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It is inversely proportional to transconductance g , at m least whilst the Gate resistor is small.",
+        "pdf_page": 121,
+        "printed_page": 124,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "At very high frequencies, a capacitance C appears across the Gate-Source terminals.",
+        "pdf_page": 121,
+        "printed_page": 124,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "As a GS result, for a low source resistance (typically 50 V) a noise current can flow through capacitance C as shown in this slide.",
+        "pdf_page": 121,
+        "printed_page": 124,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is inversely proportional to transconductance g , at m least whilst the Gate resistor is small.",
+      "pdf_page": 121,
+      "printed_page": 124,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0414-M01",
+      "ocr_text": "2= 4kT (Reff ) df",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.25226914480067825,
+        0.5894841998703818,
+        0.5345730064702702,
+        0.6624518501210725
+      ],
+      "context_crop": "regions/SANSEN-0414_math_01.png",
+      "context_bbox_normalized": [
+        0.21226914480067824,
+        0.48948419987038183,
+        0.7645730064702702,
+        0.7924518501210726
+      ],
+      "source_image": "slides/p0121_01_0414.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0414-M02",
+      "ocr_text": "Reff =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6283783791385136,
+        0.6048780484146341,
+        0.7195945953547298,
+        0.658536585
+      ],
+      "context_crop": "regions/SANSEN-0414_math_02.png",
+      "context_bbox_normalized": [
+        0.5883783791385135,
+        0.5048780484146341,
+        0.9495945953547298,
+        0.788536585
+      ],
+      "source_image": "slides/p0121_01_0414.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0414-M03",
+      "ocr_text": "Hi Freq.: dijea? = (CGs @)? dViea? is correlated",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.17083336239081834,
+        0.7585365842887348,
+        0.8458333211508479,
+        0.825301204162526
+      ],
+      "context_crop": "regions/SANSEN-0414_math_03.png",
+      "context_bbox_normalized": [
+        0.13083336239081833,
+        0.6585365842887348,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0121_01_0414.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

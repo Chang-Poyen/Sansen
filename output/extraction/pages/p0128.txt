@@ -1,0 +1,58 @@
+Noise performance of elementary transistor stages 131
+with the noise coming from
+the biasing voltage V .
+B
+Normally, this biasing volt-
+age is followed by a large
+decoupling capacitance to
+ground, such that the noise
+from it can be ignored.
+The noise of the load
+transistor M2 is now ampli-
+fied by g towards the
+m2
+output. It has to be divided
+by g to be referred to the
+m1
+input. The noise of transis-
+tor M2 is therefore multi-
+plied by a factor g /g .
+m2 m1
+To make the noise contri-
+bution of M2 negligible,
+we must design this load transistor with large V −V or small W/L, which is actually the same.
+GS T
+Both transistors now carry the same DC current. Transconductance g can only be made
+m2
+smaller if it is designed for a larger V −V , such as 0.5 V. The input transistor then keeps
+GS T
+0.2 V as a V −V .
+GS T
+This is an important conclusion, which will be repeated many times. Current source and
+current mirror devices must be designed for small size W/L and hence for large V −V !
+GS T
+Note that only the white noise sources have been considered here.
+0429
+The same analysis can be
+repeated for 1/f noise.
+However, all 1/f noise
+sources contain the area
+WL of the transistors. The
+resulting expression are
+therefore more cumber-
+some.
+Moreover the equivalent
+input noise voltage shows a
+minimum, if the input chan-
+nel length is taken as a vari-
+able. It shows that the input
+transistor channel length L
+1
+must be about 10 times
+larger than load transistor
+channel length L . This is not a problem as the load transistor has normally a small W/L. It is
+2
+normally a small square device.
+The drawback could then be that the gain is reduced as a result of the small channel length
+L . Cascodes will therefore be needed to alleviate this problem.
+2

@@ -1,0 +1,55 @@
+52 Chapter #2
+With two transistors two
+more configurations can be
+identified. They are the
+differential pair and the cur-
+rent mirror. Combined, they
+give rise to a full four-tran-
+sistor differential voltage
+and current amplifier. One
+version of this differential
+current amplifier has as
+many as four inputs, which
+makes it a very versatile
+building block indeed.
+We start with an ampli-
+fier, using only one single
+transistor.
+024
+A single-transistor amplifier
+is biased by a voltage source
+V , on which a small-signal
+IN
+input voltage v is superim-
+in
+posed. Biasing will be dis-
+cussed later.
+However, it is important
+to note that an amplifier is
+normally loaded by a DC
+current source. In this way
+the maximum gain can be
+obtained. Indeed, an ideal
+current source has an infi-
+nite output resistance. It is
+therefore not visible in the
+small-signal equivalent cir-
+cuit, shown on the right.
+The voltage gain A is easily found by this equivalent circuit. It is g r . Both parameters
+v m DS
+depend on the current, however. As a result, the gain A becomes independent of the current. It
+v
+depends not only on a technological parameter V but also on two parameters, which can be
+E
+chosen by the designer. They are V −V and channel length L.
+GS T
+It is obvious that for large gain A , we must choose V −V as small as possible and L as
+v GS T
+large as possible.
+025
+These are really important conclusions. Large gain A can only be achieved by choosing large
+v
+channel length L and by making V −V as small as possible.
+GS T
+As a result, the minimum channel length is never used in an analog amplifier. Usually we limit
+the value of L to at least 4–5 times the minimum value.

@@ -1,0 +1,26 @@
+{
+  "deck": "simulations/ch02/netlists/gmid_characterization.scs",
+  "sha256": "ab368a8d29d34e0330e83a682fcd5ca86b927e3260d96d7856a4f6e4aad7c09e",
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "returncode": 0,
+    "output_dir": "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/gmid_characterization/gmid_characterization.raw",
+    "output_files": [
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/gmid_characterization/gmid_characterization.raw/logStatus",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/gmid_characterization/gmid_characterization.raw/logFile",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/gmid_characterization/gmid_characterization.raw/characterize.dc"
+    ],
+    "remote_host": "101.6.65.209",
+    "timings": {
+      "upload_total": 1.2827765839756466,
+      "remote_exec": 1.6734409580240026,
+      "download_total": 5.800585375982337,
+      "parse_results": 0.006633166980464011,
+      "total": 8.765208999975584
+    },
+    "command": "HOSTNAME=`hostname 2>/dev/null || echo localhost`; export HOSTNAME && export LD_LIBRARY_PATH=\"${LD_LIBRARY_PATH:-}\" && mkdir -p /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/51d89db2/gmid_characterization.raw && csh -c ':; /eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/51d89db2/gmid_characterization.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/51d89db2/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/51d89db2/gmid_characterization.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus' & SPID=$!; echo $SPID > /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/51d89db2/spectre.pid; wait $SPID",
+    "spectre_command": "/eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/51d89db2/gmid_characterization.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/51d89db2/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/51d89db2/gmid_characterization.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus"
+  },
+  "wall_s": 8.76646900177002
+}

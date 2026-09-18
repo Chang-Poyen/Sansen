@@ -1,0 +1,49 @@
+84 Chapter #2
+0265
+If a pole-zero doublet occurs
+in the middle of the Bode
+diagram, then the settling
+time is ruined.
+The settling is the time
+required to reach the final
+value of the output voltage,
+within a certain error. For
+example, when we take an
+opamp with unity-gain feed-
+back, then the bandwidth
+BW coincides with the
+GBW. When we apply a
+step waveform to that
+amplifier, we expect the
+output to follow with a time
+constant 1/(2pGBW), as described by an exponential.
+To reach a settling time of 0.1%, we need to wait ln(1000) or 6.9 times this time constant.
+When we have a pole-zero doublet at fairly low frequencies f , with a large spreading Df ,
+pz pz
+then an additional exponential shows up in the time response, with a much larger time constant
+1/(2pf ).
+pz
+It will take much more time to reach the final output voltage within 0.1%. The 0.1% settling
+time is much longer.
+In all switching applications, such as switched-capacitor filters, the settling time determines
+what is the minimum width of the clock pulses. It determines the maximum frequency of such a
+system (see Chapter 14). In such systems, pole-zero doublets must be avoided at all cost!
+0266
+Finally, an overview is given
+of all three single-transistor
+stages. Their gains, input-
+and output impedances are
+added under all different cir-
+cumstances of source and
+load impedance.
+Remember that there are
+three of them. The transcon-
+ductance controls the volt-
+age-to-current gain in an
+amplifier.
+A source follower has
+unity voltage gain but low
+output resistance.
+The cascode has unity
+current gain but high output
+resistance.

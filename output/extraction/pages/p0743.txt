@@ -1,0 +1,45 @@
+Coupling eVects in mixed analog-digital ICs 755
+The lateral distance between the analog nMOST and the digital injector is denoted by resistor
+R. The larger this R is the better.
+Indeed the Voltage V sensed at the Source of the nMOST Source follower, as a result of
+out
+the input current I , is as given in this slide. This current flows mainly to its digital ground and
+in
+causes a voltage r I , in the epitaxial layer, underneath the digital p+ island. This voltage is
+2 in
+then sensed at the output through a potentiometric divider of R and r .
+1
+2425
+The output voltage V is
+out
+given in this slide, versus dis-
+tance between Injector and
+Receiver.
+On a lightly doped sub-
+strate, without epitaxial
+layer, the currents flows
+through a large resistance.
+As a result, the output volt-
+age is large and inversely
+proportional to the distance.
+When a lightly doped epi-
+taxial layer is added on top,
+the result is the same.
+Indeed, the current still
+encounters a large resis-
+tance, which is proportional to the distance.
+Only when a heavily-doped substrate is used, all the current flows directly to the substrate
+and along the substrate to the other island. The distance is no longer of any importance.
+Moreover, the output voltage is small because the substrate resistance is small.
+Only when the distance between both islands is smaller than 3–4 times the epitaxial thickness,
+some current now flows through the epitaxial layer. The resistance is higher and so is the
+output voltage.
+A designer must be aware of the kind of substrate that is being used in this particular CMOS
+technology.
+2426
+If no epitaxial layer is present, the extension of the distance is now about the only remedy left
+to reduce coupling.
+This is not quite true. The third dimension can be used as well.
+An example is given in this slide. Between the injector (on the right) and the receiver, a deep
+diffusion is added (such as the n-well), connected to the supply voltage. As a result, a wide
+depletion region is added.

@@ -1,0 +1,46 @@
+Bandgap and current reference circuits 467
+Two terms can be distin-
+guished. The first one is V .
+BE
+The second term is ADV .
+BE
+This takes the first term on
+this slide.
+Taking the total deriva-
+tive yields three terms, the
+first one of which is the
+smallest. The other two are
+comparable. When we add
+them we find about 13 mV
+error, for the numbers given.
+This error is PTAT how-
+ever, and can be trimmed
+away.
+1622
+Now we take the total deriv-
+ative of the second term.
+The percentages are now
+smaller but the scaling
+factor is V rather than
+BE
+kT/q. The absolute value is
+therefore of the same order
+of magnitude. It is 11 mV for
+the numbers given.
+When we add both values
+we obtain 24 mV, which is
+about 2% of the bandgap
+reference voltage. It is PTAT
+gain and can therefore be
+trimmed by adjusting A for
+example.
+From this analysis, it is clear that the curvature is smaller than the error. Only if trimming is
+applied, must the curvature be compensated.
+Also, the offset of the opamp has not been taken into account. It has the same effect as a
+difference in V of the two transistors. However, this offset can be avoided by using chopper
+BE
+amplifiers.
+1623
+Operational amplifiers can provide much more loop gain than a transistor pair.
+In this bandgap reference, the opamp finds an output voltage such that the differential input
+zero becomes zero. If the resistors R are chosen such that they take up about 0.6 V, then the

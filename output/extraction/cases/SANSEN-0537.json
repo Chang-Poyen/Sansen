@@ -1,0 +1,455 @@
+{
+  "case_id": "SANSEN-0537",
+  "slide_id": "0537",
+  "chapter": 5,
+  "slide_number_in_chapter": 37,
+  "source": {
+    "pdf_page": 164,
+    "printed_page": 168
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0164_01_0537.jpg",
+      "pdf_page": 164,
+      "printed_page": 168,
+      "bbox_pt": [
+        91.521622,
+        122.62661800000001,
+        374.78981,
+        319.08660899999995
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 164,
+      "printed_page": 168,
+      "bbox_pt": [
+        0,
+        118.63709999999992,
+        595,
+        487.24245000000036
+      ],
+      "text_raw": "The pole-zero position dia-\ngram is a plot of the poles\nand zero versus frequency,\nfor one of the design param-\neters as a variable.\nThe frequency axis is\nthe same as in the Bode\ndiagram.\nIn this example, compen-\nsation capacitance C is\nc\ntaken as a design variable.\nIndeed, we want to see how\nC can be used to shift out\nc\nthe second pole to higher\nfrequencies than GBW.\nClearly for a C smaller\nc\nthan 10 fF, two poles occur. They are fairly close to each other. The Bode diagram is now easily\nsketched.\nHowever, for larger C (larger than about 20 fF in this example) the poles split. The dominant\nc\npole f becomes ever more dominant.\nd\nThe non-dominant pole f now shifts out, as intended.\nnd\nThe Bode diagrams are added for values of C of 0.1 and 1 pF. It is clear that for a C of\nc c\n1 pF, sufficient pole splitting has been achieved. Indeed, the f is about three times larger than\nnd\nthe GBW, which is about 1 MHz.\nThe expression of the dominant pole is easily extracted from the expression of the gain. This\nis given in this slide. It is clearly due to the Miller effect of this (fairly large) capacitor C .\nc\nHowever, we also have a positive zero!",
+      "text": "The pole-zero position diagram is a plot of the poles and zero versus frequency, for one of the design parameters as a variable. The frequency axis is the same as in the Bode diagram. In this example, compensation capacitance C is c taken as a design variable. Indeed, we want to see how C can be used to shift out c the second pole to higher frequencies than GBW. Clearly for a C smaller c than 10 fF, two poles occur. They are fairly close to each other. The Bode diagram is now easily sketched. However, for larger C (larger than about 20 fF in this example) the poles split. The dominant c pole f becomes ever more dominant. d The non-dominant pole f now shifts out, as intended. nd The Bode diagrams are added for values of C of 0.1 and 1 pF. It is clear that for a C of c c 1 pF, sufficient pole splitting has been achieved. Indeed, the f is about three times larger than nd the GBW, which is about 1 MHz. The expression of the dominant pole is easily extracted from the expression of the gain. This is given in this slide. It is clearly due to the Miller effect of this (fairly large) capacitor C . c However, we also have a positive zero!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The pole-zero position diagram is a plot of the poles and zero versus frequency, for one of the design parameters as a variable. The frequency axis is the same as in the Bode diagram. In this example, compensation capacitance C is c taken as a design variable. Indeed, we want to see how C can be used to shift out c the second pole to higher frequencies than GBW. Clearly for a C smaller c than 10 fF, two poles occur. They are fairly close to each other. The Bode diagram is now easily sketched. However, for larger C (larger than about 20 fF in this example) the poles split. The dominant c pole f becomes ever more dominant. d The non-dominant pole f now shifts out, as intended. nd The Bode diagrams are added for values of C of 0.1 and 1 pF. It is clear that for a C of c c 1 pF, sufficient pole splitting has been achieved. Indeed, the f is about three times larger than nd the GBW, which is about 1 MHz. The expression of the dominant pole is easily extracted from the expression of the gain. This is given in this slide. It is clearly due to the Miller effect of this (fairly large) capacitor C . c However, we also have a positive zero!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Miller OTA : pole splitting with Cc",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0164_01_0537.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.074324316596284,
+          0.08780487810975612,
+          0.6925675598395272,
+          0.15121951225609753
+        ],
+        "confidence": 1,
+        "text": "Miller OTA : pole splitting with Cc"
+      },
+      {
+        "bbox": [
+          0.08783783797297295,
+          0.297560976,
+          0.13513513527027027,
+          0.33658536624390245
+        ],
+        "confidence": 1,
+        "text": "1pF"
+      },
+      {
+        "bbox": [
+          0.077702703125,
+          0.3707317077439024,
+          0.13851351393581082,
+          0.40487804920731707
+        ],
+        "confidence": 0.5,
+        "text": "0.1pF"
+      },
+      {
+        "bbox": [
+          0.08445946021959458,
+          0.44878048756097555,
+          0.14527027103040538,
+          0.487804877804878
+        ],
+        "confidence": 0.5,
+        "text": "10fF-"
+      },
+      {
+        "bbox": [
+          0.0743243247635135,
+          0.5024390249756098,
+          0.1385135139527027,
+          0.5609756103414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IAVl"
+      },
+      {
+        "bbox": [
+          0.13175675671452705,
+          0.49756097487804885,
+          0.22297297293074325,
+          0.5560975602439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4Avo"
+      },
+      {
+        "bbox": [
+          0.0743243254504504,
+          0.5707317071544715,
+          0.14189189301801797,
+          0.5999999998373984
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1000"
+      },
+      {
+        "bbox": [
+          0.1891891884712838,
+          0.5707317075,
+          0.24662162090371623,
+          0.6146341465243903
+        ],
+        "confidence": 1,
+        "text": "BW"
+      },
+      {
+        "bbox": [
+          0.08445945912162162,
+          0.6390243907317072,
+          0.13851351317567567,
+          0.6780487809756097
+        ],
+        "confidence": 1,
+        "text": "100"
+      },
+      {
+        "bbox": [
+          0.09459459506756755,
+          0.7121951216585366,
+          0.14189189236486485,
+          0.7512195119024391
+        ],
+        "confidence": 1,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.1081081083108108,
+          0.785365854195122,
+          0.13513513533783783,
+          0.8390243907804878
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.09797297376126123,
+          0.8634146340650407,
+          0.14527027105855853,
+          0.8975609755284553
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0.1 -"
+      },
+      {
+        "bbox": [
+          0.3040540563766891,
+          0.32682926835365866,
+          0.48986486718749994,
+          0.37073170737804884
+        ],
+        "confidence": 1,
+        "text": "Pole splitting"
+      },
+      {
+        "bbox": [
+          0.2804054050675676,
+          0.4780487807317073,
+          0.3141891888513514,
+          0.512195122195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1k"
+      },
+      {
+        "bbox": [
+          0.4493243236486487,
+          0.4634146342073171,
+          0.5033783777027028,
+          0.5073170732317073
+        ],
+        "confidence": 1,
+        "text": "71M"
+      },
+      {
+        "bbox": [
+          0.5236486492820946,
+          0.46341463408536576,
+          0.5743243249577703,
+          0.507317073109756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"Hz"
+      },
+      {
+        "bbox": [
+          0.3581081072635135,
+          0.5219512199390243,
+          0.4256756748310811,
+          0.5658536589634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10fF,"
+      },
+      {
+        "bbox": [
+          0.29391891898648653,
+          0.6682926825365854,
+          0.34121621628378385,
+          0.7073170727804877
+        ],
+        "confidence": 1,
+        "text": "1pF"
+      },
+      {
+        "bbox": [
+          0.6925192279889085,
+          0.23861625231211392,
+          0.8885618558905529,
+          0.28821301555078827
+        ],
+        "confidence": 1,
+        "text": "Pole splitting"
+      },
+      {
+        "bbox": [
+          0.688926389332993,
+          0.2907161756334492,
+          0.8752628035670513,
+          0.34830821869598494
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "for high C.:"
+      },
+      {
+        "bbox": [
+          0.6891891897972973,
+          0.4243902435121951,
+          0.7500000006081081,
+          0.4731707313170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fd ="
+      },
+      {
+        "bbox": [
+          0.7466216235135135,
+          0.4536585365365853,
+          0.9358108127027027,
+          0.5170731706829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 AvzRn1Cc"
+      },
+      {
+        "bbox": [
+          0.7635135128800675,
+          0.5609756090853659,
+          0.8277027020692568,
+          0.6146341456707317
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.7533783776745495,
+          0.6390243903658536,
+          0.837837837134009,
+          0.6926829269512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2m Cс"
+      },
+      {
+        "bbox": [
+          0.6216216256334459,
+          0.7609756094512196,
+          0.9425675715793917,
+          0.8146341460365853
+        ],
+        "confidence": 1,
+        "text": "is a positive zero !"
+      },
+      {
+        "bbox": [
+          0.3783783791891892,
+          0.8243902436585366,
+          0.45945946027027035,
+          0.8682926826829269
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.5912162155827703,
+          0.8585365857926829,
+          0.6418918912584459,
+          0.902439024817073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "» f"
+      },
+      {
+        "bbox": [
+          0.273648647972973,
+          0.8878048779674798,
+          0.3141891885135136,
+          0.9219512194308943
+        ],
+        "confidence": 0.5,
+        "text": "\"1k"
+      },
+      {
+        "bbox": [
+          0.4560810814752253,
+          0.8829268291463415,
+          0.5033783787725226,
+          0.9268292681707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"1M"
+      },
+      {
+        "bbox": [
+          0.5472972976013514,
+          0.8926829266341463,
+          0.5777027030067569,
+          0.9219512193170731
+        ],
+        "confidence": 1,
+        "text": "Hz"
+      },
+      {
+        "bbox": [
+          0.7293608560441499,
+          0.9458879375871072,
+          0.9329766245798671,
+          0.9869479247250644
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 0537"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0164_01_0537.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The expression of the dominant pole is easily extracted from the expression of the gain.",
+      "pdf_page": 164,
+      "printed_page": 168,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The pole-zero position diagram is a plot of the poles and zero versus frequency, for one of the design parameters as a variable.",
+      "pdf_page": 164,
+      "printed_page": 168,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The frequency axis is the same as in the Bode diagram.",
+      "pdf_page": 164,
+      "printed_page": 168,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The Bode diagram is now easily sketched.",
+      "pdf_page": 164,
+      "printed_page": 168,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The dominant c pole f becomes ever more dominant. d The non-dominant pole f now shifts out, as intended. nd The Bode diagrams are added for values of C of 0.1 and 1 pF.",
+      "pdf_page": 164,
+      "printed_page": 168,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0537-M01",
+      "ocr_text": "fd =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6891891897972973,
+        0.4243902435121951,
+        0.7500000006081081,
+        0.4731707313170732
+      ],
+      "context_crop": "regions/SANSEN-0537_math_01.png",
+      "context_bbox_normalized": [
+        0.6491891897972972,
+        0.32439024351219514,
+        0.9800000006081081,
+        0.6031707313170732
+      ],
+      "source_image": "slides/p0164_01_0537.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

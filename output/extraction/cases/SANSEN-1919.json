@@ -1,0 +1,364 @@
+{
+  "case_id": "SANSEN-1919",
+  "slide_id": "1919",
+  "chapter": 19,
+  "slide_number_in_chapter": 19,
+  "source": {
+    "pdf_page": 564,
+    "printed_page": 575
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0565_01_1919.jpg",
+      "pdf_page": 565,
+      "printed_page": 576,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 564,
+      "printed_page": 575,
+      "bbox_pt": [
+        0,
+        606.8225,
+        595,
+        797
+      ],
+      "text_raw": "A differential configuration of a voltage amplifier is shown in this slide. The gain is the ratio of\nthe two transconductances. The pole is determined by g and the capacitance C at the\nm2 L\nintermediate node.\nIn order to make sure this pole frequency is accurate, the parasitic capacitances C must be\np\nnegligible with respect to the load capacitance C . This limits the minimum value of C and the\nL L\nupper value of the pole frequency.",
+      "text": "A differential configuration of a voltage amplifier is shown in this slide. The gain is the ratio of the two transconductances. The pole is determined by g and the capacitance C at the m2 L intermediate node. In order to make sure this pole frequency is accurate, the parasitic capacitances C must be p negligible with respect to the load capacitance C . This limits the minimum value of C and the L L upper value of the pole frequency."
+    },
+    {
+      "pdf_page": 565,
+      "printed_page": 576,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        367.86181000000005
+      ],
+      "text_raw": "A more complicated filter\nstructure is shown below.\nIt is a second-order filter\nwhich is biquadratic. This\nmeans that both the numer-\nator and the denominator of\nthe transfer function are of\nsecond-order. For this pur-\npose, two capacitances are\nused and four transcon-\nductors.",
+      "text": "A more complicated filter structure is shown below. It is a second-order filter which is biquadratic. This means that both the numerator and the denominator of the transfer function are of second-order. For this purpose, two capacitances are used and four transconductors."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A differential configuration of a voltage amplifier is shown in this slide. The gain is the ratio of the two transconductances. The pole is determined by g and the capacitance C at the m2 L intermediate node. In order to make sure this pole frequency is accurate, the parasitic capacitances C must be p negligible with respect to the load capacitance C . This limits the minimum value of C and the L L upper value of the pole frequency.\n\nA more complicated filter structure is shown below. It is a second-order filter which is biquadratic. This means that both the numerator and the denominator of the transfer function are of second-order. For this purpose, two capacitances are used and four transconductors.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Simple fully-differential GmC filters",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0565_01_1919.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0779661056991525,
+          0.0829268290243903,
+          0.7186440718008474,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Simple fully-differential GmC filters"
+      },
+      {
+        "bbox": [
+          0.09823301287398883,
+          0.19952890875753304,
+          0.2509195295872767,
+          0.2492515802663221
+        ],
+        "confidence": 1,
+        "text": "Integrator"
+      },
+      {
+        "bbox": [
+          0.2677966104600484,
+          0.23414634139372814,
+          0.3084745765617433,
+          0.29268292675958185
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cр"
+      },
+      {
+        "bbox": [
+          0.10508474559322036,
+          0.30243902406504064,
+          0.13220338966101697,
+          0.341463414308943
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.10169491485875708,
+          0.3756097562195122,
+          0.14915254197740113,
+          0.4195121952439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YIN"
+      },
+      {
+        "bbox": [
+          0.193220339220339,
+          0.3658536591219512,
+          0.25084745786440676,
+          0.42439024448780494
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Gm1"
+      },
+      {
+        "bbox": [
+          0.3862835072623051,
+          0.1941465004374031,
+          0.5154114105702037,
+          0.23999984077241165
+        ],
+        "confidence": 1,
+        "text": "Resistor"
+      },
+      {
+        "bbox": [
+          0.4101694906779661,
+          0.36585365853658536,
+          0.4779661008474576,
+          0.42439024390243896
+        ],
+        "confidence": 1,
+        "text": "Gm2"
+      },
+      {
+        "bbox": [
+          0.5491525422033899,
+          0.30243902406504064,
+          0.5762711862711865,
+          0.341463414308943
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.5220338974576271,
+          0.37073170670731703,
+          0.5966101686440678,
+          0.4195121945121951
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6203389843644067,
+          0.2097560983536586,
+          0.9084745775847457,
+          0.2731707325
+        ],
+        "confidence": 1,
+        "text": "Lossy integrator"
+      },
+      {
+        "bbox": [
+          0.6203389852966101,
+          0.3219512193292683,
+          0.8000000022457626,
+          0.36585365835365846
+        ],
+        "confidence": 1,
+        "text": "Sensitive to"
+      },
+      {
+        "bbox": [
+          0.6231315130254497,
+          0.3721329342722046,
+          0.9530263773825736,
+          0.425896498312226
+        ],
+        "confidence": 1,
+        "text": "parasitic capacitances"
+      },
+      {
+        "bbox": [
+          0.6305084730169491,
+          0.5121951225365853,
+          0.9016949136949152,
+          0.570731707902439
+        ],
+        "confidence": 1,
+        "text": "Biquadratic cell"
+      },
+      {
+        "bbox": [
+          0.10508474555932204,
+          0.6682926825365854,
+          0.13220338962711864,
+          0.7073170727804877
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.10508474607748183,
+          0.7414634144599304,
+          0.14915254268765132,
+          0.7853658534843206
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.19322033927966106,
+          0.7317073178048781,
+          0.25084745792372887,
+          0.7902439031707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Gmt"
+      },
+      {
+        "bbox": [
+          0.3966101690112995,
+          0.7317073166260163,
+          0.46101694867231646,
+          0.7853658532113821
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Gm1"
+      },
+      {
+        "bbox": [
+          0.5423728809745763,
+          0.7365853651219512,
+          0.5864406775847457,
+          0.7951219504878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "02"
+      },
+      {
+        "bbox": [
+          0.6033898298644068,
+          0.7317073171219513,
+          0.6677966095254237,
+          0.7853658537073172
+        ],
+        "confidence": 1,
+        "text": "Gm2"
+      },
+      {
+        "bbox": [
+          0.6881355925423728,
+          0.7317073165853659,
+          0.7627118637288135,
+          0.7804878043902439
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.7762711866525424,
+          0.7317073178048781,
+          0.8406779663135593,
+          0.7902439031707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Gm1"
+      },
+      {
+        "bbox": [
+          0.7254237266779662,
+          0.9560975611707317,
+          0.9389830487118644,
+          0.9853658538536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen Is 1919"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A differential configuration of a voltage amplifier is shown in this slide.",
+      "pdf_page": 564,
+      "printed_page": 575,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The pole is determined by g and the capacitance C at the m2 L intermediate node.",
+      "pdf_page": 564,
+      "printed_page": 575,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A more complicated filter structure is shown below.",
+      "pdf_page": 565,
+      "printed_page": 576,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0565_01_1919.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The gain is the ratio of the two transconductances.",
+      "pdf_page": 564,
+      "printed_page": 575,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This limits the minimum value of C and the L L upper value of the pole frequency.",
+      "pdf_page": 564,
+      "printed_page": 575,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

@@ -1,0 +1,197 @@
+{
+  "case_id": "SANSEN-0540",
+  "slide_id": "0540",
+  "chapter": 5,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 166,
+    "printed_page": 170
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0166_01_0540.jpg",
+      "pdf_page": 166,
+      "printed_page": 170,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 166,
+      "printed_page": 170,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "This conclusion is what\nwe have already reached\npreviously.\nIncreasing the load\ncapacitance will force us to\neither increase the compen-\nsation capacitance or to\nincrease the current in the\nsecond stage, as imposed by\nthe stability requirement.\nBoth help!\nTherefore, if during some\ndesign effort, the capaci-\ntance C does not provide\nc\nsufficient phase margin, then\nwe have to increase the cur-\nrent in the second stage\nsomewhat. This always\nhelps!",
+      "text": "This conclusion is what we have already reached previously. Increasing the load capacitance will force us to either increase the compensation capacitance or to increase the current in the second stage, as imposed by the stability requirement. Both help! Therefore, if during some design effort, the capacitance C does not provide c sufficient phase margin, then we have to increase the current in the second stage somewhat. This always helps!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This conclusion is what we have already reached previously. Increasing the load capacitance will force us to either increase the compensation capacitance or to increase the current in the second stage, as imposed by the stability requirement. Both help! Therefore, if during some design effort, the capacitance C does not provide c sufficient phase margin, then we have to increase the current in the second stage somewhat. This always helps!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Pole splitting by ...",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0166_01_0540.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810814189189,
+          0.08780487725609754,
+          0.40540540574324324,
+          0.15121951140243906
+        ],
+        "confidence": 1,
+        "text": "Pole splitting by ..."
+      },
+      {
+        "bbox": [
+          0.11148648587837838,
+          0.2731707312195122,
+          0.17905405344594594,
+          0.3219512190243903
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.11148648591216219,
+          0.35121951170731713,
+          0.17567567510135138,
+          0.3999999995121952
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.09797297728040527,
+          0.5170731715853658,
+          0.4560810853885134,
+          0.5853658545121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "or 9m2 Cc = 4 9m1 CL"
+      },
+      {
+        "bbox": [
+          0.14063142074654375,
+          0.6536972604670866,
+          0.9201793956165555,
+          0.8926442030523573
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "both 9m2 Cc"
+      },
+      {
+        "bbox": [
+          0.7263513607230245,
+          0.9414634140650405,
+          0.9290540505382363,
+          0.9756097555284552
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0540"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0166_01_0540.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This conclusion is what we have already reached previously.",
+      "pdf_page": 166,
+      "printed_page": 170,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Increasing the load capacitance will force us to either increase the compensation capacitance or to increase the current in the second stage, as imposed by the stability requirement.",
+      "pdf_page": 166,
+      "printed_page": 170,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, if during some design effort, the capacitance C does not provide c sufficient phase margin, then we have to increase the current in the second stage somewhat.",
+      "pdf_page": 166,
+      "printed_page": 170,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Therefore, if during some design effort, the capacitance C does not provide c sufficient phase margin, then we have to increase the current in the second stage somewhat.",
+      "pdf_page": 166,
+      "printed_page": 170,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0540-M01",
+      "ocr_text": "or 9m2 Cc = 4 9m1 CL",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09797297728040527,
+        0.5170731715853658,
+        0.4560810853885134,
+        0.5853658545121951
+      ],
+      "context_crop": "regions/SANSEN-0540_math_01.png",
+      "context_bbox_normalized": [
+        0.05797297728040527,
+        0.41707317158536583,
+        0.6860810853885134,
+        0.7153658545121951
+      ],
+      "source_image": "slides/p0166_01_0540.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

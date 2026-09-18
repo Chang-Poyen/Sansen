@@ -1,0 +1,164 @@
+{
+  "case_id": "SANSEN-195",
+  "slide_id": "195",
+  "chapter": 19,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 558,
+    "printed_page": 569
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0558_01_195.jpg",
+      "pdf_page": 558,
+      "printed_page": 569,
+      "bbox_pt": [
+        91.521622,
+        206.23297200000002,
+        374.78981,
+        402.692963
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 558,
+      "printed_page": 569,
+      "bbox_pt": [
+        0,
+        202.24339999999984,
+        595,
+        439.5599
+      ],
+      "text_raw": "Tuning is possible when the\nresistors are substituted by\nMOST devices. They are\nused in the linear region (for\nsmall V ) and can be repre-\nDS\nsented by their on-resistance\n(see Chapter 1).\nChanging the Gate volt-\nage changes their on-resis-\ntance, allowing tuning of the\nfilter RC time constants.",
+      "text": "Tuning is possible when the resistors are substituted by MOST devices. They are used in the linear region (for small V ) and can be repre- DS sented by their on-resistance (see Chapter 1). Changing the Gate voltage changes their on-resistance, allowing tuning of the filter RC time constants."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Tuning is possible when the resistors are substituted by MOST devices. They are used in the linear region (for small V ) and can be repre- DS sented by their on-resistance (see Chapter 1). Changing the Gate voltage changes their on-resistance, allowing tuning of the filter RC time constants.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0558_01_195.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270053088803,
+          0.08292682944250873,
+          0.38175675458494207,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.11486486716638508,
+          0.2926829266158537,
+          0.4831081104096283,
+          0.35609756076219523
+        ],
+        "confidence": 0.5,
+        "text": "• Active RC filters"
+      },
+      {
+        "bbox": [
+          0.11824324599420843,
+          0.3902439022299651,
+          0.5033783811293435,
+          0.4487804875958188
+        ],
+        "confidence": 1,
+        "text": "• MOSFET-C filters"
+      },
+      {
+        "bbox": [
+          0.11824324159628383,
+          0.4926829271036586,
+          0.38175675510979734,
+          0.5463414636890244
+        ],
+        "confidence": 0.5,
+        "text": "• GmC filters"
+      },
+      {
+        "bbox": [
+          0.11824324608108103,
+          0.5902439022439024,
+          0.4020270298648648,
+          0.6487804876097563
+        ],
+        "confidence": 1,
+        "text": "• Comparison"
+      },
+      {
+        "bbox": [
+          0.10810812747082389,
+          0.8439024390243902,
+          0.4966216152093559,
+          0.8829268292682927
+        ],
+        "confidence": 1,
+        "text": "Ref.: Silva-Martinez, Dehaene, .."
+      },
+      {
+        "bbox": [
+          0.7263513535050675,
+          0.9414634140853658,
+          0.9324324345861486,
+          0.9853658531097561
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 195"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0558_01_195.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Changing the Gate voltage changes their on-resistance, allowing tuning of the filter RC time constants.",
+        "pdf_page": 558,
+        "printed_page": 569,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

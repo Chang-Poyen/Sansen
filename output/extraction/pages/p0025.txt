@@ -1,0 +1,54 @@
+Comparison of MOST and bipolar transistors 25
+0145
+Remember that we never
+want to enter the high-cur-
+rent or velocity-saturation
+region. As a designer we
+want to stay away from the
+transition point to velocity
+saturation. We want to cal-
+culate now the value of this
+transition point. It will come
+out to be about 0.5 V for
+present day technologies.
+Typical values for
+V −V are now between
+GS T
+0.15–0.2 V at the low end
+and about 0.5 V at the high
+end.
+The reason is explained
+next.
+0146
+The linearization of the cur-
+rent and the reduction of the
+transconductance because
+of velocity saturation can
+also be described by param-
+eter h (Greek theta). It intro-
+duces a term in the
+denominator of the current
+expression in strong inver-
+sion, as shown in this slide.
+Indeed for high V −V ,
+GS T
+the 1 drops out and the
+expression of the current
+becomes linear in V , as
+GS
+shown at the right.
+This parameter h has the
+advantage that it lumps all physical phenomena which cause linearization of the current. One
+of these phenomena is the effect of the vertical electric field E across the oxide. It is used mainly
+c
+by designers, not by technologists.
+The transconductance g in velocity saturation, can be obtained by taking the derivative of
+msat
+the current again. For large V −V , a simple expression is found for g . This must obviously
+GS T msat
+equal the original expression of g with v in it.
+msat sat
+Equation of both expressions of g shows that this parameter h depends on the channel
+msat
+length. The smaller L, the larger h. It depends here on technology. It becomes quite large for
+nanometer CMOS.

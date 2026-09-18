@@ -1,0 +1,251 @@
+{
+  "case_id": "SANSEN-103",
+  "slide_id": "103",
+  "chapter": 10,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 285,
+    "printed_page": 292
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0285_01_103.jpg",
+      "pdf_page": 285,
+      "printed_page": 292,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 285,
+      "printed_page": 292,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        379.6204103500001
+      ],
+      "text_raw": "Current amplifiers are used\nfor current sensors and\nfor some high-frequency\napplications.\nFor example a photo-\ndiode (pixel detector, radia-\ntion detector, ...) which\nreceives light, provides a\ncurrent proportional to this\namount of light, provided it\nis reverse biased. It behaves\nas a current source with\nvalue I .\nIN\nIn this case a voltage\namplifier can be used with\nresistive feedback, which\nprovides an output voltage R I , or a current-input amplifier with transresistance A .\nF IN R\nThe question is, which one is better, from the point of view of gain (or sensitivity), speed and\nnoise performance?",
+      "text": "Current amplifiers are used for current sensors and for some high-frequency applications. For example a photodiode (pixel detector, radiation detector, ...) which receives light, provides a current proportional to this amount of light, provided it is reverse biased. It behaves as a current source with value I . IN In this case a voltage amplifier can be used with resistive feedback, which provides an output voltage R I , or a current-input amplifier with transresistance A . F IN R The question is, which one is better, from the point of view of gain (or sensitivity), speed and noise performance?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Current amplifiers are used for current sensors and for some high-frequency applications. For example a photodiode (pixel detector, radiation detector, ...) which receives light, provides a current proportional to this amount of light, provided it is reverse biased. It behaves as a current source with value I . IN In this case a voltage amplifier can be used with resistive feedback, which provides an output voltage R I , or a current-input amplifier with transresistance A . F IN R The question is, which one is better, from the point of view of gain (or sensitivity), speed and noise performance?",
+  "schema_version": "1.0",
+  "chapter_title": "电流输入型运算放大器",
+  "title": "Current or voltage amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0285_01_103.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0745762651271188,
+          0.07804877969512192,
+          0.5796610108898306,
+          0.14146341384146344
+        ],
+        "confidence": 1,
+        "text": "Current or voltage amplifier"
+      },
+      {
+        "bbox": [
+          0.38644067851694913,
+          0.24878048780487805,
+          0.4305084751271186,
+          0.29756097560975614
+        ],
+        "confidence": 0.5,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.4508474568813559,
+          0.5463414628780489,
+          0.5322033890847457,
+          0.5999999994634146
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.8372881348474576,
+          0.5463414629268293,
+          0.9186440670508474,
+          0.5951219507317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.3661016953559322,
+          0.6097560975121951,
+          0.41016949196610164,
+          0.663414634097561
+        ],
+        "confidence": 0.5,
+        "text": "Ay"
+      },
+      {
+        "bbox": [
+          0.7593220335108959,
+          0.5902439019512196,
+          0.8203389826634383,
+          0.6585365848780488
+        ],
+        "confidence": 1,
+        "text": "AR"
+      },
+      {
+        "bbox": [
+          0.24714236570524295,
+          0.7979102475828227,
+          0.4443830593956561,
+          0.8655043873332335
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT = RFliN"
+      },
+      {
+        "bbox": [
+          0.6542372893898305,
+          0.8048780493658536,
+          0.8542372893898306,
+          0.8634146347317072
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT = AR'IN"
+      },
+      {
+        "bbox": [
+          0.7118644112678486,
+          0.9512195127642277,
+          0.9254237203705697,
+          0.9853658542276423
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen Ins 103"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0285_01_103.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It behaves as a current source with value I .",
+        "pdf_page": 285,
+        "printed_page": 292,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For example a photodiode (pixel detector, radiation detector, ...) which receives light, provides a current proportional to this amount of light, provided it is reverse biased.",
+      "pdf_page": 285,
+      "printed_page": 292,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "F IN R The question is, which one is better, from the point of view of gain (or sensitivity), speed and noise performance?",
+      "pdf_page": 285,
+      "printed_page": 292,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "For example a photodiode (pixel detector, radiation detector, ...) which receives light, provides a current proportional to this amount of light, provided it is reverse biased.",
+      "pdf_page": 285,
+      "printed_page": 292,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-103-M01",
+      "ocr_text": "VoUT = RFliN",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.24714236570524295,
+        0.7979102475828227,
+        0.4443830593956561,
+        0.8655043873332335
+      ],
+      "context_crop": "regions/SANSEN-103_math_01.png",
+      "context_bbox_normalized": [
+        0.20714236570524294,
+        0.6979102475828227,
+        0.6743830593956561,
+        0.93
+      ],
+      "source_image": "slides/p0285_01_103.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-103-M02",
+      "ocr_text": "VOUT = AR'IN",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6542372893898305,
+        0.8048780493658536,
+        0.8542372893898306,
+        0.8634146347317072
+      ],
+      "context_crop": "regions/SANSEN-103_math_02.png",
+      "context_bbox_normalized": [
+        0.6142372893898305,
+        0.7048780493658536,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0285_01_103.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Current-input operational amplifiers"
+}

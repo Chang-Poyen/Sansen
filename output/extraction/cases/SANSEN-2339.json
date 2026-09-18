@@ -1,0 +1,408 @@
+{
+  "case_id": "SANSEN-2339",
+  "slide_id": "2339",
+  "chapter": 23,
+  "slide_number_in_chapter": 39,
+  "source": {
+    "pdf_page": 718,
+    "printed_page": 730
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0718_02_2339.jpg",
+      "pdf_page": 718,
+      "printed_page": 730,
+      "bbox_pt": [
+        91.52162,
+        347.73596,
+        374.78981,
+        544.19595
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 718,
+      "printed_page": 730,
+      "bbox_pt": [
+        0,
+        343.74651000000006,
+        595,
+        797
+      ],
+      "text_raw": "This LNA is matched to\n50 Ohms at both input and\noutput. The supply voltage\nis 1.5 V. At the input, it is\nan amplifier using inductive\nsource degeneration for\ninput matching. The source\ninductor L is implemented\ns\nas two parallel bonding\nwires. It also uses a cascode\ntransistor.\nAt the input, L is the\ng\ninput bonding wire which\nserves as the inductor for\ninput resonance. To the\nright of that we have the\ninput bonding pad which has been especially designed, as will be explained further. It basically\nconsists of only the top metal layer. The bottom metal layer serves to shield the pad from the\nsubstrate and increase its Quality factor. After that we have the ESD-protection diodes. The\nupper diode conducts the ESD-charge in case of a positive pulse vs. V . The lower diode\nDD\noperates in case of a negative pulse vs. ground.\nThe output features a load inductor L with its series resistance, R . This inductor is imple-\nd s\nmented on-chip and has a patterned ground shield beneath to shield it from the substrate. The\n50 Ohms output is ensured through the use of a capacitive divider made up of C and C . The\n1 2\noutput bonding pad also takes part in the matching as it is just in parallel to C . Also, this\n2\nbonding pad has been shielded from the substrate in order to increase coupling through the\nsubstrate which would degrade the reverse isolation. It also ensures a fixed and known value for\nthe pad capacitance.",
+      "text": "This LNA is matched to 50 Ohms at both input and output. The supply voltage is 1.5 V. At the input, it is an amplifier using inductive source degeneration for input matching. The source inductor L is implemented s as two parallel bonding wires. It also uses a cascode transistor. At the input, L is the g input bonding wire which serves as the inductor for input resonance. To the right of that we have the input bonding pad which has been especially designed, as will be explained further. It basically consists of only the top metal layer. The bottom metal layer serves to shield the pad from the substrate and increase its Quality factor. After that we have the ESD-protection diodes. The upper diode conducts the ESD-charge in case of a positive pulse vs. V . The lower diode DD operates in case of a negative pulse vs. ground. The output features a load inductor L with its series resistance, R . This inductor is impled s mented on-chip and has a patterned ground shield beneath to shield it from the substrate. The 50 Ohms output is ensured through the use of a capacitive divider made up of C and C . The 1 2 output bonding pad also takes part in the matching as it is just in parallel to C . Also, this 2 bonding pad has been shielded from the substrate in order to increase coupling through the substrate which would degrade the reverse isolation. It also ensures a fixed and known value for the pad capacitance."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This LNA is matched to 50 Ohms at both input and output. The supply voltage is 1.5 V. At the input, it is an amplifier using inductive source degeneration for input matching. The source inductor L is implemented s as two parallel bonding wires. It also uses a cascode transistor. At the input, L is the g input bonding wire which serves as the inductor for input resonance. To the right of that we have the input bonding pad which has been especially designed, as will be explained further. It basically consists of only the top metal layer. The bottom metal layer serves to shield the pad from the substrate and increase its Quality factor. After that we have the ESD-protection diodes. The upper diode conducts the ESD-charge in case of a positive pulse vs. V . The lower diode DD operates in case of a negative pulse vs. ground. The output features a load inductor L with its series resistance, R . This inductor is impled s mented on-chip and has a patterned ground shield beneath to shield it from the substrate. The 50 Ohms output is ensured through the use of a capacitive divider made up of C and C . The 1 2 output bonding pad also takes part in the matching as it is just in parallel to C . Also, this 2 bonding pad has been shielded from the substrate in order to increase coupling through the substrate which would degrade the reverse isolation. It also ensures a fixed and known value for the pad capacitance.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "1.2 GHz LNA with C-ESD protection",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0718_02_2339.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432763513508,
+          0.08292682990243905,
+          0.7297297330405405,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "1.2 GHz LNA with C-ESD protection"
+      },
+      {
+        "bbox": [
+          0.18243243288288288,
+          0.3707317070731706,
+          0.2364864869369369,
+          0.4097560973170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 kV"
+      },
+      {
+        "bbox": [
+          0.17567567618243243,
+          0.42439024445121953,
+          0.22972973023648652,
+          0.4682926834756098
+        ],
+        "confidence": 1,
+        "text": "ESD"
+      },
+      {
+        "bbox": [
+          0.17893198226045692,
+          0.45757897964629957,
+          0.3041761228854569,
+          0.49364053174054967
+        ],
+        "confidence": 1,
+        "text": "Protection"
+      },
+      {
+        "bbox": [
+          0.4189189196790541,
+          0.4341463412804878,
+          0.4797297304898649,
+          0.46829268274390246
+        ],
+        "confidence": 1,
+        "text": "Vcasc"
+      },
+      {
+        "bbox": [
+          0.07770270185810814,
+          0.5707317075609756,
+          0.1452702694256757,
+          0.6000000002439024
+        ],
+        "confidence": 0.5,
+        "text": "24 nH"
+      },
+      {
+        "bbox": [
+          0.3074324329814189,
+          0.526829268109756,
+          0.35135135190033784,
+          0.5707317071341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "D,-"
+      },
+      {
+        "bbox": [
+          0.46621621592060813,
+          0.29268292628048775,
+          0.5033783780827703,
+          0.33658536530487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rg:"
+      },
+      {
+        "bbox": [
+          0.5168918956081081,
+          0.2926829265853659,
+          0.8141891929054054,
+          0.32195121926829273
+        ],
+        "confidence": 0.5,
+        "text": "10 nH or 500 S at 1.2 GHz"
+      },
+      {
+        "bbox": [
+          0.6790540507179055,
+          0.35609756115853664,
+          0.9459459426097973,
+          0.3902439026219513
+        ],
+        "confidence": 1,
+        "text": "250/0.25 46 mS 40 GHz"
+      },
+      {
+        "bbox": [
+          0.5468173727884067,
+          0.3935711139711754,
+          0.6592637066993745,
+          0.46984352020033415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rsub,lodd"
+      },
+      {
+        "bbox": [
+          0.679054049605856,
+          0.39512195146341467,
+          0.9459459414977479,
+          0.42926829292682933
+        ],
+        "confidence": 1,
+        "text": "450/0.25 64 mS 32 GHz"
+      },
+      {
+        "bbox": [
+          0.6790540570101351,
+          0.43414634121951223,
+          0.9155405434966215,
+          0.4731707314634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "20 dB 6 mA @ 1.5 V"
+      },
+      {
+        "bbox": [
+          0.6283783776182432,
+          0.49268292703252026,
+          0.7195945938344595,
+          0.5365853660569105
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C1 1 pF"
+      },
+      {
+        "bbox": [
+          0.5067567565033784,
+          0.5121951215853658,
+          0.5439189186655405,
+          0.5560975606097561
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.16216216241554055,
+          0.5804878047154473,
+          0.19256756782094595,
+          0.6195121949593496
+        ],
+        "confidence": 1,
+        "text": "Lg"
+      },
+      {
+        "bbox": [
+          0.15878378298141896,
+          0.6926829263414634,
+          0.2297297289273649,
+          0.7317073165853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cop,in"
+      },
+      {
+        "bbox": [
+          0.15540540675675674,
+          0.7902439034394403,
+          0.2364864878378378,
+          0.8292682913573078
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rsub,in"
+      },
+      {
+        "bbox": [
+          0.48648648600788297,
+          0.6439024391869919,
+          0.5439189184403154,
+          0.6829268294308942
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M,"
+      },
+      {
+        "bbox": [
+          0.6250000002815316,
+          0.6682926827642277,
+          0.6587837840653153,
+          0.7073170730081302
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cг"
+      },
+      {
+        "bbox": [
+          0.618243242652027,
+          0.7219512189634146,
+          0.6722972967060811,
+          0.7658536579878048
+        ],
+        "confidence": 0.5,
+        "text": "1 pF"
+      },
+      {
+        "bbox": [
+          0.7162162155405406,
+          0.6292682922926829,
+          0.8040540533783784,
+          0.6682926825365854
+        ],
+        "confidence": 0.5,
+        "text": ": Cbp,out"
+      },
+      {
+        "bbox": [
+          0.5236486493581081,
+          0.8682926827317073,
+          0.594594595304054,
+          0.8975609754146341
+        ],
+        "confidence": 0.5,
+        "text": "1.2 nH"
+      },
+      {
+        "bbox": [
+          0.42229729670608107,
+          0.8878048781097561,
+          0.4695945940033784,
+          0.9317073171341462
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.719594595777027,
+          0.7609756095731707,
+          0.8141891903716216,
+          0.7951219510365853
+        ],
+        "confidence": 1,
+        "text": "Rsub,out"
+      },
+      {
+        "bbox": [
+          0.7331081052364866,
+          0.8439024391869918,
+          0.9054054025337838,
+          0.8829268294308943
+        ],
+        "confidence": 0.5,
+        "text": "Leroux,.., JSSC"
+      },
+      {
+        "bbox": [
+          0.7331081057432433,
+          0.8829268295731708,
+          0.9222972949324325,
+          0.9170731710365855
+        ],
+        "confidence": 1,
+        "text": "June 02, 760-765"
+      },
+      {
+        "bbox": [
+          0.7229729824572588,
+          0.941463413902439,
+          0.9324324290292275,
+          0.9853658529268292
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2339"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "To the right of that we have the input bonding pad which has been especially designed, as will be explained further.",
+      "pdf_page": 718,
+      "printed_page": 730,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0718_02_2339.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "At the input, it is an amplifier using inductive source degeneration for input matching.",
+        "pdf_page": 718,
+        "printed_page": 730,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The source inductor L is implemented s as two parallel bonding wires.",
+        "pdf_page": 718,
+        "printed_page": 730,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The 1 2 output bonding pad also takes part in the matching as it is just in parallel to C .",
+        "pdf_page": 718,
+        "printed_page": 730,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The bottom metal layer serves to shield the pad from the substrate and increase its Quality factor.",
+      "pdf_page": 718,
+      "printed_page": 730,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also, this 2 bonding pad has been shielded from the substrate in order to increase coupling through the substrate which would degrade the reverse isolation.",
+      "pdf_page": 718,
+      "printed_page": 730,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

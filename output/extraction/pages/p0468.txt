@@ -1,0 +1,48 @@
+Bandgap and current reference circuits 477
+1641
+Curvature compensation is
+now possible.
+For this purpose, a diode
+is added and two resistors
+R and R . They generate
+4 5
+a term which subtracts the
+V of a junction with con-
+BE
+stant current from the V
+BE
+of a junction with the PTAT
+current. This term is the cur-
+vature correction. Its value
+is set by the two resistors.
+In this way, the curvature
+error is reduced from
+0.8 mV to 0.3 mV, over
+80°C.
+1642
+In this realization another
+opamp is used which oper-
+ates on supply voltages
+below 1 V. A real sub-1 V
+bandgap reference again
+emerges. Standard CMOS is
+used this time.
+The principle is similar as
+before. The opamp equalizes
+its input voltages by use of
+feedback. This voltage is
+simply V . All pMOSTs
+BE
+have again equal currents.
+The current through resis-
+tor R is PTAT. It is added
+1
+to a current V /(R +R ).
+BE 2a 2b
+This sum also flows through the output transistor. Resistor R then sets the output reference
+3
+voltage, which here is about 0.6 V.
+As an opamp, a folded cascode is used. Indeed, its input voltage range includes the ground.
+Also, a symmetrical OTA can be used provided low voltage current mirrors are used.
+Several solutions are now possible, provided an opamp can be designed, operating at the right
+input voltage range.

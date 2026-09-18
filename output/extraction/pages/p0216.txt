@@ -1,0 +1,42 @@
+Important opamp configurations 221
+However, the addition of
+two DC current sources
+with values KI increases
+1
+the gain considerably. A
+typical value for k is 0.8.
+In this case, 80% of the
+DC current provided by the
+input transistors M1 is
+taken away by the DC cur-
+rent sources. Only 20% of
+the DC current, together
+with the signal current is
+injected into the transistors
+M2 of the current mirrors.
+Because the DC currents
+in the output transistors M3
+are also lower, the output
+resistances are higher and so is the voltage gain.
+This technique cannot be pushed too far as mismatch will occur. Moreover, the resistance at
+the inner node of the current mirrors determines the non-dominant pole. It cannot be increased
+too much.
+0722
+The other ‘‘most used’’ oper-
+ational transconductance
+amplifier is the folded cas-
+code OTA.
+Many designers limit
+themselves to folded cas-
+code OTA’s only. It is there-
+fore important to figure out
+what exactly the advantages
+and disadvantages are. Also,
+which design plan delivers
+the best performance in
+terms of power consump-
+tion, noise, etc.
+0723
+A folded cascode OTA consists of an input differential pair, two cascodes and one current mirror.
+The latter current mirror will not be necessary when we have two outputs, as explained in the
+next Chapter.

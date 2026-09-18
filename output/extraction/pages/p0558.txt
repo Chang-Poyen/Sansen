@@ -1,0 +1,42 @@
+Continuous-time filters 569
+accuracies. The absolute errors can be as high as 15 ... 20%. We will therefore need to tune the
+filter sections.
+However, in such an OTA-RC filter no component can be tuned. The only way out is to use
+resistor or capacitor banks, as shown in this slide. For an 8-bitbinary bank of capacitances, the
+absolute error can be reduced to 0.4%.
+195
+Tuning is possible when the
+resistors are substituted by
+MOST devices. They are
+used in the linear region (for
+small V ) and can be repre-
+DS
+sented by their on-resistance
+(see Chapter 1).
+Changing the Gate volt-
+age changes their on-resis-
+tance, allowing tuning of the
+filter RC time constants.
+196
+Such an on-resistance is
+inversely proportional to
+the Gate voltage.
+It is very linear provided
+the V is very small. For
+DS
+larger signal-swings how-
+ever, this is no longer pos-
+sible and distortion appears.
+For larger values of V ,
+DS
+the term in V has to be
+DS2
+included in the I −V
+DS GS
+characteristic. This leads to
+second-order distortion.
+The easiest way to avoid
+this distortion is to adopt
+differential structures.
+Many configurations are
+possible.

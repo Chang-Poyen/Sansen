@@ -1,0 +1,530 @@
+{
+  "case_id": "SANSEN-1758",
+  "slide_id": "1758",
+  "chapter": 17,
+  "slide_number_in_chapter": 58,
+  "source": {
+    "pdf_page": 504,
+    "printed_page": 514
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0504_01_1758.jpg",
+      "pdf_page": 504,
+      "printed_page": 514,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 504,
+      "printed_page": 514,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        465.31950000000035
+      ],
+      "text_raw": "It takes a time t , which\ns\nincludes a number of time\nconstants, before the expo-\nnential of the voltage across\nthe output capacitor reaches\nits final value. For a devia-\ntion of 0.1%, approximately\n7 time constants are\nrequired. This deviation is\ncalled the dynamic error e .\nD\nA typical value is again\n0.05%.\nThe time constant itself is\n1/(2pBW) in which the BW\nequals aGBW. For a single-\nstage opamp the GBW is\ndetermined by the load capacitances, as given in this slide.\nThe maximum value of settling time t is half the clock period, which is the inverse of the\ns\nclock frequency f .\nc\nA minimum value is now required for the GBW. The corresponding time constant must be\nsufficiently small to be able to reach settling with sufficient dynamic accuracy within half a\nclock period.\nThe expression is given in this slide.\nFor example, the term ln(1/e ) is about 7 for 0.1% but 7.6 for 0.05%. For a=0.2, the GBW\nD\nmust be about 12 times f . If a were unity, then 2.4 times f would be sufficient. This is where\nc c\nthe rule of thumb is coming from that the GBW must be 2–3 times the clock frequency f .\nc",
+      "text": "It takes a time t , which s includes a number of time constants, before the exponential of the voltage across the output capacitor reaches its final value. For a deviation of 0.1%, approximately 7 time constants are required. This deviation is called the dynamic error e . D A typical value is again 0.05%. The time constant itself is 1/(2pBW) in which the BW equals aGBW. For a singlestage opamp the GBW is determined by the load capacitances, as given in this slide. The maximum value of settling time t is half the clock period, which is the inverse of the s clock frequency f . c A minimum value is now required for the GBW. The corresponding time constant must be sufficiently small to be able to reach settling with sufficient dynamic accuracy within half a clock period. The expression is given in this slide. For example, the term ln(1/e ) is about 7 for 0.1% but 7.6 for 0.05%. For a=0.2, the GBW D must be about 12 times f . If a were unity, then 2.4 times f would be sufficient. This is where c c the rule of thumb is coming from that the GBW must be 2–3 times the clock frequency f . c"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "It takes a time t , which s includes a number of time constants, before the exponential of the voltage across the output capacitor reaches its final value. For a deviation of 0.1%, approximately 7 time constants are required. This deviation is called the dynamic error e . D A typical value is again 0.05%. The time constant itself is 1/(2pBW) in which the BW equals aGBW. For a singlestage opamp the GBW is determined by the load capacitances, as given in this slide. The maximum value of settling time t is half the clock period, which is the inverse of the s clock frequency f . c A minimum value is now required for the GBW. The corresponding time constant must be sufficiently small to be able to reach settling with sufficient dynamic accuracy within half a clock period. The expression is given in this slide. For example, the term ln(1/e ) is about 7 for 0.1% but 7.6 for 0.05%. For a=0.2, the GBW D must be about 12 times f . If a were unity, then 2.4 times f would be sufficient. This is where c c the rule of thumb is coming from that the GBW must be 2–3 times the clock frequency f . c",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Dynamic error",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0504_01_1758.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107935810811,
+          0.08780487868292686,
+          0.34121621449324324,
+          0.15121951282926827
+        ],
+        "confidence": 1,
+        "text": "Dynamic error"
+      },
+      {
+        "bbox": [
+          0.11148648935810804,
+          0.1999999989634147,
+          0.40878378665540527,
+          0.28292682823170734
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "En = EXP(_Q.gm.ts"
+      },
+      {
+        "bbox": [
+          0.3141891886148649,
+          0.26829268239024395,
+          0.38513513456081083,
+          0.32195121897560974
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C1,eT"
+      },
+      {
+        "bbox": [
+          0.11824324722972963,
+          0.38536585346341456,
+          0.5168918958783782,
+          0.4439024388292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "En = EXP(-a.2.GBW.ts)"
+      },
+      {
+        "bbox": [
+          0.29391891875000004,
+          0.5414634141463415,
+          0.31418918902027027,
+          0.5804878043902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.10810810814189192,
+          0.5707317067804878,
+          0.23310810814189192,
+          0.6243902433658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.2432432427702703,
+          0.619512195707317,
+          0.3648648643918919,
+          0.6780487810731707
+        ],
+        "confidence": 0.5,
+        "text": "a.2m.ts"
+      },
+      {
+        "bbox": [
+          0.533783784058277,
+          0.5317073174390244,
+          0.5979729732474662,
+          0.590243902804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 f."
+      },
+      {
+        "bbox": [
+          0.5236486478716216,
+          0.6195121945853659,
+          0.608108107331081,
+          0.6731707311707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2п.а"
+      },
+      {
+        "bbox": [
+          0.6182432434403153,
+          0.5804878052439024,
+          0.6486486488457207,
+          0.6243902442682927
+        ],
+        "confidence": 1,
+        "text": "In"
+      },
+      {
+        "bbox": [
+          0.6621621617398649,
+          0.6097560978048779,
+          0.7128378374155406,
+          0.6682926831707316
+        ],
+        "confidence": 1,
+        "text": "ED"
+      },
+      {
+        "bbox": [
+          0.5101351355453668,
+          0.7365853655749128,
+          0.5675675679777992,
+          0.804878048501742
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fc"
+      },
+      {
+        "bbox": [
+          0.08783784303209449,
+          0.7804878045731708,
+          0.503378383572635,
+          0.8341463411585366
+        ],
+        "confidence": 0.5,
+        "text": "Minimum GBW: GBW >"
+      },
+      {
+        "bbox": [
+          0.5709459450168919,
+          0.7365853663414634,
+          0.6824324315033784,
+          0.8439024395121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-In(!"
+      },
+      {
+        "bbox": [
+          0.5067567562258688,
+          0.8341463417073169,
+          0.5810810805501931,
+          0.8878048782926828
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "п.а"
+      },
+      {
+        "bbox": [
+          0.6385135139076578,
+          0.8243902444308943,
+          0.6925675679617118,
+          0.8878048785772358
+        ],
+        "confidence": 1,
+        "text": "ED"
+      },
+      {
+        "bbox": [
+          0.6450472262695218,
+          0.23770835398916212,
+          0.8076554760369284,
+          0.2988770106872495
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW =-"
+      },
+      {
+        "bbox": [
+          0.817567567483108,
+          0.21951219552845525,
+          0.8749999999155404,
+          0.26829268333333334
+        ],
+        "confidence": 0.5,
+        "text": "gm"
+      },
+      {
+        "bbox": [
+          0.7871621628096845,
+          0.2878048786178862,
+          0.9121621628096845,
+          0.3560975615447155
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2CL.et"
+      },
+      {
+        "bbox": [
+          0.7331081079391892,
+          0.3560975605574913,
+          0.7702702701013514,
+          0.4146341459233449
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.652027027956081,
+          0.4048780484756098,
+          0.7263513522804054,
+          0.4487804875000001
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ts =•"
+      },
+      {
+        "bbox": [
+          0.7229729732826576,
+          0.43414634199186986,
+          0.7804054057150901,
+          0.4975609761382114
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2fc"
+      },
+      {
+        "bbox": [
+          0.7634238931129661,
+          0.7409405549494484,
+          0.8987382674696226,
+          0.7907667629245104
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "& = 0.05%"
+      },
+      {
+        "bbox": [
+          0.7397725149981006,
+          0.8432150398462391,
+          0.9291464077048943,
+          0.8982483770438918
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW ≥ 2-3*fc"
+      },
+      {
+        "bbox": [
+          0.7158019283429963,
+          0.9359651256935996,
+          0.9329307851050319,
+          0.9819357679695261
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.as N1758"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For a singlestage opamp the GBW is determined by the load capacitances, as given in this slide.",
+      "pdf_page": 504,
+      "printed_page": 514,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0504_01_1758.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The time constant itself is 1/(2pBW) in which the BW equals aGBW.",
+      "pdf_page": 504,
+      "printed_page": 514,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "For a deviation of 0.1%, approximately 7 time constants are required.",
+      "pdf_page": 504,
+      "printed_page": 514,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1758-M01",
+      "ocr_text": "En = EXP(_Q.gm.ts",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11148648935810804,
+        0.1999999989634147,
+        0.40878378665540527,
+        0.28292682823170734
+      ],
+      "context_crop": "regions/SANSEN-1758_math_01.png",
+      "context_bbox_normalized": [
+        0.07148648935810803,
+        0.13,
+        0.6387837866554053,
+        0.41292682823170734
+      ],
+      "source_image": "slides/p0504_01_1758.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1758-M02",
+      "ocr_text": "En = EXP(-a.2.GBW.ts)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11824324722972963,
+        0.38536585346341456,
+        0.5168918958783782,
+        0.4439024388292683
+      ],
+      "context_crop": "regions/SANSEN-1758_math_02.png",
+      "context_bbox_normalized": [
+        0.07824324722972964,
+        0.2853658534634146,
+        0.7468918958783782,
+        0.5739024388292683
+      ],
+      "source_image": "slides/p0504_01_1758.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1758-M03",
+      "ocr_text": "GBW =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.10810810814189192,
+        0.5707317067804878,
+        0.23310810814189192,
+        0.6243902433658537
+      ],
+      "context_crop": "regions/SANSEN-1758_math_03.png",
+      "context_bbox_normalized": [
+        0.06810810814189192,
+        0.4707317067804878,
+        0.46310810814189196,
+        0.7543902433658537
+      ],
+      "source_image": "slides/p0504_01_1758.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1758-M04",
+      "ocr_text": "Minimum GBW: GBW >",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08783784303209449,
+        0.7804878045731708,
+        0.503378383572635,
+        0.8341463411585366
+      ],
+      "context_crop": "regions/SANSEN-1758_math_04.png",
+      "context_bbox_normalized": [
+        0.04783784303209449,
+        0.6804878045731708,
+        0.733378383572635,
+        0.93
+      ],
+      "source_image": "slides/p0504_01_1758.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1758-M05",
+      "ocr_text": "GBW =-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6450472262695218,
+        0.23770835398916212,
+        0.8076554760369284,
+        0.2988770106872495
+      ],
+      "context_crop": "regions/SANSEN-1758_math_05.png",
+      "context_bbox_normalized": [
+        0.6050472262695218,
+        0.13770835398916212,
+        1,
+        0.4288770106872495
+      ],
+      "source_image": "slides/p0504_01_1758.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1758-M06",
+      "ocr_text": "ts =•",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.652027027956081,
+        0.4048780484756098,
+        0.7263513522804054,
+        0.4487804875000001
+      ],
+      "context_crop": "regions/SANSEN-1758_math_06.png",
+      "context_bbox_normalized": [
+        0.612027027956081,
+        0.30487804847560984,
+        0.9563513522804054,
+        0.5787804875000001
+      ],
+      "source_image": "slides/p0504_01_1758.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1758-M07",
+      "ocr_text": "& = 0.05%",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7634238931129661,
+        0.7409405549494484,
+        0.8987382674696226,
+        0.7907667629245104
+      ],
+      "context_crop": "regions/SANSEN-1758_math_07.png",
+      "context_bbox_normalized": [
+        0.7234238931129661,
+        0.6409405549494485,
+        1,
+        0.9207667629245104
+      ],
+      "source_image": "slides/p0504_01_1758.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1758-M08",
+      "ocr_text": "GBW ≥ 2-3*fc",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7397725149981006,
+        0.8432150398462391,
+        0.9291464077048943,
+        0.8982483770438918
+      ],
+      "context_crop": "regions/SANSEN-1758_math_08.png",
+      "context_bbox_normalized": [
+        0.6997725149981006,
+        0.7432150398462392,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0504_01_1758.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

@@ -1,0 +1,398 @@
+{
+  "case_id": "SANSEN-0637",
+  "slide_id": "0637",
+  "chapter": 6,
+  "slide_number_in_chapter": 37,
+  "source": {
+    "pdf_page": 196,
+    "printed_page": 200
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0196_02_0637.jpg",
+      "pdf_page": 196,
+      "printed_page": 200,
+      "bbox_pt": [
+        91.521622,
+        359.843476,
+        374.78981,
+        556.303467
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 196,
+      "printed_page": 200,
+      "bbox_pt": [
+        0,
+        355.85400000000004,
+        595,
+        797
+      ],
+      "text_raw": "The Common-mode input\nvoltage is the average input\nvoltage. Its range is limited\nby the supply voltages.\nFor the CM input voltage\ngoing up, the V of the\nGS1\ninput devices, added to the\nV of the DC current\nDS7\nsource, do not allow opera-\ntion up to the positive\nsupply voltage. The maxi-\nmum CM input voltage is\ntherefore V −V −V .\nDD GS1 DS7\nThe values obviously\ndepend on which V −V\nGS T\nvalues have been used. For\nthe input devices the V −V value is small (0.2 V) but it is a lot larger (0.5 V) for the DC\nGS T\ncurrent source.\nFor a supply voltage of ±2.5 V, the maximum CM input voltage is illustrated in this slide.\nThe lowest possible CM input voltage can come much closer to the negative supply voltage.\nIndeed, it is given by V +V +V −V . This value can be quite close to the V supply\nSS GS3 DS1 GS1 SS\nbut can never actually reach it, whatever V −V values are chosen.\nGS T\nThe total CM input voltage range is only a fraction of the rail-to-rail span. Some other\namplifiers (in Chapter 11) will be capable of input rail-to-rail performance.\nAlso, note that this amplifier could still operate at ±1 V provided the input transistors are\nbiased at about −0.7 V.",
+      "text": "The Common-mode input voltage is the average input voltage. Its range is limited by the supply voltages. For the CM input voltage going up, the V of the GS1 input devices, added to the V of the DC current DS7 source, do not allow operation up to the positive supply voltage. The maximum CM input voltage is therefore V −V −V . DD GS1 DS7 The values obviously depend on which V −V GS T values have been used. For the input devices the V −V value is small (0.2 V) but it is a lot larger (0.5 V) for the DC GS T current source. For a supply voltage of ±2.5 V, the maximum CM input voltage is illustrated in this slide. The lowest possible CM input voltage can come much closer to the negative supply voltage. Indeed, it is given by V +V +V −V . This value can be quite close to the V supply SS GS3 DS1 GS1 SS but can never actually reach it, whatever V −V values are chosen. GS T The total CM input voltage range is only a fraction of the rail-to-rail span. Some other amplifiers (in Chapter 11) will be capable of input rail-to-rail performance. Also, note that this amplifier could still operate at ±1 V provided the input transistors are biased at about −0.7 V."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The Common-mode input voltage is the average input voltage. Its range is limited by the supply voltages. For the CM input voltage going up, the V of the GS1 input devices, added to the V of the DC current DS7 source, do not allow operation up to the positive supply voltage. The maximum CM input voltage is therefore V −V −V . DD GS1 DS7 The values obviously depend on which V −V GS T values have been used. For the input devices the V −V value is small (0.2 V) but it is a lot larger (0.5 V) for the DC GS T current source. For a supply voltage of ±2.5 V, the maximum CM input voltage is illustrated in this slide. The lowest possible CM input voltage can come much closer to the negative supply voltage. Indeed, it is given by V +V +V −V . This value can be quite close to the V supply SS GS3 DS1 GS1 SS but can never actually reach it, whatever V −V values are chosen. GS T The total CM input voltage range is only a fraction of the rail-to-rail span. Some other amplifiers (in Chapter 11) will be capable of input rail-to-rail performance. Also, note that this amplifier could still operate at ±1 V provided the input transistors are biased at about −0.7 V.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA : CM Input Voltage Range",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0196_02_0637.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433219594575,
+          0.07317073243902439,
+          0.9155405484121619,
+          0.14634146414634142
+        ],
+        "confidence": 1,
+        "text": "Miller CMOS OTA : CM Input Voltage Range"
+      },
+      {
+        "bbox": [
+          0.17905405351351353,
+          0.21463414575609763,
+          0.24662162108108107,
+          0.2731707311219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIс™"
+      },
+      {
+        "bbox": [
+          0.08783783830236484,
+          0.25365853628048773,
+          0.125000000464527,
+          0.297560975304878
+        ],
+        "confidence": 1,
+        "text": "3V"
+      },
+      {
+        "bbox": [
+          0.08783783820945945,
+          0.3463414631707318,
+          0.12500000037162162,
+          0.38048780463414633
+        ],
+        "confidence": 1,
+        "text": "2V"
+      },
+      {
+        "bbox": [
+          0.0912162160472973,
+          0.43414634127371277,
+          0.12162162145270271,
+          0.46829268273712743
+        ],
+        "confidence": 1,
+        "text": "1V"
+      },
+      {
+        "bbox": [
+          0.09121621621621621,
+          0.5219512190243902,
+          0.125,
+          0.5609756092682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "oV"
+      },
+      {
+        "bbox": [
+          0.07770270263513512,
+          0.609756098,
+          0.12499999993243242,
+          0.6536585370243901
+        ],
+        "confidence": 1,
+        "text": "-1V"
+      },
+      {
+        "bbox": [
+          0.07770270230855857,
+          0.7024390246341462,
+          0.12499999960585585,
+          0.7414634148780487
+        ],
+        "confidence": 1,
+        "text": "-2V"
+      },
+      {
+        "bbox": [
+          0.0777027021114865,
+          0.7804878051829269,
+          0.1249999994087838,
+          0.8146341466463416
+        ],
+        "confidence": 1,
+        "text": "-3V"
+      },
+      {
+        "bbox": [
+          0.2770270265202702,
+          0.331707316390244,
+          0.3412162157094594,
+          0.3999999993170732
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5709459470270271,
+          0.40975609756097553,
+          0.6790540551351352,
+          0.46829268292682924
+        ],
+        "confidence": 0.5,
+        "text": "VicMmax"
+      },
+      {
+        "bbox": [
+          0.3885135160253507,
+          0.5219512192682927,
+          0.4425675668575321,
+          0.5463414631707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- -"
+      },
+      {
+        "bbox": [
+          0.47972973040540534,
+          0.5707317073170731,
+          0.5472972979729729,
+          0.6292682926829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Viс™"
+      },
+      {
+        "bbox": [
+          0.2770270266891892,
+          0.6829268288719512,
+          0.3378378375,
+          0.7463414630182927
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.20945945929054055,
+          0.7951219509407665,
+          0.2331081079391892,
+          0.8341463411846689
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T"
+      },
+      {
+        "bbox": [
+          0.5574324332770271,
+          0.7268292682520325,
+          0.6587837846283784,
+          0.7804878048373984
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ViCMmin"
+      },
+      {
+        "bbox": [
+          0.5844594597972973,
+          0.7951219509756099,
+          0.6047297300675676,
+          0.8292682924390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T"
+      },
+      {
+        "bbox": [
+          0.28040540574324324,
+          0.8439024387804878,
+          0.314189189527027,
+          0.8780487802439024
+        ],
+        "confidence": 1,
+        "text": "1V"
+      },
+      {
+        "bbox": [
+          0.4020270268018018,
+          0.7951219517321231,
+          0.42229729707207203,
+          0.8341463396499906
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T"
+      },
+      {
+        "bbox": [
+          0.402027025472973,
+          0.8439024392682928,
+          0.5574324308783783,
+          0.8780487807317073
+        ],
+        "confidence": 0.5,
+        "text": "2V +2.5V 3V"
+      },
+      {
+        "bbox": [
+          0.6418918915962838,
+          0.8000000001829268,
+          0.6655405402449325,
+          0.8341463416463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T"
+      },
+      {
+        "bbox": [
+          0.6486486484073358,
+          0.8439024392334495,
+          0.6824324321911196,
+          0.882926829477352
+        ],
+        "confidence": 1,
+        "text": "4V"
+      },
+      {
+        "bbox": [
+          0.7297297286951013,
+          0.8292682928658537,
+          0.8952702692356419,
+          0.8878048782317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD = |Vssl"
+      },
+      {
+        "bbox": [
+          0.7292896072473358,
+          0.9407339446560491,
+          0.9363811062666493,
+          0.9874200054917246
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0637"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For a supply voltage of ±2.5 V, the maximum CM input voltage is illustrated in this slide.",
+      "pdf_page": 196,
+      "printed_page": 200,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0196_02_0637.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For the CM input voltage going up, the V of the GS1 input devices, added to the V of the DC current DS7 source, do not allow operation up to the positive supply voltage.",
+        "pdf_page": 196,
+        "printed_page": 200,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "For the input devices the V −V value is small (0.2 V) but it is a lot larger (0.5 V) for the DC GS T current source.",
+        "pdf_page": 196,
+        "printed_page": 200,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Its range is limited by the supply voltages.",
+      "pdf_page": 196,
+      "printed_page": 200,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The maximum CM input voltage is therefore V −V −V .",
+      "pdf_page": 196,
+      "printed_page": 200,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "DD GS1 DS7 The values obviously depend on which V −V GS T values have been used.",
+      "pdf_page": 196,
+      "printed_page": 200,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Also, note that this amplifier could still operate at ±1 V provided the input transistors are biased at about −0.7 V.",
+      "pdf_page": 196,
+      "printed_page": 200,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0637-M01",
+      "ocr_text": "VDD = |Vssl",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7297297286951013,
+        0.8292682928658537,
+        0.8952702692356419,
+        0.8878048782317073
+      ],
+      "context_crop": "regions/SANSEN-0637_math_01.png",
+      "context_bbox_normalized": [
+        0.6897297286951013,
+        0.7292682928658537,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0196_02_0637.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

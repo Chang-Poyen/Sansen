@@ -1,0 +1,289 @@
+{
+  "case_id": "SANSEN-0714",
+  "slide_id": "0714",
+  "chapter": 7,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 212,
+    "printed_page": 217
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0212_02_0714.jpg",
+      "pdf_page": 212,
+      "printed_page": 217,
+      "bbox_pt": [
+        91.521622,
+        419.483979,
+        374.78981,
+        615.94397
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 212,
+      "printed_page": 217,
+      "bbox_pt": [
+        0,
+        415.4945000000002,
+        595,
+        797
+      ],
+      "text_raw": "For a differential output,\ntwo transistors to ground\nprovide only a first-order\ncharacteristic – there is only\none single pole.\nThis is obvious for the cir-\ncuit on the left. Since there\nis only one capacitance, only\none pole can emerge.\nHowever, this circuit can\neasily be converted to the\ncircuit on the right. We take\ntwo capacitances in series\nwith double the value and\nthen ground the node\nbetween both capacitances.\nThis is how the circuit on the right is derived from the first one. For AC they are exactly the\nsame. They have the same pole!\nTo make it slightly more intriguing, we could wonder what happens if there is some asymmetry.\nFor example, if one capacitance is slightly larger than the other one, how can it create a pole\nwith the same value?\nIn this case, we find two poles, but we also find a zero inbetween, to ensure a first-order roll-off.",
+      "text": "For a differential output, two transistors to ground provide only a first-order characteristic – there is only one single pole. This is obvious for the circuit on the left. Since there is only one capacitance, only one pole can emerge. However, this circuit can easily be converted to the circuit on the right. We take two capacitances in series with double the value and then ground the node between both capacitances. This is how the circuit on the right is derived from the first one. For AC they are exactly the same. They have the same pole! To make it slightly more intriguing, we could wonder what happens if there is some asymmetry. For example, if one capacitance is slightly larger than the other one, how can it create a pole with the same value? In this case, we find two poles, but we also find a zero inbetween, to ensure a first-order roll-off."
+    },
+    {
+      "pdf_page": 213,
+      "printed_page": 218,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        159.39389999999992
+      ],
+      "text_raw": "The net result is that for a differential output, these two nodes establish one single pole\nonly!",
+      "text": "The net result is that for a differential output, these two nodes establish one single pole only!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For a differential output, two transistors to ground provide only a first-order characteristic – there is only one single pole. This is obvious for the circuit on the left. Since there is only one capacitance, only one pole can emerge. However, this circuit can easily be converted to the circuit on the right. We take two capacitances in series with double the value and then ground the node between both capacitances. This is how the circuit on the right is derived from the first one. For AC they are exactly the same. They have the same pole! To make it slightly more intriguing, we could wonder what happens if there is some asymmetry. For example, if one capacitance is slightly larger than the other one, how can it create a pole with the same value? In this case, we find two poles, but we also find a zero inbetween, to ensure a first-order roll-off.\n\nThe net result is that for a differential output, these two nodes establish one single pole only!",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Pole at output of a differential pair",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0212_02_0714.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432947635126,
+          0.0829268290243903,
+          0.6925675727195945,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Pole at output of a differential pair"
+      },
+      {
+        "bbox": [
+          0.26689189138513514,
+          0.24878048809756093,
+          0.3175675670608108,
+          0.2878048783414634
+        ],
+        "confidence": 1,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.7195945951013514,
+          0.2487804875609756,
+          0.770270270777027,
+          0.2926829265853659
+        ],
+        "confidence": 1,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.16216216154983107,
+          0.6146341454268293,
+          0.38175675614442567,
+          0.7609756088414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "REVOER"
+      },
+      {
+        "bbox": [
+          0.20608108469594588,
+          0.8146341458536586,
+          0.5675675711824324,
+          0.8829268287804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "One single pole : fp ="
+      },
+      {
+        "bbox": [
+          0.5101351360641891,
+          0.6634146343292683,
+          0.5844594603885135,
+          0.7170731709146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2Cn="
+      },
+      {
+        "bbox": [
+          0.5810810820608108,
+          0.6731707323902439,
+          0.6858108117905406,
+          0.7414634153170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TRIS"
+      },
+      {
+        "bbox": [
+          0.6351351349943694,
+          0.7853658538617887,
+          0.6520270268862612,
+          0.8195121953252034
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.5806546218423981,
+          0.8515939649881907,
+          0.7470480822965657,
+          0.9288938436436012
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2t 2R,Cn"
+      },
+      {
+        "bbox": [
+          0.8614864874577701,
+          0.6634146340853658,
+          0.9391891901604729,
+          0.7170731706707316
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ": 2Cn"
+      },
+      {
+        "bbox": [
+          0.7229729759257276,
+          0.9512195123577235,
+          0.9324324224976963,
+          0.9804878050406504
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0714"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is how the circuit on the right is derived from the first one.",
+      "pdf_page": 212,
+      "printed_page": 217,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In this case, we find two poles, but we also find a zero inbetween, to ensure a first-order roll-off.",
+      "pdf_page": 212,
+      "printed_page": 217,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0212_02_0714.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "We take two capacitances in series with double the value and then ground the node between both capacitances.",
+        "pdf_page": 212,
+        "printed_page": 217,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "For a differential output, two transistors to ground provide only a first-order characteristic – there is only one single pole.",
+      "pdf_page": 212,
+      "printed_page": 217,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In this case, we find two poles, but we also find a zero inbetween, to ensure a first-order roll-off.",
+      "pdf_page": 212,
+      "printed_page": 217,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0714-M01",
+      "ocr_text": "One single pole : fp =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.20608108469594588,
+        0.8146341458536586,
+        0.5675675711824324,
+        0.8829268287804878
+      ],
+      "context_crop": "regions/SANSEN-0714_math_01.png",
+      "context_bbox_normalized": [
+        0.16608108469594587,
+        0.7146341458536586,
+        0.7975675711824324,
+        0.93
+      ],
+      "source_image": "slides/p0212_02_0714.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0714-M02",
+      "ocr_text": "2Cn=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5101351360641891,
+        0.6634146343292683,
+        0.5844594603885135,
+        0.7170731709146342
+      ],
+      "context_crop": "regions/SANSEN-0714_math_02.png",
+      "context_bbox_normalized": [
+        0.47013513606418916,
+        0.5634146343292683,
+        0.8144594603885135,
+        0.8470731709146342
+      ],
+      "source_image": "slides/p0212_02_0714.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

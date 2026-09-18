@@ -1,0 +1,46 @@
+Feedback voltage and transconductance amplifiers 371
+1316
+Shunt feedback will be used
+when we want to decrease
+the impedance level of an
+interconnection between
+two circuit blocks. Such
+interconnects can pick up a
+lot of parasitic capacitance.
+This causes a severe reduc-
+tion in bandwidth when the
+interconnect is at too high
+an impedance level.
+On the contrary, in an
+operational amplifier we
+want to create a low-fre-
+quency dominant pole by
+means of one single capaci-
+tance. Series feedback is a great help in increasing the node impedance.
+Also sometimes a real current source must be built. For example, to carry out an impedance
+measurement we need to apply a precise current and to measure the voltage generated across it.
+As a result, we need to generate a circuit with high output impedance and a precise current.
+Output series feedback is ideal for this kind of application.
+1317
+At the input, it is mainly the
+kind of sensor which deter-
+mines whether we need a
+voltage input or a current
+sensing input. A dynamic
+microphone for example,
+behaves as a voltage source:
+it has a small internal resis-
+tance. The voltage carries
+the sensor information. We
+need therefore, to measure
+the voltage at the input. We
+also need a high input resis-
+tance or series feedback at
+the input. This also applies
+to a Wheatstone bridge with
+pressure sensors, and to thermisters.
+On the other hand, if we have a capacitive pressure sensor or accelerometer, or a photodiode,
+then we need a current amplifier. They all have a small capacitor as an internal impedance, quite
+often as low as 10 pF. Its impedance is quite high at low frequencies. It is the current which
+carries the sensor information. We need a current measurement, or shunt feedback at the input.
+If we want a voltage output, we will have to take a shunt-shunt feedback amplifier.

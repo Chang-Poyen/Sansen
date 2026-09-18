@@ -1,0 +1,51 @@
+Class AB and driver amplifiers 347
+1221
+A translinear loop is formed
+by transistors MA2/MA4
+and MA9/MA10. Their sum
+of V ’s is equal.
+GS
+The currents through
+MA9–MA10 are set by a
+DC current source (which is
+about 4 mA in this example).
+The current through MA4 is
+also set by the DC current
+of the preceding stage
+(which is also about 4 mA in
+this example). Only the cur-
+rent through the large
+output transistor MA2 is
+not known.
+Its current is then defined by the expression in this slide. All transistor sizes W/L’s are known.
+All parameters V and K∞ cancel out.
+T p
+As a result, we obtain an expression linking the currents to the transistor sizes. The current
+I through transistor MA2 is about 120 times larger than the current through transistor MA9.
+DS2
+It is now well defined. It is independent of the supply voltage.
+A disadvantage of this loop however, is that I only becomes large when I becomes zero,
+DS2 DS4
+since I is constant. Transistor MA4 shuts off for large drives and limits the output current.
+DS9
+1222
+A practical example of such
+a translinear loop is shown
+in this slide.
+The transistors MA2/
+MA4 and MA9/MA10 have
+actually been copied on the
+previous slide. They form a
+translinear loop indeed.
+The same applies to
+the transistors MA1/MA3
+which form a translinear
+loop with MA5/MA6.
+The quiescent current in
+the output transistors is thus
+given by the expression on
+the previous slide.
+It is now easy to see where the DC currents are coming from. The current through MA9/MA10
+comes form a DC biasing current mirror. The DC current through MA4 comes from the pMOST
+differential current amplifier M11–14 at the end of the nMOST first stage. This current flows
+through the nMOST differential current amplifier M5–8 at the end of the pMOST first stage.

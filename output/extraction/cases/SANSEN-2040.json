@@ -1,0 +1,324 @@
+{
+  "case_id": "SANSEN-2040",
+  "slide_id": "2040",
+  "chapter": 20,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 612,
+    "printed_page": 623
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0612_01_2040.jpg",
+      "pdf_page": 612,
+      "printed_page": 623,
+      "bbox_pt": [
+        91.52162,
+        259.04747,
+        374.54222,
+        455.55731
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 612,
+      "printed_page": 623,
+      "bbox_pt": [
+        0,
+        255.05784034999988,
+        595,
+        630.7383803500002
+      ],
+      "text_raw": "The fastest ADCs are\nundoubtedly flash convert-\ners, as shown in this slide.\nThe reason is that they pro-\ncess the input voltage in par-\nallel. Only one single clock\ncycle is required. The previ-\nous ones process the bits in\nseries, and are therefore\nslower.\nA large number of input\ncomparators are used to\ncompare the input signal\nwith a (thermometer) frac-\ntion of the reference voltage\nV . The outputs of the\nref\ncomparators generate a thermometer code, which is converted into binary code by an encoder.\nThe comparators are followed by NAND gates. Their outputs are all zero except for the one\nwhich sees a difference at its inputs, i.e. where the thermometer code changes from zero to one.\nThe main disadvantage of such an ADC is the large number of comparators required. For a\n6-bit flash converter 26 or 64 comparators are required! This is why such converters have very\nlimited resolution.\nMoreover, the input voltage sees all comparators in parallel, which represents a very large\ninput capacitance. It will take a lot of power to drive this converter.",
+      "text": "The fastest ADCs are undoubtedly flash converters, as shown in this slide. The reason is that they process the input voltage in parallel. Only one single clock cycle is required. The previous ones process the bits in series, and are therefore slower. A large number of input comparators are used to compare the input signal with a (thermometer) fraction of the reference voltage V . The outputs of the ref comparators generate a thermometer code, which is converted into binary code by an encoder. The comparators are followed by NAND gates. Their outputs are all zero except for the one which sees a difference at its inputs, i.e. where the thermometer code changes from zero to one. The main disadvantage of such an ADC is the large number of comparators required. For a 6-bit flash converter 26 or 64 comparators are required! This is why such converters have very limited resolution. Moreover, the input voltage sees all comparators in parallel, which represents a very large input capacitance. It will take a lot of power to drive this converter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The fastest ADCs are undoubtedly flash converters, as shown in this slide. The reason is that they process the input voltage in parallel. Only one single clock cycle is required. The previous ones process the bits in series, and are therefore slower. A large number of input comparators are used to compare the input signal with a (thermometer) fraction of the reference voltage V . The outputs of the ref comparators generate a thermometer code, which is converted into binary code by an encoder. The comparators are followed by NAND gates. Their outputs are all zero except for the one which sees a difference at its inputs, i.e. where the thermometer code changes from zero to one. The main disadvantage of such an ADC is the large number of comparators required. For a 6-bit flash converter 26 or 64 comparators are required! This is why such converters have very limited resolution. Moreover, the input voltage sees all comparators in parallel, which represents a very large input capacitance. It will take a lot of power to drive this converter.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Flash converter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0612_01_2040.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626783898313,
+          0.07804877975609759,
+          0.35593220004237297,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Flash converter"
+      },
+      {
+        "bbox": [
+          0.09491525457627116,
+          0.1951219509756098,
+          0.12203389864406777,
+          0.22439024365853655
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vnsi"
+      },
+      {
+        "bbox": [
+          0.24745763204635357,
+          0.2926829275044809,
+          0.34915254083500225,
+          0.33170731542234844
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ToOuirisin"
+      },
+      {
+        "bbox": [
+          0.29830508464891037,
+          0.3317073166898955,
+          0.34576271176755446,
+          0.3853658532752613
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Do"
+      },
+      {
+        "bbox": [
+          0.1254237286440678,
+          0.4195121948292684,
+          0.14237288118644068,
+          0.44878048751219524
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3"
+      },
+      {
+        "bbox": [
+          0.09152542355932203,
+          0.434146341097561,
+          0.1118644066101695,
+          0.46341463378048786
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.1525423724858757,
+          0.5756097563414634,
+          0.17627118604519776,
+          0.6000000002439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\",."
+      },
+      {
+        "bbox": [
+          0.16610169638418074,
+          0.8390243900000001,
+          0.25423728960451975,
+          0.8634146339024391
+        ],
+        "confidence": 1,
+        "text": "Comparators"
+      },
+      {
+        "bbox": [
+          0.4134865110501244,
+          0.5410744223350822,
+          0.4882084066882832,
+          0.571120701591019
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(2°-1; в0 K"
+      },
+      {
+        "bbox": [
+          0.42030832879203006,
+          0.5803459007144361,
+          0.47460692363859386,
+          0.6050199534413678
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ensaJe:"
+      },
+      {
+        "bbox": [
+          0.572881358396058,
+          0.5463414631707318,
+          0.6237288127903824,
+          0.5707317070731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "N digila"
+      },
+      {
+        "bbox": [
+          0.5762711862842242,
+          0.5707317072420263,
+          0.6237288134028683,
+          0.5902439023639775
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "wupua"
+      },
+      {
+        "bbox": [
+          0.667796613135593,
+          0.3219512201829269,
+          0.9118644097457625,
+          0.37560975676829267
+        ],
+        "confidence": 0.5,
+        "text": "3-bit flash ADC :"
+      },
+      {
+        "bbox": [
+          0.6644067788861986,
+          0.44390243926829265,
+          0.772881355157385,
+          0.48780487829268293
+        ],
+        "confidence": 1,
+        "text": "fastest"
+      },
+      {
+        "bbox": [
+          0.6643394451245495,
+          0.49212881587056034,
+          0.8949825849798857,
+          0.5517736219648463
+        ],
+        "confidence": 1,
+        "text": "23 comparators"
+      },
+      {
+        "bbox": [
+          0.6644067769491526,
+          0.5512195124390245,
+          0.8813559294915256,
+          0.609756097804878
+        ],
+        "confidence": 0.5,
+        "text": "input cap. - 23"
+      },
+      {
+        "bbox": [
+          0.6677966088347458,
+          0.7121951221646341,
+          0.8813559308686442,
+          0.7560975611890244
+        ],
+        "confidence": 0.5,
+        "text": "limited to 6 bit"
+      },
+      {
+        "bbox": [
+          0.6642758750697649,
+          0.7648775675274119,
+          0.8543681881573577,
+          0.820488284742601
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1 ... 2 GS/s)"
+      },
+      {
+        "bbox": [
+          0.7286400702976008,
+          0.935140474131329,
+          0.9391565441000703,
+          0.9916887927616405
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 2040"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The fastest ADCs are undoubtedly flash converters, as shown in this slide.",
+      "pdf_page": 612,
+      "printed_page": 623,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A large number of input comparators are used to compare the input signal with a (thermometer) fraction of the reference voltage V .",
+      "pdf_page": 612,
+      "printed_page": 623,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0612_01_2040.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The reason is that they process the input voltage in parallel.",
+        "pdf_page": 612,
+        "printed_page": 623,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The previous ones process the bits in series, and are therefore slower.",
+        "pdf_page": 612,
+        "printed_page": 623,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Moreover, the input voltage sees all comparators in parallel, which represents a very large input capacitance.",
+        "pdf_page": 612,
+        "printed_page": 623,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The previous ones process the bits in series, and are therefore slower.",
+      "pdf_page": 612,
+      "printed_page": 623,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is why such converters have very limited resolution.",
+      "pdf_page": 612,
+      "printed_page": 623,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

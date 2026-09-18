@@ -1,0 +1,46 @@
+656 Chapter #21
+A DC level shift is again
+required as the average
+output voltage is at 50% of
+the supply voltage and the
+average input voltage close
+to ground. This is again
+realized by means of capaci-
+tors C .
+CM
+Note that the switches are
+such that the outputs of the
+opamp are at V , not to
+DD
+forward bias the junctions of
+the switch transistors.
+2138
+The schematic of the 3rd-
+order Delta-Sigma con-
+verter is shown in this slide.
+A single-loop topology is
+selected as it consumes
+somewhat less power than a
+2–1 cascaded topology.
+Moreover, the gain require-
+ments per stage are less
+severe.
+The coefficients have been
+obtained from Matlab simu-
+lations. Care is taken to
+optimize the output swings
+for all integrators. For an
+input swing of 0.2 V, the
+output swings are respectively 0.36, 0.5 and 0.5 V.
+In order to avoid an additional opamp to set the timing of the clocks right, half delays are
+introduced. They are digital and consume very little power.
+2139
+The opamp used is a class-AB amplifier as shown in this slide. Class AB is preferred as it lowers
+the quiescent current.
+It contains two input transistors M1 and M2 and a low-voltage current source M2, M3 and
+M4. Transistors M2 serve as a source follower as its current is constant and equal to I . This
+B1
+is ensured by the feedback loop around transistors M2 and M3. As a result V is constant as
+GS2
+well. Input voltage V is transferred unattenuated to its Source.
+in2

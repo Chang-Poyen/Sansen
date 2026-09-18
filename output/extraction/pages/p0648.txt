@@ -1,0 +1,41 @@
+L ow-power sigma-delta AD converters 659
+2143
+The comparator for the
+single-bit conversion is
+shown in this slide.
+The comparator consists
+of a differential pair with
+transistors M1, loaded by a
+negative resistance (because
+of the positive feedback)
+with transistors M2. The
+gain is sufficiently high to
+cause a regenerative action
+yielding a logic on one side
+and a zero on the other. It
+consumes about 6 mA.
+In such a comparator,
+normally a switch is re-
+quired between the Drains of the input transistors M1. This switch is closed before the input
+voltage is applied. As soon as the switch is opened, the regenerative action causes a logic one or
+zero at the output, depending on the input signal.
+Because of the low supply voltage however, such a switch is not possible. This function is
+taken up by the two switches M3. When they are switched off, regenerative action takes place.
+Note that the average input voltage is again close to ground.
+2144
+The input integrator does
+not have a preceding opamp
+which can be switched. The
+input signal will now be lim-
+ited in amplitude by the
+input switch.
+In this realization, the
+supply voltage is 0.9 V. The
+minimum voltage drive for
+the input switch is about
+0.65 V, barely larger than
+the threshold voltage. As a
+result, the maximum differ-
+ential input voltage is about
+500 mV .
+ptp

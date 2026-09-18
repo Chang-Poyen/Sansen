@@ -1,0 +1,55 @@
+100 Chapter #3
+The same is true for the negative supply V . The same is also true for the ground. Ground
+SS
+noise, caused by digital circuits on the same substrate, will be added to both inputs and will
+thus be rejected by the differential input. As a result the CMRR (Common-mode Rejection
+Ratio) will be high. All these factors, PSRR and CMRR will be discussed in more detail in
+Chapter 12.
+A differential pair is therefore nothing more than a single-transistor amplifier, carried out in
+a differential way, in order to be able to cope with common-mode disturbances.
+0322
+The output voltage versus
+input voltage is illustrated in
+this slide.
+For small input voltages,
+the gain is simply g R . It
+m L
+is the slope of the character-
+istic around zero.
+For larger input voltages,
+the output level saturates to
+a voltage R I . For even
+L B
+larger input voltages the
+output voltage is constant.
+The curve in between is
+actually a parabola, desc-
+ribed by the equation on the
+previous slide.
+For small input voltages, the factor under the square root is simply unity. What remains in
+that expression is simply g .
+m
+For an input voltage equal to √2(V −V ) the top of the parabola is reached. The tangent
+GS T
+at this point provides a very smooth transition to a constant output voltage.
+It is clear that V −V is the parameter that controls both the g and the range. For a small
+GS T m
+V −V , the gain is high (with a steep slope) but the range is small. For RF receivers a large
+GS T
+V −V is preferred; the range is wide but the gain is small. Moreover, a large V −V , provides
+GS T GS T
+a highfrequency response.
+0323
+Bipolar transistors have an even lower V −V , or specifically kT/q. The gain is thus very high
+GS T
+but the range very small. For small input voltages, the gain is again g R . It is the slope of the
+m L
+characteristic around zero.
+For larger input voltages, the output level saturates again to a voltage R I . For even larger
+L B
+input voltages the output voltage is constant. The curve in between consists of exponentials such
+that a smooth transition is guaranteed. The actual curve will be calculated on the next slide.
+It is clear that there is no way to control both the g and the range. They are always set by
+m
+kT/q. The only way to change this ratio is to insert emitter resistors. The larger the resistor, the
+wider the range but the smaller the small-signal gain becomes.

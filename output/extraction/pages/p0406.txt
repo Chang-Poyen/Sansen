@@ -1,0 +1,59 @@
+414 Chapter #14
+1451
+A similar comparison can be
+carried out for the total
+integrated noise.
+For this purpose, the
+noise densities have to be
+multiplied with the noise
+bandwidths or the band-
+widths themselves, multi-
+plied by p/2 (see Chapter 4).
+For the voltage-input
+amplifier, the BW is deter-
+mined at the input node of
+the input transistor. The
+total input capacitance C is
+P
+again about twice the diode
+capacitance. Remember that
+resistor R is the load resistor of the input transistor.
+L
+For the current-input amplifier the bandwidth is at the output node of the input transistor.
+The capacitance at this node is C . In the simple example of slide 41, this capacitance is the
+L
+output capacitance C of the input transistor. It has about the same size as its C capacitance.
+DB GS
+This load capacitance C is about half of C .
+L P
+The comparison shows that the voltage-input amplifier is better if feedback capacitor R is
+F
+larger than the load capacitor R . This is usually the case.
+L
+Moreover, care has to be taken to make the resistor R form the cascode Source to ground
+S
+(see slide 41) sufficiently large to avoid its current noise.
+1452
+A good example of a CMOS
+voltage-input transimped-
+ance amplifier is shown in
+this slide. It consists of three
+wide-band CMOS amplifi-
+ers with R as a feedback
+F
+resistor. The bandwidth of
+120 MHz may not be all
+that high but the transim-
+pedance of 150 kV is fairly
+high such that the BW.R
+F
+product is quite high, i.e.
+18 THzV.
+The equivalent input
+noise current is mainly the
+current noise of feedback
+resistor R .
+F
+Each amplifier consists of a CMOS inverter amplifier loaded by the 1/g of a diode connected
+m
+nMOST. Input and output have the same DC voltage such that they are easily cascaded.

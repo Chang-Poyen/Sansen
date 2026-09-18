@@ -1,0 +1,379 @@
+{
+  "case_id": "SANSEN-0532",
+  "slide_id": "0532",
+  "chapter": 5,
+  "slide_number_in_chapter": 32,
+  "source": {
+    "pdf_page": 161,
+    "printed_page": 165
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0161_01_0532.jpg",
+      "pdf_page": 161,
+      "printed_page": 165,
+      "bbox_pt": [
+        91.521622,
+        288.942505,
+        374.78981,
+        485.402496
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 161,
+      "printed_page": 165,
+      "bbox_pt": [
+        0,
+        284.95289999999966,
+        595,
+        654.6545000000002
+      ],
+      "text_raw": "Both the GBW and the non-\ndominant pole are linked by\nthe stability requirement.\nThe f /GBW must be\nnd\nabout three!\nRewriting this provides\nan important relationship\nbetween the trans-conduc-\ntances on one hand, and the\ncapacitances on the other.\nThe correction factor\nC /C is simply taken to be\nn1 c\n0.3. Combining this with the\nratio f /GBW of three, we\nnd\nobtain a factor of 4.\nThis relationship shows\nwhy the current in the second stage of a 2-stage opamp always consumes much more power\nthan the first stage. Indeed for a specific V −V (such as 0.2 V), the transconductances represent\nGS T\nthe currents. Normally, we choose the compensation capacitance to be smaller than the load\ncapacitance. It is usually 2–3 times smaller.\nAs a result, the current in the second stage is 8–12 times larger than the current in an input\ntransistor.\nThis relationship also shows that a redesign for larger C , requires either a larger C or a\nL c\nlarger g . These are the two techniques, that we will use to compensate a two-stage opamp.\nm2\nAs an example, for a specific GBW and C , the equations can easily be solved to find the two\nL\ng ’s, provided we firstly choose C !\nm c",
+      "text": "Both the GBW and the nondominant pole are linked by the stability requirement. The f /GBW must be nd about three! Rewriting this provides an important relationship between the trans-conductances on one hand, and the capacitances on the other. The correction factor C /C is simply taken to be n1 c 0.3. Combining this with the ratio f /GBW of three, we nd obtain a factor of 4. This relationship shows why the current in the second stage of a 2-stage opamp always consumes much more power than the first stage. Indeed for a specific V −V (such as 0.2 V), the transconductances represent GS T the currents. Normally, we choose the compensation capacitance to be smaller than the load capacitance. It is usually 2–3 times smaller. As a result, the current in the second stage is 8–12 times larger than the current in an input transistor. This relationship also shows that a redesign for larger C , requires either a larger C or a L c larger g . These are the two techniques, that we will use to compensate a two-stage opamp. m2 As an example, for a specific GBW and C , the equations can easily be solved to find the two L g ’s, provided we firstly choose C ! m c"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Both the GBW and the nondominant pole are linked by the stability requirement. The f /GBW must be nd about three! Rewriting this provides an important relationship between the trans-conductances on one hand, and the capacitances on the other. The correction factor C /C is simply taken to be n1 c 0.3. Combining this with the ratio f /GBW of three, we nd obtain a factor of 4. This relationship shows why the current in the second stage of a 2-stage opamp always consumes much more power than the first stage. Indeed for a specific V −V (such as 0.2 V), the transconductances represent GS T the currents. Normally, we choose the compensation capacitance to be smaller than the load capacitance. It is usually 2–3 times smaller. As a result, the current in the second stage is 8–12 times larger than the current in an input transistor. This relationship also shows that a redesign for larger C , requires either a larger C or a L c larger g . These are the two techniques, that we will use to compensate a two-stage opamp. m2 As an example, for a specific GBW and C , the equations can easily be solved to find the two L g ’s, provided we firstly choose C ! m c",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Elementary design of 2-stage opamp",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0161_01_0532.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107656853286,
+          0.09268292696864111,
+          0.7128378333252896,
+          0.15121951233449482
+        ],
+        "confidence": 1,
+        "text": "Elementary design of 2-stage opamp"
+      },
+      {
+        "bbox": [
+          0.09451907496929844,
+          0.2629969338629611,
+          0.22304849473941035,
+          0.3126128240867666
+        ],
+        "confidence": 0.5,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.24324324266891895,
+          0.23902438965853667,
+          0.3141891886148649,
+          0.2975609750243903
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.23310810933277024,
+          0.30731707317073176,
+          0.3310810823057432,
+          0.375609756097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2т Cc"
+      },
+      {
+        "bbox": [
+          0.4155405429391892,
+          0.2585365849268293,
+          0.655405407804054,
+          0.3219512190731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd = 3 GBW ="
+      },
+      {
+        "bbox": [
+          0.6621621611908785,
+          0.2341463418292683,
+          0.7398648638935812,
+          0.2926829271951219
+        ],
+        "confidence": 0.5,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.8074324322297297,
+          0.22439024331707325,
+          0.8344594592567568,
+          0.28292682868292685
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6554054073479729,
+          0.28780487780487807,
+          0.888513515456081,
+          0.37560975585365863
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 GL 1 + Cm1"
+      },
+      {
+        "bbox": [
+          0.12500000080236484,
+          0.45365853652439025,
+          0.189189189991554,
+          0.5073170731097562
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.12500000043436293,
+          0.5365853657142857,
+          0.18581081124517373,
+          0.5853658535191638
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.8209459453040541,
+          0.45853658556097565,
+          0.8851351344932431,
+          0.497560975804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 0.3"
+      },
+      {
+        "bbox": [
+          0.3682432478322071,
+          0.5756097558536585,
+          0.9189189235078827,
+          0.6341463412195122
+        ],
+        "confidence": 0.5,
+        "text": "Larger current in 2nd stage!"
+      },
+      {
+        "bbox": [
+          0.10135135570945941,
+          0.702439023902439,
+          0.5371621665202703,
+          0.7609756092682926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW = 100 MHz for CL = 2 pF"
+      },
+      {
+        "bbox": [
+          0.10135134774774783,
+          0.8048780489430893,
+          0.5337837801801802,
+          0.863414634308943
+        ],
+        "confidence": 0.5,
+        "text": "Solution: choose Cc = 1 pF"
+      },
+      {
+        "bbox": [
+          0.7263513534628377,
+          0.9365853653658537,
+          0.9290540561655405,
+          0.9756097556097562
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0532"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This relationship shows why the current in the second stage of a 2-stage opamp always consumes much more power than the first stage.",
+      "pdf_page": 161,
+      "printed_page": 165,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This relationship also shows that a redesign for larger C , requires either a larger C or a L c larger g .",
+      "pdf_page": 161,
+      "printed_page": 165,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "These are the two techniques, that we will use to compensate a two-stage opamp. m2 As an example, for a specific GBW and C , the equations can easily be solved to find the two L g ’s, provided we firstly choose C ! m c",
+      "pdf_page": 161,
+      "printed_page": 165,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0161_01_0532.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the current in the second stage is 8–12 times larger than the current in an input transistor.",
+      "pdf_page": 161,
+      "printed_page": 165,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "These are the two techniques, that we will use to compensate a two-stage opamp. m2 As an example, for a specific GBW and C , the equations can easily be solved to find the two L g ’s, provided we firstly choose C ! m c",
+      "pdf_page": 161,
+      "printed_page": 165,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0532-M01",
+      "ocr_text": "GBW =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.09451907496929844,
+        0.2629969338629611,
+        0.22304849473941035,
+        0.3126128240867666
+      ],
+      "context_crop": "regions/SANSEN-0532_math_01.png",
+      "context_bbox_normalized": [
+        0.05451907496929844,
+        0.16299693386296107,
+        0.45304849473941033,
+        0.4426128240867666
+      ],
+      "source_image": "slides/p0161_01_0532.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0532-M02",
+      "ocr_text": "fnd = 3 GBW =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4155405429391892,
+        0.2585365849268293,
+        0.655405407804054,
+        0.3219512190731707
+      ],
+      "context_crop": "regions/SANSEN-0532_math_02.png",
+      "context_bbox_normalized": [
+        0.3755405429391892,
+        0.1585365849268293,
+        0.885405407804054,
+        0.4519512190731707
+      ],
+      "source_image": "slides/p0161_01_0532.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0532-M03",
+      "ocr_text": "= 0.3",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8209459453040541,
+        0.45853658556097565,
+        0.8851351344932431,
+        0.497560975804878
+      ],
+      "context_crop": "regions/SANSEN-0532_math_03.png",
+      "context_bbox_normalized": [
+        0.780945945304054,
+        0.3585365855609757,
+        1,
+        0.627560975804878
+      ],
+      "source_image": "slides/p0161_01_0532.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0532-M04",
+      "ocr_text": "GBW = 100 MHz for CL = 2 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.10135135570945941,
+        0.702439023902439,
+        0.5371621665202703,
+        0.7609756092682926
+      ],
+      "context_crop": "regions/SANSEN-0532_math_04.png",
+      "context_bbox_normalized": [
+        0.06135135570945941,
+        0.602439023902439,
+        0.7671621665202703,
+        0.8909756092682926
+      ],
+      "source_image": "slides/p0161_01_0532.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0532-M05",
+      "ocr_text": "Solution: choose Cc = 1 pF",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.10135134774774783,
+        0.8048780489430893,
+        0.5337837801801802,
+        0.863414634308943
+      ],
+      "context_crop": "regions/SANSEN-0532_math_05.png",
+      "context_bbox_normalized": [
+        0.06135134774774783,
+        0.7048780489430894,
+        0.7637837801801802,
+        0.93
+      ],
+      "source_image": "slides/p0161_01_0532.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

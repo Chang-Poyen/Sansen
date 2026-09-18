@@ -1,0 +1,151 @@
+{
+  "case_id": "SANSEN-044",
+  "slide_id": "044",
+  "chapter": 4,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 115,
+    "printed_page": 118
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0115_02_044.jpg",
+      "pdf_page": 115,
+      "printed_page": 118,
+      "bbox_pt": [
+        91.521622,
+        383.111725,
+        374.78981,
+        579.5717159999999
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 115,
+      "printed_page": 118,
+      "bbox_pt": [
+        0,
+        379.1222500000001,
+        595,
+        639.70695
+      ],
+      "text_raw": "Noise is an arbitrary signal.\nWe never know what to ex-\npect next. The signal ampli-\ntude is unpredictable. As a\nresult there is a Gaussian\nspreading around zero and\nthe average value is zero.\nAlso, all possible pulses\nseem to be present, i.e. sharp\nones and wide ones.\nIn order to be able to\ndescribe noise we have to\ntake the power of the noise.\nFor this purpose, we square\nthe voltage or we rectify the\nvoltage as shown in this\nslide. The average versus time is now the average noise power. It is clearly not zero but it\naverages out the peaks over a specific amount of time.",
+      "text": "Noise is an arbitrary signal. We never know what to expect next. The signal amplitude is unpredictable. As a result there is a Gaussian spreading around zero and the average value is zero. Also, all possible pulses seem to be present, i.e. sharp ones and wide ones. In order to be able to describe noise we have to take the power of the noise. For this purpose, we square the voltage or we rectify the voltage as shown in this slide. The average versus time is now the average noise power. It is clearly not zero but it averages out the peaks over a specific amount of time."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Noise is an arbitrary signal. We never know what to expect next. The signal amplitude is unpredictable. As a result there is a Gaussian spreading around zero and the average value is zero. Also, all possible pulses seem to be present, i.e. sharp ones and wide ones. In order to be able to describe noise we have to take the power of the noise. For this purpose, we square the voltage or we rectify the voltage as shown in this slide. The average versus time is now the average noise power. It is clearly not zero but it averages out the peaks over a specific amount of time.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise versus time",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0115_02_044.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243206503379,
+          0.07804877975609759,
+          0.3885135098395271,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Noise versus time"
+      },
+      {
+        "bbox": [
+          0.3445945905743244,
+          0.5219512201463414,
+          0.8209459419256757,
+          0.5853658542926828
+        ],
+        "confidence": 0.5,
+        "text": "VN? is the average noise power"
+      },
+      {
+        "bbox": [
+          0.08108108841216202,
+          0.8585365851219512,
+          0.8141891965202701,
+          0.8926829265853657
+        ],
+        "confidence": 1,
+        "text": "Ref. Van der Ziel (Prentice Hall 1954, Wiley 1986), Ott (Wiley 1988)"
+      },
+      {
+        "bbox": [
+          0.7297297277364866,
+          0.9512195123902439,
+          0.9290540520608108,
+          0.9804878050731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10-05 044"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For this purpose, we square the voltage or we rectify the voltage as shown in this slide.",
+      "pdf_page": 115,
+      "printed_page": 118,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0115_02_044.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result there is a Gaussian spreading around zero and the average value is zero.",
+      "pdf_page": 115,
+      "printed_page": 118,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "It is clearly not zero but it averages out the peaks over a specific amount of time.",
+      "pdf_page": 115,
+      "printed_page": 118,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

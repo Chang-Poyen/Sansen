@@ -1,0 +1,174 @@
+{
+  "case_id": "SANSEN-1117",
+  "slide_id": "1117",
+  "chapter": 11,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 302,
+    "printed_page": 309
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0302_01_1117.jpg",
+      "pdf_page": 302,
+      "printed_page": 309,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 302,
+      "printed_page": 309,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        379.77000000000004
+      ],
+      "text_raw": "Another way to provide g\nm\nequalization is to use Zener\ndiodes. Although Zener\ndiodes are not available,\nMOSTs are used instead.",
+      "text": "Another way to provide g m equalization is to use Zener diodes. Although Zener diodes are not available, MOSTs are used instead."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Another way to provide g m equalization is to use Zener diodes. Although Zener diodes are not available, MOSTs are used instead.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0302_01_1117.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270487451739,
+          0.07804878031358886,
+          0.3817567589285714,
+          0.13170731689895465
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459459710424709,
+          0.27804878101045294,
+          0.459459461969112,
+          0.35121951271776997
+        ],
+        "confidence": 0.5,
+        "text": "• Why rail-to-rail ?"
+      },
+      {
+        "bbox": [
+          0.0945945997888512,
+          0.37073170817073176,
+          0.7398648700591214,
+          0.439024391097561
+        ],
+        "confidence": 1,
+        "text": "• 3 x Current mirror rtr amplifiers"
+      },
+      {
+        "bbox": [
+          0.09797296770270279,
+          0.4634146342439024,
+          0.6249999947297298,
+          0.521951219609756
+        ],
+        "confidence": 1,
+        "text": "• Zener diode rtr amplifiers"
+      },
+      {
+        "bbox": [
+          0.08750000562123908,
+          0.5481927719635772,
+          0.8749999746912612,
+          0.6204819271328084
+        ],
+        "confidence": 0.5,
+        "text": "• Current regulator rtr amplifier on 1.5 V"
+      },
+      {
+        "bbox": [
+          0.09121620629222993,
+          0.6390243902439025,
+          0.8851351252111488,
+          0.7073170731707317
+        ],
+        "confidence": 0.5,
+        "text": "• Supply regulating rtr amplifier on 1.3 V"
+      },
+      {
+        "bbox": [
+          0.0912162201858107,
+          0.7317073178658536,
+          0.6452702742398647,
+          0.795121952012195
+        ],
+        "confidence": 1,
+        "text": "\" Other rail-to-rail amplifiers"
+      },
+      {
+        "bbox": [
+          0.7263513539273648,
+          0.941463414390244,
+          0.932432435008446,
+          0.9804878046341464
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1117"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0302_01_1117.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Another way to provide g m equalization is to use Zener diodes.",
+      "pdf_page": 302,
+      "printed_page": 309,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

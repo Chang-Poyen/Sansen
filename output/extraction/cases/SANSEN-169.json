@@ -1,0 +1,544 @@
+{
+  "case_id": "SANSEN-169",
+  "slide_id": "169",
+  "chapter": 16,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 452,
+    "printed_page": 461
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0452_01_169.jpg",
+      "pdf_page": 452,
+      "printed_page": 461,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 452,
+      "printed_page": 461,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        439.41050000000024
+      ],
+      "text_raw": "Now let us build a voltage\nreference with this diode.\nWe need to generate a cir-\ncuit which provides a volt-\nage V which is PTAT.\nC\nSuch a circuit is shown in\nthis slide. It consists of a\nbipolar transistor current\nmirror. Transistor Q2 is\nmuch larger (by a factor r)\nthan transistor Q1 such that\nits V is smaller. This\nBE\ndifference in voltage DV is\nBE\ntaken up by a resistor R .\n2\nThe equations show that\nthe voltage across R is\n2\nPTAT. The current through it is also PTAT. Obviously, this is only true if transistor R has a\n2\nnegligible temperature coefficient.\nNote also that both transistor currents I are made equal.\nC\nFor example, if r=10, then DV is about 60 mV. For a resistor of R =2 kV, the currents\nBE 2\nare 30 mA.\nClearly this current must fall in the region where the exponential current voltage relationship\nis precisely exponential, for both transistors. The current density of the smaller transistor Q1 is\nmuch higher, which may cause some mismatch problems.",
+      "text": "Now let us build a voltage reference with this diode. We need to generate a circuit which provides a voltage V which is PTAT. C Such a circuit is shown in this slide. It consists of a bipolar transistor current mirror. Transistor Q2 is much larger (by a factor r) than transistor Q1 such that its V is smaller. This BE difference in voltage DV is BE taken up by a resistor R . 2 The equations show that the voltage across R is 2 PTAT. The current through it is also PTAT. Obviously, this is only true if transistor R has a 2 negligible temperature coefficient. Note also that both transistor currents I are made equal. C For example, if r=10, then DV is about 60 mV. For a resistor of R =2 kV, the currents BE 2 are 30 mA. Clearly this current must fall in the region where the exponential current voltage relationship is precisely exponential, for both transistors. The current density of the smaller transistor Q1 is much higher, which may cause some mismatch problems."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now let us build a voltage reference with this diode. We need to generate a circuit which provides a voltage V which is PTAT. C Such a circuit is shown in this slide. It consists of a bipolar transistor current mirror. Transistor Q2 is much larger (by a factor r) than transistor Q1 such that its V is smaller. This BE difference in voltage DV is BE taken up by a resistor R . 2 The equations show that the voltage across R is 2 PTAT. The current through it is also PTAT. Obviously, this is only true if transistor R has a 2 negligible temperature coefficient. Note also that both transistor currents I are made equal. C For example, if r=10, then DV is about 60 mV. For a resistor of R =2 kV, the currents BE 2 are 30 mA. Clearly this current must fall in the region where the exponential current voltage relationship is precisely exponential, for both transistors. The current density of the smaller transistor Q1 is much higher, which may cause some mismatch problems.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "PTAT voltage and current",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0452_01_169.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269687500013,
+          0.08780487817073168,
+          0.5439189130912164,
+          0.1463414635365854
+        ],
+        "confidence": 1,
+        "text": "PTAT voltage and current"
+      },
+      {
+        "bbox": [
+          0.15540540602477476,
+          0.48292682914634155,
+          0.22972973034909908,
+          0.5658536584146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1'c"
+      },
+      {
+        "bbox": [
+          0.1081081083976834,
+          0.6390243901045296,
+          0.14864864893822394,
+          0.6878048779094076
+        ],
+        "confidence": 0.5,
+        "text": "Q1"
+      },
+      {
+        "bbox": [
+          0.47635135198479733,
+          0.21951219585365855,
+          0.5405405411739865,
+          0.27804878121951226
+        ],
+        "confidence": 1,
+        "text": "VBE"
+      },
+      {
+        "bbox": [
+          0.3040540562922297,
+          0.2585365849390244,
+          0.48310811034628376,
+          0.31219512152439033
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1c = lg exp ("
+      },
+      {
+        "bbox": [
+          0.5168918942348102,
+          0.2585365860975609,
+          0.5675675666886132,
+          0.3024390251219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-)"
+      },
+      {
+        "bbox": [
+          0.47972973026463966,
+          0.2878048785365853,
+          0.5506756762105856,
+          0.3463414639024389
+        ],
+        "confidence": 1,
+        "text": "kT/q"
+      },
+      {
+        "bbox": [
+          0.7364864863175676,
+          0.22926829250554326,
+          0.7736486484797298,
+          0.2682926827494456
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "kT"
+      },
+      {
+        "bbox": [
+          0.6452702686486487,
+          0.2585365847804878,
+          0.8141891875675676,
+          0.3170731701463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VBE = - In"
+      },
+      {
+        "bbox": [
+          0.4324324347128377,
+          0.4048780486585366,
+          0.7060810833614863,
+          0.4585365852439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AVBE = VBE1 - VBE2"
+      },
+      {
+        "bbox": [
+          0.5506756756756757,
+          0.5219512199512194,
+          0.5912162162162162,
+          0.5658536589756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "kT"
+      },
+      {
+        "bbox": [
+          0.43918919073761253,
+          0.556097560691057,
+          0.6250000015484234,
+          0.6097560972764228
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AVBE = — In"
+      },
+      {
+        "bbox": [
+          0.6249999994256757,
+          0.5170731708292684,
+          0.6824324318581081,
+          0.5853658537560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Is2"
+      },
+      {
+        "bbox": [
+          0.6283783777449324,
+          0.5951219513414634,
+          0.6790540534206081,
+          0.6439024391463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "s1"
+      },
+      {
+        "bbox": [
+          0.19932432492760616,
+          0.6975609754355402,
+          0.28378378438706564,
+          0.7609756095818816
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1: r"
+      },
+      {
+        "bbox": [
+          0.32432432398648653,
+          0.6341463416027875,
+          0.3716216212837838,
+          0.6926829269686412
+        ],
+        "confidence": 1,
+        "text": "Q2"
+      },
+      {
+        "bbox": [
+          0.31756756692004506,
+          0.7024390238211381,
+          0.4087837831362613,
+          0.7707317067479674
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "*AVBE"
+      },
+      {
+        "bbox": [
+          0.5506756752533785,
+          0.6926829262804878,
+          0.5912162157939189,
+          0.7365853653048781
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "kT"
+      },
+      {
+        "bbox": [
+          0.44594594738175675,
+          0.7268292677439024,
+          0.5608108122466217,
+          0.7804878043292682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AVBE = •"
+      },
+      {
+        "bbox": [
+          0.5540540540540541,
+          0.7268292678536584,
+          0.6554054054054054,
+          0.7707317068780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- In r"
+      },
+      {
+        "bbox": [
+          0.5540540542567567,
+          0.760975610195122,
+          0.5810810812837838,
+          0.8048780492195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "q"
+      },
+      {
+        "bbox": [
+          0.44932432145270274,
+          0.8439024393495935,
+          0.62162161875,
+          0.8731707320325204
+        ],
+        "confidence": 0.5,
+        "text": "r is 10-1000 !!"
+      },
+      {
+        "bbox": [
+          0.8243243238597973,
+          0.3024390245121952,
+          0.8614864860219594,
+          0.35121951231707316
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Is"
+      },
+      {
+        "bbox": [
+          0.8141891891891891,
+          0.6878048784878049,
+          0.8547297297297297,
+          0.7317073175121952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "kT"
+      },
+      {
+        "bbox": [
+          0.7364864873310811,
+          0.721951219085366,
+          0.8040540548986487,
+          0.7756097556707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ic="
+      },
+      {
+        "bbox": [
+          0.820945944679054,
+          0.7268292683536585,
+          0.9222972960304053,
+          0.7609756098170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= Inr"
+      },
+      {
+        "bbox": [
+          0.800675675633446,
+          0.7512195114634146,
+          0.8648648648226352,
+          0.8097560968292683
+        ],
+        "confidence": 1,
+        "text": "qR2"
+      },
+      {
+        "bbox": [
+          0.7094594639324843,
+          0.94634146398374,
+          0.9155405321260746,
+          0.9804878054471545
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 169"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "C Such a circuit is shown in this slide.",
+      "pdf_page": 452,
+      "printed_page": 461,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This BE difference in voltage DV is BE taken up by a resistor R . 2 The equations show that the voltage across R is 2 PTAT.",
+      "pdf_page": 452,
+      "printed_page": 461,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0452_01_169.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Note also that both transistor currents I are made equal.",
+      "pdf_page": 452,
+      "printed_page": 461,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Transistor Q2 is much larger (by a factor r) than transistor Q1 such that its V is smaller.",
+      "pdf_page": 452,
+      "printed_page": 461,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-169-M01",
+      "ocr_text": "1c = lg exp (",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3040540562922297,
+        0.2585365849390244,
+        0.48310811034628376,
+        0.31219512152439033
+      ],
+      "context_crop": "regions/SANSEN-169_math_01.png",
+      "context_bbox_normalized": [
+        0.2640540562922297,
+        0.15853658493902442,
+        0.7131081103462837,
+        0.44219512152439033
+      ],
+      "source_image": "slides/p0452_01_169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-169-M02",
+      "ocr_text": "VBE = - In",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6452702686486487,
+        0.2585365847804878,
+        0.8141891875675676,
+        0.3170731701463415
+      ],
+      "context_crop": "regions/SANSEN-169_math_02.png",
+      "context_bbox_normalized": [
+        0.6052702686486486,
+        0.1585365847804878,
+        1,
+        0.4470731701463415
+      ],
+      "source_image": "slides/p0452_01_169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-169-M03",
+      "ocr_text": "AVBE = VBE1 - VBE2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4324324347128377,
+        0.4048780486585366,
+        0.7060810833614863,
+        0.4585365852439025
+      ],
+      "context_crop": "regions/SANSEN-169_math_03.png",
+      "context_bbox_normalized": [
+        0.39243243471283773,
+        0.3048780486585366,
+        0.9360810833614863,
+        0.5885365852439025
+      ],
+      "source_image": "slides/p0452_01_169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-169-M04",
+      "ocr_text": "AVBE = — In",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.43918919073761253,
+        0.556097560691057,
+        0.6250000015484234,
+        0.6097560972764228
+      ],
+      "context_crop": "regions/SANSEN-169_math_04.png",
+      "context_bbox_normalized": [
+        0.39918919073761255,
+        0.456097560691057,
+        0.8550000015484234,
+        0.7397560972764228
+      ],
+      "source_image": "slides/p0452_01_169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-169-M05",
+      "ocr_text": "AVBE = •",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.44594594738175675,
+        0.7268292677439024,
+        0.5608108122466217,
+        0.7804878043292682
+      ],
+      "context_crop": "regions/SANSEN-169_math_05.png",
+      "context_bbox_normalized": [
+        0.40594594738175677,
+        0.6268292677439025,
+        0.7908108122466216,
+        0.9104878043292682
+      ],
+      "source_image": "slides/p0452_01_169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-169-M06",
+      "ocr_text": "Ic=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7364864873310811,
+        0.721951219085366,
+        0.8040540548986487,
+        0.7756097556707318
+      ],
+      "context_crop": "regions/SANSEN-169_math_06.png",
+      "context_bbox_normalized": [
+        0.6964864873310811,
+        0.621951219085366,
+        1,
+        0.9056097556707318
+      ],
+      "source_image": "slides/p0452_01_169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-169-M07",
+      "ocr_text": "= Inr",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.820945944679054,
+        0.7268292683536585,
+        0.9222972960304053,
+        0.7609756098170731
+      ],
+      "context_crop": "regions/SANSEN-169_math_07.png",
+      "context_bbox_normalized": [
+        0.780945944679054,
+        0.6268292683536585,
+        1,
+        0.8909756098170731
+      ],
+      "source_image": "slides/p0452_01_169.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

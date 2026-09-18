@@ -1,0 +1,476 @@
+{
+  "case_id": "SANSEN-2162",
+  "slide_id": "2162",
+  "chapter": 21,
+  "slide_number_in_chapter": 62,
+  "source": {
+    "pdf_page": 657,
+    "printed_page": 668
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0657_02_2162.jpg",
+      "pdf_page": 657,
+      "printed_page": 668,
+      "bbox_pt": [
+        91.521622,
+        421.47695999999996,
+        374.78981,
+        617.936951
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 657,
+      "printed_page": 668,
+      "bbox_pt": [
+        0,
+        417.4875000000002,
+        595,
+        797
+      ],
+      "text_raw": "For low supply voltages, it\nis difficult to maintain the\ninput common-mode volt-\nage constant during the\nswitching. In order to sup-\npress this change in\ncommon-mode input volt-\nage, several solutions exist.\nIn the top one, a capacitor\nC is added, connected to\nLs\nthe supply lines. It acts as a\nDC level shifter, as pre-\nviously described.\nIn the solution at the\nbottom, the input resistor R\nand sampling capacitor C\nS\nare doubled, allowing the cancellation of the input common-mode voltage. This results in less\nkT/C noise.",
+      "text": "For low supply voltages, it is difficult to maintain the input common-mode voltage constant during the switching. In order to suppress this change in common-mode input voltage, several solutions exist. In the top one, a capacitor C is added, connected to Ls the supply lines. It acts as a DC level shifter, as previously described. In the solution at the bottom, the input resistor R and sampling capacitor C S are doubled, allowing the cancellation of the input common-mode voltage. This results in less kT/C noise."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For low supply voltages, it is difficult to maintain the input common-mode voltage constant during the switching. In order to suppress this change in common-mode input voltage, several solutions exist. In the top one, a capacitor C is added, connected to Ls the supply lines. It acts as a DC level shifter, as previously described. In the solution at the bottom, the input resistor R and sampling capacitor C S are doubled, allowing the cancellation of the input common-mode voltage. This results in less kT/C noise.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Input sampling : maintain constant VINCM",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0657_02_2162.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433063063049,
+          0.07804878048780484,
+          0.8310810873873873,
+          0.15609756097560978
+        ],
+        "confidence": 1,
+        "text": "Input sampling : maintain constant VINCM"
+      },
+      {
+        "bbox": [
+          0.0844594585022523,
+          0.36585365869918696,
+          0.14189189093468474,
+          0.3951219513821138
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VN D"
+      },
+      {
+        "bbox": [
+          0.0844594585022523,
+          0.7219512196747967,
+          0.14189189093468474,
+          0.7512195123577236
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN O-"
+      },
+      {
+        "bbox": [
+          0.26684762450057,
+          0.1801974259167669,
+          0.3581523777783228,
+          0.2100464760199312
+        ],
+        "confidence": 1,
+        "text": "VSS VDD"
+      },
+      {
+        "bbox": [
+          0.22635135154440153,
+          0.2146341458536586,
+          0.30067567586872584,
+          0.2829268287804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "012"
+      },
+      {
+        "bbox": [
+          0.3243243237894144,
+          0.20975609695121955,
+          0.39527026973536034,
+          0.2829268286585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "5702"
+      },
+      {
+        "bbox": [
+          0.26689189132882885,
+          0.3024390238211383,
+          0.30743243186936936,
+          0.33658536528455296
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CLs:"
+      },
+      {
+        "bbox": [
+          0.25675675702702705,
+          0.3365853661463414,
+          0.2905405408108108,
+          0.36585365882926824
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CS"
+      },
+      {
+        "bbox": [
+          0.34121621592060813,
+          0.3073170734146342,
+          0.36486486456925676,
+          0.33658536609756096
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф2"
+      },
+      {
+        "bbox": [
+          0.24999999976351353,
+          0.3658536587804878,
+          0.2736486484121622,
+          0.40000000024390236
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→"
+      },
+      {
+        "bbox": [
+          0.19932432488738738,
+          0.42439024373983736,
+          0.23310810867117118,
+          0.4536585364227642
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MS"
+      },
+      {
+        "bbox": [
+          0.23310810815878377,
+          0.4243902440731707,
+          0.2905405405912162,
+          0.4585365855365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-02"
+      },
+      {
+        "bbox": [
+          0.3378378372184685,
+          0.42439024406504067,
+          0.37499999938063067,
+          0.4536585367479675
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•ф1Р"
+      },
+      {
+        "bbox": [
+          0.20945945979729727,
+          0.5024390241811848,
+          0.25675675709459456,
+          0.5414634144250872
+        ],
+        "confidence": 0.5,
+        "text": "VSS"
+      },
+      {
+        "bbox": [
+          0.18918918855574327,
+          0.5609756099390244,
+          0.23986486423141895,
+          0.5951219514024391
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.1584719772935486,
+          0.5890829917314313,
+          0.2705820765705294,
+          0.6548194460205653
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "02 42 MSP"
+      },
+      {
+        "bbox": [
+          0.18243243222128377,
+          0.658536585,
+          0.20608108086993243,
+          0.6878048776829269
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.20945945993806303,
+          0.6536585371951219,
+          0.27364864912725223,
+          0.7268292689024389
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "I5/2"
+      },
+      {
+        "bbox": [
+          0.29391891916023166,
+          0.5024390241811848,
+          0.32770270294401543,
+          0.5414634144250872
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VA"
+      },
+      {
+        "bbox": [
+          0.3716216219313063,
+          0.5024390241463415,
+          0.40878378409346844,
+          0.5414634143902438
+        ],
+        "confidence": 1,
+        "text": "VA"
+      },
+      {
+        "bbox": [
+          0.34459459489864863,
+          0.6585365851707317,
+          0.37500000030405406,
+          0.6975609754146341
+        ],
+        "confidence": 1,
+        "text": "$2"
+      },
+      {
+        "bbox": [
+          0.3445945943975225,
+          0.6926829264634147,
+          0.3749999998029279,
+          0.7365853654878048
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "*"
+      },
+      {
+        "bbox": [
+          0.18243243248873875,
+          0.7804878053658536,
+          0.20608108113738738,
+          0.8097560980487805
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.21621621689189185,
+          0.7804878046341465,
+          0.2702702709459459,
+          0.8097560973170732
+        ],
+        "confidence": 0.5,
+        "text": "CS/2"
+      },
+      {
+        "bbox": [
+          0.15871282535957146,
+          0.8143511917576628,
+          0.27034122889433176,
+          0.8734536897889068
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "02-15 MSN"
+      },
+      {
+        "bbox": [
+          0.18918918908783783,
+          0.8731707313170731,
+          0.23986486476351354,
+          0.9121951215609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "vSS"
+      },
+      {
+        "bbox": [
+          0.2905405409121622,
+          0.8682926826829268,
+          0.3277027030743243,
+          0.9024390241463414
+        ],
+        "confidence": 1,
+        "text": "VA"
+      },
+      {
+        "bbox": [
+          0.31756756858108104,
+          0.7756097557723577,
+          0.37837837939189184,
+          0.8048780484552845
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1-01P|"
+      },
+      {
+        "bbox": [
+          0.35135135171734233,
+          0.8146341467479675,
+          0.402027027393018,
+          0.8634146345528455
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VNg"
+      },
+      {
+        "bbox": [
+          0.3716216213175676,
+          0.863414633707317,
+          0.40878378347972977,
+          0.9073170727317073
+        ],
+        "confidence": 1,
+        "text": "VA"
+      },
+      {
+        "bbox": [
+          0.5270270282657658,
+          0.3951219512195122,
+          0.6013513525900901,
+          0.42439024390243896
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-G Vout"
+      },
+      {
+        "bbox": [
+          0.5168918931306306,
+          0.7463414633333334,
+          0.5912162174549549,
+          0.780487804796748
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-D Vour"
+      },
+      {
+        "bbox": [
+          0.692402660533058,
+          0.3014251775276193,
+          0.8481378826020508,
+          0.35711140481435355
+        ],
+        "confidence": 1,
+        "text": "CLs added"
+      },
+      {
+        "bbox": [
+          0.6824324300675676,
+          0.5121951221341463,
+          0.8716216192567569,
+          0.546341463597561
+        ],
+        "confidence": 1,
+        "text": "Baschirotto, JSSC"
+      },
+      {
+        "bbox": [
+          0.6824324327702703,
+          0.546341462987805,
+          0.8918918922297298,
+          0.5804878044512196
+        ],
+        "confidence": 1,
+        "text": "Dec. 1997, 1979-1986"
+      },
+      {
+        "bbox": [
+          0.6923986895042514,
+          0.6572157635082237,
+          0.9258445529702565,
+          0.7232720406204868
+        ],
+        "confidence": 0.5,
+        "text": "R & Cs doubled"
+      },
+      {
+        "bbox": [
+          0.682432436599099,
+          0.873170731300813,
+          0.932432436599099,
+          0.9073170727642277
+        ],
+        "confidence": 0.5,
+        "text": "Ahn, .. ISSCC 05, 166-167"
+      },
+      {
+        "bbox": [
+          0.7263513557680699,
+          0.9414634152032522,
+          0.9358108023400386,
+          0.9756097566666667
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2162"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0657_02_2162.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In the top one, a capacitor C is added, connected to Ls the supply lines.",
+        "pdf_page": 657,
+        "printed_page": 668,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

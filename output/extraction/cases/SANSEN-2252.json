@@ -1,0 +1,167 @@
+{
+  "case_id": "SANSEN-2252",
+  "slide_id": "2252",
+  "chapter": 22,
+  "slide_number_in_chapter": 52,
+  "source": {
+    "pdf_page": 692,
+    "printed_page": 703
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0692_02_2252.jpg",
+      "pdf_page": 692,
+      "printed_page": 703,
+      "bbox_pt": [
+        95.25214,
+        371.80147999999997,
+        378.27268,
+        568.21164
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 692,
+      "printed_page": 703,
+      "bbox_pt": [
+        0,
+        367.81198,
+        595,
+        797
+      ],
+      "text_raw": "In this Chapter, the design\nof oscillators is discussed.\nCrystal oscillators have\nbeen discussed in great\ndetail, followed by VCO’s\nand even Wien bridge\noscillators. All of them obey\nthe Barkhausen criteria\nhowever, which is the main\ntheory behind them.",
+      "text": "In this Chapter, the design of oscillators is discussed. Crystal oscillators have been discussed in great detail, followed by VCO’s and even Wien bridge oscillators. All of them obey the Barkhausen criteria however, which is the main theory behind them."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter, the design of oscillators is discussed. Crystal oscillators have been discussed in great detail, followed by VCO’s and even Wien bridge oscillators. All of them obey the Barkhausen criteria however, which is the main theory behind them.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0692_02_2252.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0745762673305086,
+          0.07804878067073173,
+          0.38305084360169506,
+          0.13170731725609763
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09830508791767549,
+          0.28780487777003483,
+          0.5423728845278449,
+          0.34634146313588854
+        ],
+        "confidence": 1,
+        "text": "• Oscillation principles"
+      },
+      {
+        "bbox": [
+          0.09818803819728632,
+          0.3650934968221077,
+          0.2950323007891494,
+          0.4300284576293497
+        ],
+        "confidence": 0.5,
+        "text": "• Crystals"
+      },
+      {
+        "bbox": [
+          0.09830508819915248,
+          0.4487804875304877,
+          0.6508474610805084,
+          0.5121951216768292
+        ],
+        "confidence": 1,
+        "text": "+ Single-transistor oscillator"
+      },
+      {
+        "bbox": [
+          0.09830508976271175,
+          0.5317073168780487,
+          0.6000000050169491,
+          0.5902439022439024
+        ],
+        "confidence": 1,
+        "text": "• MOST oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09166668445411794,
+          0.6047904204448991,
+          0.8250000005458817,
+          0.6829268296461722
+        ],
+        "confidence": 1,
+        "text": "* Bipolar-transistor oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09491525169491526,
+          0.6926829273983741,
+          0.45423728559322035,
+          0.7609756103252033
+        ],
+        "confidence": 1,
+        "text": "* Other oscillators"
+      },
+      {
+        "bbox": [
+          0.7254237309745761,
+          0.9365853652439025,
+          0.9389830530084745,
+          0.9853658530487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1ms 2252"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0692_02_2252.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

@@ -1,0 +1,141 @@
+{
+  "case_id": "SANSEN-0339",
+  "slide_id": "0339",
+  "chapter": 3,
+  "slide_number_in_chapter": 39,
+  "source": {
+    "pdf_page": 107,
+    "printed_page": 109
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0107_01_0339.jpg",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 107,
+      "printed_page": 109,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        427.45250000000027
+      ],
+      "text_raw": "The same current flows are\ngiven for this inverted OTA.\nAn input voltage of sev-\neral mV’s will cause a\ndifference in current in the\ninput devices. The current in\nT1 is 74% of the total cur-\nrent in the current source,\nleaving 26% for the other\ntransistor T2. This differ-\nence in current has pre-\nviously been called circular\ncurrent. It is thus 24% of the\ncurrent of the DC current\nsource or 48% of the DC\ntransistor current!\nThis current of 74% flows through three devices, whereas the fourth transistor T2 only carries\n26%. This is a very asymmetrical gain stage indeed. This is a result of the single-ended nature\nof this circuit.\nThe current through the load is then the difference between 74% of T4 and 26% of T2, which\nis 48%. The load resistance converts this current into an output voltage.\nNormally there is no load resistor. It actually consists of the two output resistances r of the\nDS\ntransistors T2 and T4 in parallel.",
+      "text": "The same current flows are given for this inverted OTA. An input voltage of several mV’s will cause a difference in current in the input devices. The current in T1 is 74% of the total current in the current source, leaving 26% for the other transistor T2. This difference in current has previously been called circular current. It is thus 24% of the current of the DC current source or 48% of the DC transistor current! This current of 74% flows through three devices, whereas the fourth transistor T2 only carries 26%. This is a very asymmetrical gain stage indeed. This is a result of the single-ended nature of this circuit. The current through the load is then the difference between 74% of T4 and 26% of T2, which is 48%. The load resistance converts this current into an output voltage. Normally there is no load resistor. It actually consists of the two output resistances r of the DS transistors T2 and T4 in parallel."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The same current flows are given for this inverted OTA. An input voltage of several mV’s will cause a difference in current in the input devices. The current in T1 is 74% of the total current in the current source, leaving 26% for the other transistor T2. This difference in current has previously been called circular current. It is thus 24% of the current of the DC current source or 48% of the DC transistor current! This current of 74% flows through three devices, whereas the fourth transistor T2 only carries 26%. This is a very asymmetrical gain stage indeed. This is a result of the single-ended nature of this circuit. The current through the load is then the difference between 74% of T4 and 26% of T2, which is 48%. The load resistance converts this current into an output voltage. Normally there is no load resistor. It actually consists of the two output resistances r of the DS transistors T2 and T4 in parallel.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Single-stage OTA: operation",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0107_01_0339.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432794401535,
+          0.0780487802439025,
+          0.581081084700772,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Single-stage OTA: operation"
+      },
+      {
+        "bbox": [
+          0.7191167640770129,
+          0.9410570843761165,
+          0.9296168755280328,
+          0.986785884149542
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 0339"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0107_01_0339.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The current in T1 is 74% of the total current in the current source, leaving 26% for the other transistor T2.",
+        "pdf_page": 107,
+        "printed_page": 109,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It is thus 24% of the current of the DC current source or 48% of the DC transistor current!",
+        "pdf_page": 107,
+        "printed_page": 109,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It actually consists of the two output resistances r of the DS transistors T2 and T4 in parallel.",
+        "pdf_page": 107,
+        "printed_page": 109,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is thus 24% of the current of the DC current source or 48% of the DC transistor current!",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is a very asymmetrical gain stage indeed.",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

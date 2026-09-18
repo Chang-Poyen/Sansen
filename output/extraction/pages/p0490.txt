@@ -1,0 +1,46 @@
+500 Chapter #17
+1730
+To avoid aliasing, an anti-
+aliasing filter is required
+with a low-pass characteris-
+tic to make sure that no
+high-frequency content is
+present in the input signal
+beyond f /2.
+c
+Some distance must be
+kept between f and f −f so
+s c s
+that a first or second-order
+filter is sufficient. Steep fil-
+ters require many compo-
+nents and are difficult to
+match. Remember, that pas-
+sive filters are usually used
+to avoid distortion. Higher-
+order anti-aliasing filters are
+to be avoided.
+1731
+The order of the filter and
+the amount of attenuation
+are related as given in this
+slide. Normally, a first-order
+filter (N=1) is preferred.
+Such a sampled filter has
+therefore the following
+building blocks. The analog
+signal is applied to a anti-
+aliasing filter. It is sampled
+by switches. A sampled-data
+filter is applied, which
+has the advantage that no
+external components are
+required. A clock is neces-
+sary, however.
+The output signal is then applied to a sample-and-hold circuit, to make it continuous in time.
+Another low-pass filter is then applied to filter out the clock frequency. It is called a reconstruction
+filter. A pure analog signal results. The same expressions are valid.
+Nowadays, the input signal is filtered and kept in sampled form to be applied to a Analog-
+to-digital converter, and then eventually to a DSP block.
+After all this signal processing, it is applied to a Digital-to-analog converter, the last block of
+which is a reconstruction low-pass filter.

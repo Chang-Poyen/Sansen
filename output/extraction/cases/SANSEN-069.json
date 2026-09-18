@@ -1,0 +1,350 @@
+{
+  "case_id": "SANSEN-069",
+  "slide_id": "069",
+  "chapter": 6,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 181,
+    "printed_page": 185
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0181_02_069.jpg",
+      "pdf_page": 181,
+      "printed_page": 185,
+      "bbox_pt": [
+        91.521622,
+        347.835633,
+        374.78981,
+        544.295624
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 181,
+      "printed_page": 185,
+      "bbox_pt": [
+        0,
+        343.8462,
+        595,
+        630.73855
+      ],
+      "text_raw": "A CMOS OTA is shown in\nthis slide. The input devices\nare normally pMOST\ndevices as they give better\nmatching (see Chapter 12).\nThe first block converts\nthe differential input voltage\ninto a current by means of\ntransconductance g .\nm1\nThe second stage is a\ntransimpedance amplifier,\nconverting this current into\na voltage. Actually, only one\ntransistor M6 takes care of\nthat, together with capaci-\ntance C .\nc\nObviously this circuit is the most straightforward realization of the two-stage OTA discussed\nin the previous Chapter.\nIndeed, nodes 1 and 4 cause two poles, which are split by C . Parasitic capacitance C is also\nc n1\nshown. It consists mainly of the input capacitance C of transistor M6. This latter transistor\nGS6\nis a big transistor as it carries a much larger current than the input transistors.",
+      "text": "A CMOS OTA is shown in this slide. The input devices are normally pMOST devices as they give better matching (see Chapter 12). The first block converts the differential input voltage into a current by means of transconductance g . m1 The second stage is a transimpedance amplifier, converting this current into a voltage. Actually, only one transistor M6 takes care of that, together with capacitance C . c Obviously this circuit is the most straightforward realization of the two-stage OTA discussed in the previous Chapter. Indeed, nodes 1 and 4 cause two poles, which are split by C . Parasitic capacitance C is also c n1 shown. It consists mainly of the input capacitance C of transistor M6. This latter transistor GS6 is a big transistor as it carries a much larger current than the input transistors."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A CMOS OTA is shown in this slide. The input devices are normally pMOST devices as they give better matching (see Chapter 12). The first block converts the differential input voltage into a current by means of transconductance g . m1 The second stage is a transimpedance amplifier, converting this current into a voltage. Actually, only one transistor M6 takes care of that, together with capacitance C . c Obviously this circuit is the most straightforward realization of the two-stage OTA discussed in the previous Chapter. Indeed, nodes 1 and 4 cause two poles, which are split by C . Parasitic capacitance C is also c n1 shown. It consists mainly of the input capacitance C of transistor M6. This latter transistor GS6 is a big transistor as it carries a much larger current than the input transistors.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0181_02_069.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243223911412,
+          0.07317073195121948,
+          0.4222972953641141,
+          0.136585366097561
+        ],
+        "confidence": 0.5,
+        "text": "Miller CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.26351351385135136,
+          0.24878048760162597,
+          0.3040540543918919,
+          0.28292682906504063
+        ],
+        "confidence": 1,
+        "text": "M7"
+      },
+      {
+        "bbox": [
+          0.3513513502111487,
+          0.2390243896341464,
+          0.4493243231841217,
+          0.2878048774390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 : B"
+      },
+      {
+        "bbox": [
+          0.08445945965250964,
+          0.312195122369338,
+          0.11824324343629343,
+          0.3707317077351916
+        ],
+        "confidence": 0.5,
+        "text": "5"
+      },
+      {
+        "bbox": [
+          0.5033783785472973,
+          0.40975609797909396,
+          0.5405405407094594,
+          0.46829268334494767
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.17229729699324325,
+          0.4878048782439024,
+          0.20270270239864865,
+          0.5268292684878049
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.27702702685810815,
+          0.48292682887804883,
+          0.3141891890202703,
+          0.5219512191219512
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.11148648629645269,
+          0.6487804874390244,
+          0.14864864845861486,
+          0.707317072804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.1081081079391892,
+          0.7463414632682928,
+          0.14189189172297298,
+          0.7756097559512195
+        ],
+        "confidence": 0.5,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.3479729733445946,
+          0.7414634144390244,
+          0.38513513550675677,
+          0.7804878046829268
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.4662162156081081,
+          0.7414634148292684,
+          0.527027026418919,
+          0.7902439026341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cnt"
+      },
+      {
+        "bbox": [
+          0.5878378384121621,
+          0.20975609751219515,
+          0.6452702708445945,
+          0.26341463409756094
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5608108103462838,
+          0.26829268317073174,
+          0.5979729725084459,
+          0.2975609758536586
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.7431572783953657,
+          0.21396222207435311,
+          0.905491372571787,
+          0.25920850916437543
+        ],
+        "confidence": 1,
+        "text": "Two nodes"
+      },
+      {
+        "bbox": [
+          0.614864864329955,
+          0.39999999959349597,
+          0.685810810275901,
+          0.44878048739837406
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6858108106137387,
+          0.5658536581707317,
+          0.7162162160191441,
+          0.6097560971951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.5675675671030406,
+          0.6829268295121951,
+          0.6047297292652027,
+          0.7121951221951218
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.5675675683699324,
+          0.7902439031707318,
+          0.6385135143158783,
+          0.8487804885365854
+        ],
+        "confidence": 1,
+        "text": "- Vss"
+      },
+      {
+        "bbox": [
+          0.7601351362331081,
+          0.41463414701219503,
+          0.9020270281249999,
+          0.46829268359756093
+        ],
+        "confidence": 1,
+        "text": "with high"
+      },
+      {
+        "bbox": [
+          0.7566658338210025,
+          0.46762757205871675,
+          0.9257665952345767,
+          0.5177382820166769
+        ],
+        "confidence": 1,
+        "text": "Impedance"
+      },
+      {
+        "bbox": [
+          0.7598465285026755,
+          0.5791548173400487,
+          0.855018334477275,
+          0.6257232319816384
+        ],
+        "confidence": 1,
+        "text": "cause"
+      },
+      {
+        "bbox": [
+          0.7598960465712974,
+          0.6277014457336925,
+          0.9090228726771885,
+          0.6796156282570943
+        ],
+        "confidence": 1,
+        "text": "two poles"
+      },
+      {
+        "bbox": [
+          0.7601351337837837,
+          0.7463414635365855,
+          0.922297295945946,
+          0.8097560976829269
+        ],
+        "confidence": 0.5,
+        "text": "split by Cc"
+      },
+      {
+        "bbox": [
+          0.7331081097297296,
+          0.9414634142439025,
+          0.9290540556756757,
+          0.9804878044878048
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 069"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A CMOS OTA is shown in this slide.",
+      "pdf_page": 181,
+      "printed_page": 185,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Parasitic capacitance C is also c n1 shown.",
+      "pdf_page": 181,
+      "printed_page": 185,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0181_02_069.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "This latter transistor GS6 is a big transistor as it carries a much larger current than the input transistors.",
+      "pdf_page": 181,
+      "printed_page": 185,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

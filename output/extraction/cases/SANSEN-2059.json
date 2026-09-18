@@ -1,0 +1,392 @@
+{
+  "case_id": "SANSEN-2059",
+  "slide_id": "2059",
+  "chapter": 20,
+  "slide_number_in_chapter": 59,
+  "source": {
+    "pdf_page": 622,
+    "printed_page": 633
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0622_02_2059.jpg",
+      "pdf_page": 622,
+      "printed_page": 633,
+      "bbox_pt": [
+        91.52162,
+        354.71147,
+        374.54222,
+        551.22131
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 622,
+      "printed_page": 633,
+      "bbox_pt": [
+        0,
+        350.72191035000003,
+        595,
+        654.65438035
+      ],
+      "text_raw": "A good way of compareing\nADCs is to check how many\nclock cycles are required to\ncarry out the conversion.\nPower consumption is not\nconsidered here.\nIt is clear that only two\nADC’s need one single clock\nperiod. They are clearly the\nfastest ones. They are the\nflash converter and the pipe-\nline converter. This is not\nquite true for the latter one\nas one byte is only available\nafter one cycle in continuous\noperation.\nMoreover, their throughput is independent of the resolution.\nThis is not true for the other, which all exhibit some relationship with the resolution. The\nworst one is a serial converter in which each voltage is converted into all bits before the next\nis started.\nThe others are in between (i.e. successive approximation and sigma delta ones). Since they can\nbe realized with very little power, they often offer the best compromise between speed and\nresolution.",
+      "text": "A good way of compareing ADCs is to check how many clock cycles are required to carry out the conversion. Power consumption is not considered here. It is clear that only two ADC’s need one single clock period. They are clearly the fastest ones. They are the flash converter and the pipeline converter. This is not quite true for the latter one as one byte is only available after one cycle in continuous operation. Moreover, their throughput is independent of the resolution. This is not true for the other, which all exhibit some relationship with the resolution. The worst one is a serial converter in which each voltage is converted into all bits before the next is started. The others are in between (i.e. successive approximation and sigma delta ones). Since they can be realized with very little power, they often offer the best compromise between speed and resolution."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A good way of compareing ADCs is to check how many clock cycles are required to carry out the conversion. Power consumption is not considered here. It is clear that only two ADC’s need one single clock period. They are clearly the fastest ones. They are the flash converter and the pipeline converter. This is not quite true for the latter one as one byte is only available after one cycle in continuous operation. Moreover, their throughput is independent of the resolution. This is not true for the other, which all exhibit some relationship with the resolution. The worst one is a serial converter in which each voltage is converted into all bits before the next is started. The others are in between (i.e. successive approximation and sigma delta ones). Since they can be realized with very little power, they often offer the best compromise between speed and resolution.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Comparison ADCs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0622_02_2059.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627033898305,
+          0.07317073219512193,
+          0.41694915169491525,
+          0.14146341512195115
+        ],
+        "confidence": 1,
+        "text": "Comparison ADCs"
+      },
+      {
+        "bbox": [
+          0.06440678120762709,
+          0.1951219509756098,
+          0.31186440832627116,
+          0.24390243878048778
+        ],
+        "confidence": 1,
+        "text": "Resolution (bits)"
+      },
+      {
+        "bbox": [
+          0.31782513736068024,
+          0.22213312023789145,
+          0.4211579155154737,
+          0.30469614834085923
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Pipetino"
+      },
+      {
+        "bbox": [
+          0.12881355969491526,
+          0.33658536560975616,
+          0.1661016952881356,
+          0.3707317070731708
+        ],
+        "confidence": 1,
+        "text": "14"
+      },
+      {
+        "bbox": [
+          0.1288135599322034,
+          0.4048780485853658,
+          0.18983050908474577,
+          0.4439024388292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "12 -"
+      },
+      {
+        "bbox": [
+          0.12881355980225986,
+          0.4682926833739838,
+          0.19322033946327682,
+          0.5219512199593496
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10-"
+      },
+      {
+        "bbox": [
+          0.13898305040677966,
+          0.6048780482439025,
+          0.18983050803389828,
+          0.6585365848292682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "6-"
+      },
+      {
+        "bbox": [
+          0.14237288084745764,
+          0.6682926822560976,
+          0.1898305079661017,
+          0.7219512188414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4-"
+      },
+      {
+        "bbox": [
+          0.14237288118644068,
+          0.7463414629878049,
+          0.16271186423728815,
+          0.7804878044512196
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.4439799399769097,
+          0.23370769542253544,
+          0.525511587481296,
+          0.2687313288677169
+        ],
+        "confidence": 1,
+        "text": "Succs."
+      },
+      {
+        "bbox": [
+          0.44047776137217565,
+          0.26256789173887163,
+          0.529013762028045,
+          0.30816381444156793
+        ],
+        "confidence": 1,
+        "text": "Approx"
+      },
+      {
+        "bbox": [
+          0.44406779694915255,
+          0.30243902419512203,
+          0.4779661020338983,
+          0.3317073168780489
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "t=n"
+      },
+      {
+        "bbox": [
+          0.28135593200000003,
+          0.853658536097561,
+          0.30847457606779666,
+          0.902439023902439
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.46440678008474573,
+          0.8341463413719512,
+          0.5322033902542372,
+          0.8975609755182927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "100"
+      },
+      {
+        "bbox": [
+          0.5491525422033899,
+          0.22926829357723577,
+          0.6983050845762713,
+          0.33658536674796746
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 Bna ieka"
+      },
+      {
+        "bbox": [
+          0.5525423708474577,
+          0.3268292687804878,
+          0.6745762691525425,
+          0.36585365902439015
+        ],
+        "confidence": 0.5,
+        "text": "- t=2(0.4n+1)"
+      },
+      {
+        "bbox": [
+          0.6813559330084745,
+          0.5024390241463415,
+          0.7457627126694915,
+          0.5317073168292683
+        ],
+        "confidence": 1,
+        "text": "Serial"
+      },
+      {
+        "bbox": [
+          0.6745762712076271,
+          0.5317073168597561,
+          0.7322033898516949,
+          0.5658536583231708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "t=2(n)"
+      },
+      {
+        "bbox": [
+          0.562711864858757,
+          0.8341463413008131,
+          0.6440677970621468,
+          0.9024390242276423
+        ],
+        "confidence": 0.5,
+        "text": "1000"
+      },
+      {
+        "bbox": [
+          0.6608602432496095,
+          0.7256565051874956,
+          0.851004164665294,
+          0.7816605711895738
+        ],
+        "confidence": 1,
+        "text": "Clock cycles"
+      },
+      {
+        "bbox": [
+          0.6610169488135593,
+          0.7804878055487805,
+          0.9322033894915256,
+          0.8341463421341463
+        ],
+        "confidence": 1,
+        "text": "Per output sample"
+      },
+      {
+        "bbox": [
+          0.7322033944316904,
+          0.9463414640650407,
+          0.9389830425174623,
+          0.9853658531459257
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2059"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A good way of compareing ADCs is to check how many clock cycles are required to carry out the conversion.",
+      "pdf_page": 622,
+      "printed_page": 633,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0622_02_2059.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Moreover, their throughput is independent of the resolution.",
+      "pdf_page": 622,
+      "printed_page": 633,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The others are in between (i.e. successive approximation and sigma delta ones).",
+      "pdf_page": 622,
+      "printed_page": 633,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2059-M01",
+      "ocr_text": "t=n",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.44406779694915255,
+        0.30243902419512203,
+        0.4779661020338983,
+        0.3317073168780489
+      ],
+      "context_crop": "regions/SANSEN-2059_math_01.png",
+      "context_bbox_normalized": [
+        0.40406779694915257,
+        0.20243902419512202,
+        0.7079661020338983,
+        0.4617073168780489
+      ],
+      "source_image": "slides/p0622_02_2059.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2059-M02",
+      "ocr_text": "- t=2(0.4n+1)",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5525423708474577,
+        0.3268292687804878,
+        0.6745762691525425,
+        0.36585365902439015
+      ],
+      "context_crop": "regions/SANSEN-2059_math_02.png",
+      "context_bbox_normalized": [
+        0.5125423708474577,
+        0.22682926878048779,
+        0.9045762691525425,
+        0.49585365902439016
+      ],
+      "source_image": "slides/p0622_02_2059.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2059-M03",
+      "ocr_text": "t=2(n)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6745762712076271,
+        0.5317073168597561,
+        0.7322033898516949,
+        0.5658536583231708
+      ],
+      "context_crop": "regions/SANSEN-2059_math_03.png",
+      "context_bbox_normalized": [
+        0.634576271207627,
+        0.43170731685975616,
+        0.9622033898516948,
+        0.6958536583231708
+      ],
+      "source_image": "slides/p0622_02_2059.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

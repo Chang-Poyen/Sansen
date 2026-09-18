@@ -1,0 +1,46 @@
+574 Chapter #19
+1915
+GmC filters consist of Gm
+blocks, which are not much
+more than linearized
+differential pairs and capaci-
+tors. A second-order filter is
+shown on the left. It is
+single-ended.
+To cancel out the even-
+order harmonics, a differ-
+ential version is preferred. It
+is shown on the right. They
+take more power as the
+output circuitry is doubled.
+Moreover, common-mode
+feedback is required to
+set the common-mode or
+average output (and input) voltage levels. Even more power is therefore consumed.
+They are now studied in more detail.
+1916
+Such a Gm block differs
+from an opamp in the sense
+that it does not include an
+output stage with low
+output resistance. A Gm
+block generates an output
+current proportional to the
+input voltage. Comparison
+with an opamp is only pos-
+sible provided an output
+resistor R is added.
+L
+A considerable advantage
+of such a Gm block is that
+its transconductance Gm
+directly depends on the bias-
+ing current I . If the input
+bias
+MOSTs work in strong inversion, the Gm is proportional to the square root of the current. If
+MOSTs are used in weak inversion however, or when bipolar transistors are used, then the Gm
+is directly proportional to the current.
+The tuning is relatively easy. Because of their simplicity, these circuits are able to operate up
+to high frequencies.
+The drawbacks are still the same, distortion and mismatch. Moreover, each node has a
+parasitic capacitance to ground, limiting the high frequency performance.

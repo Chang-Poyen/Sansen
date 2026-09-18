@@ -1,0 +1,285 @@
+{
+  "case_id": "SANSEN-0724",
+  "slide_id": "0724",
+  "chapter": 7,
+  "slide_number_in_chapter": 24,
+  "source": {
+    "pdf_page": 217,
+    "printed_page": 222
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0217_02_0724.jpg",
+      "pdf_page": 217,
+      "printed_page": 222,
+      "bbox_pt": [
+        91.521622,
+        353.764801,
+        374.78981,
+        550.224792
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 217,
+      "printed_page": 222,
+      "bbox_pt": [
+        0,
+        349.77540000000005,
+        595,
+        642.6964750000001
+      ],
+      "text_raw": "Let us first examine how\nthe DC operation actually\nworks.\nThe input devices are\nbiased by a current source\n(with M9) at for example\n100 mA. Both input devices\ncarry 50 mA.\nAt node 2, transistor M11\ndraws 100 mA. The differ-\nence between this current\nand what is coming from\nM1, is then pulled from cas-\ncode transistor M4.\nThis current flows\nthrough both cascode tran-\nsistors. The current source on top mirrors this current. There is no way that DC current could\nflow out, even if the output node would be connected to ground.\nNormally, all currents in the input and cascode devices are the same, i.e. 50 mA. This is not a\nnecessity but is certainly the best way to avoid all kinds of artifacts, such as asymmetrical swing,\nSlew-Rate, etc.",
+      "text": "Let us first examine how the DC operation actually works. The input devices are biased by a current source (with M9) at for example 100 mA. Both input devices carry 50 mA. At node 2, transistor M11 draws 100 mA. The difference between this current and what is coming from M1, is then pulled from cascode transistor M4. This current flows through both cascode transistors. The current source on top mirrors this current. There is no way that DC current could flow out, even if the output node would be connected to ground. Normally, all currents in the input and cascode devices are the same, i.e. 50 mA. This is not a necessity but is certainly the best way to avoid all kinds of artifacts, such as asymmetrical swing, Slew-Rate, etc."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us first examine how the DC operation actually works. The input devices are biased by a current source (with M9) at for example 100 mA. Both input devices carry 50 mA. At node 2, transistor M11 draws 100 mA. The difference between this current and what is coming from M1, is then pulled from cascode transistor M4. This current flows through both cascode transistors. The current source on top mirrors this current. There is no way that DC current could flow out, even if the output node would be connected to ground. Normally, all currents in the input and cascode devices are the same, i.e. 50 mA. This is not a necessity but is certainly the best way to avoid all kinds of artifacts, such as asymmetrical swing, Slew-Rate, etc.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Folded cascode CMOS OTA : DC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0217_02_0724.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431934121635,
+          0.08292682939024387,
+          0.6722972923141892,
+          0.13658536597560977
+        ],
+        "confidence": 0.5,
+        "text": "Folded cascode CMOS OTA : DC"
+      },
+      {
+        "bbox": [
+          0.6418918914977478,
+          0.19512195056910575,
+          0.7094594590653154,
+          0.2731707310569106
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.2094594590202703,
+          0.2536585368292683,
+          0.2533783779391892,
+          0.287804878292683
+        ],
+        "confidence": 1,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.21959459396114867,
+          0.3170731698780488,
+          0.2905405399070946,
+          0.385365852804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ",100"
+      },
+      {
+        "bbox": [
+          0.29054054023085585,
+          0.37560975630081295,
+          0.327702702393018,
+          0.4097560977642276
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.35135135118243244,
+          0.28780487787804876,
+          0.3851351349662162,
+          0.3219512193414634
+        ],
+        "confidence": 1,
+        "text": "50"
+      },
+      {
+        "bbox": [
+          0.6114864863175676,
+          0.2829268290731708,
+          0.6452702701013514,
+          0.32195121931707316
+        ],
+        "confidence": 1,
+        "text": "50"
+      },
+      {
+        "bbox": [
+          0.699324325965251,
+          0.3365853656794425,
+          0.9290540556949807,
+          0.3804878047038328
+        ],
+        "confidence": 1,
+        "text": "DC current flow"
+      },
+      {
+        "bbox": [
+          0.12162162182432432,
+          0.6000000004878049,
+          0.14864864885135134,
+          0.6487804882926829
+        ],
+        "confidence": 0.5,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.3547297291554054,
+          0.5853658538536586,
+          0.41216216158783786,
+          0.6243902440975609
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "50 +"
+      },
+      {
+        "bbox": [
+          0.621621622508446,
+          0.4390243901829268,
+          0.6925675684543919,
+          0.49268292676829273
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.5810810815878379,
+          0.5219512192073171,
+          0.6216216221283783,
+          0.5560975606707318
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.5912162161486487,
+          0.5609756091219513,
+          0.6925675675,
+          0.6243902432682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ",50 C"
+      },
+      {
+        "bbox": [
+          0.43581081002252253,
+          0.7268292688617887,
+          0.5033783775900901,
+          0.7609756103252033
+        ],
+        "confidence": 1,
+        "text": "100"
+      },
+      {
+        "bbox": [
+          0.581081080777027,
+          0.7268292688780487,
+          0.652027026722973,
+          0.7853658542439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ",100"
+      },
+      {
+        "bbox": [
+          0.5844594582432432,
+          0.7951219512682928,
+          0.7060810798648649,
+          0.8585365854146342
+        ],
+        "confidence": 0.5,
+        "text": "M11 Vss"
+      },
+      {
+        "bbox": [
+          0.7229729752533782,
+          0.9414634141463415,
+          0.9324324347128378,
+          0.980487804390244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0724"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Let us first examine how the DC operation actually works.",
+      "pdf_page": 217,
+      "printed_page": 222,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0217_02_0724.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The input devices are biased by a current source (with M9) at for example 100 mA.",
+        "pdf_page": 217,
+        "printed_page": 222,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The current source on top mirrors this current.",
+        "pdf_page": 217,
+        "printed_page": 222,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "There is no way that DC current could flow out, even if the output node would be connected to ground.",
+        "pdf_page": 217,
+        "printed_page": 222,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

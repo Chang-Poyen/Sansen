@@ -1,0 +1,489 @@
+{
+  "case_id": "SANSEN-0525",
+  "slide_id": "0525",
+  "chapter": 5,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 157,
+    "printed_page": 161
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0157_02_0525.jpg",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "bbox_pt": [
+        91.52162,
+        383.60999000000004,
+        374.54215999999997,
+        580.0699500000001
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 157,
+      "printed_page": 161,
+      "bbox_pt": [
+        0,
+        379.62051,
+        595,
+        797
+      ],
+      "text_raw": "This factor of three is actu-\nally a result of a calculation\nof the peaking and phase\nmargin, of a two-pole\nsystem to which unity-gain\nfeedback is applied. This is\nexplained in all textbooks\non feedback or control\ntheory!\nWhen we take the expres-\nsion of amplifier A with low-\nfrequency gain A and two\n0\npoles, we have to plug it in\nthe feedback expression for\nunity gain. Actually, this\nfeedback expression was\nG/(1+GH) but here H=1 and G=A. The closed-loop gain A is unity at low frequencies.\nc\nIn this feedback expression, we can rewrite the coefficients in terms of resonant frequency f\nr\nand damping f (Greek letter d, zeta).\nOften parameter Q is used instead of f, then Q=1/2 f.\nIt is clear that f gives the frequency at which peaking or resonance occurs. Parameter f\nr\ndetermines how high the peaking is. For zero f, the term in s vanishes and we obtain a zero\ndenominator at frequency f . Therefore, we obtain an oscillator at frequency f .\nr r\nWe will need values of f between 0.5 and 1 to avoid peaking. Actually when f=1, we have\none double pole.",
+      "text": "This factor of three is actually a result of a calculation of the peaking and phase margin, of a two-pole system to which unity-gain feedback is applied. This is explained in all textbooks on feedback or control theory! When we take the expression of amplifier A with lowfrequency gain A and two 0 poles, we have to plug it in the feedback expression for unity gain. Actually, this feedback expression was G/(1+GH) but here H=1 and G=A. The closed-loop gain A is unity at low frequencies. c In this feedback expression, we can rewrite the coefficients in terms of resonant frequency f r and damping f (Greek letter d, zeta). Often parameter Q is used instead of f, then Q=1/2 f. It is clear that f gives the frequency at which peaking or resonance occurs. Parameter f r determines how high the peaking is. For zero f, the term in s vanishes and we obtain a zero denominator at frequency f . Therefore, we obtain an oscillator at frequency f . r r We will need values of f between 0.5 and 1 to avoid peaking. Actually when f=1, we have one double pole."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This factor of three is actually a result of a calculation of the peaking and phase margin, of a two-pole system to which unity-gain feedback is applied. This is explained in all textbooks on feedback or control theory! When we take the expression of amplifier A with lowfrequency gain A and two 0 poles, we have to plug it in the feedback expression for unity gain. Actually, this feedback expression was G/(1+GH) but here H=1 and G=A. The closed-loop gain A is unity at low frequencies. c In this feedback expression, we can rewrite the coefficients in terms of resonant frequency f r and damping f (Greek letter d, zeta). Often parameter Q is used instead of f, then Q=1/2 f. It is clear that f gives the frequency at which peaking or resonance occurs. Parameter f r determines how high the peaking is. For zero f, the term in s vanishes and we obtain a zero denominator at frequency f . Therefore, we obtain an oscillator at frequency f . r r We will need values of f between 0.5 and 1 to avoid peaking. Actually when f=1, we have one double pole.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Calculate PM for f2 = 3 GBW",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0157_02_0525.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135593555932195,
+          0.0878048774634147,
+          0.6000000033559322,
+          0.1463414628292683
+        ],
+        "confidence": 0.5,
+        "text": "Calculate PM for f2 = 3 GBW"
+      },
+      {
+        "bbox": [
+          0.0847457651694915,
+          0.2439024387398374,
+          0.37966101940677965,
+          0.2975609753252033
+        ],
+        "confidence": 0.5,
+        "text": "Open loop gain A ="
+      },
+      {
+        "bbox": [
+          0.4881355929096045,
+          0.2146341458536586,
+          0.532203389519774,
+          0.2731707312195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ao"
+      },
+      {
+        "bbox": [
+          0.4813559320762712,
+          0.2829268287804878,
+          0.4983050846186441,
+          0.3219512190243903
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.5050847452259888,
+          0.3121951215447154,
+          0.5898305079378532,
+          0.3609756093495935
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ")(1 +j"
+      },
+      {
+        "bbox": [
+          0.6033898303389831,
+          0.27804878006097566,
+          0.6237288133898305,
+          0.31219512152439033
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.5966101698728814,
+          0.34634146335365856,
+          0.6271186444491526,
+          0.39999999993902446
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f2"
+      },
+      {
+        "bbox": [
+          0.7016949156416464,
+          0.20487804864111503,
+          0.7559322037772397,
+          0.26341463400696863
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.7864406778644067,
+          0.18048780551219512,
+          0.8779661015932203,
+          0.24390243965853653
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A, = 1"
+      },
+      {
+        "bbox": [
+          0.8440677972316384,
+          0.23902439008130083,
+          0.9186440684180791,
+          0.2878048778861788
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.8101694908135594,
+          0.3463414629268293,
+          0.8881355925084746,
+          0.3951219507317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H = 1"
+      },
+      {
+        "bbox": [
+          0.08474576481840193,
+          0.46829268285714276,
+          0.37966101905569005,
+          0.5268292682229965
+        ],
+        "confidence": 1,
+        "text": "Closed loop gain Ac"
+      },
+      {
+        "bbox": [
+          0.39661016892655365,
+          0.3121951215447154,
+          0.4711864401129944,
+          0.3609756093495935
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1 +j"
+      },
+      {
+        "bbox": [
+          0.4271186438700565,
+          0.4439024392276423,
+          0.4508474574293785,
+          0.47804878069105694
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A"
+      },
+      {
+        "bbox": [
+          0.41016949196125907,
+          0.5121951217421602,
+          0.4711864411138015,
+          0.5512195119860627
+        ],
+        "confidence": 1,
+        "text": "1+A"
+      },
+      {
+        "bbox": [
+          0.7423728812429379,
+          0.507317072804878,
+          0.7762711863276837,
+          0.5512195118292683
+        ],
+        "confidence": 1,
+        "text": "f2"
+      },
+      {
+        "bbox": [
+          0.4983050857869249,
+          0.5365853658188153,
+          0.6440677976513317,
+          0.6097560975261324
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 +J GBW"
+      },
+      {
+        "bbox": [
+          0.6440677969491526,
+          0.5365853665243903,
+          0.705084746101695,
+          0.590243903109756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+jª"
+      },
+      {
+        "bbox": [
+          0.708474575472155,
+          0.5707317074564459,
+          0.820338982251816,
+          0.6292682928222996
+        ],
+        "confidence": 0.5,
+        "text": "GBW f2"
+      },
+      {
+        "bbox": [
+          0.7220338979943504,
+          0.6975609758536586,
+          0.7593220335875708,
+          0.7463414636585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+2"
+      },
+      {
+        "bbox": [
+          0.4983050851412429,
+          0.7317073166260163,
+          0.6067796614124293,
+          0.7853658532113821
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + j 25"
+      },
+      {
+        "bbox": [
+          0.6508474577627118,
+          0.7317073165853659,
+          0.705084745898305,
+          0.7804878043902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ j2"
+      },
+      {
+        "bbox": [
+          0.09830508038135603,
+          0.7951219505487805,
+          0.45423728377118655,
+          0.8487804871341463
+        ],
+        "confidence": 1,
+        "text": "§ is the damping (=1/2Q)"
+      },
+      {
+        "bbox": [
+          0.09491525074576274,
+          0.8585365859512194,
+          0.49830508125423734,
+          0.9170731713170731
+        ],
+        "confidence": 1,
+        "text": "f, is the resonant frequency"
+      },
+      {
+        "bbox": [
+          0.7254237369175659,
+          0.9365853665040651,
+          0.9254237239863888,
+          0.9756097555849501
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 05 0525"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is explained in all textbooks on feedback or control theory!",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Parameter f r determines how high the peaking is.",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0157_02_0525.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This factor of three is actually a result of a calculation of the peaking and phase margin, of a two-pole system to which unity-gain feedback is applied.",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When we take the expression of amplifier A with lowfrequency gain A and two 0 poles, we have to plug it in the feedback expression for unity gain.",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The closed-loop gain A is unity at low frequencies. c In this feedback expression, we can rewrite the coefficients in terms of resonant frequency f r and damping f (Greek letter d, zeta).",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, we obtain an oscillator at frequency f . r r We will need values of f between 0.5 and 1 to avoid peaking.",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "This factor of three is actually a result of a calculation of the peaking and phase margin, of a two-pole system to which unity-gain feedback is applied.",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is clear that f gives the frequency at which peaking or resonance occurs.",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Parameter f r determines how high the peaking is.",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, we obtain an oscillator at frequency f . r r We will need values of f between 0.5 and 1 to avoid peaking.",
+      "pdf_page": 157,
+      "printed_page": 161,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0525-M01",
+      "ocr_text": "Open loop gain A =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.0847457651694915,
+        0.2439024387398374,
+        0.37966101940677965,
+        0.2975609753252033
+      ],
+      "context_crop": "regions/SANSEN-0525_math_01.png",
+      "context_bbox_normalized": [
+        0.044745765169491504,
+        0.1439024387398374,
+        0.6096610194067796,
+        0.4275609753252033
+      ],
+      "source_image": "slides/p0157_02_0525.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0525-M02",
+      "ocr_text": "A, = 1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7864406778644067,
+        0.18048780551219512,
+        0.8779661015932203,
+        0.24390243965853653
+      ],
+      "context_crop": "regions/SANSEN-0525_math_02.png",
+      "context_bbox_normalized": [
+        0.7464406778644067,
+        0.13,
+        1,
+        0.37390243965853653
+      ],
+      "source_image": "slides/p0157_02_0525.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0525-M03",
+      "ocr_text": "H = 1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8101694908135594,
+        0.3463414629268293,
+        0.8881355925084746,
+        0.3951219507317074
+      ],
+      "context_crop": "regions/SANSEN-0525_math_03.png",
+      "context_bbox_normalized": [
+        0.7701694908135593,
+        0.24634146292682932,
+        1,
+        0.5251219507317074
+      ],
+      "source_image": "slides/p0157_02_0525.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0525-M04",
+      "ocr_text": "§ is the damping (=1/2Q)",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.09830508038135603,
+        0.7951219505487805,
+        0.45423728377118655,
+        0.8487804871341463
+      ],
+      "context_crop": "regions/SANSEN-0525_math_04.png",
+      "context_bbox_normalized": [
+        0.05830508038135603,
+        0.6951219505487806,
+        0.6842372837711865,
+        0.93
+      ],
+      "source_image": "slides/p0157_02_0525.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

@@ -1,0 +1,54 @@
+120 Chapter #4
+This is proportional to the square root of the resistor value. A resistor of 100 kV would give
+40 nV /√Hz but a resistor of 10 kV only 4×√10 or 12 nV /√Hz.
+RMS RMS
+Over a bandwidth from 20 Hz to 20 kHz, the total noise of a 100 kV resistor would be
+40×√20 000 nV or 5.6 mV . For a maximum signal amplitude of 100 mV , this would be
+RMS RMS RMS
+SNR of 17 700 or 85 dB.
+Note that the lower bound frequency is usually negligible. Indeed, either subtracting 20 Hz
+from 20 kHz or not, will not make any difference.
+Finally, note that a noise current can be used in parallel. The larger this parallel resistor, the
+lower the noise.
+047
+The upper frequency limit of
+a resistor R is normally
+S
+determined by a capacitance
+to ground, denoted by C .
+L
+Their time constant deter-
+mines the bandwidth BW.
+If we now want to calcu-
+late the integrated noise
+of this resistor-capacitance
+combination, we have to
+take the integral over all fre-
+quencies. This integral obvi-
+ously contains the first-
+order filter transfer function,
+related to this bandwidth
+BW.
+We now have to perform this integration. Luckily this is a well known integral.
+048
+Indeed the integral gives
+p/2 as a value, provided
+the variables are correct.
+The integrated noise is
+now simply 4kTR BW p/2,
+S
+which is the noise of the
+resistor itself, multiplied by
+BW p/2. This latter band-
+width is called the noise ban-
+dwidth BW .
+n
+The ratio of the BW to
+n
+the BW is 1.57. This extra
+57% is required to take into
+account the integral of the
+region with the first-order
+slope of 20 dB/decade. If we
+took a steeper filter (3rd order or higher), then the BW and the BW nearly coincide.
+n

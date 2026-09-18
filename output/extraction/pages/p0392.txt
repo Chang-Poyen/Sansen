@@ -1,0 +1,65 @@
+400 Chapter #14
+1423
+This input current source i
+IN
+can also be substituted by
+a voltage source v with
+IN
+series resistor R provided
+S
+the input voltage v equals
+IN
+R i , as shown on the right.
+S IN
+Again, we have to assume
+that resistor R is much
+S
+larger than R or R /A .
+G F 0
+The loop gain LG and
+transresistance A and resis-
+R
+tance at the Gate R are
+G
+now the same as before.
+The actual input resis-
+tance R , seen by the volt-
+IN
+age source, is now the sum
+of resistance R and resistor R . Since R is much larger than R , this input resistance R will
+G S S G IN
+thus be mainly R .
+S
+All input resistances are now known. The transresistance A is also known. Since we use a
+R
+voltage source however, we would also like to know the voltage gain A . This is given next.
+V
+1424
+The voltage gain A then
+V
+simply becomes the ratio of
+the two resistors. Indeed it
+is derived in a simple way
+from the transresistance A
+R
+and resistor R , as shown in
+1
+this slide.
+This voltage gain A is
+V
+quite accurate, and nearly
+independent of the open
+loop gain A . For this
+0
+reason this amplifier has
+become famous. It has
+become one of the most
+widely used amplifiers with
+an operational amplifier.
+.It is called the inverting amplifier.
+The output resistance R will be quite small. Even without feedback, an opamp already
+OUT
+provides a low output resistance R . This is a result of the use of a source (or emitter)
+OUTOL
+follower at the output, inside the opamp. The application of feedback with a large loop gain LG
+decreases the output resistance to very small values!

@@ -1,0 +1,276 @@
+{
+  "case_id": "SANSEN-1726",
+  "slide_id": "1726",
+  "chapter": 17,
+  "slide_number_in_chapter": 26,
+  "source": {
+    "pdf_page": 487,
+    "printed_page": 497
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0488_01_1726.jpg",
+      "pdf_page": 488,
+      "printed_page": 498,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 487,
+      "printed_page": 497,
+      "bbox_pt": [
+        0,
+        630.7385000000003,
+        595,
+        797
+      ],
+      "text_raw": "It has become clear from the above discussion that overlap capacitances must be as small as\npossible. On top of that, some more parasitic capacitances have to be added.\nFor example, in the layout on the left, the poly Gate lines cross the Source and Drain lines.\nThe crossing areas (black) give coupling capacitances to be added to the overlap capacitances.",
+      "text": "It has become clear from the above discussion that overlap capacitances must be as small as possible. On top of that, some more parasitic capacitances have to be added. For example, in the layout on the left, the poly Gate lines cross the Source and Drain lines. The crossing areas (black) give coupling capacitances to be added to the overlap capacitances."
+    },
+    {
+      "pdf_page": 488,
+      "printed_page": 498,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        369.6555000000001
+      ],
+      "text_raw": "The clock feedthrough will\nnow be increased. Such\nlayout is thus better\navoided.\nThe best that can be\nachieved is to use as small a\nMOST switch as possible, as\nshown in the middle. The\noverlap capacitances are\nalso as small as possible as\nthey scale with the widths of\nthe MOSTs.\nOn the right, an example\nis given on the use of metal\nshields between the clock\nlines and the actual MOSTs,\nreducing the coupling cap-\nacitances.",
+      "text": "The clock feedthrough will now be increased. Such layout is thus better avoided. The best that can be achieved is to use as small a MOST switch as possible, as shown in the middle. The overlap capacitances are also as small as possible as they scale with the widths of the MOSTs. On the right, an example is given on the use of metal shields between the clock lines and the actual MOSTs, reducing the coupling capacitances."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "It has become clear from the above discussion that overlap capacitances must be as small as possible. On top of that, some more parasitic capacitances have to be added. For example, in the layout on the left, the poly Gate lines cross the Source and Drain lines. The crossing areas (black) give coupling capacitances to be added to the overlap capacitances.\n\nThe clock feedthrough will now be increased. Such layout is thus better avoided. The best that can be achieved is to use as small a MOST switch as possible, as shown in the middle. The overlap capacitances are also as small as possible as they scale with the widths of the MOSTs. On the right, an example is given on the use of metal shields between the clock lines and the actual MOSTs, reducing the coupling capacitances.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Layout considerations",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0488_01_1726.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.074324328277027,
+          0.0829268290243903,
+          0.46959459854729724,
+          0.1463414631707317
+        ],
+        "confidence": 1,
+        "text": "Layout considerations"
+      },
+      {
+        "bbox": [
+          0.0945945947972973,
+          0.48292682907317075,
+          0.11486486506756759,
+          0.5121951217560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "F1"
+      },
+      {
+        "bbox": [
+          0.1554054056587838,
+          0.4829268290243902,
+          0.17567567592905406,
+          0.5121951217073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "F1"
+      },
+      {
+        "bbox": [
+          0.20945945929054055,
+          0.4878048778745645,
+          0.2331081079391892,
+          0.5121951217770034
+        ],
+        "confidence": 1,
+        "text": "F2"
+      },
+      {
+        "bbox": [
+          0.2668918916891892,
+          0.48292682892682925,
+          0.2939189187162162,
+          0.5170731703902439
+        ],
+        "confidence": 1,
+        "text": "F2"
+      },
+      {
+        "bbox": [
+          0.4391891889358108,
+          0.49268292701219507,
+          0.45945945920608106,
+          0.5170731709146341
+        ],
+        "confidence": 1,
+        "text": "F1"
+      },
+      {
+        "bbox": [
+          0.49662162176238744,
+          0.49268292703252037,
+          0.5202702704110361,
+          0.5170731709349593
+        ],
+        "confidence": 0.5,
+        "text": "F2"
+      },
+      {
+        "bbox": [
+          0.5574324321368244,
+          0.49268292701219507,
+          0.581081080785473,
+          0.5170731709146341
+        ],
+        "confidence": 0.5,
+        "text": "P2"
+      },
+      {
+        "bbox": [
+          0.10121754495496861,
+          0.6038526342617206,
+          0.27716082937632236,
+          0.654683949837297
+        ],
+        "confidence": 1,
+        "text": "Parasitic C"
+      },
+      {
+        "bbox": [
+          0.3581081107094594,
+          0.6146341460487805,
+          0.6182432458445946,
+          0.6731707314146342
+        ],
+        "confidence": 1,
+        "text": "Reduce Cox area"
+      },
+      {
+        "bbox": [
+          0.15202702773648646,
+          0.7268292688292683,
+          0.22972973043918918,
+          0.7804878054146341
+        ],
+        "confidence": 1,
+        "text": "CFT"
+      },
+      {
+        "bbox": [
+          0.7226776288042105,
+          0.5974384698810306,
+          0.9158358816233748,
+          0.6513420170284557
+        ],
+        "confidence": 1,
+        "text": "Use metal to"
+      },
+      {
+        "bbox": [
+          0.7533783768158784,
+          0.658536585609756,
+          0.8783783768158784,
+          0.707317073414634
+        ],
+        "confidence": 1,
+        "text": "\"shield'"
+      },
+      {
+        "bbox": [
+          0.7331081077280406,
+          0.7219512189024391,
+          0.898648648268581,
+          0.7707317067073172
+        ],
+        "confidence": 1,
+        "text": "clock lines"
+      },
+      {
+        "bbox": [
+          0.7192626778594071,
+          0.945648952140278,
+          0.9395323707700913,
+          0.9868544513706395
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s N1726"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The best that can be achieved is to use as small a MOST switch as possible, as shown in the middle.",
+      "pdf_page": 488,
+      "printed_page": 498,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0488_01_1726.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For example, in the layout on the left, the poly Gate lines cross the Source and Drain lines.",
+        "pdf_page": 487,
+        "printed_page": 497,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The clock feedthrough will now be increased.",
+      "pdf_page": 488,
+      "printed_page": 498,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Such layout is thus better avoided.",
+      "pdf_page": 488,
+      "printed_page": 498,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

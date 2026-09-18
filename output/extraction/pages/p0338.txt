@@ -1,0 +1,57 @@
+Class AB and driver amplifiers 345
+1217
+An adaptive biasing ampli-
+fier adapts its biasing to be
+able to provide larger
+output currents.
+The amplifier in this slide
+is a symmetrical amplifier,
+which is single ended.
+Nowadays it would be
+differential.
+Two times two current
+mirrors are added, i.e. with
+transistors M11/M12 and
+M13/M14. Without these
+transistors the maximum
+output current would be
+limited to BI .
+P
+In order to increase this maximum current, biasing current I must be made larger for larger
+p
+input voltages. This biasing current is adapted to the input signal level. This is why it is in
+parallel with two more current mirrors through transistors M18 and M19. Let us follow the
+path to transistor M19.
+Transistors M19 forms a current mirror (with current factor A) with M20. This latter transistor
+take the difference in current I –I , which are proportional to the currents in the input stage.
+1 2
+The larger of these two currents wins. If I is larger than I then AI current is added to I ,
+1 2 1 p
+increasing the total biasing current of the first stage, and also increasing the maximum output
+current.
+If, however, I is larger than I , then it is mirrored by M17/M18, also multiplied by A and
+2 1
+also added to I .
+p
+The adaptive current feedback is a kind of rectifier, as shown next.
+1218
+For small input voltages, the
+biasing current of the first
+stage I is only I . The maxi-
+B p
+mum output current is Bi .
+p
+For larger input voltages,
+for terminal 1 being more
+positive than terminal 2,
+current I increases drasti-
+1
+cally and is fed back to the
+input biasing current.
+With terminal 2 being
+more positive than terminal
+1 however, current I
+2
+increases by a similar
+amount and is also fed back
+to the input biasing current.

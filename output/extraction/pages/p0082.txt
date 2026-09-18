@@ -1,0 +1,51 @@
+Amplifiers, source followers and cascodes 83
+0263
+Note, however, that gain
+boosting adds another gain
+enhancement at low fre-
+quencies. It does not alter
+the GBW.
+It is therefore good to
+compare the performance of
+a regulated cascode, as cas-
+code and a single-stage
+amplifier. All of them have
+the same GBW but widely
+different gains and band-
+widths.
+Clearly, if this amplifier is
+to be only used at high fre-
+quencies, then there is no
+need for cascodes!
+Regulated cascodes will always be used whenever we have to combine high GBW with high
+gain. For high-frequency performance we need to use high V −V and minimum channel
+GS T
+length, which inevitably leads to lower gains. By means of gain boosting we have a circuit trick,
+by which we can increase the gain.
+0264
+It is obvious that the gain
+boosting amplifier, which
+was just one transistor
+before, can be replaced by a
+full operational amplifier
+with large gain A . Its non-
+gb
+inverting input is connected
+to a biasing voltage V . The
+B
+feedback loop will ensure
+that the voltage at the
+source of transistor M2 is
+kept as constant as possible.
+In this case, full gain is
+added on top of the gain
+characteristic of the cascode.
+Obviously, this is only
+required if real high gains are required at real low frequencies. This is the case, for example, in
+low-distortion amplifiers at audio frequencies and below.
+However, the design of such a gain boosting stage is not trivial. It has its own gain A ,
+gb
+bandwidth BW , and hence GBW . We have to make sure that the GBW coincides exactly
+gb gb
+with the BW of the original cascode amplifier, if not a pole-zero doublet occurs. Such a doublet
+is lethal for the settling time of that amplifier, as explained next.

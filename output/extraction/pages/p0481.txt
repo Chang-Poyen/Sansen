@@ -1,0 +1,50 @@
+Switched-capacitor filters 491
+However, the matching is not as good as for MIM horizontal capacitances (0.5% versus 0.2%,
+respectively).
+1713
+Now that we know what
+capacitors are available and
+what matching can be
+expected, let us have a look
+at what switches can be
+used. Clearly, a MOST acts
+as an ideal switch, as
+shown next.
+1714
+A switch, which is closed on
+clock phase W1, is a nMOST
+which conducts on this
+phase. This means that its
+Gate is at a high voltage V
+h
+with respect to ground. As a
+result, its V is high and its
+GS
+V is fairly small. This
+DS
+MOST is now in the linear
+region and behaves as a
+resistor with value R . Its
+on
+expression is taken from
+Chapter 1 and repeated in
+this slide.
+For a zero input signal
+voltage V , the Source on
+sign
+the right hand side of the MOST is also zero. In this case, the V −V of the nMOST is V −V .
+GS T h T
+This is the largest possible drive voltage. Its R has therefore the smallest possible value.
+on
+For larger input signals, the V −V values decrease and the R increases. This is illustrated
+GS T on
+for a small switch of 2/0.7 micrometer. For an input signal of about 2.3 V, the V −V becomes
+GS T
+zero and the R becomes very large. The MOST does not act any more as a switch! The drive
+on
+voltage is insufficient. The clock voltage V is not sufficiently large to turn on the switch! For
+h
+such input voltages the clock voltage V must be larger than 3 V!
+h
+The maximum signal voltage that can be switched is therefore V −V .
+h T

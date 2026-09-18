@@ -1,0 +1,142 @@
+[
+  {
+    "id": "mos_cs",
+    "module": "02-single-pole",
+    "model": "mos_cs",
+    "devices": [
+      "M_mos_cs"
+    ],
+    "rs": 0,
+    "cf": 0,
+    "cl": 3e-12,
+    "passed": true,
+    "max_relative_complex_error": 4.572055316493449e-06,
+    "samples": 601,
+    "all_devices_saturated": true,
+    "dc_output_V": 0.9999999994104788,
+    "low_frequency_gain": -110.0,
+    "reference_notes": "\u5b8c\u6574\u53cc\u8282\u70b9\u6a21\u578b with measured gm, gds and Cgs; external CL and feedback C retained.",
+    "asset": "assets/mos_cs.svg",
+    "csv": "csv/mos_cs.csv"
+  },
+  {
+    "id": "mos_miller",
+    "module": "03-miller",
+    "model": "mos_cs",
+    "devices": [
+      "M_mos_miller"
+    ],
+    "rs": 10000,
+    "cf": 5e-13,
+    "cl": 3e-12,
+    "passed": true,
+    "max_relative_complex_error": 4.501357154123935e-06,
+    "samples": 601,
+    "all_devices_saturated": true,
+    "dc_output_V": 0.9999999994104787,
+    "low_frequency_gain": -110.0,
+    "reference_notes": "\u5b8c\u6574\u53cc\u8282\u70b9\u6a21\u578b with measured gm, gds and Cgs; external CL and feedback C retained.",
+    "asset": "assets/mos_miller.svg",
+    "csv": "csv/mos_miller.csv"
+  },
+  {
+    "id": "mos_follower",
+    "module": "09-followers-hf",
+    "model": "mos_follower",
+    "devices": [
+      "M_mos_follower"
+    ],
+    "rs": 10000.0,
+    "cd_external": 2e-13,
+    "cl": 3e-12,
+    "passed": true,
+    "max_relative_complex_error": 3.760531471641226e-06,
+    "samples": 601,
+    "all_devices_saturated": true,
+    "dc_output_V": 0.9999999997691715,
+    "low_frequency_gain": 0.990991,
+    "reference_notes": "Follower full two-node model retains measured go and Cgs plus added gate-drain capacitor.",
+    "asset": "assets/mos_follower.svg",
+    "csv": "csv/mos_follower.csv"
+  },
+  {
+    "id": "mos_cascode",
+    "module": "13-cascode",
+    "model": "mos_cascode",
+    "devices": [
+      "M_mos_cascode_bottom",
+      "M_mos_cascode_top"
+    ],
+    "cl": 3e-12,
+    "cm_external": 1e-13,
+    "passed": true,
+    "max_relative_complex_error": 4.366030496387402e-06,
+    "samples": 601,
+    "all_devices_saturated": true,
+    "dc_output_V": 1.999999933973535,
+    "low_frequency_gain": -12210.0,
+    "reference_notes": "Cascode middle-node capacitance includes top transistor Cgs, not just the added capacitor.",
+    "asset": "assets/mos_cascode.svg",
+    "csv": "csv/mos_cascode.csv"
+  },
+  {
+    "id": "mos_inverter",
+    "module": "07-inverter-ac",
+    "model": "mos_inverter",
+    "devices": [
+      "M_mos_inverter_n",
+      "M_mos_inverter_p"
+    ],
+    "rs": 10000,
+    "cf": 2e-13,
+    "cl": 3e-12,
+    "passed": true,
+    "max_relative_complex_error": 4.691264921655804e-06,
+    "samples": 601,
+    "all_devices_saturated": true,
+    "dc_output_V": 0.6500000000000005,
+    "low_frequency_gain": -106.5,
+    "reference_notes": "\u5b8c\u6574\u53cc\u8282\u70b9\u6a21\u578b with measured gm, gds and Cgs; external CL and feedback C retained.",
+    "asset": "assets/mos_inverter.svg",
+    "csv": "csv/mos_inverter.csv"
+  },
+  {
+    "id": "mos_diode_load",
+    "module": "05-diode-loads",
+    "model": "mos_diode_load",
+    "devices": [
+      "M_mos_diode_load_n",
+      "M_mos_diode_load_p"
+    ],
+    "cl": 3e-12,
+    "passed": true,
+    "max_relative_complex_error": 3.288544773532808e-06,
+    "samples": 601,
+    "all_devices_saturated": true,
+    "dc_output_V": 0.65,
+    "low_frequency_gain": -0.981567,
+    "reference_notes": "Diode PMOS Cgs loads the output and its gm contributes to output conductance.",
+    "asset": "assets/mos_diode_load.svg",
+    "csv": "csv/mos_diode_load.csv"
+  },
+  {
+    "id": "mos_degen",
+    "module": "04-degeneration",
+    "model": "mos_degen",
+    "devices": [
+      "M_mos_degen"
+    ],
+    "rs": 1061.032953945969,
+    "rl": 10000,
+    "cl": 3e-12,
+    "passed": true,
+    "max_relative_complex_error": 4.233962949699503e-06,
+    "samples": 601,
+    "all_devices_saturated": true,
+    "dc_output_V": 1.199999999968378,
+    "low_frequency_gain": -5.9098,
+    "reference_notes": "Source degeneration includes dynamic Cgs coupling; low-frequency textbook formula alone is insufficient at high frequency.",
+    "asset": "assets/mos_degen.svg",
+    "csv": "csv/mos_degen.csv"
+  }
+]

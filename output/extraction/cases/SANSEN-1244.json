@@ -1,0 +1,358 @@
+{
+  "case_id": "SANSEN-1244",
+  "slide_id": "1244",
+  "chapter": 12,
+  "slide_number_in_chapter": 44,
+  "source": {
+    "pdf_page": 352,
+    "printed_page": 359
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0352_01_1244.jpg",
+      "pdf_page": 352,
+      "printed_page": 359,
+      "bbox_pt": [
+        91.52162,
+        159.29784999999993,
+        374.78981,
+        355.75784
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 352,
+      "printed_page": 359,
+      "bbox_pt": [
+        0,
+        154.81003999999996,
+        595,
+        483.7539978000001
+      ],
+      "text_raw": "The class-AB amplifier is\nshown in this slide.\nOn first sight it seems to\nconsist of a differential pair,\nthe output of which is fed\nback to the current mirror,\nbiasing this pair. However,\nfeedback from a differential\noutput to a common-mode\nnode is impossible to grasp.\nA better way to under-\nstand this circuit is to note\nthat transistor M2 has a\nconstant current, i.e. current\nI . If not, the feedback loop\nB1\nto the Gate of M3 will make\nsure of that. The only basic single-transistor configuration in which the transistor carries only\nDC current is the Source follower. Transistor M2 acts as a Source Follower. It passes input\nvoltage V unattenuated to the Source of the other input transistor M1.\nin2\nInput transistor M1 is a differential amplifier by itself. One input voltage V is at its Gate\nin1\nand the other, V at its Source. It converts this differential input voltage into an AC current\nin2\nwhich flows from the supply through transistors M3 and M1 to ground. It is mirrored by the\ncurrent mirror M3/M4 to the output. It could also be mirrored out at the Drain of M1 however,\nas will be done in the full circuit, shown next.\nThis AC current is not limited by any DC current. Moreover, it has an expanding characteristic\nbecause of the square-law characteristic of a MOST. Transistor M1 acts as a class-AB amplifier.",
+      "text": "The class-AB amplifier is shown in this slide. On first sight it seems to consist of a differential pair, the output of which is fed back to the current mirror, biasing this pair. However, feedback from a differential output to a common-mode node is impossible to grasp. A better way to understand this circuit is to note that transistor M2 has a constant current, i.e. current I . If not, the feedback loop B1 to the Gate of M3 will make sure of that. The only basic single-transistor configuration in which the transistor carries only DC current is the Source follower. Transistor M2 acts as a Source Follower. It passes input voltage V unattenuated to the Source of the other input transistor M1. in2 Input transistor M1 is a differential amplifier by itself. One input voltage V is at its Gate in1 and the other, V at its Source. It converts this differential input voltage into an AC current in2 which flows from the supply through transistors M3 and M1 to ground. It is mirrored by the current mirror M3/M4 to the output. It could also be mirrored out at the Drain of M1 however, as will be done in the full circuit, shown next. This AC current is not limited by any DC current. Moreover, it has an expanding characteristic because of the square-law characteristic of a MOST. Transistor M1 acts as a class-AB amplifier."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The class-AB amplifier is shown in this slide. On first sight it seems to consist of a differential pair, the output of which is fed back to the current mirror, biasing this pair. However, feedback from a differential output to a common-mode node is impossible to grasp. A better way to understand this circuit is to note that transistor M2 has a constant current, i.e. current I . If not, the feedback loop B1 to the Gate of M3 will make sure of that. The only basic single-transistor configuration in which the transistor carries only DC current is the Source follower. Transistor M2 acts as a Source Follower. It passes input voltage V unattenuated to the Source of the other input transistor M1. in2 Input transistor M1 is a differential amplifier by itself. One input voltage V is at its Gate in1 and the other, V at its Source. It converts this differential input voltage into an AC current in2 which flows from the supply through transistors M3 and M1 to ground. It is mirrored by the current mirror M3/M4 to the output. It could also be mirrored out at the Drain of M1 however, as will be done in the full circuit, shown next. This AC current is not limited by any DC current. Moreover, it has an expanding characteristic because of the square-law characteristic of a MOST. Transistor M1 acts as a class-AB amplifier.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Class AB differential Voltage amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0352_01_1244.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108728885119,
+          0.08780487884146337,
+          0.7601351413429053,
+          0.1512195129878049
+        ],
+        "confidence": 1,
+        "text": "Class AB differential Voltage amplifier"
+      },
+      {
+        "bbox": [
+          0.10472973030405403,
+          0.4341463413658537,
+          0.16216216273648645,
+          0.4829268291707317
+        ],
+        "confidence": 1,
+        "text": "Vint"
+      },
+      {
+        "bbox": [
+          0.23986486520270267,
+          0.28292682902439026,
+          0.28040540574324324,
+          0.32195121926829273
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.21621621577702707,
+          0.36097560926829275,
+          0.2736486482094595,
+          0.40975609707317073
+        ],
+        "confidence": 1,
+        "text": "Vin2"
+      },
+      {
+        "bbox": [
+          0.20608107994087843,
+          0.478048780609756,
+          0.29729729615709466,
+          0.5170731708536584
+        ],
+        "confidence": 1,
+        "text": "M1 M2"
+      },
+      {
+        "bbox": [
+          0.48986486452702704,
+          0.2878048782520325,
+          0.5304054050675676,
+          0.32195121971544716
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.3378378373310811,
+          0.43414634085365855,
+          0.39189189138513514,
+          0.48292682865853664
+        ],
+        "confidence": 1,
+        "text": "Vinz"
+      },
+      {
+        "bbox": [
+          0.5033783788513514,
+          0.4731707316097561,
+          0.5506756761486487,
+          0.5121951218536586
+        ],
+        "confidence": 1,
+        "text": "lout"
+      },
+      {
+        "bbox": [
+          0.33108108144707205,
+          0.6585365858536585,
+          0.3817567571227477,
+          0.7170731712195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1в1"
+      },
+      {
+        "bbox": [
+          0.5033783777449324,
+          0.6634146342682927,
+          0.5540540534206081,
+          0.7121951220731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1B2"
+      },
+      {
+        "bbox": [
+          0.6182432458614865,
+          0.4195121949186992,
+          0.9324324350506756,
+          0.46341463394308935
+        ],
+        "confidence": 1,
+        "text": "M2 is source follower"
+      },
+      {
+        "bbox": [
+          0.6147211448824781,
+          0.5304172370315615,
+          0.8616302090980608,
+          0.5915339812823475
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGS1 = Vin1 - Vinz"
+      },
+      {
+        "bbox": [
+          0.6114009359449543,
+          0.6333771265702427,
+          0.881842300542584,
+          0.698330190907252
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout ~ (Vint - Vin2)2"
+      },
+      {
+        "bbox": [
+          0.614864866554054,
+          0.7414634140243903,
+          0.8310810827702703,
+          0.7902439018292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ">>> Class AB"
+      },
+      {
+        "bbox": [
+          0.5675675639527028,
+          0.8878048782439024,
+          0.9290540504391894,
+          0.9170731709268293
+        ],
+        "confidence": 1,
+        "text": "Ref. Peluso, JSSC Dec.98, 1887-1897"
+      },
+      {
+        "bbox": [
+          0.7263513539273648,
+          0.9365853656707317,
+          0.932432435008446,
+          0.980487804695122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 0s 1244"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The class-AB amplifier is shown in this slide.",
+      "pdf_page": 352,
+      "printed_page": 359,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It could also be mirrored out at the Drain of M1 however, as will be done in the full circuit, shown next.",
+      "pdf_page": 352,
+      "printed_page": 359,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0352_01_1244.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "If not, the feedback loop B1 to the Gate of M3 will make sure of that.",
+        "pdf_page": 352,
+        "printed_page": 359,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The only basic single-transistor configuration in which the transistor carries only DC current is the Source follower.",
+        "pdf_page": 352,
+        "printed_page": 359,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Transistor M2 acts as a Source Follower.",
+        "pdf_page": 352,
+        "printed_page": 359,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It passes input voltage V unattenuated to the Source of the other input transistor M1. in2 Input transistor M1 is a differential amplifier by itself.",
+        "pdf_page": 352,
+        "printed_page": 359,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "One input voltage V is at its Gate in1 and the other, V at its Source.",
+        "pdf_page": 352,
+        "printed_page": 359,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It could also be mirrored out at the Drain of M1 however, as will be done in the full circuit, shown next.",
+        "pdf_page": 352,
+        "printed_page": 359,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This AC current is not limited by any DC current.",
+      "pdf_page": 352,
+      "printed_page": 359,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Moreover, it has an expanding characteristic because of the square-law characteristic of a MOST.",
+      "pdf_page": 352,
+      "printed_page": 359,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1244-M01",
+      "ocr_text": "VGS1 = Vin1 - Vinz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6147211448824781,
+        0.5304172370315615,
+        0.8616302090980608,
+        0.5915339812823475
+      ],
+      "context_crop": "regions/SANSEN-1244_math_01.png",
+      "context_bbox_normalized": [
+        0.574721144882478,
+        0.43041723703156154,
+        1,
+        0.7215339812823475
+      ],
+      "source_image": "slides/p0352_01_1244.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1244-M02",
+      "ocr_text": ">>> Class AB",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.614864866554054,
+        0.7414634140243903,
+        0.8310810827702703,
+        0.7902439018292684
+      ],
+      "context_crop": "regions/SANSEN-1244_math_02.png",
+      "context_bbox_normalized": [
+        0.574864866554054,
+        0.6414634140243903,
+        1,
+        0.9202439018292684
+      ],
+      "source_image": "slides/p0352_01_1244.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

@@ -1,0 +1,53 @@
+654 Chapter #21
+2133
+Under phase W1, the first
+opamp is switched off and is
+therefore left out. Capacitor
+C finds itself between
+DC
+ground and the virtual
+ground, at the minus input
+of the opamp. It carries no
+charge.
+The total charge at the
+input is found on capacitor
+C , which is between
+IN
+supply voltage V and the
+DD
+virtual ground.
+2134
+Under phase W2, the second
+opamp is switched off and is
+therefore left out. Capacitor
+C now finds itself between
+DC
+the supply voltage V and
+DD
+ground.
+Capacitor C now carries
+IN
+charge V C . The total
+O IN
+charge is therefore found, as
+given in this slide. If capaci-
+tors C and C are made
+DC IN
+equal, the DC output volt-
+age V ends up at half the
+O
+supply voltage.
+This sets the output and
+input common-mode volt-
+ages. All switches now have the full supply-voltage V as their V . This is also true for the
+DD GS
+input switches.
+2135
+Similar level shifting is required in the Common-mode feedback circuit.
+Again, a capacitor C is added to provide 0.5 V level shifting, between the output of the first
+CM
+opamp and the input of the CMFB opamp. The outputs are sampled and summed to cancel out
+the differential output signals by capacitors C and C (see Chapter 8). The CMFB amplifier
+P M
+has a pMOST differential pair at the input such that its input voltage is close to ground as for
+the other opamps.

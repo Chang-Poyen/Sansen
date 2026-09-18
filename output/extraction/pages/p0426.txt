@@ -1,0 +1,40 @@
+434 Chapter #15
+common-mode input volt-
+age in this case. Its value is
+quite limited. As a result,
+high values of common-
+mode rejection can only be
+reached provided the offset
+is quite small.
+It is now also clear that
+the output voltage of an
+opamp can be made zero
+either by application of a
+differential input voltage,
+which is by definition the
+offset voltage v , or by
+osc
+application of a common-
+mode input voltage v .
+inc
+Their ratio is then the
+CMRR.
+An easy measurement technique for the CMRR consists of the application of a certain
+differential input voltage v , and by measurement of the common-mode input voltage v
+osc inc
+required to return the output voltage to the original value. Their ratio is again the CMRR.
+1527
+However, in this way both
+the random CMRR and the
+r
+systematic CMRR are mea-
+s
+sured. The smaller one
+always dominates.
+1528
+A CMOS Miller OTA is shown in this slide. The offset of such an amplifier is examined next.
+The input devices are normally pMOSTs so that they can share the same n-well bulk. In this
+way mismatch in substrate parameter c does not come in. This parameter does come in however,
+for the nMOSTs. This is why the term DV has an asterisk. It is larger without the effect of the
+T3
+substrate parameter.

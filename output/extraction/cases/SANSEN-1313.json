@@ -1,0 +1,301 @@
+{
+  "case_id": "SANSEN-1313",
+  "slide_id": "1313",
+  "chapter": 13,
+  "slide_number_in_chapter": 13,
+  "source": {
+    "pdf_page": 362,
+    "printed_page": 369
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0362_02_1313.jpg",
+      "pdf_page": 362,
+      "printed_page": 369,
+      "bbox_pt": [
+        91.52162,
+        457.35098,
+        374.78981,
+        653.81097
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 362,
+      "printed_page": 369,
+      "bbox_pt": [
+        0,
+        453.3614003500002,
+        595,
+        797
+      ],
+      "text_raw": "Indeed, shunt feedback,\nshown here at the output of\nan amplifier, causes the\noutput current to increase.\nThis output current i is\nOUT\nthe current flowing through\nsome output load, not\nshown in this diagram.\nThis output current i\nOUT\nsplits up towards the ampli-\nfier i and towards the\nTT\nfeedback resistor i . The\nF\ntotal output current will be\nlarger than without feed-\nback. As a result, the ratio\nv /i , which is the\nOUT OUT\noutput resistance R , will\nOUT\ndecrease.",
+      "text": "Indeed, shunt feedback, shown here at the output of an amplifier, causes the output current to increase. This output current i is OUT the current flowing through some output load, not shown in this diagram. This output current i OUT splits up towards the amplifier i and towards the TT feedback resistor i . The F total output current will be larger than without feedback. As a result, the ratio v /i , which is the OUT OUT output resistance R , will OUT decrease."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Indeed, shunt feedback, shown here at the output of an amplifier, causes the output current to increase. This output current i is OUT the current flowing through some output load, not shown in this diagram. This output current i OUT splits up towards the amplifier i and towards the TT feedback resistor i . The F total output current will be larger than without feedback. As a result, the ratio v /i , which is the OUT OUT output resistance R , will OUT decrease.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Shunt FB decreases the impedance",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0362_02_1313.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.074324326554054,
+          0.07317073102439031,
+          0.6959459481756756,
+          0.14146341395121953
+        ],
+        "confidence": 1,
+        "text": "Shunt FB decreases the impedance"
+      },
+      {
+        "bbox": [
+          0.20945945945945946,
+          0.32682926887804875,
+          0.3581081081081081,
+          0.38536585424390246
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lOUT = iTT"
+      },
+      {
+        "bbox": [
+          0.293918919115991,
+          0.40975609821138215,
+          0.3310810812781531,
+          0.487804878699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "7"
+      },
+      {
+        "bbox": [
+          0.2972972966216217,
+          0.49756097507317065,
+          0.371621620945946,
+          0.5512195116585366
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.7195945937162163,
+          0.33170731736585357,
+          0.8074324315540541,
+          0.38048780517073166
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lOUT>"
+      },
+      {
+        "bbox": [
+          0.6925675669481982,
+          0.4487804880081301,
+          0.7668918912725226,
+          0.5414634148373983
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fiF"
+      },
+      {
+        "bbox": [
+          0.7770270268581082,
+          0.4243902431707317,
+          0.8040540538851352,
+          0.4829268285365853
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.7635135124155407,
+          0.4975609755487804,
+          0.8513513502533785,
+          0.5512195121341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.5168918920945945,
+          0.5999999991219512,
+          0.618243243445946,
+          0.6878048771707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "mRE"
+      },
+      {
+        "bbox": [
+          0.5844594567567568,
+          0.736585366402439,
+          0.800675672972973,
+          0.8292682932317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ROUT = YOUT"
+      },
+      {
+        "bbox": [
+          0.7060810803088803,
+          0.8146341465853658,
+          0.8141891884169884,
+          0.8682926831707316
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "joUT"
+      },
+      {
+        "bbox": [
+          0.7162162180743242,
+          0.9317073165853659,
+          0.9358108126689189,
+          0.980487804390244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 1313"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Indeed, shunt feedback, shown here at the output of an amplifier, causes the output current to increase.",
+      "pdf_page": 362,
+      "printed_page": 369,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This output current i is OUT the current flowing through some output load, not shown in this diagram.",
+      "pdf_page": 362,
+      "printed_page": 369,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0362_02_1313.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Indeed, shunt feedback, shown here at the output of an amplifier, causes the output current to increase.",
+      "pdf_page": 362,
+      "printed_page": 369,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the ratio v /i , which is the OUT OUT output resistance R , will OUT decrease.",
+      "pdf_page": 362,
+      "printed_page": 369,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1313-M01",
+      "ocr_text": "lOUT = iTT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.20945945945945946,
+        0.32682926887804875,
+        0.3581081081081081,
+        0.38536585424390246
+      ],
+      "context_crop": "regions/SANSEN-1313_math_01.png",
+      "context_bbox_normalized": [
+        0.16945945945945945,
+        0.22682926887804875,
+        0.5881081081081081,
+        0.5153658542439025
+      ],
+      "source_image": "slides/p0362_02_1313.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1313-M02",
+      "ocr_text": "lOUT>",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7195945937162163,
+        0.33170731736585357,
+        0.8074324315540541,
+        0.38048780517073166
+      ],
+      "context_crop": "regions/SANSEN-1313_math_02.png",
+      "context_bbox_normalized": [
+        0.6795945937162162,
+        0.23170731736585357,
+        1,
+        0.5104878051707317
+      ],
+      "source_image": "slides/p0362_02_1313.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1313-M03",
+      "ocr_text": "ROUT = YOUT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5844594567567568,
+        0.736585366402439,
+        0.800675672972973,
+        0.8292682932317074
+      ],
+      "context_crop": "regions/SANSEN-1313_math_03.png",
+      "context_bbox_normalized": [
+        0.5444594567567568,
+        0.636585366402439,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0362_02_1313.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

@@ -1,0 +1,207 @@
+{
+  "case_id": "SANSEN-1133",
+  "slide_id": "1133",
+  "chapter": 11,
+  "slide_number_in_chapter": 33,
+  "source": {
+    "pdf_page": 310,
+    "printed_page": 317
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0310_01_1133.jpg",
+      "pdf_page": 310,
+      "printed_page": 317,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 310,
+      "printed_page": 317,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        405.5294103500001
+      ],
+      "text_raw": "Another example of replica\nbiasing is given in this slide.\nIt is much closer to the rail-\nto-rail amplifier discussed\nearlier.\nThe input pair is doubled.\nThey share the voltage at\nthe Gates of their DC cur-\nrent sources. The left pair\nhowever is included in a\nfeedback loop, which en-\nsures that the current\nequals I .\nREF\nAgain, a capacitor is\nrequired to stabilize the\ncommon-mode feedback\nloop.",
+      "text": "Another example of replica biasing is given in this slide. It is much closer to the railto-rail amplifier discussed earlier. The input pair is doubled. They share the voltage at the Gates of their DC current sources. The left pair however is included in a feedback loop, which ensures that the current equals I . REF Again, a capacitor is required to stabilize the common-mode feedback loop."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Another example of replica biasing is given in this slide. It is much closer to the railto-rail amplifier discussed earlier. The input pair is doubled. They share the voltage at the Gates of their DC current sources. The left pair however is included in a feedback loop, which ensures that the current equals I . REF Again, a capacitor is required to stabilize the common-mode feedback loop.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Replica biasing with differential pair",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0310_01_1133.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627006779664,
+          0.07804878112195124,
+          0.7220338971864407,
+          0.14146341526829265
+        ],
+        "confidence": 1,
+        "text": "Replica biasing with differential pair"
+      },
+      {
+        "bbox": [
+          0.3186440684067796,
+          0.4243902438048781,
+          0.37966101755932197,
+          0.4731707316097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mn"
+      },
+      {
+        "bbox": [
+          0.29830508518644067,
+          0.502439024195122,
+          0.34237288179661013,
+          0.5414634144390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "int"
+      },
+      {
+        "bbox": [
+          0.5355932205932203,
+          0.5121951217073171,
+          0.5661016951694915,
+          0.5512195119512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "In-"
+      },
+      {
+        "bbox": [
+          0.6067796616271186,
+          0.42439024390243896,
+          0.667796610779661,
+          0.47317073170731705
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mn"
+      },
+      {
+        "bbox": [
+          0.589830507740113,
+          0.5073170734959349,
+          0.6338983043502825,
+          0.5365853661788618
+        ],
+        "confidence": 1,
+        "text": "in+"
+      },
+      {
+        "bbox": [
+          0.29152542311864404,
+          0.7170731709756099,
+          0.35254237227118645,
+          0.7512195124390244
+        ],
+        "confidence": 1,
+        "text": "180°"
+      },
+      {
+        "bbox": [
+          0.26779660949152545,
+          0.8243902432317073,
+          0.32881355864406786,
+          0.8780487798170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "REF"
+      },
+      {
+        "bbox": [
+          0.4542372890508474,
+          0.7609756104878049,
+          0.5525423737966101,
+          0.834146342195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ 21 Bn"
+      },
+      {
+        "bbox": [
+          0.7389830501452784,
+          0.7658536587456446,
+          0.8372881348910411,
+          0.8341463416724739
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• 21вn"
+      },
+      {
+        "bbox": [
+          0.7220339004067796,
+          0.941463414390244,
+          0.9322033919322034,
+          0.9853658534146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 11a6 1133"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0310_01_1133.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The left pair however is included in a feedback loop, which ensures that the current equals I .",
+      "pdf_page": 310,
+      "printed_page": 317,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

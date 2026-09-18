@@ -1,0 +1,41 @@
+L ow-power sigma-delta AD converters 669
+2163
+The sigma-delta converter
+itself is a fourth-order
+MASH 2–2 converter. In
+the first second-order loop,
+the loop filter only pro-
+cesses the quantization
+error. The signal amplitudes
+are therefore much smaller
+and much lower distortion
+levels are obtained. As a
+result, the second stage does
+not contain the signal any
+more. No additional sub-
+traction is now required in
+the coupling between both
+stages.
+It is clear from the coefficients used, that the feedforward causes quantization noise only in
+the feedback loop.
+2164
+The circuit implementation
+is shown in this slide.
+The switched input resis-
+tors are easily found.
+Everything is fully differ-
+ential. The CMFB is applied
+through the capacitors
+CM1.
+On phase W1P the signal
+is sampled onto sampling
+capacitors C . On phase W2
+S1
+the charge is then transfer-
+red to the integration capac-
+itors C by connecting the
+I1
+bottom plate of each capaci-
+tor to V or V (which is
+DD SS
+ground).

@@ -1,0 +1,294 @@
+{
+  "case_id": "SANSEN-215",
+  "slide_id": "215",
+  "chapter": 21,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 628,
+    "printed_page": 639
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0628_02_215.jpg",
+      "pdf_page": 628,
+      "printed_page": 639,
+      "bbox_pt": [
+        91.52162,
+        383.60991,
+        374.54222,
+        580.1197500000001
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 628,
+      "printed_page": 639,
+      "bbox_pt": [
+        0,
+        379.6204103500001,
+        595,
+        797
+      ],
+      "text_raw": "The minimum number of\ncomponents of the Delta-\nsigma feedback loop are the\nnoise filter H(f ), the quan-\ntizer and the DAC.\nFor a single-bit converter,\nthe quantizer is only a com-\nparator. The DAC then\nswitches between two DC\nreference voltages.\nFor multi-bit converters,\nthe quantizer is a real ADC,\nsuch a flash ADC or any\nother type, depending on the\nspeed required. The DAC is\nthen a real multi-bit DAC,\nin which linearity is one of the main specifications. The higher number of bits, the larger the\nresolution can be. This is the second design parameter of a Sigma-delta converter, i.e. the number\nof bits.\nMany Sigma-Delta converters stick with one single bit conversion as a comparator and a\nswitch from DC reference voltages are so easy to realize. Matching is hardly an issue for single-\nbit converters.\nIt is clear that for the incoming input signal x, the transfer function is as given in this slide. If\nH(z) has a high magnitude, the gain is about unity.\nFor noise signals, generated in the feedback loop by the quantizer (comparator) for example,",
+      "text": "The minimum number of components of the Deltasigma feedback loop are the noise filter H(f ), the quantizer and the DAC. For a single-bit converter, the quantizer is only a comparator. The DAC then switches between two DC reference voltages. For multi-bit converters, the quantizer is a real ADC, such a flash ADC or any other type, depending on the speed required. The DAC is then a real multi-bit DAC, in which linearity is one of the main specifications. The higher number of bits, the larger the resolution can be. This is the second design parameter of a Sigma-delta converter, i.e. the number of bits. Many Sigma-Delta converters stick with one single bit conversion as a comparator and a switch from DC reference voltages are so easy to realize. Matching is hardly an issue for singlebit converters. It is clear that for the incoming input signal x, the transfer function is as given in this slide. If H(z) has a high magnitude, the gain is about unity. For noise signals, generated in the feedback loop by the quantizer (comparator) for example,"
+    },
+    {
+      "pdf_page": 629,
+      "printed_page": 640,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        183.30989999999986
+      ],
+      "text_raw": "the transfer function is very different. If H(z) has a high magnitude, the quantization noise is\nreduced considerably. The SNR also increases considerably.\nA simple example with a low-pass filter is given next.",
+      "text": "the transfer function is very different. If H(z) has a high magnitude, the quantization noise is reduced considerably. The SNR also increases considerably. A simple example with a low-pass filter is given next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The minimum number of components of the Deltasigma feedback loop are the noise filter H(f ), the quantizer and the DAC. For a single-bit converter, the quantizer is only a comparator. The DAC then switches between two DC reference voltages. For multi-bit converters, the quantizer is a real ADC, such a flash ADC or any other type, depending on the speed required. The DAC is then a real multi-bit DAC, in which linearity is one of the main specifications. The higher number of bits, the larger the resolution can be. This is the second design parameter of a Sigma-delta converter, i.e. the number of bits. Many Sigma-Delta converters stick with one single bit conversion as a comparator and a switch from DC reference voltages are so easy to realize. Matching is hardly an issue for singlebit converters. It is clear that for the incoming input signal x, the transfer function is as given in this slide. If H(z) has a high magnitude, the gain is about unity. For noise signals, generated in the feedback loop by the quantizer (comparator) for example,\n\nthe transfer function is very different. If H(z) has a high magnitude, the quantization noise is reduced considerably. The SNR also increases considerably. A simple example with a low-pass filter is given next.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Sigma-Delta modulator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0628_02_215.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626711864417,
+          0.07317073102439031,
+          0.49491525016949156,
+          0.14146341395121953
+        ],
+        "confidence": 1,
+        "text": "Sigma-Delta modulator"
+      },
+      {
+        "bbox": [
+          0.2813559325847458,
+          0.26829268365853665,
+          0.3322033902118644,
+          0.32682926902439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "*T."
+      },
+      {
+        "bbox": [
+          0.38305084686440677,
+          0.26341463439024393,
+          0.43050847398305087,
+          0.3024390246341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H.fi"
+      },
+      {
+        "bbox": [
+          0.559322034440678,
+          0.44878048751219524,
+          0.6135593225762712,
+          0.4878048777560976
+        ],
+        "confidence": 0.5,
+        "text": "DAC"
+      },
+      {
+        "bbox": [
+          0.11864407079096038,
+          0.6439024387804877,
+          0.4779661046892655,
+          0.6926829265853658
+        ],
+        "confidence": 1,
+        "text": "Signal transfer function:"
+      },
+      {
+        "bbox": [
+          0.12203389578692495,
+          0.8048780489547037,
+          0.47457626866828084,
+          0.848780487979094
+        ],
+        "confidence": 1,
+        "text": "Noise transfer function:"
+      },
+      {
+        "bbox": [
+          0.6676433410417923,
+          0.5995565365557897,
+          0.7560854742825729,
+          0.6638580971205286
+        ],
+        "confidence": 0.5,
+        "text": "H(z)"
+      },
+      {
+        "bbox": [
+          0.5147478196092027,
+          0.637049033870351,
+          0.6411843828747283,
+          0.7092924312806739
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H,(z)="
+      },
+      {
+        "bbox": [
+          0.6406779671751411,
+          0.6731707322357723,
+          0.7762711875141242,
+          0.7365853663821138
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+IT(z)"
+      },
+      {
+        "bbox": [
+          0.6881355930169492,
+          0.7560975604390244,
+          0.7152542370847458,
+          0.8097560970243902
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.5181836157233966,
+          0.7836531635341277,
+          0.6479180817588838,
+          0.8602492747386937
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H,(z)="
+      },
+      {
+        "bbox": [
+          0.6372881343728815,
+          0.8243902432682927,
+          0.7728813547118645,
+          0.8878048774146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+H(z)"
+      },
+      {
+        "bbox": [
+          0.722033901380843,
+          0.9365853660975609,
+          0.9254237189581405,
+          0.9707317075609755
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 215"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0628_02_215.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For multi-bit converters, the quantizer is a real ADC, such a flash ADC or any other type, depending on the speed required.",
+      "pdf_page": 628,
+      "printed_page": 639,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If H(z) has a high magnitude, the gain is about unity.",
+      "pdf_page": 628,
+      "printed_page": 639,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The SNR also increases considerably.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-215-M01",
+      "ocr_text": "H,(z)=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5147478196092027,
+        0.637049033870351,
+        0.6411843828747283,
+        0.7092924312806739
+      ],
+      "context_crop": "regions/SANSEN-215_math_01.png",
+      "context_bbox_normalized": [
+        0.4747478196092027,
+        0.537049033870351,
+        0.8711843828747283,
+        0.8392924312806739
+      ],
+      "source_image": "slides/p0628_02_215.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-215-M02",
+      "ocr_text": "H,(z)=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5181836157233966,
+        0.7836531635341277,
+        0.6479180817588838,
+        0.8602492747386937
+      ],
+      "context_crop": "regions/SANSEN-215_math_02.png",
+      "context_bbox_normalized": [
+        0.47818361572339657,
+        0.6836531635341278,
+        0.8779180817588838,
+        0.93
+      ],
+      "source_image": "slides/p0628_02_215.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

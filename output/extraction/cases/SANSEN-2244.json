@@ -1,0 +1,147 @@
+{
+  "case_id": "SANSEN-2244",
+  "slide_id": "2244",
+  "chapter": 22,
+  "slide_number_in_chapter": 44,
+  "source": {
+    "pdf_page": 688,
+    "printed_page": 699
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0688_02_2244.jpg",
+      "pdf_page": 688,
+      "printed_page": 699,
+      "bbox_pt": [
+        91.52162,
+        378.62747,
+        374.54215999999997,
+        575.03763
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 688,
+      "printed_page": 699,
+      "bbox_pt": [
+        0,
+        374.6379103500001,
+        595,
+        630.73840035
+      ],
+      "text_raw": "A differential version of\nthe single-transistor Pierce\noscillator is shown in this\nslide.\nFor low frequencies, the\nimpedance of the capacitor\nC is too large and no oscilla-\ntion can build up. At high\nfrequencies, it acts as a short\nand a negative impedance is\npresented to the crystal.\nThe resistors have to be\nsufficiently high not to\ndampen the oscillation.\nThey are better when re-\nplaced by current sources.\nThe current setting sources I are better driven by an AGC loop, which measures the output\nB\nvoltages. If not, the currents may be set too high, resulting in larger deviations in frequency or\ndistortion.",
+      "text": "A differential version of the single-transistor Pierce oscillator is shown in this slide. For low frequencies, the impedance of the capacitor C is too large and no oscillation can build up. At high frequencies, it acts as a short and a negative impedance is presented to the crystal. The resistors have to be sufficiently high not to dampen the oscillation. They are better when replaced by current sources. The current setting sources I are better driven by an AGC loop, which measures the output B voltages. If not, the currents may be set too high, resulting in larger deviations in frequency or distortion."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A differential version of the single-transistor Pierce oscillator is shown in this slide. For low frequencies, the impedance of the capacitor C is too large and no oscillation can build up. At high frequencies, it acts as a short and a negative impedance is presented to the crystal. The resistors have to be sufficiently high not to dampen the oscillation. They are better when replaced by current sources. The current setting sources I are better driven by an AGC loop, which measures the output B voltages. If not, the currents may be set too high, resulting in larger deviations in frequency or distortion.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Differential crystal Oscillator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0688_02_2244.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07796610607344621,
+          0.07317073146341468,
+          0.6033898348870056,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Differential crystal Oscillator"
+      },
+      {
+        "bbox": [
+          0.06440678050847455,
+          0.39999999990243906,
+          0.14915254322033897,
+          0.4682926828292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YouT"
+      },
+      {
+        "bbox": [
+          0.4542372883050847,
+          0.2780487802787457,
+          0.47796610186440674,
+          0.31707317052264816
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.447457626440678,
+          0.4146341458048781,
+          0.5220338976271187,
+          0.4682926823902439
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.7218536656715656,
+          0.9350326135649486,
+          0.9391632877087743,
+          0.9917966509995964
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen mus 2214"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A differential version of the single-transistor Pierce oscillator is shown in this slide.",
+      "pdf_page": 688,
+      "printed_page": 699,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0688_02_2244.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

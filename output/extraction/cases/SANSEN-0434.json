@@ -1,0 +1,187 @@
+{
+  "case_id": "SANSEN-0434",
+  "slide_id": "0434",
+  "chapter": 4,
+  "slide_number_in_chapter": 34,
+  "source": {
+    "pdf_page": 131,
+    "printed_page": 134
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0131_01_0434.jpg",
+      "pdf_page": 131,
+      "printed_page": 134,
+      "bbox_pt": [
+        91.521622,
+        218.14111400000002,
+        374.78981,
+        414.601105
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 131,
+      "printed_page": 134,
+      "bbox_pt": [
+        0,
+        214.15157499999975,
+        595,
+        439.4105
+      ],
+      "text_raw": "The noise performance of a\ncascode is excellent. It does\nnot impair the noise perfor-\nmance at all, as shown next.",
+      "text": "The noise performance of a cascode is excellent. It does not impair the noise performance at all, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The noise performance of a cascode is excellent. It does not impair the noise performance at all, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0131_01_0434.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.11824324788851341,
+          0.22439024371951222,
+          0.48986486951013497,
+          0.2780487803048781
+        ],
+        "confidence": 0.5,
+        "text": "• Definitions of noise"
+      },
+      {
+        "bbox": [
+          0.11824323932432439,
+          0.3073170734634145,
+          0.5101351312162162,
+          0.36585365882926824
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of an amplifier"
+      },
+      {
+        "bbox": [
+          0.12162161900337841,
+          0.39512195166666664,
+          0.47635134873310814,
+          0.44878048825203254
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a follower"
+      },
+      {
+        "bbox": [
+          0.12162161897522528,
+          0.4780487809349594,
+          0.4797297270833334,
+          0.5317073175203252
+        ],
+        "confidence": 0.5,
+        "text": "+ Noise of a cascode"
+      },
+      {
+        "bbox": [
+          0.11824324783783778,
+          0.565853658292683,
+          0.5777027072972973,
+          0.6195121948780488
+        ],
+        "confidence": 1,
+        "text": "• Noise of a current mirror"
+      },
+      {
+        "bbox": [
+          0.11824323891891894,
+          0.6487804883902438,
+          0.5979729686486487,
+          0.7073170737560974
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a differential pair"
+      },
+      {
+        "bbox": [
+          0.1182432473254504,
+          0.7317073169105691,
+          0.6081081121903152,
+          0.7902439022764228
+        ],
+        "confidence": 1,
+        "text": "* Capacitive noise matching"
+      },
+      {
+        "bbox": [
+          0.7297297323057432,
+          0.9414634142682927,
+          0.9358108133868244,
+          0.9804878045121951
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 a5 0434"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It does not impair the noise performance at all, as shown next.",
+      "pdf_page": 131,
+      "printed_page": 134,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0131_01_0434.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

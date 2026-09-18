@@ -1,0 +1,303 @@
+{
+  "case_id": "SANSEN-0544",
+  "slide_id": "0544",
+  "chapter": 5,
+  "slide_number_in_chapter": 44,
+  "source": {
+    "pdf_page": 168,
+    "printed_page": 172
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0168_01_0544.jpg",
+      "pdf_page": 168,
+      "printed_page": 172,
+      "bbox_pt": [
+        91.521622,
+        265.026429,
+        374.78981,
+        461.48642
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 168,
+      "printed_page": 172,
+      "bbox_pt": [
+        0,
+        261.0368999999997,
+        595,
+        618.7805000000003
+      ],
+      "text_raw": "There are three ways to\nabolish the positive zero.\nFor the first two, it is easy\nto see that the feedforward\ncurrent is blocked. The third\ntechnique is more difficult to\nunderstand.\nThe first technique con-\nsists of putting a source\nfollower in series with the\ncompensation capacitance.\nThe feedback is still present\nbut the feedforward current\nflows through the source fol-\nlower to the positive supply,\nwithout affecting the output.\nPutting this source follower in the expression of the gain, gives as a result that the numerator\nhas gone. There is no more zero. It is now an easy way to solve this problem. However, we need\nsome biasing current through the follower. This may not be the real solution for low-power design.\nThe second technique is using a cascode. Its DC current is pulled out of the Source. A pMOST\ncan also be used, provided DC current is injected into the Source.\nAgain, the AC feedback current can flow but not the feedforward current.\nThe zero simply vanishes, but again at the cost of some additional biasing current. This\nproblem can be solved as shown on the next slide.\nThe third technique does not require any biasing current. This is why it is often preferred in\nlow-power amplifiers.",
+      "text": "There are three ways to abolish the positive zero. For the first two, it is easy to see that the feedforward current is blocked. The third technique is more difficult to understand. The first technique consists of putting a source follower in series with the compensation capacitance. The feedback is still present but the feedforward current flows through the source follower to the positive supply, without affecting the output. Putting this source follower in the expression of the gain, gives as a result that the numerator has gone. There is no more zero. It is now an easy way to solve this problem. However, we need some biasing current through the follower. This may not be the real solution for low-power design. The second technique is using a cascode. Its DC current is pulled out of the Source. A pMOST can also be used, provided DC current is injected into the Source. Again, the AC feedback current can flow but not the feedforward current. The zero simply vanishes, but again at the cost of some additional biasing current. This problem can be solved as shown on the next slide. The third technique does not require any biasing current. This is why it is often preferred in low-power amplifiers."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "There are three ways to abolish the positive zero. For the first two, it is easy to see that the feedforward current is blocked. The third technique is more difficult to understand. The first technique consists of putting a source follower in series with the compensation capacitance. The feedback is still present but the feedforward current flows through the source follower to the positive supply, without affecting the output. Putting this source follower in the expression of the gain, gives as a result that the numerator has gone. There is no more zero. It is now an easy way to solve this problem. However, we need some biasing current through the follower. This may not be the real solution for low-power design. The second technique is using a cascode. Its DC current is pulled out of the Source. A pMOST can also be used, provided DC current is injected into the Source. Again, the AC feedback current can flow but not the feedforward current. The zero simply vanishes, but again at the cost of some additional biasing current. This problem can be solved as shown on the next slide. The third technique does not require any biasing current. This is why it is often preferred in low-power amplifiers.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Cut feedforward through Ce - 2",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0168_01_0544.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243287499999,
+          0.08292682995121947,
+          0.6385135179391891,
+          0.1512195128780488
+        ],
+        "confidence": 0.5,
+        "text": "Cut feedforward through Ce - 2"
+      },
+      {
+        "bbox": [
+          0.12499999954954956,
+          0.3609756093495935,
+          0.18581081036036037,
+          0.4097560971544716
+        ],
+        "confidence": 0.5,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.45270270206081076,
+          0.35121951170731713,
+          0.5236486480067567,
+          0.3999999995121952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.3310810806418919,
+          0.3902439019512196,
+          0.38851351307432436,
+          0.4390243897560976
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.16554054108108107,
+          0.4536585365365853,
+          0.21959459513513513,
+          0.5073170731219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Сп1"
+      },
+      {
+        "bbox": [
+          0.8310810819679054,
+          0.29268292664634143,
+          0.9020270279138514,
+          0.3365853656707317
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.8275602476825094,
+          0.40409195413884214,
+          0.929196509235887,
+          0.4446885346442133
+        ],
+        "confidence": 1,
+        "text": "Current"
+      },
+      {
+        "bbox": [
+          0.8479729736486488,
+          0.44878048756097555,
+          0.9290540547297299,
+          0.487804877804878
+        ],
+        "confidence": 1,
+        "text": "buffer"
+      },
+      {
+        "bbox": [
+          0.8277027034990349,
+          0.49268292662020907,
+          0.9391891899855214,
+          0.5317073168641115
+        ],
+        "confidence": 1,
+        "text": "Cascode"
+      },
+      {
+        "bbox": [
+          0.08108108568412153,
+          0.882926828902439,
+          0.4493243289273648,
+          0.9219512191463415
+        ],
+        "confidence": 1,
+        "text": "Ref. Ahuja, JSSC Dec 83, 629-633"
+      },
+      {
+        "bbox": [
+          0.8344594585585586,
+          0.6682926834394401,
+          0.9020270261261263,
+          0.7073170713573077
+        ],
+        "confidence": 1,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.7398648647170608,
+          0.7853658528658537,
+          0.7972972971494933,
+          0.9121951211585366
+        ],
+        "confidence": 1,
+        "text": "9"
+      },
+      {
+        "bbox": [
+          0.8273701837366084,
+          0.7786020858316559,
+          0.9293865747175094,
+          0.8213979137437772
+        ],
+        "confidence": 1,
+        "text": "Current"
+      },
+      {
+        "bbox": [
+          0.8479729735521235,
+          0.8243902436585366,
+          0.9290540546332046,
+          0.8682926826829269
+        ],
+        "confidence": 1,
+        "text": "buffer"
+      },
+      {
+        "bbox": [
+          0.827657178438422,
+          0.8680504354538133,
+          0.9392347150471438,
+          0.912437368943357
+        ],
+        "confidence": 1,
+        "text": "Cascode"
+      },
+      {
+        "bbox": [
+          0.7297297396081597,
+          0.946341463089431,
+          0.9358108078017499,
+          0.9853658533333335
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 0544"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This problem can be solved as shown on the next slide.",
+      "pdf_page": 168,
+      "printed_page": 172,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0168_01_0544.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The first technique consists of putting a source follower in series with the compensation capacitance.",
+        "pdf_page": 168,
+        "printed_page": 172,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The feedback is still present but the feedforward current flows through the source follower to the positive supply, without affecting the output.",
+        "pdf_page": 168,
+        "printed_page": 172,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Putting this source follower in the expression of the gain, gives as a result that the numerator has gone.",
+        "pdf_page": 168,
+        "printed_page": 172,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Its DC current is pulled out of the Source.",
+        "pdf_page": 168,
+        "printed_page": 172,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "A pMOST can also be used, provided DC current is injected into the Source.",
+        "pdf_page": 168,
+        "printed_page": 172,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Putting this source follower in the expression of the gain, gives as a result that the numerator has gone.",
+      "pdf_page": 168,
+      "printed_page": 172,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "A pMOST can also be used, provided DC current is injected into the Source.",
+      "pdf_page": 168,
+      "printed_page": 172,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

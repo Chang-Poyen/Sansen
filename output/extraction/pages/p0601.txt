@@ -1,0 +1,45 @@
+612 Chapter #20
+As a conclusion, one can state that in CMOS the best architecture to achieve a high update
+rate and a high linearity is the segmented current steering architecture.
+In the unary implementation, the DNL error equals about s(I)/I, in which s(I) is the standard
+deviation on a unary current source. In the binary implementation however, at half-scale
+transition, 2N−1 unit current sources are switched off. The DNL error is thererfore much larger.
+For the segmented architecture, the DNL error is in between.
+How much standard deviation s(I)/I is actually required?
+2019
+This standard deviation
+s(I)/I can be predicted in
+terms of yield, by means of
+a fairly complicated func-
+tion, of which a value is
+given in this slide.
+For a 90% yield in INL,
+the constant C is given in
+this slide, giving rise to an
+easy expression, which is
+plotted in this slide.
+It shows that for 10 bit
+resolution, a standard devia-
+tion s(I)/I is required of
+about 0.8% if a yield of 90%
+is needed.
+Other values are easily found as well.
+A standard deviation s(I)/I of 0.8% can easily be achieved in present day CMOS processes.
+This number will be used to find the sizes of the transistors for the current sources.
+2020
+Sizing is only one technique
+to improve the matching.
+Other layout techniques
+have been discussed in
+Chapter 15. For example,
+centroide layout is of utmost
+importance to improve the
+matching.
+This is shown in this slide,
+for the switching schemes
+for the current sources.
+In general, the error dis-
+tribution can be modeled by
+a linear or symmetric gradi-
+ent E, or a combination of
+both. A linear gradient is

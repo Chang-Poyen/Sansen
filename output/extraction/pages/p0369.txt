@@ -1,0 +1,54 @@
+376 Chapter #13
+1326
+Now we are in a situation
+that we can easily calculate
+the loop gain.
+When a current source
+is used in the first stage,
+the loop gain includes the
+effect of the potentiometric
+divider with resistors R and
+1
+R , followed by transistor
+2
+M1, which is g r .
+m1 o1
+Transistor M1 acts as an
+amplifier for the input
+signal, but as a cascode for
+the feedback signal.
+This gain is much larger,
+when a current source is
+used as a load (right). Then the gains of both transistor M1 and M2 occur in the loop gain LG.
+It is now much larger indeed!
+The input and output resistances are now easily found.
+Even without feedback, the input resistance is already infinity. If some Gate current is present,
+then the input resistance is lower, as for a bipolar transistor amplifier (see later).
+The output resistance without feedback is just 1/g . Indeed resistor R is usually a lot larger
+m3 2
+and can therefore be neglected.
+With feedback, this resistor 1/g must be divided by the loop gain. The closed-loop output
+m3
+resistance R is nearly zero.
+OUT
+1327
+We can again easily calcu-
+late the loop gain LG.
+When a small load resis-
+tor R is used (left), the gain
+L
+is easily found to be the ratio
+of the two resistors R and
+L
+R , multiplied by the gain
+L
+of transistor M2. For a two-
+stage amplifier, this is not
+high at all!
+The gain is again large,
+when a current source is
+used as a load (right). Then
+the gains of both transistors
+M1 and M2 occur in the
+loop gain LG. It is therefore
+much larger indeed!

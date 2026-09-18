@@ -1,0 +1,44 @@
+664 Chapter #21
+2153
+A single-loop topology is
+preferred for low-power
+designs since it is less sensi-
+tive to circuit non-idealities
+such as low opamp gain,
+switch resistance and capac-
+itor mismatch.
+A clock is used of 4 MHz
+and an OSR of 100 to reach
+a signal bandwidth of
+20 kHz.
+The coefficients are such
+that the same output swing
+is obtained for all integ-
+rators, which is about 80%
+of the reference voltage
+(which is 0.6 V) at an input voltage of −3 dB.
+The minimum-gain requirement is only about 30 dB. This is easily achieved by a low-voltage
+opamp as discussed next.
+2154
+As an opamp a symmetrical
+OTA is used.
+Current starving is used
+however, to increase the
+gain (see Chapter 7). At such
+a low supply voltage, too
+little room is available for
+cascodes.
+Current starving means
+that a DC current source
+takes away most of the DC
+current from the load tran-
+sistors M2. As a result, the
+AC impedance of these tran-
+sistors increase, giving rise
+to more gain. A large factor
+B is used as well.
+The first amplifier of this sigma-delta converter uses a k value of 0.8 and a B factor of 10.
+Actually, factor k indicates what fraction of the current through the input transistor M1 is
+taken up by the DC current source. The small-signal resistance 1/g of transistors M2 increases
+m2
+by a factor (1−k) in weak inversion, and so does the small-signal gain A.

@@ -1,0 +1,294 @@
+{
+  "case_id": "SANSEN-1142",
+  "slide_id": "1142",
+  "chapter": 11,
+  "slide_number_in_chapter": 42,
+  "source": {
+    "pdf_page": 314,
+    "printed_page": 321
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0314_02_1142.jpg",
+      "pdf_page": 314,
+      "printed_page": 321,
+      "bbox_pt": [
+        91.52162,
+        445.39301,
+        374.78981,
+        641.8530000000001
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 314,
+      "printed_page": 321,
+      "bbox_pt": [
+        0,
+        441.4035100000002,
+        595,
+        797
+      ],
+      "text_raw": "This layout is shown that\nmost input stage devices are\nquite big. Indeed, they are\nused in weak inversion,\nwhich leads to large W/L\nratios.\nThe specifications are\nadded as well. They show a\nFOM of about 320 MHzpF/\nmA, which is very reason-\nable indeed. This shows that\na replica input stage does\nnot add all that much to the\npower consumption. After\nall, the current consumption\nin the first stage of a\ntwo-stage opamp is always small. Doubling it is not going to make a big difference in total\npower consumption.",
+      "text": "This layout is shown that most input stage devices are quite big. Indeed, they are used in weak inversion, which leads to large W/L ratios. The specifications are added as well. They show a FOM of about 320 MHzpF/ mA, which is very reasonable indeed. This shows that a replica input stage does not add all that much to the power consumption. After all, the current consumption in the first stage of a two-stage opamp is always small. Doubling it is not going to make a big difference in total power consumption."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This layout is shown that most input stage devices are quite big. Indeed, they are used in weak inversion, which leads to large W/L ratios. The specifications are added as well. They show a FOM of about 320 MHzpF/ mA, which is very reasonable indeed. This shows that a replica input stage does not add all that much to the power consumption. After all, the current consumption in the first stage of a two-stage opamp is always small. Doubling it is not going to make a big difference in total power consumption.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Rail-to-rail Opamp with Current regulator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0314_02_1142.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431798986502,
+          0.07804878060975606,
+          0.8344594531250001,
+          0.14146341475609758
+        ],
+        "confidence": 1,
+        "text": "Rail-to-rail Opamp with Current regulator"
+      },
+      {
+        "bbox": [
+          0.7226946349125739,
+          0.24705801765506807,
+          0.892170228994968,
+          0.3090395444718317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD = 1.5 V"
+      },
+      {
+        "bbox": [
+          0.7263513527509652,
+          0.3560975606620209,
+          0.9222972986969111,
+          0.4097560972473868
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'тот = 0.2 mA"
+      },
+      {
+        "bbox": [
+          0.7256358200340886,
+          0.45355187337034497,
+          0.9230128316167467,
+          0.5269359303920675
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A9 m/9m = 4 %"
+      },
+      {
+        "bbox": [
+          0.7263513532657657,
+          0.5707317071138213,
+          0.9560810829954954,
+          0.6146341461382114
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW = 4.3 MHz"
+      },
+      {
+        "bbox": [
+          0.7263513527308557,
+          0.6731707313821138,
+          0.8918918932713964,
+          0.7317073167479674
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL = 15 pF"
+      },
+      {
+        "bbox": [
+          0.689189193412162,
+          0.8829268289430894,
+          0.9425675717905404,
+          0.9121951216260162
+        ],
+        "confidence": 1,
+        "text": "E.Peeters etal, CICC 1997"
+      },
+      {
+        "bbox": [
+          0.7297297391014029,
+          0.9463414628455283,
+          0.9324324289166147,
+          0.980487804308943
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1142"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This layout is shown that most input stage devices are quite big.",
+      "pdf_page": 314,
+      "printed_page": 321,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "They show a FOM of about 320 MHzpF/ mA, which is very reasonable indeed.",
+      "pdf_page": 314,
+      "printed_page": 321,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This shows that a replica input stage does not add all that much to the power consumption.",
+      "pdf_page": 314,
+      "printed_page": 321,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0314_02_1142.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1142-M01",
+      "ocr_text": "VDD = 1.5 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7226946349125739,
+        0.24705801765506807,
+        0.892170228994968,
+        0.3090395444718317
+      ],
+      "context_crop": "regions/SANSEN-1142_math_01.png",
+      "context_bbox_normalized": [
+        0.6826946349125739,
+        0.14705801765506807,
+        1,
+        0.4390395444718317
+      ],
+      "source_image": "slides/p0314_02_1142.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1142-M02",
+      "ocr_text": "'тот = 0.2 mA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7263513527509652,
+        0.3560975606620209,
+        0.9222972986969111,
+        0.4097560972473868
+      ],
+      "context_crop": "regions/SANSEN-1142_math_02.png",
+      "context_bbox_normalized": [
+        0.6863513527509651,
+        0.25609756066202094,
+        1,
+        0.5397560972473868
+      ],
+      "source_image": "slides/p0314_02_1142.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1142-M03",
+      "ocr_text": "A9 m/9m = 4 %",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7256358200340886,
+        0.45355187337034497,
+        0.9230128316167467,
+        0.5269359303920675
+      ],
+      "context_crop": "regions/SANSEN-1142_math_03.png",
+      "context_bbox_normalized": [
+        0.6856358200340885,
+        0.353551873370345,
+        1,
+        0.6569359303920675
+      ],
+      "source_image": "slides/p0314_02_1142.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1142-M04",
+      "ocr_text": "GBW = 4.3 MHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7263513532657657,
+        0.5707317071138213,
+        0.9560810829954954,
+        0.6146341461382114
+      ],
+      "context_crop": "regions/SANSEN-1142_math_04.png",
+      "context_bbox_normalized": [
+        0.6863513532657657,
+        0.4707317071138213,
+        1,
+        0.7446341461382114
+      ],
+      "source_image": "slides/p0314_02_1142.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1142-M05",
+      "ocr_text": "CL = 15 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7263513527308557,
+        0.6731707313821138,
+        0.8918918932713964,
+        0.7317073167479674
+      ],
+      "context_crop": "regions/SANSEN-1142_math_05.png",
+      "context_bbox_normalized": [
+        0.6863513527308557,
+        0.5731707313821138,
+        1,
+        0.8617073167479674
+      ],
+      "source_image": "slides/p0314_02_1142.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

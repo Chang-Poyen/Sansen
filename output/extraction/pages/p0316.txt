@@ -1,0 +1,47 @@
+Rail-to-rail input and output amplifiers 323
+1145
+The rail-to-rail opamp is a
+simple double input stage.
+Not even cascodes are used.
+The four outputs of the two
+input pairs are combined
+towards one single output
+node in the simplest possible
+way. This can be improved
+greatly. However, the focus
+is on the rail-to-rail perfor-
+mance of the input stage.
+A second stage is added
+to drive the measurement
+system.
+The two supply voltage
+are clearly separated. The
+internal supply voltage V will be derived from the external one V .
+DD DDext
+1146
+The first feedback has a task
+of maintaining the same
+current in both pairs. It is
+the current feedback which
+ensures equality of the cur-
+rents, whatever happens to
+the transistors.
+The independent bias-
+ing is provided by current
+source I . The same current
+B
+also flows in the nMOST
+differential pair. This pair is
+a replica of the nMOST pair
+used in the amplifier itself.
+However, the input Gates
+are connected to the positive
+supply V .
+DD
+Its average current is measured and compared to the average current of the pMOST pair, the
+Gates of which are connected to the negative supply V (or ground).
+SS
+The point of comparison, point S, is fed back to a current mirror which closes the feedback loop.
+This circuit already provides the Gate drives for the nMOST and the pMOST current sources
+in the actual amplifier. They are labeled by I and I .
+Bn Bp

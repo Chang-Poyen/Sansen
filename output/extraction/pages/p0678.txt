@@ -1,0 +1,37 @@
+Design of crystal oscillators 689
+2223
+Let us now consider how
+these three types of ground-
+ing can be realized.
+Attention is paid to biasing
+as well.
+Simple discrete realiza-
+tions are considered first.
+2224
+A Pierce oscillator is best
+biased by a current source
+I and a Gate biasing resis-
+B
+tor V .
+B
+This current source is the
+best guarantee that the cir-
+cuit is isolated from the
+supply line. Otherwise, the
+oscillator will superimpose
+spikes at the oscillation fre-
+quency on all supply lines
+connected to it.
+A CMOS realization is
+shown on the right. The
+crystal is connected between
+Drain and Gate, which
+makes it a Pierce oscillator. Also, the capacitances are indicated.
+The current source I is set by an external current, which is determined by an Automatic-
+B
+Gain-Control system. Such a system measures the output signal and adjusts the DC current to
+keep the oscillator at point A.
+The output signal is taken by duplicating the amplifier transistor. In this way the load at the
+output cannot influence the oscillation condition.
+One subtlety is capacitor C3. Actually, it is in parallel with capacitor C1 and smoothens
+somewhat the output current.

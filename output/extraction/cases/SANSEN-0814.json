@@ -1,0 +1,379 @@
+{
+  "case_id": "SANSEN-0814",
+  "slide_id": "0814",
+  "chapter": 8,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 239,
+    "printed_page": 245
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0239_02_0814.jpg",
+      "pdf_page": 239,
+      "printed_page": 245,
+      "bbox_pt": [
+        91.521622,
+        385.602967,
+        374.78981,
+        582.062958
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 239,
+      "printed_page": 245,
+      "bbox_pt": [
+        0,
+        381.6135000000001,
+        595,
+        797
+      ],
+      "text_raw": "Even with the simplest,\nsingle-stage, fully-differen-\ntial amplifier, we have to be\ncareful with the definition of\nthe load capacitance. After\nall, this load capacitance\ndetermines the GBW!\nWith a floating capaci-\ntance (at the left) we have to\ninclude this capacitance\ntwice in the differential\nGBW . Moreover there\nDM\nis no common-mode load\ncapacitance! Its GBW\nCM\nwould therefore be infinity.\nWith two capacitors to\nground, the situation is very different. The differential load capacitance is smaller; it is C itself.\nL\nThe common-mode load capacitance is not at zero. It is twice C !\nL",
+      "text": "Even with the simplest, single-stage, fully-differential amplifier, we have to be careful with the definition of the load capacitance. After all, this load capacitance determines the GBW! With a floating capacitance (at the left) we have to include this capacitance twice in the differential GBW . Moreover there DM is no common-mode load capacitance! Its GBW CM would therefore be infinity. With two capacitors to ground, the situation is very different. The differential load capacitance is smaller; it is C itself. L The common-mode load capacitance is not at zero. It is twice C ! L"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Even with the simplest, single-stage, fully-differential amplifier, we have to be careful with the definition of the load capacitance. After all, this load capacitance determines the GBW! With a floating capacitance (at the left) we have to include this capacitance twice in the differential GBW . Moreover there DM is no common-mode load capacitance! Its GBW CM would therefore be infinity. With two capacitors to ground, the situation is very different. The differential load capacitance is smaller; it is C itself. L The common-mode load capacitance is not at zero. It is twice C ! L",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "GBWDM & GBWeM",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0239_02_0814.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270192567569,
+          0.07317073253658535,
+          0.45270270192567563,
+          0.1560975618048781
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBWDM & GBWeM"
+      },
+      {
+        "bbox": [
+          0.21621621549831083,
+          0.45365853670731704,
+          0.2736486479307432,
+          0.5121951220731706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.20608108150337837,
+          0.5073170728963414,
+          0.27364864907094594,
+          0.5804878046036586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ЧF"
+      },
+      {
+        "bbox": [
+          0.06418919003378377,
+          0.5560975608780487,
+          0.14864864949324325,
+          0.6048780486829267
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT+"
+      },
+      {
+        "bbox": [
+          0.351351352027027,
+          0.5609756096341464,
+          0.4324324331081081,
+          0.6146341462195123
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT-"
+      },
+      {
+        "bbox": [
+          0.18243243260135134,
+          0.6097560981097561,
+          0.20945945962837836,
+          0.6536585371341463
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.3006756752027027,
+          0.7219512189268293,
+          0.3547297292567568,
+          0.780487804292683
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.0979729750844594,
+          0.7512195117682927,
+          0.2668918940033783,
+          0.8146341459146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBWDM ="
+      },
+      {
+        "bbox": [
+          0.2702702713851351,
+          0.7951219518536585,
+          0.38851351462837835,
+          0.8585365859999999
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2n 2CL"
+      },
+      {
+        "bbox": [
+          0.1452702715653153,
+          0.8634146337804878,
+          0.30067567697072073,
+          0.9268292679268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CLсM = 0"
+      },
+      {
+        "bbox": [
+          0.45945946016328826,
+          0.5463414639837397,
+          0.5641891898930179,
+          0.6146341469105691
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT+"
+      },
+      {
+        "bbox": [
+          0.4729729735078828,
+          0.6000000008130081,
+          0.564189189724099,
+          0.6975609764227643
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "20T"
+      },
+      {
+        "bbox": [
+          0.8039617724779727,
+          0.5411514183921761,
+          0.922389577476422,
+          0.6149461415307527
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IVouт-"
+      },
+      {
+        "bbox": [
+          0.8040540547719595,
+          0.6097560973170731,
+          0.9189189196368244,
+          0.687804877804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T20L"
+      },
+      {
+        "bbox": [
+          0.5370563757458893,
+          0.7506388393009613,
+          0.7028084902222737,
+          0.8152148184872287
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBWDM ="
+      },
+      {
+        "bbox": [
+          0.7331081086824324,
+          0.721951219414634,
+          0.7905405411148648,
+          0.7804878047804877
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.7060810816722973,
+          0.7902439022926829,
+          0.8243243249155405,
+          0.8585365852195123
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T 2GL"
+      },
+      {
+        "bbox": [
+          0.5878378395833334,
+          0.8585365853658536,
+          0.7972972990427928,
+          0.926829268292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CLCM = 4 CL"
+      },
+      {
+        "bbox": [
+          0.7191885917815408,
+          0.945937250475643,
+          0.9328545411132884,
+          0.986887467373747
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 100s 0814"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "After all, this load capacitance determines the GBW!",
+      "pdf_page": 239,
+      "printed_page": 245,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0239_02_0814.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Its GBW CM would therefore be infinity.",
+      "pdf_page": 239,
+      "printed_page": 245,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0814-M01",
+      "ocr_text": "GBWDM =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0979729750844594,
+        0.7512195117682927,
+        0.2668918940033783,
+        0.8146341459146342
+      ],
+      "context_crop": "regions/SANSEN-0814_math_01.png",
+      "context_bbox_normalized": [
+        0.0579729750844594,
+        0.6512195117682927,
+        0.4968918940033783,
+        0.93
+      ],
+      "source_image": "slides/p0239_02_0814.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0814-M02",
+      "ocr_text": "CLсM = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1452702715653153,
+        0.8634146337804878,
+        0.30067567697072073,
+        0.9268292679268293
+      ],
+      "context_crop": "regions/SANSEN-0814_math_02.png",
+      "context_bbox_normalized": [
+        0.1052702715653153,
+        0.7634146337804878,
+        0.5306756769707207,
+        0.93
+      ],
+      "source_image": "slides/p0239_02_0814.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0814-M03",
+      "ocr_text": "GBWDM =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5370563757458893,
+        0.7506388393009613,
+        0.7028084902222737,
+        0.8152148184872287
+      ],
+      "context_crop": "regions/SANSEN-0814_math_03.png",
+      "context_bbox_normalized": [
+        0.4970563757458893,
+        0.6506388393009613,
+        0.9328084902222736,
+        0.93
+      ],
+      "source_image": "slides/p0239_02_0814.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0814-M04",
+      "ocr_text": "CLCM = 4 CL",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5878378395833334,
+        0.8585365853658536,
+        0.7972972990427928,
+        0.926829268292683
+      ],
+      "context_crop": "regions/SANSEN-0814_math_04.png",
+      "context_bbox_normalized": [
+        0.5478378395833333,
+        0.7585365853658537,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0239_02_0814.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

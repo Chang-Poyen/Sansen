@@ -1,0 +1,234 @@
+{
+  "case_id": "SANSEN-0927",
+  "slide_id": "0927",
+  "chapter": 9,
+  "slide_number_in_chapter": 27,
+  "source": {
+    "pdf_page": 269,
+    "printed_page": 276
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0269_02_0927.jpg",
+      "pdf_page": 269,
+      "printed_page": 276,
+      "bbox_pt": [
+        91.52162,
+        421.47695999999996,
+        374.78981,
+        617.93695
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 269,
+      "printed_page": 276,
+      "bbox_pt": [
+        0,
+        417.48751000000016,
+        595,
+        797
+      ],
+      "text_raw": "Now several more NMC\nopamps will be discussed.\nFor sake of comparison,\nthe conventional three-stage\nNMC amplifier is repeated.\nIts main disadvantage is\nthe current consumption of\nthe output stage. Indeed,\ncompensation capacitance\nC shunts the output stage.\nm2\nIts gain is now reduced\nat higher frequencies.\nTherefore, transconduct-\nance g must be enlarged\nm3\nto ensure pole splitting.\nThe design procedure is\nrepeated next.",
+      "text": "Now several more NMC opamps will be discussed. For sake of comparison, the conventional three-stage NMC amplifier is repeated. Its main disadvantage is the current consumption of the output stage. Indeed, compensation capacitance C shunts the output stage. m2 Its gain is now reduced at higher frequencies. Therefore, transconductance g must be enlarged m3 to ensure pole splitting. The design procedure is repeated next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now several more NMC opamps will be discussed. For sake of comparison, the conventional three-stage NMC amplifier is repeated. Its main disadvantage is the current consumption of the output stage. Indeed, compensation capacitance C shunts the output stage. m2 Its gain is now reduced at higher frequencies. Therefore, transconductance g must be enlarged m3 to ensure pole splitting. The design procedure is repeated next.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Nested-Miller Frequency compensation - NMC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0269_02_0927.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431833976844,
+          0.07804878066202092,
+          0.9121621561776063,
+          0.14146341480836244
+        ],
+        "confidence": 1,
+        "text": "Nested-Miller Frequency compensation - NMC"
+      },
+      {
+        "bbox": [
+          0.5067567560810812,
+          0.2975609757926829,
+          0.5608108101351352,
+          0.3317073172560976
+        ],
+        "confidence": 0.5,
+        "text": "Cm1"
+      },
+      {
+        "bbox": [
+          0.567567567820946,
+          0.37073170710365855,
+          0.6081081083614865,
+          0.42439024368902445
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ЧН"
+      },
+      {
+        "bbox": [
+          0.5912162164189189,
+          0.4146341467804878,
+          0.6452702704729729,
+          0.458536585804878
+        ],
+        "confidence": 1,
+        "text": "Cm2"
+      },
+      {
+        "bbox": [
+          0.15540540523648647,
+          0.4878048776097561,
+          0.18581081064189187,
+          0.5317073166341463
+        ],
+        "confidence": 0.5,
+        "text": "Vi"
+      },
+      {
+        "bbox": [
+          0.23648648627533786,
+          0.5219512190243902,
+          0.2601351349239865,
+          0.5609756092682927
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.2567567568918919,
+          0.5707317068780488,
+          0.310810810945946,
+          0.6146341459024389
+        ],
+        "confidence": 1,
+        "text": "gm1"
+      },
+      {
+        "bbox": [
+          0.42229729739864863,
+          0.5707317068780488,
+          0.4729729730743243,
+          0.6146341459024389
+        ],
+        "confidence": 1,
+        "text": "gm2"
+      },
+      {
+        "bbox": [
+          0.5878378376266891,
+          0.5707317078658537,
+          0.6385135133023648,
+          0.6146341468902439
+        ],
+        "confidence": 1,
+        "text": "gm3"
+      },
+      {
+        "bbox": [
+          0.7297297302787162,
+          0.48780487792682936,
+          0.7736486491976352,
+          0.5268292681707317
+        ],
+        "confidence": 1,
+        "text": "Vo"
+      },
+      {
+        "bbox": [
+          0.7364864868243243,
+          0.5756097558536586,
+          0.7635135138513514,
+          0.614634146097561
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.5777026981841217,
+          0.8682926831097562,
+          0.9391891846706083,
+          0.9024390245731707
+        ],
+        "confidence": 1,
+        "text": "Huijsing, JSSC Dec.85, pp.1144-1150"
+      },
+      {
+        "bbox": [
+          0.7364864885135135,
+          0.9317073168292682,
+          0.9391891912162162,
+          0.9658536582926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 a5 0927"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0269_02_0927.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Indeed, compensation capacitance C shunts the output stage. m2 Its gain is now reduced at higher frequencies.",
+      "pdf_page": 269,
+      "printed_page": 276,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, transconductance g must be enlarged m3 to ensure pole splitting.",
+      "pdf_page": 269,
+      "printed_page": 276,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

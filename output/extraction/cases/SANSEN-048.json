@@ -1,0 +1,378 @@
+{
+  "case_id": "SANSEN-048",
+  "slide_id": "048",
+  "chapter": 4,
+  "slide_number_in_chapter": 8,
+  "source": {
+    "pdf_page": 117,
+    "printed_page": 120
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0117_02_048.jpg",
+      "pdf_page": 117,
+      "printed_page": 120,
+      "bbox_pt": [
+        91.52162,
+        479.27399,
+        374.78981,
+        675.73398
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 117,
+      "printed_page": 120,
+      "bbox_pt": [
+        0,
+        475.28437035,
+        595,
+        797
+      ],
+      "text_raw": "Indeed the integral gives\np/2 as a value, provided\nthe variables are correct.\nThe integrated noise is\nnow simply 4kTR BW p/2,\nS\nwhich is the noise of the\nresistor itself, multiplied by\nBW p/2. This latter band-\nwidth is called the noise ban-\ndwidth BW .\nn\nThe ratio of the BW to\nn\nthe BW is 1.57. This extra\n57% is required to take into\naccount the integral of the\nregion with the first-order\nslope of 20 dB/decade. If we\ntook a steeper filter (3rd order or higher), then the BW and the BW nearly coincide.\nn",
+      "text": "Indeed the integral gives p/2 as a value, provided the variables are correct. The integrated noise is now simply 4kTR BW p/2, S which is the noise of the resistor itself, multiplied by BW p/2. This latter bandwidth is called the noise bandwidth BW . n The ratio of the BW to n the BW is 1.57. This extra 57% is required to take into account the integral of the region with the first-order slope of 20 dB/decade. If we took a steeper filter (3rd order or higher), then the BW and the BW nearly coincide. n"
+    },
+    {
+      "pdf_page": 118,
+      "printed_page": 121,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        243.0998999999997
+      ],
+      "text_raw": "However, the bandwidth BW also contains R . As a result R is cancelled out in the expression\nS S\nof the integrated noise. A very simple result emerges. The integrated noise is simply kT/C .\nL\nFor 1 pF the integrated noise is 65 mV . For less noise, we have to increase the size of the\nRMS\ncapacitance. For 10 pF that would be 65/√10 or about 21 mV .\nRMS\nThis can be understood by realizing that for larger resistors, the noise increases but the\nbandwidth is reduced by exactly the same amount.\nFilters all use the integrated noise as a specification or the SNR. They all use large capacitances\nto increase their SNR, and an amplitude which is as high as possible.",
+      "text": "However, the bandwidth BW also contains R . As a result R is cancelled out in the expression S S of the integrated noise. A very simple result emerges. The integrated noise is simply kT/C . L For 1 pF the integrated noise is 65 mV . For less noise, we have to increase the size of the RMS capacitance. For 10 pF that would be 65/√10 or about 21 mV . RMS This can be understood by realizing that for larger resistors, the noise increases but the bandwidth is reduced by exactly the same amount. Filters all use the integrated noise as a specification or the SNR. They all use large capacitances to increase their SNR, and an amplitude which is as high as possible."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Indeed the integral gives p/2 as a value, provided the variables are correct. The integrated noise is now simply 4kTR BW p/2, S which is the noise of the resistor itself, multiplied by BW p/2. This latter bandwidth is called the noise bandwidth BW . n The ratio of the BW to n the BW is 1.57. This extra 57% is required to take into account the integral of the region with the first-order slope of 20 dB/decade. If we took a steeper filter (3rd order or higher), then the BW and the BW nearly coincide. n\n\nHowever, the bandwidth BW also contains R . As a result R is cancelled out in the expression S S of the integrated noise. A very simple result emerges. The integrated noise is simply kT/C . L For 1 pF the integrated noise is 65 mV . For less noise, we have to increase the size of the RMS capacitance. For 10 pF that would be 65/√10 or about 21 mV . RMS This can be understood by realizing that for larger resistors, the noise increases but the bandwidth is reduced by exactly the same amount. Filters all use the integrated noise as a specification or the SNR. They all use large capacitances to increase their SNR, and an amplitude which is as high as possible.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Integrated Noise of Resistor - 2",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0117_02_048.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107750000004,
+          0.08780487868292686,
+          0.6216216180405406,
+          0.15121951282926827
+        ],
+        "confidence": 0.5,
+        "text": "Integrated Noise of Resistor - 2"
+      },
+      {
+        "bbox": [
+          0.23636787128539893,
+          0.5407113878926549,
+          0.48660510421535036,
+          0.6251422685555265
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "вw Bw,= °вw"
+      },
+      {
+        "bbox": [
+          0.08445946385135128,
+          0.8536585366463415,
+          0.43581081520270265,
+          0.9073170732317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL = 1pF VRS= 65 uVRMS"
+      },
+      {
+        "bbox": [
+          0.5709459461148648,
+          0.2878048784146341,
+          0.5912162163851351,
+          0.31707317109756095
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.5236486490990991,
+          0.3024390242682927,
+          0.5777027031531532,
+          0.3463414632926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VRS"
+      },
+      {
+        "bbox": [
+          0.7162162165822071,
+          0.2585365848373984,
+          0.8006756760416667,
+          0.3219512189837399
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVRs?"
+      },
+      {
+        "bbox": [
+          0.6822241558721337,
+          0.3254447963475955,
+          0.8650731377809835,
+          0.3867503262444014
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + (f/ BW) 2"
+      },
+      {
+        "bbox": [
+          0.7837837842483107,
+          0.4536585371341464,
+          0.8277027031672297,
+          0.49756097615853667
+        ],
+        "confidence": 1,
+        "text": "dx"
+      },
+      {
+        "bbox": [
+          0.7668918926520271,
+          0.5170731701219512,
+          0.8614864872466217,
+          0.5658536579268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + x2"
+      },
+      {
+        "bbox": [
+          0.5304054056306307,
+          0.6585365848780488,
+          0.5979729731981982,
+          0.7170731702439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VRS"
+      },
+      {
+        "bbox": [
+          0.5944541861557925,
+          0.6604617427904489,
+          0.8558537903345562,
+          0.739479074913996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 4KT RsBW 3 df"
+      },
+      {
+        "bbox": [
+          0.5270270274915541,
+          0.7902439032317072,
+          0.5979729734375,
+          0.8536585373780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VRS"
+      },
+      {
+        "bbox": [
+          0.641891892088964,
+          0.7707317078455284,
+          0.6858108110078829,
+          0.8341463419918699
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "KT"
+      },
+      {
+        "bbox": [
+          0.6452702699605856,
+          0.8341463409756098,
+          0.6891891888795045,
+          0.8926829263414634
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.9054054052364865,
+          0.5121951214634146,
+          0.9256756755067568,
+          0.5512195117073171
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.7229729761509528,
+          0.9463414634146341,
+          0.9189189092094079,
+          0.975609756097561
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-os 048"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0117_02_048.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This latter bandwidth is called the noise bandwidth BW . n The ratio of the BW to n the BW is 1.57.",
+      "pdf_page": 117,
+      "printed_page": 120,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "However, the bandwidth BW also contains R .",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result R is cancelled out in the expression S S of the integrated noise.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For less noise, we have to increase the size of the RMS capacitance.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "RMS This can be understood by realizing that for larger resistors, the noise increases but the bandwidth is reduced by exactly the same amount.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "They all use large capacitances to increase their SNR, and an amplitude which is as high as possible.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "This extra 57% is required to take into account the integral of the region with the first-order slope of 20 dB/decade.",
+      "pdf_page": 117,
+      "printed_page": 120,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Indeed the integral gives p/2 as a value, provided the variables are correct.",
+      "pdf_page": 117,
+      "printed_page": 120,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-048-M01",
+      "ocr_text": "вw Bw,= °вw",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.23636787128539893,
+        0.5407113878926549,
+        0.48660510421535036,
+        0.6251422685555265
+      ],
+      "context_crop": "regions/SANSEN-048_math_01.png",
+      "context_bbox_normalized": [
+        0.19636787128539893,
+        0.44071138789265496,
+        0.7166051042153504,
+        0.7551422685555265
+      ],
+      "source_image": "slides/p0117_02_048.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-048-M02",
+      "ocr_text": "CL = 1pF VRS= 65 uVRMS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08445946385135128,
+        0.8536585366463415,
+        0.43581081520270265,
+        0.9073170732317074
+      ],
+      "context_crop": "regions/SANSEN-048_math_02.png",
+      "context_bbox_normalized": [
+        0.04445946385135128,
+        0.7536585366463415,
+        0.6658108152027027,
+        0.93
+      ],
+      "source_image": "slides/p0117_02_048.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-048-M03",
+      "ocr_text": "= 4KT RsBW 3 df",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5944541861557925,
+        0.6604617427904489,
+        0.8558537903345562,
+        0.739479074913996
+      ],
+      "context_crop": "regions/SANSEN-048_math_03.png",
+      "context_bbox_normalized": [
+        0.5544541861557925,
+        0.5604617427904489,
+        1,
+        0.869479074913996
+      ],
+      "source_image": "slides/p0117_02_048.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

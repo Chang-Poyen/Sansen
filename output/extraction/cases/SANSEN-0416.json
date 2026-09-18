@@ -1,0 +1,201 @@
+{
+  "case_id": "SANSEN-0416",
+  "slide_id": "0416",
+  "chapter": 4,
+  "slide_number_in_chapter": 16,
+  "source": {
+    "pdf_page": 122,
+    "printed_page": 125
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0122_01_0416.jpg",
+      "pdf_page": 122,
+      "printed_page": 125,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 122,
+      "printed_page": 125,
+      "bbox_pt": [
+        0,
+        118.58729999999991,
+        595,
+        368.6590750000001
+      ],
+      "text_raw": "This is also very much the\ncase for the Substrate\nresistance.\nEven if the Substrate con-\ntact is shorted to the Source\ncontact, it is impossible\nto avoid the presence of\na Substrate resistance. Its\nvalue evidently depends on\nwhether the substrate has a\nback contact or not. It is\ndifficult to calculate its value\nbecause it is a distributed\nresistance. It will always be\npresent.\nThis resistance gives\nnoise, which has to be included in the small-signal diagram.",
+      "text": "This is also very much the case for the Substrate resistance. Even if the Substrate contact is shorted to the Source contact, it is impossible to avoid the presence of a Substrate resistance. Its value evidently depends on whether the substrate has a back contact or not. It is difficult to calculate its value because it is a distributed resistance. It will always be present. This resistance gives noise, which has to be included in the small-signal diagram."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This is also very much the case for the Substrate resistance. Even if the Substrate contact is shorted to the Source contact, it is impossible to avoid the presence of a Substrate resistance. Its value evidently depends on whether the substrate has a back contact or not. It is difficult to calculate its value because it is a distributed resistance. It will always be present. This resistance gives noise, which has to be included in the small-signal diagram.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Substrate resistances rg in a MOST",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0122_01_0416.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432612612608,
+          0.08292682983739841,
+          0.7027027045045044,
+          0.15121951276422763
+        ],
+        "confidence": 0.5,
+        "text": "Substrate resistances rg in a MOST"
+      },
+      {
+        "bbox": [
+          0.30067567648114385,
+          0.25853658487804876,
+          0.32770270189723455,
+          0.2878048775609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.6452702697072072,
+          0.27317073195121955,
+          0.679054053490991,
+          0.2975609758536586
+        ],
+        "confidence": 1,
+        "text": "VD"
+      },
+      {
+        "bbox": [
+          0.4763513516469594,
+          0.36097560957317065,
+          0.5000000002956081,
+          0.3853658534756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Wil"
+      },
+      {
+        "bbox": [
+          0.30405405439189187,
+          0.6926829271341463,
+          0.33783783817567564,
+          0.7170731710365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rы"
+      },
+      {
+        "bbox": [
+          0.3918918925112612,
+          0.7219512192682928,
+          0.4290540546734234,
+          0.7463414631707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rbv"
+      },
+      {
+        "bbox": [
+          0.1923754066002416,
+          0.7498645745481095,
+          0.2873543255006025,
+          0.7818427421052443
+        ],
+        "confidence": 0.5,
+        "text": "p-substrate"
+      },
+      {
+        "bbox": [
+          0.6655405371621622,
+          0.8975609757926829,
+          0.9358108074324324,
+          0.9317073172560976
+        ],
+        "confidence": 1,
+        "text": "Ref. Chang, Kluwer 1991"
+      },
+      {
+        "bbox": [
+          0.7297297277027027,
+          0.9512195123902439,
+          0.9324324304054054,
+          0.9804878050731708
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0416"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It is difficult to calculate its value because it is a distributed resistance.",
+      "pdf_page": 122,
+      "printed_page": 125,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0122_01_0416.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Even if the Substrate contact is shorted to the Source contact, it is impossible to avoid the presence of a Substrate resistance.",
+        "pdf_page": 122,
+        "printed_page": 125,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Its value evidently depends on whether the substrate has a back contact or not.",
+      "pdf_page": 122,
+      "printed_page": 125,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

@@ -1,0 +1,133 @@
+{
+  "case_id": "SANSEN-1211",
+  "slide_id": "1211",
+  "chapter": 12,
+  "slide_number_in_chapter": 11,
+  "source": {
+    "pdf_page": 335,
+    "printed_page": 342
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0335_01_1211.jpg",
+      "pdf_page": 335,
+      "printed_page": 342,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 335,
+      "printed_page": 342,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        405.52950000000016
+      ],
+      "text_raw": "There are many circuit vari-\nations on these cross-cou-\npled quadruples.\nIn the circuit on the right,\nwhich was originally made\nin bipolar technologies, one\ntransistor is left out on\neither side. Again all DC\ncurrents are set by the cur-\nrent sources I . The comple-\nB\nmentary differential pair\nis formed again with a\nnMOST, with\nv at its Gate, and a\nin\npMOST, which receives a\n−v from the source fol-\nin\nlower on the right side. An expanding output current is obtained again.\nAgain, four output currents can be distinguished.\nIt is less symmetrical than the first cross-coupled quad, which is therefore preferred.",
+      "text": "There are many circuit variations on these cross-coupled quadruples. In the circuit on the right, which was originally made in bipolar technologies, one transistor is left out on either side. Again all DC currents are set by the current sources I . The comple- B mentary differential pair is formed again with a nMOST, with v at its Gate, and a in pMOST, which receives a −v from the source folin lower on the right side. An expanding output current is obtained again. Again, four output currents can be distinguished. It is less symmetrical than the first cross-coupled quad, which is therefore preferred."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "There are many circuit variations on these cross-coupled quadruples. In the circuit on the right, which was originally made in bipolar technologies, one transistor is left out on either side. Again all DC currents are set by the current sources I . The comple- B mentary differential pair is formed again with a nMOST, with v at its Gate, and a in pMOST, which receives a −v from the source folin lower on the right side. An expanding output current is obtained again. Again, four output currents can be distinguished. It is less symmetrical than the first cross-coupled quad, which is therefore preferred.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Other cross-coupled quads",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0335_01_1211.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432557432436,
+          0.08292682990243905,
+          0.5506756769256758,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "Other cross-coupled quads"
+      },
+      {
+        "bbox": [
+          0.6081081025900903,
+          0.882926829512195,
+          0.9391891836711713,
+          0.9170731709756097
+        ],
+        "confidence": 1,
+        "text": "Bipolar Ref. Hearn, JSSC Febr.71"
+      },
+      {
+        "bbox": [
+          0.7263513606667183,
+          0.946341463927245,
+          0.9391891856170654,
+          0.9853658530081301
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 1211"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0335_01_1211.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The comple- B mentary differential pair is formed again with a nMOST, with v at its Gate, and a in pMOST, which receives a −v from the source folin lower on the right side.",
+        "pdf_page": 335,
+        "printed_page": 342,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is less symmetrical than the first cross-coupled quad, which is therefore preferred.",
+      "pdf_page": 335,
+      "printed_page": 342,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

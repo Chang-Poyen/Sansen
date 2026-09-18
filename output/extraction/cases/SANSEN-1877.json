@@ -1,0 +1,707 @@
+{
+  "case_id": "SANSEN-1877",
+  "slide_id": "1877",
+  "chapter": 18,
+  "slide_number_in_chapter": 77,
+  "source": {
+    "pdf_page": 547,
+    "printed_page": 557
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0547_01_1877.jpg",
+      "pdf_page": 547,
+      "printed_page": 557,
+      "bbox_pt": [
+        91.521622,
+        187.29950000000008,
+        374.78981,
+        383.759491
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 547,
+      "printed_page": 557,
+      "bbox_pt": [
+        0,
+        183.30989999999986,
+        595,
+        475.28450000000015
+      ],
+      "text_raw": "A two stage Miller opamp\nis taken with a 10 MHz\nGBW, set at a closed-loop\ngain of 10. Its bandwidth is\ntherefore 1 MHz. All values\nof the gains and transistor\nparameters are given in this\nslide. Each stage has a low-\nfrequency gain of 100. For a\nsignal output voltage of 1 V,\nthe voltages at the input and\nin between the two stages,\nare easily calculated.\nWhat is the main source\nof distortion?\nThis is clearly the output\nstage as it is driven by 10 mV, whereas the input stage only receives 0.1 mV input voltage. This\nis clear from the calculations.\nAt higher frequencies however, the input signal required to deliver 1 V will increase, as the\nopen-loop voltage decreases. It is not so obvious however, to determine what will be the signal\nvoltage between the two stages. This is shown in the next slide.",
+      "text": "A two stage Miller opamp is taken with a 10 MHz GBW, set at a closed-loop gain of 10. Its bandwidth is therefore 1 MHz. All values of the gains and transistor parameters are given in this slide. Each stage has a lowfrequency gain of 100. For a signal output voltage of 1 V, the voltages at the input and in between the two stages, are easily calculated. What is the main source of distortion? This is clearly the output stage as it is driven by 10 mV, whereas the input stage only receives 0.1 mV input voltage. This is clear from the calculations. At higher frequencies however, the input signal required to deliver 1 V will increase, as the open-loop voltage decreases. It is not so obvious however, to determine what will be the signal voltage between the two stages. This is shown in the next slide."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A two stage Miller opamp is taken with a 10 MHz GBW, set at a closed-loop gain of 10. Its bandwidth is therefore 1 MHz. All values of the gains and transistor parameters are given in this slide. Each stage has a lowfrequency gain of 100. For a signal output voltage of 1 V, the voltages at the input and in between the two stages, are easily calculated. What is the main source of distortion? This is clearly the output stage as it is driven by 10 mV, whereas the input stage only receives 0.1 mV input voltage. This is clear from the calculations. At higher frequencies however, the input signal required to deliver 1 V will increase, as the open-loop voltage decreases. It is not so obvious however, to determine what will be the signal voltage between the two stages. This is shown in the next slide.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Distortion in an opamp at low frequencies",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0547_01_1877.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431903957534,
+          0.08292682940766549,
+          0.8141891839044402,
+          0.1414634147735192
+        ],
+        "confidence": 1,
+        "text": "Distortion in an opamp at low frequencies"
+      },
+      {
+        "bbox": [
+          0.3716216217905406,
+          0.33658536643902437,
+          0.44256756773648653,
+          0.3951219518048781
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vin ="
+      },
+      {
+        "bbox": [
+          0.3713053183689011,
+          0.3934931380327791,
+          0.47666765635767716,
+          0.4406532029161274
+        ],
+        "confidence": 0.5,
+        "text": "0.1 mV"
+      },
+      {
+        "bbox": [
+          0.2331081082432432,
+          0.4536585370731707,
+          0.2601351352702702,
+          0.5024390248780487
+        ],
+        "confidence": 0.5,
+        "text": "3"
+      },
+      {
+        "bbox": [
+          0.17229729712837838,
+          0.48780487789356974,
+          0.20945945929054055,
+          0.5219512193569844
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.27364864898648644,
+          0.4829268290650406,
+          0.314189189527027,
+          0.5170731705284553
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.4560810814527027,
+          0.45853658590243906,
+          0.5000000003716216,
+          0.5121951224878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.11148648665540539,
+          0.6536585371219512,
+          0.1418918920608108,
+          0.7073170737073171
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.10472973001930501,
+          0.741463414425087,
+          0.14527027055984557,
+          0.7804878046689895
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.3952702703547297,
+          0.6682926836585366,
+          0.469594594679054,
+          0.7268292690243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vm ="
+      },
+      {
+        "bbox": [
+          0.34459459310810814,
+          0.7268292686341463,
+          0.4932432417567567,
+          0.7804878052195122
+        ],
+        "confidence": 0.5,
+        "text": "M2 10 mV"
+      },
+      {
+        "bbox": [
+          0.5608108113597973,
+          0.263414633902439,
+          0.6047297302787161,
+          0.3024390241463415
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.5912162171452703,
+          0.35121951219512193,
+          0.6655405414695945,
+          0.40975609756097553
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT"
+      },
+      {
+        "bbox": [
+          0.5912162149774776,
+          0.41463414666666676,
+          0.6655405393018018,
+          0.4536585369105691
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 1 V"
+      },
+      {
+        "bbox": [
+          0.648648647347397,
+          0.5024390225926643,
+          0.6925675694881885,
+          0.5658536613910755
+        ],
+        "confidence": 0.5,
+        "text": "N"
+      },
+      {
+        "bbox": [
+          0.5574324319932433,
+          0.6878048782439025,
+          0.6013513509121622,
+          0.7268292684878049
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.706081078293919,
+          0.21463414658536584,
+          0.929054051266892,
+          0.2536585368292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW = 10 MHz"
+      },
+      {
+        "bbox": [
+          0.7328492291160899,
+          0.2712710660580697,
+          0.9157994164898956,
+          0.3287289341223918
+        ],
+        "confidence": 0.5,
+        "text": "Avo = 10.000"
+      },
+      {
+        "bbox": [
+          0.7331081063851352,
+          0.32682926853658534,
+          0.9054054036824326,
+          0.3707317075609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BW = 1 kHz"
+      },
+      {
+        "bbox": [
+          0.7331081070945945,
+          0.39024390256097563,
+          0.8547297287162162,
+          0.4439024391463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avc = 10"
+      },
+      {
+        "bbox": [
+          0.7297297314527026,
+          0.502439024,
+          0.9020270287499998,
+          0.5609756093658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1DS1 = 6 HA"
+      },
+      {
+        "bbox": [
+          0.7297297279054054,
+          0.5658536587804878,
+          0.9121621603378379,
+          0.6195121953658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1 = 60 pS"
+      },
+      {
+        "bbox": [
+          0.7296377208879392,
+          0.6236806959310971,
+          0.9257676873144792,
+          0.6787583278116944
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DS3 = 120 pA"
+      },
+      {
+        "bbox": [
+          0.7297297278040541,
+          0.6780487807804878,
+          0.9222972953716216,
+          0.7365853661463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m3 = 1.2 mS"
+      },
+      {
+        "bbox": [
+          0.7331081085304053,
+          0.741463415304878,
+          0.7736486490709459,
+          0.7951219518902439
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.7837837812500001,
+          0.7414634148780487,
+          0.9358108082770271,
+          0.7756097563414633
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 100 k S2"
+      },
+      {
+        "bbox": [
+          0.8175675666807433,
+          0.7951219514634146,
+          0.8885135126266893,
+          0.8439024392682926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "5 pF"
+      },
+      {
+        "bbox": [
+          0.7837837844172296,
+          0.8536585372560975,
+          0.8885135141469593,
+          0.9073170738414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 1 pF"
+      },
+      {
+        "bbox": [
+          0.7195945976036554,
+          0.9365853652845527,
+          0.9324324225540026,
+          0.9707317067479674
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1877"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For a signal output voltage of 1 V, the voltages at the input and in between the two stages, are easily calculated.",
+      "pdf_page": 547,
+      "printed_page": 557,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is not so obvious however, to determine what will be the signal voltage between the two stages.",
+      "pdf_page": 547,
+      "printed_page": 557,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is shown in the next slide.",
+      "pdf_page": 547,
+      "printed_page": 557,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0547_01_1877.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "What is the main source of distortion?",
+        "pdf_page": 547,
+        "printed_page": 557,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "A two stage Miller opamp is taken with a 10 MHz GBW, set at a closed-loop gain of 10.",
+      "pdf_page": 547,
+      "printed_page": 557,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its bandwidth is therefore 1 MHz.",
+      "pdf_page": 547,
+      "printed_page": 557,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Each stage has a lowfrequency gain of 100.",
+      "pdf_page": 547,
+      "printed_page": 557,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "At higher frequencies however, the input signal required to deliver 1 V will increase, as the open-loop voltage decreases.",
+      "pdf_page": 547,
+      "printed_page": 557,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1877-M01",
+      "ocr_text": "Vin =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3716216217905406,
+        0.33658536643902437,
+        0.44256756773648653,
+        0.3951219518048781
+      ],
+      "context_crop": "regions/SANSEN-1877_math_01.png",
+      "context_bbox_normalized": [
+        0.3316216217905406,
+        0.23658536643902436,
+        0.6725675677364865,
+        0.5251219518048781
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M02",
+      "ocr_text": "Vm =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3952702703547297,
+        0.6682926836585366,
+        0.469594594679054,
+        0.7268292690243903
+      ],
+      "context_crop": "regions/SANSEN-1877_math_02.png",
+      "context_bbox_normalized": [
+        0.35527027035472974,
+        0.5682926836585366,
+        0.699594594679054,
+        0.8568292690243903
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M03",
+      "ocr_text": "= 1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5912162149774776,
+        0.41463414666666676,
+        0.6655405393018018,
+        0.4536585369105691
+      ],
+      "context_crop": "regions/SANSEN-1877_math_03.png",
+      "context_bbox_normalized": [
+        0.5512162149774775,
+        0.3146341466666668,
+        0.8955405393018018,
+        0.5836585369105691
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M04",
+      "ocr_text": "GBW = 10 MHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.706081078293919,
+        0.21463414658536584,
+        0.929054051266892,
+        0.2536585368292683
+      ],
+      "context_crop": "regions/SANSEN-1877_math_04.png",
+      "context_bbox_normalized": [
+        0.6660810782939189,
+        0.13,
+        1,
+        0.3836585368292683
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M05",
+      "ocr_text": "Avo = 10.000",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7328492291160899,
+        0.2712710660580697,
+        0.9157994164898956,
+        0.3287289341223918
+      ],
+      "context_crop": "regions/SANSEN-1877_math_05.png",
+      "context_bbox_normalized": [
+        0.6928492291160898,
+        0.17127106605806972,
+        1,
+        0.4587289341223918
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M06",
+      "ocr_text": "BW = 1 kHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7331081063851352,
+        0.32682926853658534,
+        0.9054054036824326,
+        0.3707317075609756
+      ],
+      "context_crop": "regions/SANSEN-1877_math_06.png",
+      "context_bbox_normalized": [
+        0.6931081063851352,
+        0.22682926853658533,
+        1,
+        0.5007317075609756
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M07",
+      "ocr_text": "Avc = 10",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7331081070945945,
+        0.39024390256097563,
+        0.8547297287162162,
+        0.4439024391463414
+      ],
+      "context_crop": "regions/SANSEN-1877_math_07.png",
+      "context_bbox_normalized": [
+        0.6931081070945945,
+        0.29024390256097565,
+        1,
+        0.5739024391463414
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M08",
+      "ocr_text": "1DS1 = 6 HA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7297297314527026,
+        0.502439024,
+        0.9020270287499998,
+        0.5609756093658537
+      ],
+      "context_crop": "regions/SANSEN-1877_math_08.png",
+      "context_bbox_normalized": [
+        0.6897297314527026,
+        0.402439024,
+        1,
+        0.6909756093658537
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M09",
+      "ocr_text": "9m1 = 60 pS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7297297279054054,
+        0.5658536587804878,
+        0.9121621603378379,
+        0.6195121953658537
+      ],
+      "context_crop": "regions/SANSEN-1877_math_09.png",
+      "context_bbox_normalized": [
+        0.6897297279054053,
+        0.4658536587804878,
+        1,
+        0.7495121953658537
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M10",
+      "ocr_text": "DS3 = 120 pA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7296377208879392,
+        0.6236806959310971,
+        0.9257676873144792,
+        0.6787583278116944
+      ],
+      "context_crop": "regions/SANSEN-1877_math_10.png",
+      "context_bbox_normalized": [
+        0.6896377208879392,
+        0.5236806959310971,
+        1,
+        0.8087583278116944
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M11",
+      "ocr_text": "9m3 = 1.2 mS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7297297278040541,
+        0.6780487807804878,
+        0.9222972953716216,
+        0.7365853661463414
+      ],
+      "context_crop": "regions/SANSEN-1877_math_11.png",
+      "context_bbox_normalized": [
+        0.6897297278040541,
+        0.5780487807804878,
+        1,
+        0.8665853661463414
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M12",
+      "ocr_text": "= 100 k S2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7837837812500001,
+        0.7414634148780487,
+        0.9358108082770271,
+        0.7756097563414633
+      ],
+      "context_crop": "regions/SANSEN-1877_math_12.png",
+      "context_bbox_normalized": [
+        0.7437837812500001,
+        0.6414634148780487,
+        1,
+        0.9056097563414633
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1877-M13",
+      "ocr_text": "= 1 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7837837844172296,
+        0.8536585372560975,
+        0.8885135141469593,
+        0.9073170738414634
+      ],
+      "context_crop": "regions/SANSEN-1877_math_13.png",
+      "context_bbox_normalized": [
+        0.7437837844172296,
+        0.7536585372560975,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0547_01_1877.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

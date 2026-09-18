@@ -1,0 +1,367 @@
+{
+  "case_id": "SANSEN-079",
+  "slide_id": "079",
+  "chapter": 7,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 209,
+    "printed_page": 214
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0210_01_079.jpg",
+      "pdf_page": 210,
+      "printed_page": 215,
+      "bbox_pt": [
+        91.521622,
+        122.875763,
+        374.78981,
+        319.33575399999995
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 209,
+      "printed_page": 214,
+      "bbox_pt": [
+        0,
+        594.864475,
+        595,
+        797
+      ],
+      "text_raw": "Can BiCMOS provide additional advantages?\nA typical BiCMOS realization of a Miller OTA is shown in this slide.\nThe second stage uses a bipolar transistor as its g is the same as for a MOST but with 4\nm\ntimes less DC current. Since the current in the second stage is by far the larger one, big savings\nin power consumption are achieved.\nThe input resistance of a bipolar transistor is too small, however. It reduces the resistance at\nnode 1 considerably, such that there is little gain left (if any) in the first stage.",
+      "text": "Can BiCMOS provide additional advantages? A typical BiCMOS realization of a Miller OTA is shown in this slide. The second stage uses a bipolar transistor as its g is the same as for a MOST but with 4 m times less DC current. Since the current in the second stage is by far the larger one, big savings in power consumption are achieved. The input resistance of a bipolar transistor is too small, however. It reduces the resistance at node 1 considerably, such that there is little gain left (if any) in the first stage."
+    },
+    {
+      "pdf_page": 210,
+      "printed_page": 215,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        393.8206500000001
+      ],
+      "text_raw": "This is why we need an\nEmitter follower between\nthe first stage and the input\ntransistor of the second\nstage. It is realized with\ntransistor M9. The input\nresistance is now beta times\nhigher and hopefully com-\nparable to the output resis-\ntance of the first stage.\nThis Emitter follower\nraises the DC voltage at\nnode 1 by one more V . As\nBE\na result, node 1 is about 2\nV ’s or 1.3 V higher than\nBE\nV .\nSS\nIn order to establish the\nsame DC voltage at the other node 2, we use the three-transistor bipolar current mirror, explained\nin Chapter 2. Now both nodes 1 and 2 present similar DC voltages to the input pair, improving\nmatching.",
+      "text": "This is why we need an Emitter follower between the first stage and the input transistor of the second stage. It is realized with transistor M9. The input resistance is now beta times higher and hopefully comparable to the output resistance of the first stage. This Emitter follower raises the DC voltage at node 1 by one more V . As BE a result, node 1 is about 2 V ’s or 1.3 V higher than BE V . SS In order to establish the same DC voltage at the other node 2, we use the three-transistor bipolar current mirror, explained in Chapter 2. Now both nodes 1 and 2 present similar DC voltages to the input pair, improving matching."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Can BiCMOS provide additional advantages? A typical BiCMOS realization of a Miller OTA is shown in this slide. The second stage uses a bipolar transistor as its g is the same as for a MOST but with 4 m times less DC current. Since the current in the second stage is by far the larger one, big savings in power consumption are achieved. The input resistance of a bipolar transistor is too small, however. It reduces the resistance at node 1 considerably, such that there is little gain left (if any) in the first stage.\n\nThis is why we need an Emitter follower between the first stage and the input transistor of the second stage. It is realized with transistor M9. The input resistance is now beta times higher and hopefully comparable to the output resistance of the first stage. This Emitter follower raises the DC voltage at node 1 by one more V . As BE a result, node 1 is about 2 V ’s or 1.3 V higher than BE V . SS In order to establish the same DC voltage at the other node 2, we use the three-transistor bipolar current mirror, explained in Chapter 2. Now both nodes 1 and 2 present similar DC voltages to the input pair, improving matching.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Miller BiCMOS OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0210_01_079.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107722972979,
+          0.08292682946341468,
+          0.4662162123648649,
+          0.14146341482926827
+        ],
+        "confidence": 1,
+        "text": "Miller BiCMOS OTA"
+      },
+      {
+        "bbox": [
+          0.2668918914864865,
+          0.2536585368292683,
+          0.307432432027027,
+          0.287804878292683
+        ],
+        "confidence": 1,
+        "text": "M7"
+      },
+      {
+        "bbox": [
+          0.23648648628378383,
+          0.4585365848780487,
+          0.26351351331081085,
+          0.5073170726829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3"
+      },
+      {
+        "bbox": [
+          0.17567567571790538,
+          0.4878048785365854,
+          0.21283783788006755,
+          0.5268292687804877
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.28378378344594596,
+          0.4878048782439024,
+          0.31756756722972973,
+          0.5170731709268293
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.4459459464949324,
+          0.4731707316463416,
+          0.4898648654138513,
+          0.5268292682317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.2635135141328829,
+          0.5999999998373984,
+          0.30067567629504505,
+          0.6292682925203252
+        ],
+        "confidence": 1,
+        "text": "M8"
+      },
+      {
+        "bbox": [
+          0.4864864868243243,
+          0.5999999998048781,
+          0.520270270608108,
+          0.6292682924878049
+        ],
+        "confidence": 0.5,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.11824324361486487,
+          0.6439024388292685,
+          0.15540540577702702,
+          0.702439024195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.11486486520270268,
+          0.7414634143902439,
+          0.14864864898648647,
+          0.7756097558536584
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "М3"
+      },
+      {
+        "bbox": [
+          0.3479729725675676,
+          0.7414634148780488,
+          0.3885135131081081,
+          0.7756097563414635
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.5912162157094595,
+          0.2097560969756097,
+          0.6486486481418918,
+          0.2682926823414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5608108108530405,
+          0.2682926824390244,
+          0.5979729730152027,
+          0.30731707268292685
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.6452702721072635,
+          0.3073170730182927,
+          0.9391891910261824,
+          0.3609756096036585
+        ],
+        "confidence": 0.5,
+        "text": "9m6NPN > 9m6NMOS"
+      },
+      {
+        "bbox": [
+          0.587837837195946,
+          0.40487804829268303,
+          0.6587837831418919,
+          0.453658536097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.5608108108108109,
+          0.6634146346341463,
+          0.6013513513513513,
+          0.7024390248780488
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.7195573261792987,
+          0.5705289400662251,
+          0.8209832123334735,
+          0.6099588651939524
+        ],
+        "confidence": 1,
+        "text": "Node 1:"
+      },
+      {
+        "bbox": [
+          0.722972975464527,
+          0.614634146097561,
+          0.9222972997888513,
+          0.6536585363414633
+        ],
+        "confidence": 1,
+        "text": "High impedance"
+      },
+      {
+        "bbox": [
+          0.7229729820068084,
+          0.7024390251219512,
+          0.9189189150652635,
+          0.7463414641463415
+        ],
+        "confidence": 1,
+        "text": "Extra nodes 5, 6"
+      },
+      {
+        "bbox": [
+          0.5878378383164413,
+          0.7853658536178862,
+          0.6452702707488738,
+          0.839024390203252
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.7195946043604119,
+          0.9463414630894309,
+          0.9189189157972454,
+          0.9756097557723576
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 079"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A typical BiCMOS realization of a Miller OTA is shown in this slide.",
+      "pdf_page": 209,
+      "printed_page": 214,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "SS In order to establish the same DC voltage at the other node 2, we use the three-transistor bipolar current mirror, explained in Chapter 2.",
+      "pdf_page": 210,
+      "printed_page": 215,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0210_01_079.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This is why we need an Emitter follower between the first stage and the input transistor of the second stage.",
+        "pdf_page": 210,
+        "printed_page": 215,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This Emitter follower raises the DC voltage at node 1 by one more V .",
+        "pdf_page": 210,
+        "printed_page": 215,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It reduces the resistance at node 1 considerably, such that there is little gain left (if any) in the first stage.",
+      "pdf_page": 209,
+      "printed_page": 214,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-079-M01",
+      "ocr_text": "9m6NPN > 9m6NMOS",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6452702721072635,
+        0.3073170730182927,
+        0.9391891910261824,
+        0.3609756096036585
+      ],
+      "context_crop": "regions/SANSEN-079_math_01.png",
+      "context_bbox_normalized": [
+        0.6052702721072635,
+        0.2073170730182927,
+        1,
+        0.4909756096036585
+      ],
+      "source_image": "slides/p0210_01_079.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

@@ -1,0 +1,526 @@
+{
+  "case_id": "SANSEN-0236",
+  "slide_id": "0236",
+  "chapter": 2,
+  "slide_number_in_chapter": 36,
+  "source": {
+    "pdf_page": 67,
+    "printed_page": 68
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0067_02_0236.jpg",
+      "pdf_page": 67,
+      "printed_page": 68,
+      "bbox_pt": [
+        91.521622,
+        359.395051,
+        374.78981,
+        555.855042
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 67,
+      "printed_page": 68,
+      "bbox_pt": [
+        0,
+        355.4055,
+        595,
+        797
+      ],
+      "text_raw": "A good overview of all the\nsingle-transistor stages is\ngiven in this slide.\nThe first one, the ampli-\nfier, is also called common-\nsource stage. It converts an\ninput voltage into an output\ncurrent, by means of trans-\nconductance g . The bias-\nm\ning is done by means of a\nvoltage source V at the\nB\ninput, which is the V .\nGS\nThe other two stages are\ncalled respectively a Source\nfollower and Cascode. They\nhave the same biasing setup.\nBoth are biased by a DC current source I . Their V then adjusts itself such that the current\nB GS\ncan flow effectively.\nIn a Source follower the small-signal input voltage is applied at the Gate. The output is at\nthe Source. Since the current is kept constant by the current source, the V is also constant. As\nGS\na result any small-signal variation at the input will give rise to an equal small-signal at the\noutput. The voltage gain is therefore unity. This is why a Source follower is also called a\nVoltage buffer.\nIt is a buffer because its input resistance is infinity but its output resistance is only 1/g . This\nm\nstage will now be used to transfer a voltage in an accurate way from a high impedance to a\nlower one. This is required for microphone amplifiers, biopotential preamplifiers, etc. Their\ninternal impedances can be many hundreds of MV’s!",
+      "text": "A good overview of all the single-transistor stages is given in this slide. The first one, the amplifier, is also called commonsource stage. It converts an input voltage into an output current, by means of transconductance g . The biasm ing is done by means of a voltage source V at the B input, which is the V . GS The other two stages are called respectively a Source follower and Cascode. They have the same biasing setup. Both are biased by a DC current source I . Their V then adjusts itself such that the current B GS can flow effectively. In a Source follower the small-signal input voltage is applied at the Gate. The output is at the Source. Since the current is kept constant by the current source, the V is also constant. As GS a result any small-signal variation at the input will give rise to an equal small-signal at the output. The voltage gain is therefore unity. This is why a Source follower is also called a Voltage buffer. It is a buffer because its input resistance is infinity but its output resistance is only 1/g . This m stage will now be used to transfer a voltage in an accurate way from a high impedance to a lower one. This is required for microphone amplifiers, biopotential preamplifiers, etc. Their internal impedances can be many hundreds of MV’s!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A good overview of all the single-transistor stages is given in this slide. The first one, the amplifier, is also called commonsource stage. It converts an input voltage into an output current, by means of transconductance g . The biasm ing is done by means of a voltage source V at the B input, which is the V . GS The other two stages are called respectively a Source follower and Cascode. They have the same biasing setup. Both are biased by a DC current source I . Their V then adjusts itself such that the current B GS can flow effectively. In a Source follower the small-signal input voltage is applied at the Gate. The output is at the Source. Since the current is kept constant by the current source, the V is also constant. As GS a result any small-signal variation at the input will give rise to an equal small-signal at the output. The voltage gain is therefore unity. This is why a Source follower is also called a Voltage buffer. It is a buffer because its input resistance is infinity but its output resistance is only 1/g . This m stage will now be used to transfer a voltage in an accurate way from a high impedance to a lower one. This is required for microphone amplifiers, biopotential preamplifiers, etc. Their internal impedances can be many hundreds of MV’s!",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Single-transistor stages",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0067_02_0236.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946235521233,
+          0.08780487780487811,
+          0.4898648677606177,
+          0.15121951195121952
+        ],
+        "confidence": 1,
+        "text": "Single-transistor stages"
+      },
+      {
+        "bbox": [
+          0.08108108336148642,
+          0.19999999981707317,
+          0.26351351579391885,
+          0.23414634128048784
+        ],
+        "confidence": 1,
+        "text": "Common source"
+      },
+      {
+        "bbox": [
+          0.368243241258446,
+          0.19999999957317072,
+          0.5337837817989866,
+          0.23414634103658538
+        ],
+        "confidence": 0.5,
+        "text": "Common drain"
+      },
+      {
+        "bbox": [
+          0.6317567586570946,
+          0.20487804847560975,
+          0.7837837856841215,
+          0.23902438993902442
+        ],
+        "confidence": 1,
+        "text": "Common gate"
+      },
+      {
+        "bbox": [
+          0.29729729679054057,
+          0.2682926823780488,
+          0.35810810760135137,
+          0.312195121402439
+        ],
+        "confidence": 1,
+        "text": "lout"
+      },
+      {
+        "bbox": [
+          0.09797297344594594,
+          0.4097560974634147,
+          0.14527027074324322,
+          0.45853658526829266
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.08783783758445945,
+          0.507317072804878,
+          0.13513513488175674,
+          0.5658536581707317
+        ],
+        "confidence": 1,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.3682432428378378,
+          0.35121951170731713,
+          0.41554054013513514,
+          0.3999999995121952
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.3952702704391891,
+          0.4000000004878048,
+          0.44932432449324317,
+          0.47804878097560977
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "®"
+      },
+      {
+        "bbox": [
+          0.3783783787443694,
+          0.48780487792682936,
+          0.42229729766328833,
+          0.5414634145121952
+        ],
+        "confidence": 1,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.5743243234797296,
+          0.3317073171951219,
+          0.6418918910472972,
+          0.380487805
+        ],
+        "confidence": 0.5,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.6114864858108109,
+          0.38536585292682923,
+          0.6790540533783784,
+          0.44390243829268283
+        ],
+        "confidence": 1,
+        "text": "Rout"
+      },
+      {
+        "bbox": [
+          0.8175675670608108,
+          0.2243902432317073,
+          0.8851351346283783,
+          0.2780487798170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ", lout"
+      },
+      {
+        "bbox": [
+          0.800675675,
+          0.36585365790243907,
+          0.8749999993243244,
+          0.4292682920487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 Rin"
+      },
+      {
+        "bbox": [
+          0.1450233537175213,
+          0.6080759373169642,
+          0.33132800028685067,
+          0.6699728453094435
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'out = 9mVin"
+      },
+      {
+        "bbox": [
+          0.16167712049327965,
+          0.7921811173987122,
+          0.32480936274758837,
+          0.8565993704832205
+        ],
+        "confidence": 1,
+        "text": "Amplifier"
+      },
+      {
+        "bbox": [
+          0.4662162160050676,
+          0.6146341470731708,
+          0.6182432430320947,
+          0.6731707324390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vout = Vin"
+      },
+      {
+        "bbox": [
+          0.4695945930405406,
+          0.7024390238048781,
+          0.6317567552027027,
+          0.7609756091707318
+        ],
+        "confidence": 0.5,
+        "text": "Rout = 1/9m"
+      },
+      {
+        "bbox": [
+          0.41554054247104244,
+          0.7951219510104529,
+          0.6858108127413127,
+          0.843902438815331
+        ],
+        "confidence": 1,
+        "text": "Source follower"
+      },
+      {
+        "bbox": [
+          0.46957000505169005,
+          0.8632049518909795,
+          0.6284029675002226,
+          0.9026487076223295
+        ],
+        "confidence": 1,
+        "text": "Voltage buffer"
+      },
+      {
+        "bbox": [
+          0.7499999984375,
+          0.604878047987805,
+          0.8817567551942568,
+          0.6682926821341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout = lin"
+      },
+      {
+        "bbox": [
+          0.7601351337500001,
+          0.7024390238048781,
+          0.9054054040202704,
+          0.7609756091707318
+        ],
+        "confidence": 0.5,
+        "text": "Rin = 1/9m"
+      },
+      {
+        "bbox": [
+          0.7398648631756757,
+          0.7951219506097562,
+          0.8885135118243244,
+          0.8439024384146342
+        ],
+        "confidence": 1,
+        "text": "Cascode"
+      },
+      {
+        "bbox": [
+          0.7432432452280405,
+          0.8634146339634147,
+          0.9020270290118243,
+          0.8975609754268292
+        ],
+        "confidence": 1,
+        "text": "Current buffer"
+      },
+      {
+        "bbox": [
+          0.7195946045293309,
+          0.9317073167479675,
+          0.9290540511012996,
+          0.9609756094308943
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0236"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0067_02_0236.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The biasm ing is done by means of a voltage source V at the B input, which is the V .",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "GS The other two stages are called respectively a Source follower and Cascode.",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Both are biased by a DC current source I .",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In a Source follower the small-signal input voltage is applied at the Gate.",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The output is at the Source.",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Since the current is kept constant by the current source, the V is also constant.",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This is why a Source follower is also called a Voltage buffer.",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As GS a result any small-signal variation at the input will give rise to an equal small-signal at the output.",
+      "pdf_page": 67,
+      "printed_page": 68,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The voltage gain is therefore unity.",
+      "pdf_page": 67,
+      "printed_page": 68,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0236-M01",
+      "ocr_text": "'out = 9mVin",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1450233537175213,
+        0.6080759373169642,
+        0.33132800028685067,
+        0.6699728453094435
+      ],
+      "context_crop": "regions/SANSEN-0236_math_01.png",
+      "context_bbox_normalized": [
+        0.1050233537175213,
+        0.5080759373169642,
+        0.5613280002868507,
+        0.7999728453094435
+      ],
+      "source_image": "slides/p0067_02_0236.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0236-M02",
+      "ocr_text": "Vout = Vin",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4662162160050676,
+        0.6146341470731708,
+        0.6182432430320947,
+        0.6731707324390244
+      ],
+      "context_crop": "regions/SANSEN-0236_math_02.png",
+      "context_bbox_normalized": [
+        0.4262162160050676,
+        0.5146341470731708,
+        0.8482432430320946,
+        0.8031707324390244
+      ],
+      "source_image": "slides/p0067_02_0236.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0236-M03",
+      "ocr_text": "Rout = 1/9m",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.4695945930405406,
+        0.7024390238048781,
+        0.6317567552027027,
+        0.7609756091707318
+      ],
+      "context_crop": "regions/SANSEN-0236_math_03.png",
+      "context_bbox_normalized": [
+        0.4295945930405406,
+        0.6024390238048781,
+        0.8617567552027027,
+        0.8909756091707318
+      ],
+      "source_image": "slides/p0067_02_0236.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0236-M04",
+      "ocr_text": "lout = lin",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7499999984375,
+        0.604878047987805,
+        0.8817567551942568,
+        0.6682926821341464
+      ],
+      "context_crop": "regions/SANSEN-0236_math_04.png",
+      "context_bbox_normalized": [
+        0.7099999984375,
+        0.504878047987805,
+        1,
+        0.7982926821341464
+      ],
+      "source_image": "slides/p0067_02_0236.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0236-M05",
+      "ocr_text": "Rin = 1/9m",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7601351337500001,
+        0.7024390238048781,
+        0.9054054040202704,
+        0.7609756091707318
+      ],
+      "context_crop": "regions/SANSEN-0236_math_05.png",
+      "context_bbox_normalized": [
+        0.72013513375,
+        0.6024390238048781,
+        1,
+        0.8909756091707318
+      ],
+      "source_image": "slides/p0067_02_0236.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "08-followers-dc",
+    "title": "源极与射极跟随器：DC",
+    "summary_zh": "由输出节点 KCL 求跟随增益、输出阻抗与衬底固定时的体效应。",
+    "html": "../derivations/ch02/08-followers-dc.html",
+    "markdown": "../derivations/ch02/08-followers-dc.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "源极与射极跟随器：DC",
+    "case_ids": [
+      "follower_dc"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#08-followers-dc",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

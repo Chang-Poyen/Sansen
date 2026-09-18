@@ -1,0 +1,61 @@
+Amplifiers, source followers and cascodes 77
+Note that R contains all the parameters involved, the ones of the transistor such as g and
+Lc m
+r but also R . It contains the actual gain g r of the transistor itself.
+DS B m DS
+0252
+Let us now look again at the
+actual transresistance A
+R
+and at the input resistance
+R .
+in
+For very large values
+of the load resistor, A
+R
+becomes R itself. The gain
+Lc
+A includes the gain of the
+R
+transistor g r , and is
+m DS
+therefore quite high. It is the
+highest transresistance gain
+that can be achieved by
+a single-transistor cascode.
+For that purpose, the load
+resistor must be larger than
+that very same transresis-
+tance R .
+Lc
+For these large load resistances, the input resistance of the transistor itself becomes infinity.
+This is expected as the load resistor is also infinity – no current can pass through the transistor.
+The resistance seen by the input current source thus becomes resistor R , which is actually its
+B
+output resistance. It is thus by no means small, as suggested by the 1/g low load resistances.
+m
+0253
+Substituting the input cur-
+rent source by another tran-
+sistor, yields the two-
+transistor cascode, shown at
+the right. Since a transistor
+acts as a current source,
+with output resistor r ,
+DS
+it can take the place of
+the input current source
+with output resistor R . The
+B
+maximum gain (for very
+large resistive load) is this
+given in this slide,
+This shows that the total
+voltage gain now equals the
+product of the gains of both
+transistors.
+Obviously this is a result of the increase of the output resistance. For one single transistor
+(left), this output impedance is only r but for a transistor with another r in its Source (right),
+DS1 DS
+it is r g r , as shown in this slide.
+DS1 m2 DS2

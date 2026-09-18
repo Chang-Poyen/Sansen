@@ -1,0 +1,48 @@
+224 Chapter #7
+0727
+The capacitances at the top
+nodes 5, 6 and 7 also cause
+non-dominant poles. They
+are followed by zeros how-
+ever, at double the fre-
+quency. Indeed, each time
+we have a single-ended
+amplifier, the capacitances
+on the other side than the
+output, will be negligible for
+the Phase Margin.
+As a conclusion, this OTA
+has only one single non-
+dominant pole. It is fairly
+easy to design. It also has
+the advantage that it is
+very fast.
+0728
+Would a BiCMOS folded
+OTA be even faster?
+The only good position
+for bipolar transistors to be
+plugged in, is as cascode
+devices. Indeed, this is where
+we need the highest-speed
+devices. The non-dominant
+pole at nodes 1 and 2 are
+linked to the f of the cas-
+T
+codes. This is higher than
+the f of the nMOST f
+T T
+within a particular
+BiCMOS technology.
+Remember that this is not
+necessarily higher than for
+nMOSTs in a more recent standard CMOS technology.
+Never use bipolar devices for the transistors M10 and M11 in the DC current sources. Their
+collector-substrate capacitances would reduce the non-dominant pole at nodes 1 and 2 too much!
+0729
+The second important advantage of a folded cascode OTA is that the input transistors can
+operate with their Gates beyond the supply lines. The common-mode input voltage range can
+include one of the supply rails!
+In the circuit in this slide, the pMOST devices at the input still operate when the Gates are
+connected to ground, or even below ground. The V values of the input transistors are easily
+GS

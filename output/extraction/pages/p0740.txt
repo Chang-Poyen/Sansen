@@ -1,0 +1,46 @@
+752 Chapter #24
+Quite often, considerable space is allotted to decoupling capacitances. These are small capaci-
+tances connected locally to provide low impedances to ground at high frequencies.
+2419
+Actually, the same tech-
+niques to avoid coupling
+of noise is applicable
+for printed-circuit boards
+(PCB) as for silicon chips.
+This is why an example is
+given of a printed-circuit
+board with an analog block
+and a digital block. It is to
+be connected to several
+pieces of equipment.
+It is clear that all sup-
+ply lines are separated.
+Moreover, the shielding of
+all connecting cables is con-
+nected to the external
+ground separately. The substrate or the ground plane of the PCB is also connected separately
+to the external ground.
+2420
+On-chip decoupling may
+not always work.
+An example is given in
+this slide where decoupling
+does more harm than good.
+A single digital gate is
+used. It is switched by appli-
+cation of a logic one. It is
+loaded by a load capacitor.
+Its supply lines are con-
+nected over bonding wire
+inductors. The supply volt-
+age is measured at the termi-
+nals of the gate.
+Without decoupling cap-
+acitance, high-frequency
+ringing is detected on the supply line. The addition of a decoupling capacitance C across the
+D
+gate terminals, causes ringing of this capacitor with the bonding wire inductors. It has a lower
+frequency than before, but is larger in amplitude.
+Addition of series resistors R dampens this ringing but also causes a DC voltage drop along
+L
+the supply lines, which is to be avoided.

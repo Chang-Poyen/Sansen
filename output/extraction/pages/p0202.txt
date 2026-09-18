@@ -1,0 +1,50 @@
+206 Chapter #6
+Actually, this zero is at the frequency where the output resistance of the first stage is taken
+over by the impedance of the compensation capacitance C . It is the frequency where the gain
+c
+of the first stage starts decreasing.
+Anyway, for most of the frequency region, the output impedance is quite low. As a result, we
+do not need a class AB stage. These latter stages are only necessary to drive off-chip loads. Also,
+a line connection at an impedance of a few kV’s does not pick up a lot of noise. It is a good
+value for interconnect.
+Application of unity-gain feedback causes the output impedance to be divided by the total
+gain. Since the pole f is the same for both, it disappears. The zero remains, indicating a wide
+d
+region which is inductive.
+With the load capacitance C included, the impedance Z starts decreasing at the non-
+L OUTCL
+dominant pole f .
+nd
+0648
+In order to find the equiva-
+lent input noise voltage, we
+have to introduce the input
+noise voltages for the first
+and second stages.
+They are included in the
+small-signal equivalent cir-
+cuit shown in this slide.
+The input noise of the
+input stage is given as well.
+Only the two input transis-
+tors themselves are in-
+cluded. We have assumed
+that the current mirror
+devices have been designed
+for low noise.
+The input noise of the second stage is due to transistor M6 only. It is embedded in the circuit
+in this slide. Note that it has taken a fairly strange position, in series with the Gate. Therefore,
+its effect is not found that easily.
+We now have to shift the input noise voltage of the second stage to the input. For this purpose,
+we calculate its contribution to the output, and then divide it by the total gain.
+The result is shown next.
+0649
+Both contributions of the noise sources to the output noise are shown in this slide for unity-
+gain feedback. The contribution of the input stage drops off at frequencies beyond the GBW.
+The second-stage noise however, becomes dominant at high frequencies. The behavior at these
+frequencies is most important as noise has to be looked at on a linear frequency scale.
+At low frequencies the noise density of the second stage is clearly negligible. It can be divided
+by the gain of the first stage squared.
+Beyond the zero frequency f , which is the same as for the output impedance, the noise
+z
+contribution of the second stage starts rising, until it becomes dominant at the highest frequencies.

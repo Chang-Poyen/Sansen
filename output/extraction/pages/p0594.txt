@@ -1,0 +1,37 @@
+CMOS ADC and DAC principles 605
+205
+The difference between the
+actual input voltage and the
+quantized voltage is a signal
+e, which has the shape of a
+sawtooth with peak-to-peak
+amplitude D.
+Its RMS value can be
+easily calculated to be D2/12.
+It is called quantization
+noise, because it is small.
+It is obvious that the
+quantization noise is smaller
+if the resolution N is larger.
+The Signal-to-noise ratio
+SNR can then easily be cal-
+culated to be 3/2 times 22N.
+Obviously, the larger the resolution, the larger the SNR.
+A rule of thumb is that for a resolution N, the SNR is about 6N+2. For a resolution of
+(N=) 8 bit, the SNR is about 50 dB. The SNR increases by 6 dB for each extra bit.
+206
+The non-idealities of the DA
+conversion give rise to sev-
+eral specifications, such as
+the DNL and the INL.
+The DNL is the largest
+step ever minus one LSB. It
+is the largest deviation from
+a regular step.
+The INL is the largest
+deviation from the average
+slope.
+If this slope is not right,
+then a gain error is found.
+This slope must go through
+zero. If not, an offset occurs.

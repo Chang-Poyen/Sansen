@@ -1,0 +1,49 @@
+258 Chapter #8
+0839
+This is exactly the same cir-
+cuit as before.
+In this slide, clock W is
+1
+high, all the transistors,
+which are driven by this
+clock, are on. The other
+ones are off. Thick lines indi-
+cate which paths the signals
+can take.
+Clearly, the outputs are
+AC coupled by capacitors
+C1/C2. Their differential
+content is then cancelled
+out. Finally, this signal is
+then applied to the Gate of
+transistor M12 to close the
+feedback loop.
+The GBW is set by g and the output load capacitor.
+CM m12
+The DC level at the Gate of M12 is not defined because of the coupling capacitances C1/C2.
+This is why the other two capacitances C3/C4 are precharged to the proper DC voltages.
+Their left side is set to analog ground (Vdd/2), whereas their right side is set at a biasing voltage,
+which is the same as at the Gates of current mirror transistors M5/M6/M8.
+On the next phase, the capacitors are swapped around, as shown in the next slide.
+Continuous CMFB is thus ensured.
+0840
+In the phase W , the other
+2
+transistors are on. Capaci-
+tors C3/C4 now provide
+common-mode feedback,
+whereas the other ones
+C1/C2 are reset or
+precharged.
+It is clear that this solu-
+tion does not take any
+power at all except for the
+switching power consump-
+tion of all switches and
+capacitors.
+However, there are a few
+disadvantages.
+First of all, the clock fre-
+quency appears in the signal path. This is a result of clock injection and charge redistribution,
+which are typical for all sampled-data circuits such as switched-capacitor filters. This is explained
+in detail in Chapter 17.

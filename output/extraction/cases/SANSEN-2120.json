@@ -1,0 +1,224 @@
+{
+  "case_id": "SANSEN-2120",
+  "slide_id": "2120",
+  "chapter": 21,
+  "slide_number_in_chapter": 20,
+  "source": {
+    "pdf_page": 636,
+    "printed_page": 647
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0636_02_2120.jpg",
+      "pdf_page": 636,
+      "printed_page": 647,
+      "bbox_pt": [
+        91.52162,
+        419.48395,
+        374.54222,
+        615.99379
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 636,
+      "printed_page": 647,
+      "bbox_pt": [
+        0,
+        415.4945100000002,
+        595,
+        797
+      ],
+      "text_raw": "Voltage multipliers show\nseveral more drawbacks.\nThey generate higher\nvoltage than the supply volt-\nage. Care must be taken not\nto exceed the maximum\nvoltage on the thin Gate\noxides.\nAt about 0.8 V/nm thick-\nness an oxide breaks down.\nA CMOS technology of\n0.18 mm has an oxide thick-\nness of about 1/50th or\n3.6 nm. This would break\ndown under a voltage of\nabout 2.9 V. The standard\nsupply voltage for 0.18 mm CMOS is 1.8 V. This is sufficiently far from the breakdown voltage.\nHowever, if voltage multiplies are added, care has to be take not to end up too close to the\nbreakdown voltage. If not, reliability issues appear.\nA CMOS technology of 90 nm has an oxide thickness of about 1.8 nm, corresponding to a\nbreakdown voltage of about 1.5 V. The supply voltage is 1.3 V. Voltage multipliers are therefore\nexcluded!",
+      "text": "Voltage multipliers show several more drawbacks. They generate higher voltage than the supply voltage. Care must be taken not to exceed the maximum voltage on the thin Gate oxides. At about 0.8 V/nm thickness an oxide breaks down. A CMOS technology of 0.18 mm has an oxide thickness of about 1/50th or 3.6 nm. This would break down under a voltage of about 2.9 V. The standard supply voltage for 0.18 mm CMOS is 1.8 V. This is sufficiently far from the breakdown voltage. However, if voltage multiplies are added, care has to be take not to end up too close to the breakdown voltage. If not, reliability issues appear. A CMOS technology of 90 nm has an oxide thickness of about 1.8 nm, corresponding to a breakdown voltage of about 1.5 V. The supply voltage is 1.3 V. Voltage multipliers are therefore excluded!"
+    },
+    {
+      "pdf_page": 637,
+      "printed_page": 648,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        172.14909999999986
+      ],
+      "text_raw": "Another disadvantage of voltage multipliers is that clock drivers are required to drive all the\ncapacitors. They take additional power and cause large spikes into the substrate. Substrate noise\nand coupling is now hard to avoid.",
+      "text": "Another disadvantage of voltage multipliers is that clock drivers are required to drive all the capacitors. They take additional power and cause large spikes into the substrate. Substrate noise and coupling is now hard to avoid."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Voltage multipliers show several more drawbacks. They generate higher voltage than the supply voltage. Care must be taken not to exceed the maximum voltage on the thin Gate oxides. At about 0.8 V/nm thickness an oxide breaks down. A CMOS technology of 0.18 mm has an oxide thickness of about 1/50th or 3.6 nm. This would break down under a voltage of about 2.9 V. The standard supply voltage for 0.18 mm CMOS is 1.8 V. This is sufficiently far from the breakdown voltage. However, if voltage multiplies are added, care has to be take not to end up too close to the breakdown voltage. If not, reliability issues appear. A CMOS technology of 90 nm has an oxide thickness of about 1.8 nm, corresponding to a breakdown voltage of about 1.5 V. The supply voltage is 1.3 V. Voltage multipliers are therefore excluded!\n\nAnother disadvantage of voltage multipliers is that clock drivers are required to drive all the capacitors. They take additional power and cause large spikes into the substrate. Substrate noise and coupling is now hard to avoid.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Drawbacks of voltage multipliers",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0636_02_2120.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627537530265,
+          0.08292682905923343,
+          0.6610169533414043,
+          0.14146341442508703
+        ],
+        "confidence": 1,
+        "text": "Drawbacks of voltage multipliers"
+      },
+      {
+        "bbox": [
+          0.06440677576271195,
+          0.27317073195121955,
+          0.5322033859322035,
+          0.33170731731707326
+        ],
+        "confidence": 0.5,
+        "text": "* High voltage technology:"
+      },
+      {
+        "bbox": [
+          0.11186440733050843,
+          0.351219511402439,
+          0.8610169497033898,
+          0.41463414554878053
+        ],
+        "confidence": 0.5,
+        "text": "• In deep submicron : VoD < 1.8 V in 0.18 um CMOS"
+      },
+      {
+        "bbox": [
+          0.11186441084745757,
+          0.42926829335365846,
+          0.844067800677966,
+          0.48292682993902436
+        ],
+        "confidence": 0.5,
+        "text": "• Oxide cannot take more !! 800 V/um or 0.8 V/nm"
+      },
+      {
+        "bbox": [
+          0.06779661404661011,
+          0.5073170729268293,
+          0.6881355970974575,
+          0.565853658292683
+        ],
+        "confidence": 1,
+        "text": "* Requires high-speed clock drivers"
+      },
+      {
+        "bbox": [
+          0.06779661487288123,
+          0.5951219510365854,
+          0.8203389877542372,
+          0.653658536402439
+        ],
+        "confidence": 1,
+        "text": "+ Injection in substrate : coupling to Analog"
+      },
+      {
+        "bbox": [
+          0.06440677675141246,
+          0.6829268297560975,
+          0.46779660725988703,
+          0.7414634151219512
+        ],
+        "confidence": 1,
+        "text": "* Low power-efficiency"
+      },
+      {
+        "bbox": [
+          0.7220339012113516,
+          0.9317073173983739,
+          0.9355932103140727,
+          0.9707317076422763
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2120"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Voltage multipliers show several more drawbacks.",
+      "pdf_page": 636,
+      "printed_page": 647,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0636_02_2120.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Care must be taken not to exceed the maximum voltage on the thin Gate oxides.",
+        "pdf_page": 636,
+        "printed_page": 647,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Voltage multipliers are therefore excluded!",
+      "pdf_page": 636,
+      "printed_page": 647,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2120-M01",
+      "ocr_text": "• In deep submicron : VoD < 1.8 V in 0.18 um CMOS",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.11186440733050843,
+        0.351219511402439,
+        0.8610169497033898,
+        0.41463414554878053
+      ],
+      "context_crop": "regions/SANSEN-2120_math_01.png",
+      "context_bbox_normalized": [
+        0.07186440733050842,
+        0.25121951140243903,
+        1,
+        0.5446341455487805
+      ],
+      "source_image": "slides/p0636_02_2120.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

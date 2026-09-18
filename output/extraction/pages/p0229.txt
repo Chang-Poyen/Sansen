@@ -1,0 +1,48 @@
+234 Chapter #7
+stant and set by DC current sources to be 4 –5 mA. As a result, the DC current through the
+forth one (MA2) is also set to be constant.
+All four transistors have the same V and K∞ . The ratio of the DC current through output
+T p
+transistor MA2 is now about 100 times the current in MA4.
+This is an easy way of controling the DC current in a class-AB stage, as will be explained in
+more detail in Chapter 12.
+0746
+An even more symmetrical
+folded cascode OTA than
+the folded cascode OTA is
+shown in this slide.
+The Drain of each input
+transistor sees exactly the
+same impedance, even at the
+highest frequencies.
+At each Drain the circular
+current i is split up in two
+equal parts i/2. One part
+goes directly to the output,
+whereas the other is mir-
+rored first.
+Because of this perfect
+matching at high frequen-
+cies, this amplifier has a perfect cancellation of higher order poles and zeros. As a result, it has
+a much higher CMRR. Moreover, the Slew Rate is perfectly symmetrical.
+It is therefore an ideal building block for higher frequencies.
+0747
+Another bipolar opamp is
+also capable of taking input
+voltages below ground.
+Remember that this is an
+advantage of a folded
+cascode.
+This input differential
+pair is preceded by two
+Emitter followers. As a
+result the inputs can go
+below ground. For V ’s of
+BE
+0.6 V, and V ’s of 0.1 V, we
+CE
+see that the inputs can go
+0.5 V below ground.
+This is an opamp which
+is suited very well for single-
+supply applications such as most of the automotive applications, etc.

@@ -1,0 +1,174 @@
+{
+  "case_id": "SANSEN-112",
+  "slide_id": "112",
+  "chapter": 11,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 294,
+    "printed_page": 301
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0294_02_112.jpg",
+      "pdf_page": 294,
+      "printed_page": 301,
+      "bbox_pt": [
+        91.521622,
+        457.350983,
+        374.78981,
+        653.810974
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 294,
+      "printed_page": 301,
+      "bbox_pt": [
+        0,
+        453.36150000000026,
+        595,
+        703.55922
+      ],
+      "text_raw": "In addition, such amplifiers\nwill have to operate at low\nsupply voltages. We are thus\nlooking for rail-to-rail input\namplifiers at low supply\nvoltages where we have the\nhighest need indeed for large\nsignal swings.",
+      "text": "In addition, such amplifiers will have to operate at low supply voltages. We are thus looking for rail-to-rail input amplifiers at low supply voltages where we have the highest need indeed for large signal swings."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In addition, such amplifiers will have to operate at low supply voltages. We are thus looking for rail-to-rail input amplifiers at low supply voltages where we have the highest need indeed for large signal swings.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0294_02_112.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270523648648,
+          0.07804878028455287,
+          0.38175675929054054,
+          0.13170731686991877
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459459369369372,
+          0.282926829796748,
+          0.4662162153153153,
+          0.3463414639430894
+        ],
+        "confidence": 1,
+        "text": "• Why rail-to-rail ?"
+      },
+      {
+        "bbox": [
+          0.0945946000844594,
+          0.37560975585365863,
+          0.7533783838682432,
+          0.43414634121951223
+        ],
+        "confidence": 0.5,
+        "text": "• 3 x Current mirror rtr amplifiers"
+      },
+      {
+        "bbox": [
+          0.09459459724099095,
+          0.4634146346747967,
+          0.6351351377815315,
+          0.5268292688211381
+        ],
+        "confidence": 0.5,
+        "text": "• Zener diode rtr amplifiers"
+      },
+      {
+        "bbox": [
+          0.09166667634333192,
+          0.5481927714515291,
+          0.887500006240001,
+          0.6204819266207602
+        ],
+        "confidence": 1,
+        "text": "• Current regulator rtr amplifier on 1.5 V"
+      },
+      {
+        "bbox": [
+          0.09459460129504495,
+          0.6439024386585366,
+          0.8986486553490989,
+          0.707317072804878
+        ],
+        "confidence": 1,
+        "text": "• Supply regulating rtr amplifier on 1.3 V"
+      },
+      {
+        "bbox": [
+          0.09166666827213796,
+          0.7219512203410209,
+          0.8374999878588145,
+          0.7951807216465777
+        ],
+        "confidence": 1,
+        "text": "• Other rtr amplifiers and comparison"
+      },
+      {
+        "bbox": [
+          0.7263513488175677,
+          0.9463414637195123,
+          0.9290540515202703,
+          0.9804878051829269
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 os 112"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0294_02_112.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We are thus looking for rail-to-rail input amplifiers at low supply voltages where we have the highest need indeed for large signal swings.",
+      "pdf_page": 294,
+      "printed_page": 301,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

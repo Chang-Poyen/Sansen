@@ -1,0 +1,189 @@
+{
+  "case_id": "SANSEN-1167",
+  "slide_id": "1167",
+  "chapter": 11,
+  "slide_number_in_chapter": 67,
+  "source": {
+    "pdf_page": 327,
+    "printed_page": 334
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0327_01_1167.jpg",
+      "pdf_page": 327,
+      "printed_page": 334,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 327,
+      "printed_page": 334,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        367.66251000000005
+      ],
+      "text_raw": "The level-shift current gen-\nerator is shown in this slide.\nIt has to generate an output\ncurrent which first increases\nwith the input voltage and\nthen decreases again.\nIt is obviously a common-\nmode block. A replica input\nstage is used, in which the\ndifferential signals are can-\ncelled. The outputs are led\nto a current summer by\nmeans of a number of cur-\nrent sources. Its output thus\ngives rise to a pseudo-trian-\ngular output current I .\nB",
+      "text": "The level-shift current generator is shown in this slide. It has to generate an output current which first increases with the input voltage and then decreases again. It is obviously a commonmode block. A replica input stage is used, in which the differential signals are cancelled. The outputs are led to a current summer by means of a number of current sources. Its output thus gives rise to a pseudo-triangular output current I . B"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The level-shift current generator is shown in this slide. It has to generate an output current which first increases with the input voltage and then decreases again. It is obviously a commonmode block. A replica input stage is used, in which the differential signals are cancelled. The outputs are led to a current summer by means of a number of current sources. Its output thus gives rise to a pseudo-triangular output current I . B",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "RtR opamp : current generator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0327_01_1167.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431875000005,
+          0.07804878063414633,
+          0.6317567511824325,
+          0.14146341478048785
+        ],
+        "confidence": 1,
+        "text": "RtR opamp : current generator"
+      },
+      {
+        "bbox": [
+          0.6182432435135136,
+          0.23902438999999998,
+          0.6452702705405405,
+          0.27317073146341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "21"
+      },
+      {
+        "bbox": [
+          0.7668918920608108,
+          0.4682926833658536,
+          0.8175675677364864,
+          0.5121951223902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "21,+"
+      },
+      {
+        "bbox": [
+          0.7736486480855855,
+          0.5121951212195123,
+          0.8141891886261261,
+          0.5560975602439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Inax"
+      },
+      {
+        "bbox": [
+          0.7702702827950961,
+          0.6487804883863868,
+          0.891891891529227,
+          0.658536584784345
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "wrten.iha"
+      },
+      {
+        "bbox": [
+          0.6047297327702702,
+          0.7512195119512196,
+          0.7871621652027027,
+          0.7756097558536587
+        ],
+        "confidence": 0.5,
+        "text": "current summer"
+      },
+      {
+        "bbox": [
+          0.07094595109797283,
+          0.8243902435975609,
+          0.48310811326013503,
+          0.8585365850609755
+        ],
+        "confidence": 1,
+        "text": "Ref.Duque-Carrillo, JSSC Jan.2000, 33-43"
+      },
+      {
+        "bbox": [
+          0.7263513488175677,
+          0.9512195124390244,
+          0.9290540515202703,
+          0.9804878051219511
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 1167"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The level-shift current generator is shown in this slide.",
+      "pdf_page": 327,
+      "printed_page": 334,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0327_01_1167.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It has to generate an output current which first increases with the input voltage and then decreases again.",
+      "pdf_page": 327,
+      "printed_page": 334,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its output thus gives rise to a pseudo-triangular output current I .",
+      "pdf_page": 327,
+      "printed_page": 334,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

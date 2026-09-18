@@ -1,0 +1,333 @@
+{
+  "case_id": "SANSEN-2125",
+  "slide_id": "2125",
+  "chapter": 21,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 639,
+    "printed_page": 650
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0639_01_2125.jpg",
+      "pdf_page": 639,
+      "printed_page": 650,
+      "bbox_pt": [
+        91.521622,
+        175.34143100000006,
+        374.78981,
+        371.801422
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 639,
+      "printed_page": 650,
+      "bbox_pt": [
+        0,
+        171.3518999999999,
+        595,
+        475.2845000000002
+      ],
+      "text_raw": "The very first switched\nopamp is shown in this slide.\nIt is a two-stage Miller\nopamp, to which two\nswitches have been added,\ni.e. nMOST M9 and\npMOST M10.\nWhen the voltage of clock\nphase w is high, M10 is off\nand M9 is on. The opamp\nfunctions as expected.\nWhen the voltage of clock\nphase w is low however,\nM10 is on and shorts the\nGate voltage of transistors\nM8, M7 and M5 to the\nsupply lines. All these transistors are therefore off.\nAlso, M9 is off. Both stages of the opamp are switched off.\nHow fast can an opamp be switched on and off depends on the loop gain of the feedback\narrangement. If the gain around the opamp is a, then its bandwidth is GBW/a. The corresponding\ntime constant for the output voltage is also the time constant for the switching in and out of the\nwhole opamp.\nThis is shown next.",
+      "text": "The very first switched opamp is shown in this slide. It is a two-stage Miller opamp, to which two switches have been added, i.e. nMOST M9 and pMOST M10. When the voltage of clock phase w is high, M10 is off and M9 is on. The opamp functions as expected. When the voltage of clock phase w is low however, M10 is on and shorts the Gate voltage of transistors M8, M7 and M5 to the supply lines. All these transistors are therefore off. Also, M9 is off. Both stages of the opamp are switched off. How fast can an opamp be switched on and off depends on the loop gain of the feedback arrangement. If the gain around the opamp is a, then its bandwidth is GBW/a. The corresponding time constant for the output voltage is also the time constant for the switching in and out of the whole opamp. This is shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The very first switched opamp is shown in this slide. It is a two-stage Miller opamp, to which two switches have been added, i.e. nMOST M9 and pMOST M10. When the voltage of clock phase w is high, M10 is off and M9 is on. The opamp functions as expected. When the voltage of clock phase w is low however, M10 is on and shorts the Gate voltage of transistors M8, M7 and M5 to the supply lines. All these transistors are therefore off. Also, M9 is off. Both stages of the opamp are switched off. How fast can an opamp be switched on and off depends on the loop gain of the feedback arrangement. If the gain around the opamp is a, then its bandwidth is GBW/a. The corresponding time constant for the output voltage is also the time constant for the switching in and out of the whole opamp. This is shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Switched-opamp schematic",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0639_01_2125.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432918918912,
+          0.08292682907317073,
+          0.5608108156756756,
+          0.14146341443902433
+        ],
+        "confidence": 1,
+        "text": "Switched-opamp schematic"
+      },
+      {
+        "bbox": [
+          0.09797297318412163,
+          0.17560975554878056,
+          0.15540540561655405,
+          0.21951219457317073
+        ],
+        "confidence": 0.5,
+        "text": "Vdd"
+      },
+      {
+        "bbox": [
+          0.09121621570945947,
+          0.26829268317073174,
+          0.15202702652027028,
+          0.3073170734146342
+        ],
+        "confidence": 1,
+        "text": "M10"
+      },
+      {
+        "bbox": [
+          0.26013513474099104,
+          0.26829268317073174,
+          0.30743243203828835,
+          0.3073170734146342
+        ],
+        "confidence": 1,
+        "text": "M8"
+      },
+      {
+        "bbox": [
+          0.4695945949565637,
+          0.263414633902439,
+          0.5202702706322394,
+          0.3073170729268293
+        ],
+        "confidence": 1,
+        "text": "M7"
+      },
+      {
+        "bbox": [
+          0.7263513510376448,
+          0.27317073195121955,
+          0.7702702699565638,
+          0.3170731709756097
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.28040540608108105,
+          0.47317073156097567,
+          0.3479729736486486,
+          0.5170731705853658
+        ],
+        "confidence": 1,
+        "text": "Vin-"
+      },
+      {
+        "bbox": [
+          0.3851351344594595,
+          0.48780487823170726,
+          0.4391891885135136,
+          0.5317073172560975
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.4898648661317568,
+          0.4731707312601626,
+          0.6418918931587838,
+          0.536585365406504
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M2 ]| Vin+"
+      },
+      {
+        "bbox": [
+          0.638513513231982,
+          0.5219512191869919,
+          0.6790540537725225,
+          0.5609756094308943
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.7263513507432432,
+          0.46829268248780487,
+          0.7939189183108109,
+          0.5121951215121952
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.12162162221283783,
+          0.5707317071544716,
+          0.1925675681587838,
+          0.609756097398374
+        ],
+        "confidence": 1,
+        "text": "Ibias"
+      },
+      {
+        "bbox": [
+          0.7263513510376448,
+          0.6487804880139373,
+          0.7702702699565638,
+          0.6878048782578398
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.09797297356418917,
+          0.7707317079268292,
+          0.15202702761824324,
+          0.8195121957317072
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.3277027030405405,
+          0.7707317070731708,
+          0.3750000003378378,
+          0.814634146097561
+        ],
+        "confidence": 0.5,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.5439189184797297,
+          0.7658536587317073,
+          0.5878378373986487,
+          0.8048780489756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.6452702705839768,
+          0.7609756095121952,
+          0.6891891895028958,
+          0.8048780485365854
+        ],
+        "confidence": 1,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.6047297328378378,
+          0.8780487802439024,
+          0.9155405436486486,
+          0.912195121707317
+        ],
+        "confidence": 0.5,
+        "text": "Crols, .., JSSC Aug.94, 936-942"
+      },
+      {
+        "bbox": [
+          0.7229729829640156,
+          0.9414634143089431,
+          0.9358108079143627,
+          0.97073170699187
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2125"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The very first switched opamp is shown in this slide.",
+      "pdf_page": 639,
+      "printed_page": 650,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is shown next.",
+      "pdf_page": 639,
+      "printed_page": 650,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0639_01_2125.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "When the voltage of clock phase w is low however, M10 is on and shorts the Gate voltage of transistors M8, M7 and M5 to the supply lines.",
+        "pdf_page": 639,
+        "printed_page": 650,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "All these transistors are therefore off.",
+      "pdf_page": 639,
+      "printed_page": 650,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "How fast can an opamp be switched on and off depends on the loop gain of the feedback arrangement.",
+      "pdf_page": 639,
+      "printed_page": 650,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If the gain around the opamp is a, then its bandwidth is GBW/a.",
+      "pdf_page": 639,
+      "printed_page": 650,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "When the voltage of clock phase w is high, M10 is off and M9 is on.",
+      "pdf_page": 639,
+      "printed_page": 650,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When the voltage of clock phase w is low however, M10 is on and shorts the Gate voltage of transistors M8, M7 and M5 to the supply lines.",
+      "pdf_page": 639,
+      "printed_page": 650,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

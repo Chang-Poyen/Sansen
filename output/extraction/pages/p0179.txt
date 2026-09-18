@@ -1,0 +1,55 @@
+Systematic design of operational amplifiers 183
+10 MHz. Even easier to remember is that with 1 mA, a 1 MHz GBW can be achieved for a 1pF
+load capacitance.
+This gives a FOM of 1000 in MHzpF/mA. Actually, it is slightly less, i.e. 800. We will see
+however, that this is an excellent result, when we compare with other OTA’s in the next Chapter.
+065
+Let us now focus again on
+non-dominant poles.
+The position of this non-
+dominant pole is easily
+established. The resistance
+at node 2 is simply 1/g .
+m3
+The node capacitance C is
+n2
+the sum of all transistor
+capacitances, connected to
+node 2.
+For a MOST, the capaci-
+tance C is about equal to
+DB
+its C . This is why all four
+GS
+capacitances in C are
+n2
+taken equal. This is a gross
+approximation but good
+enough to deal with this pole. Capacitance C is about 4×CGS3.
+n2
+The non-dominant pole f is about f /4. This is the first reason why node 2 does not affect
+nd T3
+us too much. This non-dominant pole is simply located at too high frequencies, compared to
+the GBW.
+The second reason is on the next slide.
+066
+The capacitance C on
+n2
+node 2 does create a pole
+indeed, but also a zero.
+Indeed, a capacitance to
+ground on the other side of
+a differential amplifier with
+a single output, creates a
+pole f and a zero at twice
+nd
+the frequency 2×f .
+nd
+At higher frequencies, the
+output current is divided by
+two, since the current mirror
+does not receive any more
+current. A division by two
+can only be represented by
+a pole-zero doublet, the zero
+of which is a factor of two higher than the pole.

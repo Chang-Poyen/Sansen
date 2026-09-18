@@ -1,0 +1,46 @@
+221
+Oscillators are required as
+references of frequency. All
+clocks are for (micro)proces-
+sors but all timing circuits
+also need a clock.
+The highest precision is
+obtained by using a crystal
+as a reference. Without a lot
+of effort, 0.1% precision is
+easily achieved.
+This is why we start this
+chapter with crystal oscilla-
+tors. It will be shown that
+only one single transistor is
+required to make a crystal
+oscillator.
+222
+Before this oscillator is
+designed, we have to review
+the oscillation conditions.
+After this we will have a
+look at what the electrical
+model is of such a crystal.
+It can now be used to
+construct a single-transistor
+oscillator with minimum
+power consumption.
+Both MOST and bipolar
+transistors can be used to
+realize this kind of
+oscillator.
+Finally, the principles of
+oscillation can be extended
+to construct other types of oscillators, such as VCO’s, etc.
+223
+An oscillator is a kind of feedback amplifier. The signal that is fed back is exactly what the
+amplifier requires, to sustain oscillation. Its input is now zero.
+This is called the Barkhausen criterion.
+The amplifier has a gain A( jv) which depends on frequency. Also, the feedback block has an
+attenuation F( jv) which is frequency dependent. The loop gain F( jv)A( jv) must be large enough
+so that the signal v which is fed back, exactly equals v , which is required.
+f e
+As a consequence, the loop gain must be slightly larger than unity in amplitude and its
+phase zero.
+677

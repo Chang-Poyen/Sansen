@@ -1,0 +1,177 @@
+{
+  "case_id": "SANSEN-249",
+  "slide_id": "249",
+  "chapter": 24,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 735,
+    "printed_page": 747
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0735_01_249.jpg",
+      "pdf_page": 735,
+      "printed_page": 747,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 735,
+      "printed_page": 747,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        379.6205000000001
+      ],
+      "text_raw": "Now that it is clear that\nboth digital and analog cir-\ncuits generate plenty of cur-\nrent spikes, it has to be\nfigured out how they can be\nprevented from traveling to\nthe other side of the sub-\nstrate, where the analog\ninput stages are detecting\nwhatever reaches their gates\nor substrates underneath.\nThe distribution of the\npins plays an important\nrole. It is discussed first.\nThe longitudinal trans-\nmission through the sub-\nstrate is another important factor.\nFinally, layout techniques can be used to reduce coupling.",
+      "text": "Now that it is clear that both digital and analog circuits generate plenty of current spikes, it has to be figured out how they can be prevented from traveling to the other side of the substrate, where the analog input stages are detecting whatever reaches their gates or substrates underneath. The distribution of the pins plays an important role. It is discussed first. The longitudinal transmission through the substrate is another important factor. Finally, layout techniques can be used to reduce coupling."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that it is clear that both digital and analog circuits generate plenty of current spikes, it has to be figured out how they can be prevented from traveling to the other side of the substrate, where the analog input stages are detecting whatever reaches their gates or substrates underneath. The distribution of the pins plays an important role. It is discussed first. The longitudinal transmission through the substrate is another important factor. Finally, layout techniques can be used to reduce coupling.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Slide 249",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0735_01_249.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07392158456052296,
+          0.07599567296324938,
+          0.2132405791341676,
+          0.13863847289893916
+        ],
+        "confidence": 1,
+        "text": "Outline"
+      },
+      {
+        "bbox": [
+          0.12500000152027022,
+          0.20487804963414635,
+          0.6317567582770269,
+          0.27317073256097557
+        ],
+        "confidence": 1,
+        "text": "• Circuit noise generation"
+      },
+      {
+        "bbox": [
+          0.12786033742628164,
+          0.3055937101710886,
+          0.5951262139901013,
+          0.3760576210880451
+        ],
+        "confidence": 1,
+        "text": "• Circuit noise coupling"
+      },
+      {
+        "bbox": [
+          0.1756756790259008,
+          0.3951219510569106,
+          0.5777027060529278,
+          0.4536585364227643
+        ],
+        "confidence": 1,
+        "text": "\"Power supply pinning"
+      },
+      {
+        "bbox": [
+          0.17567567922297292,
+          0.46341463414634143,
+          0.5304054089527026,
+          0.5219512195121951
+        ],
+        "confidence": 1,
+        "text": "\"Substrate coupling"
+      },
+      {
+        "bbox": [
+          0.17567567246621626,
+          0.5463414628292684,
+          0.5101351319256757,
+          0.604878048195122
+        ],
+        "confidence": 0.5,
+        "text": "•Circuit placement"
+      },
+      {
+        "bbox": [
+          0.1283783751013514,
+          0.6390243908780487,
+          0.6520270237500001,
+          0.7024390250243902
+        ],
+        "confidence": 1,
+        "text": "• Rejection of circuit noise"
+      },
+      {
+        "bbox": [
+          0.17560762865395424,
+          0.7215751673585864,
+          0.3041220989347819,
+          0.7711077599459412
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• PSRR"
+      },
+      {
+        "bbox": [
+          0.7297297343716733,
+          0.9414634153658537,
+          0.9324324241868853,
+          0.9853658543902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 05 249"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0735_01_249.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

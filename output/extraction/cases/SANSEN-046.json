@@ -1,0 +1,429 @@
+{
+  "case_id": "SANSEN-046",
+  "slide_id": "046",
+  "chapter": 4,
+  "slide_number_in_chapter": 6,
+  "source": {
+    "pdf_page": 116,
+    "printed_page": 119
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0116_02_046.jpg",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "bbox_pt": [
+        91.521622,
+        455.358002,
+        374.78981,
+        651.817993
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 116,
+      "printed_page": 119,
+      "bbox_pt": [
+        0,
+        451.36850000000027,
+        595,
+        797
+      ],
+      "text_raw": "Let us now determine which\nnoise sources we can find in\nan electronic circuit.\nResistors and junctions give\nnoise. We will take resis-\ntors first.\nA resistor gives thermal\nnoise. It is modeled by a\nvoltage source in series with\nthe resistor or a current\nsource in parallel.\nThe noise voltage is pro-\nportional to that resistor,\nand to the absolute temper-\nature (in Kelvin). It does not\ndepend on the actual cur-\nrent flowing through the resistor. Cooling down will therefore reduce the noise (as in many space\napplications!).\nFor a resistor of 1 kV, the thermal noise density is about 4 nV /√Hz at room temperature.\nRMS",
+      "text": "Let us now determine which noise sources we can find in an electronic circuit. Resistors and junctions give noise. We will take resistors first. A resistor gives thermal noise. It is modeled by a voltage source in series with the resistor or a current source in parallel. The noise voltage is proportional to that resistor, and to the absolute temperature (in Kelvin). It does not depend on the actual current flowing through the resistor. Cooling down will therefore reduce the noise (as in many space applications!). For a resistor of 1 kV, the thermal noise density is about 4 nV /√Hz at room temperature. RMS"
+    },
+    {
+      "pdf_page": 117,
+      "printed_page": 120,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        243.09984034999968
+      ],
+      "text_raw": "This is proportional to the square root of the resistor value. A resistor of 100 kV would give\n40 nV /√Hz but a resistor of 10 kV only 4×√10 or 12 nV /√Hz.\nRMS RMS\nOver a bandwidth from 20 Hz to 20 kHz, the total noise of a 100 kV resistor would be\n40×√20 000 nV or 5.6 mV . For a maximum signal amplitude of 100 mV , this would be\nRMS RMS RMS\nSNR of 17 700 or 85 dB.\nNote that the lower bound frequency is usually negligible. Indeed, either subtracting 20 Hz\nfrom 20 kHz or not, will not make any difference.\nFinally, note that a noise current can be used in parallel. The larger this parallel resistor, the\nlower the noise.",
+      "text": "This is proportional to the square root of the resistor value. A resistor of 100 kV would give 40 nV /√Hz but a resistor of 10 kV only 4×√10 or 12 nV /√Hz. RMS RMS Over a bandwidth from 20 Hz to 20 kHz, the total noise of a 100 kV resistor would be 40×√20 000 nV or 5.6 mV . For a maximum signal amplitude of 100 mV , this would be RMS RMS RMS SNR of 17 700 or 85 dB. Note that the lower bound frequency is usually negligible. Indeed, either subtracting 20 Hz from 20 kHz or not, will not make any difference. Finally, note that a noise current can be used in parallel. The larger this parallel resistor, the lower the noise."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us now determine which noise sources we can find in an electronic circuit. Resistors and junctions give noise. We will take resistors first. A resistor gives thermal noise. It is modeled by a voltage source in series with the resistor or a current source in parallel. The noise voltage is proportional to that resistor, and to the absolute temperature (in Kelvin). It does not depend on the actual current flowing through the resistor. Cooling down will therefore reduce the noise (as in many space applications!). For a resistor of 1 kV, the thermal noise density is about 4 nV /√Hz at room temperature. RMS\n\nThis is proportional to the square root of the resistor value. A resistor of 100 kV would give 40 nV /√Hz but a resistor of 10 kV only 4×√10 or 12 nV /√Hz. RMS RMS Over a bandwidth from 20 Hz to 20 kHz, the total noise of a 100 kV resistor would be 40×√20 000 nV or 5.6 mV . For a maximum signal amplitude of 100 mV , this would be RMS RMS RMS SNR of 17 700 or 85 dB. Note that the lower bound frequency is usually negligible. Indeed, either subtracting 20 Hz from 20 kHz or not, will not make any difference. Finally, note that a noise current can be used in parallel. The larger this parallel resistor, the lower the noise.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise of a resistor is thermal noise",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0116_02_046.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432010135145,
+          0.07317073091463422,
+          0.6824324282094596,
+          0.13658536506097563
+        ],
+        "confidence": 1,
+        "text": "Noise of a resistor is thermal noise"
+      },
+      {
+        "bbox": [
+          0.19932432457770272,
+          0.26829268231707315,
+          0.2770270272804054,
+          0.3414634140243902
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvR?"
+      },
+      {
+        "bbox": [
+          0.189189189527027,
+          0.39024390239024387,
+          0.22297297331081078,
+          0.43414634141463404
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.3716216242905405,
+          0.23414634102439025,
+          0.6385135161824325,
+          0.3073170727317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvR?=4kT R df"
+      },
+      {
+        "bbox": [
+          0.7630730173030076,
+          0.2364830646310564,
+          0.9058458980634067,
+          0.2952242526803728
+        ],
+        "confidence": 0.5,
+        "text": "is white"
+      },
+      {
+        "bbox": [
+          0.3817567532432433,
+          0.35609756112195123,
+          0.7331081045945946,
+          0.409756097707317
+        ],
+        "confidence": 0.5,
+        "text": "depends on T, not on lR"
+      },
+      {
+        "bbox": [
+          0.37162162039695945,
+          0.45365853554878055,
+          0.895270269045608,
+          0.5365853648170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "for R = 1 kg VdvR? = 4 nVRMS/VHz"
+      },
+      {
+        "bbox": [
+          0.5979729754222973,
+          0.5707317071138213,
+          0.8918918943412162,
+          0.6146341461382114
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "at T = 300 K or 27°C"
+      },
+      {
+        "bbox": [
+          0.2297297295045045,
+          0.6780487799593496,
+          0.270270270045045,
+          0.741463414105691
+        ],
+        "confidence": 0.5,
+        "text": "D"
+      },
+      {
+        "bbox": [
+          0.17567567550675678,
+          0.7317073165853659,
+          0.20608108091216218,
+          0.7804878043902439
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.28716216233108105,
+          0.6780487798780489,
+          0.3547297298986486,
+          0.7512195115853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "diR?"
+      },
+      {
+        "bbox": [
+          0.5608108108108109,
+          0.7024390249999999,
+          0.5878378378378378,
+          0.751219512804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.39189189192004503,
+          0.7365853651626018,
+          0.49662162164977475,
+          0.8195121944308944
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dip?="
+      },
+      {
+        "bbox": [
+          0.5067567576858107,
+          0.7170731708536585,
+          0.5810810820101351,
+          0.7853658537804877
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVR"
+      },
+      {
+        "bbox": [
+          0.5236486486486487,
+          0.785365853205575,
+          0.5777027027027027,
+          0.8487804873519165
+        ],
+        "confidence": 0.5,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.641891892286036,
+          0.7073170729268292,
+          0.712837838231982,
+          0.7609756095121951
+        ],
+        "confidence": 0.5,
+        "text": "4kT"
+      },
+      {
+        "bbox": [
+          0.6891891861908785,
+          0.7512195124390243,
+          0.9290540510557435,
+          0.8000000002439024
+        ],
+        "confidence": 0.5,
+        "text": "- df is white"
+      },
+      {
+        "bbox": [
+          0.6587837836148649,
+          0.7999999996515679,
+          0.6891891890202704,
+          0.848780487456446
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.7297297313851351,
+          0.9463414630731707,
+          0.9290540557094594,
+          0.9804878045365854
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10 05 046"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Let us now determine which noise sources we can find in an electronic circuit.",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0116_02_046.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It is modeled by a voltage source in series with the resistor or a current source in parallel.",
+        "pdf_page": 116,
+        "printed_page": 119,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Finally, note that a noise current can be used in parallel.",
+        "pdf_page": 117,
+        "printed_page": 120,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The noise voltage is proportional to that resistor, and to the absolute temperature (in Kelvin).",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It does not depend on the actual current flowing through the resistor.",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Cooling down will therefore reduce the noise (as in many space applications!).",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is proportional to the square root of the resistor value.",
+      "pdf_page": 117,
+      "printed_page": 120,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "RMS RMS Over a bandwidth from 20 Hz to 20 kHz, the total noise of a 100 kV resistor would be 40×√20 000 nV or 5.6 mV .",
+      "pdf_page": 117,
+      "printed_page": 120,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-046-M01",
+      "ocr_text": "dvR?=4kT R df",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3716216242905405,
+        0.23414634102439025,
+        0.6385135161824325,
+        0.3073170727317074
+      ],
+      "context_crop": "regions/SANSEN-046_math_01.png",
+      "context_bbox_normalized": [
+        0.33162162429054054,
+        0.13414634102439024,
+        0.8685135161824324,
+        0.4373170727317074
+      ],
+      "source_image": "slides/p0116_02_046.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-046-M02",
+      "ocr_text": "for R = 1 kg VdvR? = 4 nVRMS/VHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.37162162039695945,
+        0.45365853554878055,
+        0.895270269045608,
+        0.5365853648170732
+      ],
+      "context_crop": "regions/SANSEN-046_math_02.png",
+      "context_bbox_normalized": [
+        0.33162162039695947,
+        0.3536585355487806,
+        1,
+        0.6665853648170732
+      ],
+      "source_image": "slides/p0116_02_046.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-046-M03",
+      "ocr_text": "at T = 300 K or 27°C",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5979729754222973,
+        0.5707317071138213,
+        0.8918918943412162,
+        0.6146341461382114
+      ],
+      "context_crop": "regions/SANSEN-046_math_03.png",
+      "context_bbox_normalized": [
+        0.5579729754222973,
+        0.4707317071138213,
+        1,
+        0.7446341461382114
+      ],
+      "source_image": "slides/p0116_02_046.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-046-M04",
+      "ocr_text": "dip?=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.39189189192004503,
+        0.7365853651626018,
+        0.49662162164977475,
+        0.8195121944308944
+      ],
+      "context_crop": "regions/SANSEN-046_math_04.png",
+      "context_bbox_normalized": [
+        0.35189189192004505,
+        0.6365853651626018,
+        0.7266216216497747,
+        0.93
+      ],
+      "source_image": "slides/p0116_02_046.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

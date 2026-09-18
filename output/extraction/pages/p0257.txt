@@ -1,0 +1,43 @@
+264 Chapter #9
+093
+The main reason for more
+than two stages is gain.
+Despite the availability of
+gain boosting, bootstrap-
+ping, etc. to increase the
+gain, quite often the supply
+voltage is just too low. In
+this case, three stages or
+more may be required.
+For small channel lengths,
+the gain per transistor,
+which is g r , has become
+m o
+quite small. For example, for
+130 nm CMOS, less than
+about 15 (or 24 dB) per
+transistor can be expected.
+For large gains, three or more stages are therefore required.
+This is certainly true if a small resistor or large capacitance must be driven. In this case, the
+output stage provides little gain. Two more stages are then required to drive the output stage
+with a lot of gain.
+For very low supply voltages less than 1 V, cascoding is no longer possible because of the
+reduced output swings. Cascading is then required, as shown next.
+094
+Both a cascode stage and a
+cascaded stage provide the
+same gain because both cir-
+cuits have the same number
+of transistors in the signal
+path. However, the latter
+one takes more current.
+Only current sources are
+used here as ideal loads.
+Despite the larger current,
+the cascade stage can pro-
+vide a rail-to-rail output
+swing, which may be very
+desirable for low supply
+voltages.
+The speed is not higher
+however, as shown next.

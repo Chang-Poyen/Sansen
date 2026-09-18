@@ -1,0 +1,56 @@
+Continuous-time filters 585
+1937
+The transfer characteristic
+of a differential pair without
+offset is given by the expres-
+sion in this slide and is rep-
+resented by the dotted line.
+For zero input voltage v
+Id
+the output collector current
+is half the biasing current I .
+B
+For a larger input volt-
+age, the collector current
+increases until it equals all
+the biasing current I .
+B
+This curve was derived in
+Chapter 3.
+If an offset voltage is
+introduced V , then the
+GG
+whole curve shifts over the input voltage axis by exactly this amount V . As a result, the
+GG
+current through transistor M1a has increased from 50% to about 80% and has decreased
+through transistor M2a from 50% to about 20%. The average is again 50%. The transfer
+characteristic is spread out over a larger range of input voltages however, as shown by the red line.
+The transconductance is the slope of the current versus input voltage. The transconductance
+around zero input voltage has decreased. It is almost 36% smaller than if both differential pairs
+are put in parallel. The input range however, has increased from about 26 mV for one single
+ptp
+differential pair to about 78 mV for the same distortion. This is a factor of three better!
+ptp
+These offset voltages are not easily introduced. They can be realized by means of resistors and
+DC current sources (Ref. Gilbert). An easier way is to use different transistor sizes, as shown next.
+1938
+The goal is now to realize
+an offset voltage of about
+34 mV between two bipolar
+transistors, carrying equal
+currents.
+Use of the exponential
+expression of the current I
+CE
+versus V shows that a
+BE
+ratio in I is required, or in
+S
+size, of about 3.7. For sim-
+plicity, a factor of four is
+usually taken. The circuit is
+shown in this slide.
+This circuit has been used
+by many authors. Also a
+MOST version has been
+around for quite some time. This will be shown after a few more bipolar realizations.

@@ -1,0 +1,386 @@
+{
+  "case_id": "SANSEN-1631",
+  "slide_id": "1631",
+  "chapter": 16,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 463,
+    "printed_page": 472
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0463_01_1631.jpg",
+      "pdf_page": 463,
+      "printed_page": 472,
+      "bbox_pt": [
+        91.521622,
+        199.25744699999996,
+        374.78981,
+        395.717438
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 463,
+      "printed_page": 472,
+      "bbox_pt": [
+        0,
+        195.26789999999983,
+        595,
+        475.2845000000001
+      ],
+      "text_raw": "In order to improve the\nPower-Supply-Rejection\nRatio, an internal voltage\nregulator can be used, as\nshown in this slide.\nThe bandgap reference\nitself is easily recognized on\nthe left.\nThe goal of the regulator\nis to ensure that nodes 1 and\n2 are at exactly the same\nvoltage. In this way, the\nPSRR is greatly improved.\nFor this purpose, a two-\nstage opamp is used with\nM5 as an input transistor\nand M9 as a second stage. As a result, the VREG is adjusted for maximum equality of the\nvoltages at nodes 1 and 2. Clearly, M5 must be matched to M1.\nThe PSRR is then −95 dB at 1 kHz and still −40 dB at 1 MHz.",
+      "text": "In order to improve the Power-Supply-Rejection Ratio, an internal voltage regulator can be used, as shown in this slide. The bandgap reference itself is easily recognized on the left. The goal of the regulator is to ensure that nodes 1 and 2 are at exactly the same voltage. In this way, the PSRR is greatly improved. For this purpose, a twostage opamp is used with M5 as an input transistor and M9 as a second stage. As a result, the VREG is adjusted for maximum equality of the voltages at nodes 1 and 2. Clearly, M5 must be matched to M1. The PSRR is then −95 dB at 1 kHz and still −40 dB at 1 MHz."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to improve the Power-Supply-Rejection Ratio, an internal voltage regulator can be used, as shown in this slide. The bandgap reference itself is easily recognized on the left. The goal of the regulator is to ensure that nodes 1 and 2 are at exactly the same voltage. In this way, the PSRR is greatly improved. For this purpose, a twostage opamp is used with M5 as an input transistor and M9 as a second stage. As a result, the VREG is adjusted for maximum equality of the voltages at nodes 1 and 2. Clearly, M5 must be matched to M1. The PSRR is then −95 dB at 1 kHz and still −40 dB at 1 MHz.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Bandgap reference with high PSRR",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0463_01_1631.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107793918924,
+          0.08780487868292686,
+          0.6993243211824325,
+          0.15121951282926827
+        ],
+        "confidence": 1,
+        "text": "Bandgap reference with high PSRR"
+      },
+      {
+        "bbox": [
+          0.1081081079391892,
+          0.21463414579268303,
+          0.12837837820945946,
+          0.2585365848170732
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.2331081084037162,
+          0.21951219469512195,
+          0.29054054083614866,
+          0.2536585361585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ":N"
+      },
+      {
+        "bbox": [
+          0.38851351293918923,
+          0.23902439043902435,
+          0.44594594537162163,
+          0.2682926831219512
+        ],
+        "confidence": 0.5,
+        "text": "2.4 V"
+      },
+      {
+        "bbox": [
+          0.6283783783059846,
+          0.25365853641114977,
+          0.6655405404681468,
+          0.2780487803135888
+        ],
+        "confidence": 1,
+        "text": "VREG"
+      },
+      {
+        "bbox": [
+          0.8108108101914414,
+          0.18048780512195117,
+          0.8479729723536036,
+          0.20487804902439022
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDDA"
+      },
+      {
+        "bbox": [
+          0.7804054052927928,
+          0.2048780483739837,
+          0.8141891890765767,
+          0.22926829227642276
+        ],
+        "confidence": 1,
+        "text": "M12"
+      },
+      {
+        "bbox": [
+          0.8376875541389658,
+          0.2187851052655021,
+          0.915690825344971,
+          0.2543856256088174
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "> 2.5 V"
+      },
+      {
+        "bbox": [
+          0.8412162172297297,
+          0.2829268289634146,
+          0.9222972983108109,
+          0.3268292679878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "300 pA"
+      },
+      {
+        "bbox": [
+          0.11148648661317569,
+          0.4292682931097561,
+          0.1689189190456081,
+          0.46341463457317067
+        ],
+        "confidence": 1,
+        "text": "1.2 V"
+      },
+      {
+        "bbox": [
+          0.1924725731951001,
+          0.4288688305336559,
+          0.280500398421755,
+          0.4735701927713535
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "@ 1.2 V"
+      },
+      {
+        "bbox": [
+          0.449324325580243,
+          0.6048780485365854,
+          0.4763513509963337,
+          0.6292682924390245
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M15"
+      },
+      {
+        "bbox": [
+          0.07432432459459459,
+          0.7609756095121951,
+          0.10135135162162162,
+          0.7951219509756097
+        ],
+        "confidence": 1,
+        "text": "M"
+      },
+      {
+        "bbox": [
+          0.8343882497984683,
+          0.6776319271773044,
+          0.9156117505399629,
+          0.7077339265997034
+        ],
+        "confidence": 0.5,
+        "text": "1.236 V"
+      },
+      {
+        "bbox": [
+          0.8342760455729777,
+          0.7158792365108619,
+          0.9224807129478723,
+          0.7475353970980797
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ 20 mV"
+      },
+      {
+        "bbox": [
+          0.8344594608952702,
+          0.7560975606707316,
+          0.9493243257601351,
+          0.7902439021341462
+        ],
+        "confidence": 1,
+        "text": "85 ppm/°C"
+      },
+      {
+        "bbox": [
+          0.12500000223817562,
+          0.8487804875,
+          0.3040540562922297,
+          0.8926829265243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VBG = VBE2 + N"
+      },
+      {
+        "bbox": [
+          0.3040540543436293,
+          0.814634146097561,
+          0.3445945948841699,
+          0.8780487802439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.3445945953265765,
+          0.814634146097561,
+          0.38851351424549546,
+          0.8487804875609757
+        ],
+        "confidence": 1,
+        "text": "kT"
+      },
+      {
+        "bbox": [
+          0.358108105954392,
+          0.8487804879878049,
+          0.5304054032516893,
+          0.8926829270121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- In [M (N+1)]"
+      },
+      {
+        "bbox": [
+          0.3040540544256757,
+          0.8780487803414633,
+          0.34121621658783785,
+          0.9219512193658536
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.7432432430743244,
+          0.804878048699187,
+          0.7837837836148649,
+          0.8243902438211382
+        ],
+        "confidence": 1,
+        "text": "GNDA"
+      },
+      {
+        "bbox": [
+          0.5709459401463965,
+          0.8731707311382113,
+          0.9256756698761264,
+          0.907317072601626
+        ],
+        "confidence": 1,
+        "text": "Ref.Tham, JSSC, May 95, pp.586-590"
+      },
+      {
+        "bbox": [
+          0.709459462162162,
+          0.946341463109756,
+          0.9256756783783782,
+          0.9804878045731706
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1631"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In order to improve the Power-Supply-Rejection Ratio, an internal voltage regulator can be used, as shown in this slide.",
+      "pdf_page": 463,
+      "printed_page": 472,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0463_01_1631.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the VREG is adjusted for maximum equality of the voltages at nodes 1 and 2.",
+      "pdf_page": 463,
+      "printed_page": 472,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1631-M01",
+      "ocr_text": "> 2.5 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8376875541389658,
+        0.2187851052655021,
+        0.915690825344971,
+        0.2543856256088174
+      ],
+      "context_crop": "regions/SANSEN-1631_math_01.png",
+      "context_bbox_normalized": [
+        0.7976875541389657,
+        0.13,
+        1,
+        0.3843856256088174
+      ],
+      "source_image": "slides/p0463_01_1631.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1631-M02",
+      "ocr_text": "VBG = VBE2 + N",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.12500000223817562,
+        0.8487804875,
+        0.3040540562922297,
+        0.8926829265243903
+      ],
+      "context_crop": "regions/SANSEN-1631_math_02.png",
+      "context_bbox_normalized": [
+        0.08500000223817561,
+        0.7487804875,
+        0.5340540562922297,
+        0.93
+      ],
+      "source_image": "slides/p0463_01_1631.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

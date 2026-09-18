@@ -1,0 +1,47 @@
+94 Chapter #3
+0311
+All MOST current sources
+can be duplicated with bipo-
+lar transistors. Historically,
+the bipolar ones were devel-
+oped first and the MOST
+circuits were copies of the
+bipolar ones.
+The first one is very con-
+ventional current mirror.
+The second one uses
+series resistors to set the cur-
+rent ratio’s to the resistor
+ratio, instead of the transis-
+tor ratio. It is easier to make
+a current ratio more accu-
+rate (see Chapter 12).
+In MOST current mirrors there is no need to include in series resistors, as increasing the
+V −V values has the same effect (see next Chapter).
+GS T
+Moreover, the output resistance is increased by use of the series resistors.
+The third circuit is not a current mirror but a current reference. Indeed, leaving out one of
+the two resistors, and taking M2 a factor B larger than M1, provides an output current that is
+independent of the input current, at least if we use another current mirror on top to ensure that
+i =i . This will all be repeated in Chapter 13.
+out in
+0312
+One additional problem is
+encountered with bipolar
+transistors: they carry a base
+current i .
+B
+These base currents are
+both subtracted from the
+input current source. The
+error between output and
+input current is thus about
+2/b. We assume resistor R to
+be really large.
+Addition of another tran-
+sistor M3 reduces this error
+by the another beta. Even
+for small beta values, this
+error can be made small.
+The role of this resistor is then more clear. It increases the current in transistor M3. This will
+increase its beta somewhat. Indeed, in some older bipolar technologies, the beta drops rapidly

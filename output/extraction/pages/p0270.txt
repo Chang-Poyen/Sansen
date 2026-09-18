@@ -1,0 +1,54 @@
+Design of multistage operational amplifiers 277
+0928
+In an open loop, three poles
+occur and two zeros. They
+are given on the right.
+The open-loop gain A is
+dc
+large because three stages
+are present. The resistance
+of each node I to ground is
+denoted by R .
+i
+The capacitance of each
+node to ground is small.
+Actually, the minimum the
+compensation capacitances
+are taken to be at least three
+times larger than those par-
+asitic node capacitances.
+This is why the node capaci-
+tances do not show up in the approximate expressions in this slide.
+The dominant pole is caused by the Miller effect of the overall compensation capacitance C .
+m1
+The GBW is determined by this capacitance C and the input transconductance.
+m1
+The design procedure is given next.
+0929
+We can normally assume
+that the transconductances
+increase towards the output.
+For a 3rd-order Butterworth
+response, the two non-domi-
+nant poles v and v have
+1 2
+to be put at 2 and 4 times
+the GBW.
+Both zeros are usually
+negligible. Note that one of
+them is in the right half of
+the complex plane.
+Note that we still have to
+solve a system of three equa-
+tions (for the GBW, v and
+1
+v ) and five variables.
+2
+Normally, the two compensation capacitances are chosen. The first one C can be chosen as
+m1
+small as possible, i.e. at least three times the node capacitance at the output of the first stage
+but not so small that the input noise is too high.
+The other capacitance C can also be chosen as small as possible, i.e. at least three times the
+m2
+node capacitance at the output of the second stage.
+Minimum values of these compensation capacitances are always chosen to reduce the power

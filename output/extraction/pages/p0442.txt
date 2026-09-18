@@ -1,0 +1,46 @@
+450 Chapter #15
+1558
+The base currents in bipolar
+transistors can be quite
+high. Shown in this slide are
+the input currents for a
+number of opamps in which
+the input devices are real-
+ized in different technol-
+ogies.
+The currents in conven-
+tional bipolar opamps are of
+the mA level. Their base cur-
+rents are therefore of the nA
+level. Since the beta in-
+creases with temperature,
+the base currents decrease
+with temperature, which is
+clearly an advantage in power applications. These base currents can be decreased even further
+by use of super-beta devices. They have beta values above 3000. As a result, the base currents
+are smaller. On the other hand, they cannot take collector voltages above a few Volts.
+MOSTs have the lowest input currents, at least if they do not have a protection device. Such
+device includes some diodes, which have a leakage current which increases drastically with
+temperature (×2 every 8 degrees). This is similar to a Junction-FET.
+A conventional bipolar transistor has the highest base current. Circuit techniques can be
+devised to compensate these currents. Some of them are discussed next.
+1559
+An older solution to provide
+input current compensation
+is shown in this slide.
+We rely on the matching
+between transistors T1 and
+T3. In this case their base
+currents can be expected to
+be about the same. A cur-
+rent mirror senses the cur-
+rent into the base of
+transistor T3 and injects the
+same current into the base
+of transistor T1.
+A voltage clamp is present
+between the emitters of tran-
+sistors T5–8 and the emit-
+ters of the input transistors T1,2. As a result the collector-emitter voltage across the input
+transistors T1,2 never exceeds about 0.7 V. Super-beta devices can now be used for T1,2.
+The base currents are compensated by this additional circuitry. No current is required exter-

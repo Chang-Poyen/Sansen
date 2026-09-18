@@ -1,0 +1,312 @@
+{
+  "case_id": "SANSEN-1724",
+  "slide_id": "1724",
+  "chapter": 17,
+  "slide_number_in_chapter": 24,
+  "source": {
+    "pdf_page": 486,
+    "printed_page": 496
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0486_02_1724.jpg",
+      "pdf_page": 486,
+      "printed_page": 496,
+      "bbox_pt": [
+        91.521622,
+        491.231995,
+        374.78981,
+        687.691986
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 486,
+      "printed_page": 496,
+      "bbox_pt": [
+        0,
+        487.24250000000023,
+        595,
+        797
+      ],
+      "text_raw": "Using a double switch is a\npossible remedy for clock\ninjection (see left). When the\nnMOST receives a posi-\ntively going clock pulse\nat its Gate, the pMOST\nreceives a negatively going\nclock pulse at its Gate. The\neffects can cancel, provided\nthe overlap capacitances\nmatch. Charge redistribu-\ntion is reduced as well as the\nelectrons of the nMOS\nrecombining with the holes\nof the pMOST.\nThe addition of a dummy",
+      "text": "Using a double switch is a possible remedy for clock injection (see left). When the nMOST receives a positively going clock pulse at its Gate, the pMOST receives a negatively going clock pulse at its Gate. The effects can cancel, provided the overlap capacitances match. Charge redistribution is reduced as well as the electrons of the nMOS recombining with the holes of the pMOST. The addition of a dummy"
+    },
+    {
+      "pdf_page": 487,
+      "printed_page": 497,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        249.07889999999963
+      ],
+      "text_raw": "switch with specific dimensions (W/L) can help as well (see right). When the nMOST in the\nsignal patch is switched out, its charge is taken up by the dummy nMOST switch, which is\nswitched in. It is only half the size because we assume that the capacitances on both ends are\nthe same. The same applies to the charge of the pMOSTs.\nClock skew (delay in time) and different rise and fall times may render the charge compensation\nincomplete but these are only second-order effects. The main difficulty with the dummy switch\nis that the relative impedances (capacitors) must be known on both ends. If not, addition of a\ndummy switch may make things worse!\nLet us have a closer look at this compensation technique.",
+      "text": "switch with specific dimensions (W/L) can help as well (see right). When the nMOST in the signal patch is switched out, its charge is taken up by the dummy nMOST switch, which is switched in. It is only half the size because we assume that the capacitances on both ends are the same. The same applies to the charge of the pMOSTs. Clock skew (delay in time) and different rise and fall times may render the charge compensation incomplete but these are only second-order effects. The main difficulty with the dummy switch is that the relative impedances (capacitors) must be known on both ends. If not, addition of a dummy switch may make things worse! Let us have a closer look at this compensation technique."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Using a double switch is a possible remedy for clock injection (see left). When the nMOST receives a positively going clock pulse at its Gate, the pMOST receives a negatively going clock pulse at its Gate. The effects can cancel, provided the overlap capacitances match. Charge redistribution is reduced as well as the electrons of the nMOS recombining with the holes of the pMOST. The addition of a dummy\n\nswitch with specific dimensions (W/L) can help as well (see right). When the nMOST in the signal patch is switched out, its charge is taken up by the dummy nMOST switch, which is switched in. It is only half the size because we assume that the capacitances on both ends are the same. The same applies to the charge of the pMOSTs. Clock skew (delay in time) and different rise and fall times may render the charge compensation incomplete but these are only second-order effects. The main difficulty with the dummy switch is that the relative impedances (capacitors) must be known on both ends. If not, addition of a dummy switch may make things worse! Let us have a closer look at this compensation technique.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Clock injection & Charge redistribution",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0486_02_1724.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432317004506,
+          0.07804877995934956,
+          0.7804054042511261,
+          0.14146341410569108
+        ],
+        "confidence": 1,
+        "text": "Clock injection & Charge redistribution"
+      },
+      {
+        "bbox": [
+          0.6858108108671171,
+          0.21463414678861792,
+          0.9222972973536036,
+          0.2682926833739837
+        ],
+        "confidence": 1,
+        "text": "Dummy Switch"
+      },
+      {
+        "bbox": [
+          0.49999999952139645,
+          0.4146341465853659,
+          0.5574324319538289,
+          0.45365853682926827
+        ],
+        "confidence": 1,
+        "text": "6/0.7"
+      },
+      {
+        "bbox": [
+          0.5743243241554055,
+          0.4243902436585366,
+          0.5979729728040541,
+          0.45853658512195117
+        ],
+        "confidence": 0.5,
+        "text": "Ф"
+      },
+      {
+        "bbox": [
+          0.23648648676097972,
+          0.4926829265243903,
+          0.28040540567989863,
+          0.551219511890244
+        ],
+        "confidence": 1,
+        "text": "If"
+      },
+      {
+        "bbox": [
+          0.15202702964527023,
+          0.5853658536585366,
+          0.3614864891047297,
+          0.6536585365853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Covl,n = Covl,p"
+      },
+      {
+        "bbox": [
+          0.14856637727038702,
+          0.6578759720951247,
+          0.37170389772541235,
+          0.7177337801849626
+        ],
+        "confidence": 0.5,
+        "text": "No Clock FT !"
+      },
+      {
+        "bbox": [
+          0.08445946184845556,
+          0.7853658534843206,
+          0.418918921307915,
+          0.8390243900696865
+        ],
+        "confidence": 1,
+        "text": "Problems: matching"
+      },
+      {
+        "bbox": [
+          0.2702702710304054,
+          0.8390243907317073,
+          0.4459459467060811,
+          0.9170731712195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W,=W,?"
+      },
+      {
+        "bbox": [
+          0.8378378372297296,
+          0.5121951222439024,
+          0.8986486480405405,
+          0.5512195124878049
+        ],
+        "confidence": 1,
+        "text": "3/0.7"
+      },
+      {
+        "bbox": [
+          0.554054049239865,
+          0.6292682928658536,
+          0.9391891843750002,
+          0.6829268294512195
+        ],
+        "confidence": 0.5,
+        "text": "OK if Q is split equal 1/2"
+      },
+      {
+        "bbox": [
+          0.554054056981982,
+          0.7170731705691058,
+          0.9054054083333333,
+          0.7658536583739838
+        ],
+        "confidence": 1,
+        "text": "Problems: clock skew"
+      },
+      {
+        "bbox": [
+          0.7364864884797296,
+          0.7804878047317072,
+          0.9358108128040541,
+          0.8243902437560975
+        ],
+        "confidence": 1,
+        "text": "rise/fall time"
+      },
+      {
+        "bbox": [
+          0.7363942782121858,
+          0.843278233341528,
+          0.9088759955022909,
+          0.8981851807798378
+        ],
+        "confidence": 1,
+        "text": "impedance"
+      },
+      {
+        "bbox": [
+          0.719594597339527,
+          0.9463414631707318,
+          0.9391891919341215,
+          0.9853658534146342
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s N1724"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0486_02_1724.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "When the nMOST receives a positively going clock pulse at its Gate, the pMOST receives a negatively going clock pulse at its Gate.",
+        "pdf_page": 486,
+        "printed_page": 496,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The effects can cancel, provided the overlap capacitances match.",
+      "pdf_page": 486,
+      "printed_page": 496,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is only half the size because we assume that the capacitances on both ends are the same.",
+      "pdf_page": 487,
+      "printed_page": 497,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1724-M01",
+      "ocr_text": "Covl,n = Covl,p",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.15202702964527023,
+        0.5853658536585366,
+        0.3614864891047297,
+        0.6536585365853659
+      ],
+      "context_crop": "regions/SANSEN-1724_math_01.png",
+      "context_bbox_normalized": [
+        0.11202702964527023,
+        0.4853658536585366,
+        0.5914864891047297,
+        0.7836585365853659
+      ],
+      "source_image": "slides/p0486_02_1724.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1724-M02",
+      "ocr_text": "W,=W,?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2702702710304054,
+        0.8390243907317073,
+        0.4459459467060811,
+        0.9170731712195122
+      ],
+      "context_crop": "regions/SANSEN-1724_math_02.png",
+      "context_bbox_normalized": [
+        0.2302702710304054,
+        0.7390243907317073,
+        0.6759459467060811,
+        0.93
+      ],
+      "source_image": "slides/p0486_02_1724.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

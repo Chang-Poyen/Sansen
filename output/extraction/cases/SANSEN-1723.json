@@ -1,0 +1,380 @@
+{
+  "case_id": "SANSEN-1723",
+  "slide_id": "1723",
+  "chapter": 17,
+  "slide_number_in_chapter": 23,
+  "source": {
+    "pdf_page": 486,
+    "printed_page": 496
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0486_01_1723.jpg",
+      "pdf_page": 486,
+      "printed_page": 496,
+      "bbox_pt": [
+        91.521622,
+        181.32043499999997,
+        374.78981,
+        377.780426
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 486,
+      "printed_page": 496,
+      "bbox_pt": [
+        0,
+        177.33089999999982,
+        595,
+        487.24250000000023
+      ],
+      "text_raw": "Moreover, a MOST, which\nis switched on, contains a\nmobile charge Q in the\nm\nchannel (inversion layer),\nwhich disappears when the\nMOST is switched off. The\ncharge is redistributed\ntowards both ends.\nThis charge disappears\ntowards the Source side and\ntowards the Drain side\ndepending on the relative\nimpedances seen. If the\ncapacitances on both sides\nare the same, then half the\ncharge goes left and half\nright.\nA first-order calculation shows that this charge is also of the order of magnitude of fC. For a\n1 pF storage capacitor, it also causes mV’s error.\nThis error depends on the signal and causes distortion.\nA rule of thumb says that per pF storage capacitor, about 10 mV error can be expected as a\nresult of clock injection and charge redistribution.\nThis is a lot. Let us see what circuit techniques can be used to reduce these errors. Making\neverything fully differential is certainly one way to reduce these errors.",
+      "text": "Moreover, a MOST, which is switched on, contains a mobile charge Q in the m channel (inversion layer), which disappears when the MOST is switched off. The charge is redistributed towards both ends. This charge disappears towards the Source side and towards the Drain side depending on the relative impedances seen. If the capacitances on both sides are the same, then half the charge goes left and half right. A first-order calculation shows that this charge is also of the order of magnitude of fC. For a 1 pF storage capacitor, it also causes mV’s error. This error depends on the signal and causes distortion. A rule of thumb says that per pF storage capacitor, about 10 mV error can be expected as a result of clock injection and charge redistribution. This is a lot. Let us see what circuit techniques can be used to reduce these errors. Making everything fully differential is certainly one way to reduce these errors."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Moreover, a MOST, which is switched on, contains a mobile charge Q in the m channel (inversion layer), which disappears when the MOST is switched off. The charge is redistributed towards both ends. This charge disappears towards the Source side and towards the Drain side depending on the relative impedances seen. If the capacitances on both sides are the same, then half the charge goes left and half right. A first-order calculation shows that this charge is also of the order of magnitude of fC. For a 1 pF storage capacitor, it also causes mV’s error. This error depends on the signal and causes distortion. A rule of thumb says that per pF storage capacitor, about 10 mV error can be expected as a result of clock injection and charge redistribution. This is a lot. Let us see what circuit techniques can be used to reduce these errors. Making everything fully differential is certainly one way to reduce these errors.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Charge redistribution",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0486_01_1723.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107901182436,
+          0.08780487884146337,
+          0.46283783576858106,
+          0.1512195129878049
+        ],
+        "confidence": 1,
+        "text": "Charge redistribution"
+      },
+      {
+        "bbox": [
+          0.08108108395270262,
+          0.21951219491869922,
+          0.4256756785472972,
+          0.273170731504065
+        ],
+        "confidence": 1,
+        "text": "Inversion layer charge"
+      },
+      {
+        "bbox": [
+          0.47972973340371616,
+          0.24878048725609758,
+          0.773648652322635,
+          0.312195121402439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Qm ~ Cox WL(Vn-V"
+      },
+      {
+        "bbox": [
+          0.7635135130405406,
+          0.24878048848780487,
+          0.8851351346621622,
+          0.3170731714146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "sign-VT)"
+      },
+      {
+        "bbox": [
+          0.5540540500844596,
+          0.3707317074390244,
+          0.8716216176520272,
+          0.4195121952439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ex. W = 3um L = 0.7um"
+      },
+      {
+        "bbox": [
+          0.6112504509993157,
+          0.42751776819627274,
+          0.8313171143805315,
+          0.49443345240781755
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cox = 1.6 fF/um?"
+      },
+      {
+        "bbox": [
+          0.5675136316178361,
+          0.492178663968428,
+          0.8716755539695701,
+          0.5614798737671013
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vr= 0.7V Vsign = 1.5V"
+      },
+      {
+        "bbox": [
+          0.628378376829955,
+          0.5658536587804878,
+          0.8141891876407659,
+          0.6146341465853657
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ Q =6fC"
+      },
+      {
+        "bbox": [
+          0.11486486617398647,
+          0.6341463407317073,
+          0.5709459472550675,
+          0.692682926097561
+        ],
+        "confidence": 0.5,
+        "text": "AV: Half is stored in each cap"
+      },
+      {
+        "bbox": [
+          0.1283783741554055,
+          0.7024390236585366,
+          0.6283783741554055,
+          0.7609756090243902
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ AV = Q/2C = 3 fC/1pF ≥ 3 mV"
+      },
+      {
+        "bbox": [
+          0.07770269843750008,
+          0.8243902440243903,
+          0.41891891465371633,
+          0.882926829390244
+        ],
+        "confidence": 0.5,
+        "text": "Total: AV = 10 mV/pF"
+      },
+      {
+        "bbox": [
+          0.44594594617117117,
+          0.8243902444308943,
+          0.9121621623873873,
+          0.8878048785772358
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CT→ CD / Speed V Power 1"
+      },
+      {
+        "bbox": [
+          0.7158019344584974,
+          0.9359673318735684,
+          0.9328589305720425,
+          0.9819357690683926
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 N1723"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A first-order calculation shows that this charge is also of the order of magnitude of fC.",
+      "pdf_page": 486,
+      "printed_page": 496,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0486_01_1723.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This charge disappears towards the Source side and towards the Drain side depending on the relative impedances seen.",
+        "pdf_page": 486,
+        "printed_page": 496,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This charge disappears towards the Source side and towards the Drain side depending on the relative impedances seen.",
+      "pdf_page": 486,
+      "printed_page": 496,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This error depends on the signal and causes distortion.",
+      "pdf_page": 486,
+      "printed_page": 496,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A rule of thumb says that per pF storage capacitor, about 10 mV error can be expected as a result of clock injection and charge redistribution.",
+      "pdf_page": 486,
+      "printed_page": 496,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1723-M01",
+      "ocr_text": "Ex. W = 3um L = 0.7um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5540540500844596,
+        0.3707317074390244,
+        0.8716216176520272,
+        0.4195121952439024
+      ],
+      "context_crop": "regions/SANSEN-1723_math_01.png",
+      "context_bbox_normalized": [
+        0.5140540500844596,
+        0.2707317074390244,
+        1,
+        0.5495121952439024
+      ],
+      "source_image": "slides/p0486_01_1723.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1723-M02",
+      "ocr_text": "Cox = 1.6 fF/um?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6112504509993157,
+        0.42751776819627274,
+        0.8313171143805315,
+        0.49443345240781755
+      ],
+      "context_crop": "regions/SANSEN-1723_math_02.png",
+      "context_bbox_normalized": [
+        0.5712504509993157,
+        0.32751776819627276,
+        1,
+        0.6244334524078176
+      ],
+      "source_image": "slides/p0486_01_1723.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1723-M03",
+      "ocr_text": "Vr= 0.7V Vsign = 1.5V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5675136316178361,
+        0.492178663968428,
+        0.8716755539695701,
+        0.5614798737671013
+      ],
+      "context_crop": "regions/SANSEN-1723_math_03.png",
+      "context_bbox_normalized": [
+        0.527513631617836,
+        0.39217866396842804,
+        1,
+        0.6914798737671013
+      ],
+      "source_image": "slides/p0486_01_1723.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1723-M04",
+      "ocr_text": "→ Q =6fC",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.628378376829955,
+        0.5658536587804878,
+        0.8141891876407659,
+        0.6146341465853657
+      ],
+      "context_crop": "regions/SANSEN-1723_math_04.png",
+      "context_bbox_normalized": [
+        0.588378376829955,
+        0.4658536587804878,
+        1,
+        0.7446341465853658
+      ],
+      "source_image": "slides/p0486_01_1723.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1723-M05",
+      "ocr_text": "→ AV = Q/2C = 3 fC/1pF ≥ 3 mV",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1283783741554055,
+        0.7024390236585366,
+        0.6283783741554055,
+        0.7609756090243902
+      ],
+      "context_crop": "regions/SANSEN-1723_math_05.png",
+      "context_bbox_normalized": [
+        0.0883783741554055,
+        0.6024390236585366,
+        0.8583783741554055,
+        0.8909756090243902
+      ],
+      "source_image": "slides/p0486_01_1723.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1723-M06",
+      "ocr_text": "Total: AV = 10 mV/pF",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.07770269843750008,
+        0.8243902440243903,
+        0.41891891465371633,
+        0.882926829390244
+      ],
+      "context_crop": "regions/SANSEN-1723_math_06.png",
+      "context_bbox_normalized": [
+        0.03770269843750008,
+        0.7243902440243903,
+        0.6489189146537163,
+        0.93
+      ],
+      "source_image": "slides/p0486_01_1723.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

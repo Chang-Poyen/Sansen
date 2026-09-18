@@ -1,0 +1,339 @@
+{
+  "case_id": "SANSEN-1869",
+  "slide_id": "1869",
+  "chapter": 18,
+  "slide_number_in_chapter": 69,
+  "source": {
+    "pdf_page": 543,
+    "printed_page": 553
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0543_01_1869.jpg",
+      "pdf_page": 543,
+      "printed_page": 553,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 543,
+      "printed_page": 553,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        367.81198
+      ],
+      "text_raw": "An opamp is taken with two\nstages. We assume that only\nthe first stage is nonlinear\nwhereas the second stage\nhas a fixed gain factor B1.\nBy use of the same tech-\nnique as before, the coeffi-\ncients d of the resulting\npower series are easily\nobtained.",
+      "text": "An opamp is taken with two stages. We assume that only the first stage is nonlinear whereas the second stage has a fixed gain factor B1. By use of the same technique as before, the coefficients d of the resulting power series are easily obtained."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An opamp is taken with two stages. We assume that only the first stage is nonlinear whereas the second stage has a fixed gain factor B1. By use of the same technique as before, the coefficients d of the resulting power series are easily obtained.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Distortion in input stage",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0543_01_1869.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432741312739,
+          0.07804878031358886,
+          0.5067567598455598,
+          0.14146341445993027
+        ],
+        "confidence": 1,
+        "text": "Distortion in input stage"
+      },
+      {
+        "bbox": [
+          0.2905405387246622,
+          0.24878048780487805,
+          0.4358108089949324,
+          0.30731707317073176
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a1 a2 ag"
+      },
+      {
+        "bbox": [
+          0.5371621624718468,
+          0.24390243898373987,
+          0.574324324634009,
+          0.29756097556910577
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B,"
+      },
+      {
+        "bbox": [
+          0.4358108106081081,
+          0.3999999995121952,
+          0.46283783763513514,
+          0.4487804873170732
+        ],
+        "confidence": 1,
+        "text": "F"
+      },
+      {
+        "bbox": [
+          0.3310810817905405,
+          0.5463414632439024,
+          0.4729729736824324,
+          0.6195121949512196
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "d, de dg"
+      },
+      {
+        "bbox": [
+          0.060810811486486496,
+          0.6780487800487804,
+          0.19594594662162163,
+          0.7219512190731706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "u = V - Fy"
+      },
+      {
+        "bbox": [
+          0.05405405513513513,
+          0.7463414627317073,
+          0.4324324335135135,
+          0.8146341456585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y = B,(a,u + a2 u2 + a3 u3)"
+      },
+      {
+        "bbox": [
+          0.05405405498310808,
+          0.8439024381097561,
+          0.3783783793074324,
+          0.9170731698170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y = d,v+ dz v2 + dg v3"
+      },
+      {
+        "bbox": [
+          0.47287181452830696,
+          0.7213773427615017,
+          0.5778038585317677,
+          0.7615494870233038
+        ],
+        "confidence": 0.5,
+        "text": "elim. u"
+      },
+      {
+        "bbox": [
+          0.7093117459522263,
+          0.3792353626094169,
+          0.9427152868985681,
+          0.44027683171818466
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+T = 1 + B,a,F"
+      },
+      {
+        "bbox": [
+          0.6385135143581081,
+          0.785365853414634,
+          0.7398648657094594,
+          0.8341463412195121
+        ],
+        "confidence": 1,
+        "text": "elim. y"
+      },
+      {
+        "bbox": [
+          0.7768091944930365,
+          0.7108281323866729,
+          0.9495421534155516,
+          0.7720986996526253
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "coeff v : dy"
+      },
+      {
+        "bbox": [
+          0.7767041604989773,
+          0.7732730249414981,
+          0.9568692709066261,
+          0.8356639339038409
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "coeff v2 : d2"
+      },
+      {
+        "bbox": [
+          0.7731206390109495,
+          0.8494951018600314,
+          0.9540147432210556,
+          0.9147110686196899
+        ],
+        "confidence": 0.5,
+        "text": "coeff v3 : d3"
+      },
+      {
+        "bbox": [
+          0.7195945919341217,
+          0.9365853660365854,
+          0.9324324297719595,
+          0.9707317075
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1869"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0543_01_1869.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We assume that only the first stage is nonlinear whereas the second stage has a fixed gain factor B1.",
+      "pdf_page": 543,
+      "printed_page": 553,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "We assume that only the first stage is nonlinear whereas the second stage has a fixed gain factor B1.",
+      "pdf_page": 543,
+      "printed_page": 553,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1869-M01",
+      "ocr_text": "u = V - Fy",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.060810811486486496,
+        0.6780487800487804,
+        0.19594594662162163,
+        0.7219512190731706
+      ],
+      "context_crop": "regions/SANSEN-1869_math_01.png",
+      "context_bbox_normalized": [
+        0.020810811486486495,
+        0.5780487800487805,
+        0.42594594662162166,
+        0.8519512190731706
+      ],
+      "source_image": "slides/p0543_01_1869.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1869-M02",
+      "ocr_text": "y = B,(a,u + a2 u2 + a3 u3)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.05405405513513513,
+        0.7463414627317073,
+        0.4324324335135135,
+        0.8146341456585366
+      ],
+      "context_crop": "regions/SANSEN-1869_math_02.png",
+      "context_bbox_normalized": [
+        0.014054055135135128,
+        0.6463414627317073,
+        0.6624324335135136,
+        0.93
+      ],
+      "source_image": "slides/p0543_01_1869.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1869-M03",
+      "ocr_text": "y = d,v+ dz v2 + dg v3",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.05405405498310808,
+        0.8439024381097561,
+        0.3783783793074324,
+        0.9170731698170731
+      ],
+      "context_crop": "regions/SANSEN-1869_math_03.png",
+      "context_bbox_normalized": [
+        0.014054054983108077,
+        0.7439024381097561,
+        0.6083783793074324,
+        0.93
+      ],
+      "source_image": "slides/p0543_01_1869.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1869-M04",
+      "ocr_text": "1+T = 1 + B,a,F",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7093117459522263,
+        0.3792353626094169,
+        0.9427152868985681,
+        0.44027683171818466
+      ],
+      "context_crop": "regions/SANSEN-1869_math_04.png",
+      "context_bbox_normalized": [
+        0.6693117459522263,
+        0.27923536260941695,
+        1,
+        0.5702768317181847
+      ],
+      "source_image": "slides/p0543_01_1869.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

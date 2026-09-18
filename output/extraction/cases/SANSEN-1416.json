@@ -1,0 +1,474 @@
+{
+  "case_id": "SANSEN-1416",
+  "slide_id": "1416",
+  "chapter": 14,
+  "slide_number_in_chapter": 16,
+  "source": {
+    "pdf_page": 388,
+    "printed_page": 396
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0388_02_1416.jpg",
+      "pdf_page": 388,
+      "printed_page": 396,
+      "bbox_pt": [
+        91.52162,
+        385.60295,
+        374.54222,
+        582.11279
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 388,
+      "printed_page": 396,
+      "bbox_pt": [
+        0,
+        381.6136096500001,
+        595,
+        797
+      ],
+      "text_raw": "This transimpedance ampli-\nfier is usually the first stage\nof an optical fiber receiver.\nThe photodiode behaves as\na current source when it is\nexposed to light. This cur-\nrent is then multiplied by R\nF\nto generate an output volt-\nage. The first amplifier stage\nis shown in detail. Its\ngain is A . The subsequent\n1\nstages, however, are in-\ncluded in the (triangular)\nblack box with gain A . The\n2\ntotal loop gain LG is\nsimply A A .\n1 2\nThe input resistance R is reduced by this loop gain, as expected. As a result, the diode\nIN\ncapacitance and the parasitic capacitances C at the input of the amplifier, caused by interconnect\np\nand the transistor input capacitance, only see a small input resistance R /A A . The bandwidth\nF 1 2\nor f can now be exceedingly high, to achieve a high bit rate.\n−3dB",
+      "text": "This transimpedance amplifier is usually the first stage of an optical fiber receiver. The photodiode behaves as a current source when it is exposed to light. This current is then multiplied by R F to generate an output voltage. The first amplifier stage is shown in detail. Its gain is A . The subsequent 1 stages, however, are included in the (triangular) black box with gain A . The 2 total loop gain LG is simply A A . 1 2 The input resistance R is reduced by this loop gain, as expected. As a result, the diode IN capacitance and the parasitic capacitances C at the input of the amplifier, caused by interconnect p and the transistor input capacitance, only see a small input resistance R /A A . The bandwidth F 1 2 or f can now be exceedingly high, to achieve a high bit rate. −3dB"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This transimpedance amplifier is usually the first stage of an optical fiber receiver. The photodiode behaves as a current source when it is exposed to light. This current is then multiplied by R F to generate an output voltage. The first amplifier stage is shown in detail. Its gain is A . The subsequent 1 stages, however, are included in the (triangular) black box with gain A . The 2 total loop gain LG is simply A A . 1 2 The input resistance R is reduced by this loop gain, as expected. As a result, the diode IN capacitance and the parasitic capacitances C at the input of the amplifier, caused by interconnect p and the transistor input capacitance, only see a small input resistance R /A A . The bandwidth F 1 2 or f can now be exceedingly high, to achieve a high bit rate. −3dB",
+  "schema_version": "1.0",
+  "chapter_title": "反馈跨阻放大器与电流放大器",
+  "title": "Current detector with voltage amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0388_02_1416.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627430508472,
+          0.08292682990243905,
+          0.7728813590508474,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "Current detector with voltage amplifier"
+      },
+      {
+        "bbox": [
+          0.2915254238347457,
+          0.28292682871951214,
+          0.3966101695974576,
+          0.3707317067682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "wRF"
+      },
+      {
+        "bbox": [
+          0.322033898,
+          0.4487804873170732,
+          0.35932203359322035,
+          0.4975609751219512
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.45762711833333336,
+          0.5707317075203252,
+          0.49491525392655367,
+          0.6146341465447155
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A2"
+      },
+      {
+        "bbox": [
+          0.1288135600726392,
+          0.619512195087108,
+          0.23389830583535107,
+          0.7121951219163764
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "FC."
+      },
+      {
+        "bbox": [
+          0.5152542363135594,
+          0.6243902440243904,
+          0.5932203380084746,
+          0.6731707318292683
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.2541099104473507,
+          0.731101191750573,
+          0.37639856587389336,
+          0.7859719809760816
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A1= 9mRL"
+      },
+      {
+        "bbox": [
+          0.7559322028813559,
+          0.3024390237804878,
+          0.80338983,
+          0.3512195115853658
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.671186441299435,
+          0.3365853654878048,
+          0.7457627124858757,
+          0.3902439020731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN ="
+      },
+      {
+        "bbox": [
+          0.7796610191870186,
+          0.3463414639024389,
+          0.8305084735813429,
+          0.3756097565853658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-="
+      },
+      {
+        "bbox": [
+          0.8474576276271186,
+          0.3073170739024391,
+          0.8949152547457627,
+          0.3658536592682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RE"
+      },
+      {
+        "bbox": [
+          0.8305084752881355,
+          0.3804878055121951,
+          0.9084745769830508,
+          0.4439024396585365
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,A2"
+      },
+      {
+        "bbox": [
+          0.7457627123728814,
+          0.49756097547038325,
+          0.8169491530508475,
+          0.5463414632752613
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT"
+      },
+      {
+        "bbox": [
+          0.6711864412429378,
+          0.5317073167073171,
+          0.7389830514124294,
+          0.5853658532926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AR ="
+      },
+      {
+        "bbox": [
+          0.8101694907457627,
+          0.5317073172195123,
+          0.8881355924406781,
+          0.585365853804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= RF"
+      },
+      {
+        "bbox": [
+          0.6745762726440678,
+          0.6682926834634146,
+          0.8271186455254237,
+          0.7219512200487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG = A,A2"
+      },
+      {
+        "bbox": [
+          0.8372881354237288,
+          0.7560975605365853,
+          0.8610169489830509,
+          0.7999999995609756
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6695174643093125,
+          0.7737976692661511,
+          0.9315314330841403,
+          0.9007999061674111
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f.зdB = 27 RIN Gp"
+      },
+      {
+        "bbox": [
+          0.7186440774260404,
+          0.9268292688052938,
+          0.9355932170372362,
+          0.9658536578861788
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1416"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The first amplifier stage is shown in detail.",
+      "pdf_page": 388,
+      "printed_page": 396,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0388_02_1416.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The photodiode behaves as a current source when it is exposed to light.",
+        "pdf_page": 388,
+        "printed_page": 396,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Its gain is A .",
+      "pdf_page": 388,
+      "printed_page": 396,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The subsequent 1 stages, however, are included in the (triangular) black box with gain A .",
+      "pdf_page": 388,
+      "printed_page": 396,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The 2 total loop gain LG is simply A A . 1 2 The input resistance R is reduced by this loop gain, as expected.",
+      "pdf_page": 388,
+      "printed_page": 396,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the diode IN capacitance and the parasitic capacitances C at the input of the amplifier, caused by interconnect p and the transistor input capacitance, only see a small input resistance R /A A .",
+      "pdf_page": 388,
+      "printed_page": 396,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The bandwidth F 1 2 or f can now be exceedingly high, to achieve a high bit rate. −3dB",
+      "pdf_page": 388,
+      "printed_page": 396,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1416-M01",
+      "ocr_text": "A1= 9mRL",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2541099104473507,
+        0.731101191750573,
+        0.37639856587389336,
+        0.7859719809760816
+      ],
+      "context_crop": "regions/SANSEN-1416_math_01.png",
+      "context_bbox_normalized": [
+        0.2141099104473507,
+        0.631101191750573,
+        0.6063985658738934,
+        0.9159719809760816
+      ],
+      "source_image": "slides/p0388_02_1416.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1416-M02",
+      "ocr_text": "RIN =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.671186441299435,
+        0.3365853654878048,
+        0.7457627124858757,
+        0.3902439020731707
+      ],
+      "context_crop": "regions/SANSEN-1416_math_02.png",
+      "context_bbox_normalized": [
+        0.631186441299435,
+        0.23658536548780482,
+        0.9757627124858756,
+        0.5202439020731707
+      ],
+      "source_image": "slides/p0388_02_1416.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1416-M03",
+      "ocr_text": "-=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7796610191870186,
+        0.3463414639024389,
+        0.8305084735813429,
+        0.3756097565853658
+      ],
+      "context_crop": "regions/SANSEN-1416_math_03.png",
+      "context_bbox_normalized": [
+        0.7396610191870185,
+        0.2463414639024389,
+        1,
+        0.5056097565853658
+      ],
+      "source_image": "slides/p0388_02_1416.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1416-M04",
+      "ocr_text": "AR =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6711864412429378,
+        0.5317073167073171,
+        0.7389830514124294,
+        0.5853658532926829
+      ],
+      "context_crop": "regions/SANSEN-1416_math_04.png",
+      "context_bbox_normalized": [
+        0.6311864412429378,
+        0.4317073167073171,
+        0.9689830514124294,
+        0.7153658532926829
+      ],
+      "source_image": "slides/p0388_02_1416.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1416-M05",
+      "ocr_text": "= RF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8101694907457627,
+        0.5317073172195123,
+        0.8881355924406781,
+        0.585365853804878
+      ],
+      "context_crop": "regions/SANSEN-1416_math_05.png",
+      "context_bbox_normalized": [
+        0.7701694907457627,
+        0.4317073172195123,
+        1,
+        0.715365853804878
+      ],
+      "source_image": "slides/p0388_02_1416.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1416-M06",
+      "ocr_text": "LG = A,A2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6745762726440678,
+        0.6682926834634146,
+        0.8271186455254237,
+        0.7219512200487805
+      ],
+      "context_crop": "regions/SANSEN-1416_math_06.png",
+      "context_bbox_normalized": [
+        0.6345762726440678,
+        0.5682926834634147,
+        1,
+        0.8519512200487805
+      ],
+      "source_image": "slides/p0388_02_1416.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1416-M07",
+      "ocr_text": "f.зdB = 27 RIN Gp",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6695174643093125,
+        0.7737976692661511,
+        0.9315314330841403,
+        0.9007999061674111
+      ],
+      "context_crop": "regions/SANSEN-1416_math_07.png",
+      "context_bbox_normalized": [
+        0.6295174643093124,
+        0.6737976692661511,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0388_02_1416.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback transimpedance and current amplifiers"
+}

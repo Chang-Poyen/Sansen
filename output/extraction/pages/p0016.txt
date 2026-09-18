@@ -1,0 +1,51 @@
+16 Chapter #1
+0128
+The small-signal model of a
+pMOST is exactly the same
+as for a nMOST. For the
+same biasing current and
+the same V −V , it also
+GS T
+provides the same transcon-
+ductance g . The output
+m
+resistance may be different,
+depending somewhat on the
+values of parameter V .
+E
+Care must be taken how-
+ever, on how to represent
+this small-signal model.
+Normally a nMOST device
+requires a positive V ,
+DS
+whereas a pMOST device a
+negative V . This is why pMOST devices are usually shown inverted, i.e. with its Source on
+DS
+top. Indeed, only positive supply voltages are used nowadays. pMOS transistors are usually
+shown inverted.
+In this case we have to be careful how to include the signs and the current direction. It is
+shown in this slide.
+0129
+pMOST devices in a n-well
+CMOS technology can also
+be driven at the Bulk. The
+Bulk is then used as an input
+instead of the Gate. This is
+much more dangerous as
+there is always a risk to for-
+ward that channel-bulk pn
+junction by incident. This
+must be avoided at all times
+and may probably require
+extra protection circuitry.
+For a bulk input voltage,
+another transconductance
+must be added g . Its value
+mb
+is proportional to the chan-
+nel-bulk junction capacitance, in exactly the same way as the g is proportional to the gate
+m
+oxide capacitance. In other words, the ratio of transconductances equals the ratio of the con-
+trolling capacitances, which equals n−1. This is a very powerful relationship, but it never
+provides an accurate value, as n depends on some biasing voltages.

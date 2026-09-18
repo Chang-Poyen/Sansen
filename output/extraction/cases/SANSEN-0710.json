@@ -1,0 +1,166 @@
+{
+  "case_id": "SANSEN-0710",
+  "slide_id": "0710",
+  "chapter": 7,
+  "slide_number_in_chapter": 10,
+  "source": {
+    "pdf_page": 210,
+    "printed_page": 215
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0210_02_0710.jpg",
+      "pdf_page": 210,
+      "printed_page": 215,
+      "bbox_pt": [
+        91.521622,
+        397.81009,
+        374.78981,
+        594.270081
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 210,
+      "printed_page": 215,
+      "bbox_pt": [
+        0,
+        393.8206500000001,
+        595,
+        630.7384
+      ],
+      "text_raw": "One of the most used OTA’s\nis the symmetrical OTA. It\nis more symmetrical than\nthe Miller OTA. As a result,\nmatching is improved which\nprovides better offset and\nCMRR specifications (see\nChapter 15).",
+      "text": "One of the most used OTA’s is the symmetrical OTA. It is more symmetrical than the Miller OTA. As a result, matching is improved which provides better offset and CMRR specifications (see Chapter 15)."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "One of the most used OTA’s is the symmetrical OTA. It is more symmetrical than the Miller OTA. As a result, matching is improved which provides better offset and CMRR specifications (see Chapter 15).",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0210_02_0710.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10135135433558552,
+          0.2829268289837399,
+          0.4594594624436936,
+          0.3365853655691058
+        ],
+        "confidence": 0.5,
+        "text": "• Simple CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.10135135344172296,
+          0.3609756095121951,
+          0.4358108129011824,
+          0.4097560973170731
+        ],
+        "confidence": 1,
+        "text": "• CMOS Miller OTA"
+      },
+      {
+        "bbox": [
+          0.09797297582347969,
+          0.4390243899695122,
+          0.5540540569045608,
+          0.492682926554878
+        ],
+        "confidence": 1,
+        "text": "• Symmetrical CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.10135135530405402,
+          0.517073170487805,
+          0.49662162557432427,
+          0.5707317070731708
+        ],
+        "confidence": 0.5,
+        "text": "• Folded cascode OTA"
+      },
+      {
+        "bbox": [
+          0.10135135289039038,
+          0.5999999997560975,
+          0.3783783799174174,
+          0.6536585363414633
+        ],
+        "confidence": 1,
+        "text": "• Other opamps"
+      },
+      {
+        "bbox": [
+          0.719594591891892,
+          0.9414634148170732,
+          0.9358108081081082,
+          0.9853658538414635
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 0710"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0210_02_0710.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, matching is improved which provides better offset and CMRR specifications (see Chapter 15).",
+      "pdf_page": 210,
+      "printed_page": 215,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

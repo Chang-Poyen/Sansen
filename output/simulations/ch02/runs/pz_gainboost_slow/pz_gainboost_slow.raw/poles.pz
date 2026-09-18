@@ -1,0 +1,70 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "18.1.0.077"
+"date" "10:45:41 AM, Tue Sep 15, 2026"
+"design" ""
+"analysis type" "pz"
+"analysis name" "poles"
+"analysis description" "PZ Analysis `poles'"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.00100000
+"fmax" 1.00000e+12
+"zeroonly" 0.00000
+TYPE
+"transferGain" STRUCT(
+"gain" FLOAT DOUBLE PROP(
+"description" "V(gainboost_slow,0)/Vin"
+)
+) PROP(
+"key" "inst"
+)
+"dcGain" STRUCT(
+"dcgain" FLOAT DOUBLE PROP(
+"description" "V(gainboost_slow,0)/Vin"
+)
+) PROP(
+"key" "inst"
+)
+"PoleAndQ" STRUCT(
+"pole" COMPLEX DOUBLE PROP(
+"units" "Hz"
+"description" "pole"
+)
+"qfactor" FLOAT DOUBLE PROP(
+"description" "qfactor"
+)
+) PROP(
+"key" "inst"
+)
+"ZeroAndQ" STRUCT(
+"zero" COMPLEX DOUBLE PROP(
+"units" "Hz"
+"description" "zero"
+)
+"qfactor" FLOAT DOUBLE PROP(
+"description" "qfactor"
+)
+) PROP(
+"key" "inst"
+)
+VALUE
+"transferGain" "transferGain" (
+6.60131e+08
+)
+"dcGain" "dcGain" (
+210100.
+)
+"Pole_1" "PoleAndQ" (
+(-339.157 0.00000)
+0.500000
+)
+"Pole_2" "PoleAndQ" (
+(-30671.0 0.00000)
+0.500000
+)
+"Zero_1" "ZeroAndQ" (
+(-20802.0 0.00000)
+0.500000
+)
+END

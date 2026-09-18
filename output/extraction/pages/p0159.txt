@@ -1,0 +1,39 @@
+Stability of operational amplifiers 163
+0528
+Peaking in the frequency
+domain corresponds to ring-
+ing in the time domain.
+To the same amplifier, we
+apply now an input voltage
+v which has a square
+IN
+waveform. The output volt-
+age v follows with some
+OUT
+delay.
+For small values of f how-
+ever, the output voltage
+overshoots, followed by
+ringing. The system is
+underdamped. The peak of
+the first overshoot P is
+t
+given.
+By taking a damping f of 0.7, the overshoot is very light and there is no ringing. A value of
+f of 0.87 would not give any overshoot at all.
+These values of f for no ringing are clearly similar to the values for no peaking. Ringing in
+the time domain and peaking in the frequency domain are clearly equivalent.
+The settling time is the time required to obtain the final value with a certain error. For
+example, a square waveform applied to a first-order system, gives an exponential with a certain
+time constant. For settling within 0.1%, we need to wait ln(1000) or 6.9 time constants.
+For a slightly underdamped two-pole system, it is not so obvious to find the 0.1% settling
+time. Certainly a f between 0.7 and 0.8 gives the best compromise between rise time and
+settling time.
+0529
+Now that we know what it
+means to have a stable
+amplifier, or an amplifier
+without peaking or ringing,
+let us apply this theory now
+to a conventional two-stage
+amplifier.

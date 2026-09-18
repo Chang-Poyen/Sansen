@@ -1,0 +1,403 @@
+{
+  "case_id": "SANSEN-2441",
+  "slide_id": "2441",
+  "chapter": 24,
+  "slide_number_in_chapter": 41,
+  "source": {
+    "pdf_page": 751,
+    "printed_page": 763
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0752_01_2441.jpg",
+      "pdf_page": 752,
+      "printed_page": 764,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 751,
+      "printed_page": 763,
+      "bbox_pt": [
+        0,
+        594.8645000000002,
+        595,
+        797
+      ],
+      "text_raw": "What components play an important role in PSRR?\nAn example is given in this slide of a current amplifier. The impedance at the Gates of\ntransistors M1 and M2 is low. Does this mean that the PSRR is large at high frequencies?\nAt low frequencies, all capacitances can be left out. In this case, output resistor r determines\no\nthe current to the current mirror. The output current is therefore small.\nAt high frequencies, the parasitic coupling capacitance C takes over the role of r . The current\np o\nto the current mirror now increases with frequency and so does the output current. The gain of",
+      "text": "What components play an important role in PSRR? An example is given in this slide of a current amplifier. The impedance at the Gates of transistors M1 and M2 is low. Does this mean that the PSRR is large at high frequencies? At low frequencies, all capacitances can be left out. In this case, output resistor r determines o the current to the current mirror. The output current is therefore small. At high frequencies, the parasitic coupling capacitance C takes over the role of r . The current p o to the current mirror now increases with frequency and so does the output current. The gain of"
+    },
+    {
+      "pdf_page": 752,
+      "printed_page": 764,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        337.8672
+      ],
+      "text_raw": "the current mirror is con-\nstant up to a frequency\ng /2pC or f . This is evi-\nm GS T\ndently higher than all fre-\nquencies of interest.\nNote that capacitance C\np\nis a coupling capacitor\nbetween the positive supply\nline and the output of the\ninput transistor. It is usually\na lot larger than the output\ncapacitor of the transistor\nonly.",
+      "text": "the current mirror is constant up to a frequency g /2pC or f . This is evim GS T dently higher than all frequencies of interest. Note that capacitance C p is a coupling capacitor between the positive supply line and the output of the input transistor. It is usually a lot larger than the output capacitor of the transistor only."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "What components play an important role in PSRR? An example is given in this slide of a current amplifier. The impedance at the Gates of transistors M1 and M2 is low. Does this mean that the PSRR is large at high frequencies? At low frequencies, all capacitances can be left out. In this case, output resistor r determines o the current to the current mirror. The output current is therefore small. At high frequencies, the parasitic coupling capacitance C takes over the role of r . The current p o to the current mirror now increases with frequency and so does the output current. The gain of\n\nthe current mirror is constant up to a frequency g /2pC or f . This is evim GS T dently higher than all frequencies of interest. Note that capacitance C p is a coupling capacitor between the positive supply line and the output of the input transistor. It is usually a lot larger than the output capacitor of the transistor only.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Example of PSRR",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0752_01_2441.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269873310823,
+          0.08780487817073168,
+          0.39527026630067574,
+          0.1463414635365854
+        ],
+        "confidence": 1,
+        "text": "Example of PSRR"
+      },
+      {
+        "bbox": [
+          0.15540540482625484,
+          0.21951219526132404,
+          0.23648648590733592,
+          0.268292683066202
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.09121621592664093,
+          0.3268292678048781,
+          0.13851351322393823,
+          0.3951219507317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lin"
+      },
+      {
+        "bbox": [
+          0.10472972936373874,
+          0.6439024392682926,
+          0.14864864828265767,
+          0.6829268295121951
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.3074324320382883,
+          0.5365853651219512,
+          0.4290540536599099,
+          0.6243902431707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fiout"
+      },
+      {
+        "bbox": [
+          0.3344594589864865,
+          0.6439024393170731,
+          0.3817567562837838,
+          0.6829268295609756
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.24999999929054056,
+          0.8195121953170731,
+          0.3209459452364865,
+          0.8780487806829267
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CGS"
+      },
+      {
+        "bbox": [
+          0.4797297301238738,
+          0.23902438999999998,
+          0.5270270274211711,
+          0.27804878024390245
+        ],
+        "confidence": 1,
+        "text": "LF"
+      },
+      {
+        "bbox": [
+          0.4662162157094594,
+          0.3512195116260164,
+          0.5405405400337837,
+          0.4195121945528456
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yout"
+      },
+      {
+        "bbox": [
+          0.4695945940596847,
+          0.443902438495935,
+          0.5405405400056307,
+          0.5073170726422764
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5506756751689189,
+          0.4097560969686411,
+          0.6418918913851351,
+          0.4926829262369339
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 90"
+      },
+      {
+        "bbox": [
+          0.45756756511879726,
+          0.6615804869783307,
+          0.6537837875210091,
+          0.7907121948908689
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout = Cps"
+      },
+      {
+        "bbox": [
+          0.4695945940878378,
+          0.7560975604471545,
+          0.5371621616554054,
+          0.819512194593496
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.7059567163750312,
+          0.40904416160743806,
+          0.8785027422440398,
+          0.4738826687247327
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[9o < 9m]"
+      },
+      {
+        "bbox": [
+          0.6957752636270492,
+          0.701438418200229,
+          0.8717923031580352,
+          0.7668542657924665
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[Cp < CGs]"
+      },
+      {
+        "bbox": [
+          0.695595382275931,
+          0.767805836466379,
+          0.9192694862963332,
+          0.8321941651116664
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[ 1/9m < CGss]"
+      },
+      {
+        "bbox": [
+          0.7229729703547297,
+          0.9365853661585366,
+          0.9324324298141893,
+          0.9804878051829268
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2441"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In this case, output resistor r determines o the current to the current mirror.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0752_01_2441.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The output current is therefore small.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The current p o to the current mirror now increases with frequency and so does the output current.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain of",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2441-M01",
+      "ocr_text": "= 90",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5506756751689189,
+        0.4097560969686411,
+        0.6418918913851351,
+        0.4926829262369339
+      ],
+      "context_crop": "regions/SANSEN-2441_math_01.png",
+      "context_bbox_normalized": [
+        0.5106756751689189,
+        0.30975609696864115,
+        0.8718918913851351,
+        0.6226829262369339
+      ],
+      "source_image": "slides/p0752_01_2441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2441-M02",
+      "ocr_text": "lout = Cps",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.45756756511879726,
+        0.6615804869783307,
+        0.6537837875210091,
+        0.7907121948908689
+      ],
+      "context_crop": "regions/SANSEN-2441_math_02.png",
+      "context_bbox_normalized": [
+        0.4175675651187973,
+        0.5615804869783307,
+        0.8837837875210091,
+        0.9207121948908689
+      ],
+      "source_image": "slides/p0752_01_2441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2441-M03",
+      "ocr_text": "[9o < 9m]",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7059567163750312,
+        0.40904416160743806,
+        0.8785027422440398,
+        0.4738826687247327
+      ],
+      "context_crop": "regions/SANSEN-2441_math_03.png",
+      "context_bbox_normalized": [
+        0.6659567163750312,
+        0.3090441616074381,
+        1,
+        0.6038826687247327
+      ],
+      "source_image": "slides/p0752_01_2441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2441-M04",
+      "ocr_text": "[Cp < CGs]",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6957752636270492,
+        0.701438418200229,
+        0.8717923031580352,
+        0.7668542657924665
+      ],
+      "context_crop": "regions/SANSEN-2441_math_04.png",
+      "context_bbox_normalized": [
+        0.6557752636270492,
+        0.601438418200229,
+        1,
+        0.8968542657924665
+      ],
+      "source_image": "slides/p0752_01_2441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2441-M05",
+      "ocr_text": "[ 1/9m < CGss]",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.695595382275931,
+        0.767805836466379,
+        0.9192694862963332,
+        0.8321941651116664
+      ],
+      "context_crop": "regions/SANSEN-2441_math_05.png",
+      "context_bbox_normalized": [
+        0.655595382275931,
+        0.667805836466379,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0752_01_2441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

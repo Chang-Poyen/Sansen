@@ -1,0 +1,43 @@
+514 Chapter #17
+1758
+It takes a time t , which
+s
+includes a number of time
+constants, before the expo-
+nential of the voltage across
+the output capacitor reaches
+its final value. For a devia-
+tion of 0.1%, approximately
+7 time constants are
+required. This deviation is
+called the dynamic error e .
+D
+A typical value is again
+0.05%.
+The time constant itself is
+1/(2pBW) in which the BW
+equals aGBW. For a single-
+stage opamp the GBW is
+determined by the load capacitances, as given in this slide.
+The maximum value of settling time t is half the clock period, which is the inverse of the
+s
+clock frequency f .
+c
+A minimum value is now required for the GBW. The corresponding time constant must be
+sufficiently small to be able to reach settling with sufficient dynamic accuracy within half a
+clock period.
+The expression is given in this slide.
+For example, the term ln(1/e ) is about 7 for 0.1% but 7.6 for 0.05%. For a=0.2, the GBW
+D
+must be about 12 times f . If a were unity, then 2.4 times f would be sufficient. This is where
+c c
+the rule of thumb is coming from that the GBW must be 2–3 times the clock frequency f .
+c
+1759
+Static and dynamic accu-
+racy is one concern, noise
+is another.
+Because of the switching,
+noise is increased in the low-
+frequency band, as shown
+next.

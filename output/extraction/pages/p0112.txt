@@ -1,0 +1,54 @@
+114 Chapter #3
+0349
+Addition of another cascode
+by means of M4, leads to the
+current differential amplifier
+in this slide.
+This allows for the appli-
+cation of another input cur-
+rent i , which flows to the
+2
+output through M4.The
+output current contains the
+differential input current,
+superimposed on the DC
+biasing current I .
+B
+The input impedances for
+the input currents, are not
+the same. For current i , the
+1
+input impedance is quite
+small whereas for input current i , it will depend on the load impedance. For a small load
+2
+impedance, the input resistance will be 1/g .
+m4
+This is probably the most used current differential amplifier. It will be used in many operational
+amplifiers to convert the differential output signal to a single-ended one.
+0350
+This same current differen-
+tial amplifier can easily be
+expanded to a four input
+current amplifier.
+It is sufficient to add an
+AC signal to the current
+sources i and i . In this way
+3 4
+a current difference-differ-
+ence amplifier can be built
+or any other multiple-input
+analog processing block up
+to high frequencies.
+Note that only the output
+impedance is high. All other
+nodes are at 1/g level or
+m
+below.
+0351
+An important additional advantage of this current differential amplifier is that it can operate at
+very low supply voltages. This is shown in this slide for a 1 V supply voltage.
+For a V of 0.7 V, the V −V has to be deceased to 0.15 V rather than 0.2 V, to be able to
+T GS T
+cope with a supply voltage of 1 V. Indeed all V values are then 0.85 V. This gives plenty of
+GS
+headroom for the input current sources.

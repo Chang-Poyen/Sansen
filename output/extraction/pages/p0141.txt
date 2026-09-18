@@ -1,0 +1,50 @@
+144 Chapter #4
+Many sensors are capaci-
+tive, however. Photodiodes
+and radiation detectors are
+capacitive, but so are capac-
+itive accelerometers, micro-
+phones, etc. The question is
+then, what transistor biasing
+provides the best noise per-
+formance? This is called
+capacitive noise matching.
+Quite often this analysis
+leads to complicated expres-
+sions. They have been sim-
+plified to the bare minimum.
+Also the design plan has
+been simplified to a single
+equation.
+0454
+A capacitive sensor can be
+represented by a current
+source in parallel or a volt-
+age in series. The latter
+model is chosen as the calcu-
+lations are a bit simpler. The
+optimization provides the
+same results.
+The first preamplifier con-
+sists of a single transistor
+loaded by an ideal (or very-
+low-noise) current source.
+It is usually followed by
+another amplifier to have
+more gain.
+The feedback loop is car-
+ried out by means of a capacitance. Indeed capacitances don’t give any noise. Since the source
+is capacitive, the feedback element should also be capacitive!
+The gain A is then simply given by the ratio of the two capacitances.
+v
+In this case, the input transistor is the only noisy component. The question then is, what must
+be its channel width W (for minimum channel length L) and its current I , for minimum
+opt DSopt
+noise?
+What would be its SNR for an input signal of 10 mV ?
+RMS
+We cannot forget that the input impedance of the MOST is also capacitive. Its C is
+GS
+proportional to the width W, for minimum channel length L. We will use minimum channel
+length L, because we will end up with very large W/L ratio’s. It is preferable to use minimum
+channel length then!

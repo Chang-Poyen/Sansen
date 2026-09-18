@@ -1,0 +1,202 @@
+{
+  "case_id": "SANSEN-2414",
+  "slide_id": "2414",
+  "chapter": 24,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 737,
+    "printed_page": 749
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0737_02_2414.jpg",
+      "pdf_page": 737,
+      "printed_page": 749,
+      "bbox_pt": [
+        91.521622,
+        359.69397,
+        374.78981,
+        556.153961
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 737,
+      "printed_page": 749,
+      "bbox_pt": [
+        0,
+        355.7045000000001,
+        595,
+        797
+      ],
+      "text_raw": "The bonding wires again\nplay an important role in\nthis sensor preamplifier fol-\nlowed by a DSP block. Both\nthe input and output are\nactually analog. The core is\na DSP block preceded by a\nADC and followed by a\nDAC. All this is on-chip,\nwhereas the sensor itself and\nthe output are off-chip.\nHow to connect the\nsupply lines and ground?\nThe substrate is separated\nfrom the analog ground,\nwhich is reserved for the\ninput and output amplifiers on-chip only and to the ground of the sensor off-chip.\nThe substrate is taken out separately and connected externally to the supply ground line.\nMany parallel bonding-wires are used in parallel as this ground connection is common to both\nthe analog circuits and digital blocks. Two separate pins are used however, for these ground\nconnections VSSA and VSSD.\nThe supply voltages also come in over two separate pins VDDA and VDDD. Again, multiple\nbonding wires are used for the digital supply pin.\nAll necessary precautions have now been taken to avoid coupling. The most sensitive point\nfor coupling is at the analog ground of the input amplifier. As no differential sensor is used, this\npoint will pick up noise from the substrate and from the external PCB ground. Differential\nsensors are therefore always preferred.",
+      "text": "The bonding wires again play an important role in this sensor preamplifier followed by a DSP block. Both the input and output are actually analog. The core is a DSP block preceded by a ADC and followed by a DAC. All this is on-chip, whereas the sensor itself and the output are off-chip. How to connect the supply lines and ground? The substrate is separated from the analog ground, which is reserved for the input and output amplifiers on-chip only and to the ground of the sensor off-chip. The substrate is taken out separately and connected externally to the supply ground line. Many parallel bonding-wires are used in parallel as this ground connection is common to both the analog circuits and digital blocks. Two separate pins are used however, for these ground connections VSSA and VSSD. The supply voltages also come in over two separate pins VDDA and VDDD. Again, multiple bonding wires are used for the digital supply pin. All necessary precautions have now been taken to avoid coupling. The most sensitive point for coupling is at the analog ground of the input amplifier. As no differential sensor is used, this point will pick up noise from the substrate and from the external PCB ground. Differential sensors are therefore always preferred."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The bonding wires again play an important role in this sensor preamplifier followed by a DSP block. Both the input and output are actually analog. The core is a DSP block preceded by a ADC and followed by a DAC. All this is on-chip, whereas the sensor itself and the output are off-chip. How to connect the supply lines and ground? The substrate is separated from the analog ground, which is reserved for the input and output amplifiers on-chip only and to the ground of the sensor off-chip. The substrate is taken out separately and connected externally to the supply ground line. Many parallel bonding-wires are used in parallel as this ground connection is common to both the analog circuits and digital blocks. Two separate pins are used however, for these ground connections VSSA and VSSD. The supply voltages also come in over two separate pins VDDA and VDDD. Again, multiple bonding wires are used for the digital supply pin. All necessary precautions have now been taken to avoid coupling. The most sensitive point for coupling is at the analog ground of the input amplifier. As no differential sensor is used, this point will pick up noise from the substrate and from the external PCB ground. Differential sensors are therefore always preferred.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Supply routing for mixed-signal IC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0737_02_2414.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07094593834459476,
+          0.07804877963414636,
+          0.6925675599662163,
+          0.14634146256097558
+        ],
+        "confidence": 1,
+        "text": "Supply routing for mixed-signal IC"
+      },
+      {
+        "bbox": [
+          0.533783784543919,
+          0.21463414609756093,
+          0.6250000007601352,
+          0.2536585363414634
+        ],
+        "confidence": 0.5,
+        "text": "Noisy !"
+      },
+      {
+        "bbox": [
+          0.6689189194256757,
+          0.6048780492195123,
+          0.760135135641892,
+          0.6487804882439026
+        ],
+        "confidence": 1,
+        "text": "Noisy!"
+      },
+      {
+        "bbox": [
+          0.42892287296456094,
+          0.7164485005764079,
+          0.5170230743393366,
+          0.7567222320872216
+        ],
+        "confidence": 0.5,
+        "text": "Noisy !"
+      },
+      {
+        "bbox": [
+          0.18870873934852278,
+          0.7993035264027795,
+          0.35512977903292153,
+          0.8348400470583417
+        ],
+        "confidence": 1,
+        "text": "Clean analog"
+      },
+      {
+        "bbox": [
+          0.3512730840453001,
+          0.7995421844141075,
+          0.446024210102693,
+          0.8346041578928435
+        ],
+        "confidence": 1,
+        "text": "ground"
+      },
+      {
+        "bbox": [
+          0.439189197297297,
+          0.873170731300813,
+          0.9256756837837835,
+          0.9073170727642277
+        ],
+        "confidence": 1,
+        "text": "Ref. Nauta, ACD, Huijsing etal,Kluwer 1999, p.165"
+      },
+      {
+        "bbox": [
+          0.7293669798102556,
+          0.9455733684016068,
+          0.9428745289930444,
+          0.9874661574514532
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2414"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0737_02_2414.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "How to connect the supply lines and ground?",
+        "pdf_page": 737,
+        "printed_page": 749,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The substrate is taken out separately and connected externally to the supply ground line.",
+        "pdf_page": 737,
+        "printed_page": 749,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Many parallel bonding-wires are used in parallel as this ground connection is common to both the analog circuits and digital blocks.",
+        "pdf_page": 737,
+        "printed_page": 749,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Two separate pins are used however, for these ground connections VSSA and VSSD.",
+        "pdf_page": 737,
+        "printed_page": 749,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Differential sensors are therefore always preferred.",
+      "pdf_page": 737,
+      "printed_page": 749,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

@@ -1,0 +1,202 @@
+{
+  "case_id": "SANSEN-1650",
+  "slide_id": "1650",
+  "chapter": 16,
+  "slide_number_in_chapter": 50,
+  "source": {
+    "pdf_page": 472,
+    "printed_page": 481
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0472_02_1650.jpg",
+      "pdf_page": 472,
+      "printed_page": 481,
+      "bbox_pt": [
+        91.521622,
+        481.266968,
+        374.78981,
+        677.726959
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 472,
+      "printed_page": 481,
+      "bbox_pt": [
+        0,
+        477.2775000000003,
+        595,
+        797
+      ],
+      "text_raw": "Both voltage and current\nreferences have been dis-\ncussed now. Both can be\nused in voltage and current\nregulators. Only one more\nkind of regulator will be dis-\ncussed here. It is a feedback\ncircuit with variable load.\nAs a consequence the design\nis not straightforward.",
+      "text": "Both voltage and current references have been discussed now. Both can be used in voltage and current regulators. Only one more kind of regulator will be discussed here. It is a feedback circuit with variable load. As a consequence the design is not straightforward."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Both voltage and current references have been discussed now. Both can be used in voltage and current regulators. Only one more kind of regulator will be discussed here. It is a feedback circuit with variable load. As a consequence the design is not straightforward.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0472_02_1650.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108086993246,
+          0.0926829274390244,
+          0.38175675654560814,
+          0.14146341524390238
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.1011732085769676,
+          0.28626497830503883,
+          0.33801598263306715,
+          0.3478813618343297
+        ],
+        "confidence": 1,
+        "text": "• Principles"
+      },
+      {
+        "bbox": [
+          0.1013513472249035,
+          0.370731707456446,
+          0.6790540499276062,
+          0.4292682928222997
+        ],
+        "confidence": 1,
+        "text": "• Bipolar bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135135162162165,
+          0.4487804884390243,
+          0.6621621624324324,
+          0.5121951225853658
+        ],
+        "confidence": 1,
+        "text": "• CMOS bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135134608108118,
+          0.5268292676097561,
+          0.6418918866216217,
+          0.5951219505365853
+        ],
+        "confidence": 0.5,
+        "text": "• Bandgap references < 1 V"
+      },
+      {
+        "bbox": [
+          0.09797297046030412,
+          0.6097560972256098,
+          0.506756754244088,
+          0.6634146338109755
+        ],
+        "confidence": 1,
+        "text": "• Current references"
+      },
+      {
+        "bbox": [
+          0.10135135386100384,
+          0.692682926620209,
+          0.4527027052123552,
+          0.7512195119860626
+        ],
+        "confidence": 1,
+        "text": "• LDO Regulators"
+      },
+      {
+        "bbox": [
+          0.1114864776463967,
+          0.8390243903252033,
+          0.6418918830518021,
+          0.8829268293495934
+        ],
+        "confidence": 1,
+        "text": "Ref.: B. Gilbert, G.Meijer, ACD, Kluwer 1995"
+      },
+      {
+        "bbox": [
+          0.7094594618243243,
+          0.9365853653658537,
+          0.9256756780405405,
+          0.9756097556097562
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1650"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0472_02_1650.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1650-M01",
+      "ocr_text": "• Bandgap references < 1 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.10135134608108118,
+        0.5268292676097561,
+        0.6418918866216217,
+        0.5951219505365853
+      ],
+      "context_crop": "regions/SANSEN-1650_math_01.png",
+      "context_bbox_normalized": [
+        0.06135134608108118,
+        0.42682926760975615,
+        0.8718918866216216,
+        0.7251219505365853
+      ],
+      "source_image": "slides/p0472_02_1650.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

@@ -1,0 +1,53 @@
+Fully-diVerential amplifiers 243
+089
+Let us now look at the main
+requirements of CMFB
+amplifiers..
+The first one requires
+the common-mode GBW
+CM
+to be higher than the
+differential GBW . How-
+DM
+ever, this depends on the
+application.
+Indeed, if the common-
+mode amplifier were slow,
+only providing DC biasing,
+then a high-speed spike on
+the supply line or the sub-
+strate would throw the input
+devices or the active loads
+in the linear region. Slow common-mode feedback would then take too much time to restore
+the biasing in the input stage. During all this time, the high-speed differential amplifier would
+be out of operation. This why this specification comes first.
+In some specific circuits such as some sigma-delta converters, high speed amplifiers are only
+used in the low-frequency region. In this case this specification can be relaxed considerably!
+Requiring the GBW to be as large as the GBW will require a lot of power, directly
+CM DM
+conflicting with the last specification. We will see that there is no easy way of avoiding this
+compromise. In principle, a fully-differential amplifier simply doubles the power consumption.
+Finally, the output swing is also a problem. It is limited by both the output swing of the
+differential amplifier and by the common-mode input range of the CMFB amplifier (whichever
+is smaller).
+0810
+The differential and
+common-mode amplifiers
+don’t necessarily have the
+same load capacitances.
+A situation is sketched in
+this slide where we have two
+consecutive fully-differential
+amplifiers. Both are using
+differential feedback to set
+the gain and the bandwidth.
+The capacitances C are
+L
+parasitic capacitances to
+ground. They obviously
+depend on the length and
+nature of the interconnect.
+Capacitance C is a mutual
+M
+capacitance.
+Now both the differential and common-mode load capacitances are derived.

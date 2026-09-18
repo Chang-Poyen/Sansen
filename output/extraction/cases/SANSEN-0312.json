@@ -1,0 +1,381 @@
+{
+  "case_id": "SANSEN-0312",
+  "slide_id": "0312",
+  "chapter": 3,
+  "slide_number_in_chapter": 12,
+  "source": {
+    "pdf_page": 92,
+    "printed_page": 94
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0092_02_0312.jpg",
+      "pdf_page": 92,
+      "printed_page": 94,
+      "bbox_pt": [
+        91.521622,
+        467.31597899999997,
+        374.78981,
+        663.77597
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 92,
+      "printed_page": 94,
+      "bbox_pt": [
+        0,
+        463.32650000000024,
+        595,
+        797
+      ],
+      "text_raw": "One additional problem is\nencountered with bipolar\ntransistors: they carry a base\ncurrent i .\nB\nThese base currents are\nboth subtracted from the\ninput current source. The\nerror between output and\ninput current is thus about\n2/b. We assume resistor R to\nbe really large.\nAddition of another tran-\nsistor M3 reduces this error\nby the another beta. Even\nfor small beta values, this\nerror can be made small.\nThe role of this resistor is then more clear. It increases the current in transistor M3. This will\nincrease its beta somewhat. Indeed, in some older bipolar technologies, the beta drops rapidly",
+      "text": "One additional problem is encountered with bipolar transistors: they carry a base current i . B These base currents are both subtracted from the input current source. The error between output and input current is thus about 2/b. We assume resistor R to be really large. Addition of another transistor M3 reduces this error by the another beta. Even for small beta values, this error can be made small. The role of this resistor is then more clear. It increases the current in transistor M3. This will increase its beta somewhat. Indeed, in some older bipolar technologies, the beta drops rapidly"
+    },
+    {
+      "pdf_page": 93,
+      "printed_page": 95,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        262.0333999999997
+      ],
+      "text_raw": "for small collector currents. In BiCMOS technologies however, the processing is a lot cleaner.\nThe beta hardly drops at low currents and this resistor can then be omitted.\nIn a BiCMOS technology, a MOST could be used for transistor M3. Its Gate current is zero\nand so would be the current error. We have to be careful however with the M1, M3 feedback\nloop. If we reduce the capacitance C too much, by replacing it with a small MOST, we may\nBE3\nfind some peaking in the current transfer function, as a result of too many poles too close\ntogether! A pole-zero position diagram of the current gain with C as a variable is the best\nBE3\nway to study this phenomenon.",
+      "text": "for small collector currents. In BiCMOS technologies however, the processing is a lot cleaner. The beta hardly drops at low currents and this resistor can then be omitted. In a BiCMOS technology, a MOST could be used for transistor M3. Its Gate current is zero and so would be the current error. We have to be careful however with the M1, M3 feedback loop. If we reduce the capacitance C too much, by replacing it with a small MOST, we may BE3 find some peaking in the current transfer function, as a result of too many poles too close together! A pole-zero position diagram of the current gain with C as a variable is the best BE3 way to study this phenomenon."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "One additional problem is encountered with bipolar transistors: they carry a base current i . B These base currents are both subtracted from the input current source. The error between output and input current is thus about 2/b. We assume resistor R to be really large. Addition of another transistor M3 reduces this error by the another beta. Even for small beta values, this error can be made small. The role of this resistor is then more clear. It increases the current in transistor M3. This will increase its beta somewhat. Indeed, in some older bipolar technologies, the beta drops rapidly\n\nfor small collector currents. In BiCMOS technologies however, the processing is a lot cleaner. The beta hardly drops at low currents and this resistor can then be omitted. In a BiCMOS technology, a MOST could be used for transistor M3. Its Gate current is zero and so would be the current error. We have to be careful however with the M1, M3 feedback loop. If we reduce the capacitance C too much, by replacing it with a small MOST, we may BE3 find some peaking in the current transfer function, as a result of too many poles too close together! A pole-zero position diagram of the current gain with C as a variable is the best BE3 way to study this phenomenon.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Improved current mirrors",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0092_02_0312.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07380570918300333,
+          0.06654922179520062,
+          0.5443807840747896,
+          0.14329165920439224
+        ],
+        "confidence": 1,
+        "text": "Improved current mirrors"
+      },
+      {
+        "bbox": [
+          0.1925675672578829,
+          0.21951219524390253,
+          0.22972972942004505,
+          0.2634146342682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'in"
+      },
+      {
+        "bbox": [
+          0.20945945892454954,
+          0.317073170691057,
+          0.27364864811373873,
+          0.39999999995934954
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2ie"
+      },
+      {
+        "bbox": [
+          0.4324324321509009,
+          0.20975609821138208,
+          0.5270270267454955,
+          0.2878048786991869
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ", 'out"
+      },
+      {
+        "bbox": [
+          0.10472972936373874,
+          0.5609756100000001,
+          0.14864864828265767,
+          0.6000000002439025
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.5270270264780405,
+          0.56097561,
+          0.5709459453969594,
+          0.6000000002439023
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.3175675670608108,
+          0.6195121954878049,
+          0.3581081076013513,
+          0.6585365857317074
+        ],
+        "confidence": 0.5,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.1993243251351351,
+          0.6487804875609757,
+          0.2804054062162162,
+          0.6926829265853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1:B"
+      },
+      {
+        "bbox": [
+          0.33108108091216215,
+          0.7804878043902439,
+          0.3614864863175676,
+          0.829268292195122
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.18236910902707767,
+          0.8142913057439575,
+          0.32100926791231177,
+          0.8686355248586798
+        ],
+        "confidence": 1,
+        "text": "Error ~"
+      },
+      {
+        "bbox": [
+          0.8547297293918918,
+          0.20975609834146347,
+          0.9493243239864864,
+          0.2878048788292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "I 'out"
+      },
+      {
+        "bbox": [
+          0.6452702706644144,
+          0.2682926834146342,
+          0.6993243247184685,
+          0.3268292687804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2iв"
+      },
+      {
+        "bbox": [
+          0.6114864855996621,
+          0.34146341524390245,
+          0.6824324315456081,
+          0.4097560981707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→,B"
+      },
+      {
+        "bbox": [
+          0.7364864860219594,
+          0.3951219507317074,
+          0.7804054049408784,
+          0.4341463409756098
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.8479729723648649,
+          0.5609756100487805,
+          0.9087837831756758,
+          0.6000000002926829
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.7533783785472973,
+          0.6195121954471545,
+          0.7804054055743243,
+          0.6585365856910569
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.625000000434363,
+          0.6487804875609757,
+          0.6858108112451737,
+          0.6926829265853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1:B"
+      },
+      {
+        "bbox": [
+          0.6351351349662163,
+          0.7756097570243902,
+          0.8209459457770271,
+          0.8682926838536584
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Error ~ 2"
+      },
+      {
+        "bbox": [
+          0.7837837837355213,
+          0.858536584912892,
+          0.8310810810328185,
+          0.9219512190592335
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B2"
+      },
+      {
+        "bbox": [
+          0.7195945968327703,
+          0.9414634140853658,
+          0.9324324346706081,
+          0.9853658531097561
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 0312"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "If we reduce the capacitance C too much, by replacing it with a small MOST, we may BE3 find some peaking in the current transfer function, as a result of too many poles too close together!",
+      "pdf_page": 93,
+      "printed_page": 95,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0092_02_0312.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "One additional problem is encountered with bipolar transistors: they carry a base current i .",
+        "pdf_page": 92,
+        "printed_page": 94,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "B These base currents are both subtracted from the input current source.",
+        "pdf_page": 92,
+        "printed_page": 94,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "for small collector currents.",
+        "pdf_page": 93,
+        "printed_page": 95,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Its Gate current is zero and so would be the current error.",
+        "pdf_page": 93,
+        "printed_page": 95,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The error between output and input current is thus about 2/b.",
+      "pdf_page": 92,
+      "printed_page": 94,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It increases the current in transistor M3.",
+      "pdf_page": 92,
+      "printed_page": 94,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This will increase its beta somewhat.",
+      "pdf_page": 92,
+      "printed_page": 94,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If we reduce the capacitance C too much, by replacing it with a small MOST, we may BE3 find some peaking in the current transfer function, as a result of too many poles too close together!",
+      "pdf_page": 93,
+      "printed_page": 95,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A pole-zero position diagram of the current gain with C as a variable is the best BE3 way to study this phenomenon.",
+      "pdf_page": 93,
+      "printed_page": 95,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "If we reduce the capacitance C too much, by replacing it with a small MOST, we may BE3 find some peaking in the current transfer function, as a result of too many poles too close together!",
+      "pdf_page": 93,
+      "printed_page": 95,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "We assume resistor R to be really large.",
+      "pdf_page": 92,
+      "printed_page": 94,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

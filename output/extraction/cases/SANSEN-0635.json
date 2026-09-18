@@ -1,0 +1,159 @@
+{
+  "case_id": "SANSEN-0635",
+  "slide_id": "0635",
+  "chapter": 6,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 195,
+    "printed_page": 199
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0195_02_0635.jpg",
+      "pdf_page": 195,
+      "printed_page": 199,
+      "bbox_pt": [
+        91.52162,
+        359.84343,
+        374.54222,
+        556.3532700000001
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 195,
+      "printed_page": 199,
+      "bbox_pt": [
+        0,
+        355.85397,
+        595,
+        797
+      ],
+      "text_raw": "A few of these specifications\nwill now be discussed.\nThe numerical results will\nbe given for the same Miller\nCMOS OTA. We start with\nthe common-mode input\nvoltage range.",
+      "text": "A few of these specifications will now be discussed. The numerical results will be given for the same Miller CMOS OTA. We start with the common-mode input voltage range."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A few of these specifications will now be discussed. The numerical results will be given for the same Miller CMOS OTA. We start with the common-mode input voltage range.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "MC O : Other specifications",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0195_02_0635.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626790960453,
+          0.07317073113821138,
+          0.5898305051977399,
+          0.1414634140650407
+        ],
+        "confidence": 0.5,
+        "text": "MC O : Other specifications"
+      },
+      {
+        "bbox": [
+          0.15254236457627135,
+          0.2878048783536584,
+          0.8169491442372883,
+          0.3414634149390243
+        ],
+        "confidence": 0.5,
+        "text": "o Common-mode input voltage range"
+      },
+      {
+        "bbox": [
+          0.1525423703954803,
+          0.3756097556097562,
+          0.5728813534463277,
+          0.4341463409756098
+        ],
+        "confidence": 0.5,
+        "text": "o Output voltage range"
+      },
+      {
+        "bbox": [
+          0.15254237144067798,
+          0.4731707321544716,
+          0.3796610155084746,
+          0.5268292687398374
+        ],
+        "confidence": 0.5,
+        "text": "o Slew Rate"
+      },
+      {
+        "bbox": [
+          0.1559322056991525,
+          0.5658536583231708,
+          0.5254237311228813,
+          0.6195121949085366
+        ],
+        "confidence": 0.5,
+        "text": "o Output impedance"
+      },
+      {
+        "bbox": [
+          0.20991584718899203,
+          0.6526809248834211,
+          0.308728222015197,
+          0.7082946845522831
+        ],
+        "confidence": 1,
+        "text": "Noise"
+      },
+      {
+        "bbox": [
+          0.7254237261864407,
+          0.9414634148170732,
+          0.9355932177118644,
+          0.9853658538414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 100s 0635"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0195_02_0635.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

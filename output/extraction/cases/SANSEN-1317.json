@@ -1,0 +1,251 @@
+{
+  "case_id": "SANSEN-1317",
+  "slide_id": "1317",
+  "chapter": 13,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 364,
+    "printed_page": 371
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0364_02_1317.jpg",
+      "pdf_page": 364,
+      "printed_page": 371,
+      "bbox_pt": [
+        91.52162,
+        409.51898,
+        374.54222,
+        606.02882
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 364,
+      "printed_page": 371,
+      "bbox_pt": [
+        0,
+        405.52960965000017,
+        595,
+        797
+      ],
+      "text_raw": "At the input, it is mainly the\nkind of sensor which deter-\nmines whether we need a\nvoltage input or a current\nsensing input. A dynamic\nmicrophone for example,\nbehaves as a voltage source:\nit has a small internal resis-\ntance. The voltage carries\nthe sensor information. We\nneed therefore, to measure\nthe voltage at the input. We\nalso need a high input resis-\ntance or series feedback at\nthe input. This also applies\nto a Wheatstone bridge with\npressure sensors, and to thermisters.\nOn the other hand, if we have a capacitive pressure sensor or accelerometer, or a photodiode,\nthen we need a current amplifier. They all have a small capacitor as an internal impedance, quite\noften as low as 10 pF. Its impedance is quite high at low frequencies. It is the current which\ncarries the sensor information. We need a current measurement, or shunt feedback at the input.\nIf we want a voltage output, we will have to take a shunt-shunt feedback amplifier.",
+      "text": "At the input, it is mainly the kind of sensor which determines whether we need a voltage input or a current sensing input. A dynamic microphone for example, behaves as a voltage source: it has a small internal resistance. The voltage carries the sensor information. We need therefore, to measure the voltage at the input. We also need a high input resistance or series feedback at the input. This also applies to a Wheatstone bridge with pressure sensors, and to thermisters. On the other hand, if we have a capacitive pressure sensor or accelerometer, or a photodiode, then we need a current amplifier. They all have a small capacitor as an internal impedance, quite often as low as 10 pF. Its impedance is quite high at low frequencies. It is the current which carries the sensor information. We need a current measurement, or shunt feedback at the input. If we want a voltage output, we will have to take a shunt-shunt feedback amplifier."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "At the input, it is mainly the kind of sensor which determines whether we need a voltage input or a current sensing input. A dynamic microphone for example, behaves as a voltage source: it has a small internal resistance. The voltage carries the sensor information. We need therefore, to measure the voltage at the input. We also need a high input resistance or series feedback at the input. This also applies to a Wheatstone bridge with pressure sensors, and to thermisters. On the other hand, if we have a capacitive pressure sensor or accelerometer, or a photodiode, then we need a current amplifier. They all have a small capacitor as an internal impedance, quite often as low as 10 pF. Its impedance is quite high at low frequencies. It is the current which carries the sensor information. We need a current measurement, or shunt feedback at the input. If we want a voltage output, we will have to take a shunt-shunt feedback amplifier.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Shunt versus serics for sensors",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0364_02_1317.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626781779668,
+          0.08292682948170726,
+          0.6135593186652543,
+          0.13658536606707317
+        ],
+        "confidence": 1,
+        "text": "Shunt versus serics for sensors"
+      },
+      {
+        "bbox": [
+          0.2542372884503632,
+          0.21463414620209065,
+          0.29830508506053266,
+          0.26341463400696863
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.22711864394067796,
+          0.4292682921341463,
+          0.2508474575,
+          0.4731707311585366
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.28135593259887004,
+          0.4731707315853658,
+          0.3288135597175141,
+          0.5170731706097561
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.5220338985762712,
+          0.22439024434146337,
+          0.6983050850169492,
+          0.26829268336585366
+        ],
+        "confidence": 1,
+        "text": "Microphone"
+      },
+      {
+        "bbox": [
+          0.5220339018220338,
+          0.2731707315243903,
+          0.8033898340254236,
+          0.3170731705487805
+        ],
+        "confidence": 1,
+        "text": "is a voltage source"
+      },
+      {
+        "bbox": [
+          0.5220338994350282,
+          0.3268292687398373,
+          0.9355932214689265,
+          0.3804878053252032
+        ],
+        "confidence": 1,
+        "text": "requires a high Rin amplifier"
+      },
+      {
+        "bbox": [
+          0.5254237285875706,
+          0.4731707308130082,
+          0.8711864404519775,
+          0.526829267398374
+        ],
+        "confidence": 1,
+        "text": "Pressure-, temperature"
+      },
+      {
+        "bbox": [
+          0.5254237303389829,
+          0.5317073176219511,
+          0.9389830523728813,
+          0.5756097566463414
+        ],
+        "confidence": 1,
+        "text": "sensors are voltage sources"
+      },
+      {
+        "bbox": [
+          0.5186440635169494,
+          0.5853658537804878,
+          0.8610169448728815,
+          0.6439024391463416
+        ],
+        "confidence": 0.5,
+        "text": "require a high Rin amp."
+      },
+      {
+        "bbox": [
+          0.515254240819209,
+          0.7268292680081301,
+          0.9389830543785311,
+          0.7804878045934959
+        ],
+        "confidence": 1,
+        "text": "Pixel-, photodiode, radiation"
+      },
+      {
+        "bbox": [
+          0.5186440733898303,
+          0.7804878048780488,
+          0.9661017005084744,
+          0.8292682926829268
+        ],
+        "confidence": 1,
+        "text": "detectors are current sources,"
+      },
+      {
+        "bbox": [
+          0.5152542318079099,
+          0.8341463416260162,
+          0.8440677911299438,
+          0.8829268294308943
+        ],
+        "confidence": 0.5,
+        "text": "require a low Rin amp."
+      },
+      {
+        "bbox": [
+          0.7220338961694915,
+          0.9414634148292683,
+          0.9355932182033899,
+          0.9707317075121952
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen muus 1317"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "At the input, it is mainly the kind of sensor which determines whether we need a voltage input or a current sensing input.",
+      "pdf_page": 364,
+      "printed_page": 371,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0364_02_1317.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A dynamic microphone for example, behaves as a voltage source: it has a small internal resistance.",
+        "pdf_page": 364,
+        "printed_page": 371,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We need therefore, to measure the voltage at the input.",
+      "pdf_page": 364,
+      "printed_page": 371,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

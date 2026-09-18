@@ -1,0 +1,47 @@
+Systematic design of operational amplifiers 185
+068
+Now we focus on the design
+plan of a CMOS Miller
+OTA, realized with transis-
+tors. Again we will verify the
+gain, bandwidth and the
+GBW. Moreover, we have
+to make sure that the com-
+pensation capacitance gen-
+erates enough polesplitting
+to position the f beyond
+nd
+the GBW.
+069
+A CMOS OTA is shown in
+this slide. The input devices
+are normally pMOST
+devices as they give better
+matching (see Chapter 12).
+The first block converts
+the differential input voltage
+into a current by means of
+transconductance g .
+m1
+The second stage is a
+transimpedance amplifier,
+converting this current into
+a voltage. Actually, only one
+transistor M6 takes care of
+that, together with capaci-
+tance C .
+c
+Obviously this circuit is the most straightforward realization of the two-stage OTA discussed
+in the previous Chapter.
+Indeed, nodes 1 and 4 cause two poles, which are split by C . Parasitic capacitance C is also
+c n1
+shown. It consists mainly of the input capacitance C of transistor M6. This latter transistor
+GS6
+is a big transistor as it carries a much larger current than the input transistors.
+0610
+In order to be able to calculate the gains, etc, we draw on the small signal equivalent circuit. It
+is shown below.
+The 4-transistor input stage is represented by the g generator, and the second stage by the
+m1
+g generator.
+m6

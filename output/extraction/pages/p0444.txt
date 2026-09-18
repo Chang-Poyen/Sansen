@@ -1,0 +1,52 @@
+452 Chapter #15
+In order to ensure that v equals the input v , a voltage clamp of about 1.4 V (or 2
+CE25 CE21,22
+V ) is introduced with transistors Q29,30. This clamp (or bootstrap circuit) senses the common-
+BEon
+mode input voltage at the Sources of the input transistors Q21,22 and keeps the Sources of the
+current mirror transistors Q26–28 at a constant 0.7 V (or V ) below the common-mode input
+BEon
+voltage. As result, all the transistors within this bootstrap loop (blue frame) follow the common-
+mode input voltage.
+The base of Q25 is therefore always the same voltage as the average (or common-mode) input
+voltage. Its collector current is also the same as for transistors Q21,22 and also its v , because
+CE
+of equal resistors R1–3.
+1562
+A similar voltage clamp is
+used in the circuit in this
+slide. Transistors Q3 and Q4
+maintain a 0.7 V voltage
+drop across the input tran-
+sistors Q1,2. These devices
+are normally super-beta
+transistors. Their v ’s must
+CE
+therefore be small indeed.
+Their base currents are
+drawn from a current
+mirror, which derives its
+input current from the base
+of transistor Q5. This tran-
+sistor must therefore be well
+matched to the input
+devices. Indeed, it is the same as for the input devices. Its current is also the same.
+The actual currents are shown on the next slide.
+1563
+All relevant currents are
+indicated. The DC current
+in one single input transistor
+Q1 (or Q2) is denoted by I .
+B
+As a result, the DC currents
+in all transistors are I as
+B
+well. The base current of
+transistor Q5 is now I /b,
+B
+and so are the currents sent
+to the bases of the input
+transistors.
+The external input cur-
+rents will therefore be close
+to zero.

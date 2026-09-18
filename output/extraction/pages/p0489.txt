@@ -1,0 +1,48 @@
+Switched-capacitor filters 499
+1728
+An analog signal is con-
+tinuous in amplitude and in
+time (on top). When it is
+switched in and out at the
+rate of a clock frequency f
+c
+(represented by a pulse train
+in the middle), it becomes
+discontinuous in time (at the
+bottom). It is only available
+when the clock is high. It is
+a sampled analog signal.
+These signals are shown
+versus time. As Fourier has
+explained, they have an
+equivalent representation
+versus frequency, as shown
+next.
+1729
+The bandwidth of the
+analog signal is limited. Its
+spectral content is limited
+to f .
+s
+When this signal is
+sampled by clock frequency
+f , it is actually multiplied
+c
+by this clock frequency. Its
+spectrum appears as two
+sidebands on both sides of
+the clock frequency, as
+shown in the middle.
+Note that the signal
+bands appear on all the har-
+monics of the clock
+frequency.
+Care has to be taken that the frequency bands do not overlap. This is called aliasing. To avoid
+overlap, the signal frequency f must be smaller than half the clock frequency f . This is called
+s c
+the Nyquist criterion.
+When the signal bandwidth f is too large, aliasing occurs (at the bottom), the information in
+s
+the overlap frequency band does not know to which band it belongs. It is lost. Aliasing must be
+avoided at all cost. To achieve this, a low-pass filter is applied before sampling. This filter is
+normally a passive filter. It is called an anti-aliasing filter.

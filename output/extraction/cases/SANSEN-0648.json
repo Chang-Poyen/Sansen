@@ -1,0 +1,420 @@
+{
+  "case_id": "SANSEN-0648",
+  "slide_id": "0648",
+  "chapter": 6,
+  "slide_number_in_chapter": 48,
+  "source": {
+    "pdf_page": 202,
+    "printed_page": 206
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0202_01_0648.jpg",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "bbox_pt": [
+        91.52162,
+        288.94250999999997,
+        374.54215999999997,
+        485.40247
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 202,
+      "printed_page": 206,
+      "bbox_pt": [
+        0,
+        284.95293999999956,
+        595,
+        582.9064700000001
+      ],
+      "text_raw": "In order to find the equiva-\nlent input noise voltage, we\nhave to introduce the input\nnoise voltages for the first\nand second stages.\nThey are included in the\nsmall-signal equivalent cir-\ncuit shown in this slide.\nThe input noise of the\ninput stage is given as well.\nOnly the two input transis-\ntors themselves are in-\ncluded. We have assumed\nthat the current mirror\ndevices have been designed\nfor low noise.\nThe input noise of the second stage is due to transistor M6 only. It is embedded in the circuit\nin this slide. Note that it has taken a fairly strange position, in series with the Gate. Therefore,\nits effect is not found that easily.\nWe now have to shift the input noise voltage of the second stage to the input. For this purpose,\nwe calculate its contribution to the output, and then divide it by the total gain.\nThe result is shown next.",
+      "text": "In order to find the equivalent input noise voltage, we have to introduce the input noise voltages for the first and second stages. They are included in the small-signal equivalent circuit shown in this slide. The input noise of the input stage is given as well. Only the two input transistors themselves are included. We have assumed that the current mirror devices have been designed for low noise. The input noise of the second stage is due to transistor M6 only. It is embedded in the circuit in this slide. Note that it has taken a fairly strange position, in series with the Gate. Therefore, its effect is not found that easily. We now have to shift the input noise voltage of the second stage to the input. For this purpose, we calculate its contribution to the output, and then divide it by the total gain. The result is shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to find the equivalent input noise voltage, we have to introduce the input noise voltages for the first and second stages. They are included in the small-signal equivalent circuit shown in this slide. The input noise of the input stage is given as well. Only the two input transistors themselves are included. We have assumed that the current mirror devices have been designed for low noise. The input noise of the second stage is due to transistor M6 only. It is embedded in the circuit in this slide. Note that it has taken a fairly strange position, in series with the Gate. Therefore, its effect is not found that easily. We now have to shift the input noise voltage of the second stage to the input. For this purpose, we calculate its contribution to the output, and then divide it by the total gain. The result is shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA : Noise density 1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0202_01_0648.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0813559362711864,
+          0.087804878466899,
+          0.7118644108474576,
+          0.1463414638327526
+        ],
+        "confidence": 0.5,
+        "text": "Miller CMOS OTA : Noise density 1"
+      },
+      {
+        "bbox": [
+          0.494915254866828,
+          0.23414634111498256,
+          0.583050848087167,
+          0.29268292648083616
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVinz?"
+      },
+      {
+        "bbox": [
+          0.6305084749152543,
+          0.2487804883414635,
+          0.6711864410169492,
+          0.3024390249268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.12203389884745762,
+          0.2780487798536586,
+          0.21016949206779661,
+          0.34146341400000013
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvin1?"
+      },
+      {
+        "bbox": [
+          0.8508474581920904,
+          0.3170731706504065,
+          0.918644068361582,
+          0.3658536584552845
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.1932203394237288,
+          0.46829268278048786,
+          0.23728813603389826,
+          0.512195121804878
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.4135593225706215,
+          0.5268292680894309,
+          0.47796610223163843,
+          0.5707317071138212
+        ],
+        "confidence": 1,
+        "text": "9024"
+      },
+      {
+        "bbox": [
+          0.49830508432203396,
+          0.5170731702845529,
+          0.5559322029661018,
+          0.5707317068699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cn1"
+      },
+      {
+        "bbox": [
+          0.5898305089491526,
+          0.4634146339512195,
+          0.6372881360677966,
+          0.502439024195122
+        ],
+        "confidence": 0.5,
+        "text": "Vn1"
+      },
+      {
+        "bbox": [
+          0.6033898317686506,
+          0.5512195120325204,
+          0.6305084742200501,
+          0.5804878047154473
+        ],
+        "confidence": 0.5,
+        "text": "-"
+      },
+      {
+        "bbox": [
+          0.823728814519774,
+          0.5317073180735865,
+          0.8813559331638416,
+          0.5707317059914541
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9L06"
+      },
+      {
+        "bbox": [
+          0.908474576542373,
+          0.5317073169268293,
+          0.9355932206101695,
+          0.5658536583902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C"
+      },
+      {
+        "bbox": [
+          0.08135593148305086,
+          0.6243902433536586,
+          0.1457627111440678,
+          0.6682926823780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vnea"
+      },
+      {
+        "bbox": [
+          0.24745762620338987,
+          0.6195121946341464,
+          0.34576271094915256,
+          0.6682926824390244
+        ],
+        "confidence": 0.5,
+        "text": "9m1Vin"
+      },
+      {
+        "bbox": [
+          0.15241250466487793,
+          0.7650976151393654,
+          0.32894342673022486,
+          0.8300243394569625
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVin12 = 4KT"
+      },
+      {
+        "bbox": [
+          0.3389830505084746,
+          0.7463414636236935,
+          0.38644067762711864,
+          0.7853658538675958
+        ],
+        "confidence": 1,
+        "text": "4/3"
+      },
+      {
+        "bbox": [
+          0.4000000000423729,
+          0.7707317067682926,
+          0.43728813563559327,
+          0.8146341457926829
+        ],
+        "confidence": 1,
+        "text": "df"
+      },
+      {
+        "bbox": [
+          0.3389830515677966,
+          0.7999999998780487,
+          0.3966101702118644,
+          0.8487804876829267
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.5386518248437914,
+          0.7639288895858821,
+          0.7121956320513192,
+          0.8311930650009212
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVinz2 = 4KT"
+      },
+      {
+        "bbox": [
+          0.6541208306812926,
+          0.6238249870127691,
+          0.7560486622987449,
+          0.6688579394842463
+        ],
+        "confidence": 0.5,
+        "text": "9m6Vn1"
+      },
+      {
+        "bbox": [
+          0.7254237292090396,
+          0.7463414631300812,
+          0.7728813563276836,
+          0.7902439021544715
+        ],
+        "confidence": 1,
+        "text": "2/3"
+      },
+      {
+        "bbox": [
+          0.7864406779237287,
+          0.7756097566463415,
+          0.8237288135169492,
+          0.8195121956707317
+        ],
+        "confidence": 1,
+        "text": "df"
+      },
+      {
+        "bbox": [
+          0.7220338977627119,
+          0.8048780483414634,
+          0.7830508469152542,
+          0.8487804873658535
+        ],
+        "confidence": 0.5,
+        "text": "9m6"
+      },
+      {
+        "bbox": [
+          0.728813563979713,
+          0.9414634152032522,
+          0.9254237205400612,
+          0.9756097566666667
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10.c6 U6-48"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In order to find the equivalent input noise voltage, we have to introduce the input noise voltages for the first and second stages.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "They are included in the small-signal equivalent circuit shown in this slide.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For this purpose, we calculate its contribution to the output, and then divide it by the total gain.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0202_01_0648.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Note that it has taken a fairly strange position, in series with the Gate.",
+        "pdf_page": 202,
+        "printed_page": 206,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Therefore, its effect is not found that easily.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For this purpose, we calculate its contribution to the output, and then divide it by the total gain.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "We have assumed that the current mirror devices have been designed for low noise.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0648-M01",
+      "ocr_text": "dVin12 = 4KT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.15241250466487793,
+        0.7650976151393654,
+        0.32894342673022486,
+        0.8300243394569625
+      ],
+      "context_crop": "regions/SANSEN-0648_math_01.png",
+      "context_bbox_normalized": [
+        0.11241250466487793,
+        0.6650976151393654,
+        0.5589434267302249,
+        0.93
+      ],
+      "source_image": "slides/p0202_01_0648.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0648-M02",
+      "ocr_text": "dVinz2 = 4KT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5386518248437914,
+        0.7639288895858821,
+        0.7121956320513192,
+        0.8311930650009212
+      ],
+      "context_crop": "regions/SANSEN-0648_math_02.png",
+      "context_bbox_normalized": [
+        0.4986518248437914,
+        0.6639288895858821,
+        0.9421956320513192,
+        0.93
+      ],
+      "source_image": "slides/p0202_01_0648.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

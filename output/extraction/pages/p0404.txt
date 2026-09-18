@@ -1,0 +1,44 @@
+412 Chapter #14
+alent input noise voltage of the amplifier. We assume that it is mainly the input transistor which
+is responsible for the amplifier noise.
+Only thermal noise is taken into account.
+1447
+The total equivalent input
+noise current is now calcu-
+lated. For this purpose, the
+gain from each noise source
+to the output is calculated,
+added in power, and then
+divided by the total trans-
+conductance, which is R .
+F
+The expression shows
+that the noise of the input
+transistor is actually divided
+by R squared towards the
+F
+input. Making R larger will
+F
+make the noise of the input
+transistor negligible. A fairly
+small value of R is already
+F
+sufficient!
+The noise of the feedback resistor R is now the dominant noise source, obviously, in addition
+F
+to the noise of the diode itself. Since the resistor noise is a current, the larger the resistor, the
+lower its noise!
+1448
+If a cascode is used at the
+input then the noise current
+of that cascode transistor
+comes in. It is the only noise
+source around, in addition
+to the noise of the diode
+itself.
+Note that the load resis-
+tor R is the same as R for
+L F
+the voltage-input amplifier
+so that the transimpedances
+are the same.

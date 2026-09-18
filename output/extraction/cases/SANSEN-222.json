@@ -1,0 +1,169 @@
+{
+  "case_id": "SANSEN-222",
+  "slide_id": "222",
+  "chapter": 22,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 666,
+    "printed_page": 677
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0666_02_222.jpg",
+      "pdf_page": 666,
+      "printed_page": 677,
+      "bbox_pt": [
+        91.521622,
+        348.732483,
+        374.78981,
+        545.192474
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 666,
+      "printed_page": 677,
+      "bbox_pt": [
+        0,
+        344.74300000000005,
+        595,
+        582.9065
+      ],
+      "text_raw": "Before this oscillator is\ndesigned, we have to review\nthe oscillation conditions.\nAfter this we will have a\nlook at what the electrical\nmodel is of such a crystal.\nIt can now be used to\nconstruct a single-transistor\noscillator with minimum\npower consumption.\nBoth MOST and bipolar\ntransistors can be used to\nrealize this kind of\noscillator.\nFinally, the principles of\noscillation can be extended\nto construct other types of oscillators, such as VCO’s, etc.",
+      "text": "Before this oscillator is designed, we have to review the oscillation conditions. After this we will have a look at what the electrical model is of such a crystal. It can now be used to construct a single-transistor oscillator with minimum power consumption. Both MOST and bipolar transistors can be used to realize this kind of oscillator. Finally, the principles of oscillation can be extended to construct other types of oscillators, such as VCO’s, etc."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Before this oscillator is designed, we have to review the oscillation conditions. After this we will have a look at what the electrical model is of such a crystal. It can now be used to construct a single-transistor oscillator with minimum power consumption. Both MOST and bipolar transistors can be used to realize this kind of oscillator. Finally, the principles of oscillation can be extended to construct other types of oscillators, such as VCO’s, etc.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0666_02_222.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027008023649,
+          0.07804878070121957,
+          0.38175675485641897,
+          0.13170731728658536
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09797297576013514,
+          0.28780487780487807,
+          0.5439189217060811,
+          0.3463414631707318
+        ],
+        "confidence": 1,
+        "text": "• Oscillation principles"
+      },
+      {
+        "bbox": [
+          0.09797297188438442,
+          0.3658536587804878,
+          0.29391891783033036,
+          0.4292682929268292
+        ],
+        "confidence": 0.5,
+        "text": "• Crystals"
+      },
+      {
+        "bbox": [
+          0.09797297643581068,
+          0.4487804875304877,
+          0.6520270304898648,
+          0.5121951216768292
+        ],
+        "confidence": 1,
+        "text": "• Single-transistor oscillator"
+      },
+      {
+        "bbox": [
+          0.09797296722972988,
+          0.5317073178658536,
+          0.5979729672297299,
+          0.5951219520121951
+        ],
+        "confidence": 1,
+        "text": "• MOST oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09797297751266883,
+          0.6146341460975611,
+          0.8243243288640202,
+          0.6731707314634148
+        ],
+        "confidence": 1,
+        "text": "• Bipolar-transistor oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09459459203265771,
+          0.6975609761382113,
+          0.45608107851914415,
+          0.7609756102845529
+        ],
+        "confidence": 1,
+        "text": "• Other oscillators"
+      },
+      {
+        "bbox": [
+          0.7263513612297813,
+          0.9414634142276422,
+          0.9324324294233716,
+          0.9853658532520325
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 222"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0666_02_222.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

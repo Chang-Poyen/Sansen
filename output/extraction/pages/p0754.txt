@@ -1,0 +1,56 @@
+766 Chapter #24
+2445
+The situation is somewhat
+more complicated in a two-
+stage Miller OTA.
+After all, when the input
+signal is applied at the posi-
+tive supply voltage, it is not
+clear whether the current
+through the first stage is
+added or subtracted from
+the current through the
+second stage.
+A thorough calculation at
+low frequencies shows that
+the current through
+output resistor r of the
+o7
+current source transistor
+M7 of the first stage is the dominant one. This current can only provide a contribution to the
+output voltage of the first stage provided there is some mismatch in the first stage, as previously
+explained.
+At low frequencies, the PSRR is then readily found. It can be fairly large as it contains
+DD
+two factors.
+2446
+At high frequencies, the situ-
+ation is very different.
+First of all, capacitances
+take over but also resistor
+r remains in the expres-
+o5
+sions. Calculations show
+that the PSRR at the
+DD
+GBW now contains three
+terms.
+Two of them are simply
+related to the two dominant
+coupling capacitors. For the
+first C it is easy to see
+n3DD
+that this performs exactly
+the same role as resistor r .
+o7
+The mismatch in the first
+stage comes in. Also, C can be quite large as it includes the well to substrate capacitance of
+n3DD
+the input transistors.
+Capacitor C is the direct coupling capacitance between the supply line and the output.
+n4DD
+The first term g /g is somewhat harder to understand. It is actually the resistive divider
+o5 m6
+from the supply line to the output, made up by r and the resistance 1/g offered by M6 at
+o5 m6
+high frequencies.

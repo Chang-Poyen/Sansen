@@ -1,0 +1,45 @@
+DiVerential voltage and current amplifiers 93
+039
+If the compliance voltage of
+0.4 V is still too high, one
+single output transistor can
+be used.
+An opamp is then used to
+provide feedback around
+the input device M1. Its
+drain voltage is then only
+0.2 V, which is a lot less than
+the 0.9 V in a conventional
+current mirror (for a V of
+T
+0.7 V).
+The output impedance is
+not very high. It is simply
+the output resistance of the
+output transistor M2.
+There are better uses for
+an opamp as shown next.
+0310
+Two current mirrors are
+shown which exploit the
+opamp for both purposes,
+i.e. to reduce the compliance
+voltage as much as possible
+and also to increase the
+output resistance as much
+as possible. Both of them
+are derived from the 4-
+transistor current source
+described previously.
+The difference is that an
+opamp is either added to the
+left cascode or to the right
+cascode.
+On the right one, it is
+fairly easy to see that gain boosting is applied to the right cascode, increasing the output
+resistance by the gain of that opamp.
+It is not so obvious that the compliance voltage can be as low as a few tens of mV’s. Indeed
+the gain of the feedback loop is so high, due to the opamp, that the transistors M1 and M2 can
+enter the linear region. Moreover cascode transistor M4 can also enter the linear region. The
+output resistance will be reduced but the opamp provides sufficient gain to compensate for this
+loss in output resistance.

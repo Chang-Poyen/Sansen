@@ -1,0 +1,48 @@
+156 Chapter #5
+0515
+An opamp is really a single-
+pole system. As a result,
+it allows exchange of gain
+with bandwidth, within a
+specific GBW.
+Because there is only one
+dominant pole, there can be
+only one internal node at
+high impedance. If there are
+more nodes at high imped-
+ance, then we have more
+poles. In this case we have
+to add capacitance or
+increase the currents, such
+that this second pole, the
+nondominant pole, is at
+sufficiently high frequencies, beyond the GBW.
+All two-stage amplifiers have two high-impedance nodes and hence two poles. Therefore, all
+amplifiers with two high-impedance nodes are called two-stage amplifiers, irrespective of the
+number of transistors.
+We will have to compensate these two-stage amplifiers, i.e. we will have to add capacitance or
+increase currents to shift the non-dominant pole out to sufficiently high frequencies. As a result,
+the amplifier resembles again a single-pole system.
+Wideband amplifiers are very different. They consist of more stages, each of them having a
+pole. They are normally compensated at one particular setting of the gain. They are not meant
+to exchange gain for bandwidth. On the contrary, at that gain setting, they are optimized for
+maximum bandwidth. More about such amplifiers is given in Chapter 8.
+0516
+If the operational amplifier
+is truly a single-pole ampli-
+fier, then it can never show
+peaking or any other form
+of instability. Indeed the
+slope of −20 dB/decade is
+then maintained to frequen-
+cies beyond its GBW. Also,
+its phase of −90° is constant
+for all frequencies beyond
+the bandwidth f .
+1
+Application of unity-gain
+feedback results in an ampli-
+fier, the bandwidth of which
+coincides with the GBW.
+There is no trace of
+peaking.

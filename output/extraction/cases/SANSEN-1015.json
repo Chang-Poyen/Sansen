@@ -1,0 +1,230 @@
+{
+  "case_id": "SANSEN-1015",
+  "slide_id": "1015",
+  "chapter": 10,
+  "slide_number_in_chapter": 15,
+  "source": {
+    "pdf_page": 291,
+    "printed_page": 298
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0291_01_1015.jpg",
+      "pdf_page": 291,
+      "printed_page": 298,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 291,
+      "printed_page": 298,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        367.812
+      ],
+      "text_raw": "A single-stage amplifier is\neasily extended to a two-\nstage amplifier as shown\nnext.\nThis amplifier is copied\nfrom an earlier slide for sake\nof comparison.\nNote that the emitter fol-\nlowers at the output are\nrepresented by a voltage\namplifier with unity gain.",
+      "text": "A single-stage amplifier is easily extended to a twostage amplifier as shown next. This amplifier is copied from an earlier slide for sake of comparison. Note that the emitter followers at the output are represented by a voltage amplifier with unity gain."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A single-stage amplifier is easily extended to a twostage amplifier as shown next. This amplifier is copied from an earlier slide for sake of comparison. Note that the emitter followers at the output are represented by a voltage amplifier with unity gain.",
+  "schema_version": "1.0",
+  "chapter_title": "电流输入型运算放大器",
+  "title": "Two-stage OCA- 1 (AD8011 bipolar)",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0291_01_1015.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270277027028,
+          0.07804877985365855,
+          0.6858108108783785,
+          0.14146341399999995
+        ],
+        "confidence": 1,
+        "text": "Two-stage OCA- 1 (AD8011 bipolar)"
+      },
+      {
+        "bbox": [
+          0.11824324361486487,
+          0.20975609809756102,
+          0.1621621625337838,
+          0.2634146346829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.20945946023648648,
+          0.19024390224390242,
+          0.28716216293918917,
+          0.2390243900487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-W"
+      },
+      {
+        "bbox": [
+          0.415540540259009,
+          0.27804878008130074,
+          0.45608108079954957,
+          0.32682926788617883
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B2"
+      },
+      {
+        "bbox": [
+          0.11824324286317568,
+          0.49268292609756104,
+          0.1621621617820946,
+          0.5512195114634146
+        ],
+        "confidence": 0.5,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.1959459465653153,
+          0.5219512193495934,
+          0.23310810872747745,
+          0.5512195120325203
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.38851351372466214,
+          0.5512195125609756,
+          0.41216216237331077,
+          0.5804878052439024
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.4324324320945946,
+          0.5658536580081301,
+          0.4797297293918919,
+          0.6292682921544716
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "In"
+      },
+      {
+        "bbox": [
+          0.4189189192905404,
+          0.8634146339999998,
+          0.4560810814527026,
+          0.9073170730243901
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B2"
+      },
+      {
+        "bbox": [
+          0.7500000000281531,
+          0.5609756102845528,
+          0.8209459459740991,
+          0.6243902444308943
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.7128378398085584,
+          0.9560975606504065,
+          0.8310810830518017,
+          0.9853658533333333
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.8513513503941441,
+          0.9512195127642277,
+          0.9358108098536035,
+          0.9853658542276423
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10.05 1015"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A single-stage amplifier is easily extended to a twostage amplifier as shown next.",
+      "pdf_page": 291,
+      "printed_page": 298,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0291_01_1015.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Note that the emitter followers at the output are represented by a voltage amplifier with unity gain.",
+        "pdf_page": 291,
+        "printed_page": 298,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Note that the emitter followers at the output are represented by a voltage amplifier with unity gain.",
+      "pdf_page": 291,
+      "printed_page": 298,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Current-input operational amplifiers"
+}

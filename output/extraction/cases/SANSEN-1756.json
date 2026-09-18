@@ -1,0 +1,449 @@
+{
+  "case_id": "SANSEN-1756",
+  "slide_id": "1756",
+  "chapter": 17,
+  "slide_number_in_chapter": 56,
+  "source": {
+    "pdf_page": 503,
+    "printed_page": 513
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0503_01_1756.jpg",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 503,
+      "printed_page": 513,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        417.4875000000002
+      ],
+      "text_raw": "When feedback is used\naround an operational\namplifier with gain-band-\nwidth product GBW, the\nclosed-loop gain A is the\nc0\ninverse of the feedback\nfactor a. This is the ratio\nbetween the bandwidth BW\nand the GBW.\nThe loop gain T is then\nthe difference (in dB)\nbetween the open-loop gain\nA and the closed-loop gain\n0\nA . It is also given by aA .\nc0 0\nThe loop gain T will\ndetermine the accuracy at\nlow frequency or the static accuracy.\nThe bandwidth will determine the settling time.\nFor example, take a closed-loop gain of 5, which corresponds to a=0.2. For A =104, the loop\n0\ngain is 2000 or 66 dB. If the GBW=1 MHz, then the BW is 0.2 MHz. Also, the dominant pole\nf is at 100 Hz. At this frequency, the loop gain starts decreasing, to become unity at 0.2 MHz.\nd",
+      "text": "When feedback is used around an operational amplifier with gain-bandwidth product GBW, the closed-loop gain A is the c0 inverse of the feedback factor a. This is the ratio between the bandwidth BW and the GBW. The loop gain T is then the difference (in dB) between the open-loop gain A and the closed-loop gain 0 A . It is also given by aA . c0 0 The loop gain T will determine the accuracy at low frequency or the static accuracy. The bandwidth will determine the settling time. For example, take a closed-loop gain of 5, which corresponds to a=0.2. For A =104, the loop 0 gain is 2000 or 66 dB. If the GBW=1 MHz, then the BW is 0.2 MHz. Also, the dominant pole f is at 100 Hz. At this frequency, the loop gain starts decreasing, to become unity at 0.2 MHz. d"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "When feedback is used around an operational amplifier with gain-bandwidth product GBW, the closed-loop gain A is the c0 inverse of the feedback factor a. This is the ratio between the bandwidth BW and the GBW. The loop gain T is then the difference (in dB) between the open-loop gain A and the closed-loop gain 0 A . It is also given by aA . c0 0 The loop gain T will determine the accuracy at low frequency or the static accuracy. The bandwidth will determine the settling time. For example, take a closed-loop gain of 5, which corresponds to a=0.2. For A =104, the loop 0 gain is 2000 or 66 dB. If the GBW=1 MHz, then the BW is 0.2 MHz. Also, the dominant pole f is at 100 Hz. At this frequency, the loop gain starts decreasing, to become unity at 0.2 MHz. d",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Opamp parameters",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0503_01_1756.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08062860384856965,
+          0.08736877930601328,
+          0.4226781509924542,
+          0.15484378187395587
+        ],
+        "confidence": 1,
+        "text": "Opamp parameters"
+      },
+      {
+        "bbox": [
+          0.10135135189189189,
+          0.22926829326829268,
+          0.1621621627027027,
+          0.2878048786341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IA| A"
+      },
+      {
+        "bbox": [
+          0.1013513516554054,
+          0.30243902487804875,
+          0.13851351381756757,
+          0.3512195126829267
+        ],
+        "confidence": 0.5,
+        "text": "Ao"
+      },
+      {
+        "bbox": [
+          0.2060810802702703,
+          0.2585365858536586,
+          0.48986486405405405,
+          0.30731707365853655
+        ],
+        "confidence": 0.5,
+        "text": "Loop gain (1+T) = T"
+      },
+      {
+        "bbox": [
+          0.0945945940456081,
+          0.5317073164024391,
+          0.1452702697212838,
+          0.5853658529878049
+        ],
+        "confidence": 0.5,
+        "text": "Aco"
+      },
+      {
+        "bbox": [
+          0.11824324301801803,
+          0.6292682931955377,
+          0.1385135132882883,
+          0.6682926811134052
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.21283783743243245,
+          0.6000000002439024,
+          0.25337837797297297,
+          0.6439024392682926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ", a"
+      },
+      {
+        "bbox": [
+          0.5168918927027027,
+          0.5999999997560976,
+          0.5979729737837839,
+          0.6439024387804879
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.6317567541554054,
+          0.2682926824390244,
+          0.8986486460472973,
+          0.31707317024390247
+        ],
+        "confidence": 0.5,
+        "text": "Feedback factor a"
+      },
+      {
+        "bbox": [
+          0.631663336374752,
+          0.35073240299494124,
+          0.7771204494860934,
+          0.41024320621759736
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ac0 = 1/ a"
+      },
+      {
+        "bbox": [
+          0.6317567589808558,
+          0.44878048772357726,
+          0.8986486508727477,
+          0.5073170730894309
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T= Ao/ Aco=a Ao"
+      },
+      {
+        "bbox": [
+          0.6250000001689189,
+          0.6634146359597655,
+          0.6418918920608108,
+          0.702439023877633
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.8310810806587838,
+          0.5658536579268292,
+          0.8783783779560811,
+          0.6146341457317073
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.6890984822316225,
+          0.5994253203117029,
+          0.8210366561958394,
+          0.6444771206441213
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW = -"
+      },
+      {
+        "bbox": [
+          0.8040540532094594,
+          0.6439024391463414,
+          0.9054054045608109,
+          0.6975609757317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2m Ceff"
+      },
+      {
+        "bbox": [
+          0.27027027054054054,
+          0.6780487810243903,
+          0.30405405432432436,
+          0.7317073176097562
+        ],
+        "confidence": 0.5,
+        "text": "fa"
+      },
+      {
+        "bbox": [
+          0.4358108113175676,
+          0.678048780195122,
+          0.48648648699324326,
+          0.7170731704390244
+        ],
+        "confidence": 1,
+        "text": "BW"
+      },
+      {
+        "bbox": [
+          0.43243243388513514,
+          0.7951219507804878,
+          0.6250000014527027,
+          0.8390243898048779
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BW = a GBW"
+      },
+      {
+        "bbox": [
+          0.7128378363597974,
+          0.9365853664634146,
+          0.932432430954392,
+          0.9853658542682926
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 N1756"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It is also given by aA . c0 0 The loop gain T will determine the accuracy at low frequency or the static accuracy.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The bandwidth will determine the settling time.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0503_01_1756.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "When feedback is used around an operational amplifier with gain-bandwidth product GBW, the closed-loop gain A is the c0 inverse of the feedback factor a.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is the ratio between the bandwidth BW and the GBW.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The loop gain T is then the difference (in dB) between the open-loop gain A and the closed-loop gain 0 A .",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is also given by aA . c0 0 The loop gain T will determine the accuracy at low frequency or the static accuracy.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The bandwidth will determine the settling time.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For example, take a closed-loop gain of 5, which corresponds to a=0.2.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For A =104, the loop 0 gain is 2000 or 66 dB.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "At this frequency, the loop gain starts decreasing, to become unity at 0.2 MHz. d",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1756-M01",
+      "ocr_text": "Loop gain (1+T) = T",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.2060810802702703,
+        0.2585365858536586,
+        0.48986486405405405,
+        0.30731707365853655
+      ],
+      "context_crop": "regions/SANSEN-1756_math_01.png",
+      "context_bbox_normalized": [
+        0.1660810802702703,
+        0.15853658585365857,
+        0.719864864054054,
+        0.43731707365853656
+      ],
+      "source_image": "slides/p0503_01_1756.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1756-M02",
+      "ocr_text": "Ac0 = 1/ a",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.631663336374752,
+        0.35073240299494124,
+        0.7771204494860934,
+        0.41024320621759736
+      ],
+      "context_crop": "regions/SANSEN-1756_math_02.png",
+      "context_bbox_normalized": [
+        0.591663336374752,
+        0.25073240299494126,
+        1,
+        0.5402432062175974
+      ],
+      "source_image": "slides/p0503_01_1756.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1756-M03",
+      "ocr_text": "T= Ao/ Aco=a Ao",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6317567589808558,
+        0.44878048772357726,
+        0.8986486508727477,
+        0.5073170730894309
+      ],
+      "context_crop": "regions/SANSEN-1756_math_03.png",
+      "context_bbox_normalized": [
+        0.5917567589808558,
+        0.3487804877235773,
+        1,
+        0.6373170730894309
+      ],
+      "source_image": "slides/p0503_01_1756.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1756-M04",
+      "ocr_text": "GBW = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6890984822316225,
+        0.5994253203117029,
+        0.8210366561958394,
+        0.6444771206441213
+      ],
+      "context_crop": "regions/SANSEN-1756_math_04.png",
+      "context_bbox_normalized": [
+        0.6490984822316225,
+        0.49942532031170295,
+        1,
+        0.7744771206441213
+      ],
+      "source_image": "slides/p0503_01_1756.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1756-M05",
+      "ocr_text": "BW = a GBW",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.43243243388513514,
+        0.7951219507804878,
+        0.6250000014527027,
+        0.8390243898048779
+      ],
+      "context_crop": "regions/SANSEN-1756_math_05.png",
+      "context_bbox_normalized": [
+        0.39243243388513516,
+        0.6951219507804878,
+        0.8550000014527027,
+        0.93
+      ],
+      "source_image": "slides/p0503_01_1756.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

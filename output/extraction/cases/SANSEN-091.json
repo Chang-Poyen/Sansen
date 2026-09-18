@@ -1,0 +1,182 @@
+{
+  "case_id": "SANSEN-091",
+  "slide_id": "091",
+  "chapter": 9,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 256,
+    "printed_page": 263
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0256_01_091.jpg",
+      "pdf_page": 256,
+      "printed_page": 263,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 256,
+      "printed_page": 263,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "In many applications, oper-\national amplifiers are\nrequired which have three\nstages. For example, class\nAB amplifiers have an\noutput stage which provide\nlittle gain but a lot of cur-\nrent. The first two stages are\nnow needed to provide gain.\nAlso, when the supply\nvoltage is less than 1 V,\nmore stages are required as\ncascoding is no longer\npossible.\nIn this Chapter, the prin-\nciples are discussed to stabi-\nlize three-stage amplifiers. Moreover, circuit principles are devised to reduce the power\nconsumption.",
+      "text": "In many applications, operational amplifiers are required which have three stages. For example, class AB amplifiers have an output stage which provide little gain but a lot of current. The first two stages are now needed to provide gain. Also, when the supply voltage is less than 1 V, more stages are required as cascoding is no longer possible. In this Chapter, the principles are discussed to stabilize three-stage amplifiers. Moreover, circuit principles are devised to reduce the power consumption."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In many applications, operational amplifiers are required which have three stages. For example, class AB amplifiers have an output stage which provide little gain but a lot of current. The first two stages are now needed to provide gain. Also, when the supply voltage is less than 1 V, more stages are required as cascoding is no longer possible. In this Chapter, the principles are discussed to stabilize three-stage amplifiers. Moreover, circuit principles are devised to reduce the power consumption.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Slide 091",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0256_01_091.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.06747003733902575,
+          0.6188483765922921,
+          0.11240596936957467,
+          0.8657983679580504
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BIS:SEDUS:SADI0,"
+      },
+      {
+        "bbox": [
+          0.20270270540540544,
+          0.28292682902439026,
+          0.7432432459459459,
+          0.3707317070731708
+        ],
+        "confidence": 1,
+        "text": "Design of Multistage"
+      },
+      {
+        "bbox": [
+          0.17905405783361483,
+          0.39024390219512184,
+          0.7837837875633445,
+          0.4780487802439024
+        ],
+        "confidence": 1,
+        "text": "Operational amplifiers"
+      },
+      {
+        "bbox": [
+          0.38169348973480965,
+          0.5897125912251528,
+          0.6351983974974917,
+          0.6541898465113929
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.3108108153716215,
+          0.7219512191463414,
+          0.6756756802364864,
+          0.7707317069512195
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.3817567591891892,
+          0.7902439021951221,
+          0.6250000024324325,
+          0.8341463412195123
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.3445945998310809,
+          0.8731707313821138,
+          0.6587837890202701,
+          0.9024390240650406
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7331081173671687,
+          0.9317073165040649,
+          0.9290540504256238,
+          0.9658536579674796
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.a5 091"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0256_01_091.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For example, class AB amplifiers have an output stage which provide little gain but a lot of current.",
+      "pdf_page": 256,
+      "printed_page": 263,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The first two stages are now needed to provide gain.",
+      "pdf_page": 256,
+      "printed_page": 263,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

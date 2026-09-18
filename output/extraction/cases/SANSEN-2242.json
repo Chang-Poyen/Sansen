@@ -1,0 +1,174 @@
+{
+  "case_id": "SANSEN-2242",
+  "slide_id": "2242",
+  "chapter": 22,
+  "slide_number_in_chapter": 42,
+  "source": {
+    "pdf_page": 687,
+    "printed_page": 698
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0687_02_2242.jpg",
+      "pdf_page": 687,
+      "printed_page": 698,
+      "bbox_pt": [
+        91.521622,
+        361.637177,
+        374.78981,
+        558.097168
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 687,
+      "printed_page": 698,
+      "bbox_pt": [
+        0,
+        357.6476750000001,
+        595,
+        582.9065
+      ],
+      "text_raw": "Finally, some more oscilla-\ntors are added.\nThey are not necessarily\ncrystal oscillators but other\ntypes. Moreover, there are\nquite often many more\ntransistors.\nThey have been added to\nshow that the principles dis-\ncussed before, are still very\nmuch applicable.",
+      "text": "Finally, some more oscillators are added. They are not necessarily crystal oscillators but other types. Moreover, there are quite often many more transistors. They have been added to show that the principles discussed before, are still very much applicable."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Finally, some more oscillators are added. They are not necessarily crystal oscillators but other types. Moreover, there are quite often many more transistors. They have been added to show that the principles discussed before, are still very much applicable.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0687_02_2242.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270099474477,
+          0.07317073192411927,
+          0.3851351334271772,
+          0.13170731728997287
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09797297578124997,
+          0.2829268289939024,
+          0.5472973001055743,
+          0.34634146314024394
+        ],
+        "confidence": 0.5,
+        "text": "• Oscillation principles"
+      },
+      {
+        "bbox": [
+          0.09797297496621617,
+          0.36097560946341467,
+          0.2972972992905405,
+          0.4292682923902439
+        ],
+        "confidence": 0.5,
+        "text": "• Crystals"
+      },
+      {
+        "bbox": [
+          0.09797296972972976,
+          0.4487804884390243,
+          0.6520270237837839,
+          0.5121951225853658
+        ],
+        "confidence": 1,
+        "text": "• Single-transistor oscillator"
+      },
+      {
+        "bbox": [
+          0.09797296978764479,
+          0.5317073174912892,
+          0.5979729697876448,
+          0.5902439028571428
+        ],
+        "confidence": 1,
+        "text": "• MOST oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09797296760135141,
+          0.6146341469756097,
+          0.8243243189527028,
+          0.6780487811219512
+        ],
+        "confidence": 1,
+        "text": "• Bipolar-transistor oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09717974219367309,
+          0.6795515937081352,
+          0.4600783110429789,
+          0.756889584445678
+        ],
+        "confidence": 0.5,
+        "text": "• Other oscillators"
+      },
+      {
+        "bbox": [
+          0.7229729745945945,
+          0.9414634141463415,
+          0.9391891908108108,
+          0.9902439019512196
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 2242"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "They have been added to show that the principles discussed before, are still very much applicable.",
+      "pdf_page": 687,
+      "printed_page": 698,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0687_02_2242.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

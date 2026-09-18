@@ -1,0 +1,992 @@
+[
+  {
+    "id": "00-conventions",
+    "title": "模型、符号与阅读方式",
+    "summary_zh": "全章共同假设、精确式与近似式的区别，以及 SFG 选用原则。",
+    "slides": [
+      "021",
+      "022",
+      "023",
+      "0235",
+      "0248",
+      "0272"
+    ],
+    "sources": [
+      {
+        "slide_id": "021",
+        "pdf_page": 50,
+        "printed_page": 51,
+        "commentary_pdf_pages": [
+          50
+        ],
+        "image": "../../extraction/slides/p0050_01_021.jpg"
+      },
+      {
+        "slide_id": "022",
+        "pdf_page": 50,
+        "printed_page": 51,
+        "commentary_pdf_pages": [
+          50
+        ],
+        "image": "../../extraction/slides/p0050_02_022.jpg"
+      },
+      {
+        "slide_id": "023",
+        "pdf_page": 51,
+        "printed_page": 52,
+        "commentary_pdf_pages": [
+          50,
+          51
+        ],
+        "image": "../../extraction/slides/p0051_01_023.jpg"
+      },
+      {
+        "slide_id": "0235",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "commentary_pdf_pages": [
+          67
+        ],
+        "image": "../../extraction/slides/p0067_01_0235.jpg"
+      },
+      {
+        "slide_id": "0248",
+        "pdf_page": 74,
+        "printed_page": 75,
+        "commentary_pdf_pages": [
+          74
+        ],
+        "image": "../../extraction/slides/p0074_01_0248.jpg"
+      },
+      {
+        "slide_id": "0272",
+        "pdf_page": 86,
+        "printed_page": 87,
+        "commentary_pdf_pages": [
+          86
+        ],
+        "image": "../../extraction/slides/p0086_02_0272.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "01-intrinsic-gain",
+    "title": "单管增益与 MOS／BJT 比较",
+    "summary_zh": "由漏极 KCL 与器件电流微分得到增益，再比较固定过驱动电压下的 MOS／BJT。",
+    "slides": [
+      "024",
+      "025",
+      "026"
+    ],
+    "sources": [
+      {
+        "slide_id": "024",
+        "pdf_page": 51,
+        "printed_page": 52,
+        "commentary_pdf_pages": [
+          51
+        ],
+        "image": "../../extraction/slides/p0051_02_024.jpg"
+      },
+      {
+        "slide_id": "025",
+        "pdf_page": 52,
+        "printed_page": 53,
+        "commentary_pdf_pages": [
+          51,
+          52
+        ],
+        "image": "../../extraction/slides/p0052_01_025.jpg"
+      },
+      {
+        "slide_id": "026",
+        "pdf_page": 52,
+        "printed_page": 53,
+        "commentary_pdf_pages": [
+          52
+        ],
+        "image": "../../extraction/slides/p0052_02_026.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "02-single-pole",
+    "title": "单极点、GBW 与尺寸数值题",
+    "summary_zh": "推导负载电容主极点、交越频率、GBW 与 029 的尺寸例题。",
+    "slides": [
+      "027",
+      "028",
+      "029",
+      "0210"
+    ],
+    "sources": [
+      {
+        "slide_id": "027",
+        "pdf_page": 53,
+        "printed_page": 54,
+        "commentary_pdf_pages": [
+          53
+        ],
+        "image": "../../extraction/slides/p0053_01_027.jpg"
+      },
+      {
+        "slide_id": "028",
+        "pdf_page": 53,
+        "printed_page": 54,
+        "commentary_pdf_pages": [
+          53
+        ],
+        "image": "../../extraction/slides/p0053_02_028.jpg"
+      },
+      {
+        "slide_id": "029",
+        "pdf_page": 54,
+        "printed_page": 55,
+        "commentary_pdf_pages": [
+          54
+        ],
+        "image": "../../extraction/slides/p0054_01_029.jpg"
+      },
+      {
+        "slide_id": "0210",
+        "pdf_page": 54,
+        "printed_page": 55,
+        "commentary_pdf_pages": [
+          54
+        ],
+        "image": "../../extraction/slides/p0054_02_0210.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "03-miller",
+    "title": "米勒反馈与 RHP 零点",
+    "summary_zh": "保留跨接电容的反馈与前馈，得到完整传输及单极点近似的成立条件。",
+    "slides": [
+      "0211",
+      "0212",
+      "0213"
+    ],
+    "sources": [
+      {
+        "slide_id": "0211",
+        "pdf_page": 55,
+        "printed_page": 56,
+        "commentary_pdf_pages": [
+          55
+        ],
+        "image": "../../extraction/slides/p0055_01_0211.jpg"
+      },
+      {
+        "slide_id": "0212",
+        "pdf_page": 55,
+        "printed_page": 56,
+        "commentary_pdf_pages": [
+          55
+        ],
+        "image": "../../extraction/slides/p0055_02_0212.jpg"
+      },
+      {
+        "slide_id": "0213",
+        "pdf_page": 56,
+        "printed_page": 57,
+        "commentary_pdf_pages": [
+          56
+        ],
+        "image": "../../extraction/slides/p0056_01_0213.jpg"
+      }
+    ],
+    "sfg": true,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "04-degeneration",
+    "title": "源极负反馈与可调跨导",
+    "summary_zh": "保留有限输出电阻；区分负反馈阻抗、信号源电阻与线性区 MOS 的栅极响应。",
+    "slides": [
+      "0214",
+      "0215",
+      "0216"
+    ],
+    "sources": [
+      {
+        "slide_id": "0214",
+        "pdf_page": 56,
+        "printed_page": 57,
+        "commentary_pdf_pages": [
+          56,
+          57
+        ],
+        "image": "../../extraction/slides/p0056_02_0214.jpg"
+      },
+      {
+        "slide_id": "0215",
+        "pdf_page": 57,
+        "printed_page": 58,
+        "commentary_pdf_pages": [
+          57
+        ],
+        "image": "../../extraction/slides/p0057_01_0215.jpg"
+      },
+      {
+        "slide_id": "0216",
+        "pdf_page": 57,
+        "printed_page": 58,
+        "commentary_pdf_pages": [
+          57
+        ],
+        "image": "../../extraction/slides/p0057_02_0216.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": [
+      "D01"
+    ]
+  },
+  {
+    "id": "05-diode-loads",
+    "title": "二极管连接与有源负载",
+    "summary_zh": "由负载的小信号导纳推导增益、带宽、体效应与 DC 平衡限制。",
+    "slides": [
+      "0217",
+      "0218",
+      "0219",
+      "0220",
+      "0221",
+      "0222"
+    ],
+    "sources": [
+      {
+        "slide_id": "0217",
+        "pdf_page": 58,
+        "printed_page": 59,
+        "commentary_pdf_pages": [
+          58
+        ],
+        "image": "../../extraction/slides/p0058_01_0217.jpg"
+      },
+      {
+        "slide_id": "0218",
+        "pdf_page": 58,
+        "printed_page": 59,
+        "commentary_pdf_pages": [
+          58
+        ],
+        "image": "../../extraction/slides/p0058_02_0218.jpg"
+      },
+      {
+        "slide_id": "0219",
+        "pdf_page": 59,
+        "printed_page": 60,
+        "commentary_pdf_pages": [
+          58,
+          59
+        ],
+        "image": "../../extraction/slides/p0059_01_0219.jpg"
+      },
+      {
+        "slide_id": "0220",
+        "pdf_page": 59,
+        "printed_page": 60,
+        "commentary_pdf_pages": [
+          59
+        ],
+        "image": "../../extraction/slides/p0059_02_0220.jpg"
+      },
+      {
+        "slide_id": "0221",
+        "pdf_page": 60,
+        "printed_page": 61,
+        "commentary_pdf_pages": [
+          60
+        ],
+        "image": "../../extraction/slides/p0060_01_0221.jpg"
+      },
+      {
+        "slide_id": "0222",
+        "pdf_page": 60,
+        "printed_page": 61,
+        "commentary_pdf_pages": [
+          60
+        ],
+        "image": "../../extraction/slides/p0060_02_0222.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": [
+      "D02"
+    ]
+  },
+  {
+    "id": "06-inverter-dc",
+    "title": "CMOS 反相器：DC 与匹配",
+    "summary_zh": "分开 NMOS／PMOS 的电流，求总跨导与有限输出导纳下的增益。",
+    "slides": [
+      "0223",
+      "0224",
+      "0225",
+      "0226",
+      "0227",
+      "0234"
+    ],
+    "sources": [
+      {
+        "slide_id": "0223",
+        "pdf_page": 61,
+        "printed_page": 62,
+        "commentary_pdf_pages": [
+          61
+        ],
+        "image": "../../extraction/slides/p0061_01_0223.jpg"
+      },
+      {
+        "slide_id": "0224",
+        "pdf_page": 61,
+        "printed_page": 62,
+        "commentary_pdf_pages": [
+          61
+        ],
+        "image": "../../extraction/slides/p0061_02_0224.jpg"
+      },
+      {
+        "slide_id": "0225",
+        "pdf_page": 62,
+        "printed_page": 63,
+        "commentary_pdf_pages": [
+          61,
+          62
+        ],
+        "image": "../../extraction/slides/p0062_01_0225.jpg"
+      },
+      {
+        "slide_id": "0226",
+        "pdf_page": 62,
+        "printed_page": 63,
+        "commentary_pdf_pages": [
+          62
+        ],
+        "image": "../../extraction/slides/p0062_02_0226.jpg"
+      },
+      {
+        "slide_id": "0227",
+        "pdf_page": 63,
+        "printed_page": 64,
+        "commentary_pdf_pages": [
+          63
+        ],
+        "image": "../../extraction/slides/p0063_01_0227.jpg"
+      },
+      {
+        "slide_id": "0234",
+        "pdf_page": 66,
+        "printed_page": 67,
+        "commentary_pdf_pages": [
+          66
+        ],
+        "image": "../../extraction/slides/p0066_02_0234.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "07-inverter-ac",
+    "title": "CMOS 反相器：完整频率响应",
+    "summary_zh": "以二节点矩阵保留输入、输出与跨接电容，核对单管／总跨导的系数。",
+    "slides": [
+      "0228",
+      "0229",
+      "0230",
+      "0231",
+      "0232",
+      "0233"
+    ],
+    "sources": [
+      {
+        "slide_id": "0228",
+        "pdf_page": 63,
+        "printed_page": 64,
+        "commentary_pdf_pages": [
+          63
+        ],
+        "image": "../../extraction/slides/p0063_02_0228.jpg"
+      },
+      {
+        "slide_id": "0229",
+        "pdf_page": 64,
+        "printed_page": 65,
+        "commentary_pdf_pages": [
+          63,
+          64
+        ],
+        "image": "../../extraction/slides/p0064_01_0229.jpg"
+      },
+      {
+        "slide_id": "0230",
+        "pdf_page": 64,
+        "printed_page": 65,
+        "commentary_pdf_pages": [
+          64
+        ],
+        "image": "../../extraction/slides/p0064_02_0230.jpg"
+      },
+      {
+        "slide_id": "0231",
+        "pdf_page": 65,
+        "printed_page": 66,
+        "commentary_pdf_pages": [
+          65
+        ],
+        "image": "../../extraction/slides/p0065_01_0231.jpg"
+      },
+      {
+        "slide_id": "0232",
+        "pdf_page": 65,
+        "printed_page": 66,
+        "commentary_pdf_pages": [
+          65,
+          66
+        ],
+        "image": "../../extraction/slides/p0065_02_0232.jpg"
+      },
+      {
+        "slide_id": "0233",
+        "pdf_page": 66,
+        "printed_page": 67,
+        "commentary_pdf_pages": [
+          66
+        ],
+        "image": "../../extraction/slides/p0066_01_0233.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": [
+      "D03",
+      "D04",
+      "D05"
+    ]
+  },
+  {
+    "id": "08-followers-dc",
+    "title": "源极与射极跟随器：DC",
+    "summary_zh": "由输出节点 KCL 求跟随增益、输出阻抗与衬底固定时的体效应。",
+    "slides": [
+      "0236",
+      "0237",
+      "0238",
+      "0239",
+      "0240"
+    ],
+    "sources": [
+      {
+        "slide_id": "0236",
+        "pdf_page": 67,
+        "printed_page": 68,
+        "commentary_pdf_pages": [
+          67
+        ],
+        "image": "../../extraction/slides/p0067_02_0236.jpg"
+      },
+      {
+        "slide_id": "0237",
+        "pdf_page": 68,
+        "printed_page": 69,
+        "commentary_pdf_pages": [
+          68
+        ],
+        "image": "../../extraction/slides/p0068_01_0237.jpg"
+      },
+      {
+        "slide_id": "0238",
+        "pdf_page": 68,
+        "printed_page": 69,
+        "commentary_pdf_pages": [
+          68,
+          69
+        ],
+        "image": "../../extraction/slides/p0068_02_0238.jpg"
+      },
+      {
+        "slide_id": "0239",
+        "pdf_page": 69,
+        "printed_page": 70,
+        "commentary_pdf_pages": [
+          69
+        ],
+        "image": "../../extraction/slides/p0069_01_0239.jpg"
+      },
+      {
+        "slide_id": "0240",
+        "pdf_page": 69,
+        "printed_page": 70,
+        "commentary_pdf_pages": [
+          69,
+          70
+        ],
+        "image": "../../extraction/slides/p0069_02_0240.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "09-followers-hf",
+    "title": "源极跟随器：极点、零点与峰化",
+    "summary_zh": "直接求二次分母与判别式，并将零点代入分母确认相消条件。",
+    "slides": [
+      "0241",
+      "0242",
+      "0243"
+    ],
+    "sources": [
+      {
+        "slide_id": "0241",
+        "pdf_page": 70,
+        "printed_page": 71,
+        "commentary_pdf_pages": [
+          70
+        ],
+        "image": "../../extraction/slides/p0070_01_0241.jpg"
+      },
+      {
+        "slide_id": "0242",
+        "pdf_page": 71,
+        "printed_page": 72,
+        "commentary_pdf_pages": [
+          70,
+          71
+        ],
+        "image": "../../extraction/slides/p0071_01_0242.jpg"
+      },
+      {
+        "slide_id": "0243",
+        "pdf_page": 71,
+        "printed_page": 72,
+        "commentary_pdf_pages": [
+          71
+        ],
+        "image": "../../extraction/slides/p0071_02_0243.jpg"
+      }
+    ],
+    "sfg": true,
+    "discrepancy_ids": [
+      "D06",
+      "D07"
+    ]
+  },
+  {
+    "id": "10-emitter-hf",
+    "title": "射极跟随器：有限 β 与高频阻抗",
+    "summary_zh": "增加基极电流与随跨导变动的扩散电容，标明教材中心跨导式的未解差异。",
+    "slides": [
+      "0244"
+    ],
+    "sources": [
+      {
+        "slide_id": "0244",
+        "pdf_page": 72,
+        "printed_page": 73,
+        "commentary_pdf_pages": [
+          71,
+          72
+        ],
+        "image": "../../extraction/slides/p0072_01_0244.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": [
+      "D08"
+    ]
+  },
+  {
+    "id": "11-active-inductors",
+    "title": "有源电感与差分调谐负载",
+    "summary_zh": "从跟随器输出阻抗作低频展开，再核对差分端口与半电路的两倍关系。",
+    "slides": [
+      "0245",
+      "0246",
+      "0247"
+    ],
+    "sources": [
+      {
+        "slide_id": "0245",
+        "pdf_page": 72,
+        "printed_page": 73,
+        "commentary_pdf_pages": [
+          72,
+          73
+        ],
+        "image": "../../extraction/slides/p0072_02_0245.jpg"
+      },
+      {
+        "slide_id": "0246",
+        "pdf_page": 73,
+        "printed_page": 74,
+        "commentary_pdf_pages": [
+          73
+        ],
+        "image": "../../extraction/slides/p0073_01_0246.jpg"
+      },
+      {
+        "slide_id": "0247",
+        "pdf_page": 73,
+        "printed_page": 74,
+        "commentary_pdf_pages": [
+          73
+        ],
+        "image": "../../extraction/slides/p0073_02_0247.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": [
+      "D09",
+      "D10"
+    ]
+  },
+  {
+    "id": "12-common-gate",
+    "title": "共栅级的输入、输出与跨阻",
+    "summary_zh": "先固定测试电流方向与负载端接，再由同一组 KCL 得三种端口量。",
+    "slides": [
+      "0249",
+      "0250",
+      "0251",
+      "0252",
+      "0269",
+      "0271"
+    ],
+    "sources": [
+      {
+        "slide_id": "0249",
+        "pdf_page": 74,
+        "printed_page": 75,
+        "commentary_pdf_pages": [
+          74
+        ],
+        "image": "../../extraction/slides/p0074_02_0249.jpg"
+      },
+      {
+        "slide_id": "0250",
+        "pdf_page": 75,
+        "printed_page": 76,
+        "commentary_pdf_pages": [
+          75
+        ],
+        "image": "../../extraction/slides/p0075_01_0250.jpg"
+      },
+      {
+        "slide_id": "0251",
+        "pdf_page": 75,
+        "printed_page": 76,
+        "commentary_pdf_pages": [
+          75,
+          76
+        ],
+        "image": "../../extraction/slides/p0075_02_0251.jpg"
+      },
+      {
+        "slide_id": "0252",
+        "pdf_page": 76,
+        "printed_page": 77,
+        "commentary_pdf_pages": [
+          76
+        ],
+        "image": "../../extraction/slides/p0076_01_0252.jpg"
+      },
+      {
+        "slide_id": "0269",
+        "pdf_page": 85,
+        "printed_page": 86,
+        "commentary_pdf_pages": [
+          85
+        ],
+        "image": "../../extraction/slides/p0085_01_0269.jpg"
+      },
+      {
+        "slide_id": "0271",
+        "pdf_page": 86,
+        "printed_page": 87,
+        "commentary_pdf_pages": [
+          86
+        ],
+        "image": "../../extraction/slides/p0086_01_0271.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "13-cascode",
+    "title": "共源共栅级：有限输出电阻的完整式",
+    "summary_zh": "求有效跨导、输出阻抗、主极点与 GBW，逐步回到两个本征增益的乘积。",
+    "slides": [
+      "0253",
+      "0254",
+      "0255"
+    ],
+    "sources": [
+      {
+        "slide_id": "0253",
+        "pdf_page": 76,
+        "printed_page": 77,
+        "commentary_pdf_pages": [
+          76,
+          77
+        ],
+        "image": "../../extraction/slides/p0076_02_0253.jpg"
+      },
+      {
+        "slide_id": "0254",
+        "pdf_page": 77,
+        "printed_page": 78,
+        "commentary_pdf_pages": [
+          77
+        ],
+        "image": "../../extraction/slides/p0077_01_0254.jpg"
+      },
+      {
+        "slide_id": "0255",
+        "pdf_page": 77,
+        "printed_page": 78,
+        "commentary_pdf_pages": [
+          77
+        ],
+        "image": "../../extraction/slides/p0077_02_0255.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "14-cascode-miller",
+    "title": "共源共栅级的米勒电容",
+    "summary_zh": "保留三个电压节点，推导二阶分母及仍然存在的 RHP 零点。",
+    "slides": [
+      "0256"
+    ],
+    "sources": [
+      {
+        "slide_id": "0256",
+        "pdf_page": 78,
+        "printed_page": 79,
+        "commentary_pdf_pages": [
+          78
+        ],
+        "image": "../../extraction/slides/p0078_01_0256.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": [
+      "D11"
+    ]
+  },
+  {
+    "id": "15-cascode-middle-cap",
+    "title": "共源共栅级中间节点电容",
+    "summary_zh": "由二节点矩阵求精确极点，再得到中间电容两个范围的渐近式。",
+    "slides": [
+      "0257"
+    ],
+    "sources": [
+      {
+        "slide_id": "0257",
+        "pdf_page": 78,
+        "printed_page": 79,
+        "commentary_pdf_pages": [
+          78,
+          79
+        ],
+        "image": "../../extraction/slides/p0078_02_0257.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "16-telescopic-folded",
+    "title": "套筒式与折叠式共源共栅级",
+    "summary_zh": "以支路输出电阻并联及电压裕量条件说明增益、摆幅与偏置电流分配。",
+    "slides": [
+      "0258",
+      "0259"
+    ],
+    "sources": [
+      {
+        "slide_id": "0258",
+        "pdf_page": 79,
+        "printed_page": 80,
+        "commentary_pdf_pages": [
+          79
+        ],
+        "image": "../../extraction/slides/p0079_01_0258.jpg"
+      },
+      {
+        "slide_id": "0259",
+        "pdf_page": 80,
+        "printed_page": 81,
+        "commentary_pdf_pages": [
+          79,
+          80
+        ],
+        "image": "../../extraction/slides/p0080_01_0259.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "17-cascade",
+    "title": "级联与米勒补偿",
+    "summary_zh": "先说明负载限制，再推导两级补偿的极点分离、GBW 与 RHP 零点。",
+    "slides": [
+      "0260",
+      "0261"
+    ],
+    "sources": [
+      {
+        "slide_id": "0260",
+        "pdf_page": 80,
+        "printed_page": 81,
+        "commentary_pdf_pages": [
+          80
+        ],
+        "image": "../../extraction/slides/p0080_02_0260.jpg"
+      },
+      {
+        "slide_id": "0261",
+        "pdf_page": 81,
+        "printed_page": 82,
+        "commentary_pdf_pages": [
+          80,
+          81
+        ],
+        "image": "../../extraction/slides/p0081_01_0261.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  },
+  {
+    "id": "18-gain-boosting",
+    "title": "调节型共源共栅级与增益增强",
+    "summary_zh": "保留辅助放大器的负号与单极点模型，检查增加的极零对和相消条件。",
+    "slides": [
+      "0262",
+      "0263",
+      "0264"
+    ],
+    "sources": [
+      {
+        "slide_id": "0262",
+        "pdf_page": 81,
+        "printed_page": 82,
+        "commentary_pdf_pages": [
+          81
+        ],
+        "image": "../../extraction/slides/p0081_02_0262.jpg"
+      },
+      {
+        "slide_id": "0263",
+        "pdf_page": 82,
+        "printed_page": 83,
+        "commentary_pdf_pages": [
+          82
+        ],
+        "image": "../../extraction/slides/p0082_01_0263.jpg"
+      },
+      {
+        "slide_id": "0264",
+        "pdf_page": 82,
+        "printed_page": 83,
+        "commentary_pdf_pages": [
+          82
+        ],
+        "image": "../../extraction/slides/p0082_02_0264.jpg"
+      }
+    ],
+    "sfg": true,
+    "discrepancy_ids": [
+      "D12"
+    ]
+  },
+  {
+    "id": "19-doublet-settling",
+    "title": "极零对与高精度建立过程",
+    "summary_zh": "从闭环传输作部分分式，显示幅值较小的慢模态留数如何限制建立时间。",
+    "slides": [
+      "0265"
+    ],
+    "sources": [
+      {
+        "slide_id": "0265",
+        "pdf_page": 83,
+        "printed_page": 84,
+        "commentary_pdf_pages": [
+          83
+        ],
+        "image": "../../extraction/slides/p0083_01_0265.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": [
+      "D13"
+    ]
+  },
+  {
+    "id": "20-port-summary",
+    "title": "MOS／BJT 端口量总结",
+    "summary_zh": "用测试源核对有限 β、输入电阻与带局部负反馈的放大级的输出电阻，避免把表格破折号当零。",
+    "slides": [
+      "0266",
+      "0267",
+      "0268",
+      "0270"
+    ],
+    "sources": [
+      {
+        "slide_id": "0266",
+        "pdf_page": 83,
+        "printed_page": 84,
+        "commentary_pdf_pages": [
+          83
+        ],
+        "image": "../../extraction/slides/p0083_02_0266.jpg"
+      },
+      {
+        "slide_id": "0267",
+        "pdf_page": 84,
+        "printed_page": 85,
+        "commentary_pdf_pages": [
+          84
+        ],
+        "image": "../../extraction/slides/p0084_01_0267.jpg"
+      },
+      {
+        "slide_id": "0268",
+        "pdf_page": 84,
+        "printed_page": 85,
+        "commentary_pdf_pages": [
+          84
+        ],
+        "image": "../../extraction/slides/p0084_02_0268.jpg"
+      },
+      {
+        "slide_id": "0270",
+        "pdf_page": 85,
+        "printed_page": 86,
+        "commentary_pdf_pages": [
+          85
+        ],
+        "image": "../../extraction/slides/p0085_02_0270.jpg"
+      }
+    ],
+    "sfg": false,
+    "discrepancy_ids": []
+  }
+]

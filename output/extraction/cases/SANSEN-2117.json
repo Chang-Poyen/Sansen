@@ -1,0 +1,266 @@
+{
+  "case_id": "SANSEN-2117",
+  "slide_id": "2117",
+  "chapter": 21,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 634,
+    "printed_page": 645
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0635_01_2117.jpg",
+      "pdf_page": 635,
+      "printed_page": 646,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 634,
+      "printed_page": 645,
+      "bbox_pt": [
+        0,
+        582.9066893000004,
+        595,
+        797
+      ],
+      "text_raw": "The first alternative is to lower the value of the V . Smaller V values require smaller V\nT DD T\nvalues! How far can this go?\nA small value of V causes the weak-inversion part of the i −v characteristic to cross the\nT DS GS\naxis of zero V . In other words, even for zero V , some current flows. This is called the leakage\nGS GS\ncurrent. This means that all digital gates conduct current even when switched off.\nLowering the V causes excessive power consumption. A minimum value seems to be about\nT\n0.3 V (Ref. Rabaey).\nMost chips operate at higher temperatures, however. Chip temperatures of up to 100°C higher",
+      "text": "The first alternative is to lower the value of the V . Smaller V values require smaller V T DD T values! How far can this go? A small value of V causes the weak-inversion part of the i −v characteristic to cross the T DS GS axis of zero V . In other words, even for zero V , some current flows. This is called the leakage GS GS current. This means that all digital gates conduct current even when switched off. Lowering the V causes excessive power consumption. A minimum value seems to be about T 0.3 V (Ref. Rabaey). Most chips operate at higher temperatures, however. Chip temperatures of up to 100°C higher"
+    },
+    {
+      "pdf_page": 635,
+      "printed_page": 646,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        405.52951000000013
+      ],
+      "text_raw": "than room temperature are\ncommon. Since the thresh-\nold voltage V decreases\nT\nwith about 2 mV/°C, it can\nbe 0.2 V lower than at room\ntemperature. The leakage\ncurrent is weak inversion\ndepends on the V in an\nGS\nexponential way, increasing\nby nearly a factor of ten per\n100 mV. At high chip tem-\nperatures, the leakage cur-\nrent can now be about 2\norders of magnitude larger.\nThe choice of the V must\nT\ncompensate this. The V\nT\ncannot be chosen too small!\nValues of 0.3 to 0.4 V have become common nowadays.\nFinally, mismatch causes a large spreading of the V values. The actual V value can thus be\nT T\na lot lower than expected. Again, the leakage current depends on the V in an exponential way.\nGS\nThe V cannot be selected too small!\nT",
+      "text": "than room temperature are common. Since the threshold voltage V decreases T with about 2 mV/°C, it can be 0.2 V lower than at room temperature. The leakage current is weak inversion depends on the V in an GS exponential way, increasing by nearly a factor of ten per 100 mV. At high chip temperatures, the leakage current can now be about 2 orders of magnitude larger. The choice of the V must T compensate this. The V T cannot be chosen too small! Values of 0.3 to 0.4 V have become common nowadays. Finally, mismatch causes a large spreading of the V values. The actual V value can thus be T T a lot lower than expected. Again, the leakage current depends on the V in an exponential way. GS The V cannot be selected too small! T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The first alternative is to lower the value of the V . Smaller V values require smaller V T DD T values! How far can this go? A small value of V causes the weak-inversion part of the i −v characteristic to cross the T DS GS axis of zero V . In other words, even for zero V , some current flows. This is called the leakage GS GS current. This means that all digital gates conduct current even when switched off. Lowering the V causes excessive power consumption. A minimum value seems to be about T 0.3 V (Ref. Rabaey). Most chips operate at higher temperatures, however. Chip temperatures of up to 100°C higher\n\nthan room temperature are common. Since the threshold voltage V decreases T with about 2 mV/°C, it can be 0.2 V lower than at room temperature. The leakage current is weak inversion depends on the V in an GS exponential way, increasing by nearly a factor of ten per 100 mV. At high chip temperatures, the leakage current can now be about 2 orders of magnitude larger. The choice of the V must T compensate this. The V T cannot be chosen too small! Values of 0.3 to 0.4 V have become common nowadays. Finally, mismatch causes a large spreading of the V values. The actual V value can thus be T T a lot lower than expected. Again, the leakage current depends on the V in an exponential way. GS The V cannot be selected too small! T",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Smaller Voo require smaller VT",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0635_01_2117.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243207770271,
+          0.08292682945121954,
+          0.6418918883445947,
+          0.14146341481707314
+        ],
+        "confidence": 0.5,
+        "text": "Smaller Voo require smaller VT"
+      },
+      {
+        "bbox": [
+          0.08108107506756769,
+          0.21951219517073173,
+          0.682432426418919,
+          0.28292682931707325
+        ],
+        "confidence": 0.5,
+        "text": "Smaller V- is not possible because"
+      },
+      {
+        "bbox": [
+          0.6858108089949325,
+          0.2195121953048781,
+          0.8310810792652028,
+          0.2731707318902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "log fiDs"
+      },
+      {
+        "bbox": [
+          0.08108108728885119,
+          0.33170731634146344,
+          0.6114864926942566,
+          0.39024390170731704
+        ],
+        "confidence": 1,
+        "text": "1. Leakage : wi curve crosses axis !"
+      },
+      {
+        "bbox": [
+          0.11824324251930504,
+          0.39024390209059234,
+          0.4425675668436294,
+          0.43902438989547043
+        ],
+        "confidence": 0.5,
+        "text": "Minimum value : 0.3 V"
+      },
+      {
+        "bbox": [
+          0.08108107668918926,
+          0.4975609761951221,
+          0.587837833445946,
+          0.5560975615609757
+        ],
+        "confidence": 0.5,
+        "text": "2. Temperature variations: + 0.2 V"
+      },
+      {
+        "bbox": [
+          0.08108107807432438,
+          0.604878048195122,
+          0.38851351050675687,
+          0.6634146335609757
+        ],
+        "confidence": 0.5,
+        "text": "3. Mismatch : + 0.1 V"
+      },
+      {
+        "bbox": [
+          0.07432431956081087,
+          0.7609756104390244,
+          0.8412162114527028,
+          0.8292682933658536
+        ],
+        "confidence": 0.5,
+        "text": ">>> V, cannot be smaller than 0.3 ... 0.4 V"
+      },
+      {
+        "bbox": [
+          0.8108108105743244,
+          0.429268292097561,
+          0.9155405403040541,
+          0.4878048774634147
+        ],
+        "confidence": 1,
+        "text": "leakage"
+      },
+      {
+        "bbox": [
+          0.8445945956081081,
+          0.5902439023414634,
+          0.9459459469594595,
+          0.648780487707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V, VGs"
+      },
+      {
+        "bbox": [
+          0.7229729774459978,
+          0.9414634152032522,
+          0.9358108023963448,
+          0.9756097566666667
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2117"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0635_01_2117.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Since the threshold voltage V decreases T with about 2 mV/°C, it can be 0.2 V lower than at room temperature.",
+      "pdf_page": 635,
+      "printed_page": 646,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The leakage current is weak inversion depends on the V in an GS exponential way, increasing by nearly a factor of ten per 100 mV.",
+      "pdf_page": 635,
+      "printed_page": 646,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The actual V value can thus be T T a lot lower than expected.",
+      "pdf_page": 635,
+      "printed_page": 646,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Again, the leakage current depends on the V in an exponential way.",
+      "pdf_page": 635,
+      "printed_page": 646,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "A small value of V causes the weak-inversion part of the i −v characteristic to cross the T DS GS axis of zero V .",
+      "pdf_page": 634,
+      "printed_page": 645,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2117-M01",
+      "ocr_text": ">>> V, cannot be smaller than 0.3 ... 0.4 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.07432431956081087,
+        0.7609756104390244,
+        0.8412162114527028,
+        0.8292682933658536
+      ],
+      "context_crop": "regions/SANSEN-2117_math_01.png",
+      "context_bbox_normalized": [
+        0.03432431956081087,
+        0.6609756104390244,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0635_01_2117.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

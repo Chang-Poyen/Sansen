@@ -1,0 +1,251 @@
+{
+  "case_id": "SANSEN-162",
+  "slide_id": "162",
+  "chapter": 16,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 448,
+    "printed_page": 457
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0448_02_162.jpg",
+      "pdf_page": 448,
+      "printed_page": 457,
+      "bbox_pt": [
+        91.52162,
+        383.51038000000005,
+        374.54215999999997,
+        579.9703400000001
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 448,
+      "printed_page": 457,
+      "bbox_pt": [
+        0,
+        379.52095500000013,
+        595,
+        703.55927
+      ],
+      "text_raw": "First of all, we have to look\nat what voltage references\nare actually used for.\nThey are used in Analog-\nto-digital converters. They\ncan also be used in both\nvoltage and current regula-\ntors. Both schematics are\ngiven.\nA voltage regulator locks\nthe output voltage to the ref-\nerence voltage by use of a\nresistor ratio. Actually it is\na two-stage feedback ampli-\nfier, with the reference volt-\nage V as an input. The first\nref\nstage is the opamp, whereas the second stage is a source follower. This follower can deliver a\nlarge current to the load, depending on its W/L ratio.\nThe load is not shown. It is usually a combination of resistances and capacitances, which can\nvary over a very wide range, depending on the current drawn from the regulator.\nThe supply voltage V usually contains a ripple, which will be suppressed by the regulator.\nDD\nThe accuracy of the output voltage depends on the accuracy of the resistor ratio and the absolute\naccuracy of the reference voltage. This resistor ratio can have a smaller error than 0.1% (see\nChapter 15), if they are large in area. The final accuracy will therefore depend on the absolute\nerror of the reference voltage. We will see that this can also be 0.1%!",
+      "text": "First of all, we have to look at what voltage references are actually used for. They are used in Analogto-digital converters. They can also be used in both voltage and current regulators. Both schematics are given. A voltage regulator locks the output voltage to the reference voltage by use of a resistor ratio. Actually it is a two-stage feedback amplifier, with the reference voltage V as an input. The first ref stage is the opamp, whereas the second stage is a source follower. This follower can deliver a large current to the load, depending on its W/L ratio. The load is not shown. It is usually a combination of resistances and capacitances, which can vary over a very wide range, depending on the current drawn from the regulator. The supply voltage V usually contains a ripple, which will be suppressed by the regulator. DD The accuracy of the output voltage depends on the accuracy of the resistor ratio and the absolute accuracy of the reference voltage. This resistor ratio can have a smaller error than 0.1% (see Chapter 15), if they are large in area. The final accuracy will therefore depend on the absolute error of the reference voltage. We will see that this can also be 0.1%!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "First of all, we have to look at what voltage references are actually used for. They are used in Analogto-digital converters. They can also be used in both voltage and current regulators. Both schematics are given. A voltage regulator locks the output voltage to the reference voltage by use of a resistor ratio. Actually it is a two-stage feedback amplifier, with the reference voltage V as an input. The first ref stage is the opamp, whereas the second stage is a source follower. This follower can deliver a large current to the load, depending on its W/L ratio. The load is not shown. It is usually a combination of resistances and capacitances, which can vary over a very wide range, depending on the current drawn from the regulator. The supply voltage V usually contains a ripple, which will be suppressed by the regulator. DD The accuracy of the output voltage depends on the accuracy of the resistor ratio and the absolute accuracy of the reference voltage. This resistor ratio can have a smaller error than 0.1% (see Chapter 15), if they are large in area. The final accuracy will therefore depend on the absolute error of the reference voltage. We will see that this can also be 0.1%!",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Voltage regulator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0448_02_162.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135593440677963,
+          0.08780487780487811,
+          0.3898305106779661,
+          0.15121951195121952
+        ],
+        "confidence": 1,
+        "text": "Voltage regulator"
+      },
+      {
+        "bbox": [
+          0.14915254298305086,
+          0.2682926827804879,
+          0.21016949213559322,
+          0.3219512193658537
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.4608131991570124,
+          0.26778300501978536,
+          0.5256274790042383,
+          0.3224608984955737
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.43362615529944437,
+          0.42380030626946463,
+          0.5155263866123416,
+          0.5030289633173878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ER1"
+      },
+      {
+        "bbox": [
+          0.20338983081355932,
+          0.6634146347317073,
+          0.2610169494576271,
+          0.7219512200975609
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.4338983047118644,
+          0.6243902446829269,
+          0.5186440674237288,
+          0.7024390251707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "§ R2"
+      },
+      {
+        "bbox": [
+          0.5830508485230025,
+          0.4439024388501742,
+          0.7322033908958838,
+          0.49756097543554
+        ],
+        "confidence": 0.5,
+        "text": "Vout = Vref"
+      },
+      {
+        "bbox": [
+          0.7423728821751413,
+          0.40487804939024397,
+          0.8542372889548022,
+          0.478048781097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1 + R2"
+      },
+      {
+        "bbox": [
+          0.7728813562711864,
+          0.4829268297560976,
+          0.8203389833898305,
+          0.5414634151219513
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.7084745785593219,
+          0.9365853653658537,
+          0.9186440700847457,
+          0.9756097556097562
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10cs 162"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The load is not shown.",
+      "pdf_page": 448,
+      "printed_page": 457,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0448_02_162.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The first ref stage is the opamp, whereas the second stage is a source follower.",
+        "pdf_page": 448,
+        "printed_page": 457,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This follower can deliver a large current to the load, depending on its W/L ratio.",
+      "pdf_page": 448,
+      "printed_page": 457,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is usually a combination of resistances and capacitances, which can vary over a very wide range, depending on the current drawn from the regulator.",
+      "pdf_page": 448,
+      "printed_page": 457,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "DD The accuracy of the output voltage depends on the accuracy of the resistor ratio and the absolute accuracy of the reference voltage.",
+      "pdf_page": 448,
+      "printed_page": 457,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The final accuracy will therefore depend on the absolute error of the reference voltage.",
+      "pdf_page": 448,
+      "printed_page": 457,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-162-M01",
+      "ocr_text": "Vout = Vref",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5830508485230025,
+        0.4439024388501742,
+        0.7322033908958838,
+        0.49756097543554
+      ],
+      "context_crop": "regions/SANSEN-162_math_01.png",
+      "context_bbox_normalized": [
+        0.5430508485230024,
+        0.34390243885017424,
+        0.9622033908958838,
+        0.62756097543554
+      ],
+      "source_image": "slides/p0448_02_162.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

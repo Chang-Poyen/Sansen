@@ -1,0 +1,418 @@
+{
+  "case_id": "SANSEN-027",
+  "slide_id": "027",
+  "chapter": 2,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 53,
+    "printed_page": 54
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0053_01_027.jpg",
+      "pdf_page": 53,
+      "printed_page": 54,
+      "bbox_pt": [
+        91.52162,
+        122.72634999999991,
+        374.78981,
+        319.18634
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 53,
+      "printed_page": 54,
+      "bbox_pt": [
+        0,
+        118.73683999999992,
+        595,
+        463.1271900000003
+      ],
+      "text_raw": "At higher frequencies, the\nvoltage gain will fall off as a\nresult of all capacitances.\nThere are three positions\nwhere a capacitance can\noccur. Normally the load\ncapacitance is the largest\none, as it consists of all\ninterconnect capacitance to\nthe next stage and the feed-\nback capacitances applied\n(as in switched-capacitance\nfilters).\nHere only a load capaci-\ntance C is present. The low\nL\nfrequency gain A is as\nv0\nbefore. The pole frequency, at which the gain starts decreasing is called the bandwidth BW or\nthe −3dB frequency. It is simply determined by the output RC time constant.\nThe product of the low-frequency gain and the bandwidth is called the Gain-Bandwidth\nproduct GBW. It is by far the most important quality factor of an amplifier. Actually it is the\nmost important specification of an amplifier. Later on we will compare amplifiers by means of\na Figure of Merit (FOM), which quotes how much GBW can be obtained for a certain load\ncapacitance and power consumption.\nThe GBW itself is readily obtained. It only depends on the transistor transconductance and\nthe load capacitance, not on the output resistance. We will see that this expression is valid for\nall possible single-stage amplifiers. It is therefore a very important expression!",
+      "text": "At higher frequencies, the voltage gain will fall off as a result of all capacitances. There are three positions where a capacitance can occur. Normally the load capacitance is the largest one, as it consists of all interconnect capacitance to the next stage and the feedback capacitances applied (as in switched-capacitance filters). Here only a load capacitance C is present. The low L frequency gain A is as v0 before. The pole frequency, at which the gain starts decreasing is called the bandwidth BW or the −3dB frequency. It is simply determined by the output RC time constant. The product of the low-frequency gain and the bandwidth is called the Gain-Bandwidth product GBW. It is by far the most important quality factor of an amplifier. Actually it is the most important specification of an amplifier. Later on we will compare amplifiers by means of a Figure of Merit (FOM), which quotes how much GBW can be obtained for a certain load capacitance and power consumption. The GBW itself is readily obtained. It only depends on the transistor transconductance and the load capacitance, not on the output resistance. We will see that this expression is valid for all possible single-stage amplifiers. It is therefore a very important expression!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "representative_case_visually_reviewed",
+  "commentary_text": "At higher frequencies, the voltage gain will fall off as a result of all capacitances. There are three positions where a capacitance can occur. Normally the load capacitance is the largest one, as it consists of all interconnect capacitance to the next stage and the feedback capacitances applied (as in switched-capacitance filters). Here only a load capacitance C is present. The low L frequency gain A is as v0 before. The pole frequency, at which the gain starts decreasing is called the bandwidth BW or the −3dB frequency. It is simply determined by the output RC time constant. The product of the low-frequency gain and the bandwidth is called the Gain-Bandwidth product GBW. It is by far the most important quality factor of an amplifier. Actually it is the most important specification of an amplifier. Later on we will compare amplifiers by means of a Figure of Merit (FOM), which quotes how much GBW can be obtained for a certain load capacitance and power consumption. The GBW itself is readily obtained. It only depends on the transistor transconductance and the load capacitance, not on the output resistance. We will see that this expression is valid for all possible single-stage amplifiers. It is therefore a very important expression!",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "增益、带宽与增益带宽积",
+  "title_status": "visually_reviewed",
+  "ocr": {
+    "path": "ocr/p0053_01_027.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.06756756423745176,
+          0.07804878097560974,
+          0.7499999966698842,
+          0.14634146390243896
+        ],
+        "confidence": 1,
+        "text": "Gain, Bandwidth and Gain-bandwidth"
+      },
+      {
+        "bbox": [
+          0.35472972956081084,
+          0.3268292678048781,
+          0.391891891722973,
+          0.3951219507317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.3851351360219594,
+          0.3658536591463415,
+          0.4628378387246622,
+          0.4146341469512196
+        ],
+        "confidence": 0.5,
+        "text": "Yout"
+      },
+      {
+        "bbox": [
+          0.08108108144707207,
+          0.47317073235772367,
+          0.14527027063626125,
+          0.5512195128455285
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.10135135411036028,
+          0.7121951217479674,
+          0.43243243519144137,
+          0.7658536583333333
+        ],
+        "confidence": 1,
+        "text": "For all single-stage"
+      },
+      {
+        "bbox": [
+          0.10135135407818527,
+          0.7756097558536587,
+          0.4831081108349421,
+          0.8292682924390244
+        ],
+        "confidence": 1,
+        "text": "Operational amplifiers"
+      },
+      {
+        "bbox": [
+          0.5742039789421864,
+          0.2821286504189653,
+          0.7737689900439865,
+          0.34713964232957417
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avo = 9m'Ds"
+      },
+      {
+        "bbox": [
+          0.57770270375,
+          0.44878048756097555,
+          0.6824324334797297,
+          0.5024390241463415
+        ],
+        "confidence": 0.5,
+        "text": "BW ="
+      },
+      {
+        "bbox": [
+          0.7297297299324323,
+          0.40975609804878044,
+          0.7567567569594594,
+          0.45853658585365853
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6824324337274774,
+          0.5073170732113821,
+          0.8378378391328828,
+          0.5804878049186992
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 rDSCL"
+      },
+      {
+        "bbox": [
+          0.5810810819739382,
+          0.6731707314634148,
+          0.7060810819739382,
+          0.7268292680487806
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.7364864855152028,
+          0.6390243901829269,
+          0.8141891882179055,
+          0.712195121890244
+        ],
+        "confidence": 0.5,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.7162162169481981,
+          0.7170731713414633,
+          0.8175675682995495,
+          0.7902439030487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CL"
+      },
+      {
+        "bbox": [
+          0.7229729824009525,
+          0.9317073175857816,
+          0.9290540505945428,
+          0.9707317066666666
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10.05 027"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It is simply determined by the output RC time constant.",
+      "pdf_page": 53,
+      "printed_page": 54,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Later on we will compare amplifiers by means of a Figure of Merit (FOM), which quotes how much GBW can be obtained for a certain load capacitance and power consumption.",
+      "pdf_page": 53,
+      "printed_page": 54,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0053_01_027.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "At higher frequencies, the voltage gain will fall off as a result of all capacitances.",
+      "pdf_page": 53,
+      "printed_page": 54,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The low L frequency gain A is as v0 before.",
+      "pdf_page": 53,
+      "printed_page": 54,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The pole frequency, at which the gain starts decreasing is called the bandwidth BW or the −3dB frequency.",
+      "pdf_page": 53,
+      "printed_page": 54,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The product of the low-frequency gain and the bandwidth is called the Gain-Bandwidth product GBW.",
+      "pdf_page": 53,
+      "printed_page": 54,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It only depends on the transistor transconductance and the load capacitance, not on the output resistance.",
+      "pdf_page": 53,
+      "printed_page": 54,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is therefore a very important expression!",
+      "pdf_page": 53,
+      "printed_page": 54,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-027-M01",
+      "ocr_text": "Avo = 9m'Ds",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5742039789421864,
+        0.2821286504189653,
+        0.7737689900439865,
+        0.34713964232957417
+      ],
+      "context_crop": "regions/SANSEN-027_math_01.png",
+      "context_bbox_normalized": [
+        0.5342039789421864,
+        0.18212865041896528,
+        1,
+        0.4771396423295742
+      ],
+      "source_image": "slides/p0053_01_027.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-027-M02",
+      "ocr_text": "BW =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.57770270375,
+        0.44878048756097555,
+        0.6824324334797297,
+        0.5024390241463415
+      ],
+      "context_crop": "regions/SANSEN-027_math_02.png",
+      "context_bbox_normalized": [
+        0.53770270375,
+        0.34878048756097557,
+        0.9124324334797297,
+        0.6324390241463415
+      ],
+      "source_image": "slides/p0053_01_027.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-027-M03",
+      "ocr_text": "GBW =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5810810819739382,
+        0.6731707314634148,
+        0.7060810819739382,
+        0.7268292680487806
+      ],
+      "context_crop": "regions/SANSEN-027_math_03.png",
+      "context_bbox_normalized": [
+        0.5410810819739381,
+        0.5731707314634148,
+        0.9360810819739381,
+        0.8568292680487806
+      ],
+      "source_image": "slides/p0053_01_027.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [
+    {
+      "kind": "circuit",
+      "path": "regions/SANSEN-027_circuit.png",
+      "bbox_normalized": [
+        0.07,
+        0.18,
+        0.5,
+        0.59
+      ],
+      "source_image": "slides/p0053_01_027.jpg",
+      "status": "region_manually_located_not_netlist_verified"
+    }
+  ],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "reviewed_extraction": {
+    "title": "增益、带宽与增益带宽积",
+    "review_scope": "listed_fields_only; all three displayed equations transcribed",
+    "summary_zh": "单管共源级只有输出负载电容时，带宽由输出 RC 时常数决定；增益带宽积只包含跨导与负载电容。",
+    "formulas": [
+      {
+        "latex": "A_{v0}=g_m r_{DS}",
+        "meaning_zh": "幻灯片使用正值表示低频增益大小；有号的共源电压增益另含反相符号。"
+      },
+      {
+        "latex": "BW=\\frac{1}{2\\pi r_{DS}C_L}",
+        "meaning_zh": "输出端单极点的 −3 dB 带宽，单位 Hz。"
+      },
+      {
+        "latex": "GBW=\\frac{g_m}{2\\pi C_L}",
+        "meaning_zh": "在本页单极点模型下，A_v0 × BW；与 r_DS 无关。"
+      }
+    ],
+    "topology_zh": [
+      "NMOS 的源极接地，栅极由 v_in 驱动，漏极为 v_out。",
+      "偏置电流源 I_L 接到漏极；C_L 从输出接地。r_DS 是器件小信号输出电阻。"
+    ],
+    "graph_conclusions_zh": [
+      "波特图在下一张 028，与本页公式配对。"
+    ],
+    "conditions_zh": [
+      "原文明示：本页仅保留负载电容 C_L。",
+      "图面模型判读：偏置电流源视为理想；若有有限负载电阻或其他显著电容，不能直接沿用本页的 r_DS 与单极点式。"
+    ],
+    "related_slide_ids": [
+      "028"
+    ],
+    "title_original": "Gain, Bandwidth and Gain-bandwidth"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "02-single-pole",
+    "title": "单极点、GBW 与尺寸数值题",
+    "summary_zh": "推导负载电容主极点、交越频率、GBW 与 029 的尺寸例题。",
+    "html": "../derivations/ch02/02-single-pole.html",
+    "markdown": "../derivations/ch02/02-single-pole.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "单极点、GBW 与尺寸数值题",
+    "case_ids": [
+      "loaded_cs",
+      "mos_cs"
+    ],
+    "linear_count": 1,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#02-single-pole",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

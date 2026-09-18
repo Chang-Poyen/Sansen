@@ -1,0 +1,48 @@
+051
+The operational amplifier
+(opamp) is certainly the
+main building block in all of
+the analog electronics. It is
+usually implemented in a
+feedback loop to provide
+stable and predictable gain
+and low noise.
+In this chapter we will
+review what is required to
+make sure that this amplifier
+is stable under all conditions
+of feedback. An opamp is
+required not only to be
+stable but also to provide a
+well-behaved response. For
+example, peaking in the frequency domain is normally to be avoided. Also, when a square
+waveform is applied to an opamp, we don’t want any ringing.
+All these requirements will impose some fairly precise settings on the positions of the poles
+and zeros of this amplifier. Adding the requirement that the power consumption be minimized,
+we will find that it is quite easy to find an optimum in performance, in view of a certain GBW
+and capacitive load.
+However, there are many more specifications in an opamp. They will be postponed to the
+Chapter following this one.
+052
+First of all, we have to
+review some of the terminol-
+ogy of an operational ampli-
+fier, such as open-and
+closed-loop gain. Also, we
+want to review some basics
+of second-order systems.
+These are the first two
+Sections. We put emphasis
+on two-stage amplifiers. We
+have dealt with single-tran-
+sistor stages already in
+Chapter 2.
+We will focus especially
+on that positive zero which
+shows up in any two-stage
+opamp. They can be avoided by means of additional current consumption. It is much more
+elegant however, to use some circuit tricks which allow the reduction of the total biasing current.
+Finally, we will extended the compensation techniques, adopted for a two-stage amplifier, to
+three-stage amplifiers. Many class-AB amplifiers have three stages. Moreover, three stages become
+a necessity once the gain per stages has gone down to real low values, as in nanometer CMOS.
+149

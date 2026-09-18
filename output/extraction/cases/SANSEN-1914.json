@@ -1,0 +1,186 @@
+{
+  "case_id": "SANSEN-1914",
+  "slide_id": "1914",
+  "chapter": 19,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 562,
+    "printed_page": 573
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0562_02_1914.jpg",
+      "pdf_page": 562,
+      "printed_page": 573,
+      "bbox_pt": [
+        91.521622,
+        385.602967,
+        374.78981,
+        582.062958
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 562,
+      "printed_page": 573,
+      "bbox_pt": [
+        0,
+        381.61350000000016,
+        595,
+        797
+      ],
+      "text_raw": "Both active RC and\nMOSFET-C filters employ\noperational amplifiers. This\nmeans that only at low fre-\nquencies, the loop gain is\nsufficiently large to guaran-\ntee accurate performance.\nFor high frequency filters,\nthe operational amplifiers\nare reduced to their simplest\npossible configurations.\nThey only consist of differ-\nential pairs, to which some\nlinearization techniques\nhave been applied. They are\ncalled transcon-\nductors or Gm blocks. Such filters are called GmC filters. They can provide the highest possible\nfilter frequencies with reasonable quality factors.\nFirst of all, some transconductor configurations are discussed, followed by some other\ntuning circuits.",
+      "text": "Both active RC and MOSFET-C filters employ operational amplifiers. This means that only at low frequencies, the loop gain is sufficiently large to guarantee accurate performance. For high frequency filters, the operational amplifiers are reduced to their simplest possible configurations. They only consist of differential pairs, to which some linearization techniques have been applied. They are called transconductors or Gm blocks. Such filters are called GmC filters. They can provide the highest possible filter frequencies with reasonable quality factors. First of all, some transconductor configurations are discussed, followed by some other tuning circuits."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Both active RC and MOSFET-C filters employ operational amplifiers. This means that only at low frequencies, the loop gain is sufficiently large to guarantee accurate performance. For high frequency filters, the operational amplifiers are reduced to their simplest possible configurations. They only consist of differential pairs, to which some linearization techniques have been applied. They are called transconductors or Gm blocks. Such filters are called GmC filters. They can provide the highest possible filter frequencies with reasonable quality factors. First of all, some transconductor configurations are discussed, followed by some other tuning circuits.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0562_02_1914.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270053088803,
+          0.08292682944250873,
+          0.38175675458494207,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.1081081050957208,
+          0.2097560978455284,
+          0.4695945915822073,
+          0.2634146344308943
+        ],
+        "confidence": 1,
+        "text": "• Active RC filters"
+      },
+      {
+        "bbox": [
+          0.1081081089527027,
+          0.3073170737073171,
+          0.48986486570945953,
+          0.3609756102926829
+        ],
+        "confidence": 1,
+        "text": "• MOSFET-C filters"
+      },
+      {
+        "bbox": [
+          0.11148648836872581,
+          0.4048780485714286,
+          0.3750000018822393,
+          0.4536585363763066
+        ],
+        "confidence": 1,
+        "text": "• GmC filters"
+      },
+      {
+        "bbox": [
+          0.1452702740878377,
+          0.4926829266829269,
+          0.5270270308445945,
+          0.5463414632682927
+        ],
+        "confidence": 1,
+        "text": "• Transconductors"
+      },
+      {
+        "bbox": [
+          0.1450451211881948,
+          0.5839871172764446,
+          0.32792785543535086,
+          0.6501592286015923
+        ],
+        "confidence": 1,
+        "text": "• Tuning"
+      },
+      {
+        "bbox": [
+          0.1081081101351351,
+          0.6829268290592334,
+          0.3918918939189189,
+          0.741463414425087
+        ],
+        "confidence": 1,
+        "text": "• Comparison"
+      },
+      {
+        "bbox": [
+          0.1047297491487518,
+          0.8439024390243902,
+          0.4966216152656622,
+          0.8829268292682927
+        ],
+        "confidence": 1,
+        "text": "Ref.: Silva-Martinez, Dehaene, .."
+      },
+      {
+        "bbox": [
+          0.725949119669947,
+          0.945650983836578,
+          0.9428418260512551,
+          0.9867569706410749
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1914"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0562_02_1914.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This means that only at low frequencies, the loop gain is sufficiently large to guarantee accurate performance.",
+      "pdf_page": 562,
+      "printed_page": 573,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

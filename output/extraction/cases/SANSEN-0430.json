@@ -1,0 +1,500 @@
+{
+  "case_id": "SANSEN-0430",
+  "slide_id": "0430",
+  "chapter": 4,
+  "slide_number_in_chapter": 30,
+  "source": {
+    "pdf_page": 129,
+    "printed_page": 132
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0129_01_0430.jpg",
+      "pdf_page": 129,
+      "printed_page": 132,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 129,
+      "printed_page": 132,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        475.2845000000004
+      ],
+      "text_raw": "An amplifier which is used\nin a system with a character-\nistic impedance, such as\n600 V in audio and 50 V in\nRF circuits, is characterized\nby a Noise Figure NF.\nThe Noise Figure is\ndefined as the ratio of the\ntotal input noise to the noise\nof the source impedance R .\nS\nIt actually indicates how\nmuch noise is added by\nthe amplifier to the noise\nalready present by the char-\nacteristic source impedance\nR .\nS\nIf we now take an amplifier with both an input noise voltage and current (understanding that\na MOST amplifier has no input noise current), then we can easily determine the expression of\nthe Noise Figure.\nThe noise source that is now dominant, depends on the value of the source resistor R .\nS\nFor a small R , the amplifier is voltage-driven. In this case R di in the numerator is negligible.\nS S ieq\nThe noise voltage is then dominant.\nThis is not at all surprising, a noise performance of a voltage-driven amplifier is governed by\nthe equivalent input noise voltage. The Noise Figure then decreases for increasing R . For a\nS\nlarge R , the amplifier is current-driven. In this case, dv in the numerator is negligible. The\nS ieq\nnoise current is then dominant and the Noise Figure increases for increasing R .\nS\nThere must therefore be a minimum, versus R .\nS",
+      "text": "An amplifier which is used in a system with a characteristic impedance, such as 600 V in audio and 50 V in RF circuits, is characterized by a Noise Figure NF. The Noise Figure is defined as the ratio of the total input noise to the noise of the source impedance R . S It actually indicates how much noise is added by the amplifier to the noise already present by the characteristic source impedance R . S If we now take an amplifier with both an input noise voltage and current (understanding that a MOST amplifier has no input noise current), then we can easily determine the expression of the Noise Figure. The noise source that is now dominant, depends on the value of the source resistor R . S For a small R , the amplifier is voltage-driven. In this case R di in the numerator is negligible. S S ieq The noise voltage is then dominant. This is not at all surprising, a noise performance of a voltage-driven amplifier is governed by the equivalent input noise voltage. The Noise Figure then decreases for increasing R . For a S large R , the amplifier is current-driven. In this case, dv in the numerator is negligible. The S ieq noise current is then dominant and the Noise Figure increases for increasing R . S There must therefore be a minimum, versus R . S"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An amplifier which is used in a system with a characteristic impedance, such as 600 V in audio and 50 V in RF circuits, is characterized by a Noise Figure NF. The Noise Figure is defined as the ratio of the total input noise to the noise of the source impedance R . S It actually indicates how much noise is added by the amplifier to the noise already present by the characteristic source impedance R . S If we now take an amplifier with both an input noise voltage and current (understanding that a MOST amplifier has no input noise current), then we can easily determine the expression of the Noise Figure. The noise source that is now dominant, depends on the value of the source resistor R . S For a small R , the amplifier is voltage-driven. In this case R di in the numerator is negligible. S S ieq The noise voltage is then dominant. This is not at all surprising, a noise performance of a voltage-driven amplifier is governed by the equivalent input noise voltage. The Noise Figure then decreases for increasing R . For a S large R , the amplifier is current-driven. In this case, dv in the numerator is negligible. The S ieq noise current is then dominant and the Noise Figure increases for increasing R . S There must therefore be a minimum, versus R . S",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise figure of an amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0129_01_0430.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107645270278,
+          0.08780487741463416,
+          0.5574324278040541,
+          0.15121951156097557
+        ],
+        "confidence": 1,
+        "text": "Noise figure of an amplifier"
+      },
+      {
+        "bbox": [
+          0.1621621624436937,
+          0.18048780418699195,
+          0.236486486768018,
+          0.2634146334552846
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvsª"
+      },
+      {
+        "bbox": [
+          0.28344431439655765,
+          0.20825619047776744,
+          0.42601514507678623,
+          0.27954868387927156
+        ],
+        "confidence": 0.5,
+        "text": "Rs dVieq"
+      },
+      {
+        "bbox": [
+          0.4155405404391892,
+          0.19512195078048777,
+          0.43918918908783783,
+          0.23902438980487806
+        ],
+        "confidence": 0.5,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.2094594605855856,
+          0.27317073142276427,
+          0.3445945957207207,
+          0.3463414631300812
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "om"
+      },
+      {
+        "bbox": [
+          0.10135135118243244,
+          0.2829268300000001,
+          0.16216216199324326,
+          0.3414634153658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+-"
+      },
+      {
+        "bbox": [
+          0.10472973019425674,
+          0.3804878054878049,
+          0.14864864911317566,
+          0.4292682932926829
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.31081081126930504,
+          0.41463414627177697,
+          0.37500000045849424,
+          0.47317073163763057
+        ],
+        "confidence": 0.5,
+        "text": "dijeq"
+      },
+      {
+        "bbox": [
+          0.36824324358108107,
+          0.4048780485365854,
+          0.3952702706081081,
+          0.44390243878048774
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.12162162224099098,
+          0.6048780485365854,
+          0.1959459465653153,
+          0.6439024387804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "NF ="
+      },
+      {
+        "bbox": [
+          0.2094594611064189,
+          0.5707317075609756,
+          0.34121621786317563,
+          0.6292682929268292
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ng + NA"
+      },
+      {
+        "bbox": [
+          0.33783783695945946,
+          0.6048780489268293,
+          0.42567567479729734,
+          0.6487804879512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "=1+"
+      },
+      {
+        "bbox": [
+          0.4425675679898648,
+          0.5707317080487805,
+          0.4898648652871621,
+          0.6292682934146342
+        ],
+        "confidence": 1,
+        "text": "NA"
+      },
+      {
+        "bbox": [
+          0.2533783779983108,
+          0.6390243895121951,
+          0.2972972969172297,
+          0.6975609748780488
+        ],
+        "confidence": 0.5,
+        "text": "Ng"
+      },
+      {
+        "bbox": [
+          0.4391891888851351,
+          0.639024389707317,
+          0.483108107804054,
+          0.6926829262926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ng"
+      },
+      {
+        "bbox": [
+          0.2533783777027027,
+          0.7414634140487806,
+          0.32770270202702706,
+          0.7999999994146343
+        ],
+        "confidence": 0.5,
+        "text": "dvieq"
+      },
+      {
+        "bbox": [
+          0.3141891913851351,
+          0.7317073179878049,
+          0.4966216238175676,
+          0.804878049695122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "? + Rg2 diieq"
+      },
+      {
+        "bbox": [
+          0.12130515808262854,
+          0.783236414853575,
+          0.25707322366407914,
+          0.8313977330975787
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "NF = 1 +"
+      },
+      {
+        "bbox": [
+          0.3107648232519677,
+          0.8241294693574998,
+          0.4561270715438081,
+          0.8783095541442638
+        ],
+        "confidence": 0.5,
+        "text": "4KT Rg df"
+      },
+      {
+        "bbox": [
+          0.5337837846621621,
+          0.32682926809756097,
+          0.6216216225,
+          0.37560975590243895
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rin = 00"
+      },
+      {
+        "bbox": [
+          0.7601351349662163,
+          0.2878048775121951,
+          0.7905405403716217,
+          0.341463414097561
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.7601351351773648,
+          0.3804878054878049,
+          0.824324324366554,
+          0.4292682932926829
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.6013513548564188,
+          0.7463414631097561,
+          0.8817567602618241,
+          0.799999999695122
+        ],
+        "confidence": 0.5,
+        "text": "Voltage drive NF ~"
+      },
+      {
+        "bbox": [
+          0.8918918915540541,
+          0.7804878043414634,
+          0.9324324320945947,
+          0.8341463409268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.6013513545270269,
+          0.8536585371219513,
+          0.9256756788513512,
+          0.9073170737073171
+        ],
+        "confidence": 0.5,
+        "text": "Current drive NF - Rs"
+      },
+      {
+        "bbox": [
+          0.7226234874672312,
+          0.9361636911201827,
+          0.9294929092457296,
+          0.9770890706174317
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 0430"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "S If we now take an amplifier with both an input noise voltage and current (understanding that a MOST amplifier has no input noise current), then we can easily determine the expression of the Noise Figure.",
+      "pdf_page": 129,
+      "printed_page": 132,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0129_01_0430.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The Noise Figure is defined as the ratio of the total input noise to the noise of the source impedance R .",
+        "pdf_page": 129,
+        "printed_page": 132,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "S It actually indicates how much noise is added by the amplifier to the noise already present by the characteristic source impedance R .",
+        "pdf_page": 129,
+        "printed_page": 132,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The noise source that is now dominant, depends on the value of the source resistor R .",
+        "pdf_page": 129,
+        "printed_page": 132,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The noise source that is now dominant, depends on the value of the source resistor R .",
+      "pdf_page": 129,
+      "printed_page": 132,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The Noise Figure then decreases for increasing R .",
+      "pdf_page": 129,
+      "printed_page": 132,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The S ieq noise current is then dominant and the Noise Figure increases for increasing R .",
+      "pdf_page": 129,
+      "printed_page": 132,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "S There must therefore be a minimum, versus R .",
+      "pdf_page": 129,
+      "printed_page": 132,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "An amplifier which is used in a system with a characteristic impedance, such as 600 V in audio and 50 V in RF circuits, is characterized by a Noise Figure NF.",
+      "pdf_page": 129,
+      "printed_page": 132,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "S It actually indicates how much noise is added by the amplifier to the noise already present by the characteristic source impedance R .",
+      "pdf_page": 129,
+      "printed_page": 132,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0430-M01",
+      "ocr_text": "NF =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.12162162224099098,
+        0.6048780485365854,
+        0.1959459465653153,
+        0.6439024387804879
+      ],
+      "context_crop": "regions/SANSEN-0430_math_01.png",
+      "context_bbox_normalized": [
+        0.08162162224099098,
+        0.5048780485365855,
+        0.4259459465653153,
+        0.7739024387804879
+      ],
+      "source_image": "slides/p0129_01_0430.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0430-M02",
+      "ocr_text": "=1+",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.33783783695945946,
+        0.6048780489268293,
+        0.42567567479729734,
+        0.6487804879512195
+      ],
+      "context_crop": "regions/SANSEN-0430_math_02.png",
+      "context_bbox_normalized": [
+        0.2978378369594595,
+        0.5048780489268293,
+        0.6556756747972974,
+        0.7787804879512195
+      ],
+      "source_image": "slides/p0129_01_0430.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0430-M03",
+      "ocr_text": "NF = 1 +",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.12130515808262854,
+        0.783236414853575,
+        0.25707322366407914,
+        0.8313977330975787
+      ],
+      "context_crop": "regions/SANSEN-0430_math_03.png",
+      "context_bbox_normalized": [
+        0.08130515808262853,
+        0.683236414853575,
+        0.4870732236640791,
+        0.93
+      ],
+      "source_image": "slides/p0129_01_0430.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0430-M04",
+      "ocr_text": "Rin = 00",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5337837846621621,
+        0.32682926809756097,
+        0.6216216225,
+        0.37560975590243895
+      ],
+      "context_crop": "regions/SANSEN-0430_math_04.png",
+      "context_bbox_normalized": [
+        0.49378378466216216,
+        0.22682926809756096,
+        0.8516216225,
+        0.505609755902439
+      ],
+      "source_image": "slides/p0129_01_0430.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

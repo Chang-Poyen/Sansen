@@ -1,0 +1,343 @@
+{
+  "case_id": "SANSEN-0251",
+  "slide_id": "0251",
+  "chapter": 2,
+  "slide_number_in_chapter": 51,
+  "source": {
+    "pdf_page": 75,
+    "printed_page": 76
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0075_02_0251.jpg",
+      "pdf_page": 75,
+      "printed_page": 76,
+      "bbox_pt": [
+        91.521622,
+        407.525971,
+        374.78981,
+        603.985962
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 75,
+      "printed_page": 76,
+      "bbox_pt": [
+        0,
+        403.5365000000002,
+        595,
+        797
+      ],
+      "text_raw": "The only possible way to\nrespect the laws of Kirchoff,\nis to add either an output\nresistance to the input cur-\nrent source or to limit the\nload resistor to finite values.\nLet us see what happens\nwhen we make the load\nresistor infinity and we add\nan output resistance R in\nB\nparallel with the input cur-\nrent source. Moreover, we\nseparate the output resistor\nr from the transistor itself,\nDS\nto determine where the cur-\nrents are actually flowing.\nTwo currents are now calculated, the current i in the transistor itself and the current through\nds\nthe load resistor i .\nL\nThis latter current i is constant as imposed by the input current source. However, if R is\nL L\nlarger than a specific value R , then this current has to go to zero!\nLc\nThe transistor current i on the other hand, increases with the load resistor, to become\nds\nconstant once R is larger than R . The transistor thus amplifies the input current to fairly\nL Lc\nlarge values! Normally, g R is much larger than unity!\nm B",
+      "text": "The only possible way to respect the laws of Kirchoff, is to add either an output resistance to the input current source or to limit the load resistor to finite values. Let us see what happens when we make the load resistor infinity and we add an output resistance R in B parallel with the input current source. Moreover, we separate the output resistor r from the transistor itself, DS to determine where the currents are actually flowing. Two currents are now calculated, the current i in the transistor itself and the current through ds the load resistor i . L This latter current i is constant as imposed by the input current source. However, if R is L L larger than a specific value R , then this current has to go to zero! Lc The transistor current i on the other hand, increases with the load resistor, to become ds constant once R is larger than R . The transistor thus amplifies the input current to fairly L Lc large values! Normally, g R is much larger than unity! m B"
+    },
+    {
+      "pdf_page": 76,
+      "printed_page": 77,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        159.39389999999992
+      ],
+      "text_raw": "Note that R contains all the parameters involved, the ones of the transistor such as g and\nLc m\nr but also R . It contains the actual gain g r of the transistor itself.\nDS B m DS",
+      "text": "Note that R contains all the parameters involved, the ones of the transistor such as g and Lc m r but also R . It contains the actual gain g r of the transistor itself. DS B m DS"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The only possible way to respect the laws of Kirchoff, is to add either an output resistance to the input current source or to limit the load resistor to finite values. Let us see what happens when we make the load resistor infinity and we add an output resistance R in B parallel with the input current source. Moreover, we separate the output resistor r from the transistor itself, DS to determine where the currents are actually flowing. Two currents are now calculated, the current i in the transistor itself and the current through ds the load resistor i . L This latter current i is constant as imposed by the input current source. However, if R is L L larger than a specific value R , then this current has to go to zero! Lc The transistor current i on the other hand, increases with the load resistor, to become ds constant once R is larger than R . The transistor thus amplifies the input current to fairly L Lc large values! Normally, g R is much larger than unity! m B\n\nNote that R contains all the parameters involved, the ones of the transistor such as g and Lc m r but also R . It contains the actual gain g r of the transistor itself. DS B m DS",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Cascode with resistive load",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0075_02_0251.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027041385135,
+          0.07804877975609759,
+          0.5574324338682433,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Cascode with resistive load"
+      },
+      {
+        "bbox": [
+          0.13175675722128377,
+          0.30731707304878053,
+          0.16891891938344594,
+          0.3560975608536585
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.4932432421452704,
+          0.31219512225609747,
+          0.5810810799831082,
+          0.36585365884146337
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m RB"
+      },
+      {
+        "bbox": [
+          0.6587837841497748,
+          0.30731707382113815,
+          0.7162162165822071,
+          0.3853658543089431
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ids"
+      },
+      {
+        "bbox": [
+          0.11486486456081081,
+          0.5951219507317074,
+          0.15202702672297297,
+          0.6439024385365854
+        ],
+        "confidence": 0.5,
+        "text": "lin"
+      },
+      {
+        "bbox": [
+          0.11824324303209459,
+          0.6682926822560976,
+          0.1486486484375,
+          0.7219512188414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ІB"
+      },
+      {
+        "bbox": [
+          0.2905405412584459,
+          0.3560975615853659,
+          0.3547297304476351,
+          0.40487804939024397
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.20945945777027034,
+          0.4634146332317073,
+          0.36486486317567574,
+          0.5365853649390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ids& IDs"
+      },
+      {
+        "bbox": [
+          0.30405405337837843,
+          0.6243902440243904,
+          0.3581081074324325,
+          0.682926829390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RB"
+      },
+      {
+        "bbox": [
+          0.47965121639142555,
+          0.7993795582354926,
+          0.6994028321734673,
+          0.8591570320573652
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RLc = 9m DsRB"
+      },
+      {
+        "bbox": [
+          0.7567567562499999,
+          0.7658536579512196,
+          0.8141891886824324,
+          0.8243902433170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RLc"
+      },
+      {
+        "bbox": [
+          0.8749999996621622,
+          0.7609756092276423,
+          0.9222972969594596,
+          0.8243902433739838
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.7195945972972972,
+          0.9317073168292683,
+          0.9358108135135134,
+          0.9707317070731708
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 0251"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Moreover, we separate the output resistor r from the transistor itself, DS to determine where the currents are actually flowing.",
+      "pdf_page": 75,
+      "printed_page": 76,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Two currents are now calculated, the current i in the transistor itself and the current through ds the load resistor i .",
+      "pdf_page": 75,
+      "printed_page": 76,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0075_02_0251.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The only possible way to respect the laws of Kirchoff, is to add either an output resistance to the input current source or to limit the load resistor to finite values.",
+        "pdf_page": 75,
+        "printed_page": 76,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Let us see what happens when we make the load resistor infinity and we add an output resistance R in B parallel with the input current source.",
+        "pdf_page": 75,
+        "printed_page": 76,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "L This latter current i is constant as imposed by the input current source.",
+        "pdf_page": 75,
+        "printed_page": 76,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The only possible way to respect the laws of Kirchoff, is to add either an output resistance to the input current source or to limit the load resistor to finite values.",
+      "pdf_page": 75,
+      "printed_page": 76,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Lc The transistor current i on the other hand, increases with the load resistor, to become ds constant once R is larger than R .",
+      "pdf_page": 75,
+      "printed_page": 76,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The transistor thus amplifies the input current to fairly L Lc large values!",
+      "pdf_page": 75,
+      "printed_page": 76,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It contains the actual gain g r of the transistor itself.",
+      "pdf_page": 76,
+      "printed_page": 77,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Normally, g R is much larger than unity! m B",
+      "pdf_page": 75,
+      "printed_page": 76,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0251-M01",
+      "ocr_text": "RLc = 9m DsRB",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.47965121639142555,
+        0.7993795582354926,
+        0.6994028321734673,
+        0.8591570320573652
+      ],
+      "context_crop": "regions/SANSEN-0251_math_01.png",
+      "context_bbox_normalized": [
+        0.43965121639142557,
+        0.6993795582354926,
+        0.9294028321734673,
+        0.93
+      ],
+      "source_image": "slides/p0075_02_0251.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "12-common-gate",
+    "title": "共栅级的输入、输出与跨阻",
+    "summary_zh": "先固定测试电流方向与负载端接，再由同一组 KCL 得三种端口量。",
+    "html": "../derivations/ch02/12-common-gate.html",
+    "markdown": "../derivations/ch02/12-common-gate.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "共栅级的输入、输出与跨阻",
+    "case_ids": [
+      "common_gate"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#12-common-gate",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

@@ -1,0 +1,441 @@
+{
+  "case_id": "SANSEN-0215",
+  "slide_id": "0215",
+  "chapter": 2,
+  "slide_number_in_chapter": 15,
+  "source": {
+    "pdf_page": 57,
+    "printed_page": 58
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0057_01_0215.jpg",
+      "pdf_page": 57,
+      "printed_page": 58,
+      "bbox_pt": [
+        91.521622,
+        187.29950000000008,
+        374.78981,
+        383.759491
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 57,
+      "printed_page": 58,
+      "bbox_pt": [
+        0,
+        183.30989999999986,
+        595,
+        463.3265000000001
+      ],
+      "text_raw": "Inductors and capacitances\ndo not give noise, at least\nnot as long as their series\nloss resistance is zero. Only\nresistances give noise among\nthe passives!\nInserting an inductor\nmakes both the trans-\nconductance and the out-\nput resistance frequency\ndependent.\nThe input impedance Z\ninL\nhowever, which was capaci-\ntive without series R or L,\nbecomes now purely resis-\ntive with value g L /C or\nm S GS\nL v . Indeed, the input capacitance C is tuned out by the inductor. Its input resistance can\nS T GS\nbe easily designed to be 50 V to match an incoming 50 V transmission line (cable, antenna, etc.).\nIn this way, a very-high-frequency low-noise amplifier can be designed (see Chapter 23).",
+      "text": "Inductors and capacitances do not give noise, at least not as long as their series loss resistance is zero. Only resistances give noise among the passives! Inserting an inductor makes both the transconductance and the output resistance frequency dependent. The input impedance Z inL however, which was capacitive without series R or L, becomes now purely resistive with value g L /C or m S GS L v . Indeed, the input capacitance C is tuned out by the inductor. Its input resistance can S T GS be easily designed to be 50 V to match an incoming 50 V transmission line (cable, antenna, etc.). In this way, a very-high-frequency low-noise amplifier can be designed (see Chapter 23)."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Inductors and capacitances do not give noise, at least not as long as their series loss resistance is zero. Only resistances give noise among the passives! Inserting an inductor makes both the transconductance and the output resistance frequency dependent. The input impedance Z inL however, which was capacitive without series R or L, becomes now purely resistive with value g L /C or m S GS L v . Indeed, the input capacitance C is tuned out by the inductor. Its input resistance can S T GS be easily designed to be 50 V to match an incoming 50 V transmission line (cable, antenna, etc.). In this way, a very-high-frequency low-noise amplifier can be designed (see Chapter 23).",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Amplifier with local L- feedback",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0057_01_0215.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269985521239,
+          0.08292682968641119,
+          0.6520270241795367,
+          0.14146341505226478
+        ],
+        "confidence": 1,
+        "text": "Amplifier with local L- feedback"
+      },
+      {
+        "bbox": [
+          0.158783783277027,
+          0.29268292624390246,
+          0.2229729724662162,
+          0.35121951160975606
+        ],
+        "confidence": 1,
+        "text": "ZinL"
+      },
+      {
+        "bbox": [
+          0.32770270199887386,
+          0.2195121952845529,
+          0.41216216145833334,
+          0.2878048782113821
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout"
+      },
+      {
+        "bbox": [
+          0.3412162152027028,
+          0.31707317,
+          0.44932432331081085,
+          0.39024390170731704
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ", Routl"
+      },
+      {
+        "bbox": [
+          0.0912162166216216,
+          0.4829268297560976,
+          0.13851351391891892,
+          0.5317073175609756
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.3378378374155405,
+          0.5365853660162603,
+          0.38851351309121623,
+          0.5951219513821139
+        ],
+        "confidence": 0.5,
+        "text": "Ls"
+      },
+      {
+        "bbox": [
+          0.08445946119087831,
+          0.8048780481097562,
+          0.3918918936233107,
+          0.858536584695122
+        ],
+        "confidence": 0.5,
+        "text": "No extra noise !"
+      },
+      {
+        "bbox": [
+          0.7128378383108108,
+          0.22439024448780487,
+          0.7668918923648649,
+          0.28292682985365847
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.5540540534797298,
+          0.27317073117073176,
+          0.618243242668919,
+          0.32682926775609755
+        ],
+        "confidence": 0.5,
+        "text": "9mL"
+      },
+      {
+        "bbox": [
+          0.6182432436655405,
+          0.27317073146341464,
+          0.6520270274493243,
+          0.3024390241463415
+        ],
+        "confidence": 0.5,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.6653412370634103,
+          0.306168589549662,
+          0.8380371444499839,
+          0.37188019480776613
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + 9m-ss"
+      },
+      {
+        "bbox": [
+          0.5540540551942568,
+          0.44390243926829265,
+          0.645270271410473,
+          0.512195122195122
+        ],
+        "confidence": 0.5,
+        "text": "RoutL"
+      },
+      {
+        "bbox": [
+          0.635135132713964,
+          0.44878048804878046,
+          0.9256756732545046,
+          0.5073170734146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ".=rDs (1+ 9m-ss)"
+      },
+      {
+        "bbox": [
+          0.6216216211993244,
+          0.5609756089634147,
+          0.6689189184966217,
+          0.6243902431097562
+        ],
+        "confidence": 0.5,
+        "text": "Ls"
+      },
+      {
+        "bbox": [
+          0.715965685669681,
+          0.5495934849075895,
+          0.9394397242834902,
+          0.6260162692942011
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + LsGGs52"
+      },
+      {
+        "bbox": [
+          0.4493243230855856,
+          0.6048780482520326,
+          0.604729728490991,
+          0.668292682398374
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ZinL = 9m"
+      },
+      {
+        "bbox": [
+          0.6114864859234235,
+          0.6536585367073172,
+          0.679054053490991,
+          0.7170731708536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CGs"
+      },
+      {
+        "bbox": [
+          0.6858108111908784,
+          0.6048780485365854,
+          0.7162162165962838,
+          0.6536585363414635
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.7668918916103603,
+          0.6536585360569106,
+          0.8682432429617116,
+          0.7170731702032521
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "s CGs"
+      },
+      {
+        "bbox": [
+          0.8277027025,
+          0.7463414628780488,
+          0.8547297295270271,
+          0.7999999994634146
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.45270270560247744,
+          0.7951219509349593,
+          0.8006756785754504,
+          0.8585365850813008
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ZinL = Lg@r+Lgs+•"
+      },
+      {
+        "bbox": [
+          0.7939189177787161,
+          0.8097560965243903,
+          0.8986486475084459,
+          0.8926829257926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "sGGS"
+      },
+      {
+        "bbox": [
+          0.7229729756334459,
+          0.9365853655487804,
+          0.9358108134712837,
+          0.970731707012195
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0215"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0057_01_0215.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Inserting an inductor makes both the transconductance and the output resistance frequency dependent.",
+      "pdf_page": 57,
+      "printed_page": 58,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0215-M01",
+      "ocr_text": "=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6182432436655405,
+        0.27317073146341464,
+        0.6520270274493243,
+        0.3024390241463415
+      ],
+      "context_crop": "regions/SANSEN-0215_math_01.png",
+      "context_bbox_normalized": [
+        0.5782432436655405,
+        0.17317073146341463,
+        0.8820270274493243,
+        0.4324390241463415
+      ],
+      "source_image": "slides/p0057_01_0215.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0215-M02",
+      "ocr_text": ".=rDs (1+ 9m-ss)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.635135132713964,
+        0.44878048804878046,
+        0.9256756732545046,
+        0.5073170734146342
+      ],
+      "context_crop": "regions/SANSEN-0215_math_02.png",
+      "context_bbox_normalized": [
+        0.595135132713964,
+        0.3487804880487805,
+        1,
+        0.6373170734146342
+      ],
+      "source_image": "slides/p0057_01_0215.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0215-M03",
+      "ocr_text": "ZinL = 9m",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4493243230855856,
+        0.6048780482520326,
+        0.604729728490991,
+        0.668292682398374
+      ],
+      "context_crop": "regions/SANSEN-0215_math_03.png",
+      "context_bbox_normalized": [
+        0.40932432308558564,
+        0.5048780482520326,
+        0.834729728490991,
+        0.798292682398374
+      ],
+      "source_image": "slides/p0057_01_0215.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0215-M04",
+      "ocr_text": "ZinL = Lg@r+Lgs+•",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.45270270560247744,
+        0.7951219509349593,
+        0.8006756785754504,
+        0.8585365850813008
+      ],
+      "context_crop": "regions/SANSEN-0215_math_04.png",
+      "context_bbox_normalized": [
+        0.41270270560247746,
+        0.6951219509349593,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0057_01_0215.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "04-degeneration",
+    "title": "源极负反馈与可调跨导",
+    "summary_zh": "保留有限输出电阻；区分负反馈阻抗、信号源电阻与线性区 MOS 的栅极响应。",
+    "html": "../derivations/ch02/04-degeneration.html",
+    "markdown": "../derivations/ch02/04-degeneration.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "源极负反馈与可调跨导",
+    "case_ids": [
+      "degeneration",
+      "degeneration_zin",
+      "mos_degen"
+    ],
+    "linear_count": 2,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#04-degeneration",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

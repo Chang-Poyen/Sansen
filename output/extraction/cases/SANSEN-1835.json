@@ -1,0 +1,184 @@
+{
+  "case_id": "SANSEN-1835",
+  "slide_id": "1835",
+  "chapter": 18,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 526,
+    "printed_page": 536
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0526_01_1835.jpg",
+      "pdf_page": 526,
+      "printed_page": 536,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 526,
+      "printed_page": 536,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        393.5715100000001
+      ],
+      "text_raw": "When two MOSTs are con-\nnected as a differential pair,\nthen the limiting transfer\ncharacteristic emerges as\ndescribed in Chapter 3. The\ninput sine wave is therefore\nrounded or compressed.\nIf no offset is present, then\nthe rounding is the same on\nboth halves of the sine wave.\nThe DC output voltage will\nnot change and the IM\n2\nis zero. As long as the\nrounding on both halves is\nthe same, symmetry is main-\ntained and no IM is found.\n2\nHowever, third-order dis-\ntortion is now generated as\na result of the rounding.",
+      "text": "When two MOSTs are connected as a differential pair, then the limiting transfer characteristic emerges as described in Chapter 3. The input sine wave is therefore rounded or compressed. If no offset is present, then the rounding is the same on both halves of the sine wave. The DC output voltage will not change and the IM 2 is zero. As long as the rounding on both halves is the same, symmetry is maintained and no IM is found. 2 However, third-order distortion is now generated as a result of the rounding."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "When two MOSTs are connected as a differential pair, then the limiting transfer characteristic emerges as described in Chapter 3. The input sine wave is therefore rounded or compressed. If no offset is present, then the rounding is the same on both halves of the sine wave. The DC output voltage will not change and the IM 2 is zero. As long as the rounding on both halves is the same, symmetry is maintained and no IM is found. 2 However, third-order distortion is now generated as a result of the rounding.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "A differential pair is symmetrical",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0526_01_1835.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431951013525,
+          0.07804877995934956,
+          0.6655405357263515,
+          0.14146341410569108
+        ],
+        "confidence": 1,
+        "text": "A differential pair is symmetrical"
+      },
+      {
+        "bbox": [
+          0.2972972964864865,
+          0.22439024321951218,
+          0.38513513432432434,
+          0.2926829261463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "t Vod"
+      },
+      {
+        "bbox": [
+          0.6689189201351351,
+          0.6536585362439025,
+          0.8243243255405406,
+          0.6878048777073171
+        ],
+        "confidence": 1,
+        "text": "compressed"
+      },
+      {
+        "bbox": [
+          0.6689189173986487,
+          0.7560975615121951,
+          0.8952702687499999,
+          0.809756098097561
+        ],
+        "confidence": 1,
+        "text": "symmetrical:"
+      },
+      {
+        "bbox": [
+          0.6689189211824323,
+          0.8146341462439024,
+          0.8952702725337837,
+          0.8634146340487804
+        ],
+        "confidence": 0.5,
+        "text": "no 2nd order"
+      },
+      {
+        "bbox": [
+          0.7195945976036554,
+          0.9365853652845527,
+          0.9324324225540026,
+          0.9707317067479674
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1835"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0526_01_1835.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "When two MOSTs are connected as a differential pair, then the limiting transfer characteristic emerges as described in Chapter 3.",
+        "pdf_page": 526,
+        "printed_page": 536,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "When two MOSTs are connected as a differential pair, then the limiting transfer characteristic emerges as described in Chapter 3.",
+      "pdf_page": 526,
+      "printed_page": 536,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The input sine wave is therefore rounded or compressed.",
+      "pdf_page": 526,
+      "printed_page": 536,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As long as the rounding on both halves is the same, symmetry is maintained and no IM is found. 2 However, third-order distortion is now generated as a result of the rounding.",
+      "pdf_page": 526,
+      "printed_page": 536,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "When two MOSTs are connected as a differential pair, then the limiting transfer characteristic emerges as described in Chapter 3.",
+      "pdf_page": 526,
+      "printed_page": 536,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

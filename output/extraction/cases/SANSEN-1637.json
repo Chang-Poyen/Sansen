@@ -1,0 +1,404 @@
+{
+  "case_id": "SANSEN-1637",
+  "slide_id": "1637",
+  "chapter": 16,
+  "slide_number_in_chapter": 37,
+  "source": {
+    "pdf_page": 466,
+    "printed_page": 475
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0466_01_1637.jpg",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 466,
+      "printed_page": 475,
+      "bbox_pt": [
+        0,
+        118.58729999999991,
+        595,
+        451.26892500000025
+      ],
+      "text_raw": "The principle of a sub-1 V\nbandgap reference is given\nin this slide. The reference\nvoltage is about 0.5 V.\nAs a pure CMOS technol-\nogy is used, only vertical\npnp’s can be used. They are\nall represented by diodes.\nThe operational amplifier\nhas sufficient gain to equal-\nize voltages Va and Vb.\nIt is a two-stage amplifier\nwith C2 as a compensation\ncapacitance. Note that this\nis not a Miller capacitance.\nAlso, all pMOSTs carry\nequal currents.\nSince the voltages Va and Vb are the same, the currents from these nodes to ground must be\nthe same as well. The current through R is therefore PTAT, whereas the current through R is\n3 2\nsimply V /R . The sum of these two currents is also flowing through the output pMOST. The\nBE 2\nvalue of R then sets the output voltage.\n4\nThe input differential pair of the opamp does not allow really low supply voltages, however.\nThis limits the supply voltage to 2V +V . For a V of about 0.5 V this is about 1.6 V! The\nGS DSsat T\nopamp is now the limiting factor.",
+      "text": "The principle of a sub-1 V bandgap reference is given in this slide. The reference voltage is about 0.5 V. As a pure CMOS technology is used, only vertical pnp’s can be used. They are all represented by diodes. The operational amplifier has sufficient gain to equalize voltages Va and Vb. It is a two-stage amplifier with C2 as a compensation capacitance. Note that this is not a Miller capacitance. Also, all pMOSTs carry equal currents. Since the voltages Va and Vb are the same, the currents from these nodes to ground must be the same as well. The current through R is therefore PTAT, whereas the current through R is 3 2 simply V /R . The sum of these two currents is also flowing through the output pMOST. The BE 2 value of R then sets the output voltage. 4 The input differential pair of the opamp does not allow really low supply voltages, however. This limits the supply voltage to 2V +V . For a V of about 0.5 V this is about 1.6 V! The GS DSsat T opamp is now the limiting factor."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The principle of a sub-1 V bandgap reference is given in this slide. The reference voltage is about 0.5 V. As a pure CMOS technology is used, only vertical pnp’s can be used. They are all represented by diodes. The operational amplifier has sufficient gain to equalize voltages Va and Vb. It is a two-stage amplifier with C2 as a compensation capacitance. Note that this is not a Miller capacitance. Also, all pMOSTs carry equal currents. Since the voltages Va and Vb are the same, the currents from these nodes to ground must be the same as well. The current through R is therefore PTAT, whereas the current through R is 3 2 simply V /R . The sum of these two currents is also flowing through the output pMOST. The BE 2 value of R then sets the output voltage. 4 The input differential pair of the opamp does not allow really low supply voltages, however. This limits the supply voltage to 2V +V . For a V of about 0.5 V this is about 1.6 V! The GS DSsat T opamp is now the limiting factor.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Sub-1 V CMOS bandgap reference",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0466_01_1637.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270442567564,
+          0.08780487868292686,
+          0.6891891909121621,
+          0.15121951282926827
+        ],
+        "confidence": 1,
+        "text": "Sub-1 V CMOS bandgap reference"
+      },
+      {
+        "bbox": [
+          0.476351352027027,
+          0.1951219511382114,
+          0.5168918925675675,
+          0.21951219504065045
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Voc"
+      },
+      {
+        "bbox": [
+          0.5709459458896396,
+          0.27317073113821144,
+          0.6081081080518018,
+          0.3073170726016261
+        ],
+        "confidence": 1,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.25675675747466215,
+          0.453658536097561,
+          0.3141891899070946,
+          0.5024390239024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "* va"
+      },
+      {
+        "bbox": [
+          0.3986486480743244,
+          0.4390243903902439,
+          0.4560810805067568,
+          0.49268292697560967
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VBE"
+      },
+      {
+        "bbox": [
+          0.4020270277370625,
+          0.5073170734959349,
+          0.45608107856924385,
+          0.5365853661788618
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "20631"
+      },
+      {
+        "bbox": [
+          0.5033783778716217,
+          0.41951219530487804,
+          0.5439189184121621,
+          0.4634146343292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R3"
+      },
+      {
+        "bbox": [
+          0.4831081076013513,
+          0.43902438970731705,
+          0.5405405400337837,
+          0.49268292629268284
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "33934"
+      },
+      {
+        "bbox": [
+          0.597972973277027,
+          0.42439024439024386,
+          0.6351351354391892,
+          0.47317073219512196
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.5878378384712838,
+          0.4780487803048781,
+          0.6385135141469594,
+          0.5024390242073171
+        ],
+        "confidence": 1,
+        "text": "2063k"
+      },
+      {
+        "bbox": [
+          0.6385135117336583,
+          0.47804877967479675,
+          0.6554054068474229,
+          0.5268292674796748
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.757675265646845,
+          0.39192873710668674,
+          0.9179057991435986,
+          0.46561743957369794
+        ],
+        "confidence": 0.5,
+        "text": "Vret 518 mV"
+      },
+      {
+        "bbox": [
+          0.8240241849105633,
+          0.44688536914461563,
+          0.9225974378720057,
+          0.48482194845347437
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ 15 mV"
+      },
+      {
+        "bbox": [
+          0.7229729718327702,
+          0.4878048773780488,
+          0.8209459448057432,
+          0.5414634139634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3884 R4"
+      },
+      {
+        "bbox": [
+          0.08783783854166667,
+          0.7804878045121951,
+          0.17229729800112611,
+          0.8341463410975609
+        ],
+        "confidence": 0.5,
+        "text": "Vref ="
+      },
+      {
+        "bbox": [
+          0.182432430785473,
+          0.7463414630487805,
+          0.31418918754222974,
+          0.8341463410975609
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RA VBE +"
+      },
+      {
+        "bbox": [
+          0.32432432514076576,
+          0.7463414631707317,
+          0.42229729811373873,
+          0.7951219509756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R4 kT"
+      },
+      {
+        "bbox": [
+          0.41891891849662166,
+          0.7804878043292682,
+          0.48648648606418926,
+          0.8243902433536585
+        ],
+        "confidence": 1,
+        "text": "In n"
+      },
+      {
+        "bbox": [
+          0.18581081118243245,
+          0.8097560981463414,
+          0.22972973010135136,
+          0.868292683512195
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.32770270301238735,
+          0.8097560980487805,
+          0.3716216219313063,
+          0.8682926834146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R3"
+      },
+      {
+        "bbox": [
+          0.5405405385698199,
+          0.6682926832520325,
+          0.6587837818130632,
+          0.6975609759349594
+        ],
+        "confidence": 0.5,
+        "text": "PONRST O-"
+      },
+      {
+        "bbox": [
+          0.5405121996387277,
+          0.7851836928602852,
+          0.6452986085528298,
+          0.8196943576838639
+        ],
+        "confidence": 0.5,
+        "text": "n = 100"
+      },
+      {
+        "bbox": [
+          0.6182432471706081,
+          0.8536585362804877,
+          0.9324324363597972,
+          0.8878048777439024
+        ],
+        "confidence": 0.5,
+        "text": "Banba, .., JSSC May 99, 670-673"
+      },
+      {
+        "bbox": [
+          0.7094594637635654,
+          0.94634146398374,
+          0.9256756670922908,
+          0.9804878054471545
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 1637"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0466_01_1637.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The operational amplifier has sufficient gain to equalize voltages Va and Vb.",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also, all pMOSTs carry equal currents.",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The current through R is therefore PTAT, whereas the current through R is 3 2 simply V /R .",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This limits the supply voltage to 2V +V .",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The GS DSsat T opamp is now the limiting factor.",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1637-M01",
+      "ocr_text": "Vref =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08783783854166667,
+        0.7804878045121951,
+        0.17229729800112611,
+        0.8341463410975609
+      ],
+      "context_crop": "regions/SANSEN-1637_math_01.png",
+      "context_bbox_normalized": [
+        0.04783783854166667,
+        0.6804878045121951,
+        0.4022972980011261,
+        0.93
+      ],
+      "source_image": "slides/p0466_01_1637.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1637-M02",
+      "ocr_text": "n = 100",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5405121996387277,
+        0.7851836928602852,
+        0.6452986085528298,
+        0.8196943576838639
+      ],
+      "context_crop": "regions/SANSEN-1637_math_02.png",
+      "context_bbox_normalized": [
+        0.5005121996387276,
+        0.6851836928602852,
+        0.8752986085528298,
+        0.93
+      ],
+      "source_image": "slides/p0466_01_1637.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

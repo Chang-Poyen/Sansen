@@ -1,0 +1,150 @@
+{
+  "case_id": "SANSEN-0272",
+  "slide_id": "0272",
+  "chapter": 2,
+  "slide_number_in_chapter": 72,
+  "source": {
+    "pdf_page": 86,
+    "printed_page": 87
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0086_02_0272.jpg",
+      "pdf_page": 86,
+      "printed_page": 87,
+      "bbox_pt": [
+        91.52162,
+        385.60295,
+        374.54222,
+        582.11279
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 86,
+      "printed_page": 87,
+      "bbox_pt": [
+        0,
+        381.6135100000001,
+        595,
+        797
+      ],
+      "text_raw": "Now that we know nearly\neverything about the three\nsingle-transistor configura-\ntions, it is time to have a\nlook at the elementary two-\ntransistor configurations.\nThe first one is a current\nmirror, this is followed by a\ndifferential pair.\nMost of the analog\nelectronics can be built up\nby means of these two ele-\nmentary circuits.",
+      "text": "Now that we know nearly everything about the three single-transistor configurations, it is time to have a look at the elementary twotransistor configurations. The first one is a current mirror, this is followed by a differential pair. Most of the analog electronics can be built up by means of these two elementary circuits."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that we know nearly everything about the three single-transistor configurations, it is time to have a look at the elementary twotransistor configurations. The first one is a current mirror, this is followed by a differential pair. Most of the analog electronics can be built up by means of these two elementary circuits.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0086_02_0272.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0745762689588378,
+          0.07317073188153311,
+          0.38644067573849883,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.15593220061016955,
+          0.35121951273170726,
+          0.6576271158644069,
+          0.40487804931707316
+        ],
+        "confidence": 1,
+        "text": "• Single-transistor amplifiers"
+      },
+      {
+        "bbox": [
+          0.15593220573849875,
+          0.443902438815331,
+          0.48474576506053263,
+          0.49268292662020907
+        ],
+        "confidence": 1,
+        "text": "• Source followers"
+      },
+      {
+        "bbox": [
+          0.15593220427118645,
+          0.5317073165853659,
+          0.36610169579661017,
+          0.5804878043902439
+        ],
+        "confidence": 1,
+        "text": "• Cascodes"
+      },
+      {
+        "bbox": [
+          0.7186440700847457,
+          0.9219512189634146,
+          0.9355932226271187,
+          0.9658536579878049
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0272"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0086_02_0272.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_applicable",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "本页为章节脉络，无独立小信号模型需建图。"
+  },
+  "simulation_status": "not_started_theory_and_nodal_checks_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "00-conventions",
+    "title": "章节脉络与共同模型",
+    "summary_zh": "由单管结构转向电流镜与差分对的章末目录页；无独立待推导公式。",
+    "html": "../derivations/ch02/00-conventions.html",
+    "markdown": "../derivations/ch02/00-conventions.md",
+    "status": "context_reviewed_no_independent_derivation",
+    "discrepancy_ids": [],
+    "sfg": "not_applicable",
+    "sfg_reason": "本页为章节脉络，无独立小信号模型需建图。"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

@@ -1,0 +1,270 @@
+{
+  "case_id": "SANSEN-1210",
+  "slide_id": "1210",
+  "chapter": 12,
+  "slide_number_in_chapter": 10,
+  "source": {
+    "pdf_page": 334,
+    "printed_page": 341
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0334_02_1210.jpg",
+      "pdf_page": 334,
+      "printed_page": 341,
+      "bbox_pt": [
+        91.521622,
+        371.801484,
+        374.78981,
+        568.261475
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 334,
+      "printed_page": 341,
+      "bbox_pt": [
+        0,
+        367.812,
+        595,
+        797
+      ],
+      "text_raw": "This circuit is shown twice,\nonce without cross-coupling\nto figure out the biasing,\nand once with the cross-\ncoupling.\nThe circuit on the left\ncontains two source follow-\ners. Actually they are source\nfollowers combined with\ncurrent mirrors. This is why\nthey are called super source\nfollowers.\nThe nMOSTs are the\nsame and so are the\npMOSTs. The current\nthrough M1 and M4 will\nalso be I . This also applies to the current through M2/M5.\nB\nAll nodes follow the input voltage. For the positive input voltage V+, the Sources of M1 and\nM9, but also the Drain of M3 all have obviously the same voltage swing V+.\nThis also applies to the voltages V− of the other super source follower.\nCross-coupling now the two inner lines, generates a nMOST/pMOST differential pair, with\nV− and V+ at their Gates, and which exhibit an expanding output current.\nThis stage has actually four output currents, i.e. the Drain currents of M1 and M5 which\nincrease, and also the Drain currents of M2 and M4 which decrease. They can be combined\nwith current mirrors towards the output. In this example only two output currents are used.",
+      "text": "This circuit is shown twice, once without cross-coupling to figure out the biasing, and once with the crosscoupling. The circuit on the left contains two source followers. Actually they are source followers combined with current mirrors. This is why they are called super source followers. The nMOSTs are the same and so are the pMOSTs. The current through M1 and M4 will also be I . This also applies to the current through M2/M5. B All nodes follow the input voltage. For the positive input voltage V+, the Sources of M1 and M9, but also the Drain of M3 all have obviously the same voltage swing V+. This also applies to the voltages V− of the other super source follower. Cross-coupling now the two inner lines, generates a nMOST/pMOST differential pair, with V− and V+ at their Gates, and which exhibit an expanding output current. This stage has actually four output currents, i.e. the Drain currents of M1 and M5 which increase, and also the Drain currents of M2 and M4 which decrease. They can be combined with current mirrors towards the output. In this example only two output currents are used."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This circuit is shown twice, once without cross-coupling to figure out the biasing, and once with the crosscoupling. The circuit on the left contains two source followers. Actually they are source followers combined with current mirrors. This is why they are called super source followers. The nMOSTs are the same and so are the pMOSTs. The current through M1 and M4 will also be I . This also applies to the current through M2/M5. B All nodes follow the input voltage. For the positive input voltage V+, the Sources of M1 and M9, but also the Drain of M3 all have obviously the same voltage swing V+. This also applies to the voltages V− of the other super source follower. Cross-coupling now the two inner lines, generates a nMOST/pMOST differential pair, with V− and V+ at their Gates, and which exhibit an expanding output current. This stage has actually four output currents, i.e. the Drain currents of M1 and M5 which increase, and also the Drain currents of M2 and M4 which decrease. They can be combined with current mirrors towards the output. In this example only two output currents are used.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Cross-coupled quad",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0334_02_1210.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243213682433,
+          0.08292682943089424,
+          0.429054051097973,
+          0.14146341479674795
+        ],
+        "confidence": 1,
+        "text": "Cross-coupled quad"
+      },
+      {
+        "bbox": [
+          0.39527026989864866,
+          0.24390243858536587,
+          0.4391891888175676,
+          0.28780487760975615
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MIo"
+      },
+      {
+        "bbox": [
+          0.09121621630067567,
+          0.2975609757560975,
+          0.14189189197635135,
+          0.3268292684390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V+o"
+      },
+      {
+        "bbox": [
+          0.2939189192567567,
+          0.49268292737804886,
+          0.3277027030405405,
+          0.536585366402439
+        ],
+        "confidence": 0.5,
+        "text": "Ms"
+      },
+      {
+        "bbox": [
+          0.13851351289414415,
+          0.5268292685365854,
+          0.17567567505630632,
+          0.5512195124390245
+        ],
+        "confidence": 1,
+        "text": "V+"
+      },
+      {
+        "bbox": [
+          0.2128378376689189,
+          0.6829268286585367,
+          0.2533783782094594,
+          0.7317073164634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'в"
+      },
+      {
+        "bbox": [
+          0.1587837829954956,
+          0.7902439030894309,
+          0.40878378299549556,
+          0.829268292170316
+        ],
+        "confidence": 1,
+        "text": "Two super-followers"
+      },
+      {
+        "bbox": [
+          0.07432431796171193,
+          0.8731707319512194,
+          0.4560810747184687,
+          0.9073170734146341
+        ],
+        "confidence": 1,
+        "text": "Ref. Castello, JSSC Dec.85, 1122-1132"
+      },
+      {
+        "bbox": [
+          0.5269806764896653,
+          0.2876028673698767,
+          0.5878841870215289,
+          0.3172751806878966
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V+ o"
+      },
+      {
+        "bbox": [
+          0.712837838626126,
+          0.17560975726057837,
+          0.7601351359234233,
+          0.21463414517844592
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YDD"
+      },
+      {
+        "bbox": [
+          0.8445945952702703,
+          0.24390243894308938,
+          0.8851351358108108,
+          0.27804878040650405
+        ],
+        "confidence": 0.5,
+        "text": "M10"
+      },
+      {
+        "bbox": [
+          0.8479729726914416,
+          0.390243902601626,
+          0.8817567564752253,
+          0.4292682928455285
+        ],
+        "confidence": 0.5,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.729729731418919,
+          0.9512195118536585,
+          0.9391891908783784,
+          0.9853658533170732
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1210"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This circuit is shown twice, once without cross-coupling to figure out the biasing, and once with the crosscoupling.",
+      "pdf_page": 334,
+      "printed_page": 341,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0334_02_1210.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The circuit on the left contains two source followers.",
+        "pdf_page": 334,
+        "printed_page": 341,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Actually they are source followers combined with current mirrors.",
+        "pdf_page": 334,
+        "printed_page": 341,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This is why they are called super source followers.",
+        "pdf_page": 334,
+        "printed_page": 341,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "For the positive input voltage V+, the Sources of M1 and M9, but also the Drain of M3 all have obviously the same voltage swing V+.",
+        "pdf_page": 334,
+        "printed_page": 341,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This also applies to the voltages V− of the other super source follower.",
+        "pdf_page": 334,
+        "printed_page": 341,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This stage has actually four output currents, i.e. the Drain currents of M1 and M5 which increase, and also the Drain currents of M2 and M4 which decrease.",
+        "pdf_page": 334,
+        "printed_page": 341,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This stage has actually four output currents, i.e. the Drain currents of M1 and M5 which increase, and also the Drain currents of M2 and M4 which decrease.",
+      "pdf_page": 334,
+      "printed_page": 341,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

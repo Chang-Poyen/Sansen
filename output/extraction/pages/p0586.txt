@@ -1,0 +1,42 @@
+Continuous-time filters 597
+1961
+In order to lower the clock
+frequency, compared to the
+filter frequency, the circuit
+in the slide can be used.
+Two DC current sources
+are used with ratio N. The
+first one generates a voltage
+IB/gm across the capacitor
+C. In the next phase current
+IB/N discharges the capaci-
+tor C to zero. In the steady
+state condition, the charge
+introduced in the first phase
+must equal the charge taken
+away in the second phase.
+Charge balancing is
+achieved by the integrator.
+As a result, the time constant g /C is accurately locked to the clock frequency f , but different
+m c
+by a factor N.
+The main advantage of such a system is that the clock oscillator frequency can be positioned
+far away from the filter frequencies, such that it does not leak. Oscillator leakage is also the
+problem with PLL tuning. Charge balancing is therefore a better technique for tuning.
+1962
+A practical realization of
+such a tuning system is
+shown in this slide. It is a
+differential realization for
+better rejection of substrate
+noise. The resistor in the
+low-pass filter at the output
+is a switched-capacitor real-
+ization as well.
+This was used for a band-
+pass filter around 10.7 MHz
+with N=148, such that the
+clock is only at 450 kHz.
+This is far removed from the
+useful filter frequencies
+indeed.

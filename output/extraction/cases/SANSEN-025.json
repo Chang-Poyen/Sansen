@@ -1,0 +1,218 @@
+{
+  "case_id": "SANSEN-025",
+  "slide_id": "025",
+  "chapter": 2,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 51,
+    "printed_page": 52
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0052_01_025.jpg",
+      "pdf_page": 52,
+      "printed_page": 53,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 51,
+      "printed_page": 52,
+      "bbox_pt": [
+        0,
+        630.73855,
+        595,
+        797
+      ],
+      "text_raw": "These are really important conclusions. Large gain A can only be achieved by choosing large\nv\nchannel length L and by making V −V as small as possible.\nGS T\nAs a result, the minimum channel length is never used in an analog amplifier. Usually we limit\nthe value of L to at least 4–5 times the minimum value.",
+      "text": "These are really important conclusions. Large gain A can only be achieved by choosing large v channel length L and by making V −V as small as possible. GS T As a result, the minimum channel length is never used in an analog amplifier. Usually we limit the value of L to at least 4–5 times the minimum value."
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": 53,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        391.57850000000013
+      ],
+      "text_raw": "Also, we take the take the\nvalue of V −V as small\nGS T\nas possible. A typical value\nis 0.15–0.2 V. We cannot go\nmuch lower as we then end\nup in the weak inversion\nregion. The absolute value\nof the current and the trans-\nconductance then become\nso small that the noise\nbecomes too large. Noise\nwill be explained in detail in\nChapter 3.\nSmall values of the cur-\nrent inevitably lead to larger\nnoise and smaller signal-\nto-noise ratios (SNR). For\nSNR values below 40 dB, weak inversion can be used. Sensor interface and biomedical preampli-\nfiers are comfortable with this. Communication amplifiers usually require more than 70 dB SNR.\nAs a result we have to stay in the region between weak and strong inversion. A value of V −V\nGS T\nbetween 0.15 V and 0.2 V is therefore a good compromise.",
+      "text": "Also, we take the take the value of V −V as small GS T as possible. A typical value is 0.15–0.2 V. We cannot go much lower as we then end up in the weak inversion region. The absolute value of the current and the transconductance then become so small that the noise becomes too large. Noise will be explained in detail in Chapter 3. Small values of the current inevitably lead to larger noise and smaller signalto-noise ratios (SNR). For SNR values below 40 dB, weak inversion can be used. Sensor interface and biomedical preamplifiers are comfortable with this. Communication amplifiers usually require more than 70 dB SNR. As a result we have to stay in the region between weak and strong inversion. A value of V −V GS T between 0.15 V and 0.2 V is therefore a good compromise."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "representative_case_visually_reviewed",
+  "commentary_text": "These are really important conclusions. Large gain A can only be achieved by choosing large v channel length L and by making V −V as small as possible. GS T As a result, the minimum channel length is never used in an analog amplifier. Usually we limit the value of L to at least 4–5 times the minimum value.\n\nAlso, we take the take the value of V −V as small GS T as possible. A typical value is 0.15–0.2 V. We cannot go much lower as we then end up in the weak inversion region. The absolute value of the current and the transconductance then become so small that the noise becomes too large. Noise will be explained in detail in Chapter 3. Small values of the current inevitably lead to larger noise and smaller signalto-noise ratios (SNR). For SNR values below 40 dB, weak inversion can be used. Sensor interface and biomedical preamplifiers are comfortable with this. Communication amplifiers usually require more than 70 dB SNR. As a result we have to stay in the region between weak and strong inversion. A value of V −V GS T between 0.15 V and 0.2 V is therefore a good compromise.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "单管放大器：增益与尺寸",
+  "title_status": "visually_reviewed",
+  "ocr": {
+    "path": "ocr/p0052_01_025.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270706644133,
+          0.08292682894308945,
+          0.60135135571509,
+          0.14146341430894305
+        ],
+        "confidence": 1,
+        "text": "Single-transistor amplifier - 2"
+      },
+      {
+        "bbox": [
+          0.20583606220949677,
+          0.3443298582028471,
+          0.7941639339960783,
+          0.49957258738985877
+        ],
+        "confidence": 1,
+        "text": "High gain ?"
+      },
+      {
+        "bbox": [
+          0.06756756680743241,
+          0.6487804885670732,
+          0.9391891884290541,
+          0.7707317080792683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Low Vgs-VT and large L !!!"
+      },
+      {
+        "bbox": [
+          0.7229729755067567,
+          0.9365853655487804,
+          0.9256756782094594,
+          0.970731707012195
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 025"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Noise will be explained in detail in Chapter 3.",
+      "pdf_page": 52,
+      "printed_page": 53,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0052_01_025.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Large gain A can only be achieved by choosing large v channel length L and by making V −V as small as possible.",
+      "pdf_page": 51,
+      "printed_page": 52,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS T As a result, the minimum channel length is never used in an analog amplifier.",
+      "pdf_page": 51,
+      "printed_page": 52,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Usually we limit the value of L to at least 4–5 times the minimum value.",
+      "pdf_page": 51,
+      "printed_page": 52,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result we have to stay in the region between weak and strong inversion.",
+      "pdf_page": 52,
+      "printed_page": 53,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A value of V −V GS T between 0.15 V and 0.2 V is therefore a good compromise.",
+      "pdf_page": 52,
+      "printed_page": 53,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "reviewed_extraction": {
+    "title": "单管放大器：增益与尺寸",
+    "review_scope": "listed_fields_only; 源极 slide and paired commentary inspected",
+    "summary_zh": "本页的设计结论是以较长沟道及较小过驱动电压提高增益；正文补充这会受到电流、噪声与信噪比需求限制。正文给的尺寸与电压是本书情境下的建议值，不能直接当作所有工艺的规则。",
+    "formulas": [],
+    "graph_conclusions_zh": [],
+    "topology_zh": [],
+    "conditions_zh": [
+      "原文建议 L 至少约为最小沟道长度的 4–5 倍，V_GS−V_T 约 0.15–0.2 V。",
+      "原文提醒再降低过驱动电压会进入弱反转，并讨论较小电流对噪声及 SNR 的取舍。"
+    ],
+    "title_original": "Single-transistor amplifier - 2"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "01-intrinsic-gain",
+    "title": "单管增益与 MOS／BJT 比较",
+    "summary_zh": "由漏极 KCL 与器件电流微分得到增益，再比较固定过驱动电压下的 MOS／BJT。",
+    "html": "../derivations/ch02/01-intrinsic-gain.html",
+    "markdown": "../derivations/ch02/01-intrinsic-gain.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "单管增益与 MOS／BJT 比较",
+    "case_ids": [
+      "intrinsic"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#01-intrinsic-gain",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

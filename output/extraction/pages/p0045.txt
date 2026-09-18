@@ -1,0 +1,44 @@
+Comparison of MOST and bipolar transistors 45
+0183
+Now that the models of
+both the MOST and the
+bipolar transistor have been
+explained in simple terms,
+the question arises how do
+they compare for circuit
+performance.
+Indeed, both of them are
+available in BiCMOS pro-
+cesses. For each function, a
+choice can be made between
+both types.
+0184
+In order to organize the
+comparison, a Table is
+used listing most impor-
+tant parameters, under
+‘‘Specification’’. The rele-
+vant arguments are then col-
+lected in two columns, one
+for MOSTs and one for
+bipolar transistors.
+It is clear that the zero
+input current is a major
+advantage for a MOST. As
+a result, its input impedance
+is infinity. It is now possible
+to store a charge on a
+capacitance and read it with
+a nMOST. This is used in switched-capacitor filters (see Chapter 17) but also in Sample-and-
+hold circuits in front of ADC’s.
+In future nanometer technologies however, Gate current may flow in a similar way as for
+bipolar transistors. This is an enormous disadvantage for many circuits!
+The second consideration is on the minimum V . It is the minimum output voltage for
+DSsat
+which the MOST operates in saturation, exhibiting a large output resistance r , and thus
+o
+large gain.
+0185
+The minimum V , for which the MOST operates in saturation, is little less than V −V ,
+DSsat GS T
+which also sets the current depending on the transistor dimensions W and L.

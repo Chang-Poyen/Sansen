@@ -1,0 +1,117 @@
+{
+  "case_id": "SANSEN-054",
+  "slide_id": "054",
+  "chapter": 5,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 146,
+    "printed_page": 150
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0146_02_054.jpg",
+      "pdf_page": 146,
+      "printed_page": 150,
+      "bbox_pt": [
+        91.52162,
+        443.30036,
+        374.54222,
+        639.8102
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 146,
+      "printed_page": 150,
+      "bbox_pt": [
+        0,
+        439.31095500000026,
+        595,
+        797
+      ],
+      "text_raw": "Most simple opamps only\nhave one single-output. This\nhas been the case in most\ndiscrete electronics. All volt-\nages are referred to ground,\nwhich is easy to reach on a\nprinted circuit board, for\nexample.\nIn integrated circuits,\nmore and more analog func-\ntions are integrated together\nwith digital blocks. As a\nresult, the substrate is pol-\nluted with clock spikes and\nlogic noise. In this mixed-\nsignal environment, all cir-\ncuits must be fully-differential. This doubles the power consumption but rejects the common-\nmode noise.\nWe will discuss single-ended amplifiers first and then construct fully-differential amplifiers in\nChapter 9.",
+      "text": "Most simple opamps only have one single-output. This has been the case in most discrete electronics. All voltages are referred to ground, which is easy to reach on a printed circuit board, for example. In integrated circuits, more and more analog functions are integrated together with digital blocks. As a result, the substrate is polluted with clock spikes and logic noise. In this mixedsignal environment, all circuits must be fully-differential. This doubles the power consumption but rejects the commonmode noise. We will discuss single-ended amplifiers first and then construct fully-differential amplifiers in Chapter 9."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Most simple opamps only have one single-output. This has been the case in most discrete electronics. All voltages are referred to ground, which is easy to reach on a printed circuit board, for example. In integrated circuits, more and more analog functions are integrated together with digital blocks. As a result, the substrate is polluted with clock spikes and logic noise. In this mixedsignal environment, all circuits must be fully-differential. This doubles the power consumption but rejects the commonmode noise. We will discuss single-ended amplifiers first and then construct fully-differential amplifiers in Chapter 9.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Single-ended or fully differential ?",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0146_02_054.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627237288134,
+          0.08292682990243905,
+          0.6813559333898305,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "Single-ended or fully differential ?"
+      },
+      {
+        "bbox": [
+          0.7322033930508474,
+          0.9512195120325204,
+          0.9254237320338982,
+          0.9804878047154472
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1as 054"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0146_02_054.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the substrate is polluted with clock spikes and logic noise.",
+      "pdf_page": 146,
+      "printed_page": 150,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

@@ -1,0 +1,45 @@
+604 Chapter #20
+203
+An ADC converts a con-
+tinuous input Voltage into a
+number of discrete steps,
+which are labeled by means
+of a digital code. The input
+voltage is quantized.
+In the example in this
+slide, any voltage between
+zero and the reference
+Voltage V , corresponds to
+ref
+a three-bit code. Ideally, all
+steps are equally wide and
+high. In practice however,
+some irregularities occur.
+These nonidealities will be
+described by specifications
+such as INL and DNL, as will be explained later.
+A DAC, on the other hand, converts a digital code into a number of voltages. This is shown
+in this slide for a three-bit input code. The voltages are all fractions of a reference voltage V .
+ref
+Again the steps are ideally all equal, but some non-idealities are hard to avoid in practice.
+204
+The number of steps taken
+is called the resolution.
+The value of the analog
+output voltage now depends
+on which bits b are 1 or 0.
+For example, for a code 110
+and a reference voltage of
+0.6 V, the output voltage is
+0.6×(2−1+2−2) or 0.45 V.
+For a resolution N, the
+smallest step V is the ref-
+LSB
+erence Voltage divided by
+2N. For example this is 1/256
+or 0.4% for a 8 bit con-
+verter, or 2.3 mV for a 0.6 V
+reference voltage. The error
+must always be smaller than the resolution.
+The coefficient of 1/2 is the most significant bit, whereas the coefficient of the last one 1/2N is
+the least significant bit.

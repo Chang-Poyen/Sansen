@@ -1,0 +1,40 @@
+Design of multistage operational amplifiers 273
+0920
+When we focus on configu-
+rations, we have to make a
+decision first on which non-
+inverting amplifier to use.
+Indeed, the second stage
+of a three-stage amplifier is
+normally single-ended, as
+the output stage is single-
+ended as well.
+However, a single-transis-
+tor amplifier is always
+inverting. It cannot be used
+as a second-stage of a three-
+stage amplifier. Otherwise
+compensation capacitance
+C would provide positive
+c1
+feedback!
+It is clear that such a non-inverting amplifier is not required in a two-stage amplifier, only in
+a three-stage amplifier.
+There are two possible solutions. The original one is shown next.
+0921
+In this three stage amplifier,
+which is fully realized
+in bipolar technology, a
+differential pair is used as a
+second stage. The output
+‘‘on the other side’’ is non-
+inverting indeed.
+The other functions of the
+three stages are easily recog-
+nized. The nested compen-
+sation capacitances are
+14 pF and 10 pF respec-
+tively. The first one deter-
+mines the GBW.
+An alternative is shown
+next.

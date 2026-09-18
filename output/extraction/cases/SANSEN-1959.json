@@ -1,0 +1,349 @@
+{
+  "case_id": "SANSEN-1959",
+  "slide_id": "1959",
+  "chapter": 19,
+  "slide_number_in_chapter": 59,
+  "source": {
+    "pdf_page": 585,
+    "printed_page": 596
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0585_01_1959.jpg",
+      "pdf_page": 585,
+      "printed_page": 596,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 585,
+      "printed_page": 596,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "A switched-capacitor resis-\ntor R is given by 1/Cf ,\nc\nin which f is the clock\nc\nfrequency. As a result,\nthe transconductance g is\nm\nadjusted such that it equals\nCf . In other words, the time\nc\nconstant g /C is accurately\nm\nlocked to the clock fre-\nquency, which can be made\nvery accurate indeed (for\nexample with a crystal\noscillator).\nObviously, some scaling\nwill have to be introduced\nto be able to separate the\nfilter frequency further from the clock frequency. The required accuracy is achieved, however.\nNote also, that a low-pass filter is added at the output to suppress the ripple from the clock\ngenerator.",
+      "text": "A switched-capacitor resistor R is given by 1/Cf , c in which f is the clock c frequency. As a result, the transconductance g is m adjusted such that it equals Cf . In other words, the time c constant g /C is accurately m locked to the clock frequency, which can be made very accurate indeed (for example with a crystal oscillator). Obviously, some scaling will have to be introduced to be able to separate the filter frequency further from the clock frequency. The required accuracy is achieved, however. Note also, that a low-pass filter is added at the output to suppress the ripple from the clock generator."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A switched-capacitor resistor R is given by 1/Cf , c in which f is the clock c frequency. As a result, the transconductance g is m adjusted such that it equals Cf . In other words, the time c constant g /C is accurately m locked to the clock frequency, which can be made very accurate indeed (for example with a crystal oscillator). Obviously, some scaling will have to be introduced to be able to separate the filter frequency further from the clock frequency. The required accuracy is achieved, however. Note also, that a low-pass filter is added at the output to suppress the ripple from the clock generator.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Tuning systems : frequency tuning",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0585_01_1959.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270696790528,
+          0.07804878134146342,
+          0.6891891934543917,
+          0.14634146426829264
+        ],
+        "confidence": 1,
+        "text": "Tuning systems : frequency tuning"
+      },
+      {
+        "bbox": [
+          0.4358108091638514,
+          0.2048780479268293,
+          0.5810810794341217,
+          0.2731707308536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R = 1/ Cfc"
+      },
+      {
+        "bbox": [
+          0.2601351353415916,
+          0.31707317056910567,
+          0.2972972975037537,
+          0.3756097559349594
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fc"
+      },
+      {
+        "bbox": [
+          0.3513513511261261,
+          0.33658536609756107,
+          0.3783783781531531,
+          0.37560975634146354
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C"
+      },
+      {
+        "bbox": [
+          0.09459459379222974,
+          0.39024390249999996,
+          0.15878378298141893,
+          0.44390243908536586
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.20945946005067567,
+          0.45853658597560976,
+          0.2702702708614865,
+          0.5073170737804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ",9m"
+      },
+      {
+        "bbox": [
+          0.20945945960424708,
+          0.49268292707317074,
+          0.2364864866312741,
+          0.5268292685365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.6689189195382883,
+          0.385365853495935,
+          0.7432432438626126,
+          0.434146341300813
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6790540546621622,
+          0.46341463404878047,
+          0.7398648654729729,
+          0.5121951218536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.7871621627815315,
+          0.404878048699187,
+          0.8614864871058558,
+          0.45365853650406507
+        ],
+        "confidence": 1,
+        "text": "Vtune"
+      },
+      {
+        "bbox": [
+          0.7364864866312741,
+          0.5414634151916377,
+          0.7770270271718147,
+          0.6195121956794425
+        ],
+        "confidence": 1,
+        "text": "I"
+      },
+      {
+        "bbox": [
+          0.08101493761161369,
+          0.7458509374271661,
+          0.27033641689347737,
+          0.8004905257599239
+        ],
+        "confidence": 0.5,
+        "text": "Iref = Cfc Vref"
+      },
+      {
+        "bbox": [
+          0.08108108209459458,
+          0.839024389512195,
+          0.25675675777027024,
+          0.8975609748780488
+        ],
+        "confidence": 0.5,
+        "text": "Iref = 9m Vref"
+      },
+      {
+        "bbox": [
+          0.32432432557432433,
+          0.795121951804878,
+          0.45608108233108113,
+          0.8536585371707316
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m = Cfc"
+      },
+      {
+        "bbox": [
+          0.49662162398648646,
+          0.8439024395121951,
+          0.9425675699324324,
+          0.8829268297560975
+        ],
+        "confidence": 1,
+        "text": "Ref. Viswanathan, JSSC Aug.82, 775-778"
+      },
+      {
+        "bbox": [
+          0.5472972954391893,
+          0.8780487810004158,
+          0.8885135116554055,
+          0.9170731700813007
+        ],
+        "confidence": 1,
+        "text": "Silva, JSSC Dec. 92, 1843-1853"
+      },
+      {
+        "bbox": [
+          0.7229729758131148,
+          0.9560975611382113,
+          0.9391891791418403,
+          0.9853658538211382
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1959"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0585_01_1959.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the transconductance g is m adjusted such that it equals Cf .",
+      "pdf_page": 585,
+      "printed_page": 596,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1959-M01",
+      "ocr_text": "R = 1/ Cfc",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4358108091638514,
+        0.2048780479268293,
+        0.5810810794341217,
+        0.2731707308536586
+      ],
+      "context_crop": "regions/SANSEN-1959_math_01.png",
+      "context_bbox_normalized": [
+        0.3958108091638514,
+        0.13,
+        0.8110810794341217,
+        0.4031707308536586
+      ],
+      "source_image": "slides/p0585_01_1959.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1959-M02",
+      "ocr_text": "Iref = Cfc Vref",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08101493761161369,
+        0.7458509374271661,
+        0.27033641689347737,
+        0.8004905257599239
+      ],
+      "context_crop": "regions/SANSEN-1959_math_02.png",
+      "context_bbox_normalized": [
+        0.041014937611613685,
+        0.6458509374271661,
+        0.5003364168934774,
+        0.93
+      ],
+      "source_image": "slides/p0585_01_1959.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1959-M03",
+      "ocr_text": "Iref = 9m Vref",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08108108209459458,
+        0.839024389512195,
+        0.25675675777027024,
+        0.8975609748780488
+      ],
+      "context_crop": "regions/SANSEN-1959_math_03.png",
+      "context_bbox_normalized": [
+        0.04108108209459458,
+        0.7390243895121951,
+        0.4867567577702703,
+        0.93
+      ],
+      "source_image": "slides/p0585_01_1959.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1959-M04",
+      "ocr_text": "9m = Cfc",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.32432432557432433,
+        0.795121951804878,
+        0.45608108233108113,
+        0.8536585371707316
+      ],
+      "context_crop": "regions/SANSEN-1959_math_04.png",
+      "context_bbox_normalized": [
+        0.28432432557432435,
+        0.695121951804878,
+        0.6860810823310811,
+        0.93
+      ],
+      "source_image": "slides/p0585_01_1959.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

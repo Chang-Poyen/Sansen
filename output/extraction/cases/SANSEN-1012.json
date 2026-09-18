@@ -1,0 +1,137 @@
+{
+  "case_id": "SANSEN-1012",
+  "slide_id": "1012",
+  "chapter": 10,
+  "slide_number_in_chapter": 12,
+  "source": {
+    "pdf_page": 289,
+    "printed_page": 296
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0289_02_1012.jpg",
+      "pdf_page": 289,
+      "printed_page": 296,
+      "bbox_pt": [
+        91.521622,
+        385.602967,
+        374.78981,
+        582.062958
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 289,
+      "printed_page": 296,
+      "bbox_pt": [
+        0,
+        381.6135000000001,
+        595,
+        797
+      ],
+      "text_raw": "Now that the advantages\nare known for current\nopamps, let us have a look\nat some realizations.",
+      "text": "Now that the advantages are known for current opamps, let us have a look at some realizations."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that the advantages are known for current opamps, let us have a look at some realizations.",
+  "schema_version": "1.0",
+  "chapter_title": "电流输入型运算放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0289_02_1012.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 0.5,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.12162161718146725,
+          0.34634146362369345,
+          0.7432432388030888,
+          0.40487804898954716
+        ],
+        "confidence": 1,
+        "text": "• Operational current amplifiers"
+      },
+      {
+        "bbox": [
+          0.11824323454391912,
+          0.45853658548780485,
+          0.8141891804898651,
+          0.5170731708536584
+        ],
+        "confidence": 0.5,
+        "text": "• Configurations Current amplifiers"
+      },
+      {
+        "bbox": [
+          0.7128378393158783,
+          0.9560975607317074,
+          0.8310810825591215,
+          0.9853658534146342
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.8513513502956082,
+          0.9463414637804878,
+          0.9358108097550676,
+          0.9853658540243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10.05 1012"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0289_02_1012.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Current-input operational amplifiers"
+}

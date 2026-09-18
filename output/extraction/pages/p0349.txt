@@ -1,0 +1,44 @@
+356 Chapter #12
+The quiescent current in the low-distortion source-follower amplifier is set by the translinear
+loop of transistors MO16/MO19 and MO17/MO20. The DC current through MO17/17 sets the
+current in the output devices MO19/20.
+For a 1 kV/150 pF load, the Slew Rate is 7 V/ms. The GBW is 5.5 MHz and power dissipation
+6.5 mW (±5 V). The equivalent input noise is 10 nV /√Hz, which is quite low.
+RMS
+1238
+More recent technologies
+use smaller channel lengths.
+As a consequence, the
+supply voltage has become
+smaller as well. There is a
+need for class-AB stages for
+supply voltages of 1.5 V
+and less.
+Translinear circuits can-
+not be used any more.
+Several examples are given
+next.
+1239
+At low supply voltages, the
+circuitry becomes simpler.
+In this 1.5 V amplifier, the
+input stage is a folded cas-
+code. It is followed by an
+output stage in which the
+output pMOST is con-
+nected directly to the output
+of the input stage.
+The output nMOST drive
+is very different however. It
+leads to a current mirror
+M23/M24 to carry out two
+inversions. Remember that
+output transistors have to
+be driven in phase. This
+gives rise to extra poles, which have to be compensated for.
+Two tricks are used. The first one is local feedback around output transistor M25, with resistor
+R . This shunt-shunt feedback lowers the impedance at input and output indeed.
+sh
+The second trick is the introduction of a zero with time constant R C . This must be tuned
+z z
+to one of the non-dominant poles, which is not that easy of course.

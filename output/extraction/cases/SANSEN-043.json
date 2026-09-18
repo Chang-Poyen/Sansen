@@ -1,0 +1,199 @@
+{
+  "case_id": "SANSEN-043",
+  "slide_id": "043",
+  "chapter": 4,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 115,
+    "printed_page": 118
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0115_01_043.jpg",
+      "pdf_page": 115,
+      "printed_page": 118,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 115,
+      "printed_page": 118,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        379.1222500000001
+      ],
+      "text_raw": "We will firstly examine how\nwe can describe noise. After\nall, this is a quantity that\ncomes as a power, not a\nvoltage or current!\nThen we will discuss all\ncircuits that we have seen\nhitherto from the point of\nview of noise performance.\nThe main points will be\nhow to optimize noise per-\nformance. For a resistive\ninput source, we will opti-\nmize the current flowing.\nFor a capacitive input\nsource, we will perform\nwhat is called ‘‘capacitive\nnoise matching’’.",
+      "text": "We will firstly examine how we can describe noise. After all, this is a quantity that comes as a power, not a voltage or current! Then we will discuss all circuits that we have seen hitherto from the point of view of noise performance. The main points will be how to optimize noise performance. For a resistive input source, we will optimize the current flowing. For a capacitive input source, we will perform what is called ‘‘capacitive noise matching’’."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "We will firstly examine how we can describe noise. After all, this is a quantity that comes as a power, not a voltage or current! Then we will discuss all circuits that we have seen hitherto from the point of view of noise performance. The main points will be how to optimize noise performance. For a resistive input source, we will optimize the current flowing. For a capacitive input source, we will perform what is called ‘‘capacitive noise matching’’.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0115_01_043.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.11486486219031537,
+          0.22439024434959354,
+          0.4831081054335586,
+          0.2780487809349593
+        ],
+        "confidence": 1,
+        "text": "• Definitions of noise"
+      },
+      {
+        "bbox": [
+          0.11486486712837835,
+          0.3121951224878049,
+          0.5033783806418919,
+          0.3658536590731707
+        ],
+        "confidence": 1,
+        "text": "• Noise of an amplifier"
+      },
+      {
+        "bbox": [
+          0.11486486782094589,
+          0.39512195101626024,
+          0.4695945975506756,
+          0.44878048760162603
+        ],
+        "confidence": 1,
+        "text": "• Noise of a follower"
+      },
+      {
+        "bbox": [
+          0.11486486165540545,
+          0.4829268298048781,
+          0.47635134814189195,
+          0.5365853663902439
+        ],
+        "confidence": 0.5,
+        "text": "+ Noise of a cascode"
+      },
+      {
+        "bbox": [
+          0.11486486145833345,
+          0.5658536589837398,
+          0.5709459425394146,
+          0.6195121955691056
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a current mirror"
+      },
+      {
+        "bbox": [
+          0.11486486085304067,
+          0.6487804870731707,
+          0.591216212204392,
+          0.7073170724390244
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a differential pair"
+      },
+      {
+        "bbox": [
+          0.11486486891891882,
+          0.7365853657317074,
+          0.6013513554054054,
+          0.7902439023170732
+        ],
+        "confidence": 1,
+        "text": "• Capacitive noise matching"
+      },
+      {
+        "bbox": [
+          0.7297297283361488,
+          0.9463414638414633,
+          0.9290540526604731,
+          0.980487805304878
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 043"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We will firstly examine how we can describe noise.",
+      "pdf_page": 115,
+      "printed_page": 118,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0115_01_043.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For a resistive input source, we will optimize the current flowing.",
+        "pdf_page": 115,
+        "printed_page": 118,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "For a capacitive input source, we will perform what is called ‘‘capacitive noise matching’’.",
+        "pdf_page": 115,
+        "printed_page": 118,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

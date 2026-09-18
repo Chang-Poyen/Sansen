@@ -1,0 +1,57 @@
+294 Chapter #10
+Four cases can be distinguished depending on whether the cascode has a real current drive
+(cases 2 and 4). Resistance R is then the output resistance of the input current source i . It is
+BB in
+larger than R unless R is substituted by a current source I .
+L L L
+When the cascode is driven by a low resistance R , it acts rather as a voltage source. Again,
+B
+the load can be a small resistor R or large, as a current source I .
+L L
+It is clear that the contribution of the transistor noise to the input current is always small,
+except when the cascode is voltage driven (or driven with another 1/g ) and at the same time,
+m
+a small load resistor is used, or the input 1/g of a current mirror.
+m
+There is one single condition where the noise of a cascode is important. In all other cases it
+is negligible.
+107
+Another way to explore the
+high-speed capabilities of a
+current opamp is to close
+the feedback loop.
+A two-stage voltage
+opamp is sketched in this
+slide, in which the loop is
+closed by means of two
+resistors R and R . They
+S F
+define the gain R /R , and
+F S
+also the bandwidth.
+Indeed, a voltage opamp
+exchanges bandwidth for
+gain. It has a constant
+GBW, as is clearly shown by
+the expressions.
+108
+A similar two-stage opamp
+is sketched in this slide, but
+with a current-input stage as
+a first stage rather than with
+a voltage-input stage.
+Again, the loop is closed
+by means of two resistors R
+S
+and R , which again define
+F
+the gain R /R .
+F S
+However, the bandwidth is
+now different. It seems to be
+determined by the series
+resistor R . This resistor con-
+S
+verts the input voltage into a
+current, as a result it appears
+in the expressions separately.

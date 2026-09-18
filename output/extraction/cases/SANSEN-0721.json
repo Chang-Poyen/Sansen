@@ -1,0 +1,298 @@
+{
+  "case_id": "SANSEN-0721",
+  "slide_id": "0721",
+  "chapter": 7,
+  "slide_number_in_chapter": 21,
+  "source": {
+    "pdf_page": 215,
+    "printed_page": 220
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0216_01_0721.jpg",
+      "pdf_page": 216,
+      "printed_page": 221,
+      "bbox_pt": [
+        91.521622,
+        122.875763,
+        374.78981,
+        319.33575399999995
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 215,
+      "printed_page": 220,
+      "bbox_pt": [
+        0,
+        642.6964399999999,
+        595,
+        797
+      ],
+      "text_raw": "Another way to increase the gain is by current starving.\nThis is actually a fully-differential symmetrical OTA. As no cascodes are used, the voltage gain\nis very modest.",
+      "text": "Another way to increase the gain is by current starving. This is actually a fully-differential symmetrical OTA. As no cascodes are used, the voltage gain is very modest."
+    },
+    {
+      "pdf_page": 216,
+      "printed_page": 221,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        405.77865000000014
+      ],
+      "text_raw": "However, the addition of\ntwo DC current sources\nwith values KI increases\n1\nthe gain considerably. A\ntypical value for k is 0.8.\nIn this case, 80% of the\nDC current provided by the\ninput transistors M1 is\ntaken away by the DC cur-\nrent sources. Only 20% of\nthe DC current, together\nwith the signal current is\ninjected into the transistors\nM2 of the current mirrors.\nBecause the DC currents\nin the output transistors M3\nare also lower, the output\nresistances are higher and so is the voltage gain.\nThis technique cannot be pushed too far as mismatch will occur. Moreover, the resistance at\nthe inner node of the current mirrors determines the non-dominant pole. It cannot be increased\ntoo much.",
+      "text": "However, the addition of two DC current sources with values KI increases 1 the gain considerably. A typical value for k is 0.8. In this case, 80% of the DC current provided by the input transistors M1 is taken away by the DC current sources. Only 20% of the DC current, together with the signal current is injected into the transistors M2 of the current mirrors. Because the DC currents in the output transistors M3 are also lower, the output resistances are higher and so is the voltage gain. This technique cannot be pushed too far as mismatch will occur. Moreover, the resistance at the inner node of the current mirrors determines the non-dominant pole. It cannot be increased too much."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Another way to increase the gain is by current starving. This is actually a fully-differential symmetrical OTA. As no cascodes are used, the voltage gain is very modest.\n\nHowever, the addition of two DC current sources with values KI increases 1 the gain considerably. A typical value for k is 0.8. In this case, 80% of the DC current provided by the input transistors M1 is taken away by the DC current sources. Only 20% of the DC current, together with the signal current is injected into the transistors M2 of the current mirrors. Because the DC currents in the output transistors M3 are also lower, the output resistances are higher and so is the voltage gain. This technique cannot be pushed too far as mismatch will occur. Moreover, the resistance at the inner node of the current mirrors determines the non-dominant pole. It cannot be increased too much.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Gain enhancement by current starving",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0216_01_0721.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269843750012,
+          0.08292682945121954,
+          0.7601351308699326,
+          0.14146341481707314
+        ],
+        "confidence": 1,
+        "text": "Gain enhancement by current starving"
+      },
+      {
+        "bbox": [
+          0.5202702707347973,
+          0.2585365851829269,
+          0.5574324328969594,
+          0.30243902420731705
+        ],
+        "confidence": 0.5,
+        "text": "21,"
+      },
+      {
+        "bbox": [
+          0.3141891891891892,
+          0.3902439026524389,
+          0.36824324324324326,
+          0.4243902441158536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "D-"
+      },
+      {
+        "bbox": [
+          0.5540540544594594,
+          0.39512195097560976,
+          0.5945945949999999,
+          0.4292682924390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.6655405400760135,
+          0.5317073173170731,
+          0.7027027022381757,
+          0.56097561
+        ],
+        "confidence": 1,
+        "text": "1:B"
+      },
+      {
+        "bbox": [
+          0.6148648645270269,
+          0.6195121947317073,
+          0.6554054050675675,
+          0.6585365849756097
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.46621621604729735,
+          0.7317073165853659,
+          0.48648648631756763,
+          0.7707317068292683
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.260135135777027,
+          0.7609756095609755,
+          0.3243243249662162,
+          0.8097560973658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A ="
+      },
+      {
+        "bbox": [
+          0.3243243260557432,
+          0.7951219519512195,
+          0.6182432449746621,
+          0.8536585373170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1- k)(Vos - V+), • 2g"
+      },
+      {
+        "bbox": [
+          0.6722972970439189,
+          0.7365853654471545,
+          0.7094594592060811,
+          0.7853658532520326
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4o"
+      },
+      {
+        "bbox": [
+          0.6587837836148649,
+          0.7999999999101413,
+          0.7229729728040541,
+          0.8341463413735558
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1- k"
+      },
+      {
+        "bbox": [
+          0.6182432400675676,
+          0.8975609757560975,
+          0.9358108076351354,
+          0.9317073172195122
+        ],
+        "confidence": 0.5,
+        "text": "Yao, ..., JSSC Nov.04, 1809-1818"
+      },
+      {
+        "bbox": [
+          0.7229729759257276,
+          0.9512195123577235,
+          0.9324324224976963,
+          0.9804878050406504
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0721"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Moreover, the resistance at the inner node of the current mirrors determines the non-dominant pole.",
+      "pdf_page": 216,
+      "printed_page": 221,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0216_01_0721.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Another way to increase the gain is by current starving.",
+      "pdf_page": 215,
+      "printed_page": 220,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As no cascodes are used, the voltage gain is very modest.",
+      "pdf_page": 215,
+      "printed_page": 220,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "However, the addition of two DC current sources with values KI increases 1 the gain considerably.",
+      "pdf_page": 216,
+      "printed_page": 221,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Because the DC currents in the output transistors M3 are also lower, the output resistances are higher and so is the voltage gain.",
+      "pdf_page": 216,
+      "printed_page": 221,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It cannot be increased too much.",
+      "pdf_page": 216,
+      "printed_page": 221,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "In this case, 80% of the DC current provided by the input transistors M1 is taken away by the DC current sources.",
+      "pdf_page": 216,
+      "printed_page": 221,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0721-M01",
+      "ocr_text": "A =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.260135135777027,
+        0.7609756095609755,
+        0.3243243249662162,
+        0.8097560973658536
+      ],
+      "context_crop": "regions/SANSEN-0721_math_01.png",
+      "context_bbox_normalized": [
+        0.220135135777027,
+        0.6609756095609756,
+        0.5543243249662162,
+        0.93
+      ],
+      "source_image": "slides/p0216_01_0721.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

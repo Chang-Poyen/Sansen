@@ -1,0 +1,207 @@
+{
+  "case_id": "SANSEN-208",
+  "slide_id": "208",
+  "chapter": 20,
+  "slide_number_in_chapter": 8,
+  "source": {
+    "pdf_page": 595,
+    "printed_page": 606
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0595_02_208.jpg",
+      "pdf_page": 595,
+      "printed_page": 606,
+      "bbox_pt": [
+        91.52162,
+        397.56098,
+        374.54222,
+        594.07082
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 595,
+      "printed_page": 606,
+      "bbox_pt": [
+        0,
+        393.5715100000001,
+        595,
+        797
+      ],
+      "text_raw": "In the frequency domain,\nthe analog output voltage of\na DAC may contain various\nharmonics.\nThe ratio of the output,\nfundamental to the largest\nharmonic is called the\nSFDR. This is usually the\nsecond harmonic. For fully-\ndifferential systems how-\never, this is most probably\nthe third harmonic.",
+      "text": "In the frequency domain, the analog output voltage of a DAC may contain various harmonics. The ratio of the output, fundamental to the largest harmonic is called the SFDR. This is usually the second harmonic. For fullydifferential systems however, this is most probably the third harmonic."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In the frequency domain, the analog output voltage of a DAC may contain various harmonics. The ratio of the output, fundamental to the largest harmonic is called the SFDR. This is usually the second harmonic. For fullydifferential systems however, this is most probably the third harmonic.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Spectral content : Spurious free dynamic range",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0595_02_208.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627637711857,
+          0.0829268290243903,
+          0.9050847509533897,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Spectral content : Spurious free dynamic range"
+      },
+      {
+        "bbox": [
+          0.06440678,
+          0.21951219487804874,
+          0.10508474610169491,
+          0.2585365851219512
+        ],
+        "confidence": 1,
+        "text": "dB"
+      },
+      {
+        "bbox": [
+          0.11186440877430015,
+          0.31707317106931376,
+          0.13559322071722504,
+          0.3317073162477596
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-301"
+      },
+      {
+        "bbox": [
+          0.3728813553268765,
+          0.3560975612195122,
+          0.4576271180387409,
+          0.40000000024390236
+        ],
+        "confidence": 1,
+        "text": "SFDR"
+      },
+      {
+        "bbox": [
+          0.11186440707627118,
+          0.4878048778658537,
+          0.1355932206355932,
+          0.5121951217682926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•0D"
+      },
+      {
+        "bbox": [
+          0.11186440638418083,
+          0.5756097563414634,
+          0.13559321994350287,
+          0.6000000002439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-90"
+      },
+      {
+        "bbox": [
+          0.10169491457627121,
+          0.6634146341463415,
+          0.15593220271186442,
+          0.7024390243902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-100 -р"
+      },
+      {
+        "bbox": [
+          0.10169491581920902,
+          0.7512195119512196,
+          0.1355932209039548,
+          0.7756097558536587
+        ],
+        "confidence": 1,
+        "text": "-120"
+      },
+      {
+        "bbox": [
+          0.10169491468926556,
+          0.8390243904878047,
+          0.13559321977401131,
+          0.8634146343902438
+        ],
+        "confidence": 0.5,
+        "text": "-140"
+      },
+      {
+        "bbox": [
+          0.12542372871186439,
+          0.8585365851219513,
+          0.14915254227118643,
+          0.8829268290243903
+        ],
+        "confidence": 0.5,
+        "text": "10'"
+      },
+      {
+        "bbox": [
+          0.6949152523050848,
+          0.839024390390244,
+          0.8881355912881356,
+          0.8829268294146343
+        ],
+        "confidence": 1,
+        "text": "Frequency (Hz)"
+      },
+      {
+        "bbox": [
+          0.7322033992339501,
+          0.9512195117073171,
+          0.9288135557942981,
+          0.980487804390244
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 208"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0595_02_208.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

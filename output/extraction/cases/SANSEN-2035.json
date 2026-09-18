@@ -1,0 +1,431 @@
+{
+  "case_id": "SANSEN-2035",
+  "slide_id": "2035",
+  "chapter": 20,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 609,
+    "printed_page": 620
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0609_02_2035.jpg",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "bbox_pt": [
+        91.521622,
+        443.399964,
+        374.78981,
+        639.859955
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 609,
+      "printed_page": 620,
+      "bbox_pt": [
+        0,
+        439.41050000000024,
+        595,
+        797
+      ],
+      "text_raw": "As a DAC, a charge redistri-\nbution DAC is often used as\nshown in this slide.\nIt consists of an opamp\nand a binary bank of capaci-\ntors. In this example a 5-bit\ncapacitor bank is selected\nfor a 5-bit AD Conversion.\nIt uses 3 phases, i.e. the\nsample mode, the hold\nmode and the bit cycling\nphase.\nThe picture is repeated\nthree times, each time with\nadjusted positions of the\nswitches.\nIn the sample mode, all bottom plates of the capacitors are connected to the input voltage\nV . All top plates are connected to the virtual ground of the opamp. All capacitors thus sample\nin\nthe input voltage V .\nin\nThe voltage V at the input of the opamp is therefore zero and so is the output voltage.\nx",
+      "text": "As a DAC, a charge redistribution DAC is often used as shown in this slide. It consists of an opamp and a binary bank of capacitors. In this example a 5-bit capacitor bank is selected for a 5-bit AD Conversion. It uses 3 phases, i.e. the sample mode, the hold mode and the bit cycling phase. The picture is repeated three times, each time with adjusted positions of the switches. In the sample mode, all bottom plates of the capacitors are connected to the input voltage V . All top plates are connected to the virtual ground of the opamp. All capacitors thus sample in the input voltage V . in The voltage V at the input of the opamp is therefore zero and so is the output voltage. x"
+    },
+    {
+      "pdf_page": 610,
+      "printed_page": 621,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        238.01774999999975
+      ],
+      "text_raw": "Note that such ADC is quite simple as it consists of one single opamp (comparator) and a\ncapacitor bank and some logic. The total number of unit capacitors is only 2N. Its power\nconsumption can be quite low, especially if only low-frequencies have to be processed (see Scott,\nJSSC July 2003, 1123–1129).\nBecause of the capacitor bank, the accuracy is limited by its matching, which is 10–12 bit,\ndepending on the sizes of the capacitors (see Chapter 15). Its speed is limited by the speed of\nthe opamp and the RC time constants of the switches, as in any switched-capacitor system (see\nChapter 17).",
+      "text": "Note that such ADC is quite simple as it consists of one single opamp (comparator) and a capacitor bank and some logic. The total number of unit capacitors is only 2N. Its power consumption can be quite low, especially if only low-frequencies have to be processed (see Scott, JSSC July 2003, 1123–1129). Because of the capacitor bank, the accuracy is limited by its matching, which is 10–12 bit, depending on the sizes of the capacitors (see Chapter 15). Its speed is limited by the speed of the opamp and the RC time constants of the switches, as in any switched-capacitor system (see Chapter 17)."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As a DAC, a charge redistribution DAC is often used as shown in this slide. It consists of an opamp and a binary bank of capacitors. In this example a 5-bit capacitor bank is selected for a 5-bit AD Conversion. It uses 3 phases, i.e. the sample mode, the hold mode and the bit cycling phase. The picture is repeated three times, each time with adjusted positions of the switches. In the sample mode, all bottom plates of the capacitors are connected to the input voltage V . All top plates are connected to the virtual ground of the opamp. All capacitors thus sample in the input voltage V . in The voltage V at the input of the opamp is therefore zero and so is the output voltage. x\n\nNote that such ADC is quite simple as it consists of one single opamp (comparator) and a capacitor bank and some logic. The total number of unit capacitors is only 2N. Its power consumption can be quite low, especially if only low-frequencies have to be processed (see Scott, JSSC July 2003, 1123–1129). Because of the capacitor bank, the accuracy is limited by its matching, which is 10–12 bit, depending on the sizes of the capacitors (see Chapter 15). Its speed is limited by the speed of the opamp and the RC time constants of the switches, as in any switched-capacitor system (see Chapter 17).",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "5-bit Charge redistribution ADC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0609_02_2035.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810794256757,
+          0.08780487868292686,
+          0.6520270253716216,
+          0.15121951282926827
+        ],
+        "confidence": 1,
+        "text": "5-bit Charge redistribution ADC"
+      },
+      {
+        "bbox": [
+          0.08427317809127768,
+          0.21852542575756595,
+          0.2062673641833451,
+          0.2692794518448849
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "E = 2N C"
+      },
+      {
+        "bbox": [
+          0.07094594641891891,
+          0.39999999975609757,
+          0.11824324371621621,
+          0.43414634121951223
+        ],
+        "confidence": 1,
+        "text": "16C"
+      },
+      {
+        "bbox": [
+          0.1858108108108108,
+          0.3999999995731707,
+          0.2195945945945946,
+          0.43414634103658534
+        ],
+        "confidence": 1,
+        "text": "8C"
+      },
+      {
+        "bbox": [
+          0.26351351341216217,
+          0.2878048784878049,
+          0.3344594593581081,
+          0.33170731751219507
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V,=0"
+      },
+      {
+        "bbox": [
+          0.2939189192989865,
+          0.39999999975609757,
+          0.32432432470439193,
+          0.4292682924390244
+        ],
+        "confidence": 1,
+        "text": "4C"
+      },
+      {
+        "bbox": [
+          0.7635135138091216,
+          0.2780487803658537,
+          0.7871621624577703,
+          0.3073170730487804
+        ],
+        "confidence": 0.5,
+        "text": "S2"
+      },
+      {
+        "bbox": [
+          0.8546948198951231,
+          0.370562808354711,
+          0.9223322054438952,
+          0.4001689017846486
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• SAR"
+      },
+      {
+        "bbox": [
+          0.3952702706925676,
+          0.3999999998170731,
+          0.42905405447635137,
+          0.4341463412804878
+        ],
+        "confidence": 0.5,
+        "text": "2C"
+      },
+      {
+        "bbox": [
+          0.15540540513513515,
+          0.45365853614634144,
+          0.18918918891891895,
+          0.4975609751707317
+        ],
+        "confidence": 0.5,
+        "text": "b,"
+      },
+      {
+        "bbox": [
+          0.26013513475506755,
+          0.4585365855487805,
+          0.290540540160473,
+          0.49268292701219507
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "D2"
+      },
+      {
+        "bbox": [
+          0.3716216220016892,
+          0.45853658518292684,
+          0.4020270274070946,
+          0.4926829266463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Dg"
+      },
+      {
+        "bbox": [
+          0.4695945941722973,
+          0.45853658548780485,
+          0.5033783779560811,
+          0.4975609757317072
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DA"
+      },
+      {
+        "bbox": [
+          0.6891891889864865,
+          0.5170731703414634,
+          0.7162162160135136,
+          0.5560975605853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "S3"
+      },
+      {
+        "bbox": [
+          0.7229729762635653,
+          0.614634145609756,
+          0.9189189093220205,
+          0.6585365846341463
+        ],
+        "confidence": 1,
+        "text": "1. Sample Mode"
+      },
+      {
+        "bbox": [
+          0.49999999983108107,
+          0.653658536097561,
+          0.5236486484797297,
+          0.6829268287804878
+        ],
+        "confidence": 0.5,
+        "text": "S,"
+      },
+      {
+        "bbox": [
+          0.3614864867398649,
+          0.7024390242378048,
+          0.4020270272804054,
+          0.7560975608231707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.5236486493665542,
+          0.7073170737195122,
+          0.5878378385557433,
+          0.7512195127439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "o Vrer"
+      },
+      {
+        "bbox": [
+          0.08445946581081067,
+          0.7951219509268294,
+          0.7195946009459459,
+          0.8439024387317073
+        ],
+        "confidence": 1,
+        "text": "Accuracy limited by capacitive matching to 10-12 bit"
+      },
+      {
+        "bbox": [
+          0.7229729828514029,
+          0.7999999995934959,
+          0.9290540510449932,
+          0.8341463410569105
+        ],
+        "confidence": 0.5,
+        "text": "McCreary, JSSC"
+      },
+      {
+        "bbox": [
+          0.750000001722973,
+          0.8341463412682927,
+          0.9222972990202702,
+          0.8731707315121952
+        ],
+        "confidence": 1,
+        "text": "Dec 75, 371-379"
+      },
+      {
+        "bbox": [
+          0.0810810748310812,
+          0.8536585367682927,
+          0.5810810748310812,
+          0.9073170733536585
+        ],
+        "confidence": 1,
+        "text": "Speed limited by Rswitch C time constants"
+      },
+      {
+        "bbox": [
+          0.6756756731081082,
+          0.8878048782439024,
+          0.932432429864865,
+          0.9268292684878049
+        ],
+        "confidence": 1,
+        "text": "Johns, Martin, Wiley 1997"
+      },
+      {
+        "bbox": [
+          0.7331081106418917,
+          0.946341463109756,
+          0.9358108133445945,
+          0.9804878045731706
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2035"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "As a DAC, a charge redistribution DAC is often used as shown in this slide.",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0609_02_2035.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In the sample mode, all bottom plates of the capacitors are connected to the input voltage V .",
+        "pdf_page": 609,
+        "printed_page": 620,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "All top plates are connected to the virtual ground of the opamp.",
+        "pdf_page": 609,
+        "printed_page": 620,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "All capacitors thus sample in the input voltage V . in The voltage V at the input of the opamp is therefore zero and so is the output voltage. x",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Because of the capacitor bank, the accuracy is limited by its matching, which is 10–12 bit, depending on the sizes of the capacitors (see Chapter 15).",
+      "pdf_page": 610,
+      "printed_page": 621,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its speed is limited by the speed of the opamp and the RC time constants of the switches, as in any switched-capacitor system (see Chapter 17).",
+      "pdf_page": 610,
+      "printed_page": 621,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "It uses 3 phases, i.e. the sample mode, the hold mode and the bit cycling phase.",
+      "pdf_page": 609,
+      "printed_page": 620,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2035-M01",
+      "ocr_text": "E = 2N C",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08427317809127768,
+        0.21852542575756595,
+        0.2062673641833451,
+        0.2692794518448849
+      ],
+      "context_crop": "regions/SANSEN-2035_math_01.png",
+      "context_bbox_normalized": [
+        0.04427317809127768,
+        0.13,
+        0.4362673641833451,
+        0.3992794518448849
+      ],
+      "source_image": "slides/p0609_02_2035.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2035-M02",
+      "ocr_text": "V,=0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.26351351341216217,
+        0.2878048784878049,
+        0.3344594593581081,
+        0.33170731751219507
+      ],
+      "context_crop": "regions/SANSEN-2035_math_02.png",
+      "context_bbox_normalized": [
+        0.22351351341216216,
+        0.1878048784878049,
+        0.5644594593581082,
+        0.46170731751219507
+      ],
+      "source_image": "slides/p0609_02_2035.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

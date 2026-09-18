@@ -1,0 +1,341 @@
+{
+  "case_id": "SANSEN-1323",
+  "slide_id": "1323",
+  "chapter": 13,
+  "slide_number_in_chapter": 23,
+  "source": {
+    "pdf_page": 367,
+    "printed_page": 374
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0367_02_1323.jpg",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "bbox_pt": [
+        91.521622,
+        395.567994,
+        374.78981,
+        592.027985
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 367,
+      "printed_page": 374,
+      "bbox_pt": [
+        0,
+        391.5785000000001,
+        595,
+        797
+      ],
+      "text_raw": "A popular series-shunt feed-\nback amplifier is shown in\nthis slide. It contains only a\nfew transistors. It has two\namplifiers M1 and M2 and\na source follower. It is called\na series-shunt feedback pair.\nThe source follower does\nnot seem to count and yet it\nprovides a lot more loop\ngain as we will find out next.\nNote that a pMOST is\nused as a second amplifier\nas it provides easier DC\nbiasing. Indeed the Sources\nof transistors M1 and M3\nare at nearly equal DC voltage levels. Transistor M2 must now provide a lower DC voltage at\nthe output than at the input. This is a lot easier with a pMOST than with an nMOST.\nNote also that the feedback resistor is usually larger than 1/g to make sure that all the\nm1\nfeedback current coming from R flows into the transistor, in order to increase the loop gain.\n2\nThis is not always obvious however, as shown next. We need to know more about the input\nresistance at the Source of transistor M1. After all, transistor M1 behaves as a cascode transistor\nfor the feedback current. What then is its input resistance?\nThis is reviewed on the next slide.",
+      "text": "A popular series-shunt feedback amplifier is shown in this slide. It contains only a few transistors. It has two amplifiers M1 and M2 and a source follower. It is called a series-shunt feedback pair. The source follower does not seem to count and yet it provides a lot more loop gain as we will find out next. Note that a pMOST is used as a second amplifier as it provides easier DC biasing. Indeed the Sources of transistors M1 and M3 are at nearly equal DC voltage levels. Transistor M2 must now provide a lower DC voltage at the output than at the input. This is a lot easier with a pMOST than with an nMOST. Note also that the feedback resistor is usually larger than 1/g to make sure that all the m1 feedback current coming from R flows into the transistor, in order to increase the loop gain. 2 This is not always obvious however, as shown next. We need to know more about the input resistance at the Source of transistor M1. After all, transistor M1 behaves as a cascode transistor for the feedback current. What then is its input resistance? This is reviewed on the next slide."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A popular series-shunt feedback amplifier is shown in this slide. It contains only a few transistors. It has two amplifiers M1 and M2 and a source follower. It is called a series-shunt feedback pair. The source follower does not seem to count and yet it provides a lot more loop gain as we will find out next. Note that a pMOST is used as a second amplifier as it provides easier DC biasing. Indeed the Sources of transistors M1 and M3 are at nearly equal DC voltage levels. Transistor M2 must now provide a lower DC voltage at the output than at the input. This is a lot easier with a pMOST than with an nMOST. Note also that the feedback resistor is usually larger than 1/g to make sure that all the m1 feedback current coming from R flows into the transistor, in order to increase the loop gain. 2 This is not always obvious however, as shown next. We need to know more about the input resistance at the Source of transistor M1. After all, transistor M1 behaves as a cascode transistor for the feedback current. What then is its input resistance? This is reviewed on the next slide.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Series-shunt FB pair : loop gain",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0367_02_1323.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270834459446,
+          0.0829268290243903,
+          0.6418918975337836,
+          0.1463414631707317
+        ],
+        "confidence": 0.5,
+        "text": "Series-shunt FB pair : loop gain"
+      },
+      {
+        "bbox": [
+          0.5371621615878378,
+          0.19999999946341462,
+          0.601351350777027,
+          0.2536585360487804
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.37162162198761256,
+          0.34634146317073167,
+          0.4155405409065315,
+          0.38536585341463403
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.49324324245495504,
+          0.40000000008130077,
+          0.5405405397522524,
+          0.43414634154471543
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.658783785777027,
+          0.27317073131707326,
+          0.8581081101013514,
+          0.3609756093658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av= R2+Ry"
+      },
+      {
+        "bbox": [
+          0.7770270272334835,
+          0.3463414632249322,
+          0.8141891893956457,
+          0.3999999998102981
+        ],
+        "confidence": 0.5,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.06756756797297298,
+          0.4731707321463414,
+          0.11486486527027026,
+          0.5170731711707317
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.22297297418918918,
+          0.42926829297560976,
+          0.3445945958108108,
+          0.5365853661463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "™ Rủ"
+      },
+      {
+        "bbox": [
+          0.658783783947072,
+          0.46341463421138207,
+          0.7635135136768018,
+          0.5024390244552845
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG= ?"
+      },
+      {
+        "bbox": [
+          0.5540540538006756,
+          0.5073170725,
+          0.5810810808277027,
+          0.5609756090853659
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.5405405415540541,
+          0.5853658542682928,
+          0.6283783793918919,
+          0.6341463420731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.20924111441300244,
+          0.7108747550641045,
+          0.3617048340645082,
+          0.7671740274617738
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R, > 1/9m1"
+      },
+      {
+        "bbox": [
+          0.7195945988987005,
+          0.9414634152032522,
+          0.935810802227426,
+          0.9756097566666667
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 1323"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A popular series-shunt feedback amplifier is shown in this slide.",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The source follower does not seem to count and yet it provides a lot more loop gain as we will find out next.",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Note also that the feedback resistor is usually larger than 1/g to make sure that all the m1 feedback current coming from R flows into the transistor, in order to increase the loop gain. 2 This is not always obvious however, as shown next.",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0367_02_1323.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It has two amplifiers M1 and M2 and a source follower.",
+        "pdf_page": 367,
+        "printed_page": 374,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The source follower does not seem to count and yet it provides a lot more loop gain as we will find out next.",
+        "pdf_page": 367,
+        "printed_page": 374,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "We need to know more about the input resistance at the Source of transistor M1.",
+        "pdf_page": 367,
+        "printed_page": 374,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The source follower does not seem to count and yet it provides a lot more loop gain as we will find out next.",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Indeed the Sources of transistors M1 and M3 are at nearly equal DC voltage levels.",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Note also that the feedback resistor is usually larger than 1/g to make sure that all the m1 feedback current coming from R flows into the transistor, in order to increase the loop gain. 2 This is not always obvious however, as shown next.",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1323-M01",
+      "ocr_text": "Av= R2+Ry",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.658783785777027,
+        0.27317073131707326,
+        0.8581081101013514,
+        0.3609756093658537
+      ],
+      "context_crop": "regions/SANSEN-1323_math_01.png",
+      "context_bbox_normalized": [
+        0.618783785777027,
+        0.17317073131707325,
+        1,
+        0.4909756093658537
+      ],
+      "source_image": "slides/p0367_02_1323.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1323-M02",
+      "ocr_text": "LG= ?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.658783783947072,
+        0.46341463421138207,
+        0.7635135136768018,
+        0.5024390244552845
+      ],
+      "context_crop": "regions/SANSEN-1323_math_02.png",
+      "context_bbox_normalized": [
+        0.618783783947072,
+        0.3634146342113821,
+        0.9935135136768017,
+        0.6324390244552845
+      ],
+      "source_image": "slides/p0367_02_1323.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1323-M03",
+      "ocr_text": "R, > 1/9m1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.20924111441300244,
+        0.7108747550641045,
+        0.3617048340645082,
+        0.7671740274617738
+      ],
+      "context_crop": "regions/SANSEN-1323_math_03.png",
+      "context_bbox_normalized": [
+        0.16924111441300244,
+        0.6108747550641045,
+        0.5917048340645082,
+        0.8971740274617738
+      ],
+      "source_image": "slides/p0367_02_1323.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

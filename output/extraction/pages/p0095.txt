@@ -1,0 +1,44 @@
+DiVerential voltage and current amplifiers 97
+There is also a zero as for
+the voltage Miller effect (see
+Chapter 2). This zero occurs
+at real high frequencies
+however and is usually
+negligible.
+This phenomenon is
+called the current Miller
+effect. It will be used to real-
+ize large capacitances on a
+chip. A well known applica-
+tion is the compensation of
+operational amplifiers (see
+Chapter 5).
+0317
+The second and more im-
+portant two-transistor ele-
+mentary circuit is a differ-
+ential pair. Actually, it is
+two single-transistor ampli-
+fiers in parallel, in order to
+reject disturbing common-
+mode signals. It will thus
+be the basis for all fully-
+differential circuits.
+In mixed-signal circuitry,
+only fully-differential cir-
+cuits can be allowed, in
+order to reject ground noise,
+supply line spikes, etc.
+First of all, wee start with
+a simple differential pair. Addition of two load resistors yields a voltage differential amplifier
+0318
+In such a voltage differential amplifier, two equal transistors are used and two equal load
+resistors. We will never be able to make these transistors exactly identical. Small differences will
+always exist. They will give rise to mismatch, offset, etc. This will be discussed in Chapter 12. In
+this chapter we will always assume that the transistors are exactly the same and so are the
+resistors.
+Such an amplifier is biased by a DC current source I .
+B
+There are two input voltages and two output voltages. The input voltages are referred to
+ground. This is only possible if two supply lines are used, for example V at −5 V and V at
+SS DD

@@ -1,0 +1,50 @@
+Feedback transimpedance and current amplifiers 395
+1413
+For biasing, or DC setting
+of the currents, it may
+be easier to introduce a
+pMOST as the second or
+third stage or even as a
+source follower. In the
+example in this slide, it is the
+third stage which is using a
+pMOST amplifier.
+Obviously the expressions
+for input and output imped-
+ance do not change. The
+biasing is easier however.
+Indeed the DC input volt-
+age is about 1 V above
+ground, and so is the DC
+output voltage. The other DC voltages are now easily found, depending on the transistor sizes
+and V values chosen.
+GS
+1414
+It is possible to apply nega-
+tive feedback around a two-
+stage amplifier provided
+differential pairs are used.
+Both feedback connections
+provide negative feedback,
+yielding a transresistance of
+R , as before.
+F
+The advantage of using
+only two stages is that there
+are less non-dominant poles
+so that stability and peak-
+ing problems are avoided.
+Moreover, both inputs and
+outputs are differential,
+increasing specifications
+such as CMRR and PSRR considerably.
+The CMRR is the common-mode rejection ratio. It indicates how much less common-mode
+disturbances in the ground (noise, spikes) are amplified to the output, than the differential input
+signal. The PSRR then indicates how much less disturbances on the power supply line are
+amplified to the output, compared to the input signal.
+A published realization of this fully-differential two-stage feedback amplifier is shown in this
+slide. The differential gain is set by R . The global bandwidth is then set by capacitance C .
+f f
+Two stages always require an internal compensation capacitance, which here is C . It acts as
+f
+a Miller capacitance. It provides pole splitting to ensure that the second pole is beyond the GBW.

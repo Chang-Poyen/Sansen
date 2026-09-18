@@ -1,0 +1,180 @@
+{
+  "case_id": "SANSEN-2324",
+  "slide_id": "2324",
+  "chapter": 23,
+  "slide_number_in_chapter": 24,
+  "source": {
+    "pdf_page": 711,
+    "printed_page": 723
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0711_01_2324.jpg",
+      "pdf_page": 711,
+      "printed_page": 723,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 711,
+      "printed_page": 723,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        355.85400000000004
+      ],
+      "text_raw": "As LNA’s reach high fre-\nquencies, up to f /2, some\nT\nother phenomena show up.\nIn addition to distributed\ncapacitors, both to the sub-\nstrate as between parallel\nlines, the distributed nature\nof the channel of a MOST\nstarts playing as well.\nThis is explained next.",
+      "text": "As LNA’s reach high frequencies, up to f /2, some T other phenomena show up. In addition to distributed capacitors, both to the substrate as between parallel lines, the distributed nature of the channel of a MOST starts playing as well. This is explained next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As LNA’s reach high frequencies, up to f /2, some T other phenomena show up. In addition to distributed capacitors, both to the substrate as between parallel lines, the distributed nature of the channel of a MOST starts playing as well. This is explained next.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0711_01_2324.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432125000006,
+          0.08292682941463414,
+          0.3817567536824325,
+          0.13658536600000004
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.07432432927123549,
+          0.2975609754703832,
+          0.7668918968388031,
+          0.3560975608362369
+        ],
+        "confidence": 1,
+        "text": "• Noise Figure and Impedance Matching"
+      },
+      {
+        "bbox": [
+          0.07432433016891885,
+          0.39999999975609757,
+          0.6587837896283784,
+          0.45365853634146336
+        ],
+        "confidence": 1,
+        "text": "• LNA specifications and linearity"
+      },
+      {
+        "bbox": [
+          0.07432432777509654,
+          0.49268292662020907,
+          0.5574324358832047,
+          0.5512195119860627
+        ],
+        "confidence": 1,
+        "text": "• Input amplifier or cascode"
+      },
+      {
+        "bbox": [
+          0.0709459390202705,
+          0.5902439026219513,
+          0.6249999930743246,
+          0.643902439207317
+        ],
+        "confidence": 1,
+        "text": "• Non-quasi-static MOST model"
+      },
+      {
+        "bbox": [
+          0.07432432637246617,
+          0.6878048778658536,
+          0.40202702907516885,
+          0.7365853656707317
+        ],
+        "confidence": 1,
+        "text": "• More realizations"
+      },
+      {
+        "bbox": [
+          0.07432432818130623,
+          0.7853658534552845,
+          0.537162166019144,
+          0.8390243900406503
+        ],
+        "confidence": 1,
+        "text": "• Inductive ESD protection"
+      },
+      {
+        "bbox": [
+          0.7225427420281303,
+          0.9409216736336153,
+          0.9330277364524864,
+          0.9868779037971895
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2324"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "As LNA’s reach high frequencies, up to f /2, some T other phenomena show up.",
+      "pdf_page": 711,
+      "printed_page": 723,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is explained next.",
+      "pdf_page": 711,
+      "printed_page": 723,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0711_01_2324.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

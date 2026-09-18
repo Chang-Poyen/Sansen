@@ -1,0 +1,201 @@
+{
+  "case_id": "SANSEN-1652",
+  "slide_id": "1652",
+  "chapter": 16,
+  "slide_number_in_chapter": 52,
+  "source": {
+    "pdf_page": 473,
+    "printed_page": 482
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0473_02_1652.jpg",
+      "pdf_page": 473,
+      "printed_page": 482,
+      "bbox_pt": [
+        91.521622,
+        445.393006,
+        374.78981,
+        641.852997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 473,
+      "printed_page": 482,
+      "bbox_pt": [
+        0,
+        441.40350000000024,
+        595,
+        797
+      ],
+      "text_raw": "In this Chapter, all impor-\ntant aspects of bandgap and\ncurrent references have been\ncovered. Bandgap references\nhave been discussed in great\ndetail, in both bipolar and\nCMOS technologies.\nThey can be made to\noperate below 1 V supply\nvoltage.\nCurrent references are\nactually non-existing. Either\ndiscrete or MOST channel\nresistances are required\nfor the voltage-current con-\nversion.\nFinally, we have to remember that these references are required in ADCs but also in voltage\nand current regulators. The stability of these feedback loops is not always as obvious.",
+      "text": "In this Chapter, all important aspects of bandgap and current references have been covered. Bandgap references have been discussed in great detail, in both bipolar and CMOS technologies. They can be made to operate below 1 V supply voltage. Current references are actually non-existing. Either discrete or MOST channel resistances are required for the voltage-current conversion. Finally, we have to remember that these references are required in ADCs but also in voltage and current regulators. The stability of these feedback loops is not always as obvious."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter, all important aspects of bandgap and current references have been covered. Bandgap references have been discussed in great detail, in both bipolar and CMOS technologies. They can be made to operate below 1 V supply voltage. Current references are actually non-existing. Either discrete or MOST channel resistances are required for the voltage-current conversion. Finally, we have to remember that these references are required in ADCs but also in voltage and current regulators. The stability of these feedback loops is not always as obvious.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0473_02_1652.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777026996621622,
+          0.09268292692682922,
+          0.38175675371621626,
+          0.14146341473170732
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.1012883715170616,
+          0.28242634074870376,
+          0.3412791987166367,
+          0.34684195145754515
+        ],
+        "confidence": 1,
+        "text": "• Principles"
+      },
+      {
+        "bbox": [
+          0.1013513472249035,
+          0.370731707456446,
+          0.6790540499276062,
+          0.4292682928222997
+        ],
+        "confidence": 1,
+        "text": "• Bipolar bandgap references"
+      },
+      {
+        "bbox": [
+          0.10048028497781168,
+          0.439823337160381,
+          0.6627885191152695,
+          0.5217112661928696
+        ],
+        "confidence": 1,
+        "text": "• CMOS bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135134608108118,
+          0.5268292676097561,
+          0.6418918866216217,
+          0.5951219505365853
+        ],
+        "confidence": 0.5,
+        "text": "• Bandgap references < 1 V"
+      },
+      {
+        "bbox": [
+          0.10135135388513508,
+          0.6097560973780488,
+          0.5067567592905404,
+          0.6682926827439024
+        ],
+        "confidence": 1,
+        "text": "• Current references"
+      },
+      {
+        "bbox": [
+          0.09989549329790114,
+          0.6701792246079249,
+          0.45769559037679153,
+          0.7693706948704059
+        ],
+        "confidence": 0.5,
+        "text": "• LDO Regulators"
+      },
+      {
+        "bbox": [
+          0.11486486765202693,
+          0.839024390792683,
+          0.6418918946790539,
+          0.8829268298170732
+        ],
+        "confidence": 0.5,
+        "text": "Ref.: B. Gilbert, G.Meijer, ACD, Kluwer 1995"
+      },
+      {
+        "bbox": [
+          0.7094594617820945,
+          0.9414634142073172,
+          0.9222972996199325,
+          0.9756097556707318
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 1652"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0473_02_1652.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1652-M01",
+      "ocr_text": "• Bandgap references < 1 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.10135134608108118,
+        0.5268292676097561,
+        0.6418918866216217,
+        0.5951219505365853
+      ],
+      "context_crop": "regions/SANSEN-1652_math_01.png",
+      "context_bbox_normalized": [
+        0.06135134608108118,
+        0.42682926760975615,
+        0.8718918866216216,
+        0.7251219505365853
+      ],
+      "source_image": "slides/p0473_02_1652.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

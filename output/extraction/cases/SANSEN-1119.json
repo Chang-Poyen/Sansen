@@ -1,0 +1,258 @@
+{
+  "case_id": "SANSEN-1119",
+  "slide_id": "1119",
+  "chapter": 11,
+  "slide_number_in_chapter": 19,
+  "source": {
+    "pdf_page": 303,
+    "printed_page": 310
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0303_01_1119.jpg",
+      "pdf_page": 303,
+      "printed_page": 310,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 303,
+      "printed_page": 310,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        381.6135000000001
+      ],
+      "text_raw": "The principle is shown in\nthis slide.\nFor input common-mode\nvoltages in the middle, all\ntransistors are on. The two\ndiode connected MOSTs in\nthe middle conduct as well.\nBecause they are 6× larger,\nthey take six times more\ncurrent. The total current in\neither current source is now\n8I , where I is the current\nB B\nin each input transistor.\nLet us call the voltage\nacross the two diodes V . It\nZ\nis two times their V .\nGS\nWhen the average input voltage goes up, the pMOSTs drop out, as shown next.",
+      "text": "The principle is shown in this slide. For input common-mode voltages in the middle, all transistors are on. The two diode connected MOSTs in the middle conduct as well. Because they are 6× larger, they take six times more current. The total current in either current source is now 8I , where I is the current B B in each input transistor. Let us call the voltage across the two diodes V . It Z is two times their V . GS When the average input voltage goes up, the pMOSTs drop out, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The principle is shown in this slide. For input common-mode voltages in the middle, all transistors are on. The two diode connected MOSTs in the middle conduct as well. Because they are 6× larger, they take six times more current. The total current in either current source is now 8I , where I is the current B B in each input transistor. Let us call the voltage across the two diodes V . It Z is two times their V . GS When the average input voltage goes up, the pMOSTs drop out, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Rail-to-rail amplifier with Zener diode",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0303_01_1119.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432280405414,
+          0.07804878128048776,
+          0.7567567552364867,
+          0.14146341542682928
+        ],
+        "confidence": 1,
+        "text": "Rail-to-rail amplifier with Zener diode"
+      },
+      {
+        "bbox": [
+          0.4932432426942568,
+          0.24390243829268288,
+          0.5439189183699324,
+          0.3024390236585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "8lg"
+      },
+      {
+        "bbox": [
+          0.8040540536920849,
+          0.18048780442508705,
+          0.8682432428812742,
+          0.24390243857142857
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.2500000006334459,
+          0.41951219579268284,
+          0.30743243306587836,
+          0.47317073237804874
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mp"
+      },
+      {
+        "bbox": [
+          0.3581081077702703,
+          0.41951219542682927,
+          0.38513513479729733,
+          0.45365853689024394
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ": 6"
+      },
+      {
+        "bbox": [
+          0.530405405616554,
+          0.41951219560975606,
+          0.5878378380489865,
+          0.45853658585365853
+        ],
+        "confidence": 0.5,
+        "text": "6:1"
+      },
+      {
+        "bbox": [
+          0.5202702705839768,
+          0.5024390248780487,
+          0.5709459462596524,
+          0.570731707804878
+        ],
+        "confidence": 1,
+        "text": "Vz"
+      },
+      {
+        "bbox": [
+          0.6045252850089217,
+          0.7446634571878621,
+          0.8481774225590695,
+          0.811434103818126
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vz = VGsn +VGsp"
+      },
+      {
+        "bbox": [
+          0.8106249593764687,
+          0.8675464305983424,
+          0.9224831468715199,
+          0.9275755255735115
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss= 0"
+      },
+      {
+        "bbox": [
+          0.7263513535050675,
+          0.9414634141463415,
+          0.9324324345861486,
+          0.980487804390244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1119"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The principle is shown in this slide.",
+      "pdf_page": 303,
+      "printed_page": 310,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS When the average input voltage goes up, the pMOSTs drop out, as shown next.",
+      "pdf_page": 303,
+      "printed_page": 310,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0303_01_1119.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The two diode connected MOSTs in the middle conduct as well.",
+        "pdf_page": 303,
+        "printed_page": 310,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The total current in either current source is now 8I , where I is the current B B in each input transistor.",
+        "pdf_page": 303,
+        "printed_page": 310,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1119-M01",
+      "ocr_text": "Vz = VGsn +VGsp",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6045252850089217,
+        0.7446634571878621,
+        0.8481774225590695,
+        0.811434103818126
+      ],
+      "context_crop": "regions/SANSEN-1119_math_01.png",
+      "context_bbox_normalized": [
+        0.5645252850089216,
+        0.6446634571878621,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0303_01_1119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1119-M02",
+      "ocr_text": "Vss= 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8106249593764687,
+        0.8675464305983424,
+        0.9224831468715199,
+        0.9275755255735115
+      ],
+      "context_crop": "regions/SANSEN-1119_math_02.png",
+      "context_bbox_normalized": [
+        0.7706249593764687,
+        0.7675464305983424,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0303_01_1119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

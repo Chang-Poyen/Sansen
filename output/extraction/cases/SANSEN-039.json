@@ -1,0 +1,248 @@
+{
+  "case_id": "SANSEN-039",
+  "slide_id": "039",
+  "chapter": 3,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 91,
+    "printed_page": 93
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0091_01_039.jpg",
+      "pdf_page": 91,
+      "printed_page": 93,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 91,
+      "printed_page": 93,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        381.6135000000001
+      ],
+      "text_raw": "If the compliance voltage of\n0.4 V is still too high, one\nsingle output transistor can\nbe used.\nAn opamp is then used to\nprovide feedback around\nthe input device M1. Its\ndrain voltage is then only\n0.2 V, which is a lot less than\nthe 0.9 V in a conventional\ncurrent mirror (for a V of\nT\n0.7 V).\nThe output impedance is\nnot very high. It is simply\nthe output resistance of the\noutput transistor M2.\nThere are better uses for\nan opamp as shown next.",
+      "text": "If the compliance voltage of 0.4 V is still too high, one single output transistor can be used. An opamp is then used to provide feedback around the input device M1. Its drain voltage is then only 0.2 V, which is a lot less than the 0.9 V in a conventional current mirror (for a V of T 0.7 V). The output impedance is not very high. It is simply the output resistance of the output transistor M2. There are better uses for an opamp as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "If the compliance voltage of 0.4 V is still too high, one single output transistor can be used. An opamp is then used to provide feedback around the input device M1. Its drain voltage is then only 0.2 V, which is a lot less than the 0.9 V in a conventional current mirror (for a V of T 0.7 V). The output impedance is not very high. It is simply the output resistance of the output transistor M2. There are better uses for an opamp as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Low-voltage diode-connected MOST",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0091_01_039.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810793918919,
+          0.08292682975609755,
+          0.7229729712837838,
+          0.15121951268292677
+        ],
+        "confidence": 1,
+        "text": "Low-voltage diode-connected MOST"
+      },
+      {
+        "bbox": [
+          0.08765512420570869,
+          0.4572855741621875,
+          0.26031784630356947,
+          0.5134461334675181
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vref = 0.2 V"
+      },
+      {
+        "bbox": [
+          0.648568542540709,
+          0.428594058569465,
+          0.9021071382042436,
+          0.4933571602867859
+        ],
+        "confidence": 0.5,
+        "text": "VDSmin = 0.2 V"
+      },
+      {
+        "bbox": [
+          0.6616755163858309,
+          0.5484546889484668,
+          0.8417028595172313,
+          0.6222770197954859
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rout = rDS2"
+      },
+      {
+        "bbox": [
+          0.08445945857263515,
+          0.6439024390853659,
+          0.1554054045185811,
+          0.6975609756707317
+        ],
+        "confidence": 1,
+        "text": "VRef"
+      },
+      {
+        "bbox": [
+          0.4391891887162162,
+          0.6975609759024389,
+          0.4864864860135135,
+          0.746341463707317
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.6081081081925677,
+          0.7024390238414634,
+          0.6486486487331081,
+          0.7463414628658537
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.7128378366131758,
+          0.946341463902439,
+          0.9121621609375001,
+          0.9853658541463415
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 039"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "There are better uses for an opamp as shown next.",
+      "pdf_page": 91,
+      "printed_page": 93,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0091_01_039.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Its drain voltage is then only 0.2 V, which is a lot less than the 0.9 V in a conventional current mirror (for a V of T 0.7 V).",
+        "pdf_page": 91,
+        "printed_page": 93,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-039-M01",
+      "ocr_text": "Vref = 0.2 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08765512420570869,
+        0.4572855741621875,
+        0.26031784630356947,
+        0.5134461334675181
+      ],
+      "context_crop": "regions/SANSEN-039_math_01.png",
+      "context_bbox_normalized": [
+        0.047655124205708686,
+        0.35728557416218754,
+        0.49031784630356945,
+        0.6434461334675181
+      ],
+      "source_image": "slides/p0091_01_039.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-039-M02",
+      "ocr_text": "VDSmin = 0.2 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.648568542540709,
+        0.428594058569465,
+        0.9021071382042436,
+        0.4933571602867859
+      ],
+      "context_crop": "regions/SANSEN-039_math_02.png",
+      "context_bbox_normalized": [
+        0.6085685425407089,
+        0.328594058569465,
+        1,
+        0.6233571602867859
+      ],
+      "source_image": "slides/p0091_01_039.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-039-M03",
+      "ocr_text": "Rout = rDS2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6616755163858309,
+        0.5484546889484668,
+        0.8417028595172313,
+        0.6222770197954859
+      ],
+      "context_crop": "regions/SANSEN-039_math_03.png",
+      "context_bbox_normalized": [
+        0.6216755163858309,
+        0.44845468894846685,
+        1,
+        0.7522770197954859
+      ],
+      "source_image": "slides/p0091_01_039.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

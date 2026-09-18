@@ -1,0 +1,38 @@
+508 Chapter #17
+1746
+Now that we know how to
+construct a switched-capaci-
+tor integrator, let us investi-
+gate at some more
+complicated filter structures.
+Simple low-pass filters
+come first.
+1747
+Let us first investigate
+some variations on the
+integrators.
+Switches are now also
+connected to the output.
+They are actually the input
+switches of the next stage.
+They determine on which
+switch the output becomes
+available. The delay through
+the inverter is obviously
+affected by them.
+All the integrators in this
+slide have only a single
+capacitance in the feedback
+loop. This is why they are
+called ‘‘loss-less’’. They do not have a resister in the feedback loop which would ‘‘dampen’’ the
+integration.
+The top integrator with output on phase 1, has been discussed before. It has a non-inverting
+gain C /C , and half a clock delay.
+1 2
+However, when the output is sampled on phase 2, another half cock delay is added. The gain
+is again C /C , but the delay is now a full clock period.
+1 2
+In the bottom integrator, the two switches at the input have been interchanged. In clock phase
+2, the well-known inverting amplifier configuration appears. It has gain C /C and no delay.
+1 2
+Taking the output on phase 1, adds half a clock period delay.

@@ -1,0 +1,47 @@
+Important opamp configurations 223
+The voltage gain at low
+frequencies is now easily
+obtained. Note that this
+gain is high because cas-
+codes are used. Gain boost-
+ing could be applied to the
+cascodes M4 and M8 to
+increase the gain even
+further.
+The bandwidth is created
+at the same output node.
+The GBW is the product. It
+is exactly the same as for
+a single-transistor amplifier.
+Of course, the input trans-
+concuctance is smaller here,
+as only half of the current
+flows in the input stage.
+What is the advantage of this folded OTA? It consumes twice the current of a telescopic
+cascode stage!
+0726
+In order to find the advan-
+tages of a folded cascode
+OTA, we have to verify the
+high-frequency
+performance.
+The non-dominant pole is
+created at the nodes 1 and
+2. They form together one
+single non-dominant pole.
+The resistance at node 1 is
+1/g and the capacitance at
+m3
+this node is C . It is a sum
+n1
+of three small capacitances,
+which are all similar in size.
+The non-dominant pole
+occurs at about one third of
+f . This is a very high frequency indeed. The GBW can therefore be quite high.
+T
+This is the first advantage of a folded OTA.
+Finally, note that the current mirror with transistors M5-M8 can also be used. Remember,
+however, that this current source requires more than 1 V to keep all transistors in saturation.
+This is the loss in output swing at each supply line. The previous current mirror is a lot better
+for low-voltage applications.

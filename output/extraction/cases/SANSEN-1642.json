@@ -1,0 +1,406 @@
+{
+  "case_id": "SANSEN-1642",
+  "slide_id": "1642",
+  "chapter": 16,
+  "slide_number_in_chapter": 42,
+  "source": {
+    "pdf_page": 468,
+    "printed_page": 477
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0468_02_1642.jpg",
+      "pdf_page": 468,
+      "printed_page": 477,
+      "bbox_pt": [
+        91.521622,
+        373.644959,
+        374.78981,
+        570.1049499999999
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 468,
+      "printed_page": 477,
+      "bbox_pt": [
+        0,
+        369.6555000000001,
+        595,
+        797
+      ],
+      "text_raw": "In this realization another\nopamp is used which oper-\nates on supply voltages\nbelow 1 V. A real sub-1 V\nbandgap reference again\nemerges. Standard CMOS is\nused this time.\nThe principle is similar as\nbefore. The opamp equalizes\nits input voltages by use of\nfeedback. This voltage is\nsimply V . All pMOSTs\nBE\nhave again equal currents.\nThe current through resis-\ntor R is PTAT. It is added\n1\nto a current V /(R +R ).\nBE 2a 2b\nThis sum also flows through the output transistor. Resistor R then sets the output reference\n3\nvoltage, which here is about 0.6 V.\nAs an opamp, a folded cascode is used. Indeed, its input voltage range includes the ground.\nAlso, a symmetrical OTA can be used provided low voltage current mirrors are used.\nSeveral solutions are now possible, provided an opamp can be designed, operating at the right\ninput voltage range.",
+      "text": "In this realization another opamp is used which operates on supply voltages below 1 V. A real sub-1 V bandgap reference again emerges. Standard CMOS is used this time. The principle is similar as before. The opamp equalizes its input voltages by use of feedback. This voltage is simply V . All pMOSTs BE have again equal currents. The current through resistor R is PTAT. It is added 1 to a current V /(R +R ). BE 2a 2b This sum also flows through the output transistor. Resistor R then sets the output reference 3 voltage, which here is about 0.6 V. As an opamp, a folded cascode is used. Indeed, its input voltage range includes the ground. Also, a symmetrical OTA can be used provided low voltage current mirrors are used. Several solutions are now possible, provided an opamp can be designed, operating at the right input voltage range."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this realization another opamp is used which operates on supply voltages below 1 V. A real sub-1 V bandgap reference again emerges. Standard CMOS is used this time. The principle is similar as before. The opamp equalizes its input voltages by use of feedback. This voltage is simply V . All pMOSTs BE have again equal currents. The current through resistor R is PTAT. It is added 1 to a current V /(R +R ). BE 2a 2b This sum also flows through the output transistor. Resistor R then sets the output reference 3 voltage, which here is about 0.6 V. As an opamp, a folded cascode is used. Indeed, its input voltage range includes the ground. Also, a symmetrical OTA can be used provided low voltage current mirrors are used. Several solutions are now possible, provided an opamp can be designed, operating at the right input voltage range.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "CMOS Bandgap with supply < 1 V",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0468_02_1642.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108483952693,
+          0.08780487771341461,
+          0.6824324361908782,
+          0.15121951185975613
+        ],
+        "confidence": 0.5,
+        "text": "CMOS Bandgap with supply < 1 V"
+      },
+      {
+        "bbox": [
+          0.057432431981981995,
+          0.28292682886178855,
+          0.1182432427927928,
+          0.33170731666666664
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.10810810861486486,
+          0.4,
+          0.1486486491554054,
+          0.448780487804878
+        ],
+        "confidence": 1,
+        "text": "R3"
+      },
+      {
+        "bbox": [
+          0.0709459456418919,
+          0.43414634170731703,
+          0.1013513510472973,
+          0.4780487807317073
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.10810810780405405,
+          0.46829268312195116,
+          0.13851351320945945,
+          0.5073170733658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R."
+      },
+      {
+        "bbox": [
+          0.1554054050675676,
+          0.25365853676829264,
+          0.18243243209459462,
+          0.2878048782317073
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.19594594543918917,
+          0.28292682939024383,
+          0.25675675625,
+          0.33658536597560973
+        ],
+        "confidence": 0.5,
+        "text": "VBE"
+      },
+      {
+        "bbox": [
+          0.1587837834740991,
+          0.31219512146341466,
+          0.20270270239301802,
+          0.37073170682926837
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.1621621617820946,
+          0.40487804823170737,
+          0.19932432394425675,
+          0.44878048725609754
+        ],
+        "confidence": 0.5,
+        "text": "kT"
+      },
+      {
+        "bbox": [
+          0.16891891877815315,
+          0.47804878069105694,
+          0.18581081067004504,
+          0.5121951221544716
+        ],
+        "confidence": 1,
+        "text": "9"
+      },
+      {
+        "bbox": [
+          0.20270270320945943,
+          0.43902438999999993,
+          0.26351351402027023,
+          0.4780487802439024
+        ],
+        "confidence": 0.5,
+        "text": "In n"
+      },
+      {
+        "bbox": [
+          0.3986486488175675,
+          0.2439024394308943,
+          0.4797297298986486,
+          0.2926829272357724
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 : 1"
+      },
+      {
+        "bbox": [
+          0.6418918917652027,
+          0.24878048731707314,
+          0.6587837836570946,
+          0.2878048775609756
+        ],
+        "confidence": 1,
+        "text": ":"
+      },
+      {
+        "bbox": [
+          0.6993243241554055,
+          0.23902438957317074,
+          0.7263513511824324,
+          0.29268292615853664
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.34459459412162163,
+          0.5121951213658537,
+          0.3986486481756757,
+          0.5707317067317074
+        ],
+        "confidence": 1,
+        "text": "Rza"
+      },
+      {
+        "bbox": [
+          0.5439189195101352,
+          0.5121951226829268,
+          0.5979729735641892,
+          0.5707317080487805
+        ],
+        "confidence": 1,
+        "text": "Rza"
+      },
+      {
+        "bbox": [
+          0.858108107956081,
+          0.23902439007317078,
+          0.8952702701182431,
+          0.27317073153658544
+        ],
+        "confidence": 1,
+        "text": "1V"
+      },
+      {
+        "bbox": [
+          0.858108108445946,
+          0.2975609760487804,
+          0.9324324327702703,
+          0.3414634150731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "18 uA"
+      },
+      {
+        "bbox": [
+          0.8547297291891891,
+          0.42926829214634143,
+          0.91554054,
+          0.4829268287317072
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.8648648650619369,
+          0.5073170729268293,
+          0.8885135137105856,
+          0.5463414631707316
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.854557476283901,
+          0.5553110698575319,
+          0.949496579281552,
+          0.6007864899952629
+        ],
+        "confidence": 1,
+        "text": "0.603 V"
+      },
+      {
+        "bbox": [
+          0.4662162166747104,
+          0.6048780492334495,
+          0.5371621626206564,
+          0.6682926833797909
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R13"
+      },
+      {
+        "bbox": [
+          0.07094594531250001,
+          0.785365853902439,
+          0.12162162098817571,
+          0.8146341465853658
+        ],
+        "confidence": 1,
+        "text": "Ref.:"
+      },
+      {
+        "bbox": [
+          0.07089289974973763,
+          0.8190913794896524,
+          0.19937736795207078,
+          0.854079352493505
+        ],
+        "confidence": 1,
+        "text": "Leung, JSSC"
+      },
+      {
+        "bbox": [
+          0.06736925618623849,
+          0.8327043691461481,
+          0.26709020592626176,
+          0.8941248982093031
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "April 2002, 526-530"
+      },
+      {
+        "bbox": [
+          0.3439350313041607,
+          0.7694256014721087,
+          0.44660550754746337,
+          0.8793548862889436
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3R26"
+      },
+      {
+        "bbox": [
+          0.5608108115990991,
+          0.7756097560569104,
+          0.6554054061936936,
+          0.8487804877642275
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3R20"
+      },
+      {
+        "bbox": [
+          0.46621621604729724,
+          0.839024389902439,
+          0.4898648646959459,
+          0.8731707313658537
+        ],
+        "confidence": 1,
+        "text": "n"
+      },
+      {
+        "bbox": [
+          0.7094594691126641,
+          0.9414634140650405,
+          0.9222972940630112,
+          0.9756097555284552
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1642"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0468_02_1642.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The opamp equalizes its input voltages by use of feedback.",
+      "pdf_page": 468,
+      "printed_page": 477,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "All pMOSTs BE have again equal currents.",
+      "pdf_page": 468,
+      "printed_page": 477,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Also, a symmetrical OTA can be used provided low voltage current mirrors are used.",
+      "pdf_page": 468,
+      "printed_page": 477,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Several solutions are now possible, provided an opamp can be designed, operating at the right input voltage range.",
+      "pdf_page": 468,
+      "printed_page": 477,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

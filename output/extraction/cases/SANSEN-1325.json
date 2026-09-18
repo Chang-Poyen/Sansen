@@ -1,0 +1,646 @@
+{
+  "case_id": "SANSEN-1325",
+  "slide_id": "1325",
+  "chapter": 13,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 368,
+    "printed_page": 375
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0368_02_1325.jpg",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "bbox_pt": [
+        91.52162,
+        397.56098,
+        374.54215999999997,
+        594.02094
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 368,
+      "printed_page": 375,
+      "bbox_pt": [
+        0,
+        393.5715100000001,
+        595,
+        797
+      ],
+      "text_raw": "In order to be able to find\nthe loop gain, we must first\nof all, find the output volt-\nage v at the Drain of\nOUT\ninput transistor M1, as a\nresult of an input voltage v\nIN\napplied to the feedback\ntransistors, as shown in\nthis slide.\nAgain, four cases can be\ndistinguished.\nWhen a small load resis-\ntor R is used, the gain is\nL\neasily found to be the ratio\nof the two resistors R and\nL\nR . It is usually not very\nL\nlarge!\nThis gain is much larger however, when a current source is used as a load. Then the gain of\nthe input transistor M1 comes in.\nThis is not unexpected. A current source as a load usually provides higher gains!",
+      "text": "In order to be able to find the loop gain, we must first of all, find the output voltage v at the Drain of OUT input transistor M1, as a result of an input voltage v IN applied to the feedback transistors, as shown in this slide. Again, four cases can be distinguished. When a small load resistor R is used, the gain is L easily found to be the ratio of the two resistors R and L R . It is usually not very L large! This gain is much larger however, when a current source is used as a load. Then the gain of the input transistor M1 comes in. This is not unexpected. A current source as a load usually provides higher gains!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to be able to find the loop gain, we must first of all, find the output voltage v at the Drain of OUT input transistor M1, as a result of an input voltage v IN applied to the feedback transistors, as shown in this slide. Again, four cases can be distinguished. When a small load resistor R is used, the gain is L easily found to be the ratio of the two resistors R and L R . It is usually not very L large! This gain is much larger however, when a current source is used as a load. Then the gain of the input transistor M1 comes in. This is not unexpected. A current source as a load usually provides higher gains!",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Series-shunt FB pair : gain input stage",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0368_02_1325.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135592549152554,
+          0.09268292692682922,
+          0.7525423661694914,
+          0.15121951229268293
+        ],
+        "confidence": 1,
+        "text": "Series-shunt FB pair : gain input stage"
+      },
+      {
+        "bbox": [
+          0.07118644159322032,
+          0.23414634136585366,
+          0.16271186532203388,
+          0.28292682917073164
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RL<ro"
+      },
+      {
+        "bbox": [
+          0.267796609661017,
+          0.22926829280487804,
+          0.3084745757627119,
+          0.27804878060975613
+        ],
+        "confidence": 0.5,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.17966101711864405,
+          0.32195121931707316,
+          0.19661016966101694,
+          0.351219512
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.07118644189830506,
+          0.3951219512195122,
+          0.19322034020338982,
+          0.4439024390243902
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2 > 1/9m"
+      },
+      {
+        "bbox": [
+          0.07118644189830506,
+          0.46829268292682924,
+          0.19322034020338982,
+          0.5170731707317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R, > 1/9m"
+      },
+      {
+        "bbox": [
+          0.30847457566101694,
+          0.28292682882926834,
+          0.37627118583050845,
+          0.3268292678536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.32542372843220335,
+          0.34634146286585366,
+          0.36949152504237287,
+          0.39024390189024394
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YIN"
+      },
+      {
+        "bbox": [
+          0.2983050850121065,
+          0.4243902437630662,
+          0.3355932206053268,
+          0.4731707315679442
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.5491525426553673,
+          0.3121951217073171,
+          0.583050847740113,
+          0.3609756095121952
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.3830508481779661,
+          0.3999999998170731,
+          0.4406779668220339,
+          0.4341463412804878
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.43728813508474573,
+          0.4292682928455285,
+          0.46779660966101694,
+          0.45853658552845533
+        ],
+        "confidence": 0.5,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.39322033949152546,
+          0.46829268274390246,
+          0.43389830559322035,
+          0.5024390242073171
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.6915254229661016,
+          0.2926829268902439,
+          0.752542372118644,
+          0.32682926835365844
+        ],
+        "confidence": 0.5,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.7084745766949152,
+          0.34634146402439026,
+          0.7491525427966101,
+          0.39512195182926835
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.6813559324455206,
+          0.4243902437630662,
+          0.7152542375302664,
+          0.4731707315679442
+        ],
+        "confidence": 0.5,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.2644067799435028,
+          0.47804878036585363,
+          0.2983050850282486,
+          0.5219512193902439
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.274576271559322,
+          0.5902439023414634,
+          0.3118644071525424,
+          0.6390243901463414
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.4813559326694915,
+          0.46341463414634143,
+          0.5186440682627118,
+          0.5121951219512195
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.6169491531186441,
+          0.4780487803414635,
+          0.6745762717627118,
+          0.5219512193658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IR1"
+      },
+      {
+        "bbox": [
+          0.7627118647118645,
+          0.4292682924390244,
+          0.7932203392881356,
+          0.463414633902439
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.8169491521016949,
+          0.39512195063414635,
+          0.8677966097288136,
+          0.45365853600000006
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.7966101686440679,
+          0.4439024381707317,
+          0.8779661008474577,
+          0.512195121097561
+        ],
+        "confidence": 0.5,
+        "text": "R,+R2"
+      },
+      {
+        "bbox": [
+          0.8745762705423727,
+          0.43414634170731703,
+          0.9389830502033897,
+          0.4780487807317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mo"
+      },
+      {
+        "bbox": [
+          0.17288135572881358,
+          0.6780487800487804,
+          0.19999999979661018,
+          0.7219512190731706
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.3118644057062147,
+          0.643902439105691,
+          0.3762711853672317,
+          0.6878048781300813
+        ],
+        "confidence": 1,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.32881355889830516,
+          0.7024390237195122,
+          0.36949152500000004,
+          0.7560975603048781
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.5491525426779662,
+          0.6780487802439025,
+          0.5796610172542374,
+          0.7219512192682928
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.41355932186440675,
+          0.7804878045365854,
+          0.4372881354237288,
+          0.8146341460000001
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.4542372884261502,
+          0.7463414632404182,
+          0.4949152545278451,
+          0.8097560973867597
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.6745762698870057,
+          0.6487804878048781,
+          0.7525423715819209,
+          0.6878048780487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- VOUT"
+      },
+      {
+        "bbox": [
+          0.7084745759322033,
+          0.7024390239024391,
+          0.7491525420338982,
+          0.7512195117073172
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.6779661013983052,
+          0.775609755487805,
+          0.7152542369915255,
+          0.824390243292683
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.7762711854661017,
+          0.7853658529878049,
+          0.8677966091949153,
+          0.8390243895731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 9mlo"
+      },
+      {
+        "bbox": [
+          0.7186440651694915,
+          0.9365853659756097,
+          0.9288135566949153,
+          0.9658536586585366
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 1325"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In order to be able to find the loop gain, we must first of all, find the output voltage v at the Drain of OUT input transistor M1, as a result of an input voltage v IN applied to the feedback transistors, as shown in this slide.",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0368_02_1325.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In order to be able to find the loop gain, we must first of all, find the output voltage v at the Drain of OUT input transistor M1, as a result of an input voltage v IN applied to the feedback transistors, as shown in this slide.",
+        "pdf_page": 368,
+        "printed_page": 375,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This gain is much larger however, when a current source is used as a load.",
+        "pdf_page": 368,
+        "printed_page": 375,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "A current source as a load usually provides higher gains!",
+        "pdf_page": 368,
+        "printed_page": 375,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In order to be able to find the loop gain, we must first of all, find the output voltage v at the Drain of OUT input transistor M1, as a result of an input voltage v IN applied to the feedback transistors, as shown in this slide.",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When a small load resistor R is used, the gain is L easily found to be the ratio of the two resistors R and L R .",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This gain is much larger however, when a current source is used as a load.",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Then the gain of the input transistor M1 comes in.",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "This gain is much larger however, when a current source is used as a load.",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1325-M01",
+      "ocr_text": "RL<ro",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07118644159322032,
+        0.23414634136585366,
+        0.16271186532203388,
+        0.28292682917073164
+      ],
+      "context_crop": "regions/SANSEN-1325_math_01.png",
+      "context_bbox_normalized": [
+        0.031186441593220322,
+        0.13414634136585366,
+        0.3927118653220339,
+        0.41292682917073165
+      ],
+      "source_image": "slides/p0368_02_1325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1325-M02",
+      "ocr_text": "R2 > 1/9m",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07118644189830506,
+        0.3951219512195122,
+        0.19322034020338982,
+        0.4439024390243902
+      ],
+      "context_crop": "regions/SANSEN-1325_math_02.png",
+      "context_bbox_normalized": [
+        0.031186441898305058,
+        0.29512195121951224,
+        0.42322034020338983,
+        0.5739024390243902
+      ],
+      "source_image": "slides/p0368_02_1325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1325-M03",
+      "ocr_text": "R, > 1/9m",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07118644189830506,
+        0.46829268292682924,
+        0.19322034020338982,
+        0.5170731707317073
+      ],
+      "context_crop": "regions/SANSEN-1325_math_03.png",
+      "context_bbox_normalized": [
+        0.031186441898305058,
+        0.36829268292682926,
+        0.42322034020338983,
+        0.6470731707317073
+      ],
+      "source_image": "slides/p0368_02_1325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1325-M04",
+      "ocr_text": "=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.43728813508474573,
+        0.4292682928455285,
+        0.46779660966101694,
+        0.45853658552845533
+      ],
+      "context_crop": "regions/SANSEN-1325_math_04.png",
+      "context_bbox_normalized": [
+        0.39728813508474575,
+        0.3292682928455285,
+        0.697796609661017,
+        0.5885365855284553
+      ],
+      "source_image": "slides/p0368_02_1325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1325-M05",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.7627118647118645,
+        0.4292682924390244,
+        0.7932203392881356,
+        0.463414633902439
+      ],
+      "context_crop": "regions/SANSEN-1325_math_05.png",
+      "context_bbox_normalized": [
+        0.7227118647118644,
+        0.32926829243902445,
+        1,
+        0.593414633902439
+      ],
+      "source_image": "slides/p0368_02_1325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1325-M06",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.41355932186440675,
+        0.7804878045365854,
+        0.4372881354237288,
+        0.8146341460000001
+      ],
+      "context_crop": "regions/SANSEN-1325_math_06.png",
+      "context_bbox_normalized": [
+        0.37355932186440677,
+        0.6804878045365854,
+        0.6672881354237288,
+        0.93
+      ],
+      "source_image": "slides/p0368_02_1325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1325-M07",
+      "ocr_text": "= 9mlo",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7762711854661017,
+        0.7853658529878049,
+        0.8677966091949153,
+        0.8390243895731707
+      ],
+      "context_crop": "regions/SANSEN-1325_math_07.png",
+      "context_bbox_normalized": [
+        0.7362711854661017,
+        0.685365852987805,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0368_02_1325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

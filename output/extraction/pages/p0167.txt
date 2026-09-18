@@ -1,0 +1,46 @@
+Stability of operational amplifiers 171
+0542
+In order to understand how
+we can abolish the positive
+zero, we have to try to
+understand what its origin
+is, which adds another −90°
+phase shift.
+This is a result of the
+feedforward through the
+compensation capacitance.
+Indeed, the compensation
+capacitance is bidirectional
+after all, as most capaci-
+tances. This means that
+feedback current and feed-
+forward current flow at the
+same time.
+The feedback current is the Miller effect current from output to input. It flows between two
+nodes which are opposite in phase.
+The feedforward current is only easy to see when we leave out the amplifier itself. We now
+notice a feedforward current through C which causes a small output signal which is in phase
+c
+with the input. This is the current which causes the zero. It is a positive zero because it provides
+an output signal which is of opposite phase compared with the amplified output signal.
+To abolish this positive zero, we have to make that compensation capacitance unidirectional.
+In other words, we have to put a transistor in series, which cuts the feedforward path.
+0543
+There are three ways to
+abolish the positive zero.
+For the first two, it is easy
+to see that the feedforward
+current is blocked. The third
+technique is more difficult to
+understand.
+The first technique con-
+sists of putting a source fol-
+lower in series with the
+compensation capacitance.
+The feedback is still present
+but the feedforward current
+flows through the source fol-
+lower to the positive supply,
+without affecting the output.
+Putting this source follower in the expression of the gain, gives as a result that the numerator
+has gone. There is no more zero. It is now an easy way to solve this problem. However, we need

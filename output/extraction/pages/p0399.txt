@@ -1,0 +1,42 @@
+Feedback transimpedance and current amplifiers 407
+1437
+A more complicated current
+amplifier using mainly cur-
+rent mirrors is shown in this
+slide. The input currents are
+provided by photo-diodes.
+These currents are picked
+up by regulated cascodes
+M9 and M10 and are
+mirrored (and amplified)
+towards a translinear circuit
+consisting of transistors
+Q5–8. Their output currents
+are mirrored and amplified
+by a factor of 10.
+This is now a current
+amplifier without feedback.
+1438
+As a final example of shunt-
+series feedback a linear LED
+driver is given. A LED
+(Light Emitting Diode) or
+laser diode gives light in a
+very non-linear way depend-
+ing on the voltage applied.
+However, the light output is
+linear versus the current.
+Also, the MOST driver tran-
+sistor is nonlinear. This can
+be solved by creating the
+shunt-series feedback loop
+shown in this slide.
+The light of the LED
+is sensed by a photodiode,
+which acts as a current source. It injects its current at the input of the opamp, where it is added
+to the current i from the input source v . At the input, we have the shunt feedback.
+IN IN
+The output is the current provided by the output transistor. This is the series feedback. We
+now have a current amplifier. It is very linear versus the input current, and for the input
+voltage v .
+IN

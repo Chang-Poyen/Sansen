@@ -1,0 +1,14 @@
+simulator lang=spectre
+global 0
+Vin (vin 0) vsource dc=0 mag=1
+// CASE follower_cancel: follower
+RESISTOR56 (vin follower_cancel_g) resistor r=10000
+VCCS57 (0 follower_cancel follower_cancel_g follower_cancel) vccs gm=8.3333333333333e-05
+CAPACITOR58 (follower_cancel_g follower_cancel) capacitor c=1e-12
+CAPACITOR59 (follower_cancel_g 0) capacitor c=2e-13
+CAPACITOR60 (0 follower_cancel) capacitor c=3e-12
+
+poles (follower_cancel 0) pz iprobe=Vin docancel=no
+ac ac start=1 stop=1T dec=10
+save follower_cancel
+saveOptions options save=selected

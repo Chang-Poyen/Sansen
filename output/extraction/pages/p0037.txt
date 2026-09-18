@@ -1,0 +1,51 @@
+Comparison of MOST and bipolar transistors 37
+0168
+Both islands, the Source and
+the Drain, have a junction
+capacitance with respect to
+the bulk (or substrate). They
+can easily be added to the
+small-signal diagram as
+shown in this slide.
+Junction capacitances
+normally show a voltage
+dependence described by a
+square root, when they are
+reverse biased.
+The most important one
+is doubtless the Drain-Bulk
+capacitance C as it
+DB
+appears at the output of the
+MOST amplifier. The
+Source-Bulk capacitance
+C is normally shorted
+SB
+out.
+0169
+At very high frequencies, for
+example beyond f /3, the
+T
+input impedance cannot be
+modeled by a simple Gate
+resistor R and input
+G
+capacitances C and C .
+GS GD
+It can be corrected by a
+small capacitance shunting
+resistor R . This capaci-
+G
+tance is normally obtained
+by fitting the measured
+input impedance, obtained
+from s-parameters, to the
+model. This usually leads to
+a reduction of the Gate
+resistor R (here to 1/3)
+G
+and a shunt capacitor, which is a fraction (here 1/5) of the input capacitance.
+These are obviously fitting measurements. They can vary from designer to designer depending
+on the actual frequency range used. Remember that this additional shunt capacitance is only
+required for the highest frequency range. Only designs of high-frequency VCO’s and LNA’s may
+require this.

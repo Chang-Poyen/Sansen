@@ -1,0 +1,159 @@
+{
+  "case_id": "SANSEN-198",
+  "slide_id": "198",
+  "chapter": 19,
+  "slide_number_in_chapter": 8,
+  "source": {
+    "pdf_page": 559,
+    "printed_page": 570
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0559_02_198.jpg",
+      "pdf_page": 559,
+      "printed_page": 570,
+      "bbox_pt": [
+        91.521622,
+        385.602967,
+        374.78981,
+        582.062958
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 559,
+      "printed_page": 570,
+      "bbox_pt": [
+        0,
+        381.61350000000016,
+        595,
+        797
+      ],
+      "text_raw": "An example of a second-\norder filter is shown in the\nleft top-corner. It contains\ntwo capacitors indeed and\nthree opamps. It is single-\nended, however.\nA differential version of\nthe same filter is shown\nbelow. One opamp can be\nleft out as it only provides a\nsignal inversion. In a\ndifferential circuit both\nphases are always available.\nIt is sufficient to use two\nopamps for a second-order\nfilter.\nHowever, the opamps are now fully differential. They require common-mode feedback (see\nChapter 8), which takes more power.\nA MOSFET-C realization of the same filter is now shown on the right. All resistors have been\nreplaced by MOSFETs. All their Gates are connected together towards control voltage V .\nc\nTuning of the resistors is thus possible and hence tuning of the filter frequency. A large tuning\nrange also requires a large Voltage range, which may not be easy at low supply voltages.\nMoreover, MOSFETs have a limited frequency range of operation, as explained next.",
+      "text": "An example of a secondorder filter is shown in the left top-corner. It contains two capacitors indeed and three opamps. It is singleended, however. A differential version of the same filter is shown below. One opamp can be left out as it only provides a signal inversion. In a differential circuit both phases are always available. It is sufficient to use two opamps for a second-order filter. However, the opamps are now fully differential. They require common-mode feedback (see Chapter 8), which takes more power. A MOSFET-C realization of the same filter is now shown on the right. All resistors have been replaced by MOSFETs. All their Gates are connected together towards control voltage V . c Tuning of the resistors is thus possible and hence tuning of the filter frequency. A large tuning range also requires a large Voltage range, which may not be easy at low supply voltages. Moreover, MOSFETs have a limited frequency range of operation, as explained next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An example of a secondorder filter is shown in the left top-corner. It contains two capacitors indeed and three opamps. It is singleended, however. A differential version of the same filter is shown below. One opamp can be left out as it only provides a signal inversion. In a differential circuit both phases are always available. It is sufficient to use two opamps for a second-order filter. However, the opamps are now fully differential. They require common-mode feedback (see Chapter 8), which takes more power. A MOSFET-C realization of the same filter is now shown on the right. All resistors have been replaced by MOSFETs. All their Gates are connected together towards control voltage V . c Tuning of the resistors is thus possible and hence tuning of the filter frequency. A large tuning range also requires a large Voltage range, which may not be easy at low supply voltages. Moreover, MOSFETs have a limited frequency range of operation, as explained next.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "From active RC to MOSFET-C filter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0559_02_198.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269724099105,
+          0.08292682947154473,
+          0.7331081026463966,
+          0.13658536605691052
+        ],
+        "confidence": 1,
+        "text": "From active RC to MOSFET-C filter"
+      },
+      {
+        "bbox": [
+          0.5810810846283783,
+          0.8780487802439024,
+          0.9358108143581081,
+          0.912195121707317
+        ],
+        "confidence": 1,
+        "text": "Ref. Tsividis JSSC Feb.86, 15-30"
+      },
+      {
+        "bbox": [
+          0.7263513612297813,
+          0.9512195119512196,
+          0.9324324294233716,
+          0.9853658534146342
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 198"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "An example of a secondorder filter is shown in the left top-corner.",
+      "pdf_page": 559,
+      "printed_page": 570,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A differential version of the same filter is shown below.",
+      "pdf_page": 559,
+      "printed_page": 570,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A MOSFET-C realization of the same filter is now shown on the right.",
+      "pdf_page": 559,
+      "printed_page": 570,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0559_02_198.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "All their Gates are connected together towards control voltage V . c Tuning of the resistors is thus possible and hence tuning of the filter frequency.",
+        "pdf_page": 559,
+        "printed_page": 570,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "All their Gates are connected together towards control voltage V . c Tuning of the resistors is thus possible and hence tuning of the filter frequency.",
+      "pdf_page": 559,
+      "printed_page": 570,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Moreover, MOSFETs have a limited frequency range of operation, as explained next.",
+      "pdf_page": 559,
+      "printed_page": 570,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

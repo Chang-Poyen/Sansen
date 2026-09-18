@@ -1,0 +1,53 @@
+L ow-power sigma-delta AD converters 657
+Input transistor M1
+receives thus the differential
+input voltage V −V as
+in1 in2
+its V . This voltage is con-
+GS
+verted into a signal current
+by transistor M1 only. In
+this amplifier, only one
+single transistor M1 con-
+verts the differential input
+voltage into a current.
+Moreover this transistor
+provides a class-AB
+characteristic.
+The signal current flows
+through transistors M3 and
+is mirrored out by transistor
+M4. It can also be taken out
+at the Drain of transistor M1 as shown in the full schematic, shown next.
+Finally, note that this amplifier can operate on less than 1 V supply voltage. It only takes one
+single V and V to operate properly. If a V is taken of 0.6 V and a V of 0.2 V, then
+GS DSsat T DSsat
+the minimum supply voltage V is 1 V. If however, a V is available of 0.3 V, then V can be
+DD T DD
+as low as 0.7 V. This is quite low indeed!
+2140
+In the full schematic, the
+differential nature is clearly
+recognized.
+Input pMOST transistors
+M and M carry out the
+1b 1c
+input voltage to current
+conversion. The signal cur-
+rent through transistor M
+1b
+is now fed to the output by
+current mirror M and
+2a
+M , but also by current
+3a
+mirror M and M . A
+5b 6b
+differential output current is
+therefore obtained.
+Common-mode feedback
+is applied as currents
+injected at the Drains of transistors M and M .
+5a 5b
+The opamps can be switched in and out by disconnecting all connections to the power supply
+lines. This ensures a very fast recovery time.

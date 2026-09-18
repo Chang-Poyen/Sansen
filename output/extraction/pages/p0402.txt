@@ -1,0 +1,56 @@
+410 Chapter #14
+1443
+For sake of comparison let
+us optimize both the trans-
+impedance amplifier with
+voltage input (on the left)
+and the one with current
+input (on the left). The latter
+one usually has a cascode at
+the input or a regulated cas-
+code (see later).
+Both amplifiers have the
+same transresistance R .
+F
+Both amplifiers are
+designed for high frequen-
+cies. They are simple and
+carry fairly large currents!
+Which one has the larger
+BW?
+The dominant pole in the first amplifier is clearly at the input. The capacitance at the input
+node is again C +C or about 2C . Load resistor R is sufficiently small such that the second
+D GS D L
+pole does not play.
+The dominant pole in the cascode amplifier is not at the input. The input capacitance is the
+same but the input resistance is only 1/g . This pole is now at about f /2 of the input transistor.
+m T
+The dominant pole is this time at the Drain.
+It is clear, that for about equal input transistors, the BW of the first transistor is higher. The
+capacitances all have similar values. The gain factor A in the first amplifier, or the feedback in
+v1
+the first amplifier, makes the difference!
+The main advantage of the second amplifier is that its input impedance is constant (and equal
+to 1/g ) up to high frequencies.
+m
+1444
+This photo current detector
+is a shunt-shunt feedback
+pair, preceded by a cascode
+again. The main reason is to
+have an input impedance
+which is independent of fre-
+quency, not to interact with
+the current source. A cas-
+code has an input resistance
+of 1/g , which goes up to
+m1
+very high frequencies.
+The transresistance is
+simply R , as the input cur-
+F
+rent flows through the cas-
+code into resistor R . The
+F
+Gate of transistor M2 is at
+a low resistance because of the feedback.

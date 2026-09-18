@@ -1,0 +1,45 @@
+282 Chapter #9
+0938
+The approximate expression
+of the open-loop gain is
+given in this slide. As
+expected, three poles show
+up and two zero’s. The
+GBW is the same as for any
+three-stage amplifier with an
+overall Miller capacitance
+C .
+m1
+Note, however, that the
+first non-dominant pole
+coincides with the first zero.
+They now cancel each other.
+For stability, transcon-
+ductance g must be
+m3
+sufficiently large or compen-
+sation capacitance C .
+m1
+Relatively large values are used for C to avoid excessive power consumption.
+m1
+For a 3rd-order Butterworth realization, this PFC configuration gives a GBW which is about
+6 times larger than a NMC realization with the same load capacitance and power consumption.
+0939
+A circuit realization is
+shown in this slide. Again, a
+folded cascode is used at the
+input. A current mirror is
+used as a second stage. The
+compensation capacitances
+are easily identified.
+The Gate of output tran-
+sistor is connected to the
+output of the first stage,
+turning the output stage
+into a class-AB amplifier.
+This greatly improves the
+Slew Rate as it is now lim-
+ited by the total DC current
+in the input stage into com-
+pensation capacitance C .
+m1

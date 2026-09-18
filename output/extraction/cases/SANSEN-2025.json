@@ -1,0 +1,535 @@
+{
+  "case_id": "SANSEN-2025",
+  "slide_id": "2025",
+  "chapter": 20,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 604,
+    "printed_page": 615
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0604_02_2025.jpg",
+      "pdf_page": 604,
+      "printed_page": 615,
+      "bbox_pt": [
+        91.521622,
+        479.27398700000003,
+        374.78981,
+        675.733978
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 604,
+      "printed_page": 615,
+      "bbox_pt": [
+        0,
+        475.28440000000023,
+        595,
+        797
+      ],
+      "text_raw": "The output impedance to\nachieve a specific resolution\nis shown for a 25 V load. For\na resolution of 10 bits, the\noutput impedance must be\nat least 6.4 MV. For a 12\nbits resolution, this must be\n100 MV!\nIt is clear that the only\nway to achieve such a high\nvalue is to insert a cascode\ntransistor M between the\ncasc\nswitching pair and the cur-\nrent source. The main char-\nacteristic of this cascode\ntransistor is that its output\ncapacitance should be as small as possible. This means that its drain area must be as small as",
+      "text": "The output impedance to achieve a specific resolution is shown for a 25 V load. For a resolution of 10 bits, the output impedance must be at least 6.4 MV. For a 12 bits resolution, this must be 100 MV! It is clear that the only way to achieve such a high value is to insert a cascode transistor M between the casc switching pair and the current source. The main characteristic of this cascode transistor is that its output capacitance should be as small as possible. This means that its drain area must be as small as"
+    },
+    {
+      "pdf_page": 605,
+      "printed_page": 616,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        220.08078999999987
+      ],
+      "text_raw": "possible. As a result its W/L is made small (2–3) and its V −V is large, as large as 1 V,\nGS T\nprovided the power supply allows this.\nTo achieve a 99.7% INL, the current source matching must be at least 0.5%. The dimensions\nof the current source transistor M are then easily calculated. The cascode has been made as\ncs\nsmall as possible in this 0.35 mm CMOS technology.",
+      "text": "possible. As a result its W/L is made small (2–3) and its V −V is large, as large as 1 V, GS T provided the power supply allows this. To achieve a 99.7% INL, the current source matching must be at least 0.5%. The dimensions of the current source transistor M are then easily calculated. The cascode has been made as cs small as possible in this 0.35 mm CMOS technology."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The output impedance to achieve a specific resolution is shown for a 25 V load. For a resolution of 10 bits, the output impedance must be at least 6.4 MV. For a 12 bits resolution, this must be 100 MV! It is clear that the only way to achieve such a high value is to insert a cascode transistor M between the casc switching pair and the current source. The main characteristic of this cascode transistor is that its output capacitance should be as small as possible. This means that its drain area must be as small as\n\npossible. As a result its W/L is made small (2–3) and its V −V is large, as large as 1 V, GS T provided the power supply allows this. To achieve a 99.7% INL, the current source matching must be at least 0.5%. The dimensions of the current source transistor M are then easily calculated. The cascode has been made as cs small as possible in this 0.35 mm CMOS technology.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Required output impedance versus resolution",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0604_02_2025.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770271070945928,
+          0.08292682907317073,
+          0.8783783863851349,
+          0.14146341443902433
+        ],
+        "confidence": 1,
+        "text": "Required output impedance versus resolution"
+      },
+      {
+        "bbox": [
+          0.08108108091216218,
+          0.35609756077235777,
+          0.10135135118243244,
+          0.3804878046747968
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10°"
+      },
+      {
+        "bbox": [
+          0.06418918343829937,
+          0.37560975333333346,
+          0.08445946417965589,
+          0.5414634118699189
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Zimpreq (MOtm]"
+      },
+      {
+        "bbox": [
+          0.08108108091216218,
+          0.541463414390244,
+          0.10135135118243244,
+          0.5707317070731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10'"
+      },
+      {
+        "bbox": [
+          0.2601351349099099,
+          0.7317073165853659,
+          0.2804054051801802,
+          0.7609756092682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.2801629787124863,
+          0.7348890157660295,
+          0.42253972378183546,
+          0.7821841534970699
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "resoution of tse DAC"
+      },
+      {
+        "bbox": [
+          0.0844594633445945,
+          0.8487804874999999,
+          0.3952702741554054,
+          0.8829268289634146
+        ],
+        "confidence": 0.5,
+        "text": "Van den Bosch, .., Kluwer 2004"
+      },
+      {
+        "bbox": [
+          0.27027027432432416,
+          0.8829268290243903,
+          0.5135135175675675,
+          0.917073170487805
+        ],
+        "confidence": 1,
+        "text": "JSSC March 01, 315-324"
+      },
+      {
+        "bbox": [
+          0.6925675671030406,
+          0.2048780484146342,
+          0.7364864860219594,
+          0.23414634109756094
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Лут"
+      },
+      {
+        "bbox": [
+          0.6993243240287162,
+          0.2536585361585366,
+          0.7297297294341216,
+          0.2878048776219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ap"
+      },
+      {
+        "bbox": [
+          0.6790540547297297,
+          0.2975609750406505,
+          0.7466216222972972,
+          0.33170731650406515
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ơ (1)/1"
+      },
+      {
+        "bbox": [
+          0.655318874209678,
+          0.3505833608023923,
+          0.7737351835663675,
+          0.38600200614942926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(VGs - VT)es"
+      },
+      {
+        "bbox": [
+          0.6959459465653153,
+          0.3999999998373984,
+          0.7331081087274774,
+          0.42926829252032517
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lfs"
+      },
+      {
+        "bbox": [
+          0.6554054062499999,
+          0.4487804873170732,
+          0.7736486494932432,
+          0.47804877999999995
+        ],
+        "confidence": 0.5,
+        "text": "segmentation"
+      },
+      {
+        "bbox": [
+          0.6722972986486486,
+          0.502439024308943,
+          0.7533783797297298,
+          0.5365853657723577
+        ],
+        "confidence": 0.5,
+        "text": "(W/L)cs"
+      },
+      {
+        "bbox": [
+          0.6722145449044633,
+          0.5507877046511909,
+          0.7568395119640369,
+          0.5857976610110542
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(W/L)rso"
+      },
+      {
+        "bbox": [
+          0.6722972981418919,
+          0.5999999998536586,
+          0.7567567576013513,
+          0.6341463413170731
+        ],
+        "confidence": 0.5,
+        "text": "(W/L)cas"
+      },
+      {
+        "bbox": [
+          0.8040540576137647,
+          0.1999999994308943,
+          0.9121621592781274,
+          0.23414634089430897
+        ],
+        "confidence": 0.5,
+        "text": "8.94 m V um"
+      },
+      {
+        "bbox": [
+          0.8175443002591264,
+          0.2535179019477998,
+          0.9020502964477283,
+          0.28306746575112374
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1.9 %jт"
+      },
+      {
+        "bbox": [
+          0.8310810817911165,
+          0.29756097593495934,
+          0.8851351326232978,
+          0.3268292686178862
+        ],
+        "confidence": 1,
+        "text": "0.5 %"
+      },
+      {
+        "bbox": [
+          0.8412162155968469,
+          0.34634146373983743,
+          0.8783783777590091,
+          0.3756097564227643
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IV"
+      },
+      {
+        "bbox": [
+          0.8277027017454957,
+          0.3951219507317074,
+          0.8918918909346848,
+          0.42439024341463416
+        ],
+        "confidence": 0.5,
+        "text": "20 mA"
+      },
+      {
+        "bbox": [
+          0.8445945950168918,
+          0.44390243878048774,
+          0.8783783788006756,
+          0.4731707314634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "5-5"
+      },
+      {
+        "bbox": [
+          0.8107370218942517,
+          0.5019150581304302,
+          0.9088575759676885,
+          0.532231283042748
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2,m/8um"
+      },
+      {
+        "bbox": [
+          0.8039553344796122,
+          0.5504140751447623,
+          0.9156392573245764,
+          0.5812932435388976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1gum /0.7 pm"
+      },
+      {
+        "bbox": [
+          0.7905405422719594,
+          0.5999999997560975,
+          0.929054055785473,
+          0.6292682924390245
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0.5j.m/0.35mm"
+      },
+      {
+        "bbox": [
+          0.6519831970943446,
+          0.6874647843783469,
+          0.8142330199686715,
+          0.732047414163652
+        ],
+        "confidence": 0.5,
+        "text": "10 bit 1GB/s"
+      },
+      {
+        "bbox": [
+          0.6519499163485201,
+          0.7457396435163565,
+          0.814266303112634,
+          0.7908457218735878
+        ],
+        "confidence": 0.5,
+        "text": "INL = 99.7 %"
+      },
+      {
+        "bbox": [
+          0.6520270250241313,
+          0.8048780490243902,
+          0.9324324304295367,
+          0.8487804880487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "requires o(l)/ < 0.5 % :"
+      },
+      {
+        "bbox": [
+          0.6554054085726351,
+          0.8634146339024391,
+          0.9087837869510135,
+          0.9024390241463416
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W= 2 um & L = 8 um"
+      },
+      {
+        "bbox": [
+          0.7331081180428445,
+          0.9560975606504065,
+          0.9425675646148132,
+          0.9853658533333333
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 2025"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The output impedance to achieve a specific resolution is shown for a 25 V load.",
+      "pdf_page": 604,
+      "printed_page": 615,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The dimensions of the current source transistor M are then easily calculated.",
+      "pdf_page": 605,
+      "printed_page": 616,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0604_02_2025.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It is clear that the only way to achieve such a high value is to insert a cascode transistor M between the casc switching pair and the current source.",
+        "pdf_page": 604,
+        "printed_page": 615,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This means that its drain area must be as small as",
+        "pdf_page": 604,
+        "printed_page": 615,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "To achieve a 99.7% INL, the current source matching must be at least 0.5%.",
+        "pdf_page": 605,
+        "printed_page": 616,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The dimensions of the current source transistor M are then easily calculated.",
+        "pdf_page": 605,
+        "printed_page": 616,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result its W/L is made small (2–3) and its V −V is large, as large as 1 V, GS T provided the power supply allows this.",
+      "pdf_page": 605,
+      "printed_page": 616,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The main characteristic of this cascode transistor is that its output capacitance should be as small as possible.",
+      "pdf_page": 604,
+      "printed_page": 615,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "As a result its W/L is made small (2–3) and its V −V is large, as large as 1 V, GS T provided the power supply allows this.",
+      "pdf_page": 605,
+      "printed_page": 616,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2025-M01",
+      "ocr_text": "INL = 99.7 %",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6519499163485201,
+        0.7457396435163565,
+        0.814266303112634,
+        0.7908457218735878
+      ],
+      "context_crop": "regions/SANSEN-2025_math_01.png",
+      "context_bbox_normalized": [
+        0.61194991634852,
+        0.6457396435163565,
+        1,
+        0.9208457218735878
+      ],
+      "source_image": "slides/p0604_02_2025.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2025-M02",
+      "ocr_text": "requires o(l)/ < 0.5 % :",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6520270250241313,
+        0.8048780490243902,
+        0.9324324304295367,
+        0.8487804880487804
+      ],
+      "context_crop": "regions/SANSEN-2025_math_02.png",
+      "context_bbox_normalized": [
+        0.6120270250241313,
+        0.7048780490243902,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0604_02_2025.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2025-M03",
+      "ocr_text": "W= 2 um & L = 8 um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6554054085726351,
+        0.8634146339024391,
+        0.9087837869510135,
+        0.9024390241463416
+      ],
+      "context_crop": "regions/SANSEN-2025_math_03.png",
+      "context_bbox_normalized": [
+        0.615405408572635,
+        0.7634146339024391,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0604_02_2025.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

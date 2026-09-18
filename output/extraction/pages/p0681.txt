@@ -1,0 +1,47 @@
+692 Chapter #22
+In the Amplitude Regul-
+ator, the input Q1 drives the
+Gate of transistor M3,
+which operates somewhat as
+a rectifier. When a MOST is
+overdriven, its average cur-
+rent increases, which is a
+measure for the input volt-
+age amplitude.
+This simple rectifier is fol-
+lowed by a low-pass filter
+made up by capacitors C
+4
+and C and transistor M39.
+5
+This latter transistor oper-
+ates as a large resistor
+because its V is again zero.
+DS
+The voltage at transistor
+M5 is now converted to a current, by use of resistor R7, and fed back to the oscillator transistor
+M1 by means of current mirror M6–M2.
+The AGC loop works as follows. When no signal is present, the Gate voltage of M5 is fairly
+low and a large current is sent to M1. When the oscillation has come up, more current is flowing
+through M3 such that the gate of M5 increases. As a result, the current in M3 decreases and so
+does the current in M1. In equilibrium, the AGC circuit maintains the minimum current for
+which oscillation is sustained, which corresponds with point A.
+2230
+Another practical oscillator
+of the third type is shown in
+this slide. It is a single-pin
+oscillator, with the crystal
+connected to the Gate.
+The output current is
+measured at the Drain of
+transistor M1. The output
+stage is a wideband
+amplifier.
+The AGC amplifier is
+shown at the right of the
+output terminal. A differ-
+ential pair is used as a recti-
+fier with just one capacitor
+as a low-pass filter. The
+output current is now sent to the oscillator transistor M1.
+All numerical values are added to allow the reader to fully explore this circuit.

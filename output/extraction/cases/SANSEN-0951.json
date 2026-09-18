@@ -1,0 +1,1277 @@
+{
+  "case_id": "SANSEN-0951",
+  "slide_id": "0951",
+  "chapter": 9,
+  "slide_number_in_chapter": 51,
+  "source": {
+    "pdf_page": 281,
+    "printed_page": 288
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0281_02_0951.jpg",
+      "pdf_page": 281,
+      "printed_page": 288,
+      "bbox_pt": [
+        91.52162,
+        371.65201,
+        374.54215999999997,
+        568.1119699999999
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 281,
+      "printed_page": 288,
+      "bbox_pt": [
+        0,
+        367.6625,
+        595,
+        797
+      ],
+      "text_raw": "For this purpose the several\nthree-stage opamps have\nbeen put in categories. All\npossible Figures-of-Merit\nhave been added. Not only\na choice is made between\nthe current (mA) or the\npower (mW) consumption.\nAnother alternative is to use\neither the GBW, which is a\nquality factor for small sig-\nnals, or the Slew Rate, which\nis more important for large-\nsignal operation, such as in\nswitched-capacitor circuits.\nThe first category uses no\ncompensation capacitance. It is clear that this is not the way to go!\nThe second category is the most used one. It lists all the NMC varieties. Several of them have\nbeen discussed in this Chapter. The FOMs are reasonably good. The best one is the multi-path\nopamp MNMC. However, its Slew Rate is not so good, because no feedforward stage is used to\nturn the output stage into a class-AB stage.\nThe addition of nulling resistances in series with the compensation capacitance does not\nincrease the FOM a lot.\nReal improvements are only achieved once left-hand-plane zero’s can be generated, which\ncompensate the main non-dominant pole. This is the case when positive feedback is used (PFC)\nor damping-factor control (DFCFC). This is even more the case when a AC boosting amplifier",
+      "text": "For this purpose the several three-stage opamps have been put in categories. All possible Figures-of-Merit have been added. Not only a choice is made between the current (mA) or the power (mW) consumption. Another alternative is to use either the GBW, which is a quality factor for small signals, or the Slew Rate, which is more important for largesignal operation, such as in switched-capacitor circuits. The first category uses no compensation capacitance. It is clear that this is not the way to go! The second category is the most used one. It lists all the NMC varieties. Several of them have been discussed in this Chapter. The FOMs are reasonably good. The best one is the multi-path opamp MNMC. However, its Slew Rate is not so good, because no feedforward stage is used to turn the output stage into a class-AB stage. The addition of nulling resistances in series with the compensation capacitance does not increase the FOM a lot. Real improvements are only achieved once left-hand-plane zero’s can be generated, which compensate the main non-dominant pole. This is the case when positive feedback is used (PFC) or damping-factor control (DFCFC). This is even more the case when a AC boosting amplifier"
+    },
+    {
+      "pdf_page": 282,
+      "printed_page": 289,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        207.97331499999984
+      ],
+      "text_raw": "is used (ACBC) or additional transconductance blocks, as in Active feedback compensation\n(AFC) and especially transconductance and capacitances compensation (TCFC). The results\nare obvious.",
+      "text": "is used (ACBC) or additional transconductance blocks, as in Active feedback compensation (AFC) and especially transconductance and capacitances compensation (TCFC). The results are obvious."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For this purpose the several three-stage opamps have been put in categories. All possible Figures-of-Merit have been added. Not only a choice is made between the current (mA) or the power (mW) consumption. Another alternative is to use either the GBW, which is a quality factor for small signals, or the Slew Rate, which is more important for largesignal operation, such as in switched-capacitor circuits. The first category uses no compensation capacitance. It is clear that this is not the way to go! The second category is the most used one. It lists all the NMC varieties. Several of them have been discussed in this Chapter. The FOMs are reasonably good. The best one is the multi-path opamp MNMC. However, its Slew Rate is not so good, because no feedforward stage is used to turn the output stage into a class-AB stage. The addition of nulling resistances in series with the compensation capacitance does not increase the FOM a lot. Real improvements are only achieved once left-hand-plane zero’s can be generated, which compensate the main non-dominant pole. This is the case when positive feedback is used (PFC) or damping-factor control (DFCFC). This is even more the case when a AC boosting amplifier\n\nis used (ACBC) or additional transconductance blocks, as in Active feedback compensation (AFC) and especially transconductance and capacitances compensation (TCFC). The results are obvious.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Comparison",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0281_02_0951.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08120040676506265,
+          0.08658670116843603,
+          0.2984606058431214,
+          0.14755964063644766
+        ],
+        "confidence": 1,
+        "text": "Comparison"
+      },
+      {
+        "bbox": [
+          0.08474576463276835,
+          0.21951219487804874,
+          0.31525423920903956,
+          0.26829268268292683
+        ],
+        "confidence": 1,
+        "text": "No Capacitance"
+      },
+      {
+        "bbox": [
+          0.0847457656271186,
+          0.33170731697560973,
+          0.3762711893559322,
+          0.3804878047804878
+        ],
+        "confidence": 1,
+        "text": "Nested Miller comp."
+      },
+      {
+        "bbox": [
+          0.08813559599999998,
+          0.45853658507317085,
+          0.36610169769491524,
+          0.5073170728780488
+        ],
+        "confidence": 1,
+        "text": "NMC with nulling R"
+      },
+      {
+        "bbox": [
+          0.0915254263276836,
+          0.5707317071138213,
+          0.40338983310734455,
+          0.6146341461382114
+        ],
+        "confidence": 1,
+        "text": "Miller C Substitutions"
+      },
+      {
+        "bbox": [
+          0.08813559527845034,
+          0.6780487803832754,
+          0.3762711884987893,
+          0.7317073169686412
+        ],
+        "confidence": 1,
+        "text": "AC Boosting comp."
+      },
+      {
+        "bbox": [
+          0.08813558987288145,
+          0.7999999994512195,
+          0.3627118610593221,
+          0.8439024384756098
+        ],
+        "confidence": 1,
+        "text": "Transconductance"
+      },
+      {
+        "bbox": [
+          0.08813559033898312,
+          0.8536585367073172,
+          0.3186440649152543,
+          0.9024390245121953
+        ],
+        "confidence": 1,
+        "text": "Capacitance FC"
+      },
+      {
+        "bbox": [
+          0.8779661013135595,
+          0.014634145975609747,
+          0.9152542369067799,
+          0.0439024386585366
+        ],
+        "confidence": 0.5,
+        "text": "Tech."
+      },
+      {
+        "bbox": [
+          0.4474576279096044,
+          0.11707317048780486,
+          0.4949152550282485,
+          0.1414634143902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "N.tF"
+      },
+      {
+        "bbox": [
+          0.538983051920904,
+          0.11707317040650411,
+          0.6033898315819209,
+          0.14634146308943086
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "114051"
+      },
+      {
+        "bbox": [
+          0.4474576278531073,
+          0.18048780455284552,
+          0.4915254244632768,
+          0.20975609723577238
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AMC'"
+      },
+      {
+        "bbox": [
+          0.447457626440678,
+          0.21463414652439028,
+          0.5016949145762712,
+          0.23902439042682921
+        ],
+        "confidence": 1,
+        "text": "MNMC"
+      },
+      {
+        "bbox": [
+          0.4474576269491526,
+          0.24390243894308938,
+          0.49830508457627126,
+          0.26829268284552843
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ANCF"
+      },
+      {
+        "bbox": [
+          0.4474576264830508,
+          0.2780487806707317,
+          0.4983050841101695,
+          0.30243902457317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "NOCC"
+      },
+      {
+        "bbox": [
+          0.447457629638996,
+          0.30731707300813005,
+          0.5016949145417949,
+          0.3365853656910569
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "HAMG"
+      },
+      {
+        "bbox": [
+          0.44745762627118646,
+          0.3414634148170732,
+          0.5152542364406779,
+          0.36585365871951225
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MIINML"
+      },
+      {
+        "bbox": [
+          0.45084745745762717,
+          0.3707317072357723,
+          0.5016949150847458,
+          0.39512195113821136
+        ],
+        "confidence": 0.5,
+        "text": "DNMC"
+      },
+      {
+        "bbox": [
+          0.542372883819787,
+          0.18048780455284552,
+          0.5932203382141114,
+          0.20975609723577238
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1Ese921"
+      },
+      {
+        "bbox": [
+          0.5423728819915254,
+          0.21463414609756093,
+          0.5932203396186441,
+          0.24390243878048778
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LLic421"
+      },
+      {
+        "bbox": [
+          0.5355932213559322,
+          0.24390243878048778,
+          0.5966101705084746,
+          0.26829268268292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(Lecdlal"
+      },
+      {
+        "bbox": [
+          0.5389830533678096,
+          0.27804878024390245,
+          0.5932203382706085,
+          0.3024390241463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[Youa'T"
+      },
+      {
+        "bbox": [
+          0.5389830515599001,
+          0.3073170734146342,
+          0.593220336462699,
+          0.33170731731707315
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(Exe%41"
+      },
+      {
+        "bbox": [
+          0.5389830515599001,
+          0.34146341487804877,
+          0.593220336462699,
+          0.3658536587804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(Bxc*4]"
+      },
+      {
+        "bbox": [
+          0.5423728819491526,
+          0.37073170713414627,
+          0.5898305090677965,
+          0.3951219510365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(R9931"
+      },
+      {
+        "bbox": [
+          0.4474576296045197,
+          0.434146341300813,
+          0.5966101719774011,
+          0.46341463398373983
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AMCNIt [Ladlul"
+      },
+      {
+        "bbox": [
+          0.4440677955932203,
+          0.46341463430894314,
+          0.5050847447457627,
+          0.49268292699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IRNME"
+      },
+      {
+        "bbox": [
+          0.5389830516163973,
+          0.4682926831707317,
+          0.5898305060107216,
+          0.49268292707317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(H003)"
+      },
+      {
+        "bbox": [
+          0.4508474580508474,
+          0.4975609754268293,
+          0.48474576313559314,
+          0.5219512193292682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "EFC"
+      },
+      {
+        "bbox": [
+          0.5389830502118644,
+          0.49756097585365855,
+          0.5898305078389832,
+          0.5268292685365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ng991"
+      },
+      {
+        "bbox": [
+          0.44745762977401116,
+          0.5317073168292683,
+          0.6067796636723163,
+          0.5560975607317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ACiKNMr\" [Panpml"
+      },
+      {
+        "bbox": [
+          0.44745762762711866,
+          0.5902439029268293,
+          0.484745763220339,
+          0.6195121956097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "PEc"
+      },
+      {
+        "bbox": [
+          0.4508474596954932,
+          0.6195121946341464,
+          0.5050847445982921,
+          0.6487804873170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DREFC"
+      },
+      {
+        "bbox": [
+          0.5355932202754238,
+          0.5951219513719512,
+          0.5999999999364408,
+          0.6195121952743903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ran:0361"
+      },
+      {
+        "bbox": [
+          0.5322033906355932,
+          0.6195121949390244,
+          0.5966101702966101,
+          0.653658536402439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[I euala]"
+      },
+      {
+        "bbox": [
+          0.44745762727602906,
+          0.6878048781358884,
+          0.4983050849031477,
+          0.7121951220383275
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AGBC"
+      },
+      {
+        "bbox": [
+          0.4508474582627119,
+          0.7170731706097562,
+          0.5016949158898305,
+          0.7463414632926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "АСВС)"
+      },
+      {
+        "bbox": [
+          0.5322033903672316,
+          0.6829268290243903,
+          0.5966101700282486,
+          0.7219512192682928
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[PeI804І"
+      },
+      {
+        "bbox": [
+          0.5322033906355932,
+          0.717073170487805,
+          0.5966101702966101,
+          0.7463414631707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(Peng04)"
+      },
+      {
+        "bbox": [
+          0.44745762638418085,
+          0.8146341465853658,
+          0.49152542299435037,
+          0.8390243904878047
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AFPC"
+      },
+      {
+        "bbox": [
+          0.4474576272033898,
+          0.8439024386585365,
+          0.49491525432203387,
+          0.8731707313414634
+        ],
+        "confidence": 1,
+        "text": "DIPC"
+      },
+      {
+        "bbox": [
+          0.45084745745762717,
+          0.8780487803861788,
+          0.4915254235593221,
+          0.9024390242886179
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TOFC"
+      },
+      {
+        "bbox": [
+          0.5355932210514254,
+          0.785365853902439,
+          0.5898305059542244,
+          0.809756097804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "14nu83"
+      },
+      {
+        "bbox": [
+          0.5355932201694916,
+          0.8146341462697274,
+          0.5932203388135594,
+          0.8390243901721665
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(І есо3b]"
+      },
+      {
+        "bbox": [
+          0.5355932201694916,
+          0.8487804877331421,
+          0.5932203388135594,
+          0.8731707316355811
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1ceh5a)"
+      },
+      {
+        "bbox": [
+          0.5355932211864407,
+          0.8780487803048781,
+          0.6033898313559322,
+          0.902439024207317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "[Ucagos]"
+      },
+      {
+        "bbox": [
+          0.6169491519491526,
+          0.014634146585365881,
+          0.6644067790677967,
+          0.043902439268292626
+        ],
+        "confidence": 0.5,
+        "text": "ITOM:"
+      },
+      {
+        "bbox": [
+          0.6203389836723163,
+          0.11707317048780486,
+          0.6576271192655367,
+          0.1414634143902439
+        ],
+        "confidence": 0.5,
+        "text": "5.36"
+      },
+      {
+        "bbox": [
+          0.6237288139830508,
+          0.18048780463414638,
+          0.6576271190677966,
+          0.20975609731707312
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "$32"
+      },
+      {
+        "bbox": [
+          0.623728813220339,
+          0.2097560977560976,
+          0.6576271183050848,
+          0.23902439043902435
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10S3"
+      },
+      {
+        "bbox": [
+          0.6271186438983052,
+          0.2439024388719513,
+          0.6542372879661017,
+          0.26829268277439033
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "hixI"
+      },
+      {
+        "bbox": [
+          0.6305084747457627,
+          0.2780487807926829,
+          0.6508474577966101,
+          0.30243902469512196
+        ],
+        "confidence": 1,
+        "text": "36"
+      },
+      {
+        "bbox": [
+          0.6271186444067796,
+          0.30731707298780486,
+          0.6542372884745762,
+          0.3317073168902439
+        ],
+        "confidence": 1,
+        "text": "134"
+      },
+      {
+        "bbox": [
+          0.6271186443050848,
+          0.3365853656585366,
+          0.6508474578644068,
+          0.36585365834146333
+        ],
+        "confidence": 0.5,
+        "text": "401"
+      },
+      {
+        "bbox": [
+          0.6237288129943502,
+          0.3707317075609756,
+          0.657627118079096,
+          0.39512195146341456
+        ],
+        "confidence": 1,
+        "text": "250"
+      },
+      {
+        "bbox": [
+          0.6237288139830508,
+          0.43414634121951223,
+          0.6576271190677966,
+          0.463414633902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "410"
+      },
+      {
+        "bbox": [
+          0.6237288130508475,
+          0.46341463447154474,
+          0.6542372876271186,
+          0.4926829271544716
+        ],
+        "confidence": 1,
+        "text": "+26"
+      },
+      {
+        "bbox": [
+          0.6271186442161016,
+          0.49756097576219505,
+          0.6576271187923729,
+          0.5219512196646341
+        ],
+        "confidence": 1,
+        "text": "817"
+      },
+      {
+        "bbox": [
+          0.6271186436723164,
+          0.5268292678861789,
+          0.6576271182485877,
+          0.5512195117886178
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "7ix1"
+      },
+      {
+        "bbox": [
+          0.6813559327542372,
+          0.014634146097560974,
+          0.7254237293644067,
+          0.04390243878048783
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IГOMI"
+      },
+      {
+        "bbox": [
+          0.7457627126553672,
+          0.014634146178861829,
+          0.7932203397740112,
+          0.04390243886178857
+        ],
+        "confidence": 0.5,
+        "text": "TOMS"
+      },
+      {
+        "bbox": [
+          0.6677966107344633,
+          0.08780487780487811,
+          0.7016949158192091,
+          0.11219512170731705
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "NG:"
+      },
+      {
+        "bbox": [
+          0.6677966105084746,
+          0.14634146321951214,
+          0.7016949155932203,
+          0.175609755902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "NMS"
+      },
+      {
+        "bbox": [
+          0.6915254238418078,
+          0.18048780544715448,
+          0.7118644068926553,
+          0.21463414691056903
+        ],
+        "confidence": 0.5,
+        "text": "21"
+      },
+      {
+        "bbox": [
+          0.6915254240677966,
+          0.20975609731707312,
+          0.7186440681355932,
+          0.23902438999999998
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "168"
+      },
+      {
+        "bbox": [
+          0.6915254240850347,
+          0.2439024392682927,
+          0.7186440665364342,
+          0.26829268317073174
+        ],
+        "confidence": 1,
+        "text": "246"
+      },
+      {
+        "bbox": [
+          0.6915254234322035,
+          0.2780487806707317,
+          0.7152542369915255,
+          0.30243902457317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "14S"
+      },
+      {
+        "bbox": [
+          0.6881355935254237,
+          0.3073170729268293,
+          0.718644068101695,
+          0.34146341439024397
+        ],
+        "confidence": 0.5,
+        "text": "134"
+      },
+      {
+        "bbox": [
+          0.6915254249889896,
+          0.3365853655284552,
+          0.718644067440389,
+          0.36585365821138205
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+67"
+      },
+      {
+        "bbox": [
+          0.6915254235835351,
+          0.3707317071428571,
+          0.7186440676513317,
+          0.3951219510452961
+        ],
+        "confidence": 1,
+        "text": "188"
+      },
+      {
+        "bbox": [
+          0.6644067795480225,
+          0.3999999995121952,
+          0.7050847456497175,
+          0.42926829219512197
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MRs"
+      },
+      {
+        "bbox": [
+          0.6881355935254237,
+          0.43414634121951223,
+          0.718644068101695,
+          0.4682926826829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "148"
+      },
+      {
+        "bbox": [
+          0.6881355926553673,
+          0.4926829271544715,
+          0.722033897740113,
+          0.5219512198373983
+        ],
+        "confidence": 1,
+        "text": "1200"
+      },
+      {
+        "bbox": [
+          0.667796610621469,
+          0.5609756102439024,
+          0.7016949157062147,
+          0.5902439029268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MSs"
+      },
+      {
+        "bbox": [
+          0.8101694920338983,
+          0.014634146097560974,
+          0.8508474581355933,
+          0.04390243878048783
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ГOY"
+      },
+      {
+        "bbox": [
+          0.7525423723728814,
+          0.11707317097560976,
+          0.7830508469491525,
+          0.1414634148780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "214"
+      },
+      {
+        "bbox": [
+          0.7559322045370122,
+          0.21463414674796755,
+          0.7830508469884117,
+          0.23902439065040648
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "192"
+      },
+      {
+        "bbox": [
+          0.7525423727330509,
+          0.2439024388719513,
+          0.7830508473093221,
+          0.26829268277439033
+        ],
+        "confidence": 1,
+        "text": "300"
+      },
+      {
+        "bbox": [
+          0.7593220340677965,
+          0.2780487808536585,
+          0.779661017118644,
+          0.30731707353658533
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "15"
+      },
+      {
+        "bbox": [
+          0.7525423729378531,
+          0.3365853653658537,
+          0.7830508475141242,
+          0.36585365804878056
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "267"
+      },
+      {
+        "bbox": [
+          0.7525423723728814,
+          0.4341463416260163,
+          0.7830508469491525,
+          0.46341463430894314
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AJS"
+      },
+      {
+        "bbox": [
+          0.7559322032881356,
+          0.49756097536585364,
+          0.7796610168474576,
+          0.5219512192682926
+        ],
+        "confidence": 0.5,
+        "text": "272"
+      },
+      {
+        "bbox": [
+          0.755932203535109,
+          0.5317073172125436,
+          0.7830508476029056,
+          0.5512195123344948
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "251"
+      },
+      {
+        "bbox": [
+          0.6203389830508473,
+          0.6878048784756097,
+          0.6542372881355931,
+          0.7219512199390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SIRI"
+      },
+      {
+        "bbox": [
+          0.6237288140677967,
+          0.7170731712195122,
+          0.661016949661017,
+          0.746341463902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "5664"
+      },
+      {
+        "bbox": [
+          0.6610169494673124,
+          0.7463414632055748,
+          0.7050847460774818,
+          0.7853658534494773
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YCRS"
+      },
+      {
+        "bbox": [
+          0.6237288130508475,
+          0.785365853902439,
+          0.6542372876271186,
+          0.809756097804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "320"
+      },
+      {
+        "bbox": [
+          0.620338983559322,
+          0.814634146097561,
+          0.661016949661017,
+          0.8439024387804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3702"
+      },
+      {
+        "bbox": [
+          0.6203389832049307,
+          0.8439024391796008,
+          0.6610169493066256,
+          0.8780487806430154
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SRIS"
+      },
+      {
+        "bbox": [
+          0.6203389823728814,
+          0.8780487807317072,
+          0.6610169484745763,
+          0.9024390246341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "142.541"
+      },
+      {
+        "bbox": [
+          0.6915254238135593,
+          0.814634146707317,
+          0.7186440678813559,
+          0.8439024393902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "394"
+      },
+      {
+        "bbox": [
+          0.688135592881356,
+          0.8439024392195122,
+          0.7220338979661017,
+          0.873170731902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Tam"
+      },
+      {
+        "bbox": [
+          0.6847457625593221,
+          0.8780487803658535,
+          0.7220338981525425,
+          0.9024390242682926
+        ],
+        "confidence": 0.5,
+        "text": "5175"
+      },
+      {
+        "bbox": [
+          0.8237288133898305,
+          0.1804878045731707,
+          0.844067796440678,
+          0.20487804847560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "24"
+      },
+      {
+        "bbox": [
+          0.8237288137288135,
+          0.24390243939024392,
+          0.8440677967796609,
+          0.27317073207317066
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "125"
+      },
+      {
+        "bbox": [
+          0.8203389834463277,
+          0.3073170729268293,
+          0.8440677970056498,
+          0.33170731682926835
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "84"
+      },
+      {
+        "bbox": [
+          0.8203389843110235,
+          0.34146341439024397,
+          0.847457626762423,
+          0.365853658292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3L1"
+      },
+      {
+        "bbox": [
+          0.8237288138135593,
+          0.37073170713414627,
+          0.8440677968644068,
+          0.3951219510365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "38"
+      },
+      {
+        "bbox": [
+          0.884745763220339,
+          0.3170731706504065,
+          0.9152542377966102,
+          0.34146341455284557
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SEX"
+      },
+      {
+        "bbox": [
+          0.8745762716949153,
+          0.37560975585365863,
+          0.9152542377966102,
+          0.4048780485365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "diins"
+      },
+      {
+        "bbox": [
+          0.8203389826553672,
+          0.43414634170731703,
+          0.8440677962146892,
+          0.4585365856097561
+        ],
+        "confidence": 1,
+        "text": "84"
+      },
+      {
+        "bbox": [
+          0.8203389833898305,
+          0.46341463396341465,
+          0.8474576274576271,
+          0.4878048778658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T4X"
+      },
+      {
+        "bbox": [
+          0.8169491520338983,
+          0.49756097585365844,
+          0.8474576266101694,
+          0.5219512197560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "400"
+      },
+      {
+        "bbox": [
+          0.8169491531073446,
+          0.5902439021138212,
+          0.8508474581920904,
+          0.619512194796748
+        ],
+        "confidence": 1,
+        "text": "473"
+      },
+      {
+        "bbox": [
+          0.8169491528474577,
+          0.6195121949268293,
+          0.8474576274237289,
+          0.648780487609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "314"
+      },
+      {
+        "bbox": [
+          0.8169491521186442,
+          0.6878048782317073,
+          0.8508474572033898,
+          0.7121951221341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1:08"
+      },
+      {
+        "bbox": [
+          0.8169491522033897,
+          0.7170731704268293,
+          0.8508474572881355,
+          0.7414634143292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1547"
+      },
+      {
+        "bbox": [
+          0.7491525417514124,
+          0.8146341465853658,
+          0.7864406773446327,
+          0.8390243904878047
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1950"
+      },
+      {
+        "bbox": [
+          0.7491525417514124,
+          0.8439024391869918,
+          0.7864406773446327,
+          0.8731707318699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "X$45"
+      },
+      {
+        "bbox": [
+          0.7491525430508474,
+          0.8780487802439025,
+          0.7898305091525424,
+          0.9024390241463416
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VACK"
+      },
+      {
+        "bbox": [
+          0.8169491521610169,
+          0.8146341465243903,
+          0.8474576267372881,
+          0.8390243904268293
+        ],
+        "confidence": 1,
+        "text": "447"
+      },
+      {
+        "bbox": [
+          0.8169491529943503,
+          0.8439024395121951,
+          0.8508474580790961,
+          0.8731707321951219
+        ],
+        "confidence": 0.5,
+        "text": "1200"
+      },
+      {
+        "bbox": [
+          0.8135593214124294,
+          0.8780487807317072,
+          0.8508474570056498,
+          0.9024390246341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "34.5)"
+      },
+      {
+        "bbox": [
+          0.877966102259887,
+          0.8243902435772358,
+          0.9118644073446328,
+          0.8536585362601625
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "vias"
+      },
+      {
+        "bbox": [
+          0.874576271158192,
+          0.8878048778455284,
+          0.9118644067514123,
+          0.9121951217479675
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LASXIN"
+      },
+      {
+        "bbox": [
+          0.7322033923305085,
+          0.9268292680487805,
+          0.9322033923305084,
+          0.9560975607317074
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.050951"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0281_02_0951.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The addition of nulling resistances in series with the compensation capacitance does not increase the FOM a lot.",
+        "pdf_page": 281,
+        "printed_page": 288,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The addition of nulling resistances in series with the compensation capacitance does not increase the FOM a lot.",
+      "pdf_page": 281,
+      "printed_page": 288,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

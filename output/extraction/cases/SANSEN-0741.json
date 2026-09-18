@@ -1,0 +1,274 @@
+{
+  "case_id": "SANSEN-0741",
+  "slide_id": "0741",
+  "chapter": 7,
+  "slide_number_in_chapter": 41,
+  "source": {
+    "pdf_page": 226,
+    "printed_page": 231
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0226_01_0741.jpg",
+      "pdf_page": 226,
+      "printed_page": 231,
+      "bbox_pt": [
+        91.521622,
+        223.17346199999997,
+        374.78981,
+        419.633453
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 226,
+      "printed_page": 231,
+      "bbox_pt": [
+        0,
+        219.18389999999977,
+        595,
+        582.9065000000003
+      ],
+      "text_raw": "This is the first fully rail-to-\nrail amplifier that we will\ndiscuss, is shown in this\nslide. It provides rail-to-rail\ncapability at both the input\nand the output. It can be\nconnected in unity gain as a\nbuffer. It has a class AB\noutput stage to be able to\nprovide large output cur-\nrents indeed.\nAt the input two folded\ncascode stages are con-\nnected in parallel. The\ncommon-mode input range\nthus includes both supply\nlines.\nTheir outputs are applied to two differential current amplifiers, ending up at the Gates of the\ntwo large output devices. These devices are the output stage.\nWe have a two-stage Miller opamp. The compensation capacitances are clearly distinguished.\nHowever, they connect directly Drain to Gate. Perhaps it is better to find a path through one\nof the cascodes. For example C may be better connected to the source of M14!\nc2\nThe Gates of the output transistors are at very high impedance. It may not appear like that\nbecause these nodes are also connected to two Sources of transistors MA3 and MA4. Sources\nsuggest impedance levels of 1/g . This is not the case here however, as these two transistors are\nm\nbootstrapped out. This is explained later.\nThe rail-to-rail input stage can cause large variations in GBW, however. This is examined first.",
+      "text": "This is the first fully rail-torail amplifier that we will discuss, is shown in this slide. It provides rail-to-rail capability at both the input and the output. It can be connected in unity gain as a buffer. It has a class AB output stage to be able to provide large output currents indeed. At the input two folded cascode stages are connected in parallel. The common-mode input range thus includes both supply lines. Their outputs are applied to two differential current amplifiers, ending up at the Gates of the two large output devices. These devices are the output stage. We have a two-stage Miller opamp. The compensation capacitances are clearly distinguished. However, they connect directly Drain to Gate. Perhaps it is better to find a path through one of the cascodes. For example C may be better connected to the source of M14! c2 The Gates of the output transistors are at very high impedance. It may not appear like that because these nodes are also connected to two Sources of transistors MA3 and MA4. Sources suggest impedance levels of 1/g . This is not the case here however, as these two transistors are m bootstrapped out. This is explained later. The rail-to-rail input stage can cause large variations in GBW, however. This is examined first."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This is the first fully rail-torail amplifier that we will discuss, is shown in this slide. It provides rail-to-rail capability at both the input and the output. It can be connected in unity gain as a buffer. It has a class AB output stage to be able to provide large output currents indeed. At the input two folded cascode stages are connected in parallel. The common-mode input range thus includes both supply lines. Their outputs are applied to two differential current amplifiers, ending up at the Gates of the two large output devices. These devices are the output stage. We have a two-stage Miller opamp. The compensation capacitances are clearly distinguished. However, they connect directly Drain to Gate. Perhaps it is better to find a path through one of the cascodes. For example C may be better connected to the source of M14! c2 The Gates of the output transistors are at very high impedance. It may not appear like that because these nodes are also connected to two Sources of transistors MA3 and MA4. Sources suggest impedance levels of 1/g . This is not the case here however, as these two transistors are m bootstrapped out. This is explained later. The rail-to-rail input stage can cause large variations in GBW, however. This is examined first.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Ref.: Wu etal, JSSC Jan.1994, pp.63-66",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0226_01_0741.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432820945932,
+          0.09756097617886172,
+          0.456081084966216,
+          0.1317073176422764
+        ],
+        "confidence": 0.5,
+        "text": "Ref.: Wu etal, JSSC Jan.1994, pp.63-66"
+      },
+      {
+        "bbox": [
+          0.520270268918919,
+          0.4487804879674797,
+          0.6013513500000001,
+          0.4878048782113822
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1 Vin"
+      },
+      {
+        "bbox": [
+          0.5270270278378378,
+          0.5999999998536586,
+          0.6081081089189189,
+          0.6341463413170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m3Vin"
+      },
+      {
+        "bbox": [
+          0.8241399212267282,
+          0.35514414924134863,
+          0.9191033235882113,
+          0.396075364760207
+        ],
+        "confidence": 1,
+        "text": "14 MHz"
+      },
+      {
+        "bbox": [
+          0.8344594600506756,
+          0.4000000005487805,
+          0.9155405411317566,
+          0.44390243957317077
+        ],
+        "confidence": 0.5,
+        "text": "/11pF"
+      },
+      {
+        "bbox": [
+          0.8242838586164328,
+          0.48758461397268626,
+          0.9257161434097712,
+          0.5270495319697209
+        ],
+        "confidence": 0.5,
+        "text": "5.6 MHz"
+      },
+      {
+        "bbox": [
+          0.8411433128225396,
+          0.5313490166235437,
+          0.9325053381092399,
+          0.5710900093789684
+        ],
+        "confidence": 1,
+        "text": "/ 100pF"
+      },
+      {
+        "bbox": [
+          0.834459460008446,
+          0.6195121956097561,
+          0.9121621627111486,
+          0.6585365858536585
+        ],
+        "confidence": 0.5,
+        "text": "4 V/us"
+      },
+      {
+        "bbox": [
+          0.8277027014189191,
+          0.7073170734146342,
+          0.9560810797972974,
+          0.7414634148780488
+        ],
+        "confidence": 0.5,
+        "text": "36 nV/v Hz"
+      },
+      {
+        "bbox": [
+          0.8277027024774776,
+          0.795121951788618,
+          0.8682432430180181,
+          0.8292682932520326
+        ],
+        "confidence": 0.5,
+        "text": "5 V"
+      },
+      {
+        "bbox": [
+          0.8275869528615524,
+          0.8384175221747369,
+          0.9122779103175741,
+          0.873777600288572
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0.4 mA"
+      },
+      {
+        "bbox": [
+          0.7192506283255593,
+          0.936170395901696,
+          0.9261786108620814,
+          0.9770577214676855
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0741"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is the first fully rail-torail amplifier that we will discuss, is shown in this slide.",
+      "pdf_page": 226,
+      "printed_page": 231,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Perhaps it is better to find a path through one of the cascodes.",
+      "pdf_page": 226,
+      "printed_page": 231,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is explained later.",
+      "pdf_page": 226,
+      "printed_page": 231,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0226_01_0741.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It can be connected in unity gain as a buffer.",
+        "pdf_page": 226,
+        "printed_page": 231,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "At the input two folded cascode stages are connected in parallel.",
+        "pdf_page": 226,
+        "printed_page": 231,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "However, they connect directly Drain to Gate.",
+        "pdf_page": 226,
+        "printed_page": 231,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "For example C may be better connected to the source of M14! c2 The Gates of the output transistors are at very high impedance.",
+        "pdf_page": 226,
+        "printed_page": 231,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It may not appear like that because these nodes are also connected to two Sources of transistors MA3 and MA4.",
+        "pdf_page": 226,
+        "printed_page": 231,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It can be connected in unity gain as a buffer.",
+      "pdf_page": 226,
+      "printed_page": 231,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The common-mode input range thus includes both supply lines.",
+      "pdf_page": 226,
+      "printed_page": 231,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

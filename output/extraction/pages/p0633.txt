@@ -1,0 +1,54 @@
+644 Chapter #21
+The same is true for the pMOST device. The input voltage V can only decrease until it
+in
+reaches 0.8 V. For lower input voltages, the pMOST can no longer be turned on.
+This establishes a minimum value for the supply voltage V which is the sum of both V
+DDmin GS
+values. In this example this is 1.6 V.
+2114
+The same story is given in
+this slide. The output con-
+ductance (inverse ON resis-
+tance) is given for input
+voltages from zero to the
+supply voltage V .
+DD
+In both cases, the
+nMOST conducts for low
+input voltages and the
+pMOST for high input volt-
+ages. For a large supply
+voltage (5 V), there is a large
+region in the middle where
+both the nMOST and
+pMOST conduct, giving
+rise to a small total ON-
+resistance.
+However, for a small supply voltage (1 V) there is a hole in the middle. None of the MOSTs
+can be turned on. For such a low supply voltage it is therefore not possible to construct a
+nMOST/pMOST switch combination which conducts for all input voltages.
+How can we solve this problem?
+Note that in the plots in this slide, the V ’s have been substituted by the V ’s themselves. In
+GS T
+this way, the lowest possible V ’s values have been taken into account. There may still be some
+GS
+leakage because of the weak-inversion operation but this has been neglected.
+2115
+The same story is repeated
+once more but for the
+ON-resistances themselves.
+The numerical values of the
+ON-resistances are plotted
+for input voltages going
+from zero to the supply volt-
+age V .
+DD
+The numerical values cor-
+respond to an older CMOS
+process with rather large V
+T
+values (0.9 V). The W/L
+ratios are five.
+It is clear that for a supply
+voltage of 5 V, there is a
+large region in the middle

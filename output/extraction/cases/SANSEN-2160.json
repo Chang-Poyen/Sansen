@@ -1,0 +1,187 @@
+{
+  "case_id": "SANSEN-2160",
+  "slide_id": "2160",
+  "chapter": 21,
+  "slide_number_in_chapter": 60,
+  "source": {
+    "pdf_page": 656,
+    "printed_page": 667
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0656_02_2160.jpg",
+      "pdf_page": 656,
+      "printed_page": 667,
+      "bbox_pt": [
+        91.52162,
+        359.79361,
+        374.78981,
+        556.2536
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 656,
+      "printed_page": 667,
+      "bbox_pt": [
+        0,
+        355.8041,
+        595,
+        797
+      ],
+      "text_raw": "Other low-power sigma\ndelta converters are dis-\ncussed. They again address\nthe input switch to improve\nthe SNDR ratio.\nIn this one, a series resis-\ntor is used at the input,\nwhich replaces the input\nswitch.",
+      "text": "Other low-power sigma delta converters are discussed. They again address the input switch to improve the SNDR ratio. In this one, a series resistor is used at the input, which replaces the input switch."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Other low-power sigma delta converters are discussed. They again address the input switch to improve the SNDR ratio. In this one, a series resistor is used at the input, which replaces the input switch.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0656_02_2160.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459460016891878,
+          0.24878048750000004,
+          0.5405405461148647,
+          0.3024390240853658
+        ],
+        "confidence": 0.5,
+        "text": "• Delta-sigma modulation"
+      },
+      {
+        "bbox": [
+          0.09797297668918917,
+          0.33170731682926835,
+          0.46959459831081074,
+          0.38536585341463414
+        ],
+        "confidence": 0.5,
+        "text": "• The switch problem"
+      },
+      {
+        "bbox": [
+          0.09797296846846852,
+          0.41463414666666676,
+          0.638513509009009,
+          0.47317073203252036
+        ],
+        "confidence": 1,
+        "text": "• The switched-opamp solution"
+      },
+      {
+        "bbox": [
+          0.0958333510395769,
+          0.4999999995306481,
+          0.8250000005229225,
+          0.5609756092867456
+        ],
+        "confidence": 1,
+        "text": "* Other low-power Delta-sigma converters"
+      },
+      {
+        "bbox": [
+          0.1418918902027027,
+          0.5804878044715447,
+          0.41891891722972974,
+          0.6292682922764228
+        ],
+        "confidence": 1,
+        "text": "• Unity-gain-reset"
+      },
+      {
+        "bbox": [
+          0.13851350925675684,
+          0.6585365855609756,
+          0.5641891849324325,
+          0.7073170733658537
+        ],
+        "confidence": 1,
+        "text": "• Optimized input switching"
+      },
+      {
+        "bbox": [
+          0.138513514161036,
+          0.7317073174796748,
+          0.5270270276745496,
+          0.7804878052845529
+        ],
+        "confidence": 1,
+        "text": "• Switched input resistor"
+      },
+      {
+        "bbox": [
+          0.14527026706081095,
+          0.8048780492930987,
+          0.4189189157094596,
+          0.8439024383739837
+        ],
+        "confidence": 1,
+        "text": "• Full feedforward"
+      },
+      {
+        "bbox": [
+          0.7229729758694213,
+          0.9365853660975609,
+          0.9358108008197684,
+          0.9707317075609755
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2160"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0656_02_2160.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

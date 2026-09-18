@@ -1,0 +1,404 @@
+{
+  "case_id": "SANSEN-2229",
+  "slide_id": "2229",
+  "chapter": 22,
+  "slide_number_in_chapter": 29,
+  "source": {
+    "pdf_page": 680,
+    "printed_page": 691
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0681_01_2229.jpg",
+      "pdf_page": 681,
+      "printed_page": 692,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 680,
+      "printed_page": 691,
+      "bbox_pt": [
+        0,
+        630.73855,
+        595,
+        797
+      ],
+      "text_raw": "The AGC circuit is now easily found. It is called an Amplitude Regulator.\nThe output of the oscillator, at the left of the crystal, is connected to the Q1 input of the AGC\ncircuit, in series with a coupling capacitor C7. It is also connected to the Q1 input of the Output\nAmplifier, towards a series of inverters.",
+      "text": "The AGC circuit is now easily found. It is called an Amplitude Regulator. The output of the oscillator, at the left of the crystal, is connected to the Q1 input of the AGC circuit, in series with a coupling capacitor C7. It is also connected to the Q1 input of the Output Amplifier, towards a series of inverters."
+    },
+    {
+      "pdf_page": 681,
+      "printed_page": 692,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        441.4035100000002
+      ],
+      "text_raw": "In the Amplitude Regul-\nator, the input Q1 drives the\nGate of transistor M3,\nwhich operates somewhat as\na rectifier. When a MOST is\noverdriven, its average cur-\nrent increases, which is a\nmeasure for the input volt-\nage amplitude.\nThis simple rectifier is fol-\nlowed by a low-pass filter\nmade up by capacitors C\n4\nand C and transistor M39.\n5\nThis latter transistor oper-\nates as a large resistor\nbecause its V is again zero.\nDS\nThe voltage at transistor\nM5 is now converted to a current, by use of resistor R7, and fed back to the oscillator transistor\nM1 by means of current mirror M6–M2.\nThe AGC loop works as follows. When no signal is present, the Gate voltage of M5 is fairly\nlow and a large current is sent to M1. When the oscillation has come up, more current is flowing\nthrough M3 such that the gate of M5 increases. As a result, the current in M3 decreases and so\ndoes the current in M1. In equilibrium, the AGC circuit maintains the minimum current for\nwhich oscillation is sustained, which corresponds with point A.",
+      "text": "In the Amplitude Regulator, the input Q1 drives the Gate of transistor M3, which operates somewhat as a rectifier. When a MOST is overdriven, its average current increases, which is a measure for the input voltage amplitude. This simple rectifier is followed by a low-pass filter made up by capacitors C 4 and C and transistor M39. 5 This latter transistor operates as a large resistor because its V is again zero. DS The voltage at transistor M5 is now converted to a current, by use of resistor R7, and fed back to the oscillator transistor M1 by means of current mirror M6–M2. The AGC loop works as follows. When no signal is present, the Gate voltage of M5 is fairly low and a large current is sent to M1. When the oscillation has come up, more current is flowing through M3 such that the gate of M5 increases. As a result, the current in M3 decreases and so does the current in M1. In equilibrium, the AGC circuit maintains the minimum current for which oscillation is sustained, which corresponds with point A."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The AGC circuit is now easily found. It is called an Amplitude Regulator. The output of the oscillator, at the left of the crystal, is connected to the Q1 input of the AGC circuit, in series with a coupling capacitor C7. It is also connected to the Q1 input of the Output Amplifier, towards a series of inverters.\n\nIn the Amplitude Regulator, the input Q1 drives the Gate of transistor M3, which operates somewhat as a rectifier. When a MOST is overdriven, its average current increases, which is a measure for the input voltage amplitude. This simple rectifier is followed by a low-pass filter made up by capacitors C 4 and C and transistor M39. 5 This latter transistor operates as a large resistor because its V is again zero. DS The voltage at transistor M5 is now converted to a current, by use of resistor R7, and fed back to the oscillator transistor M1 by means of current mirror M6–M2. The AGC loop works as follows. When no signal is present, the Gate voltage of M5 is fairly low and a large current is sent to M1. When the oscillation has come up, more current is flowing through M3 such that the gate of M5 increases. As a result, the current in M3 decreases and so does the current in M1. In equilibrium, the AGC circuit maintains the minimum current for which oscillation is sustained, which corresponds with point A.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Full schematic",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0681_01_2229.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270061936942,
+          0.07804878004065041,
+          0.33445945737612615,
+          0.1317073166260163
+        ],
+        "confidence": 1,
+        "text": "Full schematic"
+      },
+      {
+        "bbox": [
+          0.10462556171957411,
+          0.2529397462993974,
+          0.1994284954898312,
+          0.28364561927704957
+        ],
+        "confidence": 0.5,
+        "text": "Oscillator"
+      },
+      {
+        "bbox": [
+          0.2970876024987949,
+          0.20850155621883026,
+          0.3921015882615199,
+          0.24515697991818597
+        ],
+        "confidence": 1,
+        "text": "Amplitude"
+      },
+      {
+        "bbox": [
+          0.29389814586008645,
+          0.2535381547263007,
+          0.3885342897248985,
+          0.2879252594120143
+        ],
+        "confidence": 1,
+        "text": "regulator"
+      },
+      {
+        "bbox": [
+          0.057432432787450166,
+          0.531707317817281,
+          0.08445945820354085,
+          0.5512195117762148
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MIS"
+      },
+      {
+        "bbox": [
+          0.310810810670045,
+          0.5658536583333332,
+          0.33445945931869364,
+          0.5902439022357723
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M3д"
+      },
+      {
+        "bbox": [
+          0.4794799008001812,
+          0.2076125585383739,
+          0.6320065887315512,
+          0.25092402652320145
+        ],
+        "confidence": 0.5,
+        "text": "Output voltage"
+      },
+      {
+        "bbox": [
+          0.5236486501689189,
+          0.2536585363414634,
+          0.614864866385135,
+          0.28780487780487807
+        ],
+        "confidence": 1,
+        "text": "regulator"
+      },
+      {
+        "bbox": [
+          0.7128378368243243,
+          0.20975609807358664,
+          0.7804054043918919,
+          0.24878048599145408
+        ],
+        "confidence": 1,
+        "text": "Output"
+      },
+      {
+        "bbox": [
+          0.7128378389358108,
+          0.25365853640243907,
+          0.8006756767736486,
+          0.2878048778658536
+        ],
+        "confidence": 1,
+        "text": "amplifier"
+      },
+      {
+        "bbox": [
+          0.7060810809121622,
+          0.38536585356984476,
+          0.7432432430743243,
+          0.404878048691796
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1| M19|"
+      },
+      {
+        "bbox": [
+          0.7567567559966216,
+          0.37073170670731703,
+          0.831081080320946,
+          0.4195121945121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TAMs"
+      },
+      {
+        "bbox": [
+          0.7398648652702702,
+          0.42926829248780485,
+          0.7804054058108107,
+          0.47804878029268294
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "101"
+      },
+      {
+        "bbox": [
+          0.472972972339527,
+          0.5024390246341464,
+          0.5236486480152027,
+          0.5414634148780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4/422"
+      },
+      {
+        "bbox": [
+          0.5912162145039286,
+          0.43902438723494064,
+          0.6283783798879634,
+          0.5073170748138398
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "34"
+      },
+      {
+        "bbox": [
+          0.6250000004222972,
+          0.49268292658536594,
+          0.6587837842060811,
+          0.5317073168292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ",lp"
+      },
+      {
+        "bbox": [
+          0.7162162160472973,
+          0.5121951218292683,
+          0.7432432430743244,
+          0.5317073169512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M12"
+      },
+      {
+        "bbox": [
+          0.7837837843327703,
+          0.5024390241463415,
+          0.8277027032516893,
+          0.5512195119512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Чрнк"
+      },
+      {
+        "bbox": [
+          0.5101351349662163,
+          0.6048780485772358,
+          0.5304054052364865,
+          0.6292682924796748
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VR"
+      },
+      {
+        "bbox": [
+          0.6317567563513513,
+          0.7853658533170732,
+          0.6790540536486486,
+          0.8195121947804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4[м32"
+      },
+      {
+        "bbox": [
+          0.6993243246621622,
+          0.8390243897560976,
+          0.7466216219594596,
+          0.8682926824390245
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vg < 0"
+      },
+      {
+        "bbox": [
+          0.5540540588260133,
+          0.8878048777439024,
+          0.9358108155827701,
+          0.9219512192073169
+        ],
+        "confidence": 1,
+        "text": "Ref. Vittoz, JSSC June 88, 774-783"
+      },
+      {
+        "bbox": [
+          0.7260180270988678,
+          0.9457484646480857,
+          0.9395337727257813,
+          0.9867549390267181
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2229"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0681_01_2229.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The output of the oscillator, at the left of the crystal, is connected to the Q1 input of the AGC circuit, in series with a coupling capacitor C7.",
+        "pdf_page": 680,
+        "printed_page": 691,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It is also connected to the Q1 input of the Output Amplifier, towards a series of inverters.",
+        "pdf_page": 680,
+        "printed_page": 691,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In the Amplitude Regulator, the input Q1 drives the Gate of transistor M3, which operates somewhat as a rectifier.",
+        "pdf_page": 681,
+        "printed_page": 692,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "When no signal is present, the Gate voltage of M5 is fairly low and a large current is sent to M1.",
+        "pdf_page": 681,
+        "printed_page": 692,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "When the oscillation has come up, more current is flowing through M3 such that the gate of M5 increases.",
+        "pdf_page": 681,
+        "printed_page": 692,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "When a MOST is overdriven, its average current increases, which is a measure for the input voltage amplitude.",
+      "pdf_page": 681,
+      "printed_page": 692,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When the oscillation has come up, more current is flowing through M3 such that the gate of M5 increases.",
+      "pdf_page": 681,
+      "printed_page": 692,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the current in M3 decreases and so does the current in M1.",
+      "pdf_page": 681,
+      "printed_page": 692,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2229-M01",
+      "ocr_text": "Vg < 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6993243246621622,
+        0.8390243897560976,
+        0.7466216219594596,
+        0.8682926824390245
+      ],
+      "context_crop": "regions/SANSEN-2229_math_01.png",
+      "context_bbox_normalized": [
+        0.6593243246621622,
+        0.7390243897560976,
+        0.9766216219594596,
+        0.93
+      ],
+      "source_image": "slides/p0681_01_2229.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

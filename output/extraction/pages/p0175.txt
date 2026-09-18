@@ -1,0 +1,40 @@
+Stability of operational amplifiers 179
+0557
+As an example, let us design
+an opamp with the GBW
+and C given in this slide.
+L
+The compensation cap-
+acitances have been set at
+half the load capacitance or
+1 pF. The g ’s are now
+m
+easily calculated. It is obvi-
+ous that because of the
+higher-frequency pole f at
+nd2
+the output,
+the output transistor M3
+also consumes most of the
+current.
+0558
+For sake of comparison, we
+have designed a single-stage,
+two-stage and a three-stage
+opamp for the same
+specifications.
+It is obvious that the
+single-stage opamp is the
+champion in power con-
+sumption. The addition of
+compensation capacitances
+invariably leads to excessive
+power consumption.
+However, a single-stage
+opamp does not provide a
+lot of gain. The addition of
+cascodes and gain boosting
+reduces the output swing. This is where a two-stage Miller opamp offers considerable advantages.
+A three-stage amplifier will be used whenever we need a class-AB output stage. Also when the
+supply voltage is so low that there is no room for cascodes, we may have to go for cascading
+rather than cascoding!

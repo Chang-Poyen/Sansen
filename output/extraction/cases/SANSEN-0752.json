@@ -1,0 +1,159 @@
+{
+  "case_id": "SANSEN-0752",
+  "slide_id": "0752",
+  "chapter": 7,
+  "slide_number_in_chapter": 52,
+  "source": {
+    "pdf_page": 232,
+    "printed_page": 237
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0232_02_0752.jpg",
+      "pdf_page": 232,
+      "printed_page": 237,
+      "bbox_pt": [
+        91.52162,
+        347.88542,
+        374.54222,
+        544.39526
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 232,
+      "printed_page": 237,
+      "bbox_pt": [
+        0,
+        343.89596,
+        595,
+        797
+      ],
+      "text_raw": "In this Chapter, a wide vari-\nety of possible operational\namplifiers have been\ndiscussed. Most design\neffort has gone to the sym-\nmetrical amplifier and the\nfolded cascode.\nHowever, most of them\nhave a single-ended output.\nThey cannot be used in a\nmixed-signal environment.\nFor this purpose, they must\nbe fully differential. They\nmust have two outputs, as\nintroduced in the next\nChapter.",
+      "text": "In this Chapter, a wide variety of possible operational amplifiers have been discussed. Most design effort has gone to the symmetrical amplifier and the folded cascode. However, most of them have a single-ended output. They cannot be used in a mixed-signal environment. For this purpose, they must be fully differential. They must have two outputs, as introduced in the next Chapter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter, a wide variety of possible operational amplifiers have been discussed. Most design effort has gone to the symmetrical amplifier and the folded cascode. However, most of them have a single-ended output. They cannot be used in a mixed-signal environment. For this purpose, they must be fully differential. They must have two outputs, as introduced in the next Chapter.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0232_02_0752.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0745762734140436,
+          0.07317073153310105,
+          0.38644068019370464,
+          0.13658536567944246
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10847457177966112,
+          0.27804878073170736,
+          0.4677966056779662,
+          0.33658536609756096
+        ],
+        "confidence": 1,
+        "text": "• Simple CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.1118644046822034,
+          0.35121951240853655,
+          0.44745762502118647,
+          0.41463414655487796
+        ],
+        "confidence": 1,
+        "text": "• CMOS Miller OTA"
+      },
+      {
+        "bbox": [
+          0.11186440961864401,
+          0.43414634121951223,
+          0.5661016977542372,
+          0.49268292658536583
+        ],
+        "confidence": 1,
+        "text": "• Symmetrical CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.11186441008474568,
+          0.5121951217073172,
+          0.5084745795762711,
+          0.5707317070731708
+        ],
+        "confidence": 1,
+        "text": "• Folded cascode OTA"
+      },
+      {
+        "bbox": [
+          0.11097371468103905,
+          0.5903956810344295,
+          0.3906830942328134,
+          0.6553702798027102
+        ],
+        "confidence": 0.5,
+        "text": "• Other opamps"
+      },
+      {
+        "bbox": [
+          0.718644065661017,
+          0.9414634148780487,
+          0.9322033876949153,
+          0.9853658539024389
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10€5 0752"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0232_02_0752.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

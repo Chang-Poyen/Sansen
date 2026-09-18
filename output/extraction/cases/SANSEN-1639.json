@@ -1,0 +1,183 @@
+{
+  "case_id": "SANSEN-1639",
+  "slide_id": "1639",
+  "chapter": 16,
+  "slide_number_in_chapter": 39,
+  "source": {
+    "pdf_page": 467,
+    "printed_page": 476
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0467_01_1639.jpg",
+      "pdf_page": 467,
+      "printed_page": 476,
+      "bbox_pt": [
+        91.52162,
+        187.29949999999997,
+        374.54215999999997,
+        383.75946
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 467,
+      "printed_page": 476,
+      "bbox_pt": [
+        0,
+        183.30993999999987,
+        595,
+        463.32647000000014
+      ],
+      "text_raw": "The BiCMOS opamp which\noperates at a supply voltage\nbelow 1 V is shown in this\nslide.\nIt uses a pseudo-differ-\nential input stage. This is\neasy, as the input voltages\nare connected to the V ’s\nBE\nof the bandgap. Actually,\nthe input transistors form\ncurrent mirrors with the\ndiode connected npn tran-\nsistors of the bandgap refer-\nence. The currents are now\nwell defined!\nThe outputs of the input\ntransistors lead to the output through one or two current mirrors. It is therefore a single-stage\nopamp. The gain is moderate, but the dominant pole is high, as indicated by the GBW.\nThe minimum supply voltage is V +V . For a V of about 0.5 V this is only about 0.9 V.\nGS DSsat T",
+      "text": "The BiCMOS opamp which operates at a supply voltage below 1 V is shown in this slide. It uses a pseudo-differential input stage. This is easy, as the input voltages are connected to the V ’s BE of the bandgap. Actually, the input transistors form current mirrors with the diode connected npn transistors of the bandgap reference. The currents are now well defined! The outputs of the input transistors lead to the output through one or two current mirrors. It is therefore a single-stage opamp. The gain is moderate, but the dominant pole is high, as indicated by the GBW. The minimum supply voltage is V +V . For a V of about 0.5 V this is only about 0.9 V. GS DSsat T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The BiCMOS opamp which operates at a supply voltage below 1 V is shown in this slide. It uses a pseudo-differential input stage. This is easy, as the input voltages are connected to the V ’s BE of the bandgap. Actually, the input transistors form current mirrors with the diode connected npn transistors of the bandgap reference. The currents are now well defined! The outputs of the input transistors lead to the output through one or two current mirrors. It is therefore a single-stage opamp. The gain is moderate, but the dominant pole is high, as indicated by the GBW. The minimum supply voltage is V +V . For a V of about 0.5 V this is only about 0.9 V. GS DSsat T",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "1 V opamp (1.2 MHz 25 pF 35 MA)",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0467_01_1639.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07796609549152551,
+          0.08780487819512195,
+          0.698305078542373,
+          0.15121951234146347
+        ],
+        "confidence": 0.5,
+        "text": "1 V opamp (1.2 MHz 25 pF 35 MA)"
+      },
+      {
+        "bbox": [
+          0.823728814237288,
+          0.42926829263414623,
+          0.8915254244067796,
+          0.48292682921951213
+        ],
+        "confidence": 0.5,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.8779661022457627,
+          0.6487804877439024,
+          0.9220338988559321,
+          0.7024390243292682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.07796610223728813,
+          0.7073170737073171,
+          0.1389830513898305,
+          0.7609756102926829
+        ],
+        "confidence": 1,
+        "text": "Vin+"
+      },
+      {
+        "bbox": [
+          0.7050847437288137,
+          0.9463414635772357,
+          0.8271186420338984,
+          0.9756097562601626
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.8237288144491524,
+          0.9414634142073172,
+          0.9220338991949151,
+          0.9756097556707318
+        ],
+        "confidence": 0.5,
+        "text": "10-cs 1639"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The BiCMOS opamp which operates at a supply voltage below 1 V is shown in this slide.",
+      "pdf_page": 467,
+      "printed_page": 476,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0467_01_1639.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This is easy, as the input voltages are connected to the V ’s BE of the bandgap.",
+        "pdf_page": 467,
+        "printed_page": 476,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Actually, the input transistors form current mirrors with the diode connected npn transistors of the bandgap reference.",
+        "pdf_page": 467,
+        "printed_page": 476,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is therefore a single-stage opamp.",
+      "pdf_page": 467,
+      "printed_page": 476,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain is moderate, but the dominant pole is high, as indicated by the GBW.",
+      "pdf_page": 467,
+      "printed_page": 476,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

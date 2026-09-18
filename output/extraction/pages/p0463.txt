@@ -1,0 +1,42 @@
+472 Chapter #16
+When PD is low, point PDI is high and PDII is low, biasing all the pMOSTs. The output is
+regulated by the opamp. Current mirror M2C/M2D and resistor R4 clamp this situation even
+when PD disappears.
+1631
+In order to improve the
+Power-Supply-Rejection
+Ratio, an internal voltage
+regulator can be used, as
+shown in this slide.
+The bandgap reference
+itself is easily recognized on
+the left.
+The goal of the regulator
+is to ensure that nodes 1 and
+2 are at exactly the same
+voltage. In this way, the
+PSRR is greatly improved.
+For this purpose, a two-
+stage opamp is used with
+M5 as an input transistor
+and M9 as a second stage. As a result, the VREG is adjusted for maximum equality of the
+voltages at nodes 1 and 2. Clearly, M5 must be matched to M1.
+The PSRR is then −95 dB at 1 kHz and still −40 dB at 1 MHz.
+1632
+Sometimes a voltage refer-
+ence is required which is
+not referred to ground or
+supply voltage. It is float-
+ing. This necessitates a
+full-differential opamp, as
+shown in this slide.
+The principle is shown on
+the left. Two pairs of sub-
+strate pnp’s are used to gen-
+erate a double bandgap
+voltage of about 2.4 V on
+the right. For this purpose,
+transistors Q1 and Q2 must
+be biased by a PTAT cur-
+rent, which is not shown
+here.

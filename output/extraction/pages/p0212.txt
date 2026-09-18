@@ -1,0 +1,49 @@
+Important opamp configurations 217
+The answer is negative.
+We will see that only one
+non-dominant pole is play-
+ing a role. It is the one at
+nodes 1 and 2.
+How can the non-domi-
+nant pole at node 1 be the
+same as at node 2? Actually,
+for a differential output volt-
+age, it is fairly easy to show
+that these nodes together
+form just one pole (see next
+slide).
+As a result, the non-domi-
+nant pole is determined by
+the resistance 1/g and all
+m4
+capacitances connected to
+that node. They are listed in this slide. As a very crude approximation, we take them all to be
+the same, except for the current mirror. At node 1, transistor M6 offers an input capacitance
+which is B times larger than for transistor M4.
+Finally, the non-dominant pole frequency can be rewritten in terms of f and current factor
+T
+B. The larger B, the lower the non-dominant pole. This expression therefore provides the limit
+on B.
+0714
+For a differential output,
+two transistors to ground
+provide only a first-order
+characteristic – there is only
+one single pole.
+This is obvious for the cir-
+cuit on the left. Since there
+is only one capacitance, only
+one pole can emerge.
+However, this circuit can
+easily be converted to the
+circuit on the right. We take
+two capacitances in series
+with double the value and
+then ground the node
+between both capacitances.
+This is how the circuit on the right is derived from the first one. For AC they are exactly the
+same. They have the same pole!
+To make it slightly more intriguing, we could wonder what happens if there is some asymmetry.
+For example, if one capacitance is slightly larger than the other one, how can it create a pole
+with the same value?
+In this case, we find two poles, but we also find a zero inbetween, to ensure a first-order roll-off.

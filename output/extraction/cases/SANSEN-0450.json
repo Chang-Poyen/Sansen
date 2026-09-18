@@ -1,0 +1,462 @@
+{
+  "case_id": "SANSEN-0450",
+  "slide_id": "0450",
+  "chapter": 4,
+  "slide_number_in_chapter": 50,
+  "source": {
+    "pdf_page": 139,
+    "printed_page": 142
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0139_01_0450.jpg",
+      "pdf_page": 139,
+      "printed_page": 142,
+      "bbox_pt": [
+        91.521622,
+        259.04748599999994,
+        374.78981,
+        455.507477
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 139,
+      "printed_page": 142,
+      "bbox_pt": [
+        0,
+        255.05789999999968,
+        595,
+        558.9905000000001
+      ],
+      "text_raw": "A voltage differential ampli-\nfier with single-ended out-\nput is shown in this slide.\nThe noise sources of all four\ntransistors are added by\ntheir current sources.\nThis is a circuit with two\nequal halves. If we know the\ninput noise power for one\nhalve, we simply multiply\nby two.\nMoreover each half con-\nsists of an amplifying tran-\nsistor loaded by a current\nsource. We already know\nhow to reduce the noise con-\ntribution of the current source. We simply design it with a larger V −V .\nGS T\nThe resulting equivalent input voltage is now what we expected. It contains a factor of two\nfor the two halves. Also it contains the g ratio, which is typical for an active load.\nm\nIf we succeed in making the load V −V small, then we can limit the input noise to the two\nGS T\ninput transistors only. However, if we choose the same V −V for all transistors, or if we have\nGS T\nbipolar transistors, then the noise of all 4 transistors is equally important!",
+      "text": "A voltage differential amplifier with single-ended output is shown in this slide. The noise sources of all four transistors are added by their current sources. This is a circuit with two equal halves. If we know the input noise power for one halve, we simply multiply by two. Moreover each half consists of an amplifying transistor loaded by a current source. We already know how to reduce the noise contribution of the current source. We simply design it with a larger V −V . GS T The resulting equivalent input voltage is now what we expected. It contains a factor of two for the two halves. Also it contains the g ratio, which is typical for an active load. m If we succeed in making the load V −V small, then we can limit the input noise to the two GS T input transistors only. However, if we choose the same V −V for all transistors, or if we have GS T bipolar transistors, then the noise of all 4 transistors is equally important!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A voltage differential amplifier with single-ended output is shown in this slide. The noise sources of all four transistors are added by their current sources. This is a circuit with two equal halves. If we know the input noise power for one halve, we simply multiply by two. Moreover each half consists of an amplifying transistor loaded by a current source. We already know how to reduce the noise contribution of the current source. We simply design it with a larger V −V . GS T The resulting equivalent input voltage is now what we expected. It contains a factor of two for the two halves. Also it contains the g ratio, which is typical for an active load. m If we succeed in making the load V −V small, then we can limit the input noise to the two GS T input transistors only. However, if we choose the same V −V for all transistors, or if we have GS T bipolar transistors, then the noise of all 4 transistors is equally important!",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise of differential pair with active load",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0139_01_0450.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431709459472,
+          0.07804878063414633,
+          0.7972972900675677,
+          0.14146341478048785
+        ],
+        "confidence": 1,
+        "text": "Noise of differential pair with active load"
+      },
+      {
+        "bbox": [
+          0.39189189113175676,
+          0.2146341464634146,
+          0.45270270194256756,
+          0.2731707318292682
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.38513513540540545,
+          0.3121951224878049,
+          0.4189189191891892,
+          0.3658536590731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IB"
+      },
+      {
+        "bbox": [
+          0.51391096949614,
+          0.25308465052464857,
+          0.603934815735797,
+          0.3296987094146424
+        ],
+        "confidence": 1,
+        "text": "dViea"
+      },
+      {
+        "bbox": [
+          0.5878378373310811,
+          0.2487804871951219,
+          0.6351351346283783,
+          0.297560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2="
+      },
+      {
+        "bbox": [
+          0.18581081050675677,
+          0.478048780097561,
+          0.2229729726689189,
+          0.5170731703414634
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.273648648769305,
+          0.453658536097561,
+          0.3378378379584942,
+          0.5219512190243902
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "di,2"
+      },
+      {
+        "bbox": [
+          0.3581081083445946,
+          0.44878048702439033,
+          0.42229729753378376,
+          0.5268292675121952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "di,z"
+      },
+      {
+        "bbox": [
+          0.4527027023889962,
+          0.4780487806968641,
+          0.4966216213079151,
+          0.5170731709407664
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.6486486492820946,
+          0.2146341454878049,
+          0.7331081087415541,
+          0.28292682841463423
+        ],
+        "confidence": 1,
+        "text": "diout?"
+      },
+      {
+        "bbox": [
+          0.6554054057432434,
+          0.30243902375609766,
+          0.7297297300675677,
+          0.36585365790243907
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m12"
+      },
+      {
+        "bbox": [
+          0.7635135113175676,
+          0.224390244207317,
+          0.9391891869932434,
+          0.2878048783536584
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2di,2+2dig?"
+      },
+      {
+        "bbox": [
+          0.8716216219594594,
+          0.2975609753658537,
+          0.8918918922297296,
+          0.33170731682926835
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.8141891884290541,
+          0.31707317091463416,
+          0.8749999992398648,
+          0.36097560993902444
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.6182432440878378,
+          0.4292682934756097,
+          0.6925675684121622,
+          0.4926829276219511
+        ],
+        "confidence": 0.5,
+        "text": "dVieq"
+      },
+      {
+        "bbox": [
+          0.6824324337837837,
+          0.39999999912195117,
+          0.9594594608108107,
+          0.48780487717073173
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 =2dv,2 (1 + 9m3,"
+      },
+      {
+        "bbox": [
+          0.8851351345945946,
+          0.46829268243902444,
+          0.9459459454054053,
+          0.5170731702439024
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.5979729722635135,
+          0.5707317074146342,
+          0.6689189182094595,
+          0.6195121952195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6790540537162162,
+          0.6731707312195122,
+          0.7195945942567566,
+          0.7219512190243903
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.24662162206081079,
+          0.7609756094634147,
+          0.2905405409797297,
+          0.7999999997073172
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.39189189225788285,
+          0.7560975607317074,
+          0.43581081117680176,
+          0.7951219509756099
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.11148648662725225,
+          0.848780487195122,
+          0.17567567581644145,
+          0.9219512189024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dig2"
+      },
+      {
+        "bbox": [
+          0.5743243246621621,
+          0.7951219509146342,
+          0.6013513516891892,
+          0.8390243899390244
+        ],
+        "confidence": 0.5,
+        "text": "V"
+      },
+      {
+        "bbox": [
+          0.5236486489583332,
+          0.8487804883739838,
+          0.5878378381475224,
+          0.9170731713008131
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "di42"
+      },
+      {
+        "bbox": [
+          0.5945945950591216,
+          0.8146341461585366,
+          0.6317567572212838,
+          0.8487804876219512
+        ],
+        "confidence": 1,
+        "text": "SS"
+      },
+      {
+        "bbox": [
+          0.7635135144594595,
+          0.6292682932682926,
+          0.9324324333783783,
+          0.6878048786341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Small 9m3 :"
+      },
+      {
+        "bbox": [
+          0.7736486497466215,
+          0.7219512201829268,
+          0.8682432443412161,
+          0.7756097567682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(W/L)з"
+      },
+      {
+        "bbox": [
+          0.7736486500675676,
+          0.814634146195122,
+          0.9155405419594594,
+          0.8682926827804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(VGs-VT)3"
+      },
+      {
+        "bbox": [
+          0.7297297391577093,
+          0.9463414628455283,
+          0.9358108073512996,
+          0.980487804308943
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 05 0450"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A voltage differential amplifier with single-ended output is shown in this slide.",
+      "pdf_page": 139,
+      "printed_page": 142,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0139_01_0450.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Moreover each half consists of an amplifying transistor loaded by a current source.",
+        "pdf_page": 139,
+        "printed_page": 142,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "We already know how to reduce the noise contribution of the current source.",
+        "pdf_page": 139,
+        "printed_page": 142,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This is a circuit with two equal halves.",
+      "pdf_page": 139,
+      "printed_page": 142,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also it contains the g ratio, which is typical for an active load. m If we succeed in making the load V −V small, then we can limit the input noise to the two GS T input transistors only.",
+      "pdf_page": 139,
+      "printed_page": 142,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "However, if we choose the same V −V for all transistors, or if we have GS T bipolar transistors, then the noise of all 4 transistors is equally important!",
+      "pdf_page": 139,
+      "printed_page": 142,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0450-M01",
+      "ocr_text": "2=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5878378373310811,
+        0.2487804871951219,
+        0.6351351346283783,
+        0.297560975
+      ],
+      "context_crop": "regions/SANSEN-0450_math_01.png",
+      "context_bbox_normalized": [
+        0.547837837331081,
+        0.1487804871951219,
+        0.8651351346283783,
+        0.427560975
+      ],
+      "source_image": "slides/p0139_01_0450.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0450-M02",
+      "ocr_text": "2 =2dv,2 (1 + 9m3,",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6824324337837837,
+        0.39999999912195117,
+        0.9594594608108107,
+        0.48780487717073173
+      ],
+      "context_crop": "regions/SANSEN-0450_math_02.png",
+      "context_bbox_normalized": [
+        0.6424324337837837,
+        0.2999999991219512,
+        1,
+        0.6178048771707317
+      ],
+      "source_image": "slides/p0139_01_0450.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

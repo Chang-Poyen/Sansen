@@ -1,0 +1,534 @@
+{
+  "case_id": "SANSEN-0256",
+  "slide_id": "0256",
+  "chapter": 2,
+  "slide_number_in_chapter": 56,
+  "source": {
+    "pdf_page": 78,
+    "printed_page": 79
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0078_01_0256.jpg",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 78,
+      "printed_page": 79,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        487.24250000000035
+      ],
+      "text_raw": "For cascode amplifiers with\na DC current source as load,\nthe gain is quite large. The\ngain across the input tran-\nsistor is also large. The\nimpedance at the point\nbetween both transistors is\nthe output resistance r (or\nDS1\nr ). The gain from the input\no1\nto the middle point is thus\ng r , which is the gain of\nm1 DS1\ntransistor M1. The Miller\neffect of M1 can thus also\nplay a role, especially when\nsource resistor R is higher.\nS\nThe question is, which pole\nis now dominant, the one caused by C or the one caused by C ?\nL M\nSubstitution of the transistors by their small-signal models (with g and r ), and calculation\nm DS\nof the total gain A , yields a second-order equation, the roots of which are easily found. They\nv\nare the two poles. They are plotted in a pole-zero position diagram with R as a variable as\nS\nshown in this slide.\nFor low values of R , the load capacitance C is obviously dominant. This dominant-pole\nS L\nfrequency f is simply determined by the load capacitance and the output resistance r g r\nd o2 m2 o1\nor A r . There is a nondominant pole however at f , caused by time constant R C !\nv2 o1 nd S M\nFor high values of R however, the Miller effect of this capacitance C dominates. The\nS M\ndominant pole frequency f now decreases with increasing resistor R .\nd S\nThe cross-over value of R is R . It is in the order of tens of MV’s as C is normally much\nS St SL\nlarger than C , which is marginally more than C .\nM DG",
+      "text": "For cascode amplifiers with a DC current source as load, the gain is quite large. The gain across the input transistor is also large. The impedance at the point between both transistors is the output resistance r (or DS1 r ). The gain from the input o1 to the middle point is thus g r , which is the gain of m1 DS1 transistor M1. The Miller effect of M1 can thus also play a role, especially when source resistor R is higher. S The question is, which pole is now dominant, the one caused by C or the one caused by C ? L M Substitution of the transistors by their small-signal models (with g and r ), and calculation m DS of the total gain A , yields a second-order equation, the roots of which are easily found. They v are the two poles. They are plotted in a pole-zero position diagram with R as a variable as S shown in this slide. For low values of R , the load capacitance C is obviously dominant. This dominant-pole S L frequency f is simply determined by the load capacitance and the output resistance r g r d o2 m2 o1 or A r . There is a nondominant pole however at f , caused by time constant R C ! v2 o1 nd S M For high values of R however, the Miller effect of this capacitance C dominates. The S M dominant pole frequency f now decreases with increasing resistor R . d S The cross-over value of R is R . It is in the order of tens of MV’s as C is normally much S St SL larger than C , which is marginally more than C . M DG"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For cascode amplifiers with a DC current source as load, the gain is quite large. The gain across the input transistor is also large. The impedance at the point between both transistors is the output resistance r (or DS1 r ). The gain from the input o1 to the middle point is thus g r , which is the gain of m1 DS1 transistor M1. The Miller effect of M1 can thus also play a role, especially when source resistor R is higher. S The question is, which pole is now dominant, the one caused by C or the one caused by C ? L M Substitution of the transistors by their small-signal models (with g and r ), and calculation m DS of the total gain A , yields a second-order equation, the roots of which are easily found. They v are the two poles. They are plotted in a pole-zero position diagram with R as a variable as S shown in this slide. For low values of R , the load capacitance C is obviously dominant. This dominant-pole S L frequency f is simply determined by the load capacitance and the output resistance r g r d o2 m2 o1 or A r . There is a nondominant pole however at f , caused by time constant R C ! v2 o1 nd S M For high values of R however, the Miller effect of this capacitance C dominates. The S M dominant pole frequency f now decreases with increasing resistor R . d S The cross-over value of R is R . It is in the order of tens of MV’s as C is normally much S St SL larger than C , which is marginally more than C . M DG",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Miller effect in cascode ?",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0078_01_0256.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027028716216,
+          0.07804877975609759,
+          0.5168918920608108,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Miller effect in cascode ?"
+      },
+      {
+        "bbox": [
+          0.08777503528107125,
+          0.21910083522710877,
+          0.23992766379306713,
+          0.26870404158250605
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avz = 9m2°o2"
+      },
+      {
+        "bbox": [
+          0.0878378360219595,
+          0.26829268231707315,
+          0.23986486304898652,
+          0.31707317012195124
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avi =9m1*01"
+      },
+      {
+        "bbox": [
+          0.5540540536599099,
+          0.22926829276422755,
+          0.5777027023085585,
+          0.2536585366666666
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "S"
+      },
+      {
+        "bbox": [
+          0.5337837847972974,
+          0.28292682918699186,
+          0.655405406418919,
+          0.33170731699186995
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av RgCM"
+      },
+      {
+        "bbox": [
+          0.6993243249155405,
+          0.22926829247967473,
+          0.7702702708614865,
+          0.28292682906504063
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd |"
+      },
+      {
+        "bbox": [
+          0.3986486478885135,
+          0.33658536597560973,
+          0.4594594586993243,
+          0.3756097562195122
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.7702702693412162,
+          0.2829268294512195,
+          0.8445945936655406,
+          0.3365853660365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "To2CL"
+      },
+      {
+        "bbox": [
+          0.19932432445945944,
+          0.42926829312195114,
+          0.2263513514864865,
+          0.4731707321463414
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.16216216182432436,
+          0.49756097520325204,
+          0.20945945912162164,
+          0.5463414630081301
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "См"
+      },
+      {
+        "bbox": [
+          0.121621621875,
+          0.5414634144817073,
+          0.16216216241554055,
+          0.5951219510670732
+        ],
+        "confidence": 0.5,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.06756756706081082,
+          0.5999999993292683,
+          0.11486486435810811,
+          0.6536585359146342
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.32094594577702706,
+          0.4536585364301552,
+          0.3581081079391892,
+          0.48780487789356974
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.3141891896283784,
+          0.5219512194146342,
+          0.3581081085472973,
+          0.5707317072195122
+        ],
+        "confidence": 1,
+        "text": "Vm"
+      },
+      {
+        "bbox": [
+          0.31756756739864866,
+          0.6195121949667407,
+          0.35472972956081084,
+          0.6536585364301554
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.5270270265202702,
+          0.453658535792683,
+          0.5810810805743243,
+          0.5170731699390244
+        ],
+        "confidence": 1,
+        "text": "Rst"
+      },
+      {
+        "bbox": [
+          0.41891891862934366,
+          0.48780487763066205,
+          0.466216215926641,
+          0.5463414629965158
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.8277027033220721,
+          0.5560975608130081,
+          0.9020270276463964,
+          0.6048780486178862
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RsCm"
+      },
+      {
+        "bbox": [
+          0.6655405415259008,
+          0.6634146340650406,
+          0.7837837847691441,
+          0.7121951218699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avz'019L"
+      },
+      {
+        "bbox": [
+          0.2635135126689189,
+          0.785365853780488,
+          0.33108108023648647,
+          0.8341463415853659
+        ],
+        "confidence": 0.5,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.13495943517416675,
+          0.8183853401947236,
+          0.2670675951415377,
+          0.8645414930595055
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW= -"
+      },
+      {
+        "bbox": [
+          0.25337837939189184,
+          0.858536586097561,
+          0.34121621722972967,
+          0.9170731714634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 CL"
+      },
+      {
+        "bbox": [
+          0.4290540588682431,
+          0.8146341463414634,
+          0.8141891940033783,
+          0.8731707317073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "No Miller if Rg < Rst =lo2"
+      },
+      {
+        "bbox": [
+          0.8589298811388362,
+          0.7849703402893158,
+          0.9262235186465068,
+          0.8373104802831229
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.8141891881756756,
+          0.8585365848292683,
+          0.9222972962837838,
+          0.9121951214146341
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "См 9m1"
+      },
+      {
+        "bbox": [
+          0.7229729756334459,
+          0.9365853655487804,
+          0.9358108134712837,
+          0.970731707012195
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.0s 0256"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "They are plotted in a pole-zero position diagram with R as a variable as S shown in this slide.",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This dominant-pole S L frequency f is simply determined by the load capacitance and the output resistance r g r d o2 m2 o1 or A r .",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0078_01_0256.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For cascode amplifiers with a DC current source as load, the gain is quite large.",
+        "pdf_page": 78,
+        "printed_page": 79,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The Miller effect of M1 can thus also play a role, especially when source resistor R is higher.",
+        "pdf_page": 78,
+        "printed_page": 79,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For cascode amplifiers with a DC current source as load, the gain is quite large.",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain across the input transistor is also large.",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain from the input o1 to the middle point is thus g r , which is the gain of m1 DS1 transistor M1.",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The Miller effect of M1 can thus also play a role, especially when source resistor R is higher.",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "L M Substitution of the transistors by their small-signal models (with g and r ), and calculation m DS of the total gain A , yields a second-order equation, the roots of which are easily found.",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The S M dominant pole frequency f now decreases with increasing resistor R . d S The cross-over value of R is R .",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "They are plotted in a pole-zero position diagram with R as a variable as S shown in this slide.",
+      "pdf_page": 78,
+      "printed_page": 79,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0256-M01",
+      "ocr_text": "Avz = 9m2°o2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08777503528107125,
+        0.21910083522710877,
+        0.23992766379306713,
+        0.26870404158250605
+      ],
+      "context_crop": "regions/SANSEN-0256_math_01.png",
+      "context_bbox_normalized": [
+        0.04777503528107125,
+        0.13,
+        0.46992766379306716,
+        0.39870404158250605
+      ],
+      "source_image": "slides/p0078_01_0256.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0256-M02",
+      "ocr_text": "Avi =9m1*01",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0878378360219595,
+        0.26829268231707315,
+        0.23986486304898652,
+        0.31707317012195124
+      ],
+      "context_crop": "regions/SANSEN-0256_math_02.png",
+      "context_bbox_normalized": [
+        0.047837836021959505,
+        0.16829268231707314,
+        0.46986486304898656,
+        0.44707317012195125
+      ],
+      "source_image": "slides/p0078_01_0256.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0256-M03",
+      "ocr_text": "GBW= -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.13495943517416675,
+        0.8183853401947236,
+        0.2670675951415377,
+        0.8645414930595055
+      ],
+      "context_crop": "regions/SANSEN-0256_math_03.png",
+      "context_bbox_normalized": [
+        0.09495943517416675,
+        0.7183853401947237,
+        0.49706759514153775,
+        0.93
+      ],
+      "source_image": "slides/p0078_01_0256.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0256-M04",
+      "ocr_text": "No Miller if Rg < Rst =lo2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4290540588682431,
+        0.8146341463414634,
+        0.8141891940033783,
+        0.8731707317073171
+      ],
+      "context_crop": "regions/SANSEN-0256_math_04.png",
+      "context_bbox_normalized": [
+        0.3890540588682431,
+        0.7146341463414634,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0078_01_0256.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "14-cascode-miller",
+    "title": "共源共栅级的米勒电容",
+    "summary_zh": "保留三个电压节点，推导二阶分母及仍然存在的 RHP 零点。",
+    "html": "../derivations/ch02/14-cascode-miller.html",
+    "markdown": "../derivations/ch02/14-cascode-miller.md",
+    "status": "derived_with_source_notes",
+    "discrepancy_ids": [
+      "D11"
+    ],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "共源共栅级的米勒电容",
+    "case_ids": [
+      "cascode_miller"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#14-cascode-miller",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

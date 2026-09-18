@@ -1,0 +1,47 @@
+650 Chapter #21
+The only problem left is the very first input switch. At the input, a compromise will have to
+be taken for the maximum input voltage. Alternative solutions will be discussed later in this
+Section.
+2125
+The very first switched
+opamp is shown in this slide.
+It is a two-stage Miller
+opamp, to which two
+switches have been added,
+i.e. nMOST M9 and
+pMOST M10.
+When the voltage of clock
+phase w is high, M10 is off
+and M9 is on. The opamp
+functions as expected.
+When the voltage of clock
+phase w is low however,
+M10 is on and shorts the
+Gate voltage of transistors
+M8, M7 and M5 to the
+supply lines. All these transistors are therefore off.
+Also, M9 is off. Both stages of the opamp are switched off.
+How fast can an opamp be switched on and off depends on the loop gain of the feedback
+arrangement. If the gain around the opamp is a, then its bandwidth is GBW/a. The corresponding
+time constant for the output voltage is also the time constant for the switching in and out of the
+whole opamp.
+This is shown next.
+2126
+This is the output voltage of
+the switched opamp of the
+previous slide, when it is
+switched out.
+The expected exponential
+is given by the dotted line.
+The time constant is indeed
+one over two times p times
+the bandwidth of the op-
+amp.
+A big hump occurs how-
+ever, after about 0.5 ms. This
+is a result of the discharge
+of the compensation capaci-
+tance C . It is a great deal
+c
+better to insert a switch in
+series with this capacitor, not to allow it to discharge and charge, as will be shown later.

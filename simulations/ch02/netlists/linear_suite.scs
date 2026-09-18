@@ -1,0 +1,227 @@
+simulator lang=spectre
+global 0
+// Linearized circuits: each gm source, ro and capacitor is an explicit element.
+// VCCS terminal/current sign was checked by a real Spectre smoke run.
+opts options reltol=1e-7 vabstol=1e-10 iabstol=1e-15 gmin=1e-16
+Vin (vin 0) vsource dc=0 mag=1
+// CASE intrinsic: cs
+VCCS1 (intrinsic 0 vin 0) vccs gm=0.002
+RESISTOR2 (intrinsic 0) resistor r=50000
+RESISTOR3 (intrinsic 0) resistor r=1000000000000
+// CASE loaded_cs: cs
+VCCS4 (loaded_cs 0 vin 0) vccs gm=0.002
+RESISTOR5 (loaded_cs 0) resistor r=50000
+RESISTOR6 (loaded_cs 0) resistor r=1000000000000
+CAPACITOR7 (loaded_cs 0) capacitor c=3e-12
+// CASE miller: miller
+RESISTOR8 (vin miller_g) resistor r=10000
+VCCS9 (miller 0 miller_g 0) vccs gm=0.002
+RESISTOR10 (miller 0) resistor r=50000
+CAPACITOR11 (miller_g miller) capacitor c=5e-13
+// CASE miller_low_rs: miller
+RESISTOR12 (vin miller_low_rs_g) resistor r=10
+VCCS13 (miller_low_rs 0 miller_low_rs_g 0) vccs gm=0.002
+RESISTOR14 (miller_low_rs 0) resistor r=50000
+CAPACITOR15 (miller_low_rs_g miller_low_rs) capacitor c=5e-13
+// CASE miller_high_rs: miller
+RESISTOR16 (vin miller_high_rs_g) resistor r=1000000
+VCCS17 (miller_high_rs 0 miller_high_rs_g 0) vccs gm=0.002
+RESISTOR18 (miller_high_rs 0) resistor r=50000
+CAPACITOR19 (miller_high_rs_g miller_high_rs) capacitor c=5e-13
+// CASE degeneration: degeneration
+VCCS20 (degeneration degeneration_s vin degeneration_s) vccs gm=0.002
+RESISTOR21 (degeneration degeneration_s) resistor r=50000
+RESISTOR22 (degeneration_s 0) resistor r=1000
+RESISTOR23 (degeneration 0) resistor r=10000
+// CASE degeneration_zin: degen_zin
+ISOURCE24 (0 degeneration_zin) isource dc=0 mag=1
+VCCS25 (0 degeneration_zin_s degeneration_zin degeneration_zin_s) vccs gm=0.002
+CAPACITOR26 (degeneration_zin degeneration_zin_s) capacitor c=1e-12
+INDUCTOR27 (degeneration_zin_s 0) inductor l=1e-08
+// CASE diode_z: diode_z
+ISOURCE28 (0 diode_z) isource dc=0 mag=1
+VCCS29 (diode_z 0 diode_z 0) vccs gm=0.001
+RESISTOR30 (diode_z 0) resistor r=100000
+CAPACITOR31 (diode_z 0) capacitor c=1e-12
+// CASE diode_load: diode_load
+VCCS32 (diode_load 0 vin 0) vccs gm=0.002
+RESISTOR33 (diode_load 0) resistor r=50000
+VCCS34 (diode_load 0 diode_load 0) vccs gm=0.001
+RESISTOR35 (diode_load 0) resistor r=100000
+CAPACITOR36 (diode_load 0) capacitor c=1e-12
+// CASE inverter_dc: inverter
+RESISTOR37 (vin inverter_dc_g) resistor r=1
+VCCS38 (inverter_dc 0 inverter_dc_g 0) vccs gm=0.002
+RESISTOR39 (inverter_dc 0) resistor r=50000
+VCCS40 (inverter_dc 0 inverter_dc_g 0) vccs gm=0.002
+RESISTOR41 (inverter_dc 0) resistor r=50000
+CAPACITOR42 (inverter_dc 0) capacitor c=3e-12
+// CASE inverter_ac: inverter
+RESISTOR43 (vin inverter_ac_g) resistor r=10000
+VCCS44 (inverter_ac 0 inverter_ac_g 0) vccs gm=0.002
+RESISTOR45 (inverter_ac 0) resistor r=50000
+VCCS46 (inverter_ac 0 inverter_ac_g 0) vccs gm=0.002
+RESISTOR47 (inverter_ac 0) resistor r=50000
+CAPACITOR48 (inverter_ac_g 0) capacitor c=1e-12
+CAPACITOR49 (inverter_ac_g inverter_ac) capacitor c=2e-13
+CAPACITOR50 (inverter_ac 0) capacitor c=3e-12
+// CASE follower_dc: follower_dc
+VCCS51 (0 follower_dc vin follower_dc) vccs gm=0.002
+RESISTOR52 (0 follower_dc) resistor r=50000
+VCCS53 (0 follower_dc 0 follower_dc) vccs gm=0.0004
+RESISTOR54 (follower_dc 0) resistor r=100000
+CAPACITOR55 (follower_dc 0) capacitor c=3e-12
+// CASE follower_cancel: follower
+RESISTOR56 (vin follower_cancel_g) resistor r=10000
+VCCS57 (0 follower_cancel follower_cancel_g follower_cancel) vccs gm=8.3333333333333e-05
+CAPACITOR58 (follower_cancel_g follower_cancel) capacitor c=1e-12
+CAPACITOR59 (follower_cancel_g 0) capacitor c=2e-13
+CAPACITOR60 (0 follower_cancel) capacitor c=3e-12
+// CASE follower_cancel_z: follower
+RESISTOR61 (0 follower_cancel_z_g) resistor r=10000
+VCCS62 (0 follower_cancel_z follower_cancel_z_g follower_cancel_z) vccs gm=8.3333333333333e-05
+CAPACITOR63 (follower_cancel_z_g follower_cancel_z) capacitor c=1e-12
+CAPACITOR64 (follower_cancel_z_g 0) capacitor c=2e-13
+CAPACITOR65 (0 follower_cancel_z) capacitor c=3e-12
+ISOURCE66 (0 follower_cancel_z) isource dc=0 mag=1
+// CASE follower_book: follower
+RESISTOR67 (vin follower_book_g) resistor r=10000
+VCCS68 (0 follower_book follower_book_g follower_book) vccs gm=0.00033333333333333
+CAPACITOR69 (follower_book_g follower_book) capacitor c=1e-12
+CAPACITOR70 (follower_book_g 0) capacitor c=2e-13
+CAPACITOR71 (0 follower_book) capacitor c=3e-12
+// CASE follower_book_z: follower
+RESISTOR72 (0 follower_book_z_g) resistor r=10000
+VCCS73 (0 follower_book_z follower_book_z_g follower_book_z) vccs gm=0.00033333333333333
+CAPACITOR74 (follower_book_z_g follower_book_z) capacitor c=1e-12
+CAPACITOR75 (follower_book_z_g 0) capacitor c=2e-13
+CAPACITOR76 (0 follower_book_z) capacitor c=3e-12
+ISOURCE77 (0 follower_book_z) isource dc=0 mag=1
+// CASE follower_center: follower
+RESISTOR78 (vin follower_center_g) resistor r=10000
+VCCS79 (0 follower_center follower_center_g follower_center) vccs gm=0.002
+CAPACITOR80 (follower_center_g follower_center) capacitor c=1e-12
+CAPACITOR81 (follower_center_g 0) capacitor c=2e-13
+CAPACITOR82 (0 follower_center) capacitor c=3e-12
+// CASE follower_center_z: follower
+RESISTOR83 (0 follower_center_z_g) resistor r=10000
+VCCS84 (0 follower_center_z follower_center_z_g follower_center_z) vccs gm=0.002
+CAPACITOR85 (follower_center_z_g follower_center_z) capacitor c=1e-12
+CAPACITOR86 (follower_center_z_g 0) capacitor c=2e-13
+CAPACITOR87 (0 follower_center_z) capacitor c=3e-12
+ISOURCE88 (0 follower_center_z) isource dc=0 mag=1
+// CASE bjt_follower_z: bjt_follower
+RESISTOR89 (bjt_follower_z_b 0) resistor r=10000
+VCCS90 (0 bjt_follower_z bjt_follower_z_b bjt_follower_z) vccs gm=0.002
+RESISTOR91 (0 bjt_follower_z) resistor r=100000
+CAPACITOR92 (bjt_follower_z_b bjt_follower_z) capacitor c=1.4e-12
+CAPACITOR93 (bjt_follower_z_b 0) capacitor c=2e-13
+CAPACITOR94 (0 bjt_follower_z) capacitor c=1e-12
+RESISTOR95 (bjt_follower_z_b bjt_follower_z) resistor r=50000
+ISOURCE96 (0 bjt_follower_z) isource dc=0 mag=1
+// CASE active_inductor: active_inductor
+RESISTOR97 (active_inductor_g 0) resistor r=10000
+VCCS98 (0 active_inductor active_inductor_g active_inductor) vccs gm=0.002
+CAPACITOR99 (active_inductor_g active_inductor) capacitor c=1e-12
+ISOURCE100 (0 active_inductor) isource dc=0 mag=1
+// CASE common_gate: common_gate
+ISOURCE101 (0 common_gate_s) isource dc=0 mag=1
+RESISTOR102 (common_gate_s 0) resistor r=100000
+RESISTOR103 (common_gate 0) resistor r=1000000
+VCCS104 (common_gate common_gate_s 0 common_gate_s) vccs gm=0.002
+RESISTOR105 (common_gate common_gate_s) resistor r=50000
+// CASE cascode: cascode
+RESISTOR106 (vin cascode_g) resistor r=1
+VCCS107 (cascode_x 0 cascode_g 0) vccs gm=0.002
+RESISTOR108 (cascode_x 0) resistor r=50000
+VCCS109 (cascode cascode_x 0 cascode_x) vccs gm=0.002
+RESISTOR110 (cascode cascode_x) resistor r=50000
+CAPACITOR111 (cascode 0) capacitor c=3e-12
+// CASE cascode_miller: cascode
+RESISTOR112 (vin cascode_miller_g) resistor r=10000
+VCCS113 (cascode_miller_x 0 cascode_miller_g 0) vccs gm=0.002
+RESISTOR114 (cascode_miller_x 0) resistor r=50000
+VCCS115 (cascode_miller cascode_miller_x 0 cascode_miller_x) vccs gm=0.002
+RESISTOR116 (cascode_miller cascode_miller_x) resistor r=50000
+CAPACITOR117 (cascode_miller 0) capacitor c=3e-12
+CAPACITOR118 (cascode_miller_g cascode_miller_x) capacitor c=5e-13
+// CASE cascode_cm_small: cascode
+RESISTOR119 (vin cascode_cm_small_g) resistor r=1
+VCCS120 (cascode_cm_small_x 0 cascode_cm_small_g 0) vccs gm=0.002
+RESISTOR121 (cascode_cm_small_x 0) resistor r=50000
+VCCS122 (cascode_cm_small cascode_cm_small_x 0 cascode_cm_small_x) vccs gm=0.002
+RESISTOR123 (cascode_cm_small cascode_cm_small_x) resistor r=50000
+CAPACITOR124 (cascode_cm_small 0) capacitor c=3e-12
+CAPACITOR125 (cascode_cm_small_x 0) capacitor c=1e-12
+// CASE cascode_cm_large: cascode
+RESISTOR126 (vin cascode_cm_large_g) resistor r=1
+VCCS127 (cascode_cm_large_x 0 cascode_cm_large_g 0) vccs gm=0.002
+RESISTOR128 (cascode_cm_large_x 0) resistor r=50000
+VCCS129 (cascode_cm_large cascode_cm_large_x 0 cascode_cm_large_x) vccs gm=0.002
+RESISTOR130 (cascode_cm_large cascode_cm_large_x) resistor r=50000
+CAPACITOR131 (cascode_cm_large 0) capacitor c=3e-12
+CAPACITOR132 (cascode_cm_large_x 0) capacitor c=1e-09
+// CASE telescopic: cascode
+RESISTOR133 (vin telescopic_g) resistor r=1
+VCCS134 (telescopic_x 0 telescopic_g 0) vccs gm=0.002
+RESISTOR135 (telescopic_x 0) resistor r=50000
+VCCS136 (telescopic telescopic_x 0 telescopic_x) vccs gm=0.002
+RESISTOR137 (telescopic telescopic_x) resistor r=50000
+CAPACITOR138 (telescopic 0) capacitor c=3e-12
+VCCS139 (telescopic_y 0 0 0) vccs gm=0.002
+RESISTOR140 (telescopic_y 0) resistor r=50000
+VCCS141 (telescopic telescopic_y 0 telescopic_y) vccs gm=0.002
+RESISTOR142 (telescopic telescopic_y) resistor r=50000
+// CASE folded: cascode
+RESISTOR143 (vin folded_g) resistor r=1
+VCCS144 (folded_x 0 folded_g 0) vccs gm=0.002
+RESISTOR145 (folded_x 0) resistor r=50000
+VCCS146 (folded folded_x 0 folded_x) vccs gm=0.002
+RESISTOR147 (folded folded_x) resistor r=50000
+CAPACITOR148 (folded 0) capacitor c=3e-12
+RESISTOR149 (folded_x 0) resistor r=50000
+RESISTOR150 (folded 0) resistor r=5000000
+// CASE two_stage: two_stage
+VCCS151 (two_stage_x 0 vin 0) vccs gm=0.002
+RESISTOR152 (two_stage_x 0) resistor r=50000
+VCCS153 (two_stage 0 two_stage_x 0) vccs gm=0.004
+RESISTOR154 (two_stage 0) resistor r=50000
+CAPACITOR155 (two_stage_x 0) capacitor c=1e-12
+CAPACITOR156 (two_stage_x two_stage) capacitor c=3e-12
+CAPACITOR157 (two_stage 0) capacitor c=5e-12
+// CASE gainboost_slow: gainboost
+VCCS158 (gainboost_slow_x 0 vin 0) vccs gm=0.002
+RESISTOR159 (gainboost_slow_x 0) resistor r=50000
+VCCS160 (gainboost_slow gainboost_slow_x gainboost_slow_a gainboost_slow_x) vccs gm=0.002
+RESISTOR161 (gainboost_slow gainboost_slow_x) resistor r=50000
+CAPACITOR162 (gainboost_slow 0) capacitor c=3e-12
+VCVS163 (gainboost_slow_a0 0 gainboost_slow_x 0) vcvs gain=-20
+RESISTOR164 (gainboost_slow_a0 gainboost_slow_a) resistor r=1000
+CAPACITOR165 (gainboost_slow_a 0) capacitor c=1.591549430919e-07
+// CASE gainboost_fast: gainboost
+VCCS166 (gainboost_fast_x 0 vin 0) vccs gm=0.002
+RESISTOR167 (gainboost_fast_x 0) resistor r=50000
+VCCS168 (gainboost_fast gainboost_fast_x gainboost_fast_a gainboost_fast_x) vccs gm=0.002
+RESISTOR169 (gainboost_fast gainboost_fast_x) resistor r=50000
+CAPACITOR170 (gainboost_fast 0) capacitor c=3e-12
+VCVS171 (gainboost_fast_a0 0 gainboost_fast_x 0) vcvs gain=-20
+RESISTOR172 (gainboost_fast_a0 gainboost_fast_a) resistor r=1000
+CAPACITOR173 (gainboost_fast_a 0) capacitor c=1.591549430919e-10
+// CASE bjt_degen_gain: bjt_degen_gain
+RESISTOR174 (vin bjt_degen_gain_b) resistor r=1500
+RESISTOR175 (bjt_degen_gain_b bjt_degen_gain_e) resistor r=50000
+RESISTOR176 (bjt_degen_gain_e 0) resistor r=1000
+VCCS177 (bjt_degen_gain bjt_degen_gain_e bjt_degen_gain_b bjt_degen_gain_e) vccs gm=0.002
+RESISTOR178 (bjt_degen_gain bjt_degen_gain_e) resistor r=50000
+RESISTOR179 (bjt_degen_gain 0) resistor r=10000
+// CASE bjt_degen_zout: bjt_degen_zout
+RESISTOR180 (0 bjt_degen_zout_b) resistor r=1500
+RESISTOR181 (bjt_degen_zout_b bjt_degen_zout_e) resistor r=50000
+RESISTOR182 (bjt_degen_zout_e 0) resistor r=1000
+VCCS183 (bjt_degen_zout bjt_degen_zout_e bjt_degen_zout_b bjt_degen_zout_e) vccs gm=0.002
+RESISTOR184 (bjt_degen_zout bjt_degen_zout_e) resistor r=50000
+ISOURCE185 (0 bjt_degen_zout) isource dc=0 mag=1
+ac ac start=1 stop=1T dec=60
+dcOp dc
+save vin intrinsic loaded_cs miller miller_low_rs miller_high_rs degeneration degeneration_zin diode_z diode_load inverter_dc inverter_ac follower_dc follower_cancel follower_cancel_z follower_book follower_book_z follower_center follower_center_z bjt_follower_z active_inductor common_gate cascode cascode_miller cascode_cm_small cascode_cm_large telescopic folded two_stage gainboost_slow gainboost_fast bjt_degen_gain bjt_degen_zout
+saveOptions options save=selected

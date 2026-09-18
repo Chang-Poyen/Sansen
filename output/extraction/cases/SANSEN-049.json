@@ -1,0 +1,279 @@
+{
+  "case_id": "SANSEN-049",
+  "slide_id": "049",
+  "chapter": 4,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 118,
+    "printed_page": 121
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0118_01_049.jpg",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "bbox_pt": [
+        91.521622,
+        247.08947799999999,
+        374.78981,
+        443.549469
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 118,
+      "printed_page": 121,
+      "bbox_pt": [
+        0,
+        243.0998999999997,
+        595,
+        594.8645000000002
+      ],
+      "text_raw": "In this way we reach the\nimportant conclusion that\nnoise density depends on the\nresistor and integrated noise\ndepends on the capacitance.\nFor low noise density we\nneed a small series resistance\n(or large parallel resistance).\nFor low integrated or\ntotal noise, we need a large\ncapacitance to ground.\nBoth obviously depend\non absolute temperature.\nA designer will therefore\nhave to determine whether\nhe deals with a narrow-band\nsystem (receivers, bandpass filters, ...) or a wide-band system (switched-capacitor filters, low-pass\nfilters, ...).\nIn a narrow-band system, the narrow band noise (spot noise) is the noise density, multiplied\nby the bandwidth. The resistances determine the noise performance.\nIn a wide-band system, the kT/C noise is dominant. For low noise, we have to increase the\ncapacitances. Doing this will obviously increase the power consumption.\nThis is a rule of thumb. Low noise requires smaller resistances and or larger capacitances.\nBoth increase the power consumption. Increasing the noise performance inevitably leads to larger\npower consumption. A low-noise low-power circuit requirement certainly leads to a severe\ncompromise!",
+      "text": "In this way we reach the important conclusion that noise density depends on the resistor and integrated noise depends on the capacitance. For low noise density we need a small series resistance (or large parallel resistance). For low integrated or total noise, we need a large capacitance to ground. Both obviously depend on absolute temperature. A designer will therefore have to determine whether he deals with a narrow-band system (receivers, bandpass filters, ...) or a wide-band system (switched-capacitor filters, low-pass filters, ...). In a narrow-band system, the narrow band noise (spot noise) is the noise density, multiplied by the bandwidth. The resistances determine the noise performance. In a wide-band system, the kT/C noise is dominant. For low noise, we have to increase the capacitances. Doing this will obviously increase the power consumption. This is a rule of thumb. Low noise requires smaller resistances and or larger capacitances. Both increase the power consumption. Increasing the noise performance inevitably leads to larger power consumption. A low-noise low-power circuit requirement certainly leads to a severe compromise!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this way we reach the important conclusion that noise density depends on the resistor and integrated noise depends on the capacitance. For low noise density we need a small series resistance (or large parallel resistance). For low integrated or total noise, we need a large capacitance to ground. Both obviously depend on absolute temperature. A designer will therefore have to determine whether he deals with a narrow-band system (receivers, bandpass filters, ...) or a wide-band system (switched-capacitor filters, low-pass filters, ...). In a narrow-band system, the narrow band noise (spot noise) is the noise density, multiplied by the bandwidth. The resistances determine the noise performance. In a wide-band system, the kT/C noise is dominant. For low noise, we have to increase the capacitances. Doing this will obviously increase the power consumption. This is a rule of thumb. Low noise requires smaller resistances and or larger capacitances. Both increase the power consumption. Increasing the noise performance inevitably leads to larger power consumption. A low-noise low-power circuit requirement certainly leads to a severe compromise!",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise density vs integrated noise",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0118_01_049.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810795608108,
+          0.08780487884146337,
+          0.6486486471283783,
+          0.1512195129878049
+        ],
+        "confidence": 1,
+        "text": "Noise density vs integrated noise"
+      },
+      {
+        "bbox": [
+          0.42567567550675683,
+          0.4585365849390244,
+          0.44594594577702706,
+          0.49268292640243905
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.49662162030405416,
+          0.2585365846341463,
+          0.7635135121959461,
+          0.33170731634146344
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvRs? = 4kT Rg df"
+      },
+      {
+        "bbox": [
+          0.49324324351351356,
+          0.44390243829268283,
+          0.5608108110810811,
+          0.51707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VRS"
+      },
+      {
+        "bbox": [
+          0.6824324327027027,
+          0.4195121958536585,
+          0.7770270272972973,
+          0.49268292756097565
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvRs"
+      },
+      {
+        "bbox": [
+          0.6520270281813063,
+          0.4975609751219512,
+          0.8310810822353604,
+          0.5560975604878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + (f/ BW) 2"
+      },
+      {
+        "bbox": [
+          0.8749999996621622,
+          0.43414634166666666,
+          0.9155405402027028,
+          0.47804878069105694
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "KT"
+      },
+      {
+        "bbox": [
+          0.21207488991377646,
+          0.537116895119172,
+          0.3757629438696794,
+          0.6092245730440958
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BW BW,"
+      },
+      {
+        "bbox": [
+          0.13513513457207207,
+          0.6731707312195122,
+          0.6891891886261261,
+          0.7317073165853659
+        ],
+        "confidence": 0.5,
+        "text": "Noise density (V3/Hz) ~ Rs (or 1/gm)"
+      },
+      {
+        "bbox": [
+          0.13175675586993246,
+          0.7804878041463414,
+          0.5878378369510134,
+          0.839024389512195
+        ],
+        "confidence": 1,
+        "text": "Integrated noise (VRMs) - 1/CL"
+      },
+      {
+        "bbox": [
+          0.7229729761509528,
+          0.9414634147154471,
+          0.9189189092094079,
+          0.9756097561788618
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 049"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A designer will therefore have to determine whether he deals with a narrow-band system (receivers, bandpass filters, ...) or a wide-band system (switched-capacitor filters, low-pass filters, ...).",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The resistances determine the noise performance.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0118_01_049.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In this way we reach the important conclusion that noise density depends on the resistor and integrated noise depends on the capacitance.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Both obviously depend on absolute temperature.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A designer will therefore have to determine whether he deals with a narrow-band system (receivers, bandpass filters, ...) or a wide-band system (switched-capacitor filters, low-pass filters, ...).",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In a narrow-band system, the narrow band noise (spot noise) is the noise density, multiplied by the bandwidth.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For low noise, we have to increase the capacitances.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Doing this will obviously increase the power consumption.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Both increase the power consumption.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-049-M01",
+      "ocr_text": "dvRs? = 4kT Rg df",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.49662162030405416,
+        0.2585365846341463,
+        0.7635135121959461,
+        0.33170731634146344
+      ],
+      "context_crop": "regions/SANSEN-049_math_01.png",
+      "context_bbox_normalized": [
+        0.4566216203040542,
+        0.1585365846341463,
+        0.9935135121959461,
+        0.46170731634146345
+      ],
+      "source_image": "slides/p0118_01_049.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

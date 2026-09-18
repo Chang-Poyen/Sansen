@@ -1,0 +1,427 @@
+{
+  "case_id": "SANSEN-0231",
+  "slide_id": "0231",
+  "chapter": 2,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 65,
+    "printed_page": 66
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0065_01_0231.jpg",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 65,
+      "printed_page": 66,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        391.57850000000013
+      ],
+      "text_raw": "The BW and GBW are\neasily determined since\nthere is only one large\ncapacitor at the output. If\nthis load capacitor is\nsmaller, then the transistor\ncapacitances start to apply.\nFor example, if the source\nresistor R is large, then\nS\nclearly the input capacitance\n2C will cause an addi-\nGS\ntional time constant\n2R C , which will generate\nS GS\nanother pole. This is called\nthe non-dominant pole.\nThis latter non-dominant\npole can even become dominant if R is very large, or more importantly, if the R C product\nS S GSt\nis larger than r C . This is easily calculated from the small-signal equivalent circuit.\nDS L\nIn this case, the GBW is determined by the R C product. As was already the case for a\nS GS\nsingle-transistor amplifier, the GBW now depends on the f and a resistor ratio.\nT",
+      "text": "The BW and GBW are easily determined since there is only one large capacitor at the output. If this load capacitor is smaller, then the transistor capacitances start to apply. For example, if the source resistor R is large, then S clearly the input capacitance 2C will cause an addi- GS tional time constant 2R C , which will generate S GS another pole. This is called the non-dominant pole. This latter non-dominant pole can even become dominant if R is very large, or more importantly, if the R C product S S GSt is larger than r C . This is easily calculated from the small-signal equivalent circuit. DS L In this case, the GBW is determined by the R C product. As was already the case for a S GS single-transistor amplifier, the GBW now depends on the f and a resistor ratio. T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The BW and GBW are easily determined since there is only one large capacitor at the output. If this load capacitor is smaller, then the transistor capacitances start to apply. For example, if the source resistor R is large, then S clearly the input capacitance 2C will cause an addi- GS tional time constant 2R C , which will generate S GS another pole. This is called the non-dominant pole. This latter non-dominant pole can even become dominant if R is very large, or more importantly, if the R C product S S GSt is larger than r C . This is easily calculated from the small-signal equivalent circuit. DS L In this case, the GBW is determined by the R C product. As was already the case for a S GS single-transistor amplifier, the GBW now depends on the f and a resistor ratio. T",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Analog amplifier: poles due to CGs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0065_01_0231.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269665540551,
+          0.07317073102439031,
+          0.6959459398986487,
+          0.14146341395121953
+        ],
+        "confidence": 0.5,
+        "text": "Analog amplifier: poles due to CGs"
+      },
+      {
+        "bbox": [
+          0.08108108078078079,
+          0.47804878062330625,
+          0.13513513483483486,
+          0.5414634147696477
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.18581081043918918,
+          0.36585365790243907,
+          0.23648648611486486,
+          0.4292682920487805
+        ],
+        "confidence": 0.5,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.1964656950556731,
+          0.5153846146329432,
+          0.28287421995554246,
+          0.5898686675236277
+        ],
+        "confidence": 0.5,
+        "text": "CGS"
+      },
+      {
+        "bbox": [
+          0.41554053969594595,
+          0.2048780490853659,
+          0.4831081072635135,
+          0.2585365856707318
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.39189189135135133,
+          0.38536585375609755,
+          0.4459459454054054,
+          0.4243902439999999
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.47972973018822396,
+          0.42926829254355403,
+          0.5439189193774131,
+          0.478048780348432
+        ],
+        "confidence": 1,
+        "text": "Yout"
+      },
+      {
+        "bbox": [
+          0.3986486491554054,
+          0.526829268292683,
+          0.45945945996621623,
+          0.5853658536585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1 ="
+      },
+      {
+        "bbox": [
+          0.5945232999809917,
+          0.2775303357816453,
+          0.8311523736652717,
+          0.34685990692407453
+        ],
+        "confidence": 0.5,
+        "text": "Avo = 29mRout"
+      },
+      {
+        "bbox": [
+          0.6010966032255688,
+          0.4376895860275547,
+          0.7333628540421202,
+          0.49401773149666195
+        ],
+        "confidence": 0.5,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.7499999991891892,
+          0.39024390156097555,
+          0.8445945937837838,
+          0.4780487796097561
+        ],
+        "confidence": 1,
+        "text": "29m"
+      },
+      {
+        "bbox": [
+          0.7466216221114865,
+          0.4878048779024391,
+          0.8445945950844594,
+          0.5560975608292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CL"
+      },
+      {
+        "bbox": [
+          0.6013513535714285,
+          0.5951219511149826,
+          0.9121621643822395,
+          0.658536585261324
+        ],
+        "confidence": 0.5,
+        "text": "Cgst = Cgs1+ Cgsz"
+      },
+      {
+        "bbox": [
+          0.7702702697297297,
+          0.7268292676585366,
+          0.8310810805405405,
+          0.7902439018048781
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TDS"
+      },
+      {
+        "bbox": [
+          0.1515033475692467,
+          0.7676766744412443,
+          0.7640642899355632,
+          0.8443370097959331
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "But if RgCgst> rpsCl: GBW=f+"
+      },
+      {
+        "bbox": [
+          0.780405404954955,
+          0.8097560976422764,
+          0.8344594590090091,
+          0.8780487805691056
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.7229729825135651,
+          0.9268292675609756,
+          0.9358108074639122,
+          0.9707317065853658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10.05 0231"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The BW and GBW are easily determined since there is only one large capacitor at the output.",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is easily calculated from the small-signal equivalent circuit.",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "DS L In this case, the GBW is determined by the R C product.",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0065_01_0231.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For example, if the source resistor R is large, then S clearly the input capacitance 2C will cause an addi- GS tional time constant 2R C , which will generate S GS another pole.",
+        "pdf_page": 65,
+        "printed_page": 66,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As was already the case for a S GS single-transistor amplifier, the GBW now depends on the f and a resistor ratio.",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0231-M01",
+      "ocr_text": "M1 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3986486491554054,
+        0.526829268292683,
+        0.45945945996621623,
+        0.5853658536585366
+      ],
+      "context_crop": "regions/SANSEN-0231_math_01.png",
+      "context_bbox_normalized": [
+        0.3586486491554054,
+        0.426829268292683,
+        0.6894594599662163,
+        0.7153658536585366
+      ],
+      "source_image": "slides/p0065_01_0231.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0231-M02",
+      "ocr_text": "Avo = 29mRout",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5945232999809917,
+        0.2775303357816453,
+        0.8311523736652717,
+        0.34685990692407453
+      ],
+      "context_crop": "regions/SANSEN-0231_math_02.png",
+      "context_bbox_normalized": [
+        0.5545232999809917,
+        0.17753033578164532,
+        1,
+        0.47685990692407454
+      ],
+      "source_image": "slides/p0065_01_0231.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0231-M03",
+      "ocr_text": "GBW =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6010966032255688,
+        0.4376895860275547,
+        0.7333628540421202,
+        0.49401773149666195
+      ],
+      "context_crop": "regions/SANSEN-0231_math_03.png",
+      "context_bbox_normalized": [
+        0.5610966032255688,
+        0.3376895860275547,
+        0.9633628540421202,
+        0.624017731496662
+      ],
+      "source_image": "slides/p0065_01_0231.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0231-M04",
+      "ocr_text": "Cgst = Cgs1+ Cgsz",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6013513535714285,
+        0.5951219511149826,
+        0.9121621643822395,
+        0.658536585261324
+      ],
+      "context_crop": "regions/SANSEN-0231_math_04.png",
+      "context_bbox_normalized": [
+        0.5613513535714285,
+        0.4951219511149826,
+        1,
+        0.788536585261324
+      ],
+      "source_image": "slides/p0065_01_0231.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0231-M05",
+      "ocr_text": "But if RgCgst> rpsCl: GBW=f+",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1515033475692467,
+        0.7676766744412443,
+        0.7640642899355632,
+        0.8443370097959331
+      ],
+      "context_crop": "regions/SANSEN-0231_math_05.png",
+      "context_bbox_normalized": [
+        0.11150334756924668,
+        0.6676766744412443,
+        0.9940642899355632,
+        0.93
+      ],
+      "source_image": "slides/p0065_01_0231.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "07-inverter-ac",
+    "title": "CMOS 反相器：完整频率响应",
+    "summary_zh": "以二节点矩阵保留输入、输出与跨接电容，核对单管／总跨导的系数。",
+    "html": "../derivations/ch02/07-inverter-ac.html",
+    "markdown": "../derivations/ch02/07-inverter-ac.md",
+    "status": "derived_with_source_notes",
+    "discrepancy_ids": [
+      "D04"
+    ],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "CMOS 反相器：完整频率响应",
+    "case_ids": [
+      "inverter_ac",
+      "mos_inverter"
+    ],
+    "linear_count": 1,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#07-inverter-ac",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

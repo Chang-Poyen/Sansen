@@ -1,0 +1,27 @@
+{
+  "deck": "simulations/ch02/netlists/pz_follower_center.scs",
+  "sha256": "7648a1829e3d0433258ee35eb6c89408b6d73c0842b637bcf08479a97f121522",
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "returncode": 0,
+    "output_dir": "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_follower_center/pz_follower_center.raw",
+    "output_files": [
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_follower_center/pz_follower_center.raw/ac.ac",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_follower_center/pz_follower_center.raw/logStatus",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_follower_center/pz_follower_center.raw/poles.pz",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_follower_center/pz_follower_center.raw/logFile"
+    ],
+    "remote_host": "101.6.65.209",
+    "timings": {
+      "upload_total": 1.2423654579906724,
+      "remote_exec": 1.6340132919722237,
+      "download_total": 6.6181995830265805,
+      "parse_results": 0.0016855419962666929,
+      "total": 9.49813391600037
+    },
+    "command": "HOSTNAME=`hostname 2>/dev/null || echo localhost`; export HOSTNAME && export LD_LIBRARY_PATH=\"${LD_LIBRARY_PATH:-}\" && mkdir -p /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/7f76e930/pz_follower_center.raw && csh -c ':; /eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/7f76e930/pz_follower_center.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/7f76e930/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/7f76e930/pz_follower_center.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus' & SPID=$!; echo $SPID > /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/7f76e930/spectre.pid; wait $SPID",
+    "spectre_command": "/eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/7f76e930/pz_follower_center.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/7f76e930/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/7f76e930/pz_follower_center.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus"
+  },
+  "wall_s": 9.49917984008789
+}

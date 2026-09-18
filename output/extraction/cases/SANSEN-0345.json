@@ -1,0 +1,312 @@
+{
+  "case_id": "SANSEN-0345",
+  "slide_id": "0345",
+  "chapter": 3,
+  "slide_number_in_chapter": 45,
+  "source": {
+    "pdf_page": 110,
+    "printed_page": 112
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0110_01_0345.jpg",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "bbox_pt": [
+        91.521622,
+        181.32043499999997,
+        374.78981,
+        377.780426
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 110,
+      "printed_page": 112,
+      "bbox_pt": [
+        0,
+        177.33089999999982,
+        595,
+        475.28450000000026
+      ],
+      "text_raw": "In a similar way, transistor\nM5 bootstraps out the\noutput resistance of transis-\ntor M4 such that only r is\no2\nleft in the gain expression.\nTransistor M5 actually\nfunctions as a source fol-\nlower. Its gain approximates\nto unity, as for the buffer\nA2 in the previous slide.\nTransistor M5 sees thus the\nsame AC voltage at Drain\nand Source. As a result, its\noutput resistance r is boot-\no4\nstrapped out.\nIn order to really increase\nthe gain, we would have to add cascodes in series with transistors M1 and M2, or design them\nwith large channel lengths.\nNote that this gain enhancement technique does not affect the GBW, as we have seen before\nwith all gain enhancement techniques.\nBootstrapping is a fourth technique for gain enhancement. In practice we will use combinations\nof all these four techniques. We will need them as we go deeper and deeper into deep sub-\nmicron CMOS!",
+      "text": "In a similar way, transistor M5 bootstraps out the output resistance of transistor M4 such that only r is o2 left in the gain expression. Transistor M5 actually functions as a source follower. Its gain approximates to unity, as for the buffer A2 in the previous slide. Transistor M5 sees thus the same AC voltage at Drain and Source. As a result, its output resistance r is booto4 strapped out. In order to really increase the gain, we would have to add cascodes in series with transistors M1 and M2, or design them with large channel lengths. Note that this gain enhancement technique does not affect the GBW, as we have seen before with all gain enhancement techniques. Bootstrapping is a fourth technique for gain enhancement. In practice we will use combinations of all these four techniques. We will need them as we go deeper and deeper into deep submicron CMOS!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In a similar way, transistor M5 bootstraps out the output resistance of transistor M4 such that only r is o2 left in the gain expression. Transistor M5 actually functions as a source follower. Its gain approximates to unity, as for the buffer A2 in the previous slide. Transistor M5 sees thus the same AC voltage at Drain and Source. As a result, its output resistance r is booto4 strapped out. In order to really increase the gain, we would have to add cascodes in series with transistors M1 and M2, or design them with large channel lengths. Note that this gain enhancement technique does not affect the GBW, as we have seen before with all gain enhancement techniques. Bootstrapping is a fourth technique for gain enhancement. In practice we will use combinations of all these four techniques. We will need them as we go deeper and deeper into deep submicron CMOS!",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Bootstrapping out an output resistance",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0110_01_0345.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107770270281,
+          0.08292682995121947,
+          0.7635135101351352,
+          0.1512195128780488
+        ],
+        "confidence": 1,
+        "text": "Bootstrapping out an output resistance"
+      },
+      {
+        "bbox": [
+          0.05743243293918918,
+          0.40487804868292687,
+          0.10810810861486486,
+          0.45365853648780485
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.1993243236486487,
+          0.22926829280487804,
+          0.3074324317567568,
+          0.33658536597560973
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1BI0"
+      },
+      {
+        "bbox": [
+          0.20945945979729727,
+          0.4146341460975609,
+          0.2500000003378378,
+          0.45365853634146336
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.3141891896114865,
+          0.41463414682926825,
+          0.354729730152027,
+          0.4536585370731707
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.5979729731418918,
+          0.2585365847317074,
+          0.689189189358108,
+          0.3219512188780489
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ro4 is"
+      },
+      {
+        "bbox": [
+          0.5979729695101352,
+          0.32682926835365844,
+          0.8749999965371623,
+          0.38048780493902434
+        ],
+        "confidence": 1,
+        "text": "bootstrapped out !"
+      },
+      {
+        "bbox": [
+          0.6008152597335721,
+          0.415730112014723,
+          0.7876982582258388,
+          0.48183086756668914
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A, = 9m1 '02"
+      },
+      {
+        "bbox": [
+          0.4831081075168919,
+          0.5609756100609756,
+          0.5304054048141892,
+          0.5951219515243902
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.14864864831081082,
+          0.6682926831707316,
+          0.18918918885135136,
+          0.707317073414634
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.5101351357545045,
+          0.6780487802845527,
+          0.5844594600788288,
+          0.7317073168699186
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.6079416132651376,
+          0.7791034654254058,
+          0.7974637894406417,
+          0.8306526325932554
+        ],
+        "confidence": 0.5,
+        "text": "Same GBW !"
+      },
+      {
+        "bbox": [
+          0.7162162257568083,
+          0.9365853663662694,
+          0.9222972939503986,
+          0.9756097554471544
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 0345"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0110_01_0345.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Transistor M5 actually functions as a source follower.",
+        "pdf_page": 110,
+        "printed_page": 112,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Transistor M5 sees thus the same AC voltage at Drain and Source.",
+        "pdf_page": 110,
+        "printed_page": 112,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In order to really increase the gain, we would have to add cascodes in series with transistors M1 and M2, or design them with large channel lengths.",
+        "pdf_page": 110,
+        "printed_page": 112,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In a similar way, transistor M5 bootstraps out the output resistance of transistor M4 such that only r is o2 left in the gain expression.",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its gain approximates to unity, as for the buffer A2 in the previous slide.",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Transistor M5 sees thus the same AC voltage at Drain and Source.",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, its output resistance r is booto4 strapped out.",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In order to really increase the gain, we would have to add cascodes in series with transistors M1 and M2, or design them with large channel lengths.",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Note that this gain enhancement technique does not affect the GBW, as we have seen before with all gain enhancement techniques.",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Bootstrapping is a fourth technique for gain enhancement.",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Its gain approximates to unity, as for the buffer A2 in the previous slide.",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0345-M01",
+      "ocr_text": "A, = 9m1 '02",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6008152597335721,
+        0.415730112014723,
+        0.7876982582258388,
+        0.48183086756668914
+      ],
+      "context_crop": "regions/SANSEN-0345_math_01.png",
+      "context_bbox_normalized": [
+        0.560815259733572,
+        0.315730112014723,
+        1,
+        0.6118308675666891
+      ],
+      "source_image": "slides/p0110_01_0345.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

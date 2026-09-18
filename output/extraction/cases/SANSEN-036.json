@@ -1,0 +1,519 @@
+{
+  "case_id": "SANSEN-036",
+  "slide_id": "036",
+  "chapter": 3,
+  "slide_number_in_chapter": 6,
+  "source": {
+    "pdf_page": 89,
+    "printed_page": 91
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0089_02_036.jpg",
+      "pdf_page": 89,
+      "printed_page": 91,
+      "bbox_pt": [
+        91.52162,
+        371.55234,
+        374.78981,
+        568.01233
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 89,
+      "printed_page": 91,
+      "bbox_pt": [
+        0,
+        367.56295965000004,
+        595,
+        797
+      ],
+      "text_raw": "Now let us focus on how to\nmake the current difference\nzero. For this purpose we\nhave to add two transistors\nM3 and M4, which have as\nmain goal to make the volt-\nages v across the current\nDS\nmirror devices M1 and M2\nas equal as possible. We\nhave two realizations.\nThe left one consists of\na voltage divider by means\nof two diode connected\ntransistors M1 and M3,\nconnected to a cascoded\namplifier M2 and M4.\nTransistors M4 and M2 have the same W/L ratio as M2 and M1, which is B. Since M1 and\nM2 have the same V , transistors M3 and M4 must have the same V as well. The currents\nGS GS\nthrough M3 and M4 have the same ratio B as their W/L ratios. As a result the voltages v\nDS1\nand v must also be the same. The current ratio will therefore be quite accurate.\nDS2\nA similar reasoning is valid for the current mirror on the right. There is one major difference\nhowever. The circuit on the right is a feedback amplifier with loop gain T. Since all time constants\nin that loop are of the same order of magnitude, they create a system with several poles. As a\nresult, peaking can occur in the current transfer characteristic.\nAn important disadvantage of both current mirrors, is that their minimum output voltage\n(compliance voltage) is quite high! As a result they cannot be used in low-voltage applications!",
+      "text": "Now let us focus on how to make the current difference zero. For this purpose we have to add two transistors M3 and M4, which have as main goal to make the voltages v across the current DS mirror devices M1 and M2 as equal as possible. We have two realizations. The left one consists of a voltage divider by means of two diode connected transistors M1 and M3, connected to a cascoded amplifier M2 and M4. Transistors M4 and M2 have the same W/L ratio as M2 and M1, which is B. Since M1 and M2 have the same V , transistors M3 and M4 must have the same V as well. The currents GS GS through M3 and M4 have the same ratio B as their W/L ratios. As a result the voltages v DS1 and v must also be the same. The current ratio will therefore be quite accurate. DS2 A similar reasoning is valid for the current mirror on the right. There is one major difference however. The circuit on the right is a feedback amplifier with loop gain T. Since all time constants in that loop are of the same order of magnitude, they create a system with several poles. As a result, peaking can occur in the current transfer characteristic. An important disadvantage of both current mirrors, is that their minimum output voltage (compliance voltage) is quite high! As a result they cannot be used in low-voltage applications!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now let us focus on how to make the current difference zero. For this purpose we have to add two transistors M3 and M4, which have as main goal to make the voltages v across the current DS mirror devices M1 and M2 as equal as possible. We have two realizations. The left one consists of a voltage divider by means of two diode connected transistors M1 and M3, connected to a cascoded amplifier M2 and M4. Transistors M4 and M2 have the same W/L ratio as M2 and M1, which is B. Since M1 and M2 have the same V , transistors M3 and M4 must have the same V as well. The currents GS GS through M3 and M4 have the same ratio B as their W/L ratios. As a result the voltages v DS1 and v must also be the same. The current ratio will therefore be quite accurate. DS2 A similar reasoning is valid for the current mirror on the right. There is one major difference however. The circuit on the right is a feedback amplifier with loop gain T. Since all time constants in that loop are of the same order of magnitude, they create a system with several poles. As a result, peaking can occur in the current transfer characteristic. An important disadvantage of both current mirrors, is that their minimum output voltage (compliance voltage) is quite high! As a result they cannot be used in low-voltage applications!",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Improved current mirrors",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0089_02_036.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08055346008347157,
+          0.07627514470417185,
+          0.5443300742983945,
+          0.14820285730748495
+        ],
+        "confidence": 1,
+        "text": "Improved current mirrors"
+      },
+      {
+        "bbox": [
+          0.2094594597490347,
+          0.234146341358885,
+          0.25000000028957525,
+          0.2878048779442508
+        ],
+        "confidence": 0.5,
+        "text": "iin"
+      },
+      {
+        "bbox": [
+          0.34797297253378384,
+          0.26829268351219504,
+          0.43243243199324327,
+          0.32682926887804875
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ",lout"
+      },
+      {
+        "bbox": [
+          0.5337837833614866,
+          0.22439024329268298,
+          0.574324323902027,
+          0.27317073109756107
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lin"
+      },
+      {
+        "bbox": [
+          0.5304054049831082,
+          0.29268292695121945,
+          0.5810810806587838,
+          0.34634146353658535
+        ],
+        "confidence": 1,
+        "text": "Rin"
+      },
+      {
+        "bbox": [
+          0.11486486452702704,
+          0.44878048804878057,
+          0.1554054050675676,
+          0.48780487829268293
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.34797297333896393,
+          0.44878048756097555,
+          0.39189189225788285,
+          0.487804877804878
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.4425675672297297,
+          0.44878048741463417,
+          0.4831081077702702,
+          0.48780487765853653
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.22297297195945953,
+          0.5219512196747967,
+          0.28378378277027033,
+          0.5512195123577236
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1: B"
+      },
+      {
+        "bbox": [
+          0.5540540538851352,
+          0.5219512194261119,
+          0.6114864863175676,
+          0.5512195121090387
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1: B"
+      },
+      {
+        "bbox": [
+          0.11486486527027026,
+          0.6487804875609755,
+          0.1554054058108108,
+          0.6829268290243902
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.34797297352195944,
+          0.6487804875609757,
+          0.39189189244087835,
+          0.6878048778048781
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.4425675673986487,
+          0.6487804876626017,
+          0.48310810793918924,
+          0.6829268291260162
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.2162162153716216,
+          0.7268292684756098,
+          0.2837837829391892,
+          0.7707317075
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1: B"
+      },
+      {
+        "bbox": [
+          0.5506756761100386,
+          0.7268292680836237,
+          0.6114864869208494,
+          0.765853658327526
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1:B"
+      },
+      {
+        "bbox": [
+          0.45945946258445947,
+          0.8536585365853658,
+          0.7094594625844595,
+          0.9024390243902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Feedback T = 9m1Rin"
+      },
+      {
+        "bbox": [
+          0.6891891886824324,
+          0.26829268231707315,
+          0.7635135130067567,
+          0.31707317012195124
+        ],
+        "confidence": 0.5,
+        "text": "lout"
+      },
+      {
+        "bbox": [
+          0.6756756751266892,
+          0.44878048804878046,
+          0.7195945940456081,
+          0.48780487829268293
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.6790540545608108,
+          0.6487804875,
+          0.7195945951013514,
+          0.6829268289634145
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.7430915056260425,
+          0.364913503772333,
+          0.9292057910693228,
+          0.4302084510476343
+        ],
+        "confidence": 0.5,
+        "text": "VDS2 = VDS1"
+      },
+      {
+        "bbox": [
+          0.7398648639527028,
+          0.49756097492682927,
+          0.8445945936824325,
+          0.5658536578536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rout ="
+      },
+      {
+        "bbox": [
+          0.7364474288847109,
+          0.5704172019498167,
+          0.942606621047302,
+          0.6247047495497953
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TDs2 9m4TDS4"
+      },
+      {
+        "bbox": [
+          0.7702702685247748,
+          0.668292682195122,
+          0.8817567550112613,
+          0.7121951212195121
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUTmin"
+      },
+      {
+        "bbox": [
+          0.7668918894144146,
+          0.73170731699187,
+          0.9155405380630631,
+          0.7756097560162601
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= VGs+VDS"
+      },
+      {
+        "bbox": [
+          0.7702702720016891,
+          0.795121950792683,
+          0.9425675692989864,
+          0.8292682922560977
+        ],
+        "confidence": 1,
+        "text": "= 0.9+0.2=1.1 V"
+      },
+      {
+        "bbox": [
+          0.7702702725084459,
+          0.8487804874390243,
+          0.9493243265625,
+          0.8878048776829268
+        ],
+        "confidence": 1,
+        "text": "Is too large !!!"
+      },
+      {
+        "bbox": [
+          0.7162162138513514,
+          0.9463414630487805,
+          0.9121621597972973,
+          0.9756097557317073
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 036"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0089_02_036.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The left one consists of a voltage divider by means of two diode connected transistors M1 and M3, connected to a cascoded amplifier M2 and M4.",
+        "pdf_page": 89,
+        "printed_page": 91,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For this purpose we have to add two transistors M3 and M4, which have as main goal to make the voltages v across the current DS mirror devices M1 and M2 as equal as possible.",
+      "pdf_page": 89,
+      "printed_page": 91,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result the voltages v DS1 and v must also be the same.",
+      "pdf_page": 89,
+      "printed_page": 91,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The current ratio will therefore be quite accurate.",
+      "pdf_page": 89,
+      "printed_page": 91,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The circuit on the right is a feedback amplifier with loop gain T.",
+      "pdf_page": 89,
+      "printed_page": 91,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, peaking can occur in the current transfer characteristic.",
+      "pdf_page": 89,
+      "printed_page": 91,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result they cannot be used in low-voltage applications!",
+      "pdf_page": 89,
+      "printed_page": 91,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "As a result, peaking can occur in the current transfer characteristic.",
+      "pdf_page": 89,
+      "printed_page": 91,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-036-M01",
+      "ocr_text": "Feedback T = 9m1Rin",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.45945946258445947,
+        0.8536585365853658,
+        0.7094594625844595,
+        0.9024390243902439
+      ],
+      "context_crop": "regions/SANSEN-036_math_01.png",
+      "context_bbox_normalized": [
+        0.4194594625844595,
+        0.7536585365853659,
+        0.9394594625844594,
+        0.93
+      ],
+      "source_image": "slides/p0089_02_036.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-036-M02",
+      "ocr_text": "VDS2 = VDS1",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7430915056260425,
+        0.364913503772333,
+        0.9292057910693228,
+        0.4302084510476343
+      ],
+      "context_crop": "regions/SANSEN-036_math_02.png",
+      "context_bbox_normalized": [
+        0.7030915056260425,
+        0.264913503772333,
+        1,
+        0.5602084510476343
+      ],
+      "source_image": "slides/p0089_02_036.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-036-M03",
+      "ocr_text": "Rout =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7398648639527028,
+        0.49756097492682927,
+        0.8445945936824325,
+        0.5658536578536586
+      ],
+      "context_crop": "regions/SANSEN-036_math_03.png",
+      "context_bbox_normalized": [
+        0.6998648639527028,
+        0.3975609749268293,
+        1,
+        0.6958536578536586
+      ],
+      "source_image": "slides/p0089_02_036.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-036-M04",
+      "ocr_text": "= VGs+VDS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7668918894144146,
+        0.73170731699187,
+        0.9155405380630631,
+        0.7756097560162601
+      ],
+      "context_crop": "regions/SANSEN-036_math_04.png",
+      "context_bbox_normalized": [
+        0.7268918894144145,
+        0.63170731699187,
+        1,
+        0.9056097560162601
+      ],
+      "source_image": "slides/p0089_02_036.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-036-M05",
+      "ocr_text": "= 0.9+0.2=1.1 V",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.7702702720016891,
+        0.795121950792683,
+        0.9425675692989864,
+        0.8292682922560977
+      ],
+      "context_crop": "regions/SANSEN-036_math_05.png",
+      "context_bbox_normalized": [
+        0.730270272001689,
+        0.695121950792683,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0089_02_036.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

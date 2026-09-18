@@ -1,0 +1,369 @@
+{
+  "case_id": "SANSEN-2042",
+  "slide_id": "2042",
+  "chapter": 20,
+  "slide_number_in_chapter": 42,
+  "source": {
+    "pdf_page": 613,
+    "printed_page": 624
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0613_02_2042.jpg",
+      "pdf_page": 613,
+      "printed_page": 624,
+      "bbox_pt": [
+        91.521622,
+        335.877655,
+        374.78981,
+        532.337646
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 613,
+      "printed_page": 624,
+      "bbox_pt": [
+        0,
+        331.88820000000004,
+        595,
+        654.6545500000001
+      ],
+      "text_raw": "In order to reduce the\nnumber of comparators in a\nflash converter, two flash\nconverters can be selected,\nwith lower resolution.\nThis is called a sub-rang-\ning or two-step ADC and is\nshown in this slide for an\n8-bit converter.\nTwo 4-bit flash ADC’s are\nused instead of a single 8-bit\nADC. The number of com-\nparators is reduced from 256\nto two times 16 or 32, plus\na DAC. The power con-\nsumption will be smaller,\nbut the input capacitances will also be smaller. Indeed only 16 input capacitances are in parallel\nat the input.\nIt works as follows. The first 4-bit flash ADC gives the first four MSBs. The resulting\nquantization error is obtained by taking the difference of the input voltage and the analog value\nof a 4-bit DAC connected to the first 4-bit ADC. This difference is multiplied by 16 to make it\neasier for the second 4-bit ADC, which then provides the four LSBs.\nSuch a two-step ADC takes more clock cycles than a single flash ADC. It has more latency.\nMoreover, both 4-bit ADCs must have 8-bit accuracy. Digital correction can be used to alleviate\nthis problem.",
+      "text": "In order to reduce the number of comparators in a flash converter, two flash converters can be selected, with lower resolution. This is called a sub-ranging or two-step ADC and is shown in this slide for an 8-bit converter. Two 4-bit flash ADC’s are used instead of a single 8-bit ADC. The number of comparators is reduced from 256 to two times 16 or 32, plus a DAC. The power consumption will be smaller, but the input capacitances will also be smaller. Indeed only 16 input capacitances are in parallel at the input. It works as follows. The first 4-bit flash ADC gives the first four MSBs. The resulting quantization error is obtained by taking the difference of the input voltage and the analog value of a 4-bit DAC connected to the first 4-bit ADC. This difference is multiplied by 16 to make it easier for the second 4-bit ADC, which then provides the four LSBs. Such a two-step ADC takes more clock cycles than a single flash ADC. It has more latency. Moreover, both 4-bit ADCs must have 8-bit accuracy. Digital correction can be used to alleviate this problem."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to reduce the number of comparators in a flash converter, two flash converters can be selected, with lower resolution. This is called a sub-ranging or two-step ADC and is shown in this slide for an 8-bit converter. Two 4-bit flash ADC’s are used instead of a single 8-bit ADC. The number of comparators is reduced from 256 to two times 16 or 32, plus a DAC. The power consumption will be smaller, but the input capacitances will also be smaller. Indeed only 16 input capacitances are in parallel at the input. It works as follows. The first 4-bit flash ADC gives the first four MSBs. The resulting quantization error is obtained by taking the difference of the input voltage and the analog value of a 4-bit DAC connected to the first 4-bit ADC. This difference is multiplied by 16 to make it easier for the second 4-bit ADC, which then provides the four LSBs. Such a two-step ADC takes more clock cycles than a single flash ADC. It has more latency. Moreover, both 4-bit ADCs must have 8-bit accuracy. Digital correction can be used to alleviate this problem.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Subranging (or two-step) ADC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0613_02_2042.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432925675668,
+          0.07804877985365855,
+          0.621621626554054,
+          0.14146341399999995
+        ],
+        "confidence": 1,
+        "text": "Subranging (or two-step) ADC"
+      },
+      {
+        "bbox": [
+          0.08783783720439192,
+          0.3463414629268293,
+          0.14527026963682435,
+          0.3853658531707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vin o"
+      },
+      {
+        "bbox": [
+          0.2432432427702703,
+          0.3219512197073171,
+          0.2905405400675676,
+          0.35121951239024396
+        ],
+        "confidence": 1,
+        "text": "4-bit"
+      },
+      {
+        "bbox": [
+          0.2364864859797297,
+          0.3560975612195122,
+          0.28716216165540537,
+          0.39024390268292675
+        ],
+        "confidence": 1,
+        "text": "MSB"
+      },
+      {
+        "bbox": [
+          0.24324324324324326,
+          0.395121951707317,
+          0.28378378378378377,
+          0.4341463419512195
+        ],
+        "confidence": 0.5,
+        "text": "A/D"
+      },
+      {
+        "bbox": [
+          0.5979729726351353,
+          0.30731707335365854,
+          0.6249999996621622,
+          0.3414634148170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Va"
+      },
+      {
+        "bbox": [
+          0.44594594641891894,
+          0.33170731682926835,
+          0.4932432437162162,
+          0.365853658292683
+        ],
+        "confidence": 1,
+        "text": "4-bit"
+      },
+      {
+        "bbox": [
+          0.4493243247466216,
+          0.36585365902439015,
+          0.4898648652871621,
+          0.40487804926829263
+        ],
+        "confidence": 1,
+        "text": "D/A"
+      },
+      {
+        "bbox": [
+          0.7770270265202702,
+          0.31219512146341466,
+          0.8243243238175676,
+          0.35121951170731713
+        ],
+        "confidence": 1,
+        "text": "4-bit"
+      },
+      {
+        "bbox": [
+          0.777027026858108,
+          0.3512195120637899,
+          0.8209459457770268,
+          0.38536585352720454
+        ],
+        "confidence": 1,
+        "text": "LSB"
+      },
+      {
+        "bbox": [
+          0.7804054054054054,
+          0.3853658531707318,
+          0.8209459459459459,
+          0.42439024341463416
+        ],
+        "confidence": 0.5,
+        "text": "AVD"
+      },
+      {
+        "bbox": [
+          0.6009831942233922,
+          0.4260655035859332,
+          0.6929426835818302,
+          0.45664005328418134
+        ],
+        "confidence": 1,
+        "text": "Gain amp"
+      },
+      {
+        "bbox": [
+          0.32085895978904055,
+          0.614036336530308,
+          0.4156275290651801,
+          0.6445002483776784
+        ],
+        "confidence": 0.5,
+        "text": "First 4 bits"
+      },
+      {
+        "bbox": [
+          0.3108108098696912,
+          0.6536585367944251,
+          0.442567566626448,
+          0.6926829270383276
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(b,, b2, bg, ba)"
+      },
+      {
+        "bbox": [
+          0.08108108293918913,
+          0.7268292681097561,
+          0.3783783802364864,
+          0.7756097559146341
+        ],
+        "confidence": 0.5,
+        "text": "8-bit two-step ADC :"
+      },
+      {
+        "bbox": [
+          0.07770270458494208,
+          0.7853658534146343,
+          0.3412162180984556,
+          0.8292682924390244
+        ],
+        "confidence": 1,
+        "text": "less comparators"
+      },
+      {
+        "bbox": [
+          0.08108108385135133,
+          0.8341463412682927,
+          0.35810811087837835,
+          0.8829268290731707
+        ],
+        "confidence": 1,
+        "text": "introduces latency"
+      },
+      {
+        "bbox": [
+          0.726230326780785,
+          0.6087622673824179,
+          0.837958866118768,
+          0.6400182197057733
+        ],
+        "confidence": 0.5,
+        "text": "Lower 4 bits"
+      },
+      {
+        "bbox": [
+          0.7364654003555561,
+          0.6486100604650676,
+          0.8682643249820869,
+          0.6830972590853753
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(Dg. De, 07, 0g)"
+      },
+      {
+        "bbox": [
+          0.5101351327890391,
+          0.7219512197560977,
+          0.9324324300863364,
+          0.7756097563414635
+        ],
+        "confidence": 0.5,
+        "text": "28 = 256 comp. → now 32 !"
+      },
+      {
+        "bbox": [
+          0.5101351381475224,
+          0.7804878046341462,
+          0.871621624634009,
+          0.8292682924390243
+        ],
+        "confidence": 0.5,
+        "text": "All circuits : 8b accurate"
+      },
+      {
+        "bbox": [
+          0.5101351317286036,
+          0.8341463416260162,
+          0.9189189155123874,
+          0.8829268294308943
+        ],
+        "confidence": 1,
+        "text": "Digital correction required !"
+      },
+      {
+        "bbox": [
+          0.672297299831081,
+          0.8926829265853657,
+          0.9256756782094594,
+          0.9268292680487804
+        ],
+        "confidence": 1,
+        "text": "Johns, Martin, Wiley 1997"
+      },
+      {
+        "bbox": [
+          0.7331081110608626,
+          0.9512195124390244,
+          0.9425675576328313,
+          0.9853658539024389
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 gs 2042"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is called a sub-ranging or two-step ADC and is shown in this slide for an 8-bit converter.",
+      "pdf_page": 613,
+      "printed_page": 624,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0613_02_2042.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Indeed only 16 input capacitances are in parallel at the input.",
+        "pdf_page": 613,
+        "printed_page": 624,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The resulting quantization error is obtained by taking the difference of the input voltage and the analog value of a 4-bit DAC connected to the first 4-bit ADC.",
+        "pdf_page": 613,
+        "printed_page": 624,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2042-M01",
+      "ocr_text": "28 = 256 comp. → now 32 !",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5101351327890391,
+        0.7219512197560977,
+        0.9324324300863364,
+        0.7756097563414635
+      ],
+      "context_crop": "regions/SANSEN-2042_math_01.png",
+      "context_bbox_normalized": [
+        0.4701351327890391,
+        0.6219512197560977,
+        1,
+        0.9056097563414635
+      ],
+      "source_image": "slides/p0613_02_2042.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

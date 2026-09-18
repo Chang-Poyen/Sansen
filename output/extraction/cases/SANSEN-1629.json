@@ -1,0 +1,189 @@
+{
+  "case_id": "SANSEN-1629",
+  "slide_id": "1629",
+  "chapter": 16,
+  "slide_number_in_chapter": 29,
+  "source": {
+    "pdf_page": 461,
+    "printed_page": 470
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0462_01_1629.jpg",
+      "pdf_page": 462,
+      "printed_page": 471,
+      "bbox_pt": [
+        91.52162,
+        122.77611999999999,
+        374.54215999999997,
+        319.23608
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 461,
+      "printed_page": 470,
+      "bbox_pt": [
+        0,
+        618.7805000000001,
+        595,
+        797
+      ],
+      "text_raw": "Two realizations are shown in this slide.\nThe collectors are connected to the substrate.\nIt is obvious that both circuits are only possible in a n-well CMOS technology. This is no\nproblem, as most CMOS technologies are n-well indeed.\nThe same advantages apply as for the bipolar equivalents.",
+      "text": "Two realizations are shown in this slide. The collectors are connected to the substrate. It is obvious that both circuits are only possible in a n-well CMOS technology. This is no problem, as most CMOS technologies are n-well indeed. The same advantages apply as for the bipolar equivalents."
+    },
+    {
+      "pdf_page": 462,
+      "printed_page": 471,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        355.40551000000005
+      ],
+      "text_raw": "There is one important\ndifference however. CMOS\nopamps have a larger offset.\nThis means that they are\nonly self-starting if the offset\nis right. Moreover, the offset\ngives a much larger error in\nthe current equalization and\ntherefore in the output\nvoltage.\nThe circuit on the right\nhas again a worse PSRR.",
+      "text": "There is one important difference however. CMOS opamps have a larger offset. This means that they are only self-starting if the offset is right. Moreover, the offset gives a much larger error in the current equalization and therefore in the output voltage. The circuit on the right has again a worse PSRR."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Two realizations are shown in this slide. The collectors are connected to the substrate. It is obvious that both circuits are only possible in a n-well CMOS technology. This is no problem, as most CMOS technologies are n-well indeed. The same advantages apply as for the bipolar equivalents.\n\nThere is one important difference however. CMOS opamps have a larger offset. This means that they are only self-starting if the offset is right. Moreover, the offset gives a much larger error in the current equalization and therefore in the output voltage. The circuit on the right has again a worse PSRR.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "CMOS Bandgap reference with opamp",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0462_01_1629.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135593080508484,
+          0.08780487884146337,
+          0.7559322019915256,
+          0.1512195129878049
+        ],
+        "confidence": 1,
+        "text": "CMOS Bandgap reference with opamp"
+      },
+      {
+        "bbox": [
+          0.24067796495762717,
+          0.5268292684756097,
+          0.3322033886864407,
+          0.5804878050609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RpTAT"
+      },
+      {
+        "bbox": [
+          0.5220338977627118,
+          0.541463414097561,
+          0.5830508469152542,
+          0.5951219506829268
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.6372881363135593,
+          0.5463414634146342,
+          0.6949152549576271,
+          0.5951219512195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RPT"
+      },
+      {
+        "bbox": [
+          0.400000000480226,
+          0.5804878048373984,
+          0.4576271191242938,
+          0.6341463414227643
+        ],
+        "confidence": 1,
+        "text": "Vret"
+      },
+      {
+        "bbox": [
+          0.7084745859571139,
+          0.9365853663662694,
+          0.922033895059835,
+          0.9756097554471544
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10c6 1629"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Two realizations are shown in this slide.",
+      "pdf_page": 461,
+      "printed_page": 470,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0462_01_1629.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The collectors are connected to the substrate.",
+        "pdf_page": 461,
+        "printed_page": 470,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Moreover, the offset gives a much larger error in the current equalization and therefore in the output voltage.",
+      "pdf_page": 462,
+      "printed_page": 471,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Moreover, the offset gives a much larger error in the current equalization and therefore in the output voltage.",
+      "pdf_page": 462,
+      "printed_page": 471,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

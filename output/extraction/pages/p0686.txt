@@ -1,0 +1,52 @@
+Design of crystal oscillators 697
+2239
+In bipolar technology, many
+more oscillators have been
+realized. They all use several
+transistors and they all aim
+at the realization of a nega-
+tive resistance by means of
+positive feedback.
+In the circuit in this slide,
+transistor Q1 is a cascode,
+which provides voltage gain
+at its Collector. Transistor
+Q2 is just an emitter fol-
+lower, which provides the
+current through the small
+series resistor R of the crys-
+s
+tal. The loop gain is there-
+fore g R .
+m1 L
+As soon as R is larger than R , the oscillation builds up. This is a good feature of this
+L s
+oscillator. The signal amplitude is limited by the two diodes across the load resistor R .
+L
+All three capacitors serve as (de)coupling capacitances. They are all large and present negligible
+impedances at the frequency of oscillation.
+2240
+Another bipolar crystal
+oscillator is shown in this
+slide. It is again a single-pin
+oscillator. The positive feed-
+back is easily recognizable.
+Indeed, a cross-coupled
+transistor pair presents a
+negative resistance of
+−2/g (see Chapter 2). This
+m
+resistance now compensates
+the series resistance of the
+crystal.
+The output is nicely
+buffered from the oscillation
+circuit itself, by means of a
+cascode.
+The biasing is fixed. The amplitude is limited by the Base-Emitter diodes of the cross-coupled
+transistor pair.
+2241
+Cross-coupling is used again in this high-frequency oscillator. This is a high frequency as the
+bipolar transistors have an f of only about 400 MHz.
+T
+The crystal is replaced by a parallel LC tank. The oscillation frequency is now close to the

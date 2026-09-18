@@ -1,0 +1,53 @@
+6 Chapter #1
+It is mportant, however, to note that the channel inversion layer is coupled to the Gate by
+means of C , but as much coupled to the Bulk by C . Changing the Gate voltage will thus
+ox D
+change the conductivity of the channel and hence the current I . In a similar way, changing
+DS
+the Bulk voltage will thus also change the conductivity of the channel and will thus change the
+current I as well. The top gate gives the MOST operation, whereas the bulk gives JFET
+DS
+operation. Indeed, a Junction FET is by definition a FET in which the current is controlled by
+a junction capacitance.
+All MOST devices are thus parallel combinations of MOSTs and JFETs. We normally use
+only the MOST whereas the JFET is called the body effect, and is treated as a parasitic effect.
+0110
+The width of the depletion
+region depends to a large
+extent on doping levels and
+the voltage across it. The
+larger the doping levels on
+both sides of the junction,
+the narrower the depletion
+region is. On the other hand,
+the larger the voltage is
+across the depletion region,
+the wider this region
+becomes, as shown by the
+equation.
+It includes the silicon
+dielectric constant e , the
+si
+junction built-in voltage Q,
+the charge of an electron q and the bulk doping level N . Values are given in this slide.
+B
+For example for a 0.35 mm technology, a drain-bulk voltage V yields a depletion layer
+BD
+thickness of about 0.1 nm. It is about 14 times thicker than the gate oxide. This is offset somewhat
+by the fact that the silicon dielectric constant is three times higher than the oxide one. Silicon is
+three times more efficient to make capacitors with than oxide. Silicon capacitances are very
+nonlinear because they depend on the voltage, whereas oxides capacitances do not.
+The ratio n−1 is then about 0.2. Most values of n are indeed between 1.2 and 1.5, depending
+on the value of t . Parameter n is thus never known accurately as it depends on biasing voltages.
+si
+Note that all capacitances are in F/cm2. For a Gate area of WL of 5×0.35×0.35 mm2 the
+total Gate oxide capacitance is thus C WL#5 fF, which is quite a small value indeed!
+ox
+0111
+The bulk doping level N is not the same for a nMOST and a pMOST device. Indeed normally
+B
+nMOST devices are implemented directly on the p-substrate. This substrate is thus common to
+all nMOS transistors on that chip.
+The pMOS transistor has a p-channel however and has to be implemented in a n-tub or
+n-well, which is always higher doped than the common p-substrate. The disadvantage is that the
+bulk doping for a pMOST is always higher than the bulk doping of a nMOST. The pMOST

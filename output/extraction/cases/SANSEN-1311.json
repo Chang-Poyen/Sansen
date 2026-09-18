@@ -1,0 +1,509 @@
+{
+  "case_id": "SANSEN-1311",
+  "slide_id": "1311",
+  "chapter": 13,
+  "slide_number_in_chapter": 11,
+  "source": {
+    "pdf_page": 361,
+    "printed_page": 368
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0361_02_1311.jpg",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "bbox_pt": [
+        91.52162,
+        455.358,
+        374.78981,
+        651.81799
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 361,
+      "printed_page": 368,
+      "bbox_pt": [
+        0,
+        451.3685100000003,
+        595,
+        797
+      ],
+      "text_raw": "In order to figure out how\nmuch the input and output\nresistances change, we have\nto find the loop gain first.\nFor this purpose, we try to\nfind an easy place to break\nthe loop. Outputs of op-\namps generally have low\noutput resistances already\nwithout feedback. Breaking\nthe loop right after the\noutput is thus a good choice.\nOf course we could also\nbreak the loop right before\nthe minus input of the\nopamp, as we see an infinite\nresistance into the amplifier.\nThe voltage gain around the loop is then easily found. It is attenuated first by the resistor\nratio, followed by the total open-loop gain A of the opamp.\n0",
+      "text": "In order to figure out how much the input and output resistances change, we have to find the loop gain first. For this purpose, we try to find an easy place to break the loop. Outputs of opamps generally have low output resistances already without feedback. Breaking the loop right after the output is thus a good choice. Of course we could also break the loop right before the minus input of the opamp, as we see an infinite resistance into the amplifier. The voltage gain around the loop is then easily found. It is attenuated first by the resistor ratio, followed by the total open-loop gain A of the opamp. 0"
+    },
+    {
+      "pdf_page": 362,
+      "printed_page": 369,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        154.41134034999993
+      ],
+      "text_raw": "As a result, the input resistance, which was already quite high, increases even more. The output\nresistance decreases by the same amount.",
+      "text": "As a result, the input resistance, which was already quite high, increases even more. The output resistance decreases by the same amount."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to figure out how much the input and output resistances change, we have to find the loop gain first. For this purpose, we try to find an easy place to break the loop. Outputs of opamps generally have low output resistances already without feedback. Breaking the loop right after the output is thus a good choice. Of course we could also break the loop right before the minus input of the opamp, as we see an infinite resistance into the amplifier. The voltage gain around the loop is then easily found. It is attenuated first by the resistor ratio, followed by the total open-loop gain A of the opamp. 0\n\nAs a result, the input resistance, which was already quite high, increases even more. The output resistance decreases by the same amount.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Calculation loop gain",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0361_02_1311.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946255630625,
+          0.09268292658536592,
+          0.4560810841779278,
+          0.15121951195121952
+        ],
+        "confidence": 1,
+        "text": "Calculation loop gain"
+      },
+      {
+        "bbox": [
+          0.35576922820568696,
+          0.21782363528632964,
+          0.44165800704686026,
+          0.2885553472554727
+        ],
+        "confidence": 1,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.33108108139076575,
+          0.30243902487804875,
+          0.37500000030968467,
+          0.36097561024390235
+        ],
+        "confidence": 0.5,
+        "text": "Ao"
+      },
+      {
+        "bbox": [
+          0.17567567587274774,
+          0.39999999943089437,
+          0.2533783785754504,
+          0.4682926823577236
+        ],
+        "confidence": 0.5,
+        "text": "R13"
+      },
+      {
+        "bbox": [
+          0.2939189194256757,
+          0.39999999990243906,
+          0.3445945951013514,
+          0.45853658526829266
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.4189189192567567,
+          0.424390243728223,
+          0.46621621655405404,
+          0.46829268275261327
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.5641891913513514,
+          0.26829268287804875,
+          0.7804054075675676,
+          0.3414634145853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG = YOUT = -"
+      },
+      {
+        "bbox": [
+          0.7837837831925676,
+          0.2536585367073171,
+          0.8310810804898648,
+          0.3121951220731707
+        ],
+        "confidence": 0.5,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.8547297286317569,
+          0.2926829270121951,
+          0.9425675664695947,
+          0.346341463597561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- AvOL"
+      },
+      {
+        "bbox": [
+          0.668918919679054,
+          0.34146341439024397,
+          0.7297297304898649,
+          0.39024390219512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.7668918929391891,
+          0.3317073170731708,
+          0.871621622668919,
+          0.3902439024390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R,+ R2"
+      },
+      {
+        "bbox": [
+          0.5777027007390203,
+          0.42439024417682925,
+          0.8918918899282094,
+          0.48780487832317077
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AvoL= Ao= 104 ... 106"
+      },
+      {
+        "bbox": [
+          0.6756756774324324,
+          0.5219512193170731,
+          0.851351353108108,
+          0.5609756095609756
+        ],
+        "confidence": 0.5,
+        "text": "OL Open Loop"
+      },
+      {
+        "bbox": [
+          0.2770270267567567,
+          0.590243901902439,
+          0.3175675672972973,
+          0.6439024384878048
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.15202702722972972,
+          0.6292682921463415,
+          0.2736486488513513,
+          0.6829268287317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A, = 1+"
+      },
+      {
+        "bbox": [
+          0.15202702801238738,
+          0.7219512191869918,
+          0.27027027125563063,
+          0.7707317069918699
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = 00"
+      },
+      {
+        "bbox": [
+          0.09103090921238129,
+          0.7885098859382912,
+          0.368428554698749,
+          0.8553925520841742
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IN : series FB : RINT"
+      },
+      {
+        "bbox": [
+          0.09121621878378376,
+          0.8390243896097561,
+          0.39527027283783783,
+          0.9024390237560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OUT : shunt FB : RouT 4"
+      },
+      {
+        "bbox": [
+          0.4763513473817569,
+          0.678048780609756,
+          0.9527026987331082,
+          0.7317073171951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Input series : RIn = RInoL (1+LG)"
+      },
+      {
+        "bbox": [
+          0.47635135385135124,
+          0.8048780493170732,
+          0.814189191689189,
+          0.8585365859024391
+        ],
+        "confidence": 0.5,
+        "text": "Output shunt : RouT ="
+      },
+      {
+        "bbox": [
+          0.8094633657379812,
+          0.7566896929246527,
+          0.9296594246814461,
+          0.8356407702695937
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ROUTOL"
+      },
+      {
+        "bbox": [
+          0.8208192495342044,
+          0.8336537402239781,
+          0.9021537244586528,
+          0.878541380642054
+        ],
+        "confidence": 1,
+        "text": "1+LG"
+      },
+      {
+        "bbox": [
+          0.7162162191126644,
+          0.9365853660162601,
+          0.9290540440630116,
+          0.9658536586991869
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 1311"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In order to figure out how much the input and output resistances change, we have to find the loop gain first.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For this purpose, we try to find an easy place to break the loop.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0361_02_1311.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In order to figure out how much the input and output resistances change, we have to find the loop gain first.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Breaking the loop right after the output is thus a good choice.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The voltage gain around the loop is then easily found.",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is attenuated first by the resistor ratio, followed by the total open-loop gain A of the opamp. 0",
+      "pdf_page": 361,
+      "printed_page": 368,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the input resistance, which was already quite high, increases even more.",
+      "pdf_page": 362,
+      "printed_page": 369,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output resistance decreases by the same amount.",
+      "pdf_page": 362,
+      "printed_page": 369,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1311-M01",
+      "ocr_text": "LG = YOUT = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5641891913513514,
+        0.26829268287804875,
+        0.7804054075675676,
+        0.3414634145853659
+      ],
+      "context_crop": "regions/SANSEN-1311_math_01.png",
+      "context_bbox_normalized": [
+        0.5241891913513513,
+        0.16829268287804874,
+        1,
+        0.4714634145853659
+      ],
+      "source_image": "slides/p0361_02_1311.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1311-M02",
+      "ocr_text": "AvoL= Ao= 104 ... 106",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5777027007390203,
+        0.42439024417682925,
+        0.8918918899282094,
+        0.48780487832317077
+      ],
+      "context_crop": "regions/SANSEN-1311_math_02.png",
+      "context_bbox_normalized": [
+        0.5377027007390203,
+        0.32439024417682927,
+        1,
+        0.6178048783231708
+      ],
+      "source_image": "slides/p0361_02_1311.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1311-M03",
+      "ocr_text": "A, = 1+",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.15202702722972972,
+        0.6292682921463415,
+        0.2736486488513513,
+        0.6829268287317073
+      ],
+      "context_crop": "regions/SANSEN-1311_math_03.png",
+      "context_bbox_normalized": [
+        0.11202702722972971,
+        0.5292682921463415,
+        0.5036486488513513,
+        0.8129268287317073
+      ],
+      "source_image": "slides/p0361_02_1311.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1311-M04",
+      "ocr_text": "RIN = 00",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.15202702801238738,
+        0.7219512191869918,
+        0.27027027125563063,
+        0.7707317069918699
+      ],
+      "context_crop": "regions/SANSEN-1311_math_04.png",
+      "context_bbox_normalized": [
+        0.11202702801238737,
+        0.6219512191869918,
+        0.5002702712556306,
+        0.9007317069918699
+      ],
+      "source_image": "slides/p0361_02_1311.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1311-M05",
+      "ocr_text": "Input series : RIn = RInoL (1+LG)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4763513473817569,
+        0.678048780609756,
+        0.9527026987331082,
+        0.7317073171951219
+      ],
+      "context_crop": "regions/SANSEN-1311_math_05.png",
+      "context_bbox_normalized": [
+        0.4363513473817569,
+        0.5780487806097561,
+        1,
+        0.861707317195122
+      ],
+      "source_image": "slides/p0361_02_1311.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1311-M06",
+      "ocr_text": "Output shunt : RouT =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.47635135385135124,
+        0.8048780493170732,
+        0.814189191689189,
+        0.8585365859024391
+      ],
+      "context_crop": "regions/SANSEN-1311_math_06.png",
+      "context_bbox_normalized": [
+        0.43635135385135126,
+        0.7048780493170732,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0361_02_1311.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

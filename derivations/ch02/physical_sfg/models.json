@@ -1,0 +1,835 @@
+[
+  {
+    "id": "miller",
+    "module": "03-miller",
+    "title": "米勒反馈的 Physical / Causal SFG",
+    "inputs": [
+      "vi"
+    ],
+    "assumptions": "源极和衬底接交流地；输入串联 Rs，CF 跨接栅极与漏极，输出保留有限 ro，不添加 CL。iF 从栅极流向漏极，im 和 io 从漏极流向地，iR 从输入源流向栅极。ro = 1/go 只是同一输出电阻的参数换写，不另建 go 支路。",
+    "nodes": [
+      {
+        "id": "vi",
+        "kind": "voltage",
+        "reason": "独立输入电压。",
+        "rank": 0
+      },
+      {
+        "id": "vg",
+        "kind": "voltage",
+        "reason": "实际栅极电压，是跨导的控制量。",
+        "rank": 1
+      },
+      {
+        "id": "vF",
+        "kind": "voltage",
+        "reason": "CF 两端电压，保留器件的差分控制量。",
+        "rank": 2
+      },
+      {
+        "id": "im",
+        "kind": "current",
+        "reason": "MOS 跨导电流，保留电压到电流的器件方向。",
+        "rank": 2
+      },
+      {
+        "id": "iF",
+        "kind": "current",
+        "reason": "CF 支路电流，同时参与两个节点的 KCL。",
+        "rank": 3
+      },
+      {
+        "id": "iR",
+        "kind": "current",
+        "reason": "输入电阻电流，由栅极 KCL 确定。",
+        "rank": 4
+      },
+      {
+        "id": "vR",
+        "kind": "voltage",
+        "reason": "输入电阻压降，由电流经 Rs 产生。",
+        "rank": 5
+      },
+      {
+        "id": "io",
+        "kind": "current",
+        "reason": "输出电阻 ro 的电流，由漏极 KCL 确定。",
+        "rank": 4
+      },
+      {
+        "id": "vo",
+        "kind": "voltage",
+        "reason": "输出电压，由 ro 将支路电流转换为电压。",
+        "rank": 5
+      }
+    ],
+    "constraints": [
+      {
+        "id": "M1",
+        "target": "im",
+        "law": "MOS 跨导源的本构关系",
+        "terms": [
+          {
+            "source": "vg",
+            "gain": "gm"
+          }
+        ]
+      },
+      {
+        "id": "M2",
+        "target": "vF",
+        "law": "CF 端电压定义（KVL）",
+        "terms": [
+          {
+            "source": "vg",
+            "gain": "1"
+          },
+          {
+            "source": "vo",
+            "gain": "-1"
+          }
+        ]
+      },
+      {
+        "id": "M3",
+        "target": "iF",
+        "law": "CF 的本构关系",
+        "terms": [
+          {
+            "source": "vF",
+            "gain": "s*CF"
+          }
+        ]
+      },
+      {
+        "id": "M4",
+        "target": "iR",
+        "law": "栅极 KCL",
+        "terms": [
+          {
+            "source": "iF",
+            "gain": "1"
+          }
+        ]
+      },
+      {
+        "id": "M5",
+        "target": "vR",
+        "law": "Rs 的本构关系",
+        "terms": [
+          {
+            "source": "iR",
+            "gain": "Rs"
+          }
+        ]
+      },
+      {
+        "id": "M6",
+        "target": "vg",
+        "law": "输入串联支路 KVL",
+        "terms": [
+          {
+            "source": "vi",
+            "gain": "1"
+          },
+          {
+            "source": "vR",
+            "gain": "-1"
+          }
+        ]
+      },
+      {
+        "id": "M7",
+        "target": "io",
+        "law": "漏极 KCL",
+        "terms": [
+          {
+            "source": "iF",
+            "gain": "1"
+          },
+          {
+            "source": "im",
+            "gain": "-1"
+          }
+        ]
+      },
+      {
+        "id": "M8",
+        "target": "vo",
+        "law": "ro 的本构关系",
+        "terms": [
+          {
+            "source": "io",
+            "gain": "ro"
+          }
+        ]
+      }
+    ],
+    "paths": [
+      "主要跨导通路：vi → vg → im → io → vo。漏极 KCL 对 im 取负号，因此这条通路反相。",
+      "电容前馈：vi → vg → vF → iF → io → vo。同一个 CF 电流在栅极流出、在漏极流入，两处 KCL 的符号必须一致。",
+      "输入电流引起的电阻压降环路：vg → vF → iF → iR → vR → vg，最后一条边为 −1。输出返回 CF 的路径 vo → vF → iF 再影响 io 及输入压降；这是局部物理约束的闭合，不是把电容方程及其反解重复使用。"
+    ],
+    "parameter_units": {
+      "gm": [
+        -1,
+        1,
+        0
+      ],
+      "CF": [
+        -1,
+        1,
+        1
+      ],
+      "Rs": [
+        1,
+        -1,
+        0
+      ],
+      "ro": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "id": "follower",
+    "module": "09-followers-hf",
+    "title": "高频源极跟随器的 Physical / Causal SFG",
+    "inputs": [
+      "vi",
+      "it"
+    ],
+    "assumptions": "漏极接交流地，衬底接源极；输入串联 Rs；保留 Cg = CGS、Cd = CGD、CL、CDS、有限 ro 和偏置支路输出电导 GB。iG 从栅极流向源极；im 注入源极；iB、iL、iDS、io 从源极流向地；测试电流 it 从外部注入输出，电压激励分析时令 it = 0。CL 与 CDS、go 与 GB 分开建模，不在边系数中预先合并。",
+    "nodes": [
+      {
+        "id": "vi",
+        "kind": "voltage",
+        "reason": "独立输入电压。",
+        "rank": 0
+      },
+      {
+        "id": "it",
+        "kind": "current",
+        "reason": "独立输出测试电流；可设为零，保留电流输入端口。",
+        "rank": 4
+      },
+      {
+        "id": "vg",
+        "kind": "voltage",
+        "reason": "实际栅极电压。",
+        "rank": 1
+      },
+      {
+        "id": "vgs",
+        "kind": "voltage",
+        "reason": "跨导源与 Cg 共用的端电压。",
+        "rank": 2
+      },
+      {
+        "id": "im",
+        "kind": "current",
+        "reason": "MOS 跨导源注入输出的电流。",
+        "rank": 3
+      },
+      {
+        "id": "iG",
+        "kind": "current",
+        "reason": "Cg 从栅极到源极的电流。",
+        "rank": 3
+      },
+      {
+        "id": "iD",
+        "kind": "current",
+        "reason": "Cd 从栅极到交流地的电流。",
+        "rank": 2
+      },
+      {
+        "id": "iR",
+        "kind": "current",
+        "reason": "输入电阻电流。",
+        "rank": 4
+      },
+      {
+        "id": "vR",
+        "kind": "voltage",
+        "reason": "输入电阻压降。",
+        "rank": 5
+      },
+      {
+        "id": "iB",
+        "kind": "current",
+        "reason": "偏置支路有限电导引起的输出电流。",
+        "rank": 4
+      },
+      {
+        "id": "iL",
+        "kind": "current",
+        "reason": "负载电容 CL 电流。",
+        "rank": 4
+      },
+      {
+        "id": "iDS",
+        "kind": "current",
+        "reason": "器件 CDS 电流。",
+        "rank": 4
+      },
+      {
+        "id": "io",
+        "kind": "current",
+        "reason": "输出电阻 ro 电流。",
+        "rank": 5
+      },
+      {
+        "id": "vo",
+        "kind": "voltage",
+        "reason": "源极输出电压。",
+        "rank": 6
+      }
+    ],
+    "constraints": [
+      {
+        "id": "F1",
+        "target": "vgs",
+        "law": "栅源端电压定义（KVL）",
+        "terms": [
+          {
+            "source": "vg",
+            "gain": "1"
+          },
+          {
+            "source": "vo",
+            "gain": "-1"
+          }
+        ]
+      },
+      {
+        "id": "F2",
+        "target": "im",
+        "law": "MOS 跨导源的本构关系",
+        "terms": [
+          {
+            "source": "vgs",
+            "gain": "gm"
+          }
+        ]
+      },
+      {
+        "id": "F3",
+        "target": "iG",
+        "law": "Cg 的本构关系",
+        "terms": [
+          {
+            "source": "vgs",
+            "gain": "s*Cg"
+          }
+        ]
+      },
+      {
+        "id": "F4",
+        "target": "iD",
+        "law": "Cd 的本构关系",
+        "terms": [
+          {
+            "source": "vg",
+            "gain": "s*Cd"
+          }
+        ]
+      },
+      {
+        "id": "F5",
+        "target": "iR",
+        "law": "栅极 KCL",
+        "terms": [
+          {
+            "source": "iG",
+            "gain": "1"
+          },
+          {
+            "source": "iD",
+            "gain": "1"
+          }
+        ]
+      },
+      {
+        "id": "F6",
+        "target": "vR",
+        "law": "Rs 的本构关系",
+        "terms": [
+          {
+            "source": "iR",
+            "gain": "Rs"
+          }
+        ]
+      },
+      {
+        "id": "F7",
+        "target": "vg",
+        "law": "输入串联支路 KVL",
+        "terms": [
+          {
+            "source": "vi",
+            "gain": "1"
+          },
+          {
+            "source": "vR",
+            "gain": "-1"
+          }
+        ]
+      },
+      {
+        "id": "F8",
+        "target": "iB",
+        "law": "偏置支路 GB 的本构关系",
+        "terms": [
+          {
+            "source": "vo",
+            "gain": "GB"
+          }
+        ]
+      },
+      {
+        "id": "F9",
+        "target": "iL",
+        "law": "CL 的本构关系",
+        "terms": [
+          {
+            "source": "vo",
+            "gain": "s*CL"
+          }
+        ]
+      },
+      {
+        "id": "F10",
+        "target": "iDS",
+        "law": "CDS 的本构关系",
+        "terms": [
+          {
+            "source": "vo",
+            "gain": "s*CDS"
+          }
+        ]
+      },
+      {
+        "id": "F11",
+        "target": "io",
+        "law": "源极输出节点 KCL",
+        "terms": [
+          {
+            "source": "im",
+            "gain": "1"
+          },
+          {
+            "source": "iG",
+            "gain": "1"
+          },
+          {
+            "source": "it",
+            "gain": "1"
+          },
+          {
+            "source": "iB",
+            "gain": "-1"
+          },
+          {
+            "source": "iL",
+            "gain": "-1"
+          },
+          {
+            "source": "iDS",
+            "gain": "-1"
+          }
+        ]
+      },
+      {
+        "id": "F12",
+        "target": "vo",
+        "law": "ro 的本构关系",
+        "terms": [
+          {
+            "source": "io",
+            "gain": "ro"
+          }
+        ]
+      }
+    ],
+    "paths": [
+      "跨导正向通路：vi → vg → vgs → im → io → vo；并行的 Cg 前馈通路为 vgs → iG → io → vo。",
+      "主要局部负反馈：vo → vgs → im → io → vo，输出在 vgs 的端电压定义中取负号。",
+      "栅极电流反馈：vg → vgs → iG → iR → vR → vg；Cd 也通过 iD → iR 影响输入压降。输出的 GB、CL、CDS 各自形成 vo → 支路电流 → io → vo 的负号返回路径。",
+      "it → io → vo 明确保留输出测试电流的物理端口，测试时将 vi 设为零即可；无需先求整体传递函数或另造反向器件约束。"
+    ],
+    "parameter_units": {
+      "gm": [
+        -1,
+        1,
+        0
+      ],
+      "Cg": [
+        -1,
+        1,
+        1
+      ],
+      "Cd": [
+        -1,
+        1,
+        1
+      ],
+      "Rs": [
+        1,
+        -1,
+        0
+      ],
+      "GB": [
+        -1,
+        1,
+        0
+      ],
+      "CL": [
+        -1,
+        1,
+        1
+      ],
+      "CDS": [
+        -1,
+        1,
+        1
+      ],
+      "ro": [
+        1,
+        -1,
+        0
+      ]
+    }
+  },
+  {
+    "id": "gainboost",
+    "module": "18-gain-boosting",
+    "title": "增益增强的 Physical / Causal SFG",
+    "inputs": [
+      "vi"
+    ],
+    "assumptions": "本图对应本项目已运行的 gainboost_slow / gainboost_fast Spectre 等效电路：M1 源极接地，M2 源极为 vx、栅极为 va、漏极为 vo，输出接 CL。忽略体效应、中间节点电容和其余寄生，保留有限 ro1、ro2。辅助级由理想反相 VCVS、串联 RA 和输出对地 CA 构成；VA0 是受控源输出，va 是 RC 节点。BA 是这个独立受控源的常数增益参数，不是整体传递函数，不以未知内部 MOS 拓扑代替该受控源。im1、io1 从 vx 流向地；im2、io2 从 vo 流向 vx；iL 从 vo 流向地；iRA 从 va0 经 RA 流向 va，iCA 从 va 流向地。",
+    "nodes": [
+      {
+        "id": "vi",
+        "kind": "voltage",
+        "reason": "独立输入电压。",
+        "rank": 0
+      },
+      {
+        "id": "im1",
+        "kind": "current",
+        "reason": "输入管 M1 的跨导电流。",
+        "rank": 1
+      },
+      {
+        "id": "io1",
+        "kind": "current",
+        "reason": "M1 输出电阻 ro1 的电流。",
+        "rank": 2
+      },
+      {
+        "id": "vx",
+        "kind": "voltage",
+        "reason": "真实中间节点，辅助级的采样电压。",
+        "rank": 3
+      },
+      {
+        "id": "va0",
+        "kind": "voltage",
+        "reason": "已有网表中理想 VCVS 的输出，保留受控源自身的电压因果方向。",
+        "rank": 4
+      },
+      {
+        "id": "iCA",
+        "kind": "current",
+        "reason": "辅助级电容电流。",
+        "rank": 4
+      },
+      {
+        "id": "iRA",
+        "kind": "current",
+        "reason": "辅助级串联电阻电流，由输出节点 KCL 决定。",
+        "rank": 5
+      },
+      {
+        "id": "va",
+        "kind": "voltage",
+        "reason": "辅助级 RC 节点，驱动 M2 栅极。",
+        "rank": 7
+      },
+      {
+        "id": "vgs2",
+        "kind": "voltage",
+        "reason": "M2 栅源端电压。",
+        "rank": 4
+      },
+      {
+        "id": "im2",
+        "kind": "current",
+        "reason": "M2 从输出注入中间节点的跨导电流。",
+        "rank": 5
+      },
+      {
+        "id": "iL",
+        "kind": "current",
+        "reason": "输出负载电容电流。",
+        "rank": 5
+      },
+      {
+        "id": "io2",
+        "kind": "current",
+        "reason": "ro2 支路电流，由输出 KCL 决定。",
+        "rank": 6
+      },
+      {
+        "id": "vR2",
+        "kind": "voltage",
+        "reason": "ro2 从漏极到源极的压降。",
+        "rank": 7
+      },
+      {
+        "id": "vo",
+        "kind": "voltage",
+        "reason": "真实输出节点电压。",
+        "rank": 8
+      },
+      {
+        "id": "vRA",
+        "kind": "voltage",
+        "reason": "辅助级串联 RA 的压降，显式保留 i → v。",
+        "rank": 6
+      }
+    ],
+    "constraints": [
+      {
+        "id": "G1",
+        "target": "im1",
+        "law": "M1 跨导源的本构关系",
+        "terms": [
+          {
+            "source": "vi",
+            "gain": "gm1"
+          }
+        ]
+      },
+      {
+        "id": "G2",
+        "target": "vgs2",
+        "law": "M2 栅源端电压定义（KVL）",
+        "terms": [
+          {
+            "source": "va",
+            "gain": "1"
+          },
+          {
+            "source": "vx",
+            "gain": "-1"
+          }
+        ]
+      },
+      {
+        "id": "G3",
+        "target": "im2",
+        "law": "M2 跨导源的本构关系",
+        "terms": [
+          {
+            "source": "vgs2",
+            "gain": "gm2"
+          }
+        ]
+      },
+      {
+        "id": "G4",
+        "target": "iL",
+        "law": "CL 的本构关系",
+        "terms": [
+          {
+            "source": "vo",
+            "gain": "s*CL"
+          }
+        ]
+      },
+      {
+        "id": "G5",
+        "target": "io2",
+        "law": "输出节点 KCL",
+        "terms": [
+          {
+            "source": "im2",
+            "gain": "-1"
+          },
+          {
+            "source": "iL",
+            "gain": "-1"
+          }
+        ]
+      },
+      {
+        "id": "G6",
+        "target": "vR2",
+        "law": "ro2 的本构关系",
+        "terms": [
+          {
+            "source": "io2",
+            "gain": "ro2"
+          }
+        ]
+      },
+      {
+        "id": "G7",
+        "target": "vo",
+        "law": "M2 漏源支路 KVL",
+        "terms": [
+          {
+            "source": "vx",
+            "gain": "1"
+          },
+          {
+            "source": "vR2",
+            "gain": "1"
+          }
+        ]
+      },
+      {
+        "id": "G8",
+        "target": "io1",
+        "law": "中间节点 vx 的 KCL",
+        "terms": [
+          {
+            "source": "im2",
+            "gain": "1"
+          },
+          {
+            "source": "io2",
+            "gain": "1"
+          },
+          {
+            "source": "im1",
+            "gain": "-1"
+          }
+        ]
+      },
+      {
+        "id": "G9",
+        "target": "vx",
+        "law": "ro1 的本构关系",
+        "terms": [
+          {
+            "source": "io1",
+            "gain": "ro1"
+          }
+        ]
+      },
+      {
+        "id": "G10",
+        "target": "va0",
+        "law": "理想 VCVS 的本构关系",
+        "terms": [
+          {
+            "source": "vx",
+            "gain": "-BA"
+          }
+        ]
+      },
+      {
+        "id": "G11",
+        "target": "iCA",
+        "law": "CA 的本构关系",
+        "terms": [
+          {
+            "source": "va",
+            "gain": "s*CA"
+          }
+        ]
+      },
+      {
+        "id": "G12",
+        "target": "iRA",
+        "law": "辅助级 RC 输出节点 KCL",
+        "terms": [
+          {
+            "source": "iCA",
+            "gain": "1"
+          }
+        ]
+      },
+      {
+        "id": "G13",
+        "target": "vRA",
+        "law": "RA 的本构关系",
+        "terms": [
+          {
+            "source": "iRA",
+            "gain": "RA"
+          }
+        ]
+      },
+      {
+        "id": "G14",
+        "target": "va",
+        "law": "辅助级串联支路 KVL",
+        "terms": [
+          {
+            "source": "va0",
+            "gain": "1"
+          },
+          {
+            "source": "vRA",
+            "gain": "-1"
+          }
+        ]
+      }
+    ],
+    "paths": [
+      "输入作用先经 vi → im1 → io1 → vx；vx 再通过 M2 的端电压与支路电流影响 vo。输出电阻支路的方向由电流 io2 → 压降 vR2 → vo 保留，不将其压缩成多器件电压增益。",
+      "增益增强局部负反馈：vx → va0 → va → vgs2 → im2 → io1 → vx。其中 vx → va0 的系数为 −BA，因此 vx 增大使辅助级输出降低，再使注入 vx 的 im2 减小。",
+      "辅助级电容返回路径为 va → iCA → iRA → vRA → va；输出负载路径为 vo → iL → io2 → vR2 → vo。前者的负号来自 KVL，后者来自 KCL；各电容仅使用一次电压到电流的本构约束。",
+      "本图保留已有网表中的理想受控源及其 RA、CA，不把它们合并成 −B(s)，也不使用 gm2/(go2+sCL) 一类组合边。若之后获得辅助运放内部电路，应按其独立器件约束替换 VCVS 节点。"
+    ],
+    "parameter_units": {
+      "gm1": [
+        -1,
+        1,
+        0
+      ],
+      "gm2": [
+        -1,
+        1,
+        0
+      ],
+      "CL": [
+        -1,
+        1,
+        1
+      ],
+      "ro2": [
+        1,
+        -1,
+        0
+      ],
+      "ro1": [
+        1,
+        -1,
+        0
+      ],
+      "CA": [
+        -1,
+        1,
+        1
+      ],
+      "RA": [
+        1,
+        -1,
+        0
+      ],
+      "BA": [
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

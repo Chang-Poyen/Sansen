@@ -1,0 +1,59 @@
+426 Chapter #15
+one is S . It indicates the spreading of the threshold voltage V for two transistors separated
+VT T
+by a distance of 1 mm. Values are given for some older technologies but not for more recent
+ones. The reason is that CMOS processing is now carried out on large wafers (of 12 inch and
+more) such that homogeneity has been strongly improved. Spreading on such short distances of
+1 mm has therefore become negligible. The same applies to the other factor S .
+WL
+1511
+Note that several sources of
+parameter spreading have
+been identified, we can try
+to establish their relation-
+ship with the offset.
+A simple differential pair
+is taken first, in which the
+only source of asymmetry is
+the spreading in load resis-
+tor RL. This will result in a
+differential output voltage
+v and therefore into an
+od
+offset voltage. It is calcu-
+lated in this slide.
+The differential output
+voltage v is readily calcu-
+od
+lated, as both transistors carry an equal current I /2. This v divided by the small-signal gain
+B od
+g R gives the differential input voltage required to make the differential output voltage zero,
+m L
+which is by definition the offset voltage v .
+os
+The final result for the offset voltage v shows that the input transistors must be designed for
+os
+high gain, which means they must be designed for small V −V .
+GS T
+Pushing them into a weak inversion would make the offset voltage even smaller! Indeed for a
+weak inversion factor (V −V )/2 it can be substituted by nkT/q, which is always smaller.
+GS T
+1512
+A similar calculation can be
+carried out for the other
+delta’s.
+The easiest one to under-
+stand is the one for the
+spreading in V . This one
+T
+simply appears at the input
+of the differential pair. This
+is why it can simply be
+added to the offset voltage
+v .
+os
+The resulting expression
+contains four terms. Since
+all of them can have both
+positive and negative values,
+they never all add up. Such

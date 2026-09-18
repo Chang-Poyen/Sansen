@@ -1,0 +1,227 @@
+{
+  "case_id": "SANSEN-089",
+  "slide_id": "089",
+  "chapter": 8,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 237,
+    "printed_page": 243
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0237_01_089.jpg",
+      "pdf_page": 237,
+      "printed_page": 243,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 237,
+      "printed_page": 243,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        463.3265100000003
+      ],
+      "text_raw": "Let us now look at the main\nrequirements of CMFB\namplifiers..\nThe first one requires\nthe common-mode GBW\nCM\nto be higher than the\ndifferential GBW . How-\nDM\never, this depends on the\napplication.\nIndeed, if the common-\nmode amplifier were slow,\nonly providing DC biasing,\nthen a high-speed spike on\nthe supply line or the sub-\nstrate would throw the input\ndevices or the active loads\nin the linear region. Slow common-mode feedback would then take too much time to restore\nthe biasing in the input stage. During all this time, the high-speed differential amplifier would\nbe out of operation. This why this specification comes first.\nIn some specific circuits such as some sigma-delta converters, high speed amplifiers are only\nused in the low-frequency region. In this case this specification can be relaxed considerably!\nRequiring the GBW to be as large as the GBW will require a lot of power, directly\nCM DM\nconflicting with the last specification. We will see that there is no easy way of avoiding this\ncompromise. In principle, a fully-differential amplifier simply doubles the power consumption.\nFinally, the output swing is also a problem. It is limited by both the output swing of the\ndifferential amplifier and by the common-mode input range of the CMFB amplifier (whichever\nis smaller).",
+      "text": "Let us now look at the main requirements of CMFB amplifiers.. The first one requires the common-mode GBW CM to be higher than the differential GBW . How- DM ever, this depends on the application. Indeed, if the commonmode amplifier were slow, only providing DC biasing, then a high-speed spike on the supply line or the substrate would throw the input devices or the active loads in the linear region. Slow common-mode feedback would then take too much time to restore the biasing in the input stage. During all this time, the high-speed differential amplifier would be out of operation. This why this specification comes first. In some specific circuits such as some sigma-delta converters, high speed amplifiers are only used in the low-frequency region. In this case this specification can be relaxed considerably! Requiring the GBW to be as large as the GBW will require a lot of power, directly CM DM conflicting with the last specification. We will see that there is no easy way of avoiding this compromise. In principle, a fully-differential amplifier simply doubles the power consumption. Finally, the output swing is also a problem. It is limited by both the output swing of the differential amplifier and by the common-mode input range of the CMFB amplifier (whichever is smaller)."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us now look at the main requirements of CMFB amplifiers.. The first one requires the common-mode GBW CM to be higher than the differential GBW . How- DM ever, this depends on the application. Indeed, if the commonmode amplifier were slow, only providing DC biasing, then a high-speed spike on the supply line or the substrate would throw the input devices or the active loads in the linear region. Slow common-mode feedback would then take too much time to restore the biasing in the input stage. During all this time, the high-speed differential amplifier would be out of operation. This why this specification comes first. In some specific circuits such as some sigma-delta converters, high speed amplifiers are only used in the low-frequency region. In this case this specification can be relaxed considerably! Requiring the GBW to be as large as the GBW will require a lot of power, directly CM DM conflicting with the last specification. We will see that there is no easy way of avoiding this compromise. In principle, a fully-differential amplifier simply doubles the power consumption. Finally, the output swing is also a problem. It is limited by both the output swing of the differential amplifier and by the common-mode input range of the CMFB amplifier (whichever is smaller).",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Requirements fully-differential amplifiers",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0237_01_089.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0745762702118645,
+          0.08292683012195123,
+          0.8169491515677967,
+          0.15121951304878045
+        ],
+        "confidence": 1,
+        "text": "Requirements fully-differential amplifiers"
+      },
+      {
+        "bbox": [
+          0.10847457978813554,
+          0.23414634131097567,
+          0.6711864441949152,
+          0.3073170730182927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• High speed : GBWсm > GBWDM"
+      },
+      {
+        "bbox": [
+          0.1083610679535393,
+          0.3406037102357069,
+          0.30180842668301494,
+          0.3959816564845755
+        ],
+        "confidence": 1,
+        "text": "• Matching"
+      },
+      {
+        "bbox": [
+          0.10847457898305078,
+          0.44390243843902444,
+          0.5762711891525423,
+          0.5024390238048781
+        ],
+        "confidence": 1,
+        "text": "• Output swing limited by :"
+      },
+      {
+        "bbox": [
+          0.15593220159322035,
+          0.5512195127804878,
+          0.8440677948135593,
+          0.6097560981463415
+        ],
+        "confidence": 1,
+        "text": "• Output swing of differential-mode amp"
+      },
+      {
+        "bbox": [
+          0.15254236768361587,
+          0.6585365855691058,
+          0.7762711812429379,
+          0.7121951221544716
+        ],
+        "confidence": 1,
+        "text": "• Input range of common-mode amp"
+      },
+      {
+        "bbox": [
+          0.1084745804406779,
+          0.775609756097561,
+          0.5254237329830508,
+          0.8341463414634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• Low power PcM< PDM"
+      },
+      {
+        "bbox": [
+          0.7186440724542892,
+          0.9463414640650407,
+          0.9220338900315866,
+          0.9853658531459257
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 089"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0237_01_089.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "How- DM ever, this depends on the application.",
+      "pdf_page": 237,
+      "printed_page": 243,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is limited by both the output swing of the differential amplifier and by the common-mode input range of the CMFB amplifier (whichever is smaller).",
+      "pdf_page": 237,
+      "printed_page": 243,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-089-M01",
+      "ocr_text": "• High speed : GBWсm > GBWDM",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.10847457978813554,
+        0.23414634131097567,
+        0.6711864441949152,
+        0.3073170730182927
+      ],
+      "context_crop": "regions/SANSEN-089_math_01.png",
+      "context_bbox_normalized": [
+        0.06847457978813554,
+        0.13414634131097566,
+        0.9011864441949152,
+        0.4373170730182927
+      ],
+      "source_image": "slides/p0237_01_089.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-089-M02",
+      "ocr_text": "• Low power PcM< PDM",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1084745804406779,
+        0.775609756097561,
+        0.5254237329830508,
+        0.8341463414634146
+      ],
+      "context_crop": "regions/SANSEN-089_math_02.png",
+      "context_bbox_normalized": [
+        0.06847458044067789,
+        0.675609756097561,
+        0.7554237329830508,
+        0.93
+      ],
+      "source_image": "slides/p0237_01_089.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

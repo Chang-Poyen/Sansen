@@ -1,0 +1,191 @@
+{
+  "case_id": "SANSEN-1893",
+  "slide_id": "1893",
+  "chapter": 18,
+  "slide_number_in_chapter": 93,
+  "source": {
+    "pdf_page": 555,
+    "printed_page": 565
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0555_01_1893.jpg",
+      "pdf_page": 555,
+      "printed_page": 565,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 555,
+      "printed_page": 565,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        797
+      ],
+      "text_raw": "In this Chapter, an intro-\nduction is given on distor-\ntion caused by the weak\nnonlinearities of the transis-\ntors. The definitions of dis-\ntortion have been given first.\nThey are followed by distor-\ntion calculations of MOST\nand bipolar devices in both\nsingle and differential con-\nfigurations.\nConsiderable attention is\npaid to the reduction of dis-\ntortion by feedback. Finally\nsome guide lines and over-\nview Tables are added to\nallow easy prediction of dis-\ntortion levels in any kind of\namplifier.",
+      "text": "In this Chapter, an introduction is given on distortion caused by the weak nonlinearities of the transistors. The definitions of distortion have been given first. They are followed by distortion calculations of MOST and bipolar devices in both single and differential configurations. Considerable attention is paid to the reduction of distortion by feedback. Finally some guide lines and overview Tables are added to allow easy prediction of distortion levels in any kind of amplifier."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter, an introduction is given on distortion caused by the weak nonlinearities of the transistors. The definitions of distortion have been given first. They are followed by distortion calculations of MOST and bipolar devices in both single and differential configurations. Considerable attention is paid to the reduction of distortion by feedback. Finally some guide lines and overview Tables are added to allow easy prediction of distortion levels in any kind of amplifier.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0555_01_1893.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627504237281,
+          0.07804878042682928,
+          0.38305085131355926,
+          0.13170731701219507
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09152541932203402,
+          0.22439024317073164,
+          0.6813559277966104,
+          0.28292682853658535
+        ],
+        "confidence": 0.5,
+        "text": "3 Definitions : HD, IM, intercept point, .."
+      },
+      {
+        "bbox": [
+          0.09152542518644063,
+          0.30243902487804875,
+          0.4338983065423729,
+          0.3512195126829267
+        ],
+        "confidence": 0.5,
+        "text": "J Distortion in a MOST"
+      },
+      {
+        "bbox": [
+          0.13559321652542383,
+          0.37073170750000006,
+          0.44067796228813566,
+          0.41463414652439023
+        ],
+        "confidence": 1,
+        "text": "• Single-ended amplifier"
+      },
+      {
+        "bbox": [
+          0.13559322311864397,
+          0.43902439004878047,
+          0.4135593248135592,
+          0.47804878029268294
+        ],
+        "confidence": 1,
+        "text": "• Differential amplifier"
+      },
+      {
+        "bbox": [
+          0.09152542736077482,
+          0.5073170729616726,
+          0.6000000036319613,
+          0.5560975607665506
+        ],
+        "confidence": 1,
+        "text": "J Distortion in a bipolar transistor"
+      },
+      {
+        "bbox": [
+          0.0915254284463276,
+          0.5853658534146342,
+          0.6576271233615818,
+          0.6341463412195123
+        ],
+        "confidence": 1,
+        "text": "3 Reduction of distortion by feedback"
+      },
+      {
+        "bbox": [
+          0.09152542830508467,
+          0.6585365860365854,
+          0.4644067842372881,
+          0.7121951226219512
+        ],
+        "confidence": 0.5,
+        "text": "3 Distortion in an opamp"
+      },
+      {
+        "bbox": [
+          0.09152542722033896,
+          0.7317073176097562,
+          0.7254237323050847,
+          0.785365854195122
+        ],
+        "confidence": 0.5,
+        "text": "3 Other cases of distortion and guide lines"
+      },
+      {
+        "bbox": [
+          0.7186440722847978,
+          0.9365853664227644,
+          0.9322033813875189,
+          0.9707317078861789
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 05 1893"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0555_01_1893.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

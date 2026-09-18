@@ -1,0 +1,180 @@
+{
+  "case_id": "SANSEN-184",
+  "slide_id": "184",
+  "chapter": 18,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 510,
+    "printed_page": 520
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0510_02_184.jpg",
+      "pdf_page": 510,
+      "printed_page": 520,
+      "bbox_pt": [
+        91.521622,
+        397.560975,
+        374.78981,
+        594.020966
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 510,
+      "printed_page": 520,
+      "bbox_pt": [
+        0,
+        393.5715000000002,
+        595,
+        797
+      ],
+      "text_raw": "We will not discuss the\neffects of linear distortion in\nthis Chapter but of nonlin-\near distortion.\nLinear distortion is a\nresult of filter action. A per-\nfectly linear system which\nshows some kind of filtering\naction, will distort the pic-\nture of the signal versus\ntime. For example, a high-\npass filter will emphasize the\nsteep edges of a square\nwaveform, as they represent\nthe higher frequencies. The\noutput waveform has there-\nfore peaked. It is different from the input waveform, and is distorted. This is linear distortion. It\noccurs for all filters.",
+      "text": "We will not discuss the effects of linear distortion in this Chapter but of nonlinear distortion. Linear distortion is a result of filter action. A perfectly linear system which shows some kind of filtering action, will distort the picture of the signal versus time. For example, a highpass filter will emphasize the steep edges of a square waveform, as they represent the higher frequencies. The output waveform has therefore peaked. It is different from the input waveform, and is distorted. This is linear distortion. It occurs for all filters."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "We will not discuss the effects of linear distortion in this Chapter but of nonlinear distortion. Linear distortion is a result of filter action. A perfectly linear system which shows some kind of filtering action, will distort the picture of the signal versus time. For example, a highpass filter will emphasize the steep edges of a square waveform, as they represent the higher frequencies. The output waveform has therefore peaked. It is different from the input waveform, and is distorted. This is linear distortion. It occurs for all filters.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Linear distortion",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0510_02_184.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432111486491,
+          0.0780487812195122,
+          0.378378375168919,
+          0.1365853665853658
+        ],
+        "confidence": 1,
+        "text": "Linear distortion"
+      },
+      {
+        "bbox": [
+          0.2533783789816602,
+          0.19999999982578398,
+          0.3378378384411197,
+          0.2634146339721255
+        ],
+        "confidence": 0.5,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.26689189233108107,
+          0.28292682985365847,
+          0.32432432476351347,
+          0.3414634152195122
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.5168918938063062,
+          0.22926829243902436,
+          0.746621623536036,
+          0.27804878024390245
+        ],
+        "confidence": 1,
+        "text": "High-pass filter"
+      },
+      {
+        "bbox": [
+          0.12162162193834461,
+          0.4146341461890244,
+          0.1722972976140203,
+          0.4682926827743903
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.6790540528716217,
+          0.41463414652439023,
+          0.7736486474662162,
+          0.468292683109756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.7195945971283784,
+          0.9365853655487804,
+          0.9222972998310812,
+          0.970731707012195
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 184"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A perfectly linear system which shows some kind of filtering action, will distort the picture of the signal versus time.",
+      "pdf_page": 510,
+      "printed_page": 520,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0510_02_184.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The output waveform has therefore peaked.",
+      "pdf_page": 510,
+      "printed_page": 520,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The output waveform has therefore peaked.",
+      "pdf_page": 510,
+      "printed_page": 520,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

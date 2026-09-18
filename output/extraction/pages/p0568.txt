@@ -1,0 +1,42 @@
+Continuous-time filters 579
+1925
+For larger loop gain in the
+feedback loop, the distor-
+tion is lower and the input
+range larger.
+Local feedback is possible
+by addition of only a few
+transistors as shown on the
+left. The input transistors
+cannot have any AC current
+as they have DC current
+sources in both Drain and
+Source. Only the pMOST
+devices thus carry AC cur-
+rent. This current is deter-
+mined by the differential
+input voltage which appears
+nearly unattenuated across transistor 2R. The output currents are then mirrored out.
+This voltage-to-current conversion is even more accurate if a full operational amplifier is
+inserted in the feedback loop, instead of just one single transistor. The loop gain now includes
+the open-loop gain of the operational amplifier. The distortion will now be very small.
+This is only true at low frequencies, however, as the open-loop gain of an opamp drops quite
+rapidly versus frequency. For high frequencies the circuit on the left may be preferable.
+1926
+The previous transconduc-
+tors all have the disadvan-
+tage that they cannot be
+tuned. Their voltage-to-cur-
+rent conversion is deter-
+mined by the resistor.
+The tuneability can be
+greatly enhanced by inser-
+tion of MOSTs as resistors
+or even better by a bank of
+MOSTs, which can be
+switched in and out for
+coarse tuning. Changing the
+voltage V , then changes
+tune
+the on-resistance of the
+MOST, for fine tuning.

@@ -1,0 +1,52 @@
+CMOS ADC and DAC principles 609
+Moreover, the total sum
+of resistor area is much
+smaller indeed!
+To see how this 4-bit con-
+verter works, the currents
+are indicated, through all
+the branches.
+The current through the
+most left resistor 2R, and
+switch B3, is current I . This
+R
+is actually V /2R. This
+REF
+current always flows as it is
+directed by switch B3, either
+to the input of the opamp
+(as shown) or to ground.
+The current through the
+most left (horizontal) resis-
+tor R is also current I . Indeed, it is followed by another resistor 2R through switch B2 in
+R
+parallel with another (horizontal) resistor R, which again sees a resistor R. As a result, each
+(horizontal) resistor R sees a resistance R to the right.
+At the end of the resistor string, it is clear that the two most right resistors 2R are in parallel
+and offer a resistance R to the most right (horizontal) resistance. At all nodes, a resistance R is
+seen to the right with respect to ground.
+When the switches are in position 1111 (as shown), then all currents are directed into the
+opamp and through the feedback resistor R towards the output. If a switch is in position 0, then
+its current flows to ground and does not contribute to the output voltage.
+2014
+Nevertheless better match-
+ing can be obtained by
+means of capacitors rather
+than with transistors. If a
+resolution of 10 bit can be
+easily obtained with a resis-
+tor bank, then 12 bit can
+be obtained with a matched
+capacitor bank (see
+Chapter 15).
+An example of such 3-bit
+capacitor bank is shown in
+this slide. The larger capaci-
+tor 4C consists of 4 equal
+capacitors C laid out prop-
+erly (see Chapter 15).
+By means of charge redistribution, the output voltage is a sum of binary fractions of the
+reference voltage V .
+ref
+In clock phase W1 (as shown) all binary capacitors are charged to V .
+ref

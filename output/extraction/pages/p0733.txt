@@ -1,0 +1,43 @@
+Coupling eVects in mixed analog-digital ICs 745
+245
+Any digital gate causes tran-
+sitions at its output from a
+logical zero to one, or vice-
+versa. This transition causes
+a current spike from sub-
+strate to ground. As an
+example, a simple CMOS
+inverter is used. This cur-
+rent spike is then easily
+described, as shown in this
+slide.
+The size of this spike evi-
+dently depends on the sizes
+of the transistors used. Since
+thousands of digital gates
+are put together in a proces-
+sor, the total current can be
+quite large and can have a
+wide frequency spectrum.
+246
+However, analog circuits
+can also cause current
+spikes. For example, class-
+AB stages draw currents
+which are larger than their
+quiescent current.
+As an example, look at
+the class-AB input stage
+shown in this slide. For large
+input voltages, the currents
+can become quite large.
+When the current is moni-
+tored through the positive
+supply line. Large current
+spikes are visible, nearly 50
+times the quiescent current.
+Evidently, this amplifier is used in a switched-capacitor filter. At each clock cycle, the opamp
+is driven hard, causing these current spikes to flow.
+An important compromise is now to be taken. Class AB circuits allow considerable reduction
+in quiescent power consumption. On the other hand, they cause current spikes which may impair
+the SNR.

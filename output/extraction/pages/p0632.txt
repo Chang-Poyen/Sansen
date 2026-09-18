@@ -1,0 +1,46 @@
+L ow-power sigma-delta AD converters 643
+From this it can be concluded that multibit Sigma-delta realizations offer the highest SNR
+values for low OSR values. If matching problems have to be avoided however, single-bit solutions
+are quite attractive provided 4th order noise shaping is used in a 2–1–1 Mash topology.
+2112
+Now that we know which
+topology is most attractive,
+we have to focus on the
+implementation.
+Most noise-shaping filters
+are realized with switched-
+capacitor techniques. How-
+ever, for low supply volt-
+ages, the switches are
+difficult to realize.
+This is discussed next.
+2113
+The supply voltage de-
+creases for decreasing chan-
+nel lengths. For 0.25 mm
+channel length, the supply
+voltage was 2.5 V; for
+0.18 mm CMOS it was 1.8 V
+and so on. For 90 nm
+CMOS the supply voltage is
+about 1.2 V. Supply voltages
+will now be used below 1 V.
+With a 1 V supply voltage
+the MOST switch is difficult
+to turn on.
+Assume that a transmis-
+sion gate is used as a switch,
+with a nMOST in parallel
+with a pMOST, as shown in this slide, The nMOST Gate is driven with a positive (supply)
+voltage to turn it on. The pMOST is at the same time driven with the most negative voltage
+or ground.
+For zero input voltage V , the Gate drive of the nMOST is the full supply voltage V , its
+in DD
+V also equals V . This is sufficient to provide a low ON-resistance.
+GSn DD
+Indeed, assume that the V is about 0.6 V and the minimum V −V for conduction is about
+T GS T
+0.2 V, the minimum V is now about 0.8 V. As a result, the input voltage V can only increase
+GS in
+until it reaches V –0.8 V. For higher input voltages, the nMOST can no longer be turned on.
+DD

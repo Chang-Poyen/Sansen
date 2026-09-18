@@ -1,0 +1,55 @@
+396 Chapter #14
+1415
+The problem with such
+fully-differential amplifiers
+(i.e. two inputs and two out-
+puts) are the factors of two
+appearing in the gain. Is the
+transresistance R or 2R ?
+F F
+How about the differen-
+tial input and output
+impedance?
+This amplifier has two
+input current sources both
+with value i . The differ-
+IN
+ential output voltage will
+thus be 2R i . The trans-
+F IN
+resistance is simply R .
+F
+The loop gain equals the
+gains of the two transistor stages. The differential input impedance will now be 2R divided by
+F
+the loop gain.
+This also applies to the output resistance.
+1416
+This transimpedance ampli-
+fier is usually the first stage
+of an optical fiber receiver.
+The photodiode behaves as
+a current source when it is
+exposed to light. This cur-
+rent is then multiplied by R
+F
+to generate an output volt-
+age. The first amplifier stage
+is shown in detail. Its
+gain is A . The subsequent
+1
+stages, however, are in-
+cluded in the (triangular)
+black box with gain A . The
+2
+total loop gain LG is
+simply A A .
+1 2
+The input resistance R is reduced by this loop gain, as expected. As a result, the diode
+IN
+capacitance and the parasitic capacitances C at the input of the amplifier, caused by interconnect
+p
+and the transistor input capacitance, only see a small input resistance R /A A . The bandwidth
+F 1 2
+or f can now be exceedingly high, to achieve a high bit rate.
+−3dB

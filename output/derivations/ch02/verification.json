@@ -1,0 +1,310 @@
+{
+  "status": "passed",
+  "scope": "Algebra and numerical nodal-model verification only; no SPICE or PDK validation.",
+  "symbolic_checks": [
+    {
+      "name": "miller Physical/Causal SFG local constraints vs KCL",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "follower Physical/Causal SFG local constraints vs KCL",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "gainboost Physical/Causal SFG local constraints vs KCL",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "MOS square-law derivative",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CS KCL",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "CL single-pole KCL",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Miller 2-node KCL vs closed form",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Miller RHP zero",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Miller high-frequency plateau",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Source degeneration transconductance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Source degeneration output resistance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Inductive degeneration Zin",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "MOS-resistor gm including lower-gate response",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Diode-connected test-source resistance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Inverter full two-node transfer",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Inverter RHP zero uses total Gm",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Inverter input-only two poles",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Follower full voltage transfer",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Follower full output impedance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Follower voltage cancellation residual",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Follower impedance cancellation residual",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Follower exact one-pole voltage at cancellation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Follower exact one-pole impedance at cancellation",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Complex-region upper root",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Complex-region lower root",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Complex-region roots reciprocal",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "BJT output impedance matrix",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "BJT output zero residual structure",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "BJT diffusion-cap cancellation quadratic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Active inductor exact decomposition",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Active inductor low-frequency L",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Common-gate transresistance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Common-gate input resistance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Common-gate open output limit",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Cascode transfer",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Cascode intrinsic Rout",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Cascode Miller 3-node quadratic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Cascode middle-cap quadratic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Miller-compensated cascade transfer",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Gain boost KCL",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Gain boost auxiliary-pole quadratic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Gain boost output test-source resistance",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Gain boost DC gain",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Gain boost exact zero cancellation condition",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Doublet residue initial-value normalization",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Doublet partial fractions",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "Doublet unity-feedback transfer",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "BJT common-base RB parallel rpi",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "numerical_nodal_checks": [
+    {
+      "model": "Miller",
+      "samples": 30,
+      "max_relative_error": 1.6899945910844297e-13,
+      "passed": true
+    },
+    {
+      "model": "Inverter",
+      "samples": 30,
+      "max_relative_error": 3.3514538900662972e-15,
+      "passed": true
+    },
+    {
+      "model": "Follower",
+      "samples": 30,
+      "max_relative_error": 1.3976556235571453e-15,
+      "passed": true
+    },
+    {
+      "model": "Cascode",
+      "samples": 30,
+      "max_relative_error": 2.5509735333273864e-15,
+      "passed": true
+    }
+  ],
+  "illustration_parameters": {
+    "exercise_029": {
+      "gm_S": 0.0018849555921538759,
+      "Id_A": 0.0001884955592153876,
+      "W_over_L": 94.24777960769379,
+      "chosen_L_um": 2,
+      "FOM_MHz_pF_per_mA": 1591.5494309189532
+    },
+    "follower_illustration": {
+      "Rs_ohm": 10000.0,
+      "Cgs_F": 1e-12,
+      "Cgd_F": 2e-13,
+      "C0_F": 3e-12,
+      "g_cancel_S": 8.333333333333333e-05,
+      "g_slide_0243_estimate_S": 0.0003333333333333333,
+      "g_complex_center_S": 0.002,
+      "g_complex_lower_S": 0.00011805698386586795,
+      "g_complex_upper_S": 0.03388194301613414
+    },
+    "miller_illustration": {
+      "gm_S": 0.002,
+      "ro_ohm": 50000.0,
+      "Rs_ohm": 10000.0,
+      "Cf_F": 5e-13
+    },
+    "doublet_illustration": {
+      "GBW_Hz": 1000000.0,
+      "open_pole_Hz": 12000.0,
+      "open_zero_Hz": 2000.0,
+      "slow_residue": 0.009939927029285802,
+      "fast_residue": 0.9900600729707142,
+      "lambda_s_rad_s": 12441.706693028047,
+      "lambda_f_rad_s": 6346141.824172713,
+      "settling_0_1pct_s": 0.00018466155385128376,
+      "no_doublet_settling_0_1pct_s": 1.0994033983191417e-06
+    }
+  },
+  "source_discrepancies": "See discrepancies.json; checks do not certify discrepant textbook formulas."
+}

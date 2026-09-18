@@ -1,0 +1,149 @@
+{
+  "case_id": "SANSEN-2112",
+  "slide_id": "2112",
+  "chapter": 21,
+  "slide_number_in_chapter": 12,
+  "source": {
+    "pdf_page": 632,
+    "printed_page": 643
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0632_01_2112.jpg",
+      "pdf_page": 632,
+      "printed_page": 643,
+      "bbox_pt": [
+        91.521622,
+        176.28814699999998,
+        374.78981,
+        372.748138
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 632,
+      "printed_page": 643,
+      "bbox_pt": [
+        0,
+        172.29857499999991,
+        595,
+        391.5785
+      ],
+      "text_raw": "Now that we know which\ntopology is most attractive,\nwe have to focus on the\nimplementation.\nMost noise-shaping filters\nare realized with switched-\ncapacitor techniques. How-\never, for low supply volt-\nages, the switches are\ndifficult to realize.\nThis is discussed next.",
+      "text": "Now that we know which topology is most attractive, we have to focus on the implementation. Most noise-shaping filters are realized with switchedcapacitor techniques. However, for low supply voltages, the switches are difficult to realize. This is discussed next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that we know which topology is most attractive, we have to focus on the implementation. Most noise-shaping filters are realized with switchedcapacitor techniques. However, for low supply voltages, the switches are difficult to realize. This is discussed next.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0632_01_2112.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270487451739,
+          0.08292682909407667,
+          0.3817567589285714,
+          0.13658536567944246
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09121622086148642,
+          0.31707316993902446,
+          0.5912162208614864,
+          0.38048780408536587
+        ],
+        "confidence": 1,
+        "text": "* Delta-sigma modulation"
+      },
+      {
+        "bbox": [
+          0.09121621970720716,
+          0.4243902436585366,
+          0.510135138626126,
+          0.4829268290243902
+        ],
+        "confidence": 0.5,
+        "text": "• The switch problem"
+      },
+      {
+        "bbox": [
+          0.09121620958614882,
+          0.5268292675,
+          0.7027026960726354,
+          0.5902439016463416
+        ],
+        "confidence": 1,
+        "text": "• The switched-opamp solution"
+      },
+      {
+        "bbox": [
+          0.09121621108530416,
+          0.6292682929573171,
+          0.9121621570312501,
+          0.6926829271036585
+        ],
+        "confidence": 1,
+        "text": "• Other low-power Delta-sigma converters"
+      },
+      {
+        "bbox": [
+          0.7229729758694213,
+          0.9414634147967479,
+          0.9358108008197684,
+          0.9707317074796747
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2112"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0632_01_2112.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

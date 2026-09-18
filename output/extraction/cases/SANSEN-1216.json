@@ -1,0 +1,169 @@
+{
+  "case_id": "SANSEN-1216",
+  "slide_id": "1216",
+  "chapter": 12,
+  "slide_number_in_chapter": 16,
+  "source": {
+    "pdf_page": 337,
+    "printed_page": 344
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0337_02_1216.jpg",
+      "pdf_page": 337,
+      "printed_page": 344,
+      "bbox_pt": [
+        91.521622,
+        421.47695999999996,
+        374.78981,
+        617.936951
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 337,
+      "printed_page": 344,
+      "bbox_pt": [
+        0,
+        417.4875000000002,
+        595,
+        797
+      ],
+      "text_raw": "Cross-coupled quads are a\nuseful principle for generat-\ning expanding differential\ncurrents. It is not the only\none however. Positive feed-\nback can be used as well.\nAdaptive biasing is actually\nused.",
+      "text": "Cross-coupled quads are a useful principle for generating expanding differential currents. It is not the only one however. Positive feedback can be used as well. Adaptive biasing is actually used."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Cross-coupled quads are a useful principle for generating expanding differential currents. It is not the only one however. Positive feedback can be used as well. Adaptive biasing is actually used.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Slide 1216",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0337_02_1216.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07422535572645318,
+          0.07754462387287087,
+          0.21631518658896243,
+          0.13708952211535608
+        ],
+        "confidence": 1,
+        "text": "Outline"
+      },
+      {
+        "bbox": [
+          0.16216216602316602,
+          0.2682926827526133,
+          0.7027027065637066,
+          0.3219512193379791
+        ],
+        "confidence": 1,
+        "text": "• Problems of class AB drivers"
+      },
+      {
+        "bbox": [
+          0.16216216471706077,
+          0.3512195119512196,
+          0.5709459485008446,
+          0.4097560973170732
+        ],
+        "confidence": 1,
+        "text": "• Cross-coupled quads"
+      },
+      {
+        "bbox": [
+          0.1587837810247748,
+          0.4341463416260163,
+          0.48986486210585584,
+          0.4926829269918699
+        ],
+        "confidence": 1,
+        "text": "• Adaptive biasing"
+      },
+      {
+        "bbox": [
+          0.1583333386566678,
+          0.5170731711955483,
+          0.8625000087599987,
+          0.5853658541223775
+        ],
+        "confidence": 1,
+        "text": "• la control with translinear circuits, etc."
+      },
+      {
+        "bbox": [
+          0.16203162303313987,
+          0.5874752447581159,
+          0.8546233159834143,
+          0.6665967739418526
+        ],
+        "confidence": 1,
+        "text": "• Current feedback and other principles"
+      },
+      {
+        "bbox": [
+          0.16216216219594598,
+          0.6878048785853659,
+          0.6250000000337839,
+          0.7414634151707317
+        ],
+        "confidence": 1,
+        "text": "• Low-Voltage realizations"
+      },
+      {
+        "bbox": [
+          0.7263513542477996,
+          0.9414634150406505,
+          0.9391891791981468,
+          0.9853658540650406
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 1216"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0337_02_1216.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

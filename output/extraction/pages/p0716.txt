@@ -1,0 +1,40 @@
+728 Chapter #23
+2334
+Current reuse can also be
+effectuated in another way.
+If a two-stage amplifier is
+required, or an amplifier fol-
+lowed by a source follower,
+then current is used twice,
+as shown on the right.
+However, a judicious set
+of capacitors allows limiting
+the current to just one single
+path. This is shown on the
+left.
+Transistor M1 sees a
+signal ground at its Source.
+Its output is coupled to the
+Source follower underneath.
+The same technique is used three times in the following LNA.
+2335
+In this LNA, three input
+nMOSTs M11-M13 are
+placed in parallel to increase
+the transconductance. They
+all share the same DC cur-
+rent, however. The outputs
+are placed in parallel two by
+two and applied to a second
+stage with transistors M21–
+M22. The same method is
+then applied in the second
+stage. Their two outputs are
+put in parallel again and
+applied to a third amplifier
+stage with transistor M31,
+which provides the output
+voltage through cascode transistor M4.
+The DC biasing is applied by means of current mirrors M5 and M13, M23 and M32.
+The transistor sizes, currents and resistors are all given in this slide. The resulting specifications
+are given next.

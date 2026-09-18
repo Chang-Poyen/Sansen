@@ -1,0 +1,145 @@
+[
+  {
+    "id": "D01",
+    "slide_id": "0216",
+    "module_id": "04-degeneration",
+    "kind": "拓扑条件",
+    "title": "线性区 M2 的 Cgs2",
+    "explanation_zh": "原图 M2 源极接地时 Cgs2 直接接输入与地，不能套用 M1 源极的自举因子；M2 栅极扰动也须包含其 gm2。",
+    "status": "topology_dependent",
+    "pdf_page": 57,
+    "printed_page": 58
+  },
+  {
+    "id": "D02",
+    "slide_id": "0221",
+    "module_id": "05-diode-loads",
+    "kind": "DC 一致性",
+    "title": "输入输出 DC 相等与尺寸比",
+    "explanation_zh": "同 Vt、同 Vov 且相等电流时，平方律要求相等尺寸比；不能同时独立指定任意尺寸增益比。",
+    "status": "conditional",
+    "pdf_page": 60,
+    "printed_page": 61
+  },
+  {
+    "id": "D03",
+    "slide_id": "0229",
+    "module_id": "07-inverter-ac",
+    "kind": "代数系数",
+    "title": "并联输出电阻",
+    "explanation_zh": "若 go 指单管导纳，ro/2=1/(2go)；正文所写 2/go 不相等。",
+    "status": "algebra_discrepancy",
+    "pdf_page": 64,
+    "printed_page": 65
+  },
+  {
+    "id": "D04",
+    "slide_id": "0231",
+    "module_id": "07-inverter-ac",
+    "kind": "符号系数",
+    "title": "反相器的输入主导 GBW",
+    "explanation_zh": "若 gm、ro、fT 均使用单管定义，匹配反相器的输入主导 GBW 为 fT ro/(2Rs)；原式的二倍差异需区分单管与总量。",
+    "status": "notation_dependent",
+    "pdf_page": 65,
+    "printed_page": 66
+  },
+  {
+    "id": "D05",
+    "slide_id": "0232",
+    "module_id": "07-inverter-ac",
+    "kind": "符号系数",
+    "title": "反相器前馈零点",
+    "explanation_zh": "跨接总电容对应的零点为 Gm/CF；Gm 是 NMOS 与 PMOS 跨导之和。",
+    "status": "notation_dependent",
+    "pdf_page": 65,
+    "printed_page": 66
+  },
+  {
+    "id": "D06",
+    "slide_id": "0242",
+    "module_id": "09-followers-hf",
+    "kind": "近似范围",
+    "title": "复极点区间与相消",
+    "explanation_zh": "精确区间须解判别式；图中的宽度量不能直接当精确上下界比。1/Rs 相消近似还需 Cgd 远小于 Cgs。",
+    "status": "asymptotic_only",
+    "pdf_page": 71,
+    "printed_page": 72
+  },
+  {
+    "id": "D07",
+    "slide_id": "0243",
+    "module_id": "09-followers-hf",
+    "kind": "渐近式差异",
+    "title": "输出阻抗的 gmu",
+    "explanation_zh": "完整分母代入零点得到 gm=Cgs/[Rs(Cgs+Cgd)]；教材带 Cds 的估式不等于一般精确相消条件。",
+    "status": "model_discrepancy",
+    "pdf_page": 71,
+    "printed_page": 72
+  },
+  {
+    "id": "D08",
+    "slide_id": "0244",
+    "module_id": "10-emitter-hf",
+    "kind": "待厘清",
+    "title": "BJT 的 gmr 与 gmu",
+    "explanation_zh": "保留有限 β 和 Cpi=CjE+gm tauF 后须重解判别式；教材 gmr 不能由本组冻结电容模型重现，尚需原模型或符号说明。gmu 也只在列出的额外条件下接近相消解。",
+    "status": "unresolved_source_model",
+    "pdf_page": 72,
+    "printed_page": 73
+  },
+  {
+    "id": "D09",
+    "slide_id": "0245",
+    "module_id": "11-active-inductors",
+    "kind": "频带条件",
+    "title": "有源电感的串联电阻",
+    "explanation_zh": "Rs 是简化模型的高频阻抗极限；低频 Taylor 等效的串联电阻是 1/gm，L=(Rs−1/gm)/omegaT。",
+    "status": "asymptotic_only",
+    "pdf_page": 72,
+    "printed_page": 73
+  },
+  {
+    "id": "D10",
+    "slide_id": "0247",
+    "module_id": "11-active-inductors",
+    "kind": "端口定义",
+    "title": "差分电感与半电路",
+    "explanation_zh": "跨两输出端的差分电感为每半边等效电感的两倍；调谐电容也须依同一端口定义换算。",
+    "status": "port_definition",
+    "pdf_page": 73,
+    "printed_page": 74
+  },
+  {
+    "id": "D11",
+    "slide_id": "0256",
+    "module_id": "14-cascode-miller",
+    "kind": "近似范围",
+    "title": "No 米勒 effect 的语义",
+    "explanation_zh": "跨接电容与 RHP 零点仍在完整模型中；此叙述仅指某参数区域的主极点不受米勒放大项主导。",
+    "status": "conditional",
+    "pdf_page": 78,
+    "printed_page": 79
+  },
+  {
+    "id": "D12",
+    "slide_id": "0264",
+    "module_id": "18-gain-boosting",
+    "kind": "模型限制",
+    "title": "辅助 GBW 与原共源共栅级 BW 对齐",
+    "explanation_zh": "在明列的 B(s) 单极点模型中，精确相消条件指向 go2/CL，并非原共源共栅级主极点；不能当成普遍设计等式。",
+    "status": "model_discrepancy",
+    "pdf_page": 82,
+    "printed_page": 83
+  },
+  {
+    "id": "D13",
+    "slide_id": "0265",
+    "module_id": "19-doublet-settling",
+    "kind": "时间近似",
+    "title": "Step response 的快慢留数",
+    "explanation_zh": "精确快慢系数之和等于 1；将快系数直接写成 1 会牺牲 t=0 的一致性，只能视为小留数或晚时间近似。",
+    "status": "asymptotic_only",
+    "pdf_page": 83,
+    "printed_page": 84
+  }
+]

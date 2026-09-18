@@ -1,0 +1,27 @@
+{
+  "deck": "simulations/ch02/netlists/pz_miller.scs",
+  "sha256": "caa8fe7e874d2f323d6e522525a5a17559468584137f02679e94dd5d193c51d9",
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "returncode": 0,
+    "output_dir": "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_miller/pz_miller.raw",
+    "output_files": [
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_miller/pz_miller.raw/ac.ac",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_miller/pz_miller.raw/logStatus",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_miller/pz_miller.raw/poles.pz",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_miller/pz_miller.raw/logFile"
+    ],
+    "remote_host": "101.6.65.209",
+    "timings": {
+      "upload_total": 1.319588707992807,
+      "remote_exec": 1.6741833749692887,
+      "download_total": 5.713922456954606,
+      "parse_results": 0.0019782500457949936,
+      "total": 8.711735707998741
+    },
+    "command": "HOSTNAME=`hostname 2>/dev/null || echo localhost`; export HOSTNAME && export LD_LIBRARY_PATH=\"${LD_LIBRARY_PATH:-}\" && mkdir -p /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/5ddfecec/pz_miller.raw && csh -c ':; /eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/5ddfecec/pz_miller.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/5ddfecec/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/5ddfecec/pz_miller.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus' & SPID=$!; echo $SPID > /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/5ddfecec/spectre.pid; wait $SPID",
+    "spectre_command": "/eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/5ddfecec/pz_miller.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/5ddfecec/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/5ddfecec/pz_miller.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus"
+  },
+  "wall_s": 8.712883949279785
+}

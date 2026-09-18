@@ -1,0 +1,432 @@
+{
+  "case_id": "SANSEN-0647",
+  "slide_id": "0647",
+  "chapter": 6,
+  "slide_number_in_chapter": 47,
+  "source": {
+    "pdf_page": 201,
+    "printed_page": 205
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0201_02_0647.jpg",
+      "pdf_page": 201,
+      "printed_page": 205,
+      "bbox_pt": [
+        91.521622,
+        479.27398700000003,
+        374.78981,
+        675.733978
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 201,
+      "printed_page": 205,
+      "bbox_pt": [
+        0,
+        475.2845000000001,
+        595,
+        797
+      ],
+      "text_raw": "Without feedback, the open-\nloop output impedance\nZ is high indeed at low\nOUT\nfrequencies. It decreases\nuntil it reaches the level\n1/g .\nm6\nThe pole f of this Z is\nd OUT\nabout the same as for the\nopen-loop gain characteris-\ntic. The zero f however, is\nz\na new characteristic fre-\nquency. It is nowhere visible\nin the gain characteristic. It\nonly appears in the output\nimpedance and in the noise\ncharacteristic, which comes\nnext.",
+      "text": "Without feedback, the openloop output impedance Z is high indeed at low OUT frequencies. It decreases until it reaches the level 1/g . m6 The pole f of this Z is d OUT about the same as for the open-loop gain characteristic. The zero f however, is z a new characteristic frequency. It is nowhere visible in the gain characteristic. It only appears in the output impedance and in the noise characteristic, which comes next."
+    },
+    {
+      "pdf_page": 202,
+      "printed_page": 206,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        284.95293999999956
+      ],
+      "text_raw": "Actually, this zero is at the frequency where the output resistance of the first stage is taken\nover by the impedance of the compensation capacitance C . It is the frequency where the gain\nc\nof the first stage starts decreasing.\nAnyway, for most of the frequency region, the output impedance is quite low. As a result, we\ndo not need a class AB stage. These latter stages are only necessary to drive off-chip loads. Also,\na line connection at an impedance of a few kV’s does not pick up a lot of noise. It is a good\nvalue for interconnect.\nApplication of unity-gain feedback causes the output impedance to be divided by the total\ngain. Since the pole f is the same for both, it disappears. The zero remains, indicating a wide\nd\nregion which is inductive.\nWith the load capacitance C included, the impedance Z starts decreasing at the non-\nL OUTCL\ndominant pole f .\nnd",
+      "text": "Actually, this zero is at the frequency where the output resistance of the first stage is taken over by the impedance of the compensation capacitance C . It is the frequency where the gain c of the first stage starts decreasing. Anyway, for most of the frequency region, the output impedance is quite low. As a result, we do not need a class AB stage. These latter stages are only necessary to drive off-chip loads. Also, a line connection at an impedance of a few kV’s does not pick up a lot of noise. It is a good value for interconnect. Application of unity-gain feedback causes the output impedance to be divided by the total gain. Since the pole f is the same for both, it disappears. The zero remains, indicating a wide d region which is inductive. With the load capacitance C included, the impedance Z starts decreasing at the non- L OUTCL dominant pole f . nd"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Without feedback, the openloop output impedance Z is high indeed at low OUT frequencies. It decreases until it reaches the level 1/g . m6 The pole f of this Z is d OUT about the same as for the open-loop gain characteristic. The zero f however, is z a new characteristic frequency. It is nowhere visible in the gain characteristic. It only appears in the output impedance and in the noise characteristic, which comes next.\n\nActually, this zero is at the frequency where the output resistance of the first stage is taken over by the impedance of the compensation capacitance C . It is the frequency where the gain c of the first stage starts decreasing. Anyway, for most of the frequency region, the output impedance is quite low. As a result, we do not need a class AB stage. These latter stages are only necessary to drive off-chip loads. Also, a line connection at an impedance of a few kV’s does not pick up a lot of noise. It is a good value for interconnect. Application of unity-gain feedback causes the output impedance to be divided by the total gain. Since the pole f is the same for both, it disappears. The zero remains, indicating a wide d region which is inductive. With the load capacitance C included, the impedance Z starts decreasing at the non- L OUTCL dominant pole f . nd",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA : Output impedance Zour",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0201_02_0647.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108764076563,
+          0.08780487796747971,
+          0.8682432498029277,
+          0.1463414633333333
+        ],
+        "confidence": 1,
+        "text": "Miller CMOS OTA : Output impedance Zour"
+      },
+      {
+        "bbox": [
+          0.08108108054617119,
+          0.2146341458536586,
+          0.15202702649211713,
+          0.2731707312195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ZouT"
+      },
+      {
+        "bbox": [
+          0.18918918759652512,
+          0.21951219529616717,
+          0.4121621605694981,
+          0.27317073188153307
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1/9056 = 0.5 MS2"
+      },
+      {
+        "bbox": [
+          0.35120170931540695,
+          0.3356163488157393,
+          0.5001496441620272,
+          0.38633487030606894
+        ],
+        "confidence": 1,
+        "text": "open loop"
+      },
+      {
+        "bbox": [
+          0.20608108040540546,
+          0.3707317067317073,
+          0.28040540472972975,
+          0.429268292097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av2o,"
+      },
+      {
+        "bbox": [
+          0.42874043848986526,
+          0.441582986539363,
+          0.6118001050976962,
+          0.4998804276032206
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1/9m6 = 4 kS"
+      },
+      {
+        "bbox": [
+          0.20608108172297296,
+          0.5804878054146342,
+          0.2770270276689189,
+          0.634146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av1oi"
+      },
+      {
+        "bbox": [
+          0.34121621593468465,
+          0.5512195116666667,
+          0.3885135132319819,
+          0.6146341458130081
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av"
+      },
+      {
+        "bbox": [
+          0.7702702718243243,
+          0.24878048736585368,
+          0.9256756772297298,
+          0.3317073166341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "12 = 9024"
+      },
+      {
+        "bbox": [
+          0.8479729722635135,
+          0.3219512188780489,
+          0.9256756749662163,
+          0.3853658530243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27G"
+      },
+      {
+        "bbox": [
+          0.7736486482826577,
+          0.39512195069105693,
+          0.945945945579955,
+          0.45853658483739834
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fz = 4.8 kHz"
+      },
+      {
+        "bbox": [
+          0.7432432436148648,
+          0.5609756092195123,
+          0.8547297301013512,
+          0.6146341458048781
+        ],
+        "confidence": 1,
+        "text": "with CL"
+      },
+      {
+        "bbox": [
+          0.26013513486486484,
+          0.8439024384878049,
+          0.2939189186486486,
+          0.8975609750731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fd"
+      },
+      {
+        "bbox": [
+          0.4054054035241988,
+          0.8439024384878049,
+          0.4391891905298552,
+          0.8975609750731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "N*"
+      },
+      {
+        "bbox": [
+          0.47967836073924314,
+          0.6874588354871202,
+          0.6520783971128971,
+          0.741809455849937
+        ],
+        "confidence": 0.5,
+        "text": "closed Ibop"
+      },
+      {
+        "bbox": [
+          0.5639595862233385,
+          0.8425757123547403,
+          0.7096890635644492,
+          0.8988877011853067
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW fnd"
+      },
+      {
+        "bbox": [
+          0.7770270271718147,
+          0.7756097556097561,
+          0.851351351496139,
+          0.8439024385365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ f"
+      },
+      {
+        "bbox": [
+          0.7263513607793308,
+          0.9317073163414634,
+          0.9256756722161644,
+          0.9756097553658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 0647"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0201_02_0647.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Also, a line connection at an impedance of a few kV’s does not pick up a lot of noise.",
+        "pdf_page": 202,
+        "printed_page": 206,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It decreases until it reaches the level 1/g . m6 The pole f of this Z is d OUT about the same as for the open-loop gain characteristic.",
+      "pdf_page": 201,
+      "printed_page": 205,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is nowhere visible in the gain characteristic.",
+      "pdf_page": 201,
+      "printed_page": 205,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is the frequency where the gain c of the first stage starts decreasing.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, we do not need a class AB stage.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Application of unity-gain feedback causes the output impedance to be divided by the total gain.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "It decreases until it reaches the level 1/g . m6 The pole f of this Z is d OUT about the same as for the open-loop gain characteristic.",
+      "pdf_page": 201,
+      "printed_page": 205,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The zero f however, is z a new characteristic frequency.",
+      "pdf_page": 201,
+      "printed_page": 205,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is nowhere visible in the gain characteristic.",
+      "pdf_page": 201,
+      "printed_page": 205,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It only appears in the output impedance and in the noise characteristic, which comes next.",
+      "pdf_page": 201,
+      "printed_page": 205,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0647-M01",
+      "ocr_text": "1/9056 = 0.5 MS2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.18918918759652512,
+        0.21951219529616717,
+        0.4121621605694981,
+        0.27317073188153307
+      ],
+      "context_crop": "regions/SANSEN-0647_math_01.png",
+      "context_bbox_normalized": [
+        0.1491891875965251,
+        0.13,
+        0.6421621605694982,
+        0.4031707318815331
+      ],
+      "source_image": "slides/p0201_02_0647.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0647-M02",
+      "ocr_text": "1/9m6 = 4 kS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.42874043848986526,
+        0.441582986539363,
+        0.6118001050976962,
+        0.4998804276032206
+      ],
+      "context_crop": "regions/SANSEN-0647_math_02.png",
+      "context_bbox_normalized": [
+        0.3887404384898653,
+        0.34158298653936303,
+        0.8418001050976962,
+        0.6298804276032206
+      ],
+      "source_image": "slides/p0201_02_0647.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0647-M03",
+      "ocr_text": "12 = 9024",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7702702718243243,
+        0.24878048736585368,
+        0.9256756772297298,
+        0.3317073166341463
+      ],
+      "context_crop": "regions/SANSEN-0647_math_03.png",
+      "context_bbox_normalized": [
+        0.7302702718243242,
+        0.14878048736585367,
+        1,
+        0.4617073166341463
+      ],
+      "source_image": "slides/p0201_02_0647.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0647-M04",
+      "ocr_text": "fz = 4.8 kHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7736486482826577,
+        0.39512195069105693,
+        0.945945945579955,
+        0.45853658483739834
+      ],
+      "context_crop": "regions/SANSEN-0647_math_04.png",
+      "context_bbox_normalized": [
+        0.7336486482826576,
+        0.29512195069105696,
+        1,
+        0.5885365848373983
+      ],
+      "source_image": "slides/p0201_02_0647.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "E01",
+    "source": "vg",
+    "target": "im",
+    "gain": "gm",
+    "constraint": "M1",
+    "law": "MOS 跨导源的本构关系"
+  },
+  {
+    "id": "E02",
+    "source": "vg",
+    "target": "vF",
+    "gain": "1",
+    "constraint": "M2",
+    "law": "CF 端电压定义（KVL）"
+  },
+  {
+    "id": "E03",
+    "source": "vo",
+    "target": "vF",
+    "gain": "-1",
+    "constraint": "M2",
+    "law": "CF 端电压定义（KVL）"
+  },
+  {
+    "id": "E04",
+    "source": "vF",
+    "target": "iF",
+    "gain": "s*CF",
+    "constraint": "M3",
+    "law": "CF 的本构关系"
+  },
+  {
+    "id": "E05",
+    "source": "iF",
+    "target": "iR",
+    "gain": "1",
+    "constraint": "M4",
+    "law": "栅极 KCL"
+  },
+  {
+    "id": "E06",
+    "source": "iR",
+    "target": "vR",
+    "gain": "Rs",
+    "constraint": "M5",
+    "law": "Rs 的本构关系"
+  },
+  {
+    "id": "E07",
+    "source": "vi",
+    "target": "vg",
+    "gain": "1",
+    "constraint": "M6",
+    "law": "输入串联支路 KVL"
+  },
+  {
+    "id": "E08",
+    "source": "vR",
+    "target": "vg",
+    "gain": "-1",
+    "constraint": "M6",
+    "law": "输入串联支路 KVL"
+  },
+  {
+    "id": "E09",
+    "source": "iF",
+    "target": "io",
+    "gain": "1",
+    "constraint": "M7",
+    "law": "漏极 KCL"
+  },
+  {
+    "id": "E10",
+    "source": "im",
+    "target": "io",
+    "gain": "-1",
+    "constraint": "M7",
+    "law": "漏极 KCL"
+  },
+  {
+    "id": "E11",
+    "source": "io",
+    "target": "vo",
+    "gain": "ro",
+    "constraint": "M8",
+    "law": "ro 的本构关系"
+  }
+]

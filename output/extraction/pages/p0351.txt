@@ -1,0 +1,51 @@
+358 Chapter #12
+1242
+A somewhat similar prin-
+ciple for the quiescent cur-
+rent is used in this amplifier.
+It is a two-stage amplifier
+which can operate at low
+supply voltages.
+The input devices are
+lateral pnp transistors.
+Actually they are pMOSTs
+in which the Source-Bulk
+diode is forward biased
+(ref. Vittoz). They exhibit
+very low 1/f noise.
+Output transistor M12 is
+driven directly by the first
+stage. The other output
+transistor M11 is driven by two inverters M7-M9 and M10-M11.
+The quiescent current in the output transistors is controlled by current source M6. Indeed its
+currents is split up in two parts. The first part flows through M7, which has the same V as
+GS
+output transistor M12, and which has a fixed ratio in current to M12.
+The other part flows through M8, which controls the current in output transistor M11 by
+means of two current mirrors. The currents in the output transistors must be the same. The
+current through M6 controls this current.
+Using the sizes of the transistors in this slide, the quiescent current is about 1.6 times larger
+than the current in transistor M6.
+1243
+A very different principle is
+based on the current
+differential amplifier, which
+has been discussed in
+Chapter 3. It has three cur-
+rent inputs, actually four, if
+an extra current input
+source is applied to the
+Drain of transistor M4.
+Moreover, it can operate on
+very low supply voltages.
+If a threshold voltage V
+T
+is taken of 0.7 V, and a
+V −V (and V ) of only
+GS T DSsat
+0.15 V, then the supply volt-
+age can be as low as 1 Volt.
+The maximum output voltage can then be as high as 0.7 V.
+If however the V is only 0.3 V, and the same V −V of 0.15 V is taken, then the supply
+T GS T
+voltage can be a mere 0.6 V!

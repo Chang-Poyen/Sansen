@@ -1,0 +1,322 @@
+{
+  "case_id": "SANSEN-0344",
+  "slide_id": "0344",
+  "chapter": 3,
+  "slide_number_in_chapter": 44,
+  "source": {
+    "pdf_page": 109,
+    "printed_page": 111
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0109_02_0344.jpg",
+      "pdf_page": 109,
+      "printed_page": 111,
+      "bbox_pt": [
+        91.52162,
+        455.55728,
+        374.78981,
+        652.01727
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 109,
+      "printed_page": 111,
+      "bbox_pt": [
+        0,
+        451.56774500000023,
+        595,
+        797
+      ],
+      "text_raw": "In a similar way, a load\nresistor R of an amplifier\ncan be bootstrapped out, in\norder to make its effective\nvalue much higher, also\nrendering the voltage gain\nmuch higher. An example is\ngiven in this slide.\nThe amplifier simply con-\nsists of transistor Q1, fol-\nlowed by an emitter follower\nwith transistor Q2. Its volt-\nage gain would normally be\ng R. Depending on the\nm1\nactual DC current, this gain\nis not all that high.\nLoad resistor R is not connected to the supply voltage however, but to another emitter follower\nQ3, which is connected to the output voltage over three diode connected transistors, each\ncarrying about 0.6 V. The DC voltage across resistor R is thus also about 0.6 V.",
+      "text": "In a similar way, a load resistor R of an amplifier can be bootstrapped out, in order to make its effective value much higher, also rendering the voltage gain much higher. An example is given in this slide. The amplifier simply consists of transistor Q1, followed by an emitter follower with transistor Q2. Its voltage gain would normally be g R. Depending on the m1 actual DC current, this gain is not all that high. Load resistor R is not connected to the supply voltage however, but to another emitter follower Q3, which is connected to the output voltage over three diode connected transistors, each carrying about 0.6 V. The DC voltage across resistor R is thus also about 0.6 V."
+    },
+    {
+      "pdf_page": 110,
+      "printed_page": 112,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        177.33089999999982
+      ],
+      "text_raw": "However, the AC voltage at the output of emitter follower Q3 is about the same as the actual\noutput voltage v , which is the same as the AC voltage at the collector of the input transistor\nOUT\nQ1. There is now no AC voltage across resistor R. It is bootstrapped out. It appears to be\ninfinitely high. As a result the voltage gain is quite high.",
+      "text": "However, the AC voltage at the output of emitter follower Q3 is about the same as the actual output voltage v , which is the same as the AC voltage at the collector of the input transistor OUT Q1. There is now no AC voltage across resistor R. It is bootstrapped out. It appears to be infinitely high. As a result the voltage gain is quite high."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In a similar way, a load resistor R of an amplifier can be bootstrapped out, in order to make its effective value much higher, also rendering the voltage gain much higher. An example is given in this slide. The amplifier simply consists of transistor Q1, followed by an emitter follower with transistor Q2. Its voltage gain would normally be g R. Depending on the m1 actual DC current, this gain is not all that high. Load resistor R is not connected to the supply voltage however, but to another emitter follower Q3, which is connected to the output voltage over three diode connected transistors, each carrying about 0.6 V. The DC voltage across resistor R is thus also about 0.6 V.\n\nHowever, the AC voltage at the output of emitter follower Q3 is about the same as the actual output voltage v , which is the same as the AC voltage at the collector of the input transistor OUT Q1. There is now no AC voltage across resistor R. It is bootstrapped out. It appears to be infinitely high. As a result the voltage gain is quite high.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Bootstrapping out a load resistance R",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0109_02_0344.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433097972958,
+          0.07804878014634142,
+          0.7398648715202701,
+          0.14146341429268294
+        ],
+        "confidence": 1,
+        "text": "Bootstrapping out a load resistance R"
+      },
+      {
+        "bbox": [
+          0.47297297257882875,
+          0.2536585367073171,
+          0.5202702698761261,
+          0.29756097573170737
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B1"
+      },
+      {
+        "bbox": [
+          0.19932432474662157,
+          0.32195122006097565,
+          0.2398648652871621,
+          0.3658536590853658
+        ],
+        "confidence": 1,
+        "text": "Q3"
+      },
+      {
+        "bbox": [
+          0.5337837837837838,
+          0.37560975653658535,
+          0.5743243243243243,
+          0.41951219556097563
+        ],
+        "confidence": 1,
+        "text": "Q4"
+      },
+      {
+        "bbox": [
+          0.20270270293918918,
+          0.47317073092682915,
+          0.28040540564189187,
+          0.5512195114146341
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RZ"
+      },
+      {
+        "bbox": [
+          0.6418918923503861,
+          0.3560975607317074,
+          0.7060810815395753,
+          0.39999999975609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R is"
+      },
+      {
+        "bbox": [
+          0.6418918942004505,
+          0.4195121948780488,
+          0.9189189212274774,
+          0.4682926826829268
+        ],
+        "confidence": 1,
+        "text": "bootstrapped out :"
+      },
+      {
+        "bbox": [
+          0.6385135105152028,
+          0.47804878067073164,
+          0.8783783753800678,
+          0.5317073172560975
+        ],
+        "confidence": 1,
+        "text": "Very high gain !"
+      },
+      {
+        "bbox": [
+          0.5337837836993242,
+          0.5121951225,
+          0.5743243242398648,
+          0.5560975615243903
+        ],
+        "confidence": 1,
+        "text": "Q5"
+      },
+      {
+        "bbox": [
+          0.3581081088744499,
+          0.6390243903252032,
+          0.4087837813282528,
+          0.6731707317886179
+        ],
+        "confidence": 1,
+        "text": "Q2"
+      },
+      {
+        "bbox": [
+          0.5337837837837838,
+          0.6487804882439026,
+          0.5743243243243243,
+          0.6926829272682927
+        ],
+        "confidence": 1,
+        "text": "Q6"
+      },
+      {
+        "bbox": [
+          0.14527026986486488,
+          0.8097560970731708,
+          0.19256756716216217,
+          0.8585365848780488
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.40540540574324324,
+          0.7951219511149827,
+          0.4527027030405405,
+          0.8487804877003485
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1в2"
+      },
+      {
+        "bbox": [
+          0.5101351344172298,
+          0.7951219505487805,
+          0.5810810803631757,
+          0.8487804871341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT"
+      },
+      {
+        "bbox": [
+          0.6621621641469594,
+          0.8292682923780487,
+          0.8209459479307432,
+          0.8634146338414633
+        ],
+        "confidence": 1,
+        "text": "Ref.: Nordholt"
+      },
+      {
+        "bbox": [
+          0.6554054086570946,
+          0.8634146339024391,
+          0.9155405437922297,
+          0.9121951217073172
+        ],
+        "confidence": 1,
+        "text": "JSSC June 85, 688-696"
+      },
+      {
+        "bbox": [
+          0.7195946040788804,
+          0.946341463927245,
+          0.9290540506508491,
+          0.9853658530081301
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 0344"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0109_02_0344.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The amplifier simply consists of transistor Q1, followed by an emitter follower with transistor Q2.",
+        "pdf_page": 109,
+        "printed_page": 111,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Load resistor R is not connected to the supply voltage however, but to another emitter follower Q3, which is connected to the output voltage over three diode connected transistors, each carrying about 0.6 V.",
+        "pdf_page": 109,
+        "printed_page": 111,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "However, the AC voltage at the output of emitter follower Q3 is about the same as the actual output voltage v , which is the same as the AC voltage at the collector of the input transistor OUT Q1.",
+        "pdf_page": 110,
+        "printed_page": 112,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In a similar way, a load resistor R of an amplifier can be bootstrapped out, in order to make its effective value much higher, also rendering the voltage gain much higher.",
+      "pdf_page": 109,
+      "printed_page": 111,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its voltage gain would normally be g R.",
+      "pdf_page": 109,
+      "printed_page": 111,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Depending on the m1 actual DC current, this gain is not all that high.",
+      "pdf_page": 109,
+      "printed_page": 111,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The DC voltage across resistor R is thus also about 0.6 V.",
+      "pdf_page": 109,
+      "printed_page": 111,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result the voltage gain is quite high.",
+      "pdf_page": 110,
+      "printed_page": 112,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

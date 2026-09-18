@@ -1,0 +1,49 @@
+CMOS ADC and DAC principles 629
+When V increases beyond 9/16 V, the same code is generated as when it crossed 1/16 V,
+in
+i.e. 0001 and so on. The same LSBs are thus generated.
+2051
+Such a folding block is usu-
+ally realized by means of a
+number of differential pairs
+in parallel, the outputs of
+some of which are also con-
+nected in parallel.
+An example of a folding
+block with folding rate 4 is
+shown in this slide in bipolar
+technology.
+All four differential pairs
+are connected in parallel at
+the input. The appropriate
+outputs are connected two
+by two. Four equidistant ref-
+erences are connected to the
+inputs. They set the inversion points of the transfer characteristics of the differential pairs and
+hence determine the four folding regions.
+Note that the input sees four differential pairs in parallel. This is why folding does not decrease
+the input capacitance. Each folding block has as many differential pairs in parallel as the folding
+rate indicates. The input capacitance is the same as for a flash ADC.
+Note also that the output frequency of a folding block is at a higher frequency than the input
+voltage. This establishes the maximum frequency of operation.
+Finally, the 2-bit MSB ADC is easily realized with a circuit similar to the one in this slide. As
+reference voltages 4/16 V, 8/16 V, 12/16 V and 16/16 V have to be taken. The two MSBs are
+available at the output of the second differential pair and at the V terminal in this slide.
+out
+2052
+The only way to reduce the
+input capacitance is to
+involve interpolation.
+Application of interpola-
+tion by two to the previous
+4-bit folding ADC yields the
+system shown in this slide.
+In this way, an 8-bit ADC
+has been realized for a
+150 MHz input signal con-
+suming only 0.8 W in
+bipolar technology (Van
+Valburg). Four folding
+blocks are used, each with
+a folding rate of eight.
+Interpolation is done each

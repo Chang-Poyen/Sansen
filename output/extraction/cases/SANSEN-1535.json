@@ -1,0 +1,197 @@
+{
+  "case_id": "SANSEN-1535",
+  "slide_id": "1535",
+  "chapter": 15,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 430,
+    "printed_page": 438
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0430_02_1535.jpg",
+      "pdf_page": 430,
+      "printed_page": 438,
+      "bbox_pt": [
+        91.521622,
+        361.686982,
+        374.78981,
+        558.146973
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 430,
+      "printed_page": 438,
+      "bbox_pt": [
+        0,
+        357.69750000000005,
+        595,
+        797
+      ],
+      "text_raw": "Power devices are located\non the right. They heat up\nthe chip on the right side,\ngenerating isotherms on the\nother side of the chip.\nThe input transistors of\nan opamp or any other\ndifferential circuit is better\nlaid out on this isotherm. If\nnot, an internal thermal\nresistance is active, which\nlimits the open-loop gain in\nexactly the same way as a\nfeedback resistor would (see\nreference).\nThis applies not only to\nstatic isotherms but also dynamic ones, for example when power switches (or relays) are integrated\non the chip.\nTemperature gradients can also induce stress in the chip. The same applies to the pack-\nage. Matched components have to be laid out on iso-stress lines, which may be hard to be\nidentified!",
+      "text": "Power devices are located on the right. They heat up the chip on the right side, generating isotherms on the other side of the chip. The input transistors of an opamp or any other differential circuit is better laid out on this isotherm. If not, an internal thermal resistance is active, which limits the open-loop gain in exactly the same way as a feedback resistor would (see reference). This applies not only to static isotherms but also dynamic ones, for example when power switches (or relays) are integrated on the chip. Temperature gradients can also induce stress in the chip. The same applies to the package. Matched components have to be laid out on iso-stress lines, which may be hard to be identified!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Power devices are located on the right. They heat up the chip on the right side, generating isotherms on the other side of the chip. The input transistors of an opamp or any other differential circuit is better laid out on this isotherm. If not, an internal thermal resistance is active, which limits the open-loop gain in exactly the same way as a feedback resistor would (see reference). This applies not only to static isotherms but also dynamic ones, for example when power switches (or relays) are integrated on the chip. Temperature gradients can also induce stress in the chip. The same applies to the package. Matched components have to be laid out on iso-stress lines, which may be hard to be identified!",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "On same isotherm",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0430_02_1535.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432664092663,
+          0.08292682909407667,
+          0.398648650965251,
+          0.13658536567944246
+        ],
+        "confidence": 1,
+        "text": "On same isotherm"
+      },
+      {
+        "bbox": [
+          0.3850400980810066,
+          0.23829797870477287,
+          0.4899599054119887,
+          0.2690190941892432
+        ],
+        "confidence": 1,
+        "text": "isotherms"
+      },
+      {
+        "bbox": [
+          0.10810810954391888,
+          0.4292682924390244,
+          0.22297297440878378,
+          0.45853658512195117
+        ],
+        "confidence": 1,
+        "text": "differential"
+      },
+      {
+        "bbox": [
+          0.13513513488175677,
+          0.47317073207317073,
+          0.18918918893581083,
+          0.5024390247560976
+        ],
+        "confidence": 1,
+        "text": "pairs"
+      },
+      {
+        "bbox": [
+          0.14864864994369364,
+          0.5560975607317074,
+          0.22635135264639633,
+          0.590243902195122
+        ],
+        "confidence": 0.5,
+        "text": "good -"
+      },
+      {
+        "bbox": [
+          0.861207558580167,
+          0.4619358160967957,
+          0.9327113588949929,
+          0.49416174591529805
+        ],
+        "confidence": 1,
+        "text": "power"
+      },
+      {
+        "bbox": [
+          0.8614864875,
+          0.497560975487805,
+          0.9425675685810811,
+          0.5268292681707317
+        ],
+        "confidence": 1,
+        "text": "devices"
+      },
+      {
+        "bbox": [
+          0.41554054062499995,
+          0.7560975611585365,
+          0.4560810811655405,
+          0.7853658538414634
+        ],
+        "confidence": 1,
+        "text": "bad"
+      },
+      {
+        "bbox": [
+          0.5709459472972972,
+          0.8585365848780488,
+          0.9222972986486486,
+          0.8975609751219512
+        ],
+        "confidence": 1,
+        "text": "Solomon, JSSC Dec 74, 314-332"
+      },
+      {
+        "bbox": [
+          0.71283784219825,
+          0.9512195127642277,
+          0.9256756671485971,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 1535"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0430_02_1535.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If not, an internal thermal resistance is active, which limits the open-loop gain in exactly the same way as a feedback resistor would (see reference).",
+      "pdf_page": 430,
+      "printed_page": 438,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

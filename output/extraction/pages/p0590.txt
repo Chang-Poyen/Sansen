@@ -1,0 +1,43 @@
+Continuous-time filters 601
+The two voltages at the input of the OTA_dif are provided by two matched circuits, both are
+driven by V but with different integration capacitors. The one at the top has C whereas the
+ref int
+one at the bottom has k12C .
+int
+The voltage at the output of the first g block on top is V . It is actually 2V /c . This
+m1 n1+,n1– ref 1
+voltage is integrated over time t . As a result, the input voltage V equals the expression given
+1 1,int
+in this slide. In the same way, the voltage V is derived for the block at the bottom. The
+2,int
+equation of both, as a result of the feedback loop, shows that indeed the ratio of the time
+constants is kept constant.
+Despite the tuning circuits, the total power consumption of this CMOS realization is quite
+low. Moreover, no external trimming is required.
+1969
+Since several types of filters
+have been introduced up till
+now, a comparison in terms
+of dynamic range and fre-
+quency capability is manda-
+tory. As a third axis the
+power consumption could
+be added. This is left to the
+reader however.
+1970
+In this graph, a first-order
+comparison is carried out
+between the different types
+of filters in terms of dynamic
+range DR versus frequency.
+For each type, the DR is
+sketched versus frequency.
+The main positive and nega-
+tive points are listed on the
+right.
+At low frequencies, an
+operational amplifier with
+RC’s in the feedback loop
+offers the highest dynamic
+range. For higher power
+consumption, even values

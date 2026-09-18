@@ -1,0 +1,196 @@
+{
+  "case_id": "SANSEN-1889",
+  "slide_id": "1889",
+  "chapter": 18,
+  "slide_number_in_chapter": 89,
+  "source": {
+    "pdf_page": 553,
+    "printed_page": 563
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0553_01_1889.jpg",
+      "pdf_page": 553,
+      "printed_page": 563,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 553,
+      "printed_page": 563,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        405.52951000000013
+      ],
+      "text_raw": "Since distortion is propor-\ntional to both voltage and\ncurrent swing, the first\nguidelines simply state that\nlow-distortion performance\ncan be reached when both\nswings are small.\nDistortion can always\nbe reduced by application\nof feedback. This feedback\ncauses a reduction in distor-\ntion, first by reducing the\nsignal swing and on top of\nthat, by dividing the distor-\ntion by the loop gain.\nFinally, second-order dis-\ntortion can always be avoided by making all circuitry fully-differential. Obviously, the power\nconsumption also increases and so does the input noise. However, the Signal-to-noise-and-\ndistortion will increase. Mismatch will give some second-order distortion but it will usually be\nsmaller than the third-order one.",
+      "text": "Since distortion is proportional to both voltage and current swing, the first guidelines simply state that low-distortion performance can be reached when both swings are small. Distortion can always be reduced by application of feedback. This feedback causes a reduction in distortion, first by reducing the signal swing and on top of that, by dividing the distortion by the loop gain. Finally, second-order distortion can always be avoided by making all circuitry fully-differential. Obviously, the power consumption also increases and so does the input noise. However, the Signal-to-noise-anddistortion will increase. Mismatch will give some second-order distortion but it will usually be smaller than the third-order one."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Since distortion is proportional to both voltage and current swing, the first guidelines simply state that low-distortion performance can be reached when both swings are small. Distortion can always be reduced by application of feedback. This feedback causes a reduction in distortion, first by reducing the signal swing and on top of that, by dividing the distortion by the loop gain. Finally, second-order distortion can always be avoided by making all circuitry fully-differential. Obviously, the power consumption also increases and so does the input noise. However, the Signal-to-noise-anddistortion will increase. Mismatch will give some second-order distortion but it will usually be smaller than the third-order one.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Guide lines for low distortion",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0553_01_1889.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627408662895,
+          0.07317073146341468,
+          0.5966101723917137,
+          0.1365853656097561
+        ],
+        "confidence": 1,
+        "text": "Guide lines for low distortion"
+      },
+      {
+        "bbox": [
+          0.12203390237288131,
+          0.27804878024390245,
+          0.6915254277966101,
+          0.33170731682926835
+        ],
+        "confidence": 1,
+        "text": "• Scaling such that voltage amplitudes"
+      },
+      {
+        "bbox": [
+          0.16258999286766995,
+          0.35530524163519006,
+          0.32893542754143185,
+          0.410548417420906
+        ],
+        "confidence": 1,
+        "text": "are limited"
+      },
+      {
+        "bbox": [
+          0.12203390614406756,
+          0.4439024389024391,
+          0.7491525502118643,
+          0.5024390242682927
+        ],
+        "confidence": 1,
+        "text": "• Scaling such that relative current swings"
+      },
+      {
+        "bbox": [
+          0.16610169380145282,
+          0.5317073173519163,
+          0.32203389719128334,
+          0.5804878051567944
+        ],
+        "confidence": 1,
+        "text": "are limited"
+      },
+      {
+        "bbox": [
+          0.12185473713738434,
+          0.6134122074170253,
+          0.29509441598901304,
+          0.6695146205014741
+        ],
+        "confidence": 1,
+        "text": "• Feedback"
+      },
+      {
+        "bbox": [
+          0.1220339005084746,
+          0.7024390241463415,
+          0.4305084767796611,
+          0.7560975607317074
+        ],
+        "confidence": 1,
+        "text": "• All fully differential"
+      },
+      {
+        "bbox": [
+          0.7152542391186439,
+          0.9317073166341463,
+          0.9322033916610168,
+          0.9756097556585365
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10us 1889"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback",
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0553_01_1889.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Since distortion is proportional to both voltage and current swing, the first guidelines simply state that low-distortion performance can be reached when both swings are small.",
+      "pdf_page": 553,
+      "printed_page": 563,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This feedback causes a reduction in distortion, first by reducing the signal swing and on top of that, by dividing the distortion by the loop gain.",
+      "pdf_page": 553,
+      "printed_page": 563,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Obviously, the power consumption also increases and so does the input noise.",
+      "pdf_page": 553,
+      "printed_page": 563,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "However, the Signal-to-noise-anddistortion will increase.",
+      "pdf_page": 553,
+      "printed_page": 563,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

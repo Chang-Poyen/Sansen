@@ -1,0 +1,180 @@
+{
+  "case_id": "SANSEN-151",
+  "slide_id": "151",
+  "chapter": 15,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 413,
+    "printed_page": 421
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0413_01_151.jpg",
+      "pdf_page": 413,
+      "printed_page": 421,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 413,
+      "printed_page": 421,
+      "bbox_pt": [
+        0,
+        118.58729999999991,
+        595,
+        392.57507500000014
+      ],
+      "text_raw": "The main limitation to\nprecision in analog integ-\nrated circuits is established\nby noise and mismatch.\nActually, the smaller the\nchannel lengths become, the\nmore severe is the mismatch\nand this becomes the domi-\nnant limitation in precision.\nMismatch is the main\nreason for high offset and\nlow CMRR (Common-\nmode rejection ratio). It is\nalso the main reason for low\nPSRR (Power-supply rejec-\ntion ratio).\nIn this Chapter we will investigate the relationship between mismatch and these specifications.\nMoreover, we will try to find out how to modify the layout of a circuit to improve mismatch\nand hence to lower the offset. This will be done for both CMOS and bipolar technologies.",
+      "text": "The main limitation to precision in analog integrated circuits is established by noise and mismatch. Actually, the smaller the channel lengths become, the more severe is the mismatch and this becomes the dominant limitation in precision. Mismatch is the main reason for high offset and low CMRR (Commonmode rejection ratio). It is also the main reason for low PSRR (Power-supply rejection ratio). In this Chapter we will investigate the relationship between mismatch and these specifications. Moreover, we will try to find out how to modify the layout of a circuit to improve mismatch and hence to lower the offset. This will be done for both CMOS and bipolar technologies."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The main limitation to precision in analog integrated circuits is established by noise and mismatch. Actually, the smaller the channel lengths become, the more severe is the mismatch and this becomes the dominant limitation in precision. Mismatch is the main reason for high offset and low CMRR (Commonmode rejection ratio). It is also the main reason for low PSRR (Power-supply rejection ratio). In this Chapter we will investigate the relationship between mismatch and these specifications. Moreover, we will try to find out how to modify the layout of a circuit to improve mismatch and hence to lower the offset. This will be done for both CMOS and bipolar technologies.",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Slide 151",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0413_01_151.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.22972973486486473,
+          0.2731707324878049,
+          0.750000005135135,
+          0.3512195129756097
+        ],
+        "confidence": 0.5,
+        "text": "Offset and CMRR:"
+      },
+      {
+        "bbox": [
+          0.17229729084459466,
+          0.3804878049268293,
+          0.817567561114865,
+          0.4731707317560976
+        ],
+        "confidence": 1,
+        "text": "Random and systematic"
+      },
+      {
+        "bbox": [
+          0.3812269037412018,
+          0.5946818573380871,
+          0.6354205447851999,
+          0.6606918975282489
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.310810810472973,
+          0.72195122,
+          0.6756756753378379,
+          0.770731707804878
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.3783783815033784,
+          0.7902439021951221,
+          0.6283783815033783,
+          0.8390243900000001
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.347972976858108,
+          0.8731707314634147,
+          0.6587837876689189,
+          0.9024390241463416
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7128378423108626,
+          0.9560975614634146,
+          0.918918910504453,
+          0.9853658541463415
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 151"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Moreover, we will try to find out how to modify the layout of a circuit to improve mismatch and hence to lower the offset.",
+      "pdf_page": 413,
+      "printed_page": 421,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0413_01_151.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The main limitation to precision in analog integrated circuits is established by noise and mismatch.",
+      "pdf_page": 413,
+      "printed_page": 421,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Actually, the smaller the channel lengths become, the more severe is the mismatch and this becomes the dominant limitation in precision.",
+      "pdf_page": 413,
+      "printed_page": 421,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

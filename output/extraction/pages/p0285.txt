@@ -1,0 +1,56 @@
+292 Chapter #10
+103
+Current amplifiers are used
+for current sensors and
+for some high-frequency
+applications.
+For example a photo-
+diode (pixel detector, radia-
+tion detector, ...) which
+receives light, provides a
+current proportional to this
+amount of light, provided it
+is reverse biased. It behaves
+as a current source with
+value I .
+IN
+In this case a voltage
+amplifier can be used with
+resistive feedback, which
+provides an output voltage R I , or a current-input amplifier with transresistance A .
+F IN R
+The question is, which one is better, from the point of view of gain (or sensitivity), speed and
+noise performance?
+104
+A current input assumes the
+use of cascodes, as shown in
+this slide.
+This amplifier actually
+consists of two current mir-
+rors, connected by their ref-
+erence voltages. The outputs
+are then current mirrored to
+the output, with current
+factor B .
+2
+These two current mirrors
+provide the biasing. Both
+transistors M1 and M3 are
+biased at current I .
+B
+However, for small-sig-
+nals, transistors M1 and M3
+operate as cascodes. The input current i is divided over both input cascodes, multiplied by B ,
+IN 2
+and generates an output voltage in the output resistance R at the Drains of output transistors
+OUT
+M5 and M6.
+The current gain is very modest but the transresistance can be very large, especially if cascodes
+are used on transistors M5/M6 and gain boosting on these cascodes.
+The bandwidth BW is determined by R as well. As a result, the transresistance-bandwidth
+OUT
+product does not contain R any more.
+OUT
+It is not possible to compare the product A BW to the GBW of a voltage amplifier. They
+R
+have totally different dimensions!

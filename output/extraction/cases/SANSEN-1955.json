@@ -1,0 +1,242 @@
+{
+  "case_id": "SANSEN-1955",
+  "slide_id": "1955",
+  "chapter": 19,
+  "slide_number_in_chapter": 55,
+  "source": {
+    "pdf_page": 582,
+    "printed_page": 593
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0583_01_1955.jpg",
+      "pdf_page": 583,
+      "printed_page": 594,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 582,
+      "printed_page": 593,
+      "bbox_pt": [
+        0,
+        582.9065,
+        595,
+        797
+      ],
+      "text_raw": "Filters are constructed by putting a number of transconductors in series or in a feedback loop.\nAt the beginning of this Section on Transconductors a good example is given of a biquad\nconsisting of four transconductors.\nThe characteristic frequencies of such a filter are determined by the Gm/C ratios. In order to\nbe able to match these frequencies, accurate values of Gm must be achieved. Indeed, accurate\nratios of capacitances are already available (see Chapter 15). The ratios have to be realized\nbetween the load capacitances C of several Gm blocks. The parasitic capacitances C will render\nL p\nthese ratios less accurate. This is compensated however, by adjusting the Gm values.",
+      "text": "Filters are constructed by putting a number of transconductors in series or in a feedback loop. At the beginning of this Section on Transconductors a good example is given of a biquad consisting of four transconductors. The characteristic frequencies of such a filter are determined by the Gm/C ratios. In order to be able to match these frequencies, accurate values of Gm must be achieved. Indeed, accurate ratios of capacitances are already available (see Chapter 15). The ratios have to be realized between the load capacitances C of several Gm blocks. The parasitic capacitances C will render L p these ratios less accurate. This is compensated however, by adjusting the Gm values."
+    },
+    {
+      "pdf_page": 583,
+      "printed_page": 594,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        381.61350000000016
+      ],
+      "text_raw": "This accuracy can be\nachieved by adding another\nGm block, which is matched\nto the ones used in the filter,\nthis is tuned to a reference\nby a tuning circuit. Such cir-\ncuits will be described next.\nIt is clear however, that\nbesides the characteristic\nfrequency f , sometimes\no\ntuning is required of a qual-\nity factor Q as well. This can\nbe done in two ways, either\nby adjusting the Gm of\nthe diode-connected block\n(shown left) or by insertion\nof a tunable damping resis-\ntor R (shown right).\nThe latter one is called the Gm-RC filter. The resistor R must have high values and be tunable\nover a wide range.",
+      "text": "This accuracy can be achieved by adding another Gm block, which is matched to the ones used in the filter, this is tuned to a reference by a tuning circuit. Such circuits will be described next. It is clear however, that besides the characteristic frequency f , sometimes o tuning is required of a quality factor Q as well. This can be done in two ways, either by adjusting the Gm of the diode-connected block (shown left) or by insertion of a tunable damping resistor R (shown right). The latter one is called the Gm-RC filter. The resistor R must have high values and be tunable over a wide range."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Filters are constructed by putting a number of transconductors in series or in a feedback loop. At the beginning of this Section on Transconductors a good example is given of a biquad consisting of four transconductors. The characteristic frequencies of such a filter are determined by the Gm/C ratios. In order to be able to match these frequencies, accurate values of Gm must be achieved. Indeed, accurate ratios of capacitances are already available (see Chapter 15). The ratios have to be realized between the load capacitances C of several Gm blocks. The parasitic capacitances C will render L p these ratios less accurate. This is compensated however, by adjusting the Gm values.\n\nThis accuracy can be achieved by adding another Gm block, which is matched to the ones used in the filter, this is tuned to a reference by a tuning circuit. Such circuits will be described next. It is clear however, that besides the characteristic frequency f , sometimes o tuning is required of a quality factor Q as well. This can be done in two ways, either by adjusting the Gm of the diode-connected block (shown left) or by insertion of a tunable damping resistor R (shown right). The latter one is called the Gm-RC filter. The resistor R must have high values and be tunable over a wide range.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Gm-R-C versus Gm-C filters",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0583_01_1955.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270783783778,
+          0.08292682912195126,
+          0.5912162213513514,
+          0.13658536570731705
+        ],
+        "confidence": 1,
+        "text": "Gm-R-C versus Gm-C filters"
+      },
+      {
+        "bbox": [
+          0.07094594567567568,
+          0.34146341482926834,
+          0.09797297270270271,
+          0.3804878050731708
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.0709459454391892,
+          0.4097560969512195,
+          0.1182432427364865,
+          0.4585365847560976
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.16554054013513514,
+          0.4048780482439025,
+          0.21283783743243245,
+          0.4585365848292683
+        ],
+        "confidence": 1,
+        "text": "Gm"
+      },
+      {
+        "bbox": [
+          0.2905405404391892,
+          0.40487804819512196,
+          0.34797297287162166,
+          0.4634146335609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.3885135139076576,
+          0.4048780486585366,
+          0.4358108112049549,
+          0.4585365852439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Gm"
+      },
+      {
+        "bbox": [
+          0.47126390158903647,
+          0.3989383022447037,
+          0.6029809262117732,
+          0.45621233911738135
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT VIN"
+      },
+      {
+        "bbox": [
+          0.6520270273648648,
+          0.4048780486759582,
+          0.6993243246621621,
+          0.458536585261324
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Gm"
+      },
+      {
+        "bbox": [
+          0.7702702679476352,
+          0.4048780489634146,
+          0.956081078758446,
+          0.468292683109756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL3R YOUT"
+      },
+      {
+        "bbox": [
+          0.7263513492229731,
+          0.9560975611707317,
+          0.9391891870608109,
+          0.9853658538536586
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1955"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The characteristic frequencies of such a filter are determined by the Gm/C ratios.",
+      "pdf_page": 582,
+      "printed_page": 593,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This can be done in two ways, either by adjusting the Gm of the diode-connected block (shown left) or by insertion of a tunable damping resistor R (shown right).",
+      "pdf_page": 583,
+      "printed_page": 594,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0583_01_1955.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Filters are constructed by putting a number of transconductors in series or in a feedback loop.",
+        "pdf_page": 582,
+        "printed_page": 593,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This can be done in two ways, either by adjusting the Gm of the diode-connected block (shown left) or by insertion of a tunable damping resistor R (shown right).",
+        "pdf_page": 583,
+        "printed_page": 594,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The characteristic frequencies of such a filter are determined by the Gm/C ratios.",
+      "pdf_page": 582,
+      "printed_page": 593,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is clear however, that besides the characteristic frequency f , sometimes o tuning is required of a quality factor Q as well.",
+      "pdf_page": 583,
+      "printed_page": 594,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

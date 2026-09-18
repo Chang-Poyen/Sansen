@@ -1,0 +1,600 @@
+{
+  "case_id": "SANSEN-0227",
+  "slide_id": "0227",
+  "chapter": 2,
+  "slide_number_in_chapter": 27,
+  "source": {
+    "pdf_page": 63,
+    "printed_page": 64
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0063_01_0227.jpg",
+      "pdf_page": 63,
+      "printed_page": 64,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 63,
+      "printed_page": 64,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        386.5960000000001
+      ],
+      "text_raw": "We firstly have to determine\nthe exact biasing. We nor-\nmally require the output\nvoltage to be half the supply\nvoltage, when the input volt-\nage is half the supply volt-\nage. It does not have to be\nlike that, but this is a better\nway, for example, if several\nof these stages have to\ncascaded.\nIn this case, both transis-\ntors have the same V ,\nGS\nwhich is V /2. They also\nDD\nhave the same current. This\nis only possible if their W/L\nvalues are inversely proportional to their K∞ values. Since K∞ is usually twice as large as K∞ ,\nn p\nthe pMOST transistor has usually twice the W/L value compared to the nMOST.\nThe expression of the transistor current is then easily obtained, with V substituted by V /2.\nGS DD",
+      "text": "We firstly have to determine the exact biasing. We normally require the output voltage to be half the supply voltage, when the input voltage is half the supply voltage. It does not have to be like that, but this is a better way, for example, if several of these stages have to cascaded. In this case, both transistors have the same V , GS which is V /2. They also DD have the same current. This is only possible if their W/L values are inversely proportional to their K∞ values. Since K∞ is usually twice as large as K∞ , n p the pMOST transistor has usually twice the W/L value compared to the nMOST. The expression of the transistor current is then easily obtained, with V substituted by V /2. GS DD"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "We firstly have to determine the exact biasing. We normally require the output voltage to be half the supply voltage, when the input voltage is half the supply voltage. It does not have to be like that, but this is a better way, for example, if several of these stages have to cascaded. In this case, both transistors have the same V , GS which is V /2. They also DD have the same current. This is only possible if their W/L values are inversely proportional to their K∞ values. Since K∞ is usually twice as large as K∞ , n p the pMOST transistor has usually twice the W/L value compared to the nMOST. The expression of the transistor current is then easily obtained, with V substituted by V /2. GS DD",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Analog amplifier : DC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0063_01_0227.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270599662155,
+          0.08292682894308945,
+          0.47297297626689183,
+          0.14146341430894305
+        ],
+        "confidence": 1,
+        "text": "Analog amplifier : DC"
+      },
+      {
+        "bbox": [
+          0.07770270317033305,
+          0.48780487756097557,
+          0.10472972858642374,
+          0.5170731702439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vil"
+      },
+      {
+        "bbox": [
+          0.3141891886486487,
+          0.1999999994146342,
+          0.3749999994594595,
+          0.2585365847804878
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.2567567565540541,
+          0.24390243999999994,
+          0.3918918916891892,
+          0.341463415609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LiDSA"
+      },
+      {
+        "bbox": [
+          0.2939189194679054,
+          0.38536585341463414,
+          0.3378378383868243,
+          0.4243902436585366
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.37162162242398644,
+          0.4292682926219511,
+          0.43581081161317564,
+          0.4731707316463414
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.28716216260135136,
+          0.5317073168292682,
+          0.33108108152027027,
+          0.5756097558536585
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.39527027052364866,
+          0.5609756103048781,
+          0.42905405430743243,
+          0.6048780493292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.48648648614864864,
+          0.24390243853658533,
+          0.5405405402027027,
+          0.31219512146341466
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.5337837836993242,
+          0.2536585362195122,
+          0.567567567483108,
+          0.28292682890243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.48986486545608104,
+          0.41463414630081297,
+          0.560810811402027,
+          0.46829268288617887
+        ],
+        "confidence": 0.5,
+        "text": "DSn"
+      },
+      {
+        "bbox": [
+          0.5675675688234862,
+          0.4195121948780488,
+          0.594594594239577,
+          0.44390243878048774
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.4864864856841217,
+          0.5804878040853658,
+          0.5574324316300676,
+          0.6439024382317072
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DSp"
+      },
+      {
+        "bbox": [
+          0.5979729727759009,
+          0.5756097557317073,
+          0.6283783781813063,
+          0.6195121947560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "K'"
+      },
+      {
+        "bbox": [
+          0.08445946047297297,
+          0.7707317070325203,
+          0.20608108209459458,
+          0.8439024387398374
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ K',"
+      },
+      {
+        "bbox": [
+          0.20945945937500002,
+          0.7512195115853659,
+          0.24999999991554056,
+          0.799999999390244
+        ],
+        "confidence": 0.5,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.22297297253378381,
+          0.8439024389756097,
+          0.26689189145270276,
+          0.8975609755609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-n"
+      },
+      {
+        "bbox": [
+          0.3716216214768339,
+          0.73658536543554,
+          0.4121621620173745,
+          0.7951219508013936
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W."
+      },
+      {
+        "bbox": [
+          0.27364864922297294,
+          0.7853658541463414,
+          0.3513513519256756,
+          0.8341463419512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= K'"
+      },
+      {
+        "bbox": [
+          0.3479729733108108,
+          0.8146341462195122,
+          0.3750000003378378,
+          0.8536585364634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "P"
+      },
+      {
+        "bbox": [
+          0.40202702719594596,
+          0.775609756487805,
+          0.4256756758445946,
+          0.8146341467317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "P"
+      },
+      {
+        "bbox": [
+          0.3783783779983108,
+          0.8341463406707318,
+          0.4222972969172297,
+          0.8975609748170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-p"
+      },
+      {
+        "bbox": [
+          0.5506756767173423,
+          0.7756097557317073,
+          0.6756756767173423,
+          0.8390243898780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs = K'"
+      },
+      {
+        "bbox": [
+          0.7094594589949325,
+          0.24390243823170732,
+          0.8141891887246622,
+          0.30731707237804873
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "> Vout"
+      },
+      {
+        "bbox": [
+          0.8445945952702703,
+          0.20975609756097557,
+          0.9121621628378378,
+          0.2682926829268293
+        ],
+        "confidence": 0.5,
+        "text": "DD"
+      },
+      {
+        "bbox": [
+          0.8682432430743242,
+          0.29268292646341454,
+          0.8952702701013512,
+          0.3365853654878048
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.7195945936866555,
+          0.40000000024390236,
+          0.8648648639569256,
+          0.4682926831707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(Vin-VT)2"
+      },
+      {
+        "bbox": [
+          0.6520270274662162,
+          0.5317073166829268,
+          0.6959459463851351,
+          0.5902439020487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W."
+      },
+      {
+        "bbox": [
+          0.6790540514527027,
+          0.5609756095609756,
+          0.9391891865878379,
+          0.6390243900487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "P (VDD-Vin-V+)2"
+      },
+      {
+        "bbox": [
+          0.6790540543243242,
+          0.648780487609756,
+          0.7060810813513513,
+          0.6878048778536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"P"
+      },
+      {
+        "bbox": [
+          0.706081081615991,
+          0.7365853658536585,
+          0.7702702708051802,
+          0.8048780487804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Wn,"
+      },
+      {
+        "bbox": [
+          0.7635135145692568,
+          0.7414634149390245,
+          0.8479729740287162,
+          0.804878049085366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DD"
+      },
+      {
+        "bbox": [
+          0.8412162171283784,
+          0.7658536581463414,
+          0.9324324333445946,
+          0.8341463410731706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-VT)2"
+      },
+      {
+        "bbox": [
+          0.716216216554054,
+          0.8292682926422764,
+          0.7567567570945946,
+          0.8829268292276423
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-n"
+      },
+      {
+        "bbox": [
+          0.8006756755067568,
+          0.8195121946341464,
+          0.8209459457770271,
+          0.8585365848780488
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.7225735402954969,
+          0.926435287689544,
+          0.9362229163141241,
+          0.97202128287521
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0227"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We firstly have to determine the exact biasing.",
+      "pdf_page": 63,
+      "printed_page": 64,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Since K∞ is usually twice as large as K∞ , n p the pMOST transistor has usually twice the W/L value compared to the nMOST.",
+      "pdf_page": 63,
+      "printed_page": 64,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0063_01_0227.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This is only possible if their W/L values are inversely proportional to their K∞ values.",
+      "pdf_page": 63,
+      "printed_page": 64,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0227-M01",
+      "ocr_text": "=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5337837836993242,
+        0.2536585362195122,
+        0.567567567483108,
+        0.28292682890243903
+      ],
+      "context_crop": "regions/SANSEN-0227_math_01.png",
+      "context_bbox_normalized": [
+        0.49378378369932424,
+        0.15365853621951217,
+        0.797567567483108,
+        0.41292682890243904
+      ],
+      "source_image": "slides/p0063_01_0227.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0227-M02",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.5675675688234862,
+        0.4195121948780488,
+        0.594594594239577,
+        0.44390243878048774
+      ],
+      "context_crop": "regions/SANSEN-0227_math_02.png",
+      "context_bbox_normalized": [
+        0.5275675688234862,
+        0.3195121948780488,
+        0.8245945942395769,
+        0.5739024387804877
+      ],
+      "source_image": "slides/p0063_01_0227.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0227-M03",
+      "ocr_text": "= K'",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.27364864922297294,
+        0.7853658541463414,
+        0.3513513519256756,
+        0.8341463419512195
+      ],
+      "context_crop": "regions/SANSEN-0227_math_03.png",
+      "context_bbox_normalized": [
+        0.23364864922297293,
+        0.6853658541463414,
+        0.5813513519256757,
+        0.93
+      ],
+      "source_image": "slides/p0063_01_0227.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0227-M04",
+      "ocr_text": "IDs = K'",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5506756767173423,
+        0.7756097557317073,
+        0.6756756767173423,
+        0.8390243898780487
+      ],
+      "context_crop": "regions/SANSEN-0227_math_04.png",
+      "context_bbox_normalized": [
+        0.5106756767173423,
+        0.6756097557317073,
+        0.9056756767173423,
+        0.93
+      ],
+      "source_image": "slides/p0063_01_0227.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0227-M05",
+      "ocr_text": "> Vout",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7094594589949325,
+        0.24390243823170732,
+        0.8141891887246622,
+        0.30731707237804873
+      ],
+      "context_crop": "regions/SANSEN-0227_math_05.png",
+      "context_bbox_normalized": [
+        0.6694594589949324,
+        0.1439024382317073,
+        1,
+        0.43731707237804873
+      ],
+      "source_image": "slides/p0063_01_0227.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "06-inverter-dc",
+    "title": "CMOS 反相器：DC 与匹配",
+    "summary_zh": "分开 NMOS／PMOS 的电流，求总跨导与有限输出导纳下的增益。",
+    "html": "../derivations/ch02/06-inverter-dc.html",
+    "markdown": "../derivations/ch02/06-inverter-dc.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "CMOS 反相器：DC 与匹配",
+    "case_ids": [
+      "inverter_dc"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#06-inverter-dc",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

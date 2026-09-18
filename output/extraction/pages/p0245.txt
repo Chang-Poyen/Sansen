@@ -1,0 +1,51 @@
+Fully-diVerential amplifiers 251
+0825
+The CMFB amplifier is
+highlighted on this slide.
+It takes two more stages
+to realize this feedback loop.
+The first one consists of
+two source followers to pro-
+vide low-impedance out-
+puts. They are needed to be
+able to connect two resistors
+R to the outputs, to provide
+a
+accurate cancellation of the
+differential signals.
+The other stage on the
+left, is the error amplifier.
+It compares the average
+output voltage to a reference
+voltage, and feeds back to the biasing of the cascode stage.
+It is clear that a lot of power is required to bias these two extra stages. Minimization of the
+power consumption is of the utmost importance.
+The GBW is easily obtained, as transistors M6 are the input devices. The source followers
+CM
+only have a gain of unity. A factor of two is lost because only one output is taken of the error
+amplifier. Since the GBW is set independently of the differential input, it can be set at any
+CM
+value larger than the GBW .
+DM
+Obviously, we are very worried about the stability of this multistage CMFB amplifier. The
+nodes with non-dominant poles are the outputs, the Gate of M6AB and the Gates of current
+mirror M2/M7.The most important one is probably at the Gate of M6AB, depending on the
+choice of R . At this node the resistors R are in parallel, and the input capacitances C in
+a a GS6
+series, which gives twice a factor of two in the f . A zero f is introduced with C to compensate
+ndCM z a
+this f .
+ndCM
+0826
+The source followers in the
+previous realization take a
+lot of power. This is why
+they are left out in this third
+type of CMFB.
+This one will take less
+power. However, some
+other disadvantage will
+show up. The output swing
+will be limited by the CMFB
+amplifier, not by the
+differential one!

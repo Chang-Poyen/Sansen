@@ -1,0 +1,308 @@
+{
+  "case_id": "SANSEN-2038",
+  "slide_id": "2038",
+  "chapter": 20,
+  "slide_number_in_chapter": 38,
+  "source": {
+    "pdf_page": 611,
+    "printed_page": 622
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0611_01_2038.jpg",
+      "pdf_page": 611,
+      "printed_page": 622,
+      "bbox_pt": [
+        91.521622,
+        229.152466,
+        374.78981,
+        425.612457
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 611,
+      "printed_page": 622,
+      "bbox_pt": [
+        0,
+        225.1628999999997,
+        595,
+        487.2425000000001
+      ],
+      "text_raw": "Note that in such charge\nredistribution ADC, the\ninput voltage V is com-\nin\npared with a series of\nincreasingly smaller frac-\ntions of V .\nref\nThis algorithm can be\ncontinued until the smallest\nfraction of V , which is\nref\nV /2N has become smaller\nref\nthan the offset of the opamp,\nor smaller than the mis-\nmatch error on the smallest\ncapacitors C.\nThis limits the resolution\nto 10–12 bit.\nAn alternative consists of taking at each cycle, the difference between the input voltage and\nthe fraction of the V obtained before, and multiplying it by two, to carry out a new comparison.\nref\nThis is called an algorithmic ADC.\nIt is discussed in more detail next.",
+      "text": "Note that in such charge redistribution ADC, the input voltage V is comin pared with a series of increasingly smaller fractions of V . ref This algorithm can be continued until the smallest fraction of V , which is ref V /2N has become smaller ref than the offset of the opamp, or smaller than the mismatch error on the smallest capacitors C. This limits the resolution to 10–12 bit. An alternative consists of taking at each cycle, the difference between the input voltage and the fraction of the V obtained before, and multiplying it by two, to carry out a new comparison. ref This is called an algorithmic ADC. It is discussed in more detail next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Note that in such charge redistribution ADC, the input voltage V is comin pared with a series of increasingly smaller fractions of V . ref This algorithm can be continued until the smallest fraction of V , which is ref V /2N has become smaller ref than the offset of the opamp, or smaller than the mismatch error on the smallest capacitors C. This limits the resolution to 10–12 bit. An alternative consists of taking at each cycle, the difference between the input voltage and the fraction of the V obtained before, and multiplying it by two, to carry out a new comparison. ref This is called an algorithmic ADC. It is discussed in more detail next.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Charge redistribution ADC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0611_01_2038.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432874999996,
+          0.07804877985365855,
+          0.5641891936148649,
+          0.14146341399999995
+        ],
+        "confidence": 1,
+        "text": "Charge redistribution ADC"
+      },
+      {
+        "bbox": [
+          0.854625860749056,
+          0.3652677615129748,
+          0.9325363033591006,
+          0.3957078501107144
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ SARI"
+      },
+      {
+        "bbox": [
+          0.06418918859797298,
+          0.3951219515243902,
+          0.11148648589527028,
+          0.4292682929878049
+        ],
+        "confidence": 1,
+        "text": "16C"
+      },
+      {
+        "bbox": [
+          0.1858108106418919,
+          0.3951219510569106,
+          0.2162162160472973,
+          0.42439024373983736
+        ],
+        "confidence": 0.5,
+        "text": "8C"
+      },
+      {
+        "bbox": [
+          0.28716216179054055,
+          0.39512195146341456,
+          0.3243243239527027,
+          0.4292682929268292
+        ],
+        "confidence": 1,
+        "text": "4C"
+      },
+      {
+        "bbox": [
+          0.39189189152027026,
+          0.39512195146341456,
+          0.42905405368243243,
+          0.4292682929268292
+        ],
+        "confidence": 1,
+        "text": "2C"
+      },
+      {
+        "bbox": [
+          0.15202702675675678,
+          0.453658536195122,
+          0.18581081054054058,
+          0.49268292643902434
+        ],
+        "confidence": 1,
+        "text": "b,"
+      },
+      {
+        "bbox": [
+          0.26013513547297296,
+          0.45365853652439025,
+          0.2871621625,
+          0.4878048779878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ba"
+      },
+      {
+        "bbox": [
+          0.4695945943243243,
+          0.44878048736585363,
+          0.503378378108108,
+          0.4926829263902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "b,"
+      },
+      {
+        "bbox": [
+          0.5810810813344595,
+          0.4536585364227643,
+          0.6114864867398648,
+          0.4926829266666668
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "bs"
+      },
+      {
+        "bbox": [
+          0.527027027195946,
+          0.5219512198373985,
+          0.5608108109797297,
+          0.5609756100813008
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.6891891895608109,
+          0.5170731705365853,
+          0.726351351722973,
+          0.5560975607804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Sa"
+      },
+      {
+        "bbox": [
+          0.7263513526785714,
+          0.6195121948780489,
+          0.9121621634893823,
+          0.6634146339024392
+        ],
+        "confidence": 1,
+        "text": "Bottom plate C"
+      },
+      {
+        "bbox": [
+          0.7229729736908783,
+          0.6634146348170732,
+          0.8141891899070945,
+          0.717073171402439
+        ],
+        "confidence": 0.5,
+        "text": "to Vrer"
+      },
+      {
+        "bbox": [
+          0.36148648685810814,
+          0.712195121804878,
+          0.39864864902027025,
+          0.7560975608292682
+        ],
+        "confidence": 0.5,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.5506756751126126,
+          0.7121951224638304,
+          0.5912162156531532,
+          0.751219510381698
+        ],
+        "confidence": 1,
+        "text": "Viet"
+      },
+      {
+        "bbox": [
+          0.08108108405405401,
+          0.7804878054146341,
+          0.7162162191891891,
+          0.834146342
+        ],
+        "confidence": 0.5,
+        "text": "Charge redistribution ADC halves Vref in each cycle"
+      },
+      {
+        "bbox": [
+          0.08108108506274125,
+          0.8292682923693381,
+          0.6385135174951737,
+          0.8829268289547039
+        ],
+        "confidence": 1,
+        "text": "Algorithmic ADC doubles Verror in each cycle"
+      },
+      {
+        "bbox": [
+          0.7331081066722973,
+          0.9512195126219511,
+          0.9425675661317567,
+          0.9853658540853658
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 2038"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0611_01_2038.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This limits the resolution to 10–12 bit.",
+      "pdf_page": 611,
+      "printed_page": 622,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2038-M01",
+      "ocr_text": "=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.527027027195946,
+        0.5219512198373985,
+        0.5608108109797297,
+        0.5609756100813008
+      ],
+      "context_crop": "regions/SANSEN-2038_math_01.png",
+      "context_bbox_normalized": [
+        0.487027027195946,
+        0.4219512198373985,
+        0.7908108109797297,
+        0.6909756100813008
+      ],
+      "source_image": "slides/p0611_01_2038.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

@@ -1,0 +1,39 @@
+L ow-power sigma-delta AD converters 665
+2155
+Care must be taken how-
+ever, not to increase the
+small-signal resistance 1/g
+m2
+too much. Indeed, a non-
+dominant pole p is formed
+nd
+at this node.
+This pole p must be
+nd
+kept at 3 GBW to ensure
+sufficient phase-margin (see
+Chapter 5). As a result, an
+upper limit is established on
+the value of k.
+2156
+The total opamp schematic
+is shown in this slide.
+The current-starving sym-
+metrical OTA serves as a
+first stage of a two-stage
+amplifier. An output stage is
+required to reach rail-to-rail
+output swing. It is a class-
+AB amplifier at the same
+time.
+It is a fairly simple
+class-AB amplifier with a
+main purpose of increasing
+the Slew-Rate, without too
+much distortion.
+Node Bp is a fixed biasing
+point, which determines the class AB operating point. CMFB is the output of a separate CMFB
+amplifier, realized by switched capacitors.
+For load capacitors of 6 pF, as used in the first integrator, the GBW is 57 MHz for only 80 mA
+current consumption.
+The gain is about 50 dB, which is a lot more than 30 dB.

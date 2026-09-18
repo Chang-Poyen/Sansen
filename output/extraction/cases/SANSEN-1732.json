@@ -1,0 +1,494 @@
+{
+  "case_id": "SANSEN-1732",
+  "slide_id": "1732",
+  "chapter": 17,
+  "slide_number_in_chapter": 32,
+  "source": {
+    "pdf_page": 491,
+    "printed_page": 501
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0491_01_1732.jpg",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 491,
+      "printed_page": 501,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        427.4524103500002
+      ],
+      "text_raw": "In analog systems, the sig-\nnals are best represented by\ntheir Laplace transforms\nwith variable s which is the\ncomplex frequency jv. The\nbest way to describe transfer\nfunctions is the use of the\nLaplace transform. An\nexample is given of a first-\norder low-pass filter with\ntime constant RC. It is easy\nto transform this expression\nback to frequency by simple\nsubstitution of s by jv.\nIn sampled data systems,\nthe signals are best repre-\nsented by their z-transforms. Indeed the only accurate way to describe transfer functions is the\nuse of z-transforms. A delay of one single clock pulse then corresponds to a multiplication by\nz−1. A few elementary characteristics of z-transforms are given in this slide.\nIt is easy to transform an expression in z back to frequency by substitution of z by exp( jvT )\nc\nor exp(2pjf/f ). Since the signal frequency f is much smaller than the clock frequency f , this\nc c\nexponential can be developed into a power series, as shown in this slide. It is sufficient to keep\nthe first few terms.",
+      "text": "In analog systems, the signals are best represented by their Laplace transforms with variable s which is the complex frequency jv. The best way to describe transfer functions is the use of the Laplace transform. An example is given of a firstorder low-pass filter with time constant RC. It is easy to transform this expression back to frequency by simple substitution of s by jv. In sampled data systems, the signals are best represented by their z-transforms. Indeed the only accurate way to describe transfer functions is the use of z-transforms. A delay of one single clock pulse then corresponds to a multiplication by z−1. A few elementary characteristics of z-transforms are given in this slide. It is easy to transform an expression in z back to frequency by substitution of z by exp( jvT ) c or exp(2pjf/f ). Since the signal frequency f is much smaller than the clock frequency f , this c c exponential can be developed into a power series, as shown in this slide. It is sufficient to keep the first few terms."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In analog systems, the signals are best represented by their Laplace transforms with variable s which is the complex frequency jv. The best way to describe transfer functions is the use of the Laplace transform. An example is given of a firstorder low-pass filter with time constant RC. It is easy to transform this expression back to frequency by simple substitution of s by jv. In sampled data systems, the signals are best represented by their z-transforms. Indeed the only accurate way to describe transfer functions is the use of z-transforms. A delay of one single clock pulse then corresponds to a multiplication by z−1. A few elementary characteristics of z-transforms are given in this slide. It is easy to transform an expression in z back to frequency by substitution of z by exp( jvT ) c or exp(2pjf/f ). Since the signal frequency f is much smaller than the clock frequency f , this c c exponential can be developed into a power series, as shown in this slide. It is sufficient to keep the first few terms.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Sampled Data Basics : z-transform",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0491_01_1732.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432138030894,
+          0.08292682968641119,
+          0.6891891862451739,
+          0.14146341505226478
+        ],
+        "confidence": 1,
+        "text": "Sampled Data Basics : z-transform"
+      },
+      {
+        "bbox": [
+          0.067567569679054,
+          0.19512195073170735,
+          0.4087837858952702,
+          0.25365853609756095
+        ],
+        "confidence": 0.5,
+        "text": "Analog System: s = jo"
+      },
+      {
+        "bbox": [
+          0.2331081093468468,
+          0.28292682922764234,
+          0.38175675799549547,
+          0.365853658495935
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yaut = -"
+      },
+      {
+        "bbox": [
+          0.3885135136824325,
+          0.28780487849593495,
+          0.4155405407094595,
+          0.34146341508130074
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.24662162128378382,
+          0.3560975604529617,
+          0.3074324320945946,
+          0.42926829216027884
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.3412162148648649,
+          0.3560975612195122,
+          0.47635135000000006,
+          0.409756097804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + sRC"
+      },
+      {
+        "bbox": [
+          0.06081080869932433,
+          0.5024390248373984,
+          0.49662161951013517,
+          0.5560975614227642
+        ],
+        "confidence": 1,
+        "text": "Sampled data: z-transforms"
+      },
+      {
+        "bbox": [
+          0.07724385735947846,
+          0.5821284502370948,
+          0.28169583073330395,
+          0.6443631031517468
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 delay is z'"
+      },
+      {
+        "bbox": [
+          0.29391891866554054,
+          0.6390243907317072,
+          0.3479729727195946,
+          0.6780487809756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ".2ml"
+      },
+      {
+        "bbox": [
+          0.07731519066027509,
+          0.6654185753008017,
+          0.3111983266878432,
+          0.7394594720188967
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "z=ejoTe=e'"
+      },
+      {
+        "bbox": [
+          0.06908989194697379,
+          0.7693198628296029,
+          0.4861000446090964,
+          0.9041890336000153
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ejaT. =1 + joT, + GoTJ?"
+      },
+      {
+        "bbox": [
+          0.6081081082730051,
+          0.2000000000348432,
+          0.7533783785432754,
+          0.22926829271777005
+        ],
+        "confidence": 1,
+        "text": "Z-TRANSFORM"
+      },
+      {
+        "bbox": [
+          0.5371621635698197,
+          0.27317073146341464,
+          0.7060810824887387,
+          0.3121951217073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a X(z) + b V(z)"
+      },
+      {
+        "bbox": [
+          0.5337837849662161,
+          0.33658536640243897,
+          0.6486486498310811,
+          0.38048780542682925
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2Ry Y(z)"
+      },
+      {
+        "bbox": [
+          0.5439189195945946,
+          0.4000000004390244,
+          0.6182432439189188,
+          0.44390243946341457
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Y(z/b)"
+      },
+      {
+        "bbox": [
+          0.5371621612894144,
+          0.45853658581300816,
+          0.6418918910191441,
+          0.5317073175203252
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-,dY(2)"
+      },
+      {
+        "bbox": [
+          0.5878378376126125,
+          0.5121951215853658,
+          0.6216216213963964,
+          0.5560975606097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dz"
+      },
+      {
+        "bbox": [
+          0.5405405399493244,
+          0.5804878050813009,
+          0.6114864858952703,
+          0.6243902441056911
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Y(2*1)"
+      },
+      {
+        "bbox": [
+          0.5405405414132882,
+          0.6439024388211382,
+          0.645270271143018,
+          0.6878048778455284
+        ],
+        "confidence": 1,
+        "text": "X(z) V(z)"
+      },
+      {
+        "bbox": [
+          0.7972603168063107,
+          0.1997034294297899,
+          0.9088207646022818,
+          0.22956486334285797
+        ],
+        "confidence": 1,
+        "text": "SEQUENCE"
+      },
+      {
+        "bbox": [
+          0.777027028293919,
+          0.27317073146341464,
+          0.929054055320946,
+          0.3121951217073171
+        ],
+        "confidence": 0.5,
+        "text": "ax(n) + bv(n)"
+      },
+      {
+        "bbox": [
+          0.7736486495777026,
+          0.33658536530487804,
+          0.8817567576858107,
+          0.3804878043292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y(n - n,)"
+      },
+      {
+        "bbox": [
+          0.7770270263513513,
+          0.40487804894308943,
+          0.8581081074324324,
+          0.4439024391869918
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "b™ y(n)"
+      },
+      {
+        "bbox": [
+          0.7770270277364865,
+          0.49268292658536583,
+          0.8479729736824324,
+          0.5365853656097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "n y(п)"
+      },
+      {
+        "bbox": [
+          0.7736486480011262,
+          0.5853658539430895,
+          0.8513513507038288,
+          0.6292682929674798
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y (-п)"
+      },
+      {
+        "bbox": [
+          0.7770270280405406,
+          0.6487804875609757,
+          0.8986486496621622,
+          0.6878048778048781
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "x(п) + v(n)"
+      },
+      {
+        "bbox": [
+          0.6248122746322571,
+          0.8184112811552497,
+          0.8143769150898228,
+          0.8889057933875883
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "if oT, <1"
+      },
+      {
+        "bbox": [
+          0.7162162175675675,
+          0.9414634142276422,
+          0.9391891905405405,
+          0.9902439020325203
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 N1732"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Since the signal frequency f is much smaller than the clock frequency f , this c c exponential can be developed into a power series, as shown in this slide.",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0491_01_1732.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "A few elementary characteristics of z-transforms are given in this slide.",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Since the signal frequency f is much smaller than the clock frequency f , this c c exponential can be developed into a power series, as shown in this slide.",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1732-M01",
+      "ocr_text": "Analog System: s = jo",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.067567569679054,
+        0.19512195073170735,
+        0.4087837858952702,
+        0.25365853609756095
+      ],
+      "context_crop": "regions/SANSEN-1732_math_01.png",
+      "context_bbox_normalized": [
+        0.027567569679054,
+        0.13,
+        0.6387837858952702,
+        0.38365853609756095
+      ],
+      "source_image": "slides/p0491_01_1732.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1732-M02",
+      "ocr_text": "Yaut = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2331081093468468,
+        0.28292682922764234,
+        0.38175675799549547,
+        0.365853658495935
+      ],
+      "context_crop": "regions/SANSEN-1732_math_02.png",
+      "context_bbox_normalized": [
+        0.1931081093468468,
+        0.18292682922764233,
+        0.6117567579954954,
+        0.495853658495935
+      ],
+      "source_image": "slides/p0491_01_1732.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1732-M03",
+      "ocr_text": "z=ejoTe=e'",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07731519066027509,
+        0.6654185753008017,
+        0.3111983266878432,
+        0.7394594720188967
+      ],
+      "context_crop": "regions/SANSEN-1732_math_03.png",
+      "context_bbox_normalized": [
+        0.03731519066027509,
+        0.5654185753008018,
+        0.5411983266878432,
+        0.8694594720188967
+      ],
+      "source_image": "slides/p0491_01_1732.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1732-M04",
+      "ocr_text": "ejaT. =1 + joT, + GoTJ?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.06908989194697379,
+        0.7693198628296029,
+        0.4861000446090964,
+        0.9041890336000153
+      ],
+      "context_crop": "regions/SANSEN-1732_math_04.png",
+      "context_bbox_normalized": [
+        0.02908989194697379,
+        0.6693198628296029,
+        0.7161000446090964,
+        0.93
+      ],
+      "source_image": "slides/p0491_01_1732.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1732-M05",
+      "ocr_text": "if oT, <1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6248122746322571,
+        0.8184112811552497,
+        0.8143769150898228,
+        0.8889057933875883
+      ],
+      "context_crop": "regions/SANSEN-1732_math_05.png",
+      "context_bbox_normalized": [
+        0.584812274632257,
+        0.7184112811552498,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0491_01_1732.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

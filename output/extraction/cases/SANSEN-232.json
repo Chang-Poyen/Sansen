@@ -1,0 +1,256 @@
+{
+  "case_id": "SANSEN-232",
+  "slide_id": "232",
+  "chapter": 23,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 699,
+    "printed_page": 711
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0699_02_232.jpg",
+      "pdf_page": 699,
+      "printed_page": 711,
+      "bbox_pt": [
+        91.521622,
+        443.399964,
+        374.78981,
+        639.859955
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 699,
+      "printed_page": 711,
+      "bbox_pt": [
+        0,
+        439.41050000000024,
+        595,
+        703.55922
+      ],
+      "text_raw": "An example of such a\nreceiver is shown in this\nslide.\nThe LNA is the first\namplifier. It is an RF ampli-\nfier followed by a mixer,\nwhich translates the modu-\nlation content to low fre-\nquencies. After some filter-\ning, this signal is then con-\nverted in digital form,\ntowards a DSP.\nThe mixer needs a local\noscillator, which is normally\nderived from a phase-locked\nloop (PLL). In this feedback\nloop a VCO generates a fre-\nquency, which is locked to an external reference frequency Fref, after a divider by N.\nIt is clear that the LNA interacts with the antenna. This is why both the antenna output and\nLNA input must show a characteristic impedance, to avoid reflections. This is discussed next.",
+      "text": "An example of such a receiver is shown in this slide. The LNA is the first amplifier. It is an RF amplifier followed by a mixer, which translates the modulation content to low frequencies. After some filtering, this signal is then converted in digital form, towards a DSP. The mixer needs a local oscillator, which is normally derived from a phase-locked loop (PLL). In this feedback loop a VCO generates a frequency, which is locked to an external reference frequency Fref, after a divider by N. It is clear that the LNA interacts with the antenna. This is why both the antenna output and LNA input must show a characteristic impedance, to avoid reflections. This is discussed next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An example of such a receiver is shown in this slide. The LNA is the first amplifier. It is an RF amplifier followed by a mixer, which translates the modulation content to low frequencies. After some filtering, this signal is then converted in digital form, towards a DSP. The mixer needs a local oscillator, which is normally derived from a phase-locked loop (PLL). In this feedback loop a VCO generates a frequency, which is locked to an external reference frequency Fref, after a divider by N. It is clear that the LNA interacts with the antenna. This is why both the antenna output and LNA input must show a characteristic impedance, to avoid reflections. This is discussed next.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Receiver Topology",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0699_02_232.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432711148644,
+          0.08292682914634142,
+          0.4087837865709459,
+          0.14634146329268294
+        ],
+        "confidence": 1,
+        "text": "Receiver Topology"
+      },
+      {
+        "bbox": [
+          0.14527027077702703,
+          0.34634146321138215,
+          0.20608108158783783,
+          0.39024390223577243
+        ],
+        "confidence": 1,
+        "text": "LNA"
+      },
+      {
+        "bbox": [
+          0.20945945945945946,
+          0.2682926834146342,
+          0.27702702702702703,
+          0.3268292687804878
+        ],
+        "confidence": 1,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.22972973222128373,
+          0.3170731705487805,
+          0.6283783808699324,
+          0.41463414615853655
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ V→x→>"
+      },
+      {
+        "bbox": [
+          0.6081081066953318,
+          0.3268292684478936,
+          0.9189189175061425,
+          0.4390243903991131
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ">AD DSP"
+      },
+      {
+        "bbox": [
+          0.3141891903153153,
+          0.6390243897560975,
+          0.4493243254504504,
+          0.7365853653658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VCo-"
+      },
+      {
+        "bbox": [
+          0.47972972930743246,
+          0.6536585370731707,
+          0.6114864860641892,
+          0.7121951224390244
+        ],
+        "confidence": 0.5,
+        "text": "→ 1/N"
+      },
+      {
+        "bbox": [
+          0.7398648639189189,
+          0.7658536588292683,
+          0.8344594585135136,
+          0.8243902441951219
+        ],
+        "confidence": 1,
+        "text": "Fref"
+      },
+      {
+        "bbox": [
+          0.7229729825135651,
+          0.941463413902439,
+          0.9290540507071554,
+          0.9853658529268292
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 232"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "An example of such a receiver is shown in this slide.",
+      "pdf_page": 699,
+      "printed_page": 711,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The mixer needs a local oscillator, which is normally derived from a phase-locked loop (PLL).",
+      "pdf_page": 699,
+      "printed_page": 711,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is why both the antenna output and LNA input must show a characteristic impedance, to avoid reflections.",
+      "pdf_page": 699,
+      "printed_page": 711,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0699_02_232.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The mixer needs a local oscillator, which is normally derived from a phase-locked loop (PLL).",
+      "pdf_page": 699,
+      "printed_page": 711,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is why both the antenna output and LNA input must show a characteristic impedance, to avoid reflections.",
+      "pdf_page": 699,
+      "printed_page": 711,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-232-M01",
+      "ocr_text": "→ V→x→>",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.22972973222128373,
+        0.3170731705487805,
+        0.6283783808699324,
+        0.41463414615853655
+      ],
+      "context_crop": "regions/SANSEN-232_math_01.png",
+      "context_bbox_normalized": [
+        0.18972973222128373,
+        0.21707317054878048,
+        0.8583783808699323,
+        0.5446341461585366
+      ],
+      "source_image": "slides/p0699_02_232.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-232-M02",
+      "ocr_text": ">AD DSP",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6081081066953318,
+        0.3268292684478936,
+        0.9189189175061425,
+        0.4390243903991131
+      ],
+      "context_crop": "regions/SANSEN-232_math_02.png",
+      "context_bbox_normalized": [
+        0.5681081066953317,
+        0.2268292684478936,
+        1,
+        0.5690243903991131
+      ],
+      "source_image": "slides/p0699_02_232.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

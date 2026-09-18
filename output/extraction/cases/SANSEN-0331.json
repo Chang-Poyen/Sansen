@@ -1,0 +1,183 @@
+{
+  "case_id": "SANSEN-0331",
+  "slide_id": "0331",
+  "chapter": 3,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 103,
+    "printed_page": 105
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0103_01_0331.jpg",
+      "pdf_page": 103,
+      "printed_page": 105,
+      "bbox_pt": [
+        91.52162,
+        122.52697999999998,
+        374.54215999999997,
+        318.98694
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 103,
+      "printed_page": 105,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        391.72799000000003
+      ],
+      "text_raw": "Connection of a set of posi-\ntive diode resistances with\nnegative ones, allows the\nrealization of any resistance\nbetween 1/g and infinity.\nm\nMaking all devices the\nsame cancels the AC current\nin this circuit, causing the\ndifferential to be very high\n(infinity if matching is\nperfect).\nIt is therefore an ideal\nload for a differential\namplifier.",
+      "text": "Connection of a set of positive diode resistances with negative ones, allows the realization of any resistance between 1/g and infinity. m Making all devices the same cancels the AC current in this circuit, causing the differential to be very high (infinity if matching is perfect). It is therefore an ideal load for a differential amplifier."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Connection of a set of positive diode resistances with negative ones, allows the realization of any resistance between 1/g and infinity. m Making all devices the same cancels the AC current in this circuit, causing the differential to be very high (infinity if matching is perfect). It is therefore an ideal load for a differential amplifier.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Differential diode-connected MOSTs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0103_01_0331.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08474576805084735,
+          0.0926829266260163,
+          0.7254237341525422,
+          0.14634146321138208
+        ],
+        "confidence": 1,
+        "text": "Differential diode-connected MOSTs"
+      },
+      {
+        "bbox": [
+          0.4779661015254238,
+          0.24390243865853656,
+          0.5050847455932204,
+          0.28780487768292684
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.4237288124697337,
+          0.3121951221602788,
+          0.5762711853510897,
+          0.36097560996515676
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m2 - 9m1"
+      },
+      {
+        "bbox": [
+          0.20677966135593218,
+          0.7024390241463415,
+          0.2474576274576271,
+          0.741463414390244
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.46440677925423735,
+          0.7024390245853659,
+          0.5050847453559323,
+          0.7414634148292684
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.7288135589830508,
+          0.7024390246341462,
+          0.7694915250847457,
+          0.7414634148780487
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.38305084980629533,
+          0.8390243900000001,
+          0.7118644091283293,
+          0.8829268290243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Values close to ∞• !"
+      },
+      {
+        "bbox": [
+          0.7152542403073966,
+          0.9317073174796748,
+          0.9220338883931687,
+          0.975609756504065
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen +C-os 0331"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0103_01_0331.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Connection of a set of positive diode resistances with negative ones, allows the realization of any resistance between 1/g and infinity. m Making all devices the same cancels the AC current in this circuit, causing the differential to be very high (infinity if matching is perfect).",
+        "pdf_page": 103,
+        "printed_page": 105,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is therefore an ideal load for a differential amplifier.",
+      "pdf_page": 103,
+      "printed_page": 105,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

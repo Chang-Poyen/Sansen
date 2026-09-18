@@ -1,0 +1,51 @@
+Feedback voltage and transconductance amplifiers 379
+1332
+Let us now discuss series-
+series feedback in more
+detail. It is a type of ampli-
+fier which provides an accu-
+rate voltage-to-current con-
+version. The main difference
+with the voltage amplifiers
+is that they put out a current
+rather than a voltage. Both
+input and output resistances
+are high. They are evident-
+ly called transconductance
+amplifiers.
+Such high output imped-
+ance is mainly used to drive
+a variable impedance, for
+example to carry out an impedance measurement. It also provides current sources to bias any
+analog circuit by means of current mirrors.
+A single-transistor amplifier is also a transconductor. It has a high input resistance and a
+current output, which is fairly precise. Its transconductance is slightly low, however. An opera-
+tional amplifier without output stage also behaves as a transconductor. Its transconductance is
+very high but not very precise. Feedback is used to obtain both, a fairly high and precise
+transconductance or voltage-to-current converter.
+Again we want to calculate the loop gain, the closed and open-loop gains, and finally the
+input and output resistances.
+1333
+An accurate transconductor
+is shown in this slide. The
+output current is provided
+by a MOST which is driven
+by an opamp. It is accu-
+rately linked to the input
+voltage v by the three
+IN
+resistors used. Indeed, the
+closed loop gain A , which
+G
+is nothing else than i /v ,
+OUT IN
+only contains resistor ratios
+and the absolute value of
+one resistor R !
+E12
+The loop gain LG itself
+and the open loop gain
+A both contain the gain
+GOL
+of the opamp A . However, this gain does not occur in the closed loop gain A !
+0 G

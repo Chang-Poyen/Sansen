@@ -1,0 +1,184 @@
+{
+  "case_id": "SANSEN-2456",
+  "slide_id": "2456",
+  "chapter": 24,
+  "slide_number_in_chapter": 56,
+  "source": {
+    "pdf_page": 759,
+    "printed_page": 771
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0759_02_2456.jpg",
+      "pdf_page": 759,
+      "printed_page": 771,
+      "bbox_pt": [
+        91.52162,
+        373.64495,
+        374.54215999999997,
+        570.05511
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 759,
+      "printed_page": 771,
+      "bbox_pt": [
+        0,
+        369.6556096500001,
+        595,
+        797
+      ],
+      "text_raw": "In this Chapter, an overview\nhas been given on what are\nthe possible mechanisms of\ncoupling between digital\nand analog blocks. They\nhave all been identified.\nAlso, a number of design\nconsiderations have been\nadded to improve the isola-\ntion. Some of these have to\ndo with technology and\nsome others with design.\nAgain, mismatch seems to\nhave emerged as the main\nstumbling block.\nThis is hardly surprising\nas mismatch has been the stumbling block for many other specifications as well. It is therefore\none of the main concerns for any analog designer!",
+      "text": "In this Chapter, an overview has been given on what are the possible mechanisms of coupling between digital and analog blocks. They have all been identified. Also, a number of design considerations have been added to improve the isolation. Some of these have to do with technology and some others with design. Again, mismatch seems to have emerged as the main stumbling block. This is hardly surprising as mismatch has been the stumbling block for many other specifications as well. It is therefore one of the main concerns for any analog designer!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter, an overview has been given on what are the possible mechanisms of coupling between digital and analog blocks. They have all been identified. Also, a number of design considerations have been added to improve the isolation. Some of these have to do with technology and some others with design. Again, mismatch seems to have emerged as the main stumbling block. This is hardly surprising as mismatch has been the stumbling block for many other specifications as well. It is therefore one of the main concerns for any analog designer!",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Slide 2456",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0759_02_2456.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07452977144580343,
+          0.07781931692888677,
+          0.21360582331947925,
+          0.13681482898407438
+        ],
+        "confidence": 1,
+        "text": "Outline"
+      },
+      {
+        "bbox": [
+          0.13559321549152553,
+          0.2146341457073171,
+          0.6338983002372882,
+          0.2780487798536585
+        ],
+        "confidence": 1,
+        "text": "- Circuit noise generation"
+      },
+      {
+        "bbox": [
+          0.13480715971180735,
+          0.3128806892296654,
+          0.5973742466589738,
+          0.38604087004259413
+        ],
+        "confidence": 1,
+        "text": "• Circuit noise coupling"
+      },
+      {
+        "bbox": [
+          0.1796610129491526,
+          0.400000000097561,
+          0.5796610129491526,
+          0.4585365854634147
+        ],
+        "confidence": 1,
+        "text": "•Power supply pinning"
+      },
+      {
+        "bbox": [
+          0.17910084211041513,
+          0.46762902822747443,
+          0.5329407551715247,
+          0.5340019880157271
+        ],
+        "confidence": 1,
+        "text": "•Substrate coupling"
+      },
+      {
+        "bbox": [
+          0.17966101703389833,
+          0.5560975617073171,
+          0.5118644068644068,
+          0.6146341470731708
+        ],
+        "confidence": 0.5,
+        "text": "•Circuit placement"
+      },
+      {
+        "bbox": [
+          0.13166195811094597,
+          0.6433190445475261,
+          0.6547370230771801,
+          0.721653471427409
+        ],
+        "confidence": 0.5,
+        "text": "- Rejection of circuit noise"
+      },
+      {
+        "bbox": [
+          0.17966101715254235,
+          0.7268292688292683,
+          0.30847457647457627,
+          0.7804878054146341
+        ],
+        "confidence": 0.5,
+        "text": "•PSRR"
+      },
+      {
+        "bbox": [
+          0.7322033990644585,
+          0.9463414628455283,
+          0.9389830471502306,
+          0.980487804308943
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2456"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0759_02_2456.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is therefore one of the main concerns for any analog designer!",
+      "pdf_page": 759,
+      "printed_page": 771,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

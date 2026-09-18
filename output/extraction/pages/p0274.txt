@@ -1,0 +1,42 @@
+Design of multistage operational amplifiers 281
+0936
+A circuit realization of the
+NGRNMC amplifier is
+shown in this slide.
+The input stage is a folded
+cascode. Current mirrors
+are used as noninverting
+amplifiers.
+Current mirror M27/M17
+is used to set accurately the
+value of g . Also, current
+mf0
+mirror M33/M34 is used to
+set g .
+mf1
+This latter feedforward
+stage is also used for better
+large-signal performance. It
+increases the Slew Rate of
+the output stage drastically. The output stage is now biased as a class-AB stage. The quiescent
+current is set accurately by transistor M34. However, he maximum output currents are a lot larger.
+The Slew Rate will now be limited by the DC current of the first stage into compensation
+capacitance C .
+m1
+0937
+A second low-power nested
+Miller compensation tech-
+nique uses positive feed-
+back with capacitance C
+m2
+around the second-stage. Its
+purpose is again to intro-
+duce a left-hand zero in
+order to cancel out one of
+the nondominant poles.
+A single feedforward stage
+is used to turn the output
+stage into a class-AB stage.
+In this way the Slew Rate
+will be limited by the DC
+current in the first stage.

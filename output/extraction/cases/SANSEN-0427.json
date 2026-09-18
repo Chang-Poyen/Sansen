@@ -1,0 +1,187 @@
+{
+  "case_id": "SANSEN-0427",
+  "slide_id": "0427",
+  "chapter": 4,
+  "slide_number_in_chapter": 27,
+  "source": {
+    "pdf_page": 127,
+    "printed_page": 130
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0127_02_0427.jpg",
+      "pdf_page": 127,
+      "printed_page": 130,
+      "bbox_pt": [
+        91.52162,
+        433.38513,
+        374.78981,
+        629.84512
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 127,
+      "printed_page": 130,
+      "bbox_pt": [
+        0,
+        429.39568500000024,
+        595,
+        654.65451
+      ],
+      "text_raw": "Now that we know what the\nnoise models are for a\nMOST and a bipolar tran-\nsistor, we want to use them\nto calculate the SNR of an\namplifier, a cascode, etc.\nMoreover we have used\nideal current sources for the\nbiasing and as active loads.\nAll the current sources have\nto be realized by means\nof transistors, which also\nexhibit noise.",
+      "text": "Now that we know what the noise models are for a MOST and a bipolar transistor, we want to use them to calculate the SNR of an amplifier, a cascode, etc. Moreover we have used ideal current sources for the biasing and as active loads. All the current sources have to be realized by means of transistors, which also exhibit noise."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that we know what the noise models are for a MOST and a bipolar transistor, we want to use them to calculate the SNR of an amplifier, a cascode, etc. Moreover we have used ideal current sources for the biasing and as active loads. All the current sources have to be realized by means of transistors, which also exhibit noise.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0127_02_0427.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.11085678024099942,
+          0.19666298110883063,
+          0.48688249563076663,
+          0.2641757747660869
+        ],
+        "confidence": 0.5,
+        "text": "• Definitions of noise"
+      },
+      {
+        "bbox": [
+          0.11486486729307428,
+          0.2926829266158536,
+          0.5033783808065878,
+          0.3463414632012195
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of an amplifier"
+      },
+      {
+        "bbox": [
+          0.11412226203537287,
+          0.3661623458675115,
+          0.4734539858413932,
+          0.4348408854227588
+        ],
+        "confidence": 1,
+        "text": "• Noise of a follower"
+      },
+      {
+        "bbox": [
+          0.1148648674469112,
+          0.463414633902439,
+          0.47635135393339767,
+          0.5170731704878049
+        ],
+        "confidence": 1,
+        "text": "• Noise of a cascode"
+      },
+      {
+        "bbox": [
+          0.11430332610784712,
+          0.5378093444437076,
+          0.571368135133792,
+          0.6054102645859047
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a current mirror"
+      },
+      {
+        "bbox": [
+          0.11486487010135123,
+          0.6292682919512195,
+          0.594594599831081,
+          0.6878048773170732
+        ],
+        "confidence": 0.5,
+        "text": "* Noise of a differential pair"
+      },
+      {
+        "bbox": [
+          0.11486486756756756,
+          0.7170731705149052,
+          0.601351354054054,
+          0.7756097558807588
+        ],
+        "confidence": 1,
+        "text": "• Capacitive noise matching"
+      },
+      {
+        "bbox": [
+          0.7297297318834459,
+          0.9414634141463415,
+          0.935810812964527,
+          0.980487804390244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 a5 0427"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Now that we know what the noise models are for a MOST and a bipolar transistor, we want to use them to calculate the SNR of an amplifier, a cascode, etc.",
+      "pdf_page": 127,
+      "printed_page": 130,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0127_02_0427.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

@@ -1,0 +1,38 @@
+Important opamp configurations 215
+This is why we need an
+Emitter follower between
+the first stage and the input
+transistor of the second
+stage. It is realized with
+transistor M9. The input
+resistance is now beta times
+higher and hopefully com-
+parable to the output resis-
+tance of the first stage.
+This Emitter follower
+raises the DC voltage at
+node 1 by one more V . As
+BE
+a result, node 1 is about 2
+V ’s or 1.3 V higher than
+BE
+V .
+SS
+In order to establish the
+same DC voltage at the other node 2, we use the three-transistor bipolar current mirror, explained
+in Chapter 2. Now both nodes 1 and 2 present similar DC voltages to the input pair, improving
+matching.
+0710
+One of the most used OTA’s
+is the symmetrical OTA. It
+is more symmetrical than
+the Miller OTA. As a result,
+matching is improved which
+provides better offset and
+CMRR specifications (see
+Chapter 15).
+0711
+A symmetrical OTA consists of one differential pair and three current mirrors. The input
+differential pair is loaded with two equal current mirrors, which provide a current gain B. It is
+sometimes called a load-compensated OTA as both loads are now the same.
+In the case of a single-ended output we need another current mirror with gain 1 to reach this

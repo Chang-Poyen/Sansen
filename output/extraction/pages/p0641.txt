@@ -1,0 +1,39 @@
+652 Chapter #21
+The total power con-
+sumption (at this 2.4 mm
+CMOS technology) is
+110 mW at 1.5 V supply
+voltage. This is quite
+low. Indeed, an additional
+advantage of the switched-
+opamp approach is that the
+opamps are off 50% of the
+time. The power consump-
+tion is therefore halved as
+well, which is a considerable
+advantage.
+Even more power can be
+consumed when a class-AB
+stage is used at the output.
+This will be shown later.
+2130
+The input switch is still a
+problem in the switched-
+opamp approach discussed
+before. Improved input
+switching is now required.
+Moreover, the switching
+of the opamp causes tran-
+sients which are unaccept-
+able. Possible remedies are
+discussed next.
+2131
+The first remedy is to make everything fully differential. A fully-differential opamp is now used,
+as shown in this slide.
+It is a two-stage Miller opamp with a folded cascode as a first stage. A second stage is needed
+to provide rail-to-rail output swing. The gain can be quite high, 75 dB in this example.
+For a 1 pF load, the GBW is about 30 MHz, for only 80 mW power consumption. This gives
+a high FOM indeed!
+The opamp can be switched in and out because of the four switches (in blue). Only the output
+stage is switched in and out, by transistors M11. The input stage remains on, which improves
+the settling time.

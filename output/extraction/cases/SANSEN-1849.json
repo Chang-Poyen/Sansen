@@ -1,0 +1,431 @@
+{
+  "case_id": "SANSEN-1849",
+  "slide_id": "1849",
+  "chapter": 18,
+  "slide_number_in_chapter": 49,
+  "source": {
+    "pdf_page": 532,
+    "printed_page": 542
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0533_01_1849.jpg",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 532,
+      "printed_page": 542,
+      "bbox_pt": [
+        0,
+        618.7805000000001,
+        595,
+        797
+      ],
+      "text_raw": "The open-loop gain a is divided by the loop gain 1+T, as expected (1+LG in Chapter 13).\n1\nFor large T, the closed-loop gain d is just about 1/F, as explained by first-order feedback theory\n1\n(see Chapter 13).\nThe second-order coefficient d of the power series with feedback, is given to a but divided\n2 2\nby the third power of the loop gain T.",
+      "text": "The open-loop gain a is divided by the loop gain 1+T, as expected (1+LG in Chapter 13). 1 For large T, the closed-loop gain d is just about 1/F, as explained by first-order feedback theory 1 (see Chapter 13). The second-order coefficient d of the power series with feedback, is given to a but divided 2 2 by the third power of the loop gain T."
+    },
+    {
+      "pdf_page": 533,
+      "printed_page": 543,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        367.6625000000001
+      ],
+      "text_raw": "The third-order coeffi-\ncient d of the power series\n3\nwith feedback, is given to a\n3\nbut is now divided by the\nfifth power of the loop gain\nT. Actually, a gives a con-\n2\ntribution. The second-order\ndistortion of the nonlinear\namplifier can take one more\nturn through the loop to\ngenerate third-order distor-\ntion. However, it has the\nopposite sign of the contri-\nbution from a . Coefficient\n3\na gives compression dis-\n3\ntortion, whereas a gives\n2\nexpansion of the sine wave.\nThey can cancel out at one particular value of the coefficients a.\nThe distortion components are now easily calculated.",
+      "text": "The third-order coefficient d of the power series 3 with feedback, is given to a 3 but is now divided by the fifth power of the loop gain T. Actually, a gives a con- 2 tribution. The second-order distortion of the nonlinear amplifier can take one more turn through the loop to generate third-order distortion. However, it has the opposite sign of the contribution from a . Coefficient 3 a gives compression dis- 3 tortion, whereas a gives 2 expansion of the sine wave. They can cancel out at one particular value of the coefficients a. The distortion components are now easily calculated."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The open-loop gain a is divided by the loop gain 1+T, as expected (1+LG in Chapter 13). 1 For large T, the closed-loop gain d is just about 1/F, as explained by first-order feedback theory 1 (see Chapter 13). The second-order coefficient d of the power series with feedback, is given to a but divided 2 2 by the third power of the loop gain T.\n\nThe third-order coefficient d of the power series 3 with feedback, is given to a 3 but is now divided by the fifth power of the loop gain T. Actually, a gives a con- 2 tribution. The second-order distortion of the nonlinear amplifier can take one more turn through the loop to generate third-order distortion. However, it has the opposite sign of the contribution from a . Coefficient 3 a gives compression dis- 3 tortion, whereas a gives 2 expansion of the sine wave. They can cancel out at one particular value of the coefficients a. The distortion components are now easily calculated.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Distortion reduction by feedback",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0533_01_1849.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108337837833,
+          0.08780487868292686,
+          0.6554054077027027,
+          0.15121951282926827
+        ],
+        "confidence": 1,
+        "text": "Distortion reduction by feedback"
+      },
+      {
+        "bbox": [
+          0.0878378375,
+          0.5414634148780488,
+          0.11486486452702704,
+          0.5804878051219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V"
+      },
+      {
+        "bbox": [
+          0.3310810822635135,
+          0.2780487802845528,
+          0.4729729741554054,
+          0.3317073168699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a, 22 23"
+      },
+      {
+        "bbox": [
+          0.385135135304054,
+          0.4195121957317074,
+          0.41216216233108105,
+          0.4682926835365854
+        ],
+        "confidence": 1,
+        "text": "F"
+      },
+      {
+        "bbox": [
+          0.33108107989864866,
+          0.5707317074796748,
+          0.47297297179054054,
+          0.639024390406504
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "d, de dg"
+      },
+      {
+        "bbox": [
+          0.07770270641891884,
+          0.717073171402439,
+          0.4155405442567567,
+          0.7707317079878049
+        ],
+        "confidence": 0.5,
+        "text": "Loop gain 1+T = 1+a,F"
+      },
+      {
+        "bbox": [
+          0.08108107584459472,
+          0.7804878042073171,
+          0.5472972920608109,
+          0.8341463407926829
+        ],
+        "confidence": 0.5,
+        "text": "u is (1+T) times smaller than v :"
+      },
+      {
+        "bbox": [
+          0.07770270548986477,
+          0.8487804871341463,
+          0.5304054081925674,
+          0.9024390237195122
+        ],
+        "confidence": 1,
+        "text": "v is reduced by loop gain (1+T)"
+      },
+      {
+        "bbox": [
+          0.5777027028153153,
+          0.7853658541463414,
+          0.6452702703828829,
+          0.8439024395121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dz ="
+      },
+      {
+        "bbox": [
+          0.7630294350273572,
+          0.24561648777186917,
+          0.922781378667164,
+          0.30560302561217745
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "u = v - Fy"
+      },
+      {
+        "bbox": [
+          0.7837837842905405,
+          0.3804878048780488,
+          0.8243243248310811,
+          0.42926829268292677
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a1"
+      },
+      {
+        "bbox": [
+          0.6756756762387387,
+          0.4146341459349594,
+          0.7432432438063064,
+          0.473170731300813
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "d, ="
+      },
+      {
+        "bbox": [
+          0.7601351355405405,
+          0.4536585360975609,
+          0.8479729733783783,
+          0.502439023902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + T"
+      },
+      {
+        "bbox": [
+          0.7939189186148649,
+          0.5512195116097562,
+          0.8378378375337837,
+          0.6097560969756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a2"
+      },
+      {
+        "bbox": [
+          0.6790540547578829,
+          0.5853658532113822,
+          0.7635135142173424,
+          0.6585365849186992
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "d2="
+      },
+      {
+        "bbox": [
+          0.7533783790259009,
+          0.6146341457317074,
+          0.8851351357826577,
+          0.6878048774390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1 + T)3"
+      },
+      {
+        "bbox": [
+          0.6653062605385232,
+          0.7299605991877434,
+          0.9563153644681974,
+          0.8163808630829178
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a3 (1 + T) - 2F a2?"
+      },
+      {
+        "bbox": [
+          0.7432432438223937,
+          0.8146341458536586,
+          0.8783783789575289,
+          0.8829268287804878
+        ],
+        "confidence": 0.5,
+        "text": "(1 + T)5"
+      },
+      {
+        "bbox": [
+          0.7162162191689707,
+          0.9365853659349593,
+          0.9256756657409394,
+          0.9609756098373984
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 1849"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The open-loop gain a is divided by the loop gain 1+T, as expected (1+LG in Chapter 13). 1 For large T, the closed-loop gain d is just about 1/F, as explained by first-order feedback theory 1 (see Chapter 13).",
+      "pdf_page": 532,
+      "printed_page": 542,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The distortion components are now easily calculated.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0533_01_1849.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The open-loop gain a is divided by the loop gain 1+T, as expected (1+LG in Chapter 13). 1 For large T, the closed-loop gain d is just about 1/F, as explained by first-order feedback theory 1 (see Chapter 13).",
+      "pdf_page": 532,
+      "printed_page": 542,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The second-order coefficient d of the power series with feedback, is given to a but divided 2 2 by the third power of the loop gain T.",
+      "pdf_page": 532,
+      "printed_page": 542,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The third-order coefficient d of the power series 3 with feedback, is given to a 3 but is now divided by the fifth power of the loop gain T.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1849-M01",
+      "ocr_text": "Loop gain 1+T = 1+a,F",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.07770270641891884,
+        0.717073171402439,
+        0.4155405442567567,
+        0.7707317079878049
+      ],
+      "context_crop": "regions/SANSEN-1849_math_01.png",
+      "context_bbox_normalized": [
+        0.03770270641891884,
+        0.617073171402439,
+        0.6455405442567567,
+        0.9007317079878049
+      ],
+      "source_image": "slides/p0533_01_1849.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1849-M02",
+      "ocr_text": "dz =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5777027028153153,
+        0.7853658541463414,
+        0.6452702703828829,
+        0.8439024395121951
+      ],
+      "context_crop": "regions/SANSEN-1849_math_02.png",
+      "context_bbox_normalized": [
+        0.5377027028153153,
+        0.6853658541463414,
+        0.8752702703828829,
+        0.93
+      ],
+      "source_image": "slides/p0533_01_1849.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1849-M03",
+      "ocr_text": "u = v - Fy",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7630294350273572,
+        0.24561648777186917,
+        0.922781378667164,
+        0.30560302561217745
+      ],
+      "context_crop": "regions/SANSEN-1849_math_03.png",
+      "context_bbox_normalized": [
+        0.7230294350273572,
+        0.14561648777186917,
+        1,
+        0.43560302561217745
+      ],
+      "source_image": "slides/p0533_01_1849.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1849-M04",
+      "ocr_text": "d, =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6756756762387387,
+        0.4146341459349594,
+        0.7432432438063064,
+        0.473170731300813
+      ],
+      "context_crop": "regions/SANSEN-1849_math_04.png",
+      "context_bbox_normalized": [
+        0.6356756762387387,
+        0.3146341459349594,
+        0.9732432438063063,
+        0.603170731300813
+      ],
+      "source_image": "slides/p0533_01_1849.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1849-M05",
+      "ocr_text": "d2=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6790540547578829,
+        0.5853658532113822,
+        0.7635135142173424,
+        0.6585365849186992
+      ],
+      "context_crop": "regions/SANSEN-1849_math_05.png",
+      "context_bbox_normalized": [
+        0.6390540547578829,
+        0.48536585321138226,
+        0.9935135142173424,
+        0.7885365849186992
+      ],
+      "source_image": "slides/p0533_01_1849.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

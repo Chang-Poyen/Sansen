@@ -1,0 +1,40 @@
+Important opamp configurations 213
+075
+The gain of such a voltage
+amplifier is rather limited as
+the gain per transistor can
+be quite small for nanome-
+ter MOST devices.
+This is why cascodes are
+better added. Four cascode
+MOSTs are added M5–8 in
+series with the input devices
+and current mirror, as
+shown in this slide. Note
+that cascode M7 is included
+in the feedback loop around
+transistor M3, which allows
+a larger output swing.
+This is called the tele-
+scopic CMOS OTA. The impedance at the output node increases considerably, but not the
+GBW, as shown next.
+Obviously the power consumption does not increase.
+076
+Without cascodes, the gain
+is moderate. With cascodes
+however, the gain is in-
+creased, but only at low
+frequencies.
+Cascode transistors are
+now mainly used for more
+gain at low frequencies, for
+example for lower distortion
+at low frequencies.
+Another ‘‘hat’’ can be put
+on top of this characteristic
+by application of gain
+boosting to the cascode
+transistors M6 and M8.
+For deep submicron or
+nanometer CMOS this has always become a necessity, as the gain per transistor has become
+less than 10.

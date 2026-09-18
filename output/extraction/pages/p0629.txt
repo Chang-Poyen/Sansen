@@ -1,0 +1,54 @@
+640 Chapter #21
+the transfer function is very different. If H(z) has a high magnitude, the quantization noise is
+reduced considerably. The SNR also increases considerably.
+A simple example with a low-pass filter is given next.
+216
+The simplest possible feed-
+back loop with such a noise
+filter H is shown in this slide.
+Its gain is k . The (quantiza-
+1
+tion) noise or error signal in
+general is represented by e.
+The feedback loop is closed
+over a block with gain k .
+2
+From the network equa-
+tions it is clear the gains for
+the incoming signal x and
+for the error signal e are very
+different indeed.
+For a large loop gain
+1+k k H, the gain for the
+1 2
+incoming signal is 1/k ,
+2
+whereas the gain for the error signal (quantization noise) can be quite small. This latter filter
+action is the actual noise shaping.
+This is evident if a first-order low-pass filter is taken for filter H, as shown next.
+217
+When a low-pass filter of
+first order is taken for H,
+with cut-off frequency f
+m
+and slope −20 dB/decade,
+the contribution of the error
+(noise) signal in the output
+y shows an inverted charac-
+teristic. Its contribution is
+low at frequencies below f
+m
+and it increases at 20 dB/
+decade for higher frequen-
+cies. The noise is pushed
+towards higher frequencies.
+At low frequencies, the
+SNR is the ratio of x/k and
+2
+e/k k H. This is propor-
+1 2
+tional to k , which is the gain in the forward path of the feedback loop. The higher this gain,
+1
+the higher the SNR.
+Also, the higher the order of the filter, the steeper the slope of the noise beyond frequency f .
+m

@@ -1,0 +1,305 @@
+{
+  "case_id": "SANSEN-0327",
+  "slide_id": "0327",
+  "chapter": 3,
+  "slide_number_in_chapter": 27,
+  "source": {
+    "pdf_page": 101,
+    "printed_page": 103
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0101_01_0327.jpg",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 101,
+      "printed_page": 103,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        487.24241035000034
+      ],
+      "text_raw": "The problem with the previ-\nous differential amplifier is\nthat the gain g R is quite\nm L\nsmall. We need larger values\nof load resistor to increase\nthis gain. For small supply\nvoltages this is not possible.\nSometimes resistors are\nused, when they need to be\ntrimmed to reduce the effect\nof mismatch. See Chapter 12\nfor more details.\nA first solution may be to\nuse the output resistance of\na MOST as a load, as shown\nin this slide. The gain\nincreases to g r , which is all a single transistor can provide.\nm DS\nWe could also put in cascodes, as shown previously.\nWe will now see two more techniques to enhance the gain. They are current cancellation and\nbootstrapping.\nBefore we go into detail, we have noticed that the circuit in this slide is not possible from the\nview of biasing. Both voltage V and current I intend to provide biasing currents to the\nB B\namplifying devices M1. This is not possible. We will have to apply common-mode feedback as\nexplained in Chapter 9.\nFinally, note that the input devices are pMOSTs, and that their Bulks are connected to their\nn-well. This is the most common input stage configuration in a n-well CMOS process. Connecting\nBulk to Source improves the matching of the input devices, as will be explained in Chapter 12.\nNote that the Bulk connections are not always shown!",
+      "text": "The problem with the previous differential amplifier is that the gain g R is quite m L small. We need larger values of load resistor to increase this gain. For small supply voltages this is not possible. Sometimes resistors are used, when they need to be trimmed to reduce the effect of mismatch. See Chapter 12 for more details. A first solution may be to use the output resistance of a MOST as a load, as shown in this slide. The gain increases to g r , which is all a single transistor can provide. m DS We could also put in cascodes, as shown previously. We will now see two more techniques to enhance the gain. They are current cancellation and bootstrapping. Before we go into detail, we have noticed that the circuit in this slide is not possible from the view of biasing. Both voltage V and current I intend to provide biasing currents to the B B amplifying devices M1. This is not possible. We will have to apply common-mode feedback as explained in Chapter 9. Finally, note that the input devices are pMOSTs, and that their Bulks are connected to their n-well. This is the most common input stage configuration in a n-well CMOS process. Connecting Bulk to Source improves the matching of the input devices, as will be explained in Chapter 12. Note that the Bulk connections are not always shown!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The problem with the previous differential amplifier is that the gain g R is quite m L small. We need larger values of load resistor to increase this gain. For small supply voltages this is not possible. Sometimes resistors are used, when they need to be trimmed to reduce the effect of mismatch. See Chapter 12 for more details. A first solution may be to use the output resistance of a MOST as a load, as shown in this slide. The gain increases to g r , which is all a single transistor can provide. m DS We could also put in cascodes, as shown previously. We will now see two more techniques to enhance the gain. They are current cancellation and bootstrapping. Before we go into detail, we have noticed that the circuit in this slide is not possible from the view of biasing. Both voltage V and current I intend to provide biasing currents to the B B amplifying devices M1. This is not possible. We will have to apply common-mode feedback as explained in Chapter 9. Finally, note that the input devices are pMOSTs, and that their Bulks are connected to their n-well. This is the most common input stage configuration in a n-well CMOS process. Connecting Bulk to Source improves the matching of the input devices, as will be explained in Chapter 12. Note that the Bulk connections are not always shown!",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Voltage differential amplifier with gmDs gain",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0101_01_0327.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027077280405,
+          0.08780487774390244,
+          0.8817567617820945,
+          0.15609756067073177
+        ],
+        "confidence": 0.5,
+        "text": "Voltage differential amplifier with gmDs gain"
+      },
+      {
+        "bbox": [
+          0.476351350945946,
+          0.2682926831219512,
+          0.5168918914864865,
+          0.3268292684878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IB"
+      },
+      {
+        "bbox": [
+          0.246621622007722,
+          0.3463414632752613,
+          0.30067567606177603,
+          0.404878048641115
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.5675675675675675,
+          0.34146341410569114,
+          0.6216216216216216,
+          0.40487804825203255
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.11824324408783782,
+          0.5317073168902439,
+          0.1858108116554054,
+          0.5853658534756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vin1("
+      },
+      {
+        "bbox": [
+          0.3412162157094594,
+          0.5512195123577235,
+          0.4020270265202702,
+          0.6097560977235772
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vo1"
+      },
+      {
+        "bbox": [
+          0.4729729734515765,
+          0.5463414639837397,
+          0.5371621626407657,
+          0.6146341469105691
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Voz"
+      },
+      {
+        "bbox": [
+          0.6351351355743243,
+          0.5219512192195122,
+          0.6790540544932432,
+          0.5902439021463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Э"
+      },
+      {
+        "bbox": [
+          0.6925675670270269,
+          0.5317073165853659,
+          0.7533783778378378,
+          0.5804878043902439
+        ],
+        "confidence": 1,
+        "text": "Vin2"
+      },
+      {
+        "bbox": [
+          0.17905405363175675,
+          0.7219512187804877,
+          0.22635135092905406,
+          0.7804878041463414
+        ],
+        "confidence": 1,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.40878378409749033,
+          0.7707317070731708,
+          0.45270270301640925,
+          0.814634146097561
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.6317567545366796,
+          0.7756097562717769,
+          0.9425675653474902,
+          0.8292682928571428
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av = 9m1(TDs1//TDS2)"
+      },
+      {
+        "bbox": [
+          0.7195945919763513,
+          0.9512195123780488,
+          0.9290540514358109,
+          0.9853658538414635
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 a5 0327"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A first solution may be to use the output resistance of a MOST as a load, as shown in this slide.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain increases to g r , which is all a single transistor can provide. m DS We could also put in cascodes, as shown previously.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We will have to apply common-mode feedback as explained in Chapter 9.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0101_01_0327.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Finally, note that the input devices are pMOSTs, and that their Bulks are connected to their n-well.",
+        "pdf_page": 101,
+        "printed_page": 103,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Connecting Bulk to Source improves the matching of the input devices, as will be explained in Chapter 12.",
+        "pdf_page": 101,
+        "printed_page": 103,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Note that the Bulk connections are not always shown!",
+        "pdf_page": 101,
+        "printed_page": 103,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The problem with the previous differential amplifier is that the gain g R is quite m L small.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We need larger values of load resistor to increase this gain.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain increases to g r , which is all a single transistor can provide. m DS We could also put in cascodes, as shown previously.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We will now see two more techniques to enhance the gain.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0327-M01",
+      "ocr_text": "Av = 9m1(TDs1//TDS2)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6317567545366796,
+        0.7756097562717769,
+        0.9425675653474902,
+        0.8292682928571428
+      ],
+      "context_crop": "regions/SANSEN-0327_math_01.png",
+      "context_bbox_normalized": [
+        0.5917567545366795,
+        0.6756097562717769,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0101_01_0327.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

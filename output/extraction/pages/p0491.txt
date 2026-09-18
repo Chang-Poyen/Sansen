@@ -1,0 +1,49 @@
+Switched-capacitor filters 501
+1732
+In analog systems, the sig-
+nals are best represented by
+their Laplace transforms
+with variable s which is the
+complex frequency jv. The
+best way to describe transfer
+functions is the use of the
+Laplace transform. An
+example is given of a first-
+order low-pass filter with
+time constant RC. It is easy
+to transform this expression
+back to frequency by simple
+substitution of s by jv.
+In sampled data systems,
+the signals are best repre-
+sented by their z-transforms. Indeed the only accurate way to describe transfer functions is the
+use of z-transforms. A delay of one single clock pulse then corresponds to a multiplication by
+z−1. A few elementary characteristics of z-transforms are given in this slide.
+It is easy to transform an expression in z back to frequency by substitution of z by exp( jvT )
+c
+or exp(2pjf/f ). Since the signal frequency f is much smaller than the clock frequency f , this
+c c
+exponential can be developed into a power series, as shown in this slide. It is sufficient to keep
+the first few terms.
+1733
+In order to find the transfer
+characteristic of a sampled-
+data filter in z, charge con-
+servation is used. There are
+other more formal tech-
+niques (see Laker-Sansen,
+McGrawHill 1994), but
+charge conservation is the
+easiest one, although it may
+not always work.
+An example is given of a
+simple integrator.
+An analog integrator has
+a transfer characteristic,
+which is well known, as
+shown on the top left. What
+is now the transfer characteristic of the sampled-data inverter shown on top right? The resistor
+has been substituted by its sampled-data equivalent and called aC.
+In order to find the transfer characteristic in z, charge conservation is applied. This means
+that we add up the charges on the capacitors in phase 1, and equate it to the charges in phase
+2. Indeed, charges cannot disappear as currents cannot disappear (laws of Kirchoff ).

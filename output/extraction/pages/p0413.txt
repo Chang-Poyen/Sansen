@@ -1,0 +1,44 @@
+151
+The main limitation to
+precision in analog integ-
+rated circuits is established
+by noise and mismatch.
+Actually, the smaller the
+channel lengths become, the
+more severe is the mismatch
+and this becomes the domi-
+nant limitation in precision.
+Mismatch is the main
+reason for high offset and
+low CMRR (Common-
+mode rejection ratio). It is
+also the main reason for low
+PSRR (Power-supply rejec-
+tion ratio).
+In this Chapter we will investigate the relationship between mismatch and these specifications.
+Moreover, we will try to find out how to modify the layout of a circuit to improve mismatch
+and hence to lower the offset. This will be done for both CMOS and bipolar technologies.
+152
+First of all, we start by a few
+definitions. What is actually
+offset and what is CMRR?
+They can be caused by
+random effects but also by
+systematic errors in design.
+We now focus on how
+these phenomena behave at
+higher frequencies.
+Probably the most impor-
+tant part of this Chapter is
+the list of design rules for
+good design.
+Finally, the differences are
+highlighted between CMOS
+and bipolar design.
+153
+When a single-ended opamp is taken with zero differential input voltage, its output voltage
+should be zero, whatever the gain is. In practice, this is not the case. The output voltage is not zero.
+The offset voltage v is now by definition the differential input voltage that is required to
+os
+make the output voltage zero. Since it is a differential input voltage it can be inserted in either
+421

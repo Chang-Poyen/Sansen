@@ -1,0 +1,622 @@
+{
+  "case_id": "SANSEN-0947",
+  "slide_id": "0947",
+  "chapter": 9,
+  "slide_number_in_chapter": 47,
+  "source": {
+    "pdf_page": 279,
+    "printed_page": 286
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0279_02_0947.jpg",
+      "pdf_page": 279,
+      "printed_page": 286,
+      "bbox_pt": [
+        91.521622,
+        407.525971,
+        374.78981,
+        603.985962
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 279,
+      "printed_page": 286,
+      "bbox_pt": [
+        0,
+        403.5365000000001,
+        595,
+        797
+      ],
+      "text_raw": "For stability, we need to\nhave the third non-domi-\nnant pole v larger than the\n2\nfirst one v . This is always\n1\nthe case since k is larger\nt\nthan unity. In the design\nexample later on, a value of\nk is taken of two.\nt\nThe main stability condi-\ntion specifies that the second\nnon-dominant pole v must\n3\nbe larger than the GBW.\nThis is easily satisfied as the\nratio’s C /C and g /g\nm2 2 m3 m1\nare large indeed. This circuit\nis therefore easy to stabilize!\nThe most important non-dominant pole is v . For a 3rd-order Butterworth characteristic this\n1\npole is positioned at 2 times the v (or the GBW).\nUG\nAs discussed on the previous slide, the right-half-plane zero v is a lot larger than the GBW\n4\nand can now be neglected. The only zero left is a zero v in the left half of the complex plane.\n2\nIt is only a little (actually (1+ k )/k or 1.5 times in this design) larger than the non-dominant\nt t\npole. It is therefore ideally positioned to improve the phase margin.\nThe resulting ratio in GBW compared to a conventional NMC amplifier is quite impressive.",
+      "text": "For stability, we need to have the third non-dominant pole v larger than the 2 first one v . This is always 1 the case since k is larger t than unity. In the design example later on, a value of k is taken of two. t The main stability condition specifies that the second non-dominant pole v must 3 be larger than the GBW. This is easily satisfied as the ratio’s C /C and g /g m2 2 m3 m1 are large indeed. This circuit is therefore easy to stabilize! The most important non-dominant pole is v . For a 3rd-order Butterworth characteristic this 1 pole is positioned at 2 times the v (or the GBW). UG As discussed on the previous slide, the right-half-plane zero v is a lot larger than the GBW 4 and can now be neglected. The only zero left is a zero v in the left half of the complex plane. 2 It is only a little (actually (1+ k )/k or 1.5 times in this design) larger than the non-dominant t t pole. It is therefore ideally positioned to improve the phase margin. The resulting ratio in GBW compared to a conventional NMC amplifier is quite impressive."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For stability, we need to have the third non-dominant pole v larger than the 2 first one v . This is always 1 the case since k is larger t than unity. In the design example later on, a value of k is taken of two. t The main stability condition specifies that the second non-dominant pole v must 3 be larger than the GBW. This is easily satisfied as the ratio’s C /C and g /g m2 2 m3 m1 are large indeed. This circuit is therefore easy to stabilize! The most important non-dominant pole is v . For a 3rd-order Butterworth characteristic this 1 pole is positioned at 2 times the v (or the GBW). UG As discussed on the previous slide, the right-half-plane zero v is a lot larger than the GBW 4 and can now be neglected. The only zero left is a zero v in the left half of the complex plane. 2 It is only a little (actually (1+ k )/k or 1.5 times in this design) larger than the non-dominant t t pole. It is therefore ideally positioned to improve the phase margin. The resulting ratio in GBW compared to a conventional NMC amplifier is quite impressive.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "TCFC stability Stability (k, = 2):",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0279_02_0947.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08052698567013607,
+          0.07801039152708955,
+          0.35190545127105194,
+          0.15613594977546985
+        ],
+        "confidence": 1,
+        "text": "TCFC stability"
+      },
+      {
+        "bbox": [
+          0.0810189515028784,
+          0.1897292003883596,
+          0.331143212688808,
+          0.2541732398959696
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Stability (k, = 2):"
+      },
+      {
+        "bbox": [
+          0.08811194945047383,
+          0.2661361315934474,
+          0.5599337601985999,
+          0.3864910770786322
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cmz 9m3 > WuG since Cm2 > C2"
+      },
+      {
+        "bbox": [
+          0.10472973063063061,
+          0.3463414632926829,
+          0.2128378387387387,
+          0.3999999998780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2 CL"
+      },
+      {
+        "bbox": [
+          0.08778045665799332,
+          0.42895993071980676,
+          0.21289521976323117,
+          0.4783571434228604
+        ],
+        "confidence": 1,
+        "text": "Design :"
+      },
+      {
+        "bbox": [
+          0.08445945905405407,
+          0.4975609762439024,
+          0.6587837833783784,
+          0.5609756103902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W3 > @, Since Cm2 > C2; then Pnd = - W,"
+      },
+      {
+        "bbox": [
+          0.08445946206081076,
+          0.5707317067317073,
+          0.48648648908783787,
+          0.629268292097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "set w, = 2 uG for 60° PM"
+      },
+      {
+        "bbox": [
+          0.0844594558277028,
+          0.6487804885365854,
+          0.46283783420608116,
+          0.707317073902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "04 >WuG ; then Znd = - 002"
+      },
+      {
+        "bbox": [
+          0.0912162184966216,
+          0.721951219390244,
+          0.45608108336148645,
+          0.7804878047560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "is (1+k,)/k, larger than ®,"
+      },
+      {
+        "bbox": [
+          0.09121621866554047,
+          0.8536585362195122,
+          0.3851351375844594,
+          0.907317072804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW/ GBWNMC = 41"
+      },
+      {
+        "bbox": [
+          0.8209459461570947,
+          0.26829268347560975,
+          0.8445945948057433,
+          0.31219512250000003
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.871621621081081,
+          0.2682926824390244,
+          0.9324324318918918,
+          0.31707317024390247
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.7364864867820945,
+          0.29756097475609755,
+          0.8141891894847972,
+          0.36585365768292677
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0,=."
+      },
+      {
+        "bbox": [
+          0.8040540529842343,
+          0.33658536597560973,
+          0.9324324313626126,
+          0.39024390256097563
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+kg Cm2"
+      },
+      {
+        "bbox": [
+          0.8243243245777027,
+          0.4439024388414634,
+          0.844594594847973,
+          0.4780487803048781
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7398648649493242,
+          0.46341463475609757,
+          0.817567567652027,
+          0.5365853664634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "02 ="
+      },
+      {
+        "bbox": [
+          0.852941178127077,
+          0.43156384563058325,
+          0.9326311576802997,
+          0.5044476283662683
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.8209459457488738,
+          0.5121951215447155,
+          0.8513513511542793,
+          0.5609756093495935
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Kt"
+      },
+      {
+        "bbox": [
+          0.8513513522804054,
+          0.5073170731707317,
+          0.9256756766047297,
+          0.5658536585365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cmг"
+      },
+      {
+        "bbox": [
+          0.7901152520296001,
+          0.5979380702035528,
+          0.9227225831766651,
+          0.6605985200922009
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cmг 9m3"
+      },
+      {
+        "bbox": [
+          0.6346357317827813,
+          0.6405324160927274,
+          0.814688592145891,
+          0.7058090458430489
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "03 = (1+k+) -"
+      },
+      {
+        "bbox": [
+          0.8074324328378378,
+          0.6829268291707317,
+          0.8479729733783784,
+          0.7317073169756096
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.871621621311937,
+          0.67804878,
+          0.9155405402308558,
+          0.7365853653658537
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.7229729716216217,
+          0.751219512195122,
+          0.8581081067567569,
+          0.8097560975609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cm2 9m3"
+      },
+      {
+        "bbox": [
+          0.6010807513981842,
+          0.798505609910452,
+          0.7237299570957336,
+          0.8517553667932825
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "04=- Kt"
+      },
+      {
+        "bbox": [
+          0.8716216209037161,
+          0.804878048902439,
+          0.9290540533361485,
+          0.8439024391463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "@UG"
+      },
+      {
+        "bbox": [
+          0.7364864860810811,
+          0.8292682932682925,
+          0.8581081077027027,
+          0.8878048786341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2 9m1"
+      },
+      {
+        "bbox": [
+          0.7331081105996621,
+          0.9268292680487805,
+          0.9324324349239864,
+          0.9560975607317074
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 0947"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The resulting ratio in GBW compared to a conventional NMC amplifier is quite impressive.",
+      "pdf_page": 279,
+      "printed_page": 286,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0279_02_0947.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This circuit is therefore easy to stabilize!",
+      "pdf_page": 279,
+      "printed_page": 286,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is therefore ideally positioned to improve the phase margin.",
+      "pdf_page": 279,
+      "printed_page": 286,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "For a 3rd-order Butterworth characteristic this 1 pole is positioned at 2 times the v (or the GBW).",
+      "pdf_page": 279,
+      "printed_page": 286,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is therefore ideally positioned to improve the phase margin.",
+      "pdf_page": 279,
+      "printed_page": 286,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "UG As discussed on the previous slide, the right-half-plane zero v is a lot larger than the GBW 4 and can now be neglected.",
+      "pdf_page": 279,
+      "printed_page": 286,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0947-M01",
+      "ocr_text": "Stability (k, = 2):",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0810189515028784,
+        0.1897292003883596,
+        0.331143212688808,
+        0.2541732398959696
+      ],
+      "context_crop": "regions/SANSEN-0947_math_01.png",
+      "context_bbox_normalized": [
+        0.0410189515028784,
+        0.13,
+        0.561143212688808,
+        0.38417323989596963
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0947-M02",
+      "ocr_text": "Cmz 9m3 > WuG since Cm2 > C2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08811194945047383,
+        0.2661361315934474,
+        0.5599337601985999,
+        0.3864910770786322
+      ],
+      "context_crop": "regions/SANSEN-0947_math_02.png",
+      "context_bbox_normalized": [
+        0.04811194945047383,
+        0.1661361315934474,
+        0.7899337601985998,
+        0.5164910770786322
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0947-M03",
+      "ocr_text": "W3 > @, Since Cm2 > C2; then Pnd = - W,",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08445945905405407,
+        0.4975609762439024,
+        0.6587837833783784,
+        0.5609756103902439
+      ],
+      "context_crop": "regions/SANSEN-0947_math_03.png",
+      "context_bbox_normalized": [
+        0.04445945905405407,
+        0.3975609762439024,
+        0.8887837833783784,
+        0.6909756103902439
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0947-M04",
+      "ocr_text": "set w, = 2 uG for 60° PM",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08445946206081076,
+        0.5707317067317073,
+        0.48648648908783787,
+        0.629268292097561
+      ],
+      "context_crop": "regions/SANSEN-0947_math_04.png",
+      "context_bbox_normalized": [
+        0.04445946206081076,
+        0.4707317067317073,
+        0.7164864890878379,
+        0.759268292097561
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0947-M05",
+      "ocr_text": "04 >WuG ; then Znd = - 002",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0844594558277028,
+        0.6487804885365854,
+        0.46283783420608116,
+        0.707317073902439
+      ],
+      "context_crop": "regions/SANSEN-0947_math_05.png",
+      "context_bbox_normalized": [
+        0.0444594558277028,
+        0.5487804885365855,
+        0.6928378342060811,
+        0.837317073902439
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0947-M06",
+      "ocr_text": "GBW/ GBWNMC = 41",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09121621866554047,
+        0.8536585362195122,
+        0.3851351375844594,
+        0.907317072804878
+      ],
+      "context_crop": "regions/SANSEN-0947_math_06.png",
+      "context_bbox_normalized": [
+        0.05121621866554047,
+        0.7536585362195122,
+        0.6151351375844594,
+        0.93
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0947-M07",
+      "ocr_text": "0,=.",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7364864867820945,
+        0.29756097475609755,
+        0.8141891894847972,
+        0.36585365768292677
+      ],
+      "context_crop": "regions/SANSEN-0947_math_07.png",
+      "context_bbox_normalized": [
+        0.6964864867820945,
+        0.19756097475609755,
+        1,
+        0.4958536576829268
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0947-M08",
+      "ocr_text": "02 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7398648649493242,
+        0.46341463475609757,
+        0.817567567652027,
+        0.5365853664634146
+      ],
+      "context_crop": "regions/SANSEN-0947_math_08.png",
+      "context_bbox_normalized": [
+        0.6998648649493242,
+        0.3634146347560976,
+        1,
+        0.6665853664634146
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0947-M09",
+      "ocr_text": "03 = (1+k+) -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6346357317827813,
+        0.6405324160927274,
+        0.814688592145891,
+        0.7058090458430489
+      ],
+      "context_crop": "regions/SANSEN-0947_math_09.png",
+      "context_bbox_normalized": [
+        0.5946357317827813,
+        0.5405324160927274,
+        1,
+        0.8358090458430489
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0947-M10",
+      "ocr_text": "04=- Kt",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6010807513981842,
+        0.798505609910452,
+        0.7237299570957336,
+        0.8517553667932825
+      ],
+      "context_crop": "regions/SANSEN-0947_math_10.png",
+      "context_bbox_normalized": [
+        0.5610807513981841,
+        0.6985056099104521,
+        0.9537299570957336,
+        0.93
+      ],
+      "source_image": "slides/p0279_02_0947.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

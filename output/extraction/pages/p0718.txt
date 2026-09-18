@@ -1,0 +1,55 @@
+730 Chapter #23
+2338
+The IIP3 and Noise Figure
+are shown.
+For the IIP3 the gain is
+measured and the 3rd-order
+intermodulation distortion.
+The extrapolated curves
+meet at an input signal level
+of about −4.7 dBm. This is
+a normal value for a MOST
+input, which has a V −V
+GS T
+of only 0.22 V.
+The Noise Figure is not
+that flat but is never much
+higher than 3 dB up to
+900 MHz.
+In this LNA, the ESD
+protection is not part of the design procedure. A better approach is given next.
+2339
+This LNA is matched to
+50 Ohms at both input and
+output. The supply voltage
+is 1.5 V. At the input, it is
+an amplifier using inductive
+source degeneration for
+input matching. The source
+inductor L is implemented
+s
+as two parallel bonding
+wires. It also uses a cascode
+transistor.
+At the input, L is the
+g
+input bonding wire which
+serves as the inductor for
+input resonance. To the
+right of that we have the
+input bonding pad which has been especially designed, as will be explained further. It basically
+consists of only the top metal layer. The bottom metal layer serves to shield the pad from the
+substrate and increase its Quality factor. After that we have the ESD-protection diodes. The
+upper diode conducts the ESD-charge in case of a positive pulse vs. V . The lower diode
+DD
+operates in case of a negative pulse vs. ground.
+The output features a load inductor L with its series resistance, R . This inductor is imple-
+d s
+mented on-chip and has a patterned ground shield beneath to shield it from the substrate. The
+50 Ohms output is ensured through the use of a capacitive divider made up of C and C . The
+1 2
+output bonding pad also takes part in the matching as it is just in parallel to C . Also, this
+2
+bonding pad has been shielded from the substrate in order to increase coupling through the
+substrate which would degrade the reverse isolation. It also ensures a fixed and known value for
+the pad capacitance.

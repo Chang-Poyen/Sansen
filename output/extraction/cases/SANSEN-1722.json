@@ -1,0 +1,363 @@
+{
+  "case_id": "SANSEN-1722",
+  "slide_id": "1722",
+  "chapter": 17,
+  "slide_number_in_chapter": 22,
+  "source": {
+    "pdf_page": 485,
+    "printed_page": 495
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0485_02_1722.jpg",
+      "pdf_page": 485,
+      "printed_page": 495,
+      "bbox_pt": [
+        91.521622,
+        491.231995,
+        374.78981,
+        687.691986
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 485,
+      "printed_page": 495,
+      "bbox_pt": [
+        0,
+        487.24240000000015,
+        595,
+        797
+      ],
+      "text_raw": "Another problem with\nMOST switches is that the\nterminals are connected by\nparasitic capacitances. In a\nMOST they are the overlap\ncapacitances. The larger the\nwidths (for smaller R ),\non\nthe larger the overlap\ncapacitors.\nThe clock pulses are par-\ntially injected in the signal\npath. Indeed, the overlap\ncapacitor C forms a\novl\ncapacitive divider with the\nstorage capacitor\nC. if C is about 1 fF and\novl",
+      "text": "Another problem with MOST switches is that the terminals are connected by parasitic capacitances. In a MOST they are the overlap capacitances. The larger the widths (for smaller R ), on the larger the overlap capacitors. The clock pulses are partially injected in the signal path. Indeed, the overlap capacitor C forms a ovl capacitive divider with the storage capacitor C. if C is about 1 fF and ovl"
+    },
+    {
+      "pdf_page": 486,
+      "printed_page": 496,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        177.33089999999982
+      ],
+      "text_raw": "C is 1 pF, then about 0.1% of the clock pulse is injected in the signal path. For a clock of 3 V,\nthis is a 3 mV error signal in the signal path. This gives a contribution at the clock frequency\nand its harmonics! It does not affect the lower frequency bands, however.\nThe charge itself, transferred by C , is of the order of fC. It is quite small but not negligible.\novl",
+      "text": "C is 1 pF, then about 0.1% of the clock pulse is injected in the signal path. For a clock of 3 V, this is a 3 mV error signal in the signal path. This gives a contribution at the clock frequency and its harmonics! It does not affect the lower frequency bands, however. The charge itself, transferred by C , is of the order of fC. It is quite small but not negligible. ovl"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Another problem with MOST switches is that the terminals are connected by parasitic capacitances. In a MOST they are the overlap capacitances. The larger the widths (for smaller R ), on the larger the overlap capacitors. The clock pulses are partially injected in the signal path. Indeed, the overlap capacitor C forms a ovl capacitive divider with the storage capacitor C. if C is about 1 fF and ovl\n\nC is 1 pF, then about 0.1% of the clock pulse is injected in the signal path. For a clock of 3 V, this is a 3 mV error signal in the signal path. This gives a contribution at the clock frequency and its harmonics! It does not affect the lower frequency bands, however. The charge itself, transferred by C , is of the order of fC. It is quite small but not negligible. ovl",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Clock Feed-Through",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0485_02_1722.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108488175665,
+          0.08780487884146337,
+          0.44594594974662155,
+          0.1512195129878049
+        ],
+        "confidence": 1,
+        "text": "Clock Feed-Through"
+      },
+      {
+        "bbox": [
+          0.08445946249999992,
+          0.21951219487804874,
+          0.388513516554054,
+          0.27317073146341464
+        ],
+        "confidence": 1,
+        "text": "Overlap Capacitors"
+      },
+      {
+        "bbox": [
+          0.32094594546734234,
+          0.30243902390243904,
+          0.3851351346565315,
+          0.36097560926829275
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Covl"
+      },
+      {
+        "bbox": [
+          0.5742639580944563,
+          0.2434636961376152,
+          0.7939792827025116,
+          0.3077558153266218
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Covl = W Covlo"
+      },
+      {
+        "bbox": [
+          0.49324324721283774,
+          0.3365853668292682,
+          0.8648648688344593,
+          0.41463414731707315
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "WT → Rv but Cov"
+      },
+      {
+        "bbox": [
+          0.5000000051942567,
+          0.463414633902439,
+          0.9155405457347973,
+          0.5024390241463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Example : W =3um L= 0.7um"
+      },
+      {
+        "bbox": [
+          0.6587837856981981,
+          0.5268292680081301,
+          0.8885135154279279,
+          0.5804878045934959
+        ],
+        "confidence": 0.5,
+        "text": "Covlo = 0.5 fF/um"
+      },
+      {
+        "bbox": [
+          0.6078937548587857,
+          0.593505657237433,
+          0.814403538320073,
+          0.6552748310223868
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ Covi ~1 fF"
+      },
+      {
+        "bbox": [
+          0.13513512918918927,
+          0.7024390244878049,
+          0.7297297237837839,
+          0.7609756098536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ДV: Q = Covi (Vn-V,) = 1fF. 3V= 3fC"
+      },
+      {
+        "bbox": [
+          0.1520270259853604,
+          0.8146341465853659,
+          0.2770270259853604,
+          0.8634146343902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ AV="
+      },
+      {
+        "bbox": [
+          0.34121621621621623,
+          0.8146341468780488,
+          0.625,
+          0.8682926834634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 3fC/1pF ≥ 3 mV"
+      },
+      {
+        "bbox": [
+          0.29391891875,
+          0.8487804873658535,
+          0.32432432415540535,
+          0.8926829263902438
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C"
+      },
+      {
+        "bbox": [
+          0.716098646561835,
+          0.9305960460698596,
+          0.932550007934499,
+          0.9815990765211923
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10-05 N1722"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0485_02_1722.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Another problem with MOST switches is that the terminals are connected by parasitic capacitances.",
+        "pdf_page": 485,
+        "printed_page": 495,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1722-M01",
+      "ocr_text": "Covl = W Covlo",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5742639580944563,
+        0.2434636961376152,
+        0.7939792827025116,
+        0.3077558153266218
+      ],
+      "context_crop": "regions/SANSEN-1722_math_01.png",
+      "context_bbox_normalized": [
+        0.5342639580944563,
+        0.1434636961376152,
+        1,
+        0.4377558153266218
+      ],
+      "source_image": "slides/p0485_02_1722.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1722-M02",
+      "ocr_text": "Example : W =3um L= 0.7um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5000000051942567,
+        0.463414633902439,
+        0.9155405457347973,
+        0.5024390241463415
+      ],
+      "context_crop": "regions/SANSEN-1722_math_02.png",
+      "context_bbox_normalized": [
+        0.4600000051942567,
+        0.363414633902439,
+        1,
+        0.6324390241463415
+      ],
+      "source_image": "slides/p0485_02_1722.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1722-M03",
+      "ocr_text": "Covlo = 0.5 fF/um",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6587837856981981,
+        0.5268292680081301,
+        0.8885135154279279,
+        0.5804878045934959
+      ],
+      "context_crop": "regions/SANSEN-1722_math_03.png",
+      "context_bbox_normalized": [
+        0.618783785698198,
+        0.42682926800813015,
+        1,
+        0.7104878045934959
+      ],
+      "source_image": "slides/p0485_02_1722.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1722-M04",
+      "ocr_text": "ДV: Q = Covi (Vn-V,) = 1fF. 3V= 3fC",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.13513512918918927,
+        0.7024390244878049,
+        0.7297297237837839,
+        0.7609756098536586
+      ],
+      "context_crop": "regions/SANSEN-1722_math_04.png",
+      "context_bbox_normalized": [
+        0.09513512918918926,
+        0.602439024487805,
+        0.9597297237837839,
+        0.8909756098536586
+      ],
+      "source_image": "slides/p0485_02_1722.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1722-M05",
+      "ocr_text": "→ AV=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1520270259853604,
+        0.8146341465853659,
+        0.2770270259853604,
+        0.8634146343902439
+      ],
+      "context_crop": "regions/SANSEN-1722_math_05.png",
+      "context_bbox_normalized": [
+        0.11202702598536038,
+        0.714634146585366,
+        0.5070270259853604,
+        0.93
+      ],
+      "source_image": "slides/p0485_02_1722.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1722-M06",
+      "ocr_text": "= 3fC/1pF ≥ 3 mV",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.34121621621621623,
+        0.8146341468780488,
+        0.625,
+        0.8682926834634146
+      ],
+      "context_crop": "regions/SANSEN-1722_math_06.png",
+      "context_bbox_normalized": [
+        0.30121621621621625,
+        0.7146341468780488,
+        0.855,
+        0.93
+      ],
+      "source_image": "slides/p0485_02_1722.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

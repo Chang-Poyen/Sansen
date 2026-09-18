@@ -1,0 +1,441 @@
+{
+  "case_id": "SANSEN-1757",
+  "slide_id": "1757",
+  "chapter": 17,
+  "slide_number_in_chapter": 57,
+  "source": {
+    "pdf_page": 503,
+    "printed_page": 513
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0503_02_1757.jpg",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "bbox_pt": [
+        91.521622,
+        421.47695999999996,
+        374.78981,
+        617.936951
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 503,
+      "printed_page": 513,
+      "bbox_pt": [
+        0,
+        417.4875000000002,
+        595,
+        797
+      ],
+      "text_raw": "The static accuracy e for a\nS\nstep input with amplitude\nV , is now given by the\nstep\ninverse of the loop gain or\nby the inverse of aA .\n0\nFor a minimum static\naccuracy e , there is a mini-\nS\nmum amount of gain A\n0\nrequired. For example, for\ne =0.05% we need a loop\nS\ngain of the inverse or 2000.\nFor a closed-loop gain of 5\n(a=0.2) the open-loop gain\nA must be 104.\n0\nSince open-loop gains are\nnot accurately known, a\nsafety factor has to be included of 3–5. The open-loop gain must therefore be 3×104 or 90 dB.",
+      "text": "The static accuracy e for a S step input with amplitude V , is now given by the step inverse of the loop gain or by the inverse of aA . 0 For a minimum static accuracy e , there is a mini- S mum amount of gain A 0 required. For example, for e =0.05% we need a loop S gain of the inverse or 2000. For a closed-loop gain of 5 (a=0.2) the open-loop gain A must be 104. 0 Since open-loop gains are not accurately known, a safety factor has to be included of 3–5. The open-loop gain must therefore be 3×104 or 90 dB."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The static accuracy e for a S step input with amplitude V , is now given by the step inverse of the loop gain or by the inverse of aA . 0 For a minimum static accuracy e , there is a mini- S mum amount of gain A 0 required. For example, for e =0.05% we need a loop S gain of the inverse or 2000. For a closed-loop gain of 5 (a=0.2) the open-loop gain A must be 104. 0 Since open-loop gains are not accurately known, a safety factor has to be included of 3–5. The open-loop gain must therefore be 3×104 or 90 dB.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Static error",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0503_02_1757.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270371621621,
+          0.08780487878048782,
+          0.28716216317567567,
+          0.14634146414634142
+        ],
+        "confidence": 1,
+        "text": "Static error"
+      },
+      {
+        "bbox": [
+          0.10295292849984171,
+          0.2619222867748956,
+          0.26431654307190283,
+          0.322209706535995
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vout, / = 0 ="
+      },
+      {
+        "bbox": [
+          0.2903720379535487,
+          0.218792229882523,
+          0.4393576944856301,
+          0.29340289350586757
+        ],
+        "confidence": 0.5,
+        "text": "Ao.Vstep"
+      },
+      {
+        "bbox": [
+          0.2939189173141893,
+          0.3024390236585366,
+          0.4290540524493244,
+          0.3609756090243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+a.Ao"
+      },
+      {
+        "bbox": [
+          0.16188452636862952,
+          0.40750050138484295,
+          0.3820343913902063,
+          0.470548280282012
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vstep / a - Vout"
+      },
+      {
+        "bbox": [
+          0.10472973020833332,
+          0.44878048756097555,
+          0.16216216264076574,
+          0.49756097536585364
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "& ="
+      },
+      {
+        "bbox": [
+          0.20945945841779282,
+          0.4829268294308944,
+          0.3344594584177928,
+          0.5317073172357724
+        ],
+        "confidence": 0.5,
+        "text": "Vstep/ a"
+      },
+      {
+        "bbox": [
+          0.13851351121621627,
+          0.6634146336585366,
+          0.37499999770270276,
+          0.7121951214634147
+        ],
+        "confidence": 1,
+        "text": "Minimum Gain"
+      },
+      {
+        "bbox": [
+          0.49662162114864866,
+          0.4146341465853658,
+          0.543918918445946,
+          0.4585365856097561
+        ],
+        "confidence": 0.5,
+        "text": "Ao"
+      },
+      {
+        "bbox": [
+          0.3918918934684684,
+          0.44878048756097555,
+          0.486486488063063,
+          0.4829268290243902
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "=1--"
+      },
+      {
+        "bbox": [
+          0.45945946060810805,
+          0.4829268297560976,
+          0.5810810822297297,
+          0.5317073175609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+ Ao.a"
+      },
+      {
+        "bbox": [
+          0.6385135140540541,
+          0.4000000002926829,
+          0.6925675681081082,
+          0.47804878078048774
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6148648645945946,
+          0.4829268297560976,
+          0.6891891889189189,
+          0.5317073175609756
+        ],
+        "confidence": 0.5,
+        "text": "a.Ao"
+      },
+      {
+        "bbox": [
+          0.614864864695946,
+          0.6243902434146342,
+          0.641891891722973,
+          0.6829268287804878
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.4831081067145271,
+          0.6731707318902439,
+          0.5945945932010136,
+          0.7268292684756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ao >-"
+      },
+      {
+        "bbox": [
+          0.5878378379504504,
+          0.7073170725203252,
+          0.682432432545045,
+          0.78536585300813
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a. Es"
+      },
+      {
+        "bbox": [
+          0.7599889404571182,
+          0.6040999708330899,
+          0.8954164669826671,
+          0.6593146619951992
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "€= 0.05%"
+      },
+      {
+        "bbox": [
+          0.7565313269516234,
+          0.7110064344630107,
+          0.9022524531987199,
+          0.7719203949896399
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A, ~ 1-10k"
+      },
+      {
+        "bbox": [
+          0.7565873000469097,
+          0.7646531893609132,
+          0.9021964855492455,
+          0.810956566279799
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "≥ 60-80 dB"
+      },
+      {
+        "bbox": [
+          0.7127831934425797,
+          0.9312443065434002,
+          0.9291086955804598,
+          0.9858288678681013
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1095 N1757"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0503_02_1757.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The static accuracy e for a S step input with amplitude V , is now given by the step inverse of the loop gain or by the inverse of aA . 0 For a minimum static accuracy e , there is a mini- S mum amount of gain A 0 required.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For example, for e =0.05% we need a loop S gain of the inverse or 2000.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For a closed-loop gain of 5 (a=0.2) the open-loop gain A must be 104. 0 Since open-loop gains are not accurately known, a safety factor has to be included of 3–5.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The open-loop gain must therefore be 3×104 or 90 dB.",
+      "pdf_page": 503,
+      "printed_page": 513,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1757-M01",
+      "ocr_text": "Vout, / = 0 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.10295292849984171,
+        0.2619222867748956,
+        0.26431654307190283,
+        0.322209706535995
+      ],
+      "context_crop": "regions/SANSEN-1757_math_01.png",
+      "context_bbox_normalized": [
+        0.06295292849984171,
+        0.1619222867748956,
+        0.49431654307190287,
+        0.452209706535995
+      ],
+      "source_image": "slides/p0503_02_1757.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1757-M02",
+      "ocr_text": "& =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.10472973020833332,
+        0.44878048756097555,
+        0.16216216264076574,
+        0.49756097536585364
+      ],
+      "context_crop": "regions/SANSEN-1757_math_02.png",
+      "context_bbox_normalized": [
+        0.06472973020833331,
+        0.34878048756097557,
+        0.39216216264076575,
+        0.6275609753658536
+      ],
+      "source_image": "slides/p0503_02_1757.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1757-M03",
+      "ocr_text": "=1--",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3918918934684684,
+        0.44878048756097555,
+        0.486486488063063,
+        0.4829268290243902
+      ],
+      "context_crop": "regions/SANSEN-1757_math_03.png",
+      "context_bbox_normalized": [
+        0.35189189346846844,
+        0.34878048756097557,
+        0.716486488063063,
+        0.6129268290243902
+      ],
+      "source_image": "slides/p0503_02_1757.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1757-M04",
+      "ocr_text": "Ao >-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4831081067145271,
+        0.6731707318902439,
+        0.5945945932010136,
+        0.7268292684756098
+      ],
+      "context_crop": "regions/SANSEN-1757_math_04.png",
+      "context_bbox_normalized": [
+        0.4431081067145271,
+        0.5731707318902439,
+        0.8245945932010136,
+        0.8568292684756098
+      ],
+      "source_image": "slides/p0503_02_1757.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1757-M05",
+      "ocr_text": "€= 0.05%",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7599889404571182,
+        0.6040999708330899,
+        0.8954164669826671,
+        0.6593146619951992
+      ],
+      "context_crop": "regions/SANSEN-1757_math_05.png",
+      "context_bbox_normalized": [
+        0.7199889404571181,
+        0.5040999708330899,
+        1,
+        0.7893146619951992
+      ],
+      "source_image": "slides/p0503_02_1757.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1757-M06",
+      "ocr_text": "≥ 60-80 dB",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7565873000469097,
+        0.7646531893609132,
+        0.9021964855492455,
+        0.810956566279799
+      ],
+      "context_crop": "regions/SANSEN-1757_math_06.png",
+      "context_bbox_normalized": [
+        0.7165873000469096,
+        0.6646531893609132,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0503_02_1757.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

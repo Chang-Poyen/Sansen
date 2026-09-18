@@ -1,0 +1,485 @@
+{
+  "case_id": "SANSEN-1418",
+  "slide_id": "1418",
+  "chapter": 14,
+  "slide_number_in_chapter": 18,
+  "source": {
+    "pdf_page": 389,
+    "printed_page": 397
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0389_02_1418.jpg",
+      "pdf_page": 389,
+      "printed_page": 397,
+      "bbox_pt": [
+        91.521622,
+        443.399964,
+        374.78981,
+        639.859955
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 389,
+      "printed_page": 397,
+      "bbox_pt": [
+        0,
+        439.4105000000003,
+        595,
+        797
+      ],
+      "text_raw": "Shunt-shunt feedback\naround a single-transistor\namplifier is far from ideal:\nthe loop gain is simply too\nsmall. Moreover, the feed-\nback resistor R is compar-\nF\nable in size to the output\nresistance r . This causes\no\nwhat is called ‘‘output load-\ning’’. In all previous cases we\nhad a source follower at the\noutput. Now we do not.\nAs a result, none of the\nsimple equations that we\nhave derived, provide accu-\nrate results. The closed loop\ngain is just about right, i.e. R .\nF\nThe other quantities however, the loop gain and both the input and output impedances can\nonly be approximated in a crude way by the simple expressions given in this slide. This is why\nquestion marks are added.",
+      "text": "Shunt-shunt feedback around a single-transistor amplifier is far from ideal: the loop gain is simply too small. Moreover, the feedback resistor R is compar- F able in size to the output resistance r . This causes o what is called ‘‘output loading’’. In all previous cases we had a source follower at the output. Now we do not. As a result, none of the simple equations that we have derived, provide accurate results. The closed loop gain is just about right, i.e. R . F The other quantities however, the loop gain and both the input and output impedances can only be approximated in a crude way by the simple expressions given in this slide. This is why question marks are added."
+    },
+    {
+      "pdf_page": 390,
+      "printed_page": 398,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        189.28889999999978
+      ],
+      "text_raw": "To obtain more accurate expressions the method has to be used, which always works but\nwhich asks much more analysis. The transistor has to be substituted by its small-signal equivalent\ncircuit (with mainly g and r at low frequencies) and the equations stating the laws of Kirchoff\nm o\nhave to be solved. Needless to say that SPICE or any other circuit similar circuit simulator\nshould provide the same results.",
+      "text": "To obtain more accurate expressions the method has to be used, which always works but which asks much more analysis. The transistor has to be substituted by its small-signal equivalent circuit (with mainly g and r at low frequencies) and the equations stating the laws of Kirchoff m o have to be solved. Needless to say that SPICE or any other circuit similar circuit simulator should provide the same results."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Shunt-shunt feedback around a single-transistor amplifier is far from ideal: the loop gain is simply too small. Moreover, the feedback resistor R is compar- F able in size to the output resistance r . This causes o what is called ‘‘output loading’’. In all previous cases we had a source follower at the output. Now we do not. As a result, none of the simple equations that we have derived, provide accurate results. The closed loop gain is just about right, i.e. R . F The other quantities however, the loop gain and both the input and output impedances can only be approximated in a crude way by the simple expressions given in this slide. This is why question marks are added.\n\nTo obtain more accurate expressions the method has to be used, which always works but which asks much more analysis. The transistor has to be substituted by its small-signal equivalent circuit (with mainly g and r at low frequencies) and the equations stating the laws of Kirchoff m o have to be solved. Needless to say that SPICE or any other circuit similar circuit simulator should provide the same results.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈跨阻放大器与电流放大器",
+  "title": "Single bipolar transistor with shunt-shunt FB",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0389_02_1418.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0791666776733223,
+          0.09024390287747885,
+          0.8666666467433444,
+          0.15662650640650178
+        ],
+        "confidence": 1,
+        "text": "Single bipolar transistor with shunt-shunt FB"
+      },
+      {
+        "bbox": [
+          0.3885135140484234,
+          0.214634146300813,
+          0.4527027032376125,
+          0.27804878044715453
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.1959459456563707,
+          0.2926829264111498,
+          0.24324324295366798,
+          0.3512195117770034
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.20608108079150583,
+          0.35121951181184674,
+          0.2736486483590734,
+          0.40487804839721253
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "w"
+      },
+      {
+        "bbox": [
+          0.35472973006756753,
+          0.36097560979674803,
+          0.3952702706081081,
+          0.44390243906504057
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.35472972905405403,
+          0.4926829263414634,
+          0.4290540533783784,
+          0.5414634141463415
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.05405405434362934,
+          0.5463414632752613,
+          0.09459459488416988,
+          0.5951219510801394
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IIN"
+      },
+      {
+        "bbox": [
+          0.07094594885979723,
+          0.7219512192682928,
+          0.30405405696790533,
+          0.7609756095121952
+        ],
+        "confidence": 1,
+        "text": "Far from ideal !!"
+      },
+      {
+        "bbox": [
+          0.06756757225506745,
+          0.7853658532317074,
+          0.44256757225506743,
+          0.8390243898170733
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Output loading : Rp + r,*"
+      },
+      {
+        "bbox": [
+          0.06756756970720716,
+          0.8439024387398374,
+          0.3243243264639639,
+          0.8878048777642276
+        ],
+        "confidence": 1,
+        "text": "reduces the LG !!"
+      },
+      {
+        "bbox": [
+          0.5202702692989865,
+          0.27804878121951226,
+          0.8277027017314189,
+          0.33658536658536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AR = RF (if »> 1/ 9m)"
+      },
+      {
+        "bbox": [
+          0.6385135133445946,
+          0.37560975556097564,
+          0.7499999998310811,
+          0.42926829214634143
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m Гo °"
+      },
+      {
+        "bbox": [
+          0.5270270276463964,
+          0.4146341460975609,
+          0.6013513519707206,
+          0.45365853634146336
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG ="
+      },
+      {
+        "bbox": [
+          0.6081081067286037,
+          0.45365853682926827,
+          0.7736486472691443,
+          0.512195122195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ro+ Rp+ r"
+      },
+      {
+        "bbox": [
+          0.52702702625,
+          0.585365853804878,
+          0.6047297289527027,
+          0.6390243903902438
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN ="
+      },
+      {
+        "bbox": [
+          0.6054450274382563,
+          0.5241246033186385,
+          0.9059894826829907,
+          0.6323481881217778
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(Rp+ ro) l II = 0?"
+      },
+      {
+        "bbox": [
+          0.6790540539695946,
+          0.6243902444512195,
+          0.7263513512668919,
+          0.6682926834756098
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.5258734533293388,
+          0.6914931588507375,
+          0.8417105917372779,
+          0.8267697672015378
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RouT = Fel (Rp+ r=)"
+      },
+      {
+        "bbox": [
+          0.8479729734234233,
+          0.7463414629674797,
+          0.9425675680180179,
+          0.7999999995528455
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 0 ?"
+      },
+      {
+        "bbox": [
+          0.7060810806756758,
+          0.7902439019999999,
+          0.753378377972973,
+          0.8341463410243902
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.7195945930743245,
+          0.9317073174390244,
+          0.9290540525337839,
+          0.9609756101219512
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 1418"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "As a result, none of the simple equations that we have derived, provide accurate results.",
+      "pdf_page": 389,
+      "printed_page": 397,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0389_02_1418.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In all previous cases we had a source follower at the output.",
+        "pdf_page": 389,
+        "printed_page": 397,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Shunt-shunt feedback around a single-transistor amplifier is far from ideal: the loop gain is simply too small.",
+      "pdf_page": 389,
+      "printed_page": 397,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, none of the simple equations that we have derived, provide accurate results.",
+      "pdf_page": 389,
+      "printed_page": 397,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The closed loop gain is just about right, i.e.",
+      "pdf_page": 389,
+      "printed_page": 397,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "F The other quantities however, the loop gain and both the input and output impedances can only be approximated in a crude way by the simple expressions given in this slide.",
+      "pdf_page": 389,
+      "printed_page": 397,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "F The other quantities however, the loop gain and both the input and output impedances can only be approximated in a crude way by the simple expressions given in this slide.",
+      "pdf_page": 389,
+      "printed_page": 397,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1418-M01",
+      "ocr_text": "AR = RF (if »> 1/ 9m)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5202702692989865,
+        0.27804878121951226,
+        0.8277027017314189,
+        0.33658536658536586
+      ],
+      "context_crop": "regions/SANSEN-1418_math_01.png",
+      "context_bbox_normalized": [
+        0.4802702692989865,
+        0.17804878121951226,
+        1,
+        0.46658536658536587
+      ],
+      "source_image": "slides/p0389_02_1418.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1418-M02",
+      "ocr_text": "LG =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5270270276463964,
+        0.4146341460975609,
+        0.6013513519707206,
+        0.45365853634146336
+      ],
+      "context_crop": "regions/SANSEN-1418_math_02.png",
+      "context_bbox_normalized": [
+        0.48702702764639644,
+        0.3146341460975609,
+        0.8313513519707206,
+        0.5836585363414634
+      ],
+      "source_image": "slides/p0389_02_1418.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1418-M03",
+      "ocr_text": "RIN =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.52702702625,
+        0.585365853804878,
+        0.6047297289527027,
+        0.6390243903902438
+      ],
+      "context_crop": "regions/SANSEN-1418_math_03.png",
+      "context_bbox_normalized": [
+        0.48702702625,
+        0.48536585380487807,
+        0.8347297289527027,
+        0.7690243903902438
+      ],
+      "source_image": "slides/p0389_02_1418.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1418-M04",
+      "ocr_text": "(Rp+ ro) l II = 0?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6054450274382563,
+        0.5241246033186385,
+        0.9059894826829907,
+        0.6323481881217778
+      ],
+      "context_crop": "regions/SANSEN-1418_math_04.png",
+      "context_bbox_normalized": [
+        0.5654450274382563,
+        0.42412460331863855,
+        1,
+        0.7623481881217778
+      ],
+      "source_image": "slides/p0389_02_1418.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1418-M05",
+      "ocr_text": "RouT = Fel (Rp+ r=)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5258734533293388,
+        0.6914931588507375,
+        0.8417105917372779,
+        0.8267697672015378
+      ],
+      "context_crop": "regions/SANSEN-1418_math_05.png",
+      "context_bbox_normalized": [
+        0.4858734533293388,
+        0.5914931588507375,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0389_02_1418.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1418-M06",
+      "ocr_text": "= 0 ?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8479729734234233,
+        0.7463414629674797,
+        0.9425675680180179,
+        0.7999999995528455
+      ],
+      "context_crop": "regions/SANSEN-1418_math_06.png",
+      "context_bbox_normalized": [
+        0.8079729734234232,
+        0.6463414629674797,
+        1,
+        0.9299999995528455
+      ],
+      "source_image": "slides/p0389_02_1418.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback transimpedance and current amplifiers"
+}

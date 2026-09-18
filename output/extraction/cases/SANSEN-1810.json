@@ -1,0 +1,462 @@
+{
+  "case_id": "SANSEN-1810",
+  "slide_id": "1810",
+  "chapter": 18,
+  "slide_number_in_chapter": 10,
+  "source": {
+    "pdf_page": 513,
+    "printed_page": 523
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0513_02_1810.jpg",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "bbox_pt": [
+        91.52162,
+        395.56799,
+        374.78981,
+        592.0279800000001
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 513,
+      "printed_page": 523,
+      "bbox_pt": [
+        0,
+        391.5786096500001,
+        595,
+        797
+      ],
+      "text_raw": "Once the nonlinearity has\nbeen described by a power\nseries, the harmonic distor-\ntion can easily be calculated.\nIn an input signal, u is\napplied with amplitude U\nand frequency v, then a little\ntrigonometry helps us to\nfind the contributions at\n2vand 3v.\nThe ratio of the compo-\nnent at 2vto the fundamen-\ntal at v is then by definition\nthe second harmonic distor-\ntion. Since coefficient a is\n3\nusually quite small com-\npared to a , the component at the fundamental at v is just about a U.\n1 1\nNote that the second harmonic distortion HD is proportional to the amplitude U of the\n2\nfundamental. Doubling the input voltage will therefore double the second harmonic distortion.\nIn the same way, the third harmonic distortion is defined.\nThe ratio of the component at 3vto the fundamental at v is thus by definition the third\nharmonic distortion. Note that the third harmonic distortion HD is proportional to the square\n3\nof the amplitude U of the fundamental. Doubling the input voltage will multiply the third\nharmonic distortion by four.",
+      "text": "Once the nonlinearity has been described by a power series, the harmonic distortion can easily be calculated. In an input signal, u is applied with amplitude U and frequency v, then a little trigonometry helps us to find the contributions at 2vand 3v. The ratio of the component at 2vto the fundamental at v is then by definition the second harmonic distortion. Since coefficient a is 3 usually quite small compared to a , the component at the fundamental at v is just about a U. 1 1 Note that the second harmonic distortion HD is proportional to the amplitude U of the 2 fundamental. Doubling the input voltage will therefore double the second harmonic distortion. In the same way, the third harmonic distortion is defined. The ratio of the component at 3vto the fundamental at v is thus by definition the third harmonic distortion. Note that the third harmonic distortion HD is proportional to the square 3 of the amplitude U of the fundamental. Doubling the input voltage will multiply the third harmonic distortion by four."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Once the nonlinearity has been described by a power series, the harmonic distortion can easily be calculated. In an input signal, u is applied with amplitude U and frequency v, then a little trigonometry helps us to find the contributions at 2vand 3v. The ratio of the component at 2vto the fundamental at v is then by definition the second harmonic distortion. Since coefficient a is 3 usually quite small compared to a , the component at the fundamental at v is just about a U. 1 1 Note that the second harmonic distortion HD is proportional to the amplitude U of the 2 fundamental. Doubling the input voltage will therefore double the second harmonic distortion. In the same way, the third harmonic distortion is defined. The ratio of the component at 3vto the fundamental at v is thus by definition the third harmonic distortion. Note that the third harmonic distortion HD is proportional to the square 3 of the amplitude U of the fundamental. Doubling the input voltage will multiply the third harmonic distortion by four.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Definition of harmonic distortion HD",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0513_02_1810.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432981418913,
+          0.0829268290243903,
+          0.7331081135979729,
+          0.13170731682926828
+        ],
+        "confidence": 1,
+        "text": "Definition of harmonic distortion HD"
+      },
+      {
+        "bbox": [
+          0.06418919429054046,
+          0.21951219507317077,
+          0.5743243294256756,
+          0.2926829267804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y = ao+ a,u + azu?+ azu3+..."
+      },
+      {
+        "bbox": [
+          0.06418918654279283,
+          0.33658536609756096,
+          0.3817567541103604,
+          0.38536585390243894
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "With u = U cos ot"
+      },
+      {
+        "bbox": [
+          0.4425675643581082,
+          0.33170731634146344,
+          0.8141891859797298,
+          0.39024390170731704
+        ],
+        "confidence": 0.5,
+        "text": "cos2 x = 1/2 ( 1 + cos 2x)"
+      },
+      {
+        "bbox": [
+          0.44594594176520286,
+          0.38536585292682923,
+          0.8952702660895271,
+          0.44390243829268283
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "cos3 x = 1/4 ( 3 cos x + COs 3x)"
+      },
+      {
+        "bbox": [
+          0.06418919425675669,
+          0.4878048780487805,
+          0.5709459510135135,
+          0.5658536585365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y = ao+ a,u + azu?+ azu?+..."
+      },
+      {
+        "bbox": [
+          0.611486485304054,
+          0.48780487819512186,
+          0.7297297285472973,
+          0.560975609902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= ao+"
+      },
+      {
+        "bbox": [
+          0.06081080202702716,
+          0.5902439037804877,
+          0.9594594506756758,
+          0.6975609769512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(a,t agu3)u cos ot + 22 u2cos 20t + a u° cos 300"
+      },
+      {
+        "bbox": [
+          0.18243243344594592,
+          0.8048780483902439,
+          0.28378378479729727,
+          0.8731707313170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "HD2="
+      },
+      {
+        "bbox": [
+          0.29391891793355857,
+          0.7707317066260163,
+          0.41891891793355857,
+          0.8536585358943091
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 a2 u"
+      },
+      {
+        "bbox": [
+          0.2939189182713964,
+          0.8439024385365854,
+          0.37837837773085586,
+          0.902439023902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 a1"
+      },
+      {
+        "bbox": [
+          0.5405405414695945,
+          0.8048780482520326,
+          0.652027027956081,
+          0.8780487799593496
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "HD3 ="
+      },
+      {
+        "bbox": [
+          0.6486486501689189,
+          0.7707317071707317,
+          0.8006756771959459,
+          0.8536585364390245
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 a3 U2"
+      },
+      {
+        "bbox": [
+          0.6486486485135134,
+          0.8390243897560976,
+          0.6756756755405405,
+          0.8878048775609756
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.6689189181165541,
+          0.8487804877439024,
+          0.7331081073057433,
+          0.9024390243292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• a1"
+      },
+      {
+        "bbox": [
+          0.7195945972972972,
+          0.9365853655487804,
+          0.9358108135135134,
+          0.970731707012195
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1810"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Once the nonlinearity has been described by a power series, the harmonic distortion can easily be calculated.",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In an input signal, u is applied with amplitude U and frequency v, then a little trigonometry helps us to find the contributions at 2vand 3v.",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Since coefficient a is 3 usually quite small compared to a , the component at the fundamental at v is just about a U. 1 1 Note that the second harmonic distortion HD is proportional to the amplitude U of the 2 fundamental.",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0513_02_1810.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Since coefficient a is 3 usually quite small compared to a , the component at the fundamental at v is just about a U. 1 1 Note that the second harmonic distortion HD is proportional to the amplitude U of the 2 fundamental.",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Doubling the input voltage will therefore double the second harmonic distortion.",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The ratio of the component at 3vto the fundamental at v is thus by definition the third harmonic distortion.",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Note that the third harmonic distortion HD is proportional to the square 3 of the amplitude U of the fundamental.",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1810-M01",
+      "ocr_text": "y = ao+ a,u + azu?+ azu3+...",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.06418919429054046,
+        0.21951219507317077,
+        0.5743243294256756,
+        0.2926829267804878
+      ],
+      "context_crop": "regions/SANSEN-1810_math_01.png",
+      "context_bbox_normalized": [
+        0.024189194290540457,
+        0.13,
+        0.8043243294256756,
+        0.4226829267804878
+      ],
+      "source_image": "slides/p0513_02_1810.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1810-M02",
+      "ocr_text": "With u = U cos ot",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.06418918654279283,
+        0.33658536609756096,
+        0.3817567541103604,
+        0.38536585390243894
+      ],
+      "context_crop": "regions/SANSEN-1810_math_02.png",
+      "context_bbox_normalized": [
+        0.024189186542792833,
+        0.23658536609756095,
+        0.6117567541103605,
+        0.5153658539024389
+      ],
+      "source_image": "slides/p0513_02_1810.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1810-M03",
+      "ocr_text": "cos2 x = 1/2 ( 1 + cos 2x)",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.4425675643581082,
+        0.33170731634146344,
+        0.8141891859797298,
+        0.39024390170731704
+      ],
+      "context_crop": "regions/SANSEN-1810_math_03.png",
+      "context_bbox_normalized": [
+        0.4025675643581082,
+        0.23170731634146344,
+        1,
+        0.520243901707317
+      ],
+      "source_image": "slides/p0513_02_1810.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1810-M04",
+      "ocr_text": "cos3 x = 1/4 ( 3 cos x + COs 3x)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.44594594176520286,
+        0.38536585292682923,
+        0.8952702660895271,
+        0.44390243829268283
+      ],
+      "context_crop": "regions/SANSEN-1810_math_04.png",
+      "context_bbox_normalized": [
+        0.4059459417652029,
+        0.28536585292682926,
+        1,
+        0.5739024382926828
+      ],
+      "source_image": "slides/p0513_02_1810.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1810-M05",
+      "ocr_text": "y = ao+ a,u + azu?+ azu?+...",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.06418919425675669,
+        0.4878048780487805,
+        0.5709459510135135,
+        0.5658536585365853
+      ],
+      "context_crop": "regions/SANSEN-1810_math_05.png",
+      "context_bbox_normalized": [
+        0.02418919425675669,
+        0.3878048780487805,
+        0.8009459510135135,
+        0.6958536585365853
+      ],
+      "source_image": "slides/p0513_02_1810.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1810-M06",
+      "ocr_text": "= ao+",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.611486485304054,
+        0.48780487819512186,
+        0.7297297285472973,
+        0.560975609902439
+      ],
+      "context_crop": "regions/SANSEN-1810_math_06.png",
+      "context_bbox_normalized": [
+        0.571486485304054,
+        0.3878048781951219,
+        0.9597297285472973,
+        0.690975609902439
+      ],
+      "source_image": "slides/p0513_02_1810.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1810-M07",
+      "ocr_text": "HD2=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.18243243344594592,
+        0.8048780483902439,
+        0.28378378479729727,
+        0.8731707313170731
+      ],
+      "context_crop": "regions/SANSEN-1810_math_07.png",
+      "context_bbox_normalized": [
+        0.14243243344594592,
+        0.7048780483902439,
+        0.5137837847972972,
+        0.93
+      ],
+      "source_image": "slides/p0513_02_1810.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1810-M08",
+      "ocr_text": "HD3 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5405405414695945,
+        0.8048780482520326,
+        0.652027027956081,
+        0.8780487799593496
+      ],
+      "context_crop": "regions/SANSEN-1810_math_08.png",
+      "context_bbox_normalized": [
+        0.5005405414695945,
+        0.7048780482520326,
+        0.882027027956081,
+        0.93
+      ],
+      "source_image": "slides/p0513_02_1810.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

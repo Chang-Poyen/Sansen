@@ -1,0 +1,599 @@
+{
+  "case_id": "SANSEN-0839",
+  "slide_id": "0839",
+  "chapter": 8,
+  "slide_number_in_chapter": 39,
+  "source": {
+    "pdf_page": 252,
+    "printed_page": 258
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0252_01_0839.jpg",
+      "pdf_page": 252,
+      "printed_page": 258,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 252,
+      "printed_page": 258,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        451.36850000000027
+      ],
+      "text_raw": "This is exactly the same cir-\ncuit as before.\nIn this slide, clock W is\n1\nhigh, all the transistors,\nwhich are driven by this\nclock, are on. The other\nones are off. Thick lines indi-\ncate which paths the signals\ncan take.\nClearly, the outputs are\nAC coupled by capacitors\nC1/C2. Their differential\ncontent is then cancelled\nout. Finally, this signal is\nthen applied to the Gate of\ntransistor M12 to close the\nfeedback loop.\nThe GBW is set by g and the output load capacitor.\nCM m12\nThe DC level at the Gate of M12 is not defined because of the coupling capacitances C1/C2.\nThis is why the other two capacitances C3/C4 are precharged to the proper DC voltages.\nTheir left side is set to analog ground (Vdd/2), whereas their right side is set at a biasing voltage,\nwhich is the same as at the Gates of current mirror transistors M5/M6/M8.\nOn the next phase, the capacitors are swapped around, as shown in the next slide.\nContinuous CMFB is thus ensured.",
+      "text": "This is exactly the same circuit as before. In this slide, clock W is 1 high, all the transistors, which are driven by this clock, are on. The other ones are off. Thick lines indicate which paths the signals can take. Clearly, the outputs are AC coupled by capacitors C1/C2. Their differential content is then cancelled out. Finally, this signal is then applied to the Gate of transistor M12 to close the feedback loop. The GBW is set by g and the output load capacitor. CM m12 The DC level at the Gate of M12 is not defined because of the coupling capacitances C1/C2. This is why the other two capacitances C3/C4 are precharged to the proper DC voltages. Their left side is set to analog ground (Vdd/2), whereas their right side is set at a biasing voltage, which is the same as at the Gates of current mirror transistors M5/M6/M8. On the next phase, the capacitors are swapped around, as shown in the next slide. Continuous CMFB is thus ensured."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This is exactly the same circuit as before. In this slide, clock W is 1 high, all the transistors, which are driven by this clock, are on. The other ones are off. Thick lines indicate which paths the signals can take. Clearly, the outputs are AC coupled by capacitors C1/C2. Their differential content is then cancelled out. Finally, this signal is then applied to the Gate of transistor M12 to close the feedback loop. The GBW is set by g and the output load capacitor. CM m12 The DC level at the Gate of M12 is not defined because of the coupling capacitances C1/C2. This is why the other two capacitances C3/C4 are precharged to the proper DC voltages. Their left side is set to analog ground (Vdd/2), whereas their right side is set at a biasing voltage, which is the same as at the Gates of current mirror transistors M5/M6/M8. On the next phase, the capacitors are swapped around, as shown in the next slide. Continuous CMFB is thus ensured.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Fully-differential amp. with SC CMFB : Ф1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0252_01_0839.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270818050191,
+          0.08292682895470382,
+          0.8445946000723938,
+          0.14634146310104534
+        ],
+        "confidence": 1,
+        "text": "Fully-differential amp. with SC CMFB : Ф1"
+      },
+      {
+        "bbox": [
+          0.42567567500000003,
+          0.17560975634146336,
+          0.4662162155405406,
+          0.2000000002439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vdd"
+      },
+      {
+        "bbox": [
+          0.08108108146114863,
+          0.2585365851829269,
+          0.11148648686655405,
+          0.2829268290853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MI"
+      },
+      {
+        "bbox": [
+          0.4797297306869369,
+          0.25365853626016266,
+          0.5371621631193694,
+          0.2829268289430895
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M12"
+      },
+      {
+        "bbox": [
+          0.3243243241554054,
+          0.3365853657181571,
+          0.35472972956081084,
+          0.36097560962059616
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MS"
+      },
+      {
+        "bbox": [
+          0.6385135159690444,
+          0.24390243869918704,
+          0.6891891884228474,
+          0.2731707313821139
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "cmib"
+      },
+      {
+        "bbox": [
+          0.6250000003800675,
+          0.35609756079268284,
+          0.655405405785473,
+          0.3902439022560975
+        ],
+        "confidence": 0.5,
+        "text": "C1"
+      },
+      {
+        "bbox": [
+          0.652027026858108,
+          0.3170731705792683,
+          0.679054053885135,
+          0.34146341448170736
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vb"
+      },
+      {
+        "bbox": [
+          0.6655405411317568,
+          0.3512195119512196,
+          0.712837838429054,
+          0.39024390219512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "P 2н"
+      },
+      {
+        "bbox": [
+          0.10810810912162158,
+          0.41951219495934966,
+          0.1689189199324324,
+          0.4487804876422764
+        ],
+        "confidence": 1,
+        "text": "Vout+"
+      },
+      {
+        "bbox": [
+          0.1824324318130631,
+          0.35121951235772353,
+          0.21959459397522524,
+          0.3804878050406504
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.19594594527027032,
+          0.44390243845528454,
+          0.2432432425675676,
+          0.4780487799186992
+        ],
+        "confidence": 1,
+        "text": "Vin+"
+      },
+      {
+        "bbox": [
+          0.38175675722128377,
+          0.4439024389024391,
+          0.41891891938344594,
+          0.47317073158536593
+        ],
+        "confidence": 1,
+        "text": "Vin-"
+      },
+      {
+        "bbox": [
+          0.2360086989697852,
+          0.4642219424341968,
+          0.3788611470981504,
+          0.5164532007334894
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4Е мL м29р"
+      },
+      {
+        "bbox": [
+          0.44256756852477475,
+          0.4439024388617886,
+          0.5000000009572072,
+          0.47317073154471545
+        ],
+        "confidence": 1,
+        "text": "Vout-"
+      },
+      {
+        "bbox": [
+          0.5405405400337837,
+          0.3658536579674797,
+          0.5777027021959459,
+          0.39999999943089437
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф 2н"
+      },
+      {
+        "bbox": [
+          0.5472972976689189,
+          0.439024390097561,
+          0.5844594598310809,
+          0.47317073156097567
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ФІн"
+      },
+      {
+        "bbox": [
+          0.5405405399774775,
+          0.5121951213821138,
+          0.581081080518018,
+          0.5463414628455284
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф гн"
+      },
+      {
+        "bbox": [
+          0.6722972979729729,
+          0.47804878032520326,
+          0.7128378385135135,
+          0.5073170730081301
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф1H"
+      },
+      {
+        "bbox": [
+          0.7702702711148649,
+          0.24878048759146343,
+          0.9054054062499999,
+          0.2926829266158537
+        ],
+        "confidence": 1,
+        "text": "Switches"
+      },
+      {
+        "bbox": [
+          0.7665333567123803,
+          0.30013291843927636,
+          0.9260342133696663,
+          0.35840366592641426
+        ],
+        "confidence": 0.5,
+        "text": "Ф1н closed"
+      },
+      {
+        "bbox": [
+          0.7667288628559688,
+          0.3547926836974824,
+          0.949487348804686,
+          0.40618292918162524
+        ],
+        "confidence": 1,
+        "text": "gives CMFB"
+      },
+      {
+        "bbox": [
+          0.773648648902027,
+          0.4097560971341463,
+          0.8277027029560811,
+          0.44390243859756096
+        ],
+        "confidence": 1,
+        "text": "and"
+      },
+      {
+        "bbox": [
+          0.7700925511769003,
+          0.45711048345298133,
+          0.9528804206045555,
+          0.5087431785347386
+        ],
+        "confidence": 0.5,
+        "text": "precharge C"
+      },
+      {
+        "bbox": [
+          0.13851351393581082,
+          0.6487804876219512,
+          0.1722972977195946,
+          0.6731707315243902
+        ],
+        "confidence": 1,
+        "text": "M7"
+      },
+      {
+        "bbox": [
+          0.4729729732770271,
+          0.5463414631707318,
+          0.5033783786824325,
+          0.5804878046341464
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.4527027029560811,
+          0.5804878046747968,
+          0.4831081083614865,
+          0.6146341461382114
+        ],
+        "confidence": 0.5,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.44256756714527035,
+          0.6487804879878049,
+          0.4763513509290541,
+          0.6731707318902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.6250000003040541,
+          0.5365853656097561,
+          0.6554054057094595,
+          0.5707317070731708
+        ],
+        "confidence": 1,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.27364864983108106,
+          0.6487804875609757,
+          0.344594595777027,
+          0.6731707314634148
+        ],
+        "confidence": 1,
+        "text": "M3 M4"
+      },
+      {
+        "bbox": [
+          0.2635135121058559,
+          0.7365853660162601,
+          0.3479729715653153,
+          0.765853658699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss =OV"
+      },
+      {
+        "bbox": [
+          0.5405405407770271,
+          0.6536585369268293,
+          0.5844594596959459,
+          0.6878048783902438
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "PIн"
+      },
+      {
+        "bbox": [
+          0.5439189193243242,
+          0.7268292681463415,
+          0.5844594598648648,
+          0.7609756096097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "$ 2н"
+      },
+      {
+        "bbox": [
+          0.5405405398617615,
+          0.7951219515853659,
+          0.5574324333645898,
+          0.8243902442682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•"
+      },
+      {
+        "bbox": [
+          0.5540540536599099,
+          0.8000000002439024,
+          0.5777027023085585,
+          0.8243902441463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IH"
+      },
+      {
+        "bbox": [
+          0.6249999998310811,
+          0.643902438597561,
+          0.6520270268581082,
+          0.6780487800609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CЗ"
+      },
+      {
+        "bbox": [
+          0.6722972968327703,
+          0.6878048781707317,
+          0.7094594589949325,
+          0.7170731708536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф 2H"
+      },
+      {
+        "bbox": [
+          0.6824324318693694,
+          0.7902439018699187,
+          0.7229729724099099,
+          0.8243902433333332
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф:н"
+      },
+      {
+        "bbox": [
+          0.6249999998793437,
+          0.8195121948780488,
+          0.6554054052847491,
+          0.8536585363414635
+        ],
+        "confidence": 1,
+        "text": "C4"
+      },
+      {
+        "bbox": [
+          0.3614864856841217,
+          0.8487804882317073,
+          0.5472972964949324,
+          0.8829268296951219
+        ],
+        "confidence": 0.5,
+        "text": "analog GND = Vdd/2"
+      },
+      {
+        "bbox": [
+          0.7195945919341217,
+          0.9560975610975609,
+          0.9324324297719595,
+          0.9853658537804878
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0839"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "On the next phase, the capacitors are swapped around, as shown in the next slide.",
+      "pdf_page": 252,
+      "printed_page": 258,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0252_01_0839.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Finally, this signal is then applied to the Gate of transistor M12 to close the feedback loop.",
+        "pdf_page": 252,
+        "printed_page": 258,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "CM m12 The DC level at the Gate of M12 is not defined because of the coupling capacitances C1/C2.",
+        "pdf_page": 252,
+        "printed_page": 258,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Continuous CMFB is thus ensured.",
+      "pdf_page": 252,
+      "printed_page": 258,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "On the next phase, the capacitors are swapped around, as shown in the next slide.",
+      "pdf_page": 252,
+      "printed_page": 258,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0839-M01",
+      "ocr_text": "=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.4527027029560811,
+        0.5804878046747968,
+        0.4831081083614865,
+        0.6146341461382114
+      ],
+      "context_crop": "regions/SANSEN-0839_math_01.png",
+      "context_bbox_normalized": [
+        0.41270270295608114,
+        0.4804878046747968,
+        0.7131081083614865,
+        0.7446341461382114
+      ],
+      "source_image": "slides/p0252_01_0839.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0839-M02",
+      "ocr_text": "Vss =OV",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2635135121058559,
+        0.7365853660162601,
+        0.3479729715653153,
+        0.765853658699187
+      ],
+      "context_crop": "regions/SANSEN-0839_math_02.png",
+      "context_bbox_normalized": [
+        0.22351351210585588,
+        0.6365853660162601,
+        0.5779729715653154,
+        0.895853658699187
+      ],
+      "source_image": "slides/p0252_01_0839.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0839-M03",
+      "ocr_text": "analog GND = Vdd/2",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.3614864856841217,
+        0.8487804882317073,
+        0.5472972964949324,
+        0.8829268296951219
+      ],
+      "context_crop": "regions/SANSEN-0839_math_03.png",
+      "context_bbox_normalized": [
+        0.3214864856841217,
+        0.7487804882317073,
+        0.7772972964949324,
+        0.93
+      ],
+      "source_image": "slides/p0252_01_0839.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

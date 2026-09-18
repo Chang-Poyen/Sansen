@@ -1,0 +1,152 @@
+{
+  "case_id": "SANSEN-2420",
+  "slide_id": "2420",
+  "chapter": 24,
+  "slide_number_in_chapter": 20,
+  "source": {
+    "pdf_page": 740,
+    "printed_page": 752
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0740_02_2420.jpg",
+      "pdf_page": 740,
+      "printed_page": 752,
+      "bbox_pt": [
+        91.52162,
+        431.44198,
+        374.54215999999997,
+        627.85214
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 740,
+      "printed_page": 752,
+      "bbox_pt": [
+        0,
+        427.4525896500001,
+        595,
+        797
+      ],
+      "text_raw": "On-chip decoupling may\nnot always work.\nAn example is given in\nthis slide where decoupling\ndoes more harm than good.\nA single digital gate is\nused. It is switched by appli-\ncation of a logic one. It is\nloaded by a load capacitor.\nIts supply lines are con-\nnected over bonding wire\ninductors. The supply volt-\nage is measured at the termi-\nnals of the gate.\nWithout decoupling cap-\nacitance, high-frequency\nringing is detected on the supply line. The addition of a decoupling capacitance C across the\nD\ngate terminals, causes ringing of this capacitor with the bonding wire inductors. It has a lower\nfrequency than before, but is larger in amplitude.\nAddition of series resistors R dampens this ringing but also causes a DC voltage drop along\nL\nthe supply lines, which is to be avoided.",
+      "text": "On-chip decoupling may not always work. An example is given in this slide where decoupling does more harm than good. A single digital gate is used. It is switched by application of a logic one. It is loaded by a load capacitor. Its supply lines are connected over bonding wire inductors. The supply voltage is measured at the terminals of the gate. Without decoupling capacitance, high-frequency ringing is detected on the supply line. The addition of a decoupling capacitance C across the D gate terminals, causes ringing of this capacitor with the bonding wire inductors. It has a lower frequency than before, but is larger in amplitude. Addition of series resistors R dampens this ringing but also causes a DC voltage drop along L the supply lines, which is to be avoided."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "On-chip decoupling may not always work. An example is given in this slide where decoupling does more harm than good. A single digital gate is used. It is switched by application of a logic one. It is loaded by a load capacitor. Its supply lines are connected over bonding wire inductors. The supply voltage is measured at the terminals of the gate. Without decoupling capacitance, high-frequency ringing is detected on the supply line. The addition of a decoupling capacitance C across the D gate terminals, causes ringing of this capacitor with the bonding wire inductors. It has a lower frequency than before, but is larger in amplitude. Addition of series resistors R dampens this ringing but also causes a DC voltage drop along L the supply lines, which is to be avoided.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "On-chip decoupling",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0740_02_2420.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0711864450847457,
+          0.08292682926829265,
+          0.4237288179661016,
+          0.14146341463414636
+        ],
+        "confidence": 1,
+        "text": "On-chip decoupling"
+      },
+      {
+        "bbox": [
+          0.4677966143050847,
+          0.21951219482926831,
+          0.8813559363389829,
+          0.2585365850731707
+        ],
+        "confidence": 1,
+        "text": "On-chip Power to Ground Voltage"
+      },
+      {
+        "bbox": [
+          0.4271186437288136,
+          0.7219512190243903,
+          0.46779660983050847,
+          0.7707317068292683
+        ],
+        "confidence": 0.5,
+        "text": "CD"
+      },
+      {
+        "bbox": [
+          0.732203391898305,
+          0.951219512,
+          0.9389830529152542,
+          0.9804878046829268
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2420"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0740_02_2420.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A single digital gate is used.",
+        "pdf_page": 740,
+        "printed_page": 752,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Its supply lines are connected over bonding wire inductors.",
+        "pdf_page": 740,
+        "printed_page": 752,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The supply voltage is measured at the terminals of the gate.",
+        "pdf_page": 740,
+        "printed_page": 752,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The addition of a decoupling capacitance C across the D gate terminals, causes ringing of this capacitor with the bonding wire inductors.",
+        "pdf_page": 740,
+        "printed_page": 752,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

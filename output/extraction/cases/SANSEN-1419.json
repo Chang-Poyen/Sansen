@@ -1,0 +1,545 @@
+{
+  "case_id": "SANSEN-1419",
+  "slide_id": "1419",
+  "chapter": 14,
+  "slide_number_in_chapter": 19,
+  "source": {
+    "pdf_page": 390,
+    "printed_page": 398
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0390_01_1419.jpg",
+      "pdf_page": 390,
+      "printed_page": 398,
+      "bbox_pt": [
+        91.521622,
+        193.27844299999992,
+        374.78981,
+        389.738434
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 390,
+      "printed_page": 398,
+      "bbox_pt": [
+        0,
+        189.28889999999978,
+        595,
+        463.3265000000002
+      ],
+      "text_raw": "The loop gain LG can in\nprinciple be extended by\naddition of a cascode tran-\nsistor M2. Its value will\ntherefore be much larger. As\na result, the expression for\nthe closed loop transresis-\ntance will be closer to the\nvalue of R .\nF\nBecause of the high loop\ngain LG, fairly accurate\nvalues of the input and\noutput impedances can be\nobtained. The only way to\nverify them with this circuit\nis straightforward analysis\nby use of the two laws of Kirchoff.\nNote that both the input and output impedance are the same as for a diode connected\ntransistor, i.e. 1/g .Resistor R does not come in as no Gate current is flowing. Also, cascode\nm1 F\ntransistor M2 merely increases the loop gain. Using bipolar transistors rather than MOSTs\nwould cause severe loading at both input and output!",
+      "text": "The loop gain LG can in principle be extended by addition of a cascode transistor M2. Its value will therefore be much larger. As a result, the expression for the closed loop transresistance will be closer to the value of R . F Because of the high loop gain LG, fairly accurate values of the input and output impedances can be obtained. The only way to verify them with this circuit is straightforward analysis by use of the two laws of Kirchoff. Note that both the input and output impedance are the same as for a diode connected transistor, i.e. 1/g .Resistor R does not come in as no Gate current is flowing. Also, cascode m1 F transistor M2 merely increases the loop gain. Using bipolar transistors rather than MOSTs would cause severe loading at both input and output!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The loop gain LG can in principle be extended by addition of a cascode transistor M2. Its value will therefore be much larger. As a result, the expression for the closed loop transresistance will be closer to the value of R . F Because of the high loop gain LG, fairly accurate values of the input and output impedances can be obtained. The only way to verify them with this circuit is straightforward analysis by use of the two laws of Kirchoff. Note that both the input and output impedance are the same as for a diode connected transistor, i.e. 1/g .Resistor R does not come in as no Gate current is flowing. Also, cascode m1 F transistor M2 merely increases the loop gain. Using bipolar transistors rather than MOSTs would cause severe loading at both input and output!",
+  "schema_version": "1.0",
+  "chapter_title": "反馈跨阻放大器与电流放大器",
+  "title": "Cascode with shunt-shunt FB",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0390_01_1419.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.084459462027027,
+          0.0829268290243903,
+          0.5979729755405405,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Cascode with shunt-shunt FB"
+      },
+      {
+        "bbox": [
+          0.08108108074324324,
+          0.6487804872682926,
+          0.1216216212837838,
+          0.7024390238536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "iIN"
+      },
+      {
+        "bbox": [
+          0.38513513445945946,
+          0.21463414648780488,
+          0.45270270202702706,
+          0.2780487806341463
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.1959459456563707,
+          0.2926829264111498,
+          0.24324324295366798,
+          0.3512195117770034
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.20270270246139,
+          0.35121951181184674,
+          0.2702702700289576,
+          0.40487804839721253
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "w"
+      },
+      {
+        "bbox": [
+          0.29054054062499995,
+          0.4829268297560976,
+          0.344594594679054,
+          0.5219512199999999
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.35135135076013513,
+          0.5317073166260162,
+          0.42905405346283787,
+          0.5853658532113821
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.30067567567567566,
+          0.6634146346341463,
+          0.34121621621621623,
+          0.7024390248780488
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.5202702712556306,
+          0.24878048768292682,
+          0.6385135144988738,
+          0.3024390242682926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AR = RF"
+      },
+      {
+        "bbox": [
+          0.523648645016892,
+          0.3560975610365853,
+          0.8141891855574326,
+          0.4097560976219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG = 9m1°o1 9m2lo2"
+      },
+      {
+        "bbox": [
+          0.5270270262162161,
+          0.48780487819512186,
+          0.6081081072972973,
+          0.5414634147804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN ="
+      },
+      {
+        "bbox": [
+          0.614463060558913,
+          0.45051824016152264,
+          0.8416180242842349,
+          0.5202134686451414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "REt rouT = 1"
+      },
+      {
+        "bbox": [
+          0.837837836373874,
+          0.4878048781300812,
+          0.9256756742117118,
+          0.5219512195934959
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-=0"
+      },
+      {
+        "bbox": [
+          0.662162161768018,
+          0.5317073172764227,
+          0.7094594590653153,
+          0.575609756300813
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.8040540532939189,
+          0.5317073172560975,
+          0.8648648641047297,
+          0.5756097562804877
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.5809803168317391,
+          0.6332603151207409,
+          0.8244250946555223,
+          0.6935689576244327
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TOUT = To19m2°o2"
+      },
+      {
+        "bbox": [
+          0.5270270259797296,
+          0.7804878050243902,
+          0.6317567557094594,
+          0.8341463416097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ROUT="
+      },
+      {
+        "bbox": [
+          0.6336746088700359,
+          0.7431462328997807,
+          0.7445857462189327,
+          0.8191074645036357
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "roUT ="
+      },
+      {
+        "bbox": [
+          0.6520270269988739,
+          0.8146341459756098,
+          0.6959459459177929,
+          0.858536585
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.7635135114864865,
+          0.785365853902439,
+          0.885135133108108,
+          0.8195121953658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "—=0"
+      },
+      {
+        "bbox": [
+          0.7567567559966216,
+          0.8243902440853659,
+          0.8175675668074324,
+          0.8682926831097562
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.7195945965371622,
+          0.9268292678658537,
+          0.9290540559966216,
+          0.9609756093292684
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1419"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0390_01_1419.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Note that both the input and output impedance are the same as for a diode connected transistor, i.e. 1/g .Resistor R does not come in as no Gate current is flowing.",
+        "pdf_page": 390,
+        "printed_page": 398,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The loop gain LG can in principle be extended by addition of a cascode transistor M2.",
+      "pdf_page": 390,
+      "printed_page": 398,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its value will therefore be much larger.",
+      "pdf_page": 390,
+      "printed_page": 398,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the expression for the closed loop transresistance will be closer to the value of R .",
+      "pdf_page": 390,
+      "printed_page": 398,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "F Because of the high loop gain LG, fairly accurate values of the input and output impedances can be obtained.",
+      "pdf_page": 390,
+      "printed_page": 398,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also, cascode m1 F transistor M2 merely increases the loop gain.",
+      "pdf_page": 390,
+      "printed_page": 398,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Its value will therefore be much larger.",
+      "pdf_page": 390,
+      "printed_page": 398,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1419-M01",
+      "ocr_text": "AR = RF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5202702712556306,
+        0.24878048768292682,
+        0.6385135144988738,
+        0.3024390242682926
+      ],
+      "context_crop": "regions/SANSEN-1419_math_01.png",
+      "context_bbox_normalized": [
+        0.48027027125563065,
+        0.14878048768292682,
+        0.8685135144988738,
+        0.4324390242682926
+      ],
+      "source_image": "slides/p0390_01_1419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1419-M02",
+      "ocr_text": "LG = 9m1°o1 9m2lo2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.523648645016892,
+        0.3560975610365853,
+        0.8141891855574326,
+        0.4097560976219512
+      ],
+      "context_crop": "regions/SANSEN-1419_math_02.png",
+      "context_bbox_normalized": [
+        0.48364864501689203,
+        0.2560975610365853,
+        1,
+        0.5397560976219512
+      ],
+      "source_image": "slides/p0390_01_1419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1419-M03",
+      "ocr_text": "RIN =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5270270262162161,
+        0.48780487819512186,
+        0.6081081072972973,
+        0.5414634147804878
+      ],
+      "context_crop": "regions/SANSEN-1419_math_03.png",
+      "context_bbox_normalized": [
+        0.48702702621621613,
+        0.3878048781951219,
+        0.8381081072972972,
+        0.6714634147804878
+      ],
+      "source_image": "slides/p0390_01_1419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1419-M04",
+      "ocr_text": "REt rouT = 1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.614463060558913,
+        0.45051824016152264,
+        0.8416180242842349,
+        0.5202134686451414
+      ],
+      "context_crop": "regions/SANSEN-1419_math_04.png",
+      "context_bbox_normalized": [
+        0.5744630605589129,
+        0.35051824016152267,
+        1,
+        0.6502134686451414
+      ],
+      "source_image": "slides/p0390_01_1419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1419-M05",
+      "ocr_text": "-=0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.837837836373874,
+        0.4878048781300812,
+        0.9256756742117118,
+        0.5219512195934959
+      ],
+      "context_crop": "regions/SANSEN-1419_math_05.png",
+      "context_bbox_normalized": [
+        0.797837836373874,
+        0.38780487813008124,
+        1,
+        0.6519512195934959
+      ],
+      "source_image": "slides/p0390_01_1419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1419-M06",
+      "ocr_text": "TOUT = To19m2°o2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5809803168317391,
+        0.6332603151207409,
+        0.8244250946555223,
+        0.6935689576244327
+      ],
+      "context_crop": "regions/SANSEN-1419_math_06.png",
+      "context_bbox_normalized": [
+        0.5409803168317391,
+        0.5332603151207409,
+        1,
+        0.8235689576244327
+      ],
+      "source_image": "slides/p0390_01_1419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1419-M07",
+      "ocr_text": "ROUT=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5270270259797296,
+        0.7804878050243902,
+        0.6317567557094594,
+        0.8341463416097561
+      ],
+      "context_crop": "regions/SANSEN-1419_math_07.png",
+      "context_bbox_normalized": [
+        0.48702702597972963,
+        0.6804878050243902,
+        0.8617567557094594,
+        0.93
+      ],
+      "source_image": "slides/p0390_01_1419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1419-M08",
+      "ocr_text": "roUT =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6336746088700359,
+        0.7431462328997807,
+        0.7445857462189327,
+        0.8191074645036357
+      ],
+      "context_crop": "regions/SANSEN-1419_math_08.png",
+      "context_bbox_normalized": [
+        0.5936746088700359,
+        0.6431462328997807,
+        0.9745857462189327,
+        0.93
+      ],
+      "source_image": "slides/p0390_01_1419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1419-M09",
+      "ocr_text": "—=0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7635135114864865,
+        0.785365853902439,
+        0.885135133108108,
+        0.8195121953658536
+      ],
+      "context_crop": "regions/SANSEN-1419_math_09.png",
+      "context_bbox_normalized": [
+        0.7235135114864865,
+        0.685365853902439,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0390_01_1419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback transimpedance and current amplifiers"
+}

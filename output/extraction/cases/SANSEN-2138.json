@@ -1,0 +1,195 @@
+{
+  "case_id": "SANSEN-2138",
+  "slide_id": "2138",
+  "chapter": 21,
+  "slide_number_in_chapter": 38,
+  "source": {
+    "pdf_page": 645,
+    "printed_page": 656
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0645_02_2138.jpg",
+      "pdf_page": 645,
+      "printed_page": 656,
+      "bbox_pt": [
+        91.52162,
+        347.83563000000004,
+        374.54215999999997,
+        544.29559
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 645,
+      "printed_page": 656,
+      "bbox_pt": [
+        0,
+        343.84622,
+        595,
+        606.82257
+      ],
+      "text_raw": "The schematic of the 3rd-\norder Delta-Sigma con-\nverter is shown in this slide.\nA single-loop topology is\nselected as it consumes\nsomewhat less power than a\n2–1 cascaded topology.\nMoreover, the gain require-\nments per stage are less\nsevere.\nThe coefficients have been\nobtained from Matlab simu-\nlations. Care is taken to\noptimize the output swings\nfor all integrators. For an\ninput swing of 0.2 V, the\noutput swings are respectively 0.36, 0.5 and 0.5 V.\nIn order to avoid an additional opamp to set the timing of the clocks right, half delays are\nintroduced. They are digital and consume very little power.",
+      "text": "The schematic of the 3rdorder Delta-Sigma converter is shown in this slide. A single-loop topology is selected as it consumes somewhat less power than a 2–1 cascaded topology. Moreover, the gain requirements per stage are less severe. The coefficients have been obtained from Matlab simulations. Care is taken to optimize the output swings for all integrators. For an input swing of 0.2 V, the output swings are respectively 0.36, 0.5 and 0.5 V. In order to avoid an additional opamp to set the timing of the clocks right, half delays are introduced. They are digital and consume very little power."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The schematic of the 3rdorder Delta-Sigma converter is shown in this slide. A single-loop topology is selected as it consumes somewhat less power than a 2–1 cascaded topology. Moreover, the gain requirements per stage are less severe. The coefficients have been obtained from Matlab simulations. Care is taken to optimize the output swings for all integrators. For an input swing of 0.2 V, the output swings are respectively 0.36, 0.5 and 0.5 V. In order to avoid an additional opamp to set the timing of the clocks right, half delays are introduced. They are digital and consume very little power.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "ZA topology with half-delay integrators",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0645_02_2138.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.11525423148305096,
+          0.09268292762195118,
+          0.7966101636864408,
+          0.1560975617682927
+        ],
+        "confidence": 1,
+        "text": "ZA topology with half-delay integrators"
+      },
+      {
+        "bbox": [
+          0.21694915325481526,
+          0.43414634186991874,
+          0.2711864381576142,
+          0.478048780894309
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-1i2"
+      },
+      {
+        "bbox": [
+          0.4338983049830509,
+          0.4341463419512195,
+          0.4847457626101695,
+          0.4829268297560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "212"
+      },
+      {
+        "bbox": [
+          0.09491524870056504,
+          0.6292682929674798,
+          0.759322028361582,
+          0.6829268295528456
+        ],
+        "confidence": 1,
+        "text": "- 3rd order single-loop implementation"
+      },
+      {
+        "bbox": [
+          0.09491526003389818,
+          0.6926829261463415,
+          0.776271192237288,
+          0.7609756090731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- coefficients a, = 0.2 ; a2 = 0.5 ; a3 = 0.5"
+      },
+      {
+        "bbox": [
+          0.09491525470338986,
+          0.7609756090243902,
+          0.6949152547033899,
+          0.8195121943902439
+        ],
+        "confidence": 1,
+        "text": "- 1/2 phase delays in feedback path"
+      },
+      {
+        "bbox": [
+          0.7186440723412949,
+          0.9317073176422765,
+          0.9288135509355414,
+          0.9658536591056911
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1006 2138"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The schematic of the 3rdorder Delta-Sigma converter is shown in this slide.",
+      "pdf_page": 645,
+      "printed_page": 656,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0645_02_2138.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Moreover, the gain requirements per stage are less severe.",
+      "pdf_page": 645,
+      "printed_page": 656,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2138-M01",
+      "ocr_text": "- coefficients a, = 0.2 ; a2 = 0.5 ; a3 = 0.5",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09491526003389818,
+        0.6926829261463415,
+        0.776271192237288,
+        0.7609756090731707
+      ],
+      "context_crop": "regions/SANSEN-2138_math_01.png",
+      "context_bbox_normalized": [
+        0.054915260033898176,
+        0.5926829261463415,
+        1,
+        0.8909756090731707
+      ],
+      "source_image": "slides/p0645_02_2138.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

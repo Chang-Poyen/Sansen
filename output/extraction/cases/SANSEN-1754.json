@@ -1,0 +1,239 @@
+{
+  "case_id": "SANSEN-1754",
+  "slide_id": "1754",
+  "chapter": 17,
+  "slide_number_in_chapter": 54,
+  "source": {
+    "pdf_page": 502,
+    "printed_page": 512
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0502_01_1754.jpg",
+      "pdf_page": 502,
+      "printed_page": 512,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 502,
+      "printed_page": 512,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        417.48751000000016
+      ],
+      "text_raw": "An alternative circuit con-\nfiguration is a biquadratic\nfilter. It is a second-order\nfilter configuration with\nlocal and overall feedback.\nIt contains two operational\namplifiers, as shown in this\nslide.\nThe transfer characteristic\nis of second-order in both\nthe numerator and denomi-\nnator. It has two poles and\nzeros. Filter design consists\nof positioning the poles\nand zeros accordingly. The\nreader is referred to the\ngeneral references on the introductory slide.\nFor higher-order filters, several biquads can be cascaded.\nFinally, note that the C’s in the expression refer to capacitor ratios. The unit capacitance has\nto be selected. It is usually around 0.25 pF.\nNowadays, such filters are realized in a fulyl-differential version to reject substrate noise.",
+      "text": "An alternative circuit configuration is a biquadratic filter. It is a second-order filter configuration with local and overall feedback. It contains two operational amplifiers, as shown in this slide. The transfer characteristic is of second-order in both the numerator and denominator. It has two poles and zeros. Filter design consists of positioning the poles and zeros accordingly. The reader is referred to the general references on the introductory slide. For higher-order filters, several biquads can be cascaded. Finally, note that the C’s in the expression refer to capacitor ratios. The unit capacitance has to be selected. It is usually around 0.25 pF. Nowadays, such filters are realized in a fulyl-differential version to reject substrate noise."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An alternative circuit configuration is a biquadratic filter. It is a second-order filter configuration with local and overall feedback. It contains two operational amplifiers, as shown in this slide. The transfer characteristic is of second-order in both the numerator and denominator. It has two poles and zeros. Filter design consists of positioning the poles and zeros accordingly. The reader is referred to the general references on the introductory slide. For higher-order filters, several biquads can be cascaded. Finally, note that the C’s in the expression refer to capacitor ratios. The unit capacitance has to be selected. It is usually around 0.25 pF. Nowadays, such filters are realized in a fulyl-differential version to reject substrate noise.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Biquadratic filter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0502_01_1754.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0745762699031477,
+          0.08292682968641119,
+          0.38305084617433416,
+          0.14146341505226478
+        ],
+        "confidence": 1,
+        "text": "Biquadratic filter"
+      },
+      {
+        "bbox": [
+          0.3491525427683616,
+          0.6000000007317073,
+          0.3864406783615819,
+          0.6439024397560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-$"
+      },
+      {
+        "bbox": [
+          0.11525423598870063,
+          0.7951219517321231,
+          0.2067796597175142,
+          0.8341463408130081
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H(2) = -"
+      },
+      {
+        "bbox": [
+          0.20970407340924738,
+          0.7624912451577778,
+          0.37054023177375345,
+          0.8158434057278758
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a2? + a,2 + 2,"
+      },
+      {
+        "bbox": [
+          0.2101694905762712,
+          0.8195121945365854,
+          0.37288135498305086,
+          0.8780487799024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "b3z + b,2 + bo"
+      },
+      {
+        "bbox": [
+          0.39999999984463275,
+          0.799999999898374,
+          0.44406779645480227,
+          0.8243902438008129
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "=-"
+      },
+      {
+        "bbox": [
+          0.44067797139830495,
+          0.7609756100609757,
+          0.864406784957627,
+          0.8341463417682928
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(G: + G,)2 + (C,C,-S(-2C;\")2+C:\""
+      },
+      {
+        "bbox": [
+          0.49152542211864414,
+          0.8146341455487806,
+          0.8169491509322034,
+          0.878048779695122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1+ C,)z + (C2C,-C,-2)z+ 1"
+      },
+      {
+        "bbox": [
+          0.7186440722283006,
+          0.9512195127642277,
+          0.9355932118394963,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 N1754"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It contains two operational amplifiers, as shown in this slide.",
+      "pdf_page": 502,
+      "printed_page": 512,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0502_01_1754.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The transfer characteristic is of second-order in both the numerator and denominator.",
+      "pdf_page": 502,
+      "printed_page": 512,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1754-M01",
+      "ocr_text": "H(2) = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11525423598870063,
+        0.7951219517321231,
+        0.2067796597175142,
+        0.8341463408130081
+      ],
+      "context_crop": "regions/SANSEN-1754_math_01.png",
+      "context_bbox_normalized": [
+        0.07525423598870062,
+        0.6951219517321231,
+        0.4367796597175142,
+        0.93
+      ],
+      "source_image": "slides/p0502_01_1754.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1754-M02",
+      "ocr_text": "=-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.39999999984463275,
+        0.799999999898374,
+        0.44406779645480227,
+        0.8243902438008129
+      ],
+      "context_crop": "regions/SANSEN-1754_math_02.png",
+      "context_bbox_normalized": [
+        0.35999999984463277,
+        0.699999999898374,
+        0.6740677964548023,
+        0.93
+      ],
+      "source_image": "slides/p0502_01_1754.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

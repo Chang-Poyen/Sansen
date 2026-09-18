@@ -1,0 +1,49 @@
+Stability of operational amplifiers 169
+Both have obviously the same amplitude. Consequently, amplitudes are not affected by
+signs.
+They have a very different phase characteristic, however. In the first Bode diagram the phase
+returns to zero for high frequencies. For the second diagram however, for a positive zero, the
+phase goes to −180°.
+This is like having a second pole, rather than a zero!
+This completely ruins our phase margin!!!
+We have tried to limit the phase contribution of the non-dominant pole to about 20° by
+carefully locating this non-dominant pole beyond the GBW. A positive zero now shows up,
+which brings in another −90°. This will ruin the phase margin.
+Moreover, the larger we make the compensation capacitance C , the more this zero shifts to
+c
+lower frequencies. Large values of C are therefore not allowed!
+c
+0539
+Another way to realize the
+same pole splitting is to use
+g , set by the current in the
+m2
+second stage. It works even
+better than with C !
+c
+Increasing the current
+from low values to higher
+one causes the dominant
+pole to be exactly the same
+as before. In the Miller
+effect, the g is as much
+m2
+present as C itself.
+c
+However, the non-domi-
+nant has a better behavior.
+It keeps on increasing to
+high values, for high values
+of g .
+m2
+The main advantage is that the positive zero moves out to higher values, when g increases.
+m2
+Therefore, this zero disappears!
+As a result, it is a lot easier to realize pole splitting by increasing g than it is with C .
+m2 c
+The major drawback of compensating an opamp with g is that the current consumption
+m2
+increases drastically.
+For low-power designs we therefore prefer to compensate an opamp by increasing the compen-
+sation capacitance C . We now have to find other ways of dealing with the positive zero!
+c

@@ -1,0 +1,390 @@
+{
+  "case_id": "SANSEN-0340",
+  "slide_id": "0340",
+  "chapter": 3,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 107,
+    "printed_page": 109
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0107_02_0340.jpg",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "bbox_pt": [
+        91.521622,
+        431.44201699999996,
+        374.78981,
+        627.902008
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 107,
+      "printed_page": 109,
+      "bbox_pt": [
+        0,
+        427.45250000000027,
+        595,
+        797
+      ],
+      "text_raw": "The gain is now easily\ncalculated.\nIf we denote the output\nresistance by R , which is\nout\nagain the parallel combina-\ntion of the two output resist-\nances r of the transistors\nDS\nT2 and T4, then the gain is\nsimply g R .\nm1 out\nThe bandwidth is cause\nby the output capacitance\nand the same resistance\nR .\nout\nAs a result, the GBW\nis again the same as for\na single-transistor amplifier.\nIndeed, this is a single-stage amplifier because only one single high-impedance point can be\ndistinguished, i.e. at the output. All other nodes are on the 1/g impedance level.\nm\nThe gain is not very high however. We could use cascodes to increase the gain. Gain boosting\nand current cancellation have also been discussed. We will now introduce a fourth technique to\nenhance gain, bootstrapping.",
+      "text": "The gain is now easily calculated. If we denote the output resistance by R , which is out again the parallel combination of the two output resistances r of the transistors DS T2 and T4, then the gain is simply g R . m1 out The bandwidth is cause by the output capacitance and the same resistance R . out As a result, the GBW is again the same as for a single-transistor amplifier. Indeed, this is a single-stage amplifier because only one single high-impedance point can be distinguished, i.e. at the output. All other nodes are on the 1/g impedance level. m The gain is not very high however. We could use cascodes to increase the gain. Gain boosting and current cancellation have also been discussed. We will now introduce a fourth technique to enhance gain, bootstrapping."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The gain is now easily calculated. If we denote the output resistance by R , which is out again the parallel combination of the two output resistances r of the transistors DS T2 and T4, then the gain is simply g R . m1 out The bandwidth is cause by the output capacitance and the same resistance R . out As a result, the GBW is again the same as for a single-transistor amplifier. Indeed, this is a single-stage amplifier because only one single high-impedance point can be distinguished, i.e. at the output. All other nodes are on the 1/g impedance level. m The gain is not very high however. We could use cascodes to increase the gain. Gain boosting and current cancellation have also been discussed. We will now introduce a fourth technique to enhance gain, bootstrapping.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Single-stage OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0107_02_0340.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432494369368,
+          0.07317073227642279,
+          0.3918918925112612,
+          0.141463415203252
+        ],
+        "confidence": 1,
+        "text": "Single-stage OTA"
+      },
+      {
+        "bbox": [
+          0.3581081075591216,
+          0.20487804804878051,
+          0.41554053999155405,
+          0.2634146334146341
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.1722972977027027,
+          0.487804877804878,
+          0.21283783824324323,
+          0.5219512192682927
+        ],
+        "confidence": 0.5,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.2736486483349421,
+          0.4829268294773519,
+          0.31756756725386104,
+          0.5219512197212544
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.4222972965878379,
+          0.5512195123902439,
+          0.4932432425337838,
+          0.600000000195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.10472973001930501,
+          0.741463414425087,
+          0.14527027055984557,
+          0.7804878046689895
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.341216215625,
+          0.7414634148780487,
+          0.3885135129222973,
+          0.7804878051219512
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.4189189184604247,
+          0.7853658537630662,
+          0.48310810764961387,
+          0.8487804879094077
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.6281407993444826,
+          0.2518682154105746,
+          0.8515889341018597,
+          0.3188634918849458
+        ],
+        "confidence": 0.5,
+        "text": "A, = 9m1 Rout"
+      },
+      {
+        "bbox": [
+          0.6317567587596524,
+          0.3804878047735192,
+          0.9121621641650579,
+          0.4439024389198606
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rout = YDs2TDS4"
+      },
+      {
+        "bbox": [
+          0.6385135147804053,
+          0.5512195119512195,
+          0.7398648661317567,
+          0.5999999997560976
+        ],
+        "confidence": 0.5,
+        "text": "BW ="
+      },
+      {
+        "bbox": [
+          0.8074324322635136,
+          0.5121951214634146,
+          0.8277027025337839,
+          0.5512195117073171
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7498567760533422,
+          0.5943333275730187,
+          0.9156837668510552,
+          0.6593252087807407
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2m RoutCL"
+      },
+      {
+        "bbox": [
+          0.6417490284139065,
+          0.730985783084211,
+          0.7704131353499746,
+          0.7860873894067089
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.7905405400971285,
+          0.6975609751829269,
+          0.8817567563133447,
+          0.7658536581097561
+        ],
+        "confidence": 0.5,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.7837837831503378,
+          0.7804878050000001,
+          0.8851351345016891,
+          0.8487804879268294
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 CL"
+      },
+      {
+        "bbox": [
+          0.716216217972973,
+          0.9414634141463415,
+          0.9324324341891892,
+          0.9902439019512196
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 0340"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The gain is now easily calculated.",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0107_02_0340.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The gain is now easily calculated.",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If we denote the output resistance by R , which is out again the parallel combination of the two output resistances r of the transistors DS T2 and T4, then the gain is simply g R . m1 out The bandwidth is cause by the output capacitance and the same resistance R . out As a result, the GBW is again the same as for a single-transistor amplifier.",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "All other nodes are on the 1/g impedance level. m The gain is not very high however.",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We could use cascodes to increase the gain.",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Gain boosting and current cancellation have also been discussed.",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We will now introduce a fourth technique to enhance gain, bootstrapping.",
+      "pdf_page": 107,
+      "printed_page": 109,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0340-M01",
+      "ocr_text": "A, = 9m1 Rout",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6281407993444826,
+        0.2518682154105746,
+        0.8515889341018597,
+        0.3188634918849458
+      ],
+      "context_crop": "regions/SANSEN-0340_math_01.png",
+      "context_bbox_normalized": [
+        0.5881407993444826,
+        0.15186821541057458,
+        1,
+        0.4488634918849458
+      ],
+      "source_image": "slides/p0107_02_0340.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0340-M02",
+      "ocr_text": "Rout = YDs2TDS4",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6317567587596524,
+        0.3804878047735192,
+        0.9121621641650579,
+        0.4439024389198606
+      ],
+      "context_crop": "regions/SANSEN-0340_math_02.png",
+      "context_bbox_normalized": [
+        0.5917567587596524,
+        0.2804878047735192,
+        1,
+        0.5739024389198606
+      ],
+      "source_image": "slides/p0107_02_0340.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0340-M03",
+      "ocr_text": "BW =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6385135147804053,
+        0.5512195119512195,
+        0.7398648661317567,
+        0.5999999997560976
+      ],
+      "context_crop": "regions/SANSEN-0340_math_03.png",
+      "context_bbox_normalized": [
+        0.5985135147804053,
+        0.45121951195121957,
+        0.9698648661317567,
+        0.7299999997560976
+      ],
+      "source_image": "slides/p0107_02_0340.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0340-M04",
+      "ocr_text": "GBW =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6417490284139065,
+        0.730985783084211,
+        0.7704131353499746,
+        0.7860873894067089
+      ],
+      "context_crop": "regions/SANSEN-0340_math_04.png",
+      "context_bbox_normalized": [
+        0.6017490284139064,
+        0.630985783084211,
+        1,
+        0.9160873894067089
+      ],
+      "source_image": "slides/p0107_02_0340.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

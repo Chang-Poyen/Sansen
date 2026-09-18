@@ -1,0 +1,296 @@
+{
+  "case_id": "SANSEN-2119",
+  "slide_id": "2119",
+  "chapter": 21,
+  "slide_number_in_chapter": 19,
+  "source": {
+    "pdf_page": 636,
+    "printed_page": 647
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0636_01_2119.jpg",
+      "pdf_page": 636,
+      "printed_page": 647,
+      "bbox_pt": [
+        91.52162,
+        122.52697999999998,
+        374.54215999999997,
+        318.98694
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 636,
+      "printed_page": 647,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        415.4945100000002
+      ],
+      "text_raw": "The actual power efficiency\ng can be expressed in terms\nof an equivalent resistor R .\neq\nIt is also clearly a function\nof the output current.\nThis loss resistor R is\neq\nproportional to the number\nof stages n, but inversely\nproportional to the clock\nfrequency f and the size of\nthe capacitor C used. There\nis an additional non-linear\nfactor in this expression,\nwhich includes the switch\nresistance. This factor is less\nimportant to have an idea\nabout the orders of magnitude.\nIt can be concluded that a voltage multiplier generates an output voltage with the highest\nefficiency, provided as few stages are used as possible, but with the highest possible capacitor\nand clock frequency.\nUnfortunately, these are exactly the same conditions for a maximum of injection of spikes in\nthe substrate. Coupling to the sensitive analog parts can now be expected. This will be discussed\nin more detail in Chapter 24.",
+      "text": "The actual power efficiency g can be expressed in terms of an equivalent resistor R . eq It is also clearly a function of the output current. This loss resistor R is eq proportional to the number of stages n, but inversely proportional to the clock frequency f and the size of the capacitor C used. There is an additional non-linear factor in this expression, which includes the switch resistance. This factor is less important to have an idea about the orders of magnitude. It can be concluded that a voltage multiplier generates an output voltage with the highest efficiency, provided as few stages are used as possible, but with the highest possible capacitor and clock frequency. Unfortunately, these are exactly the same conditions for a maximum of injection of spikes in the substrate. Coupling to the sensitive analog parts can now be expected. This will be discussed in more detail in Chapter 24."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The actual power efficiency g can be expressed in terms of an equivalent resistor R . eq It is also clearly a function of the output current. This loss resistor R is eq proportional to the number of stages n, but inversely proportional to the clock frequency f and the size of the capacitor C used. There is an additional non-linear factor in this expression, which includes the switch resistance. This factor is less important to have an idea about the orders of magnitude. It can be concluded that a voltage multiplier generates an output voltage with the highest efficiency, provided as few stages are used as possible, but with the highest possible capacitor and clock frequency. Unfortunately, these are exactly the same conditions for a maximum of injection of spikes in the substrate. Coupling to the sensitive analog parts can now be expected. This will be discussed in more detail in Chapter 24.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Voltage multipliers : power efficiency",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0636_01_2119.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135594016949134,
+          0.08780487884146337,
+          0.7322033977966099,
+          0.1512195129878049
+        ],
+        "confidence": 1,
+        "text": "Voltage multipliers : power efficiency"
+      },
+      {
+        "bbox": [
+          0.10482111884211494,
+          0.2567177477801119,
+          0.35958566279570336,
+          0.3384042049721374
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ploss = Req lout?"
+      },
+      {
+        "bbox": [
+          0.10482133524398321,
+          0.38823762302680165,
+          0.3494159480121241,
+          0.46054286505352615
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "PvDD = lout YDD"
+      },
+      {
+        "bbox": [
+          0.5796610162076271,
+          0.33658536539634143,
+          0.7050847450211865,
+          0.40975609710365846
+        ],
+        "confidence": 1,
+        "text": "Req lout"
+      },
+      {
+        "bbox": [
+          0.45084745889830513,
+          0.3853658528658537,
+          0.579661018220339,
+          0.4487804870121952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "n=1-"
+      },
+      {
+        "bbox": [
+          0.6949152528813559,
+          0.3804878049268293,
+          0.8305084732203389,
+          0.44390243907317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 50 %"
+      },
+      {
+        "bbox": [
+          0.6067796604237288,
+          0.41463414650406505,
+          0.677966101101695,
+          0.48292682943089427
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.3830508472881356,
+          0.5560975604268293,
+          0.40338983033898307,
+          0.5999999994512195
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.10508474644067795,
+          0.5951219520731708,
+          0.16610169559322033,
+          0.663414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Req"
+      },
+      {
+        "bbox": [
+          0.21016948823728818,
+          0.6341463414634146,
+          0.5389830475593221,
+          0.7024390243902439
+        ],
+        "confidence": 0.5,
+        "text": "tC tan (2f Ron,swC)"
+      },
+      {
+        "bbox": [
+          0.7186440723412949,
+          0.9268292689430895,
+          0.9288135509355414,
+          0.9658536580239745
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 2119"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0636_01_2119.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This loss resistor R is eq proportional to the number of stages n, but inversely proportional to the clock frequency f and the size of the capacitor C used.",
+      "pdf_page": 636,
+      "printed_page": 647,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "It can be concluded that a voltage multiplier generates an output voltage with the highest efficiency, provided as few stages are used as possible, but with the highest possible capacitor and clock frequency.",
+      "pdf_page": 636,
+      "printed_page": 647,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2119-M01",
+      "ocr_text": "Ploss = Req lout?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.10482111884211494,
+        0.2567177477801119,
+        0.35958566279570336,
+        0.3384042049721374
+      ],
+      "context_crop": "regions/SANSEN-2119_math_01.png",
+      "context_bbox_normalized": [
+        0.06482111884211494,
+        0.1567177477801119,
+        0.5895856627957033,
+        0.4684042049721374
+      ],
+      "source_image": "slides/p0636_01_2119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2119-M02",
+      "ocr_text": "PvDD = lout YDD",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.10482133524398321,
+        0.38823762302680165,
+        0.3494159480121241,
+        0.46054286505352615
+      ],
+      "context_crop": "regions/SANSEN-2119_math_02.png",
+      "context_bbox_normalized": [
+        0.0648213352439832,
+        0.28823762302680167,
+        0.5794159480121241,
+        0.5905428650535262
+      ],
+      "source_image": "slides/p0636_01_2119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2119-M03",
+      "ocr_text": "n=1-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.45084745889830513,
+        0.3853658528658537,
+        0.579661018220339,
+        0.4487804870121952
+      ],
+      "context_crop": "regions/SANSEN-2119_math_03.png",
+      "context_bbox_normalized": [
+        0.41084745889830515,
+        0.2853658528658537,
+        0.809661018220339,
+        0.5787804870121952
+      ],
+      "source_image": "slides/p0636_01_2119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2119-M04",
+      "ocr_text": "= 50 %",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6949152528813559,
+        0.3804878049268293,
+        0.8305084732203389,
+        0.44390243907317073
+      ],
+      "context_crop": "regions/SANSEN-2119_math_04.png",
+      "context_bbox_normalized": [
+        0.6549152528813559,
+        0.28048780492682934,
+        1,
+        0.5739024390731707
+      ],
+      "source_image": "slides/p0636_01_2119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

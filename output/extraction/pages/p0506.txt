@@ -1,0 +1,51 @@
+516 Chapter #17
+1762
+Indeed, when a switch is
+added to a current mirror as
+shown in this slide, the oper-
+ation is exactly as in a cur-
+rent mirror when the switch
+is closed. For equal transis-
+tor sizes, the output current
+I equals the input cur-
+out
+rent I .
+in
+When the switch opens
+however, capacitance C
+GS2
+holds the voltage at the
+Gate of M2. As a result, the
+output current I contin-
+out
+ues to flow, independent of
+what happens at the input.
+This stage has memory. It generates a delay of half a clock period. It can thus be used as a
+filter in a similar way as a switched-capacitor block acts as a memory and generates delay.
+Such a filter is shown next.
+1763
+Two switched-current mir-
+rors with feedback yield a
+low-pass filter, as shown in
+this slide.
+The output current i
+out
+equals K times the feedback
+current i .
+f
+On clock phase 2, the
+feedback current i is the
+f
+sum of the input current,
+applied half a clock period
+earlier and the feedback cur-
+rent, applied a full clock
+period earlier.
+The current gain is more
+easily found. It has the same
+expression in z as a switched-capacitor low-pass filter. The gain is K and the delay is half a
+clock period.
+The difference with a switched-capacitor filter is that currents are used, rather than voltages.
+The advantage of this filter is that no capacitors are added. The transistor capacitances are used.
+This type of filter may be more compatible with a digital CMOS process.
+Another example is given next.

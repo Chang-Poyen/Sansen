@@ -1,0 +1,47 @@
+570 Chapter #19
+197
+Several examples of MOST
+resistors are shown in this
+slide.
+The differential one (c)
+allows the cancellation of
+the even-order distortion.
+Care must be taken to
+connect the Bulks to the
+Sources, which requires
+extra wells. If this is not pos-
+sible, additional distortion
+will be generated.
+Cancellation of odd-non-
+linearities is also possible
+by addition of cancellation
+transistors (h), with different
+sizes and driven by different control voltages V . This is the configuration most often used.
+c2
+It gives higher node capacitances, however. For high frequencies, the two transistor structure
+(c) may be preferred.
+198
+An example of a second-
+order filter is shown in the
+left top-corner. It contains
+two capacitors indeed and
+three opamps. It is single-
+ended, however.
+A differential version of
+the same filter is shown
+below. One opamp can be
+left out as it only provides a
+signal inversion. In a
+differential circuit both
+phases are always available.
+It is sufficient to use two
+opamps for a second-order
+filter.
+However, the opamps are now fully differential. They require common-mode feedback (see
+Chapter 8), which takes more power.
+A MOSFET-C realization of the same filter is now shown on the right. All resistors have been
+replaced by MOSFETs. All their Gates are connected together towards control voltage V .
+c
+Tuning of the resistors is thus possible and hence tuning of the filter frequency. A large tuning
+range also requires a large Voltage range, which may not be easy at low supply voltages.
+Moreover, MOSFETs have a limited frequency range of operation, as explained next.

@@ -1,0 +1,420 @@
+{
+  "case_id": "SANSEN-0530",
+  "slide_id": "0530",
+  "chapter": 5,
+  "slide_number_in_chapter": 30,
+  "source": {
+    "pdf_page": 160,
+    "printed_page": 164
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0160_01_0530.jpg",
+      "pdf_page": 160,
+      "printed_page": 164,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 160,
+      "printed_page": 164,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        487.24250000000035
+      ],
+      "text_raw": "A generic 2-stage amplifier\nis shown in this slide.\nIt consists of a differential\ninput stage, which converts\nthe differential input voltage\ninto a current, by transcon-\nductance g . A second-\nm1\nstage follows, which is usu-\nally little more than a single-\ntransistor amplifier, and\nwhich has a transconduct-\nance g . The output load\nm2\nconsists of both a resistor\nand a capacitor.\nThe second stage has a\nfeedback capacitor C . It\nc\nwill be used to compensate this opamp. This is why it is called compensation capacitance. We\nwill now try to find the gain, bandwidth and the gain-bandwidth product GBW.\nThe gain is readily found by realizing that the second stage is actually a transresistance\namplifier which converts the input current into the output voltage, by means of the impedance of\ncapacitor C .\nc\nThe gain A is then simply the product of the input g with the impedance of C . Obviously,\nv m1 c\nthis gain A decreases with frequency, and crosses the unity-gain line at the frequency GBW.\nv\nThe gain does not go to infinity at very low frequencies. It stops somewhere depending on\nwhether cascodes are used, etc. The low-frequency gain is not that important after all. The higher\nfrequency region is much more important, since feedback is always applied.",
+      "text": "A generic 2-stage amplifier is shown in this slide. It consists of a differential input stage, which converts the differential input voltage into a current, by transconductance g . A secondm1 stage follows, which is usually little more than a singletransistor amplifier, and which has a transconductance g . The output load m2 consists of both a resistor and a capacitor. The second stage has a feedback capacitor C . It c will be used to compensate this opamp. This is why it is called compensation capacitance. We will now try to find the gain, bandwidth and the gain-bandwidth product GBW. The gain is readily found by realizing that the second stage is actually a transresistance amplifier which converts the input current into the output voltage, by means of the impedance of capacitor C . c The gain A is then simply the product of the input g with the impedance of C . Obviously, v m1 c this gain A decreases with frequency, and crosses the unity-gain line at the frequency GBW. v The gain does not go to infinity at very low frequencies. It stops somewhere depending on whether cascodes are used, etc. The low-frequency gain is not that important after all. The higher frequency region is much more important, since feedback is always applied."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A generic 2-stage amplifier is shown in this slide. It consists of a differential input stage, which converts the differential input voltage into a current, by transconductance g . A secondm1 stage follows, which is usually little more than a singletransistor amplifier, and which has a transconductance g . The output load m2 consists of both a resistor and a capacitor. The second stage has a feedback capacitor C . It c will be used to compensate this opamp. This is why it is called compensation capacitance. We will now try to find the gain, bandwidth and the gain-bandwidth product GBW. The gain is readily found by realizing that the second stage is actually a transresistance amplifier which converts the input current into the output voltage, by means of the impedance of capacitor C . c The gain A is then simply the product of the input g with the impedance of C . Obviously, v m1 c this gain A decreases with frequency, and crosses the unity-gain line at the frequency GBW. v The gain does not go to infinity at very low frequencies. It stops somewhere depending on whether cascodes are used, etc. The low-frequency gain is not that important after all. The higher frequency region is much more important, since feedback is always applied.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Generic 2-stage opamp",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0160_01_0530.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270523648648,
+          0.0829268291158537,
+          0.4831081106418919,
+          0.1463414632621951
+        ],
+        "confidence": 1,
+        "text": "Generic 2-stage opamp"
+      },
+      {
+        "bbox": [
+          0.3614864868918919,
+          0.22926829273170735,
+          0.4020270274324324,
+          0.28292682931707314
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.08108108359291831,
+          0.32682926945570046,
+          0.13513513442509967,
+          0.3658536573735679
+        ],
+        "confidence": 1,
+        "text": "VIN1"
+      },
+      {
+        "bbox": [
+          0.08445945886824326,
+          0.38536585304878046,
+          0.1385135129222973,
+          0.43414634085365855
+        ],
+        "confidence": 0.5,
+        "text": "VIN2"
+      },
+      {
+        "bbox": [
+          0.1891891887668919,
+          0.3609756093495935,
+          0.24662162119932432,
+          0.4097560971544716
+        ],
+        "confidence": 0.5,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.3918918925,
+          0.3902439022926829,
+          0.4527027033108108,
+          0.4341463413170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.07400928449334869,
+          0.7347521104321714,
+          0.2604501776150165,
+          0.8067113035920657
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IAU = 1→"
+      },
+      {
+        "bbox": [
+          0.28716216317567567,
+          0.7463414631707317,
+          0.40878378479729727,
+          0.7951219509756097
+        ],
+        "confidence": 0.5,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.43581081173986486,
+          0.7219512195121951,
+          0.5101351360641891,
+          0.7804878048780488
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.42567567639961384,
+          0.790243902369338,
+          0.5270270277509652,
+          0.8585365852961673
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 Cc"
+      },
+      {
+        "bbox": [
+          0.5743243235219595,
+          0.3560975603658536,
+          0.6452702694679054,
+          0.4048780481707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.6182432434966216,
+          0.4682926833739838,
+          0.6554054056587838,
+          0.5219512199593496
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.8682432430180181,
+          0.21463414685407445,
+          0.8885135132882883,
+          0.2536585347719419
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.680764921531216,
+          0.2386373313204666,
+          0.9346360660063797,
+          0.35575034703032027
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A, = 9m1 ja Gc"
+      },
+      {
+        "bbox": [
+          0.8344594596194879,
+          0.41951219521180994,
+          0.9020270271870554,
+          0.4536585366752246
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.4729729733783783,
+          0.46829268292682924,
+          0.5135135139189189,
+          0.5170731707317073
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.5912162154391891,
+          0.7512195115609757,
+          0.6756756748986487,
+          0.8146341457073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd ="
+      },
+      {
+        "bbox": [
+          0.6959459453040541,
+          0.7219512188780488,
+          0.76689189125,
+          0.7853658530243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.6824324333051802,
+          0.785365853617886,
+          0.7871621630349099,
+          0.8585365853252032
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CL"
+      },
+      {
+        "bbox": [
+          0.7297297343716733,
+          0.9512195127642277,
+          0.9324324241868853,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0530"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A generic 2-stage amplifier is shown in this slide.",
+      "pdf_page": 160,
+      "printed_page": 164,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We will now try to find the gain, bandwidth and the gain-bandwidth product GBW.",
+      "pdf_page": 160,
+      "printed_page": 164,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0160_01_0530.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We will now try to find the gain, bandwidth and the gain-bandwidth product GBW.",
+      "pdf_page": 160,
+      "printed_page": 164,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain is readily found by realizing that the second stage is actually a transresistance amplifier which converts the input current into the output voltage, by means of the impedance of capacitor C . c The gain A is then simply the product of the input g with the impedance of C .",
+      "pdf_page": 160,
+      "printed_page": 164,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Obviously, v m1 c this gain A decreases with frequency, and crosses the unity-gain line at the frequency GBW. v The gain does not go to infinity at very low frequencies.",
+      "pdf_page": 160,
+      "printed_page": 164,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It stops somewhere depending on whether cascodes are used, etc.",
+      "pdf_page": 160,
+      "printed_page": 164,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The low-frequency gain is not that important after all.",
+      "pdf_page": 160,
+      "printed_page": 164,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0530-M01",
+      "ocr_text": "IAU = 1→",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07400928449334869,
+        0.7347521104321714,
+        0.2604501776150165,
+        0.8067113035920657
+      ],
+      "context_crop": "regions/SANSEN-0530_math_01.png",
+      "context_bbox_normalized": [
+        0.03400928449334869,
+        0.6347521104321714,
+        0.4904501776150165,
+        0.93
+      ],
+      "source_image": "slides/p0160_01_0530.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0530-M02",
+      "ocr_text": "GBW =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.28716216317567567,
+        0.7463414631707317,
+        0.40878378479729727,
+        0.7951219509756097
+      ],
+      "context_crop": "regions/SANSEN-0530_math_02.png",
+      "context_bbox_normalized": [
+        0.24716216317567566,
+        0.6463414631707317,
+        0.6387837847972972,
+        0.9251219509756097
+      ],
+      "source_image": "slides/p0160_01_0530.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0530-M03",
+      "ocr_text": "A, = 9m1 ja Gc",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.680764921531216,
+        0.2386373313204666,
+        0.9346360660063797,
+        0.35575034703032027
+      ],
+      "context_crop": "regions/SANSEN-0530_math_03.png",
+      "context_bbox_normalized": [
+        0.640764921531216,
+        0.1386373313204666,
+        1,
+        0.4857503470303203
+      ],
+      "source_image": "slides/p0160_01_0530.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0530-M04",
+      "ocr_text": "fnd =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5912162154391891,
+        0.7512195115609757,
+        0.6756756748986487,
+        0.8146341457073171
+      ],
+      "context_crop": "regions/SANSEN-0530_math_04.png",
+      "context_bbox_normalized": [
+        0.5512162154391891,
+        0.6512195115609757,
+        0.9056756748986486,
+        0.93
+      ],
+      "source_image": "slides/p0160_01_0530.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

@@ -1,0 +1,525 @@
+{
+  "case_id": "SANSEN-2139",
+  "slide_id": "2139",
+  "chapter": 21,
+  "slide_number_in_chapter": 39,
+  "source": {
+    "pdf_page": 645,
+    "printed_page": 656
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0646_01_2139.jpg",
+      "pdf_page": 646,
+      "printed_page": 657,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 645,
+      "printed_page": 656,
+      "bbox_pt": [
+        0,
+        606.82257,
+        595,
+        797
+      ],
+      "text_raw": "The opamp used is a class-AB amplifier as shown in this slide. Class AB is preferred as it lowers\nthe quiescent current.\nIt contains two input transistors M1 and M2 and a low-voltage current source M2, M3 and\nM4. Transistors M2 serve as a source follower as its current is constant and equal to I . This\nB1\nis ensured by the feedback loop around transistors M2 and M3. As a result V is constant as\nGS2\nwell. Input voltage V is transferred unattenuated to its Source.\nin2",
+      "text": "The opamp used is a class-AB amplifier as shown in this slide. Class AB is preferred as it lowers the quiescent current. It contains two input transistors M1 and M2 and a low-voltage current source M2, M3 and M4. Transistors M2 serve as a source follower as its current is constant and equal to I . This B1 is ensured by the feedback loop around transistors M2 and M3. As a result V is constant as GS2 well. Input voltage V is transferred unattenuated to its Source. in2"
+    },
+    {
+      "pdf_page": 646,
+      "printed_page": 657,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        417.48751000000016
+      ],
+      "text_raw": "Input transistor M1\nreceives thus the differential\ninput voltage V −V as\nin1 in2\nits V . This voltage is con-\nGS\nverted into a signal current\nby transistor M1 only. In\nthis amplifier, only one\nsingle transistor M1 con-\nverts the differential input\nvoltage into a current.\nMoreover this transistor\nprovides a class-AB\ncharacteristic.\nThe signal current flows\nthrough transistors M3 and\nis mirrored out by transistor\nM4. It can also be taken out\nat the Drain of transistor M1 as shown in the full schematic, shown next.\nFinally, note that this amplifier can operate on less than 1 V supply voltage. It only takes one\nsingle V and V to operate properly. If a V is taken of 0.6 V and a V of 0.2 V, then\nGS DSsat T DSsat\nthe minimum supply voltage V is 1 V. If however, a V is available of 0.3 V, then V can be\nDD T DD\nas low as 0.7 V. This is quite low indeed!",
+      "text": "Input transistor M1 receives thus the differential input voltage V −V as in1 in2 its V . This voltage is con- GS verted into a signal current by transistor M1 only. In this amplifier, only one single transistor M1 converts the differential input voltage into a current. Moreover this transistor provides a class-AB characteristic. The signal current flows through transistors M3 and is mirrored out by transistor M4. It can also be taken out at the Drain of transistor M1 as shown in the full schematic, shown next. Finally, note that this amplifier can operate on less than 1 V supply voltage. It only takes one single V and V to operate properly. If a V is taken of 0.6 V and a V of 0.2 V, then GS DSsat T DSsat the minimum supply voltage V is 1 V. If however, a V is available of 0.3 V, then V can be DD T DD as low as 0.7 V. This is quite low indeed!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The opamp used is a class-AB amplifier as shown in this slide. Class AB is preferred as it lowers the quiescent current. It contains two input transistors M1 and M2 and a low-voltage current source M2, M3 and M4. Transistors M2 serve as a source follower as its current is constant and equal to I . This B1 is ensured by the feedback loop around transistors M2 and M3. As a result V is constant as GS2 well. Input voltage V is transferred unattenuated to its Source. in2\n\nInput transistor M1 receives thus the differential input voltage V −V as in1 in2 its V . This voltage is con- GS verted into a signal current by transistor M1 only. In this amplifier, only one single transistor M1 converts the differential input voltage into a current. Moreover this transistor provides a class-AB characteristic. The signal current flows through transistors M3 and is mirrored out by transistor M4. It can also be taken out at the Drain of transistor M1 as shown in the full schematic, shown next. Finally, note that this amplifier can operate on less than 1 V supply voltage. It only takes one single V and V to operate properly. If a V is taken of 0.6 V and a V of 0.2 V, then GS DSsat T DSsat the minimum supply voltage V is 1 V. If however, a V is available of 0.3 V, then V can be DD T DD as low as 0.7 V. This is quite low indeed!",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Class AB differential Voltage amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0646_01_2139.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946368243237,
+          0.087804877804878,
+          0.760135139358108,
+          0.1463414631707317
+        ],
+        "confidence": 1,
+        "text": "Class AB differential Voltage amplifier"
+      },
+      {
+        "bbox": [
+          0.48986486499155407,
+          0.21463414585365848,
+          0.533783783910473,
+          0.25365853609756095
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 V"
+      },
+      {
+        "bbox": [
+          0.48986486452702704,
+          0.2878048782520325,
+          0.5304054050675676,
+          0.32195121971544716
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.10472973030405403,
+          0.4341463413658537,
+          0.16216216273648645,
+          0.4829268291707317
+        ],
+        "confidence": 1,
+        "text": "Vint"
+      },
+      {
+        "bbox": [
+          0.23986486520270267,
+          0.28292682902439026,
+          0.28040540574324324,
+          0.32195121926829273
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.2027027024070946,
+          0.3609756092073171,
+          0.27364864835304054,
+          0.40487804823170737
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= Vin2"
+      },
+      {
+        "bbox": [
+          0.2090624094934229,
+          0.4760962251552723,
+          0.29769434873704886,
+          0.519025725642065
+        ],
+        "confidence": 1,
+        "text": "M1 M2"
+      },
+      {
+        "bbox": [
+          0.3378378373310811,
+          0.43414634085365855,
+          0.39189189138513514,
+          0.48292682865853664
+        ],
+        "confidence": 1,
+        "text": "Vinz"
+      },
+      {
+        "bbox": [
+          0.5033783789695946,
+          0.47317073170731705,
+          0.5506756762668918,
+          0.5121951219512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout"
+      },
+      {
+        "bbox": [
+          0.3310810815202702,
+          0.6585365859512194,
+          0.38175675719594593,
+          0.717073171317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IB1"
+      },
+      {
+        "bbox": [
+          0.5033783779138514,
+          0.658536584695122,
+          0.5540540535895271,
+          0.7121951212804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IB2"
+      },
+      {
+        "bbox": [
+          0.7296137606266959,
+          0.21395444942029718,
+          0.8514673184195657,
+          0.2592162860537468
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VT = 0.6 V"
+      },
+      {
+        "bbox": [
+          0.726301107576326,
+          0.2678831148853841,
+          0.9155907805309885,
+          0.31748273914700753
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGS -VT = 0.2 V"
+      },
+      {
+        "bbox": [
+          0.7296905564278057,
+          0.3265638049599261,
+          0.8716607913760412,
+          0.370997170758504
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGS = 0.8 V"
+      },
+      {
+        "bbox": [
+          0.7297297282657658,
+          0.3853658537804878,
+          0.9054054039414415,
+          0.429268292804878
+        ],
+        "confidence": 0.5,
+        "text": "VDSsat = 0.2 V"
+      },
+      {
+        "bbox": [
+          0.6216216242398648,
+          0.4829268290650406,
+          0.935810813429054,
+          0.5268292680894309
+        ],
+        "confidence": 1,
+        "text": "M2 is source follower"
+      },
+      {
+        "bbox": [
+          0.6181146231683656,
+          0.5695798541211887,
+          0.8649934791056016,
+          0.6304201421438581
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGS1 = Vin1 - Vinz"
+      },
+      {
+        "bbox": [
+          0.6178884148828696,
+          0.6455016617428039,
+          0.8854899693410754,
+          0.7154739465715482
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout ~ (Vin1 - Vin2)?"
+      },
+      {
+        "bbox": [
+          0.6216216189611488,
+          0.7414634148780487,
+          0.8344594567989866,
+          0.7804878051219512
+        ],
+        "confidence": 0.5,
+        "text": ">>> Class AB"
+      },
+      {
+        "bbox": [
+          0.5439189142736488,
+          0.8487804879878049,
+          0.9155405358952704,
+          0.8829268294512195
+        ],
+        "confidence": 0.5,
+        "text": "Peluso, ..., JSSC, Dec.98,pp.1887-1896"
+      },
+      {
+        "bbox": [
+          0.7195945975473491,
+          0.9365853660162601,
+          0.9290540441193177,
+          0.9658536586991869
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 2139"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The opamp used is a class-AB amplifier as shown in this slide.",
+      "pdf_page": 645,
+      "printed_page": 656,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It can also be taken out at the Drain of transistor M1 as shown in the full schematic, shown next.",
+      "pdf_page": 646,
+      "printed_page": 657,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0646_01_2139.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It contains two input transistors M1 and M2 and a low-voltage current source M2, M3 and M4.",
+        "pdf_page": 645,
+        "printed_page": 656,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Transistors M2 serve as a source follower as its current is constant and equal to I .",
+        "pdf_page": 645,
+        "printed_page": 656,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Input voltage V is transferred unattenuated to its Source. in2",
+        "pdf_page": 645,
+        "printed_page": 656,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It can also be taken out at the Drain of transistor M1 as shown in the full schematic, shown next.",
+        "pdf_page": 646,
+        "printed_page": 657,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Transistors M2 serve as a source follower as its current is constant and equal to I .",
+      "pdf_page": 645,
+      "printed_page": 656,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result V is constant as GS2 well.",
+      "pdf_page": 645,
+      "printed_page": 656,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Input transistor M1 receives thus the differential input voltage V −V as in1 in2 its V .",
+      "pdf_page": 646,
+      "printed_page": 657,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Moreover this transistor provides a class-AB characteristic.",
+      "pdf_page": 646,
+      "printed_page": 657,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2139-M01",
+      "ocr_text": "= Vin2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2027027024070946,
+        0.3609756092073171,
+        0.27364864835304054,
+        0.40487804823170737
+      ],
+      "context_crop": "regions/SANSEN-2139_math_01.png",
+      "context_bbox_normalized": [
+        0.16270270240709458,
+        0.2609756092073171,
+        0.5036486483530406,
+        0.5348780482317074
+      ],
+      "source_image": "slides/p0646_01_2139.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2139-M02",
+      "ocr_text": "VT = 0.6 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7296137606266959,
+        0.21395444942029718,
+        0.8514673184195657,
+        0.2592162860537468
+      ],
+      "context_crop": "regions/SANSEN-2139_math_02.png",
+      "context_bbox_normalized": [
+        0.6896137606266959,
+        0.13,
+        1,
+        0.3892162860537468
+      ],
+      "source_image": "slides/p0646_01_2139.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2139-M03",
+      "ocr_text": "VGS -VT = 0.2 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.726301107576326,
+        0.2678831148853841,
+        0.9155907805309885,
+        0.31748273914700753
+      ],
+      "context_crop": "regions/SANSEN-2139_math_03.png",
+      "context_bbox_normalized": [
+        0.686301107576326,
+        0.16788311488538407,
+        1,
+        0.44748273914700754
+      ],
+      "source_image": "slides/p0646_01_2139.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2139-M04",
+      "ocr_text": "VGS = 0.8 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7296905564278057,
+        0.3265638049599261,
+        0.8716607913760412,
+        0.370997170758504
+      ],
+      "context_crop": "regions/SANSEN-2139_math_04.png",
+      "context_bbox_normalized": [
+        0.6896905564278056,
+        0.2265638049599261,
+        1,
+        0.500997170758504
+      ],
+      "source_image": "slides/p0646_01_2139.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2139-M05",
+      "ocr_text": "VDSsat = 0.2 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7297297282657658,
+        0.3853658537804878,
+        0.9054054039414415,
+        0.429268292804878
+      ],
+      "context_crop": "regions/SANSEN-2139_math_05.png",
+      "context_bbox_normalized": [
+        0.6897297282657657,
+        0.28536585378048784,
+        1,
+        0.559268292804878
+      ],
+      "source_image": "slides/p0646_01_2139.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2139-M06",
+      "ocr_text": "VGS1 = Vin1 - Vinz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6181146231683656,
+        0.5695798541211887,
+        0.8649934791056016,
+        0.6304201421438581
+      ],
+      "context_crop": "regions/SANSEN-2139_math_06.png",
+      "context_bbox_normalized": [
+        0.5781146231683656,
+        0.46957985412118874,
+        1,
+        0.7604201421438581
+      ],
+      "source_image": "slides/p0646_01_2139.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2139-M07",
+      "ocr_text": ">>> Class AB",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6216216189611488,
+        0.7414634148780487,
+        0.8344594567989866,
+        0.7804878051219512
+      ],
+      "context_crop": "regions/SANSEN-2139_math_07.png",
+      "context_bbox_normalized": [
+        0.5816216189611487,
+        0.6414634148780487,
+        1,
+        0.9104878051219512
+      ],
+      "source_image": "slides/p0646_01_2139.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

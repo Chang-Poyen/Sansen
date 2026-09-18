@@ -1,0 +1,44 @@
+Stability of operational amplifiers 173
+It is not so easy to work
+out which cascode solution
+of the two to use. In prin-
+ciple, the second one is a
+little bit better as it takes the
+side of the input transistor.
+There are less higher-order
+poles and zeros in this case!
+Some designers take half
+the compensation capaci-
+tance to both sides, which is
+very similar indeed!
+0546
+The third technique to abol-
+ish the positive zero, is to
+insert a small resistor R , in
+c
+series with C .
+c
+This resistor causes some
+cancellation of the effect of
+the feedforward by the
+feedback.
+The expression of the zero
+is now modified as shown.
+It is clear that for a resis-
+tance R equal to 1/g , the
+c m2
+zero is at infinity. It has
+vanished.
+It is not so easy, however,
+to match a resistor to a g
+m
+value. Especially if the resistor is realized by means of a MOST in the linear region, then the
+matching is more difficult.
+There is a simple solution to this problem, however. We increase the size of the resistor.
+This zero now turns into a negative zero. In other words the minus sign in the expression of
+the zero compensates the minus sign in the gain expression.
+This negative zero is positioned between the negative poles and can therefore be used to
+compensate one of them.
+0547
+For a much larger resistor, the expression of the zero can be simplified to the one given in this
+slide. In order to be effective, we have to position this zero close to the GBW, for example at 2–3

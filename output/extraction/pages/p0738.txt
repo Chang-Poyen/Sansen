@@ -1,0 +1,46 @@
+750 Chapter #24
+2415
+It is not always easy to
+model the coupling between
+the analog and digital
+blocks. A network of resis-
+tors and capacitors can be
+used, as shown in this slide.
+However it is a non-trivial
+task to obtain realistic
+values of all these com-
+ponents.
+Both the analog and the
+digital blocks are coupled
+by means of capacitors to a
+common substrate, which
+can be modeled as a grid of
+resistors and capacitors.
+Both the analog and the digital blocks have separate pins for supply lines and ground. They all
+consist of inductors in series with small resistors.
+The external supply line and ground are on top and at the bottom.
+This applies to analog and digital blocks which are sufficiently small such that they do not
+have to be subdivided over more blocks. If this is the case, then the simulation time grows
+considerably.
+2416
+In this example, we try to
+find out what is a reasonable
+number of pins.
+The maximum number of
+pins is nine. This is evidently
+rarely acceptable. Some of
+the pins can be combined to
+reduce this number, as
+explained now.
+The nine pins can be
+divided into four for the
+analog part, four for the dig-
+ital part and one for the
+screen in the middle. This
+screen is a metal plate with
+a certain width to physically
+separate the analog blocks from the digital ones as far as necessary. It should also go as deep
+as possible. It is therefore connected to an underlying deep diffusion.
+The four pins of the analog part are the following:
+– the positive supply line
+– the ground line

@@ -1,0 +1,377 @@
+{
+  "case_id": "SANSEN-059",
+  "slide_id": "059",
+  "chapter": 5,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 149,
+    "printed_page": 153
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0149_01_059.jpg",
+      "pdf_page": 149,
+      "printed_page": 153,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 149,
+      "printed_page": 153,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        405.52951000000013
+      ],
+      "text_raw": "A first-order low-pass filter\nis an integrator with a resis-\ntor across the capacitor.\nIt is also called a lossy\nintegrator.\nAt lower and lower fre-\nquencies, the gain is now set\nby the ratio of the two\nresistors.\nAt the pole frequency, or\nthe bandwidth, the phase\nshift is exactly halfway\nbetween zero and 90°, which\nis 45°.\nNote that a first-order\ndecreasing characteristic,\nwhich is called a pole,\nalways shows a slope of\n−20 dB/decade and −90°\nphase shift.",
+      "text": "A first-order low-pass filter is an integrator with a resistor across the capacitor. It is also called a lossy integrator. At lower and lower frequencies, the gain is now set by the ratio of the two resistors. At the pole frequency, or the bandwidth, the phase shift is exactly halfway between zero and 90°, which is 45°. Note that a first-order decreasing characteristic, which is called a pole, always shows a slope of −20 dB/decade and −90° phase shift."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A first-order low-pass filter is an integrator with a resistor across the capacitor. It is also called a lossy integrator. At lower and lower frequencies, the gain is now set by the ratio of the two resistors. At the pole frequency, or the bandwidth, the phase shift is exactly halfway between zero and 90°, which is 45°. Note that a first-order decreasing characteristic, which is called a pole, always shows a slope of −20 dB/decade and −90° phase shift.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Low-pass filter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0149_01_059.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627341807907,
+          0.0829268290243903,
+          0.34237288358757056,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Low-pass filter"
+      },
+      {
+        "bbox": [
+          0.08813559366101693,
+          0.3951219510731707,
+          0.13220339027118644,
+          0.439024390097561
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.1288135608474576,
+          0.7609756094308944,
+          0.22033898457627116,
+          0.7999999996747968
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Aw = -"
+      },
+      {
+        "bbox": [
+          0.3322033899717514,
+          0.7609756101219513,
+          0.3898305086158192,
+          0.8048780491463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av="
+      },
+      {
+        "bbox": [
+          0.5050847461581921,
+          0.20000000040650412,
+          0.5593220342937854,
+          0.2487804882113821
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IAV"
+      },
+      {
+        "bbox": [
+          0.508474576779661,
+          0.273170731609756,
+          0.5593220344067796,
+          0.3219512194146341
+        ],
+        "confidence": 1,
+        "text": "Avo"
+      },
+      {
+        "bbox": [
+          0.4033898299576272,
+          0.39512195182926835,
+          0.4813559316525424,
+          0.44390243963414633
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.5016949146004842,
+          0.4926829270383275,
+          0.5932203383292978,
+          0.5512195124041812
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ф (Av)А"
+      },
+      {
+        "bbox": [
+          0.5322033894350282,
+          0.5414634148373983,
+          0.5796610165536723,
+          0.575609756300813
+        ],
+        "confidence": 1,
+        "text": "90°"
+      },
+      {
+        "bbox": [
+          0.5491525426694914,
+          0.5951219509756097,
+          0.5728813562288135,
+          0.6243902436585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0°"
+      },
+      {
+        "bbox": [
+          0.5288135617858886,
+          0.6487804875609757,
+          0.5796610161802129,
+          0.6731707314634148
+        ],
+        "confidence": 1,
+        "text": "-90°"
+      },
+      {
+        "bbox": [
+          0.43728813632768354,
+          0.7170731718947247,
+          0.48135593293785306,
+          0.7560975598125923
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AvD"
+      },
+      {
+        "bbox": [
+          0.4779661015254238,
+          0.7853658529268293,
+          0.4949152540677967,
+          0.8292682919512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.4033898311864406,
+          0.814634146097561,
+          0.4711864413559322,
+          0.8585365851219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1 +j"
+      },
+      {
+        "bbox": [
+          0.6949152557627118,
+          0.28292682902439026,
+          0.8169491540677966,
+          0.3121951217073171
+        ],
+        "confidence": 1,
+        "text": "-20 dB/dec"
+      },
+      {
+        "bbox": [
+          0.6440677968644067,
+          0.47317073223577233,
+          0.6813559324576272,
+          0.5365853663821137
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "$"
+      },
+      {
+        "bbox": [
+          0.6271186440677966,
+          0.7463414639512195,
+          0.6745762711864407,
+          0.8000000005365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f.="
+      },
+      {
+        "bbox": [
+          0.6813559327457628,
+          0.7804878053658536,
+          0.7694915259661017,
+          0.8292682931707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2m R2C"
+      },
+      {
+        "bbox": [
+          0.7322033879322034,
+          0.9512195123902439,
+          0.9220338964067797,
+          0.9804878050731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen man 059"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Note that a first-order decreasing characteristic, which is called a pole, always shows a slope of −20 dB/decade and −90° phase shift.",
+      "pdf_page": 149,
+      "printed_page": 153,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0149_01_059.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "At lower and lower frequencies, the gain is now set by the ratio of the two resistors.",
+      "pdf_page": 149,
+      "printed_page": 153,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "At the pole frequency, or the bandwidth, the phase shift is exactly halfway between zero and 90°, which is 45°.",
+      "pdf_page": 149,
+      "printed_page": 153,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "At the pole frequency, or the bandwidth, the phase shift is exactly halfway between zero and 90°, which is 45°.",
+      "pdf_page": 149,
+      "printed_page": 153,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Note that a first-order decreasing characteristic, which is called a pole, always shows a slope of −20 dB/decade and −90° phase shift.",
+      "pdf_page": 149,
+      "printed_page": 153,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-059-M01",
+      "ocr_text": "Aw = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1288135608474576,
+        0.7609756094308944,
+        0.22033898457627116,
+        0.7999999996747968
+      ],
+      "context_crop": "regions/SANSEN-059_math_01.png",
+      "context_bbox_normalized": [
+        0.08881356084745759,
+        0.6609756094308944,
+        0.4503389845762712,
+        0.9299999996747969
+      ],
+      "source_image": "slides/p0149_01_059.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-059-M02",
+      "ocr_text": "Av=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3322033899717514,
+        0.7609756101219513,
+        0.3898305086158192,
+        0.8048780491463414
+      ],
+      "context_crop": "regions/SANSEN-059_math_02.png",
+      "context_bbox_normalized": [
+        0.29220338997175144,
+        0.6609756101219513,
+        0.6198305086158192,
+        0.93
+      ],
+      "source_image": "slides/p0149_01_059.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-059-M03",
+      "ocr_text": "f.=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6271186440677966,
+        0.7463414639512195,
+        0.6745762711864407,
+        0.8000000005365854
+      ],
+      "context_crop": "regions/SANSEN-059_math_03.png",
+      "context_bbox_normalized": [
+        0.5871186440677966,
+        0.6463414639512195,
+        0.9045762711864407,
+        0.93
+      ],
+      "source_image": "slides/p0149_01_059.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

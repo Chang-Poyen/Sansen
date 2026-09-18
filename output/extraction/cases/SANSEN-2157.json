@@ -1,0 +1,184 @@
+{
+  "case_id": "SANSEN-2157",
+  "slide_id": "2157",
+  "chapter": 21,
+  "slide_number_in_chapter": 57,
+  "source": {
+    "pdf_page": 655,
+    "printed_page": 666
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0655_01_2157.jpg",
+      "pdf_page": 655,
+      "printed_page": 666,
+      "bbox_pt": [
+        91.52162,
+        122.52697,
+        374.54215999999997,
+        318.93713
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 655,
+      "printed_page": 666,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        417.48751000000016
+      ],
+      "text_raw": "The full schematic of the\nsigma-delta modulator is\nshown in this slide. The first\nintegrator takes most of the\ncurrent as it is designed for\n6 pF sampling capacitors.\nThe other two integrators\nonly use 0.4 pF capacitors.\nTheir power consumption is\nmuch lower. All common-\nmode output voltages are\n0.5 V, whereas the input\nones are 0.2 V.\nAll switches are imple-\nmented as transmission\ngates. Despite the low\nsupply voltage, sufficient V is available for all switches. Indeed, the threshold voltages are\nGS\nabout 0.3 V.\nVertical metal-wall capacitors are used with values of 1.7 fF/mm2. No horizontal capacitors\nwere available.",
+      "text": "The full schematic of the sigma-delta modulator is shown in this slide. The first integrator takes most of the current as it is designed for 6 pF sampling capacitors. The other two integrators only use 0.4 pF capacitors. Their power consumption is much lower. All commonmode output voltages are 0.5 V, whereas the input ones are 0.2 V. All switches are implemented as transmission gates. Despite the low supply voltage, sufficient V is available for all switches. Indeed, the threshold voltages are GS about 0.3 V. Vertical metal-wall capacitors are used with values of 1.7 fF/mm2. No horizontal capacitors were available."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The full schematic of the sigma-delta modulator is shown in this slide. The first integrator takes most of the current as it is designed for 6 pF sampling capacitors. The other two integrators only use 0.4 pF capacitors. Their power consumption is much lower. All commonmode output voltages are 0.5 V, whereas the input ones are 0.2 V. All switches are implemented as transmission gates. Despite the low supply voltage, sufficient V is available for all switches. Indeed, the threshold voltages are GS about 0.3 V. Vertical metal-wall capacitors are used with values of 1.7 fF/mm2. No horizontal capacitors were available.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Full modulator circuits",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0655_01_2157.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627374999996,
+          0.08292682908536586,
+          0.4847457652754237,
+          0.13170731689024384
+        ],
+        "confidence": 1,
+        "text": "Full modulator circuits"
+      },
+      {
+        "bbox": [
+          0.3254237298728813,
+          0.2097560970121951,
+          0.4101694925847457,
+          0.263414633597561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TTT°"
+      },
+      {
+        "bbox": [
+          0.2745762716949153,
+          0.2682926833457364,
+          0.3050847462711865,
+          0.2878048773046702
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cilo"
+      },
+      {
+        "bbox": [
+          0.27118644114406776,
+          0.4829268290853659,
+          0.3084745767372881,
+          0.5073170729878048
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CTM"
+      },
+      {
+        "bbox": [
+          0.4949152544067797,
+          0.4829268288617886,
+          0.53220339,
+          0.5073170727642277
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OTA2"
+      },
+      {
+        "bbox": [
+          0.5491525411440678,
+          0.21463414628048783,
+          0.6474576258898305,
+          0.258536585304878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"tt"
+      },
+      {
+        "bbox": [
+          0.6542372883050847,
+          0.2292682924878049,
+          0.6711864408474576,
+          0.25853658517073175
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T"
+      },
+      {
+        "bbox": [
+          0.7186440679237288,
+          0.48292682896341466,
+          0.7559322035169491,
+          0.5073170728658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "01/0"
+      },
+      {
+        "bbox": [
+          0.7220339009745762,
+          0.9365853655487804,
+          0.9355932230084745,
+          0.970731707012195
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.a5 2157"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The full schematic of the sigma-delta modulator is shown in this slide.",
+      "pdf_page": 655,
+      "printed_page": 666,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0655_01_2157.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

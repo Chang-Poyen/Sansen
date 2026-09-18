@@ -1,0 +1,51 @@
+398 Chapter #14
+To obtain more accurate expressions the method has to be used, which always works but
+which asks much more analysis. The transistor has to be substituted by its small-signal equivalent
+circuit (with mainly g and r at low frequencies) and the equations stating the laws of Kirchoff
+m o
+have to be solved. Needless to say that SPICE or any other circuit similar circuit simulator
+should provide the same results.
+1419
+The loop gain LG can in
+principle be extended by
+addition of a cascode tran-
+sistor M2. Its value will
+therefore be much larger. As
+a result, the expression for
+the closed loop transresis-
+tance will be closer to the
+value of R .
+F
+Because of the high loop
+gain LG, fairly accurate
+values of the input and
+output impedances can be
+obtained. The only way to
+verify them with this circuit
+is straightforward analysis
+by use of the two laws of Kirchoff.
+Note that both the input and output impedance are the same as for a diode connected
+transistor, i.e. 1/g .Resistor R does not come in as no Gate current is flowing. Also, cascode
+m1 F
+transistor M2 merely increases the loop gain. Using bipolar transistors rather than MOSTs
+would cause severe loading at both input and output!
+1420
+A shunt-shunt feedback
+amplifier with three stages is
+shown in this slide. The
+closed loop transimped-
+ance will be accurately R ,
+F
+because of the high loop
+gain. All other quantities
+may have to be found
+through straightforward
+analysis.
+Since there is no output
+source follower, the output
+resistance at the drain of
+transistor M3 is fairly high.
+It is reduced by the loop
+gain LG however, so that
+the resulting value can still
+be quite low.

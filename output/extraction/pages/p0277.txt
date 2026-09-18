@@ -1,0 +1,49 @@
+284 Chapter #9
+0942
+First, for stability, we posi-
+tion the three non-dominant
+poles in an increasing order
+of magnitude. The non-
+dominant pole v is thus the
+3
+highest one. This is possible
+as capacitance C is a small
+2
+parasitic node capacitance.
+Moreover, resistance R
+a
+cannot be made too large. It
+will be realized by means of
+a diode-connected MOST.
+In this case, it is clear that
+the first non-dominant pole
+v cancels the first zero. The
+1
+other zero’s are negligible.
+The design itself starts by positioning the first non-dominant pole v at two times the GBW,
+2
+as before for a maximally-flat 3rd-order Butterworth characteristic.
+The result is a considerable savings in power. Indeed the GBW is a factor 17 times larger than
+for a NMC amplifier with the same load capacitance and power consumption.
+0943
+A possible circuit realization
+of a ACBC amplifier is
+shown in this slide. As usual,
+it starts with a folded cas-
+code, with a current mirror
+as a second stage. The
+output stage is made class
+AB by connecting the Gate
+of transistor M30 to the
+output of the first stage. This
+greatly increases the output
+Slew Rate as well.
+The gain boosting stage
+consists of transistors Ma
+and Ma1. The gain is fairly
+precise. For a GBW of
+2 MHz and a C of 500 pF, this gain A is about 9 with a C of 3 pF. Compensation capacitance
+L 2h a
+C itself is 10 pF and the total current consumption 160 mA. The current through M11 is 18 mA
+m
+and through M30 about 100 mA. The second stage has only 5 mA in each branch!

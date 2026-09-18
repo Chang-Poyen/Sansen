@@ -1,0 +1,358 @@
+{
+  "case_id": "SANSEN-1857",
+  "slide_id": "1857",
+  "chapter": 18,
+  "slide_number_in_chapter": 57,
+  "source": {
+    "pdf_page": 537,
+    "printed_page": 547
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0537_01_1857.jpg",
+      "pdf_page": 537,
+      "printed_page": 547,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 537,
+      "printed_page": 547,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        439.41050000000024
+      ],
+      "text_raw": "The question arises whether\nit is better for low distortion,\nto take a MOST with large\nV −V (as for MOST\nGS T\nM1), or to take MOST with\nsmall V −V and a series\nGS T\nresistor R (as for MOST 2).\nThe difference between the\nV and the V is the\nGS1 GS2\nvoltage across the resistor\nV .\nR\nThe Gates are at the same\nvoltage V . We also take\nG\nequal DC currents.\nIt is clear that for third-\norder distortion IM , the\n3\nconfiguration with M1 is the best as it does not give any IM . The one with feedback resistor\n3\nR does give IM !\n3f\nFor second-order distortion IM (for M1) and IM (for M2), we have to calculate the ratio\n2 2f\nIM /IM . The result is given in this slide.\n2f 2\nIt shows that the voltage across the resistor V must be larger than V −V (or V ) to\nR GS1 T GST1\nmake a difference. If this is the case, the distortion is inversely proportional to the voltage V .\nR\nFor second-order distortion, it is better to use as large a resistor as possible, but not for third-\norder distortion!",
+      "text": "The question arises whether it is better for low distortion, to take a MOST with large V −V (as for MOST GS T M1), or to take MOST with small V −V and a series GS T resistor R (as for MOST 2). The difference between the V and the V is the GS1 GS2 voltage across the resistor V . R The Gates are at the same voltage V . We also take G equal DC currents. It is clear that for thirdorder distortion IM , the 3 configuration with M1 is the best as it does not give any IM . The one with feedback resistor 3 R does give IM ! 3f For second-order distortion IM (for M1) and IM (for M2), we have to calculate the ratio 2 2f IM /IM . The result is given in this slide. 2f 2 It shows that the voltage across the resistor V must be larger than V −V (or V ) to R GS1 T GST1 make a difference. If this is the case, the distortion is inversely proportional to the voltage V . R For second-order distortion, it is better to use as large a resistor as possible, but not for thirdorder distortion!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The question arises whether it is better for low distortion, to take a MOST with large V −V (as for MOST GS T M1), or to take MOST with small V −V and a series GS T resistor R (as for MOST 2). The difference between the V and the V is the GS1 GS2 voltage across the resistor V . R The Gates are at the same voltage V . We also take G equal DC currents. It is clear that for thirdorder distortion IM , the 3 configuration with M1 is the best as it does not give any IM . The one with feedback resistor 3 R does give IM ! 3f For second-order distortion IM (for M1) and IM (for M2), we have to calculate the ratio 2 2f IM /IM . The result is given in this slide. 2f 2 It shows that the voltage across the resistor V must be larger than V −V (or V ) to R GS1 T GST1 make a difference. If this is the case, the distortion is inversely proportional to the voltage V . R For second-order distortion, it is better to use as large a resistor as possible, but not for thirdorder distortion!",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Current source with series R",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0537_01_1857.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270695945938,
+          0.0780487810731707,
+          0.5844594637162162,
+          0.1365853664390244
+        ],
+        "confidence": 1,
+        "text": "Current source with series R"
+      },
+      {
+        "bbox": [
+          0.20911631867433808,
+          0.21733688254854122,
+          0.42601881954862547,
+          0.2948582439228148
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ",lout lout"
+      },
+      {
+        "bbox": [
+          0.06756756720157658,
+          0.49268292703252026,
+          0.1114864861204955,
+          0.5560975611788617
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.20945945882601355,
+          0.5512195124390245,
+          0.26013513450168924,
+          0.5902439026829269
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.34459459490830113,
+          0.5512195119860628,
+          0.38851351382722005,
+          0.5902439022299651
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.2736486490287162,
+          0.6243902437195122,
+          0.30405405443412165,
+          0.6682926827439024
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.13501505084511847,
+          0.745376285318781,
+          0.43255251942026096,
+          0.8253554235768079
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(NGs-V+) tINGs-VNt"
+      },
+      {
+        "bbox": [
+          0.16540514382211058,
+          0.8380043302017822,
+          0.40891917902125013,
+          0.9083371295085122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(W/L)t (W/L)1"
+      },
+      {
+        "bbox": [
+          0.5337837831503378,
+          0.20487804963414635,
+          0.8817567561233108,
+          0.27317073256097557
+        ],
+        "confidence": 0.5,
+        "text": "Same lout & same Vg :"
+      },
+      {
+        "bbox": [
+          0.5336805954584848,
+          0.31146776316875346,
+          0.7129410297896055,
+          0.366581015948086
+        ],
+        "confidence": 0.5,
+        "text": "Same gain !"
+      },
+      {
+        "bbox": [
+          0.5337837839527027,
+          0.37073170780487796,
+          0.8344594596283783,
+          0.41951219560975606
+        ],
+        "confidence": 1,
+        "text": "Same output noise !"
+      },
+      {
+        "bbox": [
+          0.5371621653716215,
+          0.47804878097560977,
+          0.8006756788851351,
+          0.5170731712195121
+        ],
+        "confidence": 1,
+        "text": "Same distortion ?"
+      },
+      {
+        "bbox": [
+          0.543918919831081,
+          0.6878048788292683,
+          0.641891892804054,
+          0.7658536593170733
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IM2t ="
+      },
+      {
+        "bbox": [
+          0.5472972967905405,
+          0.7609756098373983,
+          0.6081081076013514,
+          0.819512195203252
+        ],
+        "confidence": 1,
+        "text": "IM2"
+      },
+      {
+        "bbox": [
+          0.7364864871199325,
+          0.6000000000609755,
+          0.7871621627956081,
+          0.6536585366463413
+        ],
+        "confidence": 1,
+        "text": "VR"
+      },
+      {
+        "bbox": [
+          0.6655405401351351,
+          0.639024389804878,
+          0.7128378374324325,
+          0.6829268288292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 -"
+      },
+      {
+        "bbox": [
+          0.7195945955405405,
+          0.673170731609756,
+          0.8141891901351351,
+          0.7317073169756096
+        ],
+        "confidence": 1,
+        "text": "VGST1"
+      },
+      {
+        "bbox": [
+          0.7466216221621622,
+          0.7512195120975609,
+          0.8006756762162163,
+          0.8097560974634146
+        ],
+        "confidence": 1,
+        "text": "VR"
+      },
+      {
+        "bbox": [
+          0.6486486479391892,
+          0.7804878042439025,
+          0.7263513506418919,
+          0.8439024383902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1+"
+      },
+      {
+        "bbox": [
+          0.8141891890625,
+          0.785365854390244,
+          0.8648648647381757,
+          0.8439024397560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ")2"
+      },
+      {
+        "bbox": [
+          0.7297297306418918,
+          0.8292682926341463,
+          0.8209459468581081,
+          0.8829268292195122
+        ],
+        "confidence": 1,
+        "text": "VGST1"
+      },
+      {
+        "bbox": [
+          0.7195945919763513,
+          0.9365853654268294,
+          0.9358108081925676,
+          0.970731706890244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10a5 1857"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The one with feedback resistor 3 R does give IM ! 3f For second-order distortion IM (for M1) and IM (for M2), we have to calculate the ratio 2 2f IM /IM .",
+      "pdf_page": 537,
+      "printed_page": 547,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The result is given in this slide. 2f 2 It shows that the voltage across the resistor V must be larger than V −V (or V ) to R GS1 T GST1 make a difference.",
+      "pdf_page": 537,
+      "printed_page": 547,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0537_01_1857.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We also take G equal DC currents.",
+      "pdf_page": 537,
+      "printed_page": 547,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If this is the case, the distortion is inversely proportional to the voltage V .",
+      "pdf_page": 537,
+      "printed_page": 547,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1857-M01",
+      "ocr_text": "IM2t =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.543918919831081,
+        0.6878048788292683,
+        0.641891892804054,
+        0.7658536593170733
+      ],
+      "context_crop": "regions/SANSEN-1857_math_01.png",
+      "context_bbox_normalized": [
+        0.503918919831081,
+        0.5878048788292684,
+        0.871891892804054,
+        0.8958536593170733
+      ],
+      "source_image": "slides/p0537_01_1857.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

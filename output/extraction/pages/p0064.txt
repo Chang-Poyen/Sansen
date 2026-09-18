@@ -1,0 +1,52 @@
+Amplifiers, source followers and cascodes 65
+equal. This is why normally
+both V L products are also
+E
+made the same. The total
+output resistance is then
+r /2, also written as 2/g .
+DS DS
+The voltage gain is then
+simply given by the product
+of the total transconduct-
+ance with the total output
+resistance, which is g /g .
+m DS
+This can easily be rewritten
+as shown in this slide.
+Note that the current is
+not included, a result which
+we had found already for a
+single-transistor amplifier.
+This is not surprising as here
+we have two transistors in parallel, for small-signal operation.
+Also note, that the voltage gain goes up when the supply voltage goes down. An optimum
+supply voltage is thus found where the V values are about 0.2 V. This supply voltage is thus
+GS
+2(V +0.2), which is 1.1 V for a V of 0.35 V. In deep submicron CMOS this is quite a reasonable
+T T
+value indeed!
+If the supply voltage is larger, only small values of the gain are possible. More complicated
+circuits are then needed to enhance the voltage gain. Cascodes can be used for example, and
+gain-boosting, but also bootstrapping and current-cancellation and -starving techniques.
+0230
+We can also leave the output
+resistance in the expression
+of the gain. This makes it a
+bit easier to see how this
+same output resistance
+determines the output pole
+or the bandwidth.
+Moreover, this output
+resistance drops out in the
+calculation of the GBW.
+This was also the case for a
+single-transistor amplifier.
+However the GBW is now
+twice as high as we have
+double the transconduct-
+ance of one single transistor.
+This circuit is therefore a simple case of current reuse.
+The GBW is again the most important specification. It indicates how much voltage gain can
+be expected at any frequency. It depends on the current, though transconductance g .
+m

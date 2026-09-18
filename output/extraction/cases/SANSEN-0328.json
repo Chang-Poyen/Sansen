@@ -1,0 +1,198 @@
+{
+  "case_id": "SANSEN-0328",
+  "slide_id": "0328",
+  "chapter": 3,
+  "slide_number_in_chapter": 28,
+  "source": {
+    "pdf_page": 101,
+    "printed_page": 103
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0101_02_0328.jpg",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "bbox_pt": [
+        91.52162,
+        491.23197,
+        374.54222,
+        687.74181
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 101,
+      "printed_page": 103,
+      "bbox_pt": [
+        0,
+        487.24241035000034,
+        595,
+        797
+      ],
+      "text_raw": "If large-valued resistors are\navailable, another self-bias-\ning load can be found. It is\nshown in this slide.\nActually, a virtual ground\nis realized between both\ntransistors. This point does\nnot carry any AC signal.\nThe output resistance will\nthus be twice what is seen\non either side. It is thus\ntwice resistor R in parallel\nwith the output resistance\nr or r of the transistor.\nDS o\nIt is not as high as previ-\nous. Moreover, we need to",
+      "text": "If large-valued resistors are available, another self-biasing load can be found. It is shown in this slide. Actually, a virtual ground is realized between both transistors. This point does not carry any AC signal. The output resistance will thus be twice what is seen on either side. It is thus twice resistor R in parallel with the output resistance r or r of the transistor. DS o It is not as high as previous. Moreover, we need to"
+    },
+    {
+      "pdf_page": 102,
+      "printed_page": 104,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        178.3274399999999
+      ],
+      "text_raw": "be able to identify large resistors in a MOST process. This may be the case in an analog CMOS\nprocess but certainly not in a digital one.",
+      "text": "be able to identify large resistors in a MOST process. This may be the case in an analog CMOS process but certainly not in a digital one."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "If large-valued resistors are available, another self-biasing load can be found. It is shown in this slide. Actually, a virtual ground is realized between both transistors. This point does not carry any AC signal. The output resistance will thus be twice what is seen on either side. It is thus twice resistor R in parallel with the output resistance r or r of the transistor. DS o It is not as high as previous. Moreover, we need to\n\nbe able to identify large resistors in a MOST process. This may be the case in an analog CMOS process but certainly not in a digital one.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Diode-connected MOSTs with resistors",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0101_02_0328.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07796610599576266,
+          0.0829268291158537,
+          0.7661016992161017,
+          0.13658536570121949
+        ],
+        "confidence": 1,
+        "text": "Diode-connected MOSTs with resistors"
+      },
+      {
+        "bbox": [
+          0.2813559320677966,
+          0.21951219443902437,
+          0.3220338981694915,
+          0.2878048773658537
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.2779661021186441,
+          0.2926829267479676,
+          0.3288135597457627,
+          0.34146341455284557
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.6372881348728813,
+          0.2634146342682927,
+          0.7525423721610168,
+          0.3317073171951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 R//ro"
+      },
+      {
+        "bbox": [
+          0.627118644237288,
+          0.4585365857317073,
+          0.6542372883050847,
+          0.5024390247560976
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.7186440676271187,
+          0.4536585359756098,
+          0.7457627116949153,
+          0.5024390237804879
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.7186440723412949,
+          0.9463414640650407,
+          0.9288135509355414,
+          0.9853658531459257
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0328"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It is shown in this slide.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0101_02_0328.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It is thus twice resistor R in parallel with the output resistance r or r of the transistor.",
+        "pdf_page": 101,
+        "printed_page": 103,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The output resistance will thus be twice what is seen on either side.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is thus twice resistor R in parallel with the output resistance r or r of the transistor.",
+      "pdf_page": 101,
+      "printed_page": 103,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

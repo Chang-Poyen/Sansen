@@ -1,0 +1,33 @@
+606 Chapter #20
+207
+When the output voltage
+changes in time, as a result
+of change of bit b, then the
+transition may not be
+instantaneous.
+The change in voltage
+may experience a limited
+rise time, or slew rate.
+Moreover an overshoot may
+occur, called glitch. The
+energy in this glitch (which
+is the integral under this
+glitch waveform) must be
+smaller than the energy of
+a LSB.
+The time required to
+reach the final value (within 0.1% for example) is called the settling time.
+As clocks are used, some clock feedthrough may occur as well.
+208
+In the frequency domain,
+the analog output voltage of
+a DAC may contain various
+harmonics.
+The ratio of the output,
+fundamental to the largest
+harmonic is called the
+SFDR. This is usually the
+second harmonic. For fully-
+differential systems how-
+ever, this is most probably
+the third harmonic.

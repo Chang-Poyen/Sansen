@@ -1,0 +1,292 @@
+{
+  "case_id": "SANSEN-1760",
+  "slide_id": "1760",
+  "chapter": 17,
+  "slide_number_in_chapter": 60,
+  "source": {
+    "pdf_page": 505,
+    "printed_page": 515
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0505_01_1760.jpg",
+      "pdf_page": 505,
+      "printed_page": 515,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 505,
+      "printed_page": 515,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "Because the GBW is always\nlarger than the clock fre-\nquency f , the noise is folded\nc\nback towards the lowest fre-\nquency band. Actually, this\nis a heavy case of aliasing.\nThe total integrated noise\nof an opamp with load\ncapacitance C (or compen-\nsation capacitance for a\ntwo-stage opamp) is close to\nkT/C (see Chapter 4).\nThe integrated input\nnoise voltage power has to\nbe multiplied by the ratio of\nthe GBW to the clock fre-\nquency as shown in this slide. For a GBW which is about 3 times f , this gives a multiplication\nc\nfactor of 6 for the noise power or about 2.5 for the noise voltage.\nFor less noise, larger capacitors must be used. Also, minimum values of GBW must be used.",
+      "text": "Because the GBW is always larger than the clock frequency f , the noise is folded c back towards the lowest frequency band. Actually, this is a heavy case of aliasing. The total integrated noise of an opamp with load capacitance C (or compensation capacitance for a two-stage opamp) is close to kT/C (see Chapter 4). The integrated input noise voltage power has to be multiplied by the ratio of the GBW to the clock frequency as shown in this slide. For a GBW which is about 3 times f , this gives a multiplication c factor of 6 for the noise power or about 2.5 for the noise voltage. For less noise, larger capacitors must be used. Also, minimum values of GBW must be used."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Because the GBW is always larger than the clock frequency f , the noise is folded c back towards the lowest frequency band. Actually, this is a heavy case of aliasing. The total integrated noise of an opamp with load capacitance C (or compensation capacitance for a two-stage opamp) is close to kT/C (see Chapter 4). The integrated input noise voltage power has to be multiplied by the ratio of the GBW to the clock frequency as shown in this slide. For a GBW which is about 3 times f , this gives a multiplication c factor of 6 for the noise power or about 2.5 for the noise voltage. For less noise, larger capacitors must be used. Also, minimum values of GBW must be used.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "kT/C versus kTR noise",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0505_01_1760.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432073479733,
+          0.07804877975609759,
+          0.5033783747888514,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "kT/C versus kTR noise"
+      },
+      {
+        "bbox": [
+          0.0841492590431733,
+          0.22859876179388283,
+          0.8753280396762233,
+          0.3057441126455466
+        ],
+        "confidence": 0.5,
+        "text": "Narrow-band noise >> noise density : dvni? = 4kT R df"
+      },
+      {
+        "bbox": [
+          0.08399299445742504,
+          0.3452509232008141,
+          0.7505744834018138,
+          0.4311228569285437
+        ],
+        "confidence": 0.5,
+        "text": "Wide-band noise >> integrated noise : Vni2 ="
+      },
+      {
+        "bbox": [
+          0.7567567565033784,
+          0.33170731731707326,
+          0.7972972970439189,
+          0.38048780512195135
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "kT"
+      },
+      {
+        "bbox": [
+          0.6554054053378379,
+          0.5853658530731707,
+          0.7432432431756757,
+          0.6439024384390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vniz ="
+      },
+      {
+        "bbox": [
+          0.09459459487612612,
+          0.678048779918699,
+          0.1756756759572072,
+          0.7463414628455284
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvni2"
+      },
+      {
+        "bbox": [
+          0.7533783769932433,
+          0.5512195121463415,
+          0.8918918905067568,
+          0.6243902438536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "KT GBW"
+      },
+      {
+        "bbox": [
+          0.7601351349662162,
+          0.6243902435365853,
+          0.7871621619932432,
+          0.6682926825609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C"
+      },
+      {
+        "bbox": [
+          0.8209459464044402,
+          0.6195121948432055,
+          0.8851351355936293,
+          0.6780487802090591
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f.2"
+      },
+      {
+        "bbox": [
+          0.2567567549408784,
+          0.7951219514634146,
+          0.4020270252111487,
+          0.8536585368292682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2fc 3fc"
+      },
+      {
+        "bbox": [
+          0.4358108114864864,
+          0.7951219509349593,
+          0.5168918925675675,
+          0.8390243899593496
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.5810810809543919,
+          0.7902439018902438,
+          0.5979729728462838,
+          0.8341463409146341
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.7195945967483108,
+          0.9414634140853658,
+          0.9391891913429052,
+          0.9853658531097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 N1760"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The integrated input noise voltage power has to be multiplied by the ratio of the GBW to the clock frequency as shown in this slide.",
+      "pdf_page": 505,
+      "printed_page": 515,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0505_01_1760.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1760-M01",
+      "ocr_text": "Narrow-band noise >> noise density : dvni? = 4kT R df",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.0841492590431733,
+        0.22859876179388283,
+        0.8753280396762233,
+        0.3057441126455466
+      ],
+      "context_crop": "regions/SANSEN-1760_math_01.png",
+      "context_bbox_normalized": [
+        0.0441492590431733,
+        0.13,
+        1,
+        0.4357441126455466
+      ],
+      "source_image": "slides/p0505_01_1760.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1760-M02",
+      "ocr_text": "Wide-band noise >> integrated noise : Vni2 =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08399299445742504,
+        0.3452509232008141,
+        0.7505744834018138,
+        0.4311228569285437
+      ],
+      "context_crop": "regions/SANSEN-1760_math_02.png",
+      "context_bbox_normalized": [
+        0.04399299445742504,
+        0.24525092320081407,
+        0.9805744834018137,
+        0.5611228569285437
+      ],
+      "source_image": "slides/p0505_01_1760.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1760-M03",
+      "ocr_text": "Vniz =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6554054053378379,
+        0.5853658530731707,
+        0.7432432431756757,
+        0.6439024384390244
+      ],
+      "context_crop": "regions/SANSEN-1760_math_03.png",
+      "context_bbox_normalized": [
+        0.6154054053378378,
+        0.4853658530731707,
+        0.9732432431756757,
+        0.7739024384390244
+      ],
+      "source_image": "slides/p0505_01_1760.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

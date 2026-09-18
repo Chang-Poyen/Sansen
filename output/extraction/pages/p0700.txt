@@ -1,0 +1,51 @@
+712 Chapter #23
+233
+Two of the most important
+characteristics of a LNA is
+the noise performance
+within the constraints of
+impedance matching.
+This is why they are dis-
+cussed first.
+Some attention is now
+paid to the linearity of a
+LNA, as large input signals
+are as common as small
+ones.
+A comparison follows
+between the most popular
+configurations. The first has
+an amplifier (Common-
+Source Configuration) at the input whereas the second has a cascode (Common-Gate
+Configuration).
+MOST transistors can exhibit non-quasi-static behavior at high frequencies. We have to
+investigate when this effect is important.
+Finally, a large number of configurations are discussed, including components for electrostatic-
+discharge protection.
+234
+A voltage wave traveling
+along a transmission line
+will be partially reflected at
+the end of this line if the
+termination impedance is
+different from the line
+impedance. This reflected or
+unwanted signal is zero if
+the termination is perfect.
+Parameter s gives the
+11
+amount of reflected signal to
+the input signal; it is there-
+fore minus infinity.
+This is only true if the
+input impedance of the
+LNA is exactly the same as
+the characteristic impedance of the (transmission) line, which is usually 50 V.
+For slight deviations, reflection occurs and s is not minus infinity any more. For example, if
+11
+the reflected signal is −3 dB compared to the sign l itself, then s is only about −10 dB.
+11
+Values of s up to −10 dB are acceptable for LNA’s, although higher values are preferred.
+11
+This impedance matching obviously applies to the antenna. An example is given in this slide
+of an LNA with high input impedance (as for MOST) and antenna which exhibits about 50 V;

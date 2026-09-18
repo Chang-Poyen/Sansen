@@ -1,0 +1,190 @@
+{
+  "case_id": "SANSEN-1234",
+  "slide_id": "1234",
+  "chapter": 12,
+  "slide_number_in_chapter": 34,
+  "source": {
+    "pdf_page": 347,
+    "printed_page": 354
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0347_01_1234.jpg",
+      "pdf_page": 347,
+      "printed_page": 354,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 347,
+      "printed_page": 354,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        355.85400000000004
+      ],
+      "text_raw": "Translinear circuits for the\ndefinition of the quiescent\ncurrents in the output tran-\nsistors have the disadvan-\ntage that the maximum\noutput current is limited.\nSeveral more other prin-\nciples are therefore investi-\ngated. The first one is the\napplication of current feed-\nback to obtain an expanding\ncharacteristic.",
+      "text": "Translinear circuits for the definition of the quiescent currents in the output transistors have the disadvantage that the maximum output current is limited. Several more other principles are therefore investigated. The first one is the application of current feedback to obtain an expanding characteristic."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Translinear circuits for the definition of the quiescent currents in the output transistors have the disadvantage that the maximum output current is limited. Several more other principles are therefore investigated. The first one is the application of current feedback to obtain an expanding characteristic.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Slide 1234",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0347_01_1234.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07428313044921396,
+          0.08270428104804128,
+          0.2128790336911705,
+          0.13680791371911838
+        ],
+        "confidence": 1,
+        "text": "Outline"
+      },
+      {
+        "bbox": [
+          0.16216215675675683,
+          0.26829268321951216,
+          0.7027026972972974,
+          0.31707317102439014
+        ],
+        "confidence": 1,
+        "text": "• Problems of class AB drivers"
+      },
+      {
+        "bbox": [
+          0.16216216507601341,
+          0.3512195129268293,
+          0.5709459488597972,
+          0.4097560982926829
+        ],
+        "confidence": 1,
+        "text": "• Cross-coupled quads"
+      },
+      {
+        "bbox": [
+          0.1621621661739864,
+          0.43414634219512194,
+          0.4898648688766891,
+          0.49268292756097565
+        ],
+        "confidence": 1,
+        "text": "• Adaptive biasing"
+      },
+      {
+        "bbox": [
+          0.1587837769256758,
+          0.5170731700487805,
+          0.8648648580067568,
+          0.5853658529756097
+        ],
+        "confidence": 1,
+        "text": "• lo control with translinear circuits, etc."
+      },
+      {
+        "bbox": [
+          0.16250002529054183,
+          0.6024096411673269,
+          0.8541666541539022,
+          0.6566265052182153
+        ],
+        "confidence": 1,
+        "text": "• Current feedback and other principles"
+      },
+      {
+        "bbox": [
+          0.16216216219031532,
+          0.6829268297560975,
+          0.6250000000281531,
+          0.7414634151219512
+        ],
+        "confidence": 1,
+        "text": "• Low-Voltage realizations"
+      },
+      {
+        "bbox": [
+          0.7263513543041059,
+          0.9414634150406505,
+          0.9358108008760745,
+          0.9853658540650406
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 1234"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0347_01_1234.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Translinear circuits for the definition of the quiescent currents in the output transistors have the disadvantage that the maximum output current is limited.",
+      "pdf_page": 347,
+      "printed_page": 354,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Several more other principles are therefore investigated.",
+      "pdf_page": 347,
+      "printed_page": 354,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The first one is the application of current feedback to obtain an expanding characteristic.",
+      "pdf_page": 347,
+      "printed_page": 354,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

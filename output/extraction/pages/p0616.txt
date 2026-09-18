@@ -1,0 +1,42 @@
+CMOS ADC and DAC principles 627
+2047
+A more elaborate example
+of interpolation by means of
+current sources is given in
+this slide.
+It is clear that the number
+of transistors connected at
+the node of each current
+mirror increases if the inter-
+polation is increased. This
+reduces the speed at which
+such ADC can work, as
+shown next.
+2048
+More interpolation, to save
+more amplifiers and to fur-
+ther reduce the input capa-
+citance, increases the
+capacitance C at the
+mirror
+inner node of the current
+mirrors. As a result, the
+maximum frequency at
+which the interpolation can
+be carried out decreases.
+An example is given in
+this slide of the node capaci-
+tance and resulting −3 dB
+frequency for an interpola-
+tor realized in 0.5 mm
+CMOS.
+A compromise is to be
+taken.
+2049
+Interpolation allows to reduce the number of preamplifiers and the input capacitance, the number
+of latches being the same, however. Folding can be used to reduce the number of latches. Most
+often interpolation is used in combination with folding to reduce both preamplifiers and latches,
+which leads to a more drastic reduction in power consumption.
+The principle of folding is illustrated in this slide.
+Again, a preamplifier is used, but a different one, however. It folds the input signal in a number
+of voltage or folding regions. In this example, there are eight folding regions. The folding rate is

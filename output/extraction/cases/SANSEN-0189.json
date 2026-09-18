@@ -1,0 +1,156 @@
+{
+  "case_id": "SANSEN-0189",
+  "slide_id": "0189",
+  "chapter": 1,
+  "slide_number_in_chapter": 89,
+  "source": {
+    "pdf_page": 48,
+    "printed_page": 48
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0048_01_0189.jpg",
+      "pdf_page": 48,
+      "printed_page": 48,
+      "bbox_pt": [
+        91.52162,
+        236.02832,
+        374.78981,
+        432.48831
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 48,
+      "printed_page": 48,
+      "bbox_pt": [
+        0,
+        232.03878999999984,
+        595,
+        489.03617
+      ],
+      "text_raw": "This concludes the compari-\nson between MOSTs and\nbipolar transistors. It is\nclear that a bipolar transis-\ntor is better for high-\nprecision circuitry, but a\nMOST is more compatible\nwith CMOS logic. A\nBiCMOS process seems to\nbe the ideal compromise,\nbut is more expensive\nunfortunately.\nNow that models for\nhand calculations have been\nderived, they will be used in\nelementary circuits.",
+      "text": "This concludes the comparison between MOSTs and bipolar transistors. It is clear that a bipolar transistor is better for highprecision circuitry, but a MOST is more compatible with CMOS logic. A BiCMOS process seems to be the ideal compromise, but is more expensive unfortunately. Now that models for hand calculations have been derived, they will be used in elementary circuits."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This concludes the comparison between MOSTs and bipolar transistors. It is clear that a bipolar transistor is better for highprecision circuitry, but a MOST is more compatible with CMOS logic. A BiCMOS process seems to be the ideal compromise, but is more expensive unfortunately. Now that models for hand calculations have been derived, they will be used in elementary circuits.",
+  "schema_version": "1.0",
+  "chapter_title": "MOS 晶体管与双极型晶体管的比较",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0048_01_0189.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432121621625,
+          0.07317073190243906,
+          0.38513513202702704,
+          0.13170731726829266
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.1418918951013513,
+          0.32195121932249327,
+          0.7195945978040539,
+          0.37560975590785906
+        ],
+        "confidence": 1,
+        "text": "• Models of MOST transistors"
+      },
+      {
+        "bbox": [
+          0.14189189180743247,
+          0.4341463422560975,
+          0.7432432431587838,
+          0.4975609764024389
+        ],
+        "confidence": 1,
+        "text": "• Models of Bipolar transistors"
+      },
+      {
+        "bbox": [
+          0.14189189649493233,
+          0.5463414631707318,
+          0.8783783829814187,
+          0.6048780485365854
+        ],
+        "confidence": 1,
+        "text": "• Comparison of MOSTs and Bipolars"
+      },
+      {
+        "bbox": [
+          0.14864864265202718,
+          0.8439024392276423,
+          0.8682432372466217,
+          0.8878048782520326
+        ],
+        "confidence": 1,
+        "text": "Ref.: W. Sansen : Analog Design Essentials, Springer 2006"
+      },
+      {
+        "bbox": [
+          0.7297297282939189,
+          0.9414634152439023,
+          0.9391891877533783,
+          0.9902439030487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 0189"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Now that models for hand calculations have been derived, they will be used in elementary circuits.",
+      "pdf_page": 48,
+      "printed_page": 48,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0048_01_0189.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Comparison of MOST and bipolar transistors"
+}

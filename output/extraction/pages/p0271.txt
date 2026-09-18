@@ -1,0 +1,47 @@
+278 Chapter #9
+consumption as much as possible. Of course, if noise is an important specification, then these
+capacitances may have to be increased, increasing the power consumption. As expected, low
+noise always leads to larger power consumption.
+Designers often take C and C to be the same and give them a low value. This is clearly
+m1 m2
+never an optimum design!
+0930
+This three-stage configura-
+tion has nested Miller com-
+pensation with additional
+Gm blocks for realizing
+two feedforward paths. If
+their transconductances are
+chosen to be the same as
+their corresponding stage
+transconductances then both
+zeros’ are cancelled out.
+The two resulting non-
+dominant poles are then the
+same as for a conventional
+NMC amplifier.
+Little is gained in terms of
+power consumption.
+0931
+One single feedforward path
+can be used as well. Its
+transconductance g how-
+mf2
+ever, equals the transcon-
+ductance g of the output
+m3
+stage. It is used to generate
+a zero v in the left half of
+z
+the complex plane, to cancel
+out a non-dominant pole.
+It therefore increases the
+phase margin.
+If g >g , then the non-
+m3 m2
+dominant poles can be
+approximated as shown in
+this slide.
+On the other hand, the
+power consumption is also increased, as the feedforward stage and the output stage take the
+largest currents.

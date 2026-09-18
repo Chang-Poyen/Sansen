@@ -1,0 +1,43 @@
+Switched-capacitor filters 517
+1764
+In this filter more is done
+with less transistors. A
+number of second-order
+effects can be avoided.
+Judicious playing with
+transistor size ratios allows
+construction of fairly soph-
+isticated filter character-
+istics.
+The actual derivation is
+left as an exercise for the
+reader.
+1765
+A comparison between
+switched-capacitor and
+switched-current filters is
+now imperative.
+In a switched-capacitor
+filter a charge is stored on
+a capacitor. The signal is
+therefore a voltage. The
+accuracy depends on the full
+charge transfer from one
+capacitor to another. This
+also depends on the match-
+ing of these two capacitors.
+Mismatch, clock injection
+and charge distribution
+limit the dynamic range to
+about 70 dB without excessive precautions.
+In a switched-current filter a charge is a result of a current flowing during a certain amount
+of time, determined by the clock period. The signal is a current. The accuracy depends on the
+matching of transistor sizes.
+Mismatch, clock injection and charge distribution limit the dynamic range to about 50 dB
+without excessive precautions.
+The main difference is that in a switched-current filter the charge transfer is less accurate
+because of the worse mismatch between transistors than between capacitors. The main advantage
+of switched-current filters is that they reach higher frequencies because they do not use opamps,
+just current-mirrors.
+It is clear that such a comparison can only be of first-order. A full comparison would take a
+full workshop.

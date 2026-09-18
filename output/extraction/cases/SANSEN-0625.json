@@ -1,0 +1,238 @@
+{
+  "case_id": "SANSEN-0625",
+  "slide_id": "0625",
+  "chapter": 6,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 189,
+    "printed_page": 193
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0190_01_0625.jpg",
+      "pdf_page": 190,
+      "printed_page": 194,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 189,
+      "printed_page": 193,
+      "bbox_pt": [
+        0,
+        654.654475,
+        595,
+        797
+      ],
+      "text_raw": "Let us now draw up a design plan.\nThe three design choices have to be selected first.",
+      "text": "Let us now draw up a design plan. The three design choices have to be selected first."
+    },
+    {
+      "pdf_page": 190,
+      "printed_page": 194,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        391.5785100000001
+      ],
+      "text_raw": "We must find the mini-\nmum f which can handle\nT\nthe process. The higher f ,\nT\nthe smaller the channel\nlength will be and the more\nexpensive the CMOS tech-\nnology required. A mini-\nmum f leads to a minimum\nT\nchannel length L.\nWe now choose the actual\nchannel length. It can be the\nminimum channel length or\na somewhat larger value,\ndepending on the gain\nrequired. Also, the value of\nV −V must be selected.\nGS T\nThe capacitive load now\ndetermines the output transistor width, and its current.\nAll other values are now easily derived.",
+      "text": "We must find the minimum f which can handle T the process. The higher f , T the smaller the channel length will be and the more expensive the CMOS technology required. A minimum f leads to a minimum T channel length L. We now choose the actual channel length. It can be the minimum channel length or a somewhat larger value, depending on the gain required. Also, the value of V −V must be selected. GS T The capacitive load now determines the output transistor width, and its current. All other values are now easily derived."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us now draw up a design plan. The three design choices have to be selected first.\n\nWe must find the minimum f which can handle T the process. The higher f , T the smaller the channel length will be and the more expensive the CMOS technology required. A minimum f leads to a minimum T channel length L. We now choose the actual channel length. It can be the minimum channel length or a somewhat larger value, depending on the gain required. Also, the value of V −V must be selected. GS T The capacitive load now determines the output transistor width, and its current. All other values are now easily derived.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Design optimization for high speed Miller OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0190_01_0625.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626426553689,
+          0.08292682943089424,
+          0.9050847388418081,
+          0.14146341479674795
+        ],
+        "confidence": 1,
+        "text": "Design optimization for high speed Miller OTA"
+      },
+      {
+        "bbox": [
+          0.06779661305084739,
+          0.2341463421341463,
+          0.3050847486440677,
+          0.2878048787195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• Choose a By"
+      },
+      {
+        "bbox": [
+          0.0677966159999999,
+          0.3024390240487804,
+          0.650847463457627,
+          0.3560975606341463
+        ],
+        "confidence": 0.5,
+        "text": "• Find minimum ftg for specified GBW"
+      },
+      {
+        "bbox": [
+          0.09999999961036823,
+          0.36526946219732104,
+          0.820833315702132,
+          0.4317073160337528
+        ],
+        "confidence": 0.5,
+        "text": "Choose maximum channel length L6 (max. gain)"
+      },
+      {
+        "bbox": [
+          0.2169491564830508,
+          0.4390243910365853,
+          0.5389830547881356,
+          0.5024390251829267
+        ],
+        "confidence": 0.5,
+        "text": "for a chosen VGss-V,"
+      },
+      {
+        "bbox": [
+          0.06779661444067789,
+          0.5073170731219513,
+          0.4949152585084745,
+          0.5707317072682928
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• We is calculated from CL,"
+      },
+      {
+        "bbox": [
+          0.2033898341525424,
+          0.5902439031707316,
+          0.5016949188983051,
+          0.6487804885365854
+        ],
+        "confidence": 0.5,
+        "text": "and determines IDse"
+      },
+      {
+        "bbox": [
+          0.0677966063389831,
+          0.658536586,
+          0.620338979220339,
+          0.7219512201463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• C. is calculated from CL through ix"
+      },
+      {
+        "bbox": [
+          0.06753740771439058,
+          0.7358985941379524,
+          0.6375496975051745,
+          0.8002058627923804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• 9m1 and Ips1 are calculated from Cc"
+      },
+      {
+        "bbox": [
+          0.06779661545762702,
+          0.8195121957560975,
+          0.6033898357966101,
+          0.882926829902439
+        ],
+        "confidence": 0.5,
+        "text": "• Noise is determined by 9m1 or Cc"
+      },
+      {
+        "bbox": [
+          0.732203391457627,
+          0.9414634142439025,
+          0.9355932219661016,
+          0.9804878044878048
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 0625"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We must find the minimum f which can handle T the process.",
+      "pdf_page": 190,
+      "printed_page": 194,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS T The capacitive load now determines the output transistor width, and its current.",
+      "pdf_page": 190,
+      "printed_page": 194,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "All other values are now easily derived.",
+      "pdf_page": 190,
+      "printed_page": 194,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0190_01_0625.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It can be the minimum channel length or a somewhat larger value, depending on the gain required.",
+      "pdf_page": 190,
+      "printed_page": 194,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

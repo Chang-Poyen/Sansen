@@ -1,0 +1,556 @@
+{
+  "case_id": "SANSEN-1528",
+  "slide_id": "1528",
+  "chapter": 15,
+  "slide_number_in_chapter": 28,
+  "source": {
+    "pdf_page": 426,
+    "printed_page": 434
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0427_01_1528.jpg",
+      "pdf_page": 427,
+      "printed_page": 435,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 426,
+      "printed_page": 434,
+      "bbox_pt": [
+        0,
+        618.7805,
+        595,
+        797
+      ],
+      "text_raw": "A CMOS Miller OTA is shown in this slide. The offset of such an amplifier is examined next.\nThe input devices are normally pMOSTs so that they can share the same n-well bulk. In this\nway mismatch in substrate parameter c does not come in. This parameter does come in however,\nfor the nMOSTs. This is why the term DV has an asterisk. It is larger without the effect of the\nT3\nsubstrate parameter.",
+      "text": "A CMOS Miller OTA is shown in this slide. The offset of such an amplifier is examined next. The input devices are normally pMOSTs so that they can share the same n-well bulk. In this way mismatch in substrate parameter c does not come in. This parameter does come in however, for the nMOSTs. This is why the term DV has an asterisk. It is larger without the effect of the T3 substrate parameter."
+    },
+    {
+      "pdf_page": 427,
+      "printed_page": 435,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "The offset voltage is given\nin this slide. First of all,\nit includes any difference\nbetween nodes 1 and 2,\nwhich is called DV . This\nDS1\ndifference can be caused by\na difference between V\nGS6\nand V . It also includes\nGS3\nthe large AC voltage swing\nat node 1, which is much\nsmaller on node 2.\nThe second and third\nterm are caused by the mis-\nmatches between the V ’s.\nT\nThe last term includes the\nmismatches between the\nsizes and the K∞ factors.\nThey are obviously scaled by V −V .\nGS1 T\nFor a small value of V −V and for a small g /g , the term DV is probably dominant\nGS1 T m3 m1 T1\nif DV can be kept small. If not, its contribution to the offset is DV /A or V /A A .\nDS1 DS1 v1 OUT v1 v2",
+      "text": "The offset voltage is given in this slide. First of all, it includes any difference between nodes 1 and 2, which is called DV . This DS1 difference can be caused by a difference between V GS6 and V . It also includes GS3 the large AC voltage swing at node 1, which is much smaller on node 2. The second and third term are caused by the mismatches between the V ’s. T The last term includes the mismatches between the sizes and the K∞ factors. They are obviously scaled by V −V . GS1 T For a small value of V −V and for a small g /g , the term DV is probably dominant GS1 T m3 m1 T1 if DV can be kept small. If not, its contribution to the offset is DV /A or V /A A . DS1 DS1 v1 OUT v1 v2"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A CMOS Miller OTA is shown in this slide. The offset of such an amplifier is examined next. The input devices are normally pMOSTs so that they can share the same n-well bulk. In this way mismatch in substrate parameter c does not come in. This parameter does come in however, for the nMOSTs. This is why the term DV has an asterisk. It is larger without the effect of the T3 substrate parameter.\n\nThe offset voltage is given in this slide. First of all, it includes any difference between nodes 1 and 2, which is called DV . This DS1 difference can be caused by a difference between V GS6 and V . It also includes GS3 the large AC voltage swing at node 1, which is much smaller on node 2. The second and third term are caused by the mismatches between the V ’s. T The last term includes the mismatches between the sizes and the K∞ factors. They are obviously scaled by V −V . GS1 T For a small value of V −V and for a small g /g , the term DV is probably dominant GS1 T m3 m1 T1 if DV can be kept small. If not, its contribution to the offset is DV /A or V /A A . DS1 DS1 v1 OUT v1 v2",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Offset Miller CMOS OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0427_01_1528.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432765444014,
+          0.07804878020905925,
+          0.5405405438706563,
+          0.13658536557491296
+        ],
+        "confidence": 1,
+        "text": "Offset Miller CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.20945945994208495,
+          0.2292682925783972,
+          0.2770270275096525,
+          0.282926829163763
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "JM7"
+      },
+      {
+        "bbox": [
+          0.32770270242117117,
+          0.2439024392682927,
+          0.34459459431306305,
+          0.27804878073170736
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.40878378378378377,
+          0.32195122,
+          0.44932432432432434,
+          0.36097561024390235
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.5236486494932432,
+          0.39999999993902435,
+          0.5912162170608108,
+          0.4439024389634145
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.1452702706418919,
+          0.4878048777560976,
+          0.18243243280405405,
+          0.5268292680000001
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.2094594596565315,
+          0.45853658516260176,
+          0.23310810830518017,
+          0.5024390241869919
+        ],
+        "confidence": 1,
+        "text": "3"
+      },
+      {
+        "bbox": [
+          0.24999999969031533,
+          0.48780487825203245,
+          0.2871621618524775,
+          0.5219512197154471
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.15194102038383464,
+          0.5848769435807464,
+          0.2838697864797951,
+          0.6346352499444802
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ AVDS1 -"
+      },
+      {
+        "bbox": [
+          0.08445945929054054,
+          0.6487804873867595,
+          0.12162162145270271,
+          0.7073170727526131
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.08108108154560809,
+          0.7463414631707318,
+          0.11824324370777026,
+          0.7756097558536587
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.41891891938344594,
+          0.6878048778048781,
+          0.4560810815456081,
+          0.717073170487805
+        ],
+        "confidence": 0.5,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.32094594645270275,
+          0.746341463109756,
+          0.36148648699324326,
+          0.7804878045731706
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.5844594594932433,
+          0.7951219508292683,
+          0.6283783784121622,
+          0.8341463410731706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AK'"
+      },
+      {
+        "bbox": [
+          0.5337837862393147,
+          0.8292682924390244,
+          0.5844594586931177,
+          0.8634146339024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "S ="
+      },
+      {
+        "bbox": [
+          0.6250000002364865,
+          0.8195121949268293,
+          0.6486486488851352,
+          0.8487804876097561
+        ],
+        "confidence": 0.5,
+        "text": "n"
+      },
+      {
+        "bbox": [
+          0.6587091152954261,
+          0.2237569180223128,
+          0.8548044014843249,
+          0.27380405744596237
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Aur= 9m1 To2/To4"
+      },
+      {
+        "bbox": [
+          0.6587837844172297,
+          0.3560975604268293,
+          0.7364864871199325,
+          0.39999999945121956
+        ],
+        "confidence": 0.5,
+        "text": "Vos ="
+      },
+      {
+        "bbox": [
+          0.7331081089808559,
+          0.326829268292683,
+          0.8378378387105856,
+          0.3951219512195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AVDS1 +"
+      },
+      {
+        "bbox": [
+          0.750000000633446,
+          0.39512195115853666,
+          0.8006756763091216,
+          0.44878048774390245
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avi"
+      },
+      {
+        "bbox": [
+          0.662162163260135,
+          0.5121951214634146,
+          0.7500000010979729,
+          0.5609756092682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AVT1+"
+      },
+      {
+        "bbox": [
+          0.7567567577139639,
+          0.4731707327077329,
+          0.8141891901463963,
+          0.5121951206256005
+        ],
+        "confidence": 0.5,
+        "text": "9m3"
+      },
+      {
+        "bbox": [
+          0.7871621608108109,
+          0.5121951218699187,
+          0.868243241891892,
+          0.556097560894309
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- AVт3"
+      },
+      {
+        "bbox": [
+          0.8581081074324325,
+          0.49756097569105684,
+          0.8986486479729731,
+          0.5414634147154471
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "*+"
+      },
+      {
+        "bbox": [
+          0.7533783778378378,
+          0.5463414629756098,
+          0.8141891886486486,
+          0.5902439020000001
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.6959459449605856,
+          0.6341463416260162,
+          0.8141891882038289,
+          0.6829268294308942
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGS1 - VT"
+      },
+      {
+        "bbox": [
+          0.6655405403716217,
+          0.6682926826219513,
+          0.6993243241554055,
+          0.7170731704268293
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.820945945777027,
+          0.6731707313170732,
+          0.8445945944256756,
+          0.7121951215609755
+        ],
+        "confidence": 1,
+        "text": "S"
+      },
+      {
+        "bbox": [
+          0.7466216218468469,
+          0.7073170737398374,
+          0.7668918921171172,
+          0.7414634152032521
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.6790540540878378,
+          0.7951219508292683,
+          0.7229729730067568,
+          0.8341463410731706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AK'"
+      },
+      {
+        "bbox": [
+          0.6824324329054055,
+          0.8731707316585365,
+          0.7297297302027027,
+          0.9268292682439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Kр"
+      },
+      {
+        "bbox": [
+          0.7567567563766892,
+          0.8000000004878048,
+          0.8277027023226351,
+          0.8390243907317073
+        ],
+        "confidence": 0.5,
+        "text": "AW/L."
+      },
+      {
+        "bbox": [
+          0.8445945949324324,
+          0.8341463412195123,
+          0.8648648652027026,
+          0.8585365851219513
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.8614864874155405,
+          0.8000000006097561,
+          0.9425675684966216,
+          0.848780488414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AWIL3"
+      },
+      {
+        "bbox": [
+          0.7736486494087838,
+          0.8780487810975609,
+          0.8412162169763513,
+          0.926829268902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "WL1"
+      },
+      {
+        "bbox": [
+          0.878378379054054,
+          0.878048780292683,
+          0.9459459466216216,
+          0.9268292680975609
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "WIL3"
+      },
+      {
+        "bbox": [
+          0.7128378474347362,
+          0.9512195116260161,
+          0.9290540507634617,
+          0.9853658530894308
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 1528"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A CMOS Miller OTA is shown in this slide.",
+      "pdf_page": 426,
+      "printed_page": 434,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The offset of such an amplifier is examined next.",
+      "pdf_page": 426,
+      "printed_page": 434,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0427_01_1528.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "It also includes GS3 the large AC voltage swing at node 1, which is much smaller on node 2.",
+      "pdf_page": 427,
+      "printed_page": 435,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1528-M01",
+      "ocr_text": "S =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5337837862393147,
+        0.8292682924390244,
+        0.5844594586931177,
+        0.8634146339024391
+      ],
+      "context_crop": "regions/SANSEN-1528_math_01.png",
+      "context_bbox_normalized": [
+        0.4937837862393147,
+        0.7292682924390245,
+        0.8144594586931176,
+        0.93
+      ],
+      "source_image": "slides/p0427_01_1528.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1528-M02",
+      "ocr_text": "Aur= 9m1 To2/To4",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6587091152954261,
+        0.2237569180223128,
+        0.8548044014843249,
+        0.27380405744596237
+      ],
+      "context_crop": "regions/SANSEN-1528_math_02.png",
+      "context_bbox_normalized": [
+        0.618709115295426,
+        0.13,
+        1,
+        0.40380405744596237
+      ],
+      "source_image": "slides/p0427_01_1528.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1528-M03",
+      "ocr_text": "Vos =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6587837844172297,
+        0.3560975604268293,
+        0.7364864871199325,
+        0.39999999945121956
+      ],
+      "context_crop": "regions/SANSEN-1528_math_03.png",
+      "context_bbox_normalized": [
+        0.6187837844172297,
+        0.2560975604268293,
+        0.9664864871199325,
+        0.5299999994512196
+      ],
+      "source_image": "slides/p0427_01_1528.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

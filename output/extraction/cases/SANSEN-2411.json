@@ -1,0 +1,209 @@
+{
+  "case_id": "SANSEN-2411",
+  "slide_id": "2411",
+  "chapter": 24,
+  "slide_number_in_chapter": 11,
+  "source": {
+    "pdf_page": 736,
+    "printed_page": 748
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0736_01_2411.jpg",
+      "pdf_page": 736,
+      "printed_page": 748,
+      "bbox_pt": [
+        91.52162,
+        122.52697,
+        374.54215999999997,
+        318.93713
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 736,
+      "printed_page": 748,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        410.5121096500002
+      ],
+      "text_raw": "The bonding wires also\ncause ground bounces and\nsupply line bounces. This is\nillustrated in this slide.\nA digital gate with input\nvoltage v and supply volt-\ninD\nage V is in the neighbor-\nDD,D\nhood of an analog amplifier,\nthis is biased at a certain\ncurrent and has V as a\nDD,A\nsupply voltage. The latter\nsupply line has a decoupling\ncapacitance C , to sup-\ndec\npress noise and ripple.\nAll connections to the\nsupply lines carry bonding\nwires. We monitor the output voltage of the analog amplifier v as a result of a digital input\noutA\nsignal v .\ninD\nThe only coupling between both circuits is along the ground line, which is common to both.\nDigital transitions at the output of the digital gate, are visible at the output of the analog\namplifier, as shown next.",
+      "text": "The bonding wires also cause ground bounces and supply line bounces. This is illustrated in this slide. A digital gate with input voltage v and supply voltinD age V is in the neighbor- DD,D hood of an analog amplifier, this is biased at a certain current and has V as a DD,A supply voltage. The latter supply line has a decoupling capacitance C , to supdec press noise and ripple. All connections to the supply lines carry bonding wires. We monitor the output voltage of the analog amplifier v as a result of a digital input outA signal v . inD The only coupling between both circuits is along the ground line, which is common to both. Digital transitions at the output of the digital gate, are visible at the output of the analog amplifier, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The bonding wires also cause ground bounces and supply line bounces. This is illustrated in this slide. A digital gate with input voltage v and supply voltinD age V is in the neighbor- DD,D hood of an analog amplifier, this is biased at a certain current and has V as a DD,A supply voltage. The latter supply line has a decoupling capacitance C , to supdec press noise and ripple. All connections to the supply lines carry bonding wires. We monitor the output voltage of the analog amplifier v as a result of a digital input outA signal v . inD The only coupling between both circuits is along the ground line, which is common to both. Digital transitions at the output of the digital gate, are visible at the output of the analog amplifier, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Supply line bounce (1)",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0736_01_2411.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07118643853107347,
+          0.07317073231707316,
+          0.4711864385310734,
+          0.1463414640243902
+        ],
+        "confidence": 1,
+        "text": "Supply line bounce (1)"
+      },
+      {
+        "bbox": [
+          0.26779661080508466,
+          0.2390243909756098,
+          0.35254237351694906,
+          0.2975609763414634
+        ],
+        "confidence": 0.5,
+        "text": "VDD.D"
+      },
+      {
+        "bbox": [
+          0.671186441283293,
+          0.23902439013937282,
+          0.7559322039951574,
+          0.2926829267247386
+        ],
+        "confidence": 1,
+        "text": "VDD,A"
+      },
+      {
+        "bbox": [
+          0.6711864403389831,
+          0.35609756109756097,
+          0.7118644064406779,
+          0.40975609768292687
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Lы"
+      },
+      {
+        "bbox": [
+          0.6881355925084746,
+          0.4975609751219512,
+          0.7661016942033898,
+          0.5463414629268293
+        ],
+        "confidence": 0.5,
+        "text": "VoutA"
+      },
+      {
+        "bbox": [
+          0.8305084738135593,
+          0.45853658469512193,
+          0.8983050839830509,
+          0.5121951212804878
+        ],
+        "confidence": 1,
+        "text": "Cdec"
+      },
+      {
+        "bbox": [
+          0.11525423674576271,
+          0.5658536580487805,
+          0.1762711858983051,
+          0.6146341458536586
+        ],
+        "confidence": 1,
+        "text": "VinD"
+      },
+      {
+        "bbox": [
+          0.7288135609491525,
+          0.9365853653658537,
+          0.9389830524745763,
+          0.9853658531707318
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 2411"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is illustrated in this slide.",
+      "pdf_page": 736,
+      "printed_page": 748,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Digital transitions at the output of the digital gate, are visible at the output of the analog amplifier, as shown next.",
+      "pdf_page": 736,
+      "printed_page": 748,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0736_01_2411.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A digital gate with input voltage v and supply voltinD age V is in the neighbor- DD,D hood of an analog amplifier, this is biased at a certain current and has V as a DD,A supply voltage.",
+        "pdf_page": 736,
+        "printed_page": 748,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "All connections to the supply lines carry bonding wires.",
+        "pdf_page": 736,
+        "printed_page": 748,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Digital transitions at the output of the digital gate, are visible at the output of the analog amplifier, as shown next.",
+        "pdf_page": 736,
+        "printed_page": 748,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We monitor the output voltage of the analog amplifier v as a result of a digital input outA signal v . inD The only coupling between both circuits is along the ground line, which is common to both.",
+      "pdf_page": 736,
+      "printed_page": 748,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

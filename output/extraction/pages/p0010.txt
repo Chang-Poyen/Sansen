@@ -1,0 +1,59 @@
+10 Chapter #1
+0117
+For a transistor size W/L=
+8, the KP×W/L product is
+2.4×10−3 S (using KP=
+300 mA/V2). Taking the
+switch as a resistor with
+value R , as shown in this
+on
+slide and substitution of R
+on
+by its expression, requires
+an iteration, which yields a
+value of R of 216 V and an
+on
+output voltage of 0.575 V.
+Note that we have forgot-
+ten to take into account the
+bulk effect. Indeed, V is
+BS
+not zero, it is about 0.575 V.
+The parasitic JFET will
+become active as well, as we
+will see next.
+0118
+The drain-source current I
+DS
+and the channel resistance
+R show the influence of
+on
+V in an explicit way, but
+GS
+not that of the bulk-source
+voltage V . Indeed, the
+BS
+effect of V is embedded in
+BS
+the threshold voltage V .
+T
+Increasing the V will
+BS
+increase the depletion layer
+width under the channel and
+will increase V . More
+T
+reverse biasing that junction
+will increase V in absolute
+T
+value and decrease the cur-
+rent. For zero V , V evi-
+BS T
+dently equals V .
+T0
+Parameter c (Greek gamma) has to do with the junction depletion region and is linked to
+parameter n. Actually, factor c depends on the technology used (such as the bulk doping N )
+B
+but is not voltage dependent. The denominator of n now shows explicitly the voltage dependence
+of n.
+Some approximate parameter values are given as well for a 0.7 mm CMOS.

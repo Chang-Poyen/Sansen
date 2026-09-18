@@ -1,0 +1,173 @@
+{
+  "case_id": "SANSEN-113",
+  "slide_id": "113",
+  "chapter": 11,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 295,
+    "printed_page": 302
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0295_01_113.jpg",
+      "pdf_page": 295,
+      "printed_page": 302,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 295,
+      "printed_page": 302,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        393.5715100000001
+      ],
+      "text_raw": "The first reason to require\na rail-to-rail input range is\nto be able to maintain the\nsame Signal-to-Noise ratio\nfor smaller supply voltages.\nIndeed signal swings de-\ncrease with the supply volt-\nage. A rail-to-rail swing at\nthe input is the highest that\ncan be obtained.\nFor maximum output\nswing, a fully-differential\noperation is a must as well.\nAt the output, it is easy to\nprovide a rail-to-rail swing.\nWe simply take two output\ntransistors Drain to Drain. For a capacitive load, rail-to-rail is guaranteed.\nAt the input, however, we do not need rail-to-rail operation.",
+      "text": "The first reason to require a rail-to-rail input range is to be able to maintain the same Signal-to-Noise ratio for smaller supply voltages. Indeed signal swings decrease with the supply voltage. A rail-to-rail swing at the input is the highest that can be obtained. For maximum output swing, a fully-differential operation is a must as well. At the output, it is easy to provide a rail-to-rail swing. We simply take two output transistors Drain to Drain. For a capacitive load, rail-to-rail is guaranteed. At the input, however, we do not need rail-to-rail operation."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The first reason to require a rail-to-rail input range is to be able to maintain the same Signal-to-Noise ratio for smaller supply voltages. Indeed signal swings decrease with the supply voltage. A rail-to-rail swing at the input is the highest that can be obtained. For maximum output swing, a fully-differential operation is a must as well. At the output, it is easy to provide a rail-to-rail swing. We simply take two output transistors Drain to Drain. For a capacitive load, rail-to-rail is guaranteed. At the input, however, we do not need rail-to-rail operation.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Why rail-to-rail amplifiers ?",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0295_01_113.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135592891525432,
+          0.07804878112195124,
+          0.5864406746779662,
+          0.14146341526829265
+        ],
+        "confidence": 1,
+        "text": "Why rail-to-rail amplifiers ?"
+      },
+      {
+        "bbox": [
+          0.07457627597457621,
+          0.28780487780487807,
+          0.8406779708898304,
+          0.3463414631707318
+        ],
+        "confidence": 0.5,
+        "text": "• For low supply voltages : use full range for"
+      },
+      {
+        "bbox": [
+          0.10508474214689274,
+          0.36585365873983733,
+          0.5389830472316385,
+          0.41951219532520323
+        ],
+        "confidence": 1,
+        "text": "maximum dynamic range"
+      },
+      {
+        "bbox": [
+          0.07457627508474568,
+          0.46341463396341465,
+          0.6983050886440676,
+          0.5219512193292682
+        ],
+        "confidence": 1,
+        "text": "• Fully differential signal processing"
+      },
+      {
+        "bbox": [
+          0.07457627585956411,
+          0.5658536582578398,
+          0.7288135639951574,
+          0.6243902436236934
+        ],
+        "confidence": 1,
+        "text": "• Rail-to-rail output is always required"
+      },
+      {
+        "bbox": [
+          0.0745762763841807,
+          0.6634146336178862,
+          0.7389830560451977,
+          0.7268292677642277
+        ],
+        "confidence": 1,
+        "text": "• But not necessarily rail-to-rail-input !"
+      },
+      {
+        "bbox": [
+          0.7254237263135593,
+          0.946341463597561,
+          0.9254237263135594,
+          0.9804878050609757
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 11.6 113"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0295_01_113.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "We simply take two output transistors Drain to Drain.",
+        "pdf_page": 295,
+        "printed_page": 302,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Indeed signal swings decrease with the supply voltage.",
+      "pdf_page": 295,
+      "printed_page": 302,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

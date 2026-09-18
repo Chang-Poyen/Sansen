@@ -1,0 +1,57 @@
+12 Chapter #1
+0121
+In most amplifiers the
+MOST operates in the satu-
+ration region, i.e. we main-
+tain V >V −V at all
+DS GS T
+times. We obtain the
+I −V curve shown
+DS GS
+before. A closer look how-
+ever, reveals that this curve
+has three distinctive regions.
+The one in the middle is
+called the strong-inversion
+region or square-law region
+as the current expression
+contains the factor
+(V −V )2.
+GS T
+At lower currents we find
+the weak-inversion region, or exponential region because the current expression now contains
+an exponential in V . Indeed a log(I ) curve is linear in that region.
+GS DS
+At higher currents the I −V curve becomes linear, because of several physical phenomena.
+DS GS
+The most important one is velocity saturation: all electrons reach their maximum speed v .
+sat
+Most transistors are biased in the strong-inversion region because this is a good compromise
+between current efficiency and speed, as explained later. In this region, the current expression is
+simply proportional to (V −V )2, but includes a technological parameter as well K∞.
+GS T
+This parameter K∞ is linked to the one in the linear region KP by the ratio 2n. It is thus
+always smaller than KP. It is not very accurately known however, because of the mobility (in
+KP) and especially n. Remember that n depends on biasing voltages and so does K∞.
+0122
+Let us now make an ampli-
+fier using one single
+nMOST.
+We assume that transistor
+is biased at some DC cur-
+rent I . We want to know
+DS
+now what is the small-signal
+or AC current i superim-
+DS
+posed on it by application
+of a small-signal input volt-
+age v .
+GS
+For this purpose we have
+to find the transistor trans-
+conductance g . This is
+m
+nothing else than the deriva-
+tive of the drain current to
+the Gate-Source voltage, as shown by the expression on the left.

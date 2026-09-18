@@ -1,0 +1,48 @@
+Rail-to-rail input and output amplifiers 333
+1165
+In this realization a current
+is generated which is trian-
+gular with its maximum at
+0.5 V, and which becomes
+zero for inputs below 0.2 V
+or higher than 0.8 V.
+The actual input voltage
+and the Gate voltages are
+plotted versus average input
+voltage. It is clearly seen
+that for input voltages larger
+than 0.5 V, the nMOST
+already conducts. Also, the
+pMOST conducts for input
+voltages up to 0.5 V. A rail-
+to-rail input range is now
+obtained.
+1166
+The full schematic is shown
+in this slide.
+Four resistors and current
+sources are used to level-
+shift the inputs. The currents
+I are derived in a separate
+B
+current generator.
+The outputs then simply
+go to two differential cur-
+rent amplifiers. A simple
+second stage is provided to
+be able to output the signal.
+This rail-to-rail input
+arrangement also has some
+drawbacks. First of all, the
+four current sources I , may
+B
+not match that well. Their difference in current flows out and gives rise to a kind of bias current
+(as is common in bipolar amplifiers). Moreover, they may not be the same for both inputs. There
+is thus also an offset current.
+Another disadvantage is the presence of noisy resistors in series with all four inputs. The noise
+performance will now suffer.
+It is possible to reduce these resistors but larger currents I are required, worsening the input
+B
+offset currents.
+It is the only rail-to-rail input opamp however, which works on 1 V for conventional V ’s.
+T

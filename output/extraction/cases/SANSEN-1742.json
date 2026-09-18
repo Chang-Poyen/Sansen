@@ -1,0 +1,222 @@
+{
+  "case_id": "SANSEN-1742",
+  "slide_id": "1742",
+  "chapter": 17,
+  "slide_number_in_chapter": 42,
+  "source": {
+    "pdf_page": 496,
+    "printed_page": 506
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0496_01_1742.jpg",
+      "pdf_page": 496,
+      "printed_page": 506,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 496,
+      "printed_page": 506,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        362.68
+      ],
+      "text_raw": "Note that in phase 1, the left\nside of capacitor aC is\ncharged positively. Its right\nside is negative. During\nphase 2 it will be applied to\nan inverting amplifier con-\nfiguration. We will there-\nfore have a non-inverting\nintegrator.",
+      "text": "Note that in phase 1, the left side of capacitor aC is charged positively. Its right side is negative. During phase 2 it will be applied to an inverting amplifier configuration. We will therefore have a non-inverting integrator."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Note that in phase 1, the left side of capacitor aC is charged positively. Its right side is negative. During phase 2 it will be applied to an inverting amplifier configuration. We will therefore have a non-inverting integrator.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Stray Insensitive SC integrator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0496_01_1742.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432891328825,
+          0.07804878028455287,
+          0.6250000045889639,
+          0.14146341443089427
+        ],
+        "confidence": 1,
+        "text": "Stray Insensitive SC integrator"
+      },
+      {
+        "bbox": [
+          0.3209459459740991,
+          0.3121951215447154,
+          0.37162162164977475,
+          0.3609756093495935
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "aC"
+      },
+      {
+        "bbox": [
+          0.5810810809121623,
+          0.44878048725609754,
+          0.6081081079391892,
+          0.4926829262804877
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.5371621615878379,
+          0.7268292676097561,
+          0.6148648642905405,
+          0.7951219505365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A, ="
+      },
+      {
+        "bbox": [
+          0.7837837847972974,
+          0.4341463414024389,
+          0.8648648658783784,
+          0.4780487804268292
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.6655405409266409,
+          0.7317073174912893,
+          0.7331081084942085,
+          0.790243902857143
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= a"
+      },
+      {
+        "bbox": [
+          0.7195945967483108,
+          0.9414634140853658,
+          0.9391891913429052,
+          0.9853658531097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 N1742"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0496_01_1742.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We will therefore have a non-inverting integrator.",
+      "pdf_page": 496,
+      "printed_page": 506,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Note that in phase 1, the left side of capacitor aC is charged positively.",
+      "pdf_page": 496,
+      "printed_page": 506,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "During phase 2 it will be applied to an inverting amplifier configuration.",
+      "pdf_page": 496,
+      "printed_page": 506,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1742-M01",
+      "ocr_text": "A, =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5371621615878379,
+        0.7268292676097561,
+        0.6148648642905405,
+        0.7951219505365854
+      ],
+      "context_crop": "regions/SANSEN-1742_math_01.png",
+      "context_bbox_normalized": [
+        0.49716216158783794,
+        0.6268292676097561,
+        0.8448648642905405,
+        0.9251219505365854
+      ],
+      "source_image": "slides/p0496_01_1742.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1742-M02",
+      "ocr_text": "= a",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6655405409266409,
+        0.7317073174912893,
+        0.7331081084942085,
+        0.790243902857143
+      ],
+      "context_crop": "regions/SANSEN-1742_math_02.png",
+      "context_bbox_normalized": [
+        0.6255405409266409,
+        0.6317073174912893,
+        0.9631081084942085,
+        0.920243902857143
+      ],
+      "source_image": "slides/p0496_01_1742.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

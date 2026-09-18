@@ -1,0 +1,156 @@
+{
+  "case_id": "SANSEN-1159",
+  "slide_id": "1159",
+  "chapter": 11,
+  "slide_number_in_chapter": 59,
+  "source": {
+    "pdf_page": 323,
+    "printed_page": 330
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0323_01_1159.jpg",
+      "pdf_page": 323,
+      "printed_page": 330,
+      "bbox_pt": [
+        91.521622,
+        182.316956,
+        374.78981,
+        378.776947
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 323,
+      "printed_page": 330,
+      "bbox_pt": [
+        0,
+        178.3273999999999,
+        595,
+        427.60200000000003
+      ],
+      "text_raw": "The polarities of the circular\ncurrents are indicated. The\n+input is assumed to rise.\nIt is clear that both rising\ncurrents are led to a floating\ncurrent mirror (most right),\nthe output of which goes to\nthe second stage.\nBoth currents of opposite\npolarity are flowing through\nthe left floating current\nmirror. Its output goes to\nthe other output transistor.",
+      "text": "The polarities of the circular currents are indicated. The +input is assumed to rise. It is clear that both rising currents are led to a floating current mirror (most right), the output of which goes to the second stage. Both currents of opposite polarity are flowing through the left floating current mirror. Its output goes to the other output transistor."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The polarities of the circular currents are indicated. The +input is assumed to rise. It is clear that both rising currents are led to a floating current mirror (most right), the output of which goes to the second stage. Both currents of opposite polarity are flowing through the left floating current mirror. Its output goes to the other output transistor.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Maximum-current selecting circuit",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0323_01_1159.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432793918918,
+          0.07804878112195124,
+          0.6925675711824324,
+          0.14146341526829265
+        ],
+        "confidence": 1,
+        "text": "Maximum-current selecting circuit"
+      },
+      {
+        "bbox": [
+          0.08108108162162161,
+          0.24390243897560981,
+          0.13513513567567567,
+          0.2975609755609756
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.331081081554054,
+          0.5804878046829268,
+          0.37837837885135134,
+          0.6195121949268293
+        ],
+        "confidence": 1,
+        "text": "→"
+      },
+      {
+        "bbox": [
+          0.09121621657818531,
+          0.7853658535540071,
+          0.14189189225386098,
+          0.8390243901393729
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.19246745059224193,
+          0.7992450567990074,
+          0.3311811970497285,
+          0.8397793321330632
+        ],
+        "confidence": 1,
+        "text": "Input stage"
+      },
+      {
+        "bbox": [
+          0.7263513607793309,
+          0.9414634151467572,
+          0.9324324289729212,
+          0.9804878042276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1159"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0323_01_1159.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The +input is assumed to rise.",
+      "pdf_page": 323,
+      "printed_page": 330,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

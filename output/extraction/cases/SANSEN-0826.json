@@ -1,0 +1,190 @@
+{
+  "case_id": "SANSEN-0826",
+  "slide_id": "0826",
+  "chapter": 8,
+  "slide_number_in_chapter": 26,
+  "source": {
+    "pdf_page": 245,
+    "printed_page": 251
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0245_02_0826.jpg",
+      "pdf_page": 245,
+      "printed_page": 251,
+      "bbox_pt": [
+        91.521622,
+        493.07550100000003,
+        374.78981,
+        689.535492
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 245,
+      "printed_page": 251,
+      "bbox_pt": [
+        0,
+        489.0860250000004,
+        595,
+        797
+      ],
+      "text_raw": "The source followers in the\nprevious realization take a\nlot of power. This is why\nthey are left out in this third\ntype of CMFB.\nThis one will take less\npower. However, some\nother disadvantage will\nshow up. The output swing\nwill be limited by the CMFB\namplifier, not by the\ndifferential one!",
+      "text": "The source followers in the previous realization take a lot of power. This is why they are left out in this third type of CMFB. This one will take less power. However, some other disadvantage will show up. The output swing will be limited by the CMFB amplifier, not by the differential one!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The source followers in the previous realization take a lot of power. This is why they are left out in this third type of CMFB. This one will take less power. However, some other disadvantage will show up. The output swing will be limited by the CMFB amplifier, not by the differential one!",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0245_02_0826.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270053088803,
+          0.08292682944250873,
+          0.38175675458494207,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10135135061936933,
+          0.2878048785365853,
+          0.41216216143018014,
+          0.3463414639024389
+        ],
+        "confidence": 1,
+        "text": "• Requirements"
+      },
+      {
+        "bbox": [
+          0.09797298016891877,
+          0.36097560946341467,
+          0.8175675747635134,
+          0.4292682923902439
+        ],
+        "confidence": 1,
+        "text": "• Fully-diff. amps with linear MOSTs"
+      },
+      {
+        "bbox": [
+          0.09797296558277045,
+          0.4439024381707317,
+          0.9324324250422299,
+          0.512195121097561
+        ],
+        "confidence": 1,
+        "text": "• FDA's with error amp.& source followers"
+      },
+      {
+        "bbox": [
+          0.09797297818130625,
+          0.5219512189430895,
+          0.8040540592623874,
+          0.5902439018699187
+        ],
+        "confidence": 1,
+        "text": "• Folded cascode OTA without SF's"
+      },
+      {
+        "bbox": [
+          0.09797297162162165,
+          0.6146341471341463,
+          0.6858108094594595,
+          0.6780487812804877
+        ],
+        "confidence": 1,
+        "text": "• Other fully-differential amps"
+      },
+      {
+        "bbox": [
+          0.09787598289745925,
+          0.6919505181705061,
+          0.30752942486787205,
+          0.7519519193739408
+        ],
+        "confidence": 1,
+        "text": "• Exercise"
+      },
+      {
+        "bbox": [
+          0.719180305682591,
+          0.9409447028960779,
+          0.9330056861625582,
+          0.9869175595572465
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 05 0826"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "However, some other disadvantage will show up.",
+      "pdf_page": 245,
+      "printed_page": 251,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0245_02_0826.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The source followers in the previous realization take a lot of power.",
+        "pdf_page": 245,
+        "printed_page": 251,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The output swing will be limited by the CMFB amplifier, not by the differential one!",
+      "pdf_page": 245,
+      "printed_page": 251,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

@@ -1,0 +1,49 @@
+digraph gainboost_sfg {
+rankdir=TB; bgcolor="white"; pad=0.35; nodesep=0.45; ranksep=0.7;
+node [fontname="Helvetica",fontsize=17,color="#22696b",penwidth=1.4];
+edge [fontname="Helvetica",fontsize=13,color="#416b68",fontcolor="#234b52",arrowsize=0.75];
+vi [label="vi\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=2];
+im1 [label="im1\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+io1 [label="io1\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+vx [label="vx\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+va0 [label="va0\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+iCA [label="iCA\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+iRA [label="iRA\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+va [label="va\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+vgs2 [label="vgs2\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+im2 [label="im2\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+iL [label="iL\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+io2 [label="io2\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+vR2 [label="vR2\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+vo [label="vo\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+vRA [label="vRA\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+{rank=same; vi;}
+{rank=same; im1;}
+{rank=same; io1;}
+{rank=same; vx;}
+{rank=same; va0; iCA; vgs2;}
+{rank=same; iRA; im2; iL;}
+{rank=same; io2; vRA;}
+{rank=same; va; vR2;}
+{rank=same; vo;}
+vi -> im1 [label="gm1 [G1]",constraint=true,color="#416b68"];
+va -> vgs2 [label="1 [G2]",constraint=false,color="#416b68"];
+vx -> vgs2 [label="-1 [G2]",constraint=true,color="#ac4752"];
+vgs2 -> im2 [label="gm2 [G3]",constraint=true,color="#416b68"];
+vo -> iL [label="s*CL [G4]",constraint=false,color="#416b68"];
+im2 -> io2 [label="-1 [G5]",constraint=true,color="#ac4752"];
+iL -> io2 [label="-1 [G5]",constraint=true,color="#ac4752"];
+io2 -> vR2 [label="ro2 [G6]",constraint=true,color="#416b68"];
+vx -> vo [label="1 [G7]",constraint=true,color="#416b68"];
+vR2 -> vo [label="1 [G7]",constraint=true,color="#416b68"];
+im2 -> io1 [label="1 [G8]",constraint=false,color="#416b68"];
+io2 -> io1 [label="1 [G8]",constraint=false,color="#416b68"];
+im1 -> io1 [label="-1 [G8]",constraint=true,color="#ac4752"];
+io1 -> vx [label="ro1 [G9]",constraint=true,color="#416b68"];
+vx -> va0 [label="-BA [G10]",constraint=true,color="#ac4752"];
+va -> iCA [label="s*CA [G11]",constraint=false,color="#416b68"];
+iCA -> iRA [label="1 [G12]",constraint=true,color="#416b68"];
+iRA -> vRA [label="RA [G13]",constraint=true,color="#416b68"];
+va0 -> va [label="1 [G14]",constraint=true,color="#416b68"];
+vRA -> va [label="-1 [G14]",constraint=true,color="#ac4752"];
+}

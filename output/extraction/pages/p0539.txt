@@ -1,0 +1,50 @@
+Distortion in elementary transistor circuits 549
+The IM is now reduced
+3
+or the IP is increased.
+3
+Actually, there are two
+possible realizations of the
+same principle. For small-
+signal performance they are
+almost the same. Actually,
+the circuit with a single
+resistor 2R (on the right) has
+the advantage that we do
+not have to try to match two
+separate resistors. On the
+other hand, the output
+capacitances of the bias cur-
+rent sources I will limit
+bias
+the high-frequency perfor-
+mance, which is not the case
+for the left circuit.
+The main difference however, is that for the left circuit, the DC bias current I flows through
+bias
+the resistor R, which is not the case on the right. For large resistors R and low supply voltages,
+the circuit on the right is the better one.
+Differential amplifiers with a large input range, and hence low distortion, are called transcon-
+ductors. They are used intensively for continuous-time filters, discussed in the next Chapter.
+1862
+Because of the limited
+supply voltage, very large
+value of resistor R cannot be
+used. Additional feedback is
+now required as shown in
+this slide.
+The purpose of all such
+circuits is to increase the
+loop gain to reduce the dis-
+tortion. This can be done by
+addition of just one or two
+transistors in the feedback
+loop, as shown on the left,
+or by an inclusion of a full
+operational amplifier, as
+shown on the right.
+In the latter case, the loop gain at low frequencies is very high. As a result the differential
+input voltage is enforced upon the resistor 2R, giving rise to a very linear voltage to current
+conversion.
+For a high-frequency transconductor the circuit on the left may be preferred, as its loop gain
+may be higher at high frequencies.

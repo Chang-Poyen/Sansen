@@ -1,0 +1,297 @@
+{
+  "case_id": "SANSEN-1617",
+  "slide_id": "1617",
+  "chapter": 16,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 455,
+    "printed_page": 464
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0456_01_1617.jpg",
+      "pdf_page": 456,
+      "printed_page": 465,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 455,
+      "printed_page": 464,
+      "bbox_pt": [
+        0,
+        606.82245,
+        595,
+        797
+      ],
+      "text_raw": "A few simple startup circuits are shown in this slide.\nA capacitance at the base of the pnp current mirror draws a current when the supply voltage\nis switched on. This current flows through the pnp transistors and starts injecting a current in\nthe bottom npn transistors as well, biasing up the bandgap reference circuit.\nHowever, if for some other reason the current drops to zero, then the supply voltage has to\nbe switched on and off again.",
+      "text": "A few simple startup circuits are shown in this slide. A capacitance at the base of the pnp current mirror draws a current when the supply voltage is switched on. This current flows through the pnp transistors and starts injecting a current in the bottom npn transistors as well, biasing up the bandgap reference circuit. However, if for some other reason the current drops to zero, then the supply voltage has to be switched on and off again."
+    },
+    {
+      "pdf_page": 456,
+      "printed_page": 465,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        416.49102500000015
+      ],
+      "text_raw": "The other circuit is better\nwith this respect. When the\nsupply voltage is switched\non, diode D is forward\n2\nbiased, drawing current\nthrough the pnp transistors,\nand biasing up the total cir-\ncuit. However, the current\nalso starts flowing through\nresistor R .The voltage\nstart\nacross this resistor increases\nuntil about 0.7 V below the\nsupply voltage. Diode D is\n2\nthen reverse biased, and dis-\nconnected from the actual\nbandgap circuit. In this way\nthe currents in the bandgap are not disturbed.\nA similar arrangement with diodes is shown below.\nThe startup circuit below left is different. When the supply voltage is turned on, transistor Q4\nstarts drawing current, biasing up the bandgap reference. This circuit on its turn drives Q3,\nwhich switches Q4 off again. As a result transistor Q4 does not influence the current balance in\nthe bandgap circuit.",
+      "text": "The other circuit is better with this respect. When the supply voltage is switched on, diode D is forward 2 biased, drawing current through the pnp transistors, and biasing up the total circuit. However, the current also starts flowing through resistor R .The voltage start across this resistor increases until about 0.7 V below the supply voltage. Diode D is 2 then reverse biased, and disconnected from the actual bandgap circuit. In this way the currents in the bandgap are not disturbed. A similar arrangement with diodes is shown below. The startup circuit below left is different. When the supply voltage is turned on, transistor Q4 starts drawing current, biasing up the bandgap reference. This circuit on its turn drives Q3, which switches Q4 off again. As a result transistor Q4 does not influence the current balance in the bandgap circuit."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A few simple startup circuits are shown in this slide. A capacitance at the base of the pnp current mirror draws a current when the supply voltage is switched on. This current flows through the pnp transistors and starts injecting a current in the bottom npn transistors as well, biasing up the bandgap reference circuit. However, if for some other reason the current drops to zero, then the supply voltage has to be switched on and off again.\n\nThe other circuit is better with this respect. When the supply voltage is switched on, diode D is forward 2 biased, drawing current through the pnp transistors, and biasing up the total circuit. However, the current also starts flowing through resistor R .The voltage start across this resistor increases until about 0.7 V below the supply voltage. Diode D is 2 then reverse biased, and disconnected from the actual bandgap circuit. In this way the currents in the bandgap are not disturbed. A similar arrangement with diodes is shown below. The startup circuit below left is different. When the supply voltage is turned on, transistor Q4 starts drawing current, biasing up the bandgap reference. This circuit on its turn drives Q3, which switches Q4 off again. As a result transistor Q4 does not influence the current balance in the bandgap circuit.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Start-up circuits",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0456_01_1617.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108313223936,
+          0.08780487783972124,
+          0.36824324529440156,
+          0.14634146320557484
+        ],
+        "confidence": 1,
+        "text": "Start-up circuits"
+      },
+      {
+        "bbox": [
+          0.09459459521396396,
+          0.3463414633333334,
+          0.1689189195382883,
+          0.39512195113821136
+        ],
+        "confidence": 1,
+        "text": "Cstart"
+      },
+      {
+        "bbox": [
+          0.22972972926520271,
+          0.6439024393292684,
+          0.26689189142736486,
+          0.678048780792683
+        ],
+        "confidence": 1,
+        "text": "Q4"
+      },
+      {
+        "bbox": [
+          0.3175675679054054,
+          0.648780487609756,
+          0.3513513516891892,
+          0.6780487802926829
+        ],
+        "confidence": 0.5,
+        "text": "Q1"
+      },
+      {
+        "bbox": [
+          0.34121621683558556,
+          0.7804878053906597,
+          0.40540540602477476,
+          0.8195121944715447
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "r: 1"
+      },
+      {
+        "bbox": [
+          0.45945945931165544,
+          0.5902439022256097,
+          0.4898648647170608,
+          0.6243902436890244
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.5709459463260135,
+          0.21463414621951227,
+          0.601351351731419,
+          0.25365853646341463
+        ],
+        "confidence": 0.5,
+        "text": "D1"
+      },
+      {
+        "bbox": [
+          0.5337837847972974,
+          0.3560975614146342,
+          0.6418918929054055,
+          0.4000000004390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RSTART <"
+      },
+      {
+        "bbox": [
+          0.6722972976351352,
+          0.2292682932317074,
+          0.706081081418919,
+          0.27317073225609756
+        ],
+        "confidence": 0.5,
+        "text": "D2"
+      },
+      {
+        "bbox": [
+          0.7398648650900901,
+          0.5804878043902439,
+          0.7804054056306307,
+          0.6097560970731708
+        ],
+        "confidence": 0.5,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.874999999436937,
+          0.7170731708943089,
+          0.9087837832207207,
+          0.7463414635772357
+        ],
+        "confidence": 1,
+        "text": "Q1"
+      },
+      {
+        "bbox": [
+          0.7668918916666666,
+          0.7853658533739837,
+          0.8006756754504505,
+          0.8195121948373983
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "r:"
+      },
+      {
+        "bbox": [
+          0.8547297291891891,
+          0.829268292097561,
+          0.9222972967567568,
+          0.8878048774634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3 R2"
+      },
+      {
+        "bbox": [
+          0.7094594621199324,
+          0.9463414631707318,
+          0.9222972999577702,
+          0.9756097558536586
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 1617"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A few simple startup circuits are shown in this slide.",
+      "pdf_page": 455,
+      "printed_page": 464,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A similar arrangement with diodes is shown below.",
+      "pdf_page": 456,
+      "printed_page": 465,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0456_01_1617.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A capacitance at the base of the pnp current mirror draws a current when the supply voltage is switched on.",
+        "pdf_page": 455,
+        "printed_page": 464,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "However, the current also starts flowing through resistor R .The voltage start across this resistor increases until about 0.7 V below the supply voltage.",
+      "pdf_page": 456,
+      "printed_page": 465,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result transistor Q4 does not influence the current balance in the bandgap circuit.",
+      "pdf_page": 456,
+      "printed_page": 465,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1617-M01",
+      "ocr_text": "RSTART <",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5337837847972974,
+        0.3560975614146342,
+        0.6418918929054055,
+        0.4000000004390244
+      ],
+      "context_crop": "regions/SANSEN-1617_math_01.png",
+      "context_bbox_normalized": [
+        0.4937837847972974,
+        0.25609756141463424,
+        0.8718918929054055,
+        0.5300000004390244
+      ],
+      "source_image": "slides/p0456_01_1617.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

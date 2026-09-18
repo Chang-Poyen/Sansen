@@ -1,0 +1,154 @@
+{
+  "case_id": "SANSEN-0317",
+  "slide_id": "0317",
+  "chapter": 3,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 95,
+    "printed_page": 97
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0095_02_0317.jpg",
+      "pdf_page": 95,
+      "printed_page": 97,
+      "bbox_pt": [
+        91.521622,
+        347.835633,
+        374.78981,
+        544.295624
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 95,
+      "printed_page": 97,
+      "bbox_pt": [
+        0,
+        343.8462,
+        595,
+        582.90655
+      ],
+      "text_raw": "The second and more im-\nportant two-transistor ele-\nmentary circuit is a differ-\nential pair. Actually, it is\ntwo single-transistor ampli-\nfiers in parallel, in order to\nreject disturbing common-\nmode signals. It will thus\nbe the basis for all fully-\ndifferential circuits.\nIn mixed-signal circuitry,\nonly fully-differential cir-\ncuits can be allowed, in\norder to reject ground noise,\nsupply line spikes, etc.\nFirst of all, wee start with\na simple differential pair. Addition of two load resistors yields a voltage differential amplifier",
+      "text": "The second and more important two-transistor elementary circuit is a differential pair. Actually, it is two single-transistor amplifiers in parallel, in order to reject disturbing commonmode signals. It will thus be the basis for all fullydifferential circuits. In mixed-signal circuitry, only fully-differential circuits can be allowed, in order to reject ground noise, supply line spikes, etc. First of all, wee start with a simple differential pair. Addition of two load resistors yields a voltage differential amplifier"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The second and more important two-transistor elementary circuit is a differential pair. Actually, it is two single-transistor amplifiers in parallel, in order to reject disturbing commonmode signals. It will thus be the basis for all fullydifferential circuits. In mixed-signal circuitry, only fully-differential circuits can be allowed, in order to reject ground noise, supply line spikes, etc. First of all, wee start with a simple differential pair. Addition of two load resistors yields a voltage differential amplifier",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0095_02_0317.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432048141904,
+          0.07804878067073173,
+          0.38175675291385147,
+          0.13170731725609763
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.17229729510135133,
+          0.36097560926829275,
+          0.4797297275337838,
+          0.40975609707317073
+        ],
+        "confidence": 0.5,
+        "text": "• Current mirrors"
+      },
+      {
+        "bbox": [
+          0.1722972952702703,
+          0.44878048707317064,
+          0.4966216195945946,
+          0.5073170724390244
+        ],
+        "confidence": 1,
+        "text": "• Differential pairs"
+      },
+      {
+        "bbox": [
+          0.17229730212355204,
+          0.5463414631707318,
+          0.8479729777992278,
+          0.5999999997560976
+        ],
+        "confidence": 1,
+        "text": "• Differential voltage and current amps"
+      },
+      {
+        "bbox": [
+          0.7191871285872018,
+          0.9410570844118943,
+          0.9296168743386599,
+          0.9867837674935445
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 0317"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0095_02_0317.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Actually, it is two single-transistor amplifiers in parallel, in order to reject disturbing commonmode signals.",
+        "pdf_page": 95,
+        "printed_page": 97,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It will thus be the basis for all fullydifferential circuits.",
+      "pdf_page": 95,
+      "printed_page": 97,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

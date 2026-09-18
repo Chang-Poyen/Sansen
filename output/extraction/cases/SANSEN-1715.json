@@ -1,0 +1,281 @@
+{
+  "case_id": "SANSEN-1715",
+  "slide_id": "1715",
+  "chapter": 17,
+  "slide_number_in_chapter": 15,
+  "source": {
+    "pdf_page": 482,
+    "printed_page": 492
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0482_01_1715.jpg",
+      "pdf_page": 482,
+      "printed_page": 492,
+      "bbox_pt": [
+        91.52162,
+        122.52697999999998,
+        374.54215999999997,
+        318.98694
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 482,
+      "printed_page": 492,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        429.4455100000002
+      ],
+      "text_raw": "In order to be able to switch\nin a larger input voltage, a\nsecond transistor must be\nadded, which is a PMOST.\nIt is driven by the opposite\nclock phase. This is the\nlowest voltage available,\nwhich is usually ground.\nThe nMOST will conduct\nfor lower input voltages,\nwhereas the pMOST will\nconduct for larger input\nvoltages. This parallel con-\nnection will thus always\nhave a low R over the\non\nwhole range of input volt-\nages, from zero to supply voltage V .\nDD\nThis double switch, also called transmission gate, is a good solution for large input voltages.\nHowever, it does not work for small supply voltages.\nFor small supply voltages, none of the two MOSTs can conduct. For example, if the minimum\nvoltage V is taken to be the same as the threshold voltage V , or 0.7 V, then the minimum\nGS T\nsupply voltage is about 1.4 V.",
+      "text": "In order to be able to switch in a larger input voltage, a second transistor must be added, which is a PMOST. It is driven by the opposite clock phase. This is the lowest voltage available, which is usually ground. The nMOST will conduct for lower input voltages, whereas the pMOST will conduct for larger input voltages. This parallel connection will thus always have a low R over the on whole range of input voltages, from zero to supply voltage V . DD This double switch, also called transmission gate, is a good solution for large input voltages. However, it does not work for small supply voltages. For small supply voltages, none of the two MOSTs can conduct. For example, if the minimum voltage V is taken to be the same as the threshold voltage V , or 0.7 V, then the minimum GS T supply voltage is about 1.4 V."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to be able to switch in a larger input voltage, a second transistor must be added, which is a PMOST. It is driven by the opposite clock phase. This is the lowest voltage available, which is usually ground. The nMOST will conduct for lower input voltages, whereas the pMOST will conduct for larger input voltages. This parallel connection will thus always have a low R over the on whole range of input voltages, from zero to supply voltage V . DD This double switch, also called transmission gate, is a good solution for large input voltages. However, it does not work for small supply voltages. For small supply voltages, none of the two MOSTs can conduct. For example, if the minimum voltage V is taken to be the same as the threshold voltage V , or 0.7 V, then the minimum GS T supply voltage is about 1.4 V.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Double Switch or transmission gate",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0482_01_1715.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07765583166251995,
+          0.08124040969775392,
+          0.6919743172458092,
+          0.15258338968715457
+        ],
+        "confidence": 1,
+        "text": "Double Switch or transmission gate"
+      },
+      {
+        "bbox": [
+          0.09810304054951141,
+          0.2523599603344926,
+          0.2612189913117267,
+          0.30861564981590217
+        ],
+        "confidence": 1,
+        "text": "Switch:"
+      },
+      {
+        "bbox": [
+          0.7525423724745763,
+          0.2682926830731708,
+          0.7932203385762713,
+          0.32195121965853657
+        ],
+        "confidence": 0.5,
+        "text": "Ф,"
+      },
+      {
+        "bbox": [
+          0.25423728771186443,
+          0.37560975617886183,
+          0.30508474533898305,
+          0.43414634154471543
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.59661017,
+          0.375609756097561,
+          0.6474576276271187,
+          0.4341463414634146
+        ],
+        "confidence": 0.5,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.4135593224067797,
+          0.5219512194634146,
+          0.45084745800000003,
+          0.5658536584878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф,"
+      },
+      {
+        "bbox": [
+          0.09152542580508466,
+          0.6731707324999999,
+          0.6644067817372881,
+          0.7365853666463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "nMOST: Vin < Voo-Vcs.n = VDD - 0.7 V"
+      },
+      {
+        "bbox": [
+          0.09152542330508474,
+          0.7512195114024391,
+          0.5186440673728814,
+          0.8146341455487806
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "pMOST: Vin > VGs.p = 0.7 V"
+      },
+      {
+        "bbox": [
+          0.08750000293626096,
+          0.8317073173686256,
+          0.8833333190280246,
+          0.8982035918980594
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Minimum Vn = VDD : VDD-VGs.n = Vcs.p => VDD > 1.4 V"
+      },
+      {
+        "bbox": [
+          0.7152542473695434,
+          0.941463414390244,
+          0.932203386980739,
+          0.9756097558536586
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-3s N1715"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0482_01_1715.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This parallel connection will thus always have a low R over the on whole range of input voltages, from zero to supply voltage V .",
+        "pdf_page": 482,
+        "printed_page": 492,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "DD This double switch, also called transmission gate, is a good solution for large input voltages.",
+        "pdf_page": 482,
+        "printed_page": 492,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This parallel connection will thus always have a low R over the on whole range of input voltages, from zero to supply voltage V .",
+      "pdf_page": 482,
+      "printed_page": 492,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "It is driven by the opposite clock phase.",
+      "pdf_page": 482,
+      "printed_page": 492,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1715-M01",
+      "ocr_text": "nMOST: Vin < Voo-Vcs.n = VDD - 0.7 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09152542580508466,
+        0.6731707324999999,
+        0.6644067817372881,
+        0.7365853666463414
+      ],
+      "context_crop": "regions/SANSEN-1715_math_01.png",
+      "context_bbox_normalized": [
+        0.05152542580508466,
+        0.5731707325,
+        0.894406781737288,
+        0.8665853666463414
+      ],
+      "source_image": "slides/p0482_01_1715.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1715-M02",
+      "ocr_text": "pMOST: Vin > VGs.p = 0.7 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09152542330508474,
+        0.7512195114024391,
+        0.5186440673728814,
+        0.8146341455487806
+      ],
+      "context_crop": "regions/SANSEN-1715_math_02.png",
+      "context_bbox_normalized": [
+        0.05152542330508474,
+        0.6512195114024392,
+        0.7486440673728814,
+        0.93
+      ],
+      "source_image": "slides/p0482_01_1715.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1715-M03",
+      "ocr_text": "Minimum Vn = VDD : VDD-VGs.n = Vcs.p => VDD > 1.4 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08750000293626096,
+        0.8317073173686256,
+        0.8833333190280246,
+        0.8982035918980594
+      ],
+      "context_crop": "regions/SANSEN-1715_math_03.png",
+      "context_bbox_normalized": [
+        0.047500002936260964,
+        0.7317073173686256,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0482_01_1715.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

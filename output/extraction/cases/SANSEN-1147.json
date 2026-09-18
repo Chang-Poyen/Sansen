@@ -1,0 +1,220 @@
+{
+  "case_id": "SANSEN-1147",
+  "slide_id": "1147",
+  "chapter": 11,
+  "slide_number_in_chapter": 47,
+  "source": {
+    "pdf_page": 317,
+    "printed_page": 324
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0317_01_1147.jpg",
+      "pdf_page": 317,
+      "printed_page": 324,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 317,
+      "printed_page": 324,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        417.4875000000001
+      ],
+      "text_raw": "The other feedback loop is\na low-dropout voltage regu-\nlator which maintains the\nminimum possible internal\nsupply voltage V . It must\nDD\nequal the sum of the\nV +V voltages of both\nGS DSsat\npairs at half the current. The\npass transistor M is driven\nP\nby amplifier M /M . This\nA R\nlatter transistor acts as a\nresistive load.\nThe half current sources\nare now generated first. The\nfactors of 2 are clearly visi-\nble. Moreover, the input\npairs are duplicated once more, with their four Gates connected together.\nA voltage regulator feedback circuit is added on the right, such that voltage V always equals\nDD\nthe sum of the voltages V +V and the V +V .\nDSsatp GSp GSn DSsatn",
+      "text": "The other feedback loop is a low-dropout voltage regulator which maintains the minimum possible internal supply voltage V . It must DD equal the sum of the V +V voltages of both GS DSsat pairs at half the current. The pass transistor M is driven P by amplifier M /M . This A R latter transistor acts as a resistive load. The half current sources are now generated first. The factors of 2 are clearly visible. Moreover, the input pairs are duplicated once more, with their four Gates connected together. A voltage regulator feedback circuit is added on the right, such that voltage V always equals DD the sum of the voltages V +V and the V +V . DSsatp GSp GSn DSsatn"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The other feedback loop is a low-dropout voltage regulator which maintains the minimum possible internal supply voltage V . It must DD equal the sum of the V +V voltages of both GS DSsat pairs at half the current. The pass transistor M is driven P by amplifier M /M . This A R latter transistor acts as a resistive load. The half current sources are now generated first. The factors of 2 are clearly visible. Moreover, the input pairs are duplicated once more, with their four Gates connected together. A voltage regulator feedback circuit is added on the right, such that voltage V always equals DD the sum of the voltages V +V and the V +V . DSsatp GSp GSn DSsatn",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Internal VoD regulator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0317_01_1147.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0733401129577192,
+          0.06808159474793829,
+          0.4805972961357703,
+          0.14714774104027595
+        ],
+        "confidence": 0.5,
+        "text": "Internal VoD regulator"
+      },
+      {
+        "bbox": [
+          0.20945945989864867,
+          0.41463414634146334,
+          0.2533783788175676,
+          0.47317073170731705
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1вp"
+      },
+      {
+        "bbox": [
+          0.4932432416666666,
+          0.36585365853658536,
+          0.5878378362612612,
+          0.41463414634146334
+        ],
+        "confidence": 1,
+        "text": "VDSsatp"
+      },
+      {
+        "bbox": [
+          0.49662162238175667,
+          0.4682926836585366,
+          0.5641891899493242,
+          0.5268292690243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGSP"
+      },
+      {
+        "bbox": [
+          0.7162162170951707,
+          0.22926829195121956,
+          0.7668918895489736,
+          0.27317073097560973
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.7709090263457582,
+          0.19817655021228175,
+          0.9126514877822619,
+          0.2883971829979858
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Mp Vopext"
+      },
+      {
+        "bbox": [
+          0.8783783782094593,
+          0.31707317040650396,
+          0.9054054052364864,
+          0.35609756065040643
+        ],
+        "confidence": 0.5,
+        "text": "H"
+      },
+      {
+        "bbox": [
+          0.8851351345861487,
+          0.3853658537804878,
+          0.9290540535050676,
+          0.4341463415853658
+        ],
+        "confidence": 0.5,
+        "text": "MR"
+      },
+      {
+        "bbox": [
+          0.7972972968243244,
+          0.5365853659512194,
+          0.8445945941216216,
+          0.5853658537560975
+        ],
+        "confidence": 1,
+        "text": "MA"
+      },
+      {
+        "bbox": [
+          0.861486487204392,
+          0.7804878049390243,
+          0.9189189196368244,
+          0.8243902439634145
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.729729731722973,
+          0.951219511902439,
+          0.9290540560472973,
+          0.9804878045853659
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1147"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0317_01_1147.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Moreover, the input pairs are duplicated once more, with their four Gates connected together.",
+        "pdf_page": 317,
+        "printed_page": 324,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It must DD equal the sum of the V +V voltages of both GS DSsat pairs at half the current.",
+      "pdf_page": 317,
+      "printed_page": 324,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A voltage regulator feedback circuit is added on the right, such that voltage V always equals DD the sum of the voltages V +V and the V +V .",
+      "pdf_page": 317,
+      "printed_page": 324,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

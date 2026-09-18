@@ -1,0 +1,57 @@
+738 Chapter #23
+2354
+ESD protection networks
+can be tested in various
+ways. The simplest model of
+an ESD source is probably
+the Human Body Model. It
+models a human who dis-
+charges into a pin. It con-
+sists of a capacitor C
+HBM
+which is charged to a high
+voltage (kV’s) and dis-
+charged over a small resistor
+R (about 1500 V) and
+HBM
+bonding wire inductor L
+HBM
+to the input pad. A small
+parasitic capacitor C is pre-
+2
+sent as well.
+A protection diode is therefore connected to supply and ground. It must be able to take large
+currents to avoid large voltages at the Gate. In this example, the diode must be able to conduct
+0.67 A/kV overvoltage. It takes a fairly large area, and gives a fairly large capacitor at the input
+of the LNA.
+ESD protection diodes add capacitances to ground however, after the Gate inductance L .
+HBM
+The tuning out of the C capacitance is disturbed somewhat, leading to smaller values of R
+GS
+and larger transistor sizes.
+These capacitances can be tuned out as well. It is always preferable however, to keep the input
+matching network as simple as possible.
+2355
+A HBM models a human.
+Another way to stress the
+input protection is to charge
+a transmission line (Z =
+o
+50 V) to a high voltage and
+to discharge it through a
+large resistor R to the
+TLP
+input pin.
+Resistors R and R
+T,1 T,2
+are added to avoid reflec-
+tions on both ends. The
+diode on the left end is
+added to avoid leakage to
+ground during charging.
+The following test pro-
+cedure is normally adopted.
+The stress test is executed between two pins (here pin1 and pin 2). First of all, the leakage
+current is measured between these two pins. Then a high voltage discharge is applied after which
+the leakage current is measured again. The discharge voltage is stepped up until the leakage
+current has become excessive. An example of such a TLP test is given at the end of this Chapter.

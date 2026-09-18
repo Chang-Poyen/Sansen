@@ -1,0 +1,157 @@
+{
+  "case_id": "SANSEN-1912",
+  "slide_id": "1912",
+  "chapter": 19,
+  "slide_number_in_chapter": 12,
+  "source": {
+    "pdf_page": 561,
+    "printed_page": 572
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0561_02_1912.jpg",
+      "pdf_page": 561,
+      "printed_page": 572,
+      "bbox_pt": [
+        91.521622,
+        348.732483,
+        374.78981,
+        545.192474
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 561,
+      "printed_page": 572,
+      "bbox_pt": [
+        0,
+        344.74300000000005,
+        595,
+        570.9485
+      ],
+      "text_raw": "These six opamps are easily\nseen at the bottom of the\nlayout.\nThe bank of capacitors\ntakes the larger area,\nbecause of better matching.\nThe area required for the\nMOST resistors is quite\nsmall.\nThe tuning circuitry takes\na rather large area. It is dis-\ncussed next.",
+      "text": "These six opamps are easily seen at the bottom of the layout. The bank of capacitors takes the larger area, because of better matching. The area required for the MOST resistors is quite small. The tuning circuitry takes a rather large area. It is discussed next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "These six opamps are easily seen at the bottom of the layout. The bank of capacitors takes the larger area, because of better matching. The area required for the MOST resistors is quite small. The tuning circuitry takes a rather large area. It is discussed next.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Fifth-order elliptic low-pass filter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0561_02_1912.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269780405416,
+          0.08292682943089424,
+          0.6655405356418921,
+          0.14146341479674795
+        ],
+        "confidence": 1,
+        "text": "Fifth-order elliptic low-pass filter"
+      },
+      {
+        "bbox": [
+          0.1891891933558557,
+          0.8487804875609757,
+          0.43918919335585577,
+          0.8829268290243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OP-AMPS FOR FILTER AND INPUT COI"
+      },
+      {
+        "bbox": [
+          0.7635135117820947,
+          0.7804878051219512,
+          0.9020270252956082,
+          0.809756097804878
+        ],
+        "confidence": 1,
+        "text": "Ref. Tsividis"
+      },
+      {
+        "bbox": [
+          0.7633367892528529,
+          0.8180215510299512,
+          0.9157172686015255,
+          0.860027229532476
+        ],
+        "confidence": 1,
+        "text": "JSSC Feb.86,"
+      },
+      {
+        "bbox": [
+          0.7635135128716217,
+          0.8634146343414635,
+          0.8277027020608109,
+          0.8926829270243902
+        ],
+        "confidence": 1,
+        "text": "15-30"
+      },
+      {
+        "bbox": [
+          0.7263513528293918,
+          0.9560975607317074,
+          0.8445945960726351,
+          0.9853658534146342
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.8547297286739866,
+          0.9560975612195121,
+          0.939189188133446,
+          0.9853658539024389
+        ],
+        "confidence": 1,
+        "text": "10.05 1912"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0561_02_1912.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

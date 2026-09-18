@@ -1,0 +1,60 @@
+132 Chapter #4
+0430
+An amplifier which is used
+in a system with a character-
+istic impedance, such as
+600 V in audio and 50 V in
+RF circuits, is characterized
+by a Noise Figure NF.
+The Noise Figure is
+defined as the ratio of the
+total input noise to the noise
+of the source impedance R .
+S
+It actually indicates how
+much noise is added by
+the amplifier to the noise
+already present by the char-
+acteristic source impedance
+R .
+S
+If we now take an amplifier with both an input noise voltage and current (understanding that
+a MOST amplifier has no input noise current), then we can easily determine the expression of
+the Noise Figure.
+The noise source that is now dominant, depends on the value of the source resistor R .
+S
+For a small R , the amplifier is voltage-driven. In this case R di in the numerator is negligible.
+S S ieq
+The noise voltage is then dominant.
+This is not at all surprising, a noise performance of a voltage-driven amplifier is governed by
+the equivalent input noise voltage. The Noise Figure then decreases for increasing R . For a
+S
+large R , the amplifier is current-driven. In this case, dv in the numerator is negligible. The
+S ieq
+noise current is then dominant and the Noise Figure increases for increasing R .
+S
+There must therefore be a minimum, versus R .
+S
+0431
+This minimum is clearly vis-
+ible when the NF, together
+with the N /N ratio, is
+A S
+plotted versus R .
+S
+For small values of R , the
+S
+NF decreases, but increases
+again for large values of R .
+S
+The minimum in the middle
+is simply obtained for the
+ratio of the two equivalent
+input noise sources.
+Operating a bipolar
+amplifier in this minimum
+is called Resistive Noise
+Matching.
+Note that for a voltage
+drive, the larger current gives the larger g and the lower NF. On the other hand, for a current
+m

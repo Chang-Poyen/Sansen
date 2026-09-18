@@ -1,0 +1,52 @@
+Switched-capacitor filters 495
+made larger (larger W/L) or the capacitor smaller. Minimum unit capacitors are about 0.2 pF.
+However, if some gain is required, the other capacitor will be larger.
+Larger switches store more charge and will give rise to other side effects, which will be
+discussed later.
+It can be concluded that switched-capacitor filters do not easily work which clocks beyond a
+few tens of MHz.
+1721
+There is also a minimum fre-
+quency of operation.
+MOST Sources and
+Drains form junctions with
+respect to the substrate (or
+well). They leak. At room
+temperature these leakage
+currents are small but they
+increase drastically at higher
+temperatures. Remember
+that nowadays the Gate
+leaks as well, but this is left
+beyond consideration!
+As a result, the charge
+stored on a capacitor slowly
+disappears. The voltage
+slowly decreases. It ‘‘droops’’. The droop rate dV /dt is given in this slide.
+C
+If a 100 mV signal amplitude is taken, which we can allow to droop by 1% or 1 mV. Then
+the maximum half period is about 2 dt. At room temperature the minimum clock frequency f
+cmin
+is then about 4 Hz. This increases to 4 kHz at 125°C.
+It will be difficult to realize switched-capacitor filters at very low frequencies, unless leakage
+can be better controlled or the temperature lowered!
+1722
+Another problem with
+MOST switches is that the
+terminals are connected by
+parasitic capacitances. In a
+MOST they are the overlap
+capacitances. The larger the
+widths (for smaller R ),
+on
+the larger the overlap
+capacitors.
+The clock pulses are par-
+tially injected in the signal
+path. Indeed, the overlap
+capacitor C forms a
+ovl
+capacitive divider with the
+storage capacitor
+C. if C is about 1 fF and
+ovl

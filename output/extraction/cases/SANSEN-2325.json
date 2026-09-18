@@ -1,0 +1,312 @@
+{
+  "case_id": "SANSEN-2325",
+  "slide_id": "2325",
+  "chapter": 23,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 711,
+    "printed_page": 723
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0711_02_2325.jpg",
+      "pdf_page": 711,
+      "printed_page": 723,
+      "bbox_pt": [
+        91.521622,
+        359.843476,
+        374.78981,
+        556.303467
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 711,
+      "printed_page": 723,
+      "bbox_pt": [
+        0,
+        355.85400000000004,
+        595,
+        797
+      ],
+      "text_raw": "In a classical quasi-static\nmodel of a MOST, we\nassume that any change in\nGate voltage is followed by\nan instantaneous change in\nchannel charge. In practice,\nthere is some delay, how-\never. To change the charge\nin the channel, or in the\ninversion layer, carriers\nmust be drawn from Source\nand Drain, which takes\ntime.\nIn order to model this\ntime delay to a first degree,\na low-pass filter is added at\nthe Gate. It is realized by addition of a resistor R , which forms a low-pass filter with input\nNQS\ncapacitance C .\nGS\nThe value of this resistor R must be about 1/5g (see Chapter 1, Tsividis 1987).\nNQS m\nClearly, this effect is important for really high frequencies, higher than f /5. LNA’s and VCO’s\nT\noperate up to frequencies of f /3, however. This effect must now be taken into account if precise\nT\npredictions are important.\nAlso, if an inductor is added in series with the Gate, then the effect of this resistor is even\nmore important.",
+      "text": "In a classical quasi-static model of a MOST, we assume that any change in Gate voltage is followed by an instantaneous change in channel charge. In practice, there is some delay, however. To change the charge in the channel, or in the inversion layer, carriers must be drawn from Source and Drain, which takes time. In order to model this time delay to a first degree, a low-pass filter is added at the Gate. It is realized by addition of a resistor R , which forms a low-pass filter with input NQS capacitance C . GS The value of this resistor R must be about 1/5g (see Chapter 1, Tsividis 1987). NQS m Clearly, this effect is important for really high frequencies, higher than f /5. LNA’s and VCO’s T operate up to frequencies of f /3, however. This effect must now be taken into account if precise T predictions are important. Also, if an inductor is added in series with the Gate, then the effect of this resistor is even more important."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In a classical quasi-static model of a MOST, we assume that any change in Gate voltage is followed by an instantaneous change in channel charge. In practice, there is some delay, however. To change the charge in the channel, or in the inversion layer, carriers must be drawn from Source and Drain, which takes time. In order to model this time delay to a first degree, a low-pass filter is added at the Gate. It is realized by addition of a resistor R , which forms a low-pass filter with input NQS capacitance C . GS The value of this resistor R must be about 1/5g (see Chapter 1, Tsividis 1987). NQS m Clearly, this effect is important for really high frequencies, higher than f /5. LNA’s and VCO’s T operate up to frequencies of f /3, however. This effect must now be taken into account if precise T predictions are important. Also, if an inductor is added in series with the Gate, then the effect of this resistor is even more important.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Non-quasi static MOST model",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0711_02_2325.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432229729737,
+          0.07317073102439031,
+          0.6148648628378379,
+          0.14146341395121953
+        ],
+        "confidence": 1,
+        "text": "Non-quasi static MOST model"
+      },
+      {
+        "bbox": [
+          0.23648648679054055,
+          0.2536585363414634,
+          0.26689189219594595,
+          0.2975609753658537
+        ],
+        "confidence": 1,
+        "text": "G"
+      },
+      {
+        "bbox": [
+          0.49324324358108107,
+          0.20975609734756095,
+          0.5472972976351351,
+          0.26341463393292686
+        ],
+        "confidence": 1,
+        "text": "QS"
+      },
+      {
+        "bbox": [
+          0.4493243233952703,
+          0.3512195115853658,
+          0.5743243233952703,
+          0.42439024329268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TCgs*"
+      },
+      {
+        "bbox": [
+          0.733108108248874,
+          0.2195121956097561,
+          0.8175675677083334,
+          0.2780487809756098
+        ],
+        "confidence": 1,
+        "text": "NQS"
+      },
+      {
+        "bbox": [
+          0.624999999436937,
+          0.26341463365853657,
+          0.6993243237612613,
+          0.3219512190243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RNQs"
+      },
+      {
+        "bbox": [
+          0.6423948634955291,
+          0.292589219044596,
+          0.8480324602444997,
+          0.4617122592206153
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"Ectt"
+      },
+      {
+        "bbox": [
+          0.20608108040540546,
+          0.478048779902439,
+          0.28040540472972975,
+          0.5365853652682926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RNQs"
+      },
+      {
+        "bbox": [
+          0.24324324341216216,
+          0.5853658540418117,
+          0.27364864881756756,
+          0.6390243906271776
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.09797297199324326,
+          0.6195121945853659,
+          0.202702701722973,
+          0.6731707311707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RNas ="
+      },
+      {
+        "bbox": [
+          0.20601351664376183,
+          0.6512195134410367,
+          0.29817567468192696,
+          0.7210731704889597
+        ],
+        "confidence": 0.5,
+        "text": "5 9m"
+      },
+      {
+        "bbox": [
+          0.09121622018581074,
+          0.7512195118292683,
+          0.5675675715371621,
+          0.8048780484146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Normally important for f > f+/ 5"
+      },
+      {
+        "bbox": [
+          0.09121621993243235,
+          0.8390243910365853,
+          0.4695945983108107,
+          0.9024390251829267
+        ],
+        "confidence": 0.5,
+        "text": "CGs is tuned out by Le !!"
+      },
+      {
+        "bbox": [
+          0.6486486463682433,
+          0.8829268294715448,
+          0.9222972950168918,
+          0.926829268495935
+        ],
+        "confidence": 1,
+        "text": "Ref.Janssens, ACD 1998"
+      },
+      {
+        "bbox": [
+          0.7229729751689189,
+          0.9414634140243903,
+          0.9324324346283784,
+          0.9902439018292684
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2325"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0711_02_2325.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In a classical quasi-static model of a MOST, we assume that any change in Gate voltage is followed by an instantaneous change in channel charge.",
+        "pdf_page": 711,
+        "printed_page": 723,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "To change the charge in the channel, or in the inversion layer, carriers must be drawn from Source and Drain, which takes time.",
+        "pdf_page": 711,
+        "printed_page": 723,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In order to model this time delay to a first degree, a low-pass filter is added at the Gate.",
+        "pdf_page": 711,
+        "printed_page": 723,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Also, if an inductor is added in series with the Gate, then the effect of this resistor is even more important.",
+        "pdf_page": 711,
+        "printed_page": 723,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "In a classical quasi-static model of a MOST, we assume that any change in Gate voltage is followed by an instantaneous change in channel charge.",
+      "pdf_page": 711,
+      "printed_page": 723,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2325-M01",
+      "ocr_text": "RNas =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09797297199324326,
+        0.6195121945853659,
+        0.202702701722973,
+        0.6731707311707317
+      ],
+      "context_crop": "regions/SANSEN-2325_math_01.png",
+      "context_bbox_normalized": [
+        0.05797297199324326,
+        0.5195121945853659,
+        0.432702701722973,
+        0.8031707311707317
+      ],
+      "source_image": "slides/p0711_02_2325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2325-M02",
+      "ocr_text": "Normally important for f > f+/ 5",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09121622018581074,
+        0.7512195118292683,
+        0.5675675715371621,
+        0.8048780484146342
+      ],
+      "context_crop": "regions/SANSEN-2325_math_02.png",
+      "context_bbox_normalized": [
+        0.05121622018581074,
+        0.6512195118292683,
+        0.7975675715371621,
+        0.93
+      ],
+      "source_image": "slides/p0711_02_2325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

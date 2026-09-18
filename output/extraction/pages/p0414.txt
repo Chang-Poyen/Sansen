@@ -1,0 +1,43 @@
+422 Chapter #15
+one of the two input termi-
+nals. In this example, the
+offset voltage is inserted in
+the plus terminal. When
+shifted to the minus termi-
+nal it has the same value but
+opposite sign.
+It is usually a few mV’s
+for a bipolar amplifier. For
+a CMOS amplifier it can be
+up to ten times larger!
+What causes this offset
+voltage? Random effects can
+play a role, but also system-
+atic ones.
+154
+The offset can cause large
+errors in high-gain opamp
+configurations.
+In the example in this
+slide, a small DC voltage is
+amplified coming from a
+thermocouple. A gain of
+1000 is expected. For an
+input voltage this would
+give an output voltage of
+−1 V.
+The output voltage is only
+−596 mV however. An
+offset voltage of 4 mV leaves
+only 6 mV as a voltage
+across the resistor R . The
+S
+voltage across resistor R is
+F
+now 100 times higher, which is 600 mV leading to the output voltage shown.
+This offset causes a large error in gain!
+155
+This offset causes an error in this ADC (analog-to-digital converter) as well. In this flash converter,
+the input voltage V is compared with a voltage which is divided from a reference voltage V .
+in ref
+The comparators indicate at which tap of the reference voltage the input voltage is located.

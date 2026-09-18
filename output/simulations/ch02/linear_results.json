@@ -1,0 +1,899 @@
+[
+  {
+    "id": "intrinsic",
+    "module": "01-intrinsic-gain",
+    "model": "cs",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "cl": 0,
+      "rl": 1000000000000.0
+    },
+    "output": "intrinsic",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 5.0000000100025265e-08,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -100.0,
+    "asset": "assets/intrinsic.svg",
+    "csv": "csv/intrinsic.csv",
+    "approximation": {
+      "name": "\u5ffd\u7565\u5916\u90e8\u8d1f\u8f7d",
+      "max_relative_error_up_to_1MHz": 0.0
+    }
+  },
+  {
+    "id": "loaded_cs",
+    "module": "02-single-pole",
+    "model": "cs",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "cl": 3e-12,
+      "rl": 1000000000000.0
+    },
+    "output": "loaded_cs",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.5669668285136704e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -100.0,
+    "asset": "assets/loaded_cs.svg",
+    "csv": "csv/loaded_cs.csv",
+    "approximation": {
+      "name": "\u5ffd\u7565\u5916\u90e8\u8d1f\u8f7d",
+      "max_relative_error_up_to_1MHz": 7.356474590702614e-07
+    }
+  },
+  {
+    "id": "miller",
+    "module": "03-miller",
+    "model": "miller",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rs": 10000.0,
+      "cf": 5e-13
+    },
+    "output": "miller",
+    "units": "V/V",
+    "variant": "source_resistance_sweep",
+    "passed": true,
+    "max_relative_complex_error": 4.1694927444718494e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -100.0,
+    "asset": "assets/miller.svg",
+    "csv": "csv/miller.csv",
+    "approximation": {
+      "name": "\u7c73\u52d2\u4e3b\u6781\u70b9\u8fd1\u4f3c",
+      "max_relative_error_up_to_1MHz": 0.057669698335974094
+    }
+  },
+  {
+    "id": "miller_low_rs",
+    "module": "03-miller",
+    "model": "miller",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rs": 10,
+      "cf": 5e-13
+    },
+    "output": "miller_low_rs",
+    "units": "V/V",
+    "variant": "source_resistance_sweep",
+    "passed": true,
+    "max_relative_complex_error": 3.767268648595949e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -100.0,
+    "asset": "assets/miller_low_rs.svg",
+    "csv": "csv/miller_low_rs.csv",
+    "approximation": {
+      "name": "\u7c73\u52d2\u4e3b\u6781\u70b9\u8fd1\u4f3c",
+      "max_relative_error_up_to_1MHz": 0.1586810346367714
+    }
+  },
+  {
+    "id": "miller_high_rs",
+    "module": "03-miller",
+    "model": "miller",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rs": 1000000.0,
+      "cf": 5e-13
+    },
+    "output": "miller_high_rs",
+    "units": "V/V",
+    "variant": "source_resistance_sweep",
+    "passed": true,
+    "max_relative_complex_error": 4.633277682909999e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -100.0,
+    "asset": "assets/miller_high_rs.svg",
+    "csv": "csv/miller_high_rs.csv",
+    "approximation": {
+      "name": "\u7c73\u52d2\u4e3b\u6781\u70b9\u8fd1\u4f3c",
+      "max_relative_error_up_to_1MHz": 0.010621071581914512
+    }
+  },
+  {
+    "id": "degeneration",
+    "module": "04-degeneration",
+    "model": "degeneration",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rs": 1000,
+      "rl": 10000
+    },
+    "output": "degeneration",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 2.000000007651437e-08,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -6.21118,
+    "asset": "assets/degeneration.svg",
+    "csv": "csv/degeneration.csv",
+    "approximation": {
+      "name": "\u6df1\u5ea6\u8d1f\u53cd\u9988\uff1b\u5ffd\u7565\u6709\u9650\u8f93\u51fa\u7535\u963b",
+      "max_relative_error_up_to_1MHz": 0.6100000322000008
+    }
+  },
+  {
+    "id": "degeneration_zin",
+    "module": "04-degeneration",
+    "model": "degen_zin",
+    "params": {
+      "gm": 0.002,
+      "cg": 1e-12,
+      "ls": 1e-08
+    },
+    "output": "degeneration_zin",
+    "units": "ohm",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 1.5919512964524337e-05,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 2533050.0,
+    "asset": "assets/degeneration_zin.svg",
+    "csv": "csv/degeneration_zin.csv"
+  },
+  {
+    "id": "diode_z",
+    "module": "05-diode-loads",
+    "model": "diode_z",
+    "params": {
+      "gm": 0.001,
+      "go": 1e-05,
+      "c": 1e-12
+    },
+    "output": "diode_z",
+    "units": "ohm",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.548910454536599e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 990.099,
+    "asset": "assets/diode_z.svg",
+    "csv": "csv/diode_z.csv"
+  },
+  {
+    "id": "diode_load",
+    "module": "05-diode-loads",
+    "model": "diode_load",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "gml": 0.001,
+      "gol": 1e-05,
+      "c": 1e-12
+    },
+    "output": "diode_load",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 3.977296325103737e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -1.94175,
+    "asset": "assets/diode_load.svg",
+    "csv": "csv/diode_load.csv"
+  },
+  {
+    "id": "inverter_dc",
+    "module": "06-inverter-dc",
+    "model": "inverter",
+    "params": {
+      "gmn": 0.002,
+      "gmp": 0.002,
+      "gon": 2e-05,
+      "gop": 2e-05,
+      "ci": 0,
+      "cf": 0,
+      "cl": 3e-12,
+      "rs": 1
+    },
+    "output": "inverter_dc",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.004218756376541e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -100.0,
+    "asset": "assets/inverter_dc.svg",
+    "csv": "csv/inverter_dc.csv"
+  },
+  {
+    "id": "inverter_ac",
+    "module": "07-inverter-ac",
+    "model": "inverter",
+    "params": {
+      "gmn": 0.002,
+      "gmp": 0.002,
+      "gon": 2e-05,
+      "gop": 2e-05,
+      "ci": 1e-12,
+      "cf": 2e-13,
+      "cl": 3e-12,
+      "rs": 10000.0
+    },
+    "output": "inverter_ac",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.8188324419490434e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -100.0,
+    "asset": "assets/inverter_ac.svg",
+    "csv": "csv/inverter_ac.csv"
+  },
+  {
+    "id": "follower_dc",
+    "module": "08-followers-dc",
+    "model": "follower_dc",
+    "params": {
+      "gm": 0.002,
+      "gmb": 0.0004,
+      "go": 2e-05,
+      "gb": 1e-05,
+      "cl": 3e-12
+    },
+    "output": "follower_dc",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.361558610223726e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 0.823045,
+    "asset": "assets/follower_dc.svg",
+    "csv": "csv/follower_dc.csv"
+  },
+  {
+    "id": "follower_cancel",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 8.333333333333333e-05,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": false
+    },
+    "output": "follower_cancel",
+    "units": "V/V",
+    "variant": "cancel",
+    "passed": true,
+    "max_relative_complex_error": 4.057024986088841e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 1.0,
+    "asset": "assets/follower_cancel.svg",
+    "csv": "csv/follower_cancel.csv"
+  },
+  {
+    "id": "follower_cancel_z",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 8.333333333333333e-05,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": true
+    },
+    "output": "follower_cancel_z",
+    "units": "ohm",
+    "variant": "cancel",
+    "passed": true,
+    "max_relative_complex_error": 4.281083234218288e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 12000.0,
+    "asset": "assets/follower_cancel_z.svg",
+    "csv": "csv/follower_cancel_z.csv"
+  },
+  {
+    "id": "follower_book",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 0.0003333333333333333,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": false
+    },
+    "output": "follower_book",
+    "units": "V/V",
+    "variant": "book",
+    "passed": true,
+    "max_relative_complex_error": 3.9634226867892055e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 1.0,
+    "asset": "assets/follower_book.svg",
+    "csv": "csv/follower_book.csv"
+  },
+  {
+    "id": "follower_book_z",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 0.0003333333333333333,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": true
+    },
+    "output": "follower_book_z",
+    "units": "ohm",
+    "variant": "book",
+    "passed": true,
+    "max_relative_complex_error": 4.405360082358327e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 3000.0,
+    "asset": "assets/follower_book_z.svg",
+    "csv": "csv/follower_book_z.csv"
+  },
+  {
+    "id": "follower_center",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 0.002,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": false
+    },
+    "output": "follower_center",
+    "units": "V/V",
+    "variant": "center",
+    "passed": true,
+    "max_relative_complex_error": 4.996633118591883e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 1.0,
+    "asset": "assets/follower_center.svg",
+    "csv": "csv/follower_center.csv"
+  },
+  {
+    "id": "follower_center_z",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 0.002,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": true
+    },
+    "output": "follower_center_z",
+    "units": "ohm",
+    "variant": "center",
+    "passed": true,
+    "max_relative_complex_error": 4.169208304019851e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 500.0,
+    "asset": "assets/follower_center_z.svg",
+    "csv": "csv/follower_center_z.csv"
+  },
+  {
+    "id": "bjt_follower_z",
+    "module": "10-emitter-hf",
+    "model": "bjt_follower",
+    "params": {
+      "gm": 0.002,
+      "go": 1e-05,
+      "beta": 100,
+      "rs": 10000.0,
+      "cpi": 1.4e-12,
+      "cmu": 2e-13,
+      "cce": 1e-12
+    },
+    "output": "bjt_follower_z",
+    "units": "ohm",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.0271727634615175e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 590.551,
+    "asset": "assets/bjt_follower_z.svg",
+    "csv": "csv/bjt_follower_z.csv"
+  },
+  {
+    "id": "active_inductor",
+    "module": "11-active-inductors",
+    "model": "active_inductor",
+    "params": {
+      "gm": 0.002,
+      "rs": 10000.0,
+      "cg": 1e-12
+    },
+    "output": "active_inductor",
+    "units": "ohm",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 3.8288846252897415e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 500.0,
+    "asset": "assets/active_inductor.svg",
+    "csv": "csv/active_inductor.csv",
+    "approximation": {
+      "name": "\u4f4e\u9891\u4e32\u8054 R+L \u8fd1\u4f3c",
+      "max_relative_error_up_to_1MHz": 0.0031416907415892548
+    }
+  },
+  {
+    "id": "common_gate",
+    "module": "12-common-gate",
+    "model": "common_gate",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rb": 100000.0,
+      "rl": 1000000.0
+    },
+    "output": "common_gate",
+    "units": "ohm",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.45544554500398e-07,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 905830.0,
+    "asset": "assets/common_gate.svg",
+    "csv": "csv/common_gate.csv"
+  },
+  {
+    "id": "cascode",
+    "module": "13-cascode",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 0,
+      "top": 0,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "cascode",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.899808465848215e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -10100.0,
+    "asset": "assets/cascode.svg",
+    "csv": "csv/cascode.csv",
+    "approximation": {
+      "name": "\u9ad8\u672c\u5f81\u589e\u76ca\u8fd1\u4f3c",
+      "max_relative_error_up_to_1MHz": 0.009905758680433807
+    }
+  },
+  {
+    "id": "cascode_miller",
+    "module": "14-cascode-miller",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 10000.0,
+      "cf": 5e-13,
+      "cm": 0,
+      "top": 0,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "cascode_miller",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.94584977499246e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -10100.0,
+    "asset": "assets/cascode_miller.svg",
+    "csv": "csv/cascode_miller.csv"
+  },
+  {
+    "id": "cascode_cm_small",
+    "module": "15-cascode-middle-cap",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 1e-12,
+      "top": 0,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "cascode_cm_small",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.8888092749538574e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -10100.0,
+    "asset": "assets/cascode_cm_small.svg",
+    "csv": "csv/cascode_cm_small.csv"
+  },
+  {
+    "id": "cascode_cm_large",
+    "module": "15-cascode-middle-cap",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 1e-09,
+      "top": 0,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "cascode_cm_large",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.948688537435615e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -10100.0,
+    "asset": "assets/cascode_cm_large.svg",
+    "csv": "csv/cascode_cm_large.csv"
+  },
+  {
+    "id": "telescopic",
+    "module": "16-telescopic-folded",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 0,
+      "top": 1,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "telescopic",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.902762577679658e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -5050.0,
+    "asset": "assets/telescopic.svg",
+    "csv": "csv/telescopic.csv"
+  },
+  {
+    "id": "folded",
+    "module": "16-telescopic-folded",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 0,
+      "top": 0,
+      "fold": 1,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "folded",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.374371710344559e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -3333.33,
+    "asset": "assets/folded.svg",
+    "csv": "csv/folded.csv"
+  },
+  {
+    "id": "two_stage",
+    "module": "17-cascade",
+    "model": "two_stage",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.004,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "ci": 1e-12,
+      "cc": 3e-12,
+      "cl": 5e-12
+    },
+    "output": "two_stage",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.395540624728289e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 20000.0,
+    "asset": "assets/two_stage.svg",
+    "csv": "csv/two_stage.csv"
+  },
+  {
+    "id": "gainboost_slow",
+    "module": "18-gain-boosting",
+    "model": "gainboost",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "b0": 20,
+      "wb": 6283.185307179586
+    },
+    "output": "gainboost_slow",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.8910308495058505e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -210098.0,
+    "asset": "assets/gainboost_slow.svg",
+    "csv": "csv/gainboost_slow.csv"
+  },
+  {
+    "id": "gainboost_fast",
+    "module": "18-gain-boosting",
+    "model": "gainboost",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "b0": 20,
+      "wb": 6283185.307179586
+    },
+    "output": "gainboost_fast",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 4.862325458884152e-06,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -210099.0,
+    "asset": "assets/gainboost_fast.svg",
+    "csv": "csv/gainboost_fast.csv"
+  },
+  {
+    "id": "bjt_degen_gain",
+    "module": "20-port-summary",
+    "model": "bjt_degen_gain",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "beta": 100,
+      "rb": 500,
+      "rbext": 1000,
+      "re": 1000,
+      "rl": 10000
+    },
+    "output": "bjt_degen_gain",
+    "units": "V/V",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 5.770154031322209e-07,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": -6.09523,
+    "asset": "assets/bjt_degen_gain.svg",
+    "csv": "csv/bjt_degen_gain.csv"
+  },
+  {
+    "id": "bjt_degen_zout",
+    "module": "20-port-summary",
+    "model": "bjt_degen_zout",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "beta": 100,
+      "rb": 500,
+      "rbext": 1000,
+      "re": 1000,
+      "rl": 10000
+    },
+    "output": "bjt_degen_zout",
+    "units": "ohm",
+    "variant": "nominal",
+    "passed": true,
+    "max_relative_complex_error": 3.25669250404168e-07,
+    "samples": 721,
+    "frequency_Hz": [
+      1.0,
+      1000000000000.0
+    ],
+    "low_frequency_value_real": 146219.0,
+    "asset": "assets/bjt_degen_zout.svg",
+    "csv": "csv/bjt_degen_zout.csv"
+  }
+]

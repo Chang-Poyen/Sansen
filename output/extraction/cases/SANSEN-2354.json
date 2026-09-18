@@ -1,0 +1,426 @@
+{
+  "case_id": "SANSEN-2354",
+  "slide_id": "2354",
+  "chapter": 23,
+  "slide_number_in_chapter": 54,
+  "source": {
+    "pdf_page": 726,
+    "printed_page": 738
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0726_01_2354.jpg",
+      "pdf_page": 726,
+      "printed_page": 738,
+      "bbox_pt": [
+        91.52162,
+        122.52697,
+        374.54215999999997,
+        318.93713
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 726,
+      "printed_page": 738,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        439.4105100000003
+      ],
+      "text_raw": "ESD protection networks\ncan be tested in various\nways. The simplest model of\nan ESD source is probably\nthe Human Body Model. It\nmodels a human who dis-\ncharges into a pin. It con-\nsists of a capacitor C\nHBM\nwhich is charged to a high\nvoltage (kV’s) and dis-\ncharged over a small resistor\nR (about 1500 V) and\nHBM\nbonding wire inductor L\nHBM\nto the input pad. A small\nparasitic capacitor C is pre-\n2\nsent as well.\nA protection diode is therefore connected to supply and ground. It must be able to take large\ncurrents to avoid large voltages at the Gate. In this example, the diode must be able to conduct\n0.67 A/kV overvoltage. It takes a fairly large area, and gives a fairly large capacitor at the input\nof the LNA.\nESD protection diodes add capacitances to ground however, after the Gate inductance L .\nHBM\nThe tuning out of the C capacitance is disturbed somewhat, leading to smaller values of R\nGS\nand larger transistor sizes.\nThese capacitances can be tuned out as well. It is always preferable however, to keep the input\nmatching network as simple as possible.",
+      "text": "ESD protection networks can be tested in various ways. The simplest model of an ESD source is probably the Human Body Model. It models a human who discharges into a pin. It consists of a capacitor C HBM which is charged to a high voltage (kV’s) and discharged over a small resistor R (about 1500 V) and HBM bonding wire inductor L HBM to the input pad. A small parasitic capacitor C is pre- 2 sent as well. A protection diode is therefore connected to supply and ground. It must be able to take large currents to avoid large voltages at the Gate. In this example, the diode must be able to conduct 0.67 A/kV overvoltage. It takes a fairly large area, and gives a fairly large capacitor at the input of the LNA. ESD protection diodes add capacitances to ground however, after the Gate inductance L . HBM The tuning out of the C capacitance is disturbed somewhat, leading to smaller values of R GS and larger transistor sizes. These capacitances can be tuned out as well. It is always preferable however, to keep the input matching network as simple as possible."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "ESD protection networks can be tested in various ways. The simplest model of an ESD source is probably the Human Body Model. It models a human who discharges into a pin. It consists of a capacitor C HBM which is charged to a high voltage (kV’s) and discharged over a small resistor R (about 1500 V) and HBM bonding wire inductor L HBM to the input pad. A small parasitic capacitor C is pre- 2 sent as well. A protection diode is therefore connected to supply and ground. It must be able to take large currents to avoid large voltages at the Gate. In this example, the diode must be able to conduct 0.67 A/kV overvoltage. It takes a fairly large area, and gives a fairly large capacitor at the input of the LNA. ESD protection diodes add capacitances to ground however, after the Gate inductance L . HBM The tuning out of the C capacitance is disturbed somewhat, leading to smaller values of R GS and larger transistor sizes. These capacitances can be tuned out as well. It is always preferable however, to keep the input matching network as simple as possible.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "ESD protection : Human Body model",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0726_01_2354.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07796610639225171,
+          0.08292682895470382,
+          0.7355932250363195,
+          0.14634146310104534
+        ],
+        "confidence": 1,
+        "text": "ESD protection : Human Body model"
+      },
+      {
+        "bbox": [
+          0.0813559262711866,
+          0.19512195152439027,
+          0.5559321974576272,
+          0.23902439054878055
+        ],
+        "confidence": 1,
+        "text": "- CMOS requires ESD protection"
+      },
+      {
+        "bbox": [
+          0.08135594139830486,
+          0.25853658506097554,
+          0.8169491617372879,
+          0.3024390240853658
+        ],
+        "confidence": 1,
+        "text": "- Protection network deteriorates RF performance"
+      },
+      {
+        "bbox": [
+          0.08135592562711877,
+          0.32195121975609753,
+          0.7389830442711867,
+          0.3658536587804878
+        ],
+        "confidence": 1,
+        "text": "- Standards for testing : Human Body Model"
+      },
+      {
+        "bbox": [
+          0.4406779711016948,
+          0.3853658536585366,
+          0.8406779711016948,
+          0.42439024390243896
+        ],
+        "confidence": 1,
+        "text": "Transmission Line Pulse ..."
+      },
+      {
+        "bbox": [
+          0.07796610248587567,
+          0.44878048821138217,
+          0.41016949231638417,
+          0.49756097601626015
+        ],
+        "confidence": 1,
+        "text": "- Human Body Model :"
+      },
+      {
+        "bbox": [
+          0.4915254244632768,
+          0.5317073183987898,
+          0.5355932210734463,
+          0.5707317063166574
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yưa..."
+      },
+      {
+        "bbox": [
+          0.07118644135593219,
+          0.6487804877439025,
+          0.12542372949152542,
+          0.6829268292073172
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VнвM"
+      },
+      {
+        "bbox": [
+          0.20677966152542374,
+          0.639024390097561,
+          0.2576271191525424,
+          0.6731707315609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "PнEA!"
+      },
+      {
+        "bbox": [
+          0.2915254245542503,
+          0.6292682921138211,
+          0.34576270945704923,
+          0.6634146335772357
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LнaM"
+      },
+      {
+        "bbox": [
+          0.4745762716949153,
+          0.6878048778658536,
+          0.5152542377966102,
+          0.7121951217682927
+        ],
+        "confidence": 1,
+        "text": "LNA"
+      },
+      {
+        "bbox": [
+          0.5559322032203391,
+          0.668292682804878,
+          0.5830508472881356,
+          0.6878048779268292
+        ],
+        "confidence": 0.5,
+        "text": "ouf"
+      },
+      {
+        "bbox": [
+          0.5559322029943502,
+          0.6878048782926829,
+          0.5796610165536723,
+          0.7121951221951218
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-E"
+      },
+      {
+        "bbox": [
+          0.14237288076271187,
+          0.7512195117682927,
+          0.1966101688983051,
+          0.7853658532317074
+        ],
+        "confidence": 0.5,
+        "text": "Снвм"
+      },
+      {
+        "bbox": [
+          0.3322033892542373,
+          0.7463414629268293,
+          0.39661016891525425,
+          0.7951219507317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GESD"
+      },
+      {
+        "bbox": [
+          0.6813559323050848,
+          0.5463414628292684,
+          0.8949152543389831,
+          0.604878048195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Снвм = 100 pF"
+      },
+      {
+        "bbox": [
+          0.6808884159795199,
+          0.6060536167056545,
+          0.8919929350638682,
+          0.671995159819549
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RнвM = 1.5 kQ"
+      },
+      {
+        "bbox": [
+          0.6813559337711864,
+          0.6780487800609757,
+          0.8067796625847458,
+          0.7317073166463416
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VHBM="
+      },
+      {
+        "bbox": [
+          0.694915251822034,
+          0.7414634153658537,
+          0.9491525399576273,
+          0.8000000007317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Imax = 0.67 A / KV"
+      },
+      {
+        "bbox": [
+          0.6813559346101695,
+          0.804878048487805,
+          0.9220339007118644,
+          0.853658536292683
+        ],
+        "confidence": 0.5,
+        "text": "Required 2 kV !!"
+      },
+      {
+        "bbox": [
+          0.49830508510198385,
+          0.8439024390243902,
+          0.5254237275533833,
+          0.8731707317073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Уzа"
+      },
+      {
+        "bbox": [
+          0.725423731398305,
+          0.9512195119512196,
+          0.9322033924152543,
+          0.9804878046341464
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2354"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0726_01_2354.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The simplest model of an ESD source is probably the Human Body Model.",
+        "pdf_page": 726,
+        "printed_page": 738,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "A protection diode is therefore connected to supply and ground.",
+        "pdf_page": 726,
+        "printed_page": 738,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It must be able to take large currents to avoid large voltages at the Gate.",
+        "pdf_page": 726,
+        "printed_page": 738,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "ESD protection diodes add capacitances to ground however, after the Gate inductance L .",
+        "pdf_page": 726,
+        "printed_page": 738,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "A protection diode is therefore connected to supply and ground.",
+      "pdf_page": 726,
+      "printed_page": 738,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2354-M01",
+      "ocr_text": "Снвм = 100 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6813559323050848,
+        0.5463414628292684,
+        0.8949152543389831,
+        0.604878048195122
+      ],
+      "context_crop": "regions/SANSEN-2354_math_01.png",
+      "context_bbox_normalized": [
+        0.6413559323050848,
+        0.44634146282926845,
+        1,
+        0.734878048195122
+      ],
+      "source_image": "slides/p0726_01_2354.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2354-M02",
+      "ocr_text": "RнвM = 1.5 kQ",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6808884159795199,
+        0.6060536167056545,
+        0.8919929350638682,
+        0.671995159819549
+      ],
+      "context_crop": "regions/SANSEN-2354_math_02.png",
+      "context_bbox_normalized": [
+        0.6408884159795198,
+        0.5060536167056545,
+        1,
+        0.801995159819549
+      ],
+      "source_image": "slides/p0726_01_2354.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2354-M03",
+      "ocr_text": "VHBM=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6813559337711864,
+        0.6780487800609757,
+        0.8067796625847458,
+        0.7317073166463416
+      ],
+      "context_crop": "regions/SANSEN-2354_math_03.png",
+      "context_bbox_normalized": [
+        0.6413559337711864,
+        0.5780487800609757,
+        1,
+        0.8617073166463416
+      ],
+      "source_image": "slides/p0726_01_2354.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2354-M04",
+      "ocr_text": "Imax = 0.67 A / KV",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.694915251822034,
+        0.7414634153658537,
+        0.9491525399576273,
+        0.8000000007317073
+      ],
+      "context_crop": "regions/SANSEN-2354_math_04.png",
+      "context_bbox_normalized": [
+        0.6549152518220339,
+        0.6414634153658537,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0726_01_2354.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

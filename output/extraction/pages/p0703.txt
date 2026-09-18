@@ -1,0 +1,37 @@
+L ow-noise amplifiers 715
+between LNA and mixer. If they are next to each other there is no need for a 50 V line. Higher
+output impedances can now be used in the LNA.
+Normally, a zero-IF or low-IF architecture is used. In any case, the LNA must have sufficient
+gain to avoid the noise of the mixer to appear at the antenna. Gains of 12–16 dB are typical.
+239
+Let us take as an example,
+a DCS-1800 receiver. It
+operates at a carrier fre-
+quency of 1.8 GHz.
+Several sensitivities and
+values of Noise Figures are
+shown in this slide.
+Remember that 1 dBm is 1
+mW in 50 V, which corres-
+ponds to 224 mV . A sen-
+RMS
+sitivity is specified of
+−100 dBm for an input
+SNR of 9 dB. The input
+noise must be at −109 dBm.
+The bandwidth is
+200 kHz. The Noise Figure
+is 12 dB. If 3 dB loss is taken into account for the channel filter, then a Noise Figure of 9 dB is
+required.
+Let us now try to find out about the distortion.
+Distortion is important to avoid leakage from one channel to the adjacent channels. Especially
+intermodulation and cross-modulation distortion are to be avoided. Both are described by the
+3rd-order intermodulation intercept (IIP3) as shown in Chapter 18.
+A minimum input signal is taken 3 dB higher than the sensitivity specifies. For a high input
+signal at −49 dBm, the SNR must still be 9 dB.
+The distortion specification now leads to a IIP3 of −20.5 dBm.
+Again, to take into account the attenuation in the preceding channel filter, 3 dB has to be
+subtracted, leading to an IIP3 of −23.5 dBm.
+Normally, MOST amplifiers can easily satisfy such a specification, depending on the choice
+of the V −V .
+GS T

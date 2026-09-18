@@ -1,0 +1,47 @@
+231
+Low-noise amplifiers
+(LNA’s) are the first ampli-
+fiers in receivers. They must
+operate at the same high
+frequencies as the carriers
+themselves. For GSM,
+CDMA, etc., these frequen-
+cies are beyond 1 GHz,
+reaching 5 GHz today. In
+car electronics, frequencies
+are reached beyond tens
+of GHz.
+Moreover, such an ampli-
+fier must be able to handle
+very small signals close to
+the noise level and at the
+same time very high signal levels, close to the transmitter antenna. Noise and distortion are both
+of importance at the same time.
+Finally, the reception antenna is usually connected to the amplifier over a transmission line,
+usually with 50 V characteristic impedance.
+Such an amplifier is full of compromises, despite its low count of transistors. Indeed, only a
+few MOSTs are normally used.
+In this Chapter, these compromises will be discussed. Design equations and guide lines will
+be given and checked on their accuracy.
+232
+An example of such a
+receiver is shown in this
+slide.
+The LNA is the first
+amplifier. It is an RF ampli-
+fier followed by a mixer,
+which translates the modu-
+lation content to low fre-
+quencies. After some filter-
+ing, this signal is then con-
+verted in digital form,
+towards a DSP.
+The mixer needs a local
+oscillator, which is normally
+derived from a phase-locked
+loop (PLL). In this feedback
+loop a VCO generates a fre-
+quency, which is locked to an external reference frequency Fref, after a divider by N.
+It is clear that the LNA interacts with the antenna. This is why both the antenna output and
+LNA input must show a characteristic impedance, to avoid reflections. This is discussed next.
+711

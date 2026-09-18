@@ -1,0 +1,65 @@
+190 Chapter #6
+0618
+As an example, we take the
+same CMOS Miller OTA of
+1 MHz for 10 pF, which has
+been used before.
+The currents in both
+stages, i.e. 2g , g and
+m1 m6
+g are plotted versus com-
+mtot
+pensation capacitance C .
+c
+Remember that they stand
+for 2I , I and I but
+DS1 DS6 tot
+are 10 times larger (for
+V −V =0.2 V).
+GS T
+It is clear that the mini-
+mum has a different shape
+from the previous
+illustration.
+This is an ideal plot to select a value of C . It shows that the value of 1 pF is indeed a good
+c
+choice, at least if no other specifications have to be taken into account.
+We could have also taken 2 or even 3 pF as well. Indeed, the additional current consumption
+is still less than the current through the output stage. A larger capacitance would reduce the
+noise, as we will see later in this Chapter.
+Finally, note that for these plots a constant value of C has been assumed. This is not quite
+n1
+true, however. For larger g , the current is also larger and so is the size W/L and the input
+m
+capacitance. As a result C increases with g . If we introduce this relationship, then g is
+n1 m6 m6
+much flatter versus C for small values of C . This does not change our choice of compensation
+c c
+capacitance however, since we have to select a value of at least 2–3 times C .
+n1
+0619
+The second design plan is to
+choose g or the current in
+m6
+the output stage.
+This is also very easy.
+Indeed, we already know
+what the minimum value of
+g is. It is repeated in this
+m6
+slide. It is the value of g
+m6
+obtained for infinite C .
+c
+We now simply take a g
+m6
+value which is 30% larger.
+This means that C will end
+c
+up at a value which is about
+3 times C , as explained by
+n1
+the expression of the non-
+dominant pole.
+This value of g should be close to the minimum in area, which is illustrated in this slide.
+m6

@@ -1,0 +1,53 @@
+80 Chapter #2
+load capacitance C is obviously dominant again. Again, there is a non-dominant pole at f ,
+L nd
+caused by time constant C /g . If g is similar to g , then this non-dominant pole is a lot
+m m2 m2 m1
+higher than the GBW, as C is definitely a lot larger than C .
+L m
+For high values of C however, the time constant r C takes over. This is never likely to
+m o1 m
+occur, as for this region C must be larger than A C , which is a very high capacitance indeed.
+m v2 L
+0258
+Ideal DC current sources do
+not exist, however. They
+have to be realized by means
+of transistors. Such a real-
+ization is shown in this slide.
+MOSTs M3 and M4 are
+used in series to give a DC
+current source with an high
+output resistance.
+If the output resistance of
+transistors M1/M2 is about
+the same as the output resis-
+tance of transistors M3/M4,
+then the total output resis-
+tance R is about half of
+out
+that.
+The bandwidth is obviously determined by the load capacitance. The GBW is then the same
+as for a single-transistor amplifier.
+This cascode configuration is called the Telescopic cascode, as all transistors are in series
+between supply line and ground.
+The main disadvantage of this cascode is that all transistors must be kept in the saturation
+region. This means that the minimum voltage v across each transistor is about V −V . If
+DS GS T
+we take V −V #0.2 V, we find that the maximum output voltage cannot be higher than the
+GS T
+supply voltage minus 0.4 V, and cannot be lower than 0.4 V. The maximum swing is thus 0.8 V
+lower than the supply voltage. This is a major loss for low supply voltages!
+0259
+A folded cascode is used more often, because it has some advantages when used as a differential
+circuit (see Chapter 8). It is called ‘‘folded’’ because the cascode transistor is now a pMOST
+rather than a nMOST. The small-signal current i , which is determined by the input transistor
+ds1
+M1, now flows upwards rather than downwards through the cascode transistor M2.
+Normally the biasing current I is equally split up over the two transistors, so that the DC
+B1
+currents in both transistors are the same. The two current swings are also the same.
+All other specifications such as the gain, the bandwidth and the GBW, are the same as for a
+telescopic cascode. Note, however, that the current consumption is twice that of a telescopic
+cascode.
+Moreover, the maximum output voltage swing is about the same. If we realize the current

@@ -1,0 +1,11 @@
+simulator lang=spectre
+global 0
+// Verify Spectre controlled-current-source terminal convention.
+Vin (vin 0) vsource dc=0 mag=1
+Gm (0 out vin 0) vccs gm=2m
+Ro (out 0) resistor r=50k
+CL (out 0) capacitor c=3p
+ac ac start=1 stop=1G dec=10
+dcOp dc
+save vin out
+saveOptions options save=selected

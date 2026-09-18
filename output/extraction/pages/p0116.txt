@@ -1,0 +1,48 @@
+Noise performance of elementary transistor stages 119
+– The region at low fre-
+quencies, which is called
+pink or 1/f noise as the
+noise power is inversely
+proportional to the
+frequency.
+The noise density is now the
+noise power in an elemen-
+tary small frequency band
+df. Its dimension is V2/Hz.
+Taking the square root
+yields VRMS/√Hz.
+The integrated noise is the
+total noise power between
+two frequencies. This integ-
+ral is easily taken when the
+noise is white or flat. It is
+proportional to the difference in frequency. Noise is therefore integrated on a linear frequency
+axis. Bode diagrams are always presented with a logarithmic axis. They now give the wrong
+picture. They overemphasize the low-frequency noise.
+The integrated noise (or also total noise) has V2 as a dimension or V when the square root
+RMS
+is taken.
+The calculation of the integrated noise in the 1/f noise region involves another integral. The
+main point is not to omit the lower bound frequency. The 1/f noise would go to infinity and so
+does the integrated noise. It would take an infinite time to measure that however!
+046
+Let us now determine which
+noise sources we can find in
+an electronic circuit.
+Resistors and junctions give
+noise. We will take resis-
+tors first.
+A resistor gives thermal
+noise. It is modeled by a
+voltage source in series with
+the resistor or a current
+source in parallel.
+The noise voltage is pro-
+portional to that resistor,
+and to the absolute temper-
+ature (in Kelvin). It does not
+depend on the actual cur-
+rent flowing through the resistor. Cooling down will therefore reduce the noise (as in many space
+applications!).
+For a resistor of 1 kV, the thermal noise density is about 4 nV /√Hz at room temperature.
+RMS

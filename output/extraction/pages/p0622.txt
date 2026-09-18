@@ -1,0 +1,46 @@
+CMOS ADC and DAC principles 633
+2058
+The capacitors are better
+matched when they are
+made larger. Also the error
+as a result of finite gain
+improves somewhat. How-
+ever, larger capacitors cause
+the settling time to increase.
+A compromise is neces-
+sary. This is illustrated for a
+high-speed pipelined con-
+verter in 0.25 mm CMOS
+technology. The sampling
+frequency is 400 MHz.
+The gain block has a
+transconductance of 20 mS.
+Capacitors of about 0.4 pF
+have been selected.
+2059
+A good way of compareing
+ADCs is to check how many
+clock cycles are required to
+carry out the conversion.
+Power consumption is not
+considered here.
+It is clear that only two
+ADC’s need one single clock
+period. They are clearly the
+fastest ones. They are the
+flash converter and the pipe-
+line converter. This is not
+quite true for the latter one
+as one byte is only available
+after one cycle in continuous
+operation.
+Moreover, their throughput is independent of the resolution.
+This is not true for the other, which all exhibit some relationship with the resolution. The
+worst one is a serial converter in which each voltage is converted into all bits before the next
+is started.
+The others are in between (i.e. successive approximation and sigma delta ones). Since they can
+be realized with very little power, they often offer the best compromise between speed and
+resolution.
+2060
+Speed and resolution are actually linked to the power consumption. Their relation is even fixed
+for a certain CMOS technology.

@@ -1,0 +1,357 @@
+{
+  "case_id": "SANSEN-0445",
+  "slide_id": "0445",
+  "chapter": 4,
+  "slide_number_in_chapter": 45,
+  "source": {
+    "pdf_page": 136,
+    "printed_page": 139
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0136_02_0445.jpg",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "bbox_pt": [
+        91.521622,
+        431.44201699999996,
+        374.78981,
+        627.902008
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 136,
+      "printed_page": 139,
+      "bbox_pt": [
+        0,
+        427.4524000000002,
+        595,
+        797
+      ],
+      "text_raw": "MOST devices have already\na technique to reduce the\noutput noise current. They\ndon’t need series resistors.\nThis technique consists\nof taking large values of\nV −V or small values of\nGS T\nW/L, has already been\nexplained. This gives the\nsame effect as adding series\nresistors.\nIndeed let us compare\ntwo transistor amplifiers\nwith different V −V and\nGS T\nW/L. They have the same\nGate voltage V . They also\nG\ncarry the same DC current.\nThe first one with transistor M1 has a large V −V and hence small W/L. The second one\nGS T\nwith transistor M2 has a smaller V −V and much larger W/L. The difference in V is taken\nGS T GS\nup by a series resistor R.\nThe question is whether they have the same gain or same output noise.",
+      "text": "MOST devices have already a technique to reduce the output noise current. They don’t need series resistors. This technique consists of taking large values of V −V or small values of GS T W/L, has already been explained. This gives the same effect as adding series resistors. Indeed let us compare two transistor amplifiers with different V −V and GS T W/L. They have the same Gate voltage V . They also G carry the same DC current. The first one with transistor M1 has a large V −V and hence small W/L. The second one GS T with transistor M2 has a smaller V −V and much larger W/L. The difference in V is taken GS T GS up by a series resistor R. The question is whether they have the same gain or same output noise."
+    },
+    {
+      "pdf_page": 137,
+      "printed_page": 140,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        201.24689999999975
+      ],
+      "text_raw": "The second one has a larger g because its V −V is smaller. The feedback of R, reduces\nm GS T\nthe gain. As a result they have the same gain.\nThe same is also true for the output noise. The second one generates more output noise\ncurrent because of the larger g , but it is reduced because of the feedback of R. As a result both\nm\noutput noise values are the same.",
+      "text": "The second one has a larger g because its V −V is smaller. The feedback of R, reduces m GS T the gain. As a result they have the same gain. The same is also true for the output noise. The second one generates more output noise current because of the larger g , but it is reduced because of the feedback of R. As a result both m output noise values are the same."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "MOST devices have already a technique to reduce the output noise current. They don’t need series resistors. This technique consists of taking large values of V −V or small values of GS T W/L, has already been explained. This gives the same effect as adding series resistors. Indeed let us compare two transistor amplifiers with different V −V and GS T W/L. They have the same Gate voltage V . They also G carry the same DC current. The first one with transistor M1 has a large V −V and hence small W/L. The second one GS T with transistor M2 has a smaller V −V and much larger W/L. The difference in V is taken GS T GS up by a series resistor R. The question is whether they have the same gain or same output noise.\n\nThe second one has a larger g because its V −V is smaller. The feedback of R, reduces m GS T the gain. As a result they have the same gain. The same is also true for the output noise. The second one generates more output noise current because of the larger g , but it is reduced because of the feedback of R. As a result both m output noise values are the same.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Current mirror with series R",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0136_02_0445.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.06418918597972978,
+          0.08292682948170726,
+          0.5777026994932433,
+          0.13658536606707317
+        ],
+        "confidence": 1,
+        "text": "Current mirror with series R"
+      },
+      {
+        "bbox": [
+          0.21283783690878383,
+          0.21951219420731705,
+          0.3074324315033784,
+          0.2926829259146342
+        ],
+        "confidence": 0.5,
+        "text": ",lout"
+      },
+      {
+        "bbox": [
+          0.08108108152027028,
+          0.3317073164390245,
+          0.16554054097972976,
+          0.3951219505853659
+        ],
+        "confidence": 0.5,
+        "text": "diout?"
+      },
+      {
+        "bbox": [
+          0.3378378372972973,
+          0.2341463420487805,
+          0.42567567513513516,
+          0.2926829274146341
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- lout"
+      },
+      {
+        "bbox": [
+          0.36824324375,
+          0.3317073165447155,
+          0.4695945951013514,
+          0.39512195069105693
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dioutr?"
+      },
+      {
+        "bbox": [
+          0.5337837835585586,
+          0.2146341458536586,
+          0.8783783781531532,
+          0.2731707312195122
+        ],
+        "confidence": 0.5,
+        "text": "Same lout & same Vg :"
+      },
+      {
+        "bbox": [
+          0.5439189203265766,
+          0.33658536528455296,
+          0.7601351365427927,
+          0.4048780482113822
+        ],
+        "confidence": 0.5,
+        "text": "dioutr? = diout?"
+      },
+      {
+        "bbox": [
+          0.06756756793355856,
+          0.49268292654471546,
+          0.11148648685247747,
+          0.5560975606910569
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.20945945895270268,
+          0.5512195124878049,
+          0.26013513462837834,
+          0.5902439027317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.3445945942286036,
+          0.5512195124390245,
+          0.3885135131475225,
+          0.5902439026829269
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.2736486483783784,
+          0.6243902434634145,
+          0.3074324321621622,
+          0.6682926824878048
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.13490611404140027,
+          0.7491253590512152,
+          0.4259047017786126,
+          0.8216063516242789
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(NGs-V+) t(VGs-VT)+"
+      },
+      {
+        "bbox": [
+          0.16549433814384468,
+          0.8386796758360827,
+          0.40882998469585324,
+          0.9076617838824516
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(W/L)f (W/L)1"
+      },
+      {
+        "bbox": [
+          0.7533783796452703,
+          0.5170731714634146,
+          0.9087837850506757,
+          0.5756097568292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Small 9m:"
+      },
+      {
+        "bbox": [
+          0.7635135141891891,
+          0.5804878042439023,
+          0.878378379054054,
+          0.6439024383902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(W/L) +"
+      },
+      {
+        "bbox": [
+          0.7635135149915541,
+          0.6731707309756098,
+          0.9155405420185811,
+          0.7317073163414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(VGs-V+) 1"
+      },
+      {
+        "bbox": [
+          0.7601351345945946,
+          0.7560975611219511,
+          0.8141891886486486,
+          0.809756097707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VG"
+      },
+      {
+        "bbox": [
+          0.7297297391577093,
+          0.9414634151467572,
+          0.9358108073512996,
+          0.9804878042276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 a5 0445"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This technique consists of taking large values of V −V or small values of GS T W/L, has already been explained.",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Indeed let us compare two transistor amplifiers with different V −V and GS T W/L.",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0136_02_0445.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "They have the same Gate voltage V .",
+        "pdf_page": 136,
+        "printed_page": 139,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The question is whether they have the same gain or same output noise.",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The feedback of R, reduces m GS T the gain.",
+      "pdf_page": 137,
+      "printed_page": 140,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result they have the same gain.",
+      "pdf_page": 137,
+      "printed_page": 140,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result both m output noise values are the same.",
+      "pdf_page": 137,
+      "printed_page": 140,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The second one GS T with transistor M2 has a smaller V −V and much larger W/L.",
+      "pdf_page": 136,
+      "printed_page": 139,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0445-M01",
+      "ocr_text": "dioutr? = diout?",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5439189203265766,
+        0.33658536528455296,
+        0.7601351365427927,
+        0.4048780482113822
+      ],
+      "context_crop": "regions/SANSEN-0445_math_01.png",
+      "context_bbox_normalized": [
+        0.5039189203265766,
+        0.23658536528455296,
+        0.9901351365427927,
+        0.5348780482113822
+      ],
+      "source_image": "slides/p0136_02_0445.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

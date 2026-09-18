@@ -1,0 +1,47 @@
+Design of multistage operational amplifiers 279
+0932
+Another compensation tech-
+nique is the multi-path
+nested Miller, shown in
+this slide.
+The feedforward stage
+now bridges the input and
+the second stage. It is not
+connected to the output.
+This feedforward stage is
+used to generate a zero v
+z
+in the left half of the com-
+plex plane, to cancel out a
+non-dominant pole. It there-
+fore increases the phase
+margin.
+If g >g , then the non-
+m3 m2
+dominant poles can be
+approximated as shown in this slide. They are the same as for a conventional NMC amplifier.
+0933
+For sake of comparison all
+previous amplifiers are
+listed in a table. They are
+preceded by a single-stage
+and a two-stage Miller
+amplifier.
+All of them have a com-
+parable phase margin except
+for the single-stage ampli-
+fier. The resulting GBW for
+a 3rd-order Butterworth
+design is also listed as a frac-
+tion of the output time con-
+stant g /C .
+m3 L
+The next column shows
+what GBW can be expected,
+compared to a single-stage amplifier. The conventional NMC amplifier only achieves about 1/4
+of what a single stage can achieve.
+When compared to a NMC amplifier (in the last column), it is clear that both last amplifiers
+which use a single feedforward stage do better in terms of power consumption.
+However, the improvement is at best a factor of 2.
+This is why we will now concentrate on three-stage amplifiers, which provide much better
+current savings.

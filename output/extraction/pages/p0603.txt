@@ -1,0 +1,47 @@
+614 Chapter #20
+For a current-steering
+D/A converter, the INL is
+mainly determined by the
+matching behavior of the
+current sources. The param-
+eter that is best suited for
+expressing this technology
+versus DAC-specification
+relation is the INL yield.
+This INL yield is defined as
+the ratio of the number of
+D/A converters with an INL
+smaller than (cid:1) LSB to the
+total number of tested D/A
+converters.
+The random variations
+are modeled using a normal
+distribution with expected value zero and a relative standard deviation s(I)/I. The statistical
+relationship has been investigated analytically, resulting in an accurate formula expressing directly
+the relationship between the INL yield specification, the resolution and the relative unit current
+standard deviation for the D/A converter. This was given before.
+Note that the gate area of the current sources is inversely proportional to the relative unit
+current standard deviation. Since a high yield requires a small value for this standard deviation,
+this directly implies a large current source area.
+To obtain a 12 bit accuracy, a relative unit current source standard deviation of 0.25% is
+necessary.
+2023
+Using the following equa-
+tions, the dimensions of the
+current source can be
+easily found. For a 1V
+peak-to-peak output volt-
+age over a double termi-
+nated (coax)cable, a full-
+scale current I of 20 mA is
+FS
+designed. The current equa-
+tion is the first equation on
+the right.
+The mismatch equation is
+copied from the previous
+slide together with the value
+for the relative unit current
+standard deviation and the
+gate overdrive voltage. As a result, the width of the unit current source transistor equals 1.8 mm
+and its length is 30 mm.

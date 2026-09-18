@@ -1,0 +1,329 @@
+{
+  "case_id": "SANSEN-0449",
+  "slide_id": "0449",
+  "chapter": 4,
+  "slide_number_in_chapter": 49,
+  "source": {
+    "pdf_page": 138,
+    "printed_page": 141
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0138_02_0449.jpg",
+      "pdf_page": 138,
+      "printed_page": 141,
+      "bbox_pt": [
+        91.52162,
+        491.23197,
+        374.54222,
+        687.74181
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 138,
+      "printed_page": 141,
+      "bbox_pt": [
+        0,
+        487.24252,
+        595,
+        797
+      ],
+      "text_raw": "A simple differential ampli-\nfier is illustrated in this slide.\nBoth transistors exhibit\nthe same amount of noise,\nas they carry equal currents.\nThese noise powers are not\ncorrelated. They have to be\nsummed up. The question is\non which side?\nThe symbol of such a\ndifferential amplifier is\nshown on the right. Do we\nhave to insert the equivalent\nnoise voltage at the positive\nor at the negative input?\nThe answer is obvious.",
+      "text": "A simple differential amplifier is illustrated in this slide. Both transistors exhibit the same amount of noise, as they carry equal currents. These noise powers are not correlated. They have to be summed up. The question is on which side? The symbol of such a differential amplifier is shown on the right. Do we have to insert the equivalent noise voltage at the positive or at the negative input? The answer is obvious."
+    },
+    {
+      "pdf_page": 139,
+      "printed_page": 142,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        255.05789999999968
+      ],
+      "text_raw": "Both are equivalent! Indeed the noise voltage is squared at the end of the calculations. As a\nresult, it does not make any difference whether the noise is applied to the positive or negative\nside. We prefer the side where it is easier to do the calculations!\nAs a result, the total equivalent input noise source is simply twice the noise voltage power of\none single transistor.\nA differential amplifier always gives √2 or 41% more input noise voltage than a single\namplifier. The lowest-noise amplifiers are single-input. On the other hand, these single-input\namplifiers are much more sensitive to substrate noise. The debate on whether to use differential\ninput amplifiers in RF receivers for example, is therefore still ongoing.",
+      "text": "Both are equivalent! Indeed the noise voltage is squared at the end of the calculations. As a result, it does not make any difference whether the noise is applied to the positive or negative side. We prefer the side where it is easier to do the calculations! As a result, the total equivalent input noise source is simply twice the noise voltage power of one single transistor. A differential amplifier always gives √2 or 41% more input noise voltage than a single amplifier. The lowest-noise amplifiers are single-input. On the other hand, these single-input amplifiers are much more sensitive to substrate noise. The debate on whether to use differential input amplifiers in RF receivers for example, is therefore still ongoing."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A simple differential amplifier is illustrated in this slide. Both transistors exhibit the same amount of noise, as they carry equal currents. These noise powers are not correlated. They have to be summed up. The question is on which side? The symbol of such a differential amplifier is shown on the right. Do we have to insert the equivalent noise voltage at the positive or at the negative input? The answer is obvious.\n\nBoth are equivalent! Indeed the noise voltage is squared at the end of the calculations. As a result, it does not make any difference whether the noise is applied to the positive or negative side. We prefer the side where it is easier to do the calculations! As a result, the total equivalent input noise source is simply twice the noise voltage power of one single transistor. A differential amplifier always gives √2 or 41% more input noise voltage than a single amplifier. The lowest-noise amplifiers are single-input. On the other hand, these single-input amplifiers are much more sensitive to substrate noise. The debate on whether to use differential input amplifiers in RF receivers for example, is therefore still ongoing.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise of differential pair",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0138_02_0449.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07398665331257175,
+          0.0689154839815529,
+          0.5124808539382338,
+          0.14373030834172584
+        ],
+        "confidence": 1,
+        "text": "Noise of differential pair"
+      },
+      {
+        "bbox": [
+          0.4305084751864407,
+          0.21463414634146338,
+          0.49152542433898305,
+          0.2731707317073171
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.09491525377118645,
+          0.3902439017682927,
+          0.1457627113983051,
+          0.4439024383536585
+        ],
+        "confidence": 0.5,
+        "text": "dv,"
+      },
+      {
+        "bbox": [
+          0.14237288127118644,
+          0.38048780445121955,
+          0.1627118643220339,
+          0.4146341459146341
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.24406779629943504,
+          0.48780487825203245,
+          0.2813559318926554,
+          0.5219512197154471
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.3491525427966101,
+          0.4829268297560976,
+          0.38983050889830506,
+          0.5219512199999999
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.26101694861016944,
+          0.5609756091219513,
+          0.3694915248813559,
+          0.6243902432682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+YouT-"
+      },
+      {
+        "bbox": [
+          0.26101694957627125,
+          0.7317073169512194,
+          0.294915254661017,
+          0.7804878047560975
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.3457627122457627,
+          0.7317073176829267,
+          0.3830508478389831,
+          0.7804878054878048
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.4474576265423729,
+          0.7902439025365855,
+          0.5050847451864408,
+          0.8487804879024391
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.5966101701694915,
+          0.195121950304878,
+          0.6847457633898305,
+          0.26829268201219514
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dviea®"
+      },
+      {
+        "bbox": [
+          0.8644067789830508,
+          0.32682926775609755,
+          0.9389830501694916,
+          0.38048780434146345
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.8644067789830508,
+          0.5512195117073171,
+          0.9389830501694916,
+          0.5999999995121952
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6013958099343959,
+          0.7715925346245861,
+          0.6913260242505539,
+          0.8459110482622219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVied"
+      },
+      {
+        "bbox": [
+          0.6779661030508474,
+          0.770731708109756,
+          0.8203389844067795,
+          0.8341463422560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 = 2 dv,2"
+      },
+      {
+        "bbox": [
+          0.7250511239107066,
+          0.9410018617917005,
+          0.9360752886601107,
+          0.9826877639917946
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 os 0449"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A simple differential amplifier is illustrated in this slide.",
+      "pdf_page": 138,
+      "printed_page": 141,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The symbol of such a differential amplifier is shown on the right.",
+      "pdf_page": 138,
+      "printed_page": 141,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0138_02_0449.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "As a result, the total equivalent input noise source is simply twice the noise voltage power of one single transistor.",
+        "pdf_page": 139,
+        "printed_page": 142,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Both transistors exhibit the same amount of noise, as they carry equal currents.",
+      "pdf_page": 138,
+      "printed_page": 141,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, it does not make any difference whether the noise is applied to the positive or negative side.",
+      "pdf_page": 139,
+      "printed_page": 142,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the total equivalent input noise source is simply twice the noise voltage power of one single transistor.",
+      "pdf_page": 139,
+      "printed_page": 142,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The debate on whether to use differential input amplifiers in RF receivers for example, is therefore still ongoing.",
+      "pdf_page": 139,
+      "printed_page": 142,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0449-M01",
+      "ocr_text": "2 = 2 dv,2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6779661030508474,
+        0.770731708109756,
+        0.8203389844067795,
+        0.8341463422560975
+      ],
+      "context_crop": "regions/SANSEN-0449_math_01.png",
+      "context_bbox_normalized": [
+        0.6379661030508473,
+        0.670731708109756,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0138_02_0449.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

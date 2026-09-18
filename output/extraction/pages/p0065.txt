@@ -1,0 +1,64 @@
+66 Chapter #2
+0231
+The BW and GBW are
+easily determined since
+there is only one large
+capacitor at the output. If
+this load capacitor is
+smaller, then the transistor
+capacitances start to apply.
+For example, if the source
+resistor R is large, then
+S
+clearly the input capacitance
+2C will cause an addi-
+GS
+tional time constant
+2R C , which will generate
+S GS
+another pole. This is called
+the non-dominant pole.
+This latter non-dominant
+pole can even become dominant if R is very large, or more importantly, if the R C product
+S S GSt
+is larger than r C . This is easily calculated from the small-signal equivalent circuit.
+DS L
+In this case, the GBW is determined by the R C product. As was already the case for a
+S GS
+single-transistor amplifier, the GBW now depends on the f and a resistor ratio.
+T
+0232
+It is also possible that the
+Miller effect is present. For
+example if R is large, and
+S
+the gain is large, then
+2C A may be larger than
+DGt v
+2C . The non-dominant
+GS
+pole is then determined
+by the time constant
+2R C A .
+S DGt v
+This latter non-dominant
+pole can even become domi-
+nant if R or C is very
+S DGt
+large. In order to see this,
+we have to derive the full
+expression of the gain, from
+the small-signal equivalent
+circuit. It is given in this slide. It has two poles and one zero.
+The dominant pole is at the output, at least whilst C is small. The best way to show this,
+DGt
+is to verify a pole-zero position diagram with C as a variable. This is nothing more than
+DGt
+bilogarithmic diagram of the poles and zeros versus parameter C . It is asymptotic to show
+DGt
+clearly the positions of all break points. More details on such diagram are given in slide N0536
+of Chapter 5.
+The dominant pole frequency f is clearly determined by the output time constant. For higher
+d
+values of C than C /(g R ), the Miller effect dominates.
+DGt L m S

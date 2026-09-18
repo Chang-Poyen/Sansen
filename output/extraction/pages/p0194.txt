@@ -1,0 +1,42 @@
+198 Chapter #6
+overconsumption in current. As a result, spec 3.3 does not actually exist. For an overdesigned
+amplifier it is possible though, to tune the GBW by means of the biasing current.
+The Slew Rate and output voltage at high frequencies will be discussed in more detail. They
+are just too important.
+The settling time is really important for Analog-to-digital converters and all switching applica-
+tions. It will be discussed at a later stage.
+The input impedance of a CMOS OTA is purely capacitive as the two input C capacitances
+GS
+appear in series. For a bipolar OTA, resistances have to be added. No more attention will be
+paid to them.
+The output impedance will be examined, as there is no class-AB output stage.
+0633
+Many specifications are
+dealing with offset and
+noise.
+Offset has to do with mis-
+match between transistors,
+capacitors, etc. It can be
+reduced by increasing the
+size. The CMRR is related
+to it. In a sense we have two
+specifications, originating
+from the same phenomena.
+Actually, the PSRR is also
+related to it. They are all dis-
+cussed in Chapter 15.
+The input bias current is
+certainly of importance for
+a bipolar opamps and maybe in the future for CMOS opamps, if Gate current is present.
+The equivalent input noise voltage and current will be discussed in detail.
+Capacitive noise matching has been briefly mentioned in Chapter 4. Inductive source imped-
+ances are too cumbersome and are left out here.
+Finally, distortion is gaining in importance. This is why a whole Chapter is devoted to it
+(Chapter 18).
+0634
+Finally, we have a number of more exotic aspects of opamps.
+Connection of an inductor instead of a capacitance as a load may impair the stability. A good
+example is a loudspeaker.
+Switching a whole opamp in and out is even more exotic. And yet, this is a technique to
+realize switched-capacitor filters down to really low supply voltages. Indeed, for these voltages
+it is no longer possible to implement switches. Switching the opamp itself is a possible solution.

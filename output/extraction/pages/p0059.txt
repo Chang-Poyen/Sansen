@@ -1,0 +1,49 @@
+60 Chapter #2
+yields a bandwidth BW,
+which is quite high. This
+BW is determined by 1/g
+m
+and the sum of the two
+capacitances. These capaci-
+tances are very similar in
+size however. They have
+been taken to be equal in
+size.
+The bandwidth is thus
+well approximated by f /2.
+T
+For a high bandwidth, we
+must therefore design a
+transistor with high f ,
+T
+which requires a large
+V −V and minimum
+GS T
+channel length L.
+0220
+As a load for this amplifier,
+a resistor can be used. In
+this case however, the gain
+is very low, somewhere
+between 3 and 5, depending
+on the supply voltage.
+Suitable resistors are not
+always available. In a digital
+CMOS process, none of
+them can provide reason-
+ably large resistance values.
+This is why many circuit
+schematics have been pro-
+posed, using MOSTs as
+loads. One of them is shown
+in this slide.
+It uses a nMOST connected as a diode. Its small-signal resistance is thus 1/g . The gain is
+m2
+the ratio of the transconductances. It is small but fairly accurate as it is mainly set by the ratio
+of the transistor sizes.
+Its main advantage is that no pMOSTs are used. This amplifier can achieve high bandwidths,
+also because the output impedance is quite small!
+Its main disadvantage is that the DC output voltage is connected to the supply line over the
+V . Because of the body effect of transistor M2, this DC output voltage is not well defined.
+GS2
+The biasing of the next stage may suffer from this.

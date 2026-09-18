@@ -1,0 +1,46 @@
+62 Chapter #2
+0223
+The first amplifier has a con-
+stant DC current as the gate
+of current source transistor
+M2 is connected to a DC
+reference. At low frequen-
+cies, the load capacitance C
+L
+does not apply. In this case,
+the DC current through
+transistors M1 and M2 does
+not change with the signal
+level. It is by definition a
+class A amplifier.
+The result is very different
+if we connect and drive both
+gates together. Depending
+on the input signal level, the
+currents in both transistors varies greatly. It is a class AB amplifier.
+Actually, this amplifier is used for both digital and analog input signals.
+0224
+Indeed, this is the well
+known digital inverter.
+When the input goes high
+(from a digital 0 to 1), the
+output goes low, and vice-
+versa. In both cases, no
+current can flow. This is
+the main advantage of this
+digital inverter. It only con-
+sumes power during switch-
+ing. Many millions can now
+be integrated on a single sili-
+con chip, without excessive
+heat dissipation.
+As an analog amplifier,
+the input biasing voltage is
+such that the output voltage sits at an acceptable value between the supply voltage V and
+DD
+ground. A small-signal input voltage is then amplified (and inverted) to the output.
+This is examined in more detail next.
+0225
+In order to establish the actual transfer curve and the transistor currents, we have to realize that
+both transistors always carry the same DC current. Indeed, no DC current can escape through
+the capacitance. This is also true for AC currents at low frequencies.

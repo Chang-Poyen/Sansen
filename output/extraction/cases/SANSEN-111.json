@@ -1,0 +1,169 @@
+{
+  "case_id": "SANSEN-111",
+  "slide_id": "111",
+  "chapter": 11,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 294,
+    "printed_page": 301
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0294_01_111.jpg",
+      "pdf_page": 294,
+      "printed_page": 301,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 294,
+      "printed_page": 301,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        453.36150000000026
+      ],
+      "text_raw": "Rail-to-rail amplifiers are a\nspecial category of amplifi-\ners. They can take input\nsignal swings from the posi-\ntive to the negative supply\nrail. Their common-mode\ninput range extends from\nrail to rail.\nHowever, this is fairly\neasy to do at the output.\nThis is quite complicated\nhowever at the input. In\nprinciple, only a folded cas-\ncode is capable of including\na supply rail at the input.\nThis will be the basis for all-\nrail-to-rail input amplifiers.\nAn alternative principle is to use depletion-mode nMOST devices. Leaving out an ion implant\nallows nMOST devices to obtain a negative threshold voltage. This allows rail-to-rail input\nstages with supply voltages down to 1 V. It is not considered any further however, as no standard\nCMOS can be used.\nLet us first decide when we need such an input. What are the circuit configurations which\nallow a rail-to-rail input range?",
+      "text": "Rail-to-rail amplifiers are a special category of amplifiers. They can take input signal swings from the positive to the negative supply rail. Their common-mode input range extends from rail to rail. However, this is fairly easy to do at the output. This is quite complicated however at the input. In principle, only a folded cascode is capable of including a supply rail at the input. This will be the basis for allrail-to-rail input amplifiers. An alternative principle is to use depletion-mode nMOST devices. Leaving out an ion implant allows nMOST devices to obtain a negative threshold voltage. This allows rail-to-rail input stages with supply voltages down to 1 V. It is not considered any further however, as no standard CMOS can be used. Let us first decide when we need such an input. What are the circuit configurations which allow a rail-to-rail input range?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Rail-to-rail amplifiers are a special category of amplifiers. They can take input signal swings from the positive to the negative supply rail. Their common-mode input range extends from rail to rail. However, this is fairly easy to do at the output. This is quite complicated however at the input. In principle, only a folded cascode is capable of including a supply rail at the input. This will be the basis for allrail-to-rail input amplifiers. An alternative principle is to use depletion-mode nMOST devices. Leaving out an ion implant allows nMOST devices to obtain a negative threshold voltage. This allows rail-to-rail input stages with supply voltages down to 1 V. It is not considered any further however, as no standard CMOS can be used. Let us first decide when we need such an input. What are the circuit configurations which allow a rail-to-rail input range?",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Slide 111",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0294_01_111.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.10810810672297302,
+          0.25365853560975604,
+          0.8682432418581082,
+          0.3512195112195122
+        ],
+        "confidence": 1,
+        "text": "Rail-to-rail input and output"
+      },
+      {
+        "bbox": [
+          0.36816134284393326,
+          0.36532508643989714,
+          0.6385954131217917,
+          0.454187110142379
+        ],
+        "confidence": 1,
+        "text": "amplifiers"
+      },
+      {
+        "bbox": [
+          0.06915837115321637,
+          0.6143091121040405,
+          0.11193671492094955,
+          0.8646498110905592
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "gIS:SEDES: SA0I0),"
+      },
+      {
+        "bbox": [
+          0.3812269037412018,
+          0.5946818573380871,
+          0.6354205447851999,
+          0.6606918975282489
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.310810810472973,
+          0.72195122,
+          0.6756756753378379,
+          0.770731707804878
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.3783783815033784,
+          0.7902439021951221,
+          0.6283783815033783,
+          0.8390243900000001
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.34459458935810827,
+          0.8731707318699187,
+          0.6587837785472974,
+          0.9024390245528455
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7263513538006755,
+          0.9512195119512196,
+          0.9222972997466214,
+          0.9804878046341464
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 111"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0294_01_111.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

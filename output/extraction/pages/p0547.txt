@@ -1,0 +1,44 @@
+Distortion in elementary transistor circuits 557
+need to know the input voltage for each stage. The relative current swing then gives the distortion
+component. This value must now be divided by the value of the loop gain at that frequency. An
+example will clarify this.
+1877
+A two stage Miller opamp
+is taken with a 10 MHz
+GBW, set at a closed-loop
+gain of 10. Its bandwidth is
+therefore 1 MHz. All values
+of the gains and transistor
+parameters are given in this
+slide. Each stage has a low-
+frequency gain of 100. For a
+signal output voltage of 1 V,
+the voltages at the input and
+in between the two stages,
+are easily calculated.
+What is the main source
+of distortion?
+This is clearly the output
+stage as it is driven by 10 mV, whereas the input stage only receives 0.1 mV input voltage. This
+is clear from the calculations.
+At higher frequencies however, the input signal required to deliver 1 V will increase, as the
+open-loop voltage decreases. It is not so obvious however, to determine what will be the signal
+voltage between the two stages. This is shown in the next slide.
+1878
+On the left, the Bode dia-
+gram is given of the open-
+and closed-loop gain. It
+shows what the output volt-
+age is for a small input volt-
+age, which increases in
+frequency.
+On the right, the voltage
+is added at the intermediate
+point. It shows that at low
+frequencies the gain of the
+first stage decreases. It is fol-
+lowed by a low-pass filter,
+with a pole equal to the
+dominant pole of the
+opamp. The gain across the
+output stage is constant.

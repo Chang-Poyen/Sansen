@@ -1,0 +1,191 @@
+{
+  "case_id": "SANSEN-153",
+  "slide_id": "153",
+  "chapter": 15,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 413,
+    "printed_page": 421
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0414_01_153.jpg",
+      "pdf_page": 414,
+      "printed_page": 422,
+      "bbox_pt": [
+        91.52162,
+        122.52697999999998,
+        374.54215999999997,
+        318.98694
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 413,
+      "printed_page": 421,
+      "bbox_pt": [
+        0,
+        630.7384999999999,
+        595,
+        703.55922
+      ],
+      "text_raw": "When a single-ended opamp is taken with zero differential input voltage, its output voltage\nshould be zero, whatever the gain is. In practice, this is not the case. The output voltage is not zero.\nThe offset voltage v is now by definition the differential input voltage that is required to\nos\nmake the output voltage zero. Since it is a differential input voltage it can be inserted in either",
+      "text": "When a single-ended opamp is taken with zero differential input voltage, its output voltage should be zero, whatever the gain is. In practice, this is not the case. The output voltage is not zero. The offset voltage v is now by definition the differential input voltage that is required to os make the output voltage zero. Since it is a differential input voltage it can be inserted in either"
+    },
+    {
+      "pdf_page": 414,
+      "printed_page": 422,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        361.73330000000004
+      ],
+      "text_raw": "one of the two input termi-\nnals. In this example, the\noffset voltage is inserted in\nthe plus terminal. When\nshifted to the minus termi-\nnal it has the same value but\nopposite sign.\nIt is usually a few mV’s\nfor a bipolar amplifier. For\na CMOS amplifier it can be\nup to ten times larger!\nWhat causes this offset\nvoltage? Random effects can\nplay a role, but also system-\natic ones.",
+      "text": "one of the two input terminals. In this example, the offset voltage is inserted in the plus terminal. When shifted to the minus terminal it has the same value but opposite sign. It is usually a few mV’s for a bipolar amplifier. For a CMOS amplifier it can be up to ten times larger! What causes this offset voltage? Random effects can play a role, but also systematic ones."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "When a single-ended opamp is taken with zero differential input voltage, its output voltage should be zero, whatever the gain is. In practice, this is not the case. The output voltage is not zero. The offset voltage v is now by definition the differential input voltage that is required to os make the output voltage zero. Since it is a differential input voltage it can be inserted in either\n\none of the two input terminals. In this example, the offset voltage is inserted in the plus terminal. When shifted to the minus terminal it has the same value but opposite sign. It is usually a few mV’s for a bipolar amplifier. For a CMOS amplifier it can be up to ten times larger! What causes this offset voltage? Random effects can play a role, but also systematic ones.",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Definition of offset",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0414_01_153.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135593016949155,
+          0.08780487829268291,
+          0.40677965898305085,
+          0.136585366097561
+        ],
+        "confidence": 1,
+        "text": "Definition of offset"
+      },
+      {
+        "bbox": [
+          0.3897084951649757,
+          0.3310854913630872,
+          0.5085965872059913,
+          0.38110963095346695
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT # 0"
+      },
+      {
+        "bbox": [
+          0.7864406788135593,
+          0.3317073167944251,
+          0.9050847466101694,
+          0.3804878045993032
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT = 0"
+      },
+      {
+        "bbox": [
+          0.6610169486101695,
+          0.560975609804878,
+          0.7152542367457627,
+          0.6146341463902439
+        ],
+        "confidence": 0.5,
+        "text": "Yos"
+      },
+      {
+        "bbox": [
+          0.5762711826694916,
+          0.7560975610365853,
+          0.877966097923729,
+          0.8195121951829267
+        ],
+        "confidence": 1,
+        "text": "Offset voltage Vos"
+      },
+      {
+        "bbox": [
+          0.7084745787711864,
+          0.9463414631707318,
+          0.9084745787711864,
+          0.9756097558536586
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1000 153"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0414_01_153.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "When a single-ended opamp is taken with zero differential input voltage, its output voltage should be zero, whatever the gain is.",
+      "pdf_page": 413,
+      "printed_page": 421,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-153-M01",
+      "ocr_text": "VouT = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7864406788135593,
+        0.3317073167944251,
+        0.9050847466101694,
+        0.3804878045993032
+      ],
+      "context_crop": "regions/SANSEN-153_math_01.png",
+      "context_bbox_normalized": [
+        0.7464406788135592,
+        0.2317073167944251,
+        1,
+        0.5104878045993032
+      ],
+      "source_image": "slides/p0414_01_153.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

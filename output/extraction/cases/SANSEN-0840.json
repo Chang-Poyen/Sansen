@@ -1,0 +1,633 @@
+{
+  "case_id": "SANSEN-0840",
+  "slide_id": "0840",
+  "chapter": 8,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 252,
+    "printed_page": 258
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0252_02_0840.jpg",
+      "pdf_page": 252,
+      "printed_page": 258,
+      "bbox_pt": [
+        91.521622,
+        455.358002,
+        374.78981,
+        651.817993
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 252,
+      "printed_page": 258,
+      "bbox_pt": [
+        0,
+        451.36850000000027,
+        595,
+        797
+      ],
+      "text_raw": "In the phase W , the other\n2\ntransistors are on. Capaci-\ntors C3/C4 now provide\ncommon-mode feedback,\nwhereas the other ones\nC1/C2 are reset or\nprecharged.\nIt is clear that this solu-\ntion does not take any\npower at all except for the\nswitching power consump-\ntion of all switches and\ncapacitors.\nHowever, there are a few\ndisadvantages.\nFirst of all, the clock fre-\nquency appears in the signal path. This is a result of clock injection and charge redistribution,\nwhich are typical for all sampled-data circuits such as switched-capacitor filters. This is explained\nin detail in Chapter 17.",
+      "text": "In the phase W , the other 2 transistors are on. Capacitors C3/C4 now provide common-mode feedback, whereas the other ones C1/C2 are reset or precharged. It is clear that this solution does not take any power at all except for the switching power consumption of all switches and capacitors. However, there are a few disadvantages. First of all, the clock frequency appears in the signal path. This is a result of clock injection and charge redistribution, which are typical for all sampled-data circuits such as switched-capacitor filters. This is explained in detail in Chapter 17."
+    },
+    {
+      "pdf_page": 253,
+      "printed_page": 259,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        232.03874999999982
+      ],
+      "text_raw": "As a result, we can only use this solution at frequencies well below the clock frequency.\nMoreover, these clock injection and charge redistribution signals severely limit the dynamic\nrange. Intermodulation (and folding) of these signals provide an upper limit to the signal-to-\nnoise ratio.\nFinally, the switched capacitors increase the capacitive load of the CMFB amplifier. As a\nresult, the GBW will be reduced and the common-mode settling time increased.\nCM",
+      "text": "As a result, we can only use this solution at frequencies well below the clock frequency. Moreover, these clock injection and charge redistribution signals severely limit the dynamic range. Intermodulation (and folding) of these signals provide an upper limit to the signal-tonoise ratio. Finally, the switched capacitors increase the capacitive load of the CMFB amplifier. As a result, the GBW will be reduced and the common-mode settling time increased. CM"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In the phase W , the other 2 transistors are on. Capacitors C3/C4 now provide common-mode feedback, whereas the other ones C1/C2 are reset or precharged. It is clear that this solution does not take any power at all except for the switching power consumption of all switches and capacitors. However, there are a few disadvantages. First of all, the clock frequency appears in the signal path. This is a result of clock injection and charge redistribution, which are typical for all sampled-data circuits such as switched-capacitor filters. This is explained in detail in Chapter 17.\n\nAs a result, we can only use this solution at frequencies well below the clock frequency. Moreover, these clock injection and charge redistribution signals severely limit the dynamic range. Intermodulation (and folding) of these signals provide an upper limit to the signal-tonoise ratio. Finally, the switched capacitors increase the capacitive load of the CMFB amplifier. As a result, the GBW will be reduced and the common-mode settling time increased. CM",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Fully-differential amp. with SC CMFB : Ф2",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0252_02_0840.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027082046332,
+          0.08292682895470382,
+          0.8479729784749035,
+          0.14634146310104534
+        ],
+        "confidence": 1,
+        "text": "Fully-differential amp. with SC CMFB : Ф2"
+      },
+      {
+        "bbox": [
+          0.42567567500000003,
+          0.17560975634146336,
+          0.4662162155405406,
+          0.2000000002439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vdd"
+      },
+      {
+        "bbox": [
+          0.08108108175675674,
+          0.2585365852845529,
+          0.12162162229729728,
+          0.28292682918699197
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MII"
+      },
+      {
+        "bbox": [
+          0.4763513509712838,
+          0.2536585369512194,
+          0.5337837834037162,
+          0.2829268296341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "L MI2"
+      },
+      {
+        "bbox": [
+          0.3243243241554054,
+          0.3365853657181571,
+          0.35472972956081084,
+          0.36097560962059616
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MS"
+      },
+      {
+        "bbox": [
+          0.6385135131756756,
+          0.24390243951219515,
+          0.6858108104729729,
+          0.273170732195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "cmib"
+      },
+      {
+        "bbox": [
+          0.6317567565878379,
+          0.3609756095528456,
+          0.6520270268581082,
+          0.3853658534552846
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "el"
+      },
+      {
+        "bbox": [
+          0.6486486483445946,
+          0.31707317087804876,
+          0.6790540537499999,
+          0.3512195123414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VЬ"
+      },
+      {
+        "bbox": [
+          0.6655405411317568,
+          0.3512195119512196,
+          0.712837838429054,
+          0.39024390219512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(Ран"
+      },
+      {
+        "bbox": [
+          0.10810810912162158,
+          0.41951219495934966,
+          0.1689189199324324,
+          0.4487804876422764
+        ],
+        "confidence": 1,
+        "text": "Vout+"
+      },
+      {
+        "bbox": [
+          0.18243243289695946,
+          0.3512195119512196,
+          0.2195945950591216,
+          0.38048780463414633
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.19594594527027032,
+          0.44390243845528454,
+          0.2432432425675676,
+          0.4780487799186992
+        ],
+        "confidence": 1,
+        "text": "Vin+"
+      },
+      {
+        "bbox": [
+          0.38175675722128377,
+          0.4439024389024391,
+          0.41891891938344594,
+          0.47317073158536593
+        ],
+        "confidence": 1,
+        "text": "Vin-"
+      },
+      {
+        "bbox": [
+          0.23642127510624505,
+          0.463052864142635,
+          0.37844358840465087,
+          0.5174349441277186
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4ЕмI мг9р"
+      },
+      {
+        "bbox": [
+          0.44256756852477475,
+          0.4439024388617886,
+          0.5000000009572072,
+          0.47317073154471545
+        ],
+        "confidence": 1,
+        "text": "Vout-"
+      },
+      {
+        "bbox": [
+          0.13851351393581082,
+          0.6487804876219512,
+          0.1722972977195946,
+          0.6731707315243902
+        ],
+        "confidence": 1,
+        "text": "M7"
+      },
+      {
+        "bbox": [
+          0.4695945949324324,
+          0.5463414631707318,
+          0.5033783787162162,
+          0.5804878046341464
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.4527027029560811,
+          0.5804878046747968,
+          0.4831081083614865,
+          0.6146341461382114
+        ],
+        "confidence": 0.5,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.43918918856981987,
+          0.6487804880487804,
+          0.476351350731982,
+          0.6731707319512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.5371621624999999,
+          0.3707317071138212,
+          0.5777027030405405,
+          0.40487804857723575
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "$ 2н"
+      },
+      {
+        "bbox": [
+          0.5439189182432432,
+          0.4439024391869919,
+          0.5844594587837838,
+          0.47317073186991876
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ФІн"
+      },
+      {
+        "bbox": [
+          0.5405405410050675,
+          0.5121951217682926,
+          0.5777027031672297,
+          0.5463414632317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф гн"
+      },
+      {
+        "bbox": [
+          0.6824324319256757,
+          0.4829268293495934,
+          0.7128378373310811,
+          0.5073170732520325
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1H"
+      },
+      {
+        "bbox": [
+          0.27364864740990996,
+          0.6487804880487804,
+          0.34797297173423425,
+          0.6731707319512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M3 M4"
+      },
+      {
+        "bbox": [
+          0.2635135121058559,
+          0.7365853660162601,
+          0.3479729715653153,
+          0.765853658699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss = OV"
+      },
+      {
+        "bbox": [
+          0.6249999998310811,
+          0.643902438597561,
+          0.6520270268581082,
+          0.6780487800609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CЗ"
+      },
+      {
+        "bbox": [
+          0.6722972979729729,
+          0.687804877886179,
+          0.7128378385135135,
+          0.7170731705691058
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "₽ 2н"
+      },
+      {
+        "bbox": [
+          0.5405405409797297,
+          0.726829268097561,
+          0.5844594598986486,
+          0.7658536583414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9 2н"
+      },
+      {
+        "bbox": [
+          0.5405405406019657,
+          0.7951219513525499,
+          0.6013513514127764,
+          0.8243902440354768
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ФIн \\"
+      },
+      {
+        "bbox": [
+          0.36148649625230383,
+          0.848780487398374,
+          0.5608108076891374,
+          0.8829268288617886
+        ],
+        "confidence": 0.5,
+        "text": "analog GND = Vdd/2"
+      },
+      {
+        "bbox": [
+          0.5641891886824325,
+          0.8292682929878048,
+          0.6047297292229731,
+          0.8829268295731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.6655405403293919,
+          0.7902439020121952,
+          0.7229729727618244,
+          0.8243902434756099
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\\Ф1н"
+      },
+      {
+        "bbox": [
+          0.6283783788513514,
+          0.8243902437073171,
+          0.6756756761486487,
+          0.8536585363902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C4 |"
+      },
+      {
+        "bbox": [
+          0.6554054057995496,
+          0.8731707321951219,
+          0.685810811204955,
+          0.9024390248780487
+        ],
+        "confidence": 0.5,
+        "text": "Vb"
+      },
+      {
+        "bbox": [
+          0.7767839234008515,
+          0.593462959884582,
+          0.9157836432783523,
+          0.6406833807219844
+        ],
+        "confidence": 1,
+        "text": "Switches"
+      },
+      {
+        "bbox": [
+          0.7765333124624563,
+          0.6460976538375379,
+          0.9363045229009526,
+          0.7148779550944155
+        ],
+        "confidence": 0.5,
+        "text": "Ф2н closed"
+      },
+      {
+        "bbox": [
+          0.7767686188001185,
+          0.700377190255389,
+          0.9563394870087202,
+          0.7532813495221632
+        ],
+        "confidence": 0.5,
+        "text": "gives CMFB"
+      },
+      {
+        "bbox": [
+          0.7770270271677928,
+          0.7609756094308943,
+          0.8344594596002253,
+          0.7999999996747967
+        ],
+        "confidence": 1,
+        "text": "and"
+      },
+      {
+        "bbox": [
+          0.7769088629259066,
+          0.8088172979457116,
+          0.959577626163937,
+          0.8594753843968
+        ],
+        "confidence": 1,
+        "text": "precharge C"
+      },
+      {
+        "bbox": [
+          0.7192589431613648,
+          0.9459351342146239,
+          0.9329248924931124,
+          0.986885351112728
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 0s 0840"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is explained in detail in Chapter 17.",
+      "pdf_page": 252,
+      "printed_page": 258,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0252_02_0840.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, we can only use this solution at frequencies well below the clock frequency.",
+      "pdf_page": 253,
+      "printed_page": 259,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Moreover, these clock injection and charge redistribution signals severely limit the dynamic range.",
+      "pdf_page": 253,
+      "printed_page": 259,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Intermodulation (and folding) of these signals provide an upper limit to the signal-tonoise ratio.",
+      "pdf_page": 253,
+      "printed_page": 259,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Finally, the switched capacitors increase the capacitive load of the CMFB amplifier.",
+      "pdf_page": 253,
+      "printed_page": 259,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the GBW will be reduced and the common-mode settling time increased.",
+      "pdf_page": 253,
+      "printed_page": 259,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "In the phase W , the other 2 transistors are on.",
+      "pdf_page": 252,
+      "printed_page": 258,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0840-M01",
+      "ocr_text": "=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.4527027029560811,
+        0.5804878046747968,
+        0.4831081083614865,
+        0.6146341461382114
+      ],
+      "context_crop": "regions/SANSEN-0840_math_01.png",
+      "context_bbox_normalized": [
+        0.41270270295608114,
+        0.4804878046747968,
+        0.7131081083614865,
+        0.7446341461382114
+      ],
+      "source_image": "slides/p0252_02_0840.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0840-M02",
+      "ocr_text": "Vss = OV",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2635135121058559,
+        0.7365853660162601,
+        0.3479729715653153,
+        0.765853658699187
+      ],
+      "context_crop": "regions/SANSEN-0840_math_02.png",
+      "context_bbox_normalized": [
+        0.22351351210585588,
+        0.6365853660162601,
+        0.5779729715653154,
+        0.895853658699187
+      ],
+      "source_image": "slides/p0252_02_0840.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0840-M03",
+      "ocr_text": "analog GND = Vdd/2",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.36148649625230383,
+        0.848780487398374,
+        0.5608108076891374,
+        0.8829268288617886
+      ],
+      "context_crop": "regions/SANSEN-0840_math_03.png",
+      "context_bbox_normalized": [
+        0.32148649625230385,
+        0.748780487398374,
+        0.7908108076891374,
+        0.93
+      ],
+      "source_image": "slides/p0252_02_0840.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0840-M04",
+      "ocr_text": "=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5641891886824325,
+        0.8292682929878048,
+        0.6047297292229731,
+        0.8829268295731707
+      ],
+      "context_crop": "regions/SANSEN-0840_math_04.png",
+      "context_bbox_normalized": [
+        0.5241891886824325,
+        0.7292682929878048,
+        0.8347297292229731,
+        0.93
+      ],
+      "source_image": "slides/p0252_02_0840.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

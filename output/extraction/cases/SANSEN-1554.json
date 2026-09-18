@@ -1,0 +1,170 @@
+{
+  "case_id": "SANSEN-1554",
+  "slide_id": "1554",
+  "chapter": 15,
+  "slide_number_in_chapter": 54,
+  "source": {
+    "pdf_page": 440,
+    "printed_page": 448
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0440_01_1554.jpg",
+      "pdf_page": 440,
+      "printed_page": 448,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 440,
+      "printed_page": 448,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        417.4875000000002
+      ],
+      "text_raw": "A good example of a layout\nin which all rules are prop-\nerly applied is shown in this\nslide. It consists of nine\nequal capacitors, to which\ntabs have been added. These\ntabs are used to connect\nsome of the capacitors. In\nthis way a ratio of 7/2 is\nrealized.\nAll tabs are always pre-\nsent even if they are not\nused. In this way the para-\nsitic capacitances associated\nwith the four tabs are always\nthe same.\nAll unit capacitances have the same shape: they have the same area/perimeter ratio.\nMoreover, they are laid out in centroide form. The two capacitors are in the middle, surrounded\nby the seven other ones. They have about the same point of gravity.\nFinally, the whole structure is surrounded by a dummy ring to make sure that all capacitors\nsee the same neighbors.",
+      "text": "A good example of a layout in which all rules are properly applied is shown in this slide. It consists of nine equal capacitors, to which tabs have been added. These tabs are used to connect some of the capacitors. In this way a ratio of 7/2 is realized. All tabs are always present even if they are not used. In this way the parasitic capacitances associated with the four tabs are always the same. All unit capacitances have the same shape: they have the same area/perimeter ratio. Moreover, they are laid out in centroide form. The two capacitors are in the middle, surrounded by the seven other ones. They have about the same point of gravity. Finally, the whole structure is surrounded by a dummy ring to make sure that all capacitors see the same neighbors."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A good example of a layout in which all rules are properly applied is shown in this slide. It consists of nine equal capacitors, to which tabs have been added. These tabs are used to connect some of the capacitors. In this way a ratio of 7/2 is realized. All tabs are always present even if they are not used. In this way the parasitic capacitances associated with the four tabs are always the same. All unit capacitances have the same shape: they have the same area/perimeter ratio. Moreover, they are laid out in centroide form. The two capacitors are in the middle, surrounded by the seven other ones. They have about the same point of gravity. Finally, the whole structure is surrounded by a dummy ring to make sure that all capacitors see the same neighbors.",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Layout capacitance ratio",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0440_01_1554.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432121621625,
+          0.08292682990243905,
+          0.5135135104054054,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "Layout capacitance ratio"
+      },
+      {
+        "bbox": [
+          0.7094594609797298,
+          0.7951219516260163,
+          0.9189189204391892,
+          0.8439024394308943
+        ],
+        "confidence": 0.5,
+        "text": "Ratio 7/2 = 3.5"
+      },
+      {
+        "bbox": [
+          0.7533783787584459,
+          0.8829268297560975,
+          0.9256756760557433,
+          0.92195122
+        ],
+        "confidence": 1,
+        "text": "Courtesy Vittoz"
+      },
+      {
+        "bbox": [
+          0.7128378478851868,
+          0.9560975606504065,
+          0.9290540512139122,
+          0.9853658533333333
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 1554"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A good example of a layout in which all rules are properly applied is shown in this slide.",
+      "pdf_page": 440,
+      "printed_page": 448,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0440_01_1554.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "These tabs are used to connect some of the capacitors.",
+        "pdf_page": 440,
+        "printed_page": 448,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It consists of nine equal capacitors, to which tabs have been added.",
+      "pdf_page": 440,
+      "printed_page": 448,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1554-M01",
+      "ocr_text": "Ratio 7/2 = 3.5",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7094594609797298,
+        0.7951219516260163,
+        0.9189189204391892,
+        0.8439024394308943
+      ],
+      "context_crop": "regions/SANSEN-1554_math_01.png",
+      "context_bbox_normalized": [
+        0.6694594609797297,
+        0.6951219516260163,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0440_01_1554.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

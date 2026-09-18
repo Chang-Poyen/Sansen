@@ -1,0 +1,49 @@
+496 Chapter #17
+C is 1 pF, then about 0.1% of the clock pulse is injected in the signal path. For a clock of 3 V,
+this is a 3 mV error signal in the signal path. This gives a contribution at the clock frequency
+and its harmonics! It does not affect the lower frequency bands, however.
+The charge itself, transferred by C , is of the order of fC. It is quite small but not negligible.
+ovl
+1723
+Moreover, a MOST, which
+is switched on, contains a
+mobile charge Q in the
+m
+channel (inversion layer),
+which disappears when the
+MOST is switched off. The
+charge is redistributed
+towards both ends.
+This charge disappears
+towards the Source side and
+towards the Drain side
+depending on the relative
+impedances seen. If the
+capacitances on both sides
+are the same, then half the
+charge goes left and half
+right.
+A first-order calculation shows that this charge is also of the order of magnitude of fC. For a
+1 pF storage capacitor, it also causes mV’s error.
+This error depends on the signal and causes distortion.
+A rule of thumb says that per pF storage capacitor, about 10 mV error can be expected as a
+result of clock injection and charge redistribution.
+This is a lot. Let us see what circuit techniques can be used to reduce these errors. Making
+everything fully differential is certainly one way to reduce these errors.
+1724
+Using a double switch is a
+possible remedy for clock
+injection (see left). When the
+nMOST receives a posi-
+tively going clock pulse
+at its Gate, the pMOST
+receives a negatively going
+clock pulse at its Gate. The
+effects can cancel, provided
+the overlap capacitances
+match. Charge redistribu-
+tion is reduced as well as the
+electrons of the nMOS
+recombining with the holes
+of the pMOST.
+The addition of a dummy

@@ -1,0 +1,439 @@
+{
+  "case_id": "SANSEN-1735",
+  "slide_id": "1735",
+  "chapter": 17,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 492,
+    "printed_page": 502
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0492_02_1735.jpg",
+      "pdf_page": 492,
+      "printed_page": 502,
+      "bbox_pt": [
+        91.521622,
+        479.27398700000003,
+        374.78981,
+        675.733978
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 492,
+      "printed_page": 502,
+      "bbox_pt": [
+        0,
+        475.2845000000001,
+        595,
+        797
+      ],
+      "text_raw": "The charge conservation\nequation is copied on top.\nAll voltages are now con-\nverted into z-transforms.\nOne delay corresponds to\nz−1.\nThe gain V /V is now\nout in\nreadily written. It shows\nthat the gain equals a, the\nratio of the two capacitors,\nmultiplied by a factor in z.\nTo see what this factor\nmeans in the frequency\ndomain, z is substituted by\nexp( jvT ). For frequencies\nc\nmuch lower than the clock\nfrequency f , this exponential can be developed into a power series, which can be cut off after jvT .\nc c",
+      "text": "The charge conservation equation is copied on top. All voltages are now converted into z-transforms. One delay corresponds to z−1. The gain V /V is now out in readily written. It shows that the gain equals a, the ratio of the two capacitors, multiplied by a factor in z. To see what this factor means in the frequency domain, z is substituted by exp( jvT ). For frequencies c much lower than the clock frequency f , this exponential can be developed into a power series, which can be cut off after jvT . c c"
+    },
+    {
+      "pdf_page": 493,
+      "printed_page": 503,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        195.26803964999988
+      ],
+      "text_raw": "The resulting gain is exactly the same as for a purely analog integrator, provided the time\nconstant T /a.\nc\nThis is approximation however, for low frequencies. For higher frequencies, an error is made,\ndiscussed next.",
+      "text": "The resulting gain is exactly the same as for a purely analog integrator, provided the time constant T /a. c This is approximation however, for low frequencies. For higher frequencies, an error is made, discussed next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The charge conservation equation is copied on top. All voltages are now converted into z-transforms. One delay corresponds to z−1. The gain V /V is now out in readily written. It shows that the gain equals a, the ratio of the two capacitors, multiplied by a factor in z. To see what this factor means in the frequency domain, z is substituted by exp( jvT ). For frequencies c much lower than the clock frequency f , this exponential can be developed into a power series, which can be cut off after jvT . c c\n\nThe resulting gain is exactly the same as for a purely analog integrator, provided the time constant T /a. c This is approximation however, for low frequencies. For higher frequencies, an error is made, discussed next.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "SC-Integrator : approximate transfer function",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0492_02_1735.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810793918919,
+          0.08780487868292686,
+          0.885135133445946,
+          0.15121951282926827
+        ],
+        "confidence": 1,
+        "text": "SC-Integrator : approximate transfer function"
+      },
+      {
+        "bbox": [
+          0.07432431903153162,
+          0.20975609776422766,
+          0.7094594541666668,
+          0.2731707319105692
+        ],
+        "confidence": 0.5,
+        "text": "- C Vout (n) = aC Vin (n-1/2) - C Vout (n-1)"
+      },
+      {
+        "bbox": [
+          0.17905405653153145,
+          0.3024390243495936,
+          0.47635135382882876,
+          0.365853658495935
+        ],
+        "confidence": 0.5,
+        "text": "Vout (n-1) = 7' Vout"
+      },
+      {
+        "bbox": [
+          0.08108107985641895,
+          0.4048780478048781,
+          0.6114864852618244,
+          0.48292682829268296
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ C.Vout = E'C Vout -2l2 aC Vin"
+      },
+      {
+        "bbox": [
+          0.13635135242864493,
+          0.5123902436103425,
+          0.2960810780343776,
+          0.609560975689825
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vout = - a"
+      },
+      {
+        "bbox": [
+          0.32094594618243244,
+          0.5073170725853658,
+          0.38513513537162164,
+          0.5658536579512196
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "z-1/2"
+      },
+      {
+        "bbox": [
+          0.14527027074887386,
+          0.5902439024390244,
+          0.2027027031813063,
+          0.6585365853658537
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.3074324328716216,
+          0.5951219517560975,
+          0.3986486490878378,
+          0.6487804883414633
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1-7'"
+      },
+      {
+        "bbox": [
+          0.13175675760135136,
+          0.6780487803414634,
+          0.21621621706081082,
+          0.741463414487805
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.273648650563063,
+          0.6829268291056911,
+          0.5033783802927927,
+          0.7512195120325204
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a(1- jaTc(2)"
+      },
+      {
+        "bbox": [
+          0.08445945909346847,
+          0.7268292685365855,
+          0.12837837801238738,
+          0.7756097563414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→"
+      },
+      {
+        "bbox": [
+          0.14864864918918919,
+          0.7658536584390243,
+          0.20270270324324324,
+          0.8146341462439024
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.33783783685810814,
+          0.7609756099999999,
+          0.43581080983108106,
+          0.8243902441463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "joTc"
+      },
+      {
+        "bbox": [
+          0.5608108108590734,
+          0.7609756093031359,
+          0.655405405453668,
+          0.8243902434494774
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "joTc"
+      },
+      {
+        "bbox": [
+          0.5494702393788381,
+          0.53676359997406,
+          0.8802904003219467,
+          0.6307802007922289
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "7=ejole=1-joTe"
+      },
+      {
+        "bbox": [
+          0.7153930292518835,
+          0.7212732545285512,
+          0.8819272468801563,
+          0.7770379924718749
+        ],
+        "confidence": 1,
+        "text": "Integrator"
+      },
+      {
+        "bbox": [
+          0.7263513530827702,
+          0.7756097559756097,
+          0.8648648665962837,
+          0.8536585364634145
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RC = Ts"
+      },
+      {
+        "bbox": [
+          0.7157625730153326,
+          0.9357755780065575,
+          0.9329798637389786,
+          0.9821073720940373
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s N1735"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It shows that the gain equals a, the ratio of the two capacitors, multiplied by a factor in z.",
+      "pdf_page": 492,
+      "printed_page": 502,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0492_02_1735.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The gain V /V is now out in readily written.",
+      "pdf_page": 492,
+      "printed_page": 502,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It shows that the gain equals a, the ratio of the two capacitors, multiplied by a factor in z.",
+      "pdf_page": 492,
+      "printed_page": 502,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The resulting gain is exactly the same as for a purely analog integrator, provided the time constant T /a. c This is approximation however, for low frequencies.",
+      "pdf_page": 493,
+      "printed_page": 503,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The resulting gain is exactly the same as for a purely analog integrator, provided the time constant T /a. c This is approximation however, for low frequencies.",
+      "pdf_page": 493,
+      "printed_page": 503,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1735-M01",
+      "ocr_text": "- C Vout (n) = aC Vin (n-1/2) - C Vout (n-1)",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.07432431903153162,
+        0.20975609776422766,
+        0.7094594541666668,
+        0.2731707319105692
+      ],
+      "context_crop": "regions/SANSEN-1735_math_01.png",
+      "context_bbox_normalized": [
+        0.034324319031531624,
+        0.13,
+        0.9394594541666668,
+        0.4031707319105692
+      ],
+      "source_image": "slides/p0492_02_1735.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1735-M02",
+      "ocr_text": "Vout (n-1) = 7' Vout",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.17905405653153145,
+        0.3024390243495936,
+        0.47635135382882876,
+        0.365853658495935
+      ],
+      "context_crop": "regions/SANSEN-1735_math_02.png",
+      "context_bbox_normalized": [
+        0.13905405653153144,
+        0.20243902434959357,
+        0.7063513538288287,
+        0.495853658495935
+      ],
+      "source_image": "slides/p0492_02_1735.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1735-M03",
+      "ocr_text": "→ C.Vout = E'C Vout -2l2 aC Vin",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08108107985641895,
+        0.4048780478048781,
+        0.6114864852618244,
+        0.48292682829268296
+      ],
+      "context_crop": "regions/SANSEN-1735_math_03.png",
+      "context_bbox_normalized": [
+        0.04108107985641895,
+        0.30487804780487815,
+        0.8414864852618243,
+        0.612926828292683
+      ],
+      "source_image": "slides/p0492_02_1735.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1735-M04",
+      "ocr_text": "Vout = - a",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.13635135242864493,
+        0.5123902436103425,
+        0.2960810780343776,
+        0.609560975689825
+      ],
+      "context_crop": "regions/SANSEN-1735_math_04.png",
+      "context_bbox_normalized": [
+        0.09635135242864493,
+        0.4123902436103425,
+        0.5260810780343776,
+        0.739560975689825
+      ],
+      "source_image": "slides/p0492_02_1735.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1735-M05",
+      "ocr_text": "7=ejole=1-joTe",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5494702393788381,
+        0.53676359997406,
+        0.8802904003219467,
+        0.6307802007922289
+      ],
+      "context_crop": "regions/SANSEN-1735_math_05.png",
+      "context_bbox_normalized": [
+        0.5094702393788381,
+        0.43676359997406,
+        1,
+        0.7607802007922289
+      ],
+      "source_image": "slides/p0492_02_1735.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1735-M06",
+      "ocr_text": "RC = Ts",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7263513530827702,
+        0.7756097559756097,
+        0.8648648665962837,
+        0.8536585364634145
+      ],
+      "context_crop": "regions/SANSEN-1735_math_06.png",
+      "context_bbox_normalized": [
+        0.6863513530827702,
+        0.6756097559756097,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0492_02_1735.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

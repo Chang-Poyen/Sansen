@@ -1,0 +1,344 @@
+{
+  "case_id": "SANSEN-0112",
+  "slide_id": "0112",
+  "chapter": 1,
+  "slide_number_in_chapter": 12,
+  "source": {
+    "pdf_page": 7,
+    "printed_page": 7
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0007_02_0112.jpg",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "bbox_pt": [
+        91.521622,
+        371.652009,
+        374.78981,
+        568.1120000000001
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 7,
+      "printed_page": 7,
+      "bbox_pt": [
+        0,
+        367.6625,
+        595,
+        797
+      ],
+      "text_raw": "Application of a positive\nGate voltage V causes an\nGS\ninversion layer (or channel)\nwhich connects Source to\nDrain. Application of a pos-\nitive voltage V causes\nDS\nsome current I to flow\nDS\nfrom Drain to Source. Now\nwe want to find simple\nexpressions for this current,\nso that we can use them for\ndesign purposes.\nThe curve of I versus\nDS\nV is sketched on the left.\nGS\nThe current starts flowing as\nsoon as V exceeds V ,\nGS T\ncalled the threshold voltage. For larger values of V , the current increases in a nonlinear way.\nGS\nHow much we actually exceed V is V −V ; this will be the most important design parameter\nT GS T\nlater on!\nThe curve of I versus V is sketched on the left. For small values of V , the current\nDS DS DS\nincreases linearly. Indeed, the transistor behaves as a resistor. This is called the linear region.\nFor larger values of V the current stops increasing but levels off towards nearly constant\nDS\nvalues: the current is said to saturate. This is called the saturation region. Curves are given for\nfour different values of V .\nGS\nThe linear and saturation regions are separated by a parabola, which is described by V =\nDS\nV −V . We will concentrate on the linear region first.\nGS T",
+      "text": "Application of a positive Gate voltage V causes an GS inversion layer (or channel) which connects Source to Drain. Application of a positive voltage V causes DS some current I to flow DS from Drain to Source. Now we want to find simple expressions for this current, so that we can use them for design purposes. The curve of I versus DS V is sketched on the left. GS The current starts flowing as soon as V exceeds V , GS T called the threshold voltage. For larger values of V , the current increases in a nonlinear way. GS How much we actually exceed V is V −V ; this will be the most important design parameter T GS T later on! The curve of I versus V is sketched on the left. For small values of V , the current DS DS DS increases linearly. Indeed, the transistor behaves as a resistor. This is called the linear region. For larger values of V the current stops increasing but levels off towards nearly constant DS values: the current is said to saturate. This is called the saturation region. Curves are given for four different values of V . GS The linear and saturation regions are separated by a parabola, which is described by V = DS V −V . We will concentrate on the linear region first. GS T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Application of a positive Gate voltage V causes an GS inversion layer (or channel) which connects Source to Drain. Application of a positive voltage V causes DS some current I to flow DS from Drain to Source. Now we want to find simple expressions for this current, so that we can use them for design purposes. The curve of I versus DS V is sketched on the left. GS The current starts flowing as soon as V exceeds V , GS T called the threshold voltage. For larger values of V , the current increases in a nonlinear way. GS How much we actually exceed V is V −V ; this will be the most important design parameter T GS T later on! The curve of I versus V is sketched on the left. For small values of V , the current DS DS DS increases linearly. Indeed, the transistor behaves as a resistor. This is called the linear region. For larger values of V the current stops increasing but levels off towards nearly constant DS values: the current is said to saturate. This is called the saturation region. Curves are given for four different values of V . GS The linear and saturation regions are separated by a parabola, which is described by V = DS V −V . We will concentrate on the linear region first. GS T",
+  "schema_version": "1.0",
+  "chapter_title": "MOS 晶体管与双极型晶体管的比较",
+  "title": "MOST Ips versus VGs and VDs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0007_02_0112.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432081925681,
+          0.07804878070121957,
+          0.6351351316300675,
+          0.14146341484756098
+        ],
+        "confidence": 0.5,
+        "text": "MOST Ips versus VGs and VDs"
+      },
+      {
+        "bbox": [
+          0.07432432347972973,
+          0.2878048772560975,
+          0.14864864780405407,
+          0.351219511402439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs1"
+      },
+      {
+        "bbox": [
+          0.40202702614020275,
+          0.2878048772560975,
+          0.4797297288429055,
+          0.351219511402439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs1"
+      },
+      {
+        "bbox": [
+          0.49324324239864875,
+          0.3317073166341463,
+          0.5844594586148649,
+          0.3756097556585366
+        ],
+        "confidence": 1,
+        "text": "linear"
+      },
+      {
+        "bbox": [
+          0.6718762128996093,
+          0.2319506668540644,
+          0.7774481079319249,
+          0.2802444551126868
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDs = ct"
+      },
+      {
+        "bbox": [
+          0.6587837844594594,
+          0.30731707317073176,
+          0.7263513520270269,
+          0.36585365853658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs"
+      },
+      {
+        "bbox": [
+          0.6216216231081081,
+          0.40975609741463415,
+          0.7702702717567568,
+          0.4439024388780488
+        ],
+        "confidence": 1,
+        "text": "saturation"
+      },
+      {
+        "bbox": [
+          0.6655405410472973,
+          0.46829268356097553,
+          0.7229729734797298,
+          0.531707317707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs"
+      },
+      {
+        "bbox": [
+          0.6655405411148649,
+          0.5902439023414634,
+          0.7229729735472974,
+          0.648780487707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yos"
+      },
+      {
+        "bbox": [
+          0.668918918552928,
+          0.6634146336585366,
+          0.7263513509853604,
+          0.7219512190243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yes"
+      },
+      {
+        "bbox": [
+          0.19932432396235522,
+          0.7609756098954704,
+          0.2499999996380309,
+          0.8292682928222996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VT"
+      },
+      {
+        "bbox": [
+          0.3412162156418919,
+          0.7609756090243902,
+          0.41216216158783786,
+          0.8341463407317072
+        ],
+        "confidence": 0.5,
+        "text": "VGs"
+      },
+      {
+        "bbox": [
+          0.4594594596621621,
+          0.7609756102439024,
+          0.48648648668918915,
+          0.8097560980487805
+        ],
+        "confidence": 0.5,
+        "text": "0"
+      },
+      {
+        "bbox": [
+          0.871621621081081,
+          0.7658536579024391,
+          0.9391891886486486,
+          0.8292682920487805
+        ],
+        "confidence": 0.5,
+        "text": "VDs"
+      },
+      {
+        "bbox": [
+          0.4628378342905406,
+          0.8536585367073171,
+          0.8885135099662163,
+          0.9073170732926829
+        ],
+        "confidence": 1,
+        "text": "Saturation because high VDs"
+      },
+      {
+        "bbox": [
+          0.7297297342590607,
+          0.9512195127642277,
+          0.9391891808310294,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0112"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Now we want to find simple expressions for this current, so that we can use them for design purposes.",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0007_02_0112.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Application of a positive Gate voltage V causes an GS inversion layer (or channel) which connects Source to Drain.",
+        "pdf_page": 7,
+        "printed_page": 7,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Application of a positive voltage V causes DS some current I to flow DS from Drain to Source.",
+        "pdf_page": 7,
+        "printed_page": 7,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For larger values of V , the current increases in a nonlinear way.",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For small values of V , the current DS DS DS increases linearly.",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The curve of I versus DS V is sketched on the left.",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The curve of I versus V is sketched on the left.",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Curves are given for four different values of V .",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "For larger values of V the current stops increasing but levels off towards nearly constant DS values: the current is said to saturate.",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is called the saturation region.",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS The linear and saturation regions are separated by a parabola, which is described by V = DS V −V .",
+      "pdf_page": 7,
+      "printed_page": 7,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0112-M01",
+      "ocr_text": "VDs = ct",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6718762128996093,
+        0.2319506668540644,
+        0.7774481079319249,
+        0.2802444551126868
+      ],
+      "context_crop": "regions/SANSEN-0112_math_01.png",
+      "context_bbox_normalized": [
+        0.6318762128996093,
+        0.1319506668540644,
+        1,
+        0.4102444551126868
+      ],
+      "source_image": "slides/p0007_02_0112.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Comparison of MOST and bipolar transistors"
+}

@@ -1,0 +1,49 @@
+Noise performance of elementary transistor stages 145
+0455
+Now we have to transfer the
+noise source from the Gate
+of the MOST to the input
+of the amplifier. Once the
+noise source is at the
+input, the SNR is readily
+calculated.
+In order to do so, we cal-
+culate the gain from the
+equivalent input noise volt-
+age to the output, we calcu-
+late the gain from the input
+to the output, and we
+equate both.
+The gain from the noise
+source to the output is the
+most difficult. Since the feedback loop is still closed by capacitance C , the capacitance ratio
+c
+determines the gain. Indeed, the Gate itself acts as a virtual ground.
+The gain from input to output is simply C /C .
+a f
+Equation of both provides the noise contribution of the MOST, transferred to the input.
+0456
+The noise of the MOST is
+actually transferred to the
+input by means of a capaci-
+tive transformer. It is clearly
+amplified, by that capaci-
+tance ratio. Note however,
+that this capacitive ratio
+depends on the transistor
+size or transistor width, as
+C is part of it.
+GS
+Rewriting this expression,
+in terms of transistor width,
+shows that there is mini-
+mum of the input noise
+versus width W. For small
+W, it drops out of the
+numerator and the noise goes down with W. For large W, the kW term overcompensates the W
+factor in the denominator and the noise goes up with W.
+It is clear that we will try to make that up-transformation factor as small as possible. The
+numerator contains all possible capacitances connected to that node. A long coaxial wire for
+example between the photodiode and the amplifier would add a lot of capacitance, heavily
+deteriorating the noise performance. This is why all low-noise capacitive sensors have to be
+integrated together with their preamplifier.

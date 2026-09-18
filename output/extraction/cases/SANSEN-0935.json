@@ -1,0 +1,446 @@
+{
+  "case_id": "SANSEN-0935",
+  "slide_id": "0935",
+  "chapter": 9,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 273,
+    "printed_page": 280
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0273_02_0935.jpg",
+      "pdf_page": 273,
+      "printed_page": 280,
+      "bbox_pt": [
+        91.521622,
+        373.644959,
+        374.78981,
+        570.1049499999999
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 273,
+      "printed_page": 280,
+      "bbox_pt": [
+        0,
+        369.6555000000001,
+        595,
+        797
+      ],
+      "text_raw": "The first configuration is\nclose to the NGCC shown\npreviously. It also uses two\nfeedforward stages. The only\ndifference with the NGCC\namplifier is the nulling resis-\ntor R in series with\nn2\nthe second compensation\ncapacitance. This is a well\nknown technique of generat-\ning a zero in the left-half-\nplane, at least when this\nresistor R is made larger\nn2\nthan 1/g (see Chapter 4).\nm3\nAgain, the feedforward\nstages are used to cancel out\nthe zero’s. This time, however, transconductance g is made larger in order to generate left-\nmf0\nhand zeros. As a result, the complex non-dominant poles are made to cancel with a pair of\ncomplex left-hand zero’s.\nFor a 3rd-order Butterworth realization, this gives a GBW which is 6.8 times larger than a\nNMC realization with the same load capacitance and power consumption.",
+      "text": "The first configuration is close to the NGCC shown previously. It also uses two feedforward stages. The only difference with the NGCC amplifier is the nulling resistor R in series with n2 the second compensation capacitance. This is a well known technique of generating a zero in the left-halfplane, at least when this resistor R is made larger n2 than 1/g (see Chapter 4). m3 Again, the feedforward stages are used to cancel out the zero’s. This time, however, transconductance g is made larger in order to generate leftmf0 hand zeros. As a result, the complex non-dominant poles are made to cancel with a pair of complex left-hand zero’s. For a 3rd-order Butterworth realization, this gives a GBW which is 6.8 times larger than a NMC realization with the same load capacitance and power consumption."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The first configuration is close to the NGCC shown previously. It also uses two feedforward stages. The only difference with the NGCC amplifier is the nulling resistor R in series with n2 the second compensation capacitance. This is a well known technique of generating a zero in the left-halfplane, at least when this resistor R is made larger n2 than 1/g (see Chapter 4). m3 Again, the feedforward stages are used to cancel out the zero’s. This time, however, transconductance g is made larger in order to generate leftmf0 hand zeros. As a result, the complex non-dominant poles are made to cancel with a pair of complex left-hand zero’s. For a 3rd-order Butterworth realization, this gives a GBW which is 6.8 times larger than a NMC realization with the same load capacitance and power consumption.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Nested Gm and nulling Res. NMC - NGRNMC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0273_02_0935.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810709037165,
+          0.08780487810975612,
+          0.8952702600929057,
+          0.15121951225609753
+        ],
+        "confidence": 1,
+        "text": "Nested Gm and nulling Res. NMC - NGRNMC"
+      },
+      {
+        "bbox": [
+          0.4155405413513513,
+          0.19999999956097558,
+          0.4966216224324324,
+          0.2634146337073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cm1l"
+      },
+      {
+        "bbox": [
+          0.4662162154138514,
+          0.33170731731707315,
+          0.5304054046030405,
+          0.36097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3 Rn2"
+      },
+      {
+        "bbox": [
+          0.17229729763513513,
+          0.39512195065040656,
+          0.2195945949324324,
+          0.4292682921138211
+        ],
+        "confidence": 1,
+        "text": "gm1"
+      },
+      {
+        "bbox": [
+          0.15540540542953668,
+          0.5219512192334496,
+          0.20608108110521237,
+          0.560975609477352
+        ],
+        "confidence": 1,
+        "text": "R1L"
+      },
+      {
+        "bbox": [
+          0.20945945905405408,
+          0.517073170292683,
+          0.27027026986486485,
+          0.5609756093170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ".Jс1"
+      },
+      {
+        "bbox": [
+          0.38851351361486486,
+          0.3951219508780488,
+          0.4324324325337838,
+          0.42926829234146346
+        ],
+        "confidence": 1,
+        "text": "gm2"
+      },
+      {
+        "bbox": [
+          0.3918918918918919,
+          0.49268292626016263,
+          0.4527027027027027,
+          0.560975609186992
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2L"
+      },
+      {
+        "bbox": [
+          0.4594594598817567,
+          0.5170731705284553,
+          0.5101351355574324,
+          0.5609756095528455
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Jc2"
+      },
+      {
+        "bbox": [
+          0.3817567569679054,
+          0.6243902433536586,
+          0.4391891894003378,
+          0.6682926823780487
+        ],
+        "confidence": 1,
+        "text": "gmfo"
+      },
+      {
+        "bbox": [
+          0.5743243250281532,
+          0.29756097556910577,
+          0.6587837844876127,
+          0.3609756097154472
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cm2"
+      },
+      {
+        "bbox": [
+          0.5777027029138514,
+          0.39512195079268286,
+          0.6216216218327704,
+          0.42926829225609753
+        ],
+        "confidence": 1,
+        "text": "gm3"
+      },
+      {
+        "bbox": [
+          0.5743243244087839,
+          0.49268292626016263,
+          0.6317567568412162,
+          0.560975609186992
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R3L"
+      },
+      {
+        "bbox": [
+          0.16891891866554057,
+          0.6926829273780488,
+          0.2229729727195946,
+          0.736585366402439
+        ],
+        "confidence": 1,
+        "text": "gmf1"
+      },
+      {
+        "bbox": [
+          0.08445945638513519,
+          0.8341463416097561,
+          0.39189188881756765,
+          0.8878048781951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW/GBWNMC = 6.8"
+      },
+      {
+        "bbox": [
+          0.46959459586148655,
+          0.7658536583739838,
+          0.6216216228885135,
+          0.8146341461788619
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mf1 = 9m1"
+      },
+      {
+        "bbox": [
+          0.47297297466216215,
+          0.8292682925,
+          0.6081081097972973,
+          0.8731707315243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mfo = ..."
+      },
+      {
+        "bbox": [
+          0.716216216554054,
+          0.5219512193658536,
+          0.7500000003378379,
+          0.5560975608292683
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.8783783782094595,
+          0.5317073165853659,
+          0.8986486484797298,
+          0.5707317068292683
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7702702708333333,
+          0.5804878045121951,
+          0.8378378384009009,
+          0.634146341097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "01 7"
+      },
+      {
+        "bbox": [
+          0.8412162151013513,
+          0.6097560976585367,
+          0.9527027015878378,
+          0.6682926830243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rnz m2"
+      },
+      {
+        "bbox": [
+          0.7835441740941317,
+          0.6981568893958094,
+          0.9541696545397873,
+          0.7642469475131874
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m29m3Rn2"
+      },
+      {
+        "bbox": [
+          0.7162162168074324,
+          0.7414634138414635,
+          0.7905405411317568,
+          0.8048780479878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "002="
+      },
+      {
+        "bbox": [
+          0.6756756798986485,
+          0.8634146339024391,
+          0.9290540582770269,
+          0.8975609753658538
+        ],
+        "confidence": 1,
+        "text": "Peng, CICC 2002, 329-332"
+      },
+      {
+        "bbox": [
+          0.7331081113423941,
+          0.9268292677235771,
+          0.9324324227792278,
+          0.9609756091869918
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 0935"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The first configuration is close to the NGCC shown previously.",
+      "pdf_page": 273,
+      "printed_page": 280,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0273_02_0935.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The only difference with the NGCC amplifier is the nulling resistor R in series with n2 the second compensation capacitance.",
+        "pdf_page": 273,
+        "printed_page": 280,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the complex non-dominant poles are made to cancel with a pair of complex left-hand zero’s.",
+      "pdf_page": 273,
+      "printed_page": 280,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0935-M01",
+      "ocr_text": "GBW/GBWNMC = 6.8",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08445945638513519,
+        0.8341463416097561,
+        0.39189188881756765,
+        0.8878048781951219
+      ],
+      "context_crop": "regions/SANSEN-0935_math_01.png",
+      "context_bbox_normalized": [
+        0.04445945638513519,
+        0.7341463416097561,
+        0.6218918888175676,
+        0.93
+      ],
+      "source_image": "slides/p0273_02_0935.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0935-M02",
+      "ocr_text": "9mf1 = 9m1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.46959459586148655,
+        0.7658536583739838,
+        0.6216216228885135,
+        0.8146341461788619
+      ],
+      "context_crop": "regions/SANSEN-0935_math_02.png",
+      "context_bbox_normalized": [
+        0.4295945958614866,
+        0.6658536583739838,
+        0.8516216228885135,
+        0.93
+      ],
+      "source_image": "slides/p0273_02_0935.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0935-M03",
+      "ocr_text": "9mfo = ...",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.47297297466216215,
+        0.8292682925,
+        0.6081081097972973,
+        0.8731707315243903
+      ],
+      "context_crop": "regions/SANSEN-0935_math_03.png",
+      "context_bbox_normalized": [
+        0.43297297466216217,
+        0.7292682925,
+        0.8381081097972973,
+        0.93
+      ],
+      "source_image": "slides/p0273_02_0935.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0935-M04",
+      "ocr_text": "002=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7162162168074324,
+        0.7414634138414635,
+        0.7905405411317568,
+        0.8048780479878049
+      ],
+      "context_crop": "regions/SANSEN-0935_math_04.png",
+      "context_bbox_normalized": [
+        0.6762162168074324,
+        0.6414634138414635,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0273_02_0935.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

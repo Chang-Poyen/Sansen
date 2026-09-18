@@ -1,0 +1,435 @@
+{
+  "case_id": "SANSEN-0535",
+  "slide_id": "0535",
+  "chapter": 5,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 162,
+    "printed_page": 166
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0163_01_0535.jpg",
+      "pdf_page": 163,
+      "printed_page": 167,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 162,
+      "printed_page": 166,
+      "bbox_pt": [
+        0,
+        642.6964750000001,
+        595,
+        797
+      ],
+      "text_raw": "The full expression of the gain A is given in this slide. Only two approximations have been\nv\ntaken. We have assumed that the gain is larger than unity and that node resistance resistor R\nn1\nis larger than load resistance R .\nL",
+      "text": "The full expression of the gain A is given in this slide. Only two approximations have been v taken. We have assumed that the gain is larger than unity and that node resistance resistor R n1 is larger than load resistance R . L"
+    },
+    {
+      "pdf_page": 163,
+      "printed_page": 167,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        403.5365000000001
+      ],
+      "text_raw": "The denominator is of\nsecond order in s or jv. It\nnow has two roots, which\nare the two poles. They can\nbe real or complex.\nThe numerator has one\nroot only, which is the zero.\nIt is a positive zero (in the\npolar diagram).\nThe question is again how\nwe have to dimension C\nc\nand/or g to shift the non-\nm2\ndominant pole out to higher\nfrequencies?\nFor this purpose, we have\nto take a look at the posi-\ntions of the poles when C\nc\nis varied.\nThis is not so obvious as C occurs at several places in the denominator. In order to figure out\nc\nhow the two poles (and the zero) change as we vary C , we draw the pole-zero position diagram.\nc",
+      "text": "The denominator is of second order in s or jv. It now has two roots, which are the two poles. They can be real or complex. The numerator has one root only, which is the zero. It is a positive zero (in the polar diagram). The question is again how we have to dimension C c and/or g to shift the nonm2 dominant pole out to higher frequencies? For this purpose, we have to take a look at the positions of the poles when C c is varied. This is not so obvious as C occurs at several places in the denominator. In order to figure out c how the two poles (and the zero) change as we vary C , we draw the pole-zero position diagram. c"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The full expression of the gain A is given in this slide. Only two approximations have been v taken. We have assumed that the gain is larger than unity and that node resistance resistor R n1 is larger than load resistance R . L\n\nThe denominator is of second order in s or jv. It now has two roots, which are the two poles. They can be real or complex. The numerator has one root only, which is the zero. It is a positive zero (in the polar diagram). The question is again how we have to dimension C c and/or g to shift the nonm2 dominant pole out to higher frequencies? For this purpose, we have to take a look at the positions of the poles when C c is varied. This is not so obvious as C occurs at several places in the denominator. In order to figure out c how the two poles (and the zero) change as we vary C , we draw the pole-zero position diagram. c",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Generic two-stage opamp",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0163_01_0535.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07691933157318634,
+          0.07889453068333196,
+          0.5277077779480279,
+          0.151940298490711
+        ],
+        "confidence": 1,
+        "text": "Generic two-stage opamp"
+      },
+      {
+        "bbox": [
+          0.08108108175675674,
+          0.3073170730487804,
+          0.1351351358108108,
+          0.3463414632926829
+        ],
+        "confidence": 1,
+        "text": "VIN1"
+      },
+      {
+        "bbox": [
+          0.08783784034967507,
+          0.3658536596996028,
+          0.14189189118185644,
+          0.40487804761747037
+        ],
+        "confidence": 1,
+        "text": "VIN2"
+      },
+      {
+        "bbox": [
+          0.18918918966779277,
+          0.34146341443089434,
+          0.2466216221002252,
+          0.3853658534552846
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.17567567436655407,
+          0.4292682920121951,
+          0.2939189176097973,
+          0.482926828597561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1 Cnt"
+      },
+      {
+        "bbox": [
+          0.3952702709881757,
+          0.37073170713414627,
+          0.4527027034206081,
+          0.41463414615853655
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.4763513511824324,
+          0.44878048741463417,
+          0.49999999983108107,
+          0.48780487765853653
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.5810810818834459,
+          0.3414634145121951,
+          0.6452702710726351,
+          0.38048780475609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.5709459461782095,
+          0.3902439022256098,
+          0.6081081083403717,
+          0.4439024388109756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6148648643918919,
+          0.44878048790243896,
+          0.6621621616891892,
+          0.5073170732682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.685810810304054,
+          0.23902438960975614,
+          0.7499999994932433,
+          0.30243902375609766
+        ],
+        "confidence": 1,
+        "text": "Avo"
+      },
+      {
+        "bbox": [
+          0.7432432414527027,
+          0.23902439048780488,
+          0.9222972955067569,
+          0.3024390246341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "=-Av1Av2"
+      },
+      {
+        "bbox": [
+          0.695945943454392,
+          0.35121951134146345,
+          0.9155405380489865,
+          0.41951219426829267
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av1 = 9m1Rn1"
+      },
+      {
+        "bbox": [
+          0.6959459438851351,
+          0.4585365854634147,
+          0.9020270249662161,
+          0.5268292683902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avz = 9m2RL"
+      },
+      {
+        "bbox": [
+          0.05743243388513511,
+          0.7073170731219511,
+          0.2027027041554054,
+          0.7707317072682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av = Avo"
+      },
+      {
+        "bbox": [
+          0.4898648647113022,
+          0.6878048779379157,
+          0.5304054052518428,
+          0.7121951218403547
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "mz"
+      },
+      {
+        "bbox": [
+          0.20945946469594587,
+          0.746341463031359,
+          0.942567572804054,
+          0.8097560971777004
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + (Rn1Cn1tAv2Rn1C+RLCL)5 + RmRICCs2"
+      },
+      {
+        "bbox": [
+          0.5304054061373873,
+          0.8585365858130081,
+          0.6858108115427928,
+          0.912195122398374
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CC = Cn1C"
+      },
+      {
+        "bbox": [
+          0.6824324354307432,
+          0.858536586097561,
+          0.9290540570523647,
+          0.9170731714634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "c + Cn19L + C.9L"
+      },
+      {
+        "bbox": [
+          0.7297297396081597,
+          0.9512195119512196,
+          0.9358108078017499,
+          0.9853658534146342
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0535"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0163_01_0535.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The full expression of the gain A is given in this slide.",
+      "pdf_page": 162,
+      "printed_page": 166,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We have assumed that the gain is larger than unity and that node resistance resistor R n1 is larger than load resistance R .",
+      "pdf_page": 162,
+      "printed_page": 166,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Only two approximations have been v taken.",
+      "pdf_page": 162,
+      "printed_page": 166,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We have assumed that the gain is larger than unity and that node resistance resistor R n1 is larger than load resistance R .",
+      "pdf_page": 162,
+      "printed_page": 166,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0535-M01",
+      "ocr_text": "=-Av1Av2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7432432414527027,
+        0.23902439048780488,
+        0.9222972955067569,
+        0.3024390246341464
+      ],
+      "context_crop": "regions/SANSEN-0535_math_01.png",
+      "context_bbox_normalized": [
+        0.7032432414527027,
+        0.13902439048780488,
+        1,
+        0.4324390246341464
+      ],
+      "source_image": "slides/p0163_01_0535.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0535-M02",
+      "ocr_text": "Av1 = 9m1Rn1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.695945943454392,
+        0.35121951134146345,
+        0.9155405380489865,
+        0.41951219426829267
+      ],
+      "context_crop": "regions/SANSEN-0535_math_02.png",
+      "context_bbox_normalized": [
+        0.6559459434543919,
+        0.2512195113414635,
+        1,
+        0.5495121942682927
+      ],
+      "source_image": "slides/p0163_01_0535.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0535-M03",
+      "ocr_text": "Avz = 9m2RL",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6959459438851351,
+        0.4585365854634147,
+        0.9020270249662161,
+        0.5268292683902439
+      ],
+      "context_crop": "regions/SANSEN-0535_math_03.png",
+      "context_bbox_normalized": [
+        0.655945943885135,
+        0.3585365854634147,
+        1,
+        0.6568292683902439
+      ],
+      "source_image": "slides/p0163_01_0535.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0535-M04",
+      "ocr_text": "Av = Avo",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.05743243388513511,
+        0.7073170731219511,
+        0.2027027041554054,
+        0.7707317072682927
+      ],
+      "context_crop": "regions/SANSEN-0535_math_04.png",
+      "context_bbox_normalized": [
+        0.017432433885135108,
+        0.6073170731219512,
+        0.4327027041554054,
+        0.9007317072682927
+      ],
+      "source_image": "slides/p0163_01_0535.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0535-M05",
+      "ocr_text": "CC = Cn1C",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5304054061373873,
+        0.8585365858130081,
+        0.6858108115427928,
+        0.912195122398374
+      ],
+      "context_crop": "regions/SANSEN-0535_math_05.png",
+      "context_bbox_normalized": [
+        0.4904054061373873,
+        0.7585365858130081,
+        0.9158108115427928,
+        0.93
+      ],
+      "source_image": "slides/p0163_01_0535.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

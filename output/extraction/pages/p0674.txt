@@ -1,0 +1,66 @@
+Design of crystal oscillators 685
+a negative resistance Re(Z ) equal to −R . This will yield a minimum value of transconduct-
+c s
+ance g .
+m
+Also, the imaginary part of the crystal must equal the negative Imaginary part of the circuit
+Im(Z ). Since this is an inductor, the circuit must present a capacitance, as expected. This
+c
+expression will yield the actual oscillation frequency or the pulling factor p.
+2216
+To avoid having to solve
+complicated expressions, we
+resort to a graphical
+method. The impedance Z
+c
+presented by the circuit is
+plotted in the polar
+diagram.
+It is a half circle (see
+Appendix Polar diagrams)
+which starts on the
+Imaginary axis for zero g
+m
+and ends up on the same
+axis for infinite g . Where
+m
+this half circle intersects the
+line of −R , the first
+s
+Barkhausen oscillation con-
+dition is satisfied. Indeed, in this point A, the circuit presents a negative resistance −R , which
+s
+exactly compensates the damping resistor R of the crystal. Oscillation is therefore guaranteed.
+s
+Moreover, the second Barkhausen condition teaches us that in point A, the Imaginary part
+gives the pulling factor and therefore the actual frequency. This Imaginary part is very close
+however, to the Imaginary part at zero g . This latter one is easily calculated as it is a combination
+m
+of capacitances (see Appendix Polar diagrams).
+Stable oscillation is achieved for a well defined crossing point A. The circle must be large,
+which now requires a small capacitor C .
+3
+For a small pulling factor p, we need to have large capacitors C and C . They are usually
+1 2
+taken at the same. Large capacitors C will require a large current, however. This is the
+1,2
+compromise to be taken!
+2217
+A numerical example is shown in this slide. Also, the expressions of the pulling factor p and
+A
+the transconductance g at point A are added (see Appendix Polar diagrams).
+mA
+Capacitance C is taken to be as small as possible. It cannot be smaller than the crystal
+3
+package capacitance, however!
+The circle has a diameter of 12 kV. For zero g , the Imaginary part is −4 kV. Point A is
+m
+actually much closer to the Imaginary axis than drawn, since R is relatively small.
+s
+At point A, the transconductance g is 11 mS, and increases along the half circle to infinity.
+mA
+It is obviously proportional to the damping resistor R , and also to the square of capacitor C
+s 1
+(=C ) and the series resonance frequency. The realization of a GHz oscillator will require a
+2
+large current!

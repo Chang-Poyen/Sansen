@@ -1,0 +1,292 @@
+{
+  "case_id": "SANSEN-1130",
+  "slide_id": "1130",
+  "chapter": 11,
+  "slide_number_in_chapter": 30,
+  "source": {
+    "pdf_page": 308,
+    "printed_page": 315
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0308_02_1130.jpg",
+      "pdf_page": 308,
+      "printed_page": 315,
+      "bbox_pt": [
+        91.521622,
+        395.567994,
+        374.78981,
+        592.027985
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 308,
+      "printed_page": 315,
+      "bbox_pt": [
+        0,
+        391.57850000000013,
+        595,
+        797
+      ],
+      "text_raw": "A very different approach is\nto use a current feedback\nloop, provided the transis-\ntors operate in weak\ninversion\nIn the example in this\nslide, the total current is\nmeasured in the pMOST\ninput pair and mirrored to\ncurrent generator I . Also,\nBp\nthe total current is measured\nin the nMOST input pair\nand mirrored to current\ngenerator I . Both are\nBn\nsummed after correction of\nthe I current for the n\nBp\nfactor in summation point S and compared to the reference current 4I .\nB\nIf the sum of the currents does not correspond to 4I , the gates of the current sources have\nB\nto be adjusted. If the Gate of the pMOST current source must go up, then the Gate of the\nnMOST current source must go down. This is why there is an inverter before its Gate.\nClearly this is a common-mode feedback loop. It must therefore be made stable. However,\ncompensation capacitance cannot be too large. The common-mode feedback loop must be as\nfast as the differential circuit! This is explained in Chapter 8.\nHow can we measure the total current in each input pair?",
+      "text": "A very different approach is to use a current feedback loop, provided the transistors operate in weak inversion In the example in this slide, the total current is measured in the pMOST input pair and mirrored to current generator I . Also, Bp the total current is measured in the nMOST input pair and mirrored to current generator I . Both are Bn summed after correction of the I current for the n Bp factor in summation point S and compared to the reference current 4I . B If the sum of the currents does not correspond to 4I , the gates of the current sources have B to be adjusted. If the Gate of the pMOST current source must go up, then the Gate of the nMOST current source must go down. This is why there is an inverter before its Gate. Clearly this is a common-mode feedback loop. It must therefore be made stable. However, compensation capacitance cannot be too large. The common-mode feedback loop must be as fast as the differential circuit! This is explained in Chapter 8. How can we measure the total current in each input pair?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A very different approach is to use a current feedback loop, provided the transistors operate in weak inversion In the example in this slide, the total current is measured in the pMOST input pair and mirrored to current generator I . Also, Bp the total current is measured in the nMOST input pair and mirrored to current generator I . Both are Bn summed after correction of the I current for the n Bp factor in summation point S and compared to the reference current 4I . B If the sum of the currents does not correspond to 4I , the gates of the current sources have B to be adjusted. If the Gate of the pMOST current source must go up, then the Gate of the nMOST current source must go down. This is why there is an inverter before its Gate. Clearly this is a common-mode feedback loop. It must therefore be made stable. However, compensation capacitance cannot be too large. The common-mode feedback loop must be as fast as the differential circuit! This is explained in Chapter 8. How can we measure the total current in each input pair?",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Current regulator FB loop",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0308_02_1130.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431845439204,
+          0.0780487805487805,
+          0.5439189130489867,
+          0.14146341469512191
+        ],
+        "confidence": 1,
+        "text": "Current regulator FB loop"
+      },
+      {
+        "bbox": [
+          0.15878378433277027,
+          0.2878048781097562,
+          0.20270270325168918,
+          0.33170731713414636
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Bn"
+      },
+      {
+        "bbox": [
+          0.3006756752533784,
+          0.27804877975609754,
+          0.34797297255067566,
+          0.33658536512195125
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1вp"
+      },
+      {
+        "bbox": [
+          0.2702702706081081,
+          0.3219512193658537,
+          0.30405405439189187,
+          0.36585365839024386
+        ],
+        "confidence": 0.5,
+        "text": "Пр"
+      },
+      {
+        "bbox": [
+          0.1722972974324324,
+          0.4731707321463414,
+          0.19932432445945944,
+          0.5170731711707317
+        ],
+        "confidence": 1,
+        "text": "S"
+      },
+      {
+        "bbox": [
+          0.4763513505912162,
+          0.4682926831707317,
+          0.537162161402027,
+          0.5170731709756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mр"
+      },
+      {
+        "bbox": [
+          0.3783783786036036,
+          0.5463414631300813,
+          0.40540540563063066,
+          0.5902439021544715
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.07770270226351353,
+          0.5804878043414634,
+          0.12837837793918921,
+          0.6341463409268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "41g"
+      },
+      {
+        "bbox": [
+          0.41891891907728046,
+          0.7560975610670732,
+          0.4763513515097129,
+          0.78536585375
+        ],
+        "confidence": 1,
+        "text": "180°"
+      },
+      {
+        "bbox": [
+          0.8108108103885135,
+          0.2243902434146342,
+          0.868243242820946,
+          0.2829268287804878
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5979729739189189,
+          0.35121951224390247,
+          0.6925675685135135,
+          0.4146341463902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- 21gр"
+      },
+      {
+        "bbox": [
+          0.6230127173547575,
+          0.7454806315568362,
+          0.6945548515108557,
+          0.8057388828400631
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "21gn"
+      },
+      {
+        "bbox": [
+          0.7972972963175676,
+          0.829268292097561,
+          0.908783782804054,
+          0.8878048774634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss = 0"
+      },
+      {
+        "bbox": [
+          0.7263513543604122,
+          0.9414634149593495,
+          0.9324324225540026,
+          0.980487805203252
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 1130"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Both are Bn summed after correction of the I current for the n Bp factor in summation point S and compared to the reference current 4I .",
+      "pdf_page": 308,
+      "printed_page": 315,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is explained in Chapter 8.",
+      "pdf_page": 308,
+      "printed_page": 315,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0308_02_1130.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "If the Gate of the pMOST current source must go up, then the Gate of the nMOST current source must go down.",
+        "pdf_page": 308,
+        "printed_page": 315,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This is why there is an inverter before its Gate.",
+        "pdf_page": 308,
+        "printed_page": 315,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It must therefore be made stable.",
+      "pdf_page": 308,
+      "printed_page": 315,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "A very different approach is to use a current feedback loop, provided the transistors operate in weak inversion In the example in this slide, the total current is measured in the pMOST input pair and mirrored to current generator I .",
+      "pdf_page": 308,
+      "printed_page": 315,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1130-M01",
+      "ocr_text": "Vss = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7972972963175676,
+        0.829268292097561,
+        0.908783782804054,
+        0.8878048774634147
+      ],
+      "context_crop": "regions/SANSEN-1130_math_01.png",
+      "context_bbox_normalized": [
+        0.7572972963175676,
+        0.729268292097561,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0308_02_1130.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

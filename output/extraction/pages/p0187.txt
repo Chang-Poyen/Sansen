@@ -1,0 +1,53 @@
+Systematic design of operational amplifiers 191
+The advantage of taking g as an independent variable, is that we can now easily calculate
+m6
+C , which is little more than C .
+n1 GS6
+Moreover, it is more evident to start with g in this design plan. After all, the current in the
+m6
+output stage is by far the larger one. We therefore want to focus on the minimization of this
+current first.
+0620
+Finally, the third design
+plan is to start with a selec-
+tion of the current in the
+input stage.
+A possible reason to go
+for this design plan, could
+be the noise performance.
+After all the equivalent
+input noise voltage will
+depend on the transcon-
+ductances of the MOSTs in
+the input stage.
+Again, a minimum is
+reached when we plot the
+total area versus g .
+m1
+Once C becomes C
+c L
+divided by 2–3, then we obtain a value of g which is similar to the values obtained by the
+m1
+previous design plans.
+However, it is not worked out any further.
+0621
+This design procedure can
+now easily be formalized, for
+such a Miller CMOS OTA.
+The goal is to find out
+what maximum GBW can
+be reached within a certain
+CMOS technology. Also, we
+want to find the shortest
+way to design this OTA.
+First of all, a number of
+design choices have to be
+made. They have all been
+previously used. We list
+them again and introduce
+design parameters a, b and
+c.
+Parameter a sets the ratio between C and C . Take 2 as an example.
+L c
+Parameter b sets the ratio between C and C or C . Take 3 as an example. Also, remember
+c n1 GS6

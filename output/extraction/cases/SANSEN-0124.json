@@ -1,0 +1,551 @@
+{
+  "case_id": "SANSEN-0124",
+  "slide_id": "0124",
+  "chapter": 1,
+  "slide_number_in_chapter": 24,
+  "source": {
+    "pdf_page": 13,
+    "printed_page": 13
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0013_02_0124.jpg",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "bbox_pt": [
+        91.521622,
+        491.231995,
+        374.78981,
+        687.691986
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 13,
+      "printed_page": 13,
+      "bbox_pt": [
+        0,
+        487.24240000000015,
+        595,
+        797
+      ],
+      "text_raw": "The small-signal model of a\nMOST also contains a finite\noutput resistance r .\nDS\nIndeed the i −v curves\nDS DS\nin saturation are not quite\nflat. They exhibit thus a\nfinite output resistance\ndenoted by r or r .\nDS o\nAn additional parameter\nl has to be included in the\ncurrent expression to show\nthat the current rises some-\nwhat for increasing v .\nDS\nUnfortunately, this parame-\nter is not a constant. It\ndepends on the channel",
+      "text": "The small-signal model of a MOST also contains a finite output resistance r . DS Indeed the i −v curves DS DS in saturation are not quite flat. They exhibit thus a finite output resistance denoted by r or r . DS o An additional parameter l has to be included in the current expression to show that the current rises somewhat for increasing v . DS Unfortunately, this parameter is not a constant. It depends on the channel"
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 14,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        255.05803964999973
+      ],
+      "text_raw": "length. Therefore, we prefer to use instead another parameter V . It is constant for a certain\nE\ntechnology. It is different for a nMOST and a pMOST. Its dimension is V/mm.\nThe output resistance is then easily described. An example is given.\nIn models used for simulators (such as SPICE) several parameters are required to describe\nthe output resistance. This model based on parameter V , is the simplest one and is only used\nE\nfor hand calculations. It only provides limited accuracy.\nParameter V is the fourth technological parameter that we find: we have had up till now n,\nE\nV , KP and V .\nT E\nDesign parameters up till now are L and V −V .\nGS T",
+      "text": "length. Therefore, we prefer to use instead another parameter V . It is constant for a certain E technology. It is different for a nMOST and a pMOST. Its dimension is V/mm. The output resistance is then easily described. An example is given. In models used for simulators (such as SPICE) several parameters are required to describe the output resistance. This model based on parameter V , is the simplest one and is only used E for hand calculations. It only provides limited accuracy. Parameter V is the fourth technological parameter that we find: we have had up till now n, E V , KP and V . T E Design parameters up till now are L and V −V . GS T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The small-signal model of a MOST also contains a finite output resistance r . DS Indeed the i −v curves DS DS in saturation are not quite flat. They exhibit thus a finite output resistance denoted by r or r . DS o An additional parameter l has to be included in the current expression to show that the current rises somewhat for increasing v . DS Unfortunately, this parameter is not a constant. It depends on the channel\n\nlength. Therefore, we prefer to use instead another parameter V . It is constant for a certain E technology. It is different for a nMOST and a pMOST. Its dimension is V/mm. The output resistance is then easily described. An example is given. In models used for simulators (such as SPICE) several parameters are required to describe the output resistance. This model based on parameter V , is the simplest one and is only used E for hand calculations. It only provides limited accuracy. Parameter V is the fourth technological parameter that we find: we have had up till now n, E V , KP and V . T E Design parameters up till now are L and V −V . GS T",
+  "schema_version": "1.0",
+  "chapter_title": "MOS 晶体管与双极型晶体管的比较",
+  "title": "MOST small-signal model : rDs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0013_02_0124.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243187837839,
+          0.0829268293658536,
+          0.6283783728378379,
+          0.14146341473170732
+        ],
+        "confidence": 1,
+        "text": "MOST small-signal model : rDs"
+      },
+      {
+        "bbox": [
+          0.07432432364864866,
+          0.1951219504878049,
+          0.1351351344594595,
+          0.2536585358536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDS"
+      },
+      {
+        "bbox": [
+          0.17206653646068581,
+          0.23786844880867464,
+          0.2637442730523342,
+          0.2792047223741996
+        ],
+        "confidence": 1,
+        "text": "linear"
+      },
+      {
+        "bbox": [
+          0.31408741857557143,
+          0.33574105462016957,
+          0.4663179906316974,
+          0.3764540671293992
+        ],
+        "confidence": 1,
+        "text": "saturation"
+      },
+      {
+        "bbox": [
+          0.13492916203307875,
+          0.8040449068451877,
+          0.2569627322969156,
+          0.8691258240175033
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs = K"
+      },
+      {
+        "bbox": [
+          0.2567567565202703,
+          0.8341463417073172,
+          0.28040540516891893,
+          0.8682926831707317
+        ],
+        "confidence": 1,
+        "text": "n"
+      },
+      {
+        "bbox": [
+          0.27353492630231757,
+          0.6868778406526045,
+          0.5372758782528032,
+          0.7570245943824481
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs-VT = VDSsat"
+      },
+      {
+        "bbox": [
+          0.5743243238457207,
+          0.6829268287398375,
+          0.63851351303491,
+          0.7463414628861789
+        ],
+        "confidence": 0.5,
+        "text": "VDs"
+      },
+      {
+        "bbox": [
+          0.33445945906531527,
+          0.7999999994308943,
+          0.6722972969031531,
+          0.8682926823577235
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(VGs-VT) 2 (1 + 2VDs)"
+      },
+      {
+        "bbox": [
+          0.6621621636824325,
+          0.27317073243902446,
+          0.7905405420608108,
+          0.33170731780487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'Ds = lo"
+      },
+      {
+        "bbox": [
+          0.7939189185810812,
+          0.2731707320121951,
+          0.8209459456081082,
+          0.30731707347560977
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.827702703445946,
+          0.21463414599999997,
+          0.9020270277702703,
+          0.2780487801463415
+        ],
+        "confidence": 1,
+        "text": "VEL"
+      },
+      {
+        "bbox": [
+          0.8378378382882883,
+          0.31219512182926834,
+          0.8918918923423423,
+          0.36585365841463413
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DS"
+      },
+      {
+        "bbox": [
+          0.6858108107094594,
+          0.4341463421463414,
+          0.7635135134121621,
+          0.5024390250731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2="
+      },
+      {
+        "bbox": [
+          0.7939189187077702,
+          0.4048780481707317,
+          0.8175675673564189,
+          0.4536585359756098
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7804054056225869,
+          0.4878048785365854,
+          0.8513513515685328,
+          0.5560975614634147
+        ],
+        "confidence": 1,
+        "text": "VEL"
+      },
+      {
+        "bbox": [
+          0.7566438065838201,
+          0.6088764070933694,
+          0.9359237654634456,
+          0.6594162751457823
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VEn = 4 V/umL"
+      },
+      {
+        "bbox": [
+          0.7858245245048686,
+          0.6864429850647118,
+          0.8964707208186751,
+          0.7309644680440908
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "L= 1 um"
+      },
+      {
+        "bbox": [
+          0.7668918930260618,
+          0.7609756094425087,
+          0.9256756768098455,
+          0.8146341460278747
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs = 100 HA"
+      },
+      {
+        "bbox": [
+          0.790443518351624,
+          0.8433031962751967,
+          0.9190159436784094,
+          0.8884041201390496
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "To = 40 Kg"
+      },
+      {
+        "bbox": [
+          0.7331081125811328,
+          0.9512195127642277,
+          0.9391891807747232,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0124"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "DS o An additional parameter l has to be included in the current expression to show that the current rises somewhat for increasing v .",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Parameter V is the fourth technological parameter that we find: we have had up till now n, E V , KP and V .",
+      "pdf_page": 14,
+      "printed_page": 14,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0013_02_0124.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "They exhibit thus a finite output resistance denoted by r or r .",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It depends on the channel",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, we prefer to use instead another parameter V .",
+      "pdf_page": 14,
+      "printed_page": 14,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It only provides limited accuracy.",
+      "pdf_page": 14,
+      "printed_page": 14,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "DS Indeed the i −v curves DS DS in saturation are not quite flat.",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "DS Indeed the i −v curves DS DS in saturation are not quite flat.",
+      "pdf_page": 13,
+      "printed_page": 13,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0124-M01",
+      "ocr_text": "IDs = K",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.13492916203307875,
+        0.8040449068451877,
+        0.2569627322969156,
+        0.8691258240175033
+      ],
+      "context_crop": "regions/SANSEN-0124_math_01.png",
+      "context_bbox_normalized": [
+        0.09492916203307875,
+        0.7040449068451877,
+        0.48696273229691556,
+        0.93
+      ],
+      "source_image": "slides/p0013_02_0124.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0124-M02",
+      "ocr_text": "VGs-VT = VDSsat",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.27353492630231757,
+        0.6868778406526045,
+        0.5372758782528032,
+        0.7570245943824481
+      ],
+      "context_crop": "regions/SANSEN-0124_math_02.png",
+      "context_bbox_normalized": [
+        0.23353492630231756,
+        0.5868778406526045,
+        0.7672758782528032,
+        0.8870245943824481
+      ],
+      "source_image": "slides/p0013_02_0124.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0124-M03",
+      "ocr_text": "'Ds = lo",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6621621636824325,
+        0.27317073243902446,
+        0.7905405420608108,
+        0.33170731780487805
+      ],
+      "context_crop": "regions/SANSEN-0124_math_03.png",
+      "context_bbox_normalized": [
+        0.6221621636824325,
+        0.17317073243902445,
+        1,
+        0.46170731780487806
+      ],
+      "source_image": "slides/p0013_02_0124.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0124-M04",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.7939189185810812,
+        0.2731707320121951,
+        0.8209459456081082,
+        0.30731707347560977
+      ],
+      "context_crop": "regions/SANSEN-0124_math_04.png",
+      "context_bbox_normalized": [
+        0.7539189185810812,
+        0.1731707320121951,
+        1,
+        0.4373170734756098
+      ],
+      "source_image": "slides/p0013_02_0124.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0124-M05",
+      "ocr_text": "2=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6858108107094594,
+        0.4341463421463414,
+        0.7635135134121621,
+        0.5024390250731707
+      ],
+      "context_crop": "regions/SANSEN-0124_math_05.png",
+      "context_bbox_normalized": [
+        0.6458108107094593,
+        0.3341463421463414,
+        0.9935135134121621,
+        0.6324390250731707
+      ],
+      "source_image": "slides/p0013_02_0124.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0124-M06",
+      "ocr_text": "VEn = 4 V/umL",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7566438065838201,
+        0.6088764070933694,
+        0.9359237654634456,
+        0.6594162751457823
+      ],
+      "context_crop": "regions/SANSEN-0124_math_06.png",
+      "context_bbox_normalized": [
+        0.7166438065838201,
+        0.5088764070933695,
+        1,
+        0.7894162751457823
+      ],
+      "source_image": "slides/p0013_02_0124.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0124-M07",
+      "ocr_text": "L= 1 um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7858245245048686,
+        0.6864429850647118,
+        0.8964707208186751,
+        0.7309644680440908
+      ],
+      "context_crop": "regions/SANSEN-0124_math_07.png",
+      "context_bbox_normalized": [
+        0.7458245245048686,
+        0.5864429850647118,
+        1,
+        0.8609644680440908
+      ],
+      "source_image": "slides/p0013_02_0124.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0124-M08",
+      "ocr_text": "IDs = 100 HA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7668918930260618,
+        0.7609756094425087,
+        0.9256756768098455,
+        0.8146341460278747
+      ],
+      "context_crop": "regions/SANSEN-0124_math_08.png",
+      "context_bbox_normalized": [
+        0.7268918930260617,
+        0.6609756094425088,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0013_02_0124.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0124-M09",
+      "ocr_text": "To = 40 Kg",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.790443518351624,
+        0.8433031962751967,
+        0.9190159436784094,
+        0.8884041201390496
+      ],
+      "context_crop": "regions/SANSEN-0124_math_09.png",
+      "context_bbox_normalized": [
+        0.7504435183516239,
+        0.7433031962751967,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0013_02_0124.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Comparison of MOST and bipolar transistors"
+}

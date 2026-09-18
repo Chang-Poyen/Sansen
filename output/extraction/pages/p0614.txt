@@ -1,0 +1,47 @@
+CMOS ADC and DAC principles 625
+Interpolating converters
+use analog preprocessing.
+They have amplifiers at their
+inputs, which are linear near
+the threshold of the latches,
+but which saturate on both
+ends. In the linear region the
+gain is typically ten. The
+actual value is not that
+important as long as the
+crossover point is accurate.
+Low offset is important
+indeed.
+The transfer characteristic
+of the top amplifier crosses
+the latch threshold at volt-
+age Vref1 because its second
+input is connected to Vref1. The latch now changes state at Vref1. This also applies to the
+bottom amplifier. Its transfer characteristic crosses the latch threshold at voltage Vref2 because
+its second input is connected to Vref2. The latch now changes state at Vref2.
+The outputs of the amplifiers are averaged out by four equal resistors. The transfer characteristic
+for the latch tin the middle will be the average of the two previous transfer characteristics. It is
+the bold line in the middle. It crosses the latch threshold at a voltage which is exactly halfway
+between Vref1 and Vref2. The latch in the middle thus changes state at this voltage halfway
+between Vref1 and Vref2.
+As a result, three latches are required and three levels are detected, but only two input
+amplifiers are needed. This is the result of interpolation.
+2044
+A more elaborate example is
+shown in this slide.
+Again, linear amplifier are
+used at the inputs, which
+saturate.
+Resistors are connected
+between the outputs of the
+amplifiers to create thresh-
+old voltages for the latches,
+which lie in between the ref-
+erence voltages 0 V, 0.25 V,
+0.5 V, 0.75 V and 1 V. Four
+resistors are inserted. As a
+result, three out of four
+amplifiers can be left out.
+This results in consider-
+able savings in power consumption and especially input capacitance.
+The actual operation is discussed next.

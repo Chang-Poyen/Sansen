@@ -1,0 +1,216 @@
+{
+  "case_id": "SANSEN-1548",
+  "slide_id": "1548",
+  "chapter": 15,
+  "slide_number_in_chapter": 48,
+  "source": {
+    "pdf_page": 437,
+    "printed_page": 445
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0437_01_1548.jpg",
+      "pdf_page": 437,
+      "printed_page": 445,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 437,
+      "printed_page": 445,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        355.85400000000004
+      ],
+      "text_raw": "A nice way to avoid\nrounding of corners is\nto make round transistor\nshapes. Surrounding the\nDrain of a MOST with its\nGate, and adding a Source\nall around has been known\nto yield excellent matching.\nUnfortunately, not all\nlayout systems allow such\nround shapes. An ortho-\ngonal or hexagonal shape is\nnot that good!",
+      "text": "A nice way to avoid rounding of corners is to make round transistor shapes. Surrounding the Drain of a MOST with its Gate, and adding a Source all around has been known to yield excellent matching. Unfortunately, not all layout systems allow such round shapes. An orthogonal or hexagonal shape is not that good!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A nice way to avoid rounding of corners is to make round transistor shapes. Surrounding the Drain of a MOST with its Gate, and adding a Source all around has been known to yield excellent matching. Unfortunately, not all layout systems allow such round shapes. An orthogonal or hexagonal shape is not that good!",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Layout rules for low offset",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0437_01_1548.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432150900907,
+          0.0780487810569106,
+          0.5472972944819819,
+          0.14634146398373982
+        ],
+        "confidence": 1,
+        "text": "Layout rules for low offset"
+      },
+      {
+        "bbox": [
+          0.12479036967362234,
+          0.21315491927664465,
+          0.3515609768744511,
+          0.28440606042937544
+        ],
+        "confidence": 1,
+        "text": "1. Equal nature"
+      },
+      {
+        "bbox": [
+          0.12045926555439705,
+          0.27206910184773436,
+          0.43343777808639933,
+          0.3581406233276434
+        ],
+        "confidence": 1,
+        "text": "2. Same temperature"
+      },
+      {
+        "bbox": [
+          0.12162162027027025,
+          0.34634146386178855,
+          0.35810810675675675,
+          0.40000000044715445
+        ],
+        "confidence": 1,
+        "text": "3. Increase size"
+      },
+      {
+        "bbox": [
+          0.12499999753378384,
+          0.409756098097561,
+          0.4324324299662163,
+          0.4634146346829269
+        ],
+        "confidence": 1,
+        "text": "4. Minimum distance"
+      },
+      {
+        "bbox": [
+          0.1250000024211711,
+          0.47317073150406497,
+          0.41554054296171167,
+          0.5268292680894309
+        ],
+        "confidence": 1,
+        "text": "5. Same orientation"
+      },
+      {
+        "bbox": [
+          0.12499999591216228,
+          0.5365853652682927,
+          0.5405405364527028,
+          0.5951219506341464
+        ],
+        "confidence": 1,
+        "text": "6. Same area/perimeter ratio"
+      },
+      {
+        "bbox": [
+          0.10472972652027032,
+          0.604878048902439,
+          0.36148648327702715,
+          0.653658536707317
+        ],
+        "confidence": 0.5,
+        "text": "7. Round shape"
+      },
+      {
+        "bbox": [
+          0.12499999721283793,
+          0.668292683597561,
+          0.4087837809966217,
+          0.7219512201829268
+        ],
+        "confidence": 1,
+        "text": "8. Centroide layout"
+      },
+      {
+        "bbox": [
+          0.12492183513233904,
+          0.7213289780634878,
+          0.36494302526014993,
+          0.7859880943897967
+        ],
+        "confidence": 0.5,
+        "text": "9. End dummies"
+      },
+      {
+        "bbox": [
+          0.12499999724903475,
+          0.7951219513937281,
+          0.5101351323841699,
+          0.848780487979094
+        ],
+        "confidence": 1,
+        "text": "10. Bipolar always better !"
+      },
+      {
+        "bbox": [
+          0.7128378421419438,
+          0.9463414640650407,
+          0.9290540454706692,
+          0.9853658531459257
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 1548"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0437_01_1548.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Surrounding the Drain of a MOST with its Gate, and adding a Source all around has been known to yield excellent matching.",
+        "pdf_page": 437,
+        "printed_page": 445,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

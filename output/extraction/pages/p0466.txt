@@ -1,0 +1,53 @@
+Bandgap and current reference circuits 475
+1637
+The principle of a sub-1 V
+bandgap reference is given
+in this slide. The reference
+voltage is about 0.5 V.
+As a pure CMOS technol-
+ogy is used, only vertical
+pnp’s can be used. They are
+all represented by diodes.
+The operational amplifier
+has sufficient gain to equal-
+ize voltages Va and Vb.
+It is a two-stage amplifier
+with C2 as a compensation
+capacitance. Note that this
+is not a Miller capacitance.
+Also, all pMOSTs carry
+equal currents.
+Since the voltages Va and Vb are the same, the currents from these nodes to ground must be
+the same as well. The current through R is therefore PTAT, whereas the current through R is
+3 2
+simply V /R . The sum of these two currents is also flowing through the output pMOST. The
+BE 2
+value of R then sets the output voltage.
+4
+The input differential pair of the opamp does not allow really low supply voltages, however.
+This limits the supply voltage to 2V +V . For a V of about 0.5 V this is about 1.6 V! The
+GS DSsat T
+opamp is now the limiting factor.
+1638
+In this realization, an
+opamp is used which oper-
+ates on supply voltages
+below 1 V. As a result, a real
+sub-1V bandgap reference
+emerges. BiCMOS is used,
+however, rather than stan-
+dard CMOS.
+The principle is similar to
+the one previously men-
+tioned. The opamp equal-
+izes its input voltages by use
+of feedback. This voltage is
+simply V . All pMOSTs
+BE
+have again equal currents.
+The current through resis-
+tor R is thus PTAT. It is added to a current V /R . This sum also flows through the output
+0 BE 2
+transistor. Resistor R then sets the output reference voltage, which is here about 0.54 V.
+3
+Recently, a full CMOS version has been added by the same authors (Cabrini, ESSCIRC 2005)

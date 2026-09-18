@@ -1,0 +1,177 @@
+{
+  "case_id": "SANSEN-237",
+  "slide_id": "237",
+  "chapter": 23,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 702,
+    "printed_page": 714
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0702_01_237.jpg",
+      "pdf_page": 702,
+      "printed_page": 714,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 702,
+      "printed_page": 714,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        393.5715100000001
+      ],
+      "text_raw": "Input impedance matching\nand noise are not the only\nconcerns of a LNA.\nFor large input signal\namplitudes, distortion will\nalso occur. This is why this\naspect is discussed in detail.\nA compromise will now\nhave to be taken. To have a\nbetter feel for these compro-\nmises, some attention is paid\nto all other important\nspecifications.\nFor this purpose, the\nschematic of a receiver has\nto be looked at in detail. A\nreceiver in combination with a transmitter is a transceiver.\nThis is shown next.",
+      "text": "Input impedance matching and noise are not the only concerns of a LNA. For large input signal amplitudes, distortion will also occur. This is why this aspect is discussed in detail. A compromise will now have to be taken. To have a better feel for these compromises, some attention is paid to all other important specifications. For this purpose, the schematic of a receiver has to be looked at in detail. A receiver in combination with a transmitter is a transceiver. This is shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Input impedance matching and noise are not the only concerns of a LNA. For large input signal amplitudes, distortion will also occur. This is why this aspect is discussed in detail. A compromise will now have to be taken. To have a better feel for these compromises, some attention is paid to all other important specifications. For this purpose, the schematic of a receiver has to be looked at in detail. A receiver in combination with a transmitter is a transceiver. This is shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0702_01_237.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432210424714,
+          0.07804878069686416,
+          0.38513513291505796,
+          0.13658536606271776
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459459892314181,
+          0.29268292664634143,
+          0.7871621664907094,
+          0.35121951201219503
+        ],
+        "confidence": 1,
+        "text": "• Noise Figure and Impedance Matching"
+      },
+      {
+        "bbox": [
+          0.09459459946509,
+          0.39024390223577243,
+          0.6790540589245495,
+          0.4439024388211382
+        ],
+        "confidence": 1,
+        "text": "• LNA specifications and linearity"
+      },
+      {
+        "bbox": [
+          0.09459459066722983,
+          0.48780487878048784,
+          0.5777026987753379,
+          0.5463414641463414
+        ],
+        "confidence": 1,
+        "text": "• Input amplifier or cascode"
+      },
+      {
+        "bbox": [
+          0.09459460010135126,
+          0.5853658534146342,
+          0.645270275777027,
+          0.6390243900000001
+        ],
+        "confidence": 1,
+        "text": "• Non-quasi-static MOST model"
+      },
+      {
+        "bbox": [
+          0.09459459873310803,
+          0.6829268291463414,
+          0.42567567981418913,
+          0.7317073169512194
+        ],
+        "confidence": 1,
+        "text": "• More realizations"
+      },
+      {
+        "bbox": [
+          0.0945945992229729,
+          0.7804878046341465,
+          0.5574324370608107,
+          0.8341463412195123
+        ],
+        "confidence": 1,
+        "text": "• Inductive ESD protection"
+      },
+      {
+        "bbox": [
+          0.722616113990377,
+          0.9409216721863051,
+          0.9296510240377535,
+          0.9868754972297741
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 237"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is shown next.",
+      "pdf_page": 702,
+      "printed_page": 714,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0702_01_237.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

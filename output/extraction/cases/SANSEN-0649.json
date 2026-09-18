@@ -1,0 +1,440 @@
+{
+  "case_id": "SANSEN-0649",
+  "slide_id": "0649",
+  "chapter": 6,
+  "slide_number_in_chapter": 49,
+  "source": {
+    "pdf_page": 202,
+    "printed_page": 206
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0203_01_0649.jpg",
+      "pdf_page": 203,
+      "printed_page": 207,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 202,
+      "printed_page": 206,
+      "bbox_pt": [
+        0,
+        582.9064700000001,
+        595,
+        797
+      ],
+      "text_raw": "Both contributions of the noise sources to the output noise are shown in this slide for unity-\ngain feedback. The contribution of the input stage drops off at frequencies beyond the GBW.\nThe second-stage noise however, becomes dominant at high frequencies. The behavior at these\nfrequencies is most important as noise has to be looked at on a linear frequency scale.\nAt low frequencies the noise density of the second stage is clearly negligible. It can be divided\nby the gain of the first stage squared.\nBeyond the zero frequency f , which is the same as for the output impedance, the noise\nz\ncontribution of the second stage starts rising, until it becomes dominant at the highest frequencies.",
+      "text": "Both contributions of the noise sources to the output noise are shown in this slide for unitygain feedback. The contribution of the input stage drops off at frequencies beyond the GBW. The second-stage noise however, becomes dominant at high frequencies. The behavior at these frequencies is most important as noise has to be looked at on a linear frequency scale. At low frequencies the noise density of the second stage is clearly negligible. It can be divided by the gain of the first stage squared. Beyond the zero frequency f , which is the same as for the output impedance, the noise z contribution of the second stage starts rising, until it becomes dominant at the highest frequencies."
+    },
+    {
+      "pdf_page": 203,
+      "printed_page": 207,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        381.6135000000001
+      ],
+      "text_raw": "The noise starts rising\nbecause from the zero fre-\nquency on, the gain of the\nfirst stage goes down. As a\nresult, the noise goes up.\nThe result is not so bad\nin the sense that the noise\ndensity of the second stage\nnever really takes over\nbelow the GBW. The maxi-\nmum noise contribution of\nthe second stage is actually\nthe input noise voltage, as\ngiven in the previous slide.\nSince g is much larger\nm6\nthan g , the noise of the\nm1\nsecond stage is always negli-\ngible with respect to the\nnoise of the first stage.",
+      "text": "The noise starts rising because from the zero frequency on, the gain of the first stage goes down. As a result, the noise goes up. The result is not so bad in the sense that the noise density of the second stage never really takes over below the GBW. The maximum noise contribution of the second stage is actually the input noise voltage, as given in the previous slide. Since g is much larger m6 than g , the noise of the m1 second stage is always negligible with respect to the noise of the first stage."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Both contributions of the noise sources to the output noise are shown in this slide for unitygain feedback. The contribution of the input stage drops off at frequencies beyond the GBW. The second-stage noise however, becomes dominant at high frequencies. The behavior at these frequencies is most important as noise has to be looked at on a linear frequency scale. At low frequencies the noise density of the second stage is clearly negligible. It can be divided by the gain of the first stage squared. Beyond the zero frequency f , which is the same as for the output impedance, the noise z contribution of the second stage starts rising, until it becomes dominant at the highest frequencies.\n\nThe noise starts rising because from the zero frequency on, the gain of the first stage goes down. As a result, the noise goes up. The result is not so bad in the sense that the noise density of the second stage never really takes over below the GBW. The maximum noise contribution of the second stage is actually the input noise voltage, as given in the previous slide. Since g is much larger m6 than g , the noise of the m1 second stage is always negligible with respect to the noise of the first stage.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA : Noise density 2",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0203_01_0649.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432908220715,
+          0.08292682975609755,
+          0.7195945993524775,
+          0.14146341512195115
+        ],
+        "confidence": 0.5,
+        "text": "Miller CMOS OTA : Noise density 2"
+      },
+      {
+        "bbox": [
+          0.3716216178772523,
+          0.19512195142276423,
+          0.8209459422015766,
+          0.2292682928861789
+        ],
+        "confidence": 1,
+        "text": "Dominant on linear frequency scale !"
+      },
+      {
+        "bbox": [
+          0.06418918989864864,
+          0.22439024380487804,
+          0.13513513584459458,
+          0.28292682917073175
+        ],
+        "confidence": 0.5,
+        "text": "dVeq"
+      },
+      {
+        "bbox": [
+          0.13175675692567568,
+          0.21463414691056903,
+          0.14864864881756756,
+          0.2487804883739837
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.23310810844594593,
+          0.3365853664878049,
+          0.32094594628378376,
+          0.4000000006341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVint2"
+      },
+      {
+        "bbox": [
+          0.8547297302702703,
+          0.2731707310731708,
+          0.9425675681081082,
+          0.3365853652195123
+        ],
+        "confidence": 0.5,
+        "text": "dVinz?"
+      },
+      {
+        "bbox": [
+          0.6925675678490991,
+          0.3073170726422765,
+          0.8412162164977477,
+          0.370731706788618
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVneq2? ="
+      },
+      {
+        "bbox": [
+          0.8513513518243243,
+          0.3560975603902439,
+          0.9391891896621621,
+          0.4146341457560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IAv11R"
+      },
+      {
+        "bbox": [
+          0.618243243581081,
+          0.40487804853658527,
+          0.6587837841216215,
+          0.44390243878048774
+        ],
+        "confidence": 1,
+        "text": "2/3"
+      },
+      {
+        "bbox": [
+          0.5574324328828829,
+          0.4341463412195121,
+          0.611486486936937,
+          0.4731707314634146
+        ],
+        "confidence": 1,
+        "text": "4kT"
+      },
+      {
+        "bbox": [
+          0.6655405405405406,
+          0.4341463409756098,
+          0.6993243243243243,
+          0.47317073121951214
+        ],
+        "confidence": 1,
+        "text": "df"
+      },
+      {
+        "bbox": [
+          0.6148648653716217,
+          0.46341463400000005,
+          0.6655405410472973,
+          0.4975609754634147
+        ],
+        "confidence": 0.5,
+        "text": "9m6"
+      },
+      {
+        "bbox": [
+          0.20945945989864867,
+          0.4536585359512195,
+          0.2939189193581081,
+          0.517073170097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av1o?"
+      },
+      {
+        "bbox": [
+          0.2500000005912162,
+          0.5560975604065042,
+          0.3614864870777027,
+          0.6243902433333334
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dv neqz?"
+      },
+      {
+        "bbox": [
+          0.7567567572635135,
+          0.47804877965853665,
+          0.9222972978040541,
+          0.5609756089268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avio= 9m1"
+      },
+      {
+        "bbox": [
+          0.8614864869449808,
+          0.556097560836237,
+          0.9256756761341699,
+          0.604878048641115
+        ],
+        "confidence": 1,
+        "text": "9024"
+      },
+      {
+        "bbox": [
+          0.7297297295608108,
+          0.7365853654268294,
+          0.7432432430743244,
+          0.770731706890244
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.8581081074999999,
+          0.6731707312195122,
+          0.9256756750675674,
+          0.7219512190243903
+        ],
+        "confidence": 1,
+        "text": "9024"
+      },
+      {
+        "bbox": [
+          0.777027026418919,
+          0.6975609750731707,
+          0.8445945939864865,
+          0.7512195116585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fz="
+      },
+      {
+        "bbox": [
+          0.8547297304054053,
+          0.7463414632926828,
+          0.9358108114864865,
+          0.8097560974390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2TC"
+      },
+      {
+        "bbox": [
+          0.29054054079391894,
+          0.7902439030487804,
+          0.317567567820946,
+          0.8390243908536584
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "N*"
+      },
+      {
+        "bbox": [
+          0.40540540608108105,
+          0.7951219509349593,
+          0.48648648716216214,
+          0.8390243899593496
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.5202702698648648,
+          0.7951219506829268,
+          0.5675675671621622,
+          0.8487804872682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd"
+      },
+      {
+        "bbox": [
+          0.7331081102195945,
+          0.946341462987805,
+          0.9358108129222973,
+          0.9804878044512196
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 0649"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Both contributions of the noise sources to the output noise are shown in this slide for unitygain feedback.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0203_01_0649.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It can be divided by the gain of the first stage squared.",
+      "pdf_page": 202,
+      "printed_page": 206,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The noise starts rising because from the zero frequency on, the gain of the first stage goes down.",
+      "pdf_page": 203,
+      "printed_page": 207,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the noise goes up.",
+      "pdf_page": 203,
+      "printed_page": 207,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Since g is much larger m6 than g , the noise of the m1 second stage is always negligible with respect to the noise of the first stage.",
+      "pdf_page": 203,
+      "printed_page": 207,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0649-M01",
+      "ocr_text": "dVneq2? =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6925675678490991,
+        0.3073170726422765,
+        0.8412162164977477,
+        0.370731706788618
+      ],
+      "context_crop": "regions/SANSEN-0649_math_01.png",
+      "context_bbox_normalized": [
+        0.6525675678490991,
+        0.20731707264227647,
+        1,
+        0.500731706788618
+      ],
+      "source_image": "slides/p0203_01_0649.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0649-M02",
+      "ocr_text": "Avio= 9m1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7567567572635135,
+        0.47804877965853665,
+        0.9222972978040541,
+        0.5609756089268293
+      ],
+      "context_crop": "regions/SANSEN-0649_math_02.png",
+      "context_bbox_normalized": [
+        0.7167567572635135,
+        0.37804877965853667,
+        1,
+        0.6909756089268293
+      ],
+      "source_image": "slides/p0203_01_0649.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0649-M03",
+      "ocr_text": "fz=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.777027026418919,
+        0.6975609750731707,
+        0.8445945939864865,
+        0.7512195116585366
+      ],
+      "context_crop": "regions/SANSEN-0649_math_03.png",
+      "context_bbox_normalized": [
+        0.7370270264189189,
+        0.5975609750731707,
+        1,
+        0.8812195116585366
+      ],
+      "source_image": "slides/p0203_01_0649.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

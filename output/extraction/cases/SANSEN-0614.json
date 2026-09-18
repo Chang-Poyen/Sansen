@@ -1,0 +1,313 @@
+{
+  "case_id": "SANSEN-0614",
+  "slide_id": "0614",
+  "chapter": 6,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 183,
+    "printed_page": 187
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0184_01_0614.jpg",
+      "pdf_page": 184,
+      "printed_page": 188,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 183,
+      "printed_page": 187,
+      "bbox_pt": [
+        0,
+        570.9485,
+        595,
+        797
+      ],
+      "text_raw": "Since we only have two specifications up till now, we only have two equations, one for the GBW\nand one for the stability.\nAs a result, when we require a specific GBW for a specific C , we simply have to solve these\nL\ntwo equations.\nThe problem is that we have three variables. They are the current in the first stage (or g ),\nm1\nthe current in the second stage (or g ) and the compensation capacitance C .\nm6 c\nUp till now, we have chosen the compensation capacitance, which allows us to solve the two\nequations, since they only have two variables g and g .\nm1 m6\nThis is indeed the first possible design plan.",
+      "text": "Since we only have two specifications up till now, we only have two equations, one for the GBW and one for the stability. As a result, when we require a specific GBW for a specific C , we simply have to solve these L two equations. The problem is that we have three variables. They are the current in the first stage (or g ), m1 the current in the second stage (or g ) and the compensation capacitance C . m6 c Up till now, we have chosen the compensation capacitance, which allows us to solve the two equations, since they only have two variables g and g . m1 m6 This is indeed the first possible design plan."
+    },
+    {
+      "pdf_page": 184,
+      "printed_page": 188,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        368.6092500000001
+      ],
+      "text_raw": "There are two more\ndesign plans, i.e. choosing\nthe g first and then solve\nm1\nthe two equations, or choos-\ning the g first and then\nm6\nsolve the two equations.\nAll three design plans lead\nto the same optimum.\nThe same two equations\ncan obviously be used in\nany direction. One could\nwonder, for example, how\nmuch GBW can be obtained\nfor a C of 5 pF with only\nL\n0.2 mA? We also ask, how\nmuch load capacitance can\nwe drive with 1 mA for a\nGBW of 200 MHz?",
+      "text": "There are two more design plans, i.e. choosing the g first and then solve m1 the two equations, or choosing the g first and then m6 solve the two equations. All three design plans lead to the same optimum. The same two equations can obviously be used in any direction. One could wonder, for example, how much GBW can be obtained for a C of 5 pF with only L 0.2 mA? We also ask, how much load capacitance can we drive with 1 mA for a GBW of 200 MHz?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Since we only have two specifications up till now, we only have two equations, one for the GBW and one for the stability. As a result, when we require a specific GBW for a specific C , we simply have to solve these L two equations. The problem is that we have three variables. They are the current in the first stage (or g ), m1 the current in the second stage (or g ) and the compensation capacitance C . m6 c Up till now, we have chosen the compensation capacitance, which allows us to solve the two equations, since they only have two variables g and g . m1 m6 This is indeed the first possible design plan.\n\nThere are two more design plans, i.e. choosing the g first and then solve m1 the two equations, or choosing the g first and then m6 solve the two equations. All three design plans lead to the same optimum. The same two equations can obviously be used in any direction. One could wonder, for example, how much GBW can be obtained for a C of 5 pF with only L 0.2 mA? We also ask, how much load capacitance can we drive with 1 mA for a GBW of 200 MHz?",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA: Design plan",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0184_01_0614.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108586711706,
+          0.08292682906504067,
+          0.6554054101914414,
+          0.14634146321138208
+        ],
+        "confidence": 1,
+        "text": "Miller CMOS OTA: Design plan"
+      },
+      {
+        "bbox": [
+          0.09121621685810809,
+          0.22439024321951218,
+          0.2905405411824324,
+          0.2926829261463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW = 9m1"
+      },
+      {
+        "bbox": [
+          0.4695945891047299,
+          0.25853658542682934,
+          0.908783778293919,
+          0.32195121957317085
+        ],
+        "confidence": 0.5,
+        "text": "GBW = 100 MHz and CL = 2 pF"
+      },
+      {
+        "bbox": [
+          0.2094594600627413,
+          0.29268292728223,
+          0.3006756762789575,
+          0.3560975614285714
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T Cc"
+      },
+      {
+        "bbox": [
+          0.09121621503378381,
+          0.4146341456097561,
+          0.19256756638513517,
+          0.4731707309756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd = -"
+      },
+      {
+        "bbox": [
+          0.18818480850510796,
+          0.3897165447334332,
+          0.27812271451261694,
+          0.4582729023265044
+        ],
+        "confidence": 0.5,
+        "text": "9m6"
+      },
+      {
+        "bbox": [
+          0.16891891971525094,
+          0.4634146340418118,
+          0.28040540620173743,
+          0.5170731706271777
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CLn4"
+      },
+      {
+        "bbox": [
+          0.331081081714527,
+          0.45365853652439025,
+          0.38175675739020265,
+          0.5073170731097562
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cn1"
+      },
+      {
+        "bbox": [
+          0.28378378479729727,
+          0.4975609752845529,
+          0.3445945956081081,
+          0.5268292679674798
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+-"
+      },
+      {
+        "bbox": [
+          0.33445945990990983,
+          0.5170731706504064,
+          0.3885135139639639,
+          0.5853658535772357
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.13513513813344583,
+          0.6292682918902439,
+          0.4898648678631755,
+          0.6926829260365854
+        ],
+        "confidence": 1,
+        "text": "Two equations for"
+      },
+      {
+        "bbox": [
+          0.1385135194538287,
+          0.7268292678048779,
+          0.8513513572916666,
+          0.8048780482926828
+        ],
+        "confidence": 0.5,
+        "text": "Three variables 9m1, 9m6 and Cc?!?"
+      },
+      {
+        "bbox": [
+          0.13513514051238726,
+          0.8341463420731706,
+          0.8952702756475225,
+          0.9073170737804878
+        ],
+        "confidence": 0.5,
+        "text": "Solution : choose 9m1 or 9m6 or Cc!!!!"
+      },
+      {
+        "bbox": [
+          0.7263513488175677,
+          0.9365853662195122,
+          0.9290540515202703,
+          0.9756097564634146
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 0614"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0184_01_0614.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, when we require a specific GBW for a specific C , we simply have to solve these L two equations.",
+      "pdf_page": 183,
+      "printed_page": 187,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0614-M01",
+      "ocr_text": "GBW = 9m1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09121621685810809,
+        0.22439024321951218,
+        0.2905405411824324,
+        0.2926829261463415
+      ],
+      "context_crop": "regions/SANSEN-0614_math_01.png",
+      "context_bbox_normalized": [
+        0.051216216858108086,
+        0.13,
+        0.5205405411824324,
+        0.4226829261463415
+      ],
+      "source_image": "slides/p0184_01_0614.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0614-M02",
+      "ocr_text": "GBW = 100 MHz and CL = 2 pF",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.4695945891047299,
+        0.25853658542682934,
+        0.908783778293919,
+        0.32195121957317085
+      ],
+      "context_crop": "regions/SANSEN-0614_math_02.png",
+      "context_bbox_normalized": [
+        0.4295945891047299,
+        0.15853658542682933,
+        1,
+        0.45195121957317086
+      ],
+      "source_image": "slides/p0184_01_0614.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0614-M03",
+      "ocr_text": "fnd = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09121621503378381,
+        0.4146341456097561,
+        0.19256756638513517,
+        0.4731707309756097
+      ],
+      "context_crop": "regions/SANSEN-0614_math_03.png",
+      "context_bbox_normalized": [
+        0.05121621503378381,
+        0.3146341456097561,
+        0.42256756638513515,
+        0.6031707309756097
+      ],
+      "source_image": "slides/p0184_01_0614.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

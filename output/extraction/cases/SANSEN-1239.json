@@ -1,0 +1,630 @@
+{
+  "case_id": "SANSEN-1239",
+  "slide_id": "1239",
+  "chapter": 12,
+  "slide_number_in_chapter": 39,
+  "source": {
+    "pdf_page": 349,
+    "printed_page": 356
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0349_02_1239.jpg",
+      "pdf_page": 349,
+      "printed_page": 356,
+      "bbox_pt": [
+        91.521622,
+        431.44201699999996,
+        374.78981,
+        627.902008
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 349,
+      "printed_page": 356,
+      "bbox_pt": [
+        0,
+        427.45250000000004,
+        595,
+        797
+      ],
+      "text_raw": "At low supply voltages, the\ncircuitry becomes simpler.\nIn this 1.5 V amplifier, the\ninput stage is a folded cas-\ncode. It is followed by an\noutput stage in which the\noutput pMOST is con-\nnected directly to the output\nof the input stage.\nThe output nMOST drive\nis very different however. It\nleads to a current mirror\nM23/M24 to carry out two\ninversions. Remember that\noutput transistors have to\nbe driven in phase. This\ngives rise to extra poles, which have to be compensated for.\nTwo tricks are used. The first one is local feedback around output transistor M25, with resistor\nR . This shunt-shunt feedback lowers the impedance at input and output indeed.\nsh\nThe second trick is the introduction of a zero with time constant R C . This must be tuned\nz z\nto one of the non-dominant poles, which is not that easy of course.",
+      "text": "At low supply voltages, the circuitry becomes simpler. In this 1.5 V amplifier, the input stage is a folded cascode. It is followed by an output stage in which the output pMOST is connected directly to the output of the input stage. The output nMOST drive is very different however. It leads to a current mirror M23/M24 to carry out two inversions. Remember that output transistors have to be driven in phase. This gives rise to extra poles, which have to be compensated for. Two tricks are used. The first one is local feedback around output transistor M25, with resistor R . This shunt-shunt feedback lowers the impedance at input and output indeed. sh The second trick is the introduction of a zero with time constant R C . This must be tuned z z to one of the non-dominant poles, which is not that easy of course."
+    },
+    {
+      "pdf_page": 350,
+      "printed_page": 357,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        178.3273999999999
+      ],
+      "text_raw": "The quiescent current in the output devices is not that well defined. The variation of this\ncurrent is decreased by the local feedback of resistor R . However, it will never be really\nsh\nindependent of the supply or output voltage.",
+      "text": "The quiescent current in the output devices is not that well defined. The variation of this current is decreased by the local feedback of resistor R . However, it will never be really sh independent of the supply or output voltage."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "At low supply voltages, the circuitry becomes simpler. In this 1.5 V amplifier, the input stage is a folded cascode. It is followed by an output stage in which the output pMOST is connected directly to the output of the input stage. The output nMOST drive is very different however. It leads to a current mirror M23/M24 to carry out two inversions. Remember that output transistors have to be driven in phase. This gives rise to extra poles, which have to be compensated for. Two tricks are used. The first one is local feedback around output transistor M25, with resistor R . This shunt-shunt feedback lowers the impedance at input and output indeed. sh The second trick is the introduction of a zero with time constant R C . This must be tuned z z to one of the non-dominant poles, which is not that easy of course.\n\nThe quiescent current in the output devices is not that well defined. The variation of this current is decreased by the local feedback of resistor R . However, it will never be really sh independent of the supply or output voltage.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "1.5 Vsupply voltage class-AB amp.",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0349_02_1239.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432814611478,
+          0.0829268291158537,
+          0.6858108146326013,
+          0.1463414632621951
+        ],
+        "confidence": 1,
+        "text": "1.5 Vsupply voltage class-AB amp."
+      },
+      {
+        "bbox": [
+          0.09797297280405406,
+          0.3365853657317074,
+          0.1249999998310811,
+          0.3560975608536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1I"
+      },
+      {
+        "bbox": [
+          0.16554054037162164,
+          0.33658536574525744,
+          0.19594594577702704,
+          0.3560975608672087
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.16891891953828828,
+          0.3609756095121952,
+          0.20608108170045042,
+          0.38536585341463414
+        ],
+        "confidence": 1,
+        "text": "23/6"
+      },
+      {
+        "bbox": [
+          0.2398648653716216,
+          0.28780487780487807,
+          0.29054054104729726,
+          0.32195121926829273
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "6 нА"
+      },
+      {
+        "bbox": [
+          0.24324324363738734,
+          0.33658536626016256,
+          0.27364864904279274,
+          0.3609756101626016
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.243243243018018,
+          0.3609756101626016,
+          0.2905405403153153,
+          0.38536585406504065
+        ],
+        "confidence": 1,
+        "text": "138/6"
+      },
+      {
+        "bbox": [
+          0.3648648655405405,
+          0.24390243944329737,
+          0.40540540608108105,
+          0.26341463340223115
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "46/16"
+      },
+      {
+        "bbox": [
+          0.3547297293918919,
+          0.3365853660365854,
+          0.38175675641891893,
+          0.36097560993902444
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.351351350731982,
+          0.36097561,
+          0.38851351289414415,
+          0.38536585390243894
+        ],
+        "confidence": 0.5,
+        "text": "46/6"
+      },
+      {
+        "bbox": [
+          0.09797297356418917,
+          0.5414634144512195,
+          0.14527027086148647,
+          0.5658536583536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(LNA)"
+      },
+      {
+        "bbox": [
+          0.5270270277027027,
+          0.3512195119512196,
+          0.5675675682432432,
+          0.37560975585365863
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MIO"
+      },
+      {
+        "bbox": [
+          0.5304054058277027,
+          0.3756097559146341,
+          0.5641891896114865,
+          0.3999999998170731
+        ],
+        "confidence": 1,
+        "text": "69/2"
+      },
+      {
+        "bbox": [
+          0.5236486479729731,
+          0.4731707319512195,
+          0.5641891885135135,
+          0.49756097585365855
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M13"
+      },
+      {
+        "bbox": [
+          0.5236486493243243,
+          0.5024390241463415,
+          0.5641891898648648,
+          0.5268292680487804
+        ],
+        "confidence": 0.5,
+        "text": "24/2"
+      },
+      {
+        "bbox": [
+          0.5337837839358108,
+          0.5658536586585365,
+          0.570945946097973,
+          0.5902439025609756
+        ],
+        "confidence": 1,
+        "text": "M19"
+      },
+      {
+        "bbox": [
+          0.5371621619932432,
+          0.5951219511219513,
+          0.570945945777027,
+          0.6146341462439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "23/2"
+      },
+      {
+        "bbox": [
+          0.5979729724662163,
+          0.287804878292683,
+          0.6486486481418919,
+          0.32195121975609753
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "5 дА"
+      },
+      {
+        "bbox": [
+          0.6013513520270269,
+          0.34146341439024397,
+          0.6418918925675675,
+          0.365853658292683
+        ],
+        "confidence": 1,
+        "text": "M20"
+      },
+      {
+        "bbox": [
+          0.5979729735219594,
+          0.36585365835365846,
+          0.6418918924408783,
+          0.3902439022560975
+        ],
+        "confidence": 1,
+        "text": "161/2"
+      },
+      {
+        "bbox": [
+          0.6216216224099099,
+          0.5121951217073171,
+          0.6689189197072072,
+          0.5365853656097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "40 kQ|"
+      },
+      {
+        "bbox": [
+          0.6824324328828829,
+          0.28780487780487807,
+          0.736486486936937,
+          0.32682926804878054
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "5 дА"
+      },
+      {
+        "bbox": [
+          0.6891891896537162,
+          0.3414634144512195,
+          0.7263513518158784,
+          0.36585365835365846
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M21"
+      },
+      {
+        "bbox": [
+          0.6858108106925676,
+          0.36585365841463413,
+          0.7297297296114865,
+          0.3902439023170732
+        ],
+        "confidence": 1,
+        "text": "161/2"
+      },
+      {
+        "bbox": [
+          0.7432432436373875,
+          0.3951219510569106,
+          0.766891892286036,
+          0.42439024373983736
+        ],
+        "confidence": 0.5,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7060810806756758,
+          0.4634146336097561,
+          0.753378377972973,
+          0.5170731701951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ilpF"
+      },
+      {
+        "bbox": [
+          0.7027027020833334,
+          0.5317073173170732,
+          0.7398648642454955,
+          0.5560975612195123
+        ],
+        "confidence": 1,
+        "text": "M26"
+      },
+      {
+        "bbox": [
+          0.8072937732587253,
+          0.2872988163355257,
+          0.8751386602962602,
+          0.3273353295012553
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "40 нА"
+      },
+      {
+        "bbox": [
+          0.8209459457770271,
+          0.34146341452328155,
+          0.8581081079391892,
+          0.3658536584257206
+        ],
+        "confidence": 1,
+        "text": "M22"
+      },
+      {
+        "bbox": [
+          0.8175675700794048,
+          0.365853658292683,
+          0.8716216209115862,
+          0.39024390219512195
+        ],
+        "confidence": 1,
+        "text": "1288/2"
+      },
+      {
+        "bbox": [
+          0.7804054066613241,
+          0.3951219508943089,
+          0.8074324320774148,
+          0.42439024357723576
+        ],
+        "confidence": 0.5,
+        "text": "8"
+      },
+      {
+        "bbox": [
+          0.266891891722973,
+          0.546341463306233,
+          0.2972972971283784,
+          0.5658536584281842
+        ],
+        "confidence": 1,
+        "text": "M8"
+      },
+      {
+        "bbox": [
+          0.25675675660191444,
+          0.5707317072154471,
+          0.30067567552083335,
+          0.5951219511178861
+        ],
+        "confidence": 1,
+        "text": "138/4"
+      },
+      {
+        "bbox": [
+          0.800675676463964,
+          0.5560975607317074,
+          0.8479729737612612,
+          0.5804878046341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "70 kN"
+      },
+      {
+        "bbox": [
+          0.179054053490991,
+          0.5707317075609756,
+          0.2128378372747748,
+          0.5951219514634146
+        ],
+        "confidence": 1,
+        "text": "M7"
+      },
+      {
+        "bbox": [
+          0.17905405444819822,
+          0.5951219508130081,
+          0.22297297336711713,
+          0.6195121947154472
+        ],
+        "confidence": 1,
+        "text": "138/4"
+      },
+      {
+        "bbox": [
+          0.3209459469031531,
+          0.590243902195122,
+          0.37837837933558555,
+          0.6146341460975611
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "120 kg"
+      },
+      {
+        "bbox": [
+          0.2128378385698198,
+          0.7268292680487806,
+          0.2567567574887387,
+          0.7512195119512196
+        ],
+        "confidence": 1,
+        "text": "MIS"
+      },
+      {
+        "bbox": [
+          0.2128378385698198,
+          0.7560975613945169,
+          0.2567567574887387,
+          0.7756097553534507
+        ],
+        "confidence": 1,
+        "text": "48/6"
+      },
+      {
+        "bbox": [
+          0.29391891948198196,
+          0.726829268699187,
+          0.3344594600225225,
+          0.751219512601626
+        ],
+        "confidence": 1,
+        "text": "M16"
+      },
+      {
+        "bbox": [
+          0.4425675673986487,
+          0.7268292682039911,
+          0.4797297295608109,
+          0.7463414633259423
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M17"
+      },
+      {
+        "bbox": [
+          0.43918918856981987,
+          0.7512195124390243,
+          0.476351350731982,
+          0.7756097563414633
+        ],
+        "confidence": 1,
+        "text": "16/6"
+      },
+      {
+        "bbox": [
+          0.5641891894707207,
+          0.721951219105691,
+          0.6013513516328829,
+          0.7463414630081301
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MIS"
+      },
+      {
+        "bbox": [
+          0.5641891896114866,
+          0.7512195120121952,
+          0.5979729733952703,
+          0.7756097559146341
+        ],
+        "confidence": 0.5,
+        "text": "4016"
+      },
+      {
+        "bbox": [
+          0.8445945951858107,
+          0.7170731705487805,
+          0.891891892483108,
+          0.7414634144512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "S44/2"
+      },
+      {
+        "bbox": [
+          0.7398648659909909,
+          0.7609756095121952,
+          0.8074324335585584,
+          0.7951219509756099
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "20 мА"
+      },
+      {
+        "bbox": [
+          0.07770270688344585,
+          0.8585365851219513,
+          0.41216216634290526,
+          0.9073170729268294
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1.5 V 90 MA 1 MHz/150 pF"
+      },
+      {
+        "bbox": [
+          0.6486044195238886,
+          0.8047214576405617,
+          0.7230172035848049,
+          0.8489370786583899
+        ],
+        "confidence": 1,
+        "text": "Zero"
+      },
+      {
+        "bbox": [
+          0.5135135334392923,
+          0.8926829264227643,
+          0.9358108049616081,
+          0.9268292678861788
+        ],
+        "confidence": 1,
+        "text": "Ref. Van Dongen, JSSC Dec.95, 1333-1337"
+      },
+      {
+        "bbox": [
+          0.7263513543041059,
+          0.9512195124390244,
+          0.9358108008760745,
+          0.9853658539024389
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1239"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0349_02_1239.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It is followed by an output stage in which the output pMOST is connected directly to the output of the input stage.",
+        "pdf_page": 349,
+        "printed_page": 356,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The variation of this current is decreased by the local feedback of resistor R .",
+      "pdf_page": 350,
+      "printed_page": 357,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "However, it will never be really sh independent of the supply or output voltage.",
+      "pdf_page": 350,
+      "printed_page": 357,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Remember that output transistors have to be driven in phase.",
+      "pdf_page": 349,
+      "printed_page": 356,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

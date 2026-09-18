@@ -1,0 +1,57 @@
+OVset and CMRR: random and systematic 449
+1556
+Comparison of the models
+of MOST and bipolar tech-
+nologies show that MOSTs
+are actually modulated
+resistances, whereas bipolar
+transistors employ a for-
+ward biased diode as an
+input. A bipolar transistor
+does not have a threshold
+voltage V and always has
+T
+an exponential I /V rela-
+CE BE
+tionship. Its current is a
+small current I multiplied
+S
+by the voltage V , scaled
+BE
+by kT/q.
+This is worked out fur-
+ther next.
+1557
+Indeed, the expression of the
+offset of a bipolar transistor
+does not include the effect of
+the spreading of threshold
+voltage V . Moreover the
+T
+scaling factor by which
+parameters such as DR /R ,
+L L
+etc. come in is only kT/q,
+whereas it is (V −V )/2
+GS T
+for a MOST.
+These are two important
+reasons why the offset volt-
+age v for a bipolar is so
+os
+much smaller.
+Moreover, the drift of the
+offset voltage v with tem-
+os
+perature is well controlled. The derivative of v to T is the absolute value of v divided by T.
+os os
+Trimming the offset voltage v to a small value at the same time reduces the drift with
+os
+temperature. This is not at all true for MOSTs, in which there is no relationship between offset
+and offset drift.
+As a result, a bipolar transistor is an excellent choice for high-temperature applications, where
+a low offset is required. If MOSTs have to be used, they will have to be supplemented by offset
+cancellation circuitry, carrying out chopping or auto-zeroing (Ref. Enz, Temes, Proc. IEEE,
+Nov. 96, 1584–1614).
+The main problem of bipolars, on the other hand, is that they have base currents. This is
+discussed next.

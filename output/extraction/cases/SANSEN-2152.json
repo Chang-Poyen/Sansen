@@ -1,0 +1,189 @@
+{
+  "case_id": "SANSEN-2152",
+  "slide_id": "2152",
+  "chapter": 21,
+  "slide_number_in_chapter": 52,
+  "source": {
+    "pdf_page": 652,
+    "printed_page": 663
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0652_02_2152.jpg",
+      "pdf_page": 652,
+      "printed_page": 663,
+      "bbox_pt": [
+        91.52162,
+        373.64495999999997,
+        374.78981,
+        570.1049499999999
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 652,
+      "printed_page": 663,
+      "bbox_pt": [
+        0,
+        369.65551000000005,
+        595,
+        797
+      ],
+      "text_raw": "Another low-voltage, low-\npower Sigma-delta modula-\ntor is discussed next.\nIt has been optimized for\nlow power and has been\nrealized in 90 nm CMOS. A\nlow-power opamp is used\nwith a class-AB output\nstage.",
+      "text": "Another low-voltage, lowpower Sigma-delta modulator is discussed next. It has been optimized for low power and has been realized in 90 nm CMOS. A low-power opamp is used with a class-AB output stage."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Another low-voltage, lowpower Sigma-delta modulator is discussed next. It has been optimized for low power and has been realized in 90 nm CMOS. A low-power opamp is used with a class-AB output stage.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0652_02_2152.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10810811179617111,
+          0.24878048752032522,
+          0.5506756793637387,
+          0.3024390241056911
+        ],
+        "confidence": 1,
+        "text": "• Delta-sigma modulation"
+      },
+      {
+        "bbox": [
+          0.11148648955518009,
+          0.3317073168699187,
+          0.47972973279842335,
+          0.3853658534552846
+        ],
+        "confidence": 1,
+        "text": "• The switch problem"
+      },
+      {
+        "bbox": [
+          0.10810811264076566,
+          0.414634146097561,
+          0.6520270315596846,
+          0.4731707314634146
+        ],
+        "confidence": 1,
+        "text": "• The switched-opamp solution"
+      },
+      {
+        "bbox": [
+          0.1083333539768937,
+          0.49999999948761875,
+          0.8333333230469159,
+          0.5609756092437164
+        ],
+        "confidence": 1,
+        "text": "* Other low-power Delta-sigma converters"
+      },
+      {
+        "bbox": [
+          0.15202702902992274,
+          0.5804878045993032,
+          0.4324324344353281,
+          0.6292682924041811
+        ],
+        "confidence": 1,
+        "text": "• Unity-gain-reset"
+      },
+      {
+        "bbox": [
+          0.14864864439189196,
+          0.6585365855609756,
+          0.5743243200675676,
+          0.7073170733658537
+        ],
+        "confidence": 1,
+        "text": "• Optimized input switching"
+      },
+      {
+        "bbox": [
+          0.15202702777027027,
+          0.7317073175609756,
+          0.5371621629054054,
+          0.7804878053658536
+        ],
+        "confidence": 1,
+        "text": "• Switched input resistor"
+      },
+      {
+        "bbox": [
+          0.15202702422297304,
+          0.8048780491219513,
+          0.43243242962837847,
+          0.8487804881463414
+        ],
+        "confidence": 0.5,
+        "text": "• Full feedforward"
+      },
+      {
+        "bbox": [
+          0.7229729758694213,
+          0.9414634147967479,
+          0.9358108008197684,
+          0.9707317074796747
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2152"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0652_02_2152.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

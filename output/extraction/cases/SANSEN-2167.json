@@ -1,0 +1,329 @@
+{
+  "case_id": "SANSEN-2167",
+  "slide_id": "2167",
+  "chapter": 21,
+  "slide_number_in_chapter": 67,
+  "source": {
+    "pdf_page": 660,
+    "printed_page": 671
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0660_01_2167.jpg",
+      "pdf_page": 660,
+      "printed_page": 671,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 660,
+      "printed_page": 671,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        369.65550000000013
+      ],
+      "text_raw": "Full feedforward means that\nthe input signal is fed\ndirectly to the quantizer. As\na result, the noise transfer\nfunction H (z) is the same as\ne\nin a conventional topology\nbut the signal transfer func-\ntion H (z) is unity. This sug-\nx\ngests that the distortion is a\nlot less in the full-feedfor-\nward topology.\nIndeed, the signal goes\ndirectly to the quantizer\nwithout passing through the\nloop filter integrators. These\nfilters only process the\nquantization error, which is much smaller in amplitude than the signal itself. The distortion will\nbe a lot less indeed. The overload level can be higher and so is the dynamic range.",
+      "text": "Full feedforward means that the input signal is fed directly to the quantizer. As a result, the noise transfer function H (z) is the same as e in a conventional topology but the signal transfer function H (z) is unity. This sugx gests that the distortion is a lot less in the full-feedforward topology. Indeed, the signal goes directly to the quantizer without passing through the loop filter integrators. These filters only process the quantization error, which is much smaller in amplitude than the signal itself. The distortion will be a lot less indeed. The overload level can be higher and so is the dynamic range."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Full feedforward means that the input signal is fed directly to the quantizer. As a result, the noise transfer function H (z) is the same as e in a conventional topology but the signal transfer function H (z) is unity. This sugx gests that the distortion is a lot less in the full-feedforward topology. Indeed, the signal goes directly to the quantizer without passing through the loop filter integrators. These filters only process the quantization error, which is much smaller in amplitude than the signal itself. The distortion will be a lot less indeed. The overload level can be higher and so is the dynamic range.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Full Feedforward Topology",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0660_01_2167.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432782335904,
+          0.08292682905923343,
+          0.5641891926882239,
+          0.14146341442508703
+        ],
+        "confidence": 1,
+        "text": "Full Feedforward Topology"
+      },
+      {
+        "bbox": [
+          0.06250000645499029,
+          0.5000000010317848,
+          0.9291666456283434,
+          0.5542168650826732
+        ],
+        "confidence": 1,
+        "text": "Convent. Sigma-Delta topology Full feedforward topology"
+      },
+      {
+        "bbox": [
+          0.30067567573198195,
+          0.570731706788618,
+          0.354729729786036,
+          0.6341463409349594
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a,I"
+      },
+      {
+        "bbox": [
+          0.14527026980574326,
+          0.6097560984146342,
+          0.2770270265625,
+          0.6780487813414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H,(z) ="
+      },
+      {
+        "bbox": [
+          0.2736486473817568,
+          0.6536585366463413,
+          0.3749999987331082,
+          0.7170731707926828
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+a,l"
+      },
+      {
+        "bbox": [
+          0.14832978098090244,
+          0.7598691611595803,
+          0.2773458968396506,
+          0.8401308382270346
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H.(z) ="
+      },
+      {
+        "bbox": [
+          0.310810810670045,
+          0.7317073165853659,
+          0.33445945931869364,
+          0.7902439019512195
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.27364864929054056,
+          0.8146341469268292,
+          0.37162162226351353,
+          0.8731707322926828
+        ],
+        "confidence": 0.5,
+        "text": "1+a,l"
+      },
+      {
+        "bbox": [
+          0.5908519702779479,
+          0.6180417182661176,
+          0.7402291101169141,
+          0.6990314535670656
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H,(z) =1"
+      },
+      {
+        "bbox": [
+          0.7702702704954956,
+          0.7073170739837399,
+          0.7905405407657657,
+          0.7560975617886179
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.5908980231175368,
+          0.7354812801484445,
+          0.7199127857897549,
+          0.8157382307129453
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H,(z) ="
+      },
+      {
+        "bbox": [
+          0.7162162167471042,
+          0.7804878043902439,
+          0.8445945951254825,
+          0.8487804873170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+a,c,]"
+      },
+      {
+        "bbox": [
+          0.5236486538006755,
+          0.8829268289634146,
+          0.9358108159628377,
+          0.9170731704268291
+        ],
+        "confidence": 1,
+        "text": "Silva, Electronic Letters, June 01, 737-738"
+      },
+      {
+        "bbox": [
+          0.7229729829640156,
+          0.9414634143089431,
+          0.9358108079143627,
+          0.97073170699187
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2167"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0660_01_2167.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the noise transfer function H (z) is the same as e in a conventional topology but the signal transfer function H (z) is unity.",
+      "pdf_page": 660,
+      "printed_page": 671,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "These filters only process the quantization error, which is much smaller in amplitude than the signal itself.",
+      "pdf_page": 660,
+      "printed_page": 671,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2167-M01",
+      "ocr_text": "H,(z) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.14527026980574326,
+        0.6097560984146342,
+        0.2770270265625,
+        0.6780487813414634
+      ],
+      "context_crop": "regions/SANSEN-2167_math_01.png",
+      "context_bbox_normalized": [
+        0.10527026980574325,
+        0.5097560984146342,
+        0.5070270265625,
+        0.8080487813414634
+      ],
+      "source_image": "slides/p0660_01_2167.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2167-M02",
+      "ocr_text": "H.(z) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.14832978098090244,
+        0.7598691611595803,
+        0.2773458968396506,
+        0.8401308382270346
+      ],
+      "context_crop": "regions/SANSEN-2167_math_02.png",
+      "context_bbox_normalized": [
+        0.10832978098090243,
+        0.6598691611595803,
+        0.5073458968396506,
+        0.93
+      ],
+      "source_image": "slides/p0660_01_2167.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2167-M03",
+      "ocr_text": "H,(z) =1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5908519702779479,
+        0.6180417182661176,
+        0.7402291101169141,
+        0.6990314535670656
+      ],
+      "context_crop": "regions/SANSEN-2167_math_03.png",
+      "context_bbox_normalized": [
+        0.5508519702779479,
+        0.5180417182661177,
+        0.970229110116914,
+        0.8290314535670656
+      ],
+      "source_image": "slides/p0660_01_2167.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2167-M04",
+      "ocr_text": "H,(z) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5908980231175368,
+        0.7354812801484445,
+        0.7199127857897549,
+        0.8157382307129453
+      ],
+      "context_crop": "regions/SANSEN-2167_math_04.png",
+      "context_bbox_normalized": [
+        0.5508980231175368,
+        0.6354812801484445,
+        0.9499127857897549,
+        0.93
+      ],
+      "source_image": "slides/p0660_01_2167.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

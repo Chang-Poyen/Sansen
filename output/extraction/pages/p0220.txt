@@ -1,0 +1,48 @@
+Important opamp configurations 225
+0.9 V (for V =0.7 V), which
+T
+is more than sufficient to
+accommodate the V and
+DS1
+V .
+DS10
+If V is about 0.2 V and
+DS1
+V =0.5 V, then the input
+DS10
+transistors can still operate
+with their gates at 0.2 V
+below ground!
+A folded cascode opamp
+include the ground rail. This
+is why they have been often
+used for single-supply sys-
+tems such as automotive
+applications before, but now
+also for all mixed-signal
+applications, in which the
+processors use only one single supply line.
+Moreover, connecting two folded cascodes in parallel, one with pMOSTs at the input and
+another one with nMOSTs at the input, allows coverage of the full rail-to-rail range. This is
+how rail-to-rail input opamps are put together! These are discussed in Chapter 11.
+0730
+The folded cascode OTA is
+also an excellent first stage
+for a two-stage Miller
+CMOS OTA. As usual the
+second stage is just one
+single transistor with active
+load.
+As a result, the GBW is
+set by g and C . Now
+m1 c
+there are two nondominant
+poles, however. The lower-
+frequency one is normally at
+the output. The other, at
+nodes 1 and 2 are usually at
+the highest frequency.
+Because of the second
+stage, the output swing can be rail-to-rail. Indeed, even when the output voltage is very close to
+the positive supply voltage, and the output transistor M12 enters the linear region, and loses its
+gain, there is still sufficient gain remaining in the first stage to suppress the distortion.

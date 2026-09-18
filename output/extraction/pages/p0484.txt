@@ -1,0 +1,51 @@
+494 Chapter #17
+It takes time however, to
+fully charge a capacitor. In
+theory it takes an infinite
+time. In practice however a
+limited number of time con-
+stants is sufficient.
+Charging a capacitor C
+by means of a constant resis-
+tor gives an exponential
+time response as shown in
+this slide. The time required
+to reach the final value
+within an error of 0.1% is
+called the 0.1% settling time
+t . For 0.1% it is the time
+s
+constant times ln(1000) or
+6.9 or about 7. It takes
+about 7 times the time constant before the final value is reached within 0.1%. This is a
+considerable amount of time.
+For low kT/C noise, larger capacitors will be used and this time will be even longer. For small
+switches (W=2L) the on resistances are of the order of 10 kV, this time will be longer as well.
+Half the clock period must now be at least 7 times this time constant. There is therefore a
+minimum length of clock period and thus a maximum value of clock frequency, as discussed next.
+Finally, note that the R increases because the V of the MOST decreases when the voltage
+on GS
+comes up. The actual time constant will be even larger. Only a circuit simulator can give
+accurate values.
+1720
+The maximum clock fre-
+quency also sets the maxi-
+mum signal frequency, as
+the clock frequency must
+always be much larger than
+the signal frequency. The
+error which occurs when the
+clock frequency is not
+sufficiently large, will be cal-
+culated later.
+We now need to know on
+what maximum clock fre-
+quencies can be achieved.
+A small switch is taken
+with a R of 10 kV. The
+on
+capacitor is 1 pF. For an
+error of 0.1% the settling time is 70 ns and minimum period 140 ns. This corresponds to a clock
+frequency f of 7 MHz.
+max
+As a consequence, if we need higher clocks than about 10 MHz, the switches must have to be

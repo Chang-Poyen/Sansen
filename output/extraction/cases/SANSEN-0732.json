@@ -1,0 +1,308 @@
+{
+  "case_id": "SANSEN-0732",
+  "slide_id": "0732",
+  "chapter": 7,
+  "slide_number_in_chapter": 32,
+  "source": {
+    "pdf_page": 221,
+    "printed_page": 226
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0221_02_0732.jpg",
+      "pdf_page": 221,
+      "printed_page": 226,
+      "bbox_pt": [
+        91.521622,
+        347.735962,
+        374.78981,
+        544.1959529999999
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 221,
+      "printed_page": 226,
+      "bbox_pt": [
+        0,
+        343.7465,
+        595,
+        797
+      ],
+      "text_raw": "In this alternative folded\ncascode OTA, the current\nmirroring is carried out\naround the cascodes\nthemselves.\nIndeed, transistors M3/\nM4 are also the cascodes\nin the differential current\namplifier formed by M3/\nM4 and M10/M11. Such\nan amplifier provides the\ndifference between the input\ncurrents, as explained in\nChapter 2. These input cur-\nrents are the same in ampli-\ntude but opposite in\nphase, as they come directly from the input pair.\nThe output current in the load capacitance is simply g v .\nm1 ind\nLet us try to discover what the differences are with the previous conventional folded cascode\nOTA.\nClearly, the gain and output impedance are the same. The number of biasing lines is one less\nas M5–6 and M9 can share the same Gate line.\nThe main difference however, is in the impedance seen by the input transistors. In the\nconventional folded cascode, the input devices see exactly the same impedance. In the alternative\nconfiguration, transistor M1 sees 1/g but transistor M2 sees 1/g divided by the gain of\nm4 m3\ntransistor M3 or g r . This is much smaller!\nm3 o3\nThe alternative folded cascode OTA is therefore a bit less symmetrical. This will be visible in\nthe higher-order poles and zeros, which are of less concern to us!",
+      "text": "In this alternative folded cascode OTA, the current mirroring is carried out around the cascodes themselves. Indeed, transistors M3/ M4 are also the cascodes in the differential current amplifier formed by M3/ M4 and M10/M11. Such an amplifier provides the difference between the input currents, as explained in Chapter 2. These input currents are the same in amplitude but opposite in phase, as they come directly from the input pair. The output current in the load capacitance is simply g v . m1 ind Let us try to discover what the differences are with the previous conventional folded cascode OTA. Clearly, the gain and output impedance are the same. The number of biasing lines is one less as M5–6 and M9 can share the same Gate line. The main difference however, is in the impedance seen by the input transistors. In the conventional folded cascode, the input devices see exactly the same impedance. In the alternative configuration, transistor M1 sees 1/g but transistor M2 sees 1/g divided by the gain of m4 m3 transistor M3 or g r . This is much smaller! m3 o3 The alternative folded cascode OTA is therefore a bit less symmetrical. This will be visible in the higher-order poles and zeros, which are of less concern to us!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this alternative folded cascode OTA, the current mirroring is carried out around the cascodes themselves. Indeed, transistors M3/ M4 are also the cascodes in the differential current amplifier formed by M3/ M4 and M10/M11. Such an amplifier provides the difference between the input currents, as explained in Chapter 2. These input currents are the same in amplitude but opposite in phase, as they come directly from the input pair. The output current in the load capacitance is simply g v . m1 ind Let us try to discover what the differences are with the previous conventional folded cascode OTA. Clearly, the gain and output impedance are the same. The number of biasing lines is one less as M5–6 and M9 can share the same Gate line. The main difference however, is in the impedance seen by the input transistors. In the conventional folded cascode, the input devices see exactly the same impedance. In the alternative configuration, transistor M1 sees 1/g but transistor M2 sees 1/g divided by the gain of m4 m3 transistor M3 or g r . This is much smaller! m3 o3 The alternative folded cascode OTA is therefore a bit less symmetrical. This will be visible in the higher-order poles and zeros, which are of less concern to us!",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Alternative folded cascode OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0221_02_0732.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0709459421875001,
+          0.08292682993902434,
+          0.6351351313766893,
+          0.13658536652439024
+        ],
+        "confidence": 1,
+        "text": "Alternative folded cascode OTA"
+      },
+      {
+        "bbox": [
+          0.4358108110923423,
+          0.23414634195121953,
+          0.46621621649774775,
+          0.2634146346341464
+        ],
+        "confidence": 0.5,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.6418918914189189,
+          0.2097560969756097,
+          0.7027027022297297,
+          0.2682926823414634
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.21283783716216215,
+          0.25365853691056905,
+          0.2533783777027027,
+          0.2829268295934959
+        ],
+        "confidence": 1,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.5810810809121622,
+          0.26341463402439025,
+          0.6148648646959459,
+          0.2878048779268293
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.6689189214864865,
+          0.3609756096585366,
+          0.9256756782432431,
+          0.39999999990243906
+        ],
+        "confidence": 1,
+        "text": "Current diff. amp."
+      },
+      {
+        "bbox": [
+          0.5777027032094595,
+          0.39512195097560976,
+          0.6182432437500001,
+          0.4243902436585366
+        ],
+        "confidence": 1,
+        "text": "M8"
+      },
+      {
+        "bbox": [
+          0.5809610390020215,
+          0.4381112489501393,
+          0.773768687634999,
+          0.4935960648733184
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "14 → 9mtVINd"
+      },
+      {
+        "bbox": [
+          0.6756756749155405,
+          0.5024390239024391,
+          0.7432432424831081,
+          0.5414634141463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.37499999966216213,
+          0.5317073172764227,
+          0.4155405402027027,
+          0.5658536587398374
+        ],
+        "confidence": 0.5,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.20945946054054054,
+          0.7512195116097562,
+          0.35810810918918917,
+          0.8097560969756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1 VINa /2"
+      },
+      {
+        "bbox": [
+          0.3614864889420174,
+          0.8048780484552845,
+          0.4121621613958204,
+          0.8341463411382114
+        ],
+        "confidence": 0.5,
+        "text": "M10"
+      },
+      {
+        "bbox": [
+          0.5810810835929183,
+          0.8146341460162602,
+          0.6351351344250997,
+          0.843902438699187
+        ],
+        "confidence": 1,
+        "text": "M11"
+      },
+      {
+        "bbox": [
+          0.6516674736646497,
+          0.7974727185936883,
+          0.8415757719508814,
+          0.861063866225822
+        ],
+        "confidence": 0.5,
+        "text": "Vss = 0 Volt"
+      },
+      {
+        "bbox": [
+          0.7229729825135651,
+          0.9414634151467572,
+          0.9358108074639122,
+          0.9804878042276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0732"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Such an amplifier provides the difference between the input currents, as explained in Chapter 2.",
+      "pdf_page": 221,
+      "printed_page": 226,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0221_02_0732.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The number of biasing lines is one less as M5–6 and M9 can share the same Gate line.",
+        "pdf_page": 221,
+        "printed_page": 226,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Clearly, the gain and output impedance are the same.",
+      "pdf_page": 221,
+      "printed_page": 226,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In the alternative configuration, transistor M1 sees 1/g but transistor M2 sees 1/g divided by the gain of m4 m3 transistor M3 or g r .",
+      "pdf_page": 221,
+      "printed_page": 226,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is much smaller! m3 o3 The alternative folded cascode OTA is therefore a bit less symmetrical.",
+      "pdf_page": 221,
+      "printed_page": 226,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "These input currents are the same in amplitude but opposite in phase, as they come directly from the input pair.",
+      "pdf_page": 221,
+      "printed_page": 226,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "This is much smaller! m3 o3 The alternative folded cascode OTA is therefore a bit less symmetrical.",
+      "pdf_page": 221,
+      "printed_page": 226,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0732-M01",
+      "ocr_text": "Vss = 0 Volt",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6516674736646497,
+        0.7974727185936883,
+        0.8415757719508814,
+        0.861063866225822
+      ],
+      "context_crop": "regions/SANSEN-0732_math_01.png",
+      "context_bbox_normalized": [
+        0.6116674736646497,
+        0.6974727185936883,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0221_02_0732.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

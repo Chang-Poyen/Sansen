@@ -1,0 +1,55 @@
+Amplifiers, source followers and cascodes 57
+0213
+Actually, a Miller capaci-
+tance also causes a zero in
+the transfer characteristic.
+A full small-signal analy-
+sis reveals that the pole (the
+BW) is followed by a zero
+at high frequencies. It is a
+positive zero. It occurs at
+the right hand side of the
+polar diagram. It causes a
+−180° phase shift at higher
+frequencies.
+A −180° phase shift
+would also be caused by a
+second pole. We come to the
+remarkable result that a
+single capacitance can cause the same phase shift as two poles. Normally only one single pole
+is attributed per capacitance. This is a truly exceptional situation indeed.
+0214
+Quite often, local series feed-
+back is applied to a single-
+transistor amplifier, by
+means of a resistor R . In
+S
+principle, the effect of this
+resistor can be calculated by
+common feedback theory
+(see Chapter 13). The so
+called loop gain is then
+(1+g R ). It affects all
+m S
+other circuit specifications.
+It is a very simple case how-
+ever, which allows us to cal-
+culate all these effects
+directly.
+The transconductance is
+reduced by this loop gain. For large resistors, the transconductance is reduced to 1/R . It is
+S
+independent of the current in contrast with g .
+m
+A major effect is that the output resistance increases drastically. Indeed, it goes up by the
+same loop gain. An easy way to remember this expression is to take the series resistor R ,
+S
+multiplied by the intrinsic transistor gain itself g R .
+m DS
+This increased output resistance will be used to increase the gain!
+The input capacitance is decreased by the feedback. The larger the resistor R , the smaller the
+S
+input capacitance. If R were replaced by a DC current source, the input capacitance would be
+S
+negligible. Actually, the gain would be negligible as well. This is a source follower, as discussed
+later.

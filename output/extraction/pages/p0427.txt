@@ -1,0 +1,55 @@
+OVset and CMRR: random and systematic 435
+The offset voltage is given
+in this slide. First of all,
+it includes any difference
+between nodes 1 and 2,
+which is called DV . This
+DS1
+difference can be caused by
+a difference between V
+GS6
+and V . It also includes
+GS3
+the large AC voltage swing
+at node 1, which is much
+smaller on node 2.
+The second and third
+term are caused by the mis-
+matches between the V ’s.
+T
+The last term includes the
+mismatches between the
+sizes and the K∞ factors.
+They are obviously scaled by V −V .
+GS1 T
+For a small value of V −V and for a small g /g , the term DV is probably dominant
+GS1 T m3 m1 T1
+if DV can be kept small. If not, its contribution to the offset is DV /A or V /A A .
+DS1 DS1 v1 OUT v1 v2
+1529
+A folded cascode OTA is
+shown in this slide. Its offset
+voltage is examined next.
+The offset voltage v is
+os
+given in this slide. It firstly
+includes any difference
+between nodes 4 and 5,
+which is called DV . It is
+DS3
+mainly the large AC voltage
+swing at node 4, which is
+much smaller on node 5.
+The next three terms are
+caused by the mismatches
+between the V ’s. They are
+T
+equally important depend-
+ing on the g ’s. The last
+m
+term includes the mismatches between the sizes and the K∞ factors. They are obviously scaled
+by V −V . The cascodes do not come in.
+GS1 T
+This clearly shows that the offset of a folded cascode can be quite large, as it is made up by
+the spreading of three differential pairs.
+Similar conclusions can be drawn as for the CMOS Miller opamp.

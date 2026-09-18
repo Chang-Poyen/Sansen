@@ -1,0 +1,18 @@
+simulator lang=spectre
+global 0
+parameters VOV=0.2
+// EDUCATIONAL MOS1 only: chosen textbook-like constants, not a foundry PDK.
+// MOS terminal order: D G S B.
+model N_EDU mos1 type=n vto=0.45 kp=100u lambda=0.1 gamma=0 phi=0.7 tox=10n cgso=0 cgdo=0 cbd=0 cbs=0
+model P_EDU mos1 type=p vto=-0.45 kp=100u lambda=0.1 gamma=0 phi=0.7 tox=10n cgso=0 cgdo=0 cbd=0 cbs=0
+opts options reltol=1e-7 vabstol=1e-10 iabstol=1e-15 gmin=1e-16
+VGN (gn 0) vsource dc=0.45+VOV
+VDN (dn 0) vsource dc=1
+MN (dn gn 0 0) N_EDU w=20u l=2u
+VSP (sp 0) vsource dc=2
+VGP (gp 0) vsource dc=1.55-VOV
+VDP (dp 0) vsource dc=1
+MP (dp gp sp sp) P_EDU w=20u l=2u
+characterize dc param=VOV start=0.05 stop=0.60 step=0.005
+save MN:ids MN:gm MN:gds MN:cgs MN:cgd MN:vdsat MN:region MP:ids MP:gm MP:gds MP:cgs MP:cgd MP:vdsat MP:region
+saveOptions options save=selected

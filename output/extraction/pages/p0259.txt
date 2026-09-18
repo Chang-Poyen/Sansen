@@ -1,0 +1,50 @@
+266 Chapter #9
+097
+A two-stage amplifier has
+two high-impedance points.
+They need to be connected
+by a compensation capaci-
+tance C to provide pole
+c
+splitting and to generate a
+dominant pole. The GBW is
+therefore determined by this
+compensation capacitance
+C .
+c
+For stability, the non-
+dominant pole is now deter-
+mined by the load capaci-
+tance C . It must be
+L
+sufficiently large compared
+to the GBW, to provide a
+sufficient phase margin. A ratio of three is taken for a phase margin of about 70°.
+Since we have two stages, we have two time constants. They are the ones for the GBW and
+the one for the non-dominant pole. The latter one is the output time constant. It is the output
+g divided by the load capacitance C . It is normally set at two to three times the GBW
+m3 L
+depending on the phase margin required.
+098
+We now have three stages,
+we can expect three time
+constants. They will be the
+ones for the GBW and now
+for two non-dominant poles.
+Since three high-imped-
+ance points are present, two
+compensation capacitances
+are required for stability.
+Both are connected to the
+output. This is called nested-
+Miller compensation.
+Indeed the GBW has the
+same expression as before.
+The reason is that the com-
+pensation capacitance con-
+nects the output to the output of the input transistor. It shunts both transistors M2 and M3.
+Transistor M2 is a kind of driver for transistor M3. Together they form the output stage.
+The output time constant is the same as well. It is again the output g divided by the load
+m3
+capacitance C , exactly as for a two-stage amplifier.
+L

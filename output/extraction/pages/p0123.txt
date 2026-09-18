@@ -1,0 +1,45 @@
+126 Chapter #4
+The realization of a large
+low-noise MOST requires
+the simultaneous minimiza-
+tion of all four contribu-
+tions. Quite often the bulk
+resistor R is forgotten in
+B
+the design plan!!
+Nowadays, for deep sub-
+micron CMOS, the channel
+noise contribution seems to
+have a coefficient larger
+than 2/3. Values of up to 2
+have been measured. It is
+not yet clear, whether this is
+because of the upcoming
+effect of velocity saturation
+or with breakdown or
+punch-through.
+0419
+The noise of the Source
+resistor R can simply be
+added to the noise of the
+Gate resistor. The calcu-
+lation is given in this slide.
+We firstly assume that this
+resistor is larger than 1/g .
+m
+Otherwise it has no effect!
+We now calculate the con-
+tribution of the channel
+noise to the output. It is the
+channel noise itself divided
+by (g R)2.
+m
+We then calculate the
+contribution of the resistor
+noise to the output. It is
+simply 4kT/R.
+When we take the sum of both, we see that the channel noise of the transistor has become
+negligible, compared to the resistor noise. Indeed, g R is much larger than unity.
+m
+As a result, the equivalent input noise voltage is dominated by the resistor noise. Moreover,
+the expression is the same as for the Gate resistance noise.

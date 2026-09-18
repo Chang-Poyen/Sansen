@@ -1,0 +1,170 @@
+{
+  "case_id": "SANSEN-0654",
+  "slide_id": "0654",
+  "chapter": 6,
+  "slide_number_in_chapter": 54,
+  "source": {
+    "pdf_page": 205,
+    "printed_page": 209
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0205_02_0654.jpg",
+      "pdf_page": 205,
+      "printed_page": 209,
+      "bbox_pt": [
+        91.52162,
+        359.84343,
+        374.54222,
+        556.3532700000001
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 205,
+      "printed_page": 209,
+      "bbox_pt": [
+        0,
+        355.85397,
+        595,
+        797
+      ],
+      "text_raw": "In this Chapter, a consider-\nable amount of design detail\nhas been given on a Miller\nCMOS operational trans-\nconductance amplifier.\nIt has been shown that an\noptimum can be reached in\nterms of power consump-\ntion and that this optimum\ncan be reached along\nvarious different design\nprocedures.\nIn practice, too many\nspecifications have to be ful-\nfilled however, for too few\ndesign variables. Many\ncompromises are thus to be taken. Increasing the complexity of the circuit configuration is only\none way to deal with these compromises.\nThis is why we want to examine more complicated circuits and different realizations of\noperational amplifiers.",
+      "text": "In this Chapter, a considerable amount of design detail has been given on a Miller CMOS operational transconductance amplifier. It has been shown that an optimum can be reached in terms of power consumption and that this optimum can be reached along various different design procedures. In practice, too many specifications have to be fulfilled however, for too few design variables. Many compromises are thus to be taken. Increasing the complexity of the circuit configuration is only one way to deal with these compromises. This is why we want to examine more complicated circuits and different realizations of operational amplifiers."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter, a considerable amount of design detail has been given on a Miller CMOS operational transconductance amplifier. It has been shown that an optimum can be reached in terms of power consumption and that this optimum can be reached along various different design procedures. In practice, too many specifications have to be fulfilled however, for too few design variables. Many compromises are thus to be taken. Increasing the complexity of the circuit configuration is only one way to deal with these compromises. This is why we want to examine more complicated circuits and different realizations of operational amplifiers.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Conclusion : Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0205_02_0654.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627004237288,
+          0.07804878128048776,
+          0.6135593208898305,
+          0.14146341542682928
+        ],
+        "confidence": 1,
+        "text": "Conclusion : Table of contents"
+      },
+      {
+        "bbox": [
+          0.142372877723971,
+          0.32195121975609753,
+          0.6508474539951574,
+          0.3756097563414633
+        ],
+        "confidence": 1,
+        "text": "• Design of Single-stage OTA"
+      },
+      {
+        "bbox": [
+          0.14237287963680392,
+          0.42439024428571426,
+          0.6474576253995158,
+          0.47804878087108005
+        ],
+        "confidence": 0.5,
+        "text": "• Design of Miller CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.1423728869830507,
+          0.5268292688780487,
+          0.779661022576271,
+          0.5853658542439023
+        ],
+        "confidence": 0.5,
+        "text": "• Design for GBW and Phase Margin"
+      },
+      {
+        "bbox": [
+          0.14198820907382909,
+          0.6266841366844604,
+          0.9020963550947507,
+          0.6981471912484014
+        ],
+        "confidence": 1,
+        "text": "• Other specs: Input range, output range, SR, ..."
+      },
+      {
+        "bbox": [
+          0.7254237262288137,
+          0.9414634148170732,
+          0.9322033872457627,
+          0.9853658538414635
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0654"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It has been shown that an optimum can be reached in terms of power consumption and that this optimum can be reached along various different design procedures.",
+      "pdf_page": 205,
+      "printed_page": 209,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is why we want to examine more complicated circuits and different realizations of operational amplifiers.",
+      "pdf_page": 205,
+      "printed_page": 209,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0205_02_0654.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Many compromises are thus to be taken.",
+      "pdf_page": 205,
+      "printed_page": 209,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

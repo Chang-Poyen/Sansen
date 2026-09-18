@@ -1,0 +1,326 @@
+{
+  "case_id": "SANSEN-119",
+  "slide_id": "119",
+  "chapter": 11,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 298,
+    "printed_page": 305
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0298_01_119.jpg",
+      "pdf_page": 298,
+      "printed_page": 305,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 298,
+      "printed_page": 305,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        367.812
+      ],
+      "text_raw": "Connecting both inputs in\nparallel reduces the input\ncommon-mode range by\n2.2 V. The minimum supply\nvoltage must therefore be a\nminimum of 2.2 V. In prac-\ntice the supply voltage will\nbe 2.5 V.\nWe are a long way from\na 1 V supply voltage! Even\nif V were only\nT\n0.3 V, the minimum\nsupply voltage would still\nbe 1.4 V.",
+      "text": "Connecting both inputs in parallel reduces the input common-mode range by 2.2 V. The minimum supply voltage must therefore be a minimum of 2.2 V. In practice the supply voltage will be 2.5 V. We are a long way from a 1 V supply voltage! Even if V were only T 0.3 V, the minimum supply voltage would still be 1.4 V."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Connecting both inputs in parallel reduces the input common-mode range by 2.2 V. The minimum supply voltage must therefore be a minimum of 2.2 V. In practice the supply voltage will be 2.5 V. We are a long way from a 1 V supply voltage! Even if V were only T 0.3 V, the minimum supply voltage would still be 1.4 V.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Problem : limited input CM range",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0298_01_119.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432996621613,
+          0.07804878112195124,
+          0.6790540596959458,
+          0.14146341526829265
+        ],
+        "confidence": 1,
+        "text": "Problem : limited input CM range"
+      },
+      {
+        "bbox": [
+          0.5472972967483108,
+          0.1999999992682927,
+          0.6047297291807433,
+          0.2585365846341463
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.6081081108389639,
+          0.28780487784552844,
+          0.9358108135416666,
+          0.34146341443089434
+        ],
+        "confidence": 1,
+        "text": "To be operational :"
+      },
+      {
+        "bbox": [
+          0.12837837909628377,
+          0.3951219512195122,
+          0.1858108115287162,
+          0.4341463414634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mn"
+      },
+      {
+        "bbox": [
+          0.12162162184684684,
+          0.487804877804878,
+          0.14864864887387386,
+          0.5268292680487804
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.2099160015552888,
+          0.402900464988698,
+          0.2843316273079183,
+          0.46156888536163776
+        ],
+        "confidence": 0.5,
+        "text": "gmp"
+      },
+      {
+        "bbox": [
+          0.6520270250337837,
+          0.5268292683902439,
+          0.8513513493581081,
+          0.5853658537560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VINCM > 1.1 V"
+      },
+      {
+        "bbox": [
+          0.6520270293918918,
+          0.643902438699187,
+          0.9358108131756756,
+          0.7024390240650407
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VINCM < VDD - 1.1 V"
+      },
+      {
+        "bbox": [
+          0.5472972980574324,
+          0.6292682922560976,
+          0.6081081088682433,
+          0.6731707312804879
+        ],
+        "confidence": 0.5,
+        "text": "lout*"
+      },
+      {
+        "bbox": [
+          0.5439189194256757,
+          0.6926829265853659,
+          0.6047297302364865,
+          0.7317073168292684
+        ],
+        "confidence": 0.5,
+        "text": "lout*"
+      },
+      {
+        "bbox": [
+          0.5405405396114865,
+          0.7756097561788617,
+          0.652027026097973,
+          0.8341463415447155
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss = 0"
+      },
+      {
+        "bbox": [
+          0.7194134050375877,
+          0.8285258589611882,
+          0.8143703765411805,
+          0.878791213024641
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDDmin"
+      },
+      {
+        "bbox": [
+          0.8108108092905405,
+          0.8243902441463414,
+          0.9324324309121621,
+          0.8731707319512194
+        ],
+        "confidence": 0.5,
+        "text": "= 2.2 V"
+      },
+      {
+        "bbox": [
+          0.7297297321368242,
+          0.9512195119512196,
+          0.9222972997043918,
+          0.9804878046341464
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 119"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0298_01_119.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Connecting both inputs in parallel reduces the input common-mode range by 2.2 V.",
+        "pdf_page": 298,
+        "printed_page": 305,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The minimum supply voltage must therefore be a minimum of 2.2 V.",
+      "pdf_page": 298,
+      "printed_page": 305,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-119-M01",
+      "ocr_text": "VINCM > 1.1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6520270250337837,
+        0.5268292683902439,
+        0.8513513493581081,
+        0.5853658537560976
+      ],
+      "context_crop": "regions/SANSEN-119_math_01.png",
+      "context_bbox_normalized": [
+        0.6120270250337837,
+        0.42682926839024393,
+        1,
+        0.7153658537560976
+      ],
+      "source_image": "slides/p0298_01_119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-119-M02",
+      "ocr_text": "VINCM < VDD - 1.1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6520270293918918,
+        0.643902438699187,
+        0.9358108131756756,
+        0.7024390240650407
+      ],
+      "context_crop": "regions/SANSEN-119_math_02.png",
+      "context_bbox_normalized": [
+        0.6120270293918918,
+        0.543902438699187,
+        1,
+        0.8324390240650407
+      ],
+      "source_image": "slides/p0298_01_119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-119-M03",
+      "ocr_text": "Vss = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5405405396114865,
+        0.7756097561788617,
+        0.652027026097973,
+        0.8341463415447155
+      ],
+      "context_crop": "regions/SANSEN-119_math_03.png",
+      "context_bbox_normalized": [
+        0.5005405396114865,
+        0.6756097561788618,
+        0.882027026097973,
+        0.93
+      ],
+      "source_image": "slides/p0298_01_119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-119-M04",
+      "ocr_text": "= 2.2 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.8108108092905405,
+        0.8243902441463414,
+        0.9324324309121621,
+        0.8731707319512194
+      ],
+      "context_crop": "regions/SANSEN-119_math_04.png",
+      "context_bbox_normalized": [
+        0.7708108092905405,
+        0.7243902441463415,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0298_01_119.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

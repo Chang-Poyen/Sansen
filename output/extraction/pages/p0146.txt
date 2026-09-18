@@ -1,0 +1,46 @@
+150 Chapter #5
+053
+Operational amplifiers have
+been used to carry out oper-
+ations on analog signals
+with great precision. They
+allow the addition, subtrac-
+tion, multiplication, etc. of
+analog voltages. This is
+shown in this slide for three
+input voltages. The output
+voltage is a precise sum of
+the input voltages, scaled by
+the corresponding resistors.
+This only works well pro-
+vided the opamp itself has
+high gain up to high fre-
+quencies, with low noise, etc.
+High gain means that for any output voltage, the differential input voltage is about zero.
+The input currents are always zero if we use MOSTs and no bipolar transistors. In nanometer
+CMOS some Gate current may show up, giving rise to problems with the input currents!
+This means that the most important specification of an opamp is its gain and bandwidth or
+its gain bandwidth product GBW.
+We will optimize the GBW of an opamp for a certain capacitive load, towards minimum
+power consumption.
+054
+Most simple opamps only
+have one single-output. This
+has been the case in most
+discrete electronics. All volt-
+ages are referred to ground,
+which is easy to reach on a
+printed circuit board, for
+example.
+In integrated circuits,
+more and more analog func-
+tions are integrated together
+with digital blocks. As a
+result, the substrate is pol-
+luted with clock spikes and
+logic noise. In this mixed-
+signal environment, all cir-
+cuits must be fully-differential. This doubles the power consumption but rejects the common-
+mode noise.
+We will discuss single-ended amplifiers first and then construct fully-differential amplifiers in
+Chapter 9.

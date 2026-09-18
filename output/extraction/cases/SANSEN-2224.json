@@ -1,0 +1,396 @@
+{
+  "case_id": "SANSEN-2224",
+  "slide_id": "2224",
+  "chapter": 22,
+  "slide_number_in_chapter": 24,
+  "source": {
+    "pdf_page": 678,
+    "printed_page": 689
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0678_02_2224.jpg",
+      "pdf_page": 678,
+      "printed_page": 689,
+      "bbox_pt": [
+        91.521622,
+        365.822449,
+        374.78981,
+        562.28244
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 678,
+      "printed_page": 689,
+      "bbox_pt": [
+        0,
+        361.833,
+        595,
+        797
+      ],
+      "text_raw": "A Pierce oscillator is best\nbiased by a current source\nI and a Gate biasing resis-\nB\ntor V .\nB\nThis current source is the\nbest guarantee that the cir-\ncuit is isolated from the\nsupply line. Otherwise, the\noscillator will superimpose\nspikes at the oscillation fre-\nquency on all supply lines\nconnected to it.\nA CMOS realization is\nshown on the right. The\ncrystal is connected between\nDrain and Gate, which\nmakes it a Pierce oscillator. Also, the capacitances are indicated.\nThe current source I is set by an external current, which is determined by an Automatic-\nB\nGain-Control system. Such a system measures the output signal and adjusts the DC current to\nkeep the oscillator at point A.\nThe output signal is taken by duplicating the amplifier transistor. In this way the load at the\noutput cannot influence the oscillation condition.\nOne subtlety is capacitor C3. Actually, it is in parallel with capacitor C1 and smoothens\nsomewhat the output current.",
+      "text": "A Pierce oscillator is best biased by a current source I and a Gate biasing resis- B tor V . B This current source is the best guarantee that the circuit is isolated from the supply line. Otherwise, the oscillator will superimpose spikes at the oscillation frequency on all supply lines connected to it. A CMOS realization is shown on the right. The crystal is connected between Drain and Gate, which makes it a Pierce oscillator. Also, the capacitances are indicated. The current source I is set by an external current, which is determined by an Automatic- B Gain-Control system. Such a system measures the output signal and adjusts the DC current to keep the oscillator at point A. The output signal is taken by duplicating the amplifier transistor. In this way the load at the output cannot influence the oscillation condition. One subtlety is capacitor C3. Actually, it is in parallel with capacitor C1 and smoothens somewhat the output current."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A Pierce oscillator is best biased by a current source I and a Gate biasing resis- B tor V . B This current source is the best guarantee that the circuit is isolated from the supply line. Otherwise, the oscillator will superimpose spikes at the oscillation frequency on all supply lines connected to it. A CMOS realization is shown on the right. The crystal is connected between Drain and Gate, which makes it a Pierce oscillator. Also, the capacitances are indicated. The current source I is set by an external current, which is determined by an Automatic- B Gain-Control system. Such a system measures the output signal and adjusts the DC current to keep the oscillator at point A. The output signal is taken by duplicating the amplifier transistor. In this way the load at the output cannot influence the oscillation condition. One subtlety is capacitor C3. Actually, it is in parallel with capacitor C1 and smoothens somewhat the output current.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Pierce X-tal oscillator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0678_02_2224.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027051097973,
+          0.07804878027439022,
+          0.46283784024493235,
+          0.13170731685975612
+        ],
+        "confidence": 1,
+        "text": "Pierce X-tal oscillator"
+      },
+      {
+        "bbox": [
+          0.4831081084740991,
+          0.23902439004065035,
+          0.527027027393018,
+          0.273170731504065
+        ],
+        "confidence": 0.5,
+        "text": "Vdd"
+      },
+      {
+        "bbox": [
+          0.5371621619932433,
+          0.2926829266158536,
+          0.5641891890202704,
+          0.32682926807926826
+        ],
+        "confidence": 1,
+        "text": "P2"
+      },
+      {
+        "bbox": [
+          0.3344594591216216,
+          0.32195121971544716,
+          0.3749999996621622,
+          0.37560975630081295
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'в"
+      },
+      {
+        "bbox": [
+          0.04729729873310807,
+          0.5073170730487805,
+          0.16216216359797295,
+          0.5658536584146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vg Rg"
+      },
+      {
+        "bbox": [
+          0.06081081216216213,
+          0.5658536582317073,
+          0.16891892027027025,
+          0.6097560972560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "—W"
+      },
+      {
+        "bbox": [
+          0.45270270346904457,
+          0.44390243926829265,
+          0.5033783759228475,
+          0.4682926831707317
+        ],
+        "confidence": 1,
+        "text": "Ampl."
+      },
+      {
+        "bbox": [
+          0.4527027030405406,
+          0.4780487801219513,
+          0.5135135138513515,
+          0.507317072804878
+        ],
+        "confidence": 1,
+        "text": "control"
+      },
+      {
+        "bbox": [
+          0.2939189185810811,
+          0.575609755609756,
+          0.3412162158783784,
+          0.624390243414634
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.16554053997747747,
+          0.6292682920325203,
+          0.2533783778153153,
+          0.7073170725203252
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TC,"
+      },
+      {
+        "bbox": [
+          0.6959459455236487,
+          0.26341463451219516,
+          0.7297297293074325,
+          0.3024390247560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "P1"
+      },
+      {
+        "bbox": [
+          0.6554054057094595,
+          0.3365853657073171,
+          0.6858108111148649,
+          0.3707317071707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C3"
+      },
+      {
+        "bbox": [
+          0.6959459462837838,
+          0.4682926826829268,
+          0.7364864868243243,
+          0.5170731704878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "N1"
+      },
+      {
+        "bbox": [
+          0.793918919222973,
+          0.4682926826829268,
+          0.8243243246283783,
+          0.5024390241463415
+        ],
+        "confidence": 1,
+        "text": "N2"
+      },
+      {
+        "bbox": [
+          0.8310810803490991,
+          0.26829268317073174,
+          0.8749999992680181,
+          0.2926829270731708
+        ],
+        "confidence": 0.5,
+        "text": "JP3"
+      },
+      {
+        "bbox": [
+          0.8412162167652026,
+          0.3560975607317074,
+          0.8851351356841216,
+          0.38536585341463414
+        ],
+        "confidence": 1,
+        "text": "OUT"
+      },
+      {
+        "bbox": [
+          0.8682432433783784,
+          0.3951219515609756,
+          0.8885135136486487,
+          0.4292682930243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T"
+      },
+      {
+        "bbox": [
+          0.8513513514921172,
+          0.497560976097561,
+          0.8952702704110361,
+          0.5560975614634147
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.6148648652027027,
+          0.6243902436585366,
+          0.6486486489864864,
+          0.6585365851219511
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Q1"
+      },
+      {
+        "bbox": [
+          0.6013513511824324,
+          0.67804878,
+          0.6249999998310811,
+          0.7073170726829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C1"
+      },
+      {
+        "bbox": [
+          0.6959459458614864,
+          0.6146341456707317,
+          0.736486486402027,
+          0.6682926822560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-DH"
+      },
+      {
+        "bbox": [
+          0.7939189192989865,
+          0.6243902436585367,
+          0.8243243247043919,
+          0.6536585363414635
+        ],
+        "confidence": 0.5,
+        "text": "Q2"
+      },
+      {
+        "bbox": [
+          0.8108108105067567,
+          0.6780487807317074,
+          0.8412162159121621,
+          0.712195122195122
+        ],
+        "confidence": 1,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.6081081084121622,
+          0.8048780483414634,
+          0.8952702705743244,
+          0.8487804873658535
+        ],
+        "confidence": 0.5,
+        "text": "32 kHz 1.2 V 78 nA"
+      },
+      {
+        "bbox": [
+          0.7263513534206081,
+          0.9512195117682928,
+          0.9391891912584459,
+          0.9853658532317074
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2224"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A CMOS realization is shown on the right.",
+      "pdf_page": 678,
+      "printed_page": 689,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The current source I is set by an external current, which is determined by an Automatic- B Gain-Control system.",
+      "pdf_page": 678,
+      "printed_page": 689,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0678_02_2224.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A Pierce oscillator is best biased by a current source I and a Gate biasing resis- B tor V .",
+        "pdf_page": 678,
+        "printed_page": 689,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "B This current source is the best guarantee that the circuit is isolated from the supply line.",
+        "pdf_page": 678,
+        "printed_page": 689,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Otherwise, the oscillator will superimpose spikes at the oscillation frequency on all supply lines connected to it.",
+        "pdf_page": 678,
+        "printed_page": 689,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The crystal is connected between Drain and Gate, which makes it a Pierce oscillator.",
+        "pdf_page": 678,
+        "printed_page": 689,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The current source I is set by an external current, which is determined by an Automatic- B Gain-Control system.",
+        "pdf_page": 678,
+        "printed_page": 689,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Actually, it is in parallel with capacitor C1 and smoothens somewhat the output current.",
+        "pdf_page": 678,
+        "printed_page": 689,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The current source I is set by an external current, which is determined by an Automatic- B Gain-Control system.",
+      "pdf_page": 678,
+      "printed_page": 689,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

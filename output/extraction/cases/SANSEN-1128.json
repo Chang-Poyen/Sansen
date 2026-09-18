@@ -1,0 +1,160 @@
+{
+  "case_id": "SANSEN-1128",
+  "slide_id": "1128",
+  "chapter": 11,
+  "slide_number_in_chapter": 28,
+  "source": {
+    "pdf_page": 307,
+    "printed_page": 314
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0307_02_1128.jpg",
+      "pdf_page": 307,
+      "printed_page": 314,
+      "bbox_pt": [
+        91.521622,
+        397.560975,
+        374.78981,
+        594.020966
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 307,
+      "printed_page": 314,
+      "bbox_pt": [
+        0,
+        393.57150000000007,
+        595,
+        797
+      ],
+      "text_raw": "The reference voltage V is\nref\ngenerated at the Drain/Gate\nof transistor MB5. The\ncurrent-switch transistor is\nMN3. Its current determines\nthe current in the nMOST\ntransistor pair through cur-\nrent mirror MN1/MN2.\nIn order to see how this\ncircuit is working, it is\nrepeated on the next slide. It\nis already clear that the cur-\nrent in one pair will double\nwhen the other one is off. As\na result, the transconduct-\nance will double as well.",
+      "text": "The reference voltage V is ref generated at the Drain/Gate of transistor MB5. The current-switch transistor is MN3. Its current determines the current in the nMOST transistor pair through current mirror MN1/MN2. In order to see how this circuit is working, it is repeated on the next slide. It is already clear that the current in one pair will double when the other one is off. As a result, the transconductance will double as well."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The reference voltage V is ref generated at the Drain/Gate of transistor MB5. The current-switch transistor is MN3. Its current determines the current in the nMOST transistor pair through current mirror MN1/MN2. In order to see how this circuit is working, it is repeated on the next slide. It is already clear that the current in one pair will double when the other one is off. As a result, the transconductance will double as well.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Ref. : Wu etal, JSSC Jan.1994, pp.63-66",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0307_02_1128.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.06756757189189182,
+          0.08780487775609758,
+          0.5000000043243243,
+          0.12682926800000005
+        ],
+        "confidence": 0.5,
+        "text": "Ref. : Wu etal, JSSC Jan.1994, pp.63-66"
+      },
+      {
+        "bbox": [
+          0.8209459449887389,
+          0.5658536587398374,
+          0.9358108098536038,
+          0.6097560977642277
+        ],
+        "confidence": 0.5,
+        "text": "Biasing :"
+      },
+      {
+        "bbox": [
+          0.817567568412162,
+          0.6682926822560976,
+          0.9189189197635134,
+          0.7219512188414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs x 2"
+      },
+      {
+        "bbox": [
+          0.8243243248986487,
+          0.7512195116585366,
+          0.9222972978716217,
+          0.8048780482439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m x 2"
+      },
+      {
+        "bbox": [
+          0.7263513612297813,
+          0.9512195118699187,
+          0.9324324294233716,
+          0.9804878045528455
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1128"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Its current determines the current in the nMOST transistor pair through current mirror MN1/MN2.",
+      "pdf_page": 307,
+      "printed_page": 314,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0307_02_1128.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The reference voltage V is ref generated at the Drain/Gate of transistor MB5.",
+        "pdf_page": 307,
+        "printed_page": 314,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the transconductance will double as well.",
+      "pdf_page": 307,
+      "printed_page": 314,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

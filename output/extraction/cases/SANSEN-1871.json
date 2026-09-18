@@ -1,0 +1,341 @@
+{
+  "case_id": "SANSEN-1871",
+  "slide_id": "1871",
+  "chapter": 18,
+  "slide_number_in_chapter": 71,
+  "source": {
+    "pdf_page": 544,
+    "printed_page": 554
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0544_01_1871.jpg",
+      "pdf_page": 544,
+      "printed_page": 554,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 544,
+      "printed_page": 554,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        357.6975000000001
+      ],
+      "text_raw": "A different result is obtained\nwhen a low-pass filter is\ninserted between both\nstages. This better resembles\na two-stage amplifier. The\ncompensation capacitance\nexerts a low-pass filter char-\nacteristic to the first stage.\nThe low-pass filter has a\npole at frequency f . It is\np\ncombined with the gain\nblock B , to be denoted by\n1\ngain B , which is nothing\n1p\nelse than a filter block with\nlow-frequency gain B .\n1\nA similar analysis as\nbefore again yields the coefficients d of the power series.",
+      "text": "A different result is obtained when a low-pass filter is inserted between both stages. This better resembles a two-stage amplifier. The compensation capacitance exerts a low-pass filter characteristic to the first stage. The low-pass filter has a pole at frequency f . It is p combined with the gain block B , to be denoted by 1 gain B , which is nothing 1p else than a filter block with low-frequency gain B . 1 A similar analysis as before again yields the coefficients d of the power series."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A different result is obtained when a low-pass filter is inserted between both stages. This better resembles a two-stage amplifier. The compensation capacitance exerts a low-pass filter characteristic to the first stage. The low-pass filter has a pole at frequency f . It is p combined with the gain block B , to be denoted by 1 gain B , which is nothing 1p else than a filter block with low-frequency gain B . 1 A similar analysis as before again yields the coefficients d of the power series.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Distortion in input stage with LPF",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0544_01_1871.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432290540539,
+          0.07804877985365855,
+          0.6824324310135136,
+          0.14146341399999995
+        ],
+        "confidence": 1,
+        "text": "Distortion in input stage with LPF"
+      },
+      {
+        "bbox": [
+          0.29054053930180185,
+          0.24390243914634147,
+          0.4391891879504505,
+          0.3073170732926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a, a2 ag"
+      },
+      {
+        "bbox": [
+          0.6959459463851351,
+          0.24390243892682928,
+          0.739864865304054,
+          0.3024390242926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B1"
+      },
+      {
+        "bbox": [
+          0.4358108106081081,
+          0.3999999995121952,
+          0.46283783763513514,
+          0.4487804873170732
+        ],
+        "confidence": 1,
+        "text": "F"
+      },
+      {
+        "bbox": [
+          0.3310810806306306,
+          0.5463414640650406,
+          0.47297297252252246,
+          0.6243902445528455
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "d, de dg"
+      },
+      {
+        "bbox": [
+          0.7126182759174057,
+          0.47120416549062205,
+          0.9563006475208816,
+          0.5336738874940936
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1+T = 1 + B1pa,F"
+      },
+      {
+        "bbox": [
+          0.060810811486486496,
+          0.6780487800487804,
+          0.19594594662162163,
+          0.7219512190731706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "u = V - Fy"
+      },
+      {
+        "bbox": [
+          0.05405405078828836,
+          0.7512195124796749,
+          0.44594594268018023,
+          0.8146341466260163
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y = B1p(a,u + a2 u} + ag u3)"
+      },
+      {
+        "bbox": [
+          0.05399903828365667,
+          0.8433905336461972,
+          0.378433396004109,
+          0.9175850766008049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y = d,v + d2 v2 + dg v3"
+      },
+      {
+        "bbox": [
+          0.4864864872104247,
+          0.7219512193031359,
+          0.5878378385617761,
+          0.7609756095470382
+        ],
+        "confidence": 1,
+        "text": "elim. u"
+      },
+      {
+        "bbox": [
+          0.6385135143581081,
+          0.785365853414634,
+          0.7398648657094594,
+          0.8341463412195121
+        ],
+        "confidence": 1,
+        "text": "elim. y"
+      },
+      {
+        "bbox": [
+          0.7768091944930365,
+          0.7108281323866729,
+          0.9495421534155516,
+          0.7720986996526253
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "coeff v : dy"
+      },
+      {
+        "bbox": [
+          0.7766866893871038,
+          0.7731311839555948,
+          0.9569009526845199,
+          0.8356800795356074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "coeff v2 : d2"
+      },
+      {
+        "bbox": [
+          0.7764927560549932,
+          0.8497011836641466,
+          0.9570934121004431,
+          0.9149099629759082
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "coeff v3 : dg"
+      },
+      {
+        "bbox": [
+          0.719594592018581,
+          0.9365853654268294,
+          0.9324324298564189,
+          0.970731706890244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1871"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0544_01_1871.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is p combined with the gain block B , to be denoted by 1 gain B , which is nothing 1p else than a filter block with low-frequency gain B . 1 A similar analysis as before again yields the coefficients d of the power series.",
+      "pdf_page": 544,
+      "printed_page": 554,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The compensation capacitance exerts a low-pass filter characteristic to the first stage.",
+      "pdf_page": 544,
+      "printed_page": 554,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1871-M01",
+      "ocr_text": "1+T = 1 + B1pa,F",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7126182759174057,
+        0.47120416549062205,
+        0.9563006475208816,
+        0.5336738874940936
+      ],
+      "context_crop": "regions/SANSEN-1871_math_01.png",
+      "context_bbox_normalized": [
+        0.6726182759174056,
+        0.3712041654906221,
+        1,
+        0.6636738874940936
+      ],
+      "source_image": "slides/p0544_01_1871.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1871-M02",
+      "ocr_text": "u = V - Fy",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.060810811486486496,
+        0.6780487800487804,
+        0.19594594662162163,
+        0.7219512190731706
+      ],
+      "context_crop": "regions/SANSEN-1871_math_02.png",
+      "context_bbox_normalized": [
+        0.020810811486486495,
+        0.5780487800487805,
+        0.42594594662162166,
+        0.8519512190731706
+      ],
+      "source_image": "slides/p0544_01_1871.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1871-M03",
+      "ocr_text": "y = B1p(a,u + a2 u} + ag u3)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.05405405078828836,
+        0.7512195124796749,
+        0.44594594268018023,
+        0.8146341466260163
+      ],
+      "context_crop": "regions/SANSEN-1871_math_03.png",
+      "context_bbox_normalized": [
+        0.014054050788288357,
+        0.6512195124796749,
+        0.6759459426801803,
+        0.93
+      ],
+      "source_image": "slides/p0544_01_1871.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1871-M04",
+      "ocr_text": "y = d,v + d2 v2 + dg v3",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.05399903828365667,
+        0.8433905336461972,
+        0.378433396004109,
+        0.9175850766008049
+      ],
+      "context_crop": "regions/SANSEN-1871_math_04.png",
+      "context_bbox_normalized": [
+        0.013999038283656666,
+        0.7433905336461972,
+        0.6084333960041091,
+        0.93
+      ],
+      "source_image": "slides/p0544_01_1871.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

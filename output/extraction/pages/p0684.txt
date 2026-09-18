@@ -1,0 +1,53 @@
+Design of crystal oscillators 695
+2235
+A Pierce oscillator is best
+biased by a current source
+I and a Gate biasing resis-
+B
+tor V .
+B
+A current source is used
+to isolate the circuit from
+the supply line.
+A discrete realization is
+shown on the right. It uses
+a bipolar transistor. The
+crystal is connected between
+collector and base, which
+makes it a Pierce oscillator.
+Also the capacitances are
+indicated.
+The current source is
+replaced by a large resistor R . A resistor is used in the emitter for thermal stabilization. The
+L
+capacitor across it has to alleviate the gain reduction caused by the resistor.
+The resistors R and R provide biasing to the base.
+1 2
+It is clear that such a circuit can never be biased exactly at point A of the polar diagram. It
+has fixed biasing at a transconductance which must be a lot larger than g , to always ensure
+mA
+oscillation. As a result, the power consumption is never minimum and the oscillation frequency
+is not very precise.
+2236
+A Colpitts oscillator is again
+shown in this slide. Indeed
+it is a single-pin oscillator
+with the crystal connected
+to the Collector.
+A discrete equivalent with
+a bipolar transistor is shown
+on the right. The current
+source is replaced by a
+‘‘choke’’ or large inductor.
+The capacitors are where
+they are expected.
+The output voltage is
+taken at the Collector, as
+shown by most publications.
+This is not the best place
+however, as at resonance the crystal is little more than a small resistor. The signal swing at the
+Collector is therefore quite small.
+A better output node is the Emitter, between capacitors C and C .
+1 2
+The base is decoupled to ground to make it an AC ground. If not, the effective transconductance
+would be reduced by the base resistances.

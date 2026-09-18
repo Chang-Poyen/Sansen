@@ -1,0 +1,437 @@
+{
+  "case_id": "SANSEN-1322",
+  "slide_id": "1322",
+  "chapter": 13,
+  "slide_number_in_chapter": 22,
+  "source": {
+    "pdf_page": 367,
+    "printed_page": 374
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0367_01_1322.jpg",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 367,
+      "printed_page": 374,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        391.5785000000001
+      ],
+      "text_raw": "The output resistance R\nOUT\nis the open-loop output\nresistance R divided\nOUTOL\nby the loop gain LG.\nThe open-loop output\nresistance R is the par-\nOUTOL\nallel combination of the\nsmall output resistor R and\nO\nthe feedback resistors in\nseries. Since output resis-\ntance R is small, the effect\nO\nof the feedback resistors is\nnegligible.\nApplication of shunt feed-\nback will make the closed-\nloop output resistance R\nOUT\nnearly zero.\nNote that for the calculation of the open-loop output resistance, the effect of the feedback\nmust be eliminated. This is again done by setting the gain A to zero.\n0",
+      "text": "The output resistance R OUT is the open-loop output resistance R divided OUTOL by the loop gain LG. The open-loop output resistance R is the par- OUTOL allel combination of the small output resistor R and O the feedback resistors in series. Since output resistance R is small, the effect O of the feedback resistors is negligible. Application of shunt feedback will make the closedloop output resistance R OUT nearly zero. Note that for the calculation of the open-loop output resistance, the effect of the feedback must be eliminated. This is again done by setting the gain A to zero. 0"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The output resistance R OUT is the open-loop output resistance R divided OUTOL by the loop gain LG. The open-loop output resistance R is the par- OUTOL allel combination of the small output resistor R and O the feedback resistors in series. Since output resistance R is small, the effect O of the feedback resistors is negligible. Application of shunt feedback will make the closedloop output resistance R OUT nearly zero. Note that for the calculation of the open-loop output resistance, the effect of the feedback must be eliminated. This is again done by setting the gain A to zero. 0",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Series-shunt FB : output resistance",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0367_01_1322.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810871959458,
+          0.09268292663414635,
+          0.6925675736824323,
+          0.15121951200000006
+        ],
+        "confidence": 1,
+        "text": "Series-shunt FB : output resistance"
+      },
+      {
+        "bbox": [
+          0.0810810814752252,
+          0.35121951199186996,
+          0.1283783787725225,
+          0.39512195101626024
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.07770270278716215,
+          0.39999999963414634,
+          0.12837837846283784,
+          0.4439024386585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 0"
+      },
+      {
+        "bbox": [
+          0.2466216219256757,
+          0.24878048760975613,
+          0.2770270273310811,
+          0.2878048778536586
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.21621621567567567,
+          0.37073170746341466,
+          0.27027026972972973,
+          0.41463414648780483
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.38175675743243237,
+          0.24878048764227645,
+          0.46283783851351346,
+          0.29756097544715443
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AoVIN"
+      },
+      {
+        "bbox": [
+          0.22635135070945947,
+          0.673170730780488,
+          0.3108108101689189,
+          0.7658536576097562
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "§R1"
+      },
+      {
+        "bbox": [
+          0.39864864898648644,
+          0.560975610292683,
+          0.439189189527027,
+          0.6146341468780487
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.45608108277027026,
+          0.5073170731097562,
+          0.5912162179054054,
+          0.5609756096951221
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ro « R2"
+      },
+      {
+        "bbox": [
+          0.6719480995630637,
+          0.2364830359242327,
+          0.8854843363002892,
+          0.3049803820114325
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ag=104... 106"
+      },
+      {
+        "bbox": [
+          0.6858108102195947,
+          0.33170731662601627,
+          0.7635135129222974,
+          0.38536585321138217
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RoUT"
+      },
+      {
+        "bbox": [
+          0.6824324316300676,
+          0.44878048707317064,
+          0.7601351343327704,
+          0.5073170724390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.8243243251206565,
+          0.5756097559930313,
+          0.935810811607143,
+          0.6292682925783972
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2+ R1"
+      },
+      {
+        "bbox": [
+          0.7432432433397683,
+          0.6048780491986063,
+          0.8175675676640927,
+          0.66341463456446
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av="
+      },
+      {
+        "bbox": [
+          0.8547297293243243,
+          0.6487804879512195,
+          0.8952702698648649,
+          0.7024390245365854
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.29729729898648644,
+          0.7853658532317074,
+          0.43243243412162163,
+          0.8390243898170733
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ROUT = -"
+      },
+      {
+        "bbox": [
+          0.40949391229868803,
+          0.7444632446475585,
+          0.92716235283395,
+          0.8571919962255407
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ROUTOL = O ROUTOL = RouT (A,=0)"
+      },
+      {
+        "bbox": [
+          0.4425675679054054,
+          0.8195121948780488,
+          0.48986486520270267,
+          0.8634146339024391
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.658783787162162,
+          0.8439024389634145,
+          0.9290540574324324,
+          0.8975609755487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= Roll(R2+...) = Ro"
+      },
+      {
+        "bbox": [
+          0.7162162191126644,
+          0.9365853660162601,
+          0.9290540440630116,
+          0.9658536586991869
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 os 1322"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0367_01_1322.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The open-loop output resistance R is the par- OUTOL allel combination of the small output resistor R and O the feedback resistors in series.",
+        "pdf_page": 367,
+        "printed_page": 374,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The output resistance R OUT is the open-loop output resistance R divided OUTOL by the loop gain LG.",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is again done by setting the gain A to zero. 0",
+      "pdf_page": 367,
+      "printed_page": 374,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1322-M01",
+      "ocr_text": "= 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07770270278716215,
+        0.39999999963414634,
+        0.12837837846283784,
+        0.4439024386585366
+      ],
+      "context_crop": "regions/SANSEN-1322_math_01.png",
+      "context_bbox_normalized": [
+        0.03770270278716215,
+        0.29999999963414636,
+        0.3583783784628378,
+        0.5739024386585366
+      ],
+      "source_image": "slides/p0367_01_1322.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1322-M02",
+      "ocr_text": "Ag=104... 106",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6719480995630637,
+        0.2364830359242327,
+        0.8854843363002892,
+        0.3049803820114325
+      ],
+      "context_crop": "regions/SANSEN-1322_math_02.png",
+      "context_bbox_normalized": [
+        0.6319480995630636,
+        0.1364830359242327,
+        1,
+        0.4349803820114325
+      ],
+      "source_image": "slides/p0367_01_1322.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1322-M03",
+      "ocr_text": "Av=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7432432433397683,
+        0.6048780491986063,
+        0.8175675676640927,
+        0.66341463456446
+      ],
+      "context_crop": "regions/SANSEN-1322_math_03.png",
+      "context_bbox_normalized": [
+        0.7032432433397683,
+        0.5048780491986063,
+        1,
+        0.79341463456446
+      ],
+      "source_image": "slides/p0367_01_1322.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1322-M04",
+      "ocr_text": "ROUT = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.29729729898648644,
+        0.7853658532317074,
+        0.43243243412162163,
+        0.8390243898170733
+      ],
+      "context_crop": "regions/SANSEN-1322_math_04.png",
+      "context_bbox_normalized": [
+        0.25729729898648646,
+        0.6853658532317074,
+        0.6624324341216217,
+        0.93
+      ],
+      "source_image": "slides/p0367_01_1322.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1322-M05",
+      "ocr_text": "ROUTOL = O ROUTOL = RouT (A,=0)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.40949391229868803,
+        0.7444632446475585,
+        0.92716235283395,
+        0.8571919962255407
+      ],
+      "context_crop": "regions/SANSEN-1322_math_05.png",
+      "context_bbox_normalized": [
+        0.36949391229868805,
+        0.6444632446475586,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0367_01_1322.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1322-M06",
+      "ocr_text": "= Roll(R2+...) = Ro",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.658783787162162,
+        0.8439024389634145,
+        0.9290540574324324,
+        0.8975609755487804
+      ],
+      "context_crop": "regions/SANSEN-1322_math_06.png",
+      "context_bbox_normalized": [
+        0.618783787162162,
+        0.7439024389634146,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0367_01_1322.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

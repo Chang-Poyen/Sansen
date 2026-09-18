@@ -1,0 +1,441 @@
+{
+  "case_id": "SANSEN-2413",
+  "slide_id": "2413",
+  "chapter": 24,
+  "slide_number_in_chapter": 13,
+  "source": {
+    "pdf_page": 736,
+    "printed_page": 748
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0737_01_2413.jpg",
+      "pdf_page": 737,
+      "printed_page": 749,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 736,
+      "printed_page": 748,
+      "bbox_pt": [
+        0,
+        642.69658965,
+        595,
+        797
+      ],
+      "text_raw": "The best strategy for pinning is therefore to avoid common supply lines or common ground\nlines altogether.\nThe top solution is the best one. It costs one extra pin, however.",
+      "text": "The best strategy for pinning is therefore to avoid common supply lines or common ground lines altogether. The top solution is the best one. It costs one extra pin, however."
+    },
+    {
+      "pdf_page": 737,
+      "printed_page": 749,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        355.7045000000001
+      ],
+      "text_raw": "The other two solutions\nare poor. Each pad has a\ncapacitance to ground and\nhas an inductor in series to\nmodel the bond wire.\nIt is now clear that both\nsolutions form a filter from\none supply to the other. The\nmiddle one is better than the\nbottom one.\nIn the bottom connection,\nthe pin itself and all external\ndecoupling capacitors con-\nnected to that pin, are iso-\nlated from the supply lines\nbecause of the bonding-wire\ninductance. This is clearly\nthe worst possible solution.",
+      "text": "The other two solutions are poor. Each pad has a capacitance to ground and has an inductor in series to model the bond wire. It is now clear that both solutions form a filter from one supply to the other. The middle one is better than the bottom one. In the bottom connection, the pin itself and all external decoupling capacitors connected to that pin, are isolated from the supply lines because of the bonding-wire inductance. This is clearly the worst possible solution."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The best strategy for pinning is therefore to avoid common supply lines or common ground lines altogether. The top solution is the best one. It costs one extra pin, however.\n\nThe other two solutions are poor. Each pad has a capacitance to ground and has an inductor in series to model the bond wire. It is now clear that both solutions form a filter from one supply to the other. The middle one is better than the bottom one. In the bottom connection, the pin itself and all external decoupling capacitors connected to that pin, are isolated from the supply lines because of the bonding-wire inductance. This is clearly the worst possible solution.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Pinning Strategy",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0737_01_2413.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07094594851351343,
+          0.08292682990243905,
+          0.36824324581081075,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "Pinning Strategy"
+      },
+      {
+        "bbox": [
+          0.20608108150337837,
+          0.2536585363414634,
+          0.23986486528716217,
+          0.28292682902439026
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vas"
+      },
+      {
+        "bbox": [
+          0.20945945920608108,
+          0.3512195117682927,
+          0.25675675650337837,
+          0.38536585323170724
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AVod"
+      },
+      {
+        "bbox": [
+          0.4763513506756757,
+          0.21463414652439028,
+          0.5304054047297297,
+          0.23902439042682921
+        ],
+        "confidence": 1,
+        "text": "Digital"
+      },
+      {
+        "bbox": [
+          0.47635135039414417,
+          0.23902439048780488,
+          0.5337837828265766,
+          0.26341463439024393
+        ],
+        "confidence": 0.5,
+        "text": "Circuit"
+      },
+      {
+        "bbox": [
+          0.4729729715653154,
+          0.317073170894309,
+          0.5574324310247749,
+          0.3463414635772357
+        ],
+        "confidence": 1,
+        "text": "Analogue"
+      },
+      {
+        "bbox": [
+          0.4763513523085585,
+          0.3463414631707318,
+          0.533783784740991,
+          0.3707317070731708
+        ],
+        "confidence": 0.5,
+        "text": "Circuit|"
+      },
+      {
+        "bbox": [
+          0.15878378331925677,
+          0.36097560993902444,
+          0.19594594548141894,
+          0.3853658538414635
+        ],
+        "confidence": 0.5,
+        "text": "Pad"
+      },
+      {
+        "bbox": [
+          0.1486486491554054,
+          0.4878048778658537,
+          0.18918918969594595,
+          0.5121951217682926
+        ],
+        "confidence": 1,
+        "text": "Pad"
+      },
+      {
+        "bbox": [
+          0.1959459453828829,
+          0.4829268294308944,
+          0.22972972916666667,
+          0.5121951221138211
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Voa"
+      },
+      {
+        "bbox": [
+          0.4729729720157658,
+          0.4439024391869919,
+          0.5304054044481983,
+          0.47317073186991876
+        ],
+        "confidence": 1,
+        "text": "Digital"
+      },
+      {
+        "bbox": [
+          0.47297297225506757,
+          0.47317073189024383,
+          0.5304054046875,
+          0.4975609757926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Circurt"
+      },
+      {
+        "bbox": [
+          0.4729729715653154,
+          0.5512195123577235,
+          0.5574324310247749,
+          0.5804878050406503
+        ],
+        "confidence": 1,
+        "text": "Analogue"
+      },
+      {
+        "bbox": [
+          0.47297297225506757,
+          0.5804878050609756,
+          0.5304054046875,
+          0.6048780489634147
+        ],
+        "confidence": 0.5,
+        "text": "Circuit"
+      },
+      {
+        "bbox": [
+          0.09459459510135132,
+          0.5951219510569105,
+          0.12500000050675672,
+          0.6243902437398373
+        ],
+        "confidence": 0.5,
+        "text": "Pin"
+      },
+      {
+        "bbox": [
+          0.14864864932432428,
+          0.595121950894309,
+          0.18918918986486483,
+          0.6243902435772358
+        ],
+        "confidence": 1,
+        "text": "Pad"
+      },
+      {
+        "bbox": [
+          0.19932432421171176,
+          0.5853658541711475,
+          0.24662162150900904,
+          0.6243902420890151
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AVdo"
+      },
+      {
+        "bbox": [
+          0.16891891907094594,
+          0.7414634147560977,
+          0.20608108123310812,
+          0.7658536586585367
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Pad"
+      },
+      {
+        "bbox": [
+          0.28716216239864867,
+          0.6780487802926829,
+          0.3108108110472973,
+          0.7073170729756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RE"
+      },
+      {
+        "bbox": [
+          0.29391891948198196,
+          0.7317073170731707,
+          0.3277027032657658,
+          0.7609756097560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vos"
+      },
+      {
+        "bbox": [
+          0.4628378371621622,
+          0.6926829270121951,
+          0.5168918912162163,
+          0.7170731709146342
+        ],
+        "confidence": 1,
+        "text": "Digital"
+      },
+      {
+        "bbox": [
+          0.4628378368806308,
+          0.7219512202563054,
+          0.5202702693130632,
+          0.7414634142152392
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Circuit"
+      },
+      {
+        "bbox": [
+          0.4628378368243243,
+          0.8000000001829268,
+          0.5439189179054054,
+          0.8243902440853659
+        ],
+        "confidence": 1,
+        "text": "Analogue"
+      },
+      {
+        "bbox": [
+          0.46278072143712007,
+          0.8241068209653031,
+          0.520327388587669,
+          0.8490639102731345
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Circuйt"
+      },
+      {
+        "bbox": [
+          0.28716216165540537,
+          0.8341463416463415,
+          0.32770270219594594,
+          0.8682926831097562
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AVos"
+      },
+      {
+        "bbox": [
+          0.6587837839527027,
+          0.2682926821951219,
+          0.9189189190878377,
+          0.3121951212195122
+        ],
+        "confidence": 0.5,
+        "text": "Best but # pins...."
+      },
+      {
+        "bbox": [
+          0.6959459450000001,
+          0.5073170734146342,
+          0.7905405395945946,
+          0.5414634148780487
+        ],
+        "confidence": 1,
+        "text": "= filter"
+      },
+      {
+        "bbox": [
+          0.8883770004770415,
+          0.6968208357255573,
+          0.9629743527369093,
+          0.7275694077262005
+        ],
+        "confidence": 1,
+        "text": "spikes"
+      },
+      {
+        "bbox": [
+          0.7939189193243242,
+          0.7999999998536584,
+          0.8344594598648648,
+          0.8439024388780486
+        ],
+        "confidence": 0.5,
+        "text": "Cint"
+      },
+      {
+        "bbox": [
+          0.7293842326960931,
+          0.9456218934314762,
+          0.9428534287063733,
+          0.9869175590794016
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 2413"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0737_01_2413.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Each pad has a capacitance to ground and has an inductor in series to model the bond wire.",
+        "pdf_page": 737,
+        "printed_page": 749,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In the bottom connection, the pin itself and all external decoupling capacitors connected to that pin, are isolated from the supply lines because of the bonding-wire inductance.",
+        "pdf_page": 737,
+        "printed_page": 749,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The best strategy for pinning is therefore to avoid common supply lines or common ground lines altogether.",
+      "pdf_page": 736,
+      "printed_page": 748,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2413-M01",
+      "ocr_text": "= filter",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.6959459450000001,
+        0.5073170734146342,
+        0.7905405395945946,
+        0.5414634148780487
+      ],
+      "context_crop": "regions/SANSEN-2413_math_01.png",
+      "context_bbox_normalized": [
+        0.655945945,
+        0.4073170734146342,
+        1,
+        0.6714634148780487
+      ],
+      "source_image": "slides/p0737_01_2413.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

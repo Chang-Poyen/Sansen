@@ -1,0 +1,43 @@
+288 Chapter #9
+0950
+Such a comparison has been
+made based on experimental
+results only.
+In this layout, several
+opamps can be distin-
+guished, among which is the
+TCFC one. They all have
+similar sizes, as the load
+capacitances were 150 pF
+for all of them. The technol-
+ogy was 0.35 mm CMOS.
+The comparison is better
+carried out in a Table as
+shown next.
+0951
+For this purpose the several
+three-stage opamps have
+been put in categories. All
+possible Figures-of-Merit
+have been added. Not only
+a choice is made between
+the current (mA) or the
+power (mW) consumption.
+Another alternative is to use
+either the GBW, which is a
+quality factor for small sig-
+nals, or the Slew Rate, which
+is more important for large-
+signal operation, such as in
+switched-capacitor circuits.
+The first category uses no
+compensation capacitance. It is clear that this is not the way to go!
+The second category is the most used one. It lists all the NMC varieties. Several of them have
+been discussed in this Chapter. The FOMs are reasonably good. The best one is the multi-path
+opamp MNMC. However, its Slew Rate is not so good, because no feedforward stage is used to
+turn the output stage into a class-AB stage.
+The addition of nulling resistances in series with the compensation capacitance does not
+increase the FOM a lot.
+Real improvements are only achieved once left-hand-plane zero’s can be generated, which
+compensate the main non-dominant pole. This is the case when positive feedback is used (PFC)
+or damping-factor control (DFCFC). This is even more the case when a AC boosting amplifier

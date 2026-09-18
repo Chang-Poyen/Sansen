@@ -1,0 +1,57 @@
+Amplifiers, source followers and cascodes 73
+that around g complex
+mr
+poles occur again, leading to
+severe peaking in the Bode
+diagram. The current corre-
+sponding to this g should
+mr
+be avoided.
+Again the zero occurs at
+lower frequencies than both
+poles. As a result, for large
+currents, the output imped-
+ance first rises before it
+levels off and then decreases.
+It is severely inductive!
+Again a perfect first-order
+characteristic can be
+obtained by tuning the cur-
+rent to realize g . This is
+mu
+the transconductance where the zero cancels out the first pole. A wide band source follower at
+low current results with an output impedance which is resistive up tol high frequencies, and with
+value 1/g .
+mu
+Especially for bipolar transistor emitter followers, a buffer with purely resistive output imped-
+ance up to high frequencies is of added value in RF circuits, for example to be connected to a
+50 V transmission line.
+This value of g depends mainly on the source resistance. For small resistances, the current
+mu
+may become excessive.
+0245
+The inductive output
+impedance of both source
+and emitter followers can be
+used wherever an inductor
+is required. They have been
+used in oscillators but also
+to add a bit of peaking
+to an amplifier, to compen-
+sate for an early roll-off
+because of all the transistor
+capacitances.
+In its simplest form, such
+output inductor can be
+obtained by a source fol-
+lower with high source resis-
+tor R and biased at a large
+S
+DC current I . The inductor has a value given in this slide.
+B
+The output impedance is only inductive for frequencies between f /(g R ) and f itself. The
+T m S T
+quality factor of this inductor is low however, as its series resistor is R itself.
+S
+At low frequencies the output resistance is obviously 1/g . For higher frequencies, capacitance
+m

@@ -1,0 +1,244 @@
+{
+  "case_id": "SANSEN-1440",
+  "slide_id": "1440",
+  "chapter": 14,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 400,
+    "printed_page": 408
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0400_02_1440.jpg",
+      "pdf_page": 400,
+      "printed_page": 408,
+      "bbox_pt": [
+        91.52162,
+        371.80144,
+        374.54222,
+        568.31128
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 400,
+      "printed_page": 408,
+      "bbox_pt": [
+        0,
+        367.81198,
+        595,
+        797
+      ],
+      "text_raw": "The photodiode can be\nmodeled by a current\nsource I .\nIN\nIt can applied to a trans-\nimpedance amplifier, i.e. a\nvoltage amplifier with a\nfeedback resistor R or to\nF\nan amplifier without feed-\nback but with a current\ninput which has a transim-\npedance A . If R equals A ,\nR F R\nthen both have the same\ngain.\nWhich one would have\nthe higher bandwidth BW?\nA Figure-of-merit could\nbe the product A BW, usually expressed in THzV. Which one would have the higher A BW\nR R\nproduct?",
+      "text": "The photodiode can be modeled by a current source I . IN It can applied to a transimpedance amplifier, i.e. a voltage amplifier with a feedback resistor R or to F an amplifier without feedback but with a current input which has a transimpedance A . If R equals A , R F R then both have the same gain. Which one would have the higher bandwidth BW? A Figure-of-merit could be the product A BW, usually expressed in THzV. Which one would have the higher A BW R R product?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The photodiode can be modeled by a current source I . IN It can applied to a transimpedance amplifier, i.e. a voltage amplifier with a feedback resistor R or to F an amplifier without feedback but with a current input which has a transimpedance A . If R equals A , R F R then both have the same gain. Which one would have the higher bandwidth BW? A Figure-of-merit could be the product A BW, usually expressed in THzV. Which one would have the higher A BW R R product?",
+  "schema_version": "1.0",
+  "chapter_title": "反馈跨阻放大器与电流放大器",
+  "title": "Optical receiver : Current or voltage amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0400_02_1440.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07500000184995154,
+          0.07073170844538657,
+          0.8958333179417153,
+          0.1439024401527036
+        ],
+        "confidence": 1,
+        "text": "Optical receiver : Current or voltage amplifier"
+      },
+      {
+        "bbox": [
+          0.17966101715254237,
+          0.48292682970731704,
+          0.20677966122033897,
+          0.5268292687317073
+        ],
+        "confidence": 1,
+        "text": "IN"
+      },
+      {
+        "bbox": [
+          0.4508474568813559,
+          0.5463414629268293,
+          0.5322033890847457,
+          0.5951219507317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.8372881348474576,
+          0.5463414629268293,
+          0.9186440670508474,
+          0.5951219507317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.3694915250847458,
+          0.6097560970243903,
+          0.4101694911864407,
+          0.663414633609756
+        ],
+        "confidence": 0.5,
+        "text": "Ay"
+      },
+      {
+        "bbox": [
+          0.7593220335108959,
+          0.5902439019860628,
+          0.8203389826634383,
+          0.6536585361324042
+        ],
+        "confidence": 0.5,
+        "text": "AR"
+      },
+      {
+        "bbox": [
+          0.24710464506062574,
+          0.7876809953294404,
+          0.444420779238658,
+          0.8513433940631842
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT = RFlIN"
+      },
+      {
+        "bbox": [
+          0.6541438629228737,
+          0.7846860210899954,
+          0.8577205489414781,
+          0.8445822715589241
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT = AR'IN"
+      },
+      {
+        "bbox": [
+          0.7186440705084746,
+          0.9317073167682925,
+          0.9355932230508472,
+          0.9658536582317072
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 1440"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0400_02_1440.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The photodiode can be modeled by a current source I .",
+        "pdf_page": 400,
+        "printed_page": 408,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If R equals A , R F R then both have the same gain.",
+      "pdf_page": 400,
+      "printed_page": 408,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Which one would have the higher bandwidth BW?",
+      "pdf_page": 400,
+      "printed_page": 408,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1440-M01",
+      "ocr_text": "VOUT = RFlIN",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.24710464506062574,
+        0.7876809953294404,
+        0.444420779238658,
+        0.8513433940631842
+      ],
+      "context_crop": "regions/SANSEN-1440_math_01.png",
+      "context_bbox_normalized": [
+        0.20710464506062573,
+        0.6876809953294404,
+        0.6744207792386581,
+        0.93
+      ],
+      "source_image": "slides/p0400_02_1440.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1440-M02",
+      "ocr_text": "VOUT = AR'IN",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6541438629228737,
+        0.7846860210899954,
+        0.8577205489414781,
+        0.8445822715589241
+      ],
+      "context_crop": "regions/SANSEN-1440_math_02.png",
+      "context_bbox_normalized": [
+        0.6141438629228737,
+        0.6846860210899954,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0400_02_1440.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback transimpedance and current amplifiers"
+}

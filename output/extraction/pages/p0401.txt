@@ -1,0 +1,52 @@
+Feedback transimpedance and current amplifiers 409
+1441
+In order to find the band-
+width, we have to find the
+node with the largest time
+constant. This is most likely
+the input node. Indeed the
+capacitance C at the input
+P
+is the sum of the diode
+capacitance C and the
+D
+input capacitance C of the
+GS
+input transistor. Since they
+are about the same, because
+of noise matching (see
+Chapter 4), we can as well
+take 2C for C .
+D P
+This time constant is then
+R C /A A . It is smaller, or
+F P 1 2
+the BW is larger for smaller R and larger gains A and A .
+F 1 2
+The A BW product however only depends on the diode capacitance C and the two gains A
+R D 1
+and A .
+2
+In order to increase the gain A we have to increase load resistor R . The capacitance at that
+1 L
+Drain will cause a second pole however, as shown next.
+1442
+When we take into account
+the capacitance C at the
+L
+Drain of the input transis-
+tor, we then obtain a
+second-order expression for
+the transimpedance. To
+avoid peaking, we must
+have two real poles. This
+condition imposes an upper
+limit on the value of load
+resistor R . Increasing the
+L
+gain A too much, would
+2
+only decrease the R and
+L
+hence gain A .
+1

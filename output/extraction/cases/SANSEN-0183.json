@@ -1,0 +1,146 @@
+{
+  "case_id": "SANSEN-0183",
+  "slide_id": "0183",
+  "chapter": 1,
+  "slide_number_in_chapter": 83,
+  "source": {
+    "pdf_page": 45,
+    "printed_page": 45
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0045_01_0183.jpg",
+      "pdf_page": 45,
+      "printed_page": 45,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 45,
+      "printed_page": 45,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        343.8462
+      ],
+      "text_raw": "Now that the models of\nboth the MOST and the\nbipolar transistor have been\nexplained in simple terms,\nthe question arises how do\nthey compare for circuit\nperformance.\nIndeed, both of them are\navailable in BiCMOS pro-\ncesses. For each function, a\nchoice can be made between\nboth types.",
+      "text": "Now that the models of both the MOST and the bipolar transistor have been explained in simple terms, the question arises how do they compare for circuit performance. Indeed, both of them are available in BiCMOS processes. For each function, a choice can be made between both types."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that the models of both the MOST and the bipolar transistor have been explained in simple terms, the question arises how do they compare for circuit performance. Indeed, both of them are available in BiCMOS processes. For each function, a choice can be made between both types.",
+  "schema_version": "1.0",
+  "chapter_title": "MOS 晶体管与双极型晶体管的比较",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0045_01_0183.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270487451739,
+          0.07804878031358886,
+          0.3817567589285714,
+          0.13170731689895465
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.11148649009712831,
+          0.3073170730182927,
+          0.689189192799831,
+          0.3609756096036585
+        ],
+        "confidence": 1,
+        "text": "• Models of MOST transistors"
+      },
+      {
+        "bbox": [
+          0.1081081157094593,
+          0.4292682924390244,
+          0.7162162238175674,
+          0.487804877804878
+        ],
+        "confidence": 1,
+        "text": "• Models of Bipolar transistors"
+      },
+      {
+        "bbox": [
+          0.10472973729729715,
+          0.5463414631707316,
+          0.8614864940540539,
+          0.6097560973170731
+        ],
+        "confidence": 1,
+        "text": "• Comparison of MOSTs and Bipolars"
+      },
+      {
+        "bbox": [
+          0.7331081125811328,
+          0.9463414640650407,
+          0.9391891807747232,
+          0.9853658531459257
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0183"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Now that the models of both the MOST and the bipolar transistor have been explained in simple terms, the question arises how do they compare for circuit performance.",
+      "pdf_page": 45,
+      "printed_page": 45,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0045_01_0183.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Comparison of MOST and bipolar transistors"
+}

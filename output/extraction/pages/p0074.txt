@@ -1,0 +1,49 @@
+Amplifiers, source followers and cascodes 75
+0248
+With a single transistor, we
+can make amplifiers, source
+followers and also cascodes.
+If we do not consider tran-
+sistors used as switches,
+we now have the third and
+last single-transistor circuit
+possible.
+Later, we will combine
+these three elementary
+single-transistor transistors
+to two or three elementary
+two-transistor circuits.
+Most analog circuits are
+built up by means of these
+single-and two transistor
+circuits. A thorough understanding of these elementary blocks is therefore of vital importance.
+0249
+Once more, an overview of
+the three single-transistor
+stages is given in this slide.
+The first one, the ampli-
+fier, converts an input volt-
+age into an output current,
+by means of transconduct-
+ance g .
+m
+The second stage is a
+source follower. It is biased
+by a DC current source I .
+B
+The voltage gain is unity.
+This is why a source fol-
+lower is called a voltage
+buffer.
+The third stage is a cas-
+code. It is also biased by a DC current source I . A small-signal input current is superimposed
+B
+on the source current. The output is at the drain. Since no current can escape, the current gain
+is not unity. This is why a cascode is also called a current buffer.
+It is a buffer because its input resistance is small but its output resistance is high. This stage
+will therefore be used to transfer a current accurately from a low impedance to a higher one.
+This is required for current output sensors, such a photodiodes and potentiostatic sensors. Their
+internal impedances can be hundreds of MV’s, and we need an impedance converter to reduce
+values!
+Note that the input impedance of a cascode is the same as the output impedance of a source
+follower!

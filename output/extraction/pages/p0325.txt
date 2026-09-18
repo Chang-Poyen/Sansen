@@ -1,0 +1,45 @@
+332 Chapter #11
+1163
+In order to be able to reach
+a supply voltage, even with
+V ’s of 0.7 V is not an easy
+T
+task.
+Whatever circuitry is
+applied to the input devices,
+an average input voltage of
+0.5 V will never allow either
+the nMOST or the pMOST
+to conduct. Only the input
+devices are shown of two
+folded cascodes.
+Only for input voltages
+larger than about 0.8 V, the
+nMOST starts conducting.
+Also, the pMOST can only
+conduct for average input
+voltages below about 0.2 V.
+1164
+The solution is to insert
+level shifters.
+Indeed, inserting two
+resistors R between the
+actual input and the Gates,
+and two current sources I
+B
+allows the necessary level
+shifting.
+For example, with cur-
+rents of 10 mA and resistors
+of 30 kV, the level shift
+is then 0.3 V. For an in-
+put voltage of 0.5 V, the
+nMOST Gate is at 0.8 V
+and the pMOST Gate at
+0.2 V. Both transistors are
+now operational.
+Note that this current source I is only needed when the input voltage is
+B
+0.5 V. It can disappear for other input voltages. For example, if the input voltage is 0.2 V or
+lower, current I can be zero.
+B

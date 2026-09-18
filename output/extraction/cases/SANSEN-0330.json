@@ -1,0 +1,133 @@
+{
+  "case_id": "SANSEN-0330",
+  "slide_id": "0330",
+  "chapter": 3,
+  "slide_number_in_chapter": 30,
+  "source": {
+    "pdf_page": 102,
+    "printed_page": 104
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0102_02_0330.jpg",
+      "pdf_page": 102,
+      "printed_page": 104,
+      "bbox_pt": [
+        91.52162,
+        433.43494,
+        374.54222,
+        629.94478
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 102,
+      "printed_page": 104,
+      "bbox_pt": [
+        0,
+        429.4457093000001,
+        595,
+        797
+      ],
+      "text_raw": "Even more gain can be\nobtained by current can-\ncellation\nFor this purpose, we need\nto take differential diode-\nconnected MOSTs. Two of\nthem provide a differential\nsmall-signal resistance of\n2/g .\nm\nCross coupling them cre-\nates a positive feedback\namplifier with two stages. As\na result the differential resis-\ntance becomes negative or\n−2/g .\nm\nThis negative resistance is\neasily controlled through the current. It is often used in oscillators, RF voltage-controlled\noscillators and in wideband amplifiers.",
+      "text": "Even more gain can be obtained by current cancellation For this purpose, we need to take differential diodeconnected MOSTs. Two of them provide a differential small-signal resistance of 2/g . m Cross coupling them creates a positive feedback amplifier with two stages. As a result the differential resistance becomes negative or −2/g . m This negative resistance is easily controlled through the current. It is often used in oscillators, RF voltage-controlled oscillators and in wideband amplifiers."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Even more gain can be obtained by current cancellation For this purpose, we need to take differential diodeconnected MOSTs. Two of them provide a differential small-signal resistance of 2/g . m Cross coupling them creates a positive feedback amplifier with two stages. As a result the differential resistance becomes negative or −2/g . m This negative resistance is easily controlled through the current. It is often used in oscillators, RF voltage-controlled oscillators and in wideband amplifiers.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Differential diode-connected MOSTs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0102_02_0330.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626305084765,
+          0.07804878060975606,
+          0.7254237206779663,
+          0.13658536597560977
+        ],
+        "confidence": 1,
+        "text": "Differential diode-connected MOSTs"
+      },
+      {
+        "bbox": [
+          0.6338983055555556,
+          0.22439024409214092,
+          0.71864406826742,
+          0.34634146360433604
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-Zm"
+      },
+      {
+        "bbox": [
+          0.7186440723412949,
+          0.9463414640650407,
+          0.9288135509355414,
+          0.9853658531459257
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0330"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0102_02_0330.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Even more gain can be obtained by current cancellation For this purpose, we need to take differential diodeconnected MOSTs.",
+      "pdf_page": 102,
+      "printed_page": 104,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result the differential resistance becomes negative or −2/g . m This negative resistance is easily controlled through the current.",
+      "pdf_page": 102,
+      "printed_page": 104,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

@@ -1,0 +1,174 @@
+{
+  "case_id": "SANSEN-0734",
+  "slide_id": "0734",
+  "chapter": 7,
+  "slide_number_in_chapter": 34,
+  "source": {
+    "pdf_page": 222,
+    "printed_page": 227
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0222_02_0734.jpg",
+      "pdf_page": 222,
+      "printed_page": 227,
+      "bbox_pt": [
+        91.521622,
+        421.47695999999996,
+        374.78981,
+        617.936951
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 222,
+      "printed_page": 227,
+      "bbox_pt": [
+        0,
+        417.48750000000024,
+        595,
+        797
+      ],
+      "text_raw": "Many more opamp config-\nurations can be added. They\nare all included in\nthis list because they have\nsome peculiarity which is\nworth investigating. We will\nalways try to recognize the\ndesign principles which we\nhave studied before. We will\ntry to find out whether one\nsingle or two stages are\nused. We want to know\nwhich trick has been used to\nabolish the positive zero.\nAlso, we want to recognize\nthe structure of a symmetri-\ncal or folded cascode, etc.\nSome of these are fully-differential. This means that they have two outputs and require\ncommon-mode feedback. This will be explained in the next Chapter, however. We focus here on\ntheir circuit configuration, without being affected by their differential nature.",
+      "text": "Many more opamp configurations can be added. They are all included in this list because they have some peculiarity which is worth investigating. We will always try to recognize the design principles which we have studied before. We will try to find out whether one single or two stages are used. We want to know which trick has been used to abolish the positive zero. Also, we want to recognize the structure of a symmetrical or folded cascode, etc. Some of these are fully-differential. This means that they have two outputs and require common-mode feedback. This will be explained in the next Chapter, however. We focus here on their circuit configuration, without being affected by their differential nature."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Many more opamp configurations can be added. They are all included in this list because they have some peculiarity which is worth investigating. We will always try to recognize the design principles which we have studied before. We will try to find out whether one single or two stages are used. We want to know which trick has been used to abolish the positive zero. Also, we want to recognize the structure of a symmetrical or folded cascode, etc. Some of these are fully-differential. This means that they have two outputs and require common-mode feedback. This will be explained in the next Chapter, however. We focus here on their circuit configuration, without being affected by their differential nature.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0222_02_0734.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10810810695382884,
+          0.27804878105691055,
+          0.5168918907376127,
+          0.3463414639837399
+        ],
+        "confidence": 0.5,
+        "text": "• Simple CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.10810811172297297,
+          0.35609756165853657,
+          0.4898648684797297,
+          0.4243902445853658
+        ],
+        "confidence": 0.5,
+        "text": "• CMOS Miller OTA"
+      },
+      {
+        "bbox": [
+          0.1081081046283784,
+          0.443902439707317,
+          0.6249999965202703,
+          0.5121951226341463
+        ],
+        "confidence": 0.5,
+        "text": "• Symmetrical CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.10472972595720731,
+          0.5268292685365854,
+          0.55743242865991,
+          0.5853658539024391
+        ],
+        "confidence": 1,
+        "text": "• Folded cascode OTA"
+      },
+      {
+        "bbox": [
+          0.1047297315127627,
+          0.6097560973170731,
+          0.42567567745870866,
+          0.6731707314634146
+        ],
+        "confidence": 1,
+        "text": "• Other opamps"
+      },
+      {
+        "bbox": [
+          0.7229729712274775,
+          0.9414634149186992,
+          0.9324324306869369,
+          0.9853658539430895
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0734"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We will try to find out whether one single or two stages are used.",
+      "pdf_page": 222,
+      "printed_page": 227,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This will be explained in the next Chapter, however.",
+      "pdf_page": 222,
+      "printed_page": 227,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0222_02_0734.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

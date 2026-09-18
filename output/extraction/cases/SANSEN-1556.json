@@ -1,0 +1,176 @@
+{
+  "case_id": "SANSEN-1556",
+  "slide_id": "1556",
+  "chapter": 15,
+  "slide_number_in_chapter": 56,
+  "source": {
+    "pdf_page": 441,
+    "printed_page": 449
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0441_01_1556.jpg",
+      "pdf_page": 441,
+      "printed_page": 449,
+      "bbox_pt": [
+        91.52162,
+        122.62662,
+        374.78981,
+        319.08660999999995
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 441,
+      "printed_page": 449,
+      "bbox_pt": [
+        0,
+        118.63711,
+        595,
+        367.56281000000007
+      ],
+      "text_raw": "Comparison of the models\nof MOST and bipolar tech-\nnologies show that MOSTs\nare actually modulated\nresistances, whereas bipolar\ntransistors employ a for-\nward biased diode as an\ninput. A bipolar transistor\ndoes not have a threshold\nvoltage V and always has\nT\nan exponential I /V rela-\nCE BE\ntionship. Its current is a\nsmall current I multiplied\nS\nby the voltage V , scaled\nBE\nby kT/q.\nThis is worked out fur-\nther next.",
+      "text": "Comparison of the models of MOST and bipolar technologies show that MOSTs are actually modulated resistances, whereas bipolar transistors employ a forward biased diode as an input. A bipolar transistor does not have a threshold voltage V and always has T an exponential I /V rela- CE BE tionship. Its current is a small current I multiplied S by the voltage V , scaled BE by kT/q. This is worked out further next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Comparison of the models of MOST and bipolar technologies show that MOSTs are actually modulated resistances, whereas bipolar transistors employ a forward biased diode as an input. A bipolar transistor does not have a threshold voltage V and always has T an exponential I /V rela- CE BE tionship. Its current is a small current I multiplied S by the voltage V , scaled BE by kT/q. This is worked out further next.",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0441_01_1556.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243239864865,
+          0.07804877990243897,
+          0.37837837804054053,
+          0.13658536526829268
+        ],
+        "confidence": 0.5,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10135135755912146,
+          0.2731707324999999,
+          0.6114864926942566,
+          0.3365853666463414
+        ],
+        "confidence": 0.5,
+        "text": "• Random offset and CMRR,"
+      },
+      {
+        "bbox": [
+          0.10135135815033766,
+          0.3560975618292683,
+          0.6587837905827701,
+          0.42439024475609755
+        ],
+        "confidence": 0.5,
+        "text": "• Systematic offset and CMRRs"
+      },
+      {
+        "bbox": [
+          0.1013513474662163,
+          0.4439024391869918,
+          0.5675675636824326,
+          0.5024390245528455
+        ],
+        "confidence": 1,
+        "text": "• CMRR versus frequency"
+      },
+      {
+        "bbox": [
+          0.10135135299831077,
+          0.5317073168597561,
+          0.36486486651182426,
+          0.585365853445122
+        ],
+        "confidence": 0.5,
+        "text": "• Design rules"
+      },
+      {
+        "bbox": [
+          0.10472973015202702,
+          0.6195121948170732,
+          0.13851351393581082,
+          0.6634146338414635
+        ],
+        "confidence": 1,
+        "text": "•"
+      },
+      {
+        "bbox": [
+          0.13513513000000016,
+          0.6146341469268292,
+          0.8716216164864865,
+          0.6731707322926829
+        ],
+        "confidence": 1,
+        "text": "Comparison MOST and bipolar transistors"
+      },
+      {
+        "bbox": [
+          0.7128378421419438,
+          0.9414634153658537,
+          0.9290540454706692,
+          0.9853658543902439
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10a5 1556"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Comparison of the models of MOST and bipolar technologies show that MOSTs are actually modulated resistances, whereas bipolar transistors employ a forward biased diode as an input.",
+      "pdf_page": 441,
+      "printed_page": 449,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0441_01_1556.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

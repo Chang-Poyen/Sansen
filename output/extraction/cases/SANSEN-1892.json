@@ -1,0 +1,200 @@
+{
+  "case_id": "SANSEN-1892",
+  "slide_id": "1892",
+  "chapter": 18,
+  "slide_number_in_chapter": 92,
+  "source": {
+    "pdf_page": 554,
+    "printed_page": 564
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0554_02_1892.jpg",
+      "pdf_page": 554,
+      "printed_page": 564,
+      "bbox_pt": [
+        91.521622,
+        371.801484,
+        374.78981,
+        568.261475
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 554,
+      "printed_page": 564,
+      "bbox_pt": [
+        0,
+        367.812,
+        595,
+        797
+      ],
+      "text_raw": "A few general references are\nlisted on distortion. They\nspeak for themselves.",
+      "text": "A few general references are listed on distortion. They speak for themselves."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A few general references are listed on distortion. They speak for themselves.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "References",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0554_02_1892.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07764346054094032,
+          0.08242569652112453,
+          0.2737078940769544,
+          0.13220844951184718
+        ],
+        "confidence": 1,
+        "text": "References"
+      },
+      {
+        "bbox": [
+          0.08108109092060795,
+          0.2536585362195123,
+          0.86824325308277,
+          0.29268292646341476
+        ],
+        "confidence": 1,
+        "text": "P.Wambacq, W.Sansen : Distortion analysis of analog Integrated"
+      },
+      {
+        "bbox": [
+          0.11486486204954965,
+          0.32195122024390255,
+          0.49324324042792805,
+          0.3658536592682927
+        ],
+        "confidence": 1,
+        "text": "Circuits, Kluwer Ac. Publ. 1998"
+      },
+      {
+        "bbox": [
+          0.0810810926238735,
+          0.39024390186991875,
+          0.7736486601914411,
+          0.4341463408943089
+        ],
+        "confidence": 1,
+        "text": "W.Sansen : \"Distortion in elementary transistor circuits\""
+      },
+      {
+        "bbox": [
+          0.10833333076388894,
+          0.45783132575909524,
+          0.795833330763889,
+          0.5060240943212261
+        ],
+        "confidence": 0.5,
+        "text": "IEEE Trans. CAS II Vol 46, No 3, March 1999, pp.315-324"
+      },
+      {
+        "bbox": [
+          0.07916668164888717,
+          0.5361445788247592,
+          0.8750000115455563,
+          0.5783132518981323
+        ],
+        "confidence": 1,
+        "text": "J. Silva-Martinez, etal : High-performance CMOS continuous-time"
+      },
+      {
+        "bbox": [
+          0.11148648057432453,
+          0.6097560977235772,
+          0.46621621030405425,
+          0.6487804879674797
+        ],
+        "confidence": 1,
+        "text": "filters, Kluwer Ac. Publ. 1993"
+      },
+      {
+        "bbox": [
+          0.08108107546452718,
+          0.6780487810365854,
+          0.7871621565456083,
+          0.7219512200609757
+        ],
+        "confidence": 0.5,
+        "text": "B. Hernes, T. Saether : Design criteria for low-distortion in"
+      },
+      {
+        "bbox": [
+          0.10135135874155386,
+          0.7512195118902439,
+          0.6925675749577701,
+          0.7951219509146342
+        ],
+        "confidence": 1,
+        "text": "feedback opamp circuits, Kluwer Ac. Publ. 2003"
+      },
+      {
+        "bbox": [
+          0.07916667509998798,
+          0.819277110498051,
+          0.9124999740666793,
+          0.868292683673993
+        ],
+        "confidence": 1,
+        "text": "G. Palumbo, S. Pennisi : Feedback amplifiers, Kluwer Ac. Publ. 2002"
+      },
+      {
+        "bbox": [
+          0.7229729756334459,
+          0.9365853655487804,
+          0.9358108134712837,
+          0.970731707012195
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1892"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion",
+      "reference"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0554_02_1892.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

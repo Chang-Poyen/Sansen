@@ -1,0 +1,57 @@
+480 Chapter #16
+1647
+A current reference can also
+be realized without resistors.
+Actually, the resistive chan-
+nel of a MOST will be
+used instead.
+It consists of current mir-
+rors top-to-top. With size
+ratios a and b. The nMOST
+current mirror has an offset
+voltage V . In this way, the
+2
+only biasing points possible
+are at zero and at reference
+current I . Note that the
+ref
+bulk effect of the nMOSTs
+does not come in!
+The actual expression is
+given. It depends on this offset voltage V , on the ratios a and b, on the size W /L and especially
+2 1 1
+K∞ which contains the mobility. Needless to say that the latter one is the worst one for high
+precision.
+Moreover, the K∞ factor has a negative temperature exponent of about −1.5. If we can make
+V PTAT; then about −0.5 is left as the temperature exponent for the current. This is accept-
+2
+able indeed!
+How can a PTAT offset voltage V be realized by means of MOSTs? A value of about 0.32 V
+2
+can be realized as follows.
+1648
+A fairly easy way to realize
+the offset voltage V2 of the
+previous slide is to use
+MOSTs in weak inversion.
+In the same way, as for a
+bipolar PTAT cell, two
+MOSTs are taken in weak
+inversion with common
+Gate (on the right). The
+lower one T serves as a
+9a
+resistor for the upper one,
+however T . This is only
+9b
+possible if the upper one is
+made larger, such that its
+V is smaller. The voltage
+GS
+difference in V , or the
+GS
+voltage across T , denoted by V , is then again PTAT. Parameter S is W/L. Voltage V is about
+9a o o
+64 mV for the values given. It only depends on W/L ratio’s and n.
+Five such cells in series then yield a reference voltage of 320 mV. This is large enough to
+suppress the effect of mismatches. A spreading on the current can be as low as 5%!

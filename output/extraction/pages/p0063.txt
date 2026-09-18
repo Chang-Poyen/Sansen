@@ -1,0 +1,48 @@
+64 Chapter #2
+0227
+We firstly have to determine
+the exact biasing. We nor-
+mally require the output
+voltage to be half the supply
+voltage, when the input volt-
+age is half the supply volt-
+age. It does not have to be
+like that, but this is a better
+way, for example, if several
+of these stages have to
+cascaded.
+In this case, both transis-
+tors have the same V ,
+GS
+which is V /2. They also
+DD
+have the same current. This
+is only possible if their W/L
+values are inversely proportional to their K∞ values. Since K∞ is usually twice as large as K∞ ,
+n p
+the pMOST transistor has usually twice the W/L value compared to the nMOST.
+The expression of the transistor current is then easily obtained, with V substituted by V /2.
+GS DD
+0228
+In order to obtain the
+expression of the voltage
+gain, we need to draw the
+small-signal equivalent cir-
+cuit of this amplifier. Note
+that the supply voltage is
+always AC ground. Also
+note that both transistors
+have equal small-signal
+models and even equal
+transconductances.
+It is clear from this small-
+signal circuit, that both
+transistors are actually in
+parallel, for small-signal
+operation (for DC operation
+or biasing they are in series). They provide equal contributions to the small-signal output current
+and to the gain. The total transconductance is thus twice the transconductance of a single
+transistor.
+0229
+In order to calculate the gain at low frequencies, we need to know the output resistance. It is
+the parallel combination of both output resistances. This is highest when both resistances are

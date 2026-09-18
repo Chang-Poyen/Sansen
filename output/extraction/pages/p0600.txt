@@ -1,0 +1,52 @@
+CMOS ADC and DAC principles 611
+2017
+In this current-steering
+DAC thermometer code is
+used for both row and col-
+umns. This results in good
+monotonicity.
+Current is switched to the
+output when both the row
+and column lines for a
+specific cell are high. These
+currents add up toward the
+input of an opamp with a
+resistor in the feedback
+loop. Also, simple resistor
+can be used as shown in this
+slide. This is especially true
+for high-frequency realiza-
+tions where a resistor is
+50 V.
+The switch itself is also shown in this slide.
+It consists of a differential pair, the current source of which carries the binary current. How
+can the matching between these transistors Q be improved, will be explained in the next slide.
+4
+The transistors of the differential pair Q and Q are driven by the digital control signals.
+1 2
+They are on or off, and conduct the current either to ground or to the output.
+Note that a cascode transistor Q is used to better isolate the analog current sources (transistors
+3
+Q ) from the digital switches Q and Q .
+4 1 2
+2018
+The matching of the current
+sources is now discussed in
+more detail.
+In the binary implementa-
+tion, each bit directly steers
+a current source with a
+value that is twice as large
+as that of the next less sig-
+nificant bit, while in the
+unary implementation each
+bit steers a number of unit
+current sources.
+Comparing the perfor-
+mance of these two architec-
+tures shows that the binary
+architecture has a larger
+DNL and glitch energy error, but since this architecture requires no thermometer decoder (as
+the unary implementation does) it has a lower power and area consumption.
+A combination of the advantages of the two architectures is found in the segmented architecture.
+Here the LSBs are implemented in a binary way while the MSBs are implemented in a unary way.

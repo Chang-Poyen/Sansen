@@ -1,0 +1,256 @@
+{
+  "case_id": "SANSEN-087",
+  "slide_id": "087",
+  "chapter": 8,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 236,
+    "printed_page": 242
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0236_01_087.jpg",
+      "pdf_page": 236,
+      "printed_page": 242,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 236,
+      "printed_page": 242,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        441.40350000000024
+      ],
+      "text_raw": "The common-mode equiva-\nlent circuit is easily found\nby putting all differential\ndevices in parallel and\nconnecting them to the\ncommon-mode input signals.\nIt is clear that node 1 is\nat the same time the input\nand the output of the\nCMFB amplifier. This is\nalso the circuit that will be\nused, to derive the common-\nmode gain, bandwidth and\nGBW .\nCM\nActually, the open-loop\ngain is B B g R , in\n1 2 m5 n1\nwhich B and B are the current gain factors of the two current mirrors. This gain is not so high\n1 2\nbut only a small amount of gain is needed. The stabilization of the common-mode output voltage\ndoes not need to be so accurate. The outputs will both be at V above the negative supply.\nGS5,6\nFor large swing, we increase the size of these V ’s.\nGS\nThe GBW will evidently be given by the B B g /(2pC ). We have two input transistors\nCM 1 2 m5 L\nM5 and M6 but also two load capacitors. The GBW can therefore be made quite high, at the\nCM\ncost of a lot of power consumption though!",
+      "text": "The common-mode equivalent circuit is easily found by putting all differential devices in parallel and connecting them to the common-mode input signals. It is clear that node 1 is at the same time the input and the output of the CMFB amplifier. This is also the circuit that will be used, to derive the commonmode gain, bandwidth and GBW . CM Actually, the open-loop gain is B B g R , in 1 2 m5 n1 which B and B are the current gain factors of the two current mirrors. This gain is not so high 1 2 but only a small amount of gain is needed. The stabilization of the common-mode output voltage does not need to be so accurate. The outputs will both be at V above the negative supply. GS5,6 For large swing, we increase the size of these V ’s. GS The GBW will evidently be given by the B B g /(2pC ). We have two input transistors CM 1 2 m5 L M5 and M6 but also two load capacitors. The GBW can therefore be made quite high, at the CM cost of a lot of power consumption though!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The common-mode equivalent circuit is easily found by putting all differential devices in parallel and connecting them to the common-mode input signals. It is clear that node 1 is at the same time the input and the output of the CMFB amplifier. This is also the circuit that will be used, to derive the commonmode gain, bandwidth and GBW . CM Actually, the open-loop gain is B B g R , in 1 2 m5 n1 which B and B are the current gain factors of the two current mirrors. This gain is not so high 1 2 but only a small amount of gain is needed. The stabilization of the common-mode output voltage does not need to be so accurate. The outputs will both be at V above the negative supply. GS5,6 For large swing, we increase the size of these V ’s. GS The GBW will evidently be given by the B B g /(2pC ). We have two input transistors CM 1 2 m5 L M5 and M6 but also two load capacitors. The GBW can therefore be made quite high, at the CM cost of a lot of power consumption though!",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Common-mode feedback equivalent circuit",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0236_01_087.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270453265761,
+          0.08292682975609755,
+          0.8378378396677928,
+          0.14146341512195115
+        ],
+        "confidence": 1,
+        "text": "Common-mode feedback equivalent circuit"
+      },
+      {
+        "bbox": [
+          0.182432432911036,
+          0.19999999995934958,
+          0.23986486534346846,
+          0.2536585365447155
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.27364864847972975,
+          0.23902439011257037,
+          0.31756756739864866,
+          0.27317073157598504
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.5777027025,
+          0.23902439073170734,
+          0.6722972970945946,
+          0.2878048785365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B2 : 1"
+      },
+      {
+        "bbox": [
+          0.5168918926013514,
+          0.44878048770731715,
+          0.5878378385472973,
+          0.48780487795121963
+        ],
+        "confidence": 0.5,
+        "text": "VINCM"
+      },
+      {
+        "bbox": [
+          0.4763513523310811,
+          0.5414634145365853,
+          0.5743243253040541,
+          0.5804878047804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUTcM"
+      },
+      {
+        "bbox": [
+          0.2398648655405405,
+          0.7219512192682928,
+          0.29391891959459454,
+          0.7609756095121952
+        ],
+        "confidence": 1,
+        "text": "M3,4"
+      },
+      {
+        "bbox": [
+          0.6620701910418273,
+          0.702121499476017,
+          0.726443323386666,
+          0.7417809391211795
+        ],
+        "confidence": 1,
+        "text": "M5,6"
+      },
+      {
+        "bbox": [
+          0.1756756752364865,
+          0.780487804292683,
+          0.23310810766891896,
+          0.8390243896585367
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.8006756749324324,
+          0.800000000097561,
+          0.8749999992567568,
+          0.8487804879024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1: B,"
+      },
+      {
+        "bbox": [
+          0.5844594550675677,
+          0.8487804879268294,
+          0.9358108064189189,
+          0.9073170732926831
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Control VouTcom› IDS5"
+      },
+      {
+        "bbox": [
+          0.7229729716638513,
+          0.9560975613414634,
+          0.9222972959881757,
+          0.9853658540243903
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 087"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is also the circuit that will be used, to derive the commonmode gain, bandwidth and GBW .",
+      "pdf_page": 236,
+      "printed_page": 242,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0236_01_087.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The common-mode equivalent circuit is easily found by putting all differential devices in parallel and connecting them to the common-mode input signals.",
+        "pdf_page": 236,
+        "printed_page": 242,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This is also the circuit that will be used, to derive the commonmode gain, bandwidth and GBW .",
+      "pdf_page": 236,
+      "printed_page": 242,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "CM Actually, the open-loop gain is B B g R , in 1 2 m5 n1 which B and B are the current gain factors of the two current mirrors.",
+      "pdf_page": 236,
+      "printed_page": 242,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This gain is not so high 1 2 but only a small amount of gain is needed.",
+      "pdf_page": 236,
+      "printed_page": 242,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS5,6 For large swing, we increase the size of these V ’s.",
+      "pdf_page": 236,
+      "printed_page": 242,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The GBW can therefore be made quite high, at the CM cost of a lot of power consumption though!",
+      "pdf_page": 236,
+      "printed_page": 242,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

@@ -1,0 +1,197 @@
+{
+  "case_id": "SANSEN-2026",
+  "slide_id": "2026",
+  "chapter": 20,
+  "slide_number_in_chapter": 26,
+  "source": {
+    "pdf_page": 605,
+    "printed_page": 616
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0605_01_2026.jpg",
+      "pdf_page": 605,
+      "printed_page": 616,
+      "bbox_pt": [
+        91.52162,
+        224.0703699999999,
+        374.78981,
+        420.53036
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 605,
+      "printed_page": 616,
+      "bbox_pt": [
+        0,
+        220.08078999999987,
+        595,
+        463.3265
+      ],
+      "text_raw": "A layout of this realization\nis shown in this slide.\nMany blocks have been\nlaid out by hand to reduce\nthe dimensions to a mini-\nmum. This also applies to\nthe dummy decoder men-\ntioned previousl.\nAs a result, the dynamic\nperformance is excellent, as\nshown in the next slide.",
+      "text": "A layout of this realization is shown in this slide. Many blocks have been laid out by hand to reduce the dimensions to a minimum. This also applies to the dummy decoder mentioned previousl. As a result, the dynamic performance is excellent, as shown in the next slide."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A layout of this realization is shown in this slide. Many blocks have been laid out by hand to reduce the dimensions to a minimum. This also applies to the dummy decoder mentioned previousl. As a result, the dynamic performance is excellent, as shown in the next slide.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "10-bit 1 GS/s Nyquist Current steering CMOS DAC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0605_01_2026.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432932854718,
+          0.08292682896341463,
+          0.8750000050042228,
+          0.14146341432926834
+        ],
+        "confidence": 1,
+        "text": "10-bit 1 GS/s Nyquist Current steering CMOS DAC"
+      },
+      {
+        "bbox": [
+          0.7466216234515766,
+          0.22439024378048777,
+          0.966216218046171,
+          0.26829268280487795
+        ],
+        "confidence": 1,
+        "text": "Current steering"
+      },
+      {
+        "bbox": [
+          0.7432432438344595,
+          0.2780487802032521,
+          0.8141891897804054,
+          0.32195121922764236
+        ],
+        "confidence": 1,
+        "text": "DAC"
+      },
+      {
+        "bbox": [
+          0.7635135128800675,
+          0.33170731762195116,
+          0.847972972339527,
+          0.37560975664634144
+        ],
+        "confidence": 1,
+        "text": "10-bit"
+      },
+      {
+        "bbox": [
+          0.7635135126689189,
+          0.380487804390244,
+          0.8547297288851351,
+          0.42926829219512197
+        ],
+        "confidence": 0.5,
+        "text": "1 GS/s"
+      },
+      {
+        "bbox": [
+          0.739864864358108,
+          0.4390243907317073,
+          0.9527027021959459,
+          0.4878048785365854
+        ],
+        "confidence": 0.5,
+        "text": "0.35 um CMOS"
+      },
+      {
+        "bbox": [
+          0.7635135125,
+          0.49268292737804886,
+          0.8783783773648648,
+          0.536585366402439
+        ],
+        "confidence": 0.5,
+        "text": "110 mW"
+      },
+      {
+        "bbox": [
+          0.5101351393918918,
+          0.8731707314634146,
+          0.9358108150675675,
+          0.9073170729268292
+        ],
+        "confidence": 1,
+        "text": "Van den Bosch, .., JSSC, March 01, 315-324"
+      },
+      {
+        "bbox": [
+          0.7331081180428445,
+          0.9560975606504065,
+          0.9425675646148132,
+          0.9853658533333333
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 2026"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A layout of this realization is shown in this slide.",
+      "pdf_page": 605,
+      "printed_page": 616,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the dynamic performance is excellent, as shown in the next slide.",
+      "pdf_page": 605,
+      "printed_page": 616,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0605_01_2026.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the dynamic performance is excellent, as shown in the next slide.",
+      "pdf_page": 605,
+      "printed_page": 616,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

@@ -1,0 +1,374 @@
+{
+  "case_id": "SANSEN-2113",
+  "slide_id": "2113",
+  "chapter": 21,
+  "slide_number_in_chapter": 13,
+  "source": {
+    "pdf_page": 632,
+    "printed_page": 643
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0632_02_2113.jpg",
+      "pdf_page": 632,
+      "printed_page": 643,
+      "bbox_pt": [
+        91.521622,
+        395.567994,
+        374.78981,
+        592.027985
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 632,
+      "printed_page": 643,
+      "bbox_pt": [
+        0,
+        391.5785,
+        595,
+        797
+      ],
+      "text_raw": "The supply voltage de-\ncreases for decreasing chan-\nnel lengths. For 0.25 mm\nchannel length, the supply\nvoltage was 2.5 V; for\n0.18 mm CMOS it was 1.8 V\nand so on. For 90 nm\nCMOS the supply voltage is\nabout 1.2 V. Supply voltages\nwill now be used below 1 V.\nWith a 1 V supply voltage\nthe MOST switch is difficult\nto turn on.\nAssume that a transmis-\nsion gate is used as a switch,\nwith a nMOST in parallel\nwith a pMOST, as shown in this slide, The nMOST Gate is driven with a positive (supply)\nvoltage to turn it on. The pMOST is at the same time driven with the most negative voltage\nor ground.\nFor zero input voltage V , the Gate drive of the nMOST is the full supply voltage V , its\nin DD\nV also equals V . This is sufficient to provide a low ON-resistance.\nGSn DD\nIndeed, assume that the V is about 0.6 V and the minimum V −V for conduction is about\nT GS T\n0.2 V, the minimum V is now about 0.8 V. As a result, the input voltage V can only increase\nGS in\nuntil it reaches V –0.8 V. For higher input voltages, the nMOST can no longer be turned on.\nDD",
+      "text": "The supply voltage decreases for decreasing channel lengths. For 0.25 mm channel length, the supply voltage was 2.5 V; for 0.18 mm CMOS it was 1.8 V and so on. For 90 nm CMOS the supply voltage is about 1.2 V. Supply voltages will now be used below 1 V. With a 1 V supply voltage the MOST switch is difficult to turn on. Assume that a transmission gate is used as a switch, with a nMOST in parallel with a pMOST, as shown in this slide, The nMOST Gate is driven with a positive (supply) voltage to turn it on. The pMOST is at the same time driven with the most negative voltage or ground. For zero input voltage V , the Gate drive of the nMOST is the full supply voltage V , its in DD V also equals V . This is sufficient to provide a low ON-resistance. GSn DD Indeed, assume that the V is about 0.6 V and the minimum V −V for conduction is about T GS T 0.2 V, the minimum V is now about 0.8 V. As a result, the input voltage V can only increase GS in until it reaches V –0.8 V. For higher input voltages, the nMOST can no longer be turned on. DD"
+    },
+    {
+      "pdf_page": 633,
+      "printed_page": 644,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        177.33089999999982
+      ],
+      "text_raw": "The same is true for the pMOST device. The input voltage V can only decrease until it\nin\nreaches 0.8 V. For lower input voltages, the pMOST can no longer be turned on.\nThis establishes a minimum value for the supply voltage V which is the sum of both V\nDDmin GS\nvalues. In this example this is 1.6 V.",
+      "text": "The same is true for the pMOST device. The input voltage V can only decrease until it in reaches 0.8 V. For lower input voltages, the pMOST can no longer be turned on. This establishes a minimum value for the supply voltage V which is the sum of both V DDmin GS values. In this example this is 1.6 V."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The supply voltage decreases for decreasing channel lengths. For 0.25 mm channel length, the supply voltage was 2.5 V; for 0.18 mm CMOS it was 1.8 V and so on. For 90 nm CMOS the supply voltage is about 1.2 V. Supply voltages will now be used below 1 V. With a 1 V supply voltage the MOST switch is difficult to turn on. Assume that a transmission gate is used as a switch, with a nMOST in parallel with a pMOST, as shown in this slide, The nMOST Gate is driven with a positive (supply) voltage to turn it on. The pMOST is at the same time driven with the most negative voltage or ground. For zero input voltage V , the Gate drive of the nMOST is the full supply voltage V , its in DD V also equals V . This is sufficient to provide a low ON-resistance. GSn DD Indeed, assume that the V is about 0.6 V and the minimum V −V for conduction is about T GS T 0.2 V, the minimum V is now about 0.8 V. As a result, the input voltage V can only increase GS in until it reaches V –0.8 V. For higher input voltages, the nMOST can no longer be turned on. DD\n\nThe same is true for the pMOST device. The input voltage V can only decrease until it in reaches 0.8 V. For lower input voltages, the pMOST can no longer be turned on. This establishes a minimum value for the supply voltage V which is the sum of both V DDmin GS values. In this example this is 1.6 V.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Low Voltage SC: problem",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0632_02_2113.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107728040546,
+          0.08780487817073168,
+          0.5371621583614865,
+          0.1512195123170732
+        ],
+        "confidence": 1,
+        "text": "Low Voltage SC: problem"
+      },
+      {
+        "bbox": [
+          0.11461872750811891,
+          0.24729367447486095,
+          0.28065154442079576,
+          0.30880388614031684
+        ],
+        "confidence": 1,
+        "text": "Switch:"
+      },
+      {
+        "bbox": [
+          0.47972973009169884,
+          0.20487804867595827,
+          0.5304054057673745,
+          0.2682926828222997
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф,"
+      },
+      {
+        "bbox": [
+          0.38513513465653154,
+          0.28292682934959346,
+          0.44256756708896405,
+          0.3512195122764228
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.7432432427847491,
+          0.2975609751916377,
+          0.814189188730695,
+          0.3560975605574913
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.11815855472101523,
+          0.5945605260012736,
+          0.2872468539310224,
+          0.6493419164007412
+        ],
+        "confidence": 0.5,
+        "text": "nMOS: Vin"
+      },
+      {
+        "bbox": [
+          0.28040539983108126,
+          0.5951219515243902,
+          0.7263513457770272,
+          0.6487804881097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ", < DD-GSn = DD - 0.8 V"
+      },
+      {
+        "bbox": [
+          0.11486486682432424,
+          0.6682926836585366,
+          0.5405405424999999,
+          0.7414634153658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "pMOS: Vin > VGsp =0.8 V"
+      },
+      {
+        "bbox": [
+          0.11486486151463969,
+          0.7512195122357723,
+          0.5168918885416668,
+          0.8146341463821138
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Limit : VDD - VGSn = VGSp"
+      },
+      {
+        "bbox": [
+          0.24324324239864864,
+          0.829268292195122,
+          0.35135135050675675,
+          0.8878048775609756
+        ],
+        "confidence": 1,
+        "text": "VDDmin"
+      },
+      {
+        "bbox": [
+          0.36148648597972977,
+          0.8341463417886179,
+          0.39189189138513514,
+          0.8634146344715448
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ">"
+      },
+      {
+        "bbox": [
+          0.3986486475929054,
+          0.8292682929268291,
+          0.4831081070523649,
+          0.8780487807317072
+        ],
+        "confidence": 1,
+        "text": "1.6 V"
+      },
+      {
+        "bbox": [
+          0.7195945975473491,
+          0.9317073173170731,
+          0.9290540441193177,
+          0.9658536587804877
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-0s 2113"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Assume that a transmission gate is used as a switch, with a nMOST in parallel with a pMOST, as shown in this slide, The nMOST Gate is driven with a positive (supply) voltage to turn it on.",
+      "pdf_page": 632,
+      "printed_page": 643,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0632_02_2113.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Assume that a transmission gate is used as a switch, with a nMOST in parallel with a pMOST, as shown in this slide, The nMOST Gate is driven with a positive (supply) voltage to turn it on.",
+        "pdf_page": 632,
+        "printed_page": 643,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "For zero input voltage V , the Gate drive of the nMOST is the full supply voltage V , its in DD V also equals V .",
+        "pdf_page": 632,
+        "printed_page": 643,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The supply voltage decreases for decreasing channel lengths.",
+      "pdf_page": 632,
+      "printed_page": 643,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For zero input voltage V , the Gate drive of the nMOST is the full supply voltage V , its in DD V also equals V .",
+      "pdf_page": 632,
+      "printed_page": 643,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the input voltage V can only increase GS in until it reaches V –0.8 V.",
+      "pdf_page": 632,
+      "printed_page": 643,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The input voltage V can only decrease until it in reaches 0.8 V.",
+      "pdf_page": 633,
+      "printed_page": 644,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Assume that a transmission gate is used as a switch, with a nMOST in parallel with a pMOST, as shown in this slide, The nMOST Gate is driven with a positive (supply) voltage to turn it on.",
+      "pdf_page": 632,
+      "printed_page": 643,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GSn DD Indeed, assume that the V is about 0.6 V and the minimum V −V for conduction is about T GS T 0.2 V, the minimum V is now about 0.8 V.",
+      "pdf_page": 632,
+      "printed_page": 643,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2113-M01",
+      "ocr_text": ", < DD-GSn = DD - 0.8 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.28040539983108126,
+        0.5951219515243902,
+        0.7263513457770272,
+        0.6487804881097561
+      ],
+      "context_crop": "regions/SANSEN-2113_math_01.png",
+      "context_bbox_normalized": [
+        0.24040539983108125,
+        0.4951219515243902,
+        0.9563513457770272,
+        0.7787804881097561
+      ],
+      "source_image": "slides/p0632_02_2113.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2113-M02",
+      "ocr_text": "pMOS: Vin > VGsp =0.8 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11486486682432424,
+        0.6682926836585366,
+        0.5405405424999999,
+        0.7414634153658537
+      ],
+      "context_crop": "regions/SANSEN-2113_math_02.png",
+      "context_bbox_normalized": [
+        0.07486486682432425,
+        0.5682926836585366,
+        0.7705405424999999,
+        0.8714634153658537
+      ],
+      "source_image": "slides/p0632_02_2113.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2113-M03",
+      "ocr_text": "Limit : VDD - VGSn = VGSp",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11486486151463969,
+        0.7512195122357723,
+        0.5168918885416668,
+        0.8146341463821138
+      ],
+      "context_crop": "regions/SANSEN-2113_math_03.png",
+      "context_bbox_normalized": [
+        0.0748648615146397,
+        0.6512195122357723,
+        0.7468918885416668,
+        0.93
+      ],
+      "source_image": "slides/p0632_02_2113.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2113-M04",
+      "ocr_text": ">",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.36148648597972977,
+        0.8341463417886179,
+        0.39189189138513514,
+        0.8634146344715448
+      ],
+      "context_crop": "regions/SANSEN-2113_math_04.png",
+      "context_bbox_normalized": [
+        0.3214864859797298,
+        0.7341463417886179,
+        0.6218918913851351,
+        0.93
+      ],
+      "source_image": "slides/p0632_02_2113.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

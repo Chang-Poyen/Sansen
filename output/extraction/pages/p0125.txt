@@ -1,0 +1,48 @@
+128 Chapter #4
+0422
+When we examine the white
+and 1/f noise together, we
+notice a very slow crossover
+from one to the other. Their
+asymptotes meet at fre-
+quency f , called the corner
+c
+frequency.
+Obviously, this frequency
+depends on the DC biasing
+current. The higher the cur-
+rent, the larger the transcon-
+ductance and the lower the
+white noise.
+Since the 1/f noise does
+not change, the corner fre-
+quency shifts to the right, for
+higher DC currents.
+Actually, the corner frequency is a very strange measure for 1/f noise. The lower the white
+noise, the higher the corner frequency.
+Also, note that the thermal noise depends on the ratio W/L, whereas the 1/f noise depends on
+the WL product.
+Finally, note that there are circuit techniques to reduce the 1/f noise such as chopping and
+correlated-double-sampling (Ref. Enz, Temes, Proc. IEEE, Nov.96, 1584–1614). Also switching
+the biasing of the transistors can reduce the 1/f noise somewhat, as much as 10 dB (Ref. Gierkink,
+JSSC July 1999, 1022–1025).
+0423
+As an exercise, we want to
+calculate what the corner
+frequency f is for the
+c
+nMOST of the previous
+exercise, with a DC current
+of 65 mA.
+We use a technology of
+0.35 mm CMOS with a K∞ as
+given; the channel length
+has been chosen to be three
+times larger (for gain).
+Simply plugging all the
+values in the 1/f noise
+expression yields an f of
+c
+370 kHz. It is clear that
+small-sized MOST are no
+good for audio applications. Power MOSTs are ideal for that!

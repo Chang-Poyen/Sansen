@@ -1,0 +1,237 @@
+{
+  "case_id": "SANSEN-096",
+  "slide_id": "096",
+  "chapter": 9,
+  "slide_number_in_chapter": 6,
+  "source": {
+    "pdf_page": 258,
+    "printed_page": 265
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0258_02_096.jpg",
+      "pdf_page": 258,
+      "printed_page": 265,
+      "bbox_pt": [
+        91.521622,
+        409.518982,
+        374.78981,
+        605.978973
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 258,
+      "printed_page": 265,
+      "bbox_pt": [
+        0,
+        405.52950000000016,
+        595,
+        797
+      ],
+      "text_raw": "In order to create a feel-\ning on how a three-stage\namplifier is stabilized,\nthe principles are reviewed\nfor a single-and two-stage\namplifier.\nA single-stage amplifier\nhas only one single high-\nimpedance point at the\noutput. The output capaci-\ntance C determines the\nL\nGBW.\nIn the case of variable\nload capacitances, as in\nswitched-capacitor filters,\nwe do not want the GBW\nto depend on the load. A two-stage opamp is then better used.",
+      "text": "In order to create a feeling on how a three-stage amplifier is stabilized, the principles are reviewed for a single-and two-stage amplifier. A single-stage amplifier has only one single highimpedance point at the output. The output capacitance C determines the L GBW. In the case of variable load capacitances, as in switched-capacitor filters, we do not want the GBW to depend on the load. A two-stage opamp is then better used."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to create a feeling on how a three-stage amplifier is stabilized, the principles are reviewed for a single-and two-stage amplifier. A single-stage amplifier has only one single highimpedance point at the output. The output capacitance C determines the L GBW. In the case of variable load capacitances, as in switched-capacitor filters, we do not want the GBW to depend on the load. A two-stage opamp is then better used.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "1-stage CMOS OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0258_02_096.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243269305019,
+          0.07317073142857144,
+          0.4391891917953668,
+          0.14146341435540066
+        ],
+        "confidence": 1,
+        "text": "1-stage CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.69576885377331,
+          0.25743056480041715,
+          0.8245014190603072,
+          0.30354504442360686
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.8412162155405406,
+          0.2243902432317073,
+          0.9087837831081081,
+          0.2780487798170732
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.8243243254645268,
+          0.29756097640243895,
+          0.9222972984374999,
+          0.36097561054878047
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CL"
+      },
+      {
+        "bbox": [
+          0.23310810746621624,
+          0.42926829219512197,
+          0.3040540534121622,
+          0.47804877999999995
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.06418918961148648,
+          0.5414634144308942,
+          0.11486486528716217,
+          0.5951219510162601
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.20270270324324324,
+          0.5902439023414634,
+          0.2567567572972973,
+          0.6390243901463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1="
+      },
+      {
+        "bbox": [
+          0.19932432381756754,
+          0.6829268295426829,
+          0.2804054048986486,
+          0.7463414636890244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mF"
+      },
+      {
+        "bbox": [
+          0.7331081112860878,
+          0.9317073173170731,
+          0.9290540443445429,
+          0.9658536587804877
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.a5 096"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The output capacitance C determines the L GBW.",
+      "pdf_page": 258,
+      "printed_page": 265,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0258_02_096.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In the case of variable load capacitances, as in switched-capacitor filters, we do not want the GBW to depend on the load.",
+      "pdf_page": 258,
+      "printed_page": 265,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-096-M01",
+      "ocr_text": "GBW =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.69576885377331,
+        0.25743056480041715,
+        0.8245014190603072,
+        0.30354504442360686
+      ],
+      "context_crop": "regions/SANSEN-096_math_01.png",
+      "context_bbox_normalized": [
+        0.65576885377331,
+        0.15743056480041714,
+        1,
+        0.43354504442360686
+      ],
+      "source_image": "slides/p0258_02_096.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-096-M02",
+      "ocr_text": "M1=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.20270270324324324,
+        0.5902439023414634,
+        0.2567567572972973,
+        0.6390243901463414
+      ],
+      "context_crop": "regions/SANSEN-096_math_02.png",
+      "context_bbox_normalized": [
+        0.16270270324324324,
+        0.4902439023414634,
+        0.4867567572972973,
+        0.7690243901463414
+      ],
+      "source_image": "slides/p0258_02_096.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

@@ -1,0 +1,331 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "18.1.0.077"
+"date" "10:45:41 AM, Tue Sep 15, 2026"
+"design" ""
+"analysis type" "ac"
+"analysis name" "ac"
+"analysis description" "AC Analysis `ac': freq = (1 Hz -> 1 THz)"
+"xVecSorted" "ascending"
+"tolerance.relative" 0.00100000
+"start" 1.00000
+"stop" 1.00000e+12
+"operating point producer" "ac"
+TYPE
+"sweep" FLOAT DOUBLE PROP(
+"key" "sweep"
+)
+"V" COMPLEX DOUBLE PROP(
+"units" "V"
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"I" COMPLEX DOUBLE PROP(
+"units" "A"
+"key" "branch"
+"tolerance" 1.00000e-12
+)
+"MMF" COMPLEX DOUBLE PROP(
+"units" "A*turn"
+"key" "node"
+"tolerance" 1.00000e-12
+)
+"Wb" COMPLEX DOUBLE PROP(
+"units" "Wb"
+"key" "node"
+"tolerance" 1.00000e-09
+)
+"Temp" COMPLEX DOUBLE PROP(
+"units" "C"
+"key" "node"
+"tolerance" 0.000100000
+)
+"Pwr" COMPLEX DOUBLE PROP(
+"units" "W"
+"key" "node"
+"tolerance" 1.00000e-09
+)
+"U" COMPLEX DOUBLE PROP(
+"units" ""
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"V/Sec" COMPLEX DOUBLE PROP(
+"units" "V/s"
+"key" "node"
+"tolerance" 0.000100000
+)
+"I/Sec" COMPLEX DOUBLE PROP(
+"units" "A/s"
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"1/Sec" COMPLEX DOUBLE PROP(
+"units" "1/s"
+"key" "node"
+"tolerance" 0.000100000
+)
+"HOD" COMPLEX DOUBLE PROP(
+"units" ""
+"key" "node"
+"tolerance" 0.0100000
+)
+"Q" COMPLEX DOUBLE PROP(
+"units" "Coul"
+"key" "node"
+"tolerance" 1.00000e-15
+)
+SWEEP
+"freq" "sweep" PROP(
+"sweep_direction" 0
+"units" "Hz"
+"plot" 0
+"grid" 3
+)
+TRACE
+"gainboost_slow" "V"
+VALUE
+"freq" 1.000000000000000e+00
+"gainboost_slow" (-210098. 616.221)
+"freq" 1.258925411794167e+00
+"gainboost_slow" (-210097. 775.773)
+"freq" 1.584893192461114e+00
+"gainboost_slow" (-210095. 976.632)
+"freq" 1.995262314968880e+00
+"gainboost_slow" (-210093. 1229.49)
+"freq" 2.511886431509581e+00
+"gainboost_slow" (-210089. 1547.81)
+"freq" 3.162277660168380e+00
+"gainboost_slow" (-210082. 1948.51)
+"freq" 3.981071705534974e+00
+"gainboost_slow" (-210071. 2452.90)
+"freq" 5.011872336272725e+00
+"gainboost_slow" (-210054. 3087.78)
+"freq" 6.309573444801935e+00
+"gainboost_slow" (-210028. 3886.78)
+"freq" 7.943282347242818e+00
+"gainboost_slow" (-209985. 4892.18)
+"freq" 1.000000000000001e+01
+"gainboost_slow" (-209918. 6156.91)
+"freq" 1.258925411794168e+01
+"gainboost_slow" (-209812. 7747.16)
+"freq" 1.584893192461115e+01
+"gainboost_slow" (-209645. 9745.25)
+"freq" 1.995262314968881e+01
+"gainboost_slow" (-209379. 12252.9)
+"freq" 2.511886431509582e+01
+"gainboost_slow" (-208960. 15394.5)
+"freq" 3.162277660168382e+01
+"gainboost_slow" (-208299. 19318.9)
+"freq" 3.981071705534977e+01
+"gainboost_slow" (-207260. 24199.0)
+"freq" 5.011872336272729e+01
+"gainboost_slow" (-205634. 30224.5)
+"freq" 6.309573444801940e+01
+"gainboost_slow" (-203109. 37580.7)
+"freq" 7.943282347242825e+01
+"gainboost_slow" (-199233. 46403.4)
+"freq" 1.000000000000001e+02
+"gainboost_slow" (-193385. 56694.2)
+"freq" 1.258925411794169e+02
+"gainboost_slow" (-184792. 68184.3)
+"freq" 1.584893192461116e+02
+"gainboost_slow" (-172643. 80161.5)
+"freq" 1.995262314968883e+02
+"gainboost_slow" (-156367. 91342.5)
+"freq" 2.511886431509584e+02
+"gainboost_slow" (-136072. 99962.2)
+"freq" 3.162277660168385e+02
+"gainboost_slow" (-112910. 104249.)
+"freq" 3.981071705534980e+02
+"gainboost_slow" (-89003.3 103180.)
+"freq" 5.011872336272732e+02
+"gainboost_slow" (-66756.1 97020.0)
+"freq" 6.309573444801945e+02
+"gainboost_slow" (-47961.6 87176.6)
+"freq" 7.943282347242831e+02
+"gainboost_slow" (-33338.5 75501.1)
+"freq" 1.000000000000002e+03
+"gainboost_slow" (-22672.6 63603.3)
+"freq" 1.258925411794170e+03
+"gainboost_slow" (-15254.0 52537.1)
+"freq" 1.584893192461117e+03
+"gainboost_slow" (-10262.7 42820.8)
+"freq" 1.995262314968884e+03
+"gainboost_slow" (-6978.63 34598.2)
+"freq" 2.511886431509586e+03
+"gainboost_slow" (-4848.85 27802.9)
+"freq" 3.162277660168386e+03
+"gainboost_slow" (-3479.39 22272.7)
+"freq" 3.981071705534981e+03
+"gainboost_slow" (-2601.91 17818.0)
+"freq" 5.011872336272734e+03
+"gainboost_slow" (-2038.21 14255.1)
+"freq" 6.309573444801948e+03
+"gainboost_slow" (-1671.39 11421.2)
+"freq" 7.943282347242834e+03
+"gainboost_slow" (-1424.79 9177.40)
+"freq" 1.000000000000003e+04
+"gainboost_slow" (-1247.56 7408.22)
+"freq" 1.258925411794171e+04
+"gainboost_slow" (-1105.41 6017.55)
+"freq" 1.584893192461118e+04
+"gainboost_slow" (-975.314 4924.67)
+"freq" 1.995262314968885e+04
+"gainboost_slow" (-843.491 4060.79)
+"freq" 2.511886431509587e+04
+"gainboost_slow" (-705.194 3367.57)
+"freq" 3.162277660168388e+04
+"gainboost_slow" (-564.282 2798.14)
+"freq" 3.981071705534984e+04
+"gainboost_slow" (-430.299 2319.11)
+"freq" 5.011872336272738e+04
+"gainboost_slow" (-313.243 1910.38)
+"freq" 6.309573444801952e+04
+"gainboost_slow" (-219.063 1561.55)
+"freq" 7.943282347242841e+04
+"gainboost_slow" (-148.419 1266.81)
+"freq" 1.000000000000003e+05
+"gainboost_slow" (-98.2350 1021.23)
+"freq" 1.258925411794172e+05
+"gainboost_slow" (-63.9636 819.328)
+"freq" 1.584893192461119e+05
+"gainboost_slow" (-41.1902 655.115)
+"freq" 1.995262314968887e+05
+"gainboost_slow" (-26.3320 522.607)
+"freq" 2.511886431509589e+05
+"gainboost_slow" (-16.7539 416.264)
+"freq" 3.162277660168391e+05
+"gainboost_slow" (-10.6273 331.231)
+"freq" 3.981071705534988e+05
+"gainboost_slow" (-6.72798 263.400)
+"freq" 5.011872336272742e+05
+"gainboost_slow" (-4.25412 209.374)
+"freq" 6.309573444801958e+05
+"gainboost_slow" (-2.68779 166.386)
+"freq" 7.943282347242847e+05
+"gainboost_slow" (-1.69732 132.202)
+"freq" 1.000000000000004e+06
+"gainboost_slow" (-1.07151 105.031)
+"freq" 1.258925411794172e+06
+"gainboost_slow" (-0.676309 83.4384)
+"freq" 1.584893192461120e+06
+"gainboost_slow" (-0.426813 66.2822)
+"freq" 1.995262314968888e+06
+"gainboost_slow" (-0.269337 52.6522)
+"freq" 2.511886431509591e+06
+"gainboost_slow" (-0.169955 41.8243)
+"freq" 3.162277660168393e+06
+"gainboost_slow" (-0.107240 33.2228)
+"freq" 3.981071705534990e+06
+"gainboost_slow" (-0.0676662 26.3901)
+"freq" 5.011872336272745e+06
+"gainboost_slow" (-0.0426954 20.9626)
+"freq" 6.309573444801961e+06
+"gainboost_slow" (-0.0269393 16.6512)
+"freq" 7.943282347242852e+06
+"gainboost_slow" (-0.0169977 13.2266)
+"freq" 1.000000000000005e+07
+"gainboost_slow" (-0.0107249 10.5063)
+"freq" 1.258925411794173e+07
+"gainboost_slow" (-0.00676697 8.34544)
+"freq" 1.584893192461121e+07
+"gainboost_slow" (-0.00426968 6.62902)
+"freq" 1.995262314968889e+07
+"gainboost_slow" (-0.00269399 5.26562)
+"freq" 2.511886431509592e+07
+"gainboost_slow" (-0.00169979 4.18263)
+"freq" 3.162277660168395e+07
+"gainboost_slow" (-0.00107250 3.32238)
+"freq" 3.981071705534992e+07
+"gainboost_slow" (-0.000676701 2.63906)
+"freq" 5.011872336272748e+07
+"gainboost_slow" (-0.000426969 2.09628)
+"freq" 6.309573444801965e+07
+"gainboost_slow" (-0.000269400 1.66514)
+"freq" 7.943282347242856e+07
+"gainboost_slow" (-0.000169980 1.32267)
+"freq" 1.000000000000005e+08
+"gainboost_slow" (-0.000107250 1.05063)
+"freq" 1.258925411794174e+08
+"gainboost_slow" (-6.76701e-05 0.834546)
+"freq" 1.584893192461122e+08
+"gainboost_slow" (-4.26970e-05 0.662903)
+"freq" 1.995262314968891e+08
+"gainboost_slow" (-2.69400e-05 0.526563)
+"freq" 2.511886431509594e+08
+"gainboost_slow" (-1.69980e-05 0.418264)
+"freq" 3.162277660168397e+08
+"gainboost_slow" (-1.07250e-05 0.332239)
+"freq" 3.981071705534995e+08
+"gainboost_slow" (-6.76701e-06 0.263906)
+"freq" 5.011872336272751e+08
+"gainboost_slow" (-4.26970e-06 0.209628)
+"freq" 6.309573444801968e+08
+"gainboost_slow" (-2.69400e-06 0.166514)
+"freq" 7.943282347242861e+08
+"gainboost_slow" (-1.69980e-06 0.132267)
+"freq" 1.000000000000006e+09
+"gainboost_slow" (-1.07250e-06 0.105063)
+"freq" 1.258925411794175e+09
+"gainboost_slow" (-6.76701e-07 0.0834546)
+"freq" 1.584893192461123e+09
+"gainboost_slow" (-4.26970e-07 0.0662903)
+"freq" 1.995262314968892e+09
+"gainboost_slow" (-2.69400e-07 0.0526563)
+"freq" 2.511886431509595e+09
+"gainboost_slow" (-1.69980e-07 0.0418264)
+"freq" 3.162277660168399e+09
+"gainboost_slow" (-1.07250e-07 0.0332239)
+"freq" 3.981071705534997e+09
+"gainboost_slow" (-6.76701e-08 0.0263906)
+"freq" 5.011872336272755e+09
+"gainboost_slow" (-4.26970e-08 0.0209628)
+"freq" 6.309573444801973e+09
+"gainboost_slow" (-2.69400e-08 0.0166514)
+"freq" 7.943282347242867e+09
+"gainboost_slow" (-1.69980e-08 0.0132267)
+"freq" 1.000000000000006e+10
+"gainboost_slow" (-1.07250e-08 0.0105063)
+"freq" 1.258925411794176e+10
+"gainboost_slow" (-6.76701e-09 0.00834546)
+"freq" 1.584893192461124e+10
+"gainboost_slow" (-4.26970e-09 0.00662903)
+"freq" 1.995262314968893e+10
+"gainboost_slow" (-2.69400e-09 0.00526563)
+"freq" 2.511886431509597e+10
+"gainboost_slow" (-1.69980e-09 0.00418264)
+"freq" 3.162277660168401e+10
+"gainboost_slow" (-1.07250e-09 0.00332239)
+"freq" 3.981071705535000e+10
+"gainboost_slow" (-6.76701e-10 0.00263906)
+"freq" 5.011872336272758e+10
+"gainboost_slow" (-4.26970e-10 0.00209628)
+"freq" 6.309573444801977e+10
+"gainboost_slow" (-2.69400e-10 0.00166514)
+"freq" 7.943282347242871e+10
+"gainboost_slow" (-1.69980e-10 0.00132267)
+"freq" 1.000000000000007e+11
+"gainboost_slow" (-1.07250e-10 0.00105063)
+"freq" 1.258925411794176e+11
+"gainboost_slow" (-6.76701e-11 0.000834546)
+"freq" 1.584893192461125e+11
+"gainboost_slow" (-4.26970e-11 0.000662903)
+"freq" 1.995262314968894e+11
+"gainboost_slow" (-2.69400e-11 0.000526563)
+"freq" 2.511886431509599e+11
+"gainboost_slow" (-1.69980e-11 0.000418264)
+"freq" 3.162277660168403e+11
+"gainboost_slow" (-1.07250e-11 0.000332239)
+"freq" 3.981071705535002e+11
+"gainboost_slow" (-6.76701e-12 0.000263906)
+"freq" 5.011872336272761e+11
+"gainboost_slow" (-4.26970e-12 0.000209628)
+"freq" 6.309573444801980e+11
+"gainboost_slow" (-2.69400e-12 0.000166514)
+"freq" 7.943282347242875e+11
+"gainboost_slow" (-1.69980e-12 0.000132267)
+"freq" 1.000000000000000e+12
+"gainboost_slow" (-1.07250e-12 0.000105063)
+END

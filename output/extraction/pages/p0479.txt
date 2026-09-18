@@ -1,0 +1,50 @@
+Switched-capacitor filters 489
+179
+A MOS capacitor is formed
+between the top metal plate
+(or gate poly) and the
+source/drain diffusion. The
+thin gate oxide serves as
+a dielectricum. Values are
+given in this slide for a 0.35
+micron CMOS technology.
+Its gate oxide thickness
+is about 1/50 or 7 nm.
+This gives a C of
+ox
+5×10−7 F/cm2 or 5 fF/mm2
+(see Chapter 1).
+The n+ plate has a lot of
+resistance however, which
+gives a lot of noise and even
+some voltage dependence.
+It is much better to substitute the bottom layer by a highly doped poly layer. This capacitor
+is more linear.
+Nowadays, many metal layers are available on top of the silicon structure. Any pair can be
+selected to be used as capacitors. Two criteria have to be fulfilled, however. The dielectricum
+must be of high quality and its thickness must be reproducible. This is why the technology file
+usually suggest which pair of metal layers are best used for capacitors and what is the capacitor
+per unit square.
+For each integrated capacitor, the bottom plate has a parasitic capacitance C to the underlying
+p
+layer. For the capacitor on the left, this is the junction capacitance to the substrate. For the one
+on the right, this parasitic capacitance is between the poly layer and the substrate. This parasitic
+capacitance is relatively large. It must be taken into account in the design of such a filter.
+1710
+Matching these capacitors is
+of the utmost importance to
+achieve accurate filter fre-
+quencies. Matching capaci-
+tances has been discussed in
+great detail in Chapter 15.
+The most important conclu-
+sions are repeated here.
+The only way to achieve
+good matching between two
+or more capacitors is to use
+integer ratios of unit capaci-
+tors. They must all have the
+same shape, or area to
+perimeter ratio. They must
+be laid out in centroide
+form.

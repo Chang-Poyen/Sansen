@@ -1,0 +1,166 @@
+{
+  "case_id": "SANSEN-0811",
+  "slide_id": "0811",
+  "chapter": 8,
+  "slide_number_in_chapter": 11,
+  "source": {
+    "pdf_page": 238,
+    "printed_page": 244
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0238_01_0811.jpg",
+      "pdf_page": 238,
+      "printed_page": 244,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 238,
+      "printed_page": 244,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        381.6135000000001
+      ],
+      "text_raw": "All the capacitances which\nare present at the output ter-\nminals of one amplifier are\nsketched in this slide. The\ninput capacitances of the\nnext amplifier are included\nas well.\nThe virtual grounds are\ntaken as real grounds.\nAn input voltage is added\nto measure the total capaci-\ntance at the outputs. It will\nbe a differential input volt-\nage to find the differential\nload capacitance, but a\ncommon-mode input volt-\nage for the load capacitance\nof the CMFB amplifier.",
+      "text": "All the capacitances which are present at the output terminals of one amplifier are sketched in this slide. The input capacitances of the next amplifier are included as well. The virtual grounds are taken as real grounds. An input voltage is added to measure the total capacitance at the outputs. It will be a differential input voltage to find the differential load capacitance, but a common-mode input voltage for the load capacitance of the CMFB amplifier."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "All the capacitances which are present at the output terminals of one amplifier are sketched in this slide. The input capacitances of the next amplifier are included as well. The virtual grounds are taken as real grounds. An input voltage is added to measure the total capacitance at the outputs. It will be a differential input voltage to find the differential load capacitance, but a common-mode input voltage for the load capacitance of the CMFB amplifier.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Load capacitance CIn",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0238_01_0811.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270747466201,
+          0.08292682932926831,
+          0.45945946423141876,
+          0.14634146347560972
+        ],
+        "confidence": 1,
+        "text": "Load capacitance CIn"
+      },
+      {
+        "bbox": [
+          0.41216216182432436,
+          0.42926829223577245,
+          0.4594594591216216,
+          0.48292682882113824
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "См"
+      },
+      {
+        "bbox": [
+          0.30405405371621624,
+          0.6585365847804879,
+          0.35135135101351356,
+          0.7170731701463415
+        ],
+        "confidence": 0.5,
+        "text": "CF"
+      },
+      {
+        "bbox": [
+          0.5472972971283785,
+          0.3219512190243903,
+          0.5777027025337839,
+          0.37073170682926837
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.5439189195382883,
+          0.42439024373983736,
+          0.6182432438626126,
+          0.47317073154471545
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6047297302083333,
+          0.5609756094715447,
+          0.6621621626407657,
+          0.6243902436178861
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cs"
+      },
+      {
+        "bbox": [
+          0.7195945969172296,
+          0.9463414629268293,
+          0.9324324347550675,
+          0.9853658531707318
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 0811"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It will be a differential input voltage to find the differential load capacitance, but a common-mode input voltage for the load capacitance of the CMFB amplifier.",
+      "pdf_page": 238,
+      "printed_page": 244,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0238_01_0811.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

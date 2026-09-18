@@ -1,0 +1,264 @@
+{
+  "case_id": "SANSEN-0127",
+  "slide_id": "0127",
+  "chapter": 1,
+  "slide_number_in_chapter": 27,
+  "source": {
+    "pdf_page": 15,
+    "printed_page": 15
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0015_02_0127.jpg",
+      "pdf_page": 15,
+      "printed_page": 15,
+      "bbox_pt": [
+        91.52162,
+        433.43494,
+        374.54222,
+        629.94478
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 15,
+      "printed_page": 15,
+      "bbox_pt": [
+        0,
+        429.4455100000002,
+        595,
+        797
+      ],
+      "text_raw": "There is no reason to allo-\ncate more gain to one ampli-\nfier compared to the other.\nThe gain per amplifier is\nthus 21.5 since 21.5×\n21.5×21.5#10 000. As a\nresult we need a V L pro-\nE\nduct of 2.15 V.\nFor this technology, we\nwill need a channel length of\nL#0.5 mm. If we used the\nminimum channel length of\n65 nm, the gain would only\nbe about 2.6!!\nDeep submicron CMOS\nonly provides very low volt-\nage gains!!",
+      "text": "There is no reason to allocate more gain to one amplifier compared to the other. The gain per amplifier is thus 21.5 since 21.5× 21.5×21.5#10 000. As a result we need a V L pro- E duct of 2.15 V. For this technology, we will need a channel length of L#0.5 mm. If we used the minimum channel length of 65 nm, the gain would only be about 2.6!! Deep submicron CMOS only provides very low voltage gains!!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "There is no reason to allocate more gain to one amplifier compared to the other. The gain per amplifier is thus 21.5 since 21.5× 21.5×21.5#10 000. As a result we need a V L pro- E duct of 2.15 V. For this technology, we will need a channel length of L#0.5 mm. If we used the minimum channel length of 65 nm, the gain would only be about 2.6!! Deep submicron CMOS only provides very low voltage gains!!",
+  "schema_version": "1.0",
+  "chapter_title": "MOS 晶体管与双极型晶体管的比较",
+  "title": "Example: single-transistor amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0015_02_0127.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07118643420338995,
+          0.07317073185365852,
+          0.718644061322034,
+          0.13658536600000004
+        ],
+        "confidence": 1,
+        "text": "Example: single-transistor amplifier"
+      },
+      {
+        "bbox": [
+          0.08135593728813553,
+          0.2536585363414634,
+          0.6915254288135593,
+          0.3024390241463415
+        ],
+        "confidence": 1,
+        "text": "We want to realize a three-stage amplifier"
+      },
+      {
+        "bbox": [
+          0.08135593610169482,
+          0.3073170731219512,
+          0.4711864445762711,
+          0.3609756097073171
+        ],
+        "confidence": 1,
+        "text": "with a total gain of 10.000."
+      },
+      {
+        "bbox": [
+          0.08135593716707018,
+          0.36585365836236927,
+          0.7762711914043583,
+          0.4195121949477352
+        ],
+        "confidence": 1,
+        "text": "We use three single-transistor stages in series."
+      },
+      {
+        "bbox": [
+          0.08135593762711851,
+          0.424390243699187,
+          0.732203395254237,
+          0.4780487802845528
+        ],
+        "confidence": 1,
+        "text": "What minimum lengths do we have to use in"
+      },
+      {
+        "bbox": [
+          0.08135592932203392,
+          0.47317073107317076,
+          0.640677963220339,
+          0.5365853652195123
+        ],
+        "confidence": 1,
+        "text": "an advanced 65 nm CMOS technology"
+      },
+      {
+        "bbox": [
+          0.08135593180790959,
+          0.546341463902439,
+          0.3525423724858757,
+          0.6048780492682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "with Ve = 4 V/um ?"
+      },
+      {
+        "bbox": [
+          0.08135593162711867,
+          0.6585365849756097,
+          0.17966101637288137,
+          0.6975609752195122
+        ],
+        "confidence": 1,
+        "text": "Choose"
+      },
+      {
+        "bbox": [
+          0.08135593082324455,
+          0.707317073379791,
+          0.2745762698062954,
+          0.7560975611846691
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs-V, = 0.2V !"
+      },
+      {
+        "bbox": [
+          0.7288135614237288,
+          0.941463414390244,
+          0.9389830529491525,
+          0.9853658534146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Wilty Sansen W.s 0127"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "There is no reason to allocate more gain to one amplifier compared to the other.",
+      "pdf_page": 15,
+      "printed_page": 15,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0015_02_0127.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "There is no reason to allocate more gain to one amplifier compared to the other.",
+      "pdf_page": 15,
+      "printed_page": 15,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain per amplifier is thus 21.5 since 21.5× 21.5×21.5#10 000.",
+      "pdf_page": 15,
+      "printed_page": 15,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result we need a V L pro- E duct of 2.15 V.",
+      "pdf_page": 15,
+      "printed_page": 15,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If we used the minimum channel length of 65 nm, the gain would only be about 2.6!!",
+      "pdf_page": 15,
+      "printed_page": 15,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0127-M01",
+      "ocr_text": "with Ve = 4 V/um ?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08135593180790959,
+        0.546341463902439,
+        0.3525423724858757,
+        0.6048780492682927
+      ],
+      "context_crop": "regions/SANSEN-0127_math_01.png",
+      "context_bbox_normalized": [
+        0.04135593180790959,
+        0.446341463902439,
+        0.5825423724858757,
+        0.7348780492682927
+      ],
+      "source_image": "slides/p0015_02_0127.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0127-M02",
+      "ocr_text": "VGs-V, = 0.2V !",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08135593082324455,
+        0.707317073379791,
+        0.2745762698062954,
+        0.7560975611846691
+      ],
+      "context_crop": "regions/SANSEN-0127_math_02.png",
+      "context_bbox_normalized": [
+        0.04135593082324455,
+        0.607317073379791,
+        0.5045762698062954,
+        0.8860975611846691
+      ],
+      "source_image": "slides/p0015_02_0127.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Comparison of MOST and bipolar transistors"
+}

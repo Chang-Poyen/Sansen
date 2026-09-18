@@ -1,0 +1,48 @@
+DiVerential voltage and current amplifiers 113
+0347
+After we have discussed the
+OTA, which is in effect
+a single-ended differential
+voltage amplifier, we focus
+on the most used single-
+ended differential current
+amplifier.
+It is derived from a con-
+ventional current mirror, to
+which a cascode is added.
+This quite easy as the
+V of the input MOST M1
+GS1
+is fairly large, for example
+0.7 V if V =0.5 V. This
+T
+gives us plenty of room for
+cascodes. One single cas-
+code requires only 0.2 V! It is realized by means of transistor M3.
+This additional cascode does not change anything in the current mirror. The diode-connected
+transistor will be more accurate as more feedback loop gain is now available.
+The two input current sources, one for DC denoted by I and one for AC i , will be mirrored
+B in
+just as in the situation without cascode.
+0348
+The addition of this cascode
+creates an additional node
+however. This node is more
+attractive as an input than
+the original one.
+The reason is that the
+impedance at this point is
+g r times lower than at
+m3 o3
+the original input. This is a
+result of the feedback loop.
+This factor is the additional
+loop gain as a result of the
+addition of the cascode.
+Therefore, the input sig-
+nal current source is led
+to the Source of the cascode,
+rather than to its Drain. It is easier to realize an ideal current source when the input impedance
+is smaller. Moreover, the input capacitance at this point will be smaller.
+Note that the input signal current flows through M1, as there is no outlet through M3. This
+current is then mirrored by the current mirror M1-M2.

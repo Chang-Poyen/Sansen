@@ -1,0 +1,44 @@
+Continuous-time filters 571
+199
+Large values of the on-
+resistance R are required
+on
+to realize filters at low fre-
+quencies. For example, for a
+filter at 4 kHz, an R is
+on
+required in the MVYs.
+For matching the smallest
+dimension, which is W in
+this case, cannot be much
+smaller than a few microme-
+ters. As a result, the channel
+length becomes extremely
+large, reducing the f to very
+T
+low values. The MOST
+resistor turns into a trans-
+mission line with an un-
+predictable high-frequency
+characteristics.
+1910
+For example, take this LC
+ladder filter. It is known to
+be fairly insensitive to errors
+on the values of L and C.
+Except for the source resis-
+tor R and the load resistor
+1
+R , five branches can be
+7
+distinguished.
+Each node is connected to
+ground through a capacitor.
+It is therefore a low pass
+filter.
+Each branch will be rep-
+resented by an opamp with
+feedback elements, as shown
+next. The circuit must be
+converted into a differential
+structure first!

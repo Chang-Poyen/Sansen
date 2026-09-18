@@ -1,0 +1,198 @@
+{
+  "case_id": "SANSEN-243",
+  "slide_id": "243",
+  "chapter": 24,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 731,
+    "printed_page": 743
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0732_01_243.jpg",
+      "pdf_page": 732,
+      "printed_page": 744,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 731,
+      "printed_page": 743,
+      "bbox_pt": [
+        0,
+        630.73851,
+        595,
+        703.55913035
+      ],
+      "text_raw": "In coupling, three phenomena have to be investigated.\nThe first one is the generator of the noise. The digital circuits usually work with a clock. They\ndraw current spikes through their supply lines, which cause voltage spikes on the supply\nlinesand ground.",
+      "text": "In coupling, three phenomena have to be investigated. The first one is the generator of the noise. The digital circuits usually work with a clock. They draw current spikes through their supply lines, which cause voltage spikes on the supply linesand ground."
+    },
+    {
+      "pdf_page": 732,
+      "printed_page": 744,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        441.40350000000024
+      ],
+      "text_raw": "These spikes are then\ninjected into the substrate,\nas each output has a small\ncapacitance C to the\nDigSub\nsubstrate. They have a wide\nfrequency spectrum. This is\nwhy they are called noise.\nThe second phenomenon\nis the transmission of this\nnoise to the other side of the\nsubstrate, where the analog\ncircuits are present. This\nobviously depends on the\nnature of the substrate, on\nthe presence of an epitaxial\nlayer, etc.\nThe third phenomenon is\nthe pickup of this noise by the sensitive analog circuits. Each transistor also has the substrate\nas an input. It converts the substrate noise into a drain current. As a result, the SNR suffers\nbadly from substrate noise. The most important specification with this respect, is the PSSR or\nPower-supply-rejection ratio.\nAll analog circuits are better made fully-differential to reject the substrate noise as much as\npossible. Mismatch limits this rejection however, and limits the SNR, which can be reached in\na mixed-signal circuit.",
+      "text": "These spikes are then injected into the substrate, as each output has a small capacitance C to the DigSub substrate. They have a wide frequency spectrum. This is why they are called noise. The second phenomenon is the transmission of this noise to the other side of the substrate, where the analog circuits are present. This obviously depends on the nature of the substrate, on the presence of an epitaxial layer, etc. The third phenomenon is the pickup of this noise by the sensitive analog circuits. Each transistor also has the substrate as an input. It converts the substrate noise into a drain current. As a result, the SNR suffers badly from substrate noise. The most important specification with this respect, is the PSSR or Power-supply-rejection ratio. All analog circuits are better made fully-differential to reject the substrate noise as much as possible. Mismatch limits this rejection however, and limits the SNR, which can be reached in a mixed-signal circuit."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In coupling, three phenomena have to be investigated. The first one is the generator of the noise. The digital circuits usually work with a clock. They draw current spikes through their supply lines, which cause voltage spikes on the supply linesand ground.\n\nThese spikes are then injected into the substrate, as each output has a small capacitance C to the DigSub substrate. They have a wide frequency spectrum. This is why they are called noise. The second phenomenon is the transmission of this noise to the other side of the substrate, where the analog circuits are present. This obviously depends on the nature of the substrate, on the presence of an epitaxial layer, etc. The third phenomenon is the pickup of this noise by the sensitive analog circuits. Each transistor also has the substrate as an input. It converts the substrate noise into a drain current. As a result, the SNR suffers badly from substrate noise. The most important specification with this respect, is the PSSR or Power-supply-rejection ratio. All analog circuits are better made fully-differential to reject the substrate noise as much as possible. Mismatch limits this rejection however, and limits the SNR, which can be reached in a mixed-signal circuit.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Noise coupling through the substrate",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0732_01_243.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431780405416,
+          0.08292682931707318,
+          0.7263513448310812,
+          0.1463414634634146
+        ],
+        "confidence": 1,
+        "text": "Noise coupling through the substrate"
+      },
+      {
+        "bbox": [
+          0.4051705425934768,
+          0.2086771548440034,
+          0.5002348604513738,
+          0.2547374797222308
+        ],
+        "confidence": 1,
+        "text": "Analog"
+      },
+      {
+        "bbox": [
+          0.6250000000281531,
+          0.20975609792682925,
+          0.7094594594876126,
+          0.25365853695121954
+        ],
+        "confidence": 1,
+        "text": "Digital"
+      },
+      {
+        "bbox": [
+          0.6722972956925677,
+          0.4536585365853658,
+          0.800675674070946,
+          0.5219512195121951
+        ],
+        "confidence": 0.5,
+        "text": "CDigsub"
+      },
+      {
+        "bbox": [
+          0.42229729915540537,
+          0.5560975607804879,
+          0.6081081099662161,
+          0.5951219510243902
+        ],
+        "confidence": 1,
+        "text": "Noise coupling"
+      },
+      {
+        "bbox": [
+          0.33445945827702706,
+          0.8292682922439024,
+          0.45945945827702706,
+          0.8731707312682926
+        ],
+        "confidence": 1,
+        "text": "Substrate"
+      },
+      {
+        "bbox": [
+          0.7293669720416412,
+          0.9459007540872911,
+          0.9328911362930203,
+          0.987022927768783
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 243"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0732_01_243.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It converts the substrate noise into a drain current.",
+        "pdf_page": 732,
+        "printed_page": 744,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This obviously depends on the nature of the substrate, on the presence of an epitaxial layer, etc.",
+      "pdf_page": 732,
+      "printed_page": 744,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the SNR suffers badly from substrate noise.",
+      "pdf_page": 732,
+      "printed_page": 744,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Mismatch limits this rejection however, and limits the SNR, which can be reached in a mixed-signal circuit.",
+      "pdf_page": 732,
+      "printed_page": 744,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

@@ -1,0 +1,51 @@
+394 Chapter #14
+1411
+A real-life example of such
+a shunt-shunt feedback
+amplifier has been published
+in the IEEE Journal of Solid-
+State Circuits.
+Its transresistance is quite
+small, only 360 V. Its band-
+width, however, is impres-
+sive, i.e. 10 GHz.
+The gain itself is again
+given by a single-transistor
+amplifier, with a cascode
+however, to increase the
+gain, and to isolate its
+output better from the
+input. Again an emitter fol-
+lower is used to lower the output resistance.
+All calculations apply again. The output resistance R will again be very small. This is why
+O
+the bandwidth is so high, even with a fairly large load capacitor C . It is simply given by
+L
+1/(2pR C ).
+O L
+The open loop output resistance is the parallel combination of three resistances, i.e. R +r ,
+F p1
+R and 1/g +R /b . Altogether, this is about 1/g . The closed loop output resistance R is
+E m3 L 3 m3 O
+then the open loop one divided by the loop gain.
+1412
+In we want to make sure
+that the feedback is nega-
+tive, shunt-shunt feedback is
+only possible either around
+one single transistor or
+around three transistors.
+Indeed each gain transistor
+inverts the polarity.
+A single-gain stage suffers
+from too small gain, causing
+too low a loop gain. A
+triple-gain stage provides a
+lot more loop gain and is
+much closer to an ideal feed-
+back amplifier. The gain per
+stage is simply g r .
+m o
+As a result, both the input and output resistances will be quite small. The current-to-voltage
+(closed-loop) gain is again R , as expected.
+F

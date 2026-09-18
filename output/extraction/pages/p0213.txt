@@ -1,0 +1,52 @@
+218 Chapter #7
+The net result is that for a differential output, these two nodes establish one single pole
+only!
+0715
+How about the pole at
+node 5?
+Remember that this is a
+node at the other side of a
+single-ended amplifier. Each
+time we have a single-ended
+amplifier, the capacitances
+on the other side than the
+output, will be negligible for
+the Phase Margin.
+Indeed, a pole-zero
+doublet is created by the
+capacitances at this node 5.
+Its spreading is only 2. As a
+result, the effect on the
+Phase Margin is now
+negligible.
+Despite the fact that we have three nodes at the 1/g level, we only have one single non-
+m
+dominant pole!
+0716
+As an example, let us design
+a CMOS symmetrical OTA
+for a GBW of 200 MHz and
+2 pF load capacitance.
+The expressions of the
+GBW and f are repeated.
+nd
+Obviously, for wide-band
+performance, we have to
+take a high-speed transistor
+for M4 and M6. This means
+that this current amplifier
+(or mirror) devices have
+to be designed for large
+V −V and small L.
+GS T
+Some values have been
+selected, depending on the
+CMOS process available. The resulting f is about 5 GHz.
+T
+The maximum value of B is found by equating f to 3×GBW. The value of B is therefore 5.
+nd
+Many designers use between 3 and 5.
+The input transconductance is now easily obtained from the GBW. It is g =0.5 mS, which
+m1
+requires about 50 mA. The total current consumption is now 0.6 mA.
+The FOM of this amplifier is 670 MHzpF/mA, which is quite good, indeed!

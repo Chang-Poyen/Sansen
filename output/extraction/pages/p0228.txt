@@ -1,0 +1,52 @@
+Important opamp configurations 233
+0744
+For high gain, the output
+impedance of the first stage
+or the Gates of the output
+transistors have to be at
+very high impedance. It may
+not appear like that because
+these nodes are connected to
+two Sources, of transistors
+MA3 and MA4. Sources
+suggest impedance levels of
+1/g . This is not the case
+m
+here however, as shown
+next.
+The output stage is
+repeated three times. The
+first one is simply copied
+from the overall circuit diagram. In the second one, the output resistance of the first stage is
+represented by R . In the third one, the two transistors in parallel are substituted by an
+in
+impedance called Z.
+It is now easy to calculate the gain of this amplifier. The input stage provides a conversion of
+g . The total gain also includes the transconductance of the output devices g . Impedance Z
+m1 mA1
+is not part of it. The reason is that the impedance Z is bootstrapped out.
+We see on the third diagram, that the currents coming from the input stage have the same
+phase and therefore drive the output transistors with the same phase as well. This is typical for
+a class-AB stage. Both transistors have to be driven in phase to turn one output transistor and
+the other one off.
+As a result, the voltages at the Gates of the output devices are nearly the same in amplitude.
+No AC voltage appears across the impedance Z. It does not carry any AC current. It looks like
+an infinite impedance and it is bootstrapped out.
+0745
+What is the purpose then of
+these two transistors MA3
+and MA4 when they do not
+play a role for the gain?
+They are there to set the
+quiescent current in the
+output transistors.
+The output transistor
+MA2 forms with transistor
+MA4 a translinear loop with
+transistors MA9 and MA10.
+The sum of their V ’s are
+GS
+the same as spelled out in
+this slide.
+The DC currents in three
+of these four devices are con-

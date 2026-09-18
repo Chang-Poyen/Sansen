@@ -1,0 +1,354 @@
+{
+  "case_id": "SANSEN-194",
+  "slide_id": "194",
+  "chapter": 19,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 557,
+    "printed_page": 568
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0557_02_194.jpg",
+      "pdf_page": 557,
+      "printed_page": 568,
+      "bbox_pt": [
+        91.521622,
+        443.400025,
+        374.78981,
+        639.860016
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 557,
+      "printed_page": 568,
+      "bbox_pt": [
+        0,
+        439.4105,
+        595,
+        797
+      ],
+      "text_raw": "Active RC-filters are opera-\ntional amplifiers with resis-\ntors and capacitors in the\nfeedback loop.\nIf a low-noise opamp is\nused, large Signal-to-Noise\nratios (SNR) can also be\nachieved, large input signals\ncan be applied with very\nlittle distortion. The Signal-\nto-Noise-and Distortion\nratio (SNDR) can also be\nfairly high. Actually, these\nfilters are capable of the\nhighest SNDR values pos-\nsible, depending on the\npower consumption.\nThis is obviously only correct for the frequencies where the loop gain is high. These OTA-RC\nfilters are not suitable for high frequencies.\nAnother disadvantage is that passive components are used, which usually have a low absolute",
+      "text": "Active RC-filters are operational amplifiers with resistors and capacitors in the feedback loop. If a low-noise opamp is used, large Signal-to-Noise ratios (SNR) can also be achieved, large input signals can be applied with very little distortion. The Signalto-Noise-and Distortion ratio (SNDR) can also be fairly high. Actually, these filters are capable of the highest SNDR values possible, depending on the power consumption. This is obviously only correct for the frequencies where the loop gain is high. These OTA-RC filters are not suitable for high frequencies. Another disadvantage is that passive components are used, which usually have a low absolute"
+    },
+    {
+      "pdf_page": 558,
+      "printed_page": 569,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        202.24339999999984
+      ],
+      "text_raw": "accuracies. The absolute errors can be as high as 15 ... 20%. We will therefore need to tune the\nfilter sections.\nHowever, in such an OTA-RC filter no component can be tuned. The only way out is to use\nresistor or capacitor banks, as shown in this slide. For an 8-bitbinary bank of capacitances, the\nabsolute error can be reduced to 0.4%.",
+      "text": "accuracies. The absolute errors can be as high as 15 ... 20%. We will therefore need to tune the filter sections. However, in such an OTA-RC filter no component can be tuned. The only way out is to use resistor or capacitor banks, as shown in this slide. For an 8-bitbinary bank of capacitances, the absolute error can be reduced to 0.4%."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Active RC-filters are operational amplifiers with resistors and capacitors in the feedback loop. If a low-noise opamp is used, large Signal-to-Noise ratios (SNR) can also be achieved, large input signals can be applied with very little distortion. The Signalto-Noise-and Distortion ratio (SNDR) can also be fairly high. Actually, these filters are capable of the highest SNDR values possible, depending on the power consumption. This is obviously only correct for the frequencies where the loop gain is high. These OTA-RC filters are not suitable for high frequencies. Another disadvantage is that passive components are used, which usually have a low absolute\n\naccuracies. The absolute errors can be as high as 15 ... 20%. We will therefore need to tune the filter sections. However, in such an OTA-RC filter no component can be tuned. The only way out is to use resistor or capacitor banks, as shown in this slide. For an 8-bitbinary bank of capacitances, the absolute error can be reduced to 0.4%.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Active RC filters",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0557_02_194.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946160714286,
+          0.08292682905923343,
+          0.38513513728281856,
+          0.14146341442508703
+        ],
+        "confidence": 1,
+        "text": "Active RC filters"
+      },
+      {
+        "bbox": [
+          0.09459460047297283,
+          0.2292682933170731,
+          0.7770270329054053,
+          0.2926829274634146
+        ],
+        "confidence": 1,
+        "text": "Opamps and passive components (R, C)"
+      },
+      {
+        "bbox": [
+          0.3445945934121622,
+          0.3317073161463415,
+          0.4966216204391892,
+          0.4243902429756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ЧH Cn"
+      },
+      {
+        "bbox": [
+          0.10135135175675675,
+          0.6292682931707316,
+          0.14864864905405403,
+          0.6780487809756097
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.4425675678812741,
+          0.48292682982578394,
+          0.5000000003137065,
+          0.5609756103135889
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "62"
+      },
+      {
+        "bbox": [
+          0.5335370664765109,
+          0.3441822312564342,
+          0.7299764486687618,
+          0.3972811866434567
+        ],
+        "confidence": 1,
+        "text": "Advantages :"
+      },
+      {
+        "bbox": [
+          0.5337837862499999,
+          0.3951219508780488,
+          0.7804054078716216,
+          0.4487804874634147
+        ],
+        "confidence": 0.5,
+        "text": "S/N up to 100 dB"
+      },
+      {
+        "bbox": [
+          0.5337837861486486,
+          0.4487804875261324,
+          0.8648648672297297,
+          0.4975609753310104
+        ],
+        "confidence": 0.5,
+        "text": "THD very low < - 90 dB"
+      },
+      {
+        "bbox": [
+          0.17905405413851352,
+          0.6682926834756098,
+          0.22635135143581084,
+          0.7121951225
+        ],
+        "confidence": 0.5,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.428990991777877,
+          0.6680934273477217,
+          0.5101981962873028,
+          0.7221504741914597
+        ],
+        "confidence": 0.5,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.540540538141892,
+          0.5804878050731708,
+          0.7804054030067568,
+          0.6292682928780488
+        ],
+        "confidence": 1,
+        "text": "Disadvantages :"
+      },
+      {
+        "bbox": [
+          0.5404802839242219,
+          0.6337694629172874,
+          0.6858710651206099,
+          0.683303704663399
+        ],
+        "confidence": 1,
+        "text": "Opamps :"
+      },
+      {
+        "bbox": [
+          0.5675675649070947,
+          0.6829268299390243,
+          0.9358108081503379,
+          0.7365853665243902
+        ],
+        "confidence": 1,
+        "text": "only for low frequencies"
+      },
+      {
+        "bbox": [
+          0.5405405436824324,
+          0.7365853655121951,
+          0.8547297328716216,
+          0.790243902097561
+        ],
+        "confidence": 0.5,
+        "text": "Errors on R, C = 20 %"
+      },
+      {
+        "bbox": [
+          0.581046251430335,
+          0.785113174434487,
+          0.7500348272368239,
+          0.8343990212377335
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ">> tune C's"
+      },
+      {
+        "bbox": [
+          0.7225468865173899,
+          0.9360553921601927,
+          0.9262613474573642,
+          0.9818611232124983
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 194"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The only way out is to use resistor or capacitor banks, as shown in this slide.",
+      "pdf_page": 558,
+      "printed_page": 569,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0557_02_194.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Actually, these filters are capable of the highest SNDR values possible, depending on the power consumption.",
+      "pdf_page": 557,
+      "printed_page": 568,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is obviously only correct for the frequencies where the loop gain is high.",
+      "pdf_page": 557,
+      "printed_page": 568,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We will therefore need to tune the filter sections.",
+      "pdf_page": 558,
+      "printed_page": 569,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-194-M01",
+      "ocr_text": "THD very low < - 90 dB",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5337837861486486,
+        0.4487804875261324,
+        0.8648648672297297,
+        0.4975609753310104
+      ],
+      "context_crop": "regions/SANSEN-194_math_01.png",
+      "context_bbox_normalized": [
+        0.49378378614864865,
+        0.34878048752613244,
+        1,
+        0.6275609753310104
+      ],
+      "source_image": "slides/p0557_02_194.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-194-M02",
+      "ocr_text": "Errors on R, C = 20 %",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5405405436824324,
+        0.7365853655121951,
+        0.8547297328716216,
+        0.790243902097561
+      ],
+      "context_crop": "regions/SANSEN-194_math_02.png",
+      "context_bbox_normalized": [
+        0.5005405436824324,
+        0.6365853655121951,
+        1,
+        0.920243902097561
+      ],
+      "source_image": "slides/p0557_02_194.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-194-M03",
+      "ocr_text": ">> tune C's",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.581046251430335,
+        0.785113174434487,
+        0.7500348272368239,
+        0.8343990212377335
+      ],
+      "context_crop": "regions/SANSEN-194_math_03.png",
+      "context_bbox_normalized": [
+        0.5410462514303349,
+        0.685113174434487,
+        0.9800348272368239,
+        0.93
+      ],
+      "source_image": "slides/p0557_02_194.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

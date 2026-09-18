@@ -1,0 +1,137 @@
+{
+  "case_id": "SANSEN-2340",
+  "slide_id": "2340",
+  "chapter": 23,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 719,
+    "printed_page": 731
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0719_01_2340.jpg",
+      "pdf_page": 719,
+      "printed_page": 731,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 719,
+      "printed_page": 731,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        355.85397
+      ],
+      "text_raw": "This is a microphotograph\nof the LNA.\nThe input and the output\nare easily recognized.\nAlso, the protection\ndiodes and the transistors\nare visible.\nFinally, the load inductor\nand C and C , the capaci-\n1 2\ntive divider can be found.\nThese large objects on the\nleft are the decoupling\ncapacitors.",
+      "text": "This is a microphotograph of the LNA. The input and the output are easily recognized. Also, the protection diodes and the transistors are visible. Finally, the load inductor and C and C , the capaci- 1 2 tive divider can be found. These large objects on the left are the decoupling capacitors."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This is a microphotograph of the LNA. The input and the output are easily recognized. Also, the protection diodes and the transistors are visible. Finally, the load inductor and C and C , the capaci- 1 2 tive divider can be found. These large objects on the left are the decoupling capacitors.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "LNA Micrograph",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0719_01_2340.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243265685328,
+          0.08292682895470382,
+          0.38851351575772197,
+          0.14634146310104534
+        ],
+        "confidence": 1,
+        "text": "LNA Micrograph"
+      },
+      {
+        "bbox": [
+          0.5540540544932432,
+          0.36585365897560973,
+          0.6114864869256756,
+          0.409756098
+        ],
+        "confidence": 0.5,
+        "text": "P.L."
+      },
+      {
+        "bbox": [
+          0.5540540549831081,
+          0.4097560976219512,
+          0.6283783793074325,
+          0.4536585366463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M.S."
+      },
+      {
+        "bbox": [
+          0.5675675645551802,
+          0.8926829270325204,
+          0.9290540510416666,
+          0.926829268495935
+        ],
+        "confidence": 0.5,
+        "text": "Leroux,, JSSC June 02, 760-765"
+      },
+      {
+        "bbox": [
+          0.7259355307407581,
+          0.9459287040315697,
+          0.9328619925533703,
+          0.9867122837881436
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2340"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0719_01_2340.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

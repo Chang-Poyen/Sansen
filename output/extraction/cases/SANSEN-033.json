@@ -1,0 +1,147 @@
+{
+  "case_id": "SANSEN-033",
+  "slide_id": "033",
+  "chapter": 3,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 88,
+    "printed_page": 90
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0088_01_033.jpg",
+      "pdf_page": 88,
+      "printed_page": 90,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 88,
+      "printed_page": 90,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        356.7010000000001
+      ],
+      "text_raw": "We begin with the current\nmirror first because it is\na simpler circuit to under-\nstand.\nLater on we will discuss\nthe differential pair as a first\nfull-differential amplifier. It\nwill be followed by many\nmore differential amplifiers.\nWe need them because they\nare insensitive to substrate\nnoise and ground bounces.\nThey are therefore necessary\nin all mixed-signal design,\nwhere analog circuits are\nadded on the substrate as\ndigital systems.",
+      "text": "We begin with the current mirror first because it is a simpler circuit to understand. Later on we will discuss the differential pair as a first full-differential amplifier. It will be followed by many more differential amplifiers. We need them because they are insensitive to substrate noise and ground bounces. They are therefore necessary in all mixed-signal design, where analog circuits are added on the substrate as digital systems."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "We begin with the current mirror first because it is a simpler circuit to understand. Later on we will discuss the differential pair as a first full-differential amplifier. It will be followed by many more differential amplifiers. We need them because they are insensitive to substrate noise and ground bounces. They are therefore necessary in all mixed-signal design, where analog circuits are added on the substrate as digital systems.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0088_01_033.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432048141904,
+          0.07804878067073173,
+          0.38175675291385147,
+          0.13170731725609763
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.17229729985923423,
+          0.36097560959349595,
+          0.4797297322916667,
+          0.40975609739837404
+        ],
+        "confidence": 0.5,
+        "text": "• Current mirrors"
+      },
+      {
+        "bbox": [
+          0.17229729918918915,
+          0.45365853712195126,
+          0.49662162351351347,
+          0.507317073707317
+        ],
+        "confidence": 1,
+        "text": "• Differential pairs"
+      },
+      {
+        "bbox": [
+          0.17229730212355204,
+          0.5463414631707318,
+          0.8479729777992278,
+          0.5999999997560976
+        ],
+        "confidence": 1,
+        "text": "• Differential voltage and current amps"
+      },
+      {
+        "bbox": [
+          0.719594593285473,
+          0.9512195126219511,
+          0.9189189176097973,
+          0.9853658540853658
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 033"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0088_01_033.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "They are therefore necessary in all mixed-signal design, where analog circuits are added on the substrate as digital systems.",
+      "pdf_page": 88,
+      "printed_page": 90,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

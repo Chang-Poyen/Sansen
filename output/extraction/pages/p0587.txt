@@ -1,0 +1,44 @@
+598 Chapter #19
+1963
+Tuning Q is much more
+complicated and therefore
+not used very often.
+As explained before it can
+be achieved by tuning a
+resistor which is in parallel
+with the filter load capaci-
+tance C .
+L
+The problem is however,
+how to measure the Q. For
+this purpose, an under-
+damped second-order sys-
+tem is realized by means
+of two Gm blocks. For low
+Q its response is oscillatory.
+Both the expression and the
+response versus time are given in this slide.
+The oscillatory behavior can be detected by taking the difference between the envelop and the
+average output signal. The measurement has to be carried out with two different time constants,
+one which provides the average, and one which takes the envelop.
+1964
+In this realization, two paths
+lead to the differential
+amplifier AMP and low-
+pass filter LPF at the
+output. The top one has an
+oscillatory behavior because
+of low Q. The bottom one
+has a Q close to unity, which
+gives a flat response. This
+difference is amplified and
+fed back over a low-pass
+filter to the tunable resis-
+tance R .
+tune
+1965
+For sake of comparison, three realizations for the same application are listed. They all aim at
+an IF filter for FM. The center frequency is 10.7 MHz and the passband is about 250 kHz. The
+first is realized by a switched-capacitor techniques, the second uses RC components around
+opamps and the third uses Gm blocks such as differential pairs, capacitors and tunable resistors.
+It is clear that the first two realizations suffer from insufficient gain at this fairly high frequency.

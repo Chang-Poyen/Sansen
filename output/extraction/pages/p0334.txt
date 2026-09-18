@@ -1,0 +1,36 @@
+Class AB and driver amplifiers 341
+129
+A better class-AB amplifier
+is obtained by cross-cou-
+pling the input devices. In
+this way, a complementary
+differential pair can be con-
+structed with an expanding
+characteristic.
+1210
+This circuit is shown twice,
+once without cross-coupling
+to figure out the biasing,
+and once with the cross-
+coupling.
+The circuit on the left
+contains two source follow-
+ers. Actually they are source
+followers combined with
+current mirrors. This is why
+they are called super source
+followers.
+The nMOSTs are the
+same and so are the
+pMOSTs. The current
+through M1 and M4 will
+also be I . This also applies to the current through M2/M5.
+B
+All nodes follow the input voltage. For the positive input voltage V+, the Sources of M1 and
+M9, but also the Drain of M3 all have obviously the same voltage swing V+.
+This also applies to the voltages V− of the other super source follower.
+Cross-coupling now the two inner lines, generates a nMOST/pMOST differential pair, with
+V− and V+ at their Gates, and which exhibit an expanding output current.
+This stage has actually four output currents, i.e. the Drain currents of M1 and M5 which
+increase, and also the Drain currents of M2 and M4 which decrease. They can be combined
+with current mirrors towards the output. In this example only two output currents are used.

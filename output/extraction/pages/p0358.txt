@@ -1,0 +1,50 @@
+Feedback voltage and transconductance amplifiers 365
+The output voltage
+simply equals the input cur-
+rent into the feedback resis-
+tor. The closed-loop gain is
+simply R . It is therefore
+F
+a transresistance amplifier
+with gain R .
+F
+The input and output
+resistances are both affected
+by the feedback. In the case
+of shunt feedback, the resis-
+tance decreases by an
+amount equal to the loop
+gain LG, or actually 1+LG.
+135
+It is clear that the loop gain
+LG is the most important
+characteristic of a feedback
+amplifier. Therefore, its
+value must be calculated
+first.
+The loop gain LG is cal-
+culated by breaking the loop
+and by calculating the gain,
+going around the loop. The
+DC conditions must be
+maintained, only the AC
+loop is broken.
+Ideally it makes no
+difference where the loop
+is broken. The loop gain
+should be independent of where the loop is broken. Therefore, we try to find an easy place, a
+place where the calculations are easy. This is the case for any connection where the difference
+between the resistance, left and right are the largest.
+In the example in this slide, the output resistance of the operational amplifier is quite low,
+certainly a lot lower than resistor R . Therefore, we break in between. We apply a voltage source
+F
+(as the output resistance of the opamp was low) and we calculate the voltage going around the
+loop. This gives a value A . However, the voltage on both sides of the resistor R are the same
+0 F
+as there is no current flowing through it.
+What happened to the input current source? Since we have applied another input source v ,
+IN
+we must remove the input current source (called the independent source). For calculating the
+loop gain, we replace an independent current source by its internal resistance (which is infinity).
+Independent voltage sources are replaced by their internal resistance as well, which is just about
+zero or a short-circuit.

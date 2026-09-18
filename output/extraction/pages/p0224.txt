@@ -1,0 +1,53 @@
+Important opamp configurations 229
+transistor is T5. A level shifter T6 then follows to reduce the voltage to about 0.7 V, the V of
+BE
+transistor T8. This level shifter is also required to reach this low supply voltage.
+In the input stage, series resistors of 10 kV are used to increase the Slew-Rate.
+The output stage consists of two emitter followers. As a consequence twice a V of about
+BE
+0.7 V is lost in the output swing. For such large supply voltages, we do not mind so much. For
+smaller supply voltages or larger output swings we must use two Collector-to-collector output
+devices, as we have previously seen in most opamps.
+Diodes T13/T14 are used to set the quiescent current in the output devices.
+0737
+An attempt to raise the
+transconductance of MOSTs
+to higher values is shown
+here.
+It starts with inserting a
+series resistor. This is obvi-
+ously going to decrease the
+transconductance.
+It can increase the
+transconsuctance, provided
+we can make the resistor
+negative. For example, if we
+can make g R =0.8, then
+m S
+g will be 5 times g .
+mR m
+It is too difficult, however,
+to match a g to a resistor
+m
+R to obtain an accurate
+S
+value of, for example, 0.8.
+0738
+This matching is quite feasi-
+ble provided we take two
+nMOST devices, the bottom
+of which is connected as a
+diode. Since both carry
+equal DC currents, the g
+m
+ratio is now the square root
+of the W/L ratio, or the
+V −V ratio, and this can
+GS T
+be made quite accurate.
+Moreover, a negative
+resistance is easily realized
+in differential form, as
+shown in this slide.
+If we can make a layout
+with a W/L ratio of 0.5, for

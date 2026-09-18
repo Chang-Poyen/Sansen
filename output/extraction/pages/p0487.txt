@@ -1,0 +1,49 @@
+Switched-capacitor filters 497
+switch with specific dimensions (W/L) can help as well (see right). When the nMOST in the
+signal patch is switched out, its charge is taken up by the dummy nMOST switch, which is
+switched in. It is only half the size because we assume that the capacitances on both ends are
+the same. The same applies to the charge of the pMOSTs.
+Clock skew (delay in time) and different rise and fall times may render the charge compensation
+incomplete but these are only second-order effects. The main difficulty with the dummy switch
+is that the relative impedances (capacitors) must be known on both ends. If not, addition of a
+dummy switch may make things worse!
+Let us have a closer look at this compensation technique.
+1725
+This graph shows what frac-
+tion of the charge DQ/Q
+charge goes left and right,
+when a MOST switch is
+switched out. The capaci-
+tance at the input is C and
+i
+at the output C.
+On the horizontal axis, a
+parameter is used which
+includes the steepness of the
+clock pulses or simply the
+clock speed. It is normalized
+by means of some transistor
+parameters. High speed
+clocks are on the left,
+whereas slow clocks are on
+the right.
+It shows that for high-speed clocks (small B), the charge redistribution is always the same at
+both ends. Half of the charge goes left, and half right, irrespective of what the input and output
+capacitors are. Dummies are therefore better used.
+The picture is very different if the clock has slow edges (B large). In this case, the charge has
+time to find out what the capacitances (impedances) are on both sides and obviously flows
+towards the highest capacitance (lowest impedance).
+For a large C /C ratio, all the charge flows to the output and dummies are required with
+i
+equally sized transistors. When C equals C, then half the charge flows to the output and a
+i
+dummy MOST is required of half the size. For a small C /C ratio, no charge flows to the output
+i
+and a dummy is better not to be used.
+In practice, however, the situation is not as clear cut. It is difficult then to find out the right
+size of the dummy.
+1726
+It has become clear from the above discussion that overlap capacitances must be as small as
+possible. On top of that, some more parasitic capacitances have to be added.
+For example, in the layout on the left, the poly Gate lines cross the Source and Drain lines.
+The crossing areas (black) give coupling capacitances to be added to the overlap capacitances.

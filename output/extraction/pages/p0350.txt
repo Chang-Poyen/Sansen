@@ -1,0 +1,46 @@
+Class AB and driver amplifiers 357
+The quiescent current in the output devices is not that well defined. The variation of this
+current is decreased by the local feedback of resistor R . However, it will never be really
+sh
+independent of the supply or output voltage.
+1240
+A simpler low-voltage class-
+AB amplifier is shown in
+this slide.
+Only the output stage is
+shown. It consists of two
+current mirrors with current
+factor b. They are driven by
+two parallel input devices,
+with different sizes however.
+Indeed transistor M1 is
+(1+a) times larger than
+transistor M2. The top cur-
+rent mirror with pMOSTs is
+biased by aI and so is the
+bottom one with nMOSTs.
+These are the quiescent cur-
+rents and are well defined.
+The main advantage of this driver is that points A and B can have very large swings. The
+output stage can sink and source currents which are much larger than the quiescent currents.
+For a large voltage, on point B for example, V becomes very large but V is limited by the
+GS8 DS8
+cascode M6. Transistor M8 enters the linear region. This levels off somewhat the increase in
+output current. This current is still a lot larger than for a translinear loop.
+1241
+The full amplifier is shown
+in this slide.
+The first stage is a simple
+differential pair followed by
+a current mirror to drive the
+output stage.
+Only two high-impedance
+points can be distinguished.
+Capacitor C sets the
+m1
+GBW, together with g .
+m1
+Capacitors C and C see
+m2 m3
+small resistances only, and
+are not so effective.

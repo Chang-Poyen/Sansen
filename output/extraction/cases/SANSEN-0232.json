@@ -1,0 +1,406 @@
+{
+  "case_id": "SANSEN-0232",
+  "slide_id": "0232",
+  "chapter": 2,
+  "slide_number_in_chapter": 32,
+  "source": {
+    "pdf_page": 65,
+    "printed_page": 66
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0065_02_0232.jpg",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "bbox_pt": [
+        91.521622,
+        395.567994,
+        374.78981,
+        592.027985
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 65,
+      "printed_page": 66,
+      "bbox_pt": [
+        0,
+        391.57850000000013,
+        595,
+        797
+      ],
+      "text_raw": "It is also possible that the\nMiller effect is present. For\nexample if R is large, and\nS\nthe gain is large, then\n2C A may be larger than\nDGt v\n2C . The non-dominant\nGS\npole is then determined\nby the time constant\n2R C A .\nS DGt v\nThis latter non-dominant\npole can even become domi-\nnant if R or C is very\nS DGt\nlarge. In order to see this,\nwe have to derive the full\nexpression of the gain, from\nthe small-signal equivalent\ncircuit. It is given in this slide. It has two poles and one zero.\nThe dominant pole is at the output, at least whilst C is small. The best way to show this,\nDGt\nis to verify a pole-zero position diagram with C as a variable. This is nothing more than\nDGt\nbilogarithmic diagram of the poles and zeros versus parameter C . It is asymptotic to show\nDGt\nclearly the positions of all break points. More details on such diagram are given in slide N0536\nof Chapter 5.\nThe dominant pole frequency f is clearly determined by the output time constant. For higher\nd\nvalues of C than C /(g R ), the Miller effect dominates.\nDGt L m S",
+      "text": "It is also possible that the Miller effect is present. For example if R is large, and S the gain is large, then 2C A may be larger than DGt v 2C . The non-dominant GS pole is then determined by the time constant 2R C A . S DGt v This latter non-dominant pole can even become dominant if R or C is very S DGt large. In order to see this, we have to derive the full expression of the gain, from the small-signal equivalent circuit. It is given in this slide. It has two poles and one zero. The dominant pole is at the output, at least whilst C is small. The best way to show this, DGt is to verify a pole-zero position diagram with C as a variable. This is nothing more than DGt bilogarithmic diagram of the poles and zeros versus parameter C . It is asymptotic to show DGt clearly the positions of all break points. More details on such diagram are given in slide N0536 of Chapter 5. The dominant pole frequency f is clearly determined by the output time constant. For higher d values of C than C /(g R ), the Miller effect dominates. DGt L m S"
+    },
+    {
+      "pdf_page": 66,
+      "printed_page": 67,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        183.30989999999986
+      ],
+      "text_raw": "The non-dominant pole f is at higher frequencies.\nnd\nThe positive zero f is at very high frequencies.\nz",
+      "text": "The non-dominant pole f is at higher frequencies. nd The positive zero f is at very high frequencies. z"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "It is also possible that the Miller effect is present. For example if R is large, and S the gain is large, then 2C A may be larger than DGt v 2C . The non-dominant GS pole is then determined by the time constant 2R C A . S DGt v This latter non-dominant pole can even become dominant if R or C is very S DGt large. In order to see this, we have to derive the full expression of the gain, from the small-signal equivalent circuit. It is given in this slide. It has two poles and one zero. The dominant pole is at the output, at least whilst C is small. The best way to show this, DGt is to verify a pole-zero position diagram with C as a variable. This is nothing more than DGt bilogarithmic diagram of the poles and zeros versus parameter C . It is asymptotic to show DGt clearly the positions of all break points. More details on such diagram are given in slide N0536 of Chapter 5. The dominant pole frequency f is clearly determined by the output time constant. For higher d values of C than C /(g R ), the Miller effect dominates. DGt L m S\n\nThe non-dominant pole f is at higher frequencies. nd The positive zero f is at very high frequencies. z",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Analog amplifier: poles due to CDG",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0065_02_0232.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270656672291,
+          0.0829268290243903,
+          0.6959459498099662,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Analog amplifier: poles due to CDG"
+      },
+      {
+        "bbox": [
+          0.1520270266650579,
+          0.370731707456446,
+          0.2027027023407336,
+          0.4292682928222997
+        ],
+        "confidence": 0.5,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.23648648581081086,
+          0.3170731700609757,
+          0.2972972966216217,
+          0.3707317066463415
+        ],
+        "confidence": 1,
+        "text": "CDG"
+      },
+      {
+        "bbox": [
+          0.3851351343327703,
+          0.2000000002439024,
+          0.4493243235219595,
+          0.2585365856097561
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5236486478462838,
+          0.20975609762195124,
+          0.587837837035473,
+          0.26341463420731703
+        ],
+        "confidence": 1,
+        "text": "CDG"
+      },
+      {
+        "bbox": [
+          0.4222972977759009,
+          0.41951219500000003,
+          0.47972973020833337,
+          0.4634146340243903
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.5337837841554053,
+          0.34634146395121945,
+          0.5777027030743243,
+          0.40000000053658535
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.5135135136402027,
+          0.4097560968292683,
+          0.5979729730996621,
+          0.4682926821951219
+        ],
+        "confidence": 0.5,
+        "text": "9mRs"
+      },
+      {
+        "bbox": [
+          0.7804054047719594,
+          0.2536585366463414,
+          0.8310810804476351,
+          0.3073170732317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd"
+      },
+      {
+        "bbox": [
+          0.06081081119691119,
+          0.4731707315679442,
+          0.11486486525096525,
+          0.5317073169337979
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.3682432436092342,
+          0.38536585341463403,
+          0.41216216252815313,
+          0.4243902436585365
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.36486486525096523,
+          0.5268292681184669,
+          0.4189189193050193,
+          0.5804878047038328
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.46621621590653156,
+          0.5463414628861789,
+          0.5168918915822072,
+          0.6097560970325203
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.08108108155968466,
+          0.7658536583739838,
+          0.1385135139921171,
+          0.8048780486178863
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.07770270314189189,
+          0.8439024395609757,
+          0.12837837881756756,
+          0.8975609761463414
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.14864864898648647,
+          0.7999999997560976,
+          0.1756756760135135,
+          0.8292682924390244
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.7533783782094594,
+          0.6439024395370011,
+          0.7702702701013513,
+          0.6829268274548687
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6887930911259138,
+          0.7049861747212205,
+          0.8348555554533394,
+          0.7633065109467767
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 RoutCL"
+      },
+      {
+        "bbox": [
+          0.3614864847550676,
+          0.7609756099085366,
+          0.6385135117820947,
+          0.8146341464939025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avo (1 - sCDGt 9m)"
+      },
+      {
+        "bbox": [
+          0.19256756962837837,
+          0.8292682919512195,
+          0.858108110168919,
+          0.9024390236585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 +s (RoutGL + AvoRsGDGt) + s2 RgRoutCDGtGL"
+      },
+      {
+        "bbox": [
+          0.7229729756334459,
+          0.9365853655487804,
+          0.9358108134712837,
+          0.970731707012195
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0232"
+      },
+      {
+        "bbox": [
+          0.9324324322635134,
+          0.6731707308943089,
+          0.9493243241554052,
+          0.721951218699187
+        ],
+        "confidence": 0.5,
+        "text": "f"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The non-dominant GS pole is then determined by the time constant 2R C A .",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In order to see this, we have to derive the full expression of the gain, from the small-signal equivalent circuit.",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The best way to show this, DGt is to verify a pole-zero position diagram with C as a variable.",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0065_02_0232.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For example if R is large, and S the gain is large, then 2C A may be larger than DGt v 2C .",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In order to see this, we have to derive the full expression of the gain, from the small-signal equivalent circuit.",
+      "pdf_page": 65,
+      "printed_page": 66,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0232-M01",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.14864864898648647,
+        0.7999999997560976,
+        0.1756756760135135,
+        0.8292682924390244
+      ],
+      "context_crop": "regions/SANSEN-0232_math_01.png",
+      "context_bbox_normalized": [
+        0.10864864898648646,
+        0.6999999997560976,
+        0.4056756760135135,
+        0.93
+      ],
+      "source_image": "slides/p0065_02_0232.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "07-inverter-ac",
+    "title": "CMOS 反相器：完整频率响应",
+    "summary_zh": "以二节点矩阵保留输入、输出与跨接电容，核对单管／总跨导的系数。",
+    "html": "../derivations/ch02/07-inverter-ac.html",
+    "markdown": "../derivations/ch02/07-inverter-ac.md",
+    "status": "derived_with_source_notes",
+    "discrepancy_ids": [
+      "D05"
+    ],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "CMOS 反相器：完整频率响应",
+    "case_ids": [
+      "inverter_ac",
+      "mos_inverter"
+    ],
+    "linear_count": 1,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#07-inverter-ac",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

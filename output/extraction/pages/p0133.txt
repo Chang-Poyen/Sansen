@@ -1,0 +1,53 @@
+136 Chapter #4
+0438
+A folded cascode contains
+two DC current sources.
+The top one, with transistor
+M3, distributes the DC cur-
+rents over both stages. The
+other one acts as an active
+load.
+The noise of the top cur-
+rent source is very similar
+as for an active load.
+Transistor M3 must be
+designed with large V −
+GS
+V or small W/L. Indeed,
+T
+the full expression shows the
+same g ratio as for a single-
+m
+transistor amplifier with
+active load.
+The noise of the cascode can be neglected altogether, as shown previously. Its noise is reduced
+by the gain of the input transistor.
+A folded cascode is a low-noise amplifier, provided the noise of transistor M3 can be reduced
+by proper sizing or other techniques.
+0439
+Cascodes are sometimes
+used with an input transis-
+tor M1 in the linear region,
+to avoid distortion at the
+input.
+In this case, it is no longer
+clear whether the noise of
+the cascode transistor is still
+negligible.
+For this purpose we have
+to introduce a parameter to
+indicate how deeply the
+input transistor M1 works
+in the linear region. This is
+parameter a . For a =1, the
+1 1
+transistor is on the onset of
+saturation. Normally a is about 0.5 or less.
+1
+The expression describing a MOST in the linear region is given, followed by its on resis-
+tance R .
+on1
+The voltage gain is smaller than before. Actually it is only a fraction of the gain of the cascode
+by itself !
+The total equivalent input noise voltage is due to the on resistance R and the thermal noise
+on1

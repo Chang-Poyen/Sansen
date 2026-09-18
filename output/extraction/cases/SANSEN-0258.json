@@ -1,0 +1,483 @@
+{
+  "case_id": "SANSEN-0258",
+  "slide_id": "0258",
+  "chapter": 2,
+  "slide_number_in_chapter": 58,
+  "source": {
+    "pdf_page": 79,
+    "printed_page": 80
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0079_01_0258.jpg",
+      "pdf_page": 79,
+      "printed_page": 80,
+      "bbox_pt": [
+        91.521622,
+        217.094788,
+        374.78981,
+        413.554779
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 79,
+      "printed_page": 80,
+      "bbox_pt": [
+        0,
+        213.10524999999984,
+        595,
+        558.9904500000002
+      ],
+      "text_raw": "Ideal DC current sources do\nnot exist, however. They\nhave to be realized by means\nof transistors. Such a real-\nization is shown in this slide.\nMOSTs M3 and M4 are\nused in series to give a DC\ncurrent source with an high\noutput resistance.\nIf the output resistance of\ntransistors M1/M2 is about\nthe same as the output resis-\ntance of transistors M3/M4,\nthen the total output resis-\ntance R is about half of\nout\nthat.\nThe bandwidth is obviously determined by the load capacitance. The GBW is then the same\nas for a single-transistor amplifier.\nThis cascode configuration is called the Telescopic cascode, as all transistors are in series\nbetween supply line and ground.\nThe main disadvantage of this cascode is that all transistors must be kept in the saturation\nregion. This means that the minimum voltage v across each transistor is about V −V . If\nDS GS T\nwe take V −V #0.2 V, we find that the maximum output voltage cannot be higher than the\nGS T\nsupply voltage minus 0.4 V, and cannot be lower than 0.4 V. The maximum swing is thus 0.8 V\nlower than the supply voltage. This is a major loss for low supply voltages!",
+      "text": "Ideal DC current sources do not exist, however. They have to be realized by means of transistors. Such a realization is shown in this slide. MOSTs M3 and M4 are used in series to give a DC current source with an high output resistance. If the output resistance of transistors M1/M2 is about the same as the output resistance of transistors M3/M4, then the total output resistance R is about half of out that. The bandwidth is obviously determined by the load capacitance. The GBW is then the same as for a single-transistor amplifier. This cascode configuration is called the Telescopic cascode, as all transistors are in series between supply line and ground. The main disadvantage of this cascode is that all transistors must be kept in the saturation region. This means that the minimum voltage v across each transistor is about V −V . If DS GS T we take V −V #0.2 V, we find that the maximum output voltage cannot be higher than the GS T supply voltage minus 0.4 V, and cannot be lower than 0.4 V. The maximum swing is thus 0.8 V lower than the supply voltage. This is a major loss for low supply voltages!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Ideal DC current sources do not exist, however. They have to be realized by means of transistors. Such a realization is shown in this slide. MOSTs M3 and M4 are used in series to give a DC current source with an high output resistance. If the output resistance of transistors M1/M2 is about the same as the output resistance of transistors M3/M4, then the total output resistance R is about half of out that. The bandwidth is obviously determined by the load capacitance. The GBW is then the same as for a single-transistor amplifier. This cascode configuration is called the Telescopic cascode, as all transistors are in series between supply line and ground. The main disadvantage of this cascode is that all transistors must be kept in the saturation region. This means that the minimum voltage v across each transistor is about V −V . If DS GS T we take V −V #0.2 V, we find that the maximum output voltage cannot be higher than the GS T supply voltage minus 0.4 V, and cannot be lower than 0.4 V. The maximum swing is thus 0.8 V lower than the supply voltage. This is a major loss for low supply voltages!",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Telescopic Cascode",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0079_01_0258.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.077702703277027,
+          0.07317073102439031,
+          0.42567567624999997,
+          0.14146341395121953
+        ],
+        "confidence": 1,
+        "text": "Telescopic Cascode"
+      },
+      {
+        "bbox": [
+          0.1486486485641892,
+          0.263414633597561,
+          0.18918918910472973,
+          0.3073170726219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+3-"
+      },
+      {
+        "bbox": [
+          0.14864864912162162,
+          0.39512195097560976,
+          0.1959459464189189,
+          0.44878048756097555
+        ],
+        "confidence": 1,
+        "text": "+2-"
+      },
+      {
+        "bbox": [
+          0.1554054057713964,
+          0.5317073168292684,
+          0.1993243246903153,
+          0.5804878046341464
+        ],
+        "confidence": 1,
+        "text": "+1-"
+      },
+      {
+        "bbox": [
+          0.27364864905405406,
+          0.27317073146341464,
+          0.3141891895945946,
+          0.3073170729268293
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.27027027067567566,
+          0.4097560973658536,
+          0.3108108112162162,
+          0.4487804876097561
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.08445945898648649,
+          0.6829268293658537,
+          0.1317567562837838,
+          0.7317073171707318
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.27364864868243244,
+          0.5560975613658536,
+          0.31756756760135135,
+          0.5951219516097561
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.2736486488926426,
+          0.6878048778319783,
+          0.31756756781156154,
+          0.7365853656368564
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.35135135077702706,
+          0.4097560970243903,
+          0.422297296722973,
+          0.4634146336097561
+        ],
+        "confidence": 1,
+        "text": "Rout"
+      },
+      {
+        "bbox": [
+          0.3952702707287645,
+          0.49268292668989544,
+          0.45945945991795367,
+          0.5414634144947735
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.3378378387162162,
+          0.6243902446341464,
+          0.4324324333108107,
+          0.6975609763414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "÷ CL"
+      },
+      {
+        "bbox": [
+          0.5235845692570562,
+          0.26781953968316996,
+          0.746685695438169,
+          0.3321804653110878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A, = 9m1 Rout"
+      },
+      {
+        "bbox": [
+          0.5337837849324324,
+          0.41951219463414635,
+          0.6486486497972972,
+          0.47804877999999995
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rout ="
+      },
+      {
+        "bbox": [
+          0.6518323775746564,
+          0.3891065414784668,
+          0.9089784396523591,
+          0.48406419089550656
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 \"Ds1 9m2 'Ds2"
+      },
+      {
+        "bbox": [
+          0.6486486485135134,
+          0.44878048726829267,
+          0.6756756755405405,
+          0.5024390238536586
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.7027027024915541,
+          0.5268292676829268,
+          0.7263513511402028,
+          0.5756097554878049
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.5371621614382239,
+          0.5658536587456445,
+          0.6385135127895754,
+          0.6146341465505225
+        ],
+        "confidence": 0.5,
+        "text": "BW ="
+      },
+      {
+        "bbox": [
+          0.6451268963407065,
+          0.6089503233878141,
+          0.8143325619290854,
+          0.6739765043064379
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 RoutCL"
+      },
+      {
+        "bbox": [
+          0.540459138122727,
+          0.7409649379728859,
+          0.6825138376854183,
+          0.7907423782998557
+        ],
+        "confidence": 1,
+        "text": "GBW="
+      },
+      {
+        "bbox": [
+          0.6959459467905406,
+          0.7024390245853659,
+          0.78040540625,
+          0.7707317075121951
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.6824324326013513,
+          0.7853658529756098,
+          0.7804054055743243,
+          0.853658535902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CL"
+      },
+      {
+        "bbox": [
+          0.7229729825135651,
+          0.9268292675609756,
+          0.9358108074639122,
+          0.9707317065853658
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0258"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Such a realization is shown in this slide.",
+      "pdf_page": 79,
+      "printed_page": 80,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The bandwidth is obviously determined by the load capacitance.",
+      "pdf_page": 79,
+      "printed_page": 80,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If DS GS T we take V −V #0.2 V, we find that the maximum output voltage cannot be higher than the GS T supply voltage minus 0.4 V, and cannot be lower than 0.4 V.",
+      "pdf_page": 79,
+      "printed_page": 80,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0079_01_0258.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "MOSTs M3 and M4 are used in series to give a DC current source with an high output resistance.",
+        "pdf_page": 79,
+        "printed_page": 80,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This cascode configuration is called the Telescopic cascode, as all transistors are in series between supply line and ground.",
+        "pdf_page": 79,
+        "printed_page": 80,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The bandwidth is obviously determined by the load capacitance.",
+      "pdf_page": 79,
+      "printed_page": 80,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The maximum swing is thus 0.8 V lower than the supply voltage.",
+      "pdf_page": 79,
+      "printed_page": 80,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The main disadvantage of this cascode is that all transistors must be kept in the saturation region.",
+      "pdf_page": 79,
+      "printed_page": 80,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0258-M01",
+      "ocr_text": "A, = 9m1 Rout",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5235845692570562,
+        0.26781953968316996,
+        0.746685695438169,
+        0.3321804653110878
+      ],
+      "context_crop": "regions/SANSEN-0258_math_01.png",
+      "context_bbox_normalized": [
+        0.48358456925705623,
+        0.16781953968316995,
+        0.976685695438169,
+        0.4621804653110878
+      ],
+      "source_image": "slides/p0079_01_0258.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0258-M02",
+      "ocr_text": "Rout =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5337837849324324,
+        0.41951219463414635,
+        0.6486486497972972,
+        0.47804877999999995
+      ],
+      "context_crop": "regions/SANSEN-0258_math_02.png",
+      "context_bbox_normalized": [
+        0.4937837849324324,
+        0.3195121946341464,
+        0.8786486497972972,
+        0.60804878
+      ],
+      "source_image": "slides/p0079_01_0258.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0258-M03",
+      "ocr_text": "BW =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5371621614382239,
+        0.5658536587456445,
+        0.6385135127895754,
+        0.6146341465505225
+      ],
+      "context_crop": "regions/SANSEN-0258_math_03.png",
+      "context_bbox_normalized": [
+        0.49716216143822395,
+        0.46585365874564455,
+        0.8685135127895753,
+        0.7446341465505225
+      ],
+      "source_image": "slides/p0079_01_0258.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0258-M04",
+      "ocr_text": "GBW=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.540459138122727,
+        0.7409649379728859,
+        0.6825138376854183,
+        0.7907423782998557
+      ],
+      "context_crop": "regions/SANSEN-0258_math_04.png",
+      "context_bbox_normalized": [
+        0.5004591381227269,
+        0.6409649379728859,
+        0.9125138376854183,
+        0.9207423782998557
+      ],
+      "source_image": "slides/p0079_01_0258.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "16-telescopic-folded",
+    "title": "套筒式与折叠式共源共栅级",
+    "summary_zh": "以支路输出电阻并联及电压裕量条件说明增益、摆幅与偏置电流分配。",
+    "html": "../derivations/ch02/16-telescopic-folded.html",
+    "markdown": "../derivations/ch02/16-telescopic-folded.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "套筒式与折叠式共源共栅级",
+    "case_ids": [
+      "telescopic",
+      "folded"
+    ],
+    "linear_count": 2,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#16-telescopic-folded",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

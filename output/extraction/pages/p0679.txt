@@ -1,0 +1,48 @@
+690 Chapter #22
+2225
+An example of a Colpitts
+oscillator is shown in this
+slide. Indeed it is a single-
+pin oscillator with the crys-
+tal connected to the Drain.
+Again, it is biased by a
+current source I to provide
+B
+adequate isolation from the
+supply line.
+A discrete equivalent is
+shown on the right. The cur-
+rent source is replaced by a
+‘‘choke’’ or large inductor.
+The capacitors are exactly
+where they are expected.
+The output voltage is
+taken at the Drain, as shown by most publications. It may not be the best place, however. At
+resonance, the crystal is a little more than a small resistor. The signal swing at the Drain is
+therefore quite small.
+A better output node is the Source or Emitter, between capacitors C and C .
+1 2
+2226
+The third type of oscillator
+is shown in this slide. Some
+more recent references are
+added on these integrated
+oscillators.
+It is again a single-pin
+oscillator but now with the
+crystal connected to the
+Gate.
+The Source is now the
+output. The transistor is
+biased by a current source,
+which is part of an
+Automatic Gain Control
+system, as will be discussed
+later.
+The output can also be taken by a current source inserted in the Drain. Since the Drain is
+grounded, this is a very elegant way to obtain an output signal without disturbing the oscilla-
+tor itself.
+Both last oscillator types are single-pin oscillators. This means that the crystal is grounded.
+This may add more parasitic capacitance in parallel to the crystal however than in the Pierce
+oscillator. This is why Pierce is often preferred despite the fact that it requires two pins for
+the crystal.

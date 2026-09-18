@@ -1,0 +1,544 @@
+{
+  "case_id": "SANSEN-0928",
+  "slide_id": "0928",
+  "chapter": 9,
+  "slide_number_in_chapter": 28,
+  "source": {
+    "pdf_page": 270,
+    "printed_page": 277
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0270_01_0928.jpg",
+      "pdf_page": 270,
+      "printed_page": 277,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 270,
+      "printed_page": 277,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        415.49451000000016
+      ],
+      "text_raw": "In an open loop, three poles\noccur and two zeros. They\nare given on the right.\nThe open-loop gain A is\ndc\nlarge because three stages\nare present. The resistance\nof each node I to ground is\ndenoted by R .\ni\nThe capacitance of each\nnode to ground is small.\nActually, the minimum the\ncompensation capacitances\nare taken to be at least three\ntimes larger than those par-\nasitic node capacitances.\nThis is why the node capaci-\ntances do not show up in the approximate expressions in this slide.\nThe dominant pole is caused by the Miller effect of the overall compensation capacitance C .\nm1\nThe GBW is determined by this capacitance C and the input transconductance.\nm1\nThe design procedure is given next.",
+      "text": "In an open loop, three poles occur and two zeros. They are given on the right. The open-loop gain A is dc large because three stages are present. The resistance of each node I to ground is denoted by R . i The capacitance of each node to ground is small. Actually, the minimum the compensation capacitances are taken to be at least three times larger than those parasitic node capacitances. This is why the node capacitances do not show up in the approximate expressions in this slide. The dominant pole is caused by the Miller effect of the overall compensation capacitance C . m1 The GBW is determined by this capacitance C and the input transconductance. m1 The design procedure is given next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In an open loop, three poles occur and two zeros. They are given on the right. The open-loop gain A is dc large because three stages are present. The resistance of each node I to ground is denoted by R . i The capacitance of each node to ground is small. Actually, the minimum the compensation capacitances are taken to be at least three times larger than those parasitic node capacitances. This is why the node capacitances do not show up in the approximate expressions in this slide. The dominant pole is caused by the Miller effect of the overall compensation capacitance C . m1 The GBW is determined by this capacitance C and the input transconductance. m1 The design procedure is given next.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "NMC equations in open loop",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0270_01_0928.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0745762675786925,
+          0.07804878066202092,
+          0.5796610133414044,
+          0.14146341480836244
+        ],
+        "confidence": 0.5,
+        "text": "NMC equations in open loop"
+      },
+      {
+        "bbox": [
+          0.447457627161017,
+          0.17560975548780489,
+          0.4847457627542373,
+          0.22439024329268298
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "$2"
+      },
+      {
+        "bbox": [
+          0.20997885551433554,
+          0.20873360924342066,
+          0.3595126736461218,
+          0.26931517472818856
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Adc (1 +"
+      },
+      {
+        "bbox": [
+          0.3966101691101695,
+          0.21463414658536584,
+          0.42711864368644065,
+          0.2536585368292683
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.06440677936440678,
+          0.2780487811585366,
+          0.16949152512711865,
+          0.3317073177439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,(s) ="
+      },
+      {
+        "bbox": [
+          0.4271186447796611,
+          0.2585365858536586,
+          0.5050847464745764,
+          0.30731707365853655
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "03®4"
+      },
+      {
+        "bbox": [
+          0.186440679279661,
+          0.331707316707317,
+          0.2915254250423729,
+          0.3804878045121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "11+3"
+      },
+      {
+        "bbox": [
+          0.28463446948376314,
+          0.34561760380600925,
+          0.38994179959912995,
+          0.38121166591337463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-1 +"
+      },
+      {
+        "bbox": [
+          0.4949152543050848,
+          0.3073170737073171,
+          0.5355932204067797,
+          0.3609756102926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "s?"
+      },
+      {
+        "bbox": [
+          0.44406779644067795,
+          0.34146341424390236,
+          0.46779660999999995,
+          0.38048780448780484
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.40338983097457626,
+          0.3853658535975609,
+          0.4406779665677966,
+          0.4292682926219511
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "@1"
+      },
+      {
+        "bbox": [
+          0.5457627117372882,
+          0.3463414629268293,
+          0.562711864279661,
+          0.3853658531707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ")"
+      },
+      {
+        "bbox": [
+          0.47796610262711864,
+          0.38536585341463414,
+          0.5525423738135593,
+          0.43414634121951223
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0, 02"
+      },
+      {
+        "bbox": [
+          0.07457626854237295,
+          0.507317073804878,
+          0.4474576244745764,
+          0.5707317079512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Adc = 9m19m29m3R,R2R3"
+      },
+      {
+        "bbox": [
+          0.0779661028248587,
+          0.6439024384552845,
+          0.14576271299435023,
+          0.6878048774796747
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0d ="
+      },
+      {
+        "bbox": [
+          0.18305084826271184,
+          0.6731707309756098,
+          0.4644067804661017,
+          0.7317073163414634
+        ],
+        "confidence": 0.5,
+        "text": "Cm19m29m3R,R2Rg"
+      },
+      {
+        "bbox": [
+          0.07118644162711862,
+          0.8195121946829268,
+          0.16610169586440676,
+          0.8731707312682926
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "QUG ="
+      },
+      {
+        "bbox": [
+          0.18644067864406777,
+          0.785365854390244,
+          0.24745762779661012,
+          0.8439024397560976
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.18305084697740115,
+          0.8536585361382114,
+          0.2474576266384181,
+          0.9073170727235772
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cm1"
+      },
+      {
+        "bbox": [
+          0.8305084752542372,
+          0.20000000079268299,
+          0.8915254244067796,
+          0.2634146349390244
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.7559322034237288,
+          0.23902439078048776,
+          0.8203389830847458,
+          0.29268292736585355
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "@1 ="
+      },
+      {
+        "bbox": [
+          0.8271186435875706,
+          0.27317073126016256,
+          0.8915254232485876,
+          0.32682926784552846
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "°m2"
+      },
+      {
+        "bbox": [
+          0.8338983044067797,
+          0.36097560908536586,
+          0.8949152535593221,
+          0.41463414567073176
+        ],
+        "confidence": 1,
+        "text": "9m3"
+      },
+      {
+        "bbox": [
+          0.8406779665084745,
+          0.42926829331707306,
+          0.8881355936271186,
+          0.4926829274634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.8508474579661016,
+          0.5170731705691057,
+          0.9118644071186439,
+          0.5756097559349594
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m3"
+      },
+      {
+        "bbox": [
+          0.7525423727118644,
+          0.5560975615121951,
+          0.844067796440678,
+          0.609756098097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0g =-"
+      },
+      {
+        "bbox": [
+          0.8508474571468927,
+          0.5853658531707318,
+          0.9152542368079096,
+          0.6439024385365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cm2"
+      },
+      {
+        "bbox": [
+          0.8372881351331719,
+          0.6682926824738676,
+          0.908474575811138,
+          0.731707316620209
+        ],
+        "confidence": 1,
+        "text": "9mz"
+      },
+      {
+        "bbox": [
+          0.8406779656497175,
+          0.7414634141463415,
+          0.9016949148022598,
+          0.7999999995121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cm1"
+      },
+      {
+        "bbox": [
+          0.7322033991774529,
+          0.9268292688052938,
+          0.9389830472632249,
+          0.9658536578861788
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0928"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is why the node capacitances do not show up in the approximate expressions in this slide.",
+      "pdf_page": 270,
+      "printed_page": 277,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The dominant pole is caused by the Miller effect of the overall compensation capacitance C . m1 The GBW is determined by this capacitance C and the input transconductance. m1 The design procedure is given next.",
+      "pdf_page": 270,
+      "printed_page": 277,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0270_01_0928.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The open-loop gain A is dc large because three stages are present.",
+      "pdf_page": 270,
+      "printed_page": 277,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "This is why the node capacitances do not show up in the approximate expressions in this slide.",
+      "pdf_page": 270,
+      "printed_page": 277,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0928-M01",
+      "ocr_text": "A,(s) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.06440677936440678,
+        0.2780487811585366,
+        0.16949152512711865,
+        0.3317073177439025
+      ],
+      "context_crop": "regions/SANSEN-0928_math_01.png",
+      "context_bbox_normalized": [
+        0.02440677936440678,
+        0.1780487811585366,
+        0.39949152512711866,
+        0.4617073177439025
+      ],
+      "source_image": "slides/p0270_01_0928.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0928-M02",
+      "ocr_text": "Adc = 9m19m29m3R,R2R3",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07457626854237295,
+        0.507317073804878,
+        0.4474576244745764,
+        0.5707317079512194
+      ],
+      "context_crop": "regions/SANSEN-0928_math_02.png",
+      "context_bbox_normalized": [
+        0.03457626854237295,
+        0.407317073804878,
+        0.6774576244745764,
+        0.7007317079512194
+      ],
+      "source_image": "slides/p0270_01_0928.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0928-M03",
+      "ocr_text": "0d =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0779661028248587,
+        0.6439024384552845,
+        0.14576271299435023,
+        0.6878048774796747
+      ],
+      "context_crop": "regions/SANSEN-0928_math_03.png",
+      "context_bbox_normalized": [
+        0.037966102824858704,
+        0.5439024384552845,
+        0.37576271299435027,
+        0.8178048774796747
+      ],
+      "source_image": "slides/p0270_01_0928.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0928-M04",
+      "ocr_text": "QUG =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07118644162711862,
+        0.8195121946829268,
+        0.16610169586440676,
+        0.8731707312682926
+      ],
+      "context_crop": "regions/SANSEN-0928_math_04.png",
+      "context_bbox_normalized": [
+        0.031186441627118623,
+        0.7195121946829268,
+        0.3961016958644068,
+        0.93
+      ],
+      "source_image": "slides/p0270_01_0928.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0928-M05",
+      "ocr_text": "@1 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7559322034237288,
+        0.23902439078048776,
+        0.8203389830847458,
+        0.29268292736585355
+      ],
+      "context_crop": "regions/SANSEN-0928_math_05.png",
+      "context_bbox_normalized": [
+        0.7159322034237288,
+        0.13902439078048776,
+        1,
+        0.42268292736585356
+      ],
+      "source_image": "slides/p0270_01_0928.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0928-M06",
+      "ocr_text": "0g =-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7525423727118644,
+        0.5560975615121951,
+        0.844067796440678,
+        0.609756098097561
+      ],
+      "context_crop": "regions/SANSEN-0928_math_06.png",
+      "context_bbox_normalized": [
+        0.7125423727118644,
+        0.45609756151219516,
+        1,
+        0.739756098097561
+      ],
+      "source_image": "slides/p0270_01_0928.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

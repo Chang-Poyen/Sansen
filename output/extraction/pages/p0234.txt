@@ -1,0 +1,55 @@
+240 Chapter #8
+083
+The simplest fully-differ-
+ential amplifier is certainly
+this single-stage OTA,
+shown on the right. It is very
+similar to the differential
+voltage amplifier discussed
+in Chapter 2, shown on the
+left. However, the current
+mirror is substituted by two
+DC current sources.
+The circular current, gen-
+erated by the differential
+input voltage is indicated
+with arrows.
+It is clear that this fully-
+differential OTA is even sim-
+pler than the single-ended voltage amplifier. Only two transistors participate in the small-signal
+operation. It can therefore reach higher frequencies!
+On the other hand, it is also clear that this amplifier has a biasing problem. Both biasing
+voltages V and V try to set the DC currents, which is one too many!
+B1 B2
+084
+The biasing voltages V
+B1
+and V have to be such that
+B2
+all transistors are in the sat-
+uration region. Otherwise
+they would exhibit a small
+output resistance which
+would deteriorate the gain.
+The problem of the two
+biasing voltages is that they
+have to be matched to such
+a degree that the average
+output voltages are some-
+where halfway between the
+supply voltages, to keep all
+transistors in saturation,
+even for a large output swing.
+For example, if V is fixed, then a value of V , which is 20 mV too high would reduce both
+B1 B2
+output voltages by 1 V (if the gain of the nMOSTs is 50). Even worse, when the V is larger,
+B2
+the average output voltages are so low that the nMOSTs M3/M4 end up in the linear region,
+killing the gain!
+We have the same problem when biasing voltage V is too low. Now the average output
+B2
+voltages are too high and the pMOSTs M1/M2 end up in the linear region, killing the gain as well!
+This kind of matching is impossible to realize. This is why we need an additional amplifier to
+tune V to the required average or common-mode output voltages. This amplifier only works
+B2
+on common-mode signals. It is called the common-mode feedback amplifier.

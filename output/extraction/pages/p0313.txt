@@ -1,0 +1,43 @@
+320 Chapter #11
+1139
+There is no need to have an
+input range where both
+input pairs are on. The
+supply voltage could be
+reduced to the point where
+a perfect crossover is
+achieved. This means that
+the pMOST pairs goes off
+exactly at the point where
+the nMOST pair comes up.
+This cross-over point is
+exactly at halfway the
+supply voltage for the
+average input. Also, this
+point is exactly where the
+g ’s are halved. As a result,
+m
+there is no more sum to be taken, except around the middle of the input range. The total
+transconductance equals the transconductance of one pair taken only at the extremities.
+The resultant supply voltage is 1.5 V in this design example. This is set experimentally of
+course. This voltage is now twice V +V . This is V +2(V −V ). For operation in weak
+GS DSsat T GS T
+inversion V −V =50 mV has been taken. The values of V must therefore have been 0.65 V.
+GS T T
+For V values of 0.3 V, this rail-to-rail opamp would operate on a supply voltage of 0.8 V.
+T
+This is below 1 V!
+However, it is impossible to set this supply voltage beforehand, as it depends on the absolute
+value of V . Some tolerance must be added to this value. For V values of 0.3 V, this rail-to-rail
+T T
+opamp can certainly operate on a supply voltage below 1 V!
+1140
+The error in transconduct-
+ance is obviously reflected in
+the error on the GBW. This
+has been measured as shown
+in this slide.
+From left to right, the
+total deviation is 4% or
+maybe better ±2%. The
+supply voltage is only 1.5 V.

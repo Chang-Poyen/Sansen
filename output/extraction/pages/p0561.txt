@@ -1,0 +1,39 @@
+572 Chapter #19
+1911
+A similar fifth-order ladder
+filter is shown in this slide.
+It is a fully differential
+filter indeed to cancel out
+even-order distortion. All
+capacitors are fixed but the
+MOST resistors can be
+tuned by means of the con-
+trol voltage at all the Gates.
+A sixth opamp is used to
+convert the single-ended
+input into a differential one.
+1912
+These six opamps are easily
+seen at the bottom of the
+layout.
+The bank of capacitors
+takes the larger area,
+because of better matching.
+The area required for the
+MOST resistors is quite
+small.
+The tuning circuitry takes
+a rather large area. It is dis-
+cussed next.
+1913
+The tuning circuit is a Phase-locked loop. It generates the filter control voltage V , as a result
+c
+of a feedback loop.
+This loop consists of a Voltage-controlled oscillator (VCO), which generates a frequency
+(phase), which is compared to the reference frequency (phase) of the clock in the phase detector.
+The output of this phase detector, which is actually a multiplier, contains the sum and the
+difference of the input frequencies. The sum frequency is a high frequency and is filtered out by
+the low-pass loop filter. The difference frequency is a slowly varying signal, which is fed back to
+the VCO. This is control frequency V indeed.
+c
+The VCO uses the same opamps as in the filter. Also, the capacitors and MOST resistors are

@@ -1,0 +1,46 @@
+578 Chapter #19
+1923
+Both active RC and
+MOSFET-C filters employ
+operational amplifiers. This
+means that only at low fre-
+quencies, the loop gain is
+sufficiently large to guaran-
+tee accurate performance.
+For high frequency filt-
+ers, the operational ampli-
+fiers are reduced to their
+simplest possible configura-
+tions. They only consist of
+differential pairs, to which
+some linearization tech-
+niques have been applied.
+They are called transcon-
+ductors or Gm blocks. Such filters are called GmC filters. They can provide the highest possible
+filter frequencies with reasonable quality factors.
+Firstly some transconductor configurations are discussed, followed by some other tuning
+circuits.
+1924
+Local feedback is an obvi-
+ous technique to increase
+the input range or reduce
+the distortion (see previous
+Chapter).
+Two practical circuits are
+shown in this slide. They are
+equivalent for AC perfor-
+mance but not for DC. In
+the left case the DC currents
+also flow through the series
+resistors R, but not in the
+right case. More DC voltage
+drop is thus required for the
+left case. It is to be avoided
+at low supply voltages.
+Another difference is that, on the left, the two resistors R must be well matched. On the right
+the two current sources must also be well matched. Which one is easier depends on the area used.
+Another difference is that the output capacitance of the current source is connected at a
+common-mode point on the left. On the right, these output capacitances will limit the high-
+frequency performance. A small capacitance across 2R may now be needed for compensation.
+Both circuits have the same reduction in distortion. If more reduction is required, more loop
+gain is required, as shown next.

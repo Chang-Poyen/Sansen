@@ -1,0 +1,41 @@
+L ow-power sigma-delta AD converters 655
+Capacitors C are in par-
+FF
+allel with C and C to pro-
+P M
+vide zeros in the CMFB
+gain characteristic, to speed
+up the CMFB performance
+without adding more power
+(see Chapter 8).
+These circuits have been
+used to construct a second-
+order filter with a 450 kHz
+bandwidth (at 1.8 MHz
+clock frequency). It con-
+sumes only 160 mA at 1 V
+supply voltage (with V Ys
+T
+of 0.65 V in 0.5 mm CMOS).
+Its peak SNR is about
+58 dB. The maximum input
+voltage is 1.6 V , which is
+ptp
+very high indeed.
+2136
+Even less power consump-
+tion has been reached when
+a class-AB amplifier is used
+as an output stage.
+Moreover, some other
+design tricks can be applied
+to minimize the power
+consumption.
+They are collected in this
+design example.
+2137
+The switched-opamp integrator is shown in this slide.
+It is fully-differential. The common-mode feedback is carried out by means of capacitors
+C . The CMFB circuitry itself is not shown.
+CMS,eq
+The functions of the various capacitors is fairly obvious.

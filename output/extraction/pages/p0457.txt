@@ -1,0 +1,46 @@
+466 Chapter #16
+120 mV). This is good for
+low sensitivity to offset and
+noise. The currents are indi-
+cated for RU=6 kV.
+The currents in both tran-
+sistors are kept the same
+because of the equal feed-
+back networks Q1-R1-Q5
+and Q2-R2-Q7. The emit-
+ters of Q5 and Q7 are there-
+fore at the same voltage,
+which is the bandgap volt-
+age. Indeed, resistor R6 can
+here be tuned to provide the
+exact bandgap voltage of
+1.22 V. What is also obvi-
+ously is the sum of the V
+BE
+of transistor Q6 and the voltage V across resistor R6.
+C
+A low output impedance is obtained because of the use of emitter followers and feedback.
+The curvature can be compensated by putting a resistor RU across Q6 and addition of another
+emitter follower at the output, which lowers the output voltage to about 0.4 V (not shown).
+1620
+Operational amplifiers can
+provide much more loop
+gain than a transistor pair.
+In this bandgap reference,
+the opamp finds an out-
+put voltage such that
+the differential input zero
+becomes zero. If the resistors
+R are chosen such that they
+take up about 0.6 V, then
+the output voltage is about
+1.2 V. The output imped-
+ance is obviously very low,
+at least at low frequencies.
+The same applies to the
+bandgap reference on the
+right. Its PSRR is worse however because transistors are used, with their collectors connected
+to the power supply.
+1621
+What is the absolute tolerance that can be obtained with such a bandgap reference?
+For the circuit in this slide, the current and reference voltage are copied from before.

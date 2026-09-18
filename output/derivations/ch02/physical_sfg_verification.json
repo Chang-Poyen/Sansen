@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "construction": "Local physical constraints only; no overall transfer function or reduced algebraic SFG.",
+  "models": [
+    {
+      "id": "miller",
+      "passed": true,
+      "nodes": 9,
+      "voltage_nodes": 5,
+      "current_nodes": 4,
+      "independent_constraints": 8,
+      "edges": 11,
+      "unique_constraint_per_target": true,
+      "primitive_edge_units_checked": true,
+      "symbolic_nodal_equivalence": true,
+      "numerical_port_comparisons": 30,
+      "max_relative_voltage_error": 7.15885425914669e-14,
+      "max_normalized_equation_residual": 1.1519154687492348e-12
+    },
+    {
+      "id": "follower",
+      "passed": true,
+      "nodes": 14,
+      "voltage_nodes": 5,
+      "current_nodes": 9,
+      "independent_constraints": 12,
+      "edges": 20,
+      "unique_constraint_per_target": true,
+      "primitive_edge_units_checked": true,
+      "symbolic_nodal_equivalence": true,
+      "numerical_port_comparisons": 60,
+      "max_relative_voltage_error": 2.341269564283662e-12,
+      "max_normalized_equation_residual": 7.618801821242688e-12
+    },
+    {
+      "id": "gainboost",
+      "passed": true,
+      "nodes": 15,
+      "voltage_nodes": 8,
+      "current_nodes": 7,
+      "independent_constraints": 14,
+      "edges": 20,
+      "unique_constraint_per_target": true,
+      "primitive_edge_units_checked": true,
+      "symbolic_nodal_equivalence": true,
+      "numerical_port_comparisons": 30,
+      "max_relative_voltage_error": 7.326000613500945e-12,
+      "max_normalized_equation_residual": 1.0869182237023196e-13
+    }
+  ],
+  "spec_sha256": "da616052bece0b538fe96b5acd8738da781de17fbc34d26d93f1f9df8857f081"
+}

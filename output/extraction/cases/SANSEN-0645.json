@@ -1,0 +1,355 @@
+{
+  "case_id": "SANSEN-0645",
+  "slide_id": "0645",
+  "chapter": 6,
+  "slide_number_in_chapter": 45,
+  "source": {
+    "pdf_page": 200,
+    "printed_page": 204
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0200_02_0645.jpg",
+      "pdf_page": 200,
+      "printed_page": 204,
+      "bbox_pt": [
+        91.52162,
+        467.31597999999997,
+        374.54215999999997,
+        663.77594
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 200,
+      "printed_page": 204,
+      "bbox_pt": [
+        0,
+        463.32647000000014,
+        595,
+        797
+      ],
+      "text_raw": "The Slew Rate is also part\nof the total settling time.\nWhen we apply a square\nwaveform with large ampli-\ntude, the output will slew\nfirst until it reaches the final\noutput voltage within a\nlarge percentage, let us say\n10%. From then on the\nsmall-signal operation is\ntaking over and the band-\nwidth (or GBW) is deter-\nmining the settling time. The\ncross-over from SR to BW\nlimiting behavior is not\nclear.\nThe minimum settling time would be based on a calculation in which we forget about the SR\naltogether. In this case, 0.1% settling takes 6.9 (or 7) time constants.",
+      "text": "The Slew Rate is also part of the total settling time. When we apply a square waveform with large amplitude, the output will slew first until it reaches the final output voltage within a large percentage, let us say 10%. From then on the small-signal operation is taking over and the bandwidth (or GBW) is determining the settling time. The cross-over from SR to BW limiting behavior is not clear. The minimum settling time would be based on a calculation in which we forget about the SR altogether. In this case, 0.1% settling takes 6.9 (or 7) time constants."
+    },
+    {
+      "pdf_page": 201,
+      "printed_page": 205,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        219.18389999999977
+      ],
+      "text_raw": "The maximum settling time is obtained by addition of the time required to slew from zero to\nthe final output voltage, to the 7 time constants required to reach 0.1% accuracy.\nFor example, if we take the same 1 MHz Miller CMOS OTA, set at a closed-loop gain of 10.\nThe BW is 100 kHz and the corresponding time constant is 1.6 ms. Settling to 0.1% would take\n7 time constants or 11.2 ms.\nTo reach an output voltage of 1 V with a SR of 2.2 V/ms takes 0.45 ms. The total settling time\nis now between 11.2 and 11.6 ms. The actual settling time takes up most of the time!",
+      "text": "The maximum settling time is obtained by addition of the time required to slew from zero to the final output voltage, to the 7 time constants required to reach 0.1% accuracy. For example, if we take the same 1 MHz Miller CMOS OTA, set at a closed-loop gain of 10. The BW is 100 kHz and the corresponding time constant is 1.6 ms. Settling to 0.1% would take 7 time constants or 11.2 ms. To reach an output voltage of 1 V with a SR of 2.2 V/ms takes 0.45 ms. The total settling time is now between 11.2 and 11.6 ms. The actual settling time takes up most of the time!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The Slew Rate is also part of the total settling time. When we apply a square waveform with large amplitude, the output will slew first until it reaches the final output voltage within a large percentage, let us say 10%. From then on the small-signal operation is taking over and the bandwidth (or GBW) is determining the settling time. The cross-over from SR to BW limiting behavior is not clear. The minimum settling time would be based on a calculation in which we forget about the SR altogether. In this case, 0.1% settling takes 6.9 (or 7) time constants.\n\nThe maximum settling time is obtained by addition of the time required to slew from zero to the final output voltage, to the 7 time constants required to reach 0.1% accuracy. For example, if we take the same 1 MHz Miller CMOS OTA, set at a closed-loop gain of 10. The BW is 100 kHz and the corresponding time constant is 1.6 ms. Settling to 0.1% would take 7 time constants or 11.2 ms. To reach an output voltage of 1 V with a SR of 2.2 V/ms takes 0.45 ms. The total settling time is now between 11.2 and 11.6 ms. The actual settling time takes up most of the time!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Slew Rate and settling",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0200_02_0645.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135593003766482,
+          0.08292682945799457,
+          0.47118643851224107,
+          0.1463414636043361
+        ],
+        "confidence": 1,
+        "text": "Slew Rate and settling"
+      },
+      {
+        "bbox": [
+          0.10508474511864409,
+          0.2439024384878049,
+          0.1762711857966102,
+          0.2975609750731707
+        ],
+        "confidence": 0.5,
+        "text": "VIN 4"
+      },
+      {
+        "bbox": [
+          0.5220338981779661,
+          0.44390243963414633,
+          0.5728813558050847,
+          0.4926829274390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• t"
+      },
+      {
+        "bbox": [
+          0.0915254227542373,
+          0.5658536578658537,
+          0.1762711854661017,
+          0.6195121944512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUTA"
+      },
+      {
+        "bbox": [
+          0.3423728833474576,
+          0.5609756106707317,
+          0.5355932223305084,
+          0.6341463423780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ D.1% VOUT"
+      },
+      {
+        "bbox": [
+          0.17966101711864405,
+          0.6975609749756098,
+          0.23728813576271185,
+          0.7609756091219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SRI"
+      },
+      {
+        "bbox": [
+          0.5118644069830508,
+          0.7707317067804877,
+          0.5728813561355932,
+          0.8243902433658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• t"
+      },
+      {
+        "bbox": [
+          0.25072197526294315,
+          0.8286298890013918,
+          0.39334582490542197,
+          0.8884432814544692
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "tslew to.1"
+      },
+      {
+        "bbox": [
+          0.6710771364462271,
+          0.3941763923406356,
+          0.9119737170291852,
+          0.45460409526764356
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "tтот = tslew + to.1"
+      },
+      {
+        "bbox": [
+          0.7762711857966101,
+          0.5219512189268293,
+          0.8474576264745762,
+          0.580487804292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.6711864395762712,
+          0.5609756090853659,
+          0.7661016938135593,
+          0.6146341456707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "tslcw="
+      },
+      {
+        "bbox": [
+          0.7830508478450363,
+          0.595121951010453,
+          0.8372881359806296,
+          0.6439024388153309
+        ],
+        "confidence": 1,
+        "text": "SR"
+      },
+      {
+        "bbox": [
+          0.7966101696610169,
+          0.6780487811585366,
+          0.8237288137288135,
+          0.7317073177439024
+        ],
+        "confidence": 1,
+        "text": "7"
+      },
+      {
+        "bbox": [
+          0.6745762725,
+          0.707317072804878,
+          0.7796610182627118,
+          0.7658536581707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "t0.1 = -"
+      },
+      {
+        "bbox": [
+          0.76938807345035,
+          0.75075187658047,
+          0.8645102329879725,
+          0.7955895863329948
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2a BW"
+      },
+      {
+        "bbox": [
+          0.7048818540360521,
+          0.8423577753349564,
+          0.8612198377655278,
+          0.8893495422878431
+        ],
+        "confidence": 0.5,
+        "text": "In (1000) ~ 7"
+      },
+      {
+        "bbox": [
+          0.7220338957627119,
+          0.9365853660365854,
+          0.9254237262711865,
+          0.9804878050609757
+        ],
+        "confidence": 0.5,
+        "text": "Wily Sansen 10c6 U645"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0200_02_0645.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "From then on the small-signal operation is taking over and the bandwidth (or GBW) is determining the settling time.",
+      "pdf_page": 200,
+      "printed_page": 204,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The cross-over from SR to BW limiting behavior is not clear.",
+      "pdf_page": 200,
+      "printed_page": 204,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For example, if we take the same 1 MHz Miller CMOS OTA, set at a closed-loop gain of 10.",
+      "pdf_page": 201,
+      "printed_page": 205,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0645-M01",
+      "ocr_text": "tтот = tslew + to.1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6710771364462271,
+        0.3941763923406356,
+        0.9119737170291852,
+        0.45460409526764356
+      ],
+      "context_crop": "regions/SANSEN-0645_math_01.png",
+      "context_bbox_normalized": [
+        0.6310771364462271,
+        0.29417639234063564,
+        1,
+        0.5846040952676436
+      ],
+      "source_image": "slides/p0200_02_0645.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0645-M02",
+      "ocr_text": "tslcw=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6711864395762712,
+        0.5609756090853659,
+        0.7661016938135593,
+        0.6146341456707317
+      ],
+      "context_crop": "regions/SANSEN-0645_math_02.png",
+      "context_bbox_normalized": [
+        0.6311864395762712,
+        0.46097560908536594,
+        0.9961016938135593,
+        0.7446341456707317
+      ],
+      "source_image": "slides/p0200_02_0645.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0645-M03",
+      "ocr_text": "t0.1 = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6745762725,
+        0.707317072804878,
+        0.7796610182627118,
+        0.7658536581707317
+      ],
+      "context_crop": "regions/SANSEN-0645_math_03.png",
+      "context_bbox_normalized": [
+        0.6345762724999999,
+        0.607317072804878,
+        1,
+        0.8958536581707317
+      ],
+      "source_image": "slides/p0200_02_0645.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

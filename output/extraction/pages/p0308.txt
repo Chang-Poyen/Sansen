@@ -1,0 +1,52 @@
+Rail-to-rail input and output amplifiers 315
+1129
+The input stage is shown
+twice, once with the inputs
+halfway at the supply volt-
+age and once with the inputs
+at the supply voltage. In the
+first case, all four input tran-
+sistors carry approximately
+equal currents (about 5 mA).
+The thickness of the line cor-
+responds to the size of the
+current.
+Note that the top current
+source has a fixed current.
+All other currents change
+with the average input
+voltage.
+For a high input voltage, the pMOSTs go off. The full current is now available to the nMOST
+devices. Their current doubles and so does their transconductance, providing that they operate
+in weak inversion.
+Large devices are used for small currents. The transistors operate in weak inversion indeed.
+1130
+A very different approach is
+to use a current feedback
+loop, provided the transis-
+tors operate in weak
+inversion
+In the example in this
+slide, the total current is
+measured in the pMOST
+input pair and mirrored to
+current generator I . Also,
+Bp
+the total current is measured
+in the nMOST input pair
+and mirrored to current
+generator I . Both are
+Bn
+summed after correction of
+the I current for the n
+Bp
+factor in summation point S and compared to the reference current 4I .
+B
+If the sum of the currents does not correspond to 4I , the gates of the current sources have
+B
+to be adjusted. If the Gate of the pMOST current source must go up, then the Gate of the
+nMOST current source must go down. This is why there is an inverter before its Gate.
+Clearly this is a common-mode feedback loop. It must therefore be made stable. However,
+compensation capacitance cannot be too large. The common-mode feedback loop must be as
+fast as the differential circuit! This is explained in Chapter 8.
+How can we measure the total current in each input pair?

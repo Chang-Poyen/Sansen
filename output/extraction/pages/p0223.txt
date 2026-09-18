@@ -1,0 +1,47 @@
+228 Chapter #7
+0735
+The first one in the list is an
+OTA which works on a
+mere 1 V supply voltage.
+Moreover, this OTA can
+be switched in and out. To
+verify the operation, we
+must close all four (blue)
+switches.
+Clearly, a two-stage
+Miller CMOS OTA emerges,
+with a folded-cascode as a
+first stage. Because of the
+low supply voltage, transis-
+tor M8 does not have a cas-
+code. The gain will there-
+fore not be that high. A
+second stage provides a good remedy, however.
+Obviously, the compensation capacitance CC does not connect Drain to Gate directly around
+output transistor M10. It takes a path through cascode device M6, in order to avoid a positive
+zero.
+Finally, note that the common-mode input voltage range is just about zero. Indeed the sum
+of V and V is about 1 V. The Gates of the input devices can only operate around zero.
+DS1 GS3
+On the other hand, the average output voltage will be 0.5 V to maximize the output swing.
+As a consequence, the output can never be directly connected to the input, to make a buffer for
+example. A level shifter over 0.5 V will have to be inserted between output and input.
+0736
+A very conventional two-
+stage Miller opamp with
+bipolar transistors is shown
+in this slide. It can be used
+for supply voltages down
+to ±1.5 V.
+Each high-impedance
+point is indicated by means
+of a red dot. It is clearly a
+two-stage amplifier with a
+class AB output stage.
+The GBW is obviously
+determined by the input
+transconductance and the
+30 pF compensation capaci-
+tance. Bipolar transistors
+have sufficient transconductance not to have problems with positive zeros.
+With bipolar transistors, an emitter follower is required between input and second stage. This

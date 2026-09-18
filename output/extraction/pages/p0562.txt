@@ -1,0 +1,45 @@
+Continuous-time filters 573
+of the same order of magni-
+tude as the ones in the filter,
+for good matching. A con-
+trol Voltage V is obtained
+c
+which generates a VCO fre-
+quency f , which is locked to
+c
+the external clock frequency.
+As a result, the filter fre-
+quencies are also locked to
+the external clock frequency.
+This clock is most often a
+crystal oscillator with high
+accuracy (see Chapter 22).
+The filter frequencies can be
+expected to have similar
+high accuracies.
+The main disadvantage of
+such a tuning circuit is that a lot of additional circuitry is required and that the VCO frequency
+f is in the same region as the filter frequency. Leakage from the VCO to the signal path is thus
+c
+hard to avoid. Other tuning schemes will be discussed later.
+1914
+Both active RC and
+MOSFET-C filters employ
+operational amplifiers. This
+means that only at low fre-
+quencies, the loop gain is
+sufficiently large to guaran-
+tee accurate performance.
+For high frequency filters,
+the operational amplifiers
+are reduced to their simplest
+possible configurations.
+They only consist of differ-
+ential pairs, to which some
+linearization techniques
+have been applied. They are
+called transcon-
+ductors or Gm blocks. Such filters are called GmC filters. They can provide the highest possible
+filter frequencies with reasonable quality factors.
+First of all, some transconductor configurations are discussed, followed by some other
+tuning circuits.

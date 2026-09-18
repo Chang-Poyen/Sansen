@@ -1,0 +1,160 @@
+{
+  "case_id": "SANSEN-1348",
+  "slide_id": "1348",
+  "chapter": 13,
+  "slide_number_in_chapter": 48,
+  "source": {
+    "pdf_page": 380,
+    "printed_page": 387
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0380_01_1348.jpg",
+      "pdf_page": 380,
+      "printed_page": 387,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 380,
+      "printed_page": 387,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        797
+      ],
+      "text_raw": "In this Chapter the four\ntypes of feedback have been\nintroduced and compared.\nBoth types of series feed-\nback at the input have been\ndiscussed in detail. For a\nnumber of circuit realiza-\ntions the expressions of the\nloop gain, input and out-\nput impedance have been\nderived.\nIn the following Chapter,\nthe focus is on circuits with\nshunt feedback at the input.",
+      "text": "In this Chapter the four types of feedback have been introduced and compared. Both types of series feedback at the input have been discussed in detail. For a number of circuit realizations the expressions of the loop gain, input and output impedance have been derived. In the following Chapter, the focus is on circuits with shunt feedback at the input."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter the four types of feedback have been introduced and compared. Both types of series feedback at the input have been discussed in detail. For a number of circuit realizations the expressions of the loop gain, input and output impedance have been derived. In the following Chapter, the focus is on circuits with shunt feedback at the input.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0380_01_1348.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627427118638,
+          0.08292682912195126,
+          0.38305085054237287,
+          0.13658536570731705
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.12542372648305092,
+          0.3463414640853658,
+          0.35254237055084753,
+          0.4000000006707316
+        ],
+        "confidence": 1,
+        "text": "• Definitions"
+      },
+      {
+        "bbox": [
+          0.1250000145235625,
+          0.41916167754163247,
+          0.8333333306153262,
+          0.48536585325812565
+        ],
+        "confidence": 1,
+        "text": "• Series-shunt FB for Voltage amplifiers."
+      },
+      {
+        "bbox": [
+          0.12500000589285712,
+          0.49700598859106837,
+          0.950000005892857,
+          0.556886226635621
+        ],
+        "confidence": 1,
+        "text": "• Series-series FB for Transconductance amps."
+      },
+      {
+        "bbox": [
+          0.7220339078780179,
+          0.9317073175857816,
+          0.9355932169807389,
+          0.9707317066666666
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen mus 1348"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In this Chapter the four types of feedback have been introduced and compared.",
+      "pdf_page": 380,
+      "printed_page": 387,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For a number of circuit realizations the expressions of the loop gain, input and output impedance have been derived.",
+      "pdf_page": 380,
+      "printed_page": 387,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0380_01_1348.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For a number of circuit realizations the expressions of the loop gain, input and output impedance have been derived.",
+      "pdf_page": 380,
+      "printed_page": 387,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

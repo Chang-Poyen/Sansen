@@ -1,0 +1,423 @@
+{
+  "case_id": "SANSEN-1511",
+  "slide_id": "1511",
+  "chapter": 15,
+  "slide_number_in_chapter": 11,
+  "source": {
+    "pdf_page": 418,
+    "printed_page": 426
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0418_01_1511.jpg",
+      "pdf_page": 418,
+      "printed_page": 426,
+      "bbox_pt": [
+        91.521622,
+        193.27844299999992,
+        374.78981,
+        389.738434
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 418,
+      "printed_page": 426,
+      "bbox_pt": [
+        0,
+        189.28889999999978,
+        595,
+        487.24250000000023
+      ],
+      "text_raw": "Note that several sources of\nparameter spreading have\nbeen identified, we can try\nto establish their relation-\nship with the offset.\nA simple differential pair\nis taken first, in which the\nonly source of asymmetry is\nthe spreading in load resis-\ntor RL. This will result in a\ndifferential output voltage\nv and therefore into an\nod\noffset voltage. It is calcu-\nlated in this slide.\nThe differential output\nvoltage v is readily calcu-\nod\nlated, as both transistors carry an equal current I /2. This v divided by the small-signal gain\nB od\ng R gives the differential input voltage required to make the differential output voltage zero,\nm L\nwhich is by definition the offset voltage v .\nos\nThe final result for the offset voltage v shows that the input transistors must be designed for\nos\nhigh gain, which means they must be designed for small V −V .\nGS T\nPushing them into a weak inversion would make the offset voltage even smaller! Indeed for a\nweak inversion factor (V −V )/2 it can be substituted by nkT/q, which is always smaller.\nGS T",
+      "text": "Note that several sources of parameter spreading have been identified, we can try to establish their relationship with the offset. A simple differential pair is taken first, in which the only source of asymmetry is the spreading in load resistor RL. This will result in a differential output voltage v and therefore into an od offset voltage. It is calculated in this slide. The differential output voltage v is readily calcuod lated, as both transistors carry an equal current I /2. This v divided by the small-signal gain B od g R gives the differential input voltage required to make the differential output voltage zero, m L which is by definition the offset voltage v . os The final result for the offset voltage v shows that the input transistors must be designed for os high gain, which means they must be designed for small V −V . GS T Pushing them into a weak inversion would make the offset voltage even smaller! Indeed for a weak inversion factor (V −V )/2 it can be substituted by nkT/q, which is always smaller. GS T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Note that several sources of parameter spreading have been identified, we can try to establish their relationship with the offset. A simple differential pair is taken first, in which the only source of asymmetry is the spreading in load resistor RL. This will result in a differential output voltage v and therefore into an od offset voltage. It is calculated in this slide. The differential output voltage v is readily calcuod lated, as both transistors carry an equal current I /2. This v divided by the small-signal gain B od g R gives the differential input voltage required to make the differential output voltage zero, m L which is by definition the offset voltage v . os The final result for the offset voltage v shows that the input transistors must be designed for os high gain, which means they must be designed for small V −V . GS T Pushing them into a weak inversion would make the offset voltage even smaller! Indeed for a weak inversion factor (V −V )/2 it can be substituted by nkT/q, which is always smaller. GS T",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Random offset in differential pair",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0418_01_1511.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432912162158,
+          0.08292682990243905,
+          0.6689189237162162,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "Random offset in differential pair"
+      },
+      {
+        "bbox": [
+          0.158783784375,
+          0.258536585304878,
+          0.20608108167229727,
+          0.3121951218902439
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.10135135152027026,
+          0.34146341524390245,
+          0.1554054055743243,
+          0.39024390304878054
+        ],
+        "confidence": 0.5,
+        "text": "Vo1"
+      },
+      {
+        "bbox": [
+          0.36113733976962087,
+          0.2715206471728435,
+          0.4800788788123257,
+          0.32847935279581897
+        ],
+        "confidence": 1,
+        "text": "RL+ARL"
+      },
+      {
+        "bbox": [
+          0.4121621625723938,
+          0.3414634144250872,
+          0.46959459500482625,
+          0.3902439022299652
+        ],
+        "confidence": 0.5,
+        "text": "Vo2"
+      },
+      {
+        "bbox": [
+          0.2905405403716216,
+          0.37560975585365863,
+          0.3141891890202702,
+          0.4097560973170732
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.2500000007179054,
+          0.4097560974390244,
+          0.30743243315033786,
+          0.4585365852439025
+        ],
+        "confidence": 1,
+        "text": "Vod"
+      },
+      {
+        "bbox": [
+          0.054054053378378396,
+          0.5707317065853659,
+          0.10135135067567569,
+          0.614634145609756
+        ],
+        "confidence": 1,
+        "text": "Vos"
+      },
+      {
+        "bbox": [
+          0.5878378395945947,
+          0.24390243970731706,
+          0.770270272027027,
+          0.3121951226341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vod = ARL 2"
+      },
+      {
+        "bbox": [
+          0.6858108111969112,
+          0.3560975607665505,
+          0.7398648652509653,
+          0.4048780485714286
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vod"
+      },
+      {
+        "bbox": [
+          0.5912162187280534,
+          0.39024390252032515,
+          0.6452702695602348,
+          0.43414634154471543
+        ],
+        "confidence": 1,
+        "text": "Vos"
+      },
+      {
+        "bbox": [
+          0.6418918925847474,
+          0.3902439029268292,
+          0.6689189180008381,
+          0.41951219560975606
+        ],
+        "confidence": 0.5,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.6824324331644144,
+          0.41951219495934966,
+          0.7702702710022522,
+          0.47804878032520337
+        ],
+        "confidence": 0.5,
+        "text": "9mRL"
+      },
+      {
+        "bbox": [
+          0.5912162153716216,
+          0.560975609902439,
+          0.675675674831081,
+          0.6146341464878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vos="
+      },
+      {
+        "bbox": [
+          0.68581081,
+          0.5268292676097561,
+          0.8141891883783784,
+          0.5951219505365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ARL IB"
+      },
+      {
+        "bbox": [
+          0.6959459454391892,
+          0.6048780495121951,
+          0.8175675670608108,
+          0.6634146348780489
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RL 29m"
+      },
+      {
+        "bbox": [
+          0.6890234641636502,
+          0.6866046671488332,
+          0.8886792418628888,
+          0.7475416786815003
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ARL Vgs-VT"
+      },
+      {
+        "bbox": [
+          0.597972972442085,
+          0.7414634148083623,
+          0.6722972967664094,
+          0.7853658538327525
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vos ="
+      },
+      {
+        "bbox": [
+          0.810810810472973,
+          0.7658536587195122,
+          0.8378378375000001,
+          0.8097560977439024
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.3378378477477474,
+          0.8585365849593496,
+          0.932432442342342,
+          0.8926829264227643
+        ],
+        "confidence": 0.5,
+        "text": "Ref.: Laker, Sansen : Design of analog ..., MacGraw Hill 1994"
+      },
+      {
+        "bbox": [
+          0.7128378474347362,
+          0.9512195116260161,
+          0.9290540507634617,
+          0.9853658530894308
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10a5 1511"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It is calculated in this slide.",
+      "pdf_page": 418,
+      "printed_page": 426,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This v divided by the small-signal gain B od g R gives the differential input voltage required to make the differential output voltage zero, m L which is by definition the offset voltage v . os The final result for the offset voltage v shows that the input transistors must be designed for os high gain, which means they must be designed for small V −V .",
+      "pdf_page": 418,
+      "printed_page": 426,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0418_01_1511.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A simple differential pair is taken first, in which the only source of asymmetry is the spreading in load resistor RL.",
+        "pdf_page": 418,
+        "printed_page": 426,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This will result in a differential output voltage v and therefore into an od offset voltage.",
+      "pdf_page": 418,
+      "printed_page": 426,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The differential output voltage v is readily calcuod lated, as both transistors carry an equal current I /2.",
+      "pdf_page": 418,
+      "printed_page": 426,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This v divided by the small-signal gain B od g R gives the differential input voltage required to make the differential output voltage zero, m L which is by definition the offset voltage v . os The final result for the offset voltage v shows that the input transistors must be designed for os high gain, which means they must be designed for small V −V .",
+      "pdf_page": 418,
+      "printed_page": 426,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1511-M01",
+      "ocr_text": "Vod = ARL 2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5878378395945947,
+        0.24390243970731706,
+        0.770270272027027,
+        0.3121951226341464
+      ],
+      "context_crop": "regions/SANSEN-1511_math_01.png",
+      "context_bbox_normalized": [
+        0.5478378395945946,
+        0.14390243970731706,
+        1,
+        0.4421951226341464
+      ],
+      "source_image": "slides/p0418_01_1511.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1511-M02",
+      "ocr_text": "=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6418918925847474,
+        0.3902439029268292,
+        0.6689189180008381,
+        0.41951219560975606
+      ],
+      "context_crop": "regions/SANSEN-1511_math_02.png",
+      "context_bbox_normalized": [
+        0.6018918925847474,
+        0.2902439029268292,
+        0.8989189180008381,
+        0.5495121956097561
+      ],
+      "source_image": "slides/p0418_01_1511.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1511-M03",
+      "ocr_text": "Vos=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5912162153716216,
+        0.560975609902439,
+        0.675675674831081,
+        0.6146341464878049
+      ],
+      "context_crop": "regions/SANSEN-1511_math_03.png",
+      "context_bbox_normalized": [
+        0.5512162153716216,
+        0.460975609902439,
+        0.905675674831081,
+        0.7446341464878049
+      ],
+      "source_image": "slides/p0418_01_1511.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1511-M04",
+      "ocr_text": "Vos =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.597972972442085,
+        0.7414634148083623,
+        0.6722972967664094,
+        0.7853658538327525
+      ],
+      "context_crop": "regions/SANSEN-1511_math_04.png",
+      "context_bbox_normalized": [
+        0.557972972442085,
+        0.6414634148083623,
+        0.9022972967664094,
+        0.9153658538327525
+      ],
+      "source_image": "slides/p0418_01_1511.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

@@ -1,0 +1,53 @@
+DiVerential voltage and current amplifiers 109
+0339
+The same current flows are
+given for this inverted OTA.
+An input voltage of sev-
+eral mV’s will cause a
+difference in current in the
+input devices. The current in
+T1 is 74% of the total cur-
+rent in the current source,
+leaving 26% for the other
+transistor T2. This differ-
+ence in current has pre-
+viously been called circular
+current. It is thus 24% of the
+current of the DC current
+source or 48% of the DC
+transistor current!
+This current of 74% flows through three devices, whereas the fourth transistor T2 only carries
+26%. This is a very asymmetrical gain stage indeed. This is a result of the single-ended nature
+of this circuit.
+The current through the load is then the difference between 74% of T4 and 26% of T2, which
+is 48%. The load resistance converts this current into an output voltage.
+Normally there is no load resistor. It actually consists of the two output resistances r of the
+DS
+transistors T2 and T4 in parallel.
+0340
+The gain is now easily
+calculated.
+If we denote the output
+resistance by R , which is
+out
+again the parallel combina-
+tion of the two output resist-
+ances r of the transistors
+DS
+T2 and T4, then the gain is
+simply g R .
+m1 out
+The bandwidth is cause
+by the output capacitance
+and the same resistance
+R .
+out
+As a result, the GBW
+is again the same as for
+a single-transistor amplifier.
+Indeed, this is a single-stage amplifier because only one single high-impedance point can be
+distinguished, i.e. at the output. All other nodes are on the 1/g impedance level.
+m
+The gain is not very high however. We could use cascodes to increase the gain. Gain boosting
+and current cancellation have also been discussed. We will now introduce a fourth technique to
+enhance gain, bootstrapping.

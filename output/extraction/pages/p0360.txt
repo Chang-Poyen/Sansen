@@ -1,0 +1,47 @@
+Feedback voltage and transconductance amplifiers 367
+138
+Using bipolar transistors
+instead of MOSTs changes
+the input resistance con-
+siderably. Now that the
+input resistance of the bi-
+polar transistor is only r ,
+p
+instead of infinity for a
+MOST. As a result, the loop
+gain will no longer be the
+same as the feedback resis-
+tor may be comparable to
+that resistance r .
+p
+The closed-loop gain is
+still the same however, i.e.
+R .
+F
+To calculate the loop gain
+LG we can break the loop between the emitter of transistor Q2 and resistor R as we did before.
+F
+There is a better place however, as shown next.
+139
+To find this better place to
+break the loop, we have to
+draw the small-signal sche-
+matic. Now it becomes clear
+that right in between the
+base terminal of transistor
+Q1 and its voltage-con-
+trolled current source is an
+excellent place to break the
+loop. We therefore exploit
+the fact that the input resis-
+tor r of transistor Q1 is
+p1
+physically separated from
+the current source g v in
+m1 IN
+the small-signal equivalent
+circuit. They are only linked
+by means of an equation which only provides a non-physical connection.
+The loop-gain is then readily calculated. It shows that at the input, we find a resistive divider
+of r with R , which reduces the loop gain somewhat.
+p1 F

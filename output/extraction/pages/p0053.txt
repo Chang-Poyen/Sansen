@@ -1,0 +1,52 @@
+54 Chapter #2
+027
+At higher frequencies, the
+voltage gain will fall off as a
+result of all capacitances.
+There are three positions
+where a capacitance can
+occur. Normally the load
+capacitance is the largest
+one, as it consists of all
+interconnect capacitance to
+the next stage and the feed-
+back capacitances applied
+(as in switched-capacitance
+filters).
+Here only a load capaci-
+tance C is present. The low
+L
+frequency gain A is as
+v0
+before. The pole frequency, at which the gain starts decreasing is called the bandwidth BW or
+the −3dB frequency. It is simply determined by the output RC time constant.
+The product of the low-frequency gain and the bandwidth is called the Gain-Bandwidth
+product GBW. It is by far the most important quality factor of an amplifier. Actually it is the
+most important specification of an amplifier. Later on we will compare amplifiers by means of
+a Figure of Merit (FOM), which quotes how much GBW can be obtained for a certain load
+capacitance and power consumption.
+The GBW itself is readily obtained. It only depends on the transistor transconductance and
+the load capacitance, not on the output resistance. We will see that this expression is valid for
+all possible single-stage amplifiers. It is therefore a very important expression!
+028
+To have a better view on
+how the frequencies BW and
+GBW are related to the low-
+frequency gain, a Bode dia-
+gram is included.
+Such a Bode diagram
+consists of two diagrams,
+both versus frequency on a
+logarithmic scale. The top
+one shows the logarithm of
+the amplitude of the gain,
+denoted by |A |. The bottom
+v
+one plots the phase of the
+gain A .
+v
+It is clear that the GBW
+is indeed the product of A
+v0
+and the BW. At the BW itself, the phase shift is −45°. At higher frequencies however, the phase
+shift increases to −90°.

@@ -1,0 +1,160 @@
+{
+  "case_id": "SANSEN-0549",
+  "slide_id": "0549",
+  "chapter": 5,
+  "slide_number_in_chapter": 49,
+  "source": {
+    "pdf_page": 171,
+    "printed_page": 175
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0171_01_0549.jpg",
+      "pdf_page": 171,
+      "printed_page": 175,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 171,
+      "printed_page": 175,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        381.6135000000001
+      ],
+      "text_raw": "As we have become familiar\nwith the design of a two-\nstage amplifier, we can\neasily extend this design\nmethod to three-stage\namplifiers. Indeed, we will\nuse the Miller effect twice.\nThe resulting power con-\nsumption will be relatively\nhigh as we have to deal with\nthe two non-dominant\npoles. In Chapter 10 on\nmultistage amplifiers, we\nwill present some more\nmultistage amplifiers with\nmuch lower power con-\nsumption.",
+      "text": "As we have become familiar with the design of a twostage amplifier, we can easily extend this design method to three-stage amplifiers. Indeed, we will use the Miller effect twice. The resulting power consumption will be relatively high as we have to deal with the two non-dominant poles. In Chapter 10 on multistage amplifiers, we will present some more multistage amplifiers with much lower power consumption."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As we have become familiar with the design of a twostage amplifier, we can easily extend this design method to three-stage amplifiers. Indeed, we will use the Miller effect twice. The resulting power consumption will be relatively high as we have to deal with the two non-dominant poles. In Chapter 10 on multistage amplifiers, we will present some more multistage amplifiers with much lower power consumption.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0171_01_0549.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270460304052,
+          0.08292682905487803,
+          0.3817567586570946,
+          0.13658536564024393
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.12837838293918907,
+          0.24390243981707316,
+          0.7297297342905404,
+          0.30731707396341457
+        ],
+        "confidence": 1,
+        "text": "• Use of operational amplifiers"
+      },
+      {
+        "bbox": [
+          0.128378374469112,
+          0.351219512369338,
+          0.6756756717664094,
+          0.41463414651567954
+        ],
+        "confidence": 1,
+        "text": "• Stability of 2-stage opamp"
+      },
+      {
+        "bbox": [
+          0.12837837627895754,
+          0.46341463435540076,
+          0.42229729519787645,
+          0.5219512197212544
+        ],
+        "confidence": 0.5,
+        "text": "• Pole splitting"
+      },
+      {
+        "bbox": [
+          0.12837837939189184,
+          0.5707317065243902,
+          0.7635135145270269,
+          0.6341463406707316
+        ],
+        "confidence": 1,
+        "text": "• Compensation of positive zero"
+      },
+      {
+        "bbox": [
+          0.128378374469112,
+          0.6829268294425086,
+          0.6756756717664094,
+          0.7463414635888501
+        ],
+        "confidence": 1,
+        "text": "• Stability of 3-stage opamp"
+      },
+      {
+        "bbox": [
+          0.7293770475409197,
+          0.9408320562644529,
+          0.9362496654171272,
+          0.9868428645113446
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 os 0549"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0171_01_0549.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

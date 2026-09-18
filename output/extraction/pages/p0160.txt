@@ -1,0 +1,52 @@
+164 Chapter #5
+0530
+A generic 2-stage amplifier
+is shown in this slide.
+It consists of a differential
+input stage, which converts
+the differential input voltage
+into a current, by transcon-
+ductance g . A second-
+m1
+stage follows, which is usu-
+ally little more than a single-
+transistor amplifier, and
+which has a transconduct-
+ance g . The output load
+m2
+consists of both a resistor
+and a capacitor.
+The second stage has a
+feedback capacitor C . It
+c
+will be used to compensate this opamp. This is why it is called compensation capacitance. We
+will now try to find the gain, bandwidth and the gain-bandwidth product GBW.
+The gain is readily found by realizing that the second stage is actually a transresistance
+amplifier which converts the input current into the output voltage, by means of the impedance of
+capacitor C .
+c
+The gain A is then simply the product of the input g with the impedance of C . Obviously,
+v m1 c
+this gain A decreases with frequency, and crosses the unity-gain line at the frequency GBW.
+v
+The gain does not go to infinity at very low frequencies. It stops somewhere depending on
+whether cascodes are used, etc. The low-frequency gain is not that important after all. The higher
+frequency region is much more important, since feedback is always applied.
+0531
+The GBW is thus given by
+the frequency where the
+voltage gain is unity. Its
+expression is valid for all
+two-stage amplifiers!
+Remember that a single-
+transistor amplifier has a
+similar expression for the
+GBW. However, note that it
+contains the load capaci-
+tance. This two-stage op-
+amp contains the compensa-
+tion capacitance C instead.
+c
+For stability, we have to
+know the position of the
+non-dominant pole.

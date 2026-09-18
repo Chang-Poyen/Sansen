@@ -1,0 +1,56 @@
+Systematic design of operational amplifiers 205
+The maximum settling time is obtained by addition of the time required to slew from zero to
+the final output voltage, to the 7 time constants required to reach 0.1% accuracy.
+For example, if we take the same 1 MHz Miller CMOS OTA, set at a closed-loop gain of 10.
+The BW is 100 kHz and the corresponding time constant is 1.6 ms. Settling to 0.1% would take
+7 time constants or 11.2 ms.
+To reach an output voltage of 1 V with a SR of 2.2 V/ms takes 0.45 ms. The total settling time
+is now between 11.2 and 11.6 ms. The actual settling time takes up most of the time!
+0646
+The output impedance is
+examined next.
+For this purpose, we have
+left out the external resistive
+load. They are normally
+absent anyway. We can dis-
+tinguish two output imped-
+ances, i.e. the one of the
+amplifier itself Z and the
+OUT
+output impedance inclu-
+ding the load capacitance
+Z . The latter one is the
+OUTCL
+impedance at the intercon-
+nect to the next stage.
+The output impedance
+Z itself is high at low fre-
+OUT
+quencies, where it is the parallel combination of the r ’s of M5 and M6.
+o
+At high frequencies however, the compensation capacitance C acts as a short. The output
+c
+impedance Z becomes resistive with value 1/g . This is shown next.
+OUT m6
+0647
+Without feedback, the open-
+loop output impedance
+Z is high indeed at low
+OUT
+frequencies. It decreases
+until it reaches the level
+1/g .
+m6
+The pole f of this Z is
+d OUT
+about the same as for the
+open-loop gain characteris-
+tic. The zero f however, is
+z
+a new characteristic fre-
+quency. It is nowhere visible
+in the gain characteristic. It
+only appears in the output
+impedance and in the noise
+characteristic, which comes
+next.

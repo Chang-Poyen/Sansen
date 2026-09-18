@@ -1,0 +1,197 @@
+{
+  "case_id": "SANSEN-1150",
+  "slide_id": "1150",
+  "chapter": 11,
+  "slide_number_in_chapter": 50,
+  "source": {
+    "pdf_page": 318,
+    "printed_page": 325
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0318_02_1150.jpg",
+      "pdf_page": 318,
+      "printed_page": 325,
+      "bbox_pt": [
+        91.52162,
+        421.47695999999996,
+        374.54222,
+        617.9868
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 318,
+      "printed_page": 325,
+      "bbox_pt": [
+        0,
+        417.48751000000016,
+        595,
+        797
+      ],
+      "text_raw": "The actual change in input\ntransconductance or GBW\nover the common mode\ninput range is about\n6%. The actual crossover\nregion shows the most\nirregularities.\nIn this design example,\nthe change in transconduct-\nance may even be more\nimportant for the distortion\nthan the change in offset.\nLet us have a look at the\noffset indeed.",
+      "text": "The actual change in input transconductance or GBW over the common mode input range is about 6%. The actual crossover region shows the most irregularities. In this design example, the change in transconductance may even be more important for the distortion than the change in offset. Let us have a look at the offset indeed."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The actual change in input transconductance or GBW over the common mode input range is about 6%. The actual crossover region shows the most irregularities. In this design example, the change in transconductance may even be more important for the distortion than the change in offset. Let us have a look at the offset indeed.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "GBW error",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0318_02_1150.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07452470959479812,
+          0.07763421111606683,
+          0.28140749674969084,
+          0.13212188610832576
+        ],
+        "confidence": 1,
+        "text": "GBW error"
+      },
+      {
+        "bbox": [
+          0.061016949709443095,
+          0.24390243878048778,
+          0.13898305140435832,
+          0.28780487780487807
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.14576271127118645,
+          0.2682926830487805,
+          0.19322033838983052,
+          0.29756097573170737
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1.35-"
+      },
+      {
+        "bbox": [
+          0.060763904863857715,
+          0.2965979229765079,
+          0.149405585565162,
+          0.3473045165597777
+        ],
+        "confidence": 1,
+        "text": "(MHz)"
+      },
+      {
+        "bbox": [
+          0.14915254241525425,
+          0.42926829237804887,
+          0.18644067800847458,
+          0.4536585362804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 25"
+      },
+      {
+        "bbox": [
+          0.1593220350454867,
+          0.5121951224390243,
+          0.18644067749688614,
+          0.5414634151219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1.2"
+      },
+      {
+        "bbox": [
+          0.1525423736158192,
+          0.5902439021138212,
+          0.1966101702259887,
+          0.619512194796748
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "*.15-"
+      },
+      {
+        "bbox": [
+          0.15254237367231635,
+          0.7560975607317074,
+          0.20000000079096042,
+          0.7804878046341465
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1.00.-"
+      },
+      {
+        "bbox": [
+          0.7488548134833064,
+          0.8466760405156083,
+          0.9257214547703827,
+          0.9045434721562333
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T.a VIN,CM (V)"
+      },
+      {
+        "bbox": [
+          0.7254237318893175,
+          0.9512195123577235,
+          0.9288135494666148,
+          0.9804878050406504
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1i16 1150"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The actual crossover region shows the most irregularities.",
+      "pdf_page": 318,
+      "printed_page": 325,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0318_02_1150.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

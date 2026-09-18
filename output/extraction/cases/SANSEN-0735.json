@@ -1,0 +1,403 @@
+{
+  "case_id": "SANSEN-0735",
+  "slide_id": "0735",
+  "chapter": 7,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 223,
+    "printed_page": 228
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0223_01_0735.jpg",
+      "pdf_page": 223,
+      "printed_page": 228,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 223,
+      "printed_page": 228,
+      "bbox_pt": [
+        0,
+        118.58729999999991,
+        595,
+        463.2269250000003
+      ],
+      "text_raw": "The first one in the list is an\nOTA which works on a\nmere 1 V supply voltage.\nMoreover, this OTA can\nbe switched in and out. To\nverify the operation, we\nmust close all four (blue)\nswitches.\nClearly, a two-stage\nMiller CMOS OTA emerges,\nwith a folded-cascode as a\nfirst stage. Because of the\nlow supply voltage, transis-\ntor M8 does not have a cas-\ncode. The gain will there-\nfore not be that high. A\nsecond stage provides a good remedy, however.\nObviously, the compensation capacitance CC does not connect Drain to Gate directly around\noutput transistor M10. It takes a path through cascode device M6, in order to avoid a positive\nzero.\nFinally, note that the common-mode input voltage range is just about zero. Indeed the sum\nof V and V is about 1 V. The Gates of the input devices can only operate around zero.\nDS1 GS3\nOn the other hand, the average output voltage will be 0.5 V to maximize the output swing.\nAs a consequence, the output can never be directly connected to the input, to make a buffer for\nexample. A level shifter over 0.5 V will have to be inserted between output and input.",
+      "text": "The first one in the list is an OTA which works on a mere 1 V supply voltage. Moreover, this OTA can be switched in and out. To verify the operation, we must close all four (blue) switches. Clearly, a two-stage Miller CMOS OTA emerges, with a folded-cascode as a first stage. Because of the low supply voltage, transistor M8 does not have a cascode. The gain will therefore not be that high. A second stage provides a good remedy, however. Obviously, the compensation capacitance CC does not connect Drain to Gate directly around output transistor M10. It takes a path through cascode device M6, in order to avoid a positive zero. Finally, note that the common-mode input voltage range is just about zero. Indeed the sum of V and V is about 1 V. The Gates of the input devices can only operate around zero. DS1 GS3 On the other hand, the average output voltage will be 0.5 V to maximize the output swing. As a consequence, the output can never be directly connected to the input, to make a buffer for example. A level shifter over 0.5 V will have to be inserted between output and input."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The first one in the list is an OTA which works on a mere 1 V supply voltage. Moreover, this OTA can be switched in and out. To verify the operation, we must close all four (blue) switches. Clearly, a two-stage Miller CMOS OTA emerges, with a folded-cascode as a first stage. Because of the low supply voltage, transistor M8 does not have a cascode. The gain will therefore not be that high. A second stage provides a good remedy, however. Obviously, the compensation capacitance CC does not connect Drain to Gate directly around output transistor M10. It takes a path through cascode device M6, in order to avoid a positive zero. Finally, note that the common-mode input voltage range is just about zero. Indeed the sum of V and V is about 1 V. The Gates of the input devices can only operate around zero. DS1 GS3 On the other hand, the average output voltage will be 0.5 V to maximize the output swing. As a consequence, the output can never be directly connected to the input, to make a buffer for example. A level shifter over 0.5 V will have to be inserted between output and input.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Sub-1 Volt OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0223_01_0735.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432474662162,
+          0.08292682993902434,
+          0.3648648652871622,
+          0.13658536652439024
+        ],
+        "confidence": 1,
+        "text": "Sub-1 Volt OTA"
+      },
+      {
+        "bbox": [
+          0.08783783842905404,
+          0.2097560973780488,
+          0.13513513572635133,
+          0.23414634128048784
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.20270270223817569,
+          0.2878048776219513,
+          0.2466216211570946,
+          0.32195121908536584
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OVЪ"
+      },
+      {
+        "bbox": [
+          0.35135135277142227,
+          0.2878048783739837,
+          0.459459454435785,
+          0.3170731710569106
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OVь VьO"
+      },
+      {
+        "bbox": [
+          0.07770270358952701,
+          0.4097560973170732,
+          0.14864864953547297,
+          0.43902439000000004
+        ],
+        "confidence": 0.5,
+        "text": "Vo+O-"
+      },
+      {
+        "bbox": [
+          0.3716216222972973,
+          0.39999999975609757,
+          0.42567567635135134,
+          0.4292682924390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vi+o"
+      },
+      {
+        "bbox": [
+          0.05743243306587836,
+          0.565853658292683,
+          0.10810810874155403,
+          0.5951219509756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2n •"
+      },
+      {
+        "bbox": [
+          0.07770270730574315,
+          0.7170731704268293,
+          0.4459459505489864,
+          0.7609756094512196
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 V 80 uW (min: V-+2VDSsat)"
+      },
+      {
+        "bbox": [
+          0.08108107998310815,
+          0.7658536590243902,
+          0.28378378268581084,
+          0.8048780492682927
+        ],
+        "confidence": 1,
+        "text": "Fully differential"
+      },
+      {
+        "bbox": [
+          0.07432432671734229,
+          0.8146341461382113,
+          0.36148648887950446,
+          0.8585365851626016
+        ],
+        "confidence": 0.5,
+        "text": "75 dB 30 MHz (0.1 pF)"
+      },
+      {
+        "bbox": [
+          0.07747487254577863,
+          0.8618414632388491,
+          0.1860386436647675,
+          0.8991341483986719
+        ],
+        "confidence": 0.5,
+        "text": "< 100 ns"
+      },
+      {
+        "bbox": [
+          0.6114864878941441,
+          0.27317073113821144,
+          0.6959459473536035,
+          0.3170731701626016
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VьOM"
+      },
+      {
+        "bbox": [
+          0.6891891895608109,
+          0.28780487780487807,
+          0.726351351722973,
+          0.32195121926829273
+        ],
+        "confidence": 1,
+        "text": "M8"
+      },
+      {
+        "bbox": [
+          0.7635135127956081,
+          0.287804878292683,
+          0.8209459452280405,
+          0.3170731709756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VьО-"
+      },
+      {
+        "bbox": [
+          0.8513513509712838,
+          0.2878048782317073,
+          0.8817567563766892,
+          0.31219512213414635
+        ],
+        "confidence": 0.5,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.5878378386041797,
+          0.40000000032520333,
+          0.6385135110579827,
+          0.4292682930081302
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "o Vi-"
+      },
+      {
+        "bbox": [
+          0.8716216227477478,
+          0.4097560974796748,
+          0.9391891903153153,
+          0.43414634138211383
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• Vo-"
+      },
+      {
+        "bbox": [
+          0.8513513506193694,
+          0.4780487807317073,
+          0.8952702695382884,
+          0.5024390246341464
+        ],
+        "confidence": 1,
+        "text": "M10"
+      },
+      {
+        "bbox": [
+          0.6756756759853604,
+          0.5073170729674796,
+          0.7128378381475226,
+          0.5414634144308943
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Icc"
+      },
+      {
+        "bbox": [
+          0.8378378390937565,
+          0.5658536582926829,
+          0.8648648645098472,
+          0.5902439021951219
+        ],
+        "confidence": 0.5,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.9020270277370624,
+          0.5658536587804878,
+          0.9560810785692437,
+          0.5902439026829267
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-02n"
+      },
+      {
+        "bbox": [
+          0.49662162105855856,
+          0.6829268287804878,
+          0.5371621615990991,
+          0.7121951214634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vcm"
+      },
+      {
+        "bbox": [
+          0.5844594678739257,
+          0.6780487811382114,
+          0.7972972928242728,
+          0.7170731702190964
+        ],
+        "confidence": 1,
+        "text": "Level shifting M6"
+      },
+      {
+        "bbox": [
+          0.5844594575675676,
+          0.7317073173170733,
+          0.7736486467567568,
+          0.7658536587804878
+        ],
+        "confidence": 0.5,
+        "text": "4 Switches 2n :"
+      },
+      {
+        "bbox": [
+          0.5878378373873875,
+          0.7853658543089431,
+          0.9459459454954956,
+          0.8243902433898281
+        ],
+        "confidence": 1,
+        "text": "Only 2nd stage switched off !"
+      },
+      {
+        "bbox": [
+          0.5236486593965,
+          0.8731707322764228,
+          0.9290540390269239,
+          0.9073170737398375
+        ],
+        "confidence": 0.5,
+        "text": "Baschirotto, . JSSC Dec.97,pp.1979-1986"
+      },
+      {
+        "bbox": [
+          0.7229729759257276,
+          0.9463414636585366,
+          0.9324324224976963,
+          0.9804878051219511
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0735"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0223_01_0735.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Obviously, the compensation capacitance CC does not connect Drain to Gate directly around output transistor M10.",
+        "pdf_page": 223,
+        "printed_page": 228,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "As a consequence, the output can never be directly connected to the input, to make a buffer for example.",
+        "pdf_page": 223,
+        "printed_page": 228,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The gain will therefore not be that high.",
+      "pdf_page": 223,
+      "printed_page": 228,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0735-M01",
+      "ocr_text": "< 100 ns",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.07747487254577863,
+        0.8618414632388491,
+        0.1860386436647675,
+        0.8991341483986719
+      ],
+      "context_crop": "regions/SANSEN-0735_math_01.png",
+      "context_bbox_normalized": [
+        0.03747487254577863,
+        0.7618414632388492,
+        0.4160386436647675,
+        0.93
+      ],
+      "source_image": "slides/p0223_01_0735.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

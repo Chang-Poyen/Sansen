@@ -1,0 +1,547 @@
+[
+  {
+    "id": "intrinsic",
+    "module": "01-intrinsic-gain",
+    "model": "cs",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "cl": 0,
+      "rl": 1000000000000.0
+    },
+    "output": "intrinsic",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "loaded_cs",
+    "module": "02-single-pole",
+    "model": "cs",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "cl": 3e-12,
+      "rl": 1000000000000.0
+    },
+    "output": "loaded_cs",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "miller",
+    "module": "03-miller",
+    "model": "miller",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rs": 10000.0,
+      "cf": 5e-13
+    },
+    "output": "miller",
+    "units": "V/V",
+    "variant": "source_resistance_sweep"
+  },
+  {
+    "id": "miller_low_rs",
+    "module": "03-miller",
+    "model": "miller",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rs": 10,
+      "cf": 5e-13
+    },
+    "output": "miller_low_rs",
+    "units": "V/V",
+    "variant": "source_resistance_sweep"
+  },
+  {
+    "id": "miller_high_rs",
+    "module": "03-miller",
+    "model": "miller",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rs": 1000000.0,
+      "cf": 5e-13
+    },
+    "output": "miller_high_rs",
+    "units": "V/V",
+    "variant": "source_resistance_sweep"
+  },
+  {
+    "id": "degeneration",
+    "module": "04-degeneration",
+    "model": "degeneration",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rs": 1000,
+      "rl": 10000
+    },
+    "output": "degeneration",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "degeneration_zin",
+    "module": "04-degeneration",
+    "model": "degen_zin",
+    "params": {
+      "gm": 0.002,
+      "cg": 1e-12,
+      "ls": 1e-08
+    },
+    "output": "degeneration_zin",
+    "units": "ohm",
+    "variant": "nominal"
+  },
+  {
+    "id": "diode_z",
+    "module": "05-diode-loads",
+    "model": "diode_z",
+    "params": {
+      "gm": 0.001,
+      "go": 1e-05,
+      "c": 1e-12
+    },
+    "output": "diode_z",
+    "units": "ohm",
+    "variant": "nominal"
+  },
+  {
+    "id": "diode_load",
+    "module": "05-diode-loads",
+    "model": "diode_load",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "gml": 0.001,
+      "gol": 1e-05,
+      "c": 1e-12
+    },
+    "output": "diode_load",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "inverter_dc",
+    "module": "06-inverter-dc",
+    "model": "inverter",
+    "params": {
+      "gmn": 0.002,
+      "gmp": 0.002,
+      "gon": 2e-05,
+      "gop": 2e-05,
+      "ci": 0,
+      "cf": 0,
+      "cl": 3e-12,
+      "rs": 1
+    },
+    "output": "inverter_dc",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "inverter_ac",
+    "module": "07-inverter-ac",
+    "model": "inverter",
+    "params": {
+      "gmn": 0.002,
+      "gmp": 0.002,
+      "gon": 2e-05,
+      "gop": 2e-05,
+      "ci": 1e-12,
+      "cf": 2e-13,
+      "cl": 3e-12,
+      "rs": 10000.0
+    },
+    "output": "inverter_ac",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "follower_dc",
+    "module": "08-followers-dc",
+    "model": "follower_dc",
+    "params": {
+      "gm": 0.002,
+      "gmb": 0.0004,
+      "go": 2e-05,
+      "gb": 1e-05,
+      "cl": 3e-12
+    },
+    "output": "follower_dc",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "follower_cancel",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 8.333333333333333e-05,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": false
+    },
+    "output": "follower_cancel",
+    "units": "V/V",
+    "variant": "cancel"
+  },
+  {
+    "id": "follower_cancel_z",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 8.333333333333333e-05,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": true
+    },
+    "output": "follower_cancel_z",
+    "units": "ohm",
+    "variant": "cancel"
+  },
+  {
+    "id": "follower_book",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 0.0003333333333333333,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": false
+    },
+    "output": "follower_book",
+    "units": "V/V",
+    "variant": "book"
+  },
+  {
+    "id": "follower_book_z",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 0.0003333333333333333,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": true
+    },
+    "output": "follower_book_z",
+    "units": "ohm",
+    "variant": "book"
+  },
+  {
+    "id": "follower_center",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 0.002,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": false
+    },
+    "output": "follower_center",
+    "units": "V/V",
+    "variant": "center"
+  },
+  {
+    "id": "follower_center_z",
+    "module": "09-followers-hf",
+    "model": "follower",
+    "params": {
+      "gm": 0.002,
+      "go": 0,
+      "gb": 0,
+      "rs": 10000.0,
+      "cg": 1e-12,
+      "cd": 2e-13,
+      "c0": 3e-12,
+      "impedance": true
+    },
+    "output": "follower_center_z",
+    "units": "ohm",
+    "variant": "center"
+  },
+  {
+    "id": "bjt_follower_z",
+    "module": "10-emitter-hf",
+    "model": "bjt_follower",
+    "params": {
+      "gm": 0.002,
+      "go": 1e-05,
+      "beta": 100,
+      "rs": 10000.0,
+      "cpi": 1.4e-12,
+      "cmu": 2e-13,
+      "cce": 1e-12
+    },
+    "output": "bjt_follower_z",
+    "units": "ohm",
+    "variant": "nominal"
+  },
+  {
+    "id": "active_inductor",
+    "module": "11-active-inductors",
+    "model": "active_inductor",
+    "params": {
+      "gm": 0.002,
+      "rs": 10000.0,
+      "cg": 1e-12
+    },
+    "output": "active_inductor",
+    "units": "ohm",
+    "variant": "nominal"
+  },
+  {
+    "id": "common_gate",
+    "module": "12-common-gate",
+    "model": "common_gate",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "rb": 100000.0,
+      "rl": 1000000.0
+    },
+    "output": "common_gate",
+    "units": "ohm",
+    "variant": "nominal"
+  },
+  {
+    "id": "cascode",
+    "module": "13-cascode",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 0,
+      "top": 0,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "cascode",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "cascode_miller",
+    "module": "14-cascode-miller",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 10000.0,
+      "cf": 5e-13,
+      "cm": 0,
+      "top": 0,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "cascode_miller",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "cascode_cm_small",
+    "module": "15-cascode-middle-cap",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 1e-12,
+      "top": 0,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "cascode_cm_small",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "cascode_cm_large",
+    "module": "15-cascode-middle-cap",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 1e-09,
+      "top": 0,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "cascode_cm_large",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "telescopic",
+    "module": "16-telescopic-folded",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 0,
+      "top": 1,
+      "fold": 0,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "telescopic",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "folded",
+    "module": "16-telescopic-folded",
+    "model": "cascode",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "rs": 1,
+      "cf": 0,
+      "cm": 0,
+      "top": 0,
+      "fold": 1,
+      "rb1": 50000.0,
+      "rb2": 5000000.0
+    },
+    "output": "folded",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "two_stage",
+    "module": "17-cascade",
+    "model": "two_stage",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.004,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "ci": 1e-12,
+      "cc": 3e-12,
+      "cl": 5e-12
+    },
+    "output": "two_stage",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "gainboost_slow",
+    "module": "18-gain-boosting",
+    "model": "gainboost",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "b0": 20,
+      "wb": 6283.185307179586
+    },
+    "output": "gainboost_slow",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "gainboost_fast",
+    "module": "18-gain-boosting",
+    "model": "gainboost",
+    "params": {
+      "gm1": 0.002,
+      "gm2": 0.002,
+      "go1": 2e-05,
+      "go2": 2e-05,
+      "cl": 3e-12,
+      "b0": 20,
+      "wb": 6283185.307179586
+    },
+    "output": "gainboost_fast",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "bjt_degen_gain",
+    "module": "20-port-summary",
+    "model": "bjt_degen_gain",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "beta": 100,
+      "rb": 500,
+      "rbext": 1000,
+      "re": 1000,
+      "rl": 10000
+    },
+    "output": "bjt_degen_gain",
+    "units": "V/V",
+    "variant": "nominal"
+  },
+  {
+    "id": "bjt_degen_zout",
+    "module": "20-port-summary",
+    "model": "bjt_degen_zout",
+    "params": {
+      "gm": 0.002,
+      "go": 2e-05,
+      "beta": 100,
+      "rb": 500,
+      "rbext": 1000,
+      "re": 1000,
+      "rl": 10000
+    },
+    "output": "bjt_degen_zout",
+    "units": "ohm",
+    "variant": "nominal"
+  }
+]

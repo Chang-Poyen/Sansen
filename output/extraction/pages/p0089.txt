@@ -1,0 +1,55 @@
+DiVerential voltage and current amplifiers 91
+In practice, the current
+ratio is not that accurate.
+Indeed, both transistor may
+not operate at the same v
+DS
+voltage. A difference in v
+DS
+will give a difference in cur-
+rent, as the i −v charac-
+DS DS
+teristic is not that flat.
+This difference is easily
+calculated. It is related to
+the Early voltage and hence
+to the channel length L .
+2
+The larger the channel
+length, the flatter the curve
+and the smaller the current
+difference will be.
+It is difficult to make that
+v voltage difference zero. This is why we resort to circuit techniques.
+DS
+036
+Now let us focus on how to
+make the current difference
+zero. For this purpose we
+have to add two transistors
+M3 and M4, which have as
+main goal to make the volt-
+ages v across the current
+DS
+mirror devices M1 and M2
+as equal as possible. We
+have two realizations.
+The left one consists of
+a voltage divider by means
+of two diode connected
+transistors M1 and M3,
+connected to a cascoded
+amplifier M2 and M4.
+Transistors M4 and M2 have the same W/L ratio as M2 and M1, which is B. Since M1 and
+M2 have the same V , transistors M3 and M4 must have the same V as well. The currents
+GS GS
+through M3 and M4 have the same ratio B as their W/L ratios. As a result the voltages v
+DS1
+and v must also be the same. The current ratio will therefore be quite accurate.
+DS2
+A similar reasoning is valid for the current mirror on the right. There is one major difference
+however. The circuit on the right is a feedback amplifier with loop gain T. Since all time constants
+in that loop are of the same order of magnitude, they create a system with several poles. As a
+result, peaking can occur in the current transfer characteristic.
+An important disadvantage of both current mirrors, is that their minimum output voltage
+(compliance voltage) is quite high! As a result they cannot be used in low-voltage applications!

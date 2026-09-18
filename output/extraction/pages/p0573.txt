@@ -1,0 +1,45 @@
+584 Chapter #19
+1935
+Both active RC and
+MOSFET-C filters employ
+operational amplifiers. This
+means that only at low
+frequencies, the loop gain
+is sufficiently large to
+guarantee an accurate
+performance.
+For high frequency filters,
+the operational amplifiers
+are reduced to their simplest
+possible configurations.
+They only consist of
+differential pairs, to which
+some linearization tech-
+niques have been applied.
+Now some transconductor configurations are discussed, with parallel differential pairs.
+1936
+Rather than use feedback by
+means of local series resis-
+tors, differential pairs can be
+put in parallel, as shown in
+this slide. The goal is always
+the same, i.e. to reduce the
+distortion over a wider
+input range.
+An early example with
+bipolar transistors is given
+in this slide. Two differential
+pairs are put in parallel,
+with equal biasing currents
+I . An offset voltage V is
+B GG
+introduced to move the
+transfer characteristic of the
+second differential pair over the input voltage axis, as shown next. Note that the output current
+i is the sum of the currents of transistors M1a and M2a. The current of this latter transistor
+out
+M2a is much smaller than the current through M1a, because of the offset voltage V . The sum
+GG
+has a smaller slope over a wider input voltage range. The best result is obtained for an offset
+voltage of about 34 mV (Ref. Tanimoto).
+This is explained in more detail next.

@@ -1,0 +1,439 @@
+{
+  "case_id": "SANSEN-1731",
+  "slide_id": "1731",
+  "chapter": 17,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 490,
+    "printed_page": 500
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0490_02_1731.jpg",
+      "pdf_page": 490,
+      "printed_page": 500,
+      "bbox_pt": [
+        91.52162,
+        373.64495,
+        374.54222,
+        570.15479
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 490,
+      "printed_page": 500,
+      "bbox_pt": [
+        0,
+        369.6556096500001,
+        595,
+        797
+      ],
+      "text_raw": "The order of the filter and\nthe amount of attenuation\nare related as given in this\nslide. Normally, a first-order\nfilter (N=1) is preferred.\nSuch a sampled filter has\ntherefore the following\nbuilding blocks. The analog\nsignal is applied to a anti-\naliasing filter. It is sampled\nby switches. A sampled-data\nfilter is applied, which\nhas the advantage that no\nexternal components are\nrequired. A clock is neces-\nsary, however.\nThe output signal is then applied to a sample-and-hold circuit, to make it continuous in time.\nAnother low-pass filter is then applied to filter out the clock frequency. It is called a reconstruction\nfilter. A pure analog signal results. The same expressions are valid.\nNowadays, the input signal is filtered and kept in sampled form to be applied to a Analog-\nto-digital converter, and then eventually to a DSP block.\nAfter all this signal processing, it is applied to a Digital-to-analog converter, the last block of\nwhich is a reconstruction low-pass filter.",
+      "text": "The order of the filter and the amount of attenuation are related as given in this slide. Normally, a first-order filter (N=1) is preferred. Such a sampled filter has therefore the following building blocks. The analog signal is applied to a antialiasing filter. It is sampled by switches. A sampled-data filter is applied, which has the advantage that no external components are required. A clock is necessary, however. The output signal is then applied to a sample-and-hold circuit, to make it continuous in time. Another low-pass filter is then applied to filter out the clock frequency. It is called a reconstruction filter. A pure analog signal results. The same expressions are valid. Nowadays, the input signal is filtered and kept in sampled form to be applied to a Analogto-digital converter, and then eventually to a DSP block. After all this signal processing, it is applied to a Digital-to-analog converter, the last block of which is a reconstruction low-pass filter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The order of the filter and the amount of attenuation are related as given in this slide. Normally, a first-order filter (N=1) is preferred. Such a sampled filter has therefore the following building blocks. The analog signal is applied to a antialiasing filter. It is sampled by switches. A sampled-data filter is applied, which has the advantage that no external components are required. A clock is necessary, however. The output signal is then applied to a sample-and-hold circuit, to make it continuous in time. Another low-pass filter is then applied to filter out the clock frequency. It is called a reconstruction filter. A pure analog signal results. The same expressions are valid. Nowadays, the input signal is filtered and kept in sampled form to be applied to a Analogto-digital converter, and then eventually to a DSP block. After all this signal processing, it is applied to a Digital-to-analog converter, the last block of which is a reconstruction low-pass filter.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Anti-aliasing / Reconstruction",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0490_02_1731.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627647457618,
+          0.0829268290243903,
+          0.6033898357966101,
+          0.1463414631707317
+        ],
+        "confidence": 1,
+        "text": "Anti-aliasing / Reconstruction"
+      },
+      {
+        "bbox": [
+          0.1421309957422759,
+          0.23222598554496143,
+          0.24769951623974343,
+          0.26533498986803683
+        ],
+        "confidence": 0.5,
+        "text": "Antialasing"
+      },
+      {
+        "bbox": [
+          0.1593220346892655,
+          0.263414633902439,
+          0.20677966180790958,
+          0.28780487780487807
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1Me-"
+      },
+      {
+        "bbox": [
+          0.06440678004237287,
+          0.31219512182926834,
+          0.09491525461864406,
+          0.3414634145121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vn"
+      },
+      {
+        "bbox": [
+          0.047457626355932224,
+          0.380487805,
+          0.1084745755084746,
+          0.40975609768292687
+        ],
+        "confidence": 0.5,
+        "text": "Analog"
+      },
+      {
+        "bbox": [
+          0.050847458262711864,
+          0.40975609737804874,
+          0.10169491588983051,
+          0.4341463412804878
+        ],
+        "confidence": 0.5,
+        "text": "inpul"
+      },
+      {
+        "bbox": [
+          0.05084745975199035,
+          0.43902438967479673,
+          0.1016949141463147,
+          0.4731707311382114
+        ],
+        "confidence": 0.5,
+        "text": "signal"
+      },
+      {
+        "bbox": [
+          0.39322034135593215,
+          0.22926829243902436,
+          0.5830508498305085,
+          0.2585365851219512
+        ],
+        "confidence": 0.5,
+        "text": "Sampled-date system"
+      },
+      {
+        "bbox": [
+          0.4406779676271186,
+          0.3121951217073171,
+          0.5322033913559322,
+          0.33658536560975616
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Sample:-"
+      },
+      {
+        "bbox": [
+          0.4644067802118644,
+          0.3414634144512195,
+          0.5084745768220339,
+          0.36585365835365846
+        ],
+        "confidence": 0.5,
+        "text": "dala"
+      },
+      {
+        "bbox": [
+          0.4610169497457627,
+          0.3707317070731708,
+          0.5084745768644068,
+          0.39999999975609757
+        ],
+        "confidence": 0.5,
+        "text": "filter"
+      },
+      {
+        "bbox": [
+          0.7457627130508474,
+          0.20487804845528457,
+          0.8169491537288135,
+          0.23414634113821142
+        ],
+        "confidence": 1,
+        "text": "Qutput"
+      },
+      {
+        "bbox": [
+          0.7186440693644067,
+          0.23414634121951217,
+          0.8440677981779661,
+          0.263414633902439
+        ],
+        "confidence": 1,
+        "text": "reconstruct on"
+      },
+      {
+        "bbox": [
+          0.7559322028389831,
+          0.2634146342682927,
+          0.7999999994491526,
+          0.29268292695121945
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "tilter"
+      },
+      {
+        "bbox": [
+          0.8677966108474576,
+          0.3121951218699187,
+          0.9084745769491525,
+          0.3463414633333334
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vou"
+      },
+      {
+        "bbox": [
+          0.8576271194491525,
+          0.38048780463414633,
+          0.9220338991101694,
+          0.4097560973170732
+        ],
+        "confidence": 0.5,
+        "text": "Aralog"
+      },
+      {
+        "bbox": [
+          0.857627119661017,
+          0.414634146097561,
+          0.9186440688135593,
+          0.43902439000000004
+        ],
+        "confidence": 0.5,
+        "text": "Output"
+      },
+      {
+        "bbox": [
+          0.8610169489830507,
+          0.44390243894308945,
+          0.9118644066101693,
+          0.4682926828455285
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Signal"
+      },
+      {
+        "bbox": [
+          0.06101694686440684,
+          0.5560975604878049,
+          0.2508474553389831,
+          0.5951219507317074
+        ],
+        "confidence": 1,
+        "text": "N-order filter:"
+      },
+      {
+        "bbox": [
+          0.3288135598728813,
+          0.4243902438414633,
+          0.3728813564830508,
+          0.46829268286585357
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AS,"
+      },
+      {
+        "bbox": [
+          0.31864406980848753,
+          0.4975609751219512,
+          0.3694915242028119,
+          0.526829267804878
+        ],
+        "confidence": 1,
+        "text": "Input"
+      },
+      {
+        "bbox": [
+          0.27457627102098464,
+          0.5317073170441347,
+          0.42033898288539145,
+          0.5560975609465737
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "sdlup'e and hoid"
+      },
+      {
+        "bbox": [
+          0.5864406787711864,
+          0.49756097536585364,
+          0.6508474584322034,
+          0.5268292680487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Oulput"
+      },
+      {
+        "bbox": [
+          0.5457627094350284,
+          0.5317073172357724,
+          0.6915254212994351,
+          0.5609756099186992
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "bampie did hels"
+      },
+      {
+        "bbox": [
+          0.2169491516525424,
+          0.6682926831707316,
+          0.2881355923305085,
+          0.7170731709756096
+        ],
+        "confidence": 1,
+        "text": "-10"
+      },
+      {
+        "bbox": [
+          0.4541510548031559,
+          0.6677501523070962,
+          0.6305947043537716,
+          0.7273718027237728
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fc = fs:10"
+      },
+      {
+        "bbox": [
+          0.6372881372457627,
+          0.6390243899390243,
+          0.7694915270762711,
+          0.6731707314024389
+        ],
+        "confidence": 1,
+        "text": "Attennarion"
+      },
+      {
+        "bbox": [
+          0.6711864408361583,
+          0.6878048781463415,
+          0.7254237289717514,
+          0.7170731708292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "20"
+      },
+      {
+        "bbox": [
+          0.04583335404712501,
+          0.8383233528269887,
+          0.8624999862306526,
+          0.8926829260982051
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ex. Attenuation = 40 dB; fs = 10 kHz ; N = 1 → fe = 1 MHz"
+      },
+      {
+        "bbox": [
+          0.7186440722283006,
+          0.9512195127642277,
+          0.9355932118394963,
+          0.9853658542276423
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 N1731"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0490_02_1731.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Such a sampled filter has therefore the following building blocks.",
+      "pdf_page": 490,
+      "printed_page": 500,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1731-M01",
+      "ocr_text": "fc = fs:10",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4541510548031559,
+        0.6677501523070962,
+        0.6305947043537716,
+        0.7273718027237728
+      ],
+      "context_crop": "regions/SANSEN-1731_math_01.png",
+      "context_bbox_normalized": [
+        0.4141510548031559,
+        0.5677501523070962,
+        0.8605947043537716,
+        0.8573718027237728
+      ],
+      "source_image": "slides/p0490_02_1731.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1731-M02",
+      "ocr_text": "Ex. Attenuation = 40 dB; fs = 10 kHz ; N = 1 → fe = 1 MHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.04583335404712501,
+        0.8383233528269887,
+        0.8624999862306526,
+        0.8926829260982051
+      ],
+      "context_crop": "regions/SANSEN-1731_math_02.png",
+      "context_bbox_normalized": [
+        0.005833354047125011,
+        0.7383233528269887,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0490_02_1731.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

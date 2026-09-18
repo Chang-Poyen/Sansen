@@ -1,0 +1,53 @@
+768 Chapter #24
+At high frequencies, transistor M6 behaves as a small resistance with value 1/g . As a result
+m6
+the negative line is nearly shorted to the output line. The attenuation from supply line to output
+is therefore zero.
+2449
+One way to improve the
+PSRR is to a make com-
+SS
+pensation capacitor C uni-
+c
+directional. After all, it is
+this capacitor C which
+c
+turns transistor M6 into a
+resistor.
+The addition of a cascode,
+used very much to get rid
+of the positive zero (see
+Chapter 5), increases the
+PSRR from zero to a
+SS
+capacitance ratio, as for the
+other amplifiers. Values of
+the order of 20 dB (at the
+GBW) can now be expected.
+The actual calculation is
+shown next.
+2450
+A simplified schematic is
+shown in this slide, and an
+even more simplified one to
+the right.
+Calculation of the gain
+from the negative supply
+line V to the output shows
+SS
+that the parasitic capaci-
+tance at the input node of
+transistor M6 now plays a
+dominant role.
+Its ratio to the compensa-
+tion capacitor C determines
+c
+the PSRR . For this reason,
+SS
+we may want to make C
+c
+larger. Remember, however,
+that the value of C determines the GBW, the stability and the integrated noise. So many
+c
+compromises have already come together in C !
+c

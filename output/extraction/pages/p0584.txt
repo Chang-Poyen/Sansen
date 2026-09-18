@@ -1,0 +1,55 @@
+Continuous-time filters 595
+1957
+One example of such a tun-
+able resistor R is shown in
+this slide.
+The output resistance
+R is a floating (or
+OUT
+differential) resistance. It is
+fairly high because is sees a
+cascode of transistors M1
+and M2, with feedback to
+the gates of M1. The resis-
+tance upwards is about
+1/g . However, transistors
+m1
+M1 are in the linear region.
+Their g is therefore
+m1
+KP W1/L V .
+1 1 DSsat1
+It is tunable by means of
+control voltage V . Indeed, V is simply V −V . The smaller V , the higher the output
+C DSsat1 C GS2 C
+resistance R . Really high values of R are obtained provided transistors M1 and M2 enter
+OUT OUT
+the weak inversion region.
+Downwards it sees the output of a current mirror, with small output conduct-
+ance.
+Let us now concentrate on the tuning circuits themselves.
+1958
+In order to tune a transcon-
+ductance g to an external
+m
+resistor R, the circuit shown
+in this slide can be used.
+The transconductor uses
+the resistor R in the feed-
+back loop, this is driven by
+a reference or biasing volt-
+age V . It is followed by an
+ref
+integrator, the output of
+which is the tuning voltage,
+which adjusts the trans-
+conductance g of this
+m
+transconductor and of all
+other transconductor blocks
+connected to it.
+The integrator has sufficient gain to determine that its input voltage is always zero. As a result,
+the transconductance g is adjusted so that it equals 1/R.
+m
+Resistors are not readily available, however. Switched capacitors can also be used, as shown
+next.

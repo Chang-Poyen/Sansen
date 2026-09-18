@@ -1,0 +1,179 @@
+{
+  "case_id": "SANSEN-122",
+  "slide_id": "122",
+  "chapter": 12,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 330,
+    "printed_page": 337
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0330_02_122.jpg",
+      "pdf_page": 330,
+      "printed_page": 337,
+      "bbox_pt": [
+        91.521622,
+        421.47695999999996,
+        374.78981,
+        617.936951
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 330,
+      "printed_page": 337,
+      "bbox_pt": [
+        0,
+        417.4875000000002,
+        595,
+        703.55922
+      ],
+      "text_raw": "Let us first look at the\nspecifications of a class-AB\nopamp. What are the\nproblems?\nA large number of pos-\nsible solutions are intro-\nduced and discussed. A few\ncircuits are added with\nsupply voltages of 1 V or\nless.",
+      "text": "Let us first look at the specifications of a class-AB opamp. What are the problems? A large number of possible solutions are introduced and discussed. A few circuits are added with supply voltages of 1 V or less."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us first look at the specifications of a class-AB opamp. What are the problems? A large number of possible solutions are introduced and discussed. A few circuits are added with supply voltages of 1 V or less.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Slide 122",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0330_02_122.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07428873006398747,
+          0.08273463813019077,
+          0.21287343407647163,
+          0.13677755663783653
+        ],
+        "confidence": 1,
+        "text": "Outline"
+      },
+      {
+        "bbox": [
+          0.15540539860641908,
+          0.2731707318902439,
+          0.699324317525338,
+          0.3268292684756098
+        ],
+        "confidence": 0.5,
+        "text": "• Problems of class AB drivers"
+      },
+      {
+        "bbox": [
+          0.1554054016047298,
+          0.3560975602439025,
+          0.567567563766892,
+          0.4146341456097561
+        ],
+        "confidence": 1,
+        "text": "• Cross-coupled quads"
+      },
+      {
+        "bbox": [
+          0.15540540229729732,
+          0.43902438965853663,
+          0.4864864833783784,
+          0.49756097502439034
+        ],
+        "confidence": 1,
+        "text": "• Adaptive biasing"
+      },
+      {
+        "bbox": [
+          0.15878379081081062,
+          0.5268292681463415,
+          0.8614864935135134,
+          0.590243902292683
+        ],
+        "confidence": 1,
+        "text": "• la control with translinear circuits, etc."
+      },
+      {
+        "bbox": [
+          0.15845194376632513,
+          0.5994148025966671,
+          0.8516422348875244,
+          0.6645323036461741
+        ],
+        "confidence": 1,
+        "text": "• Current feedback and other principles"
+      },
+      {
+        "bbox": [
+          0.15878378374999996,
+          0.6926829273658537,
+          0.6216216215878378,
+          0.7463414639512195
+        ],
+        "confidence": 1,
+        "text": "• Low-Voltage realizations"
+      },
+      {
+        "bbox": [
+          0.10416666114499781,
+          0.8433734950145181,
+          0.820833320938336,
+          0.8855421680878912
+        ],
+        "confidence": 1,
+        "text": "Ref.: W. Sansen : Analog Design Essentials, Springer 2006"
+      },
+      {
+        "bbox": [
+          0.7263513544167185,
+          0.9414634150406505,
+          0.9290540442319303,
+          0.9853658540650406
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10.05 122"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0330_02_122.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

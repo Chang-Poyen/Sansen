@@ -1,0 +1,438 @@
+{
+  "case_id": "SANSEN-214",
+  "slide_id": "214",
+  "chapter": 21,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 627,
+    "printed_page": 638
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0628_01_214.jpg",
+      "pdf_page": 628,
+      "printed_page": 639,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 627,
+      "printed_page": 638,
+      "bbox_pt": [
+        0,
+        582.9065000000005,
+        595,
+        797
+      ],
+      "text_raw": "The largest error in such an ADC converter is the quantization noise. This is actually not noise\nbut the difference between the original analog signal and the analog signal, quantized with a\nlimited number of bits.\nAn example is shown in this slide. The original analog signal is the dotted sine wave. The\nsampled and quantized analog signal for 4 bit (or 16 steps) is shown in full line. The difference\nis in the middle. It is small in amplitude, depending on the number of bits (B) taken. Moreover,\nit contains many different frequencies. This is why it is called noise. It is the quantization noise.\nIt is the noise which determines the Signal-to-Noise ratio of the converter and hence its resolution.",
+      "text": "The largest error in such an ADC converter is the quantization noise. This is actually not noise but the difference between the original analog signal and the analog signal, quantized with a limited number of bits. An example is shown in this slide. The original analog signal is the dotted sine wave. The sampled and quantized analog signal for 4 bit (or 16 steps) is shown in full line. The difference is in the middle. It is small in amplitude, depending on the number of bits (B) taken. Moreover, it contains many different frequencies. This is why it is called noise. It is the quantization noise. It is the noise which determines the Signal-to-Noise ratio of the converter and hence its resolution."
+    },
+    {
+      "pdf_page": 628,
+      "printed_page": 639,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        379.6204103500001
+      ],
+      "text_raw": "The size of one single step\nis the reference voltage\ndivided by 2B in which B is\nthe number of bits; for 8 bits\nthis is 256. For a reference\nvoltage of 1 V, this step is\nabout 4 mV. This is barely\nlarger than mismatch or\noffset. Additional techniques\nwill be required to enhance\nthe SNR. Noise shaping is\nsuch a technique. For this\npurpose, a noise filter is\nincluded in the feedback\nloop. This is explained in the\nnext slide.\nFor 8 bits, the number of\n256 corresponds to 48 dB. The precise value is 2 dB higher, which is 50 dB. For 16 bits we find,\nin a similar way 98 dB, which is a very high number indeed, this is required by a limited number\nof applications such as audio CD’s and some others.",
+      "text": "The size of one single step is the reference voltage divided by 2B in which B is the number of bits; for 8 bits this is 256. For a reference voltage of 1 V, this step is about 4 mV. This is barely larger than mismatch or offset. Additional techniques will be required to enhance the SNR. Noise shaping is such a technique. For this purpose, a noise filter is included in the feedback loop. This is explained in the next slide. For 8 bits, the number of 256 corresponds to 48 dB. The precise value is 2 dB higher, which is 50 dB. For 16 bits we find, in a similar way 98 dB, which is a very high number indeed, this is required by a limited number of applications such as audio CD’s and some others."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The largest error in such an ADC converter is the quantization noise. This is actually not noise but the difference between the original analog signal and the analog signal, quantized with a limited number of bits. An example is shown in this slide. The original analog signal is the dotted sine wave. The sampled and quantized analog signal for 4 bit (or 16 steps) is shown in full line. The difference is in the middle. It is small in amplitude, depending on the number of bits (B) taken. Moreover, it contains many different frequencies. This is why it is called noise. It is the quantization noise. It is the noise which determines the Signal-to-Noise ratio of the converter and hence its resolution.\n\nThe size of one single step is the reference voltage divided by 2B in which B is the number of bits; for 8 bits this is 256. For a reference voltage of 1 V, this step is about 4 mV. This is barely larger than mismatch or offset. Additional techniques will be required to enhance the SNR. Noise shaping is such a technique. For this purpose, a noise filter is included in the feedback loop. This is explained in the next slide. For 8 bits, the number of 256 corresponds to 48 dB. The precise value is 2 dB higher, which is 50 dB. For 16 bits we find, in a similar way 98 dB, which is a very high number indeed, this is required by a limited number of applications such as audio CD’s and some others.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Quantization noise (4 bit)",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0628_01_214.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946262065626,
+          0.08780487783972124,
+          0.5270270301882238,
+          0.14634146320557484
+        ],
+        "confidence": 1,
+        "text": "Quantization noise (4 bit)"
+      },
+      {
+        "bbox": [
+          0.7634755100778555,
+          0.2143861460976516,
+          0.9459839529308037,
+          0.2734187304973634
+        ],
+        "confidence": 0.5,
+        "text": "Number bits 1"
+      },
+      {
+        "bbox": [
+          0.7635135112331082,
+          0.3024390248170732,
+          0.9459459436655404,
+          0.3560975614024391
+        ],
+        "confidence": 0.5,
+        "text": "Quant. noise+"
+      },
+      {
+        "bbox": [
+          0.4594594615540541,
+          0.4487804876097561,
+          0.6689189210135136,
+          0.47804878029268294
+        ],
+        "confidence": 1,
+        "text": "Quantization noise"
+      },
+      {
+        "bbox": [
+          0.27027027571790524,
+          0.4731707315853658,
+          0.706081086528716,
+          0.5317073169512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ww.wwwww"
+      },
+      {
+        "bbox": [
+          0.1216216208614865,
+          0.7414634148780487,
+          0.1824324316722973,
+          0.7707317075609755
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B = 4"
+      },
+      {
+        "bbox": [
+          0.7431119786749176,
+          0.4481470279277622,
+          0.8210772124519381,
+          0.48356028734094647
+        ],
+        "confidence": 0.5,
+        "text": "Step ="
+      },
+      {
+        "bbox": [
+          0.8445945945382883,
+          0.43414634117886175,
+          0.8783783783220721,
+          0.4682926826422764
+        ],
+        "confidence": 1,
+        "text": "ref"
+      },
+      {
+        "bbox": [
+          0.8344594594594594,
+          0.4829268287195123,
+          0.8682432432432432,
+          0.5268292677439025
+        ],
+        "confidence": 0.5,
+        "text": "2B"
+      },
+      {
+        "bbox": [
+          0.7736486483671171,
+          0.5707317067479675,
+          0.8851351348536035,
+          0.6048780482113821
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B = 8 bits"
+      },
+      {
+        "bbox": [
+          0.77027026875,
+          0.6146341465853659,
+          0.922297295777027,
+          0.6487804880487805
+        ],
+        "confidence": 0.5,
+        "text": "SNR = 50 dB"
+      },
+      {
+        "bbox": [
+          0.7735554354553799,
+          0.70173272266662,
+          0.8953634875183683,
+          0.7372916697878448
+        ],
+        "confidence": 0.5,
+        "text": "B =16 bits"
+      },
+      {
+        "bbox": [
+          0.7702702728603602,
+          0.7463414631707318,
+          0.9256756782657657,
+          0.7804878046341465
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SNR = 98 dB"
+      },
+      {
+        "bbox": [
+          0.736486487861969,
+          0.8390243900000001,
+          0.9290540554295366,
+          0.8829268290243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SNR = 2 + 6B"
+      },
+      {
+        "bbox": [
+          0.719594597716268,
+          0.9365853660162601,
+          0.9189189091531016,
+          0.9658536586991869
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 214"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "An example is shown in this slide.",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The sampled and quantized analog signal for 4 bit (or 16 steps) is shown in full line.",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is the noise which determines the Signal-to-Noise ratio of the converter and hence its resolution.",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0628_01_214.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This is actually not noise but the difference between the original analog signal and the analog signal, quantized with a limited number of bits.",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is small in amplitude, depending on the number of bits (B) taken.",
+      "pdf_page": 627,
+      "printed_page": 638,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For 16 bits we find, in a similar way 98 dB, which is a very high number indeed, this is required by a limited number of applications such as audio CD’s and some others.",
+      "pdf_page": 628,
+      "printed_page": 639,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-214-M01",
+      "ocr_text": "B = 4",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1216216208614865,
+        0.7414634148780487,
+        0.1824324316722973,
+        0.7707317075609755
+      ],
+      "context_crop": "regions/SANSEN-214_math_01.png",
+      "context_bbox_normalized": [
+        0.0816216208614865,
+        0.6414634148780487,
+        0.4124324316722973,
+        0.9007317075609755
+      ],
+      "source_image": "slides/p0628_01_214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-214-M02",
+      "ocr_text": "Step =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7431119786749176,
+        0.4481470279277622,
+        0.8210772124519381,
+        0.48356028734094647
+      ],
+      "context_crop": "regions/SANSEN-214_math_02.png",
+      "context_bbox_normalized": [
+        0.7031119786749176,
+        0.3481470279277622,
+        1,
+        0.6135602873409465
+      ],
+      "source_image": "slides/p0628_01_214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-214-M03",
+      "ocr_text": "B = 8 bits",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7736486483671171,
+        0.5707317067479675,
+        0.8851351348536035,
+        0.6048780482113821
+      ],
+      "context_crop": "regions/SANSEN-214_math_03.png",
+      "context_bbox_normalized": [
+        0.7336486483671171,
+        0.4707317067479675,
+        1,
+        0.7348780482113821
+      ],
+      "source_image": "slides/p0628_01_214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-214-M04",
+      "ocr_text": "SNR = 50 dB",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.77027026875,
+        0.6146341465853659,
+        0.922297295777027,
+        0.6487804880487805
+      ],
+      "context_crop": "regions/SANSEN-214_math_04.png",
+      "context_bbox_normalized": [
+        0.73027026875,
+        0.5146341465853659,
+        1,
+        0.7787804880487805
+      ],
+      "source_image": "slides/p0628_01_214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-214-M05",
+      "ocr_text": "B =16 bits",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7735554354553799,
+        0.70173272266662,
+        0.8953634875183683,
+        0.7372916697878448
+      ],
+      "context_crop": "regions/SANSEN-214_math_05.png",
+      "context_bbox_normalized": [
+        0.7335554354553798,
+        0.60173272266662,
+        1,
+        0.8672916697878448
+      ],
+      "source_image": "slides/p0628_01_214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-214-M06",
+      "ocr_text": "SNR = 98 dB",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7702702728603602,
+        0.7463414631707318,
+        0.9256756782657657,
+        0.7804878046341465
+      ],
+      "context_crop": "regions/SANSEN-214_math_06.png",
+      "context_bbox_normalized": [
+        0.7302702728603602,
+        0.6463414631707318,
+        1,
+        0.9104878046341465
+      ],
+      "source_image": "slides/p0628_01_214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-214-M07",
+      "ocr_text": "SNR = 2 + 6B",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.736486487861969,
+        0.8390243900000001,
+        0.9290540554295366,
+        0.8829268290243903
+      ],
+      "context_crop": "regions/SANSEN-214_math_07.png",
+      "context_bbox_normalized": [
+        0.696486487861969,
+        0.7390243900000001,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0628_01_214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

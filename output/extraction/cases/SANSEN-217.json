@@ -1,0 +1,367 @@
+{
+  "case_id": "SANSEN-217",
+  "slide_id": "217",
+  "chapter": 21,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 629,
+    "printed_page": 640
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0629_02_217.jpg",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "bbox_pt": [
+        91.521622,
+        455.358002,
+        374.78981,
+        651.817993
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 629,
+      "printed_page": 640,
+      "bbox_pt": [
+        0,
+        451.3685000000001,
+        595,
+        797
+      ],
+      "text_raw": "When a low-pass filter of\nfirst order is taken for H,\nwith cut-off frequency f\nm\nand slope −20 dB/decade,\nthe contribution of the error\n(noise) signal in the output\ny shows an inverted charac-\nteristic. Its contribution is\nlow at frequencies below f\nm\nand it increases at 20 dB/\ndecade for higher frequen-\ncies. The noise is pushed\ntowards higher frequencies.\nAt low frequencies, the\nSNR is the ratio of x/k and\n2\ne/k k H. This is propor-\n1 2\ntional to k , which is the gain in the forward path of the feedback loop. The higher this gain,\n1\nthe higher the SNR.\nAlso, the higher the order of the filter, the steeper the slope of the noise beyond frequency f .\nm",
+      "text": "When a low-pass filter of first order is taken for H, with cut-off frequency f m and slope −20 dB/decade, the contribution of the error (noise) signal in the output y shows an inverted characteristic. Its contribution is low at frequencies below f m and it increases at 20 dB/ decade for higher frequencies. The noise is pushed towards higher frequencies. At low frequencies, the SNR is the ratio of x/k and 2 e/k k H. This is propor- 1 2 tional to k , which is the gain in the forward path of the feedback loop. The higher this gain, 1 the higher the SNR. Also, the higher the order of the filter, the steeper the slope of the noise beyond frequency f . m"
+    },
+    {
+      "pdf_page": 630,
+      "printed_page": 641,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        207.22603964999985
+      ],
+      "text_raw": "Higher-order filters allow higher values of k . As a result, higher-order filters give rise to higher\n1\nSNR values.\nThe order of this filter is therefore the third design parameter of a Sigma-delta converter.\nRecall that the other two are the oversampling ratio OSR and the number of bits B of the\nquantizer.",
+      "text": "Higher-order filters allow higher values of k . As a result, higher-order filters give rise to higher 1 SNR values. The order of this filter is therefore the third design parameter of a Sigma-delta converter. Recall that the other two are the oversampling ratio OSR and the number of bits B of the quantizer."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "When a low-pass filter of first order is taken for H, with cut-off frequency f m and slope −20 dB/decade, the contribution of the error (noise) signal in the output y shows an inverted characteristic. Its contribution is low at frequencies below f m and it increases at 20 dB/ decade for higher frequencies. The noise is pushed towards higher frequencies. At low frequencies, the SNR is the ratio of x/k and 2 e/k k H. This is propor- 1 2 tional to k , which is the gain in the forward path of the feedback loop. The higher this gain, 1 the higher the SNR. Also, the higher the order of the filter, the steeper the slope of the noise beyond frequency f . m\n\nHigher-order filters allow higher values of k . As a result, higher-order filters give rise to higher 1 SNR values. The order of this filter is therefore the third design parameter of a Sigma-delta converter. Recall that the other two are the oversampling ratio OSR and the number of bits B of the quantizer.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Feedback loop with low-pass filter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0629_02_217.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108013513515,
+          0.08292682995121947,
+          0.6824324314864865,
+          0.1512195128780488
+        ],
+        "confidence": 1,
+        "text": "Feedback loop with low-pass filter"
+      },
+      {
+        "bbox": [
+          0.09459459425675677,
+          0.2097560977506775,
+          0.1554054050675676,
+          0.2731707318970189
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H1"
+      },
+      {
+        "bbox": [
+          0.6013513514527027,
+          0.31707317019512193,
+          0.6587837838851351,
+          0.37073170678048784
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y ="
+      },
+      {
+        "bbox": [
+          0.6756756758783784,
+          0.273170732195122,
+          0.7027027029054054,
+          0.32195122
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.8175675673986487,
+          0.2634146335121952,
+          0.8479729728040541,
+          0.3268292676585367
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6756756766891893,
+          0.30243902418699187,
+          0.7972972983108109,
+          0.375609755894309
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- x+="
+      },
+      {
+        "bbox": [
+          0.7770270274131275,
+          0.32195122024390255,
+          0.8851351355212356,
+          0.4243902446341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "K,K2H"
+      },
+      {
+        "bbox": [
+          0.8851351349943694,
+          0.31219512150406503,
+          0.9290540539132882,
+          0.36585365808943093
+        ],
+        "confidence": 1,
+        "text": "e"
+      },
+      {
+        "bbox": [
+          0.09459459479729729,
+          0.5073170736097562,
+          0.12162162182432432,
+          0.5512195126341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "У"
+      },
+      {
+        "bbox": [
+          0.5709459457347972,
+          0.4975609751219512,
+          0.5945945943834459,
+          0.5365853653658537
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.22972973021235524,
+          0.6634146339024392,
+          0.2972972977799228,
+          0.7073170729268293
+        ],
+        "confidence": 1,
+        "text": "SNR"
+      },
+      {
+        "bbox": [
+          0.5270270273310811,
+          0.6439024387317074,
+          0.5574324327364866,
+          0.6829268289756099
+        ],
+        "confidence": 1,
+        "text": "e"
+      },
+      {
+        "bbox": [
+          0.5000000005067567,
+          0.6926829265582655,
+          0.591216216722973,
+          0.7512195119241192
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "k, k2H"
+      },
+      {
+        "bbox": [
+          0.6587837822876448,
+          0.6682926831358885,
+          0.8682432417471043,
+          0.7170731709407666
+        ],
+        "confidence": 1,
+        "text": "Noise shaping"
+      },
+      {
+        "bbox": [
+          0.31081080950955914,
+          0.8634146323487618,
+          0.35472973165035077,
+          0.9268292711471731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "5*"
+      },
+      {
+        "bbox": [
+          0.5844594595861486,
+          0.8585365858536586,
+          0.6013513514780405,
+          0.8975609760975609
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.7195945926013514,
+          0.9317073173170732,
+          0.9189189169256756,
+          0.9658536587804879
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-0s 217"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "When a low-pass filter of first order is taken for H, with cut-off frequency f m and slope −20 dB/decade, the contribution of the error (noise) signal in the output y shows an inverted characteristic.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0629_02_217.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Its contribution is low at frequencies below f m and it increases at 20 dB/ decade for higher frequencies.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is propor- 1 2 tional to k , which is the gain in the forward path of the feedback loop.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The higher this gain, 1 the higher the SNR.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, higher-order filters give rise to higher 1 SNR values.",
+      "pdf_page": 630,
+      "printed_page": 641,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The order of this filter is therefore the third design parameter of a Sigma-delta converter.",
+      "pdf_page": 630,
+      "printed_page": 641,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "When a low-pass filter of first order is taken for H, with cut-off frequency f m and slope −20 dB/decade, the contribution of the error (noise) signal in the output y shows an inverted characteristic.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also, the higher the order of the filter, the steeper the slope of the noise beyond frequency f . m",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-217-M01",
+      "ocr_text": "y =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6013513514527027,
+        0.31707317019512193,
+        0.6587837838851351,
+        0.37073170678048784
+      ],
+      "context_crop": "regions/SANSEN-217_math_01.png",
+      "context_bbox_normalized": [
+        0.5613513514527027,
+        0.21707317019512193,
+        0.8887837838851351,
+        0.5007317067804878
+      ],
+      "source_image": "slides/p0629_02_217.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-217-M02",
+      "ocr_text": "- x+=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6756756766891893,
+        0.30243902418699187,
+        0.7972972983108109,
+        0.375609755894309
+      ],
+      "context_crop": "regions/SANSEN-217_math_02.png",
+      "context_bbox_normalized": [
+        0.6356756766891892,
+        0.20243902418699186,
+        1,
+        0.505609755894309
+      ],
+      "source_image": "slides/p0629_02_217.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

@@ -1,0 +1,60 @@
+Comparison of MOST and bipolar transistors 33
+This rule of thumb will be used quite often to calculate parasitic capacitances in opamps (see
+Chapter 6).
+0161
+Parameter f is the fre-
+T
+quency for which the output
+current i , though a short,
+DS
+equals the input current i .
+GS
+It is determined by the time
+constant of C and the
+GS
+transconductance g .
+m
+This parameter is a kind
+of Figure-of-merit for high
+frequency performance, tak-
+ing into account only
+the intrinsic transistor
+parameters.
+Substitution of C and
+GS
+g in f shows that this fre-
+m T
+quency is proportional to
+V −V and inversely proportional to L2. Decreasing the channel length allows an higher
+GS T
+frequency performance indeed.
+In velocity saturation however, the time that the electrons need to cross the channel length is
+L/v . The frequency f in velocity saturation is, to put it simply v /2pL. This is the highest
+sat T sat
+frequency that can be obtained with a MOST. It is obviously obtained for high values of
+V −V . It does not increase with smaller L2 however, but only with L.
+GS T
+Another figure-of-merit exists which includes some more extrinsic parameters. It is the maximum
+frequency of oscillation f . It is obviously related to f but includes parameters such as the Gate
+max T
+series resistance r and the Gate-Drain capacitance C . It can be higher or lower than f .
+G GD T
+0162
+It is striking that for high-
+frequency design, a large
+V −V is required and the
+GS T
+lowest possible value of
+channel length L. This is
+exactly the opposite of what
+is required for high gain
+(and later low noise and
+offset).
+This is probably one of
+the most basic compromises
+in analog CMOS design.
+High-gain devices such as at
+the input of operational
+amplifiers, have to be
+designed for small V −V
+GS T

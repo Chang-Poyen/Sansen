@@ -1,0 +1,149 @@
+{
+  "case_id": "SANSEN-242",
+  "slide_id": "242",
+  "chapter": 24,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 731,
+    "printed_page": 743
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0731_02_242.jpg",
+      "pdf_page": 731,
+      "printed_page": 743,
+      "bbox_pt": [
+        91.52162,
+        415.44818,
+        374.54215999999997,
+        611.85834
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 731,
+      "printed_page": 743,
+      "bbox_pt": [
+        0,
+        411.4586850000002,
+        595,
+        630.73851
+      ],
+      "text_raw": "Coupling is best visible\nwhen a sinusoidal waveform\nis analyzed with high\nspectral purity. Switching\non the logic functions on the\nsame substrate, induces\nhigh-frequency noise on the\nwaveform. This is a result of\ncoupling. It deteriorates\ndrastically the SNR. This is\nwhat has to be avoided in\npresent-day mixed-signal\ncircuits.",
+      "text": "Coupling is best visible when a sinusoidal waveform is analyzed with high spectral purity. Switching on the logic functions on the same substrate, induces high-frequency noise on the waveform. This is a result of coupling. It deteriorates drastically the SNR. This is what has to be avoided in present-day mixed-signal circuits."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Coupling is best visible when a sinusoidal waveform is analyzed with high spectral purity. Switching on the logic functions on the same substrate, induces high-frequency noise on the waveform. This is a result of coupling. It deteriorates drastically the SNR. This is what has to be avoided in present-day mixed-signal circuits.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Switching Noise",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0731_02_242.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07118644124293785,
+          0.08292682975609755,
+          0.3559322039548022,
+          0.14146341512195115
+        ],
+        "confidence": 1,
+        "text": "Switching Noise"
+      },
+      {
+        "bbox": [
+          0.4406779653672317,
+          0.7560975612195121,
+          0.4847457619774012,
+          0.7804878051219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4GBns"
+      },
+      {
+        "bbox": [
+          0.07118643725988708,
+          0.8341463416260162,
+          0.48135592878531086,
+          0.8829268294308943
+        ],
+        "confidence": 1,
+        "text": "Output without logie switching"
+      },
+      {
+        "bbox": [
+          0.6915254245762712,
+          0.7414634144512195,
+          0.7593220347457628,
+          0.7658536583536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Seme2d10"
+      },
+      {
+        "bbox": [
+          0.5423728839709443,
+          0.8341463412543554,
+          0.9084745788861985,
+          0.8829268290592334
+        ],
+        "confidence": 1,
+        "text": "Output with logie switching"
+      },
+      {
+        "bbox": [
+          0.732203389661017,
+          0.9512195121698906,
+          0.9288135591525423,
+          0.9804878048528175
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 242"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0731_02_242.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

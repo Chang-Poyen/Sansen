@@ -1,0 +1,146 @@
+{
+  "case_id": "SANSEN-102",
+  "slide_id": "102",
+  "chapter": 10,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 284,
+    "printed_page": 291
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0284_02_102.jpg",
+      "pdf_page": 284,
+      "printed_page": 291,
+      "bbox_pt": [
+        91.521622,
+        371.801484,
+        374.78981,
+        568.261475
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 284,
+      "printed_page": 291,
+      "bbox_pt": [
+        0,
+        367.812,
+        595,
+        703.55922
+      ],
+      "text_raw": "First of all, full operational\namplifiers are discussed,\nafter which some more con-\nfigurations are following.\nIn this class, transresis-\ntance amplifiers can be\nadded as well. They are dis-\ncussed in Chapter 14 how-\never, on shunt-series feed-\nback at the input.\nAs a result this is a fairly\nshort Chapter.",
+      "text": "First of all, full operational amplifiers are discussed, after which some more configurations are following. In this class, transresistance amplifiers can be added as well. They are discussed in Chapter 14 however, on shunt-series feedback at the input. As a result this is a fairly short Chapter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "First of all, full operational amplifiers are discussed, after which some more configurations are following. In this class, transresistance amplifiers can be added as well. They are discussed in Chapter 14 however, on shunt-series feedback at the input. As a result this is a fairly short Chapter.",
+  "schema_version": "1.0",
+  "chapter_title": "电流输入型运算放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0284_02_102.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270229729727,
+          0.07804877990243897,
+          0.3817567563513513,
+          0.13658536526829268
+        ],
+        "confidence": 0.5,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.1148648689864864,
+          0.31219512258536586,
+          0.7229729770945945,
+          0.37560975673170727
+        ],
+        "confidence": 1,
+        "text": "• Operational current amplifier"
+      },
+      {
+        "bbox": [
+          0.11666667239583323,
+          0.4216867469167913,
+          0.8041666723958332,
+          0.4879518065972649
+        ],
+        "confidence": 1,
+        "text": "• Configurations current amplifiers"
+      },
+      {
+        "bbox": [
+          0.7128378393158783,
+          0.9560975607317074,
+          0.8310810825591215,
+          0.9853658534146342
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.8513513521959458,
+          0.941463413902439,
+          0.9290540548986486,
+          0.9853658529268292
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10.05 102"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0284_02_102.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result this is a fairly short Chapter.",
+      "pdf_page": 284,
+      "printed_page": 291,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Current-input operational amplifiers"
+}

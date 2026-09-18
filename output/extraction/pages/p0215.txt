@@ -1,0 +1,46 @@
+220 Chapter #7
+general practice for nanometer CMOS where the gain per transistor has become quite small, i.e.
+less than 10.
+0719
+A two-stage Miller opera-
+tional amplifier is easily
+built by means of a symmet-
+rical OTA as a first stage, as
+shown in this slide.
+Its GBW also includes C
+c
+and B.
+The compensation cap-
+acitance C is obviously not
+c
+connected directly from
+Drain to Gate, but takes a
+path through cascode tran-
+sistor M10 to avoid the pos-
+itive zero.
+As a result, the current
+through the output stage
+M11/M12 can be taken
+smaller, saving power.
+0720
+An earlier realization of
+such a symmetrical OTA is
+shown in this slide. It is a
+bipolar realization.
+The current mirrors are
+quite elaborate, to obtain
+precise current mirroring
+and good matching.
+The specifications obvi-
+ously depend on the actual
+DC currents flowing.
+Actually, this circuit block
+can be tuned to any value of
+GBW by modifying the cur-
+rent through Q3. The non-
+dominant pole tracks the
+GBW.
+0721
+Another way to increase the gain is by current starving.
+This is actually a fully-differential symmetrical OTA. As no cascodes are used, the voltage gain
+is very modest.

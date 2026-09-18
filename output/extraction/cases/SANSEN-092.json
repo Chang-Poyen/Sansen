@@ -1,0 +1,173 @@
+{
+  "case_id": "SANSEN-092",
+  "slide_id": "092",
+  "chapter": 9,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 256,
+    "printed_page": 263
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0256_02_092.jpg",
+      "pdf_page": 256,
+      "printed_page": 263,
+      "bbox_pt": [
+        91.521622,
+        397.560975,
+        374.78981,
+        594.020966
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 256,
+      "printed_page": 263,
+      "bbox_pt": [
+        0,
+        393.5715000000001,
+        595,
+        703.55922
+      ],
+      "text_raw": "With three stages, stability\nis less obvious than two\nstages. This is why the first\ntopic in this Chapter is\ndevoted to stability require-\nments. A specific design pro-\ncedure has to be followed to\nensure stability with mini-\nmum power consumption.\nNested-Miller designs are\ndiscussed next. They have\nbeen used for some time\nnow. However, they suffer\nfrom excessive power con-\nsumption in the output\nstage.\nThis is why several low-power designs are introduced and compared. They allow power savings\nof up to 40 times. They are therefore useful for low-power and portable systems.",
+      "text": "With three stages, stability is less obvious than two stages. This is why the first topic in this Chapter is devoted to stability requirements. A specific design procedure has to be followed to ensure stability with minimum power consumption. Nested-Miller designs are discussed next. They have been used for some time now. However, they suffer from excessive power consumption in the output stage. This is why several low-power designs are introduced and compared. They allow power savings of up to 40 times. They are therefore useful for low-power and portable systems."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "With three stages, stability is less obvious than two stages. This is why the first topic in this Chapter is devoted to stability requirements. A specific design procedure has to be followed to ensure stability with minimum power consumption. Nested-Miller designs are discussed next. They have been used for some time now. However, they suffer from excessive power consumption in the output stage. This is why several low-power designs are introduced and compared. They allow power savings of up to 40 times. They are therefore useful for low-power and portable systems.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0256_02_092.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.13175675924831076,
+          0.3121951217073171,
+          0.5304054078969594,
+          0.3707317070731708
+        ],
+        "confidence": 1,
+        "text": "• Design procedure"
+      },
+      {
+        "bbox": [
+          0.13124908714391584,
+          0.3935040559597176,
+          0.6052984233453517,
+          0.4654168470490313
+        ],
+        "confidence": 1,
+        "text": "• Nested-Miller designs"
+      },
+      {
+        "bbox": [
+          0.13175675315315324,
+          0.4975609757723577,
+          0.5641891855855856,
+          0.5560975611382113
+        ],
+        "confidence": 1,
+        "text": "• Low-power designs"
+      },
+      {
+        "bbox": [
+          0.1317567596621621,
+          0.590243902195122,
+          0.4222973002027027,
+          0.6536585363414635
+        ],
+        "confidence": 1,
+        "text": "• Comparison"
+      },
+      {
+        "bbox": [
+          0.10416666829777545,
+          0.843373495491426,
+          0.8208333280911138,
+          0.8855421685647992
+        ],
+        "confidence": 1,
+        "text": "Ref.: W. Sansen : Analog Design Essentials, Springer 2006"
+      },
+      {
+        "bbox": [
+          0.7364864885557432,
+          0.9317073166463415,
+          0.9290540561233108,
+          0.9658536581097562
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 a5 092"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is why several low-power designs are introduced and compared.",
+      "pdf_page": 256,
+      "printed_page": 263,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0256_02_092.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "They are therefore useful for low-power and portable systems.",
+      "pdf_page": 256,
+      "printed_page": 263,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

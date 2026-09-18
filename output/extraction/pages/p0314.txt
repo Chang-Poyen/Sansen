@@ -1,0 +1,44 @@
+Rail-to-rail input and output amplifiers 321
+1141
+However, the variation in g
+m
+or GBW is not the biggest
+problem. The biggest prob-
+lem is the change in offset
+voltage from left to right.
+Going from low to high
+common-mode input volt-
+ages, a different input pair is
+operational, pMOST on the
+left but nMOST on the
+right.
+These pairs usually have
+different offset voltages. This
+change in offset voltage
+gives a lot of distortion. For
+a supply voltage of 1.5 V,
+the difference is about 5 mV. This can be regarded as an error signal (for example 1 V). The
+distortion can be as high as 0.5% or −50 dB. This is too much for most applications!
+In bipolar technologies, this offset can be ten times smaller. The distortion is also ten times
+smaller or −70 dB, which is much more acceptable.
+For a supply voltage of 3 V, the offset is averaged out in the middle. The distortion remains
+however.
+1142
+This layout is shown that
+most input stage devices are
+quite big. Indeed, they are
+used in weak inversion,
+which leads to large W/L
+ratios.
+The specifications are
+added as well. They show a
+FOM of about 320 MHzpF/
+mA, which is very reason-
+able indeed. This shows that
+a replica input stage does
+not add all that much to the
+power consumption. After
+all, the current consumption
+in the first stage of a
+two-stage opamp is always small. Doubling it is not going to make a big difference in total
+power consumption.

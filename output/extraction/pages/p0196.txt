@@ -1,0 +1,48 @@
+200 Chapter #6
+0636
+For all specifications, the
+same amplifier will be used
+throughout. It is the Miller
+CMOS OTA of 1 MHz
+GBW for a 10 pF load.
+In this way, the reader can
+give himself a fairly good
+picture on how all these
+numerical specifications fit
+together.
+The circuit is shown again
+in this slide.
+0637
+The Common-mode input
+voltage is the average input
+voltage. Its range is limited
+by the supply voltages.
+For the CM input voltage
+going up, the V of the
+GS1
+input devices, added to the
+V of the DC current
+DS7
+source, do not allow opera-
+tion up to the positive
+supply voltage. The maxi-
+mum CM input voltage is
+therefore V −V −V .
+DD GS1 DS7
+The values obviously
+depend on which V −V
+GS T
+values have been used. For
+the input devices the V −V value is small (0.2 V) but it is a lot larger (0.5 V) for the DC
+GS T
+current source.
+For a supply voltage of ±2.5 V, the maximum CM input voltage is illustrated in this slide.
+The lowest possible CM input voltage can come much closer to the negative supply voltage.
+Indeed, it is given by V +V +V −V . This value can be quite close to the V supply
+SS GS3 DS1 GS1 SS
+but can never actually reach it, whatever V −V values are chosen.
+GS T
+The total CM input voltage range is only a fraction of the rail-to-rail span. Some other
+amplifiers (in Chapter 11) will be capable of input rail-to-rail performance.
+Also, note that this amplifier could still operate at ±1 V provided the input transistors are
+biased at about −0.7 V.

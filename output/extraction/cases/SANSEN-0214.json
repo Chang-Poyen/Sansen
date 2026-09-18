@@ -1,0 +1,474 @@
+{
+  "case_id": "SANSEN-0214",
+  "slide_id": "0214",
+  "chapter": 2,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 56,
+    "printed_page": 57
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0056_02_0214.jpg",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "bbox_pt": [
+        91.521622,
+        371.651978,
+        374.78981,
+        568.111969
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 56,
+      "printed_page": 57,
+      "bbox_pt": [
+        0,
+        367.6625000000001,
+        595,
+        797
+      ],
+      "text_raw": "Quite often, local series feed-\nback is applied to a single-\ntransistor amplifier, by\nmeans of a resistor R . In\nS\nprinciple, the effect of this\nresistor can be calculated by\ncommon feedback theory\n(see Chapter 13). The so\ncalled loop gain is then\n(1+g R ). It affects all\nm S\nother circuit specifications.\nIt is a very simple case how-\never, which allows us to cal-\nculate all these effects\ndirectly.\nThe transconductance is\nreduced by this loop gain. For large resistors, the transconductance is reduced to 1/R . It is\nS\nindependent of the current in contrast with g .\nm\nA major effect is that the output resistance increases drastically. Indeed, it goes up by the\nsame loop gain. An easy way to remember this expression is to take the series resistor R ,\nS\nmultiplied by the intrinsic transistor gain itself g R .\nm DS\nThis increased output resistance will be used to increase the gain!\nThe input capacitance is decreased by the feedback. The larger the resistor R , the smaller the\nS\ninput capacitance. If R were replaced by a DC current source, the input capacitance would be\nS\nnegligible. Actually, the gain would be negligible as well. This is a source follower, as discussed\nlater.",
+      "text": "Quite often, local series feedback is applied to a singletransistor amplifier, by means of a resistor R . In S principle, the effect of this resistor can be calculated by common feedback theory (see Chapter 13). The so called loop gain is then (1+g R ). It affects all m S other circuit specifications. It is a very simple case however, which allows us to calculate all these effects directly. The transconductance is reduced by this loop gain. For large resistors, the transconductance is reduced to 1/R . It is S independent of the current in contrast with g . m A major effect is that the output resistance increases drastically. Indeed, it goes up by the same loop gain. An easy way to remember this expression is to take the series resistor R , S multiplied by the intrinsic transistor gain itself g R . m DS This increased output resistance will be used to increase the gain! The input capacitance is decreased by the feedback. The larger the resistor R , the smaller the S input capacitance. If R were replaced by a DC current source, the input capacitance would be S negligible. Actually, the gain would be negligible as well. This is a source follower, as discussed later."
+    },
+    {
+      "pdf_page": 57,
+      "printed_page": 58,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        183.30989999999986
+      ],
+      "text_raw": "The main problem of R is its noise. This is why in low-noise RF circuits, an inductor is\nS\nused instead.",
+      "text": "The main problem of R is its noise. This is why in low-noise RF circuits, an inductor is S used instead."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Quite often, local series feedback is applied to a singletransistor amplifier, by means of a resistor R . In S principle, the effect of this resistor can be calculated by common feedback theory (see Chapter 13). The so called loop gain is then (1+g R ). It affects all m S other circuit specifications. It is a very simple case however, which allows us to calculate all these effects directly. The transconductance is reduced by this loop gain. For large resistors, the transconductance is reduced to 1/R . It is S independent of the current in contrast with g . m A major effect is that the output resistance increases drastically. Indeed, it goes up by the same loop gain. An easy way to remember this expression is to take the series resistor R , S multiplied by the intrinsic transistor gain itself g R . m DS This increased output resistance will be used to increase the gain! The input capacitance is decreased by the feedback. The larger the resistor R , the smaller the S input capacitance. If R were replaced by a DC current source, the input capacitance would be S negligible. Actually, the gain would be negligible as well. This is a source follower, as discussed later.\n\nThe main problem of R is its noise. This is why in low-noise RF circuits, an inductor is S used instead.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Amplifier with local R- (series) feedback",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0056_02_0214.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946648648639,
+          0.08780487775609758,
+          0.7871621691891891,
+          0.1463414631219513
+        ],
+        "confidence": 1,
+        "text": "Amplifier with local R- (series) feedback"
+      },
+      {
+        "bbox": [
+          0.16891891942567563,
+          0.297560976195122,
+          0.23310810861486483,
+          0.3560975615609756
+        ],
+        "confidence": 1,
+        "text": "CinR"
+      },
+      {
+        "bbox": [
+          0.0979729733671171,
+          0.48292682910569107,
+          0.1452702706644144,
+          0.531707316910569
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.33108108178490986,
+          0.21951219508130082,
+          0.41554054124436934,
+          0.29268292678861796
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "I'out"
+      },
+      {
+        "bbox": [
+          0.34409144069318426,
+          0.3155518654472733,
+          0.45658423400835,
+          0.39664325777828036
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ", RoutR"
+      },
+      {
+        "bbox": [
+          0.3412162157094594,
+          0.5365853660487805,
+          0.39189189138513514,
+          0.5951219514146342
+        ],
+        "confidence": 0.5,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.6722972969313064,
+          0.239024389796748,
+          0.722972972606982,
+          0.2926829263821138
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.5135135145270271,
+          0.2829268287804878,
+          0.6148648658783784,
+          0.3414634141463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mR ="
+      },
+      {
+        "bbox": [
+          0.6250000010859073,
+          0.3121951218815331,
+          0.7770270281129343,
+          0.3804878048083624
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + 9mRs"
+      },
+      {
+        "bbox": [
+          0.8108108106081081,
+          0.27804878004878053,
+          0.8445945943918919,
+          0.3219512190731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-"
+      },
+      {
+        "bbox": [
+          0.5067567545608109,
+          0.4390243910365853,
+          0.8581081059121622,
+          0.5024390251829267
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Routr = EDs (1+ 9mRs)"
+      },
+      {
+        "bbox": [
+          0.5979052377052898,
+          0.5165804693750022,
+          0.8176353056027771,
+          0.5809805049540323
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= (9m'Ds) Rs"
+      },
+      {
+        "bbox": [
+          0.66554054125,
+          0.6292682926341463,
+          0.7364864871959459,
+          0.6926829267804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CGS"
+      },
+      {
+        "bbox": [
+          0.5067567578378378,
+          0.6780487800487804,
+          0.6148648659459459,
+          0.7414634141951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CinR ="
+      },
+      {
+        "bbox": [
+          0.6182432421332046,
+          0.717073170836237,
+          0.77364864753861,
+          0.7804878049825784
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + 9mRs"
+      },
+      {
+        "bbox": [
+          0.8648648646959458,
+          0.22926829227642276,
+          0.8918918917229728,
+          0.27804878008130074
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.8614864869087839,
+          0.3121951218699187,
+          0.9121621625844596,
+          0.38048780479674793
+        ],
+        "confidence": 0.5,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.09121621381756763,
+          0.8146341470731707,
+          0.5878378354391892,
+          0.8878048787804879
+        ],
+        "confidence": 1,
+        "text": "But Rs gives extra noise !"
+      },
+      {
+        "bbox": [
+          0.7195945925,
+          0.9317073172682927,
+          0.9290540519594596,
+          0.9609756099512196
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0214"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In S principle, the effect of this resistor can be calculated by common feedback theory (see Chapter 13).",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is a very simple case however, which allows us to calculate all these effects directly.",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0056_02_0214.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "If R were replaced by a DC current source, the input capacitance would be S negligible.",
+        "pdf_page": 56,
+        "printed_page": 57,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This is a source follower, as discussed later.",
+        "pdf_page": 56,
+        "printed_page": 57,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The so called loop gain is then (1+g R ).",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The transconductance is reduced by this loop gain.",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is S independent of the current in contrast with g . m A major effect is that the output resistance increases drastically.",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Indeed, it goes up by the same loop gain.",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "An easy way to remember this expression is to take the series resistor R , S multiplied by the intrinsic transistor gain itself g R . m DS This increased output resistance will be used to increase the gain!",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The input capacitance is decreased by the feedback.",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Actually, the gain would be negligible as well.",
+      "pdf_page": 56,
+      "printed_page": 57,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0214-M01",
+      "ocr_text": "9mR =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5135135145270271,
+        0.2829268287804878,
+        0.6148648658783784,
+        0.3414634141463415
+      ],
+      "context_crop": "regions/SANSEN-0214_math_01.png",
+      "context_bbox_normalized": [
+        0.4735135145270271,
+        0.1829268287804878,
+        0.8448648658783784,
+        0.4714634141463415
+      ],
+      "source_image": "slides/p0056_02_0214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0214-M02",
+      "ocr_text": "Routr = EDs (1+ 9mRs)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5067567545608109,
+        0.4390243910365853,
+        0.8581081059121622,
+        0.5024390251829267
+      ],
+      "context_crop": "regions/SANSEN-0214_math_02.png",
+      "context_bbox_normalized": [
+        0.46675675456081095,
+        0.3390243910365853,
+        1,
+        0.6324390251829267
+      ],
+      "source_image": "slides/p0056_02_0214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0214-M03",
+      "ocr_text": "= (9m'Ds) Rs",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5979052377052898,
+        0.5165804693750022,
+        0.8176353056027771,
+        0.5809805049540323
+      ],
+      "context_crop": "regions/SANSEN-0214_math_03.png",
+      "context_bbox_normalized": [
+        0.5579052377052898,
+        0.41658046937500226,
+        1,
+        0.7109805049540323
+      ],
+      "source_image": "slides/p0056_02_0214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0214-M04",
+      "ocr_text": "CinR =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5067567578378378,
+        0.6780487800487804,
+        0.6148648659459459,
+        0.7414634141951219
+      ],
+      "context_crop": "regions/SANSEN-0214_math_04.png",
+      "context_bbox_normalized": [
+        0.4667567578378378,
+        0.5780487800487805,
+        0.8448648659459459,
+        0.8714634141951219
+      ],
+      "source_image": "slides/p0056_02_0214.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "04-degeneration",
+    "title": "源极负反馈与可调跨导",
+    "summary_zh": "保留有限输出电阻；区分负反馈阻抗、信号源电阻与线性区 MOS 的栅极响应。",
+    "html": "../derivations/ch02/04-degeneration.html",
+    "markdown": "../derivations/ch02/04-degeneration.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "源极负反馈与可调跨导",
+    "case_ids": [
+      "degeneration",
+      "degeneration_zin",
+      "mos_degen"
+    ],
+    "linear_count": 2,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#04-degeneration",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

@@ -1,0 +1,43 @@
+222 Chapter #7
+It is a high-swing current
+mirror again.
+This circuit is as symmet-
+rical as the symmetrical
+OTA as both input devices
+see exactly the same DC
+voltage and impedance, at
+nodes 1 and 2.
+The output is again the
+only point at high resis-
+tance. Indeed all other
+nodes are at 1/g level. It is
+m
+again a single-stage ampli-
+fier, despite its complexity.
+0724
+Let us first examine how
+the DC operation actually
+works.
+The input devices are
+biased by a current source
+(with M9) at for example
+100 mA. Both input devices
+carry 50 mA.
+At node 2, transistor M11
+draws 100 mA. The differ-
+ence between this current
+and what is coming from
+M1, is then pulled from cas-
+code transistor M4.
+This current flows
+through both cascode tran-
+sistors. The current source on top mirrors this current. There is no way that DC current could
+flow out, even if the output node would be connected to ground.
+Normally, all currents in the input and cascode devices are the same, i.e. 50 mA. This is not a
+necessity but is certainly the best way to avoid all kinds of artifacts, such as asymmetrical swing,
+Slew-Rate, etc.
+0725
+The small-signal operation is easily understood.
+The input transistors create a circular current, which flows through the cascode transistors to
+the high-impedance node. The output resistance at node 4 is again R .
+n4

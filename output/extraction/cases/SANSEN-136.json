@@ -1,0 +1,287 @@
+{
+  "case_id": "SANSEN-136",
+  "slide_id": "136",
+  "chapter": 13,
+  "slide_number_in_chapter": 6,
+  "source": {
+    "pdf_page": 359,
+    "printed_page": 366
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0359_01_136.jpg",
+      "pdf_page": 359,
+      "printed_page": 366,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 359,
+      "printed_page": 366,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        405.52950000000016
+      ],
+      "text_raw": "The gain calculated in this\nway is therefore the loop\ngain LG or also called the\nreturn ratio.\nTo illustrate that it does\nnot make any difference\nwhere the loop is broken, we\ncalculate the loop gain LG\nagain. This time the loop\nis broken between the\nfeedback resistor R and\nF\nthe input terminal of the\nopamp. This is an even\nbetter place than before as\nthe input resistance of an\nopamp is just about infinity,\nand a lot larger than that resistor R .\nF\nIt is clear that we find the same value of the loop gain LG. It is again equal to the gain of\nthe operational amplifier itself A .\n0",
+      "text": "The gain calculated in this way is therefore the loop gain LG or also called the return ratio. To illustrate that it does not make any difference where the loop is broken, we calculate the loop gain LG again. This time the loop is broken between the feedback resistor R and F the input terminal of the opamp. This is an even better place than before as the input resistance of an opamp is just about infinity, and a lot larger than that resistor R . F It is clear that we find the same value of the loop gain LG. It is again equal to the gain of the operational amplifier itself A . 0"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The gain calculated in this way is therefore the loop gain LG or also called the return ratio. To illustrate that it does not make any difference where the loop is broken, we calculate the loop gain LG again. This time the loop is broken between the feedback resistor R and F the input terminal of the opamp. This is an even better place than before as the input resistance of an opamp is just about infinity, and a lot larger than that resistor R . F It is clear that we find the same value of the loop gain LG. It is again equal to the gain of the operational amplifier itself A . 0",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Calculation loop gain - alternate",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0359_01_136.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946346525095,
+          0.09268292655052268,
+          0.6452702742760618,
+          0.15121951191637628
+        ],
+        "confidence": 1,
+        "text": "Calculation loop gain - alternate"
+      },
+      {
+        "bbox": [
+          0.27027026993243247,
+          0.24390243843902437,
+          0.31756756722972973,
+          0.3024390238048781
+        ],
+        "confidence": 0.5,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.21621621566119692,
+          0.35121951170731713,
+          0.30743243187741315,
+          0.41951219463414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.23310810850225222,
+          0.46341463394308935,
+          0.28040540579954953,
+          0.5073170729674796
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.09459459480574321,
+          0.6048780492073171,
+          0.3006756758868243,
+          0.6390243906707318
+        ],
+        "confidence": 1,
+        "text": "Ideal separation!"
+      },
+      {
+        "bbox": [
+          0.43243243216698846,
+          0.48780487756097557,
+          0.4831081078426641,
+          0.5560975604878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ao"
+      },
+      {
+        "bbox": [
+          0.5671326946809122,
+          0.3215952068408874,
+          0.9101450404846627,
+          0.41101484624220697
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG = YOUT = AvoL= Ao"
+      },
+      {
+        "bbox": [
+          0.6805933188129482,
+          0.4848145445340306,
+          0.8163081719450413,
+          0.550313178035037
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ao = 104."
+      },
+      {
+        "bbox": [
+          0.8006756744932433,
+          0.48780487859756094,
+          0.8952702690878379,
+          0.5414634151829267
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "... 106"
+      },
+      {
+        "bbox": [
+          0.6891891873986487,
+          0.5707317075121952,
+          0.8682432414527028,
+          0.6097560977560976
+        ],
+        "confidence": 1,
+        "text": "OL Open Loop"
+      },
+      {
+        "bbox": [
+          0.7162162208018535,
+          0.9365853664227644,
+          0.9222972889954438,
+          0.9707317078861789
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 os 136"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The gain calculated in this way is therefore the loop gain LG or also called the return ratio.",
+      "pdf_page": 359,
+      "printed_page": 366,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "To illustrate that it does not make any difference where the loop is broken, we calculate the loop gain LG again.",
+      "pdf_page": 359,
+      "printed_page": 366,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "F It is clear that we find the same value of the loop gain LG.",
+      "pdf_page": 359,
+      "printed_page": 366,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0359_01_136.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The gain calculated in this way is therefore the loop gain LG or also called the return ratio.",
+      "pdf_page": 359,
+      "printed_page": 366,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "To illustrate that it does not make any difference where the loop is broken, we calculate the loop gain LG again.",
+      "pdf_page": 359,
+      "printed_page": 366,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "F It is clear that we find the same value of the loop gain LG.",
+      "pdf_page": 359,
+      "printed_page": 366,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is again equal to the gain of the operational amplifier itself A . 0",
+      "pdf_page": 359,
+      "printed_page": 366,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-136-M01",
+      "ocr_text": "LG = YOUT = AvoL= Ao",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5671326946809122,
+        0.3215952068408874,
+        0.9101450404846627,
+        0.41101484624220697
+      ],
+      "context_crop": "regions/SANSEN-136_math_01.png",
+      "context_bbox_normalized": [
+        0.5271326946809122,
+        0.22159520684088738,
+        1,
+        0.541014846242207
+      ],
+      "source_image": "slides/p0359_01_136.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-136-M02",
+      "ocr_text": "Ao = 104.",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6805933188129482,
+        0.4848145445340306,
+        0.8163081719450413,
+        0.550313178035037
+      ],
+      "context_crop": "regions/SANSEN-136_math_02.png",
+      "context_bbox_normalized": [
+        0.6405933188129481,
+        0.38481454453403063,
+        1,
+        0.680313178035037
+      ],
+      "source_image": "slides/p0359_01_136.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

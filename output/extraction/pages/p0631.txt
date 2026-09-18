@@ -1,0 +1,47 @@
+642 Chapter #21
+2110
+The values of the SNR
+which can be achieved
+depending on the values of
+the three design variables
+are given in this slide.
+However, for all of them
+single-bit quantization is
+taken.
+The SNR is given versus
+the OSR and for different
+orders of noise-shaping. The
+higher the OSR and the
+noise-shaping order, the
+higher the SNR.
+The same SNR can there-
+fore be achieved for either
+higher OSR or for higher noise-shaping. For example, 80 dB SNR (corresponding to 13 bit
+resolution) can be realized by either an OSR of only 14 requiring 4th order noise shaping, or by
+an OSR of 50 allowing only 2nd order noise shaping. Which one is preferable?
+Fourth-order noise shaping may require a Mash topology, which requires tougher matching
+conditions. High OSR values on the other hand, require higher-speed opamps which require
+more power consumption.
+This is the trade-off. For high-speed Sigma-Delta converters low values of OSR’s are preferred,
+leading to stability and matching considerations. For low-power Sigma-Delta converters, low
+values of OSR’s are also preferred, leading to similar considerations.
+2111
+The use of more bits for the
+quantization also increases
+the maximum SNR.
+In this graph M stands for
+multibit;
+– M4 thus stands for 4 bit
+quantization,
+– C211 stands for 4th-order
+noise shaping with a
+2–1–1 Mash or cascaded
+topology; note that a 2–2
+Mash topology offers
+less SNR,
+– SL4 stand for a 4th-order
+single-loop topology.
+It is clear that a 4-bit 4th-
+order noise shaping is by far the best.
+It is also clear that 3rd-order noise shaping provides lower SNR values. This is true for both
+a 2–1 Mash topology (C21) and for a 3rd order single-loop topology (SL3).

@@ -1,0 +1,179 @@
+{
+  "case_id": "SANSEN-2431",
+  "slide_id": "2431",
+  "chapter": 24,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 746,
+    "printed_page": 758
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0746_02_2431.jpg",
+      "pdf_page": 746,
+      "printed_page": 758,
+      "bbox_pt": [
+        91.521622,
+        469.308991,
+        374.78981,
+        665.768982
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 746,
+      "printed_page": 758,
+      "bbox_pt": [
+        0,
+        465.31950000000035,
+        595,
+        797
+      ],
+      "text_raw": "Now that we know what\nisolation to expect in the\nsubstrate, let us see how\ntransmission in the sub-\nstrate can be modeled and\nwhat layout rules can be\nextracted. This is mainly\nbased on simulations of\nlarger substrates with noise\nsources and sensitive pre-\namplifiers combined. Some-\ntimes experimental data is\navailable as well, however.",
+      "text": "Now that we know what isolation to expect in the substrate, let us see how transmission in the substrate can be modeled and what layout rules can be extracted. This is mainly based on simulations of larger substrates with noise sources and sensitive preamplifiers combined. Sometimes experimental data is available as well, however."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that we know what isolation to expect in the substrate, let us see how transmission in the substrate can be modeled and what layout rules can be extracted. This is mainly based on simulations of larger substrates with noise sources and sensitive preamplifiers combined. Sometimes experimental data is available as well, however.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Slide 2431",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0746_02_2431.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07392583106354422,
+          0.08075254695369438,
+          0.2098579544023982,
+          0.13875964768700944
+        ],
+        "confidence": 1,
+        "text": "Outline"
+      },
+      {
+        "bbox": [
+          0.13513513620495488,
+          0.21463414686991866,
+          0.6351351362049549,
+          0.2780487810162602
+        ],
+        "confidence": 1,
+        "text": "• Circuit noise generation"
+      },
+      {
+        "bbox": [
+          0.13450507813650833,
+          0.3107401868159796,
+          0.59858769293209,
+          0.3831276495249878
+        ],
+        "confidence": 1,
+        "text": "• Circuit noise coupling"
+      },
+      {
+        "bbox": [
+          0.18243242851351357,
+          0.39999999941463416,
+          0.5810810771621622,
+          0.45853658478048787
+        ],
+        "confidence": 1,
+        "text": "•Power supply pinning"
+      },
+      {
+        "bbox": [
+          0.18192160041914865,
+          0.47269656664908344,
+          0.5342366267797377,
+          0.5333320775356712
+        ],
+        "confidence": 1,
+        "text": "\"Substrate coupling"
+      },
+      {
+        "bbox": [
+          0.17905405132319827,
+          0.5560975604878049,
+          0.5135135107826577,
+          0.6146341458536586
+        ],
+        "confidence": 1,
+        "text": "• Circuit placement"
+      },
+      {
+        "bbox": [
+          0.13513513006756758,
+          0.6487804871707318,
+          0.6554054003378379,
+          0.7121951213170732
+        ],
+        "confidence": 1,
+        "text": "• Rejection of circuit noise"
+      },
+      {
+        "bbox": [
+          0.182321555821665,
+          0.731091713105969,
+          0.3109216892535894,
+          0.7811034084095371
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- PSRR"
+      },
+      {
+        "bbox": [
+          0.7293949934242961,
+          0.9456489532797602,
+          0.9429121566751936,
+          0.9867549400842571
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2431"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0746_02_2431.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

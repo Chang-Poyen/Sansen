@@ -1,0 +1,194 @@
+{
+  "case_id": "SANSEN-0341",
+  "slide_id": "0341",
+  "chapter": 3,
+  "slide_number_in_chapter": 41,
+  "source": {
+    "pdf_page": 108,
+    "printed_page": 110
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0108_01_0341.jpg",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "bbox_pt": [
+        91.52162,
+        122.37743999999998,
+        374.54215999999997,
+        318.8374
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 108,
+      "printed_page": 110,
+      "bbox_pt": [
+        0,
+        118.38797,
+        595,
+        355.903745
+      ],
+      "text_raw": "Bootstrapping has actually\nbeen introduced to nullify\nthe effect of the input\ncapacitance of a coax cable\nin front of a preamplifier.\nIndeed the second buffer\nA2 will ensure that the outer\nscreen of the coax cable is\nat the same potential as the\ninner conductor. As a result\nthere is no voltage difference\nbetween inner and outer\nwire of that cable. Its capaci-\ntance (of up to 1pF/cm) is\nthus nullified. The capaci-\ntance of the cable is ‘‘boot-\nstrapped out’’.\nThe input capacitance is either quite small or the input impedance is exceedingly high!",
+      "text": "Bootstrapping has actually been introduced to nullify the effect of the input capacitance of a coax cable in front of a preamplifier. Indeed the second buffer A2 will ensure that the outer screen of the coax cable is at the same potential as the inner conductor. As a result there is no voltage difference between inner and outer wire of that cable. Its capacitance (of up to 1pF/cm) is thus nullified. The capacitance of the cable is ‘‘bootstrapped out’’. The input capacitance is either quite small or the input impedance is exceedingly high!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Bootstrapping has actually been introduced to nullify the effect of the input capacitance of a coax cable in front of a preamplifier. Indeed the second buffer A2 will ensure that the outer screen of the coax cable is at the same potential as the inner conductor. As a result there is no voltage difference between inner and outer wire of that cable. Its capacitance (of up to 1pF/cm) is thus nullified. The capacitance of the cable is ‘‘bootstrapped out’’. The input capacitance is either quite small or the input impedance is exceedingly high!",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Bootstrapping for low input capacitance",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0108_01_0341.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135593608286246,
+          0.08780487775067747,
+          0.779661020828625,
+          0.151219511897019
+        ],
+        "confidence": 1,
+        "text": "Bootstrapping for low input capacitance"
+      },
+      {
+        "bbox": [
+          0.5254237290847458,
+          0.2048780485365853,
+          0.579661017220339,
+          0.263414633902439
+        ],
+        "confidence": 1,
+        "text": "A1"
+      },
+      {
+        "bbox": [
+          0.7254237292978208,
+          0.3268292680836238,
+          0.7932203394673124,
+          0.37560975588850176
+        ],
+        "confidence": 1,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.08135593183050847,
+          0.36585365804878056,
+          0.12542372844067795,
+          0.41463414585365854
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.637288135190678,
+          0.5707317075609757,
+          0.7016949148516949,
+          0.6292682929268293
+        ],
+        "confidence": 1,
+        "text": "A2"
+      },
+      {
+        "bbox": [
+          0.45423728974576266,
+          0.7658536581707317,
+          0.7118644083898304,
+          0.8341463410975609
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ccoax = 0 !!!"
+      },
+      {
+        "bbox": [
+          0.7118644084745762,
+          0.9317073165853659,
+          0.9220339,
+          0.980487804390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen C-05 0341"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0108_01_0341.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result there is no voltage difference between inner and outer wire of that cable.",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its capacitance (of up to 1pF/cm) is thus nullified.",
+      "pdf_page": 108,
+      "printed_page": 110,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0341-M01",
+      "ocr_text": "Ccoax = 0 !!!",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.45423728974576266,
+        0.7658536581707317,
+        0.7118644083898304,
+        0.8341463410975609
+      ],
+      "context_crop": "regions/SANSEN-0341_math_01.png",
+      "context_bbox_normalized": [
+        0.4142372897457627,
+        0.6658536581707317,
+        0.9418644083898304,
+        0.93
+      ],
+      "source_image": "slides/p0108_01_0341.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

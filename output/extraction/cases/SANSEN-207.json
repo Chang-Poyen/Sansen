@@ -1,0 +1,210 @@
+{
+  "case_id": "SANSEN-207",
+  "slide_id": "207",
+  "chapter": 20,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 595,
+    "printed_page": 606
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0595_01_207.jpg",
+      "pdf_page": 595,
+      "printed_page": 606,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 595,
+      "printed_page": 606,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        393.5715100000001
+      ],
+      "text_raw": "When the output voltage\nchanges in time, as a result\nof change of bit b, then the\ntransition may not be\ninstantaneous.\nThe change in voltage\nmay experience a limited\nrise time, or slew rate.\nMoreover an overshoot may\noccur, called glitch. The\nenergy in this glitch (which\nis the integral under this\nglitch waveform) must be\nsmaller than the energy of\na LSB.\nThe time required to\nreach the final value (within 0.1% for example) is called the settling time.\nAs clocks are used, some clock feedthrough may occur as well.",
+      "text": "When the output voltage changes in time, as a result of change of bit b, then the transition may not be instantaneous. The change in voltage may experience a limited rise time, or slew rate. Moreover an overshoot may occur, called glitch. The energy in this glitch (which is the integral under this glitch waveform) must be smaller than the energy of a LSB. The time required to reach the final value (within 0.1% for example) is called the settling time. As clocks are used, some clock feedthrough may occur as well."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "When the output voltage changes in time, as a result of change of bit b, then the transition may not be instantaneous. The change in voltage may experience a limited rise time, or slew rate. Moreover an overshoot may occur, called glitch. The energy in this glitch (which is the integral under this glitch waveform) must be smaller than the energy of a LSB. The time required to reach the final value (within 0.1% for example) is called the settling time. As clocks are used, some clock feedthrough may occur as well.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Dynamie specifications",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0595_01_207.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627463276828,
+          0.07804878028455287,
+          0.4881355966666666,
+          0.14146341443089427
+        ],
+        "confidence": 1,
+        "text": "Dynamie specifications"
+      },
+      {
+        "bbox": [
+          0.2101694920338983,
+          0.2390243896341464,
+          0.28474576322033895,
+          0.2878048774390244
+        ],
+        "confidence": 1,
+        "text": "glitch"
+      },
+      {
+        "bbox": [
+          0.4101694897740113,
+          0.2292682928861789,
+          0.6203389812994351,
+          0.2731707319105692
+        ],
+        "confidence": 1,
+        "text": "clock-feedthrough"
+      },
+      {
+        "bbox": [
+          0.06779660863784014,
+          0.31219512292682916,
+          0.10169491695538019,
+          0.3902439034146341
+        ],
+        "confidence": 0.5,
+        "text": "Yout"
+      },
+      {
+        "bbox": [
+          0.6271186438418079,
+          0.3512195127235772,
+          0.7084745760451978,
+          0.4146341468699186
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DNL"
+      },
+      {
+        "bbox": [
+          0.15219100101077676,
+          0.43662379731372125,
+          0.25797849159687974,
+          0.47557132257073886
+        ],
+        "confidence": 1,
+        "text": "slew rate"
+      },
+      {
+        "bbox": [
+          0.6471551877079176,
+          0.5390317961927577,
+          0.7901329507384062,
+          0.5829194230267897
+        ],
+        "confidence": 1,
+        "text": "Ideal respons"
+      },
+      {
+        "bbox": [
+          0.6440677947457626,
+          0.5756097564390243,
+          0.8305084727118642,
+          0.6195121954634146
+        ],
+        "confidence": 1,
+        "text": "non-ideal respons"
+      },
+      {
+        "bbox": [
+          0.2710903688760874,
+          0.7018375146993631,
+          0.41704522510208714,
+          0.751821023111794
+        ],
+        "confidence": 1,
+        "text": "settling time"
+      },
+      {
+        "bbox": [
+          0.6474576276271187,
+          0.7902439022764228,
+          0.7084745767796611,
+          0.8292682925203253
+        ],
+        "confidence": 1,
+        "text": "time"
+      },
+      {
+        "bbox": [
+          0.7322033945446846,
+          0.9512195127642277,
+          0.9322033816135075,
+          0.9853658542276423
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 207"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0595_01_207.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "When the output voltage changes in time, as a result of change of bit b, then the transition may not be instantaneous.",
+      "pdf_page": 595,
+      "printed_page": 606,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The change in voltage may experience a limited rise time, or slew rate.",
+      "pdf_page": 595,
+      "printed_page": 606,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

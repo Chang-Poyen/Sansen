@@ -1,0 +1,50 @@
+Continuous-time filters 575
+1917
+Some simple filter structures
+with Gm blocks are shown
+in this slide.
+Feedback from the output
+to the minus input turns the
+Gm block into a resistance
+with value 1/g .
+m
+Using a Gm block open
+loop provides a pole deter-
+mined by the output load
+capacitance. This is actually
+an integrator.
+If a parallel RC circuit is
+used as a load, then a volt-
+age amplifier is obtained
+with gain g R and a pole
+m
+with time constant RC.
+1918
+As a load a Gm block or
+transconductor can be used
+as well. The voltage gain is
+now the ratio of the two
+transconductances. The pole
+is determined by g and the
+m2
+capacitance C at the inter-
+mediate node.
+The GBW is obviously
+determined by g and the
+m1
+capacitance C at that inter-
+mediate node.
+This same structure can
+better be realized in a
+differential configuration, as
+shown next.
+1919
+A differential configuration of a voltage amplifier is shown in this slide. The gain is the ratio of
+the two transconductances. The pole is determined by g and the capacitance C at the
+m2 L
+intermediate node.
+In order to make sure this pole frequency is accurate, the parasitic capacitances C must be
+p
+negligible with respect to the load capacitance C . This limits the minimum value of C and the
+L L
+upper value of the pole frequency.

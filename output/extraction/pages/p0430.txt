@@ -1,0 +1,40 @@
+438 Chapter #15
+1534
+A second condition for good
+matching is that both
+devices must be on the same
+isotherm.
+Most large chips operate
+at high temperatures.
+Silicon is a good thermal
+conductor and yet temper-
+ature differences are easily
+generated, for example,
+power devices operate on
+one end of the chip and the
+input transistors of an
+opamp are on the other side.
+Such a situation is
+sketched next.
+1535
+Power devices are located
+on the right. They heat up
+the chip on the right side,
+generating isotherms on the
+other side of the chip.
+The input transistors of
+an opamp or any other
+differential circuit is better
+laid out on this isotherm. If
+not, an internal thermal
+resistance is active, which
+limits the open-loop gain in
+exactly the same way as a
+feedback resistor would (see
+reference).
+This applies not only to
+static isotherms but also dynamic ones, for example when power switches (or relays) are integrated
+on the chip.
+Temperature gradients can also induce stress in the chip. The same applies to the pack-
+age. Matched components have to be laid out on iso-stress lines, which may be hard to be
+identified!

@@ -1,0 +1,48 @@
+Fully-diVerential amplifiers 253
+0829
+An example of such
+common-mode feedback is
+the amplifier shown in this
+slide.
+The input stage consists
+of class AB differential pairs
+and will be discussed in
+Chapter 12. Their outputs
+are current mirrored (M15/
+M18, M10/M11, M16/M17,
+M9/M12) to the outputs
+over cascode transistors. It
+is thus a symmetrical OTA
+for a differential operation.
+The common-feedback
+amplifier consists of two
+differential pairs on either side. Two connections are used to cancel the differential signal. The
+outputs are then fed back to the sources of cascodes M13 and M14 to the outputs.
+It is clear that a lot of current is consumed in the CMFB amplifiers. Moreover, the output
+swings are limited by input ranges of the CMFB differential pairs, as explained in this slide.
+0830
+As a comparison, the three
+types of CMFB amplifiers
+are listed in this slide.
+It is clear that the first
+type, with the MOSTs in the
+linear region, has the lowest
+power consumption. It does
+not offer the same wide-
+band performance of the
+other two. It only uses one
+single amplifier.
+Its output swing is limited
+by the use of cascodes. It can
+still be about 80% of the
+total supply voltage, which
+is not too bad at all.
+The third type of CMFB amplifier needs one amplifier more, i.e. the error amplifier. Its speed
+is good but its output swing is limited by the input common-mode range.
+In addition, the middle CMFB amplifier needs source followers. It now requires three amplifier
+stages which takes a lot of power. Its output swing is now mainly limited by the source followers.
+Indeed their V values have to be subtracted directly from the output swings.
+GS
+Adding more differential pairs in the CMFB pairs makes the requirements on the matching
+more severe. The first solution with transistors in the linear region require stiffer tolerances than
+the other ones. It would take an elaborate analysis to show this, which, however, is left out.

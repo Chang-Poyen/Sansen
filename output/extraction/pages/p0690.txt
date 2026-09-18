@@ -1,0 +1,44 @@
+Design of crystal oscillators 701
+From the expression of
+the loop gain, it is clear that
+this circuit will oscillate at
+the frequency f . The atten-
+osc
+uation of 1/3 is compensated
+by the voltage gain of 3.
+Moreover, the phase shift
+around the loop is zero at
+this frequency.
+Again no amplitude
+limitation is added. Two
+diodes could again be added
+at the output to limit the
+output swing.
+2248
+The same Wien bridge oscil-
+lator can be used to build a
+Voltage Controlled Crystal
+oscillator.
+Obviously, this is a con-
+tradiction. Normally, a crys-
+tal oscillator is used to fix
+the frequency with high
+accuracy. A VCO on the
+other hand is used to vary
+the frequency over 20–30%.
+However, sometimes, es-
+pecially for timing purposes,
+we want to set the crystal
+frequency to an accurate
+value which is slightly differ-
+ent from the crystal frequency itself.
+In this example, a resonator is used, which is similar to a crystal but with a lower Q factor,
+to set the frequency at exactly 460,00 kHz. The resonator has only 457 kHz. How do we solve
+this problem?
+The resonator is part of the Wien bridge. The solution is therefore to add a parallel capacitance
+to the resonator to detune it. The oscillation will obviously take place much closer to parallel
+resonance than to series resonance. Changing the parallel capacitance is now an easy way to
+slightly change the oscillation frequency.
+In order to be able to tune the frequency in both directions, we have to be able to add a
+capacitance DC, which can be both positive and negative. Moreover, we want to be able to
+control this capacitance value with a voltage or current.

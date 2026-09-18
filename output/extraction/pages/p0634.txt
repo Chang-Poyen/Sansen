@@ -1,0 +1,57 @@
+L ow-power sigma-delta AD converters 645
+where both transistors conduct. This region disappears when the supply voltage is lowered to a
+value which is roughly the sum of the two V ’s or 1.8 V in this example.
+T
+As a consequence, such a transmission gate with a nMOST/pMOST parallel combination
+cannot be used any longer for supply voltages below the sum of the V ’s. This is 1.8 V in this
+T
+example. For present days V ’s of
+T
+0.35 V, this is about 0.7 V. This is lower than 1 V, but not significantly!
+2116
+What solutions are available
+for using switches at supply
+voltages below the sum of
+the threshold voltages?
+The first one is to ask for
+a modification in technol-
+ogy. Normally the V ’s are
+T
+determined for optimum
+performance of the digital
+part. This means that nowa-
+days two different oxide
+thickness are often avail-
+able. The thinner ones offer
+lower V ’s and higher
+T
+speeds. The thicker ones
+provide larger values of V
+T
+and lower leakage currents. This latter is the low-power process.
+The high-speed process now provides lower V values. It is ideally suited to provide switches
+T
+which can switch all input voltages. The leakage current is higher, however. As a result, the
+switch may be difficult to switch off !
+Another solution is to use voltage multipliers. They are circuits which provide DC output
+voltages which are higher than the supply voltage V . This higher voltage can now be used to
+DD
+drive the Gates of the switches.
+The main problems of such multipliers are their low power efficiency. Moreover, they may
+cause reliability problems for the thin Gate oxides.
+Another alternative is not to use these switches any more, but to switch the preceding opamp.
+This is called the switched-opamp approach.
+All three alternatives are now discussed in more detail.
+2117
+The first alternative is to lower the value of the V . Smaller V values require smaller V
+T DD T
+values! How far can this go?
+A small value of V causes the weak-inversion part of the i −v characteristic to cross the
+T DS GS
+axis of zero V . In other words, even for zero V , some current flows. This is called the leakage
+GS GS
+current. This means that all digital gates conduct current even when switched off.
+Lowering the V causes excessive power consumption. A minimum value seems to be about
+T
+0.3 V (Ref. Rabaey).
+Most chips operate at higher temperatures, however. Chip temperatures of up to 100°C higher

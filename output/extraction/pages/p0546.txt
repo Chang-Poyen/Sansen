@@ -1,0 +1,51 @@
+556 Chapter #18
+If we take now a Miller
+opamp with a differential
+input stage (a =0) and a
+2
+single-ended output stage,
+then all IM is due to the
+2
+non-linearity of the output
+transistor, at least at low fre-
+quencies. This is also true at
+high frequencies as a
+differential pair does not
+generate second-order dis-
+tortion. In practice, some
+other sources of distortion
+take over. The output con-
+ductance of the output tran-
+sistor then starts coming in.
+The IM is also due to the
+3
+non-linearity of the output stage at low frequencies. At high frequencies the non-linearity of the
+input stage takes over.
+1876
+Similar results can be
+obtained for three-stage
+amplifiers (‘‘Distortion in
+Single-, Two-and Three-
+stage amplifiers’’, Hernes,
+etal, TCAS-I, May 2005,
+846–856, ‘‘Distortion analy-
+sis of Miller-compen-
+sated three-stage amplifiers,
+Cannizzaro, etal, TCAS-1,
+2005).
+The contributions of the
+first stage carry coefficients
+a (black) whereas the output
+stage coefficients c (red).
+The intermediate second
+stage carries coefficients b (green).
+It is clear that at low frequencies the distortion of the output stage again dominates. The
+reason is that the input voltage of the output stage is fairly high, because of gains a and b .
+1 1
+At high frequencies, the distortion of the input stage takes over. The contributions of the
+second stage in the middle are always negligible. This is a result of the compensation scheme in
+which the lowest non-dominant pole is at a lower frequency than the one of the second stage.
+It is clear that a number of less important non-linearities have been neglected. The most
+important ones are the output conductances of the output transistors.
+Note, finally, that a simple rule can be deduced from these expressions. The distortion can
+always be calculated provided the relative current swing can be calculated. For this purpose, we

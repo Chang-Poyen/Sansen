@@ -1,0 +1,45 @@
+L ow-power sigma-delta AD converters 641
+Higher-order filters allow higher values of k . As a result, higher-order filters give rise to higher
+1
+SNR values.
+The order of this filter is therefore the third design parameter of a Sigma-delta converter.
+Recall that the other two are the oversampling ratio OSR and the number of bits B of the
+quantizer.
+218
+Normally, third-and fourth-
+order filters are used. A first-
+order Sigma-Delta is rarely
+used because it shows pat-
+terns in the output spectrum
+which are hard to remove.
+Second-order Sigma-delta
+converters are easy to real-
+ize. Since only a second-
+order filter is involved, no
+problems arise with respect
+to stability. Their noise
+shaping capability is some-
+what limited, however.
+Third-order and fourth-
+order converters are used
+most (see slide). To go higher is difficult because of stability problems.
+Fourth-order filters in a single feedback loop as shown in this slide, are risky but feasible. It
+is better to organize them in a Mash or cascaded topology as shown next.
+219
+A 4th-order Mash (or cas-
+caded) topology has four
+filter sections for 4th order
+noise shaping. Only two of
+them are in a single feedback
+loop. Stability is easily
+achieved.
+It has three outputs how-
+ever, which are fed to a
+so-called noise-cancellation
+circuit. This means that the
+three outputs must receive
+the right gain and the right
+delay so that the noise can-
+cels. Matching will now be
+an issue. However, many
+realizations have shown that matching is not really a problem.

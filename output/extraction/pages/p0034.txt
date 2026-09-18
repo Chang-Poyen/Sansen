@@ -1,0 +1,61 @@
+34 Chapter #1
+and for large channel length L. For high frequency designs, such as VCO’s and LNA’s, it is
+exactly the opposite.
+Remember that setting the values of V −V is the same as setting the ratio of g /I or the
+GS T m DS
+same as setting the inversion coefficient i=I /I .
+DS DSt
+0163
+For a specific V −V , the
+GS T
+frequencies f are easily plot-
+T
+ted versus channel length L,
+as shown in this slide. The
+one for velocity saturation is
+independent of V −V but
+GS T
+has a lower slope.
+The frequencies f for sat-
+T
+uration is in blue; the ones
+in strong inversion are for
+V =0.2 V in black, for
+GST
+V =0.5 V in red, and for
+GST
+V =1 V in magenta.
+GST
+It is striking to see that f
+T
+values in this slide 100 GHz
+are readily available, at least
+for CMOS processes with channel lengths below 0.13 mm. Note also that from this technology,
+velocity saturation dominates even for V −V values of only 0.2 V.
+GS T
+For V =0.2 V, the crossover is somewhere below 90 nm channel length. For high-frequency
+GST
+applications however, in which V =0.5 V or higher, the crossover value in L is about 0.25 mm.
+GST
+For hand calculations, we need a model for f that encompasses both the strong-inversion
+T
+region and the velocity-saturation region. This is given next.
+Note, however, that some experimental upper frequencies are added of VCO’s and LNA’s.
+They are on a curve labeled f , which are about 1/5 of f . Also some clock frequencies are
+max T
+added for some present-day microprocessors. They are at about 1/100 of f !
+T
+0164
+A simple model for f which spans both regions of operation, the strong-inversion and the
+T
+velocity-saturation region, is simply obtained by substitution of the transconductance g by its
+m
+expression covering both regions. Also C can be substituted by 2W.
+GS
+The resulting expression is a useful tool to predict high-frequency performance. It will be used
+in many later Chapters to establish upper limits of frequency performance.
+Obviously, the transition values of channel length L, for specific values of V −V are the
+GS T
+same as for the transconductance g . For V −V =0.2 V, channel lengths below 65 nm provide
+m GS T
+operation fully in velocity saturation.

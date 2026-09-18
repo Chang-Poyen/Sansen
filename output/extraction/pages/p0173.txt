@@ -1,0 +1,53 @@
+Stability of operational amplifiers 177
+0553
+We have to be careful spell-
+ing out the nested-Miller
+compensation of a three-
+stage amplifier. The first two
+stages are normally realized
+by means of differential
+pairs.
+The first stage is a
+differential pair because we
+need a differential input.
+The second stage is real-
+ized by means of a differ-
+ential pair because we need
+a non-inverting amplifier.
+Otherwise, capacitance C
+C
+would provide positive
+feedback! An alternative for this second stage would be a current mirror as explained in
+Chapter 10 on multistage amplifiers.
+One of the first bipolar realizations is shown in this slide. The transconductances and compensa-
+tion capacitances are easily identified.
+0554
+If two non-dominant poles
+contribute to the phase
+margin, then we have to
+extend the expression of the
+Phase Margin PM with
+another pole, as given in
+this slide.
+The curves for equal PM
+of respectively 60°, 65° and
+70° are now easily calcu-
+lated. Taking the tangent of
+the expression of PM allows
+the simplification of the
+calculations!
+Let us focus on the rela-
+tionship between the two
+non-dominant poles f for a PM of 60°.
+nd
+It is clear that if we have a f fairly close to the GBW. The other one will then be far away.
+nd
+They can also be at an equal distance from the GBW, at about 3.5–4 times the GBW.
+Normally, one f is put at about 3 times the GBW and the other one at about 5 times. We
+nd
+obviously prefer to have the 5×GBW at the output because the higher frequency requires the
+higher current. It is more advantageous to have the higher current at the output. More current
+can be taken out by the load.
+A good choice for a PM of 60° is therefore a ratio f /GBW of three for the middle pole and
+nd
+five for the output pole.

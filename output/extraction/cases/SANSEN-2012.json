@@ -1,0 +1,267 @@
+{
+  "case_id": "SANSEN-2012",
+  "slide_id": "2012",
+  "chapter": 20,
+  "slide_number_in_chapter": 12,
+  "source": {
+    "pdf_page": 597,
+    "printed_page": 608
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0597_02_2012.jpg",
+      "pdf_page": 597,
+      "printed_page": 608,
+      "bbox_pt": [
+        91.52162,
+        354.71147,
+        374.54222,
+        551.22131
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 597,
+      "printed_page": 608,
+      "bbox_pt": [
+        0,
+        350.72191035000003,
+        595,
+        642.69638035
+      ],
+      "text_raw": "Much fewer resistors are\nrequired if they are binary\nweighted. Currents are also\nadded rather than voltages.\nIt is clear that matching\nplays an important role\nagain. This is a problem as\nthe resistors have widely\ndifferent values: for a 8 bit\nconverter the largest resistor\nis 256 times larger than the\nsmallest one.\nThis is remedied by the\narrangement on the next\nslide.\nThe main disadvantage is\nprobably that this converter is prone to glitches. Consider the transition from (B0B1B2B3 =)\n0111 to 1000. In the first case, the current flowing into the opamp is 1/8+1/4+1/2=0.875 times\nV /R. In the other case the current is V /R itself. There is smooth transition expected from\nREF REF\n0.875 to 1 indeed.\nIf however, mismatch is such that 0.875 is higher than 1, then the conversion curve is no\nlonger monotonic. A glitch now occurs!",
+      "text": "Much fewer resistors are required if they are binary weighted. Currents are also added rather than voltages. It is clear that matching plays an important role again. This is a problem as the resistors have widely different values: for a 8 bit converter the largest resistor is 256 times larger than the smallest one. This is remedied by the arrangement on the next slide. The main disadvantage is probably that this converter is prone to glitches. Consider the transition from (B0B1B2B3 =) 0111 to 1000. In the first case, the current flowing into the opamp is 1/8+1/4+1/2=0.875 times V /R. In the other case the current is V /R itself. There is smooth transition expected from REF REF 0.875 to 1 indeed. If however, mismatch is such that 0.875 is higher than 1, then the conversion curve is no longer monotonic. A glitch now occurs!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Much fewer resistors are required if they are binary weighted. Currents are also added rather than voltages. It is clear that matching plays an important role again. This is a problem as the resistors have widely different values: for a 8 bit converter the largest resistor is 256 times larger than the smallest one. This is remedied by the arrangement on the next slide. The main disadvantage is probably that this converter is prone to glitches. Consider the transition from (B0B1B2B3 =) 0111 to 1000. In the first case, the current flowing into the opamp is 1/8+1/4+1/2=0.875 times V /R. In the other case the current is V /R itself. There is smooth transition expected from REF REF 0.875 to 1 indeed. If however, mismatch is such that 0.875 is higher than 1, then the conversion curve is no longer monotonic. A glitch now occurs!",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Binary weighted resistor DAC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0597_02_2012.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0745762741807909,
+          0.07317073143631436,
+          0.6135593250282485,
+          0.1414634143631437
+        ],
+        "confidence": 1,
+        "text": "Binary weighted resistor DAC"
+      },
+      {
+        "bbox": [
+          0.06779660932203392,
+          0.2146341464634146,
+          0.13559321949152545,
+          0.24390243914634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VREF O"
+      },
+      {
+        "bbox": [
+          0.38305084698305086,
+          0.3024390238048781,
+          0.43728813511864406,
+          0.3609756091707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "$ aR"
+      },
+      {
+        "bbox": [
+          0.1491525425141243,
+          0.37073170752032514,
+          0.17288135607344632,
+          0.3951219514227642
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BS"
+      },
+      {
+        "bbox": [
+          0.2610169492881356,
+          0.3707317075609756,
+          0.28135593233898304,
+          0.39512195146341456
+        ],
+        "confidence": 0.5,
+        "text": "82"
+      },
+      {
+        "bbox": [
+          0.3661016950564972,
+          0.37073170752032514,
+          0.3898305086158192,
+          0.3951219514227642
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B1"
+      },
+      {
+        "bbox": [
+          0.35593220350282484,
+          0.42926829219512197,
+          0.38983050858757057,
+          0.4585365848780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "101"
+      },
+      {
+        "bbox": [
+          0.47796610139830514,
+          0.37073170750000006,
+          0.5016949149576272,
+          0.3951219514024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B0"
+      },
+      {
+        "bbox": [
+          0.4067796611652542,
+          0.43414634164634147,
+          0.4372881357415254,
+          0.4634146343292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "70"
+      },
+      {
+        "bbox": [
+          0.24406779644067797,
+          0.5414634142682927,
+          0.2644067794915254,
+          0.5707317069512196
+        ],
+        "confidence": 1,
+        "text": "12"
+      },
+      {
+        "bbox": [
+          0.35254237309322034,
+          0.5414634143902439,
+          0.3694915256355932,
+          0.5707317070731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "11"
+      },
+      {
+        "bbox": [
+          0.46101694881355937,
+          0.5414634149593496,
+          0.4813559318644068,
+          0.5707317076422764
+        ],
+        "confidence": 1,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.5288135594915254,
+          0.6048780490853658,
+          0.5491525425423729,
+          0.6292682929878048
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IIN"
+      },
+      {
+        "bbox": [
+          0.7354214823947265,
+          0.608733932928152,
+          0.8171208925261486,
+          0.6400465544402162
+        ],
+        "confidence": 0.5,
+        "text": "O VOUT"
+      },
+      {
+        "bbox": [
+          0.10847457938983043,
+          0.7414634151219512,
+          0.576271189559322,
+          0.7902439029268292
+        ],
+        "confidence": 1,
+        "text": "One Resistor and Switch per bit"
+      },
+      {
+        "bbox": [
+          0.1084745804600484,
+          0.7999999997909407,
+          0.6949152584261501,
+          0.8487804875958188
+        ],
+        "confidence": 1,
+        "text": "No guaranteed monotonicity (glitches !)"
+      },
+      {
+        "bbox": [
+          0.7322033944316904,
+          0.9414634153658537,
+          0.9389830425174623,
+          0.9853658543902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1003 2012"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0597_02_2012.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "If however, mismatch is such that 0.875 is higher than 1, then the conversion curve is no longer monotonic.",
+      "pdf_page": 597,
+      "printed_page": 608,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

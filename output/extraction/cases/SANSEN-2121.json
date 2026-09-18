@@ -1,0 +1,485 @@
+{
+  "case_id": "SANSEN-2121",
+  "slide_id": "2121",
+  "chapter": 21,
+  "slide_number_in_chapter": 21,
+  "source": {
+    "pdf_page": 637,
+    "printed_page": 648
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0637_01_2121.jpg",
+      "pdf_page": 637,
+      "printed_page": 648,
+      "bbox_pt": [
+        91.521622,
+        176.13867200000004,
+        374.78981,
+        372.598663
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 637,
+      "printed_page": 648,
+      "bbox_pt": [
+        0,
+        172.14909999999986,
+        595,
+        489.08602500000023
+      ],
+      "text_raw": "An interesting example of a\nvoltage multiplier, which\nhas been designed according\nto the rules of the previous\nslides, is given in this slide.\nIt provides an output\nvoltage which tracks the\nsupply voltage V but is\nDD\nalways 1 V higher. This\ndifference of 1 V is used\nto realize a rail-to-rail in-\nput amplifier with only\none single input pair (see\nChapter 11). As a result, the\ndistortion can be made less\nthan −80 dB.\nThis operates with only two stages but with a fairly high clock frequency of 10 MHz. The\ncapacitors are selected fairly small. The ripple on this DC supply has been reduced by taking a\nlarge capacitor C . Together with the voltage gain of transistor M5, this capacitor C allows a\no o\nreduction of the ripple to a mere 5 mV, for a 60 mA output current. This was necessary as the\nvoltage multiplier is not used only for Gate drives but to supply DC current to input\ndifferential pair.\nIt works for supply voltages of 1.8 V to 3.3V. It has been realized in 0.5 mm CMOS.\nFor more details the reader is referred to the paper in reference.",
+      "text": "An interesting example of a voltage multiplier, which has been designed according to the rules of the previous slides, is given in this slide. It provides an output voltage which tracks the supply voltage V but is DD always 1 V higher. This difference of 1 V is used to realize a rail-to-rail input amplifier with only one single input pair (see Chapter 11). As a result, the distortion can be made less than −80 dB. This operates with only two stages but with a fairly high clock frequency of 10 MHz. The capacitors are selected fairly small. The ripple on this DC supply has been reduced by taking a large capacitor C . Together with the voltage gain of transistor M5, this capacitor C allows a o o reduction of the ripple to a mere 5 mV, for a 60 mA output current. This was necessary as the voltage multiplier is not used only for Gate drives but to supply DC current to input differential pair. It works for supply voltages of 1.8 V to 3.3V. It has been realized in 0.5 mm CMOS. For more details the reader is referred to the paper in reference."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An interesting example of a voltage multiplier, which has been designed according to the rules of the previous slides, is given in this slide. It provides an output voltage which tracks the supply voltage V but is DD always 1 V higher. This difference of 1 V is used to realize a rail-to-rail input amplifier with only one single input pair (see Chapter 11). As a result, the distortion can be made less than −80 dB. This operates with only two stages but with a fairly high clock frequency of 10 MHz. The capacitors are selected fairly small. The ripple on this DC supply has been reduced by taking a large capacitor C . Together with the voltage gain of transistor M5, this capacitor C allows a o o reduction of the ripple to a mere 5 mV, for a 60 mA output current. This was necessary as the voltage multiplier is not used only for Gate drives but to supply DC current to input differential pair. It works for supply voltages of 1.8 V to 3.3V. It has been realized in 0.5 mm CMOS. For more details the reader is referred to the paper in reference.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Voltage multiplier for rail-to-rail opamp",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0637_01_2121.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445945368806322,
+          0.08780487752032518,
+          0.7837837780123875,
+          0.1512195116666667
+        ],
+        "confidence": 1,
+        "text": "Voltage multiplier for rail-to-rail opamp"
+      },
+      {
+        "bbox": [
+          0.1822198853587169,
+          0.2713759146794805,
+          0.2941314657279961,
+          0.3042338433044477
+        ],
+        "confidence": 0.5,
+        "text": "Charge pump 2"
+      },
+      {
+        "bbox": [
+          0.09459459961826902,
+          0.33170731682926835,
+          0.20270270128263174,
+          0.3560975607317074
+        ],
+        "confidence": 0.5,
+        "text": "Charge pump 1"
+      },
+      {
+        "bbox": [
+          0.09459459515765763,
+          0.37560975585365863,
+          0.1283783789414414,
+          0.39999999975609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vod"
+      },
+      {
+        "bbox": [
+          0.5641891893918919,
+          0.45365853697560976,
+          0.5912162164189189,
+          0.49268292721951223
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Mg"
+      },
+      {
+        "bbox": [
+          0.17567567597128378,
+          0.6243902436585367,
+          0.19932432461993244,
+          0.6536585363414635
+        ],
+        "confidence": 0.5,
+        "text": "Ca"
+      },
+      {
+        "bbox": [
+          0.09459459510135132,
+          0.6731707314634148,
+          0.12500000050675672,
+          0.6975609753658537
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.25337837822822823,
+          0.6731707315718156,
+          0.287162162012012,
+          0.6975609754742547
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 pF"
+      },
+      {
+        "bbox": [
+          0.3277027032094595,
+          0.541463414512195,
+          0.36824324375,
+          0.5707317071951219
+        ],
+        "confidence": 0.5,
+        "text": "Vat"
+      },
+      {
+        "bbox": [
+          0.34459459397522524,
+          0.6292682929268292,
+          0.3817567561373874,
+          0.6536585368292682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cat"
+      },
+      {
+        "bbox": [
+          0.32770270324324324,
+          0.6634146339024392,
+          0.3817567572972973,
+          0.7073170729268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "15 pF"
+      },
+      {
+        "bbox": [
+          0.47297297257882875,
+          0.541463414796748,
+          0.49662162122747744,
+          0.5707317074796748
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "vo"
+      },
+      {
+        "bbox": [
+          0.44594594577702706,
+          0.6243902435365853,
+          0.46621621604729735,
+          0.6536585362195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "сь"
+      },
+      {
+        "bbox": [
+          0.5270270266554054,
+          0.6682926832195122,
+          0.5641891888175674,
+          0.7073170734634145
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 pF"
+      },
+      {
+        "bbox": [
+          0.591216216722973,
+          0.541463414512195,
+          0.6317567572635135,
+          0.5707317071951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vbs"
+      },
+      {
+        "bbox": [
+          0.6216216214527027,
+          0.6146341461890243,
+          0.6486486484797298,
+          0.6390243900914634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Сь1"
+      },
+      {
+        "bbox": [
+          0.5945945950675675,
+          0.6634146345853659,
+          0.6486486491216216,
+          0.7073170736097562
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "_5 pF"
+      },
+      {
+        "bbox": [
+          0.777027029786036,
+          0.25853658504065047,
+          0.9425675703265766,
+          0.2878048777235773
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vddx - Vdd = 1 V"
+      },
+      {
+        "bbox": [
+          0.7770270272522523,
+          0.30243902390243904,
+          0.8175675677927928,
+          0.3317073165853659
+        ],
+        "confidence": 1,
+        "text": "Vddx"
+      },
+      {
+        "bbox": [
+          0.8443433790463022,
+          0.33084708001098495,
+          0.915791756707105,
+          0.3764699963489053
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "60 uA"
+      },
+      {
+        "bbox": [
+          0.8445667074713049,
+          0.3754537739328929,
+          0.9358387007475402,
+          0.40991208203650076
+        ],
+        "confidence": 1,
+        "text": "10 MHz"
+      },
+      {
+        "bbox": [
+          0.6891891903716216,
+          0.41463414601626014,
+          0.7601351363175676,
+          0.443902438699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Co=14 pF"
+      },
+      {
+        "bbox": [
+          0.8040540547297297,
+          0.4682926825,
+          0.8918918925675675,
+          0.5024390239634147
+        ],
+        "confidence": 0.5,
+        "text": "ripple ="
+      },
+      {
+        "bbox": [
+          0.8074324331081081,
+          0.5414634146341464,
+          0.8614864871621621,
+          0.5804878048780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Lout"
+      },
+      {
+        "bbox": [
+          0.7058847394042556,
+          0.5788320393792475,
+          0.9562774212477813,
+          0.6455582029177384
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "tas 0 2C.tc 9mstos"
+      },
+      {
+        "bbox": [
+          0.8175675673986487,
+          0.6634146347154473,
+          0.8952702701013514,
+          0.6975609761788619
+        ],
+        "confidence": 0.5,
+        "text": "= 5 mV"
+      },
+      {
+        "bbox": [
+          0.09459459497466215,
+          0.7707317071341463,
+          0.12500000038006756,
+          0.7951219510365853
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.5574324279983109,
+          0.8682926831097562,
+          0.9121621577280405,
+          0.9024390245731707
+        ],
+        "confidence": 0.5,
+        "text": "Duisters, .., JSSC July 98,pp.947-955"
+      },
+      {
+        "bbox": [
+          0.7195946045293309,
+          0.9365853655284553,
+          0.9290540511012996,
+          0.9658536582113821
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 2121"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0637_01_2121.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This was necessary as the voltage multiplier is not used only for Gate drives but to supply DC current to input differential pair.",
+        "pdf_page": 637,
+        "printed_page": 648,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the distortion can be made less than −80 dB.",
+      "pdf_page": 637,
+      "printed_page": 648,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Together with the voltage gain of transistor M5, this capacitor C allows a o o reduction of the ripple to a mere 5 mV, for a 60 mA output current.",
+      "pdf_page": 637,
+      "printed_page": 648,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2121-M01",
+      "ocr_text": "Vddx - Vdd = 1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.777027029786036,
+        0.25853658504065047,
+        0.9425675703265766,
+        0.2878048777235773
+      ],
+      "context_crop": "regions/SANSEN-2121_math_01.png",
+      "context_bbox_normalized": [
+        0.737027029786036,
+        0.15853658504065046,
+        1,
+        0.41780487772357733
+      ],
+      "source_image": "slides/p0637_01_2121.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2121-M02",
+      "ocr_text": "Co=14 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6891891903716216,
+        0.41463414601626014,
+        0.7601351363175676,
+        0.443902438699187
+      ],
+      "context_crop": "regions/SANSEN-2121_math_02.png",
+      "context_bbox_normalized": [
+        0.6491891903716216,
+        0.31463414601626016,
+        0.9901351363175676,
+        0.573902438699187
+      ],
+      "source_image": "slides/p0637_01_2121.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2121-M03",
+      "ocr_text": "ripple =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.8040540547297297,
+        0.4682926825,
+        0.8918918925675675,
+        0.5024390239634147
+      ],
+      "context_crop": "regions/SANSEN-2121_math_03.png",
+      "context_bbox_normalized": [
+        0.7640540547297296,
+        0.3682926825,
+        1,
+        0.6324390239634147
+      ],
+      "source_image": "slides/p0637_01_2121.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2121-M04",
+      "ocr_text": "= 5 mV",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.8175675673986487,
+        0.6634146347154473,
+        0.8952702701013514,
+        0.6975609761788619
+      ],
+      "context_crop": "regions/SANSEN-2121_math_04.png",
+      "context_bbox_normalized": [
+        0.7775675673986486,
+        0.5634146347154473,
+        1,
+        0.8275609761788619
+      ],
+      "source_image": "slides/p0637_01_2121.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

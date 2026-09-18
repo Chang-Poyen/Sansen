@@ -1,0 +1,53 @@
+Systematic design of operational amplifiers 203
+Actually, we want to achieve a larger SR for the same GBW. Which transistor parameters
+have to be adjusted?
+0642
+In order to achieve a larger
+SR for the same GBW, we
+take the ratio and rewrite it
+in terms of transistor
+parameters.
+We find that for a MOST,
+this ratio is simply propor-
+tional to its V −V . The
+GS T
+larger we make the input
+transistor V −V , the
+GS1 T
+larger the SR will be for the
+same GBW. Clearly, SR has
+to do with high speed. This
+result is not unexpected. We
+have known all along that
+for high speed we need to
+take large values of V −V . The noise performance will suffer from that, but again we have
+GS1 T
+known this all along.
+Clearly, the use of a bipolar transistor at the input reduces the SR by a factor of 10 for the
+same GBW. This also applies to a MOST in weak inversion.
+In order to improve the SR for a bipolar amplifier, we have to insert series resistors. The SR
+increases accordingly. Clearly, the noise performance suffers from that as well.
+To realize an amplifier with high speed or SR, and low noise at the same time is a real
+compromise!
+0643
+There is a possibility to
+decouple SR from GBW
+by using cross-coupling as
+shown in this slide (actually
+realized for bipolar transis-
+tors). However, the cost is
+increased power consump-
+tion.
+For small signals, transis-
+tors M1 and M2 provide
+gain and GBW as usual.
+They run at a fairly small
+DC current however, such
+that their g is also small.
+m
+Their DC current is only
+1/(n+1) of the biasing cur-
+rent I .
+B
+For large input signals the input transistors switch on or off. As a result all current I can
+B

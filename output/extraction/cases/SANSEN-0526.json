@@ -1,0 +1,586 @@
+{
+  "case_id": "SANSEN-0526",
+  "slide_id": "0526",
+  "chapter": 5,
+  "slide_number_in_chapter": 26,
+  "source": {
+    "pdf_page": 158,
+    "printed_page": 162
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0158_01_0526.jpg",
+      "pdf_page": 158,
+      "printed_page": 162,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 158,
+      "printed_page": 162,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        465.3195000000003
+      ],
+      "text_raw": "The actual values of the\nphase margin and peaking\nare now easily calculated.\nThey are given in this slide.\nAlso, the amount of peaking\nin the frequency domain P\nf\nis given, followed by the\namount of peaking in the\ntime domain P .\nt\nFor a ratio of three\nbetween the non-dominant\npole and the GBW, the\nphase margin is 72°. The\ncorresponding f is 0.87\n(or Q=0.57). No peaking\noccurs in the Bode diagram.\nWe could be allowed to reduce the non-dominant pole a bit, to two times the GBW. The\nphase margin decreases to 63°, decreasing the f as well to 0.71 (and Q=0.71) and we still do\nnot have peaking.\nWe cannot forget, however, that we are using hand calculations here. After this part of the\ndesign procedure, we want to verify the circuit performance by means of a numerical simulator\nsuch as SPICE, Then all parasitic capacitances come in, pushing the non-dominant pole to lower\nvalues and\ndecreasing the phase margin. A value of three is thus a good safety position to start with.",
+      "text": "The actual values of the phase margin and peaking are now easily calculated. They are given in this slide. Also, the amount of peaking in the frequency domain P f is given, followed by the amount of peaking in the time domain P . t For a ratio of three between the non-dominant pole and the GBW, the phase margin is 72°. The corresponding f is 0.87 (or Q=0.57). No peaking occurs in the Bode diagram. We could be allowed to reduce the non-dominant pole a bit, to two times the GBW. The phase margin decreases to 63°, decreasing the f as well to 0.71 (and Q=0.71) and we still do not have peaking. We cannot forget, however, that we are using hand calculations here. After this part of the design procedure, we want to verify the circuit performance by means of a numerical simulator such as SPICE, Then all parasitic capacitances come in, pushing the non-dominant pole to lower values and decreasing the phase margin. A value of three is thus a good safety position to start with."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The actual values of the phase margin and peaking are now easily calculated. They are given in this slide. Also, the amount of peaking in the frequency domain P f is given, followed by the amount of peaking in the time domain P . t For a ratio of three between the non-dominant pole and the GBW, the phase margin is 72°. The corresponding f is 0.87 (or Q=0.57). No peaking occurs in the Bode diagram. We could be allowed to reduce the non-dominant pole a bit, to two times the GBW. The phase margin decreases to 63°, decreasing the f as well to 0.71 (and Q=0.71) and we still do not have peaking. We cannot forget, however, that we are using hand calculations here. After this part of the design procedure, we want to verify the circuit performance by means of a numerical simulator such as SPICE, Then all parasitic capacitances come in, pushing the non-dominant pole to lower values and decreasing the phase margin. A value of three is thus a good safety position to start with.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Relation PM, damping and fz/GBW",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0158_01_0526.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432311373877,
+          0.07804878109756097,
+          0.7060810798704955,
+          0.1512195128048781
+        ],
+        "confidence": 1,
+        "text": "Relation PM, damping and fz/GBW"
+      },
+      {
+        "bbox": [
+          0.08783783947072069,
+          0.2195121951219512,
+          0.28378378541666666,
+          0.30731707317073176
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f, = VGBW f2"
+      },
+      {
+        "bbox": [
+          0.3310810860641891,
+          0.21463414591463414,
+          0.7297297347128378,
+          0.2878048776219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "PM (°) = 900 - arctan GBW"
+      },
+      {
+        "bbox": [
+          0.7229193674564964,
+          0.2387128661036081,
+          0.8581617136272827,
+          0.28811640329560384
+        ],
+        "confidence": 1,
+        "text": "= arctan"
+      },
+      {
+        "bbox": [
+          0.8581081074042795,
+          0.2731707319105692,
+          0.9425675668637389,
+          0.32682926849593497
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.1114864870143581,
+          0.47317073143292676,
+          0.19594594647381755,
+          0.5268292680182927
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.12837837882882883,
+          0.5658536582520326,
+          0.18243243288288288,
+          0.6195121948373984
+        ],
+        "confidence": 1,
+        "text": "0.5"
+      },
+      {
+        "bbox": [
+          0.13513513533783783,
+          0.6341463420487804,
+          0.16216216236486486,
+          0.6926829274146341
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.1283783785135135,
+          0.7024390249756096,
+          0.18243243256756755,
+          0.7609756103414633
+        ],
+        "confidence": 1,
+        "text": "1.5"
+      },
+      {
+        "bbox": [
+          0.13513513499436938,
+          0.7756097557317073,
+          0.158783783643018,
+          0.8195121947560976
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.13851351337837836,
+          0.8439024386341463,
+          0.15878378364864865,
+          0.8829268288780487
+        ],
+        "confidence": 1,
+        "text": "3"
+      },
+      {
+        "bbox": [
+          0.23986486444256758,
+          0.4439024383536585,
+          0.3344594590371622,
+          0.4975609749390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "PM (°)"
+      },
+      {
+        "bbox": [
+          0.25337837875,
+          0.5658536590731708,
+          0.29729729766891894,
+          0.6195121956585365
+        ],
+        "confidence": 1,
+        "text": "27"
+      },
+      {
+        "bbox": [
+          0.25337837806467184,
+          0.634146341707317,
+          0.29729729698359075,
+          0.6878048782926829
+        ],
+        "confidence": 1,
+        "text": "45"
+      },
+      {
+        "bbox": [
+          0.2567567565315315,
+          0.7024390246341464,
+          0.29729729707207203,
+          0.7560975612195122
+        ],
+        "confidence": 1,
+        "text": "56"
+      },
+      {
+        "bbox": [
+          0.25337837801238744,
+          0.7658536587804877,
+          0.29729729693130635,
+          0.8243902441463414
+        ],
+        "confidence": 1,
+        "text": "63"
+      },
+      {
+        "bbox": [
+          0.25337837871621627,
+          0.8341463419512195,
+          0.3006756760135135,
+          0.8926829273170731
+        ],
+        "confidence": 1,
+        "text": "72"
+      },
+      {
+        "bbox": [
+          0.4155405395551801,
+          0.4146341465853658,
+          0.5337837827984234,
+          0.4634146343902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1V12"
+      },
+      {
+        "bbox": [
+          0.4189189194594595,
+          0.4634146339512195,
+          0.4729729735135136,
+          0.5121951217560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 V"
+      },
+      {
+        "bbox": [
+          0.4628378366976351,
+          0.4829268293902438,
+          0.5540540529138513,
+          0.5317073171951219
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.4121621621903153,
+          0.5658536590243902,
+          0.48310810813626126,
+          0.6243902443902438
+        ],
+        "confidence": 1,
+        "text": "0.35"
+      },
+      {
+        "bbox": [
+          0.4155405406853282,
+          0.6341463418815332,
+          0.46959459473938225,
+          0.6926829272473869
+        ],
+        "confidence": 1,
+        "text": "0.5"
+      },
+      {
+        "bbox": [
+          0.4155405405888031,
+          0.7024390248083625,
+          0.4831081081563707,
+          0.7609756101742161
+        ],
+        "confidence": 1,
+        "text": "0.61"
+      },
+      {
+        "bbox": [
+          0.41520864610966357,
+          0.7650477755910334,
+          0.48344000322017683,
+          0.8251961263764518
+        ],
+        "confidence": 1,
+        "text": "0.71"
+      },
+      {
+        "bbox": [
+          0.4155405405646718,
+          0.8341463419163763,
+          0.48648648651061777,
+          0.8975609760627178
+        ],
+        "confidence": 1,
+        "text": "0.87"
+      },
+      {
+        "bbox": [
+          0.6450639862736083,
+          0.43831627145989704,
+          0.7569630400018665,
+          0.5080251956371133
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Pf (dB)"
+      },
+      {
+        "bbox": [
+          0.6824324321321321,
+          0.5658536587533876,
+          0.7364864861861862,
+          0.6243902441192412
+        ],
+        "confidence": 1,
+        "text": "3.6"
+      },
+      {
+        "bbox": [
+          0.6790540541291291,
+          0.6292682930623306,
+          0.7533783784534535,
+          0.6975609759891599
+        ],
+        "confidence": 1,
+        "text": "1.25"
+      },
+      {
+        "bbox": [
+          0.682432432495777,
+          0.7024390247560975,
+          0.753378378441723,
+          0.7609756101219513
+        ],
+        "confidence": 1,
+        "text": "0.28"
+      },
+      {
+        "bbox": [
+          0.685810811036036,
+          0.7756097568292684,
+          0.7060810813063063,
+          0.8195121958536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0"
+      },
+      {
+        "bbox": [
+          0.6858108106756756,
+          0.8439024386341463,
+          0.7060810809459459,
+          0.8829268288780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0"
+      },
+      {
+        "bbox": [
+          0.8208479310630615,
+          0.438689457167158,
+          0.9325304491715325,
+          0.5076520102379707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "P, (dB)"
+      },
+      {
+        "bbox": [
+          0.8344594596283783,
+          0.5658536589547037,
+          0.885135135304054,
+          0.6243902443205575
+        ],
+        "confidence": 1,
+        "text": "2.3"
+      },
+      {
+        "bbox": [
+          0.8344594591216217,
+          0.634146341707317,
+          0.8885135131756758,
+          0.6926829270731707
+        ],
+        "confidence": 1,
+        "text": "1.3"
+      },
+      {
+        "bbox": [
+          0.8309043744902611,
+          0.7020366580563876,
+          0.9055821124737585,
+          0.7711340746317497
+        ],
+        "confidence": 1,
+        "text": "0.73"
+      },
+      {
+        "bbox": [
+          0.8344594594932433,
+          0.7609756104390244,
+          0.9054054054391892,
+          0.8292682933658536
+        ],
+        "confidence": 1,
+        "text": "0.37"
+      },
+      {
+        "bbox": [
+          0.8344594601351351,
+          0.8439024387804879,
+          0.9020270277027027,
+          0.8878048778048782
+        ],
+        "confidence": 1,
+        "text": "0.04"
+      },
+      {
+        "bbox": [
+          0.7263513500000001,
+          0.9414634152439023,
+          0.9358108094594595,
+          0.9902439030487804
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 0526"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The actual values of the phase margin and peaking are now easily calculated.",
+      "pdf_page": 158,
+      "printed_page": 162,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0158_01_0526.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The phase margin decreases to 63°, decreasing the f as well to 0.71 (and Q=0.71) and we still do not have peaking.",
+      "pdf_page": 158,
+      "printed_page": 162,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A value of three is thus a good safety position to start with.",
+      "pdf_page": 158,
+      "printed_page": 162,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The actual values of the phase margin and peaking are now easily calculated.",
+      "pdf_page": 158,
+      "printed_page": 162,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also, the amount of peaking in the frequency domain P f is given, followed by the amount of peaking in the time domain P . t For a ratio of three between the non-dominant pole and the GBW, the phase margin is 72°.",
+      "pdf_page": 158,
+      "printed_page": 162,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "No peaking occurs in the Bode diagram.",
+      "pdf_page": 158,
+      "printed_page": 162,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The phase margin decreases to 63°, decreasing the f as well to 0.71 (and Q=0.71) and we still do not have peaking.",
+      "pdf_page": 158,
+      "printed_page": 162,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "After this part of the design procedure, we want to verify the circuit performance by means of a numerical simulator such as SPICE, Then all parasitic capacitances come in, pushing the non-dominant pole to lower values and decreasing the phase margin.",
+      "pdf_page": 158,
+      "printed_page": 162,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0526-M01",
+      "ocr_text": "f, = VGBW f2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08783783947072069,
+        0.2195121951219512,
+        0.28378378541666666,
+        0.30731707317073176
+      ],
+      "context_crop": "regions/SANSEN-0526_math_01.png",
+      "context_bbox_normalized": [
+        0.047837839470720685,
+        0.13,
+        0.5137837854166667,
+        0.43731707317073176
+      ],
+      "source_image": "slides/p0158_01_0526.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0526-M02",
+      "ocr_text": "PM (°) = 900 - arctan GBW",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3310810860641891,
+        0.21463414591463414,
+        0.7297297347128378,
+        0.2878048776219513
+      ],
+      "context_crop": "regions/SANSEN-0526_math_02.png",
+      "context_bbox_normalized": [
+        0.29108108606418914,
+        0.13,
+        0.9597297347128377,
+        0.4178048776219513
+      ],
+      "source_image": "slides/p0158_01_0526.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0526-M03",
+      "ocr_text": "= arctan",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.7229193674564964,
+        0.2387128661036081,
+        0.8581617136272827,
+        0.28811640329560384
+      ],
+      "context_crop": "regions/SANSEN-0526_math_03.png",
+      "context_bbox_normalized": [
+        0.6829193674564964,
+        0.13871286610360808,
+        1,
+        0.41811640329560384
+      ],
+      "source_image": "slides/p0158_01_0526.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

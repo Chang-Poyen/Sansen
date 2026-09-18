@@ -1,0 +1,45 @@
+82 Chapter #2
+by adding a Miller capaci-
+tance across the second
+stage, as explained in
+Chapter 5. It is called a com-
+pensation capacitance C .
+c
+In such a two-stage
+amplifier the GBW is always
+determined by that compen-
+sation capacitance and the
+input transconductance.
+Obviously, any addition
+of capacitance usually in-
+creases the power consump-
+tion. From this point of
+view, a single-stage amplifier
+is usually better. One excep-
+tion may be the output
+swing. If only one transistor is used for the current source I , then the output swing is only
+B2
+0.4 V less than the supply voltage.
+0262
+For deep submicron CMOS
+the gain contributed by two
+transistors may not be
+sufficient. For MOSTs with
+gate lengths of 90 nm and
+less the gain of one single
+transistor is less than 10!
+To obtain more gain,
+feedback can be applied
+around the cascode transis-
+tor. It is then called a regu-
+lated cascode (Hosticka,
+Sackinger). This is also
+called gain boosting (Bult).
+This feedback is actually
+parallel-series feedback (see
+Chapter 8), causing the output impedance to rise by the amount of feedback gain. The gain goes
+up by the same amount.
+If we realize that feedback amplifier by just one transistor M3, the gain of that transistor is
+added to the total gain.
+An additional advantage of that feedback amplifier is that the impedance in the middle (at
+the gate of M3) is reduced by the same feedback gain.

@@ -1,0 +1,184 @@
+{
+  "case_id": "SANSEN-233",
+  "slide_id": "233",
+  "chapter": 23,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 700,
+    "printed_page": 712
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0700_01_233.jpg",
+      "pdf_page": 700,
+      "printed_page": 712,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 700,
+      "printed_page": 712,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        415.4944103500002
+      ],
+      "text_raw": "Two of the most important\ncharacteristics of a LNA is\nthe noise performance\nwithin the constraints of\nimpedance matching.\nThis is why they are dis-\ncussed first.\nSome attention is now\npaid to the linearity of a\nLNA, as large input signals\nare as common as small\nones.\nA comparison follows\nbetween the most popular\nconfigurations. The first has\nan amplifier (Common-\nSource Configuration) at the input whereas the second has a cascode (Common-Gate\nConfiguration).\nMOST transistors can exhibit non-quasi-static behavior at high frequencies. We have to\ninvestigate when this effect is important.\nFinally, a large number of configurations are discussed, including components for electrostatic-\ndischarge protection.",
+      "text": "Two of the most important characteristics of a LNA is the noise performance within the constraints of impedance matching. This is why they are discussed first. Some attention is now paid to the linearity of a LNA, as large input signals are as common as small ones. A comparison follows between the most popular configurations. The first has an amplifier (Common- Source Configuration) at the input whereas the second has a cascode (Common-Gate Configuration). MOST transistors can exhibit non-quasi-static behavior at high frequencies. We have to investigate when this effect is important. Finally, a large number of configurations are discussed, including components for electrostaticdischarge protection."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Two of the most important characteristics of a LNA is the noise performance within the constraints of impedance matching. This is why they are discussed first. Some attention is now paid to the linearity of a LNA, as large input signals are as common as small ones. A comparison follows between the most popular configurations. The first has an amplifier (Common- Source Configuration) at the input whereas the second has a cascode (Common-Gate Configuration). MOST transistors can exhibit non-quasi-static behavior at high frequencies. We have to investigate when this effect is important. Finally, a large number of configurations are discussed, including components for electrostaticdischarge protection.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0700_01_233.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432048141904,
+          0.08292682957317077,
+          0.38175675291385147,
+          0.13658536615853656
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459458964768344,
+          0.2731707319163763,
+          0.787162157215251,
+          0.33170731728223
+        ],
+        "confidence": 1,
+        "text": "• Noise Figure and Impedance Matching"
+      },
+      {
+        "bbox": [
+          0.0979729777590089,
+          0.37073170780487796,
+          0.67905405884009,
+          0.4292682931707317
+        ],
+        "confidence": 1,
+        "text": "• LNA specifications and linearity"
+      },
+      {
+        "bbox": [
+          0.0979729721959459,
+          0.4682926835121951,
+          0.581081080304054,
+          0.5268292688780487
+        ],
+        "confidence": 1,
+        "text": "• Input amplifier or cascode"
+      },
+      {
+        "bbox": [
+          0.097972970168919,
+          0.5658536591219512,
+          0.6486486458445947,
+          0.6243902444878048
+        ],
+        "confidence": 1,
+        "text": "• Non-quasi-static MOST model"
+      },
+      {
+        "bbox": [
+          0.09797297086148654,
+          0.6634146337398374,
+          0.4256756735641892,
+          0.7121951215447154
+        ],
+        "confidence": 1,
+        "text": "• More realizations"
+      },
+      {
+        "bbox": [
+          0.09797297875844578,
+          0.7609756095731707,
+          0.5608108165962836,
+          0.8146341461585366
+        ],
+        "confidence": 1,
+        "text": "• Inductive ESD protection"
+      },
+      {
+        "bbox": [
+          0.7226119518195544,
+          0.9410201873918457,
+          0.9296627521430407,
+          0.9869096045284333
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 233"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0700_01_233.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The first has an amplifier (Common- Source Configuration) at the input whereas the second has a cascode (Common-Gate Configuration).",
+        "pdf_page": 700,
+        "printed_page": 712,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Two of the most important characteristics of a LNA is the noise performance within the constraints of impedance matching.",
+      "pdf_page": 700,
+      "printed_page": 712,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

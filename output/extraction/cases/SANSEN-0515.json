@@ -1,0 +1,341 @@
+{
+  "case_id": "SANSEN-0515",
+  "slide_id": "0515",
+  "chapter": 5,
+  "slide_number_in_chapter": 15,
+  "source": {
+    "pdf_page": 152,
+    "printed_page": 156
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0152_01_0515.jpg",
+      "pdf_page": 152,
+      "printed_page": 156,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 152,
+      "printed_page": 156,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        475.2845000000004
+      ],
+      "text_raw": "An opamp is really a single-\npole system. As a result,\nit allows exchange of gain\nwith bandwidth, within a\nspecific GBW.\nBecause there is only one\ndominant pole, there can be\nonly one internal node at\nhigh impedance. If there are\nmore nodes at high imped-\nance, then we have more\npoles. In this case we have\nto add capacitance or\nincrease the currents, such\nthat this second pole, the\nnondominant pole, is at\nsufficiently high frequencies, beyond the GBW.\nAll two-stage amplifiers have two high-impedance nodes and hence two poles. Therefore, all\namplifiers with two high-impedance nodes are called two-stage amplifiers, irrespective of the\nnumber of transistors.\nWe will have to compensate these two-stage amplifiers, i.e. we will have to add capacitance or\nincrease currents to shift the non-dominant pole out to sufficiently high frequencies. As a result,\nthe amplifier resembles again a single-pole system.\nWideband amplifiers are very different. They consist of more stages, each of them having a\npole. They are normally compensated at one particular setting of the gain. They are not meant\nto exchange gain for bandwidth. On the contrary, at that gain setting, they are optimized for\nmaximum bandwidth. More about such amplifiers is given in Chapter 8.",
+      "text": "An opamp is really a singlepole system. As a result, it allows exchange of gain with bandwidth, within a specific GBW. Because there is only one dominant pole, there can be only one internal node at high impedance. If there are more nodes at high impedance, then we have more poles. In this case we have to add capacitance or increase the currents, such that this second pole, the nondominant pole, is at sufficiently high frequencies, beyond the GBW. All two-stage amplifiers have two high-impedance nodes and hence two poles. Therefore, all amplifiers with two high-impedance nodes are called two-stage amplifiers, irrespective of the number of transistors. We will have to compensate these two-stage amplifiers, i.e. we will have to add capacitance or increase currents to shift the non-dominant pole out to sufficiently high frequencies. As a result, the amplifier resembles again a single-pole system. Wideband amplifiers are very different. They consist of more stages, each of them having a pole. They are normally compensated at one particular setting of the gain. They are not meant to exchange gain for bandwidth. On the contrary, at that gain setting, they are optimized for maximum bandwidth. More about such amplifiers is given in Chapter 8."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An opamp is really a singlepole system. As a result, it allows exchange of gain with bandwidth, within a specific GBW. Because there is only one dominant pole, there can be only one internal node at high impedance. If there are more nodes at high impedance, then we have more poles. In this case we have to add capacitance or increase the currents, such that this second pole, the nondominant pole, is at sufficiently high frequencies, beyond the GBW. All two-stage amplifiers have two high-impedance nodes and hence two poles. Therefore, all amplifiers with two high-impedance nodes are called two-stage amplifiers, irrespective of the number of transistors. We will have to compensate these two-stage amplifiers, i.e. we will have to add capacitance or increase currents to shift the non-dominant pole out to sufficiently high frequencies. As a result, the amplifier resembles again a single-pole system. Wideband amplifiers are very different. They consist of more stages, each of them having a pole. They are normally compensated at one particular setting of the gain. They are not meant to exchange gain for bandwidth. On the contrary, at that gain setting, they are optimized for maximum bandwidth. More about such amplifiers is given in Chapter 8.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "What makes an opamp an opamp ?",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0152_01_0515.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270620777021,
+          0.07317073124999995,
+          0.7060810845861486,
+          0.1463414629573171
+        ],
+        "confidence": 0.5,
+        "text": "What makes an opamp an opamp ?"
+      },
+      {
+        "bbox": [
+          0.1756756758445946,
+          0.3268292687398373,
+          0.20945945962837836,
+          0.3804878053252032
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.33445945950168915,
+          0.2682926835365853,
+          0.39864864869087835,
+          0.3170731713414634
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.35472972936373875,
+          0.3707317067479675,
+          0.40540540503941447,
+          0.43902438967479673
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.8648648642229728,
+          0.39024390253658536,
+          0.9290540534121621,
+          0.43902439034146346
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.10810810854729729,
+          0.4829268291707317,
+          0.1520270274662162,
+          0.5317073169756098
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.47635135181587834,
+          0.4731707324390244,
+          0.5270270274915541,
+          0.5317073178048781
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.07770269994369373,
+          0.663414634308943,
+          0.4087837810247748,
+          0.7121951221138211
+        ],
+        "confidence": 1,
+        "text": "Operational amplifier :"
+      },
+      {
+        "bbox": [
+          0.07770270050675684,
+          0.7170731713414633,
+          0.38851351131756773,
+          0.7658536591463414
+        ],
+        "confidence": 1,
+        "text": "Single-pole amplifier"
+      },
+      {
+        "bbox": [
+          0.07770269858108117,
+          0.7658536586829268,
+          0.4898648607432433,
+          0.8195121952682927
+        ],
+        "confidence": 1,
+        "text": "High impedance = high gain"
+      },
+      {
+        "bbox": [
+          0.07770270163288287,
+          0.8195121955284553,
+          0.46959459352477473,
+          0.8682926833333333
+        ],
+        "confidence": 1,
+        "text": "Exchange Gain-Bandwidth"
+      },
+      {
+        "bbox": [
+          0.07770270337837834,
+          0.8731707323780488,
+          0.4425675682432433,
+          0.9268292689634147
+        ],
+        "confidence": 1,
+        "text": "Stable for all gain values"
+      },
+      {
+        "bbox": [
+          0.5371621634797297,
+          0.6585365858536585,
+          0.8445945959121621,
+          0.7073170736585366
+        ],
+        "confidence": 1,
+        "text": "Wideband amplifier :"
+      },
+      {
+        "bbox": [
+          0.5371621594031533,
+          0.7121951221138211,
+          0.8682432404842342,
+          0.7609756099186992
+        ],
+        "confidence": 1,
+        "text": "Multiple-pole amplifier"
+      },
+      {
+        "bbox": [
+          0.5371621573902029,
+          0.7609756091463415,
+          0.9256756709037164,
+          0.8097560969512195
+        ],
+        "confidence": 1,
+        "text": "Low impedances at nodes"
+      },
+      {
+        "bbox": [
+          0.5371621638996139,
+          0.8195121948780488,
+          0.7804054071428571,
+          0.8634146339024391
+        ],
+        "confidence": 1,
+        "text": "Wide Bandwidth"
+      },
+      {
+        "bbox": [
+          0.5371621587162162,
+          0.8682926823902439,
+          0.8885135100675675,
+          0.9219512189756097
+        ],
+        "confidence": 1,
+        "text": "Stable for one gain only"
+      },
+      {
+        "bbox": [
+          0.729729734315367,
+          0.9463414640650407,
+          0.9358108025089574,
+          0.9853658531459257
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10 as 0515"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0152_01_0515.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, it allows exchange of gain with bandwidth, within a specific GBW.",
+      "pdf_page": 152,
+      "printed_page": 156,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In this case we have to add capacitance or increase the currents, such that this second pole, the nondominant pole, is at sufficiently high frequencies, beyond the GBW.",
+      "pdf_page": 152,
+      "printed_page": 156,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, all amplifiers with two high-impedance nodes are called two-stage amplifiers, irrespective of the number of transistors.",
+      "pdf_page": 152,
+      "printed_page": 156,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We will have to compensate these two-stage amplifiers, i.e. we will have to add capacitance or increase currents to shift the non-dominant pole out to sufficiently high frequencies.",
+      "pdf_page": 152,
+      "printed_page": 156,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the amplifier resembles again a single-pole system.",
+      "pdf_page": 152,
+      "printed_page": 156,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "They are normally compensated at one particular setting of the gain.",
+      "pdf_page": 152,
+      "printed_page": 156,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "They are not meant to exchange gain for bandwidth.",
+      "pdf_page": 152,
+      "printed_page": 156,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "On the contrary, at that gain setting, they are optimized for maximum bandwidth.",
+      "pdf_page": 152,
+      "printed_page": 156,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0515-M01",
+      "ocr_text": "High impedance = high gain",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.07770269858108117,
+        0.7658536586829268,
+        0.4898648607432433,
+        0.8195121952682927
+      ],
+      "context_crop": "regions/SANSEN-0515_math_01.png",
+      "context_bbox_normalized": [
+        0.03770269858108117,
+        0.6658536586829268,
+        0.7198648607432433,
+        0.93
+      ],
+      "source_image": "slides/p0152_01_0515.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

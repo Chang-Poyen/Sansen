@@ -1,0 +1,196 @@
+{
+  "case_id": "SANSEN-1218",
+  "slide_id": "1218",
+  "chapter": 12,
+  "slide_number_in_chapter": 18,
+  "source": {
+    "pdf_page": 338,
+    "printed_page": 345
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0338_02_1218.jpg",
+      "pdf_page": 338,
+      "printed_page": 345,
+      "bbox_pt": [
+        91.521622,
+        491.231995,
+        374.78981,
+        687.691986
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 338,
+      "printed_page": 345,
+      "bbox_pt": [
+        0,
+        487.24250000000035,
+        595,
+        797
+      ],
+      "text_raw": "For small input voltages, the\nbiasing current of the first\nstage I is only I . The maxi-\nB p\nmum output current is Bi .\np\nFor larger input voltages,\nfor terminal 1 being more\npositive than terminal 2,\ncurrent I increases drasti-\n1\ncally and is fed back to the\ninput biasing current.\nWith terminal 2 being\nmore positive than terminal\n1 however, current I\n2\nincreases by a similar\namount and is also fed back\nto the input biasing current.",
+      "text": "For small input voltages, the biasing current of the first stage I is only I . The maxi- B p mum output current is Bi . p For larger input voltages, for terminal 1 being more positive than terminal 2, current I increases drasti- 1 cally and is fed back to the input biasing current. With terminal 2 being more positive than terminal 1 however, current I 2 increases by a similar amount and is also fed back to the input biasing current."
+    },
+    {
+      "pdf_page": 339,
+      "printed_page": 346,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        160.3903999999999
+      ],
+      "text_raw": "This total biasing current increases in either direction. The amount of increase depends on\ncurrent factor A.",
+      "text": "This total biasing current increases in either direction. The amount of increase depends on current factor A."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For small input voltages, the biasing current of the first stage I is only I . The maxi- B p mum output current is Bi . p For larger input voltages, for terminal 1 being more positive than terminal 2, current I increases drasti- 1 cally and is fed back to the input biasing current. With terminal 2 being more positive than terminal 1 however, current I 2 increases by a similar amount and is also fed back to the input biasing current.\n\nThis total biasing current increases in either direction. The amount of increase depends on current factor A.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Adaptive Biasing Amplifier : biasing current",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0338_02_1218.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243194045609,
+          0.08292682945121954,
+          0.861486481566723,
+          0.14146341481707314
+        ],
+        "confidence": 1,
+        "text": "Adaptive Biasing Amplifier : biasing current"
+      },
+      {
+        "bbox": [
+          0.44594594655405406,
+          0.27804878043902437,
+          0.5067567573648649,
+          0.32195121946341465
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•Btot"
+      },
+      {
+        "bbox": [
+          0.13851351278153154,
+          0.43414634262643204,
+          0.18243243170045045,
+          0.4731707305442996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BI2"
+      },
+      {
+        "bbox": [
+          0.6587837834177929,
+          0.4341463415853658,
+          0.7027027023367117,
+          0.478048780609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BI,"
+      },
+      {
+        "bbox": [
+          0.7432432437922297,
+          0.7658536592073171,
+          0.7939189194679054,
+          0.8195121957926829
+        ],
+        "confidence": 0.5,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.5574324285810812,
+          0.8926829270243902,
+          0.9425675637162162,
+          0.9219512197073171
+        ],
+        "confidence": 1,
+        "text": "Ref. Degrauwe, JSSC June 82, 522-528"
+      },
+      {
+        "bbox": [
+          0.7297297317567567,
+          0.9463414629268293,
+          0.9391891912162162,
+          0.9853658531707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10.0s 1218"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0338_02_1218.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The maxi- B p mum output current is Bi . p For larger input voltages, for terminal 1 being more positive than terminal 2, current I increases drasti- 1 cally and is fed back to the input biasing current.",
+      "pdf_page": 338,
+      "printed_page": 345,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "With terminal 2 being more positive than terminal 1 however, current I 2 increases by a similar amount and is also fed back to the input biasing current.",
+      "pdf_page": 338,
+      "printed_page": 345,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This total biasing current increases in either direction.",
+      "pdf_page": 339,
+      "printed_page": 346,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The amount of increase depends on current factor A.",
+      "pdf_page": 339,
+      "printed_page": 346,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

@@ -1,0 +1,17 @@
+simulator lang=spectre
+global 0
+Vin (vin 0) vsource dc=0 mag=1
+// CASE gainboost_slow: gainboost
+VCCS158 (gainboost_slow_x 0 vin 0) vccs gm=0.002
+RESISTOR159 (gainboost_slow_x 0) resistor r=50000
+VCCS160 (gainboost_slow gainboost_slow_x gainboost_slow_a gainboost_slow_x) vccs gm=0.002
+RESISTOR161 (gainboost_slow gainboost_slow_x) resistor r=50000
+CAPACITOR162 (gainboost_slow 0) capacitor c=3e-12
+VCVS163 (gainboost_slow_a0 0 gainboost_slow_x 0) vcvs gain=-20
+RESISTOR164 (gainboost_slow_a0 gainboost_slow_a) resistor r=1000
+CAPACITOR165 (gainboost_slow_a 0) capacitor c=1.591549430919e-07
+
+poles (gainboost_slow 0) pz iprobe=Vin docancel=no
+ac ac start=1 stop=1T dec=10
+save gainboost_slow
+saveOptions options save=selected

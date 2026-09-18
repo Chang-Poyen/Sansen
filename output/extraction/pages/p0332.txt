@@ -1,0 +1,51 @@
+Class AB and driver amplifiers 339
+125
+Why do these amplifiers
+require class AB operation?
+The answer is that this is the
+best compromise between
+current capability and
+distortion.
+A class-A stage is a stage
+in which the peak current
+swing never exceeds the DC
+biasing current. The average
+current is therefore the DC
+current.
+In a class-B stage the DC
+biasing current is zero.
+Connecting these swings to
+the negative swings from
+another amplifier leads to discontinuities, which is called crossover distortion.
+Class-AB amplifiers are somewhere in between. The DC biasing current (or quiescent current)
+is small compared to the peak current swings. In this way the connections between the two
+halves are more smooth. The crossover distortion can be made very small indeed.
+One of the specifications will have to do with the predictability and stability of this quies-
+cent current.
+126
+The first requirement is
+obviously that rail-to-rail
+swings are possible.
+The second one has
+indeed to do with the quies-
+cent current I .
+Q
+In addition, large output
+currents I must be pos-
+max
+sible (depending on the
+application). Their ratio to
+I is called the drive
+Q
+capability.
+The problem is that the
+transfer curve of such an
+amplifier is now highly non-
+linear. For small input volt-
+ages, it is perfectly linear, as any class-A amplifier. For higher input voltages, the output current
+must rise more than linearly with the input voltages. The output current must have an expanding
+characteristic.
+This will generate some distortion as well, which can be reduced by application of feedback.
+This is why many class-AB stages consist of three stages.
+The last specification has to do with complexity. Class-AB amplifiers are the most complicated
+DC-coupled amplifiers. Some simplicity is still welcome!

@@ -1,0 +1,186 @@
+{
+  "case_id": "SANSEN-2122",
+  "slide_id": "2122",
+  "chapter": 21,
+  "slide_number_in_chapter": 22,
+  "source": {
+    "pdf_page": 637,
+    "printed_page": 648
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0637_02_2122.jpg",
+      "pdf_page": 637,
+      "printed_page": 648,
+      "bbox_pt": [
+        91.521622,
+        493.07550100000003,
+        374.78981,
+        689.535492
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 637,
+      "printed_page": 648,
+      "bbox_pt": [
+        0,
+        489.08602500000023,
+        595,
+        797
+      ],
+      "text_raw": "If switches cannot be used\nany more because of the low\nsupply voltage, the whole\nopamp can be switched.\nThis is called the switched-\nopamp approach.\nThis is discussed next.\nThe principles are ex-\nplained first, followed by a\nfew realizations.",
+      "text": "If switches cannot be used any more because of the low supply voltage, the whole opamp can be switched. This is called the switchedopamp approach. This is discussed next. The principles are explained first, followed by a few realizations."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "If switches cannot be used any more because of the low supply voltage, the whole opamp can be switched. This is called the switchedopamp approach. This is discussed next. The principles are explained first, followed by a few realizations.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0637_02_2122.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09121621448479732,
+          0.2585365846341463,
+          0.533783782052365,
+          0.31707317
+        ],
+        "confidence": 0.5,
+        "text": "* Delta-sigma modulation"
+      },
+      {
+        "bbox": [
+          0.09459459766328825,
+          0.3512195119512196,
+          0.4628378409065315,
+          0.4097560973170732
+        ],
+        "confidence": 0.5,
+        "text": "• The switch problem"
+      },
+      {
+        "bbox": [
+          0.09121622301520253,
+          0.4439024388414634,
+          0.6351351419341215,
+          0.4975609754268293
+        ],
+        "confidence": 1,
+        "text": "+ The switched-opamp solution"
+      },
+      {
+        "bbox": [
+          0.13513513949887382,
+          0.5268292680487806,
+          0.6587837881475225,
+          0.5756097558536586
+        ],
+        "confidence": 1,
+        "text": "• Principle : Switched-opamp filter"
+      },
+      {
+        "bbox": [
+          0.13513513789414405,
+          0.609756097398374,
+          0.46621621897522514,
+          0.6585365852032521
+        ],
+        "confidence": 1,
+        "text": "• Improved switching"
+      },
+      {
+        "bbox": [
+          0.13513513961148643,
+          0.6878048777642276,
+          0.6722973017736484,
+          0.7414634143495935
+        ],
+        "confidence": 0.5,
+        "text": "• 0.9 V - 40 uW 12 bit CMOS SO EA"
+      },
+      {
+        "bbox": [
+          0.09121621016328835,
+          0.7756097563821138,
+          0.8175675615146396,
+          0.8292682929674797
+        ],
+        "confidence": 0.5,
+        "text": "• Other low-power Delta-sigma converters"
+      },
+      {
+        "bbox": [
+          0.7229729703125001,
+          0.9414634147560975,
+          0.9358108081503379,
+          0.9707317074390244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2122"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The principles are explained first, followed by a few realizations.",
+      "pdf_page": 637,
+      "printed_page": 648,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0637_02_2122.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

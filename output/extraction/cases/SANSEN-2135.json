@@ -1,0 +1,506 @@
+{
+  "case_id": "SANSEN-2135",
+  "slide_id": "2135",
+  "chapter": 21,
+  "slide_number_in_chapter": 35,
+  "source": {
+    "pdf_page": 643,
+    "printed_page": 654
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0644_01_2135.jpg",
+      "pdf_page": 644,
+      "printed_page": 655,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 643,
+      "printed_page": 654,
+      "bbox_pt": [
+        0,
+        606.822475,
+        595,
+        797
+      ],
+      "text_raw": "Similar level shifting is required in the Common-mode feedback circuit.\nAgain, a capacitor C is added to provide 0.5 V level shifting, between the output of the first\nCM\nopamp and the input of the CMFB opamp. The outputs are sampled and summed to cancel out\nthe differential output signals by capacitors C and C (see Chapter 8). The CMFB amplifier\nP M\nhas a pMOST differential pair at the input such that its input voltage is close to ground as for\nthe other opamps.",
+      "text": "Similar level shifting is required in the Common-mode feedback circuit. Again, a capacitor C is added to provide 0.5 V level shifting, between the output of the first CM opamp and the input of the CMFB opamp. The outputs are sampled and summed to cancel out the differential output signals by capacitors C and C (see Chapter 8). The CMFB amplifier P M has a pMOST differential pair at the input such that its input voltage is close to ground as for the other opamps."
+    },
+    {
+      "pdf_page": 644,
+      "printed_page": 655,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        387.49286000000006
+      ],
+      "text_raw": "Capacitors C are in par-\nFF\nallel with C and C to pro-\nP M\nvide zeros in the CMFB\ngain characteristic, to speed\nup the CMFB performance\nwithout adding more power\n(see Chapter 8).\nThese circuits have been\nused to construct a second-\norder filter with a 450 kHz\nbandwidth (at 1.8 MHz\nclock frequency). It con-\nsumes only 160 mA at 1 V\nsupply voltage (with V Ys\nT\nof 0.65 V in 0.5 mm CMOS).\nIts peak SNR is about\n58 dB. The maximum input\nvoltage is 1.6 V , which is\nptp\nvery high indeed.",
+      "text": "Capacitors C are in par- FF allel with C and C to pro- P M vide zeros in the CMFB gain characteristic, to speed up the CMFB performance without adding more power (see Chapter 8). These circuits have been used to construct a secondorder filter with a 450 kHz bandwidth (at 1.8 MHz clock frequency). It consumes only 160 mA at 1 V supply voltage (with V Ys T of 0.65 V in 0.5 mm CMOS). Its peak SNR is about 58 dB. The maximum input voltage is 1.6 V , which is ptp very high indeed."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Similar level shifting is required in the Common-mode feedback circuit. Again, a capacitor C is added to provide 0.5 V level shifting, between the output of the first CM opamp and the input of the CMFB opamp. The outputs are sampled and summed to cancel out the differential output signals by capacitors C and C (see Chapter 8). The CMFB amplifier P M has a pMOST differential pair at the input such that its input voltage is close to ground as for the other opamps.\n\nCapacitors C are in par- FF allel with C and C to pro- P M vide zeros in the CMFB gain characteristic, to speed up the CMFB performance without adding more power (see Chapter 8). These circuits have been used to construct a secondorder filter with a 450 kHz bandwidth (at 1.8 MHz clock frequency). It consumes only 160 mA at 1 V supply voltage (with V Ys T of 0.65 V in 0.5 mm CMOS). Its peak SNR is about 58 dB. The maximum input voltage is 1.6 V , which is ptp very high indeed.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "CMFB with level shifting",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0644_01_2135.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627566101684,
+          0.08292682917073169,
+          0.5220339027796609,
+          0.1414634145365854
+        ],
+        "confidence": 1,
+        "text": "CMFB with level shifting"
+      },
+      {
+        "bbox": [
+          0.3050847453898305,
+          0.1951219516097561,
+          0.3762711860677966,
+          0.23414634185365857
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OVDD"
+      },
+      {
+        "bbox": [
+          0.2440677981700695,
+          0.25853658487804876,
+          0.2949152525643938,
+          0.2878048775609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф2Р -"
+      },
+      {
+        "bbox": [
+          0.33220339040677965,
+          0.27317073146341464,
+          0.38983050905084743,
+          0.3073170729268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CСM"
+      },
+      {
+        "bbox": [
+          0.48135593230024215,
+          0.3365853660278746,
+          0.5152542373849879,
+          0.36097560993031363
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "02N"
+      },
+      {
+        "bbox": [
+          0.24406779644067797,
+          0.37073170780487796,
+          0.2813559320338983,
+          0.4000000004878048
+        ],
+        "confidence": 0.5,
+        "text": "ФIN"
+      },
+      {
+        "bbox": [
+          0.4067796609039548,
+          0.41951219560975606,
+          0.4542372880225989,
+          0.4487804882926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CHF"
+      },
+      {
+        "bbox": [
+          0.13898305163841804,
+          0.5414634144715448,
+          0.1864406787570621,
+          0.5707317071544716
+        ],
+        "confidence": 1,
+        "text": "Vem"
+      },
+      {
+        "bbox": [
+          0.06779661046610168,
+          0.6048780481707318,
+          0.1254237291101695,
+          0.6536585359756099
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vi+:"
+      },
+      {
+        "bbox": [
+          0.2542372888559322,
+          0.47317073158536593,
+          0.3118644075,
+          0.5219512193902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Voy"
+      },
+      {
+        "bbox": [
+          0.32542372824858756,
+          0.49756097581300807,
+          0.3932203384180791,
+          0.5317073172764227
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "фІР-1"
+      },
+      {
+        "bbox": [
+          0.3355932206101695,
+          0.5317073166341464,
+          0.40338983077966106,
+          0.5756097556585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDDg"
+      },
+      {
+        "bbox": [
+          0.24450083545629023,
+          0.5638866354554888,
+          0.3977928933341703,
+          0.6461159240684127
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "val *iP K"
+      },
+      {
+        "bbox": [
+          0.4033898299576272,
+          0.5756097564024389,
+          0.44745762656779664,
+          0.6097560978658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CM"
+      },
+      {
+        "bbox": [
+          0.4101694920762711,
+          0.6585365850609755,
+          0.45423728868644064,
+          0.6926829265243901
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CFF"
+      },
+      {
+        "bbox": [
+          0.18644067723163846,
+          0.7219512199186991,
+          0.23050847384180798,
+          0.7560975613821138
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1, €2"
+      },
+      {
+        "bbox": [
+          0.47457627128060265,
+          0.7512195123848239,
+          0.5186440678907721,
+          0.7853658538482384
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф2N"
+      },
+      {
+        "bbox": [
+          0.6066740530657134,
+          0.3652598227262659,
+          0.6848513726085498,
+          0.3957157865123213
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CСMFB"
+      },
+      {
+        "bbox": [
+          0.5932203400564972,
+          0.4975609752845529,
+          0.6576271197175141,
+          0.5268292679674798
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CMI•R"
+      },
+      {
+        "bbox": [
+          0.5932203397881356,
+          0.5414634143902439,
+          0.6576271194491525,
+          0.5707317070731708
+        ],
+        "confidence": 0.5,
+        "text": "opamp"
+      },
+      {
+        "bbox": [
+          0.7525423714285715,
+          0.526829268501742,
+          0.9559322019370461,
+          0.5756097563066201
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cм = Cp = 0.1 pF"
+      },
+      {
+        "bbox": [
+          0.7559322018305085,
+          0.5804878050243902,
+          0.9118644052203388,
+          0.6243902440487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ссм = 0.1 pF"
+      },
+      {
+        "bbox": [
+          0.7559322050169491,
+          0.6292682922926829,
+          0.9186440694237288,
+          0.678048780097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CсMFB = 2 pF"
+      },
+      {
+        "bbox": [
+          0.7559322053672315,
+          0.6829268284552845,
+          0.9016949172316383,
+          0.7317073162601626
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CFF = 0.1 pF"
+      },
+      {
+        "bbox": [
+          0.7830508491525424,
+          0.7414634143902439,
+          0.9525423745762712,
+          0.7756097558536584
+        ],
+        "confidence": 1,
+        "text": "provides zero"
+      },
+      {
+        "bbox": [
+          0.7525423716525423,
+          0.7902439025914635,
+          0.9491525411440677,
+          0.8439024391768293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT.DC = VDD/2"
+      },
+      {
+        "bbox": [
+          0.7220339012113516,
+          0.9414634147967479,
+          0.9355932103140727,
+          0.9707317074796747
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2135"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0644_01_2135.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Capacitors C are in par- FF allel with C and C to pro- P M vide zeros in the CMFB gain characteristic, to speed up the CMFB performance without adding more power (see Chapter 8).",
+      "pdf_page": 644,
+      "printed_page": 655,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "These circuits have been used to construct a secondorder filter with a 450 kHz bandwidth (at 1.8 MHz clock frequency).",
+      "pdf_page": 644,
+      "printed_page": 655,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Capacitors C are in par- FF allel with C and C to pro- P M vide zeros in the CMFB gain characteristic, to speed up the CMFB performance without adding more power (see Chapter 8).",
+      "pdf_page": 644,
+      "printed_page": 655,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its peak SNR is about 58 dB.",
+      "pdf_page": 644,
+      "printed_page": 655,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2135-M01",
+      "ocr_text": "Cм = Cp = 0.1 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7525423714285715,
+        0.526829268501742,
+        0.9559322019370461,
+        0.5756097563066201
+      ],
+      "context_crop": "regions/SANSEN-2135_math_01.png",
+      "context_bbox_normalized": [
+        0.7125423714285715,
+        0.4268292685017421,
+        1,
+        0.7056097563066202
+      ],
+      "source_image": "slides/p0644_01_2135.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2135-M02",
+      "ocr_text": "Ссм = 0.1 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7559322018305085,
+        0.5804878050243902,
+        0.9118644052203388,
+        0.6243902440487805
+      ],
+      "context_crop": "regions/SANSEN-2135_math_02.png",
+      "context_bbox_normalized": [
+        0.7159322018305084,
+        0.48048780502439026,
+        1,
+        0.7543902440487805
+      ],
+      "source_image": "slides/p0644_01_2135.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2135-M03",
+      "ocr_text": "CсMFB = 2 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7559322050169491,
+        0.6292682922926829,
+        0.9186440694237288,
+        0.678048780097561
+      ],
+      "context_crop": "regions/SANSEN-2135_math_03.png",
+      "context_bbox_normalized": [
+        0.7159322050169491,
+        0.5292682922926829,
+        1,
+        0.808048780097561
+      ],
+      "source_image": "slides/p0644_01_2135.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2135-M04",
+      "ocr_text": "CFF = 0.1 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7559322053672315,
+        0.6829268284552845,
+        0.9016949172316383,
+        0.7317073162601626
+      ],
+      "context_crop": "regions/SANSEN-2135_math_04.png",
+      "context_bbox_normalized": [
+        0.7159322053672315,
+        0.5829268284552845,
+        1,
+        0.8617073162601626
+      ],
+      "source_image": "slides/p0644_01_2135.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2135-M05",
+      "ocr_text": "VoUT.DC = VDD/2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7525423716525423,
+        0.7902439025914635,
+        0.9491525411440677,
+        0.8439024391768293
+      ],
+      "context_crop": "regions/SANSEN-2135_math_05.png",
+      "context_bbox_normalized": [
+        0.7125423716525423,
+        0.6902439025914635,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0644_01_2135.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

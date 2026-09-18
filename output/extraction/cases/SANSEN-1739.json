@@ -1,0 +1,226 @@
+{
+  "case_id": "SANSEN-1739",
+  "slide_id": "1739",
+  "chapter": 17,
+  "slide_number_in_chapter": 39,
+  "source": {
+    "pdf_page": 494,
+    "printed_page": 504
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0494_02_1739.jpg",
+      "pdf_page": 494,
+      "printed_page": 504,
+      "bbox_pt": [
+        91.521622,
+        395.717408,
+        374.78981,
+        592.177399
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 494,
+      "printed_page": 504,
+      "bbox_pt": [
+        0,
+        391.72790000000003,
+        595,
+        797
+      ],
+      "text_raw": "Each capacitor has a para-\nsitic capacitor from the\nbottom plate to the under-\nlying conductor (sub-\nstrate, ...). For capacitor aC,\nthis bottom plate is obvi-\nously connected to ground,\nwhere it is shorted out.\nFor capacitor C however,\nit is not so clear. If the\nbottom plate is connected to\nthe minus input of the\nopamp (green), then the\nminus node picks up sub-\nstrate noise more easily,\nwhich is bad for the PSRR.\nIf on the other hand, the bottom plate is connected to the output of the opamp (blue), then\nthe load capacitance increases by this amount, increasing the power consumption. Yet, the latter\nsolution is usually preferred.",
+      "text": "Each capacitor has a parasitic capacitor from the bottom plate to the underlying conductor (substrate, ...). For capacitor aC, this bottom plate is obviously connected to ground, where it is shorted out. For capacitor C however, it is not so clear. If the bottom plate is connected to the minus input of the opamp (green), then the minus node picks up substrate noise more easily, which is bad for the PSRR. If on the other hand, the bottom plate is connected to the output of the opamp (blue), then the load capacitance increases by this amount, increasing the power consumption. Yet, the latter solution is usually preferred."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Each capacitor has a parasitic capacitor from the bottom plate to the underlying conductor (substrate, ...). For capacitor aC, this bottom plate is obviously connected to ground, where it is shorted out. For capacitor C however, it is not so clear. If the bottom plate is connected to the minus input of the opamp (green), then the minus node picks up substrate noise more easily, which is bad for the PSRR. If on the other hand, the bottom plate is connected to the output of the opamp (blue), then the load capacitance increases by this amount, increasing the power consumption. Yet, the latter solution is usually preferred.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Stray Capacitances",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0494_02_1739.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432014358122,
+          0.07804877969512192,
+          0.41554053635979743,
+          0.14146341384146344
+        ],
+        "confidence": 1,
+        "text": "Stray Capacitances"
+      },
+      {
+        "bbox": [
+          0.27702702685810815,
+          0.35609756048780494,
+          0.3175675673986487,
+          0.41463414585365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "I"
+      },
+      {
+        "bbox": [
+          0.31081081000844596,
+          0.4097560979268293,
+          0.37499999919763516,
+          0.4585365857317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "aC"
+      },
+      {
+        "bbox": [
+          0.10810811064189188,
+          0.6195121949186991,
+          0.4121621646959459,
+          0.6731707315040649
+        ],
+        "confidence": 1,
+        "text": "Stray Cap at input:"
+      },
+      {
+        "bbox": [
+          0.10810810565878386,
+          0.7073170733333333,
+          0.4020270245777028,
+          0.7560975611382114
+        ],
+        "confidence": 1,
+        "text": "Substrate coupling"
+      },
+      {
+        "bbox": [
+          0.1249999973986487,
+          0.7658536587317073,
+          0.38513513253378384,
+          0.8146341465365854
+        ],
+        "confidence": 1,
+        "text": "Continuous time"
+      },
+      {
+        "bbox": [
+          0.13505520783120023,
+          0.8236994609586128,
+          0.37507992913148,
+          0.8836176156983648
+        ],
+        "confidence": 1,
+        "text": "PSRR very bad"
+      },
+      {
+        "bbox": [
+          0.5675675648648649,
+          0.6390243903658536,
+          0.8918918891891894,
+          0.6926829269512195
+        ],
+        "confidence": 1,
+        "text": "Stray Cap at output:"
+      },
+      {
+        "bbox": [
+          0.5709459443918921,
+          0.7219512200487805,
+          0.8141891876351353,
+          0.7756097566341463
+        ],
+        "confidence": 0.5,
+        "text": "Cp is extra load"
+      },
+      {
+        "bbox": [
+          0.6081081065202703,
+          0.7853658531707317,
+          0.7736486470608108,
+          0.8341463409756098
+        ],
+        "confidence": 1,
+        "text": "for opamp"
+      },
+      {
+        "bbox": [
+          0.7195945967483108,
+          0.9414634140853658,
+          0.9391891913429052,
+          0.9853658531097561
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s N1739"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0494_02_1739.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For capacitor aC, this bottom plate is obviously connected to ground, where it is shorted out.",
+        "pdf_page": 494,
+        "printed_page": 504,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "If the bottom plate is connected to the minus input of the opamp (green), then the minus node picks up substrate noise more easily, which is bad for the PSRR.",
+        "pdf_page": 494,
+        "printed_page": 504,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "If on the other hand, the bottom plate is connected to the output of the opamp (blue), then the load capacitance increases by this amount, increasing the power consumption.",
+        "pdf_page": 494,
+        "printed_page": 504,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If on the other hand, the bottom plate is connected to the output of the opamp (blue), then the load capacitance increases by this amount, increasing the power consumption.",
+      "pdf_page": 494,
+      "printed_page": 504,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

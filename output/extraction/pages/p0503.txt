@@ -1,0 +1,53 @@
+Switched-capacitor filters 513
+1756
+When feedback is used
+around an operational
+amplifier with gain-band-
+width product GBW, the
+closed-loop gain A is the
+c0
+inverse of the feedback
+factor a. This is the ratio
+between the bandwidth BW
+and the GBW.
+The loop gain T is then
+the difference (in dB)
+between the open-loop gain
+A and the closed-loop gain
+0
+A . It is also given by aA .
+c0 0
+The loop gain T will
+determine the accuracy at
+low frequency or the static accuracy.
+The bandwidth will determine the settling time.
+For example, take a closed-loop gain of 5, which corresponds to a=0.2. For A =104, the loop
+0
+gain is 2000 or 66 dB. If the GBW=1 MHz, then the BW is 0.2 MHz. Also, the dominant pole
+f is at 100 Hz. At this frequency, the loop gain starts decreasing, to become unity at 0.2 MHz.
+d
+1757
+The static accuracy e for a
+S
+step input with amplitude
+V , is now given by the
+step
+inverse of the loop gain or
+by the inverse of aA .
+0
+For a minimum static
+accuracy e , there is a mini-
+S
+mum amount of gain A
+0
+required. For example, for
+e =0.05% we need a loop
+S
+gain of the inverse or 2000.
+For a closed-loop gain of 5
+(a=0.2) the open-loop gain
+A must be 104.
+0
+Since open-loop gains are
+not accurately known, a
+safety factor has to be included of 3–5. The open-loop gain must therefore be 3×104 or 90 dB.

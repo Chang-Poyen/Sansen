@@ -1,0 +1,463 @@
+{
+  "case_id": "SANSEN-0644",
+  "slide_id": "0644",
+  "chapter": 6,
+  "slide_number_in_chapter": 44,
+  "source": {
+    "pdf_page": 200,
+    "printed_page": 204
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0200_01_0644.jpg",
+      "pdf_page": 200,
+      "printed_page": 204,
+      "bbox_pt": [
+        91.52162,
+        193.27844000000005,
+        374.78981,
+        389.73843
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 200,
+      "printed_page": 204,
+      "bbox_pt": [
+        0,
+        189.2889399999998,
+        595,
+        463.32647000000014
+      ],
+      "text_raw": "Normally, it is the internal\nSlew Rate which establishes\nthe limit. However, it can\nalso be the external Slew\nRate.\nThe load capacitance\nneeds to be charged as well.\nAll current of current source\nM5 is now used to slew the\noutput voltage.\nIn the design procedures\npresented in this Chapter,\nthe output stage current is a\nlot larger than the input\nstage current, whereas the\ncompensation capacitance is\nonly a factor 2–3 times smaller than the load capacitance, the internal SR is the limiting factor,\nby at least a factor of 2.\nThis is not always the case however and should be verified. In the example of the 1MHz\nMiller CMOS OTA, the internal SR is 2.2 V/ms but the external SR is only 2.5 V/ms, which is\nbarely larger!",
+      "text": "Normally, it is the internal Slew Rate which establishes the limit. However, it can also be the external Slew Rate. The load capacitance needs to be charged as well. All current of current source M5 is now used to slew the output voltage. In the design procedures presented in this Chapter, the output stage current is a lot larger than the input stage current, whereas the compensation capacitance is only a factor 2–3 times smaller than the load capacitance, the internal SR is the limiting factor, by at least a factor of 2. This is not always the case however and should be verified. In the example of the 1MHz Miller CMOS OTA, the internal SR is 2.2 V/ms but the external SR is only 2.5 V/ms, which is barely larger!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Normally, it is the internal Slew Rate which establishes the limit. However, it can also be the external Slew Rate. The load capacitance needs to be charged as well. All current of current source M5 is now used to slew the output voltage. In the design procedures presented in this Chapter, the output stage current is a lot larger than the input stage current, whereas the compensation capacitance is only a factor 2–3 times smaller than the load capacitance, the internal SR is the limiting factor, by at least a factor of 2. This is not always the case however and should be verified. In the example of the 1MHz Miller CMOS OTA, the internal SR is 2.2 V/ms but the external SR is only 2.5 V/ms, which is barely larger!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "External vs internal Slew Rate",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0200_01_0644.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108585304044,
+          0.08780487737804876,
+          0.6114864912584458,
+          0.14146341396341466
+        ],
+        "confidence": 1,
+        "text": "External vs internal Slew Rate"
+      },
+      {
+        "bbox": [
+          0.3479729730996622,
+          0.2682926824390244,
+          0.3851351352618243,
+          0.30731707268292685
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.4222972978885135,
+          0.22439024384146333,
+          0.4695945951858108,
+          0.2682926828658536
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.39179747550627375,
+          0.3460673569635708,
+          0.4460403635187216,
+          0.3856399610731721
+        ],
+        "confidence": 0.5,
+        "text": "DS5"
+      },
+      {
+        "bbox": [
+          0.4425675685810811,
+          0.4146341470731707,
+          0.5101351361486487,
+          0.458536586097561
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.20945945908783783,
+          0.44390243907317073,
+          0.24662162125,
+          0.487804878097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'в"
+      },
+      {
+        "bbox": [
+          0.2601351348254505,
+          0.4536585361382114,
+          0.3040540537443694,
+          0.5073170727235773
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.3547297300394144,
+          0.6780487802845527,
+          0.39189189220157655,
+          0.7121951217479674
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.1891891891891892,
+          0.7365853654634146,
+          0.22972972972972974,
+          0.775609755707317
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.7060810815456081,
+          0.2585365851219512,
+          0.7432432437077703,
+          0.2975609753658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'B"
+      },
+      {
+        "bbox": [
+          0.5810810818918919,
+          0.2829268292195122,
+          0.6621621629729729,
+          0.3365853658048781
+        ],
+        "confidence": 1,
+        "text": "SRint"
+      },
+      {
+        "bbox": [
+          0.6722972971283785,
+          0.2878048777439024,
+          0.6925675673986487,
+          0.31219512164634144
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.7128378383868242,
+          0.32682926835365844,
+          0.7567567573057432,
+          0.38048780493902434
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.7060810805067567,
+          0.4195121945853658,
+          0.7702702696959459,
+          0.4731707311707317
+        ],
+        "confidence": 0.5,
+        "text": "DS5"
+      },
+      {
+        "bbox": [
+          0.5810810814611487,
+          0.4536585373170732,
+          0.6655405409206081,
+          0.5121951226829269
+        ],
+        "confidence": 1,
+        "text": "SRext"
+      },
+      {
+        "bbox": [
+          0.6722972983279906,
+          0.45853658585365853,
+          0.6993243237440813,
+          0.4878048785365854
+        ],
+        "confidence": 0.5,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.7162162166554054,
+          0.4975609756097561,
+          0.7601351355743243,
+          0.5560975609756098
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.5878378388091215,
+          0.5902439025609757,
+          0.6655405415118242,
+          0.6487804879268294
+        ],
+        "confidence": 1,
+        "text": "9m6"
+      },
+      {
+        "bbox": [
+          0.5912162156418919,
+          0.6829268287317073,
+          0.655405404831081,
+          0.7365853653170732
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.418918919313063,
+          0.7853658535365854,
+          0.46621621661036033,
+          0.8390243901219513
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.7903950798007549,
+          0.45273896932081337,
+          0.9359562722874922,
+          0.5033585924584968
+        ],
+        "confidence": 0.5,
+        "text": "is larger !"
+      },
+      {
+        "bbox": [
+          0.841216216722973,
+          0.6048780492195123,
+          0.9054054059121622,
+          0.6487804882439026
+        ],
+        "confidence": 0.5,
+        "text": "'DS5"
+      },
+      {
+        "bbox": [
+          0.736486486866554,
+          0.6682926828658537,
+          0.7668918922719594,
+          0.712195121890244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C"
+      },
+      {
+        "bbox": [
+          0.8344594585726353,
+          0.6731707318292683,
+          0.9054054045185812,
+          0.731707317195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDS1"
+      },
+      {
+        "bbox": [
+          0.7238860471195202,
+          0.7562294008719286,
+          0.856829793325443,
+          0.842056684033371
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1D55 = 2"
+      },
+      {
+        "bbox": [
+          0.8581081089949323,
+          0.7512195128658536,
+          0.935810811697635,
+          0.8048780494512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 DS1"
+      },
+      {
+        "bbox": [
+          0.7364864869256756,
+          0.8390243901951219,
+          0.7804054058445946,
+          0.8926829267804878
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.8817567562499999,
+          0.8292682927439025,
+          0.9222972967905405,
+          0.8829268293292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.7260002666983206,
+          0.9361683010178269,
+          0.9293476919013862,
+          0.9770890703138683
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0644"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0200_01_0644.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "All current of current source M5 is now used to slew the output voltage.",
+        "pdf_page": 200,
+        "printed_page": 204,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Normally, it is the internal Slew Rate which establishes the limit.",
+      "pdf_page": 200,
+      "printed_page": 204,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In the design procedures presented in this Chapter, the output stage current is a lot larger than the input stage current, whereas the compensation capacitance is only a factor 2–3 times smaller than the load capacitance, the internal SR is the limiting factor, by at least a factor of 2.",
+      "pdf_page": 200,
+      "printed_page": 204,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0644-M01",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.6722972971283785,
+        0.2878048777439024,
+        0.6925675673986487,
+        0.31219512164634144
+      ],
+      "context_crop": "regions/SANSEN-0644_math_01.png",
+      "context_bbox_normalized": [
+        0.6322972971283785,
+        0.1878048777439024,
+        0.9225675673986486,
+        0.44219512164634145
+      ],
+      "source_image": "slides/p0200_01_0644.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0644-M02",
+      "ocr_text": "=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6722972983279906,
+        0.45853658585365853,
+        0.6993243237440813,
+        0.4878048785365854
+      ],
+      "context_crop": "regions/SANSEN-0644_math_02.png",
+      "context_bbox_normalized": [
+        0.6322972983279905,
+        0.35853658585365855,
+        0.9293243237440812,
+        0.6178048785365854
+      ],
+      "source_image": "slides/p0200_01_0644.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0644-M03",
+      "ocr_text": "1D55 = 2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7238860471195202,
+        0.7562294008719286,
+        0.856829793325443,
+        0.842056684033371
+      ],
+      "context_crop": "regions/SANSEN-0644_math_03.png",
+      "context_bbox_normalized": [
+        0.6838860471195202,
+        0.6562294008719286,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0200_01_0644.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

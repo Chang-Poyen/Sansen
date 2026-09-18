@@ -1,0 +1,169 @@
+{
+  "case_id": "SANSEN-2234",
+  "slide_id": "2234",
+  "chapter": 22,
+  "slide_number_in_chapter": 34,
+  "source": {
+    "pdf_page": 683,
+    "printed_page": 694
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0683_02_2234.jpg",
+      "pdf_page": 683,
+      "printed_page": 694,
+      "bbox_pt": [
+        91.52162,
+        493.07556,
+        374.78981,
+        689.5355500000001
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 683,
+      "printed_page": 694,
+      "bbox_pt": [
+        0,
+        489.08599500000014,
+        595,
+        797
+      ],
+      "text_raw": "Crystal oscillators are easy\nto design with bipolar tran-\nsistors. Actually, the oldest\ncrystal oscillators have been\nmade with bipolar devices\nas discrete devices on a\nprinted circuit board. They\nusually consist of one single\ntransistor with fixed biasing,\nrather than with an AGC\ncircuit.",
+      "text": "Crystal oscillators are easy to design with bipolar transistors. Actually, the oldest crystal oscillators have been made with bipolar devices as discrete devices on a printed circuit board. They usually consist of one single transistor with fixed biasing, rather than with an AGC circuit."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Crystal oscillators are easy to design with bipolar transistors. Actually, the oldest crystal oscillators have been made with bipolar devices as discrete devices on a printed circuit board. They usually consist of one single transistor with fixed biasing, rather than with an AGC circuit.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0683_02_2234.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027008023649,
+          0.07804878070121957,
+          0.38175675485641897,
+          0.13170731728658536
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09797297615830115,
+          0.28780487777003483,
+          0.5439189221042471,
+          0.34634146313588854
+        ],
+        "confidence": 1,
+        "text": "• Oscillation principles"
+      },
+      {
+        "bbox": [
+          0.09786946111804944,
+          0.3603509779792984,
+          0.2940224317156001,
+          0.4298929254138866
+        ],
+        "confidence": 0.5,
+        "text": "* Crystals"
+      },
+      {
+        "bbox": [
+          0.09797296972972976,
+          0.4487804884390243,
+          0.6520270237837839,
+          0.5121951225853658
+        ],
+        "confidence": 1,
+        "text": "• Single-transistor oscillator"
+      },
+      {
+        "bbox": [
+          0.09459459039977478,
+          0.531707317398374,
+          0.5979729687781532,
+          0.5902439027642277
+        ],
+        "confidence": 1,
+        "text": "• MOST oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09797296617398667,
+          0.6146341471341463,
+          0.824324317525338,
+          0.6780487812804877
+        ],
+        "confidence": 1,
+        "text": "• Bipolar-transistor oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09459459717664093,
+          0.6975609753310104,
+          0.45608108366312744,
+          0.7560975606968641
+        ],
+        "confidence": 1,
+        "text": "• Other oscillators"
+      },
+      {
+        "bbox": [
+          0.7263513534206081,
+          0.9414634140853658,
+          0.9391891912584459,
+          0.9853658531097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 2234"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0683_02_2234.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

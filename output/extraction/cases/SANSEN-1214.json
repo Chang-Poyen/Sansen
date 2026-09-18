@@ -1,0 +1,207 @@
+{
+  "case_id": "SANSEN-1214",
+  "slide_id": "1214",
+  "chapter": 12,
+  "slide_number_in_chapter": 14,
+  "source": {
+    "pdf_page": 336,
+    "printed_page": 343
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0336_02_1214.jpg",
+      "pdf_page": 336,
+      "printed_page": 343,
+      "bbox_pt": [
+        91.521622,
+        409.518982,
+        374.78981,
+        605.978973
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 336,
+      "printed_page": 343,
+      "bbox_pt": [
+        0,
+        405.5295000000001,
+        595,
+        797
+      ],
+      "text_raw": "The same cross-coupling is\nnow used here in the output\nstage. The eight transistors\nare M13–20.\nThe input is taken from\nthe previous stage. It can be\neither one of the three points\nindicated. The other input is\nconnected to ground.\nOnly two of the four\noutput currents are used.\nThey are current-mirrored\nto the output. Transistors\nM22 and M24 are quite\nlarge, to be able to source\nand sink large currents.\nThe quiescent current is well defined as it is directly relayed to the biasing current sources.\nThe total schematic is shown next.",
+      "text": "The same cross-coupling is now used here in the output stage. The eight transistors are M13–20. The input is taken from the previous stage. It can be either one of the three points indicated. The other input is connected to ground. Only two of the four output currents are used. They are current-mirrored to the output. Transistors M22 and M24 are quite large, to be able to source and sink large currents. The quiescent current is well defined as it is directly relayed to the biasing current sources. The total schematic is shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The same cross-coupling is now used here in the output stage. The eight transistors are M13–20. The input is taken from the previous stage. It can be either one of the three points indicated. The other input is connected to ground. Only two of the four output currents are used. They are current-mirrored to the output. Transistors M22 and M24 are quite large, to be able to source and sink large currents. The quiescent current is well defined as it is directly relayed to the biasing current sources. The total schematic is shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Double-Push",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0336_02_1214.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243226833977,
+          0.08292682944250873,
+          0.30405405241312744,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Double-Push"
+      },
+      {
+        "bbox": [
+          0.08783783826013514,
+          0.3317073169105691,
+          0.13851351393581082,
+          0.37073170715447157
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.13513513538851352,
+          0.3999999998170731,
+          0.1554054056587838,
+          0.4243902437195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.3547297291666667,
+          0.2878048782113821,
+          0.38851351295045045,
+          0.317073170894309
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MaL"
+      },
+      {
+        "bbox": [
+          0.3581081084459459,
+          0.39512195097560976,
+          0.38513513547297296,
+          0.4243902436585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MIA"
+      },
+      {
+        "bbox": [
+          0.10135135177364865,
+          0.47317073219512196,
+          0.14864864907094594,
+          0.5121951224390243
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.0844594587837838,
+          0.6780487807317073,
+          0.13851351283783786,
+          0.7170731709756096
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.6486486479729731,
+          0.46341463365853663,
+          0.7162162155405406,
+          0.5024390239024391
+        ],
+        "confidence": 1,
+        "text": "Yout"
+      },
+      {
+        "bbox": [
+          0.5777026991216216,
+          0.8878048781951219,
+          0.9358108072297298,
+          0.9219512196585365
+        ],
+        "confidence": 1,
+        "text": "Ref. Fischer, JSSC June 87, 330-340"
+      },
+      {
+        "bbox": [
+          0.7263513534628377,
+          0.9414634140853658,
+          0.9358108129222973,
+          0.9853658531097561
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1214"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The total schematic is shown next.",
+      "pdf_page": 336,
+      "printed_page": 343,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0336_02_1214.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The other input is connected to ground.",
+        "pdf_page": 336,
+        "printed_page": 343,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Transistors M22 and M24 are quite large, to be able to source and sink large currents.",
+        "pdf_page": 336,
+        "printed_page": 343,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

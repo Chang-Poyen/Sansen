@@ -1,0 +1,516 @@
+{
+  "case_id": "SANSEN-1850",
+  "slide_id": "1850",
+  "chapter": 18,
+  "slide_number_in_chapter": 50,
+  "source": {
+    "pdf_page": 533,
+    "printed_page": 543
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0533_02_1850.jpg",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "bbox_pt": [
+        91.521622,
+        371.651978,
+        374.78981,
+        568.111969
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 533,
+      "printed_page": 543,
+      "bbox_pt": [
+        0,
+        367.6625000000001,
+        595,
+        797
+      ],
+      "text_raw": "By use of the coefficients d,\nthe distortion components\nIM and IM with feed-\n2f 3f\nback (index f ) are easily\ncalculated.\nThe IM contains T2 in\n2f\nthe denominator. If we asso-\nciate one T to the reduction\nof the gain, and as a conse-\nquence, the reduction of the\nrelative current swing, then\nwe see that the IM is\n2f\nreduced by T itself. A rule\nof thumb is that we calculate\nthe distortion for the rela-\ntive current swing, taking\ninto account the effect of the feedback on this current swing. The distortion for this stage is now\neasily calculated. It is divided by the loop gain to take into account the reduction by the loop\ngain T.\nIn the same way, IM is calculated. Again, the two terms appear related to a and a . If a is\n3f 3 2 3\ndominant, the same rule of thumb applies. An easy way to calculate the distortion is to find the\ndistortion for a relative current swing, taking into account the effect of feedback. The distortion\nis then obtained by division by the loop gain T itself, and not by T2.\nThe same is true if a is dominant. Indeed the T2 in the denominator is reduced to T since\n2\nthe numerator also contains T. Clearly, we have assumed all along that T is always larger than\nunity and that the loop gain can be represented by T, rather than 1+T.",
+      "text": "By use of the coefficients d, the distortion components IM and IM with feed- 2f 3f back (index f ) are easily calculated. The IM contains T2 in 2f the denominator. If we associate one T to the reduction of the gain, and as a consequence, the reduction of the relative current swing, then we see that the IM is 2f reduced by T itself. A rule of thumb is that we calculate the distortion for the relative current swing, taking into account the effect of the feedback on this current swing. The distortion for this stage is now easily calculated. It is divided by the loop gain to take into account the reduction by the loop gain T. In the same way, IM is calculated. Again, the two terms appear related to a and a . If a is 3f 3 2 3 dominant, the same rule of thumb applies. An easy way to calculate the distortion is to find the distortion for a relative current swing, taking into account the effect of feedback. The distortion is then obtained by division by the loop gain T itself, and not by T2. The same is true if a is dominant. Indeed the T2 in the denominator is reduced to T since 2 the numerator also contains T. Clearly, we have assumed all along that T is always larger than unity and that the loop gain can be represented by T, rather than 1+T."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "By use of the coefficients d, the distortion components IM and IM with feed- 2f 3f back (index f ) are easily calculated. The IM contains T2 in 2f the denominator. If we associate one T to the reduction of the gain, and as a consequence, the reduction of the relative current swing, then we see that the IM is 2f reduced by T itself. A rule of thumb is that we calculate the distortion for the relative current swing, taking into account the effect of the feedback on this current swing. The distortion for this stage is now easily calculated. It is divided by the loop gain to take into account the reduction by the loop gain T. In the same way, IM is calculated. Again, the two terms appear related to a and a . If a is 3f 3 2 3 dominant, the same rule of thumb applies. An easy way to calculate the distortion is to find the distortion for a relative current swing, taking into account the effect of feedback. The distortion is then obtained by division by the loop gain T itself, and not by T2. The same is true if a is dominant. Indeed the T2 in the denominator is reduced to T since 2 the numerator also contains T. Clearly, we have assumed all along that T is always larger than unity and that the loop gain can be represented by T, rather than 1+T.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Distortion components with feedback",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0533_02_1850.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433260135114,
+          0.08292682890243908,
+          0.7364864947635134,
+          0.14146341426829268
+        ],
+        "confidence": 1,
+        "text": "Distortion components with feedback"
+      },
+      {
+        "bbox": [
+          0.08108108192567565,
+          0.25853658502439025,
+          0.1655405413851351,
+          0.31219512160975604
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IM2f ="
+      },
+      {
+        "bbox": [
+          0.19594594657335906,
+          0.21463414696864114,
+          0.29729729792471044,
+          0.3024390250174216
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dzv="
+      },
+      {
+        "bbox": [
+          0.08108108043355859,
+          0.5999999995528456,
+          0.16554053989301803,
+          0.6536585361382113
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IM3f ="
+      },
+      {
+        "bbox": [
+          0.18581081338682426,
+          0.5609756099390244,
+          0.39189189446790534,
+          0.643902439207317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3 d3y2 = 3"
+      },
+      {
+        "bbox": [
+          0.18581081030405402,
+          0.643902439207317,
+          0.26689189138513514,
+          0.7024390245731708
+        ],
+        "confidence": 0.5,
+        "text": "4 dy"
+      },
+      {
+        "bbox": [
+          0.4155405403716216,
+          0.21463414573170736,
+          0.4425675673986486,
+          0.26341463353658534
+        ],
+        "confidence": 0.5,
+        "text": "V"
+      },
+      {
+        "bbox": [
+          0.3136533967125931,
+          0.29990018042737365,
+          0.48732674294853856,
+          0.3545530411153739
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a1 (1 + T)-"
+      },
+      {
+        "bbox": [
+          0.6486486489864866,
+          0.21951219487804874,
+          0.6689189192567568,
+          0.2536585363414634
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.7635135140625,
+          0.21463414603658537,
+          0.8074324329814189,
+          0.25853658506097554
+        ],
+        "confidence": 1,
+        "text": "V"
+      },
+      {
+        "bbox": [
+          0.5439189186655405,
+          0.3073170727642276,
+          0.5810810808277027,
+          0.3560975605691057
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a1"
+      },
+      {
+        "bbox": [
+          0.6047297305405405,
+          0.30243902487804875,
+          0.6993243251351351,
+          0.3512195126829267
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1 + T)"
+      },
+      {
+        "bbox": [
+          0.7331081088963963,
+          0.3024390241463415,
+          0.827702703490991,
+          0.3512195119512196
+        ],
+        "confidence": 0.5,
+        "text": "(1 + T)"
+      },
+      {
+        "bbox": [
+          0.3986486521537162,
+          0.43902439000000004,
+          0.6790540575591216,
+          0.4780487802439024
+        ],
+        "confidence": 1,
+        "text": "reduction by loop gain"
+      },
+      {
+        "bbox": [
+          0.7128378353040542,
+          0.4195121955284553,
+          0.8648648623310812,
+          0.45365853699187
+        ],
+        "confidence": 1,
+        "text": "reduction in"
+      },
+      {
+        "bbox": [
+          0.7128378349662163,
+          0.46829268308943084,
+          0.8851351322635136,
+          0.5073170733333333
+        ],
+        "confidence": 1,
+        "text": "current swing"
+      },
+      {
+        "bbox": [
+          0.42567567369087844,
+          0.6487804879268294,
+          0.5844594574746622,
+          0.6975609757317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a, (1 + T)"
+      },
+      {
+        "bbox": [
+          0.4290540559121621,
+          0.741463414390244,
+          0.5777027045608107,
+          0.7707317070731708
+        ],
+        "confidence": 1,
+        "text": "compression"
+      },
+      {
+        "bbox": [
+          0.6452702699806949,
+          0.5658536586062718,
+          0.6858108105212355,
+          0.634146341533101
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a2"
+      },
+      {
+        "bbox": [
+          0.6925675673986487,
+          0.5560975605853659,
+          0.7162162160472972,
+          0.5951219508292683
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.645270270045045,
+          0.6487804873577236,
+          0.6790540538288288,
+          0.7024390239430894
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "21"
+      },
+      {
+        "bbox": [
+          0.6351351371621621,
+          0.741463414390244,
+          0.7567567587837837,
+          0.7756097558536587
+        ],
+        "confidence": 0.5,
+        "text": "expansion"
+      },
+      {
+        "bbox": [
+          0.7533783780123874,
+          0.5609756099593496,
+          0.7972972969313064,
+          0.6048780489837399
+        ],
+        "confidence": 1,
+        "text": "2T"
+      },
+      {
+        "bbox": [
+          0.7175476914742573,
+          0.6368436152513673,
+          0.833306845098096,
+          0.7030989986265817
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1 + т)2"
+      },
+      {
+        "bbox": [
+          0.8918918918436294,
+          0.5463414629965158,
+          0.9391891891409266,
+          0.6048780483623694
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "v2"
+      },
+      {
+        "bbox": [
+          0.8547297306165541,
+          0.6390243895731708,
+          0.9662162171030406,
+          0.6926829261585367
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(1 + T)2"
+      },
+      {
+        "bbox": [
+          0.7966027761352208,
+          0.7681218864420577,
+          0.9464888172094066,
+          0.8128646660575064
+        ],
+        "confidence": 1,
+        "text": "reduction in"
+      },
+      {
+        "bbox": [
+          0.7939189172635135,
+          0.814634145902439,
+          0.9662162145608109,
+          0.8585365849268292
+        ],
+        "confidence": 1,
+        "text": "current swing"
+      },
+      {
+        "bbox": [
+          0.7195945919341217,
+          0.9365853660365854,
+          0.9324324297719595,
+          0.9707317075
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1850"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "By use of the coefficients d, the distortion components IM and IM with feed- 2f 3f back (index f ) are easily calculated.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A rule of thumb is that we calculate the distortion for the relative current swing, taking into account the effect of the feedback on this current swing.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The distortion for this stage is now easily calculated.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0533_02_1850.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If we associate one T to the reduction of the gain, and as a consequence, the reduction of the relative current swing, then we see that the IM is 2f reduced by T itself.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is divided by the loop gain to take into account the reduction by the loop gain T.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The distortion is then obtained by division by the loop gain T itself, and not by T2.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Clearly, we have assumed all along that T is always larger than unity and that the loop gain can be represented by T, rather than 1+T.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Clearly, we have assumed all along that T is always larger than unity and that the loop gain can be represented by T, rather than 1+T.",
+      "pdf_page": 533,
+      "printed_page": 543,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1850-M01",
+      "ocr_text": "IM2f =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08108108192567565,
+        0.25853658502439025,
+        0.1655405413851351,
+        0.31219512160975604
+      ],
+      "context_crop": "regions/SANSEN-1850_math_01.png",
+      "context_bbox_normalized": [
+        0.041081081925675646,
+        0.15853658502439025,
+        0.3955405413851351,
+        0.44219512160975605
+      ],
+      "source_image": "slides/p0533_02_1850.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1850-M02",
+      "ocr_text": "dzv=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.19594594657335906,
+        0.21463414696864114,
+        0.29729729792471044,
+        0.3024390250174216
+      ],
+      "context_crop": "regions/SANSEN-1850_math_02.png",
+      "context_bbox_normalized": [
+        0.15594594657335906,
+        0.13,
+        0.5272972979247105,
+        0.4324390250174216
+      ],
+      "source_image": "slides/p0533_02_1850.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1850-M03",
+      "ocr_text": "IM3f =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08108108043355859,
+        0.5999999995528456,
+        0.16554053989301803,
+        0.6536585361382113
+      ],
+      "context_crop": "regions/SANSEN-1850_math_03.png",
+      "context_bbox_normalized": [
+        0.04108108043355859,
+        0.4999999995528456,
+        0.3955405398930181,
+        0.7836585361382113
+      ],
+      "source_image": "slides/p0533_02_1850.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1850-M04",
+      "ocr_text": "3 d3y2 = 3",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.18581081338682426,
+        0.5609756099390244,
+        0.39189189446790534,
+        0.643902439207317
+      ],
+      "context_crop": "regions/SANSEN-1850_math_04.png",
+      "context_bbox_normalized": [
+        0.14581081338682425,
+        0.4609756099390244,
+        0.6218918944679054,
+        0.773902439207317
+      ],
+      "source_image": "slides/p0533_02_1850.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

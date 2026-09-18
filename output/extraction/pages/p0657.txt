@@ -1,0 +1,47 @@
+668 Chapter #21
+2161
+In the switched-capacitor
+integrator, shown in this
+slide, the input switch is
+replaced by a resistor R. On
+phase W1P the sampling
+capacitor C is charged to
+S
+the output voltage of the
+first opamp. On phase W2
+the charge is then transfer-
+red to integration capacitor
+C .
+I
+The use of this resistor R
+has several advantages. First
+of all, it avoids the need to
+use a switch. This switch is
+difficult to drive because of
+the low supply voltage.
+Moreover, the linearity is quite high provided the ON-resistance of switch W1P can be
+made small.
+The drawback is that an additional time constant RC comes in, which may limit the high-
+S
+frequency performance. This is a low-frequency solution.
+2162
+For low supply voltages, it
+is difficult to maintain the
+input common-mode volt-
+age constant during the
+switching. In order to sup-
+press this change in
+common-mode input volt-
+age, several solutions exist.
+In the top one, a capacitor
+C is added, connected to
+Ls
+the supply lines. It acts as a
+DC level shifter, as pre-
+viously described.
+In the solution at the
+bottom, the input resistor R
+and sampling capacitor C
+S
+are doubled, allowing the cancellation of the input common-mode voltage. This results in less
+kT/C noise.

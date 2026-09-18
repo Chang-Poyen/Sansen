@@ -1,0 +1,35 @@
+632 Chapter #20
+2056
+This circuit is shown twice,
+once for phase 1 (in red) and
+once for phase 2 (in blue).
+Two capacitors are used Cf
+and Cs and several switches,
+closing on phase 1 or on
+phase 2.
+When the phase 1
+switches are closed, both
+capacitors are in parallel.
+They sample the input volt-
+ages Vres(i) which is the
+output of the previous stage.
+2057
+On phase 2, the capacitors
+are switched in as for an
+inverting amplifier with gain
+Cs/Cf. The output voltage
+Vres(i+1) will be the sum
+of the voltage initially stored
+on Cf, which is Vres(i), plus
+the result of the amplifica-
+tion by Cs/Cf, which is
+Cs/Cf times the voltage
+difference Vres(i)−VDAC.
+When both capacitors Cf
+and Cs are made equal, the
+gain is two. As a result,
+Vres(I) is multiplied by two
+and VDAC is subtracted.
+The precision can be quite high because matching two equal capacitors can be fairly easily
+achieved. For better matching they have to be made as large as possible.
+Some other factors limit the sizes of the capacitors however, as shown next.

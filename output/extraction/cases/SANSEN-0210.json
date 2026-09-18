@@ -1,0 +1,504 @@
+{
+  "case_id": "SANSEN-0210",
+  "slide_id": "0210",
+  "chapter": 2,
+  "slide_number_in_chapter": 10,
+  "source": {
+    "pdf_page": 54,
+    "printed_page": 55
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0054_02_0210.jpg",
+      "pdf_page": 54,
+      "printed_page": 55,
+      "bbox_pt": [
+        91.521622,
+        409.518982,
+        374.78981,
+        605.978973
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 54,
+      "printed_page": 55,
+      "bbox_pt": [
+        0,
+        405.52950000000016,
+        595,
+        797
+      ],
+      "text_raw": "If no load capacitance is\npresent, but a large input\ncapacitance C , then the\nGS\nbandwidth is determined at\nthe input. This is also true\nfor many sensor and bio-\nmedical preamplifiers where\nthe source resistance can be\nquite high (>1 MV).\nIn this case, the BW is\nsimply given by the RC pro-\nduct at the input.\nThe GBW on the other\nhand, is not as simple as\nbefore. Many transistor\nparameters now play a role.\nSome of them can be bundled in the high-frequency parameter f .\nT\nFor high-frequency performance, it is not sufficient however to make f large. Rather the\nT\nproduct f r must be optimized, which is a technological challenge indeed!\nT DS\nThe channel length does not seem to play a role; both W and V −V must be made small!!!\nGS T\nAll surprising results indeed!",
+      "text": "If no load capacitance is present, but a large input capacitance C , then the GS bandwidth is determined at the input. This is also true for many sensor and biomedical preamplifiers where the source resistance can be quite high (>1 MV). In this case, the BW is simply given by the RC product at the input. The GBW on the other hand, is not as simple as before. Many transistor parameters now play a role. Some of them can be bundled in the high-frequency parameter f . T For high-frequency performance, it is not sufficient however to make f large. Rather the T product f r must be optimized, which is a technological challenge indeed! T DS The channel length does not seem to play a role; both W and V −V must be made small!!! GS T All surprising results indeed!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "representative_case_visually_reviewed",
+  "commentary_text": "If no load capacitance is present, but a large input capacitance C , then the GS bandwidth is determined at the input. This is also true for many sensor and biomedical preamplifiers where the source resistance can be quite high (>1 MV). In this case, the BW is simply given by the RC product at the input. The GBW on the other hand, is not as simple as before. Many transistor parameters now play a role. Some of them can be bundled in the high-frequency parameter f . T For high-frequency performance, it is not sufficient however to make f large. Rather the T product f r must be optimized, which is a technological challenge indeed! T DS The channel length does not seem to play a role; both W and V −V must be made small!!! GS T All surprising results indeed!",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "输入电容对增益与带宽的影响",
+  "title_status": "visually_reviewed",
+  "ocr": {
+    "path": "ocr/p0054_02_0210.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432043918928,
+          0.09268292731707317,
+          0.7432432393581082,
+          0.15121951268292677
+        ],
+        "confidence": 1,
+        "text": "Gain, Bandwidth and Gain-bandwidth"
+      },
+      {
+        "bbox": [
+          0.20945946013513508,
+          0.36585365839024386,
+          0.27702702770270266,
+          0.41951219497560976
+        ],
+        "confidence": 1,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.4560810808910474,
+          0.35609756060975606,
+          0.49324324305320955,
+          0.41463414597560977
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.44256756807432435,
+          0.43414634135888497,
+          0.5135135140202702,
+          0.4975609755052264
+        ],
+        "confidence": 0.5,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.0979729733671171,
+          0.48292682910569107,
+          0.1452702706644144,
+          0.531707316910569
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.574222678858324,
+          0.2823136020551382,
+          0.7703719120835536,
+          0.35183273806528503
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avo = 9m'DS"
+      },
+      {
+        "bbox": [
+          0.5743243234797297,
+          0.4487804880081301,
+          0.675675674831081,
+          0.502439024593496
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BW ="
+      },
+      {
+        "bbox": [
+          0.7263513515202703,
+          0.4146341467804878,
+          0.750000000168919,
+          0.458536585804878
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6824324337556307,
+          0.5073170731300812,
+          0.8412162175394144,
+          0.5707317072764228
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T RgCGs"
+      },
+      {
+        "bbox": [
+          0.26689189141891895,
+          0.590243901902439,
+          0.320945945472973,
+          0.6439024384878048
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CGS"
+      },
+      {
+        "bbox": [
+          0.26689189243243244,
+          0.6829268292195122,
+          0.3209459464864865,
+          0.736585365804878
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.3581081089949324,
+          0.6829268293292683,
+          0.42905405494087834,
+          0.7365853659146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"Ds"
+      },
+      {
+        "bbox": [
+          0.5236486480574325,
+          0.6780487797560976,
+          0.5844594588682434,
+          0.7365853651219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TDs"
+      },
+      {
+        "bbox": [
+          0.10121380514519998,
+          0.720889242352531,
+          0.2602726853067947,
+          0.7669156350333737
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW= -"
+      },
+      {
+        "bbox": [
+          0.4358108100000001,
+          0.7073170732195122,
+          0.5168918910810812,
+          0.7804878049268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "=f+"
+      },
+      {
+        "bbox": [
+          0.22635135312499996,
+          0.7658536582317073,
+          0.3682432450168919,
+          0.8292682923780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 CGs"
+      },
+      {
+        "bbox": [
+          0.36824324290540544,
+          0.7560975602926829,
+          0.4222972969594595,
+          0.8243902432195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.5337837834740992,
+          0.756097560406504,
+          0.5844594591497748,
+          0.8243902433333332
+        ],
+        "confidence": 0.5,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.6891891893581081,
+          0.6878048785853659,
+          0.7195945947635135,
+          0.7414634151707317
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.8040540539273648,
+          0.682926828597561,
+          0.8277027025760135,
+          0.7365853651829268
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6047297295608108,
+          0.7268292680081301,
+          0.6317567565878379,
+          0.7609756094715446
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-"
+      },
+      {
+        "bbox": [
+          0.6587837809966217,
+          0.7658536585975609,
+          0.8817567539695947,
+          0.8292682927439023
+        ],
+        "confidence": 0.5,
+        "text": "WCox VGs-VT"
+      },
+      {
+        "bbox": [
+          0.59459459625,
+          0.8487804884390243,
+          0.9087837854391891,
+          0.9121951225853658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W? L? VGs-VT?"
+      },
+      {
+        "bbox": [
+          0.7195945933783784,
+          0.9317073173658537,
+          0.9290540528378378,
+          0.9609756100487804
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0210"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "If no load capacitance is present, but a large input capacitance C , then the GS bandwidth is determined at the input.",
+      "pdf_page": 54,
+      "printed_page": 55,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0054_02_0210.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This is also true for many sensor and biomedical preamplifiers where the source resistance can be quite high (>1 MV).",
+        "pdf_page": 54,
+        "printed_page": 55,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If no load capacitance is present, but a large input capacitance C , then the GS bandwidth is determined at the input.",
+      "pdf_page": 54,
+      "printed_page": 55,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0210-M01",
+      "ocr_text": "Avo = 9m'DS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.574222678858324,
+        0.2823136020551382,
+        0.7703719120835536,
+        0.35183273806528503
+      ],
+      "context_crop": "regions/SANSEN-0210_math_01.png",
+      "context_bbox_normalized": [
+        0.534222678858324,
+        0.18231360205513822,
+        1,
+        0.48183273806528504
+      ],
+      "source_image": "slides/p0054_02_0210.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0210-M02",
+      "ocr_text": "BW =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5743243234797297,
+        0.4487804880081301,
+        0.675675674831081,
+        0.502439024593496
+      ],
+      "context_crop": "regions/SANSEN-0210_math_02.png",
+      "context_bbox_normalized": [
+        0.5343243234797297,
+        0.3487804880081301,
+        0.905675674831081,
+        0.632439024593496
+      ],
+      "source_image": "slides/p0054_02_0210.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0210-M03",
+      "ocr_text": "GBW= -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.10121380514519998,
+        0.720889242352531,
+        0.2602726853067947,
+        0.7669156350333737
+      ],
+      "context_crop": "regions/SANSEN-0210_math_03.png",
+      "context_bbox_normalized": [
+        0.06121380514519998,
+        0.6208892423525311,
+        0.4902726853067947,
+        0.8969156350333737
+      ],
+      "source_image": "slides/p0054_02_0210.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0210-M04",
+      "ocr_text": "=f+",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4358108100000001,
+        0.7073170732195122,
+        0.5168918910810812,
+        0.7804878049268293
+      ],
+      "context_crop": "regions/SANSEN-0210_math_04.png",
+      "context_bbox_normalized": [
+        0.3958108100000001,
+        0.6073170732195122,
+        0.7468918910810812,
+        0.9104878049268293
+      ],
+      "source_image": "slides/p0054_02_0210.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [
+    {
+      "kind": "circuit",
+      "path": "regions/SANSEN-0210_circuit.png",
+      "bbox_normalized": [
+        0.075,
+        0.2,
+        0.53,
+        0.65
+      ],
+      "source_image": "slides/p0054_02_0210.jpg",
+      "status": "region_manually_located_not_netlist_verified"
+    }
+  ],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "reviewed_extraction": {
+    "title": "输入电容对增益与带宽的影响",
+    "review_scope": "listed_fields_only; displayed equations transcribed",
+    "summary_zh": "只保留输入电容时，信号源电阻 R_S 与 C_GS 决定带宽。原文指出优化 f_T 本身不足，还要考虑 f_T r_DS。",
+    "formulas": [
+      {
+        "latex": "A_{v0}=g_m r_{DS}",
+        "meaning_zh": "低频增益大小。"
+      },
+      {
+        "latex": "BW=\\frac{1}{2\\pi R_S C_{GS}}",
+        "meaning_zh": "输入 RC 带宽。"
+      },
+      {
+        "latex": "GBW=\\frac{g_m}{2\\pi C_{GS}}\\frac{r_{DS}}{R_S}=f_T\\frac{r_{DS}}{R_S}\\sim\\frac{1}{W C_{ox}}\\frac{1}{V_{GS}-V_T}",
+        "meaning_zh": "最后的 ~ 为幻灯片所列的尺度关系，不应当作含全部常数的严格等式。"
+      }
+    ],
+    "topology_zh": [
+      "共源级的源极接地，漏极为输出并接偏置电流源。",
+      "v_in 经 R_S 接栅极；C_GS 位于栅极与地之间。"
+    ],
+    "graph_conclusions_zh": [],
+    "conditions_zh": [
+      "原文明示：没有负载电容，只考虑较大的输入电容。",
+      "图面判读：本页 f_T 表达式创建在所保留的 C_GS 简化模型上；不要自动套到含 C_GD 等寄生的完整模型。"
+    ],
+    "title_original": "Gain, Bandwidth and Gain-bandwidth — input capacitance"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "02-single-pole",
+    "title": "单极点、GBW 与尺寸数值题",
+    "summary_zh": "推导负载电容主极点、交越频率、GBW 与 029 的尺寸例题。",
+    "html": "../derivations/ch02/02-single-pole.html",
+    "markdown": "../derivations/ch02/02-single-pole.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "单极点、GBW 与尺寸数值题",
+    "case_ids": [
+      "loaded_cs",
+      "mos_cs"
+    ],
+    "linear_count": 1,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#02-single-pole",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

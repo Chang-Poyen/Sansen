@@ -1,0 +1,47 @@
+Rail-to-rail input and output amplifiers 305
+119
+Connecting both inputs in
+parallel reduces the input
+common-mode range by
+2.2 V. The minimum supply
+voltage must therefore be a
+minimum of 2.2 V. In prac-
+tice the supply voltage will
+be 2.5 V.
+We are a long way from
+a 1 V supply voltage! Even
+if V were only
+T
+0.3 V, the minimum
+supply voltage would still
+be 1.4 V.
+1110
+With a supply voltage of
+2.5 V, there is a problem
+with the total transconduct-
+ance and thus with the
+total GBW.
+For common-mode input
+voltages with V in the
+INCM
+middle (at half the supply
+voltage), both input pairs
+are operational. Their g ’s
+m
+are now added. Actually, the
+g is doubled, as normally
+m
+the nMOST transconduct-
+ance equals the pMOST
+one.
+On both extremities how-
+ever, only one pair is operational and the g is not doubled. It is therefore half of what is
+m
+obtained in the middle.
+The transconductances are sketched in this slide for each pair separately and also summed. It
+is clear that the pMOST g goes to zero when the common-mode input V reaches the
+m INCM
+positive supply voltage within 1.1
+V. Also, at zero V , the nMOSTs are off and only start working once V is larger than
+INCM INCM
+approximately 1.1 V.

@@ -1,0 +1,401 @@
+{
+  "case_id": "SANSEN-0410",
+  "slide_id": "0410",
+  "chapter": 4,
+  "slide_number_in_chapter": 10,
+  "source": {
+    "pdf_page": 118,
+    "printed_page": 121
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0119_01_0410.jpg",
+      "pdf_page": 119,
+      "printed_page": 122,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 118,
+      "printed_page": 121,
+      "bbox_pt": [
+        0,
+        594.8645000000002,
+        595,
+        797
+      ],
+      "text_raw": "A resistor also exhibits 1/f noise.\nIn general, 1/f noise is dependent on size and the quality of conduction (or homogeneity).\nThis is why the expression for the 1/f noise is a result of fitting lots of data. It contains the\nDC voltage across the resistor, the size (A or WL) and a factor KF , that indicates what\nR R\nmaterial is to be used.\nFor example a n-well resistor is single-crystalline silicon. This material is very homogeneous.\nAs a result the KF factor is small.\nR",
+      "text": "A resistor also exhibits 1/f noise. In general, 1/f noise is dependent on size and the quality of conduction (or homogeneity). This is why the expression for the 1/f noise is a result of fitting lots of data. It contains the DC voltage across the resistor, the size (A or WL) and a factor KF , that indicates what R R material is to be used. For example a n-well resistor is single-crystalline silicon. This material is very homogeneous. As a result the KF factor is small. R"
+    },
+    {
+      "pdf_page": 119,
+      "printed_page": 122,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        392.57507500000014
+      ],
+      "text_raw": "The same applies to all\ndiffused resistances. Poly-\nsilicon resistors on the other\nhand are much worse.\nDiscrete carbon resistors are\nprobably the worst for 1/f\nnoise.\nIf we use the same resistor\nwith much larger dimen-\nsions (same W/L but larger\nWL), then the 1/f noise is\nsignificantly reduced.\nFinally reducing the DC\nvoltage to zero by putting a\ncapacitance in series, also\nkills the 1/f noise. This is\nprobably the most widely\nused technique in low-noise preamplifiers!\nNote that the 1/f noise is normally specified at 1 Hz. Since the noise voltage is inversely\nproportional to the square root of the frequency, it decreases only slowly.",
+      "text": "The same applies to all diffused resistances. Polysilicon resistors on the other hand are much worse. Discrete carbon resistors are probably the worst for 1/f noise. If we use the same resistor with much larger dimensions (same W/L but larger WL), then the 1/f noise is significantly reduced. Finally reducing the DC voltage to zero by putting a capacitance in series, also kills the 1/f noise. This is probably the most widely used technique in low-noise preamplifiers! Note that the 1/f noise is normally specified at 1 Hz. Since the noise voltage is inversely proportional to the square root of the frequency, it decreases only slowly."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A resistor also exhibits 1/f noise. In general, 1/f noise is dependent on size and the quality of conduction (or homogeneity). This is why the expression for the 1/f noise is a result of fitting lots of data. It contains the DC voltage across the resistor, the size (A or WL) and a factor KF , that indicates what R R material is to be used. For example a n-well resistor is single-crystalline silicon. This material is very homogeneous. As a result the KF factor is small. R\n\nThe same applies to all diffused resistances. Polysilicon resistors on the other hand are much worse. Discrete carbon resistors are probably the worst for 1/f noise. If we use the same resistor with much larger dimensions (same W/L but larger WL), then the 1/f noise is significantly reduced. Finally reducing the DC voltage to zero by putting a capacitance in series, also kills the 1/f noise. This is probably the most widely used technique in low-noise preamplifiers! Note that the 1/f noise is normally specified at 1 Hz. Since the noise voltage is inversely proportional to the square root of the frequency, it decreases only slowly.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "A resistor also has 1/f noise",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0119_01_0410.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946537162151,
+          0.0878048779878049,
+          0.5574324383445944,
+          0.1414634145731707
+        ],
+        "confidence": 1,
+        "text": "A resistor also has 1/f noise"
+      },
+      {
+        "bbox": [
+          0.11486486469594595,
+          0.36097560943089424,
+          0.14189189172297298,
+          0.3999999996747967
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.08445945891891893,
+          0.39512195126829275,
+          0.13851351297297299,
+          0.45853658541463416
+        ],
+        "confidence": 1,
+        "text": "VR"
+      },
+      {
+        "bbox": [
+          0.20222534290059535,
+          0.27670216234036127,
+          0.2876395205632128,
+          0.34281003323314185
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvRt"
+      },
+      {
+        "bbox": [
+          0.1959459459037162,
+          0.39024390189024394,
+          0.2263513513091216,
+          0.4341463409146341
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.37439592279104306,
+          0.27005803203749845,
+          0.5614148843108514,
+          0.3543322123800099
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVRr=VR"
+      },
+      {
+        "bbox": [
+          0.5708464679934568,
+          0.2385077531594858,
+          0.7399643439947634,
+          0.30783371429572226
+        ],
+        "confidence": 0.5,
+        "text": "KFRR- df"
+      },
+      {
+        "bbox": [
+          0.6081081077702702,
+          0.3219512190243903,
+          0.6621621618243243,
+          0.3902439019512196
+        ],
+        "confidence": 1,
+        "text": "AR"
+      },
+      {
+        "bbox": [
+          0.7060810809121623,
+          0.3268292678048781,
+          0.7297297295608108,
+          0.3756097556097562
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.47635134817567576,
+          0.4536585367317073,
+          0.7939189157432434,
+          0.5170731708780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "KFRSi = 2 10-21 Scm?"
+      },
+      {
+        "bbox": [
+          0.479729731981982,
+          0.5609756096341464,
+          0.7500000022522523,
+          0.6243902437804878
+        ],
+        "confidence": 0.5,
+        "text": "KFRpoly = 10 KFRSi"
+      },
+      {
+        "bbox": [
+          0.09797296530405411,
+          0.6926829269756098,
+          0.864864857195946,
+          0.7365853660000001
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "for R = 1 kS with 20 ['s of 50 Q/ [ and 1 um wide and VR= 0.1 V"
+      },
+      {
+        "bbox": [
+          0.09121621233108113,
+          0.765853657804878,
+          0.48648648260135136,
+          0.839024389512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VdvRi = 16 nV/RMS /VHz at 1 Hz"
+      },
+      {
+        "bbox": [
+          0.8242570831408558,
+          0.2680356679387843,
+          0.9223645370799328,
+          0.3222082349806932
+        ],
+        "confidence": 0.5,
+        "text": "is 1/f"
+      },
+      {
+        "bbox": [
+          0.5945945949324324,
+          0.8878048784756096,
+          0.9256756760135134,
+          0.9219512199390243
+        ],
+        "confidence": 1,
+        "text": "Ref. Vandamme, ESSDERC '04"
+      },
+      {
+        "bbox": [
+          0.7195945919763513,
+          0.9365853661585366,
+          0.9290540514358109,
+          0.9804878051829268
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0410"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0119_01_0410.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Finally reducing the DC voltage to zero by putting a capacitance in series, also kills the 1/f noise.",
+        "pdf_page": 119,
+        "printed_page": 122,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In general, 1/f noise is dependent on size and the quality of conduction (or homogeneity).",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result the KF factor is small.",
+      "pdf_page": 118,
+      "printed_page": 121,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Since the noise voltage is inversely proportional to the square root of the frequency, it decreases only slowly.",
+      "pdf_page": 119,
+      "printed_page": 122,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "If we use the same resistor with much larger dimensions (same W/L but larger WL), then the 1/f noise is significantly reduced.",
+      "pdf_page": 119,
+      "printed_page": 122,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0410-M01",
+      "ocr_text": "dVRr=VR",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.37439592279104306,
+        0.27005803203749845,
+        0.5614148843108514,
+        0.3543322123800099
+      ],
+      "context_crop": "regions/SANSEN-0410_math_01.png",
+      "context_bbox_normalized": [
+        0.3343959227910431,
+        0.17005803203749845,
+        0.7914148843108514,
+        0.4843322123800099
+      ],
+      "source_image": "slides/p0119_01_0410.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0410-M02",
+      "ocr_text": "KFRSi = 2 10-21 Scm?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.47635134817567576,
+        0.4536585367317073,
+        0.7939189157432434,
+        0.5170731708780487
+      ],
+      "context_crop": "regions/SANSEN-0410_math_02.png",
+      "context_bbox_normalized": [
+        0.4363513481756758,
+        0.35365853673170733,
+        1,
+        0.6470731708780487
+      ],
+      "source_image": "slides/p0119_01_0410.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0410-M03",
+      "ocr_text": "KFRpoly = 10 KFRSi",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.479729731981982,
+        0.5609756096341464,
+        0.7500000022522523,
+        0.6243902437804878
+      ],
+      "context_crop": "regions/SANSEN-0410_math_03.png",
+      "context_bbox_normalized": [
+        0.439729731981982,
+        0.4609756096341464,
+        0.9800000022522523,
+        0.7543902437804878
+      ],
+      "source_image": "slides/p0119_01_0410.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0410-M04",
+      "ocr_text": "for R = 1 kS with 20 ['s of 50 Q/ [ and 1 um wide and VR= 0.1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09797296530405411,
+        0.6926829269756098,
+        0.864864857195946,
+        0.7365853660000001
+      ],
+      "context_crop": "regions/SANSEN-0410_math_04.png",
+      "context_bbox_normalized": [
+        0.05797296530405411,
+        0.5926829269756099,
+        1,
+        0.8665853660000001
+      ],
+      "source_image": "slides/p0119_01_0410.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0410-M05",
+      "ocr_text": "VdvRi = 16 nV/RMS /VHz at 1 Hz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09121621233108113,
+        0.765853657804878,
+        0.48648648260135136,
+        0.839024389512195
+      ],
+      "context_crop": "regions/SANSEN-0410_math_05.png",
+      "context_bbox_normalized": [
+        0.051216212331081125,
+        0.665853657804878,
+        0.7164864826013514,
+        0.93
+      ],
+      "source_image": "slides/p0119_01_0410.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

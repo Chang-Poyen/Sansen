@@ -1,0 +1,49 @@
+368 Chapter #13
+1310
+If we feed back the output
+voltage in series with the
+input, we obtain a series-
+shunt feedback loop. In its
+simplest case, the output is
+directly connected to the
+input, yielding a gain of
+unity. For an opamp with
+high gain, the difference
+between the terminals is
+approximately zero, what-
+ever the output may be. This
+circuit is called a buffer
+amplifier as it can deliver a
+lot of current without loss in
+voltage gain.
+More often however, a few resistors are used to set the gain at a precise value. The gain is
+positive as the output is in phase with the input. It is therefore a non-inverting amplifier. Since
+the input is directly connected to the Gate of a MOST, the input current is zero and the input
+resistance infinity. No current flows through the input voltage source (or input sensor).
+Later we will prove that the input resistance goes up because of the series feedback at the
+input. Parallel or shunt feedback always causes the resistance to go down. The output resistance
+therefore goes down. This feedback causes this amplifier to behave as a voltage-to-voltage
+amplifier. Indeed, the voltage is sensed at the input, without drawing current. At the output, the
+amplifier behaves as a voltage source. Series-shunt feedback turns amplifiers in ideal voltage-to-
+voltage amplifiers with precise voltage gain!
+1311
+In order to figure out how
+much the input and output
+resistances change, we have
+to find the loop gain first.
+For this purpose, we try to
+find an easy place to break
+the loop. Outputs of op-
+amps generally have low
+output resistances already
+without feedback. Breaking
+the loop right after the
+output is thus a good choice.
+Of course we could also
+break the loop right before
+the minus input of the
+opamp, as we see an infinite
+resistance into the amplifier.
+The voltage gain around the loop is then easily found. It is attenuated first by the resistor
+ratio, followed by the total open-loop gain A of the opamp.
+0

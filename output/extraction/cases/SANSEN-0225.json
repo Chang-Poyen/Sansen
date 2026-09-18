@@ -1,0 +1,515 @@
+{
+  "case_id": "SANSEN-0225",
+  "slide_id": "0225",
+  "chapter": 2,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 61,
+    "printed_page": 62
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0062_01_0225.jpg",
+      "pdf_page": 62,
+      "printed_page": 63,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 61,
+      "printed_page": 62,
+      "bbox_pt": [
+        0,
+        642.6965,
+        595,
+        797
+      ],
+      "text_raw": "In order to establish the actual transfer curve and the transistor currents, we have to realize that\nboth transistors always carry the same DC current. Indeed, no DC current can escape through\nthe capacitance. This is also true for AC currents at low frequencies.",
+      "text": "In order to establish the actual transfer curve and the transistor currents, we have to realize that both transistors always carry the same DC current. Indeed, no DC current can escape through the capacitance. This is also true for AC currents at low frequencies."
+    },
+    {
+      "pdf_page": 62,
+      "printed_page": 63,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        415.4945000000002
+      ],
+      "text_raw": "Also, note that the sum of\nthe V ’s is V , and that\nDS DD\nthe sum of the V ’s is also\nGS\nV . For a low input volt-\nDD\nage, the V is also low and\nGSn\nthe V is high. In this case,\nGSp\nthe nMOST is off and the\npMOST is on. The crossing\npoint of their I −V\nDS DS\ncurves is thus at point 1.\nIndeed the pMOST is\nbiased as a small resistor,\nand the output voltage is the\nsame as the supply voltage.\nIncreasing the input volt-\nage will cause the crossing\npoint to shift from point 1,\nto 2, and so on, all the way to point 7. At this latter point the pMOST is off and the nMOST\nhas a large V , but small V . It is in the linear region and so behaves as a small resistor. The\nGS DS\noutput voltage is now zero. The transistor currents are zero as well.\nWhen the input voltage is about halfway, the transistor current flows, and the output voltage\nis about halfway as well. This is point 4. This is the normal biasing for this circuit as an analog\namplifier.",
+      "text": "Also, note that the sum of the V ’s is V , and that DS DD the sum of the V ’s is also GS V . For a low input volt- DD age, the V is also low and GSn the V is high. In this case, GSp the nMOST is off and the pMOST is on. The crossing point of their I −V DS DS curves is thus at point 1. Indeed the pMOST is biased as a small resistor, and the output voltage is the same as the supply voltage. Increasing the input voltage will cause the crossing point to shift from point 1, to 2, and so on, all the way to point 7. At this latter point the pMOST is off and the nMOST has a large V , but small V . It is in the linear region and so behaves as a small resistor. The GS DS output voltage is now zero. The transistor currents are zero as well. When the input voltage is about halfway, the transistor current flows, and the output voltage is about halfway as well. This is point 4. This is the normal biasing for this circuit as an analog amplifier."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to establish the actual transfer curve and the transistor currents, we have to realize that both transistors always carry the same DC current. Indeed, no DC current can escape through the capacitance. This is also true for AC currents at low frequencies.\n\nAlso, note that the sum of the V ’s is V , and that DS DD the sum of the V ’s is also GS V . For a low input volt- DD age, the V is also low and GSn the V is high. In this case, GSp the nMOST is off and the pMOST is on. The crossing point of their I −V DS DS curves is thus at point 1. Indeed the pMOST is biased as a small resistor, and the output voltage is the same as the supply voltage. Increasing the input voltage will cause the crossing point to shift from point 1, to 2, and so on, all the way to point 7. At this latter point the pMOST is off and the nMOST has a large V , but small V . It is in the linear region and so behaves as a small resistor. The GS DS output voltage is now zero. The transistor currents are zero as well. When the input voltage is about halfway, the transistor current flows, and the output voltage is about halfway as well. This is point 4. This is the normal biasing for this circuit as an analog amplifier.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Operating points nMOST & pMOST",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0062_01_0225.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269804536685,
+          0.08292682944250873,
+          0.7297297250723939,
+          0.14634146358885014
+        ],
+        "confidence": 1,
+        "text": "Operating points nMOST & pMOST"
+      },
+      {
+        "bbox": [
+          0.2094594587162162,
+          0.18536585370731706,
+          0.2837837830405405,
+          0.23902439029268296
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.21621621574699704,
+          0.25853658474254737,
+          0.33445945899024027,
+          0.370731706693767
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "t'os"
+      },
+      {
+        "bbox": [
+          0.25337837881756753,
+          0.39999999970731714,
+          0.29729729773648644,
+          0.4390243899512196
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.4290540534206082,
+          0.20487804804878051,
+          0.4864864858530406,
+          0.2634146334146341
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DS"
+      },
+      {
+        "bbox": [
+          0.5067033502060838,
+          0.3265576365003571,
+          0.6014047563241159,
+          0.36612529080765266
+        ],
+        "confidence": 1,
+        "text": "nMOST"
+      },
+      {
+        "bbox": [
+          0.5033783779391893,
+          0.3707317075121952,
+          0.5472972968581081,
+          0.40975609775609756
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.08108108057432432,
+          0.4243902439512195,
+          0.13175675625,
+          0.4780487805365854
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.3209459452702703,
+          0.4341463409146341,
+          0.3817567560810811,
+          0.4780487799390244
+        ],
+        "confidence": 0.5,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.6891891894144144,
+          0.4243902446341463,
+          0.7094594596846847,
+          0.4682926836585366
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.8445945940456081,
+          0.33658536609756096,
+          0.8885135129645271,
+          0.3756097563414633
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.8479729737331081,
+          0.3804878043292683,
+          0.9425675683277027,
+          0.4243902433536585
+        ],
+        "confidence": 1,
+        "text": "pMOST"
+      },
+      {
+        "bbox": [
+          0.5371621622747748,
+          0.5219512202439024,
+          0.557432432545045,
+          0.5658536592682927
+        ],
+        "confidence": 1,
+        "text": "5"
+      },
+      {
+        "bbox": [
+          0.341216215625,
+          0.6243902439634147,
+          0.3885135129222973,
+          0.6780487805487805
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.08436376055985424,
+          0.7991579832048334,
+          0.30752813854562805,
+          0.8545005574407031
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD =VDsn + VDsp"
+      },
+      {
+        "bbox": [
+          0.14189189476351338,
+          0.8585365855284552,
+          0.3141891920608107,
+          0.9073170733333332
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= VGSn + VGSp"
+      },
+      {
+        "bbox": [
+          0.466216216089527,
+          0.6682926825000001,
+          0.4831081079814189,
+          0.7024390239634147
+        ],
+        "confidence": 1,
+        "text": "7"
+      },
+      {
+        "bbox": [
+          0.4966216214527028,
+          0.7170731702439025,
+          0.516891891722973,
+          0.7560975604878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0"
+      },
+      {
+        "bbox": [
+          0.3985861909110029,
+          0.7995547038175961,
+          0.5473597580076099,
+          0.8443477374174496
+        ],
+        "confidence": 0.5,
+        "text": "VDSn = VouT"
+      },
+      {
+        "bbox": [
+          0.3986486484797297,
+          0.8585365861788617,
+          0.5304054052364865,
+          0.9073170739837398
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGSn = VIN"
+      },
+      {
+        "bbox": [
+          0.8682432425,
+          0.7463414627804879,
+          0.9560810803378378,
+          0.8097560969268294
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT"
+      },
+      {
+        "bbox": [
+          0.5910381613816023,
+          0.7984116119201257,
+          0.8143672414993176,
+          0.8552469260427675
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDsp = VDD- VouT"
+      },
+      {
+        "bbox": [
+          0.5912162182094594,
+          0.8585365852682926,
+          0.7905405425337837,
+          0.9073170730731707
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGSp = VDD -VIN"
+      },
+      {
+        "bbox": [
+          0.7229729756334459,
+          0.9365853655487804,
+          0.9358108134712837,
+          0.970731707012195
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0225"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0062_01_0225.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The crossing point of their I −V DS DS curves is thus at point 1.",
+      "pdf_page": 62,
+      "printed_page": 63,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "In order to establish the actual transfer curve and the transistor currents, we have to realize that both transistors always carry the same DC current.",
+      "pdf_page": 61,
+      "printed_page": 62,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The crossing point of their I −V DS DS curves is thus at point 1.",
+      "pdf_page": 62,
+      "printed_page": 63,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0225-M01",
+      "ocr_text": "VDD =VDsn + VDsp",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08436376055985424,
+        0.7991579832048334,
+        0.30752813854562805,
+        0.8545005574407031
+      ],
+      "context_crop": "regions/SANSEN-0225_math_01.png",
+      "context_bbox_normalized": [
+        0.04436376055985424,
+        0.6991579832048335,
+        0.5375281385456281,
+        0.93
+      ],
+      "source_image": "slides/p0062_01_0225.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0225-M02",
+      "ocr_text": "= VGSn + VGSp",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.14189189476351338,
+        0.8585365855284552,
+        0.3141891920608107,
+        0.9073170733333332
+      ],
+      "context_crop": "regions/SANSEN-0225_math_02.png",
+      "context_bbox_normalized": [
+        0.10189189476351337,
+        0.7585365855284553,
+        0.5441891920608107,
+        0.93
+      ],
+      "source_image": "slides/p0062_01_0225.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0225-M03",
+      "ocr_text": "VDSn = VouT",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.3985861909110029,
+        0.7995547038175961,
+        0.5473597580076099,
+        0.8443477374174496
+      ],
+      "context_crop": "regions/SANSEN-0225_math_03.png",
+      "context_bbox_normalized": [
+        0.3585861909110029,
+        0.6995547038175961,
+        0.7773597580076099,
+        0.93
+      ],
+      "source_image": "slides/p0062_01_0225.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0225-M04",
+      "ocr_text": "VGSn = VIN",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3986486484797297,
+        0.8585365861788617,
+        0.5304054052364865,
+        0.9073170739837398
+      ],
+      "context_crop": "regions/SANSEN-0225_math_04.png",
+      "context_bbox_normalized": [
+        0.3586486484797297,
+        0.7585365861788618,
+        0.7604054052364865,
+        0.93
+      ],
+      "source_image": "slides/p0062_01_0225.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0225-M05",
+      "ocr_text": "VDsp = VDD- VouT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5910381613816023,
+        0.7984116119201257,
+        0.8143672414993176,
+        0.8552469260427675
+      ],
+      "context_crop": "regions/SANSEN-0225_math_05.png",
+      "context_bbox_normalized": [
+        0.5510381613816022,
+        0.6984116119201257,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0062_01_0225.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0225-M06",
+      "ocr_text": "VGSp = VDD -VIN",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5912162182094594,
+        0.8585365852682926,
+        0.7905405425337837,
+        0.9073170730731707
+      ],
+      "context_crop": "regions/SANSEN-0225_math_06.png",
+      "context_bbox_normalized": [
+        0.5512162182094593,
+        0.7585365852682926,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0062_01_0225.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "06-inverter-dc",
+    "title": "CMOS 反相器：DC 与匹配",
+    "summary_zh": "分开 NMOS／PMOS 的电流，求总跨导与有限输出导纳下的增益。",
+    "html": "../derivations/ch02/06-inverter-dc.html",
+    "markdown": "../derivations/ch02/06-inverter-dc.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "CMOS 反相器：DC 与匹配",
+    "case_ids": [
+      "inverter_dc"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#06-inverter-dc",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

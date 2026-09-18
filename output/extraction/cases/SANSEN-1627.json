@@ -1,0 +1,216 @@
+{
+  "case_id": "SANSEN-1627",
+  "slide_id": "1627",
+  "chapter": 16,
+  "slide_number_in_chapter": 27,
+  "source": {
+    "pdf_page": 461,
+    "printed_page": 470
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0461_01_1627.jpg",
+      "pdf_page": 461,
+      "printed_page": 470,
+      "bbox_pt": [
+        91.521622,
+        122.875763,
+        374.78981,
+        319.33575399999995
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 461,
+      "printed_page": 470,
+      "bbox_pt": [
+        0,
+        118.88619999999992,
+        595,
+        355.7046
+      ],
+      "text_raw": "The realization of bandgap\nreference voltages are not so\nobvious in CMOS technol-\nogy. A bandgap voltage is\nessentially connected to a pn\ndiode or rather to a diode\nconnected transistor. This\ndevice must have a exponen-\ntial and reproducible cur-\nrent-voltage characteristic.\nSuch a device is not easily\nfound in a CMOS technol-\nogy.",
+      "text": "The realization of bandgap reference voltages are not so obvious in CMOS technology. A bandgap voltage is essentially connected to a pn diode or rather to a diode connected transistor. This device must have a exponential and reproducible current-voltage characteristic. Such a device is not easily found in a CMOS technology."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The realization of bandgap reference voltages are not so obvious in CMOS technology. A bandgap voltage is essentially connected to a pn diode or rather to a diode connected transistor. This device must have a exponential and reproducible current-voltage characteristic. Such a device is not easily found in a CMOS technology.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0461_01_1627.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108322876448,
+          0.09268292665505229,
+          0.38175675890444016,
+          0.13658536567944246
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.1011756700877477,
+          0.2862868732715351,
+          0.3380135211223761,
+          0.34785946919349353
+        ],
+        "confidence": 1,
+        "text": "• Principles"
+      },
+      {
+        "bbox": [
+          0.10135134659346856,
+          0.3658536580081302,
+          0.6790540492961713,
+          0.4292682921544716
+        ],
+        "confidence": 1,
+        "text": "• Bipolar bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135135535714285,
+          0.44878048756097555,
+          0.6621621661679535,
+          0.5121951217073171
+        ],
+        "confidence": 1,
+        "text": "• CMOS bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135135521235522,
+          0.5317073167595819,
+          0.6418918957528958,
+          0.5951219509059235
+        ],
+        "confidence": 0.5,
+        "text": "• Bandgap references < 1 V"
+      },
+      {
+        "bbox": [
+          0.10135134645270286,
+          0.6097560968292682,
+          0.5067567518581082,
+          0.668292682195122
+        ],
+        "confidence": 1,
+        "text": "• Current references"
+      },
+      {
+        "bbox": [
+          0.10006483818556208,
+          0.6734207735583928,
+          0.4542475970323606,
+          0.7688305018179679
+        ],
+        "confidence": 1,
+        "text": "• LDO Regulators"
+      },
+      {
+        "bbox": [
+          0.11486486835585571,
+          0.8390243909756098,
+          0.635135138626126,
+          0.88292683
+        ],
+        "confidence": 1,
+        "text": "Ref.: B.Gilbert, G.Meijer, ACD, Kluwer 1995"
+      },
+      {
+        "bbox": [
+          0.7094594621199324,
+          0.9463414631707318,
+          0.9222972999577702,
+          0.9756097558536586
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-0s 1627"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0461_01_1627.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A bandgap voltage is essentially connected to a pn diode or rather to a diode connected transistor.",
+        "pdf_page": 461,
+        "printed_page": 470,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "This device must have a exponential and reproducible current-voltage characteristic.",
+      "pdf_page": 461,
+      "printed_page": 470,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1627-M01",
+      "ocr_text": "• Bandgap references < 1 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.10135135521235522,
+        0.5317073167595819,
+        0.6418918957528958,
+        0.5951219509059235
+      ],
+      "context_crop": "regions/SANSEN-1627_math_01.png",
+      "context_bbox_normalized": [
+        0.06135135521235522,
+        0.43170731675958196,
+        0.8718918957528958,
+        0.7251219509059235
+      ],
+      "source_image": "slides/p0461_01_1627.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

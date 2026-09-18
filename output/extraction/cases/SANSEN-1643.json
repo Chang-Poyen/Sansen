@@ -1,0 +1,213 @@
+{
+  "case_id": "SANSEN-1643",
+  "slide_id": "1643",
+  "chapter": 16,
+  "slide_number_in_chapter": 43,
+  "source": {
+    "pdf_page": 469,
+    "printed_page": 478
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0469_01_1643.jpg",
+      "pdf_page": 469,
+      "printed_page": 478,
+      "bbox_pt": [
+        91.52162,
+        122.8757599999999,
+        374.78981,
+        319.33574999999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 469,
+      "printed_page": 478,
+      "bbox_pt": [
+        0,
+        118.88619999999992,
+        595,
+        355.70462000000003
+      ],
+      "text_raw": "To derive a current reference\nfrom a bandgap voltage ref-\nerence, requires a resistor.\nMost of the uncertainty\non the current will depend\non this resistor. Also, the\ntemperature coefficient of\nthe resistor will play a role.",
+      "text": "To derive a current reference from a bandgap voltage reference, requires a resistor. Most of the uncertainty on the current will depend on this resistor. Also, the temperature coefficient of the resistor will play a role."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "To derive a current reference from a bandgap voltage reference, requires a resistor. Most of the uncertainty on the current will depend on this resistor. Also, the temperature coefficient of the resistor will play a role.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0469_01_1643.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269890202708,
+          0.09268292682926826,
+          0.38175675295608114,
+          0.14146341463414636
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10437992574281062,
+          0.2846508776618344,
+          0.34494440093119483,
+          0.3494954673604398
+        ],
+        "confidence": 1,
+        "text": "• Principles"
+      },
+      {
+        "bbox": [
+          0.10472972395270283,
+          0.37073170731707317,
+          0.6824324266554055,
+          0.42926829268292677
+        ],
+        "confidence": 1,
+        "text": "• Bipolar bandgap references"
+      },
+      {
+        "bbox": [
+          0.10472972998310812,
+          0.4487804885975609,
+          0.6655405407939189,
+          0.5121951227439023
+        ],
+        "confidence": 1,
+        "text": "• CMOS bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135134873310814,
+          0.5268292691463414,
+          0.6486486460304054,
+          0.5951219520731708
+        ],
+        "confidence": 0.5,
+        "text": "• Bandgap references < 1 V"
+      },
+      {
+        "bbox": [
+          0.101351354786036,
+          0.609756097398374,
+          0.5135135169481981,
+          0.6682926827642277
+        ],
+        "confidence": 1,
+        "text": "• Current references"
+      },
+      {
+        "bbox": [
+          0.10472973268581076,
+          0.6829268290243903,
+          0.4594594624155405,
+          0.741463414390244
+        ],
+        "confidence": 0.5,
+        "text": "• LDO Regulators"
+      },
+      {
+        "bbox": [
+          0.11148649014639629,
+          0.8390243909756098,
+          0.6418918955518017,
+          0.88292683
+        ],
+        "confidence": 1,
+        "text": "Ref.: B. Gilbert, G.Meijer, ACD, Kluwer 1995"
+      },
+      {
+        "bbox": [
+          0.7094594691126641,
+          0.9414634140650405,
+          0.9222972940630112,
+          0.9756097555284552
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 1643"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "To derive a current reference from a bandgap voltage reference, requires a resistor.",
+      "pdf_page": 469,
+      "printed_page": 478,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0469_01_1643.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Most of the uncertainty on the current will depend on this resistor.",
+      "pdf_page": 469,
+      "printed_page": 478,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1643-M01",
+      "ocr_text": "• Bandgap references < 1 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.10135134873310814,
+        0.5268292691463414,
+        0.6486486460304054,
+        0.5951219520731708
+      ],
+      "context_crop": "regions/SANSEN-1643_math_01.png",
+      "context_bbox_normalized": [
+        0.06135134873310814,
+        0.42682926914634145,
+        0.8786486460304054,
+        0.7251219520731708
+      ],
+      "source_image": "slides/p0469_01_1643.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

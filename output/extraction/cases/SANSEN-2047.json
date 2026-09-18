@@ -1,0 +1,170 @@
+{
+  "case_id": "SANSEN-2047",
+  "slide_id": "2047",
+  "chapter": 20,
+  "slide_number_in_chapter": 47,
+  "source": {
+    "pdf_page": 616,
+    "printed_page": 627
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0616_01_2047.jpg",
+      "pdf_page": 616,
+      "printed_page": 627,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 616,
+      "printed_page": 627,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        343.84622
+      ],
+      "text_raw": "A more elaborate example\nof interpolation by means of\ncurrent sources is given in\nthis slide.\nIt is clear that the number\nof transistors connected at\nthe node of each current\nmirror increases if the inter-\npolation is increased. This\nreduces the speed at which\nsuch ADC can work, as\nshown next.",
+      "text": "A more elaborate example of interpolation by means of current sources is given in this slide. It is clear that the number of transistors connected at the node of each current mirror increases if the interpolation is increased. This reduces the speed at which such ADC can work, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A more elaborate example of interpolation by means of current sources is given in this slide. It is clear that the number of transistors connected at the node of each current mirror increases if the interpolation is increased. This reduces the speed at which such ADC can work, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Interpolating/Averaging ADC - 1st amp",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0616_01_2047.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432947635126,
+          0.08292682910569105,
+          0.6925675727195945,
+          0.14146341447154476
+        ],
+        "confidence": 1,
+        "text": "Interpolating/Averaging ADC - 1st amp"
+      },
+      {
+        "bbox": [
+          0.689189189695946,
+          0.6536585363414635,
+          0.7195945951013514,
+          0.6780487802439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1:1"
+      },
+      {
+        "bbox": [
+          0.08108108602195935,
+          0.8195121949390244,
+          0.47635135629222963,
+          0.8634146339634147
+        ],
+        "confidence": 1,
+        "text": "Current mirror interpolator"
+      },
+      {
+        "bbox": [
+          0.5709459443693694,
+          0.8487804884552846,
+          0.7601351335585587,
+          0.8878048775361695
+        ],
+        "confidence": 1,
+        "text": "Steyaert CICC 93"
+      },
+      {
+        "bbox": [
+          0.5709459416385136,
+          0.8878048782926828,
+          0.9155405362331084,
+          0.9268292685365853
+        ],
+        "confidence": 1,
+        "text": "Roovers JSSC July 96, 938-944"
+      },
+      {
+        "bbox": [
+          0.7331081111171689,
+          0.9512195124390244,
+          0.9391891793107593,
+          0.9853658539024389
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 2047"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This reduces the speed at which such ADC can work, as shown next.",
+      "pdf_page": 616,
+      "printed_page": 627,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0616_01_2047.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It is clear that the number of transistors connected at the node of each current mirror increases if the interpolation is increased.",
+        "pdf_page": 616,
+        "printed_page": 627,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is clear that the number of transistors connected at the node of each current mirror increases if the interpolation is increased.",
+      "pdf_page": 616,
+      "printed_page": 627,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

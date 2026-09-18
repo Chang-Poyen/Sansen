@@ -1,0 +1,60 @@
+Coupling eVects in mixed analog-digital ICs 765
+deal larger than the output
+capacitor C of transistor
+DS
+M5. It is made up by the
+coupling between the V
+DD
+supply line and the output
+line of the amplifier.
+For the PSRR at high
+DD
+frequencies the g comes in
+m1
+of the input devices. At the
+GBW however, the g is
+m1
+substituted by C , as shown
+L
+in this slide.
+As expected, this PSRR
+DD
+at the GBW is not very
+large, as it is a ratio of small
+capacitances. For a fre-
+quency at 1/10th of the
+GBW, the PSRR is 20 dB larger, etc.
+DD
+Note that the PSRR can only be high if both the capacitances C and C are small.
+DD n4 n5DD
+2444
+The PSRR with respect to
+SS
+the other supply voltage is
+significantly different.
+It is caused by the cou-
+pling capacitor C at the
+n3DD
+common-Source point. For
+perfect matching of the tran-
+sistor pair M1,2 and M4,5
+none of this current can flow
+through the output load C .
+L
+Mismatch between, for
+example, transistors M1 and
+M2, will cause some of this
+current to flow through the
+output load, however.
+The PSRR will be a
+SS
+ratio of capacitors, multiplied by a matching factor. It will be a lot larger than the PSRR of
+DD
+the positive supply line.
+On the other hand, this coupling capacitance can be quite large as the capacitance C
+well
+between the p-well and the substrate has to be added. Both input devices are in this p-well. Its
+area is therefore quite large and so is the capacitor C .
+well
+Note that nowadays mainly n-well CMOS technologies are used. The structure is then inverted
+– the input devices are then pMOSTs.

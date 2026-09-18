@@ -1,0 +1,61 @@
+OVset and CMRR: random and systematic 433
+The common-mode input
+voltage v causes a current
+inc
+i to flow through the output
+c
+resistance R of the current
+B
+source. Half of this current
+flows through both input
+devices. They can now be
+represented by two current
+sources with value i /2.
+c
+The load can be taken
+to be a short to ground,
+as intermediate frequencies
+are considered. The current
+through it is the differential
+output current i . As a
+OUT
+result, only r has to be
+o1
+included.
+The current mirror has been simplified to a resistor with value 1/g . The current through it
+m3
+is mirrored to the output.
+From this simplified equivalent circuit, the output current is easily calculated. It evidently
+depends on g and r .
+m3 o1
+1525
+This output current i ,
+OUT
+can now be referred back to
+the input by simple division
+by g . The offset voltage
+m1
+v is merely this output
+osc
+current divided by g .
+m1
+Note however, that the
+ratio of the output current
+caused by the common-
+mode voltage to the out-
+put current caused by the
+differential input voltage or
+offset voltage, is nothing else
+than the inverse of the
+CMRR . This is the link
+s
+between systematic offset
+voltage and systematic CMRR .
+s
+The actual expression is given next.
+1526
+Substitution of several gains by means of the transistor parameters yields the CMRR . Its value
+s
+is quite large as two g r products are multiplied.
+m o
+Again, the product of the CMRR and the offset amounts to some constant value, which is the

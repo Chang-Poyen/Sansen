@@ -1,0 +1,21 @@
+simulator lang=spectre
+global 0
+opts options reltol=1e-7 vabstol=1e-10 iabstol=1e-15 gmin=1e-16
+VSTEP (vin 0) vsource type=pulse val0=0 val1=1 delay=1u rise=1n fall=1n width=2m period=4m
+VCVS186 (tail_e 0 vin tail) vcvs gain=1
+RESISTOR187 (tail_e tail_lp) resistor r=1
+CAPACITOR188 (tail_lp 0) capacitor c=1.3262911924325e-05
+CAPACITOR189 (tail 0) capacitor c=1
+VCCS190 (tail 0 tail_e 0) vccs gm=-6283185.3071796
+VCCS191 (tail 0 tail_lp 0) vccs gm=5235987.755983
+VCVS192 (overshoot_e 0 vin overshoot) vcvs gain=1
+RESISTOR193 (overshoot_e overshoot_lp) resistor r=1
+CAPACITOR194 (overshoot_lp 0) capacitor c=7.9577471545948e-05
+CAPACITOR195 (overshoot 0) capacitor c=1
+VCCS196 (overshoot 0 overshoot_e 0) vccs gm=-6283185.3071796
+VCCS197 (overshoot 0 overshoot_lp 0) vccs gm=-31415926.535898
+CAPACITOR198 (baseline 0) capacitor c=1
+VCCS199 (baseline 0 vin baseline) vccs gm=-6283185.3071796
+tran tran stop=601u maxstep=100n errpreset=conservative
+save vin tail overshoot baseline
+saveOptions options save=selected

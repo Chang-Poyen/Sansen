@@ -1,0 +1,139 @@
+{
+  "case_id": "SANSEN-0615",
+  "slide_id": "0615",
+  "chapter": 6,
+  "slide_number_in_chapter": 15,
+  "source": {
+    "pdf_page": 184,
+    "printed_page": 188
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0184_02_0615.jpg",
+      "pdf_page": 184,
+      "printed_page": 188,
+      "bbox_pt": [
+        91.521622,
+        372.598694,
+        374.78981,
+        569.058685
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 184,
+      "printed_page": 188,
+      "bbox_pt": [
+        0,
+        368.6092500000001,
+        595,
+        642.6965250000001
+      ],
+      "text_raw": "All three design plans lead\nto the same optimum\nindeed.\nThere is a slight prefer-\nence for choosing the com-\npensation capacitance C\nc\nfirst as this capacitance can\nonly have a small range of\nvalues. Indeed, it cannot be\nsmaller than about 3×C .\nn1\nOn the other hand, it\ncannot be larger than the\nload capacitance C divided\nL\nby 2–3. It is now fairly easy\nto choose this compensation\ncapacitance about right.\nThis is why so many designers simply choose C as a starting point for their design procedure.\nc\nOf course, even better is to try a few different capacitance values!\nLet us work out an example first!",
+      "text": "All three design plans lead to the same optimum indeed. There is a slight preference for choosing the compensation capacitance C c first as this capacitance can only have a small range of values. Indeed, it cannot be smaller than about 3×C . n1 On the other hand, it cannot be larger than the load capacitance C divided L by 2–3. It is now fairly easy to choose this compensation capacitance about right. This is why so many designers simply choose C as a starting point for their design procedure. c Of course, even better is to try a few different capacitance values! Let us work out an example first!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "All three design plans lead to the same optimum indeed. There is a slight preference for choosing the compensation capacitance C c first as this capacitance can only have a small range of values. Indeed, it cannot be smaller than about 3×C . n1 On the other hand, it cannot be larger than the load capacitance C divided L by 2–3. It is now fairly easy to choose this compensation capacitance about right. This is why so many designers simply choose C as a starting point for their design procedure. c Of course, even better is to try a few different capacitance values! Let us work out an example first!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Slide 0615",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0184_02_0615.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.13175675878378376,
+          0.31707317140243907,
+          0.8209459479729729,
+          0.42439024457317065
+        ],
+        "confidence": 0.5,
+        "text": "What is wrong with"
+      },
+      {
+        "bbox": [
+          0.09121622062922287,
+          0.5804878039329269,
+          0.8918918963048984,
+          0.7317073161280488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "choosing C,=1 pF ?"
+      },
+      {
+        "bbox": [
+          0.726351361173475,
+          0.9463414630894309,
+          0.9290540509886871,
+          0.9756097557723576
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0615"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0184_02_0615.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0615-M01",
+      "ocr_text": "choosing C,=1 pF ?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09121622062922287,
+        0.5804878039329269,
+        0.8918918963048984,
+        0.7317073161280488
+      ],
+      "context_crop": "regions/SANSEN-0615_math_01.png",
+      "context_bbox_normalized": [
+        0.05121622062922287,
+        0.4804878039329269,
+        1,
+        0.8617073161280489
+      ],
+      "source_image": "slides/p0184_02_0615.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

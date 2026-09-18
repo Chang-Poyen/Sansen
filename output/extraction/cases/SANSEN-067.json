@@ -1,0 +1,487 @@
+{
+  "case_id": "SANSEN-067",
+  "slide_id": "067",
+  "chapter": 6,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 180,
+    "printed_page": 184
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0180_01_067.jpg",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "bbox_pt": [
+        91.521622,
+        254.06494199999997,
+        374.78981,
+        450.524933
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 180,
+      "printed_page": 184,
+      "bbox_pt": [
+        0,
+        250.07539999999983,
+        595,
+        797
+      ],
+      "text_raw": "As a design example, let us\ntake a GBW and C as\nL\nindicated.\nThe g is readily calcu-\nm\nlated, and so is the current,\nprovided the V −V is\nGS T\nchosen appropriately (to be\n0.2 V).\nBy means of the K∞ factor\nwe can calculate the\nrequired W/L.\nNow the L must be\nselected. In order to achieve\nsome gain, we take about 3\ntimes the minimum channel\nlength or 1 mm.\nThe widths are then easily added. The nMOS has a smaller width as its K∞ is larger.\nWe could try to verify whether the pole at node 2 is indeed negligible. For this purpose we\nmust find f or rather the input capacitance C .\nT GS2\nA MOST has a C =kW with k=2 fF/mm if the minimum length is used. A MOST with a\nGS\nW/L=100 for a L=0.35 mm would have a W=35 mm and hence a C of 70 fF. Now both the\nGS\nL and W are three times larger. The C is 70×3×3=630 fF. Its f is about 300 MHz and\nGS2 T2\nf /4#76 MHz. Luckily, this pole is followed by zero!!!\nT2\nIf we really do not want this pole-zero doublet below the GBW, we have to make the\ntransistors smaller, deteriorating the gain. Another possibility is to make the transistors smaller\nand to add cascodes to increase the gain!",
+      "text": "As a design example, let us take a GBW and C as L indicated. The g is readily calcum lated, and so is the current, provided the V −V is GS T chosen appropriately (to be 0.2 V). By means of the K∞ factor we can calculate the required W/L. Now the L must be selected. In order to achieve some gain, we take about 3 times the minimum channel length or 1 mm. The widths are then easily added. The nMOS has a smaller width as its K∞ is larger. We could try to verify whether the pole at node 2 is indeed negligible. For this purpose we must find f or rather the input capacitance C . T GS2 A MOST has a C =kW with k=2 fF/mm if the minimum length is used. A MOST with a GS W/L=100 for a L=0.35 mm would have a W=35 mm and hence a C of 70 fF. Now both the GS L and W are three times larger. The C is 70×3×3=630 fF. Its f is about 300 MHz and GS2 T2 f /4#76 MHz. Luckily, this pole is followed by zero!!! T2 If we really do not want this pole-zero doublet below the GBW, we have to make the transistors smaller, deteriorating the gain. Another possibility is to make the transistors smaller and to add cascodes to increase the gain!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As a design example, let us take a GBW and C as L indicated. The g is readily calcum lated, and so is the current, provided the V −V is GS T chosen appropriately (to be 0.2 V). By means of the K∞ factor we can calculate the required W/L. Now the L must be selected. In order to achieve some gain, we take about 3 times the minimum channel length or 1 mm. The widths are then easily added. The nMOS has a smaller width as its K∞ is larger. We could try to verify whether the pole at node 2 is indeed negligible. For this purpose we must find f or rather the input capacitance C . T GS2 A MOST has a C =kW with k=2 fF/mm if the minimum length is used. A MOST with a GS W/L=100 for a L=0.35 mm would have a W=35 mm and hence a C of 70 fF. Now both the GS L and W are three times larger. The C is 70×3×3=630 fF. Its f is about 300 MHz and GS2 T2 f /4#76 MHz. Luckily, this pole is followed by zero!!! T2 If we really do not want this pole-zero doublet below the GBW, we have to make the transistors smaller, deteriorating the gain. Another possibility is to make the transistors smaller and to add cascodes to increase the gain!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Single stage CMOS OTA : Design 1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0180_01_067.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107493243255,
+          0.08780487819512195,
+          0.6959459397972975,
+          0.15121951234146347
+        ],
+        "confidence": 0.5,
+        "text": "Single stage CMOS OTA : Design 1"
+      },
+      {
+        "bbox": [
+          0.0844594631756756,
+          0.22439024475609748,
+          0.6047297334459458,
+          0.2926829276829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW = 100 MHz for C, = 2 pF"
+      },
+      {
+        "bbox": [
+          0.09121622286036028,
+          0.32682926784552846,
+          0.8885135201576577,
+          0.39024390199187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Techno: Lmin = 0.35 um; K,= 60 HA/V2 & K, = 30 HA/V2"
+      },
+      {
+        "bbox": [
+          0.09459459645270267,
+          0.4195121947317073,
+          0.28040540726351343,
+          0.478048780097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs ? W?"
+      },
+      {
+        "bbox": [
+          0.2736486488597973,
+          0.4195121945731708,
+          0.3310810812922297,
+          0.46341463359756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "L?"
+      },
+      {
+        "bbox": [
+          0.08783783485360362,
+          0.5317073175203251,
+          0.49324324025900906,
+          0.585365854105691
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "gm = GBW 2m CL = 1.2 mS"
+      },
+      {
+        "bbox": [
+          0.09121621962274769,
+          0.6390243900813009,
+          0.5000000034065314,
+          0.687804877886179
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs-VT = 0.2 V IDS = gm"
+      },
+      {
+        "bbox": [
+          0.09459459493243241,
+          0.7609756095121952,
+          0.12837837871621618,
+          0.8048780485365854
+        ],
+        "confidence": 0.5,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.23986486427364867,
+          0.7609756091463415,
+          0.30067567508445947,
+          0.8097560969512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDS"
+      },
+      {
+        "bbox": [
+          0.09459459084459465,
+          0.8048780490731707,
+          0.4695945908445947,
+          0.8634146344390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "L =K'(VGs-VT)2 =100"
+      },
+      {
+        "bbox": [
+          0.5062173389525083,
+          0.5921492132529602,
+          0.6289177982008192,
+          0.6468751765663654
+        ],
+        "confidence": 0.5,
+        "text": "VGS-VT"
+      },
+      {
+        "bbox": [
+          0.5405405400760135,
+          0.6487804879878049,
+          0.5777027022381757,
+          0.6926829270121951
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.6722972980292792,
+          0.6097560973170731,
+          0.7162162169481981,
+          0.6439024387804877
+        ],
+        "confidence": 1,
+        "text": "gm"
+      },
+      {
+        "bbox": [
+          0.6655405394707207,
+          0.6536585366666666,
+          0.7297297286599099,
+          0.6878048781300813
+        ],
+        "confidence": 1,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.7297297317567567,
+          0.6390243900000001,
+          0.891891893918919,
+          0.6780487802439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 0.12 mA"
+      },
+      {
+        "bbox": [
+          0.5304054095720719,
+          0.7560975602439024,
+          0.7804054095720719,
+          0.8097560968292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Lp = Ln = 1 um"
+      },
+      {
+        "bbox": [
+          0.7804054062499999,
+          0.7219512193170732,
+          0.9493243251689188,
+          0.7902439022439024
+        ],
+        "confidence": 1,
+        "text": "GAIN !"
+      },
+      {
+        "bbox": [
+          0.5236486521114865,
+          0.8292682924390244,
+          0.9391891926520269,
+          0.8878048778048782
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Wp = 100 pm; Wn = 50 um"
+      },
+      {
+        "bbox": [
+          0.7263513545293311,
+          0.9414634148780487,
+          0.9222972875877862,
+          0.9756097563414633
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-0s 067"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "By means of the K∞ factor we can calculate the required W/L.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For this purpose we must find f or rather the input capacitance C .",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0180_01_067.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In order to achieve some gain, we take about 3 times the minimum channel length or 1 mm.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "T2 If we really do not want this pole-zero doublet below the GBW, we have to make the transistors smaller, deteriorating the gain.",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Another possibility is to make the transistors smaller and to add cascodes to increase the gain!",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The g is readily calcum lated, and so is the current, provided the V −V is GS T chosen appropriately (to be 0.2 V).",
+      "pdf_page": 180,
+      "printed_page": 184,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-067-M01",
+      "ocr_text": "GBW = 100 MHz for C, = 2 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0844594631756756,
+        0.22439024475609748,
+        0.6047297334459458,
+        0.2926829276829268
+      ],
+      "context_crop": "regions/SANSEN-067_math_01.png",
+      "context_bbox_normalized": [
+        0.0444594631756756,
+        0.13,
+        0.8347297334459458,
+        0.4226829276829268
+      ],
+      "source_image": "slides/p0180_01_067.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-067-M02",
+      "ocr_text": "Techno: Lmin = 0.35 um; K,= 60 HA/V2 & K, = 30 HA/V2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09121622286036028,
+        0.32682926784552846,
+        0.8885135201576577,
+        0.39024390199187
+      ],
+      "context_crop": "regions/SANSEN-067_math_02.png",
+      "context_bbox_normalized": [
+        0.05121622286036028,
+        0.22682926784552845,
+        1,
+        0.52024390199187
+      ],
+      "source_image": "slides/p0180_01_067.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-067-M03",
+      "ocr_text": "gm = GBW 2m CL = 1.2 mS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08783783485360362,
+        0.5317073175203251,
+        0.49324324025900906,
+        0.585365854105691
+      ],
+      "context_crop": "regions/SANSEN-067_math_03.png",
+      "context_bbox_normalized": [
+        0.04783783485360362,
+        0.4317073175203251,
+        0.7232432402590091,
+        0.715365854105691
+      ],
+      "source_image": "slides/p0180_01_067.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-067-M04",
+      "ocr_text": "VGs-VT = 0.2 V IDS = gm",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09121621962274769,
+        0.6390243900813009,
+        0.5000000034065314,
+        0.687804877886179
+      ],
+      "context_crop": "regions/SANSEN-067_math_04.png",
+      "context_bbox_normalized": [
+        0.05121621962274769,
+        0.5390243900813009,
+        0.7300000034065314,
+        0.817804877886179
+      ],
+      "source_image": "slides/p0180_01_067.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-067-M05",
+      "ocr_text": "L =K'(VGs-VT)2 =100",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09459459084459465,
+        0.8048780490731707,
+        0.4695945908445947,
+        0.8634146344390243
+      ],
+      "context_crop": "regions/SANSEN-067_math_05.png",
+      "context_bbox_normalized": [
+        0.05459459084459465,
+        0.7048780490731708,
+        0.6995945908445947,
+        0.93
+      ],
+      "source_image": "slides/p0180_01_067.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-067-M06",
+      "ocr_text": "= 0.12 mA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7297297317567567,
+        0.6390243900000001,
+        0.891891893918919,
+        0.6780487802439025
+      ],
+      "context_crop": "regions/SANSEN-067_math_06.png",
+      "context_bbox_normalized": [
+        0.6897297317567567,
+        0.5390243900000001,
+        1,
+        0.8080487802439025
+      ],
+      "source_image": "slides/p0180_01_067.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-067-M07",
+      "ocr_text": "Lp = Ln = 1 um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5304054095720719,
+        0.7560975602439024,
+        0.7804054095720719,
+        0.8097560968292683
+      ],
+      "context_crop": "regions/SANSEN-067_math_07.png",
+      "context_bbox_normalized": [
+        0.49040540957207196,
+        0.6560975602439024,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0180_01_067.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-067-M08",
+      "ocr_text": "Wp = 100 pm; Wn = 50 um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5236486521114865,
+        0.8292682924390244,
+        0.9391891926520269,
+        0.8878048778048782
+      ],
+      "context_crop": "regions/SANSEN-067_math_08.png",
+      "context_bbox_normalized": [
+        0.4836486521114865,
+        0.7292682924390245,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0180_01_067.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

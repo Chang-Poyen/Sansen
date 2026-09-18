@@ -1,0 +1,176 @@
+{
+  "case_id": "SANSEN-225",
+  "slide_id": "225",
+  "chapter": 22,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 668,
+    "printed_page": 679
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0668_01_225.jpg",
+      "pdf_page": 668,
+      "printed_page": 679,
+      "bbox_pt": [
+        91.521622,
+        122.7761539999999,
+        374.78981,
+        319.23614499999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 668,
+      "printed_page": 679,
+      "bbox_pt": [
+        0,
+        118.78660000000002,
+        595,
+        355.4055
+      ],
+      "text_raw": "Now that the conditions for\noscillation are understood,\nlet us find inductors to form\na feedback loop with capaci-\ntive amplifiers. We know\nthat they can form an oscil-\nlator together.\nThe first inductor we will\nuse is the one embedded in\na crystal.",
+      "text": "Now that the conditions for oscillation are understood, let us find inductors to form a feedback loop with capacitive amplifiers. We know that they can form an oscillator together. The first inductor we will use is the one embedded in a crystal."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that the conditions for oscillation are understood, let us find inductors to form a feedback loop with capacitive amplifiers. We know that they can form an oscillator together. The first inductor we will use is the one embedded in a crystal.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0668_01_225.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270099474477,
+          0.07317073192411927,
+          0.3851351334271772,
+          0.13170731728997287
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459459176520277,
+          0.2829268295426829,
+          0.5472972944679054,
+          0.3463414636890243
+        ],
+        "confidence": 1,
+        "text": "• Oscillation principles"
+      },
+      {
+        "bbox": [
+          0.09459459668918917,
+          0.3609756093658537,
+          0.3040540561486486,
+          0.42926829229268293
+        ],
+        "confidence": 0.5,
+        "text": "+ Crystals"
+      },
+      {
+        "bbox": [
+          0.09459458994932439,
+          0.4487804880081301,
+          0.6520270223817568,
+          0.5121951221544715
+        ],
+        "confidence": 1,
+        "text": "• Single-transistor oscillator"
+      },
+      {
+        "bbox": [
+          0.09797297800675667,
+          0.5317073168780487,
+          0.6013513563851351,
+          0.5902439022439024
+        ],
+        "confidence": 1,
+        "text": "• MOST oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.0979729669200451,
+          0.6146341466666667,
+          0.8243243182713964,
+          0.6731707320325203
+        ],
+        "confidence": 1,
+        "text": "• Bipolar-transistor oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09459459097972979,
+          0.6975609758536585,
+          0.45608107746621623,
+          0.7609756099999999
+        ],
+        "confidence": 1,
+        "text": "• Other oscillators"
+      },
+      {
+        "bbox": [
+          0.7229729746959459,
+          0.9414634141463415,
+          0.9290540557770268,
+          0.9902439019512196
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 225"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Now that the conditions for oscillation are understood, let us find inductors to form a feedback loop with capacitive amplifiers.",
+      "pdf_page": 668,
+      "printed_page": 679,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0668_01_225.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

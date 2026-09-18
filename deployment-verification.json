@@ -1,0 +1,142 @@
+{
+  "verified_at": "2026-09-18T05:38:38.206900+00:00",
+  "project": "sansen-study",
+  "deployment_id": "b7d8e08f-1f3b-4454-af77-b3a9b23bfb2c",
+  "previous_deployment_id": "a445010b-3601-4fcf-b0b4-0af2745cb722",
+  "environment": "Production",
+  "hosting": "Cloudflare Pages static assets",
+  "build": {
+    "status": "passed",
+    "files": 10445,
+    "total_bytes": 184836129,
+    "max_file_bytes": 17271644,
+    "local_references_checked": 9560,
+    "slides": 1468,
+    "static_only": true,
+    "original_pdf_included": false,
+    "errors": []
+  },
+  "http": {
+    "verified_at": "2026-09-18T05:36:49.328640+00:00",
+    "production_url": "https://sansen-study.pages.dev",
+    "deployment_url": "https://b7d8e08f.sansen-study.pages.dev",
+    "checks": [
+      {
+        "path": "extraction/index.html",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      },
+      {
+        "path": "derivations/ch02/index.html",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      },
+      {
+        "path": "derivations/ch02/03-miller.html",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      },
+      {
+        "path": "derivations/ch02/09-followers-hf.html",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      },
+      {
+        "path": "derivations/ch02/18-gain-boosting.html",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      },
+      {
+        "path": "derivations/ch02/assets/miller-sfg.svg",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      },
+      {
+        "path": "derivations/ch02/assets/follower-sfg.svg",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      },
+      {
+        "path": "derivations/ch02/assets/gainboost-sfg.svg",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      },
+      {
+        "path": "derivations/ch02/physical_sfg/miller-edges.json",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      },
+      {
+        "path": "simulations/ch02/index.html",
+        "curl_exit": 0,
+        "matches_local_sha256": true
+      }
+    ],
+    "passed": true
+  },
+  "physical_sfg": {
+    "status": "passed",
+    "construction": "Local physical constraints only; no overall transfer function or reduced algebraic SFG.",
+    "models": [
+      {
+        "id": "miller",
+        "passed": true,
+        "nodes": 9,
+        "voltage_nodes": 5,
+        "current_nodes": 4,
+        "independent_constraints": 8,
+        "edges": 11,
+        "unique_constraint_per_target": true,
+        "primitive_edge_units_checked": true,
+        "symbolic_nodal_equivalence": true,
+        "numerical_port_comparisons": 30,
+        "max_relative_voltage_error": 1.5828586174406656e-13,
+        "max_normalized_equation_residual": 3.216066777474451e-12
+      },
+      {
+        "id": "follower",
+        "passed": true,
+        "nodes": 14,
+        "voltage_nodes": 5,
+        "current_nodes": 9,
+        "independent_constraints": 12,
+        "edges": 20,
+        "unique_constraint_per_target": true,
+        "primitive_edge_units_checked": true,
+        "symbolic_nodal_equivalence": true,
+        "numerical_port_comparisons": 60,
+        "max_relative_voltage_error": 4.121267002276765e-11,
+        "max_normalized_equation_residual": 1.2986726467020523e-11
+      },
+      {
+        "id": "gainboost",
+        "passed": true,
+        "nodes": 15,
+        "voltage_nodes": 8,
+        "current_nodes": 7,
+        "independent_constraints": 14,
+        "edges": 20,
+        "unique_constraint_per_target": true,
+        "primitive_edge_units_checked": true,
+        "symbolic_nodal_equivalence": true,
+        "numerical_port_comparisons": 30,
+        "max_relative_voltage_error": 7.761220231648046e-12,
+        "max_normalized_equation_residual": 1.4221634038245224e-13
+      }
+    ],
+    "spec_sha256": "da616052bece0b538fe96b5acd8738da781de17fbc34d26d93f1f9df8857f081"
+  },
+  "browser": {
+    "locale": "zh-CN",
+    "sfg_groups_visible": 3,
+    "other_slides_count": 1459,
+    "other_slides_default_collapsed": true,
+    "expand_and_collapse_checked": true,
+    "original_image_loaded": true,
+    "miller_sfg_loaded": true,
+    "A_to_F_content_present": true
+  },
+  "uploaded_files": 3088,
+  "reused_files": 7355,
+  "paid_resources_created": []
+}

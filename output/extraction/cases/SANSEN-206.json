@@ -1,0 +1,309 @@
+{
+  "case_id": "SANSEN-206",
+  "slide_id": "206",
+  "chapter": 20,
+  "slide_number_in_chapter": 6,
+  "source": {
+    "pdf_page": 594,
+    "printed_page": 605
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0594_02_206.jpg",
+      "pdf_page": 594,
+      "printed_page": 605,
+      "bbox_pt": [
+        91.52162,
+        385.60295,
+        374.54222,
+        582.11279
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 594,
+      "printed_page": 605,
+      "bbox_pt": [
+        0,
+        381.6136096500001,
+        595,
+        797
+      ],
+      "text_raw": "The non-idealities of the DA\nconversion give rise to sev-\neral specifications, such as\nthe DNL and the INL.\nThe DNL is the largest\nstep ever minus one LSB. It\nis the largest deviation from\na regular step.\nThe INL is the largest\ndeviation from the average\nslope.\nIf this slope is not right,\nthen a gain error is found.\nThis slope must go through\nzero. If not, an offset occurs.",
+      "text": "The non-idealities of the DA conversion give rise to several specifications, such as the DNL and the INL. The DNL is the largest step ever minus one LSB. It is the largest deviation from a regular step. The INL is the largest deviation from the average slope. If this slope is not right, then a gain error is found. This slope must go through zero. If not, an offset occurs."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The non-idealities of the DA conversion give rise to several specifications, such as the DNL and the INL. The DNL is the largest step ever minus one LSB. It is the largest deviation from a regular step. The INL is the largest deviation from the average slope. If this slope is not right, then a gain error is found. This slope must go through zero. If not, an offset occurs.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Static specs : INL & DNL",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0594_02_206.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627372881355,
+          0.07317073143631436,
+          0.5322033923728814,
+          0.1414634143631437
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Static specs : INL & DNL"
+      },
+      {
+        "bbox": [
+          0.13220338881355934,
+          0.1902439026829268,
+          0.21355932101694916,
+          0.22926829292682926
+        ],
+        "confidence": 1,
+        "text": "Analog"
+      },
+      {
+        "bbox": [
+          0.10508474684745762,
+          0.20975609756097557,
+          0.21355932311864406,
+          0.2682926829268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "autput"
+      },
+      {
+        "bbox": [
+          0.5423728827118643,
+          0.1902439042524483,
+          0.6305084759322033,
+          0.22926829217031586
+        ],
+        "confidence": 1,
+        "text": "Analog"
+      },
+      {
+        "bbox": [
+          0.5491318418161034,
+          0.23403173680102018,
+          0.6271393426747336,
+          0.26352923929080796
+        ],
+        "confidence": 1,
+        "text": "output"
+      },
+      {
+        "bbox": [
+          0.2237288132627119,
+          0.3317073167682927,
+          0.2542372878389831,
+          0.3560975606707317
+        ],
+        "confidence": 1,
+        "text": "INL"
+      },
+      {
+        "bbox": [
+          0.3252214103252951,
+          0.36402305487617803,
+          0.4883379171281288,
+          0.40670865199353223
+        ],
+        "confidence": 1,
+        "text": "Monotonicity"
+      },
+      {
+        "bbox": [
+          0.2337308929099377,
+          0.476748266176263,
+          0.33915046564315404,
+          0.508617586929407
+        ],
+        "confidence": 0.5,
+        "text": "DNL+1LSB"
+      },
+      {
+        "bbox": [
+          0.7220338999152541,
+          0.463414633902439,
+          0.8508474592372881,
+          0.49268292658536583
+        ],
+        "confidence": 0.5,
+        "text": "GAIN ERROR"
+      },
+      {
+        "bbox": [
+          0.5592552959311011,
+          0.6287986487328139,
+          0.6407447037452564,
+          0.6541281804256909
+        ],
+        "confidence": 1,
+        "text": "OFFSET"
+      },
+      {
+        "bbox": [
+          0.33871641171403355,
+          0.6853911352096563,
+          0.47823274430804835,
+          0.7243649621065099
+        ],
+        "confidence": 1,
+        "text": "Digital input"
+      },
+      {
+        "bbox": [
+          0.7490799710406595,
+          0.682411181717447,
+          0.8814285004037421,
+          0.7224668683890064
+        ],
+        "confidence": 1,
+        "text": "Digital input"
+      },
+      {
+        "bbox": [
+          0.06666668244022912,
+          0.7604790426114927,
+          0.9249999985319929,
+          0.8268292677344562
+        ],
+        "confidence": 0.5,
+        "text": "Differential Nonlinearity : DNL = YouT(B) - YouT(B-1) - 1 LSB"
+      },
+      {
+        "bbox": [
+          0.0677966157966101,
+          0.8390243907804878,
+          0.7457627174915253,
+          0.8926829273658536
+        ],
+        "confidence": 0.5,
+        "text": "Integral Nonlinearity : INL = Youт(B) - Youт,ia(B)"
+      },
+      {
+        "bbox": [
+          0.7322033996294303,
+          0.9512195117886179,
+          0.9322033866982531,
+          0.9853658532520325
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 206"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0594_02_206.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If this slope is not right, then a gain error is found.",
+      "pdf_page": 594,
+      "printed_page": 605,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The INL is the largest deviation from the average slope.",
+      "pdf_page": 594,
+      "printed_page": 605,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If this slope is not right, then a gain error is found.",
+      "pdf_page": 594,
+      "printed_page": 605,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This slope must go through zero.",
+      "pdf_page": 594,
+      "printed_page": 605,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-206-M01",
+      "ocr_text": "Differential Nonlinearity : DNL = YouT(B) - YouT(B-1) - 1 LSB",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.06666668244022912,
+        0.7604790426114927,
+        0.9249999985319929,
+        0.8268292677344562
+      ],
+      "context_crop": "regions/SANSEN-206_math_01.png",
+      "context_bbox_normalized": [
+        0.02666668244022912,
+        0.6604790426114927,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0594_02_206.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-206-M02",
+      "ocr_text": "Integral Nonlinearity : INL = Youт(B) - Youт,ia(B)",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.0677966157966101,
+        0.8390243907804878,
+        0.7457627174915253,
+        0.8926829273658536
+      ],
+      "context_crop": "regions/SANSEN-206_math_02.png",
+      "context_bbox_normalized": [
+        0.0277966157966101,
+        0.7390243907804879,
+        0.9757627174915253,
+        0.93
+      ],
+      "source_image": "slides/p0594_02_206.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

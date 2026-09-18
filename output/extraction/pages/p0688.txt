@@ -1,0 +1,53 @@
+Design of crystal oscillators 699
+It is obvious that the GHz
+range is easily achieved.
+However, to go lower or
+higher in frequency is a
+problem.
+One of the most impor-
+tant specifications of such a
+VCO is the phase noise.
+This is mainly the thermal
+noise of the transistors and
+coil series resistors R , con-
+L
+verted to sidebands of the
+oscillation frequency. Since
+this resistor R is linked to
+L
+the transconductance g , it
+mA
+is the main parameter in the
+expression of the phase
+noise. Actually, the term 4/3 is due to the transistor g .
+m
+A rule of thumb for phase noise is −100 dBc/Hz at 100 kHz distance from the carrier. In this
+example it is about −120 dBc/Hz at 100 kHz.
+2244
+A differential version of
+the single-transistor Pierce
+oscillator is shown in this
+slide.
+For low frequencies, the
+impedance of the capacitor
+C is too large and no oscilla-
+tion can build up. At high
+frequencies, it acts as a short
+and a negative impedance is
+presented to the crystal.
+The resistors have to be
+sufficiently high not to
+dampen the oscillation.
+They are better when re-
+placed by current sources.
+The current setting sources I are better driven by an AGC loop, which measures the output
+B
+voltages. If not, the currents may be set too high, resulting in larger deviations in frequency or
+distortion.
+2245
+Leaving out the crystal yields a relaxation oscillator. The frequency is now set by the currents
+I , capacitor C and the limiting voltage, which is here a V of a bipolar transistor. Actually, it
+B BE
+is I /(4CV ). Square waveforms are obtained at the outputs but a triangular one across the
+B BE
+time setting capacitor C.

@@ -1,0 +1,45 @@
+Distortion in elementary transistor circuits 555
+1873
+Let us now keep the input
+stage linear. It has a fixed
+gain A . The second stage is
+1
+now non-linear, with
+coefficients b.
+A similar analysis as
+before again yields the
+coefficients d. Note however
+that the non-linear amplifier
+has a fairly large input volt-
+age, this is due to the pres-
+ence of gain block A .
+1
+1874
+The distortion components
+IM and IM are easily
+2 3
+found.
+The big difference with
+the previous results is that
+the first-stage gain A also
+1
+appears in the numerator,
+even squared for IM . This
+3
+is not unexpected, as the
+input signal is applied by
+gain A and then applied to
+1
+the non-linear amplifier
+with coefficients b.
+1875
+If both amplifiers are nonlinear, with a low-pass filter in between, we find the distortion
+components as given in this slide.
+The contributions of the first stage carry coefficients a (black) whereas the second stage
+coefficients b (red).
+It is clear that at low frequencies the distortion of the output stage dominates. The reason is
+that the input voltage of the output stage is fairly high, because of gain a .
+1
+At higher frequencies however, the distortion of the input stage dominates, because it has
+started increasing at frequency f , which is the dominant pole of the amplifier.
+p

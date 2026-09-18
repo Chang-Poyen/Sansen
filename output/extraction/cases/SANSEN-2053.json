@@ -1,0 +1,339 @@
+{
+  "case_id": "SANSEN-2053",
+  "slide_id": "2053",
+  "chapter": 20,
+  "slide_number_in_chapter": 53,
+  "source": {
+    "pdf_page": 619,
+    "printed_page": 630
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0619_01_2053.jpg",
+      "pdf_page": 619,
+      "printed_page": 630,
+      "bbox_pt": [
+        91.521622,
+        205.236451,
+        374.78981,
+        401.696442
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 619,
+      "printed_page": 630,
+      "bbox_pt": [
+        0,
+        201.24689999999987,
+        595,
+        606.8224000000002
+      ],
+      "text_raw": "A pipelined converter is a\npipeline of ADC stages, each\nproviding n bits. One such\nk\nADC stage is shown in this\nslide (on top). It is a similar\nalgorithmic conversion as\nbefore.\nAfter a sample-and-hold\noperation, the input signal is\nconverted into n bits. The\nk\nquantization error (or resi-\ndue) is obtained after a DAC\nconversion, by taking the\ndifference with the input\nsignal itself. This difference\nis then multiplied by a factor\nof 2nk to be submitted to the next stage.\nA single-bit pipelined ADC converter is a converter with as many stages as bits, each stage\ndoing a 1-bit conversion, starting with the MSB. Such a stage is shown in this slide (at the\nbottom). The ADC is now just a comparator. The DAC is merely a switch from the reference\nvoltage. The amplifier has now a gain of two.\nIt is clear that the weakness is the amplifier. This is why a single-bit pipelined ADC is preferred.\nIt is fairly easy to realize an amplifier with a precise gain of two, as will be shown later.\nNevertheless, the resolution is normally limited to about 12 bits. Digital correction allows the\nresolution to be expanded to 15 bits.\nIn order to speed up the conversion, the first stage starts immediately converting the next\nsample, after completion of the first one. This applies to the other stages as well, as shown in\nthe next slide.",
+      "text": "A pipelined converter is a pipeline of ADC stages, each providing n bits. One such k ADC stage is shown in this slide (on top). It is a similar algorithmic conversion as before. After a sample-and-hold operation, the input signal is converted into n bits. The k quantization error (or residue) is obtained after a DAC conversion, by taking the difference with the input signal itself. This difference is then multiplied by a factor of 2nk to be submitted to the next stage. A single-bit pipelined ADC converter is a converter with as many stages as bits, each stage doing a 1-bit conversion, starting with the MSB. Such a stage is shown in this slide (at the bottom). The ADC is now just a comparator. The DAC is merely a switch from the reference voltage. The amplifier has now a gain of two. It is clear that the weakness is the amplifier. This is why a single-bit pipelined ADC is preferred. It is fairly easy to realize an amplifier with a precise gain of two, as will be shown later. Nevertheless, the resolution is normally limited to about 12 bits. Digital correction allows the resolution to be expanded to 15 bits. In order to speed up the conversion, the first stage starts immediately converting the next sample, after completion of the first one. This applies to the other stages as well, as shown in the next slide."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A pipelined converter is a pipeline of ADC stages, each providing n bits. One such k ADC stage is shown in this slide (on top). It is a similar algorithmic conversion as before. After a sample-and-hold operation, the input signal is converted into n bits. The k quantization error (or residue) is obtained after a DAC conversion, by taking the difference with the input signal itself. This difference is then multiplied by a factor of 2nk to be submitted to the next stage. A single-bit pipelined ADC converter is a converter with as many stages as bits, each stage doing a 1-bit conversion, starting with the MSB. Such a stage is shown in this slide (at the bottom). The ADC is now just a comparator. The DAC is merely a switch from the reference voltage. The amplifier has now a gain of two. It is clear that the weakness is the amplifier. This is why a single-bit pipelined ADC is preferred. It is fairly easy to realize an amplifier with a precise gain of two, as will be shown later. Nevertheless, the resolution is normally limited to about 12 bits. Digital correction allows the resolution to be expanded to 15 bits. In order to speed up the conversion, the first stage starts immediately converting the next sample, after completion of the first one. This applies to the other stages as well, as shown in the next slide.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Pipelined ADC : n, and single bit per stage",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0619_01_2053.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07459528164588689,
+          0.07205421891985919,
+          0.8336149786805681,
+          0.1615663786860797
+        ],
+        "confidence": 0.5,
+        "text": "Pipelined ADC : n, and single bit per stage"
+      },
+      {
+        "bbox": [
+          0.07432432462837837,
+          0.2878048778536586,
+          0.10472973003378379,
+          0.32682926809756097
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.14189189152590093,
+          0.32195121971544716,
+          0.18581081044481984,
+          0.3560975611788617
+        ],
+        "confidence": 1,
+        "text": "S/H"
+      },
+      {
+        "bbox": [
+          0.28040540799549535,
+          0.48292682894308947,
+          0.4358108134009008,
+          0.5121951216260162
+        ],
+        "confidence": 1,
+        "text": "Digital Output"
+      },
+      {
+        "bbox": [
+          0.16554054039039037,
+          0.6536585364498645,
+          0.19932432417417417,
+          0.6780487803523034
+        ],
+        "confidence": 0.5,
+        "text": "S/H"
+      },
+      {
+        "bbox": [
+          0.3108108113175676,
+          0.653658536402439,
+          0.3513513518581081,
+          0.678048780304878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Стр"
+      },
+      {
+        "bbox": [
+          0.38175675540540543,
+          0.7024390244715447,
+          0.4628378364864866,
+          0.7365853659349593
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-Viets o-"
+      },
+      {
+        "bbox": [
+          0.3918918912162162,
+          0.7560975612195122,
+          0.4594594587837838,
+          0.7902439026829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vrek'e o"
+      },
+      {
+        "bbox": [
+          0.6554054057432432,
+          0.27804878094076657,
+          0.7094594597972973,
+          0.3414634150871081
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vour"
+      },
+      {
+        "bbox": [
+          0.5743243228885135,
+          0.4195121956707317,
+          0.9527027012668919,
+          0.463414634695122
+        ],
+        "confidence": 0.5,
+        "text": "A =2*x Algorithmic conversion"
+      },
+      {
+        "bbox": [
+          0.6587206041561834,
+          0.462943472236644,
+          0.8142523714085126,
+          0.5077882345270404
+        ],
+        "confidence": 1,
+        "text": "in pipeline!"
+      },
+      {
+        "bbox": [
+          0.6621621640878378,
+          0.5268292680000001,
+          0.8547297316554054,
+          0.575609755804878
+        ],
+        "confidence": 0.5,
+        "text": "n, bit per stage"
+      },
+      {
+        "bbox": [
+          0.6621621648648648,
+          0.5707317070325203,
+          0.986486489189189,
+          0.6146341460569106
+        ],
+        "confidence": 1,
+        "text": "latency of N clock periods"
+      },
+      {
+        "bbox": [
+          0.6621621660472972,
+          0.6097560975609756,
+          0.9729729768581081,
+          0.6585365853658537
+        ],
+        "confidence": 1,
+        "text": "Limited to 12 bit by amp."
+      },
+      {
+        "bbox": [
+          0.6621621649999999,
+          0.6585365851219513,
+          0.9459459487837837,
+          0.7024390241463415
+        ],
+        "confidence": 1,
+        "text": "Digital error correction"
+      },
+      {
+        "bbox": [
+          0.7128378373986487,
+          0.7317073172682927,
+          0.7567567563175676,
+          0.7707317075121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "o V,"
+      },
+      {
+        "bbox": [
+          0.6689189211993242,
+          0.8146341460365853,
+          0.8513513536317566,
+          0.8585365850609756
+        ],
+        "confidence": 1,
+        "text": "1 bit per stage"
+      },
+      {
+        "bbox": [
+          0.6790540583333332,
+          0.8926829264227643,
+          0.93581081509009,
+          0.9268292678861788
+        ],
+        "confidence": 1,
+        "text": "Johns, Martin, Wiley 1997"
+      },
+      {
+        "bbox": [
+          0.7331081180428445,
+          0.9560975606504065,
+          0.9425675646148132,
+          0.9853658533333333
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10 as 2053"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "One such k ADC stage is shown in this slide (on top).",
+      "pdf_page": 619,
+      "printed_page": 630,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Such a stage is shown in this slide (at the bottom).",
+      "pdf_page": 619,
+      "printed_page": 630,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is fairly easy to realize an amplifier with a precise gain of two, as will be shown later.",
+      "pdf_page": 619,
+      "printed_page": 630,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0619_01_2053.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The amplifier has now a gain of two.",
+      "pdf_page": 619,
+      "printed_page": 630,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is fairly easy to realize an amplifier with a precise gain of two, as will be shown later.",
+      "pdf_page": 619,
+      "printed_page": 630,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Nevertheless, the resolution is normally limited to about 12 bits.",
+      "pdf_page": 619,
+      "printed_page": 630,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2053-M01",
+      "ocr_text": "A =2*x Algorithmic conversion",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5743243228885135,
+        0.4195121956707317,
+        0.9527027012668919,
+        0.463414634695122
+      ],
+      "context_crop": "regions/SANSEN-2053_math_01.png",
+      "context_bbox_normalized": [
+        0.5343243228885135,
+        0.31951219567073175,
+        1,
+        0.593414634695122
+      ],
+      "source_image": "slides/p0619_01_2053.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

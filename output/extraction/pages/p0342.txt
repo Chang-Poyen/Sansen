@@ -1,0 +1,48 @@
+Class AB and driver amplifiers 349
+Again transistors M19/ M20 are bootstrapped out for AC performance. The first stage is a
+rail-to-rail input stage, which has been discussed in the previous Chapter.
+1225
+This is again a two-stage
+amplifier. A single-ended
+folded cascode is the
+first stage. The second
+stage consists of the two
+output transistors. Transist-
+ors M13/M15 and M16/
+M18 form wideband level
+shifters between the output
+of the first stage and the
+Gates of the output transis-
+tors. They are bootstrapped
+out for AC signals.
+The quiescent current in
+the output transistors is set
+by two translinear loops.
+Output transistor M11 with M13 forms a translinear loop with transistors M23 and M21.
+Transistors M13 and M21 are equal and carry equal currents. The quiescent current in M11 is
+set by transistor M23.
+The same applies to the translinear loop of M12/M14 with M22/M20.
+1226
+This is a three-stage ampli-
+fier with nested Miller com-
+pensation. The high im-
+pedance nodes are labeled
+with big (red) dots.
+The input stage consists
+of two folded cascodes. The
+g −equalization is carried
+m
+out by transistor M5, resis-
+tor R1 and the following
+current mirrors. When the
+average input voltage in-
+creases, the pMOSTs are
+slowly turned off, but the
+current through resistor R1
+increases, increasing the cur-
+rents in the input nMOSTs. It is a simple solution. However, the use of a resistor makes this
+solution depending on the supply voltage.
+The second stage is a differential pair, one output of which is directly connected to the gate
+of the output nMOST M53. The other output has to be inverted first before it can be applied
+to the output pMOST M52. The output devices of a class-AB stage always have to be driven
+in phase.

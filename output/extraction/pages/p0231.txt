@@ -1,0 +1,43 @@
+236 Chapter #7
+non-dominant pole to high frequencies. As a result, the current mirror in the input stage must
+be realized by means of npn devices as well.
+This is why non transistors are used at the input. They give small input base currents. These
+input npn’s are now put in series with lateral pnp’s, to be able to drive the npn current mirror.
+Since all input transistors carry the same current, they all have the same transconductance.
+The input transconductance is now reduced by two to g /2. This is only a small loss.
+m1
+The pnp transistors in the input stage are biased by a common-mode feedback loop. Indeed,
+this loop is closed over the input devices and the current mirror Q8/Q9. This loop desensitizes
+the DC currents of the input devices from the pnp beta’s.
+However, the performance of this bipolar opamp is rather moderate.
+0750
+A high performance bipolar
+opamp is shown in this slide.
+It is again a two-stage
+opamp as suggested by the
+red dots. Its GBW is moder-
+ate but its gain is very high.
+Its offset is trimmed to very
+low values.
+This is achieved by using
+resistive loads in the first
+stage. These resistors can
+be trimmed by laser or
+other techniques, to very
+small values, improving the
+Common-mode Rejection
+Ratio considerably (see
+Chapter 15).
+The resistors in the input stage are not as good as active loads, however. They lead to lower
+gain. This is why a second stage is used with very high gain.
+This second stage consists of a differential voltage amplifier, to which an emitter follower has
+been added, as explained next.
+0751
+The second stage of this amplifier is taken separately. It consists indeed of a differential voltage
+amplifier, to which an Emitter follower has been added, as shown in this slide.
+This Emitter follower M3 bootstraps out the output resistor r of transistor M2. As a result,
+o2
+only the output resistance of the input pnp plays a role for the gain. They are lateral devices in
+which the output resistance can be made as large as needed.
+Moreover, the output impedance R will also be smaller.
+out

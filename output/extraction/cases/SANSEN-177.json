@@ -1,0 +1,160 @@
+{
+  "case_id": "SANSEN-177",
+  "slide_id": "177",
+  "chapter": 17,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 478,
+    "printed_page": 488
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0478_01_177.jpg",
+      "pdf_page": 478,
+      "printed_page": 488,
+      "bbox_pt": [
+        91.521622,
+        224.07037400000002,
+        374.78981,
+        420.530365
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 478,
+      "printed_page": 488,
+      "bbox_pt": [
+        0,
+        220.08074999999985,
+        595,
+        489.0859750000001
+      ],
+      "text_raw": "Moreover, the layout of\nsuch a switched-capacitor\nfilter can be made quite reg-\nular. All opamps are on one\nside, the capacitors are on\nthe other side and the\nswitches in the middle.\nQuite often, all opamps\nare made equal, which may\nnot be the best solution for\nminimum power consump-\ntion, but which saves\ndesign time.\nThe capacitors are always\nmade up of capacitor banks,\nusing an integer number of\nequal unit capacitors. These have to be laid out for optimum matching.\nLet us have a closer look now at these capacitors and switches.",
+      "text": "Moreover, the layout of such a switched-capacitor filter can be made quite regular. All opamps are on one side, the capacitors are on the other side and the switches in the middle. Quite often, all opamps are made equal, which may not be the best solution for minimum power consumption, but which saves design time. The capacitors are always made up of capacitor banks, using an integer number of equal unit capacitors. These have to be laid out for optimum matching. Let us have a closer look now at these capacitors and switches."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Moreover, the layout of such a switched-capacitor filter can be made quite regular. All opamps are on one side, the capacitors are on the other side and the switches in the middle. Quite often, all opamps are made equal, which may not be the best solution for minimum power consumption, but which saves design time. The capacitors are always made up of capacitor banks, using an integer number of equal unit capacitors. These have to be laid out for optimum matching. Let us have a closer look now at these capacitors and switches.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "4th-Order SC Low-Pass filter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0478_01_177.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432806467185,
+          0.08292682909407667,
+          0.5979729767133204,
+          0.13658536567944246
+        ],
+        "confidence": 1,
+        "text": "4th-Order SC Low-Pass filter"
+      },
+      {
+        "bbox": [
+          0.3175675680743243,
+          0.5951219518292684,
+          0.3783783788851351,
+          0.6439024396341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ПДЕЕ"
+      },
+      {
+        "bbox": [
+          0.38153036152625946,
+          0.38864115577960123,
+          0.6252263938699435,
+          0.46501738225129285
+        ],
+        "confidence": 0.5,
+        "text": "Capacitors"
+      },
+      {
+        "bbox": [
+          0.3884556732152673,
+          0.5605453298662583,
+          0.6655983783593763,
+          0.6394546688406294
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "mewntcheaa"
+      },
+      {
+        "bbox": [
+          0.5709459469594595,
+          0.7414634151829268,
+          0.7195945956081081,
+          0.7853658542073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "FAP у019"
+      },
+      {
+        "bbox": [
+          0.7229729746959459,
+          0.9512195118536585,
+          0.9290540557770268,
+          0.9853658533170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 N177"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0478_01_177.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Quite often, all opamps are made equal, which may not be the best solution for minimum power consumption, but which saves design time.",
+      "pdf_page": 478,
+      "printed_page": 488,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The capacitors are always made up of capacitor banks, using an integer number of equal unit capacitors.",
+      "pdf_page": 478,
+      "printed_page": 488,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

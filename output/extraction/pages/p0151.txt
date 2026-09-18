@@ -1,0 +1,49 @@
+Stability of operational amplifiers 155
+0513
+An opamp always has one
+internal dominant pole. It
+occurs at frequency f . It is
+1
+normally caused by one
+of the bigger capacitances
+inside the amplifier.
+The product of the open-
+loop gain A and this pole
+o
+frequency f is the GBW.
+1
+The GBW is the product of
+the gain and the bandwidth,
+for each setting of the gain.
+Indeed, the ratio of the
+two resistors, in an inverting
+amplifier for example, sets
+the closed-loop gain A . The
+c
+corresponding bandwidth is the f . Their product is again the GBW.
+1c
+In the case of a unity-gain buffer, the bandwidth coincides with the GBW, which is the
+maximum frequency at which this opamp can be used.
+An opamp allows therefore, an exchange gain for bandwidth. The lower the closed-loop gain,
+the higher the bandwidth. The product is always the GBW.
+An opamp is a very versatile building block.
+0514
+Using an opamp with feed-
+back is only a special case
+of a feedback system. How-
+ever, in such a system the
+gain block G has a lot of
+gain, which is not very
+precise.
+The feedback elements,
+which are resistors and
+capacitors, determine the
+closed-loop characteristic.
+They are very precise.
+The loop gain is the ratio
+of the open-loop gain and
+the closed-loop gain. It is
+the gain, going around in
+the loop. It is the quantity that determines all the properties of a feedback system. It is the
+quantity which indicates how the input and output impedances change. This will be explained
+in a more rigorous way in Chapter 8.

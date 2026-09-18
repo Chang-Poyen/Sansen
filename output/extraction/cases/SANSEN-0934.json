@@ -1,0 +1,147 @@
+{
+  "case_id": "SANSEN-0934",
+  "slide_id": "0934",
+  "chapter": 9,
+  "slide_number_in_chapter": 34,
+  "source": {
+    "pdf_page": 273,
+    "printed_page": 280
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0273_01_0934.jpg",
+      "pdf_page": 273,
+      "printed_page": 280,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 273,
+      "printed_page": 280,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        369.6555000000001
+      ],
+      "text_raw": "For really low power con-\nsumption, other configura-\ntions must be found. They\nwill all try to generate extra\nzeros in the left half of the\ncomplex plane, in order to\ncancel one of the non-domi-\nnant poles, without how-\never, taking too much extra\npower consumption.\nThree configurations will\nbe discussed. The last two\nachieve considerable sav-\nings in power consumption,\nbeyond that which can be\nachieved with a single stage.",
+      "text": "For really low power consumption, other configurations must be found. They will all try to generate extra zeros in the left half of the complex plane, in order to cancel one of the non-dominant poles, without however, taking too much extra power consumption. Three configurations will be discussed. The last two achieve considerable savings in power consumption, beyond that which can be achieved with a single stage."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For really low power consumption, other configurations must be found. They will all try to generate extra zeros in the left half of the complex plane, in order to cancel one of the non-dominant poles, without however, taking too much extra power consumption. Three configurations will be discussed. The last two achieve considerable savings in power consumption, beyond that which can be achieved with a single stage.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0273_01_0934.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.13175675343468468,
+          0.31219512211382106,
+          0.5304054020833333,
+          0.37073170747967477
+        ],
+        "confidence": 1,
+        "text": "• Design procedure"
+      },
+      {
+        "bbox": [
+          0.1312391209389576,
+          0.3949595040217164,
+          0.6052286076332936,
+          0.46516094050644863
+        ],
+        "confidence": 1,
+        "text": "• Nested-Miller designs"
+      },
+      {
+        "bbox": [
+          0.12837837402027036,
+          0.497560975804878,
+          0.5641891848310812,
+          0.5560975611707317
+        ],
+        "confidence": 1,
+        "text": "• Low-power designs"
+      },
+      {
+        "bbox": [
+          0.1317567596621621,
+          0.5902439022439024,
+          0.4222973002027027,
+          0.6487804876097563
+        ],
+        "confidence": 1,
+        "text": "• Comparison"
+      },
+      {
+        "bbox": [
+          0.7331081111171689,
+          0.9317073173170731,
+          0.9391891793107593,
+          0.9658536587804877
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.as 0934"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0273_01_0934.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

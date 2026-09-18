@@ -1,0 +1,159 @@
+{
+  "case_id": "SANSEN-185",
+  "slide_id": "185",
+  "chapter": 18,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 511,
+    "printed_page": 521
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0511_01_185.jpg",
+      "pdf_page": 511,
+      "printed_page": 521,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 511,
+      "printed_page": 521,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        367.812
+      ],
+      "text_raw": "A similar effect is seen for\nlow-pass filters. Any low-\npass filter will eliminate the\nsteep edges of a square\nwaveform, as they represent\nthe higher frequencies. The\noutput waveform is now\nrounded. It is again different\nfrom the input waveform,\nand is distorted. This kind\nof linear distortion occurs\nfor all filters.\nIt will not be discussed\nany further.",
+      "text": "A similar effect is seen for low-pass filters. Any lowpass filter will eliminate the steep edges of a square waveform, as they represent the higher frequencies. The output waveform is now rounded. It is again different from the input waveform, and is distorted. This kind of linear distortion occurs for all filters. It will not be discussed any further."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A similar effect is seen for low-pass filters. Any lowpass filter will eliminate the steep edges of a square waveform, as they represent the higher frequencies. The output waveform is now rounded. It is again different from the input waveform, and is distorted. This kind of linear distortion occurs for all filters. It will not be discussed any further.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Linear distortion",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0511_01_185.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243222007722,
+          0.07804878010452965,
+          0.3783783762548263,
+          0.13170731668989544
+        ],
+        "confidence": 1,
+        "text": "Linear distortion"
+      },
+      {
+        "bbox": [
+          0.2530493742317556,
+          0.19907655002036773,
+          0.33816684319455387,
+          0.264338083804071
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.27027027057057057,
+          0.2829268290785908,
+          0.3243243246246246,
+          0.3365853656639566
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.5168918914189189,
+          0.22926829317073172,
+          0.7398648643918919,
+          0.2780487809756098
+        ],
+        "confidence": 1,
+        "text": "Low-pass filter"
+      },
+      {
+        "bbox": [
+          0.12162162193834461,
+          0.4146341461890244,
+          0.1722972976140203,
+          0.4682926827743903
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.6756756746959459,
+          0.41463414648780483,
+          0.7736486476689189,
+          0.46829268307317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT"
+      },
+      {
+        "bbox": [
+          0.7195945920608109,
+          0.9365853660365854,
+          0.9222972947635136,
+          0.9707317075
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 185"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0511_01_185.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

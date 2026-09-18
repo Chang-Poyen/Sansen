@@ -1,0 +1,235 @@
+{
+  "case_id": "SANSEN-2144",
+  "slide_id": "2144",
+  "chapter": 21,
+  "slide_number_in_chapter": 44,
+  "source": {
+    "pdf_page": 648,
+    "printed_page": 659
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0648_02_2144.jpg",
+      "pdf_page": 648,
+      "printed_page": 659,
+      "bbox_pt": [
+        91.52162,
+        421.47699,
+        374.54215999999997,
+        617.88715
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 648,
+      "printed_page": 659,
+      "bbox_pt": [
+        0,
+        417.4876096500002,
+        595,
+        797
+      ],
+      "text_raw": "The input integrator does\nnot have a preceding opamp\nwhich can be switched. The\ninput signal will now be lim-\nited in amplitude by the\ninput switch.\nIn this realization, the\nsupply voltage is 0.9 V. The\nminimum voltage drive for\nthe input switch is about\n0.65 V, barely larger than\nthe threshold voltage. As a\nresult, the maximum differ-\nential input voltage is about\n500 mV .\nptp",
+      "text": "The input integrator does not have a preceding opamp which can be switched. The input signal will now be limited in amplitude by the input switch. In this realization, the supply voltage is 0.9 V. The minimum voltage drive for the input switch is about 0.65 V, barely larger than the threshold voltage. As a result, the maximum differential input voltage is about 500 mV . ptp"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The input integrator does not have a preceding opamp which can be switched. The input signal will now be limited in amplitude by the input switch. In this realization, the supply voltage is 0.9 V. The minimum voltage drive for the input switch is about 0.65 V, barely larger than the threshold voltage. As a result, the maximum differential input voltage is about 500 mV . ptp",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "The input integrator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0648_02_2144.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626813559326,
+          0.0829268293495935,
+          0.44067796305084755,
+          0.1414634147154472
+        ],
+        "confidence": 1,
+        "text": "The input integrator"
+      },
+      {
+        "bbox": [
+          0.2406779685090525,
+          0.6439024408378142,
+          0.29491525341185143,
+          0.6829268287556818
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "NEFIN"
+      },
+      {
+        "bbox": [
+          0.32203389918701864,
+          0.6390243907565133,
+          0.372881353581343,
+          0.6780487786743808
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V..A.n"
+      },
+      {
+        "bbox": [
+          0.433898304661017,
+          0.6585365849390244,
+          0.4745762707627119,
+          0.6926829264024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CIs:"
+      },
+      {
+        "bbox": [
+          0.5661016965316514,
+          0.31707317146341474,
+          0.6203389814344503,
+          0.3609756104878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vare.."
+      },
+      {
+        "bbox": [
+          0.5355932200847457,
+          0.5463414628658537,
+          0.5627118641525424,
+          0.590243901890244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C,"
+      },
+      {
+        "bbox": [
+          0.7897820185091894,
+          0.7898844276286822,
+          0.945811205727807,
+          0.834505816133827
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "REF.hi = VDD"
+      },
+      {
+        "bbox": [
+          0.7864406790112993,
+          0.8390243899593496,
+          0.9118644078248587,
+          0.8829268289837398
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VREF.1o = 0"
+      },
+      {
+        "bbox": [
+          0.7220339083299953,
+          0.9414634143089431,
+          0.9355932174327164,
+          0.97073170699187
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 2144"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0648_02_2144.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The input signal will now be limited in amplitude by the input switch.",
+      "pdf_page": 648,
+      "printed_page": 659,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the maximum differential input voltage is about 500 mV . ptp",
+      "pdf_page": 648,
+      "printed_page": 659,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2144-M01",
+      "ocr_text": "REF.hi = VDD",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7897820185091894,
+        0.7898844276286822,
+        0.945811205727807,
+        0.834505816133827
+      ],
+      "context_crop": "regions/SANSEN-2144_math_01.png",
+      "context_bbox_normalized": [
+        0.7497820185091894,
+        0.6898844276286822,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0648_02_2144.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2144-M02",
+      "ocr_text": "VREF.1o = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7864406790112993,
+        0.8390243899593496,
+        0.9118644078248587,
+        0.8829268289837398
+      ],
+      "context_crop": "regions/SANSEN-2144_math_02.png",
+      "context_bbox_normalized": [
+        0.7464406790112993,
+        0.7390243899593496,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0648_02_2144.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

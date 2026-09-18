@@ -1,0 +1,621 @@
+{
+  "case_id": "SANSEN-0419",
+  "slide_id": "0419",
+  "chapter": 4,
+  "slide_number_in_chapter": 19,
+  "source": {
+    "pdf_page": 123,
+    "printed_page": 126
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0123_02_0419.jpg",
+      "pdf_page": 123,
+      "printed_page": 126,
+      "bbox_pt": [
+        91.52162,
+        385.60297,
+        374.54215999999997,
+        582.06293
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 123,
+      "printed_page": 126,
+      "bbox_pt": [
+        0,
+        381.6135100000001,
+        595,
+        797
+      ],
+      "text_raw": "The noise of the Source\nresistor R can simply be\nadded to the noise of the\nGate resistor. The calcu-\nlation is given in this slide.\nWe firstly assume that this\nresistor is larger than 1/g .\nm\nOtherwise it has no effect!\nWe now calculate the con-\ntribution of the channel\nnoise to the output. It is the\nchannel noise itself divided\nby (g R)2.\nm\nWe then calculate the\ncontribution of the resistor\nnoise to the output. It is\nsimply 4kT/R.\nWhen we take the sum of both, we see that the channel noise of the transistor has become\nnegligible, compared to the resistor noise. Indeed, g R is much larger than unity.\nm\nAs a result, the equivalent input noise voltage is dominated by the resistor noise. Moreover,\nthe expression is the same as for the Gate resistance noise.",
+      "text": "The noise of the Source resistor R can simply be added to the noise of the Gate resistor. The calculation is given in this slide. We firstly assume that this resistor is larger than 1/g . m Otherwise it has no effect! We now calculate the contribution of the channel noise to the output. It is the channel noise itself divided by (g R)2. m We then calculate the contribution of the resistor noise to the output. It is simply 4kT/R. When we take the sum of both, we see that the channel noise of the transistor has become negligible, compared to the resistor noise. Indeed, g R is much larger than unity. m As a result, the equivalent input noise voltage is dominated by the resistor noise. Moreover, the expression is the same as for the Gate resistance noise."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The noise of the Source resistor R can simply be added to the noise of the Gate resistor. The calculation is given in this slide. We firstly assume that this resistor is larger than 1/g . m Otherwise it has no effect! We now calculate the contribution of the channel noise to the output. It is the channel noise itself divided by (g R)2. m We then calculate the contribution of the resistor noise to the output. It is simply 4kT/R. When we take the sum of both, we see that the channel noise of the transistor has become negligible, compared to the resistor noise. Indeed, g R is much larger than unity. m As a result, the equivalent input noise voltage is dominated by the resistor noise. Moreover, the expression is the same as for the Gate resistance noise.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise by Source resistor R",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0123_02_0419.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135593079096046,
+          0.08780487853658536,
+          0.5423728799435028,
+          0.14634146390243896
+        ],
+        "confidence": 1,
+        "text": "Noise by Source resistor R"
+      },
+      {
+        "bbox": [
+          0.24406779655367233,
+          0.23902439097560968,
+          0.3016949151977401,
+          0.28292682999999996
+        ],
+        "confidence": 1,
+        "text": "lout"
+      },
+      {
+        "bbox": [
+          0.2440677969774011,
+          0.3268292677642277,
+          0.3288135596892655,
+          0.3902439019105691
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "diou?"
+      },
+      {
+        "bbox": [
+          0.305084746,
+          0.492682926195122,
+          0.36949152566101695,
+          0.5560975603414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dim?"
+      },
+      {
+        "bbox": [
+          0.14576271169491525,
+          0.6829268287804878,
+          0.17288135576271188,
+          0.7219512190243903
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.3016949156355932,
+          0.6585365845121951,
+          0.36610169529661013,
+          0.7268292674390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "di?"
+      },
+      {
+        "bbox": [
+          0.11864406673123487,
+          0.8341463417770034,
+          0.26779660910411623,
+          0.8878048783623693
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mR >>1"
+      },
+      {
+        "bbox": [
+          0.5322033885875707,
+          0.273170730894309,
+          0.6135593207909605,
+          0.3219512186991871
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lout ="
+      },
+      {
+        "bbox": [
+          0.6305084751694915,
+          0.243902438902439,
+          0.6779661022881356,
+          0.292682926707317
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.644067796779661,
+          0.30731707296167254,
+          0.667796610338983,
+          0.346341463205575
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.8474576279661016,
+          0.3756097555487805,
+          0.9152542381355931,
+          0.4390243896951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "div?"
+      },
+      {
+        "bbox": [
+          0.39322033959322034,
+          0.41463414712195124,
+          0.8338983056949153,
+          0.49268292760975607
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dim? = 4kT 2/3 gm df diourM? -"
+      },
+      {
+        "bbox": [
+          0.8271186449576271,
+          0.4585365845731708,
+          0.932203390720339,
+          0.5219512187195122
+        ],
+        "confidence": 0.5,
+        "text": "(9mR)2"
+      },
+      {
+        "bbox": [
+          0.4135593225423729,
+          0.5707317080487805,
+          0.461016949661017,
+          0.6292682934146342
+        ],
+        "confidence": 0.5,
+        "text": "diR"
+      },
+      {
+        "bbox": [
+          0.45762711920903953,
+          0.5609756104878049,
+          0.4983050853107345,
+          0.6048780495121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 ="
+      },
+      {
+        "bbox": [
+          0.40338982983050853,
+          0.7121951214146341,
+          0.4779661010169492,
+          0.7658536579999999
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "diout"
+      },
+      {
+        "bbox": [
+          0.4711864401129944,
+          0.7024390249028548,
+          0.5118644062146893,
+          0.7414634139837398
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 ="
+      },
+      {
+        "bbox": [
+          0.5152542371186442,
+          0.5512195120803444,
+          0.5728813557627119,
+          0.5902439023242468
+        ],
+        "confidence": 1,
+        "text": "4kT"
+      },
+      {
+        "bbox": [
+          0.5728813554237288,
+          0.5707317073780488,
+          0.6135593215254237,
+          0.6146341464024391
+        ],
+        "confidence": 1,
+        "text": "df"
+      },
+      {
+        "bbox": [
+          0.5322033899717514,
+          0.6097560979268293,
+          0.5559322035310735,
+          0.6536585369512196
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.5220338975847457,
+          0.6878048783536586,
+          0.5796610162288136,
+          0.7317073173780487
+        ],
+        "confidence": 1,
+        "text": "4kT"
+      },
+      {
+        "bbox": [
+          0.538983050677966,
+          0.7463414629756097,
+          0.5627118642372881,
+          0.7902439019999999
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.7050847447457627,
+          0.5658536592195121,
+          0.8949152532203389,
+          0.6341463421463415
+        ],
+        "confidence": 0.5,
+        "text": "dioutr? = dip?"
+      },
+      {
+        "bbox": [
+          0.6101694910169492,
+          0.6780487799390243,
+          0.6576271181355932,
+          0.7219512189634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2/3"
+      },
+      {
+        "bbox": [
+          0.8237288131073446,
+          0.6878048782926829,
+          0.8779661012429378,
+          0.7268292685365852
+        ],
+        "confidence": 1,
+        "text": "4kT"
+      },
+      {
+        "bbox": [
+          0.6779279441070323,
+          0.7119435912609965,
+          0.8169873147621567,
+          0.7563490911612561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ 1 ) df ="
+      },
+      {
+        "bbox": [
+          0.8847457627542372,
+          0.7170731712804879,
+          0.9220338983474575,
+          0.760975610304878
+        ],
+        "confidence": 1,
+        "text": "df"
+      },
+      {
+        "bbox": [
+          0.6033898313559322,
+          0.7414634141463415,
+          0.6711864415254237,
+          0.7999999995121951
+        ],
+        "confidence": 1,
+        "text": "9mR"
+      },
+      {
+        "bbox": [
+          0.8372881357627118,
+          0.7463414639634146,
+          0.8644067798305084,
+          0.7902439029878049
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.40670225391826287,
+          0.8335409740598133,
+          0.6441452015645818,
+          0.8981663465975658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvin? = 4kT R df"
+      },
+      {
+        "bbox": [
+          0.7220339013243459,
+          0.9365853660975609,
+          0.9288135494101178,
+          0.9707317075609755
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen fo-0s 0419"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We now calculate the contribution of the channel noise to the output.",
+      "pdf_page": 123,
+      "printed_page": 126,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is the channel noise itself divided by (g R)2. m We then calculate the contribution of the resistor noise to the output.",
+      "pdf_page": 123,
+      "printed_page": 126,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When we take the sum of both, we see that the channel noise of the transistor has become negligible, compared to the resistor noise.",
+      "pdf_page": 123,
+      "printed_page": 126,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0123_02_0419.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The noise of the Source resistor R can simply be added to the noise of the Gate resistor.",
+        "pdf_page": 123,
+        "printed_page": 126,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Moreover, the expression is the same as for the Gate resistance noise.",
+        "pdf_page": 123,
+        "printed_page": 126,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Indeed, g R is much larger than unity. m As a result, the equivalent input noise voltage is dominated by the resistor noise.",
+      "pdf_page": 123,
+      "printed_page": 126,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "We firstly assume that this resistor is larger than 1/g . m Otherwise it has no effect!",
+      "pdf_page": 123,
+      "printed_page": 126,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Indeed, g R is much larger than unity. m As a result, the equivalent input noise voltage is dominated by the resistor noise.",
+      "pdf_page": 123,
+      "printed_page": 126,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0419-M01",
+      "ocr_text": "9mR >>1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11864406673123487,
+        0.8341463417770034,
+        0.26779660910411623,
+        0.8878048783623693
+      ],
+      "context_crop": "regions/SANSEN-0419_math_01.png",
+      "context_bbox_normalized": [
+        0.07864406673123486,
+        0.7341463417770034,
+        0.49779660910411627,
+        0.93
+      ],
+      "source_image": "slides/p0123_02_0419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0419-M02",
+      "ocr_text": "lout =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5322033885875707,
+        0.273170730894309,
+        0.6135593207909605,
+        0.3219512186991871
+      ],
+      "context_crop": "regions/SANSEN-0419_math_02.png",
+      "context_bbox_normalized": [
+        0.4922033885875707,
+        0.17317073089430898,
+        0.8435593207909605,
+        0.4519512186991871
+      ],
+      "source_image": "slides/p0123_02_0419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0419-M03",
+      "ocr_text": "dim? = 4kT 2/3 gm df diourM? -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.39322033959322034,
+        0.41463414712195124,
+        0.8338983056949153,
+        0.49268292760975607
+      ],
+      "context_crop": "regions/SANSEN-0419_math_03.png",
+      "context_bbox_normalized": [
+        0.35322033959322036,
+        0.31463414712195126,
+        1,
+        0.6226829276097561
+      ],
+      "source_image": "slides/p0123_02_0419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0419-M04",
+      "ocr_text": "2 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.45762711920903953,
+        0.5609756104878049,
+        0.4983050853107345,
+        0.6048780495121951
+      ],
+      "context_crop": "regions/SANSEN-0419_math_04.png",
+      "context_bbox_normalized": [
+        0.41762711920903955,
+        0.4609756104878049,
+        0.7283050853107345,
+        0.7348780495121952
+      ],
+      "source_image": "slides/p0123_02_0419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0419-M05",
+      "ocr_text": "2 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4711864401129944,
+        0.7024390249028548,
+        0.5118644062146893,
+        0.7414634139837398
+      ],
+      "context_crop": "regions/SANSEN-0419_math_05.png",
+      "context_bbox_normalized": [
+        0.4311864401129944,
+        0.6024390249028548,
+        0.7418644062146893,
+        0.8714634139837398
+      ],
+      "source_image": "slides/p0123_02_0419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0419-M06",
+      "ocr_text": "dioutr? = dip?",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7050847447457627,
+        0.5658536592195121,
+        0.8949152532203389,
+        0.6341463421463415
+      ],
+      "context_crop": "regions/SANSEN-0419_math_06.png",
+      "context_bbox_normalized": [
+        0.6650847447457626,
+        0.46585365921951216,
+        1,
+        0.7641463421463415
+      ],
+      "source_image": "slides/p0123_02_0419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0419-M07",
+      "ocr_text": "+ 1 ) df =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6779279441070323,
+        0.7119435912609965,
+        0.8169873147621567,
+        0.7563490911612561
+      ],
+      "context_crop": "regions/SANSEN-0419_math_07.png",
+      "context_bbox_normalized": [
+        0.6379279441070322,
+        0.6119435912609965,
+        1,
+        0.8863490911612562
+      ],
+      "source_image": "slides/p0123_02_0419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0419-M08",
+      "ocr_text": "dvin? = 4kT R df",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.40670225391826287,
+        0.8335409740598133,
+        0.6441452015645818,
+        0.8981663465975658
+      ],
+      "context_crop": "regions/SANSEN-0419_math_08.png",
+      "context_bbox_normalized": [
+        0.3667022539182629,
+        0.7335409740598133,
+        0.8741452015645818,
+        0.93
+      ],
+      "source_image": "slides/p0123_02_0419.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

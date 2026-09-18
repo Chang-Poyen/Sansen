@@ -1,0 +1,45 @@
+Important opamp configurations 227
+0733
+For sake of comparison, a
+short table is given listing
+the main advantages and
+disadvantages.
+The four-transistor single-
+stage voltage differential
+amplifier is the first on the
+list. It is followed by a sym-
+metrical CMOS OTA. Then
+we have two cascode CMOS
+OTA’s. Finally, a two-stage
+Miller CMOS OTA is
+added.
+It is clear that the Miller
+CMOS OTA takes the high-
+est power consumption. The
+best one is a telescopic cascode.
+For high output swing, the telescopic cascode OTA is the worst one. The best are the Miller
+CMOS OTA and the symmetrical one, at least if no cascodes are used!
+The symmetrical OTA is the worst for noise, however.
+This shows that even for as few as three specifications, not one single amplifier can be called
+the best. Many designers prefer a folded cascode OTA, which is certainly a good compromise.
+0734
+Many more opamp config-
+urations can be added. They
+are all included in
+this list because they have
+some peculiarity which is
+worth investigating. We will
+always try to recognize the
+design principles which we
+have studied before. We will
+try to find out whether one
+single or two stages are
+used. We want to know
+which trick has been used to
+abolish the positive zero.
+Also, we want to recognize
+the structure of a symmetri-
+cal or folded cascode, etc.
+Some of these are fully-differential. This means that they have two outputs and require
+common-mode feedback. This will be explained in the next Chapter, however. We focus here on
+their circuit configuration, without being affected by their differential nature.

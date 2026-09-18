@@ -1,0 +1,46 @@
+316 Chapter #11
+1131
+The feedback loop acts on a
+replica of the input stage.
+The input stage is copied,
+with the same transistor
+sizes and currents. The
+corresponding inputs are
+connected. The outputs of
+the replicas are shorted to
+cancel out the differential
+signals. In this way, the total
+current is measured in such
+a pair, regardless of whether
+it is on, off or halfway.
+The averaged outputs
+now lead to current mirrors
+to be summed towards
+point S.
+Replica is an ideal way to bias transistors without actually contacting the sensitive nodes, and
+without feedback. A few more examples are given.
+1132
+This circuit contains mainly
+one single-transistor ampli-
+fier.
+How can we set the
+average output voltage
+without feedback on this
+transistor?
+The answer is replica
+biasing. A transistor with
+the same characteristics is
+put in parallel. This one is
+now part of a feedback loop.
+Its DC output voltage will
+be V . The average output
+REF
+voltage of the amplifier itself
+will also be V .
+REF
+The DC output voltage will not be exactly V of course, because some mismatch is always
+REF
+present.
+The capacitance is required to reduce the influence of the AC voltage on the biasing. The
+resistor R is to raise the AC input impedance of the amplifier.
+S

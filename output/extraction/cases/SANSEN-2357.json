@@ -1,0 +1,209 @@
+{
+  "case_id": "SANSEN-2357",
+  "slide_id": "2357",
+  "chapter": 23,
+  "slide_number_in_chapter": 57,
+  "source": {
+    "pdf_page": 727,
+    "printed_page": 739
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0727_02_2357.jpg",
+      "pdf_page": 727,
+      "printed_page": 739,
+      "bbox_pt": [
+        91.52162,
+        371.75159,
+        374.78981,
+        568.21158
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 727,
+      "printed_page": 739,
+      "bbox_pt": [
+        0,
+        367.76211,
+        595,
+        797
+      ],
+      "text_raw": "If capacitive protection\ndevices are used, it is now\nbetter to connect them in a\np-network, as shown in this\nslide. The addition of an\ninductor L inbetween in-\ng\ncreases the protection some-\nwhat. This inductor is actu-\nally too small to play a role\nat the ESD-frequencies. It\ndoes play a role for the input\nimpedance matching at the\nRF frequencies.\nAlso, any parasitic capaci-\ntance at the Gate of the\nMOST to ground, can be\nabsorbed by the ESD-device capacitance C . This latter capacitor must always be included in\n2\nthe design process, for high-frequency LNA’s.\nThe design of such a p-network is not obvious, as even more degrees of freedom are available.\nHowever, the main concern is to make C as small as possible.\n1\nThe Noise Figure will be reduced somewhat as the inductor L has some series resistance\ng\n(typically 2 V/nH).",
+      "text": "If capacitive protection devices are used, it is now better to connect them in a p-network, as shown in this slide. The addition of an inductor L inbetween ing creases the protection somewhat. This inductor is actually too small to play a role at the ESD-frequencies. It does play a role for the input impedance matching at the RF frequencies. Also, any parasitic capacitance at the Gate of the MOST to ground, can be absorbed by the ESD-device capacitance C . This latter capacitor must always be included in 2 the design process, for high-frequency LNA’s. The design of such a p-network is not obvious, as even more degrees of freedom are available. However, the main concern is to make C as small as possible. 1 The Noise Figure will be reduced somewhat as the inductor L has some series resistance g (typically 2 V/nH)."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "If capacitive protection devices are used, it is now better to connect them in a p-network, as shown in this slide. The addition of an inductor L inbetween ing creases the protection somewhat. This inductor is actually too small to play a role at the ESD-frequencies. It does play a role for the input impedance matching at the RF frequencies. Also, any parasitic capacitance at the Gate of the MOST to ground, can be absorbed by the ESD-device capacitance C . This latter capacitor must always be included in 2 the design process, for high-frequency LNA’s. The design of such a p-network is not obvious, as even more degrees of freedom are available. However, the main concern is to make C as small as possible. 1 The Noise Figure will be reduced somewhat as the inductor L has some series resistance g (typically 2 V/nH).",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "П-network with Capacitive ESD protection",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0727_02_2357.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243188706564,
+          0.07804878069686416,
+          0.8378378323841699,
+          0.14634146362369338
+        ],
+        "confidence": 1,
+        "text": "П-network with Capacitive ESD protection"
+      },
+      {
+        "bbox": [
+          0.2804054067567567,
+          0.24390243887804886,
+          0.4155405418918918,
+          0.287804877902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rm +/0bLm"
+      },
+      {
+        "bbox": [
+          0.47972972804054054,
+          0.24390243914634147,
+          0.6148648631756757,
+          0.29268292695121945
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Roq $/obLaa"
+      },
+      {
+        "bbox": [
+          0.35472972956081084,
+          0.34634146336128047,
+          0.46283783766891895,
+          0.38048780482469513
+        ],
+        "confidence": 0.5,
+        "text": "It-match"
+      },
+      {
+        "bbox": [
+          0.38851351402027023,
+          0.40487804939024397,
+          0.45608108158783783,
+          0.478048781097561
+        ],
+        "confidence": 0.5,
+        "text": "m"
+      },
+      {
+        "bbox": [
+          0.6148648645945946,
+          0.44390243848780486,
+          0.6689189186486486,
+          0.49756097507317065
+        ],
+        "confidence": 0.5,
+        "text": "M,"
+      },
+      {
+        "bbox": [
+          0.22628647822258463,
+          0.6580716413798289,
+          0.47641622947957896,
+          0.7321722660225499
+        ],
+        "confidence": 1,
+        "text": "Include ESD-Devices"
+      },
+      {
+        "bbox": [
+          0.08108107744932443,
+          0.8048780495121951,
+          0.48648648285472984,
+          0.8634146348780488
+        ],
+        "confidence": 1,
+        "text": "Requires on-chip inductor !"
+      },
+      {
+        "bbox": [
+          0.706081080518018,
+          0.8731707323577236,
+          0.929054053490991,
+          0.9121951214386086
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Leroux,.., Kluwer 2005"
+      },
+      {
+        "bbox": [
+          0.7195945919341217,
+          0.946341463597561,
+          0.9324324297719595,
+          0.9902439026219513
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2357"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "If capacitive protection devices are used, it is now better to connect them in a p-network, as shown in this slide.",
+      "pdf_page": 727,
+      "printed_page": 739,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0727_02_2357.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "If capacitive protection devices are used, it is now better to connect them in a p-network, as shown in this slide.",
+        "pdf_page": 727,
+        "printed_page": 739,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Also, any parasitic capacitance at the Gate of the MOST to ground, can be absorbed by the ESD-device capacitance C .",
+        "pdf_page": 727,
+        "printed_page": 739,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

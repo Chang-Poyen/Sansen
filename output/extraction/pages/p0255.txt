@@ -1,0 +1,41 @@
+Fully-diVerential amplifiers 261
+0845
+The specifications to which
+this amplifier has to be
+designed are the same.
+Again, the total supply
+voltage is 3 V. We want to
+maximize again the output
+swing. All currents have to
+be minimized.
+Only one possible design
+emerges.
+The other specifications
+such as Slew Rate, noise
+density, etc., are then veri-
+fied for comparison.
+As a hint for this design,
+the following steps have to
+be taken.
+The maximum output swing is the difference between the largest voltage at the output and
+the smallest one. This determines the output swing, but also the average output voltage. This
+leads to the upper value of the reference voltage V and the value of V .
+r1 r2
+From the values of the GBW, the g can easily be derived. Choices for V −V and L lead
+m GS T
+to values of the current and the transistor size.
+In this way, all currents are known, except for the currents in the source followers M5.
+These currents, through transistors M5 determine the swing across resistors R , which has
+a
+been derived before. The resistors R determine on their turn, the non-dominant poles.
+a
+0846
+In this Chapter fully-
+differential amplifiers have
+been discussed in great
+detail. Design procedures
+have been discussed for all
+CMFB amplifiers.
+Finally an exercise is
+launched to test the compre-
+hension of the reader.

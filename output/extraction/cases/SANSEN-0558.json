@@ -1,0 +1,372 @@
+{
+  "case_id": "SANSEN-0558",
+  "slide_id": "0558",
+  "chapter": 5,
+  "slide_number_in_chapter": 58,
+  "source": {
+    "pdf_page": 175,
+    "printed_page": 179
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0175_02_0558.jpg",
+      "pdf_page": 175,
+      "printed_page": 179,
+      "bbox_pt": [
+        91.521622,
+        395.717469,
+        374.78981,
+        592.17746
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 175,
+      "printed_page": 179,
+      "bbox_pt": [
+        0,
+        391.728,
+        595,
+        797
+      ],
+      "text_raw": "For sake of comparison, we\nhave designed a single-stage,\ntwo-stage and a three-stage\nopamp for the same\nspecifications.\nIt is obvious that the\nsingle-stage opamp is the\nchampion in power con-\nsumption. The addition of\ncompensation capacitances\ninvariably leads to excessive\npower consumption.\nHowever, a single-stage\nopamp does not provide a\nlot of gain. The addition of\ncascodes and gain boosting\nreduces the output swing. This is where a two-stage Miller opamp offers considerable advantages.\nA three-stage amplifier will be used whenever we need a class-AB output stage. Also when the\nsupply voltage is so low that there is no room for cascodes, we may have to go for cascading\nrather than cascoding!",
+      "text": "For sake of comparison, we have designed a single-stage, two-stage and a three-stage opamp for the same specifications. It is obvious that the single-stage opamp is the champion in power consumption. The addition of compensation capacitances invariably leads to excessive power consumption. However, a single-stage opamp does not provide a lot of gain. The addition of cascodes and gain boosting reduces the output swing. This is where a two-stage Miller opamp offers considerable advantages. A three-stage amplifier will be used whenever we need a class-AB output stage. Also when the supply voltage is so low that there is no room for cascodes, we may have to go for cascading rather than cascoding!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For sake of comparison, we have designed a single-stage, two-stage and a three-stage opamp for the same specifications. It is obvious that the single-stage opamp is the champion in power consumption. The addition of compensation capacitances invariably leads to excessive power consumption. However, a single-stage opamp does not provide a lot of gain. The addition of cascodes and gain boosting reduces the output swing. This is where a two-stage Miller opamp offers considerable advantages. A three-stage amplifier will be used whenever we need a class-AB output stage. Also when the supply voltage is so low that there is no room for cascodes, we may have to go for cascading rather than cascoding!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Comparison 1, 2 & 3 stage designs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0175_02_0558.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270702220074,
+          0.0829268290243903,
+          0.6824324367519304,
+          0.1463414631707317
+        ],
+        "confidence": 1,
+        "text": "Comparison 1, 2 & 3 stage designs"
+      },
+      {
+        "bbox": [
+          0.08445945530405412,
+          0.21951219517073173,
+          0.49999999584459465,
+          0.28292682931707325
+        ],
+        "confidence": 0.5,
+        "text": "GBW = 50 MHz for CL = 2 pF"
+      },
+      {
+        "bbox": [
+          0.08783784045608105,
+          0.3463414631097561,
+          0.506756759375,
+          0.4048780484756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Single stage: |DS1 = 31 MA"
+      },
+      {
+        "bbox": [
+          0.6216216240146396,
+          0.3463414630894308,
+          0.9087837861768019,
+          0.4048780484552845
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'Tот = 2|DS1 = 62 HA"
+      },
+      {
+        "bbox": [
+          0.08108108536036028,
+          0.4731707313414635,
+          0.5945945988738738,
+          0.5365853654878049
+        ],
+        "confidence": 0.5,
+        "text": "Two stages : Choose Cc =1 pF"
+      },
+      {
+        "bbox": [
+          0.11148647824324343,
+          0.5512195123902439,
+          0.9358108025675678,
+          0.6097560977560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "|DS1 = 31 MA |DS2 = 252 MA ITOT = 21DS1 + |DS2 = 314 MA"
+      },
+      {
+        "bbox": [
+          0.07770269527027042,
+          0.6682926828658537,
+          0.672297289864865,
+          0.7317073170121952
+        ],
+        "confidence": 0.5,
+        "text": "Three stages : Choose Cc = CD = 1 pF"
+      },
+      {
+        "bbox": [
+          0.11824324932432426,
+          0.7463414630243902,
+          0.7263513574324324,
+          0.8048780483902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "|DS1 = 31 MA |DS2 = 95 HA |DS3 = 315 MA"
+      },
+      {
+        "bbox": [
+          0.4256756735641892,
+          0.8243902446341463,
+          0.932432430320946,
+          0.88292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Iтот = 2|DS1 + 2|Ds2 + Ds3 = 567 MA"
+      },
+      {
+        "bbox": [
+          0.7326820162733149,
+          0.9458161014893001,
+          0.936176255771144,
+          0.9867414763344792
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 es 0558"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0175_02_0558.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "However, a single-stage opamp does not provide a lot of gain.",
+      "pdf_page": 175,
+      "printed_page": 179,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The addition of cascodes and gain boosting reduces the output swing.",
+      "pdf_page": 175,
+      "printed_page": 179,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0558-M01",
+      "ocr_text": "GBW = 50 MHz for CL = 2 pF",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08445945530405412,
+        0.21951219517073173,
+        0.49999999584459465,
+        0.28292682931707325
+      ],
+      "context_crop": "regions/SANSEN-0558_math_01.png",
+      "context_bbox_normalized": [
+        0.04445945530405412,
+        0.13,
+        0.7299999958445946,
+        0.41292682931707325
+      ],
+      "source_image": "slides/p0175_02_0558.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0558-M02",
+      "ocr_text": "Single stage: |DS1 = 31 MA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08783784045608105,
+        0.3463414631097561,
+        0.506756759375,
+        0.4048780484756098
+      ],
+      "context_crop": "regions/SANSEN-0558_math_02.png",
+      "context_bbox_normalized": [
+        0.04783784045608105,
+        0.2463414631097561,
+        0.736756759375,
+        0.5348780484756098
+      ],
+      "source_image": "slides/p0175_02_0558.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0558-M03",
+      "ocr_text": "'Tот = 2|DS1 = 62 HA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6216216240146396,
+        0.3463414630894308,
+        0.9087837861768019,
+        0.4048780484552845
+      ],
+      "context_crop": "regions/SANSEN-0558_math_03.png",
+      "context_bbox_normalized": [
+        0.5816216240146396,
+        0.2463414630894308,
+        1,
+        0.5348780484552845
+      ],
+      "source_image": "slides/p0175_02_0558.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0558-M04",
+      "ocr_text": "Two stages : Choose Cc =1 pF",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08108108536036028,
+        0.4731707313414635,
+        0.5945945988738738,
+        0.5365853654878049
+      ],
+      "context_crop": "regions/SANSEN-0558_math_04.png",
+      "context_bbox_normalized": [
+        0.04108108536036028,
+        0.3731707313414635,
+        0.8245945988738738,
+        0.6665853654878049
+      ],
+      "source_image": "slides/p0175_02_0558.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0558-M05",
+      "ocr_text": "|DS1 = 31 MA |DS2 = 252 MA ITOT = 21DS1 + |DS2 = 314 MA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11148647824324343,
+        0.5512195123902439,
+        0.9358108025675678,
+        0.6097560977560976
+      ],
+      "context_crop": "regions/SANSEN-0558_math_05.png",
+      "context_bbox_normalized": [
+        0.07148647824324342,
+        0.45121951239024394,
+        1,
+        0.7397560977560976
+      ],
+      "source_image": "slides/p0175_02_0558.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0558-M06",
+      "ocr_text": "Three stages : Choose Cc = CD = 1 pF",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.07770269527027042,
+        0.6682926828658537,
+        0.672297289864865,
+        0.7317073170121952
+      ],
+      "context_crop": "regions/SANSEN-0558_math_06.png",
+      "context_bbox_normalized": [
+        0.03770269527027042,
+        0.5682926828658538,
+        0.902297289864865,
+        0.8617073170121952
+      ],
+      "source_image": "slides/p0175_02_0558.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0558-M07",
+      "ocr_text": "|DS1 = 31 MA |DS2 = 95 HA |DS3 = 315 MA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11824324932432426,
+        0.7463414630243902,
+        0.7263513574324324,
+        0.8048780483902439
+      ],
+      "context_crop": "regions/SANSEN-0558_math_07.png",
+      "context_bbox_normalized": [
+        0.07824324932432425,
+        0.6463414630243902,
+        0.9563513574324324,
+        0.93
+      ],
+      "source_image": "slides/p0175_02_0558.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0558-M08",
+      "ocr_text": "Iтот = 2|DS1 + 2|Ds2 + Ds3 = 567 MA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4256756735641892,
+        0.8243902446341463,
+        0.932432430320946,
+        0.88292683
+      ],
+      "context_crop": "regions/SANSEN-0558_math_08.png",
+      "context_bbox_normalized": [
+        0.38567567356418925,
+        0.7243902446341464,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0175_02_0558.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

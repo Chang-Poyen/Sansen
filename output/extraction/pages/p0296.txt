@@ -1,0 +1,42 @@
+Rail-to-rail input and output amplifiers 303
+115
+The answer is negative.
+Three amplifier realizations
+are shown in this slide. Only
+one of them requires a rail-
+to-rail input range.
+An inverting amplifier has
+almost no swing at all at the
+inputs. The output signal is
+divided by the open-loop
+gain so that the minus in-
+put hardly sees any signal.
+At higher frequencies, the
+minus input sees a larger
+voltage but never rail-to-
+rail!
+This also applies to the
+non-inverting amplifier. Both inputs have about the same swing. If some gain is required, then
+the inputs can never reach rail-to-rail swings.
+The only configuration which needs rail-to-rail input swing is the buffer. Since the gain is
+unity, a rail-to-rail output requires the input to be able to follow.
+Buffers are more often class-AB amplifiers. Most class-AB amplifiers have a rail-to-rail input.
+Many of the examples given, have a class-AB output.
+116
+Another good application of
+a rail-to-rail input is the
+CMFB amplifier required in
+fully-differential amplifiers.
+However, the output
+swing of the differential
+amplifier is followed by a
+CMFB amplifier. In order
+to be able to have rail-to-
+rail differential output swing
+we must have a rail-to-rail
+input swing for the CMFB
+amplifier.
+This is rarely the case as
+rail-to-rail input amplifiers
+are more complicated. As a
+consequence, they are difficult to be realized at high frequencies with limited power consumption.

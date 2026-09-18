@@ -1,0 +1,183 @@
+{
+  "case_id": "SANSEN-141",
+  "slide_id": "141",
+  "chapter": 14,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 381,
+    "printed_page": 389
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0381_01_141.jpg",
+      "pdf_page": 381,
+      "printed_page": 389,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 381,
+      "printed_page": 389,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "An introduction on feed-\nback has been given in the\nprevious Chapter design.\nThe four basic types of feed-\nback have been identified.\nTwo of them have been\ndiscussed in the previous\nChapter. They are the types\nwith series feedback at the\ninput as they measure a\nvoltage.\nIn this Chapter, we will\nfocus on the two other types\nof feedback, i.e. the ones\nwith shunt feedback at the\ninput. As a consequence,\nthey measure an input current. They are therefore transimpedance amplifiers, if an output voltage\nis provided, or current amplifiers.",
+      "text": "An introduction on feedback has been given in the previous Chapter design. The four basic types of feedback have been identified. Two of them have been discussed in the previous Chapter. They are the types with series feedback at the input as they measure a voltage. In this Chapter, we will focus on the two other types of feedback, i.e. the ones with shunt feedback at the input. As a consequence, they measure an input current. They are therefore transimpedance amplifiers, if an output voltage is provided, or current amplifiers."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An introduction on feedback has been given in the previous Chapter design. The four basic types of feedback have been identified. Two of them have been discussed in the previous Chapter. They are the types with series feedback at the input as they measure a voltage. In this Chapter, we will focus on the two other types of feedback, i.e. the ones with shunt feedback at the input. As a consequence, they measure an input current. They are therefore transimpedance amplifiers, if an output voltage is provided, or current amplifiers.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈跨阻放大器与电流放大器",
+  "title": "Slide 141",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0381_01_141.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.3780301731258019,
+          0.21683686863877571,
+          0.6388617224867473,
+          0.29535825290123285
+        ],
+        "confidence": 1,
+        "text": "Feedback"
+      },
+      {
+        "bbox": [
+          0.13772315800478369,
+          0.30380531413316303,
+          0.8894858058913178,
+          0.43049112654830934
+        ],
+        "confidence": 1,
+        "text": "Transimpedance & Current"
+      },
+      {
+        "bbox": [
+          0.37154256953496895,
+          0.4336041200900198,
+          0.6588628354338024,
+          0.5224934421383002
+        ],
+        "confidence": 1,
+        "text": "Amplifiers"
+      },
+      {
+        "bbox": [
+          0.3811631235336783,
+          0.5941658706728923,
+          0.6354843249612412,
+          0.661207886492907
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.310810810472973,
+          0.72195122,
+          0.6756756753378379,
+          0.770731707804878
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.3783783815033784,
+          0.7902439021951221,
+          0.6283783815033783,
+          0.8390243900000001
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.34459458935810827,
+          0.8731707318699187,
+          0.6587837785472974,
+          0.9024390245528455
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7229729824009525,
+          0.9317073175857816,
+          0.9290540505945428,
+          0.9707317066666666
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10.0s 141"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0381_01_141.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "They are therefore transimpedance amplifiers, if an output voltage is provided, or current amplifiers.",
+      "pdf_page": 381,
+      "printed_page": 389,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "They are therefore transimpedance amplifiers, if an output voltage is provided, or current amplifiers.",
+      "pdf_page": 381,
+      "printed_page": 389,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback transimpedance and current amplifiers"
+}

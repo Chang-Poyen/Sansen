@@ -1,0 +1,56 @@
+194 Chapter #6
+We must find the mini-
+mum f which can handle
+T
+the process. The higher f ,
+T
+the smaller the channel
+length will be and the more
+expensive the CMOS tech-
+nology required. A mini-
+mum f leads to a minimum
+T
+channel length L.
+We now choose the actual
+channel length. It can be the
+minimum channel length or
+a somewhat larger value,
+depending on the gain
+required. Also, the value of
+V −V must be selected.
+GS T
+The capacitive load now
+determines the output transistor width, and its current.
+All other values are now easily derived.
+0626
+A numerical example is
+worked out in this slide.
+The very first design
+choices to be made are for
+the three design parameters.
+The minimum f value is
+T
+a direct result from these
+choices. We now have to dis-
+cover which channel length
+can deliver such high f
+T
+values. Note that this is the
+actual channel length used,
+which may be 2–3 times
+higher than the minimum
+channel length of a particu-
+lar CMOS technology. Here
+they are taken the same, because we do not have a lot of room left: 80 GHz f is quite high indeed.
+T
+The transistor width is a direct result of the load capacitance. It determines both the current
+and the value of C .
+n1
+The compensation capacitance C is a fraction a of C .
+c L1
+Clearly, C comes out to be 1/3 of C since b was 3.
+n1 c
+From the GBW we finally obtain g and I .
+m1 DS1
+The total current consumption is 3.56 mA, which is quite high because of the large GBW and
+load capacitance. Its FOM however, is 561 MHzpF/mA, which is not bad at all!

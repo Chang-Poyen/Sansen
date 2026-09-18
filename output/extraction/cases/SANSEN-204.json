@@ -1,0 +1,398 @@
+{
+  "case_id": "SANSEN-204",
+  "slide_id": "204",
+  "chapter": 20,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 593,
+    "printed_page": 604
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0593_02_204.jpg",
+      "pdf_page": 593,
+      "printed_page": 604,
+      "bbox_pt": [
+        91.521622,
+        409.518982,
+        374.78981,
+        605.978973
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 593,
+      "printed_page": 604,
+      "bbox_pt": [
+        0,
+        405.52950000000016,
+        595,
+        797
+      ],
+      "text_raw": "The number of steps taken\nis called the resolution.\nThe value of the analog\noutput voltage now depends\non which bits b are 1 or 0.\nFor example, for a code 110\nand a reference voltage of\n0.6 V, the output voltage is\n0.6×(2−1+2−2) or 0.45 V.\nFor a resolution N, the\nsmallest step V is the ref-\nLSB\nerence Voltage divided by\n2N. For example this is 1/256\nor 0.4% for a 8 bit con-\nverter, or 2.3 mV for a 0.6 V\nreference voltage. The error\nmust always be smaller than the resolution.\nThe coefficient of 1/2 is the most significant bit, whereas the coefficient of the last one 1/2N is\nthe least significant bit.",
+      "text": "The number of steps taken is called the resolution. The value of the analog output voltage now depends on which bits b are 1 or 0. For example, for a code 110 and a reference voltage of 0.6 V, the output voltage is 0.6×(2−1+2−2) or 0.45 V. For a resolution N, the smallest step V is the ref- LSB erence Voltage divided by 2N. For example this is 1/256 or 0.4% for a 8 bit converter, or 2.3 mV for a 0.6 V reference voltage. The error must always be smaller than the resolution. The coefficient of 1/2 is the most significant bit, whereas the coefficient of the last one 1/2N is the least significant bit."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The number of steps taken is called the resolution. The value of the analog output voltage now depends on which bits b are 1 or 0. For example, for a code 110 and a reference voltage of 0.6 V, the output voltage is 0.6×(2−1+2−2) or 0.45 V. For a resolution N, the smallest step V is the ref- LSB erence Voltage divided by 2N. For example this is 1/256 or 0.4% for a 8 bit converter, or 2.3 mV for a 0.6 V reference voltage. The error must always be smaller than the resolution. The coefficient of 1/2 is the most significant bit, whereas the coefficient of the last one 1/2N is the least significant bit.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "DACs Resolution",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0593_02_204.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432820945938,
+          0.08292682908536586,
+          0.3851351390202702,
+          0.13658536567073165
+        ],
+        "confidence": 1,
+        "text": "DACs Resolution"
+      },
+      {
+        "bbox": [
+          0.09121621376689197,
+          0.20487804894308947,
+          0.3851351326858109,
+          0.25365853674796746
+        ],
+        "confidence": 1,
+        "text": "Analog output (wrt Vref)"
+      },
+      {
+        "bbox": [
+          0.11486486396396399,
+          0.30243902390243904,
+          0.26351351261261263,
+          0.3317073165853659
+        ],
+        "confidence": 0.5,
+        "text": "D to A converter"
+      },
+      {
+        "bbox": [
+          0.11148648665540539,
+          0.36585365902439015,
+          0.17905405422297296,
+          0.40487804926829263
+        ],
+        "confidence": 1,
+        "text": "Ideal"
+      },
+      {
+        "bbox": [
+          0.06418918902027028,
+          0.7365853652845528,
+          0.08108108091216218,
+          0.7707317067479674
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0"
+      },
+      {
+        "bbox": [
+          0.48945101127286234,
+          0.2258230442156679,
+          0.7301435881194233,
+          0.2961281776630824
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT = VREF BIN"
+      },
+      {
+        "bbox": [
+          0.6216216217905405,
+          0.3121951225365853,
+          0.6587837839527027,
+          0.37073170790243903
+        ],
+        "confidence": 0.5,
+        "text": "b,"
+      },
+      {
+        "bbox": [
+          0.4898648644988739,
+          0.3463414629268293,
+          0.6148648644988739,
+          0.40487804829268303
+        ],
+        "confidence": 0.5,
+        "text": "= VREF ("
+      },
+      {
+        "bbox": [
+          0.6554054052083333,
+          0.3512195118699186,
+          0.6858108106137387,
+          0.3902439021138211
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.6925675672086148,
+          0.31219512146341466,
+          0.756756756397804,
+          0.3902439019512196
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "bz+"
+      },
+      {
+        "bbox": [
+          0.766891892253861,
+          0.3121951218118466,
+          0.8175675679295367,
+          0.3707317071777003
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "b3."
+      },
+      {
+        "bbox": [
+          0.8074324322635136,
+          0.3512195118699186,
+          0.8344594592905406,
+          0.3902439021138211
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.6182432436092342,
+          0.38048780459349596,
+          0.6621621625281531,
+          0.43414634117886175
+        ],
+        "confidence": 1,
+        "text": "21"
+      },
+      {
+        "bbox": [
+          0.6925675680405405,
+          0.3804878045365854,
+          0.7398648653378378,
+          0.4341463411219513
+        ],
+        "confidence": 1,
+        "text": "22"
+      },
+      {
+        "bbox": [
+          0.7668918918436294,
+          0.3804878044947736,
+          0.8074324323841698,
+          0.4341463410801394
+        ],
+        "confidence": 1,
+        "text": "23"
+      },
+      {
+        "bbox": [
+          0.8918918919256758,
+          0.3853658541463414,
+          0.9358108108445946,
+          0.4341463419512195
+        ],
+        "confidence": 1,
+        "text": "2N"
+      },
+      {
+        "bbox": [
+          0.6047297290540541,
+          0.45853658463414626,
+          0.6790540533783784,
+          0.51707317
+        ],
+        "confidence": 0.5,
+        "text": "VREF"
+      },
+      {
+        "bbox": [
+          0.4999999990878379,
+          0.4975609749756098,
+          0.6047297288175676,
+          0.5609756091219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VLSB ="
+      },
+      {
+        "bbox": [
+          0.625000000028153,
+          0.5414634150406504,
+          0.668918918947072,
+          0.5902439028455284
+        ],
+        "confidence": 1,
+        "text": "2N"
+      },
+      {
+        "bbox": [
+          0.5033783764527027,
+          0.6536585367317075,
+          0.6959459440202703,
+          0.6975609757560977
+        ],
+        "confidence": 1,
+        "text": "Resolution N"
+      },
+      {
+        "bbox": [
+          0.5033783745270272,
+          0.7121951224878049,
+          0.9628378339864865,
+          0.7658536590731707
+        ],
+        "confidence": 1,
+        "text": "b, is Most Significant bit (MSB)"
+      },
+      {
+        "bbox": [
+          0.5033783734797299,
+          0.7658536592682927,
+          0.9695945896959461,
+          0.8243902446341463
+        ],
+        "confidence": 0.5,
+        "text": "bn is Least Significant bit (LSB)"
+      },
+      {
+        "bbox": [
+          0.31060964881140884,
+          0.8376607408234843,
+          0.4495254840115382,
+          0.8842904813756887
+        ],
+        "confidence": 1,
+        "text": "Input code"
+      },
+      {
+        "bbox": [
+          0.733108117423475,
+          0.946341463927245,
+          0.9324324288603086,
+          0.9853658530081301
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 204"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0593_02_204.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The value of the analog output voltage now depends on which bits b are 1 or 0.",
+      "pdf_page": 593,
+      "printed_page": 604,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-204-M01",
+      "ocr_text": "VoUT = VREF BIN",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.48945101127286234,
+        0.2258230442156679,
+        0.7301435881194233,
+        0.2961281776630824
+      ],
+      "context_crop": "regions/SANSEN-204_math_01.png",
+      "context_bbox_normalized": [
+        0.44945101127286236,
+        0.13,
+        0.9601435881194232,
+        0.4261281776630824
+      ],
+      "source_image": "slides/p0593_02_204.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-204-M02",
+      "ocr_text": "= VREF (",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.4898648644988739,
+        0.3463414629268293,
+        0.6148648644988739,
+        0.40487804829268303
+      ],
+      "context_crop": "regions/SANSEN-204_math_02.png",
+      "context_bbox_normalized": [
+        0.4498648644988739,
+        0.24634146292682932,
+        0.8448648644988739,
+        0.534878048292683
+      ],
+      "source_image": "slides/p0593_02_204.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-204-M03",
+      "ocr_text": "VLSB =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4999999990878379,
+        0.4975609749756098,
+        0.6047297288175676,
+        0.5609756091219513
+      ],
+      "context_crop": "regions/SANSEN-204_math_03.png",
+      "context_bbox_normalized": [
+        0.4599999990878379,
+        0.3975609749756098,
+        0.8347297288175676,
+        0.6909756091219513
+      ],
+      "source_image": "slides/p0593_02_204.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

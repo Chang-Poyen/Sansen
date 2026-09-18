@@ -1,0 +1,410 @@
+{
+  "case_id": "SANSEN-1751",
+  "slide_id": "1751",
+  "chapter": 17,
+  "slide_number_in_chapter": 51,
+  "source": {
+    "pdf_page": 500,
+    "printed_page": 510
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0500_02_1751.jpg",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "bbox_pt": [
+        91.521622,
+        397.560975,
+        374.78981,
+        594.020966
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 500,
+      "printed_page": 510,
+      "bbox_pt": [
+        0,
+        393.5715000000001,
+        595,
+        797
+      ],
+      "text_raw": "The same circuit is shown\ntwice, once during clock\nphase 1 (on the left) and\nonce during clock phase 2\n(on the right).\nIn both clock phases, the\ncharges are written on both\ncapacitors aC and C. The\nequation of the sum of\nthe charges, shows that the\noffset voltage v cancels\nos\naltogether. Indeed, it\nappears in all terms. As a\nresult it cancels out.\nThis technique is also\nused to cancel the 1/f noise\nof MOST amplifiers. At very low frequencies, 1/f noise resembles offset. It is now cancelled out\nat the cost of a small increase of the thermal noise.",
+      "text": "The same circuit is shown twice, once during clock phase 1 (on the left) and once during clock phase 2 (on the right). In both clock phases, the charges are written on both capacitors aC and C. The equation of the sum of the charges, shows that the offset voltage v cancels os altogether. Indeed, it appears in all terms. As a result it cancels out. This technique is also used to cancel the 1/f noise of MOST amplifiers. At very low frequencies, 1/f noise resembles offset. It is now cancelled out at the cost of a small increase of the thermal noise."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The same circuit is shown twice, once during clock phase 1 (on the left) and once during clock phase 2 (on the right). In both clock phases, the charges are written on both capacitors aC and C. The equation of the sum of the charges, shows that the offset voltage v cancels os altogether. Indeed, it appears in all terms. As a result it cancels out. This technique is also used to cancel the 1/f noise of MOST amplifiers. At very low frequencies, 1/f noise resembles offset. It is now cancelled out at the cost of a small increase of the thermal noise.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Offset compensation",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0500_02_1751.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432485923424,
+          0.08292682975609755,
+          0.43581081134572075,
+          0.14146341512195115
+        ],
+        "confidence": 1,
+        "text": "Offset compensation"
+      },
+      {
+        "bbox": [
+          0.07094594547297298,
+          0.3951219506829269,
+          0.12499999952702703,
+          0.44878048726829267
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.14527027021396396,
+          0.3560975613414634,
+          0.19256756751126125,
+          0.4000000003658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "aC"
+      },
+      {
+        "bbox": [
+          0.17905405418074324,
+          0.40487804926829263,
+          0.2027027028293919,
+          0.4439024395121951
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.3141891886486486,
+          0.4048780489268293,
+          0.36824324270270264,
+          0.4390243903902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIIl!"
+      },
+      {
+        "bbox": [
+          0.432432433277027,
+          0.4487804876585366,
+          0.5168918927364865,
+          0.5024390242439024
+        ],
+        "confidence": 0.5,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.21283783834459458,
+          0.48780487788617877,
+          0.24324324374999998,
+          0.5170731705691056
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Os"
+      },
+      {
+        "bbox": [
+          0.09121621364020273,
+          0.6780487806707317,
+          0.5033783758023649,
+          0.7365853660365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cac1 = aC (Yos - VIN(n-1/2))"
+      },
+      {
+        "bbox": [
+          0.08769565891918159,
+          0.7502636608080656,
+          0.27379083221366135,
+          0.8107119537961682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Qc1 = C Yos"
+      },
+      {
+        "bbox": [
+          0.09797297250844596,
+          0.8536585373780488,
+          0.4864864860219595,
+          0.9170731715243902
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cac1 + Qc1 = Qacz+ Qcz"
+      },
+      {
+        "bbox": [
+          0.5810810809797298,
+          0.3560975614146342,
+          0.6317567566554054,
+          0.4000000004390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "aC"
+      },
+      {
+        "bbox": [
+          0.8648648659206081,
+          0.4487804876219512,
+          0.9493243253800675,
+          0.5024390242073171
+        ],
+        "confidence": 1,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.5506756774493243,
+          0.6780487804878049,
+          0.7635135152871622,
+          0.7365853658536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Qacz = aC Yos"
+      },
+      {
+        "bbox": [
+          0.5506756744932433,
+          0.7512195117073172,
+          0.9020270258445946,
+          0.8097560970731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Qc2 = C (Yos- YouT(n))"
+      },
+      {
+        "bbox": [
+          0.6790540544481982,
+          0.8390243911382114,
+          0.7972972976914415,
+          0.8926829277235772
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= a z-1/2"
+      },
+      {
+        "bbox": [
+          0.7195945974347364,
+          0.9512195124390244,
+          0.9358108007634619,
+          0.9853658539024389
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 N1751"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The same circuit is shown twice, once during clock phase 1 (on the left) and once during clock phase 2 (on the right).",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The equation of the sum of the charges, shows that the offset voltage v cancels os altogether.",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0500_02_1751.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result it cancels out.",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is now cancelled out at the cost of a small increase of the thermal noise.",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The same circuit is shown twice, once during clock phase 1 (on the left) and once during clock phase 2 (on the right).",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1751-M01",
+      "ocr_text": "Cac1 = aC (Yos - VIN(n-1/2))",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09121621364020273,
+        0.6780487806707317,
+        0.5033783758023649,
+        0.7365853660365854
+      ],
+      "context_crop": "regions/SANSEN-1751_math_01.png",
+      "context_bbox_normalized": [
+        0.05121621364020273,
+        0.5780487806707317,
+        0.7333783758023649,
+        0.8665853660365854
+      ],
+      "source_image": "slides/p0500_02_1751.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1751-M02",
+      "ocr_text": "Qc1 = C Yos",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08769565891918159,
+        0.7502636608080656,
+        0.27379083221366135,
+        0.8107119537961682
+      ],
+      "context_crop": "regions/SANSEN-1751_math_02.png",
+      "context_bbox_normalized": [
+        0.04769565891918159,
+        0.6502636608080656,
+        0.5037908322136614,
+        0.93
+      ],
+      "source_image": "slides/p0500_02_1751.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1751-M03",
+      "ocr_text": "Cac1 + Qc1 = Qacz+ Qcz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09797297250844596,
+        0.8536585373780488,
+        0.4864864860219595,
+        0.9170731715243902
+      ],
+      "context_crop": "regions/SANSEN-1751_math_03.png",
+      "context_bbox_normalized": [
+        0.05797297250844596,
+        0.7536585373780488,
+        0.7164864860219595,
+        0.93
+      ],
+      "source_image": "slides/p0500_02_1751.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1751-M04",
+      "ocr_text": "Qacz = aC Yos",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5506756774493243,
+        0.6780487804878049,
+        0.7635135152871622,
+        0.7365853658536585
+      ],
+      "context_crop": "regions/SANSEN-1751_math_04.png",
+      "context_bbox_normalized": [
+        0.5106756774493243,
+        0.578048780487805,
+        0.9935135152871621,
+        0.8665853658536585
+      ],
+      "source_image": "slides/p0500_02_1751.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1751-M05",
+      "ocr_text": "Qc2 = C (Yos- YouT(n))",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5506756744932433,
+        0.7512195117073172,
+        0.9020270258445946,
+        0.8097560970731708
+      ],
+      "context_crop": "regions/SANSEN-1751_math_05.png",
+      "context_bbox_normalized": [
+        0.5106756744932432,
+        0.6512195117073172,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0500_02_1751.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1751-M06",
+      "ocr_text": "= a z-1/2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6790540544481982,
+        0.8390243911382114,
+        0.7972972976914415,
+        0.8926829277235772
+      ],
+      "context_crop": "regions/SANSEN-1751_math_06.png",
+      "context_bbox_normalized": [
+        0.6390540544481982,
+        0.7390243911382114,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0500_02_1751.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

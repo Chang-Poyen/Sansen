@@ -1,0 +1,440 @@
+{
+  "case_id": "SANSEN-0238",
+  "slide_id": "0238",
+  "chapter": 2,
+  "slide_number_in_chapter": 38,
+  "source": {
+    "pdf_page": 68,
+    "printed_page": 69
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0068_02_0238.jpg",
+      "pdf_page": 68,
+      "printed_page": 69,
+      "bbox_pt": [
+        91.521622,
+        467.31597899999997,
+        374.78981,
+        663.77597
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 68,
+      "printed_page": 69,
+      "bbox_pt": [
+        0,
+        463.32650000000035,
+        595,
+        797
+      ],
+      "text_raw": "In a nMOST source fol-\nlower in a n-well CMOS\ntechnology, the Bulk can\nnever be connected to the\nSource. As a result, the\nMOST has a V voltage,\nBS\nwhich is actually the output\nvoltage V . Consequent-\nOUT\nly, the V is no longer con-\nGS\nstant. It receives a small-\nsignal contribution, which is\nnot zero.\nIf we now use the expres-\nsion of the V as a function\nT\nof V (shown in this slide),\nBS\nwe obtain a nonlinear\nexpression of V versus V . Parameter c shows up, which represents the body effect or the\nOUT IN\nparasitic JFET.",
+      "text": "In a nMOST source follower in a n-well CMOS technology, the Bulk can never be connected to the Source. As a result, the MOST has a V voltage, BS which is actually the output voltage V . Consequent- OUT ly, the V is no longer con- GS stant. It receives a smallsignal contribution, which is not zero. If we now use the expression of the V as a function T of V (shown in this slide), BS we obtain a nonlinear expression of V versus V . Parameter c shows up, which represents the body effect or the OUT IN parasitic JFET."
+    },
+    {
+      "pdf_page": 69,
+      "printed_page": 70,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        213.20489999999984
+      ],
+      "text_raw": "Taking the derivative of V versus V yields the small-signal gain. Surprisingly this gain is\nOUT IN\nvery simple, just 1/n. Since n is a rather unpredictable value, so is the gain. It is certainly smaller\nthan unity, somewhere between 0.6 and 0.8.\nThe output impedance is then somewhat smaller as it is now the parallel combination of 1/g\nm\nand 1/g . This shows clearly that at the output we see the MOST and the parasitic JFET\nmB\nin parallel.",
+      "text": "Taking the derivative of V versus V yields the small-signal gain. Surprisingly this gain is OUT IN very simple, just 1/n. Since n is a rather unpredictable value, so is the gain. It is certainly smaller than unity, somewhere between 0.6 and 0.8. The output impedance is then somewhat smaller as it is now the parallel combination of 1/g m and 1/g . This shows clearly that at the output we see the MOST and the parasitic JFET mB in parallel."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In a nMOST source follower in a n-well CMOS technology, the Bulk can never be connected to the Source. As a result, the MOST has a V voltage, BS which is actually the output voltage V . Consequent- OUT ly, the V is no longer con- GS stant. It receives a smallsignal contribution, which is not zero. If we now use the expression of the V as a function T of V (shown in this slide), BS we obtain a nonlinear expression of V versus V . Parameter c shows up, which represents the body effect or the OUT IN parasitic JFET.\n\nTaking the derivative of V versus V yields the small-signal gain. Surprisingly this gain is OUT IN very simple, just 1/n. Since n is a rather unpredictable value, so is the gain. It is certainly smaller than unity, somewhere between 0.6 and 0.8. The output impedance is then somewhat smaller as it is now the parallel combination of 1/g m and 1/g . This shows clearly that at the output we see the MOST and the parasitic JFET mB in parallel.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Source follower with VBs # 0 (n-well)",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0068_02_0238.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108209459454,
+          0.08780487741463416,
+          0.7297297307432432,
+          0.15121951156097557
+        ],
+        "confidence": 1,
+        "text": "Source follower with VBs # 0 (n-well)"
+      },
+      {
+        "bbox": [
+          0.4121621629786036,
+          0.24390243869918704,
+          0.5101351359515766,
+          0.292682926504065
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ZouT<"
+      },
+      {
+        "bbox": [
+          0.18918918890765765,
+          0.29268292642276417,
+          0.2297297294481982,
+          0.34146341422764226
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.08108108061655406,
+          0.3951219506097561,
+          0.12499999953547299,
+          0.44390243841463417
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.0878378383108108,
+          0.5317073169268293,
+          0.1351351356081081,
+          0.5853658535121951
+        ],
+        "confidence": 0.5,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.44594594655405406,
+          0.5317073169756098,
+          0.5067567573648649,
+          0.5804878047804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RB"
+      },
+      {
+        "bbox": [
+          0.5101351347297296,
+          0.2829268287804878,
+          0.5574324320270269,
+          0.3317073165853658
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.5101351343327704,
+          0.37560975615853665,
+          0.5743243235219595,
+          0.4195121951829268
+        ],
+        "confidence": 0.5,
+        "text": "Yout"
+      },
+      {
+        "bbox": [
+          0.550675675365991,
+          0.5219512190243902,
+          0.5945945942849099,
+          0.5804878043902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.6047297312218468,
+          0.2780487801219512,
+          0.7837837852759009,
+          0.34146341426829263
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs = V++"
+      },
+      {
+        "bbox": [
+          0.8648648651303088,
+          0.24390243881533102,
+          0.902027027292471,
+          0.2926829266202091
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'в"
+      },
+      {
+        "bbox": [
+          0.8277027017905406,
+          0.31707317019512193,
+          0.9324324315202703,
+          0.37073170678048784
+        ],
+        "confidence": 1,
+        "text": "K'W/L"
+      },
+      {
+        "bbox": [
+          0.6618042237174859,
+          0.4324345837896798,
+          0.8044119899462391,
+          0.4992727366053358
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs # ct"
+      },
+      {
+        "bbox": [
+          0.6582634031726411,
+          0.5315741933781536,
+          0.9295744414218889,
+          0.605011172346332
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OUT = VIN - VGS"
+      },
+      {
+        "bbox": [
+          0.07432432716779273,
+          0.7268292675203252,
+          0.6722973001407656,
+          0.8195121943495934
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V,= VTo + y [V|2@=| +VouT-V|2@F|]"
+      },
+      {
+        "bbox": [
+          0.7804054056024775,
+          0.7414634150813008,
+          0.8175675677646397,
+          0.7951219516666667
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,"
+      },
+      {
+        "bbox": [
+          0.7195946045293309,
+          0.9317073167479675,
+          0.9290540511012996,
+          0.9609756094308943
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0238"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "If we now use the expression of the V as a function T of V (shown in this slide), BS we obtain a nonlinear expression of V versus V .",
+      "pdf_page": 68,
+      "printed_page": 69,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Parameter c shows up, which represents the body effect or the OUT IN parasitic JFET.",
+      "pdf_page": 68,
+      "printed_page": 69,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This shows clearly that at the output we see the MOST and the parasitic JFET mB in parallel.",
+      "pdf_page": 69,
+      "printed_page": 70,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0068_02_0238.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In a nMOST source follower in a n-well CMOS technology, the Bulk can never be connected to the Source.",
+        "pdf_page": 68,
+        "printed_page": 69,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This shows clearly that at the output we see the MOST and the parasitic JFET mB in parallel.",
+        "pdf_page": 69,
+        "printed_page": 70,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the MOST has a V voltage, BS which is actually the output voltage V .",
+      "pdf_page": 68,
+      "printed_page": 69,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Taking the derivative of V versus V yields the small-signal gain.",
+      "pdf_page": 69,
+      "printed_page": 70,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Surprisingly this gain is OUT IN very simple, just 1/n.",
+      "pdf_page": 69,
+      "printed_page": 70,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Since n is a rather unpredictable value, so is the gain.",
+      "pdf_page": 69,
+      "printed_page": 70,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0238-M01",
+      "ocr_text": "ZouT<",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4121621629786036,
+        0.24390243869918704,
+        0.5101351359515766,
+        0.292682926504065
+      ],
+      "context_crop": "regions/SANSEN-0238_math_01.png",
+      "context_bbox_normalized": [
+        0.3721621629786036,
+        0.14390243869918704,
+        0.7401351359515765,
+        0.422682926504065
+      ],
+      "source_image": "slides/p0068_02_0238.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0238-M02",
+      "ocr_text": "VGs = V++",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6047297312218468,
+        0.2780487801219512,
+        0.7837837852759009,
+        0.34146341426829263
+      ],
+      "context_crop": "regions/SANSEN-0238_math_02.png",
+      "context_bbox_normalized": [
+        0.5647297312218468,
+        0.17804878012195122,
+        1,
+        0.47146341426829264
+      ],
+      "source_image": "slides/p0068_02_0238.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0238-M03",
+      "ocr_text": "OUT = VIN - VGS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6582634031726411,
+        0.5315741933781536,
+        0.9295744414218889,
+        0.605011172346332
+      ],
+      "context_crop": "regions/SANSEN-0238_math_03.png",
+      "context_bbox_normalized": [
+        0.6182634031726411,
+        0.4315741933781536,
+        1,
+        0.735011172346332
+      ],
+      "source_image": "slides/p0068_02_0238.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0238-M04",
+      "ocr_text": "V,= VTo + y [V|2@=| +VouT-V|2@F|]",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07432432716779273,
+        0.7268292675203252,
+        0.6722973001407656,
+        0.8195121943495934
+      ],
+      "context_crop": "regions/SANSEN-0238_math_04.png",
+      "context_bbox_normalized": [
+        0.03432432716779273,
+        0.6268292675203252,
+        0.9022973001407656,
+        0.93
+      ],
+      "source_image": "slides/p0068_02_0238.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "08-followers-dc",
+    "title": "源极与射极跟随器：DC",
+    "summary_zh": "由输出节点 KCL 求跟随增益、输出阻抗与衬底固定时的体效应。",
+    "html": "../derivations/ch02/08-followers-dc.html",
+    "markdown": "../derivations/ch02/08-followers-dc.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "源极与射极跟随器：DC",
+    "case_ids": [
+      "follower_dc"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#08-followers-dc",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

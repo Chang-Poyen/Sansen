@@ -1,0 +1,57 @@
+628 Chapter #20
+therefore eight. The output
+voltage of the folding circuit
+is the same for eight different
+values of the input voltage
+vin. A separate MSB ADC
+is required to discover in
+which of the eight folding
+regions the input voltage v
+in
+is actually present. This is a
+3-bit ADC in this example.
+The LSBs are the deter-
+mined by a fine ADC, which
+is the same for all eight fold-
+ing regions. The number
+of comparators is used
+drastically.
+We will see later that the
+folding circuit is made up of as many differential pairs as the folding rate indicates. The input
+capacitance is not decreased! This is why interpolation is usually added, to reduce the input
+capacitance.
+A more detailed example of a 4-bit folding ADC is given next.
+2050
+In this example there are 4
+folding regions. A 2-bit
+MSB ADC is thus required
+to indicate in which folding
+region is the input voltage
+V .
+in
+Four folding circuits
+(blocks) are required, each
+followed by a latch. Only
+four latches are thus re-
+quired, rather than 16 for a
+4-bit flash ADC.
+The folding transfer char-
+acteristic is given for each
+folding circuit, giving output
+voltages V , V , V and V .
+1 2 3 3
+They all look similar; they are merely shifted over V /4.
+in
+The 2 LSBs are obtained as follows. If the input voltage V starts increasing from zero, voltage
+in
+V is the first one to cause a change of state (at 1/16 V), changing the output of its latch to go
+4
+from 0000 to 0001. At 2/16 V, also V causes a change of stage, changing 0001 into 0011. In this
+3
+way, a thermometer code is generated until 1111 is obtained, at the end of the first folding region.
+When V increases further beyond 4/16 V, voltage V is the first one to cause a change of
+in 4
+state (at 5/16 V), changing the output of its latch to go from 1111 to 1110. At 6/16 V, also V
+3
+causes a change of stage, changing 1110 into 1100. As a result, a thermometer code is generated,
+but in reverse order.

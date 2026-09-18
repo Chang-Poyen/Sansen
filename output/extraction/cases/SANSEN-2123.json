@@ -1,0 +1,237 @@
+{
+  "case_id": "SANSEN-2123",
+  "slide_id": "2123",
+  "chapter": 21,
+  "slide_number_in_chapter": 23,
+  "source": {
+    "pdf_page": 638,
+    "printed_page": 649
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0638_01_2123.jpg",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 638,
+      "printed_page": 649,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        427.45250000000027
+      ],
+      "text_raw": "In a conventional switched-\ncapacitor integrator, the\ninput voltage v is sampled\nIN\non capacitor aC, when\nphase W1 is high. The two\nMOSTs labeled W1 then\nconduct whereas the other\ntwo are off.\nOn phase W2, the charge\naCv is transferred to\nIN\ncapacitor C. The resulting\noutput voltage is now a\nmultiplied by the input volt-\nage; the voltage gain is a.\nWhen a single supply\nvoltage V is used, a DC\nDD\nreference voltage V may have to be added, to make sure that the voltages at both the minus\nREF\nand plus inputs of the opamp never exceed the common-mode input range. A typical value is\n0.2 V depending on the type of opamp.\nThe main problem of this integrator when the supply voltage is small, is the input switch.\nIndeed, if we take as an input voltage 0.5 V for a supply (and clock) voltage of 1 V (V =\nREF\n0.2 V), then all MOST switches receive a V of 0.8 V when switched in, except the input\nGS\ntransistor. This latter one only receives 0.3 V and is not on at all! This is the problem.",
+      "text": "In a conventional switchedcapacitor integrator, the input voltage v is sampled IN on capacitor aC, when phase W1 is high. The two MOSTs labeled W1 then conduct whereas the other two are off. On phase W2, the charge aCv is transferred to IN capacitor C. The resulting output voltage is now a multiplied by the input voltage; the voltage gain is a. When a single supply voltage V is used, a DC DD reference voltage V may have to be added, to make sure that the voltages at both the minus REF and plus inputs of the opamp never exceed the common-mode input range. A typical value is 0.2 V depending on the type of opamp. The main problem of this integrator when the supply voltage is small, is the input switch. Indeed, if we take as an input voltage 0.5 V for a supply (and clock) voltage of 1 V (V = REF 0.2 V), then all MOST switches receive a V of 0.8 V when switched in, except the input GS transistor. This latter one only receives 0.3 V and is not on at all! This is the problem."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In a conventional switchedcapacitor integrator, the input voltage v is sampled IN on capacitor aC, when phase W1 is high. The two MOSTs labeled W1 then conduct whereas the other two are off. On phase W2, the charge aCv is transferred to IN capacitor C. The resulting output voltage is now a multiplied by the input voltage; the voltage gain is a. When a single supply voltage V is used, a DC DD reference voltage V may have to be added, to make sure that the voltages at both the minus REF and plus inputs of the opamp never exceed the common-mode input range. A typical value is 0.2 V depending on the type of opamp. The main problem of this integrator when the supply voltage is small, is the input switch. Indeed, if we take as an input voltage 0.5 V for a supply (and clock) voltage of 1 V (V = REF 0.2 V), then all MOST switches receive a V of 0.8 V when switched in, except the input GS transistor. This latter one only receives 0.3 V and is not on at all! This is the problem.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Conventional SC Integrator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0638_01_2123.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432654440152,
+          0.07317073219512193,
+          0.5743243265444015,
+          0.14146341512195115
+        ],
+        "confidence": 1,
+        "text": "Conventional SC Integrator"
+      },
+      {
+        "bbox": [
+          0.5000000009459459,
+          0.2975609750731707,
+          0.5945945955405405,
+          0.37073170678048784
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1º2"
+      },
+      {
+        "bbox": [
+          0.06081081134572071,
+          0.43414634134146346,
+          0.1250000005349099,
+          0.497560975487805
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.20945945988175677,
+          0.5609756103048781,
+          0.25675675717905405,
+          0.6048780493292684
+        ],
+        "confidence": 1,
+        "text": "Ф2"
+      },
+      {
+        "bbox": [
+          0.41554053962837834,
+          0.7024390244878048,
+          0.5067567558445946,
+          0.770731707414634
+        ],
+        "confidence": 0.5,
+        "text": "VREF"
+      },
+      {
+        "bbox": [
+          0.6824324322072072,
+          0.3512195115853658,
+          0.7905405403153153,
+          0.42439024329268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.8243243250563063,
+          0.404878048699187,
+          0.9121621628941441,
+          0.4829268291869919
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6486486485135134,
+          0.49756097521951226,
+          0.6756756755405405,
+          0.5365853654634146
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.780405404708615,
+          0.7756097556402439,
+          0.8986486479518582,
+          0.848780487347561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A = a"
+      },
+      {
+        "bbox": [
+          0.7195945924324324,
+          0.9414634147804878,
+          0.9358108086486486,
+          0.9756097562439024
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2123"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0638_01_2123.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The resulting output voltage is now a multiplied by the input voltage; the voltage gain is a.",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A typical value is 0.2 V depending on the type of opamp.",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "In a conventional switchedcapacitor integrator, the input voltage v is sampled IN on capacitor aC, when phase W1 is high.",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "On phase W2, the charge aCv is transferred to IN capacitor C.",
+      "pdf_page": 638,
+      "printed_page": 649,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2123-M01",
+      "ocr_text": "A = a",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.780405404708615,
+        0.7756097556402439,
+        0.8986486479518582,
+        0.848780487347561
+      ],
+      "context_crop": "regions/SANSEN-2123_math_01.png",
+      "context_bbox_normalized": [
+        0.7404054047086149,
+        0.675609755640244,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0638_01_2123.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

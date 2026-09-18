@@ -1,0 +1,445 @@
+{
+  "case_id": "SANSEN-105",
+  "slide_id": "105",
+  "chapter": 10,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 286,
+    "printed_page": 293
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0286_01_105.jpg",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "bbox_pt": [
+        91.521622,
+        158.35119699999996,
+        374.78981,
+        354.811188
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 286,
+      "printed_page": 293,
+      "bbox_pt": [
+        0,
+        154.3615749999999,
+        595,
+        489.0860500000003
+      ],
+      "text_raw": "This large input current can\nbe larger than the biasing\ncurrent I . In this case, tran-\nB\nsistor M1 carries a large cur-\nrent and transistor M3 goes\noff. Transistor M1 operates\nin class-AB! The Slew-Rate\nis then very high, at the price\nof some distortion!\nIf we do not want this dis-\ntortion, we have to choose a\nbiasing current I , which is\nB\nalways larger than the peak\nsignal current i .\nIN\nHigh-speed generally\nleads to bad noise per-\nformance!\nThis also applies to this current-input amplifier. A detailed analysis (on the next slide) shows\nthat the noise of a cascode is always negligible, provided it is not driven by a voltage source and\nit does not have a low resistive load. This is exactly what we have here.\nCascode transistor M1 sees 1/g as a source resistance and has 1/g as a load. The output\nm3 m2\nnoise current of M1 flows unattenuated through both M2 and M3. Fortunately, they cancel out\nat the output. However, the noise current powers of M2 and M4 themselves add up. Together\nthey make up the total equivalent input noise current.\nThe SNR is then easily calculated. The larger we take I , the worse the SNR becomes!\nB\nIndeed, higher speed leads to more noise!",
+      "text": "This large input current can be larger than the biasing current I . In this case, tran- B sistor M1 carries a large current and transistor M3 goes off. Transistor M1 operates in class-AB! The Slew-Rate is then very high, at the price of some distortion! If we do not want this distortion, we have to choose a biasing current I , which is B always larger than the peak signal current i . IN High-speed generally leads to bad noise performance! This also applies to this current-input amplifier. A detailed analysis (on the next slide) shows that the noise of a cascode is always negligible, provided it is not driven by a voltage source and it does not have a low resistive load. This is exactly what we have here. Cascode transistor M1 sees 1/g as a source resistance and has 1/g as a load. The output m3 m2 noise current of M1 flows unattenuated through both M2 and M3. Fortunately, they cancel out at the output. However, the noise current powers of M2 and M4 themselves add up. Together they make up the total equivalent input noise current. The SNR is then easily calculated. The larger we take I , the worse the SNR becomes! B Indeed, higher speed leads to more noise!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This large input current can be larger than the biasing current I . In this case, tran- B sistor M1 carries a large current and transistor M3 goes off. Transistor M1 operates in class-AB! The Slew-Rate is then very high, at the price of some distortion! If we do not want this distortion, we have to choose a biasing current I , which is B always larger than the peak signal current i . IN High-speed generally leads to bad noise performance! This also applies to this current-input amplifier. A detailed analysis (on the next slide) shows that the noise of a cascode is always negligible, provided it is not driven by a voltage source and it does not have a low resistive load. This is exactly what we have here. Cascode transistor M1 sees 1/g as a source resistance and has 1/g as a load. The output m3 m2 noise current of M1 flows unattenuated through both M2 and M3. Fortunately, they cancel out at the output. However, the noise current powers of M2 and M4 themselves add up. Together they make up the total equivalent input noise current. The SNR is then easily calculated. The larger we take I , the worse the SNR becomes! B Indeed, higher speed leads to more noise!",
+  "schema_version": "1.0",
+  "chapter_title": "电流输入型运算放大器",
+  "title": "Operational current amplifier : noise",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0286_01_105.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108107428209477,
+          0.08780487884146337,
+          0.726351344552365,
+          0.1512195129878049
+        ],
+        "confidence": 1,
+        "text": "Operational current amplifier : noise"
+      },
+      {
+        "bbox": [
+          0.09121621649774775,
+          0.5512195119918699,
+          0.12500000028153152,
+          0.5853658534552846
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IN"
+      },
+      {
+        "bbox": [
+          0.14527027010135135,
+          0.273170731585366,
+          0.17905405388513512,
+          0.2975609754878049
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.14189189142736489,
+          0.4585365855487805,
+          0.17905405358952703,
+          0.48292682945121945
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.1452702700168919,
+          0.7951219508536586,
+          0.17905405380067568,
+          0.8243902435365853
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.20608108148648646,
+          0.6634146338536586,
+          0.246621622027027,
+          0.702439024097561
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.41554054093468473,
+          0.23902439097560968,
+          0.4527027030968469,
+          0.28292682999999996
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B2"
+      },
+      {
+        "bbox": [
+          0.41216216185810817,
+          0.8097560971219512,
+          0.44932432402027034,
+          0.8536585361463414
+        ],
+        "confidence": 0.5,
+        "text": "B2"
+      },
+      {
+        "bbox": [
+          0.5033783785304053,
+          0.26829268309756094,
+          0.5405405406925675,
+          0.3024390245609756
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.5101351354448198,
+          0.79512195101626,
+          0.547297297606982,
+          0.8292682924796747
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.7736486489140926,
+          0.19512195160278745,
+          0.8175675678330115,
+          0.24878048818815335
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lIN"
+      },
+      {
+        "bbox": [
+          0.6554054065878379,
+          0.22926829273170735,
+          0.7736486498310811,
+          0.28292682931707314
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SR = B2"
+      },
+      {
+        "bbox": [
+          0.8547297301942568,
+          0.22926829201219512,
+          0.9256756761402027,
+          0.282926828597561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs1"
+      },
+      {
+        "bbox": [
+          0.7770270267173424,
+          0.2634146337398374,
+          0.8209459456362612,
+          0.3121951215447154
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.651907406100922,
+          0.3406219704705802,
+          0.9291736765064594,
+          0.42523168600209216
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dipsª = 4kT } 9m df"
+      },
+      {
+        "bbox": [
+          0.6520270249324324,
+          0.49268292707317074,
+          0.8614864843918919,
+          0.5560975612195123
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "di,n? = 2 dips"
+      },
+      {
+        "bbox": [
+          0.6655405407094594,
+          0.609756098,
+          0.6891891893581081,
+          0.6536585370243901
+        ],
+        "confidence": 1,
+        "text": "S"
+      },
+      {
+        "bbox": [
+          0.6655405407094594,
+          0.6682926834756098,
+          0.6925675677364865,
+          0.7121951225
+        ],
+        "confidence": 1,
+        "text": "N"
+      },
+      {
+        "bbox": [
+          0.7972972969172297,
+          0.6048780481707318,
+          0.8344594590793919,
+          0.6536585359756099
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IIN"
+      },
+      {
+        "bbox": [
+          0.7567567582432433,
+          0.6926829276097561,
+          0.9189189204054055,
+          0.7707317080975611
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "din BW E"
+      },
+      {
+        "bbox": [
+          0.8513513516216217,
+          0.8097560969756098,
+          0.9189189191891892,
+          0.8682926823414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDS+"
+      },
+      {
+        "bbox": [
+          0.6655405408108108,
+          0.8487804875609757,
+          0.6925675678378379,
+          0.892682926585366
+        ],
+        "confidence": 1,
+        "text": "N"
+      },
+      {
+        "bbox": [
+          0.7500000005489864,
+          0.8731707322560975,
+          0.8006756762246621,
+          0.9170731712804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DS"
+      },
+      {
+        "bbox": [
+          0.7094594608952702,
+          0.9512195119512196,
+          0.8243243257601351,
+          0.9804878046341464
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.8412162149211713,
+          0.9512195124390244,
+          0.9189189176238739,
+          0.9756097563414633
+        ],
+        "confidence": 1,
+        "text": "10-05 105"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A detailed analysis (on the next slide) shows that the noise of a cascode is always negligible, provided it is not driven by a voltage source and it does not have a low resistive load.",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The SNR is then easily calculated.",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0286_01_105.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A detailed analysis (on the next slide) shows that the noise of a cascode is always negligible, provided it is not driven by a voltage source and it does not have a low resistive load.",
+        "pdf_page": 286,
+        "printed_page": 293,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Cascode transistor M1 sees 1/g as a source resistance and has 1/g as a load.",
+        "pdf_page": 286,
+        "printed_page": 293,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "If we do not want this distortion, we have to choose a biasing current I , which is B always larger than the peak signal current i .",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "A detailed analysis (on the next slide) shows that the noise of a cascode is always negligible, provided it is not driven by a voltage source and it does not have a low resistive load.",
+      "pdf_page": 286,
+      "printed_page": 293,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-105-M01",
+      "ocr_text": "SR = B2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6554054065878379,
+        0.22926829273170735,
+        0.7736486498310811,
+        0.28292682931707314
+      ],
+      "context_crop": "regions/SANSEN-105_math_01.png",
+      "context_bbox_normalized": [
+        0.6154054065878378,
+        0.13,
+        1,
+        0.41292682931707314
+      ],
+      "source_image": "slides/p0286_01_105.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-105-M02",
+      "ocr_text": "dipsª = 4kT } 9m df",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.651907406100922,
+        0.3406219704705802,
+        0.9291736765064594,
+        0.42523168600209216
+      ],
+      "context_crop": "regions/SANSEN-105_math_02.png",
+      "context_bbox_normalized": [
+        0.611907406100922,
+        0.24062197047058018,
+        1,
+        0.5552316860020922
+      ],
+      "source_image": "slides/p0286_01_105.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-105-M03",
+      "ocr_text": "di,n? = 2 dips",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6520270249324324,
+        0.49268292707317074,
+        0.8614864843918919,
+        0.5560975612195123
+      ],
+      "context_crop": "regions/SANSEN-105_math_03.png",
+      "context_bbox_normalized": [
+        0.6120270249324323,
+        0.39268292707317076,
+        1,
+        0.6860975612195123
+      ],
+      "source_image": "slides/p0286_01_105.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Current-input operational amplifiers"
+}

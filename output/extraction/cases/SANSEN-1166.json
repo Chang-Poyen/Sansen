@@ -1,0 +1,286 @@
+{
+  "case_id": "SANSEN-1166",
+  "slide_id": "1166",
+  "chapter": 11,
+  "slide_number_in_chapter": 66,
+  "source": {
+    "pdf_page": 326,
+    "printed_page": 333
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0326_02_1166.jpg",
+      "pdf_page": 326,
+      "printed_page": 333,
+      "bbox_pt": [
+        91.521622,
+        395.567994,
+        374.78981,
+        592.027985
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 326,
+      "printed_page": 333,
+      "bbox_pt": [
+        0,
+        391.5785000000001,
+        595,
+        797
+      ],
+      "text_raw": "The full schematic is shown\nin this slide.\nFour resistors and current\nsources are used to level-\nshift the inputs. The currents\nI are derived in a separate\nB\ncurrent generator.\nThe outputs then simply\ngo to two differential cur-\nrent amplifiers. A simple\nsecond stage is provided to\nbe able to output the signal.\nThis rail-to-rail input\narrangement also has some\ndrawbacks. First of all, the\nfour current sources I , may\nB\nnot match that well. Their difference in current flows out and gives rise to a kind of bias current\n(as is common in bipolar amplifiers). Moreover, they may not be the same for both inputs. There\nis thus also an offset current.\nAnother disadvantage is the presence of noisy resistors in series with all four inputs. The noise\nperformance will now suffer.\nIt is possible to reduce these resistors but larger currents I are required, worsening the input\nB\noffset currents.\nIt is the only rail-to-rail input opamp however, which works on 1 V for conventional V ’s.\nT",
+      "text": "The full schematic is shown in this slide. Four resistors and current sources are used to levelshift the inputs. The currents I are derived in a separate B current generator. The outputs then simply go to two differential current amplifiers. A simple second stage is provided to be able to output the signal. This rail-to-rail input arrangement also has some drawbacks. First of all, the four current sources I , may B not match that well. Their difference in current flows out and gives rise to a kind of bias current (as is common in bipolar amplifiers). Moreover, they may not be the same for both inputs. There is thus also an offset current. Another disadvantage is the presence of noisy resistors in series with all four inputs. The noise performance will now suffer. It is possible to reduce these resistors but larger currents I are required, worsening the input B offset currents. It is the only rail-to-rail input opamp however, which works on 1 V for conventional V ’s. T"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The full schematic is shown in this slide. Four resistors and current sources are used to levelshift the inputs. The currents I are derived in a separate B current generator. The outputs then simply go to two differential current amplifiers. A simple second stage is provided to be able to output the signal. This rail-to-rail input arrangement also has some drawbacks. First of all, the four current sources I , may B not match that well. Their difference in current flows out and gives rise to a kind of bias current (as is common in bipolar amplifiers). Moreover, they may not be the same for both inputs. There is thus also an offset current. Another disadvantage is the presence of noisy resistors in series with all four inputs. The noise performance will now suffer. It is possible to reduce these resistors but larger currents I are required, worsening the input B offset currents. It is the only rail-to-rail input opamp however, which works on 1 V for conventional V ’s. T",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "RtR opamp : full opamp schematic",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0326_02_1166.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432947635126,
+          0.07804878028455287,
+          0.6925675727195945,
+          0.14146341443089427
+        ],
+        "confidence": 1,
+        "text": "RtR opamp : full opamp schematic"
+      },
+      {
+        "bbox": [
+          0.1452702572138606,
+          0.2878048738536585,
+          0.16891893163749078,
+          0.7073170689756098
+        ],
+        "confidence": 1,
+        "text": "Level-Shift Current Generator"
+      },
+      {
+        "bbox": [
+          0.5405405403716217,
+          0.2682926828292682,
+          0.5743243241554055,
+          0.28780487795121945
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M19"
+      },
+      {
+        "bbox": [
+          0.5000000003550177,
+          0.5512195124390243,
+          0.5270270257711084,
+          0.5756097563414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• R2"
+      },
+      {
+        "bbox": [
+          0.8376935325917495,
+          0.29202585015090565,
+          0.9325767360982192,
+          0.33724244307916396
+        ],
+        "confidence": 0.5,
+        "text": "2 MHz"
+      },
+      {
+        "bbox": [
+          0.8478116573979245,
+          0.3555092606255096,
+          0.9325937487448714,
+          0.4054663499333411
+        ],
+        "confidence": 0.5,
+        "text": "15 pF"
+      },
+      {
+        "bbox": [
+          0.8547297297972973,
+          0.4829268288292683,
+          0.9087837838513514,
+          0.5268292678536585
+        ],
+        "confidence": 1,
+        "text": "1 V"
+      },
+      {
+        "bbox": [
+          0.8378378370897684,
+          0.5512195124390245,
+          0.9425675668194982,
+          0.5951219514634147
+        ],
+        "confidence": 1,
+        "text": "0.4 mA"
+      },
+      {
+        "bbox": [
+          0.07770272054514825,
+          0.8634146347154472,
+          0.4898648569323289,
+          0.8975609761788619
+        ],
+        "confidence": 1,
+        "text": "Ref.Duque-Carrillo, JSSC Jan.2000, 33-43"
+      },
+      {
+        "bbox": [
+          0.6452702701013514,
+          0.8487804874796747,
+          0.6722972971283785,
+          0.8878048777235772
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.8378378368665541,
+          0.6878048773780489,
+          0.9222972963260136,
+          0.7414634139634146
+        ],
+        "confidence": 1,
+        "text": "loffset"
+      },
+      {
+        "bbox": [
+          0.8378378383445946,
+          0.7560975614634146,
+          0.9358108113175676,
+          0.8048780492682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "< 1 MA"
+      },
+      {
+        "bbox": [
+          0.7128378402027027,
+          0.8439024383536585,
+          0.9290540564189189,
+          0.8975609749390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "loffset + noisel"
+      },
+      {
+        "bbox": [
+          0.7297297318412161,
+          0.9414634141463415,
+          0.9324324345439189,
+          0.980487804390244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1166"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The full schematic is shown in this slide.",
+      "pdf_page": 326,
+      "printed_page": 333,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The currents I are derived in a separate B current generator.",
+      "pdf_page": 326,
+      "printed_page": 333,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0326_02_1166.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Another disadvantage is the presence of noisy resistors in series with all four inputs.",
+        "pdf_page": 326,
+        "printed_page": 333,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "There is thus also an offset current.",
+      "pdf_page": 326,
+      "printed_page": 333,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "A simple second stage is provided to be able to output the signal.",
+      "pdf_page": 326,
+      "printed_page": 333,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1166-M01",
+      "ocr_text": "< 1 MA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8378378383445946,
+        0.7560975614634146,
+        0.9358108113175676,
+        0.8048780492682927
+      ],
+      "context_crop": "regions/SANSEN-1166_math_01.png",
+      "context_bbox_normalized": [
+        0.7978378383445945,
+        0.6560975614634146,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0326_02_1166.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

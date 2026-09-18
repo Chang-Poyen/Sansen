@@ -1,0 +1,47 @@
+246 Chapter #8
+0815
+Now that we know how to
+derive the specifications of a
+fully-differential amplifier,
+let us have a look at the
+three most used ones. The
+first one uses MOSTs in
+the linear region for the
+common-mode feedback.
+0816
+This is probably the sim-
+plest possible CMFB ampli-
+fier.
+It consists of a differential
+pair, the current source of
+which consists of two tran-
+sistors M3 in the linear
+region, with a V <
+DS3
+V −V .
+GS3 T
+The three functions of the
+CMFB amplifier are clearly
+distinguished.
+The output voltages are
+measured by the two tran-
+sistors M3. Their Drains are
+connected to cancel the
+differential signal and the feedback loop is closed.
+Transistors M3 are thus the input devices of the CMFB amplifier. This is why their g is in
+m3
+the expression of the GBW .
+CM
+The input transistors M1 of the differential pair function as cascodes for the CMFB.
+It is clear that in the linear region, the transconductances are much smaller than in the
+saturation region. The common-mode GBW is therefore smaller than the GBW . This is a
+CM DM
+disadvantage!
+Why do the transistors M3 operate in the linear region?
+There are two reasons. First of all, to have an output voltage in the middle, we need a large
+V . So as not to loose a large voltage drop, we need a small V . Clearly M3 must be in the
+GS3 DS3
+linear region.
+The other reason is linearity. We need a linear cancellation of the differential signal to avoid
+the reduction of the differential gain because of the feedback. Transistors in the linear region are
+very linear indeed!

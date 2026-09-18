@@ -1,0 +1,58 @@
+Rail-to-rail input and output amplifiers 329
+to cover the full supply voltage. It is thus a rail-to-rail input amplifier indeed, but with low
+distortion.
+The second stage is a class-AB amplifier, which will be discussed in Chapter 12.
+1157
+This rail-to-rail opamp is
+well known. It consists of a
+double folded cascode fol-
+lowed by a class-AB second
+stage with Miller compensa-
+tion through the cascodes.
+The g −equalization still
+m
+has to be added though. The
+principle is discussed next.
+Note that for increasing
+Vin-, both currents I and
+dsn
+I increase. One of them
+dsp
+will disappear however,
+when the common-mode
+voltage V is high or low.
+INCM
+When V is high, the
+INCM
+input pMOSTs are off and I disappears but I survives.
+dsp dsn
+If we now apply a maximum-current selecting circuit to I and I , the larger one will
+dsn dsp
+survive. This is the current that is passed on to the next stage.
+We now have to insert a maximum-current selector between the Drains which carry I and
+dsn
+I and the second stage.
+dsp
+1158
+The g -equalization makes
+m
+use of maximum-current
+selector circuits. The main
+difference with all previous
+rail-to-rail amplifiers is that
+all g −equalizers made use
+m
+of common-mode circuitry.
+All added noise is therefore
+common-mode noise, which
+is cancelled by the differ-
+ential output.
+The g −equalizers dis-
+m
+cussed here, act on the
+differential circuits. All
+added noise now ends up in
+the signal path. It cannot be
+cancelled any more.
+Two maximum-current selecting circuits are shown in this slide. The left one is a single-ended
+one, whereas the right one is floating.

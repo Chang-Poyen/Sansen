@@ -1,0 +1,48 @@
+138 Chapter #4
+0442
+A simple current mirror is
+shown in this slide. Its cur-
+rent gain factor is B.
+All possible noise sources
+are shown by mean of cur-
+rent sources. The input
+signal has an input noise
+source in parallel and both
+transistors have noise cur-
+rent sources, which are pro-
+portional to g .
+m
+The total output noise is
+given below. Clearly all
+input noise is multiplied by
+B2.
+The only way to make the
+output noise small is to design all devices with large V −V or small W/L, as expected. For
+GS T
+later matching (Chapter 12), we will also need to design the current mirrors with small W/L.
+This is therefore a very attractive result.
+0443
+The noise of a current
+source can be further
+reduced by inserting series
+resistances, as shown in
+this slide.
+At first sight, it is a
+strange concept to add noisy
+resistors to reduce the noise,
+but it works.
+Indeed let us first add all
+relevant noise sources. The
+resistor noise sources are
+modeled by currents, in-
+versely proportional to the
+resistor values.
+The total output noise
+current is given. Instead of trying to analyze this result, let us plot the total output noise versus
+series resistor.
+It is shown next.
+0444
+This log-log plot shows the contributions of the transistors themselves, marked by M, and of
+the series resistors, marked by R. The current factor B is taken as unity for simplicity. Also both
+resistors are identical.
+It is clear that for low resistors the noise of the transistors is dominant. The output noise is

@@ -1,0 +1,47 @@
+Coupling eVects in mixed analog-digital ICs 749
+The other two solutions
+are poor. Each pad has a
+capacitance to ground and
+has an inductor in series to
+model the bond wire.
+It is now clear that both
+solutions form a filter from
+one supply to the other. The
+middle one is better than the
+bottom one.
+In the bottom connection,
+the pin itself and all external
+decoupling capacitors con-
+nected to that pin, are iso-
+lated from the supply lines
+because of the bonding-wire
+inductance. This is clearly
+the worst possible solution.
+2414
+The bonding wires again
+play an important role in
+this sensor preamplifier fol-
+lowed by a DSP block. Both
+the input and output are
+actually analog. The core is
+a DSP block preceded by a
+ADC and followed by a
+DAC. All this is on-chip,
+whereas the sensor itself and
+the output are off-chip.
+How to connect the
+supply lines and ground?
+The substrate is separated
+from the analog ground,
+which is reserved for the
+input and output amplifiers on-chip only and to the ground of the sensor off-chip.
+The substrate is taken out separately and connected externally to the supply ground line.
+Many parallel bonding-wires are used in parallel as this ground connection is common to both
+the analog circuits and digital blocks. Two separate pins are used however, for these ground
+connections VSSA and VSSD.
+The supply voltages also come in over two separate pins VDDA and VDDD. Again, multiple
+bonding wires are used for the digital supply pin.
+All necessary precautions have now been taken to avoid coupling. The most sensitive point
+for coupling is at the analog ground of the input amplifier. As no differential sensor is used, this
+point will pick up noise from the substrate and from the external PCB ground. Differential
+sensors are therefore always preferred.

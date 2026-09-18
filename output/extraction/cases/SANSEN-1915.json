@@ -1,0 +1,169 @@
+{
+  "case_id": "SANSEN-1915",
+  "slide_id": "1915",
+  "chapter": 19,
+  "slide_number_in_chapter": 15,
+  "source": {
+    "pdf_page": 563,
+    "printed_page": 574
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0563_01_1915.jpg",
+      "pdf_page": 563,
+      "printed_page": 574,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 563,
+      "printed_page": 574,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        381.6135100000001
+      ],
+      "text_raw": "GmC filters consist of Gm\nblocks, which are not much\nmore than linearized\ndifferential pairs and capaci-\ntors. A second-order filter is\nshown on the left. It is\nsingle-ended.\nTo cancel out the even-\norder harmonics, a differ-\nential version is preferred. It\nis shown on the right. They\ntake more power as the\noutput circuitry is doubled.\nMoreover, common-mode\nfeedback is required to\nset the common-mode or\naverage output (and input) voltage levels. Even more power is therefore consumed.\nThey are now studied in more detail.",
+      "text": "GmC filters consist of Gm blocks, which are not much more than linearized differential pairs and capacitors. A second-order filter is shown on the left. It is single-ended. To cancel out the evenorder harmonics, a differential version is preferred. It is shown on the right. They take more power as the output circuitry is doubled. Moreover, common-mode feedback is required to set the common-mode or average output (and input) voltage levels. Even more power is therefore consumed. They are now studied in more detail."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "GmC filters consist of Gm blocks, which are not much more than linearized differential pairs and capacitors. A second-order filter is shown on the left. It is single-ended. To cancel out the evenorder harmonics, a differential version is preferred. It is shown on the right. They take more power as the output circuitry is doubled. Moreover, common-mode feedback is required to set the common-mode or average output (and input) voltage levels. Even more power is therefore consumed. They are now studied in more detail.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Some GmC filters",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0563_01_1915.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627512711855,
+          0.0780487812195122,
+          0.3966101734322033,
+          0.1365853665853658
+        ],
+        "confidence": 1,
+        "text": "Some GmC filters"
+      },
+      {
+        "bbox": [
+          0.5491525421468927,
+          0.29268292642276417,
+          0.5898305082485875,
+          0.3170731703252032
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "n Kis:"
+      },
+      {
+        "bbox": [
+          0.5525423710451978,
+          0.38536585406504065,
+          0.9016949134180793,
+          0.43414634186991874
+        ],
+        "confidence": 1,
+        "text": "Single-ended GmC filters"
+      },
+      {
+        "bbox": [
+          0.5525423711864408,
+          0.5073170738414634,
+          0.8101694898305086,
+          0.5609756104268292
+        ],
+        "confidence": 1,
+        "text": "Fully-differential ..."
+      },
+      {
+        "bbox": [
+          0.8644067804237289,
+          0.7560975608536585,
+          0.9254237295762712,
+          0.7853658535365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0-k0n2"
+      },
+      {
+        "bbox": [
+          0.7254237333017469,
+          0.9512195127642277,
+          0.9389830424044681,
+          0.9853658542276423
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1s 1915"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A second-order filter is shown on the left.",
+      "pdf_page": 563,
+      "printed_page": 574,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is shown on the right.",
+      "pdf_page": 563,
+      "printed_page": 574,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0563_01_1915.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Even more power is therefore consumed.",
+      "pdf_page": 563,
+      "printed_page": 574,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

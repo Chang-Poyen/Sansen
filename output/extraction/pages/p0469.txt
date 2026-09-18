@@ -1,0 +1,35 @@
+478 Chapter #16
+1643
+To derive a current reference
+from a bandgap voltage ref-
+erence, requires a resistor.
+Most of the uncertainty
+on the current will depend
+on this resistor. Also, the
+temperature coefficient of
+the resistor will play a role.
+1644
+The most accurate way to
+convert a voltage into a cur-
+rent is the use of an opamp.
+The reference voltage is
+imposed across the resistor.
+The output current is
+exactly the same as the cur-
+rent through this resistor.
+The main error is caused
+by the offset of the opamp.
+The temperature coeffi-
+cient is determined by the
+temperature coefficients of
+the bandgap reference and
+that of the resistor. One
+could be made to com-
+pensate the other, depending on the application.
+1645
+The temperature coefficient of a resistor strongly depends on the doping level used. Only
+integrated resistors in silicon are considered.
+Highly-doped resistors, with small sheet resistivities, have a small temperature dependence.
+This is shown in this slide for n-regions. Resistivity strongly depends on the mobility of the
+carriers. Examples are emitter regions, but also drain- and source regions in CMOS technologies.
+Lowly-doped resistors depend very strongly on temperature. For example the n-well resistor

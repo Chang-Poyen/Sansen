@@ -1,0 +1,49 @@
+Fully-diVerential amplifiers 241
+085
+One example of such a
+CMFB amplifier is shown in
+this slide.
+Both output voltages are
+measured. Since we only
+want feedback on the
+common-mode signals, we
+have to cancel out the
+differential signals. This is
+done at node 4.
+Now we have to close the
+loop with an amplifier, and
+feed it to a common-mode
+point. Any biasing point in
+the circuit can be used for
+that. For this amplifier it is
+node 5.
+Clearly, part of the circuit belongs to both the common-mode and the differential amplifier.
+For example, transistors M3 and M4 are DC current sources for the differential signals, but
+single-transistor amplifiers for the common-mode signals.
+Also, the CMFB amplifier is always connected in unity-gain feedback. Nodes 1 and 2 are at
+the same time the input and output of the CMFB amplifier. It may thus require more power to
+ensure stability.
+The differential amplifier is evidently shown without feedback.
+Biasing voltage V is the independent biasing voltage. This could well have been the Gates of
+B
+the NMOSTs M3/M4, as shown next.
+086
+Another CMFB amplifier is
+shown here. It now closes
+the feedback loop to the top
+current source. This is
+indeed good!
+Again, the output volt-
+ages are measured. The
+differential signals are can-
+celled out and the CMFB
+loop is closed by means of
+an amplifier.
+Now transistors M1 and
+M2 are common to both
+amplifiers. They function as
+a (differential) amplifier for
+differential signals, but as
+cascodes for the common-mode signals.
+In order to gain somewhat more insight in this CMFB amplifier it is sketched separately in
+the next slide.

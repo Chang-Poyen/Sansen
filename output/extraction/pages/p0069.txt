@@ -1,0 +1,52 @@
+70 Chapter #2
+Taking the derivative of V versus V yields the small-signal gain. Surprisingly this gain is
+OUT IN
+very simple, just 1/n. Since n is a rather unpredictable value, so is the gain. It is certainly smaller
+than unity, somewhere between 0.6 and 0.8.
+The output impedance is then somewhat smaller as it is now the parallel combination of 1/g
+m
+and 1/g . This shows clearly that at the output we see the MOST and the parasitic JFET
+mB
+in parallel.
+0239
+The nonlinearity of the
+expression of V versus
+OUT
+V is clearly visible in the
+IN
+transfer characteristic.
+If the Bulk can be con-
+nected to the Source (c=0)
+then the slope of the charac-
+teristic is unity: the Source
+follower has a unity gain.
+If however, the Bulk is
+connected to ground (c>0)
+then clearly the curve is very
+nonlinear. A lot of distor-
+tion is then generated. In
+addition, it is not clear what
+the gain is, as the slope
+depends on the DC biasing voltages.
+It is preferable that this stage is never used. In a n-well CMOS process, only pMOST source
+followers can be used, provided their Bulk is connected to the Source.
+0240
+A Source follower is an ideal
+buffer in the sense that it
+translates an input voltage
+unattenuated (if the Bulk is
+connected to the Source)
+from an infinite impedance
+at the input to a mere 1/g
+m
+to the output.
+This is not true for its
+bipolar equivalent, an emit-
+ter follower.
+A bipolar transistor has
+Base current. As a result it
+has a finite input resistance
+(r ). This causes an addi-
+p
+tional term in the expression
+of the output resistance. This term is the sum of all the resistances, seen at the input, divided by

@@ -1,0 +1,386 @@
+{
+  "case_id": "SANSEN-216",
+  "slide_id": "216",
+  "chapter": 21,
+  "slide_number_in_chapter": 6,
+  "source": {
+    "pdf_page": 629,
+    "printed_page": 640
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0629_01_216.jpg",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "bbox_pt": [
+        91.521622,
+        187.29950000000008,
+        374.78981,
+        383.759491
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 629,
+      "printed_page": 640,
+      "bbox_pt": [
+        0,
+        183.30989999999986,
+        595,
+        451.3685000000001
+      ],
+      "text_raw": "The simplest possible feed-\nback loop with such a noise\nfilter H is shown in this slide.\nIts gain is k . The (quantiza-\n1\ntion) noise or error signal in\ngeneral is represented by e.\nThe feedback loop is closed\nover a block with gain k .\n2\nFrom the network equa-\ntions it is clear the gains for\nthe incoming signal x and\nfor the error signal e are very\ndifferent indeed.\nFor a large loop gain\n1+k k H, the gain for the\n1 2\nincoming signal is 1/k ,\n2\nwhereas the gain for the error signal (quantization noise) can be quite small. This latter filter\naction is the actual noise shaping.\nThis is evident if a first-order low-pass filter is taken for filter H, as shown next.",
+      "text": "The simplest possible feedback loop with such a noise filter H is shown in this slide. Its gain is k . The (quantiza- 1 tion) noise or error signal in general is represented by e. The feedback loop is closed over a block with gain k . 2 From the network equations it is clear the gains for the incoming signal x and for the error signal e are very different indeed. For a large loop gain 1+k k H, the gain for the 1 2 incoming signal is 1/k , 2 whereas the gain for the error signal (quantization noise) can be quite small. This latter filter action is the actual noise shaping. This is evident if a first-order low-pass filter is taken for filter H, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The simplest possible feedback loop with such a noise filter H is shown in this slide. Its gain is k . The (quantiza- 1 tion) noise or error signal in general is represented by e. The feedback loop is closed over a block with gain k . 2 From the network equations it is clear the gains for the incoming signal x and for the error signal e are very different indeed. For a large loop gain 1+k k H, the gain for the 1 2 incoming signal is 1/k , 2 whereas the gain for the error signal (quantization noise) can be quite small. This latter filter action is the actual noise shaping. This is evident if a first-order low-pass filter is taken for filter H, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Noise filtering",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0629_01_216.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0807717579535184,
+          0.0851548527387268,
+          0.33139040906006934,
+          0.1538695388766007
+        ],
+        "confidence": 1,
+        "text": "Noise filtering"
+      },
+      {
+        "bbox": [
+          0.3716216214527027,
+          0.28292682890243903,
+          0.39864864847972975,
+          0.3268292679268292
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H"
+      },
+      {
+        "bbox": [
+          0.35472972922297297,
+          0.38536585390243916,
+          0.41554054003378377,
+          0.4243902441463415
+        ],
+        "confidence": 1,
+        "text": "LPF"
+      },
+      {
+        "bbox": [
+          0.48986486520270267,
+          0.24390243878048778,
+          0.5168918922297298,
+          0.28292682902439026
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V"
+      },
+      {
+        "bbox": [
+          0.21283783736486486,
+          0.4146341456585366,
+          0.2871621616891892,
+          0.48292682858536584
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "k2 Y"
+      },
+      {
+        "bbox": [
+          0.1114864881334459,
+          0.5707317080487805,
+          0.317567569214527,
+          0.6292682934146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "v = H (x -kгy)"
+      },
+      {
+        "bbox": [
+          0.11128480378942443,
+          0.6328456582970905,
+          0.27385033152495414,
+          0.6891055625537716
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y =k,V+e"
+      },
+      {
+        "bbox": [
+          0.11148648631756758,
+          0.7902439029878049,
+          0.15878378361486487,
+          0.8341463420121952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y ="
+      },
+      {
+        "bbox": [
+          0.20945945976351352,
+          0.736585366390244,
+          0.2804054057094595,
+          0.7902439029756098
+        ],
+        "confidence": 0.5,
+        "text": "k,H"
+      },
+      {
+        "bbox": [
+          0.18227856314549334,
+          0.82362190047472,
+          0.32109981705091856,
+          0.883695169179018
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + k, k2H"
+      },
+      {
+        "bbox": [
+          0.33783783810810813,
+          0.7902439021463415,
+          0.36486486513513516,
+          0.8292682923902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "X"
+      },
+      {
+        "bbox": [
+          0.4729729728040541,
+          0.7365853653658537,
+          0.4932432430743244,
+          0.7756097556097561
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.4051785220380107,
+          0.8232505838856912,
+          0.5441458041012629,
+          0.8840664880843145
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + k,k2H"
+      },
+      {
+        "bbox": [
+          0.584459459665916,
+          0.2878048778861789,
+          0.6216216218280781,
+          0.3463414632520325
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ky"
+      },
+      {
+        "bbox": [
+          0.5743243247184685,
+          0.4585365852845529,
+          0.6216216220157659,
+          0.5268292682113821
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "k2"
+      },
+      {
+        "bbox": [
+          0.7362931561923042,
+          0.5885958874422051,
+          0.9495176574154817,
+          0.6455504527230265
+        ],
+        "confidence": 1,
+        "text": "Noise shaping"
+      },
+      {
+        "bbox": [
+          0.7837837835585585,
+          0.7365853663662695,
+          0.8040540538288288,
+          0.7756097542841369
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.831081081418919,
+          0.7902439021951221,
+          0.858108108445946,
+          0.8292682924390244
+        ],
+        "confidence": 1,
+        "text": "e"
+      },
+      {
+        "bbox": [
+          0.7432432440033784,
+          0.819512194796748,
+          0.8344594602195946,
+          0.8780487801626016
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "k, K2H"
+      },
+      {
+        "bbox": [
+          0.719594597716268,
+          0.9365853660162601,
+          0.9189189091531016,
+          0.9658536586991869
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 216"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The simplest possible feedback loop with such a noise filter H is shown in this slide.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is evident if a first-order low-pass filter is taken for filter H, as shown next.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0629_01_216.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Its gain is k .",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The feedback loop is closed over a block with gain k . 2 From the network equations it is clear the gains for the incoming signal x and for the error signal e are very different indeed.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For a large loop gain 1+k k H, the gain for the 1 2 incoming signal is 1/k , 2 whereas the gain for the error signal (quantization noise) can be quite small.",
+      "pdf_page": 629,
+      "printed_page": 640,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-216-M01",
+      "ocr_text": "v = H (x -kгy)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1114864881334459,
+        0.5707317080487805,
+        0.317567569214527,
+        0.6292682934146342
+      ],
+      "context_crop": "regions/SANSEN-216_math_01.png",
+      "context_bbox_normalized": [
+        0.07148648813344591,
+        0.4707317080487805,
+        0.547567569214527,
+        0.7592682934146342
+      ],
+      "source_image": "slides/p0629_01_216.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-216-M02",
+      "ocr_text": "y =k,V+e",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11128480378942443,
+        0.6328456582970905,
+        0.27385033152495414,
+        0.6891055625537716
+      ],
+      "context_crop": "regions/SANSEN-216_math_02.png",
+      "context_bbox_normalized": [
+        0.07128480378942442,
+        0.5328456582970905,
+        0.5038503315249542,
+        0.8191055625537716
+      ],
+      "source_image": "slides/p0629_01_216.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-216-M03",
+      "ocr_text": "y =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11148648631756758,
+        0.7902439029878049,
+        0.15878378361486487,
+        0.8341463420121952
+      ],
+      "context_crop": "regions/SANSEN-216_math_03.png",
+      "context_bbox_normalized": [
+        0.07148648631756757,
+        0.6902439029878049,
+        0.3887837836148649,
+        0.93
+      ],
+      "source_image": "slides/p0629_01_216.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

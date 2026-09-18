@@ -1,0 +1,193 @@
+{
+  "case_id": "SANSEN-2453",
+  "slide_id": "2453",
+  "chapter": 24,
+  "slide_number_in_chapter": 53,
+  "source": {
+    "pdf_page": 758,
+    "printed_page": 770
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0758_01_2453.jpg",
+      "pdf_page": 758,
+      "printed_page": 770,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 758,
+      "printed_page": 770,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        357.69751
+      ],
+      "text_raw": "Experimental evidence on\nPSRR is not easily found.\nOne example is shown in\nthis slide.\nThe PSRR has been mea-\nsured for both a single-\nended as for a fully-\ndifferential switched-capaci-\ntor amplifier. They act as a\nreceiver.\nThe noise sources are a\nnumber of logic gates and\ninverters, as shown on top.\nA smaller or larger number\nof logic gates can be\nswitched in.",
+      "text": "Experimental evidence on PSRR is not easily found. One example is shown in this slide. The PSRR has been measured for both a singleended as for a fullydifferential switched-capacitor amplifier. They act as a receiver. The noise sources are a number of logic gates and inverters, as shown on top. A smaller or larger number of logic gates can be switched in."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Experimental evidence on PSRR is not easily found. One example is shown in this slide. The PSRR has been measured for both a singleended as for a fullydifferential switched-capacitor amplifier. They act as a receiver. The noise sources are a number of logic gates and inverters, as shown on top. A smaller or larger number of logic gates can be switched in.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Differential- versus Single-Ended circuits",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0758_01_2453.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433027871604,
+          0.07804877969512192,
+          0.8141891951435809,
+          0.14146341384146344
+        ],
+        "confidence": 1,
+        "text": "Differential- versus Single-Ended circuits"
+      },
+      {
+        "bbox": [
+          0.03716216171171174,
+          0.3073170727642276,
+          0.07094594549549552,
+          0.33170731666666664
+        ],
+        "confidence": 0.5,
+        "text": "now"
+      },
+      {
+        "bbox": [
+          0.0371621614864865,
+          0.34146341487804877,
+          0.07770270202702705,
+          0.3658536587804878
+        ],
+        "confidence": 1,
+        "text": "clock"
+      },
+      {
+        "bbox": [
+          0.16216216341808076,
+          0.6878048778048781,
+          0.18918918883417146,
+          0.7121951217073171
+        ],
+        "confidence": 0.5,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.43243243302364853,
+          0.7024390249390244,
+          0.49324324383445933,
+          0.7463414639634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-OVou"
+      },
+      {
+        "bbox": [
+          0.9324324319932433,
+          0.7073170733170732,
+          0.9763513509121622,
+          0.7414634147804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "› Vout"
+      },
+      {
+        "bbox": [
+          0.5912162160191441,
+          0.7658536582113821,
+          0.6216216214245496,
+          0.8048780484552845
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.19256757200168906,
+          0.8878048778048782,
+          0.5472973017314188,
+          0.917073170487805
+        ],
+        "confidence": 1,
+        "text": "Makie-Fukuda, JSSC, Febr.95, 87-92"
+      },
+      {
+        "bbox": [
+          0.7297297397207724,
+          0.9512195119512196,
+          0.9425675646711195,
+          0.9853658534146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 0s 2453"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "One example is shown in this slide.",
+      "pdf_page": 758,
+      "printed_page": 770,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The noise sources are a number of logic gates and inverters, as shown on top.",
+      "pdf_page": 758,
+      "printed_page": 770,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0758_01_2453.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

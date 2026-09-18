@@ -1,0 +1,46 @@
+720 Chapter #23
+2318
+Note that the voltage gain
+G is different whether an
+v
+inductor L is inserted in the
+S
+Source or not.
+Without this inductor (on
+the left) the input impedance
+is zero. The input imped-
+ance is not matched to the
+antenna.
+With this inductor (on the
+right), the input impedance
+is purely resistive and equal
+to R (or 50 V). As a result,
+there is a division by two at
+the input such that the volt-
+age gain is a factor of two
+smaller.
+2319
+The Noise Figure NF is
+defined as in Chapter 4.
+The equivalent input
+noise of the input transistor
+is as given in this slide. The
+term 2/3 has been left out to
+take into account that this
+MOST is probably operat-
+ing close to velocity satura-
+tion where its thermal noise
+is probably larger. It may
+help somewhat to lower the
+Drain-Source voltage to
+avoid velocity saturation.
+The noise of the load R
+L
+is neglected.
+Under the two matching conditions, the NF can then be rewritten as given in this slide.
+It is striking that the NF decreaes for larger values of v , but not for larger g . Parameter
+T m
+v is therefore clearly the dominant transistor parameter.
+T
+Also, note that the NF is quite low at lower frequencies, but increases versus frequency. At
+the highest frequencies of interest the NF may not be all that attractive.

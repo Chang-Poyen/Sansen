@@ -1,0 +1,49 @@
+Amplifiers, source followers and cascodes 71
+b+1 or simply b. A bipolar transistor only provides a limited amount of isolation between input
+and output, which is about b. The higher the beta the better the isolation. A MOST, which has
+a beta of infinity also provides infinite isolation.
+The same is true for the input resistance. It can never be infinite, as for a MOST source
+follower. It will be the resistance seen at the emitter, multiplied by the beta. This may be
+insufficient for some preamplifiers (microphone, etc). This is why, quite often, a few emitter
+followers are cascaded.
+0241
+At higher frequencies,
+a source follower looses
+its buffer capabilities.
+Moreover, it can show
+peaking.
+Indeed, including all three
+transistor capacitances in
+the small-signal model,
+yields an expression for the
+gain which is quite compli-
+cated. The best way to
+explore this, is to draw a
+pole-zero position diagram,
+with one particular parame-
+ter as a variable. Here the
+transconductance is chosen,
+as it depends directly on the current. The current stands for the power consumption.
+Two poles can be extracted from the roots of the denominator. One zero is also present.
+In the middle, a hatched region emerges, where the lines of f and f cross. In this region the
+d nd
+poles are complex. They cause peaking in the Bode diagram.
+It is clear that there is an optimum current for such a Source-follower that is actually quite
+small. For very low currents, the f (or bandwidth) is too small, and increases with the current.
+d
+For higher currents, complex poles develop and for even higher currents the bandwidth ceases
+to increase. The optimum is thus at the bottom point of the complex pole region. Let us find
+the corresponding current.
+0242
+The value of the transconductance, which goes through the middle of the complex-pole region
+is denoted by g . It is given in this slide. It depends on the source resistor and the capacitance
+mr
+C from gate to ground. Adding capacitance to the gate allows us to reduce the transconductance
+DG
+or current where the peak is the worst.
+The width of that region is given by Dg . It can be made small by increasing
+mr
+indeed the capacitance C at the gate. This is called ‘‘compensating the source follower’’. What
+DG
+actually happens is that a low-pass filter is added before the source follower, avoiding complex
+poles to appear.

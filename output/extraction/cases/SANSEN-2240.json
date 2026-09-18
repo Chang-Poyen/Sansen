@@ -1,0 +1,201 @@
+{
+  "case_id": "SANSEN-2240",
+  "slide_id": "2240",
+  "chapter": 22,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 686,
+    "printed_page": 697
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0686_02_2240.jpg",
+      "pdf_page": 686,
+      "printed_page": 697,
+      "bbox_pt": [
+        91.521622,
+        402.543488,
+        374.78981,
+        599.003479
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 686,
+      "printed_page": 697,
+      "bbox_pt": [
+        0,
+        398.5540000000002,
+        595,
+        642.6965
+      ],
+      "text_raw": "Another bipolar crystal\noscillator is shown in this\nslide. It is again a single-pin\noscillator. The positive feed-\nback is easily recognizable.\nIndeed, a cross-coupled\ntransistor pair presents a\nnegative resistance of\n−2/g (see Chapter 2). This\nm\nresistance now compensates\nthe series resistance of the\ncrystal.\nThe output is nicely\nbuffered from the oscillation\ncircuit itself, by means of a\ncascode.\nThe biasing is fixed. The amplitude is limited by the Base-Emitter diodes of the cross-coupled\ntransistor pair.",
+      "text": "Another bipolar crystal oscillator is shown in this slide. It is again a single-pin oscillator. The positive feedback is easily recognizable. Indeed, a cross-coupled transistor pair presents a negative resistance of −2/g (see Chapter 2). This m resistance now compensates the series resistance of the crystal. The output is nicely buffered from the oscillation circuit itself, by means of a cascode. The biasing is fixed. The amplitude is limited by the Base-Emitter diodes of the cross-coupled transistor pair."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Another bipolar crystal oscillator is shown in this slide. It is again a single-pin oscillator. The positive feedback is easily recognizable. Indeed, a cross-coupled transistor pair presents a negative resistance of −2/g (see Chapter 2). This m resistance now compensates the series resistance of the crystal. The output is nicely buffered from the oscillation circuit itself, by means of a cascode. The biasing is fixed. The amplitude is limited by the Base-Emitter diodes of the cross-coupled transistor pair.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Positive feedback circuits - 2",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0686_02_2240.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269955658789,
+          0.07804878070121957,
+          0.5810810779349662,
+          0.13170731728658536
+        ],
+        "confidence": 1,
+        "text": "Positive feedback circuits - 2"
+      },
+      {
+        "bbox": [
+          0.20921702721188895,
+          0.2916848737508141,
+          0.30429648787143154,
+          0.3424614670289081
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3 600 g"
+      },
+      {
+        "bbox": [
+          0.31418918817567576,
+          0.29268292715447153,
+          0.37499999898648656,
+          0.3219512198373984
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "200"
+      },
+      {
+        "bbox": [
+          0.4864864857094594,
+          0.40975609775609756,
+          0.5641891884121621,
+          0.45853658556097565
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.6216216229729729,
+          0.40975609800813007,
+          0.9054054067567566,
+          0.46341463459349597
+        ],
+        "confidence": 1,
+        "text": "Buffered ouput !"
+      },
+      {
+        "bbox": [
+          0.1250000008445946,
+          0.5902439021951219,
+          0.20945946030405405,
+          0.6243902436585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- 250 g"
+      },
+      {
+        "bbox": [
+          0.2600629536496097,
+          0.7165451837624118,
+          0.3953424544562635,
+          0.756625547338417
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "500 jA 250"
+      },
+      {
+        "bbox": [
+          0.5979729695945948,
+          0.8780487807317073,
+          0.9358108074324326,
+          0.912195122195122
+        ],
+        "confidence": 1,
+        "text": "Ref. Nordholt, CAS 90, 175-182"
+      },
+      {
+        "bbox": [
+          0.7263513542477996,
+          0.9512195124390244,
+          0.9391891791981468,
+          0.9853658539024389
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2240"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Another bipolar crystal oscillator is shown in this slide.",
+      "pdf_page": 686,
+      "printed_page": 697,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0686_02_2240.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The amplitude is limited by the Base-Emitter diodes of the cross-coupled transistor pair.",
+        "pdf_page": 686,
+        "printed_page": 697,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The amplitude is limited by the Base-Emitter diodes of the cross-coupled transistor pair.",
+      "pdf_page": 686,
+      "printed_page": 697,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

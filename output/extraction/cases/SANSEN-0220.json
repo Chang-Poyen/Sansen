@@ -1,0 +1,411 @@
+{
+  "case_id": "SANSEN-0220",
+  "slide_id": "0220",
+  "chapter": 2,
+  "slide_number_in_chapter": 20,
+  "source": {
+    "pdf_page": 59,
+    "printed_page": 60
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0059_02_0220.jpg",
+      "pdf_page": 59,
+      "printed_page": 60,
+      "bbox_pt": [
+        91.52162,
+        361.68698,
+        374.78981,
+        558.14697
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 59,
+      "printed_page": 60,
+      "bbox_pt": [
+        0,
+        357.69751,
+        595,
+        797
+      ],
+      "text_raw": "As a load for this amplifier,\na resistor can be used. In\nthis case however, the gain\nis very low, somewhere\nbetween 3 and 5, depending\non the supply voltage.\nSuitable resistors are not\nalways available. In a digital\nCMOS process, none of\nthem can provide reason-\nably large resistance values.\nThis is why many circuit\nschematics have been pro-\nposed, using MOSTs as\nloads. One of them is shown\nin this slide.\nIt uses a nMOST connected as a diode. Its small-signal resistance is thus 1/g . The gain is\nm2\nthe ratio of the transconductances. It is small but fairly accurate as it is mainly set by the ratio\nof the transistor sizes.\nIts main advantage is that no pMOSTs are used. This amplifier can achieve high bandwidths,\nalso because the output impedance is quite small!\nIts main disadvantage is that the DC output voltage is connected to the supply line over the\nV . Because of the body effect of transistor M2, this DC output voltage is not well defined.\nGS2\nThe biasing of the next stage may suffer from this.",
+      "text": "As a load for this amplifier, a resistor can be used. In this case however, the gain is very low, somewhere between 3 and 5, depending on the supply voltage. Suitable resistors are not always available. In a digital CMOS process, none of them can provide reasonably large resistance values. This is why many circuit schematics have been proposed, using MOSTs as loads. One of them is shown in this slide. It uses a nMOST connected as a diode. Its small-signal resistance is thus 1/g . The gain is m2 the ratio of the transconductances. It is small but fairly accurate as it is mainly set by the ratio of the transistor sizes. Its main advantage is that no pMOSTs are used. This amplifier can achieve high bandwidths, also because the output impedance is quite small! Its main disadvantage is that the DC output voltage is connected to the supply line over the V . Because of the body effect of transistor M2, this DC output voltage is not well defined. GS2 The biasing of the next stage may suffer from this."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As a load for this amplifier, a resistor can be used. In this case however, the gain is very low, somewhere between 3 and 5, depending on the supply voltage. Suitable resistors are not always available. In a digital CMOS process, none of them can provide reasonably large resistance values. This is why many circuit schematics have been proposed, using MOSTs as loads. One of them is shown in this slide. It uses a nMOST connected as a diode. Its small-signal resistance is thus 1/g . The gain is m2 the ratio of the transconductances. It is small but fairly accurate as it is mainly set by the ratio of the transistor sizes. Its main advantage is that no pMOSTs are used. This amplifier can achieve high bandwidths, also because the output impedance is quite small! Its main disadvantage is that the DC output voltage is connected to the supply line over the V . Because of the body effect of transistor M2, this DC output voltage is not well defined. GS2 The biasing of the next stage may suffer from this.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Wideband amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0059_02_0220.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432567567564,
+          0.0780487809407665,
+          0.43918919054054045,
+          0.14146341508710802
+        ],
+        "confidence": 1,
+        "text": "Wideband amplifier"
+      },
+      {
+        "bbox": [
+          0.32094594516891894,
+          0.23902439039024392,
+          0.39864864787162163,
+          0.30243902453658533
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.08108108074324324,
+          0.5121951215331011,
+          0.1351351347972973,
+          0.5707317068989547
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.2567567562837838,
+          0.3170731709268293,
+          0.30405405358108106,
+          0.35609756117073177
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.2567567561486486,
+          0.3999999995121952,
+          0.3243243237162162,
+          0.4487804873170732
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.2601351355405405,
+          0.5073170736585367,
+          0.30743243283783783,
+          0.5560975614634147
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.4662162165962838,
+          0.3073170724390244,
+          0.8209459463260135,
+          0.365853657804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT = VDD - VGs2(VouT)"
+      },
+      {
+        "bbox": [
+          0.46621621652027034,
+          0.5268292674146341,
+          0.6114864867905406,
+          0.6146341454634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avo = 9m1"
+      },
+      {
+        "bbox": [
+          0.6114864861064189,
+          0.56097561,
+          0.6418918915118244,
+          0.5902439026829268
+        ],
+        "confidence": 0.5,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.5506756751689189,
+          0.5951219507317074,
+          0.614864864358108,
+          0.6439024385365854
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.4692361332543687,
+          0.7388969273911044,
+          0.6625206190455493,
+          0.802566485660326
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RouT = 1/9m2"
+      },
+      {
+        "bbox": [
+          0.6789694086751855,
+          0.5213509683722537,
+          0.942652212267352,
+          0.60060025269783
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(W/L) = Vos2 - VT"
+      },
+      {
+        "bbox": [
+          0.682432433445946,
+          0.5902439031707316,
+          0.7702702712837838,
+          0.6487804885365854
+        ],
+        "confidence": 0.5,
+        "text": "(W/L)2"
+      },
+      {
+        "bbox": [
+          0.8070544212644141,
+          0.5931990252045728,
+          0.9463239536485133,
+          0.6555814673998138
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGS1 - VT"
+      },
+      {
+        "bbox": [
+          0.7162162185388514,
+          0.926829267682927,
+          0.9358108131334459,
+          0.9756097554878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10.0s 0220"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "One of them is shown in this slide.",
+      "pdf_page": 59,
+      "printed_page": 60,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0059_02_0220.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It uses a nMOST connected as a diode.",
+        "pdf_page": 59,
+        "printed_page": 60,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Its main disadvantage is that the DC output voltage is connected to the supply line over the V .",
+        "pdf_page": 59,
+        "printed_page": 60,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In this case however, the gain is very low, somewhere between 3 and 5, depending on the supply voltage.",
+      "pdf_page": 59,
+      "printed_page": 60,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its small-signal resistance is thus 1/g .",
+      "pdf_page": 59,
+      "printed_page": 60,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain is m2 the ratio of the transconductances.",
+      "pdf_page": 59,
+      "printed_page": 60,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0220-M01",
+      "ocr_text": "VouT = VDD - VGs2(VouT)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4662162165962838,
+        0.3073170724390244,
+        0.8209459463260135,
+        0.365853657804878
+      ],
+      "context_crop": "regions/SANSEN-0220_math_01.png",
+      "context_bbox_normalized": [
+        0.42621621659628384,
+        0.2073170724390244,
+        1,
+        0.495853657804878
+      ],
+      "source_image": "slides/p0059_02_0220.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0220-M02",
+      "ocr_text": "Avo = 9m1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.46621621652027034,
+        0.5268292674146341,
+        0.6114864867905406,
+        0.6146341454634147
+      ],
+      "context_crop": "regions/SANSEN-0220_math_02.png",
+      "context_bbox_normalized": [
+        0.42621621652027036,
+        0.4268292674146341,
+        0.8414864867905406,
+        0.7446341454634147
+      ],
+      "source_image": "slides/p0059_02_0220.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0220-M03",
+      "ocr_text": "=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6114864861064189,
+        0.56097561,
+        0.6418918915118244,
+        0.5902439026829268
+      ],
+      "context_crop": "regions/SANSEN-0220_math_03.png",
+      "context_bbox_normalized": [
+        0.5714864861064188,
+        0.46097561,
+        0.8718918915118243,
+        0.7202439026829268
+      ],
+      "source_image": "slides/p0059_02_0220.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0220-M04",
+      "ocr_text": "RouT = 1/9m2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4692361332543687,
+        0.7388969273911044,
+        0.6625206190455493,
+        0.802566485660326
+      ],
+      "context_crop": "regions/SANSEN-0220_math_04.png",
+      "context_bbox_normalized": [
+        0.4292361332543687,
+        0.6388969273911044,
+        0.8925206190455492,
+        0.93
+      ],
+      "source_image": "slides/p0059_02_0220.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0220-M05",
+      "ocr_text": "(W/L) = Vos2 - VT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6789694086751855,
+        0.5213509683722537,
+        0.942652212267352,
+        0.60060025269783
+      ],
+      "context_crop": "regions/SANSEN-0220_math_05.png",
+      "context_bbox_normalized": [
+        0.6389694086751855,
+        0.4213509683722537,
+        1,
+        0.73060025269783
+      ],
+      "source_image": "slides/p0059_02_0220.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "05-diode-loads",
+    "title": "二极管连接与有源负载",
+    "summary_zh": "由负载的小信号导纳推导增益、带宽、体效应与 DC 平衡限制。",
+    "html": "../derivations/ch02/05-diode-loads.html",
+    "markdown": "../derivations/ch02/05-diode-loads.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "二极管连接与有源负载",
+    "case_ids": [
+      "diode_z",
+      "diode_load",
+      "mos_diode_load"
+    ],
+    "linear_count": 2,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#05-diode-loads",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

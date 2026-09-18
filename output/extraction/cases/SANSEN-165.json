@@ -1,0 +1,444 @@
+{
+  "case_id": "SANSEN-165",
+  "slide_id": "165",
+  "chapter": 16,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 449,
+    "printed_page": 458
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0450_01_165.jpg",
+      "pdf_page": 450,
+      "printed_page": 459,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 449,
+      "printed_page": 458,
+      "bbox_pt": [
+        0,
+        618.7805000000001,
+        595,
+        797
+      ],
+      "text_raw": "A bandgap reference voltage uses a bipolar transistor, connected as a diode. Its current-voltage\nexpression is then quite accurately given by the exponential. A real pn-junction may have a\ncoefficient of 1.05–1.1 in front of the kT/q; a bipolar-transistor connected as a diode does not.\nFor a constant-current drive, this diode exhibits a large dependence on temperature. It is\nabout −2 mV/°C. We intend to reduce this value to less than 1/1000th!",
+      "text": "A bandgap reference voltage uses a bipolar transistor, connected as a diode. Its current-voltage expression is then quite accurately given by the exponential. A real pn-junction may have a coefficient of 1.05–1.1 in front of the kT/q; a bipolar-transistor connected as a diode does not. For a constant-current drive, this diode exhibits a large dependence on temperature. It is about −2 mV/°C. We intend to reduce this value to less than 1/1000th!"
+    },
+    {
+      "pdf_page": 450,
+      "printed_page": 459,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        404.5330000000002
+      ],
+      "text_raw": "In order to do so we need\nan expression of the current\nin which the temperature is\nshown explicitly. The volt-\nage V is the diode voltage\ng0\nat zero absolute temper-\nature (Kelvin). It depends\non temperature by itself.\nThe values are given for a\nreference temperature T of\nr\n323 K or 50°C. This has\nbeen chosen to be the\nmiddle of the temperature\nrange of interest. This is\nfrom 0 to 100°C.\nFor this range, the values\ngiven in this slide are good\nempirical approximations. Parameter g is about 4. Then the actual value of V is about 1.156 V\ng0\n(kT /q is about 28 mV).\nr\nIf we want the current to be dependent on the temperature by exponent m, then the base-\nemitter voltage V can be written as shown in this slide. A linear dependence on the temperature\nBE\nemerges with slope l, and a correction factor c(T), called the curvature.",
+      "text": "In order to do so we need an expression of the current in which the temperature is shown explicitly. The voltage V is the diode voltage g0 at zero absolute temperature (Kelvin). It depends on temperature by itself. The values are given for a reference temperature T of r 323 K or 50°C. This has been chosen to be the middle of the temperature range of interest. This is from 0 to 100°C. For this range, the values given in this slide are good empirical approximations. Parameter g is about 4. Then the actual value of V is about 1.156 V g0 (kT /q is about 28 mV). r If we want the current to be dependent on the temperature by exponent m, then the baseemitter voltage V can be written as shown in this slide. A linear dependence on the temperature BE emerges with slope l, and a correction factor c(T), called the curvature."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A bandgap reference voltage uses a bipolar transistor, connected as a diode. Its current-voltage expression is then quite accurately given by the exponential. A real pn-junction may have a coefficient of 1.05–1.1 in front of the kT/q; a bipolar-transistor connected as a diode does not. For a constant-current drive, this diode exhibits a large dependence on temperature. It is about −2 mV/°C. We intend to reduce this value to less than 1/1000th!\n\nIn order to do so we need an expression of the current in which the temperature is shown explicitly. The voltage V is the diode voltage g0 at zero absolute temperature (Kelvin). It depends on temperature by itself. The values are given for a reference temperature T of r 323 K or 50°C. This has been chosen to be the middle of the temperature range of interest. This is from 0 to 100°C. For this range, the values given in this slide are good empirical approximations. Parameter g is about 4. Then the actual value of V is about 1.156 V g0 (kT /q is about 28 mV). r If we want the current to be dependent on the temperature by exponent m, then the baseemitter voltage V can be written as shown in this slide. A linear dependence on the temperature BE emerges with slope l, and a correction factor c(T), called the curvature.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Bipolar transistor equations",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0450_01_165.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269653716232,
+          0.08780487817073168,
+          0.5709459397804055,
+          0.1463414635365854
+        ],
+        "confidence": 1,
+        "text": "Bipolar transistor equations"
+      },
+      {
+        "bbox": [
+          0.1959459463260135,
+          0.3707317070731708,
+          0.22635135173141893,
+          0.4097560973170732
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.1993243235219595,
+          0.4439024392073171,
+          0.2635135127111487,
+          0.4975609757926829
+        ],
+        "confidence": 0.5,
+        "text": "VBE"
+      },
+      {
+        "bbox": [
+          0.22292664075540858,
+          0.5118958593850426,
+          0.35815443694912424,
+          0.5563968244104094
+        ],
+        "confidence": 0.5,
+        "text": "-2 mV/°C"
+      },
+      {
+        "bbox": [
+          0.24314667082926572,
+          0.6434240439105887,
+          0.3582046805181844,
+          0.6931613252446981
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- 2 uV/°C"
+      },
+      {
+        "bbox": [
+          0.6114864872888514,
+          0.2195121953048781,
+          0.6756756764780405,
+          0.2731707318902439
+        ],
+        "confidence": 0.5,
+        "text": "VBE"
+      },
+      {
+        "bbox": [
+          0.43222424366211876,
+          0.2570775539868332,
+          0.6083163012768319,
+          0.31365415254967854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ic = lg exp ("
+      },
+      {
+        "bbox": [
+          0.6452702705236486,
+          0.25853658487804876,
+          0.692567567820946,
+          0.29756097512195123
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-)"
+      },
+      {
+        "bbox": [
+          0.608108108643018,
+          0.2878048785365853,
+          0.679054054588964,
+          0.3463414639024389
+        ],
+        "confidence": 1,
+        "text": "kT/q"
+      },
+      {
+        "bbox": [
+          0.38513513332528965,
+          0.41463414655052255,
+          0.638513511703668,
+          0.46341463435540065
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "or /c = СТ\" еxр ("
+      },
+      {
+        "bbox": [
+          0.6418918910285285,
+          0.3707317073441735,
+          0.7972972964339339,
+          0.46341463417344175
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VBE - Ygo,"
+      },
+      {
+        "bbox": [
+          0.6722972967905405,
+          0.4439024391986064,
+          0.7432432427364865,
+          0.4975609757839722
+        ],
+        "confidence": 1,
+        "text": "kT/q"
+      },
+      {
+        "bbox": [
+          0.4425675651604731,
+          0.5609756105487804,
+          0.8445945921875001,
+          0.6243902446951218
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "with Vgo = 1268 mV - n kT,/q"
+      },
+      {
+        "bbox": [
+          0.4423679942977334,
+          0.6519533336467204,
+          0.6758752537697298,
+          0.7139003234970205
+        ],
+        "confidence": 0.5,
+        "text": "and T, = 323 K"
+      },
+      {
+        "bbox": [
+          0.18581080664414423,
+          0.7707317074796748,
+          0.6858108066441442,
+          0.8292682928455284
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "which gives VBE = Vgoo-2T + c(T)"
+      },
+      {
+        "bbox": [
+          0.7432432411739865,
+          0.7707317073780489,
+          0.908783781714527,
+          0.8243902439634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "for Ic ~ Tm"
+      },
+      {
+        "bbox": [
+          0.7094594639324843,
+          0.94634146398374,
+          0.9155405321260746,
+          0.9804878054471545
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 165"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In order to do so we need an expression of the current in which the temperature is shown explicitly.",
+      "pdf_page": 450,
+      "printed_page": 459,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Then the actual value of V is about 1.156 V g0 (kT /q is about 28 mV). r If we want the current to be dependent on the temperature by exponent m, then the baseemitter voltage V can be written as shown in this slide.",
+      "pdf_page": 450,
+      "printed_page": 459,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0450_01_165.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A bandgap reference voltage uses a bipolar transistor, connected as a diode.",
+        "pdf_page": 449,
+        "printed_page": 458,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "A real pn-junction may have a coefficient of 1.05–1.1 in front of the kT/q; a bipolar-transistor connected as a diode does not.",
+        "pdf_page": 449,
+        "printed_page": 458,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For a constant-current drive, this diode exhibits a large dependence on temperature.",
+      "pdf_page": 449,
+      "printed_page": 458,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It depends on temperature by itself.",
+      "pdf_page": 450,
+      "printed_page": 459,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Then the actual value of V is about 1.156 V g0 (kT /q is about 28 mV). r If we want the current to be dependent on the temperature by exponent m, then the baseemitter voltage V can be written as shown in this slide.",
+      "pdf_page": 450,
+      "printed_page": 459,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A linear dependence on the temperature BE emerges with slope l, and a correction factor c(T), called the curvature.",
+      "pdf_page": 450,
+      "printed_page": 459,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "A linear dependence on the temperature BE emerges with slope l, and a correction factor c(T), called the curvature.",
+      "pdf_page": 450,
+      "printed_page": 459,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "For this range, the values given in this slide are good empirical approximations.",
+      "pdf_page": 450,
+      "printed_page": 459,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-165-M01",
+      "ocr_text": "Ic = lg exp (",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.43222424366211876,
+        0.2570775539868332,
+        0.6083163012768319,
+        0.31365415254967854
+      ],
+      "context_crop": "regions/SANSEN-165_math_01.png",
+      "context_bbox_normalized": [
+        0.3922242436621188,
+        0.15707755398683318,
+        0.8383163012768319,
+        0.44365415254967855
+      ],
+      "source_image": "slides/p0450_01_165.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-165-M02",
+      "ocr_text": "or /c = СТ\" еxр (",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.38513513332528965,
+        0.41463414655052255,
+        0.638513511703668,
+        0.46341463435540065
+      ],
+      "context_crop": "regions/SANSEN-165_math_02.png",
+      "context_bbox_normalized": [
+        0.34513513332528967,
+        0.3146341465505226,
+        0.868513511703668,
+        0.5934146343554006
+      ],
+      "source_image": "slides/p0450_01_165.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-165-M03",
+      "ocr_text": "with Vgo = 1268 mV - n kT,/q",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4425675651604731,
+        0.5609756105487804,
+        0.8445945921875001,
+        0.6243902446951218
+      ],
+      "context_crop": "regions/SANSEN-165_math_03.png",
+      "context_bbox_normalized": [
+        0.4025675651604731,
+        0.46097561054878045,
+        1,
+        0.7543902446951218
+      ],
+      "source_image": "slides/p0450_01_165.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-165-M04",
+      "ocr_text": "and T, = 323 K",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.4423679942977334,
+        0.6519533336467204,
+        0.6758752537697298,
+        0.7139003234970205
+      ],
+      "context_crop": "regions/SANSEN-165_math_04.png",
+      "context_bbox_normalized": [
+        0.4023679942977334,
+        0.5519533336467204,
+        0.9058752537697298,
+        0.8439003234970205
+      ],
+      "source_image": "slides/p0450_01_165.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-165-M05",
+      "ocr_text": "which gives VBE = Vgoo-2T + c(T)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.18581080664414423,
+        0.7707317074796748,
+        0.6858108066441442,
+        0.8292682928455284
+      ],
+      "context_crop": "regions/SANSEN-165_math_05.png",
+      "context_bbox_normalized": [
+        0.14581080664414423,
+        0.6707317074796748,
+        0.9158108066441442,
+        0.93
+      ],
+      "source_image": "slides/p0450_01_165.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

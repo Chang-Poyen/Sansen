@@ -1,0 +1,60 @@
+Amplifiers, source followers and cascodes 69
+0237
+An nMOST source follower
+is sketched in this slide.
+Note that firstly we connect
+the Bulk contact to the
+Source. This is only possible
+in a p-well CMOS technol-
+ogy. In a n-well CMOS
+technology, which is a lot
+more prevalent, we would
+have to take a pMOS source
+follower. Otherwise we can-
+not connect the Bulk to the
+Source.
+For a DC current source
+I , the resultant V is easily
+B GS
+found from the current
+expression. The DC output
+voltage will now be the DC gate voltage V minus this V value. We can try to optimize this
+B GS
+value of V for the largest possible output swing. Quite often, a Source follower has to handle
+B
+only small signals. When used in the output stage of a power amplifier however, the optimization
+of the output swing is a definite requirement, as will be explained in Chapter 12 on class AB
+amplifiers.
+It is clear that as long as V is constant, the output follows the input for small signals. The
+GS
+gain is therefore unity.
+Moreover, substitution of the MOST by its small-signal model, readily shows that the output
+resistance is 1/g . We can usually neglect r with respect to 1/g , obviously depending on the
+m DS m
+values of V −V and channel length L.
+GS T
+0238
+In a nMOST source fol-
+lower in a n-well CMOS
+technology, the Bulk can
+never be connected to the
+Source. As a result, the
+MOST has a V voltage,
+BS
+which is actually the output
+voltage V . Consequent-
+OUT
+ly, the V is no longer con-
+GS
+stant. It receives a small-
+signal contribution, which is
+not zero.
+If we now use the expres-
+sion of the V as a function
+T
+of V (shown in this slide),
+BS
+we obtain a nonlinear
+expression of V versus V . Parameter c shows up, which represents the body effect or the
+OUT IN
+parasitic JFET.

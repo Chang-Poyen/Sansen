@@ -1,0 +1,531 @@
+{
+  "case_id": "SANSEN-1966",
+  "slide_id": "1966",
+  "chapter": 19,
+  "slide_number_in_chapter": 66,
+  "source": {
+    "pdf_page": 588,
+    "printed_page": 599
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0588_02_1966.jpg",
+      "pdf_page": 588,
+      "printed_page": 599,
+      "bbox_pt": [
+        91.52162,
+        359.69397,
+        374.78981,
+        556.15396
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 588,
+      "printed_page": 599,
+      "bbox_pt": [
+        0,
+        355.7045100000001,
+        595,
+        797
+      ],
+      "text_raw": "As a final example of fre-\nquency and Q tuning, a 7th\norder filter is discussed con-\nsisting of three biquads and\none first-order section. Such\na biquad is shown in this\nslide. Its goal is accurate fre-\nquency and phase behavior\nat high frequencies (here\n50 MHz).\nIn order to increase the\nparasitic pole frequencies as\nmuch as possible, no capaci-\ntances have been added. The\nnode capacitance C consists\nof the sum of all parasitic\nnode capacitances. In order\nto make sure that capacitance C is the same on both nodes, two dummy g blocks are added.\nm\nEach node now sees three input capacitances (of blocks g , g and g ) and three output\nm1 m2 m3\ncapacitances (also of blocks g , g and g ).\nm1 m2 m3\nFor high frequency performance, the g blocks consist of full-differential pairs with local\nm\nCMFB. They have large V −V values (0.5 V) for low distortion.\nGS T\nThe gain A , the characteristic frequency f and Q are readily obtained. Note that g * also\nv o m2\nincludes the output conductances.\nThe Q factor can be tuned by tuning factor c, which is a ratio of two transconductances. The\nfrequency f can be tuned by tuning the time constant t.\no\nTwo parameters c and constant t need a tuning system. This is discussed next.",
+      "text": "As a final example of frequency and Q tuning, a 7th order filter is discussed consisting of three biquads and one first-order section. Such a biquad is shown in this slide. Its goal is accurate frequency and phase behavior at high frequencies (here 50 MHz). In order to increase the parasitic pole frequencies as much as possible, no capacitances have been added. The node capacitance C consists of the sum of all parasitic node capacitances. In order to make sure that capacitance C is the same on both nodes, two dummy g blocks are added. m Each node now sees three input capacitances (of blocks g , g and g ) and three output m1 m2 m3 capacitances (also of blocks g , g and g ). m1 m2 m3 For high frequency performance, the g blocks consist of full-differential pairs with local m CMFB. They have large V −V values (0.5 V) for low distortion. GS T The gain A , the characteristic frequency f and Q are readily obtained. Note that g * also v o m2 includes the output conductances. The Q factor can be tuned by tuning factor c, which is a ratio of two transconductances. The frequency f can be tuned by tuning the time constant t. o Two parameters c and constant t need a tuning system. This is discussed next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As a final example of frequency and Q tuning, a 7th order filter is discussed consisting of three biquads and one first-order section. Such a biquad is shown in this slide. Its goal is accurate frequency and phase behavior at high frequencies (here 50 MHz). In order to increase the parasitic pole frequencies as much as possible, no capacitances have been added. The node capacitance C consists of the sum of all parasitic node capacitances. In order to make sure that capacitance C is the same on both nodes, two dummy g blocks are added. m Each node now sees three input capacitances (of blocks g , g and g ) and three output m1 m2 m3 capacitances (also of blocks g , g and g ). m1 m2 m3 For high frequency performance, the g blocks consist of full-differential pairs with local m CMFB. They have large V −V values (0.5 V) for low distortion. GS T The gain A , the characteristic frequency f and Q are readily obtained. Note that g * also v o m2 includes the output conductances. The Q factor can be tuned by tuning factor c, which is a ratio of two transconductances. The frequency f can be tuned by tuning the time constant t. o Two parameters c and constant t need a tuning system. This is discussed next.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Biquad for 7th-order Filter at 50 MHz Next Stage)",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0588_02_1966.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770271119087815,
+          0.0829268290243903,
+          0.7567567652449322,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Biquad for 7th-order Filter at 50 MHz"
+      },
+      {
+        "bbox": [
+          0.2837837826858108,
+          0.18048780506097561,
+          0.37162162052364867,
+          0.20487804896341466
+        ],
+        "confidence": 0.5,
+        "text": "Next Stage)"
+      },
+      {
+        "bbox": [
+          0.2837837844031531,
+          0.24878048822378518,
+          0.3209459465653153,
+          0.26829268218271896
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "8ma"
+      },
+      {
+        "bbox": [
+          0.27364864947129675,
+          0.26829268252032523,
+          0.3277027003034781,
+          0.2926829264227643
+        ],
+        "confidence": 1,
+        "text": "dummy"
+      },
+      {
+        "bbox": [
+          0.7263513518018019,
+          0.2146341471544715,
+          0.8817567572072073,
+          0.2634146349593496
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C = ECparasitic"
+      },
+      {
+        "bbox": [
+          0.7229141852465754,
+          0.2629728310004288,
+          0.9324912172842588,
+          0.32239302585888674
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m2* = 9m2 + [g."
+      },
+      {
+        "bbox": [
+          0.06756756717342344,
+          0.37073170682926837,
+          0.09797297257882884,
+          0.3999999995121952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.13513513555743242,
+          0.3756097559146341,
+          0.16891891934121622,
+          0.3999999998170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "gm3"
+      },
+      {
+        "bbox": [
+          0.7060810815878379,
+          0.3853658534756097,
+          0.7466216221283783,
+          0.40975609737804874
+        ],
+        "confidence": 0.5,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.22972972953265763,
+          0.4634146343495935,
+          0.25337837818130626,
+          0.4975609758130082
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C"
+      },
+      {
+        "bbox": [
+          0.6081081074887388,
+          0.5170731709756098,
+          0.645270269650901,
+          0.5414634148780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Sm2"
+      },
+      {
+        "bbox": [
+          0.7736486470720721,
+          0.556097561300813,
+          0.8682432416666668,
+          0.5853658539837399
+        ],
+        "confidence": 0.5,
+        "text": "(Next Stage)"
+      },
+      {
+        "bbox": [
+          0.820945945213964,
+          0.6585365849593496,
+          0.9155405398085587,
+          0.7073170727642276
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V(y2+1)"
+      },
+      {
+        "bbox": [
+          0.06756756368243252,
+          0.8048780494512194,
+          0.4797297258445947,
+          0.8585365860365853
+        ],
+        "confidence": 0.5,
+        "text": "Biquad with matched nodes"
+      },
+      {
+        "bbox": [
+          0.07094595092905398,
+          0.8829268289634146,
+          0.4695945995777026,
+          0.9170731704268291
+        ],
+        "confidence": 1,
+        "text": "Ref. Dehaene JSSC July 97, 977-988"
+      },
+      {
+        "bbox": [
+          0.6114864870270271,
+          0.6682926827804877,
+          0.6655405410810811,
+          0.712195121804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m3"
+      },
+      {
+        "bbox": [
+          0.5101351358952703,
+          0.6975609752439025,
+          0.5709459467060811,
+          0.7463414630487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,="
+      },
+      {
+        "bbox": [
+          0.5743243244256757,
+          0.7219512189268293,
+          0.6993243244256757,
+          0.780487804292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1 (r2+1)"
+      },
+      {
+        "bbox": [
+          0.5807907067796654,
+          0.7984328833619152,
+          0.7165065909110196,
+          0.8552256543059058
+        ],
+        "confidence": 0.5,
+        "text": "1 V(7+1)"
+      },
+      {
+        "bbox": [
+          0.5101351346283783,
+          0.8341463407926829,
+          0.5641891886824324,
+          0.8878048773780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f.="
+      },
+      {
+        "bbox": [
+          0.5706463237321302,
+          0.8762264847651722,
+          0.6658401608721878,
+          0.9140174182346189
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2AT Y"
+      },
+      {
+        "bbox": [
+          0.7601351356081081,
+          0.6975609753658536,
+          0.8074324329054055,
+          0.7317073168292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Q="
+      },
+      {
+        "bbox": [
+          0.7263513512246622,
+          0.8439024393902439,
+          0.7635135133868243,
+          0.8731707320731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T ="
+      },
+      {
+        "bbox": [
+          0.7770270273648648,
+          0.8097560973170732,
+          0.8040540543918919,
+          0.8487804875609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C"
+      },
+      {
+        "bbox": [
+          0.7635135129645271,
+          0.8731707311585366,
+          0.8141891886402027,
+          0.9170731701829268
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.8750000003800674,
+          0.8097560969512195,
+          0.9324324328124998,
+          0.8585365847560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m2\""
+      },
+      {
+        "bbox": [
+          0.8750000024555309,
+          0.8731707328703345,
+          0.9256756749093338,
+          0.9121951207882021
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.7263513492229731,
+          0.9560975611707317,
+          0.9391891870608109,
+          0.9853658538536586
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1966"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Such a biquad is shown in this slide.",
+      "pdf_page": 588,
+      "printed_page": 599,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0588_02_1966.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In order to increase the parasitic pole frequencies as much as possible, no capacitances have been added.",
+      "pdf_page": 588,
+      "printed_page": 599,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS T The gain A , the characteristic frequency f and Q are readily obtained.",
+      "pdf_page": 588,
+      "printed_page": 599,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Its goal is accurate frequency and phase behavior at high frequencies (here 50 MHz).",
+      "pdf_page": 588,
+      "printed_page": 599,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS T The gain A , the characteristic frequency f and Q are readily obtained.",
+      "pdf_page": 588,
+      "printed_page": 599,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1966-M01",
+      "ocr_text": "C = ECparasitic",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7263513518018019,
+        0.2146341471544715,
+        0.8817567572072073,
+        0.2634146349593496
+      ],
+      "context_crop": "regions/SANSEN-1966_math_01.png",
+      "context_bbox_normalized": [
+        0.6863513518018018,
+        0.13,
+        1,
+        0.3934146349593496
+      ],
+      "source_image": "slides/p0588_02_1966.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1966-M02",
+      "ocr_text": "9m2* = 9m2 + [g.",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7229141852465754,
+        0.2629728310004288,
+        0.9324912172842588,
+        0.32239302585888674
+      ],
+      "context_crop": "regions/SANSEN-1966_math_02.png",
+      "context_bbox_normalized": [
+        0.6829141852465753,
+        0.16297283100042878,
+        1,
+        0.45239302585888674
+      ],
+      "source_image": "slides/p0588_02_1966.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1966-M03",
+      "ocr_text": "A,=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5101351358952703,
+        0.6975609752439025,
+        0.5709459467060811,
+        0.7463414630487805
+      ],
+      "context_crop": "regions/SANSEN-1966_math_03.png",
+      "context_bbox_normalized": [
+        0.4701351358952703,
+        0.5975609752439025,
+        0.8009459467060811,
+        0.8763414630487805
+      ],
+      "source_image": "slides/p0588_02_1966.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1966-M04",
+      "ocr_text": "f.=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5101351346283783,
+        0.8341463407926829,
+        0.5641891886824324,
+        0.8878048773780488
+      ],
+      "context_crop": "regions/SANSEN-1966_math_04.png",
+      "context_bbox_normalized": [
+        0.47013513462837836,
+        0.7341463407926829,
+        0.7941891886824324,
+        0.93
+      ],
+      "source_image": "slides/p0588_02_1966.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1966-M05",
+      "ocr_text": "Q=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7601351356081081,
+        0.6975609753658536,
+        0.8074324329054055,
+        0.7317073168292683
+      ],
+      "context_crop": "regions/SANSEN-1966_math_05.png",
+      "context_bbox_normalized": [
+        0.720135135608108,
+        0.5975609753658536,
+        1,
+        0.8617073168292683
+      ],
+      "source_image": "slides/p0588_02_1966.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1966-M06",
+      "ocr_text": "T =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7263513512246622,
+        0.8439024393902439,
+        0.7635135133868243,
+        0.8731707320731708
+      ],
+      "context_crop": "regions/SANSEN-1966_math_06.png",
+      "context_bbox_normalized": [
+        0.6863513512246622,
+        0.7439024393902439,
+        0.9935135133868243,
+        0.93
+      ],
+      "source_image": "slides/p0588_02_1966.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

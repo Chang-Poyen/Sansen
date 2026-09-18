@@ -1,0 +1,49 @@
+492 Chapter #17
+1715
+In order to be able to switch
+in a larger input voltage, a
+second transistor must be
+added, which is a PMOST.
+It is driven by the opposite
+clock phase. This is the
+lowest voltage available,
+which is usually ground.
+The nMOST will conduct
+for lower input voltages,
+whereas the pMOST will
+conduct for larger input
+voltages. This parallel con-
+nection will thus always
+have a low R over the
+on
+whole range of input volt-
+ages, from zero to supply voltage V .
+DD
+This double switch, also called transmission gate, is a good solution for large input voltages.
+However, it does not work for small supply voltages.
+For small supply voltages, none of the two MOSTs can conduct. For example, if the minimum
+voltage V is taken to be the same as the threshold voltage V , or 0.7 V, then the minimum
+GS T
+supply voltage is about 1.4 V.
+1716
+For a large input voltage,
+the total on-resistance is
+the parallel combination of
+both. These values of R
+on
+have been calculated for the
+same data as before.
+It is clear that the maxi-
+mum value of R is about
+on
+8 kV, whatever the input
+signal is, between zero and
+3 V. For small input volt-
+ages, the R is even less
+on
+than 2 kV.
+In most cases, the
+designer knows what the
+input range will be. It covers
+the whole supply voltage range. In most cases, it is sufficient to take one switch only, a nMOST
+one for low input voltages or a pMOST one for high input voltages.

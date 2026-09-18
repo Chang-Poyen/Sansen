@@ -1,0 +1,454 @@
+{
+  "case_id": "SANSEN-189",
+  "slide_id": "189",
+  "chapter": 18,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 513,
+    "printed_page": 523
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0513_01_189.jpg",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 513,
+      "printed_page": 523,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        391.5786096500001
+      ],
+      "text_raw": "For any nonlinear transfer\ncurve, the coefficient a , a ,\n0 1\na , a , ... can easily be found\n2 3\nby taking derivatives.\nCoefficient a is simply\n0\nthe DC value, which is\nreached for zero small signal\ninput level u.\nCoefficient a is clearly\n1\nthe first derivative of the\noutput signal y with respect\nto the input signal u.\nThe other coefficients\nare obtained as indicated.\nCorrections have to be\nmade for the coefficients\nappearing during the derivation. It is clear that for coefficient a for example, the transfer curve\n3\nmust be sufficiently smooth. Several MOST models were not that smooth at the cross-over\npoints, prohibiting the calculation of coefficient a .\n3",
+      "text": "For any nonlinear transfer curve, the coefficient a , a , 0 1 a , a , ... can easily be found 2 3 by taking derivatives. Coefficient a is simply 0 the DC value, which is reached for zero small signal input level u. Coefficient a is clearly 1 the first derivative of the output signal y with respect to the input signal u. The other coefficients are obtained as indicated. Corrections have to be made for the coefficients appearing during the derivation. It is clear that for coefficient a for example, the transfer curve 3 must be sufficiently smooth. Several MOST models were not that smooth at the cross-over points, prohibiting the calculation of coefficient a . 3"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For any nonlinear transfer curve, the coefficient a , a , 0 1 a , a , ... can easily be found 2 3 by taking derivatives. Coefficient a is simply 0 the DC value, which is reached for zero small signal input level u. Coefficient a is clearly 1 the first derivative of the output signal y with respect to the input signal u. The other coefficients are obtained as indicated. Corrections have to be made for the coefficients appearing during the derivation. It is clear that for coefficient a for example, the transfer curve 3 must be sufficiently smooth. Several MOST models were not that smooth at the cross-over points, prohibiting the calculation of coefficient a . 3",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "How to find ao, a1, a2, a3,...",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0513_01_189.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626954802268,
+          0.07804877995934956,
+          0.5559322017514126,
+          0.14146341410569108
+        ],
+        "confidence": 0.5,
+        "text": "How to find ao, a1, a2, a3,..."
+      },
+      {
+        "bbox": [
+          0.08474576692090391,
+          0.22439024386178863,
+          0.5898305126836159,
+          0.29756097556910577
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "y = ag+ a,u+azu?+ azus+..."
+      },
+      {
+        "bbox": [
+          0.1084745754479419,
+          0.3804878050871081,
+          0.22372881273607748,
+          0.44878048801393733
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ao = y"
+      },
+      {
+        "bbox": [
+          0.20338983101694916,
+          0.4341463409756098,
+          0.3016949157627119,
+          0.48292682878048776
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1u = 0"
+      },
+      {
+        "bbox": [
+          0.5118644074011299,
+          0.38536585321138217,
+          0.5864406785875707,
+          0.4487804873577236
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a1 ="
+      },
+      {
+        "bbox": [
+          0.6033898301694914,
+          0.33658536524390237,
+          0.6576271183050847,
+          0.4097560969512195
+        ],
+        "confidence": 1,
+        "text": "dy"
+      },
+      {
+        "bbox": [
+          0.6033898301937046,
+          0.41951219473867596,
+          0.6542372878208232,
+          0.47317073132404186
+        ],
+        "confidence": 1,
+        "text": "du"
+      },
+      {
+        "bbox": [
+          0.6644067806779661,
+          0.4390243909146341,
+          0.7593220349152543,
+          0.4926829275
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "u= 0"
+      },
+      {
+        "bbox": [
+          0.18644067888135593,
+          0.6536585372682927,
+          0.31186440769491525,
+          0.7219512201951219
+        ],
+        "confidence": 0.5,
+        "text": "1 d'y"
+      },
+      {
+        "bbox": [
+          0.11186440683615817,
+          0.7024390248780488,
+          0.18644067802259884,
+          0.7609756102439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a2="
+      },
+      {
+        "bbox": [
+          0.1864406783898305,
+          0.7317073169512194,
+          0.22033898347457628,
+          0.7804878047560975
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.22372881131355937,
+          0.7414634148780487,
+          0.4033898282627119,
+          0.8000000002439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "du? u= 0"
+      },
+      {
+        "bbox": [
+          0.5118644071912833,
+          0.6634146334494774,
+          0.6169491529539951,
+          0.7609756090592334
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ag = 1"
+      },
+      {
+        "bbox": [
+          0.6406779659806295,
+          0.6487804873170732,
+          0.7050847456416465,
+          0.7170731702439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "d'y"
+      },
+      {
+        "bbox": [
+          0.6439948380169063,
+          0.7361873153617883,
+          0.810242448335365,
+          0.8003980489150466
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dưl u = 0"
+      },
+      {
+        "bbox": [
+          0.7186440703813559,
+          0.9365853655487804,
+          0.9254237313983051,
+          0.970731707012195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 100s 189"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0513_01_189.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "For any nonlinear transfer curve, the coefficient a , a , 0 1 a , a , ... can easily be found 2 3 by taking derivatives.",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is clear that for coefficient a for example, the transfer curve 3 must be sufficiently smooth.",
+      "pdf_page": 513,
+      "printed_page": 523,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-189-M01",
+      "ocr_text": "y = ag+ a,u+azu?+ azus+...",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08474576692090391,
+        0.22439024386178863,
+        0.5898305126836159,
+        0.29756097556910577
+      ],
+      "context_crop": "regions/SANSEN-189_math_01.png",
+      "context_bbox_normalized": [
+        0.04474576692090391,
+        0.13,
+        0.8198305126836158,
+        0.4275609755691058
+      ],
+      "source_image": "slides/p0513_01_189.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-189-M02",
+      "ocr_text": "ao = y",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.1084745754479419,
+        0.3804878050871081,
+        0.22372881273607748,
+        0.44878048801393733
+      ],
+      "context_crop": "regions/SANSEN-189_math_02.png",
+      "context_bbox_normalized": [
+        0.06847457544794189,
+        0.28048780508710813,
+        0.45372881273607746,
+        0.5787804880139373
+      ],
+      "source_image": "slides/p0513_01_189.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-189-M03",
+      "ocr_text": "1u = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.20338983101694916,
+        0.4341463409756098,
+        0.3016949157627119,
+        0.48292682878048776
+      ],
+      "context_crop": "regions/SANSEN-189_math_03.png",
+      "context_bbox_normalized": [
+        0.16338983101694915,
+        0.3341463409756098,
+        0.5316949157627119,
+        0.6129268287804878
+      ],
+      "source_image": "slides/p0513_01_189.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-189-M04",
+      "ocr_text": "a1 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5118644074011299,
+        0.38536585321138217,
+        0.5864406785875707,
+        0.4487804873577236
+      ],
+      "context_crop": "regions/SANSEN-189_math_04.png",
+      "context_bbox_normalized": [
+        0.47186440740112995,
+        0.2853658532113822,
+        0.8164406785875706,
+        0.5787804873577236
+      ],
+      "source_image": "slides/p0513_01_189.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-189-M05",
+      "ocr_text": "u= 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6644067806779661,
+        0.4390243909146341,
+        0.7593220349152543,
+        0.4926829275
+      ],
+      "context_crop": "regions/SANSEN-189_math_05.png",
+      "context_bbox_normalized": [
+        0.6244067806779661,
+        0.3390243909146341,
+        0.9893220349152543,
+        0.6226829275
+      ],
+      "source_image": "slides/p0513_01_189.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-189-M06",
+      "ocr_text": "a2=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11186440683615817,
+        0.7024390248780488,
+        0.18644067802259884,
+        0.7609756102439024
+      ],
+      "context_crop": "regions/SANSEN-189_math_06.png",
+      "context_bbox_normalized": [
+        0.07186440683615816,
+        0.6024390248780488,
+        0.4164406780225989,
+        0.8909756102439024
+      ],
+      "source_image": "slides/p0513_01_189.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-189-M07",
+      "ocr_text": "du? u= 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.22372881131355937,
+        0.7414634148780487,
+        0.4033898282627119,
+        0.8000000002439024
+      ],
+      "context_crop": "regions/SANSEN-189_math_07.png",
+      "context_bbox_normalized": [
+        0.18372881131355936,
+        0.6414634148780487,
+        0.633389828262712,
+        0.93
+      ],
+      "source_image": "slides/p0513_01_189.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-189-M08",
+      "ocr_text": "ag = 1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5118644071912833,
+        0.6634146334494774,
+        0.6169491529539951,
+        0.7609756090592334
+      ],
+      "context_crop": "regions/SANSEN-189_math_08.png",
+      "context_bbox_normalized": [
+        0.47186440719128336,
+        0.5634146334494774,
+        0.8469491529539951,
+        0.8909756090592335
+      ],
+      "source_image": "slides/p0513_01_189.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-189-M09",
+      "ocr_text": "dưl u = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6439948380169063,
+        0.7361873153617883,
+        0.810242448335365,
+        0.8003980489150466
+      ],
+      "context_crop": "regions/SANSEN-189_math_09.png",
+      "context_bbox_normalized": [
+        0.6039948380169062,
+        0.6361873153617883,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0513_01_189.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

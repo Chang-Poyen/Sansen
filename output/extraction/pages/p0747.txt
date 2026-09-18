@@ -1,0 +1,48 @@
+Coupling eVects in mixed analog-digital ICs 759
+2432
+Experimental work to
+model all substrate resist-
+ances and capacitances is a
+tedious job. It is the only
+way however, to obtain real-
+istic results with simula-
+tions. In this way, the effect
+of bond wire inductances
+can be evaluated. An exam-
+ple is given in this slide.
+A cross-section is given of
+a CMOS inverter in n-well
+CMOS. Actually, this is
+twin-well CMOS as an addi-
+tional p-well is provided in
+the p-substrate for the
+nMOSTs. Both cases are considered, i.e. a highly doped substrate which can be regarded as a
+equipotential plane, and a lowly-doped substrate, which has to be modeled by horizontal resistors
+or impedances.
+The nMOST in the p-well has a p+ substrate contact, connected with the Source to ground
+over a bonding wire L . There is a horizontal resistor (or impedance) between the channel area
+b
+of the nMOST and its substrate contact. There are also two resistors (or impedances) connecting
+the channel area and the contact area to the substrate.
+Similarly, for the pMOST, a horizontal resistor (or impedance) must be included between the
+channel area and the substrate contact. Moreover, two separate capacitors are required to model
+the depletion region of the n-well on the p-substrate. One additional horizontal resistor (or
+impedance) is required to model the area between both transistors.
+All these resistors (or impedances) are distributed resistors and are therefore not easy to model.
+2433
+In order to measure the sub-
+strate noise, a wide-band
+amplifier is required, as
+shown in this slide.
+It is a single differential
+pair with output Source fol-
+lowers. The CMRR is some-
+what limited by uneven
+substrate impedances. How-
+ever, it does provide a GBW
+of 500 MHz.
+The difference is mea-
+sured between the external
+ground and the substrate.
+Both are capacitively cou-
+pled. The output voltage

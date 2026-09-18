@@ -1,0 +1,395 @@
+{
+  "case_id": "SANSEN-1324",
+  "slide_id": "1324",
+  "chapter": 13,
+  "slide_number_in_chapter": 24,
+  "source": {
+    "pdf_page": 368,
+    "printed_page": 375
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0368_01_1324.jpg",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "bbox_pt": [
+        91.52162,
+        122.52697999999998,
+        374.54215999999997,
+        318.98694
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 368,
+      "printed_page": 375,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        393.5715100000001
+      ],
+      "text_raw": "Input transistor M1 behaves\nas a cascode transistor\nindeed, for the feedback cur-\nrent. Its input resistance is\ncalculated in all possible\ncases of Source resistance R\n1\n(or current source) and all\npossible cases of load resis-\ntor R (or current source).\nL\nIt is clear that the feed-\nback current can only flow\ninto the Source if the cas-\ncode input resistance R is\nIN\nsmall (which is 1/g ). This\nm1\nis the case when a small load\nresistor R is used.\nL\nWhen a current source is used as a load then input resistance R is high. The question is,\nIN\nwhat would the output voltage of that transistor would be? We need to know, to be able to find\nthe loop gain.",
+      "text": "Input transistor M1 behaves as a cascode transistor indeed, for the feedback current. Its input resistance is calculated in all possible cases of Source resistance R 1 (or current source) and all possible cases of load resistor R (or current source). L It is clear that the feedback current can only flow into the Source if the cascode input resistance R is IN small (which is 1/g ). This m1 is the case when a small load resistor R is used. L When a current source is used as a load then input resistance R is high. The question is, IN what would the output voltage of that transistor would be? We need to know, to be able to find the loop gain."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Input transistor M1 behaves as a cascode transistor indeed, for the feedback current. Its input resistance is calculated in all possible cases of Source resistance R 1 (or current source) and all possible cases of load resistor R (or current source). L It is clear that the feedback current can only flow into the Source if the cascode input resistance R is IN small (which is 1/g ). This m1 is the case when a small load resistor R is used. L When a current source is used as a load then input resistance R is high. The question is, IN what would the output voltage of that transistor would be? We need to know, to be able to find the loop gain.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Series-shunt FB pair : series input",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0368_01_1324.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08474576768361575,
+          0.09268292650406507,
+          0.6813559371751412,
+          0.15121951186991867
+        ],
+        "confidence": 1,
+        "text": "Series-shunt FB pair : series input"
+      },
+      {
+        "bbox": [
+          0.07118644144067794,
+          0.23414634138211388,
+          0.16271186516949152,
+          0.28292682918699186
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RL< 1o"
+      },
+      {
+        "bbox": [
+          0.2745762708050848,
+          0.2292682928658536,
+          0.305084745381356,
+          0.2731707318902439
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.17966101711864405,
+          0.32195122008130084,
+          0.19661016966101694,
+          0.3560975615447154
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.2983050853559322,
+          0.3268292681951219,
+          0.35932203450847455,
+          0.375609756
+        ],
+        "confidence": 0.5,
+        "text": "1/9m"
+      },
+      {
+        "bbox": [
+          0.30847457661016947,
+          0.43414634141463404,
+          0.34237288169491525,
+          0.4780487804390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.3898305101271186,
+          0.38048780493902434,
+          0.5220338999576271,
+          0.43414634152439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN # 1/9m"
+      },
+      {
+        "bbox": [
+          0.7491525434576272,
+          0.3804878047804878,
+          0.8576271197288136,
+          0.4292682925853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = R,"
+      },
+      {
+        "bbox": [
+          0.6813559324576272,
+          0.43414634121951223,
+          0.7016949155084746,
+          0.463414633902439
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.07118644169491524,
+          0.4682926828455285,
+          0.19322034,
+          0.5170731706504065
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1 > 1/9m"
+      },
+      {
+        "bbox": [
+          0.6440677968361582,
+          0.47804878032520326,
+          0.6711864409039549,
+          0.5170731705691056
+        ],
+        "confidence": 0.5,
+        "text": "R,"
+      },
+      {
+        "bbox": [
+          0.27796610194915256,
+          0.5902439023170732,
+          0.30847457652542376,
+          0.6341463413414634
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.2983050853559322,
+          0.6829268292195122,
+          0.35932203450847455,
+          0.7268292682439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1/9mm"
+      },
+      {
+        "bbox": [
+          0.39322033932203376,
+          0.7365853650406504,
+          0.5220338986440677,
+          0.7853658528455285
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = 1/9m"
+      },
+      {
+        "bbox": [
+          0.7525423739406779,
+          0.7317073166463416,
+          0.8372881366525423,
+          0.7756097556707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = w"
+      },
+      {
+        "bbox": [
+          0.7186440676271186,
+          0.9365853658339891,
+          0.9288135591525423,
+          0.960975609736428
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sangen 10-05 1324"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Its input resistance is calculated in all possible cases of Source resistance R 1 (or current source) and all possible cases of load resistor R (or current source).",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We need to know, to be able to find the loop gain.",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0368_01_1324.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Its input resistance is calculated in all possible cases of Source resistance R 1 (or current source) and all possible cases of load resistor R (or current source).",
+        "pdf_page": 368,
+        "printed_page": 375,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "L It is clear that the feedback current can only flow into the Source if the cascode input resistance R is IN small (which is 1/g ).",
+        "pdf_page": 368,
+        "printed_page": 375,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "L When a current source is used as a load then input resistance R is high.",
+        "pdf_page": 368,
+        "printed_page": 375,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We need to know, to be able to find the loop gain.",
+      "pdf_page": 368,
+      "printed_page": 375,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1324-M01",
+      "ocr_text": "RL< 1o",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07118644144067794,
+        0.23414634138211388,
+        0.16271186516949152,
+        0.28292682918699186
+      ],
+      "context_crop": "regions/SANSEN-1324_math_01.png",
+      "context_bbox_normalized": [
+        0.03118644144067794,
+        0.13414634138211387,
+        0.3927118651694915,
+        0.41292682918699186
+      ],
+      "source_image": "slides/p0368_01_1324.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1324-M02",
+      "ocr_text": "RIN = R,",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7491525434576272,
+        0.3804878047804878,
+        0.8576271197288136,
+        0.4292682925853659
+      ],
+      "context_crop": "regions/SANSEN-1324_math_02.png",
+      "context_bbox_normalized": [
+        0.7091525434576271,
+        0.28048780478048785,
+        1,
+        0.5592682925853659
+      ],
+      "source_image": "slides/p0368_01_1324.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1324-M03",
+      "ocr_text": "R1 > 1/9m",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07118644169491524,
+        0.4682926828455285,
+        0.19322034,
+        0.5170731706504065
+      ],
+      "context_crop": "regions/SANSEN-1324_math_03.png",
+      "context_bbox_normalized": [
+        0.03118644169491524,
+        0.3682926828455285,
+        0.42322034,
+        0.6470731706504065
+      ],
+      "source_image": "slides/p0368_01_1324.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1324-M04",
+      "ocr_text": "RIN = 1/9m",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.39322033932203376,
+        0.7365853650406504,
+        0.5220338986440677,
+        0.7853658528455285
+      ],
+      "context_crop": "regions/SANSEN-1324_math_04.png",
+      "context_bbox_normalized": [
+        0.3532203393220338,
+        0.6365853650406504,
+        0.7520338986440677,
+        0.9153658528455285
+      ],
+      "source_image": "slides/p0368_01_1324.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1324-M05",
+      "ocr_text": "RIN = w",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7525423739406779,
+        0.7317073166463416,
+        0.8372881366525423,
+        0.7756097556707318
+      ],
+      "context_crop": "regions/SANSEN-1324_math_05.png",
+      "context_bbox_normalized": [
+        0.7125423739406779,
+        0.6317073166463416,
+        1,
+        0.9056097556707318
+      ],
+      "source_image": "slides/p0368_01_1324.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

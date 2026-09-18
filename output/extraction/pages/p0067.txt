@@ -1,0 +1,47 @@
+68 Chapter #2
+0235
+Up till now, only amplifiers
+have been discussed. There
+are two more functions that
+can be carried out by means
+of a single-transistor. They
+are a source-follower and a
+cascode.
+Of course we can still use
+a transistor as a switch, as
+we will do in Chapter 14 on
+Switched-capacitor filters.
+0236
+A good overview of all the
+single-transistor stages is
+given in this slide.
+The first one, the ampli-
+fier, is also called common-
+source stage. It converts an
+input voltage into an output
+current, by means of trans-
+conductance g . The bias-
+m
+ing is done by means of a
+voltage source V at the
+B
+input, which is the V .
+GS
+The other two stages are
+called respectively a Source
+follower and Cascode. They
+have the same biasing setup.
+Both are biased by a DC current source I . Their V then adjusts itself such that the current
+B GS
+can flow effectively.
+In a Source follower the small-signal input voltage is applied at the Gate. The output is at
+the Source. Since the current is kept constant by the current source, the V is also constant. As
+GS
+a result any small-signal variation at the input will give rise to an equal small-signal at the
+output. The voltage gain is therefore unity. This is why a Source follower is also called a
+Voltage buffer.
+It is a buffer because its input resistance is infinity but its output resistance is only 1/g . This
+m
+stage will now be used to transfer a voltage in an accurate way from a high impedance to a
+lower one. This is required for microphone amplifiers, biopotential preamplifiers, etc. Their
+internal impedances can be many hundreds of MV’s!

@@ -1,0 +1,38 @@
+CMOS ADC and DAC principles 623
+binary capacitor bank or a binary set of fractions of the V .
+ref
+We assume however, that the multiplication by two has an error which is smaller than an
+LSB. Some examples will be given when pipeline ADCs are discussed.
+Normally such converters are all realized in a fully-differential way, in order to improve the
+accuracy.
+2040
+The fastest ADCs are
+undoubtedly flash convert-
+ers, as shown in this slide.
+The reason is that they pro-
+cess the input voltage in par-
+allel. Only one single clock
+cycle is required. The previ-
+ous ones process the bits in
+series, and are therefore
+slower.
+A large number of input
+comparators are used to
+compare the input signal
+with a (thermometer) frac-
+tion of the reference voltage
+V . The outputs of the
+ref
+comparators generate a thermometer code, which is converted into binary code by an encoder.
+The comparators are followed by NAND gates. Their outputs are all zero except for the one
+which sees a difference at its inputs, i.e. where the thermometer code changes from zero to one.
+The main disadvantage of such an ADC is the large number of comparators required. For a
+6-bit flash converter 26 or 64 comparators are required! This is why such converters have very
+limited resolution.
+Moreover, the input voltage sees all comparators in parallel, which represents a very large
+input capacitance. It will take a lot of power to drive this converter.
+2041
+To give an idea of what flash ADC’s have been realized, a plot is given with the flash ADCs
+published in the JSSC.
+Both the 6-bit and 8-bit examples, show a trend of increasing speed, as a result of the
+availability of ever deeper submicron CMOS technologies.

@@ -1,0 +1,178 @@
+{
+  "case_id": "SANSEN-201",
+  "slide_id": "201",
+  "chapter": 20,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 592,
+    "printed_page": 603
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0592_01_201.jpg",
+      "pdf_page": 592,
+      "printed_page": 603,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 592,
+      "printed_page": 603,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        405.5295000000002
+      ],
+      "text_raw": "An important class of\nanalog circuits are analog-\nto-digital and digital-toana-\nlog converters as they pro-\nvide the conversion from the\nanalog to digital signals and\nvice-versa.\nThe number of converter\ntypes is legion however, as\nmany different resolutions\nand speeds are involved.\nThey can thus be classi-\nfied in terms of resolution\nand speed capability.\nThis chapter is limited to\nNyquist converters. The\ninput signal frequency can reach half the clock frequency. Moreover, each sample is quantized\nto full precision. In oversampling converters the input signal frequency is much lower than the\nclock frequency. Also, the precision is obtained as a result of averaging in a feedback loop. These\nwill be discussed in the next Chapter.\nHowever, a number of definitions have to be given first.",
+      "text": "An important class of analog circuits are analogto-digital and digital-toanalog converters as they provide the conversion from the analog to digital signals and vice-versa. The number of converter types is legion however, as many different resolutions and speeds are involved. They can thus be classified in terms of resolution and speed capability. This chapter is limited to Nyquist converters. The input signal frequency can reach half the clock frequency. Moreover, each sample is quantized to full precision. In oversampling converters the input signal frequency is much lower than the clock frequency. Also, the precision is obtained as a result of averaging in a feedback loop. These will be discussed in the next Chapter. However, a number of definitions have to be given first."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An important class of analog circuits are analogto-digital and digital-toanalog converters as they provide the conversion from the analog to digital signals and vice-versa. The number of converter types is legion however, as many different resolutions and speeds are involved. They can thus be classified in terms of resolution and speed capability. This chapter is limited to Nyquist converters. The input signal frequency can reach half the clock frequency. Moreover, each sample is quantized to full precision. In oversampling converters the input signal frequency is much lower than the clock frequency. Also, the precision is obtained as a result of averaging in a feedback loop. These will be discussed in the next Chapter. However, a number of definitions have to be given first.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Slide 201",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0592_01_201.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.097972969149263,
+          0.28292682951219517,
+          0.9391891853654791,
+          0.4048780490243902
+        ],
+        "confidence": 1,
+        "text": "CMOS ADC & DAC Principles"
+      },
+      {
+        "bbox": [
+          0.0498243333991518,
+          0.5398114419539605,
+          0.15523976140612303,
+          0.867285933724635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "*O OTEGNENS SRO S 5o"
+      },
+      {
+        "bbox": [
+          0.3812269037412018,
+          0.5946818573380871,
+          0.6354205447851999,
+          0.6606918975282489
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.310810810472973,
+          0.72195122,
+          0.6756756753378379,
+          0.770731707804878
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.3783783815033784,
+          0.7902439021341464,
+          0.6283783815033783,
+          0.8439024387195122
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.347972976858108,
+          0.8731707314634147,
+          0.6587837876689189,
+          0.9024390241463416
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7331081102618242,
+          0.9512195117682928,
+          0.9324324345861486,
+          0.9853658532317074
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 201"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0592_01_201.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "They can thus be classified in terms of resolution and speed capability.",
+      "pdf_page": 592,
+      "printed_page": 603,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This chapter is limited to Nyquist converters.",
+      "pdf_page": 592,
+      "printed_page": 603,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also, the precision is obtained as a result of averaging in a feedback loop.",
+      "pdf_page": 592,
+      "printed_page": 603,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

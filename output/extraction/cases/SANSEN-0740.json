@@ -1,0 +1,339 @@
+{
+  "case_id": "SANSEN-0740",
+  "slide_id": "0740",
+  "chapter": 7,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 225,
+    "printed_page": 230
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0225_02_0740.jpg",
+      "pdf_page": 225,
+      "printed_page": 230,
+      "bbox_pt": [
+        91.521622,
+        455.358002,
+        374.78981,
+        651.817993
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 225,
+      "printed_page": 230,
+      "bbox_pt": [
+        0,
+        451.3685000000001,
+        595,
+        797
+      ],
+      "text_raw": "Another transconductor\nwith high-speed capability is\nshown in this slide.\nIt is little more than a\ndifferential single-stage volt-\nage amplifier with cascodes.\nHowever, the input tran-\nsistors operate in the linear\nregion. This is achieved on\npurpose to avoid distortion,\nwhen driven with large\ninput signal levels.\nIndeed, in the linear\nregion the current is propor-\ntional to V , not to V 2.\nGS GS\nAs a result, the transcon-\nductance is constant provided V can be kept constant.\nDS\nThis is achieved by fixing the voltage across resistor R by means of a constant current I .\nD D\nObviously, the transconductance in the linear region is smaller than in saturation. Lower",
+      "text": "Another transconductor with high-speed capability is shown in this slide. It is little more than a differential single-stage voltage amplifier with cascodes. However, the input transistors operate in the linear region. This is achieved on purpose to avoid distortion, when driven with large input signal levels. Indeed, in the linear region the current is proportional to V , not to V 2. GS GS As a result, the transconductance is constant provided V can be kept constant. DS This is achieved by fixing the voltage across resistor R by means of a constant current I . D D Obviously, the transconductance in the linear region is smaller than in saturation. Lower"
+    },
+    {
+      "pdf_page": 226,
+      "printed_page": 231,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        219.18389999999977
+      ],
+      "text_raw": "distortion always goes together with lower gain though! Feedback does this too, exchanging\ngain for low distortion.\nIn order to boost the high-frequency performance, two small capacitances are added by means\nof transistors M5 and M6. They are added to compensate the input capacitances C of the\nGS\ninput transistors. They are connected to nodes at opposite polarity. For a size of about one\nthird, compensation can be achieved. This is why they are drawn smaller!",
+      "text": "distortion always goes together with lower gain though! Feedback does this too, exchanging gain for low distortion. In order to boost the high-frequency performance, two small capacitances are added by means of transistors M5 and M6. They are added to compensate the input capacitances C of the GS input transistors. They are connected to nodes at opposite polarity. For a size of about one third, compensation can be achieved. This is why they are drawn smaller!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Another transconductor with high-speed capability is shown in this slide. It is little more than a differential single-stage voltage amplifier with cascodes. However, the input transistors operate in the linear region. This is achieved on purpose to avoid distortion, when driven with large input signal levels. Indeed, in the linear region the current is proportional to V , not to V 2. GS GS As a result, the transconductance is constant provided V can be kept constant. DS This is achieved by fixing the voltage across resistor R by means of a constant current I . D D Obviously, the transconductance in the linear region is smaller than in saturation. Lower\n\ndistortion always goes together with lower gain though! Feedback does this too, exchanging gain for low distortion. In order to boost the high-frequency performance, two small capacitances are added by means of transistors M5 and M6. They are added to compensate the input capacitances C of the GS input transistors. They are connected to nodes at opposite polarity. For a size of about one third, compensation can be achieved. This is why they are drawn smaller!",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Transconductor with C DG compen.",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0225_02_0740.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810890624998,
+          0.08780487804878045,
+          0.7195946025760133,
+          0.14634146341463417
+        ],
+        "confidence": 1,
+        "text": "Transconductor with C DG compen."
+      },
+      {
+        "bbox": [
+          0.20608108091216218,
+          0.24878048731707314,
+          0.2297297295608108,
+          0.27804878
+        ],
+        "confidence": 0.5,
+        "text": "мз"
+      },
+      {
+        "bbox": [
+          0.0878378385135135,
+          0.5024390242073171,
+          0.14189189256756754,
+          0.526829268109756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OUT- O"
+      },
+      {
+        "bbox": [
+          0.483108109268594,
+          0.5073170735772358,
+          0.5371621601007753,
+          0.5317073174796748
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•OUT+"
+      },
+      {
+        "bbox": [
+          0.5743243228040541,
+          0.3609756099728998,
+          0.8479729714527028,
+          0.4195121953387534
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDS1 = Rolb = 0.2 V"
+      },
+      {
+        "bbox": [
+          0.5675675634290541,
+          0.4829268293902438,
+          0.8986486445101352,
+          0.5414634147560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs1 = B1VDs1(VGs1-VT)"
+      },
+      {
+        "bbox": [
+          0.5743243268822393,
+          0.5853658533101045,
+          0.9324324349903474,
+          0.6439024386759581
+        ],
+        "confidence": 0.5,
+        "text": "9m1 = B,VDs1 is constant"
+      },
+      {
+        "bbox": [
+          0.1182432440315315,
+          0.7073170729268293,
+          0.1655405413288288,
+          0.7317073168292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IN + 0-"
+      },
+      {
+        "bbox": [
+          0.18918918868243245,
+          0.7317073172560976,
+          0.22972972922297297,
+          0.7560975611585365
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "* м:"
+      },
+      {
+        "bbox": [
+          0.31756756717342344,
+          0.7317073173170731,
+          0.3412162158220721,
+          0.7560975612195121
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RO"
+      },
+      {
+        "bbox": [
+          0.46283784111969106,
+          0.8390243899651567,
+          0.9222973005791506,
+          0.8878048777700348
+        ],
+        "confidence": 1,
+        "text": "Ref. Alini, JSSC, Dec.92, pp.1905-1915"
+      },
+      {
+        "bbox": [
+          0.7195945962837837,
+          0.9365853654634146,
+          0.9290540557432433,
+          0.975609755707317
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 0740"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Another transconductor with high-speed capability is shown in this slide.",
+      "pdf_page": 225,
+      "printed_page": 230,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0225_02_0740.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "They are connected to nodes at opposite polarity.",
+        "pdf_page": 226,
+        "printed_page": 231,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Indeed, in the linear region the current is proportional to V , not to V 2.",
+      "pdf_page": 225,
+      "printed_page": 230,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS GS As a result, the transconductance is constant provided V can be kept constant.",
+      "pdf_page": 225,
+      "printed_page": 230,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "distortion always goes together with lower gain though!",
+      "pdf_page": 226,
+      "printed_page": 231,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Feedback does this too, exchanging gain for low distortion.",
+      "pdf_page": 226,
+      "printed_page": 231,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "GS GS As a result, the transconductance is constant provided V can be kept constant.",
+      "pdf_page": 225,
+      "printed_page": 230,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "D D Obviously, the transconductance in the linear region is smaller than in saturation.",
+      "pdf_page": 225,
+      "printed_page": 230,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0740-M01",
+      "ocr_text": "VDS1 = Rolb = 0.2 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5743243228040541,
+        0.3609756099728998,
+        0.8479729714527028,
+        0.4195121953387534
+      ],
+      "context_crop": "regions/SANSEN-0740_math_01.png",
+      "context_bbox_normalized": [
+        0.5343243228040541,
+        0.2609756099728998,
+        1,
+        0.5495121953387534
+      ],
+      "source_image": "slides/p0225_02_0740.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0740-M02",
+      "ocr_text": "IDs1 = B1VDs1(VGs1-VT)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5675675634290541,
+        0.4829268293902438,
+        0.8986486445101352,
+        0.5414634147560975
+      ],
+      "context_crop": "regions/SANSEN-0740_math_02.png",
+      "context_bbox_normalized": [
+        0.5275675634290541,
+        0.3829268293902438,
+        1,
+        0.6714634147560975
+      ],
+      "source_image": "slides/p0225_02_0740.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0740-M03",
+      "ocr_text": "9m1 = B,VDs1 is constant",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5743243268822393,
+        0.5853658533101045,
+        0.9324324349903474,
+        0.6439024386759581
+      ],
+      "context_crop": "regions/SANSEN-0740_math_03.png",
+      "context_bbox_normalized": [
+        0.5343243268822393,
+        0.4853658533101045,
+        1,
+        0.7739024386759581
+      ],
+      "source_image": "slides/p0225_02_0740.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

@@ -1,0 +1,44 @@
+Rail-to-rail input and output amplifiers 313
+1125
+A possible realization is
+shown in this slide. It only
+works for low average input
+voltages.
+For input voltages close
+to V , all four input
+ref
+MOSTs carry about the
+same current I . Transistor
+B
+M takes about half the
+r
+current 2I of the current
+B
+source with current 4I .
+B
+Transistor M therefore acts
+r
+as a kind of current switch.
+For lower input voltages,
+the input nMOSTs are off
+and all the current 4I flows
+B
+through transistor M . As a result, the pMOST input devices carry a current 2I . Their current
+r B
+is doubled and so is their transconductance.
+For high input voltages, the pMOSTs are off. The input nMOSTs then draw all the current
+4I . The current and the transconductance of the input nMOSTs is doubled.
+B
+The top pMOST current mirror is used to provide some compensation for the difference in
+n factor.
+1126
+However, the design of this
+rail-to-rail input stage is not
+obvious. The choice of the
+reference voltage V is
+ref
+rather critical. This is shown
+in this slide.
+Exact equalization of g
+m
+is a real compromise indeed.

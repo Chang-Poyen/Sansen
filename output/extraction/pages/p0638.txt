@@ -1,0 +1,53 @@
+L ow-power sigma-delta AD converters 649
+2123
+In a conventional switched-
+capacitor integrator, the
+input voltage v is sampled
+IN
+on capacitor aC, when
+phase W1 is high. The two
+MOSTs labeled W1 then
+conduct whereas the other
+two are off.
+On phase W2, the charge
+aCv is transferred to
+IN
+capacitor C. The resulting
+output voltage is now a
+multiplied by the input volt-
+age; the voltage gain is a.
+When a single supply
+voltage V is used, a DC
+DD
+reference voltage V may have to be added, to make sure that the voltages at both the minus
+REF
+and plus inputs of the opamp never exceed the common-mode input range. A typical value is
+0.2 V depending on the type of opamp.
+The main problem of this integrator when the supply voltage is small, is the input switch.
+Indeed, if we take as an input voltage 0.5 V for a supply (and clock) voltage of 1 V (V =
+REF
+0.2 V), then all MOST switches receive a V of 0.8 V when switched in, except the input
+GS
+transistor. This latter one only receives 0.3 V and is not on at all! This is the problem.
+2124
+A solution is obtained by
+switching the preceding
+opamp. This obviously only
+works if several switched-
+capacitor integrators are put
+in series.
+Take the integrator in the
+frame. Its input switch on
+phase w2 has been shifted to
+the preceding opamp. The
+whole opamp is switched in
+and out at clock phase w2.
+In a similar way, the
+opamp within the frame is
+switched in and out at clock
+phase w1, in order to be able
+to provide the input voltage to the next integrator.
+The last opamp shown is now switched at clock phase w2.
+It is easier to realize an opamp with a low supply voltage than to realize an input switch with
+a low supply (or clock) voltage. Moreover, it is fairly straightforward to switch an opamp. This
+is discussed next.

@@ -1,0 +1,65 @@
+286 Chapter #9
+0946
+The expression of the open-
+loop gain is given in this
+slide. Again, we find 4 poles
+and 3 zero’s. The GBW is
+the same as for any three-
+stage amplifier. The second
+non-dominant pole v coin-
+2
+cides with the first zero
+which occurs twice. One of
+them is now cancelled out.
+The other zero v will be
+2
+used to improve the phase
+margin.
+The right-hand zero v
+4
+contains the GBW. This
+zero is always a lot higher
+than the GBW, by factor k
+t
+and by the ratio’s C /C and g /g , which are both quite high. Indeed, compensation
+m2 2 m3 m1
+capacitance C is always chosen larger than the parasitic node capacitance C .
+m2 2
+This right-hand zero v is negligible.
+4
+The stability conditions are discussed next.
+0947
+For stability, we need to
+have the third non-domi-
+nant pole v larger than the
+2
+first one v . This is always
+1
+the case since k is larger
+t
+than unity. In the design
+example later on, a value of
+k is taken of two.
+t
+The main stability condi-
+tion specifies that the second
+non-dominant pole v must
+3
+be larger than the GBW.
+This is easily satisfied as the
+ratio’s C /C and g /g
+m2 2 m3 m1
+are large indeed. This circuit
+is therefore easy to stabilize!
+The most important non-dominant pole is v . For a 3rd-order Butterworth characteristic this
+1
+pole is positioned at 2 times the v (or the GBW).
+UG
+As discussed on the previous slide, the right-half-plane zero v is a lot larger than the GBW
+4
+and can now be neglected. The only zero left is a zero v in the left half of the complex plane.
+2
+It is only a little (actually (1+ k )/k or 1.5 times in this design) larger than the non-dominant
+t t
+pole. It is therefore ideally positioned to improve the phase margin.
+The resulting ratio in GBW compared to a conventional NMC amplifier is quite impressive.

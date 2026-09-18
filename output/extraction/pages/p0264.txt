@@ -1,0 +1,45 @@
+Design of multistage operational amplifiers 271
+0916
+Increasing the damping
+factor f reduces the peaking.
+At this value of f the peak-
+ing is about the same as the
+low-frequency value of the
+gain. There is a dip of about
+10%, which could be accept-
+able depending on the
+application.
+Because of the peaking,
+the −3dB frequency (at a
+value of 0.707) is slightly
+larger. It occurs at about
+0.43 times the open-loop
+GBW.
+Let us now increase the
+damping even more. Several values of f are now tried, until a very flat response is obtained. Thy
+are collected on the next slide.
+0917
+The responses are sketched
+for different values of damp-
+ing factors f. The one for f=
+0.44 is repeated for refer-
+ence. Values are taken of 0.5,
+0.6 and finally of 0.71.
+It is clear that the curve
+for f=0.71 (actually 1/√2) a
+maximally flat response is
+obtained. This is the third-
+order Butterworth response.
+It occurs for a p factor of
+2√2 and a f of 1/√2. In an
+open loop, the non-domi-
+nant poles are already com-
+plex. They are certainly
+complex in a closed loop.
+This positioning of non-dominant is quite popular with designers of three-stage amplifiers.
+The non-dominant poles are at relatively low frequencies. The power consumption is relatively
+small.
+It is now clear why a p factor of 2.828 has been chosen. It is exactly the p factor required for
+a third-order maximally flat Butterworth response.
+Finally, note that the maximally flat response leads to a −3 dB frequency, which is somewhat
+lower than before. It is now about 0.3 times the open-loop GBW.

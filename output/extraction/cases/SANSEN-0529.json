@@ -1,0 +1,166 @@
+{
+  "case_id": "SANSEN-0529",
+  "slide_id": "0529",
+  "chapter": 5,
+  "slide_number_in_chapter": 29,
+  "source": {
+    "pdf_page": 159,
+    "printed_page": 163
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0159_02_0529.jpg",
+      "pdf_page": 159,
+      "printed_page": 163,
+      "bbox_pt": [
+        91.521622,
+        469.308991,
+        374.78981,
+        665.768982
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 159,
+      "printed_page": 163,
+      "bbox_pt": [
+        0,
+        465.31950000000035,
+        595,
+        797
+      ],
+      "text_raw": "Now that we know what it\nmeans to have a stable\namplifier, or an amplifier\nwithout peaking or ringing,\nlet us apply this theory now\nto a conventional two-stage\namplifier.",
+      "text": "Now that we know what it means to have a stable amplifier, or an amplifier without peaking or ringing, let us apply this theory now to a conventional two-stage amplifier."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that we know what it means to have a stable amplifier, or an amplifier without peaking or ringing, let us apply this theory now to a conventional two-stage amplifier.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0159_02_0529.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270441066063,
+          0.0780487802710027,
+          0.3851351368430931,
+          0.13658536563685642
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.12837838267374518,
+          0.24390243881533102,
+          0.7297297340250966,
+          0.30243902418118473
+        ],
+        "confidence": 1,
+        "text": "• Use of operational amplifiers"
+      },
+      {
+        "bbox": [
+          0.128378374469112,
+          0.351219512369338,
+          0.6756756717664094,
+          0.41463414651567954
+        ],
+        "confidence": 1,
+        "text": "• Stability of 2-stage opamp"
+      },
+      {
+        "bbox": [
+          0.12837838209459446,
+          0.4634146340243902,
+          0.42567567939189177,
+          0.5219512193902439
+        ],
+        "confidence": 0.5,
+        "text": "• Pole splitting"
+      },
+      {
+        "bbox": [
+          0.13175675772804055,
+          0.5707317065243902,
+          0.7635135144847973,
+          0.6341463406707316
+        ],
+        "confidence": 1,
+        "text": "• Compensation of positive zero"
+      },
+      {
+        "bbox": [
+          0.1317567594932432,
+          0.6780487802926829,
+          0.6790540567905405,
+          0.7463414632195122
+        ],
+        "confidence": 1,
+        "text": "• Stability of 3-stage opamp"
+      },
+      {
+        "bbox": [
+          0.7297297343716733,
+          0.9414634153658537,
+          0.9324324241868853,
+          0.9853658543902439
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 0529"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0159_02_0529.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Now that we know what it means to have a stable amplifier, or an amplifier without peaking or ringing, let us apply this theory now to a conventional two-stage amplifier.",
+      "pdf_page": 159,
+      "printed_page": 163,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

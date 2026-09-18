@@ -1,0 +1,391 @@
+{
+  "case_id": "SANSEN-0743",
+  "slide_id": "0743",
+  "chapter": 7,
+  "slide_number_in_chapter": 43,
+  "source": {
+    "pdf_page": 227,
+    "printed_page": 232
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0227_02_0743.jpg",
+      "pdf_page": 227,
+      "printed_page": 232,
+      "bbox_pt": [
+        91.521622,
+        347.735962,
+        374.78981,
+        544.1959529999999
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 227,
+      "printed_page": 232,
+      "bbox_pt": [
+        0,
+        343.7465,
+        595,
+        797
+      ],
+      "text_raw": "The input stage of the rail-\nto-rail opamp is repeated in\nthis slide.\nThe current which flows\nin a branch is indicated by\nthe thickness of line. The\ninput circuit is repeated\ntwice, once for a common-\nmode input voltage halfway\nthe supply voltages. The\nother is the situation when\nthe inputs are connected to\nthe positive supply.\nWhen the inputs are half-\nway the supply voltage, the\nDC currents through all\ninput devices are equal (and about 5 mA). However the DC current source for the pMOST\ndifferential pair carries a current of 20 mA. Indeed, half of this current flows through a cascode\nMN3 to a current mirror which serves the nMOST differential pair.\nWhen the input voltage goes up, towards the positive supply voltage, then the V of this\nGS\ncascode transistor MN3 is increased, such that it takes the full 20 mA. As a result, the nMOST\ndifferential pair receives the full 20 mA. On the other hand, the pMOST differential pair is left\nwithout DC current.\nAs a consequence, the current in the nMOST pair is multiplied by 2. This is not sufficient if\nthe input devices work in saturation. This is sufficient if the input devices work in the weak\ninversion region. Doubling the current then doubles the transconductance.\nThe sizes of the input devices are so large that the input devices are more likely going to work\nin weak inversion. After all, the GBW is only 14 MHz, which is quite feasible in weak inversion.",
+      "text": "The input stage of the railto-rail opamp is repeated in this slide. The current which flows in a branch is indicated by the thickness of line. The input circuit is repeated twice, once for a commonmode input voltage halfway the supply voltages. The other is the situation when the inputs are connected to the positive supply. When the inputs are halfway the supply voltage, the DC currents through all input devices are equal (and about 5 mA). However the DC current source for the pMOST differential pair carries a current of 20 mA. Indeed, half of this current flows through a cascode MN3 to a current mirror which serves the nMOST differential pair. When the input voltage goes up, towards the positive supply voltage, then the V of this GS cascode transistor MN3 is increased, such that it takes the full 20 mA. As a result, the nMOST differential pair receives the full 20 mA. On the other hand, the pMOST differential pair is left without DC current. As a consequence, the current in the nMOST pair is multiplied by 2. This is not sufficient if the input devices work in saturation. This is sufficient if the input devices work in the weak inversion region. Doubling the current then doubles the transconductance. The sizes of the input devices are so large that the input devices are more likely going to work in weak inversion. After all, the GBW is only 14 MHz, which is quite feasible in weak inversion."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The input stage of the railto-rail opamp is repeated in this slide. The current which flows in a branch is indicated by the thickness of line. The input circuit is repeated twice, once for a commonmode input voltage halfway the supply voltages. The other is the situation when the inputs are connected to the positive supply. When the inputs are halfway the supply voltage, the DC currents through all input devices are equal (and about 5 mA). However the DC current source for the pMOST differential pair carries a current of 20 mA. Indeed, half of this current flows through a cascode MN3 to a current mirror which serves the nMOST differential pair. When the input voltage goes up, towards the positive supply voltage, then the V of this GS cascode transistor MN3 is increased, such that it takes the full 20 mA. As a result, the nMOST differential pair receives the full 20 mA. On the other hand, the pMOST differential pair is left without DC current. As a consequence, the current in the nMOST pair is multiplied by 2. This is not sufficient if the input devices work in saturation. This is sufficient if the input devices work in the weak inversion region. Doubling the current then doubles the transconductance. The sizes of the input devices are so large that the input devices are more likely going to work in weak inversion. After all, the GBW is only 14 MHz, which is quite feasible in weak inversion.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Wu : input rail-to-rail stage VDD = 5V",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0227_02_0743.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432069256761,
+          0.07804877969512192,
+          0.5675675639358108,
+          0.14146341384146344
+        ],
+        "confidence": 1,
+        "text": "Wu : input rail-to-rail stage"
+      },
+      {
+        "bbox": [
+          0.27364864891891894,
+          0.4097560973658536,
+          0.30067567594594596,
+          0.43902439004878047
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "20"
+      },
+      {
+        "bbox": [
+          0.34121621655405404,
+          0.37560975577235767,
+          0.3614864868243243,
+          0.4048780484552845
+        ],
+        "confidence": 1,
+        "text": "5"
+      },
+      {
+        "bbox": [
+          0.37837837795608115,
+          0.3999999995121952,
+          0.41891891849662166,
+          0.4390243897560976
+        ],
+        "confidence": 1,
+        "text": "5V"
+      },
+      {
+        "bbox": [
+          0.38513513479729733,
+          0.5121951214634146,
+          0.4189189185810811,
+          0.5414634141463415
+        ],
+        "confidence": 1,
+        "text": "DD"
+      },
+      {
+        "bbox": [
+          0.38513513496621626,
+          0.5658536580487805,
+          0.40202702685810815,
+          0.5951219507317074
+        ],
+        "confidence": 0.5,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.23648648618243243,
+          0.6292682929268293,
+          0.2668918915878378,
+          0.663414634390244
+        ],
+        "confidence": 0.5,
+        "text": "10."
+      },
+      {
+        "bbox": [
+          0.5641891894932433,
+          0.6243902436585366,
+          0.5945945948986487,
+          0.6585365851219511
+        ],
+        "confidence": 1,
+        "text": "20"
+      },
+      {
+        "bbox": [
+          0.14864864849179538,
+          0.7024390242857143,
+          0.19932432416747106,
+          0.7317073169686411
+        ],
+        "confidence": 1,
+        "text": "1.5V"
+      },
+      {
+        "bbox": [
+          0.48310810878378374,
+          0.7024390241463415,
+          0.5371621628378378,
+          0.7317073168292684
+        ],
+        "confidence": 1,
+        "text": "1.5V"
+      },
+      {
+        "bbox": [
+          0.6047297300847474,
+          0.21463414658536584,
+          0.6317567555008381,
+          0.23902439048780488
+        ],
+        "confidence": 0.5,
+        "text": "20"
+      },
+      {
+        "bbox": [
+          0.6013513511824324,
+          0.3999999998102981,
+          0.6317567565878379,
+          0.43414634127371277
+        ],
+        "confidence": 1,
+        "text": "20"
+      },
+      {
+        "bbox": [
+          0.6790540554476351,
+          0.18048780445121948,
+          0.7905405419341216,
+          0.22439024347560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD = 5V"
+      },
+      {
+        "bbox": [
+          0.6621621618918919,
+          0.24878048799999997,
+          0.689189188918919,
+          0.2780487806829268
+        ],
+        "confidence": 0.5,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.6655405402364865,
+          0.3853658538536586,
+          0.6959459456418918,
+          0.41463414653658537
+        ],
+        "confidence": 1,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.6587837835135135,
+          0.6243902440975609,
+          0.6858108105405405,
+          0.6536585367804878
+        ],
+        "confidence": 1,
+        "text": "20"
+      },
+      {
+        "bbox": [
+          0.7060810834239993,
+          0.5317073178861789,
+          0.7567567558778023,
+          0.580487805691057
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.7767497456634842,
+          0.5400074151273979,
+          0.9090610640352312,
+          0.5965779543692817
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V+ high:"
+      },
+      {
+        "bbox": [
+          0.7865225972597034,
+          0.6134555732814864,
+          0.9496503031172638,
+          0.6548581714066649
+        ],
+        "confidence": 0.5,
+        "text": "pMOSTs off!"
+      },
+      {
+        "bbox": [
+          0.7837623567675098,
+          0.6973967008574552,
+          0.9088052076742943,
+          0.7318715947530463
+        ],
+        "confidence": 0.5,
+        "text": "nMOSTs :"
+      },
+      {
+        "bbox": [
+          0.8074324314527027,
+          0.7560975611707317,
+          0.9054054044256756,
+          0.8048780489756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs1 x 2"
+      },
+      {
+        "bbox": [
+          0.8141891897297296,
+          0.814634145902439,
+          0.9020270275675676,
+          0.8585365849268292
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1 x 2"
+      },
+      {
+        "bbox": [
+          0.7124625949583606,
+          0.8674816255690777,
+          0.9092273605173767,
+          0.9076782862389162
+        ],
+        "confidence": 0.5,
+        "text": "OV Weak inv."
+      },
+      {
+        "bbox": [
+          0.7229729758694213,
+          0.9414634149593495,
+          0.9358108008197684,
+          0.980487805203252
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0743"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0227_02_0743.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The other is the situation when the inputs are connected to the positive supply.",
+        "pdf_page": 227,
+        "printed_page": 232,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "However the DC current source for the pMOST differential pair carries a current of 20 mA.",
+        "pdf_page": 227,
+        "printed_page": 232,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "When the inputs are halfway the supply voltage, the DC currents through all input devices are equal (and about 5 mA).",
+      "pdf_page": 227,
+      "printed_page": 232,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When the input voltage goes up, towards the positive supply voltage, then the V of this GS cascode transistor MN3 is increased, such that it takes the full 20 mA.",
+      "pdf_page": 227,
+      "printed_page": 232,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the nMOST differential pair receives the full 20 mA.",
+      "pdf_page": 227,
+      "printed_page": 232,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "This is not sufficient if the input devices work in saturation.",
+      "pdf_page": 227,
+      "printed_page": 232,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0743-M01",
+      "ocr_text": "VDD = 5V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6790540554476351,
+        0.18048780445121948,
+        0.7905405419341216,
+        0.22439024347560976
+      ],
+      "context_crop": "regions/SANSEN-0743_math_01.png",
+      "context_bbox_normalized": [
+        0.639054055447635,
+        0.13,
+        1,
+        0.35439024347560977
+      ],
+      "source_image": "slides/p0227_02_0743.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

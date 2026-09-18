@@ -1,0 +1,447 @@
+{
+  "case_id": "SANSEN-223",
+  "slide_id": "223",
+  "chapter": 22,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 666,
+    "printed_page": 677
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0667_01_223.jpg",
+      "pdf_page": 667,
+      "printed_page": 678,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 666,
+      "printed_page": 677,
+      "bbox_pt": [
+        0,
+        582.9065,
+        595,
+        703.55922
+      ],
+      "text_raw": "An oscillator is a kind of feedback amplifier. The signal that is fed back is exactly what the\namplifier requires, to sustain oscillation. Its input is now zero.\nThis is called the Barkhausen criterion.\nThe amplifier has a gain A( jv) which depends on frequency. Also, the feedback block has an\nattenuation F( jv) which is frequency dependent. The loop gain F( jv)A( jv) must be large enough\nso that the signal v which is fed back, exactly equals v , which is required.\nf e\nAs a consequence, the loop gain must be slightly larger than unity in amplitude and its\nphase zero.",
+      "text": "An oscillator is a kind of feedback amplifier. The signal that is fed back is exactly what the amplifier requires, to sustain oscillation. Its input is now zero. This is called the Barkhausen criterion. The amplifier has a gain A( jv) which depends on frequency. Also, the feedback block has an attenuation F( jv) which is frequency dependent. The loop gain F( jv)A( jv) must be large enough so that the signal v which is fed back, exactly equals v , which is required. f e As a consequence, the loop gain must be slightly larger than unity in amplitude and its phase zero."
+    },
+    {
+      "pdf_page": 667,
+      "printed_page": 678,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        343.896
+      ],
+      "text_raw": "This means that A( jv)\nmust be an amplifier if F( jv)\nis an attenuator. This also\nmeans that F( jv) must be\ninductive if A( jv) is capaci-\ntive. All amplifiers that we\nhave seen contain capaci-\ntances. As a consequence,\nwe are looking for an induc-\ntor for F( jv).\nClearly, these two condi-\ntions are a result of the com-\nplex nature of both A( jv)\nand F( jv). Complex num-\nbers are always pairs of\nnumbers!",
+      "text": "This means that A( jv) must be an amplifier if F( jv) is an attenuator. This also means that F( jv) must be inductive if A( jv) is capacitive. All amplifiers that we have seen contain capacitances. As a consequence, we are looking for an inductor for F( jv). Clearly, these two conditions are a result of the complex nature of both A( jv) and F( jv). Complex numbers are always pairs of numbers!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An oscillator is a kind of feedback amplifier. The signal that is fed back is exactly what the amplifier requires, to sustain oscillation. Its input is now zero. This is called the Barkhausen criterion. The amplifier has a gain A( jv) which depends on frequency. Also, the feedback block has an attenuation F( jv) which is frequency dependent. The loop gain F( jv)A( jv) must be large enough so that the signal v which is fed back, exactly equals v , which is required. f e As a consequence, the loop gain must be slightly larger than unity in amplitude and its phase zero.\n\nThis means that A( jv) must be an amplifier if F( jv) is an attenuator. This also means that F( jv) must be inductive if A( jv) is capacitive. All amplifiers that we have seen contain capacitances. As a consequence, we are looking for an inductor for F( jv). Clearly, these two conditions are a result of the complex nature of both A( jv) and F( jv). Complex numbers are always pairs of numbers!",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "The Barkhausen criterion",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0667_01_223.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108431467177,
+          0.08780487790940761,
+          0.5337837870173745,
+          0.1365853657142857
+        ],
+        "confidence": 1,
+        "text": "The Barkhausen criterion"
+      },
+      {
+        "bbox": [
+          0.1250000004054054,
+          0.4146341469268293,
+          0.1722972977027027,
+          0.4731707322926829
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.32770270316119693,
+          0.27804878024390245,
+          0.39189189235038613,
+          0.32195121926829273
+        ],
+        "confidence": 0.5,
+        "text": "F(jo)"
+      },
+      {
+        "bbox": [
+          0.270270269449807,
+          0.39999999926829266,
+          0.3918918910714286,
+          0.5024390236585365
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V: Aio)"
+      },
+      {
+        "bbox": [
+          0.5337837838682431,
+          0.42926829341463413,
+          0.6013513514358106,
+          0.48780487878048784
+        ],
+        "confidence": 0.5,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.06418919054054047,
+          0.6634146348780489,
+          0.4763513527027026,
+          0.7365853665853659
+        ],
+        "confidence": 0.5,
+        "text": "Oscillation if Vin = 0 or if"
+      },
+      {
+        "bbox": [
+          0.08108108733108085,
+          0.8731707314634147,
+          0.4560810873310809,
+          0.9073170729268294
+        ],
+        "confidence": 1,
+        "text": "Ref. Barkhausen, Hirzel, Leipzig, 1935"
+      },
+      {
+        "bbox": [
+          0.6550671942858315,
+          0.2461425105446582,
+          0.865203079472929,
+          0.30995505250632815
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "out = A(jo) Ve"
+      },
+      {
+        "bbox": [
+          0.6620525643644997,
+          0.35032758251428,
+          0.868352835888465,
+          0.4057699808646932
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vf= F(jw) Vout"
+      },
+      {
+        "bbox": [
+          0.6959051074313104,
+          0.4094553869793274,
+          0.9189597613207344,
+          0.47347144304011834
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= F(jo) A(jo) Ve"
+      },
+      {
+        "bbox": [
+          0.7162162184966215,
+          0.531707316890244,
+          0.898648650929054,
+          0.5756097559146343
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= A(jo) Fjo)"
+      },
+      {
+        "bbox": [
+          0.6655405401604729,
+          0.5560975602439024,
+          0.7094594590793919,
+          0.6146341456097562
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vs"
+      },
+      {
+        "bbox": [
+          0.574324321509009,
+          0.663414634308943,
+          0.9121621593468469,
+          0.7219512196747967
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= |A(jo)| |F(j∞)| ≥ 1.0"
+      },
+      {
+        "bbox": [
+          0.6991452931232583,
+          0.7401237620794424,
+          0.9224763321395695,
+          0.8062177000230638
+        ],
+        "confidence": 1,
+        "text": "Positive FB!"
+      },
+      {
+        "bbox": [
+          0.6249999997297297,
+          0.8292682928780488,
+          0.6520270267567567,
+          0.8682926831219512
+        ],
+        "confidence": 1,
+        "text": "Ф"
+      },
+      {
+        "bbox": [
+          0.6790540525000001,
+          0.824390244,
+          0.8344594579054055,
+          0.8829268293658538
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ Фр = 0°"
+      },
+      {
+        "bbox": [
+          0.722972976207259,
+          0.9463414628455283,
+          0.9222972876440926,
+          0.980487804308943
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10-05 223"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0667_01_223.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The amplifier has a gain A( jv) which depends on frequency.",
+      "pdf_page": 666,
+      "printed_page": 677,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also, the feedback block has an attenuation F( jv) which is frequency dependent.",
+      "pdf_page": 666,
+      "printed_page": 677,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The loop gain F( jv)A( jv) must be large enough so that the signal v which is fed back, exactly equals v , which is required. f e As a consequence, the loop gain must be slightly larger than unity in amplitude and its phase zero.",
+      "pdf_page": 666,
+      "printed_page": 677,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The loop gain F( jv)A( jv) must be large enough so that the signal v which is fed back, exactly equals v , which is required. f e As a consequence, the loop gain must be slightly larger than unity in amplitude and its phase zero.",
+      "pdf_page": 666,
+      "printed_page": 677,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-223-M01",
+      "ocr_text": "Oscillation if Vin = 0 or if",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.06418919054054047,
+        0.6634146348780489,
+        0.4763513527027026,
+        0.7365853665853659
+      ],
+      "context_crop": "regions/SANSEN-223_math_01.png",
+      "context_bbox_normalized": [
+        0.024189190540540466,
+        0.5634146348780489,
+        0.7063513527027027,
+        0.8665853665853659
+      ],
+      "source_image": "slides/p0667_01_223.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-223-M02",
+      "ocr_text": "out = A(jo) Ve",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6550671942858315,
+        0.2461425105446582,
+        0.865203079472929,
+        0.30995505250632815
+      ],
+      "context_crop": "regions/SANSEN-223_math_02.png",
+      "context_bbox_normalized": [
+        0.6150671942858315,
+        0.14614251054465818,
+        1,
+        0.43995505250632816
+      ],
+      "source_image": "slides/p0667_01_223.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-223-M03",
+      "ocr_text": "Vf= F(jw) Vout",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6620525643644997,
+        0.35032758251428,
+        0.868352835888465,
+        0.4057699808646932
+      ],
+      "context_crop": "regions/SANSEN-223_math_03.png",
+      "context_bbox_normalized": [
+        0.6220525643644996,
+        0.25032758251428,
+        1,
+        0.5357699808646932
+      ],
+      "source_image": "slides/p0667_01_223.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-223-M04",
+      "ocr_text": "= F(jo) A(jo) Ve",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6959051074313104,
+        0.4094553869793274,
+        0.9189597613207344,
+        0.47347144304011834
+      ],
+      "context_crop": "regions/SANSEN-223_math_04.png",
+      "context_bbox_normalized": [
+        0.6559051074313104,
+        0.3094553869793274,
+        1,
+        0.6034714430401183
+      ],
+      "source_image": "slides/p0667_01_223.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-223-M05",
+      "ocr_text": "= A(jo) Fjo)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7162162184966215,
+        0.531707316890244,
+        0.898648650929054,
+        0.5756097559146343
+      ],
+      "context_crop": "regions/SANSEN-223_math_05.png",
+      "context_bbox_normalized": [
+        0.6762162184966215,
+        0.431707316890244,
+        1,
+        0.7056097559146343
+      ],
+      "source_image": "slides/p0667_01_223.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-223-M06",
+      "ocr_text": "= |A(jo)| |F(j∞)| ≥ 1.0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.574324321509009,
+        0.663414634308943,
+        0.9121621593468469,
+        0.7219512196747967
+      ],
+      "context_crop": "regions/SANSEN-223_math_06.png",
+      "context_bbox_normalized": [
+        0.534324321509009,
+        0.563414634308943,
+        1,
+        0.8519512196747967
+      ],
+      "source_image": "slides/p0667_01_223.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-223-M07",
+      "ocr_text": "+ Фр = 0°",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6790540525000001,
+        0.824390244,
+        0.8344594579054055,
+        0.8829268293658538
+      ],
+      "context_crop": "regions/SANSEN-223_math_07.png",
+      "context_bbox_normalized": [
+        0.6390540525,
+        0.7243902440000001,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0667_01_223.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

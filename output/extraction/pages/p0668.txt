@@ -1,0 +1,44 @@
+Design of crystal oscillators 679
+225
+Now that the conditions for
+oscillation are understood,
+let us find inductors to form
+a feedback loop with capaci-
+tive amplifiers. We know
+that they can form an oscil-
+lator together.
+The first inductor we will
+use is the one embedded in
+a crystal.
+226
+A crystal consists of a plate
+of piezoresistive material
+with a certain thickness d.
+Piezoresistive material
+allows exchange of mechan-
+ical and electrical energy.
+Examples are quartz and
+ZnO and some nitrides.
+Application of a mechanical
+pressure to it, generates a
+voltage across it and vice
+versa.
+This exchange of energy
+is particularly efficient at
+one particular frequency,
+called the resonant fre-
+quency f . This frequency is inversely proportional to the thickness of the quartz. Values of
+s
+100 kHz to 40–50 MHz are commonly fabricated. For higher values, the quartz becomes too
+thin and fragile.
+Around this resonant frequency the electrical model of this crystal is a series resonant LRC
+circuit, the resonant frequency of which is f . It is damped by the series resistor R , which causes
+s s
+the quality factor Q to be finite. All relevant expressions are given in this slide.
+Note that at resonance, the impedance of the inductor equals that of the capacitance. Actually,
+at resonance the series RLC circuit is just R , itself. The inductor L and capacitor C cancel
+s s s
+each other.
+In addition to this series RLC circuit, which represents the electro-mechanical operation of
+the crystal, a plate capacitance C has to be added. It is the capacitance between the two plates
+p

@@ -1,0 +1,448 @@
+{
+  "case_id": "SANSEN-1651",
+  "slide_id": "1651",
+  "chapter": 16,
+  "slide_number_in_chapter": 51,
+  "source": {
+    "pdf_page": 473,
+    "printed_page": 482
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0473_01_1651.jpg",
+      "pdf_page": 473,
+      "printed_page": 482,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 473,
+      "printed_page": 482,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        441.40350000000024
+      ],
+      "text_raw": "Both kind of regulators are\nshown in this slide.\nThe left one uses the\noutput transistor in source-\nfollower configuration, the\nright one as an amplifier. As\na consequence the right one\nhas one more stage in the\nfeedback loop. It is therefore\nmuch more prone to\ninstability.\nIt is preferred however,\nbecause the voltage drop\nacross the output device can\nbe smaller. Hence, the power\ndissipation is smaller.\nThe stability problem is even worse noticing that the load impedance can vary greatly. Output\ncurrents can vary over three or more orders of magnitude. The equivalent load resistors vary as\nmuch. The transconductance of the output transistor varies a lot as well. Remember that the\nnon-dominant pole is determined by this transconductance.\nThe compensation devices will have to cover a wide range of output loads. The only way\nto avoid very large compensation capacitances is to try compensation schemas which track\nthe load.",
+      "text": "Both kind of regulators are shown in this slide. The left one uses the output transistor in sourcefollower configuration, the right one as an amplifier. As a consequence the right one has one more stage in the feedback loop. It is therefore much more prone to instability. It is preferred however, because the voltage drop across the output device can be smaller. Hence, the power dissipation is smaller. The stability problem is even worse noticing that the load impedance can vary greatly. Output currents can vary over three or more orders of magnitude. The equivalent load resistors vary as much. The transconductance of the output transistor varies a lot as well. Remember that the non-dominant pole is determined by this transconductance. The compensation devices will have to cover a wide range of output loads. The only way to avoid very large compensation capacitances is to try compensation schemas which track the load."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Both kind of regulators are shown in this slide. The left one uses the output transistor in sourcefollower configuration, the right one as an amplifier. As a consequence the right one has one more stage in the feedback loop. It is therefore much more prone to instability. It is preferred however, because the voltage drop across the output device can be smaller. Hence, the power dissipation is smaller. The stability problem is even worse noticing that the load impedance can vary greatly. Output currents can vary over three or more orders of magnitude. The equivalent load resistors vary as much. The transconductance of the output transistor varies a lot as well. Remember that the non-dominant pole is determined by this transconductance. The compensation devices will have to cover a wide range of output loads. The only way to avoid very large compensation capacitances is to try compensation schemas which track the load.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Low drop-out regulator : principle",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0473_01_1651.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108712837828,
+          0.087804877804878,
+          0.685810816858108,
+          0.15121951195121952
+        ],
+        "confidence": 1,
+        "text": "Low drop-out regulator : principle"
+      },
+      {
+        "bbox": [
+          0.0945945964949324,
+          0.20487804847560975,
+          0.24662162352195943,
+          0.25853658506097554
+        ],
+        "confidence": 0.5,
+        "text": "Vin = 3.1 V"
+      },
+      {
+        "bbox": [
+          0.33090456213567865,
+          0.19900976011527194,
+          0.47314949394951156,
+          0.2546487758712742
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vout = 2 V"
+      },
+      {
+        "bbox": [
+          0.5236053716934492,
+          0.20464804885110732,
+          0.6723405727300571,
+          0.2636446378604621
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vin = 2.2 V"
+      },
+      {
+        "bbox": [
+          0.7734556789907718,
+          0.20867176253738118,
+          0.9157335125685206,
+          0.26449897080049933
+        ],
+        "confidence": 0.5,
+        "text": "Vout = 2 V"
+      },
+      {
+        "bbox": [
+          0.21283783789414412,
+          0.38048780669147275,
+          0.229729729786036,
+          0.4195121946093403
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.3783783778957529,
+          0.3658536580139373,
+          0.45945945897683405,
+          0.43902438972125435
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "§R1"
+      },
+      {
+        "bbox": [
+          0.2837837831362613,
+          0.4439024392276423,
+          0.361486485838964,
+          0.48780487825203256
+        ],
+        "confidence": 0.5,
+        "text": "2.9 V"
+      },
+      {
+        "bbox": [
+          0.5202702699999999,
+          0.48780487829268293,
+          0.547297297027027,
+          0.5219512197560976
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.7094594592483109,
+          0.44390243957317077,
+          0.7871621619510135,
+          0.48780487859756105
+        ],
+        "confidence": 0.5,
+        "text": "1.3 V"
+      },
+      {
+        "bbox": [
+          0.14864864895270272,
+          0.604878049317073,
+          0.20608108138513515,
+          0.6585365859024389
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.415540539991554,
+          0.5804878049390244,
+          0.4594594589104729,
+          0.6341463415243903
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.8479729724662162,
+          0.37560975628048787,
+          0.8885135130067567,
+          0.42926829286585366
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.8479729737331081,
+          0.4731707311585366,
+          0.9358108115709459,
+          0.5170731701829268
+        ],
+        "confidence": 1,
+        "text": "Gain !"
+      },
+      {
+        "bbox": [
+          0.84459459488417,
+          0.5804878047386759,
+          0.8851351354247105,
+          0.629268292543554
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.5743243251266892,
+          0.6048780487195121,
+          0.6385135143158783,
+          0.658536585304878
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.2735716313818221,
+          0.7946324768501452,
+          0.43588782483357463,
+          0.8492699647733719
+        ],
+        "confidence": 0.5,
+        "text": "VGS = 0.9 V"
+      },
+      {
+        "bbox": [
+          0.5539919151171591,
+          0.7947525118157611,
+          0.7061432162176065,
+          0.8491499273490596
+        ],
+        "confidence": 0.5,
+        "text": "Vout = Vref"
+      },
+      {
+        "bbox": [
+          0.7162162172297297,
+          0.7658536591707317,
+          0.8243243253378378,
+          0.8292682933170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1+ R2"
+      },
+      {
+        "bbox": [
+          0.7466216219932432,
+          0.8439024395609757,
+          0.7905405409121622,
+          0.8975609761463414
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.7094594578969595,
+          0.9463414638414633,
+          0.9222972957347974,
+          0.980487805304878
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1651"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Both kind of regulators are shown in this slide.",
+      "pdf_page": 473,
+      "printed_page": 482,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Remember that the non-dominant pole is determined by this transconductance.",
+      "pdf_page": 473,
+      "printed_page": 482,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0473_01_1651.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is therefore much more prone to instability.",
+      "pdf_page": 473,
+      "printed_page": 482,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1651-M01",
+      "ocr_text": "Vin = 3.1 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.0945945964949324,
+        0.20487804847560975,
+        0.24662162352195943,
+        0.25853658506097554
+      ],
+      "context_crop": "regions/SANSEN-1651_math_01.png",
+      "context_bbox_normalized": [
+        0.0545945964949324,
+        0.13,
+        0.47662162352195947,
+        0.38853658506097555
+      ],
+      "source_image": "slides/p0473_01_1651.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1651-M02",
+      "ocr_text": "Vout = 2 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.33090456213567865,
+        0.19900976011527194,
+        0.47314949394951156,
+        0.2546487758712742
+      ],
+      "context_crop": "regions/SANSEN-1651_math_02.png",
+      "context_bbox_normalized": [
+        0.29090456213567867,
+        0.13,
+        0.7031494939495115,
+        0.3846487758712742
+      ],
+      "source_image": "slides/p0473_01_1651.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1651-M03",
+      "ocr_text": "Vin = 2.2 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5236053716934492,
+        0.20464804885110732,
+        0.6723405727300571,
+        0.2636446378604621
+      ],
+      "context_crop": "regions/SANSEN-1651_math_03.png",
+      "context_bbox_normalized": [
+        0.48360537169344925,
+        0.13,
+        0.9023405727300571,
+        0.3936446378604621
+      ],
+      "source_image": "slides/p0473_01_1651.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1651-M04",
+      "ocr_text": "Vout = 2 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7734556789907718,
+        0.20867176253738118,
+        0.9157335125685206,
+        0.26449897080049933
+      ],
+      "context_crop": "regions/SANSEN-1651_math_04.png",
+      "context_bbox_normalized": [
+        0.7334556789907718,
+        0.13,
+        1,
+        0.39449897080049934
+      ],
+      "source_image": "slides/p0473_01_1651.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1651-M05",
+      "ocr_text": "VGS = 0.9 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.2735716313818221,
+        0.7946324768501452,
+        0.43588782483357463,
+        0.8492699647733719
+      ],
+      "context_crop": "regions/SANSEN-1651_math_05.png",
+      "context_bbox_normalized": [
+        0.2335716313818221,
+        0.6946324768501452,
+        0.6658878248335747,
+        0.93
+      ],
+      "source_image": "slides/p0473_01_1651.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1651-M06",
+      "ocr_text": "Vout = Vref",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5539919151171591,
+        0.7947525118157611,
+        0.7061432162176065,
+        0.8491499273490596
+      ],
+      "context_crop": "regions/SANSEN-1651_math_06.png",
+      "context_bbox_normalized": [
+        0.513991915117159,
+        0.6947525118157611,
+        0.9361432162176064,
+        0.93
+      ],
+      "source_image": "slides/p0473_01_1651.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

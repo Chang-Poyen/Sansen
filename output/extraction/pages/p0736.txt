@@ -1,0 +1,50 @@
+748 Chapter #24
+2411
+The bonding wires also
+cause ground bounces and
+supply line bounces. This is
+illustrated in this slide.
+A digital gate with input
+voltage v and supply volt-
+inD
+age V is in the neighbor-
+DD,D
+hood of an analog amplifier,
+this is biased at a certain
+current and has V as a
+DD,A
+supply voltage. The latter
+supply line has a decoupling
+capacitance C , to sup-
+dec
+press noise and ripple.
+All connections to the
+supply lines carry bonding
+wires. We monitor the output voltage of the analog amplifier v as a result of a digital input
+outA
+signal v .
+inD
+The only coupling between both circuits is along the ground line, which is common to both.
+Digital transitions at the output of the digital gate, are visible at the output of the analog
+amplifier, as shown next.
+2412
+Digital transitions of the
+digital gate, cause ringing
+indeed at the analog output.
+The size of it depends heav-
+ily on the values of the bond
+wire inductances. The larger
+the inductances, the larger
+the ringing.
+They have to be short-
+ened, or replaced by flip-
+chip bonding, as will be
+shown later.
+A more elaborate analysis
+of ground bounce is given in
+Badaroglu, JSSC July 2004,
+1119–1130.
+2413
+The best strategy for pinning is therefore to avoid common supply lines or common ground
+lines altogether.
+The top solution is the best one. It costs one extra pin, however.

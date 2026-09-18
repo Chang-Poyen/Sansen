@@ -1,0 +1,233 @@
+{
+  "case_id": "SANSEN-1120",
+  "slide_id": "1120",
+  "chapter": 11,
+  "slide_number_in_chapter": 20,
+  "source": {
+    "pdf_page": 303,
+    "printed_page": 310
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0303_02_1120.jpg",
+      "pdf_page": 303,
+      "printed_page": 310,
+      "bbox_pt": [
+        91.521622,
+        385.602967,
+        374.78981,
+        582.062958
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 303,
+      "printed_page": 310,
+      "bbox_pt": [
+        0,
+        381.6135000000001,
+        595,
+        797
+      ],
+      "text_raw": "When the average input\nvoltage goes up, for exam-\nple, up to the supply voltage,\nthe pMOSTs drop out.\nIndeed, the voltage across\nthe two diodes has dropped\nto below the V voltage and\nZ\ndrops out. They are omitted\nfrom the figure in this slide.\nAs a consequence, all the\ncurrent 8I has to flow in\nB\nthe two nMOST transistors.\nThey both carry a current\nof 4I , which is four\nB\ntimes larger than before.\nTheir transconductance now\ndoubles.",
+      "text": "When the average input voltage goes up, for example, up to the supply voltage, the pMOSTs drop out. Indeed, the voltage across the two diodes has dropped to below the V voltage and Z drops out. They are omitted from the figure in this slide. As a consequence, all the current 8I has to flow in B the two nMOST transistors. They both carry a current of 4I , which is four B times larger than before. Their transconductance now doubles."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "When the average input voltage goes up, for example, up to the supply voltage, the pMOSTs drop out. Indeed, the voltage across the two diodes has dropped to below the V voltage and Z drops out. They are omitted from the figure in this slide. As a consequence, all the current 8I has to flow in B the two nMOST transistors. They both carry a current of 4I , which is four B times larger than before. Their transconductance now doubles.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Rail-to-rail amplifier with Zener diode",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0303_02_1120.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432280405414,
+          0.07804878128048776,
+          0.7567567552364867,
+          0.14146341542682928
+        ],
+        "confidence": 1,
+        "text": "Rail-to-rail amplifier with Zener diode"
+      },
+      {
+        "bbox": [
+          0.8344594588175674,
+          0.1804878050243902,
+          0.8986486480067566,
+          0.24390243917073162
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.3277027029391892,
+          0.41463414590243897,
+          0.38513513537162164,
+          0.45853658492682925
+        ],
+        "confidence": 0.5,
+        "text": "1:6"
+      },
+      {
+        "bbox": [
+          0.530405405641892,
+          0.4195121955121952,
+          0.5878378380743244,
+          0.45853658575609757
+        ],
+        "confidence": 0.5,
+        "text": "6:1"
+      },
+      {
+        "bbox": [
+          0.5202702708976833,
+          0.5024390248780487,
+          0.6148648654922779,
+          0.570731707804878
+        ],
+        "confidence": 1,
+        "text": "V<Vz"
+      },
+      {
+        "bbox": [
+          0.6045122815307488,
+          0.7445536590333894,
+          0.8481904260372548,
+          0.811543901968198
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vz = VGsn +VGsp"
+      },
+      {
+        "bbox": [
+          0.8104889383545179,
+          0.8669892847492148,
+          0.9226191678920693,
+          0.9281326667518824
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vss= 0"
+      },
+      {
+        "bbox": [
+          0.7263513539273648,
+          0.941463414390244,
+          0.932432435008446,
+          0.9804878046341464
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1120"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0303_02_1120.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1120-M01",
+      "ocr_text": "V<Vz",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.5202702708976833,
+        0.5024390248780487,
+        0.6148648654922779,
+        0.570731707804878
+      ],
+      "context_crop": "regions/SANSEN-1120_math_01.png",
+      "context_bbox_normalized": [
+        0.4802702708976833,
+        0.4024390248780487,
+        0.8448648654922779,
+        0.700731707804878
+      ],
+      "source_image": "slides/p0303_02_1120.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1120-M02",
+      "ocr_text": "Vz = VGsn +VGsp",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6045122815307488,
+        0.7445536590333894,
+        0.8481904260372548,
+        0.811543901968198
+      ],
+      "context_crop": "regions/SANSEN-1120_math_02.png",
+      "context_bbox_normalized": [
+        0.5645122815307487,
+        0.6445536590333895,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0303_02_1120.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1120-M03",
+      "ocr_text": "Vss= 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8104889383545179,
+        0.8669892847492148,
+        0.9226191678920693,
+        0.9281326667518824
+      ],
+      "context_crop": "regions/SANSEN-1120_math_03.png",
+      "context_bbox_normalized": [
+        0.7704889383545178,
+        0.7669892847492148,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0303_02_1120.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

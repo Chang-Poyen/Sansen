@@ -1,0 +1,43 @@
+610 Chapter #20
+The output voltage holds the voltage obtained during the previous clock phase.
+In clock phase W2, the charge of the capacitors which belong to the switches connected to
+ground, is transferred to the output capacitor 8C.
+The output voltage then changes depending on the charge transferred from these capacitors.
+Note that this circuit suffers from the same problems as switched capacitors filters. They can
+easily achieve a 70 dB dynamic range corresponding to about 12 bit, but not much more.
+2015
+Binary currents can also be
+switched directly as shown
+in this slide.
+The binary code deter-
+mines which currents are
+added towards the input of
+the opamp.
+Now, of course, the mis-
+match between the binary
+current sources will play a
+role. In principle, current
+sources do not match as well
+as capacitors. Limited reso-
+lution is therefore obtained.
+Moreover glitches can
+occur during transitions to
+higher bits. As this is also a result of mismatch, careful layout will have to be ensured.
+Glitches can be avoided however, by using a thermometer code rather than a binary code.
+2016
+This table shows the differ-
+ence. Each time the binary
+code changes to the next
+number, the next digital
+value in the thermometer
+code goes from 0 to 1.
+Monotonicity is now guar-
+anteed. Glitches can there-
+fore be avoided.
+The price to pay however,
+is the larger number of digi-
+tal variables. For eight
+values, only three bits are
+necessary in the binary code
+but seven in the thermome-
+ter code.

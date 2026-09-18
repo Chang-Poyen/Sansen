@@ -1,0 +1,427 @@
+{
+  "case_id": "SANSEN-1649",
+  "slide_id": "1649",
+  "chapter": 16,
+  "slide_number_in_chapter": 49,
+  "source": {
+    "pdf_page": 472,
+    "printed_page": 481
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0472_01_1649.jpg",
+      "pdf_page": 472,
+      "printed_page": 481,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 472,
+      "printed_page": 481,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        477.2775000000003
+      ],
+      "text_raw": "An accurate current refer-\nence can be realized without\nresistor if switched capaci-\ntors are used. We now know\nthat a precise resistor can be\nrealized by means of a\nswitched-capacitor equiva-\nlent. This is used in the cir-\ncuit in this slide.\nWhen the switches are\nclosed as shown, the refer-\nence voltage is stored on\ncapacitor C . Its charge is\n1\nthen V C .\nref 1\nDuring this same time,\nwhich lasts half a clock cycle\nT /2, the current through T3 is discharging C , which has the same size as C . This current\nc 2 1\nthrough T3 is equal to the reference current I .\nref\nNote that both a positive and negative supply is used!\nWhen the switches are closed in the other way, the charges on C and C are made equal by\n1 2\nthe integrator A1 with capacitor C . If not, the integrator adjusts the current through T1, T2\n3\nand T3, which also equals the I .\nref\nThe charges on C and C are equal in steady-state. The effective resistor is exactly as expected\n1 2\nfor a switched-capacitor equivalent.\nThe current is now very precise, as it only depends on a crystal oscillator clock and the\nabsolute value of a capacitor. This is a lot more precise than the absolute value of a resistor!",
+      "text": "An accurate current reference can be realized without resistor if switched capacitors are used. We now know that a precise resistor can be realized by means of a switched-capacitor equivalent. This is used in the circuit in this slide. When the switches are closed as shown, the reference voltage is stored on capacitor C . Its charge is 1 then V C . ref 1 During this same time, which lasts half a clock cycle T /2, the current through T3 is discharging C , which has the same size as C . This current c 2 1 through T3 is equal to the reference current I . ref Note that both a positive and negative supply is used! When the switches are closed in the other way, the charges on C and C are made equal by 1 2 the integrator A1 with capacitor C . If not, the integrator adjusts the current through T1, T2 3 and T3, which also equals the I . ref The charges on C and C are equal in steady-state. The effective resistor is exactly as expected 1 2 for a switched-capacitor equivalent. The current is now very precise, as it only depends on a crystal oscillator clock and the absolute value of a capacitor. This is a lot more precise than the absolute value of a resistor!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An accurate current reference can be realized without resistor if switched capacitors are used. We now know that a precise resistor can be realized by means of a switched-capacitor equivalent. This is used in the circuit in this slide. When the switches are closed as shown, the reference voltage is stored on capacitor C . Its charge is 1 then V C . ref 1 During this same time, which lasts half a clock cycle T /2, the current through T3 is discharging C , which has the same size as C . This current c 2 1 through T3 is equal to the reference current I . ref Note that both a positive and negative supply is used! When the switches are closed in the other way, the charges on C and C are made equal by 1 2 the integrator A1 with capacitor C . If not, the integrator adjusts the current through T1, T2 3 and T3, which also equals the I . ref The charges on C and C are equal in steady-state. The effective resistor is exactly as expected 1 2 for a switched-capacitor equivalent. The current is now very precise, as it only depends on a crystal oscillator clock and the absolute value of a capacitor. This is a lot more precise than the absolute value of a resistor!",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "SC Voltage-current converter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0472_01_1649.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07728631323302174,
+          0.08613889137273523,
+          0.5983426173398629,
+          0.15801940174945617
+        ],
+        "confidence": 1,
+        "text": "SC Voltage-current converter"
+      },
+      {
+        "bbox": [
+          0.46959459442567575,
+          0.21951219548780487,
+          0.5101351349662163,
+          0.24878048817073173
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOD"
+      },
+      {
+        "bbox": [
+          0.6077559207908341,
+          0.3289875190542366,
+          0.8517035427291786,
+          0.40271979513336786
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vref Cy = lrer T,12"
+      },
+      {
+        "bbox": [
+          0.4391891891554054,
+          0.47317073136585375,
+          0.46959459456081076,
+          0.5073170728292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+I"
+      },
+      {
+        "bbox": [
+          0.07094594690315312,
+          0.5512195118699187,
+          0.12837837933558555,
+          0.5804878045528455
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VREF("
+      },
+      {
+        "bbox": [
+          0.12837837863175677,
+          0.5512195119512194,
+          0.15878378403716217,
+          0.5902439021951219
+        ],
+        "confidence": 0.5,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.1756756758445946,
+          0.5512195126829268,
+          0.19932432449324322,
+          0.5804878053658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C1"
+      },
+      {
+        "bbox": [
+          0.2871621625,
+          0.5512195120121951,
+          0.314189189527027,
+          0.5756097559146341
+        ],
+        "confidence": 0.5,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.44932432398648653,
+          0.6195121953048781,
+          0.47635135101351356,
+          0.643902439207317
+        ],
+        "confidence": 0.5,
+        "text": "12"
+      },
+      {
+        "bbox": [
+          0.435810810641892,
+          0.7219512194105691,
+          0.4763513511824325,
+          0.7463414633130081
+        ],
+        "confidence": 0.5,
+        "text": "VSS"
+      },
+      {
+        "bbox": [
+          0.722972973170045,
+          0.4536585364227643,
+          0.7466216218186937,
+          0.4926829266666668
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6081081073986486,
+          0.4878048774634147,
+          0.6925675668581082,
+          0.5463414628292683
+        ],
+        "confidence": 1,
+        "text": "Reff ="
+      },
+      {
+        "bbox": [
+          0.7060810804898648,
+          0.5121951213414634,
+          0.7972972967060811,
+          0.5853658530487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "24,C,"
+      },
+      {
+        "bbox": [
+          0.5168918914189189,
+          0.6243902441951219,
+          0.5641891887162163,
+          0.6634146344390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T2'"
+      },
+      {
+        "bbox": [
+          0.6047297305067568,
+          0.6487804874634147,
+          0.6824324332094595,
+          0.7024390240487804
+        ],
+        "confidence": 0.5,
+        "text": "ref ="
+      },
+      {
+        "bbox": [
+          0.6891891896396397,
+          0.600000000691057,
+          0.7567567572072073,
+          0.6829268299593496
+        ],
+        "confidence": 0.5,
+        "text": "Vret"
+      },
+      {
+        "bbox": [
+          0.6959459463561776,
+          0.6829268291289198,
+          0.75337837878861,
+          0.7414634144947735
+        ],
+        "confidence": 1,
+        "text": "Reff"
+      },
+      {
+        "bbox": [
+          0.08783783733108107,
+          0.785365854195122,
+          0.5912162157094595,
+          0.8390243907804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C, = C2 = 3 pF fc = 270 KHZ $5 V 4 uA"
+      },
+      {
+        "bbox": [
+          0.4695946002956079,
+          0.8585365850609755,
+          0.925675681376689,
+          0.8926829265243902
+        ],
+        "confidence": 1,
+        "text": "Ref. H.Klein, W. Engl, ESSCIRC 83, pp. 119-122"
+      },
+      {
+        "bbox": [
+          0.7056218102894745,
+          0.9361036041024346,
+          0.9260795574653613,
+          0.986727260584666
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 1649"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "When the switches are closed as shown, the reference voltage is stored on capacitor C .",
+      "pdf_page": 472,
+      "printed_page": 481,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0472_01_1649.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This current c 2 1 through T3 is equal to the reference current I . ref Note that both a positive and negative supply is used!",
+      "pdf_page": 472,
+      "printed_page": 481,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When the switches are closed in the other way, the charges on C and C are made equal by 1 2 the integrator A1 with capacitor C .",
+      "pdf_page": 472,
+      "printed_page": 481,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If not, the integrator adjusts the current through T1, T2 3 and T3, which also equals the I . ref The charges on C and C are equal in steady-state.",
+      "pdf_page": 472,
+      "printed_page": 481,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The current is now very precise, as it only depends on a crystal oscillator clock and the absolute value of a capacitor.",
+      "pdf_page": 472,
+      "printed_page": 481,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1649-M01",
+      "ocr_text": "Vref Cy = lrer T,12",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6077559207908341,
+        0.3289875190542366,
+        0.8517035427291786,
+        0.40271979513336786
+      ],
+      "context_crop": "regions/SANSEN-1649_math_01.png",
+      "context_bbox_normalized": [
+        0.567755920790834,
+        0.22898751905423662,
+        1,
+        0.5327197951333679
+      ],
+      "source_image": "slides/p0472_01_1649.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1649-M02",
+      "ocr_text": "=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.12837837863175677,
+        0.5512195119512194,
+        0.15878378403716217,
+        0.5902439021951219
+      ],
+      "context_crop": "regions/SANSEN-1649_math_02.png",
+      "context_bbox_normalized": [
+        0.08837837863175677,
+        0.45121951195121945,
+        0.3887837840371622,
+        0.7202439021951219
+      ],
+      "source_image": "slides/p0472_01_1649.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1649-M03",
+      "ocr_text": "Reff =",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.6081081073986486,
+        0.4878048774634147,
+        0.6925675668581082,
+        0.5463414628292683
+      ],
+      "context_crop": "regions/SANSEN-1649_math_03.png",
+      "context_bbox_normalized": [
+        0.5681081073986486,
+        0.38780487746341474,
+        0.9225675668581081,
+        0.6763414628292683
+      ],
+      "source_image": "slides/p0472_01_1649.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1649-M04",
+      "ocr_text": "ref =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6047297305067568,
+        0.6487804874634147,
+        0.6824324332094595,
+        0.7024390240487804
+      ],
+      "context_crop": "regions/SANSEN-1649_math_04.png",
+      "context_bbox_normalized": [
+        0.5647297305067568,
+        0.5487804874634147,
+        0.9124324332094594,
+        0.8324390240487805
+      ],
+      "source_image": "slides/p0472_01_1649.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1649-M05",
+      "ocr_text": "C, = C2 = 3 pF fc = 270 KHZ $5 V 4 uA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08783783733108107,
+        0.785365854195122,
+        0.5912162157094595,
+        0.8390243907804878
+      ],
+      "context_crop": "regions/SANSEN-1649_math_05.png",
+      "context_bbox_normalized": [
+        0.047837837331081066,
+        0.685365854195122,
+        0.8212162157094595,
+        0.93
+      ],
+      "source_image": "slides/p0472_01_1649.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

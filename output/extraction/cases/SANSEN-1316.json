@@ -1,0 +1,197 @@
+{
+  "case_id": "SANSEN-1316",
+  "slide_id": "1316",
+  "chapter": 13,
+  "slide_number_in_chapter": 16,
+  "source": {
+    "pdf_page": 364,
+    "printed_page": 371
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0364_01_1316.jpg",
+      "pdf_page": 364,
+      "printed_page": 371,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 364,
+      "printed_page": 371,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        405.52960965000017
+      ],
+      "text_raw": "Shunt feedback will be used\nwhen we want to decrease\nthe impedance level of an\ninterconnection between\ntwo circuit blocks. Such\ninterconnects can pick up a\nlot of parasitic capacitance.\nThis causes a severe reduc-\ntion in bandwidth when the\ninterconnect is at too high\nan impedance level.\nOn the contrary, in an\noperational amplifier we\nwant to create a low-fre-\nquency dominant pole by\nmeans of one single capaci-\ntance. Series feedback is a great help in increasing the node impedance.\nAlso sometimes a real current source must be built. For example, to carry out an impedance\nmeasurement we need to apply a precise current and to measure the voltage generated across it.\nAs a result, we need to generate a circuit with high output impedance and a precise current.\nOutput series feedback is ideal for this kind of application.",
+      "text": "Shunt feedback will be used when we want to decrease the impedance level of an interconnection between two circuit blocks. Such interconnects can pick up a lot of parasitic capacitance. This causes a severe reduction in bandwidth when the interconnect is at too high an impedance level. On the contrary, in an operational amplifier we want to create a low-frequency dominant pole by means of one single capacitance. Series feedback is a great help in increasing the node impedance. Also sometimes a real current source must be built. For example, to carry out an impedance measurement we need to apply a precise current and to measure the voltage generated across it. As a result, we need to generate a circuit with high output impedance and a precise current. Output series feedback is ideal for this kind of application."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Shunt feedback will be used when we want to decrease the impedance level of an interconnection between two circuit blocks. Such interconnects can pick up a lot of parasitic capacitance. This causes a severe reduction in bandwidth when the interconnect is at too high an impedance level. On the contrary, in an operational amplifier we want to create a low-frequency dominant pole by means of one single capacitance. Series feedback is a great help in increasing the node impedance. Also sometimes a real current source must be built. For example, to carry out an impedance measurement we need to apply a precise current and to measure the voltage generated across it. As a result, we need to generate a circuit with high output impedance and a precise current. Output series feedback is ideal for this kind of application.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Shunt vs serics fcedback",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0364_01_1316.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627389830503,
+          0.08292682905487803,
+          0.5084745789830508,
+          0.13658536564024393
+        ],
+        "confidence": 1,
+        "text": "Shunt vs serics fcedback"
+      },
+      {
+        "bbox": [
+          0.07457627393220333,
+          0.25365853629268287,
+          0.349152545118644,
+          0.30243902409756096
+        ],
+        "confidence": 1,
+        "text": "Shunt feedback"
+      },
+      {
+        "bbox": [
+          0.07118644664406772,
+          0.3121951213658537,
+          0.8508474635932203,
+          0.3707317067317073
+        ],
+        "confidence": 1,
+        "text": "lowers impedance levels : higher bandwidths"
+      },
+      {
+        "bbox": [
+          0.07457626944915256,
+          0.43902439048780495,
+          0.35254237114406783,
+          0.48780487829268293
+        ],
+        "confidence": 1,
+        "text": "Series feedback"
+      },
+      {
+        "bbox": [
+          0.07118644578692493,
+          0.5024390241463415,
+          0.7864406830750605,
+          0.5560975607317074
+        ],
+        "confidence": 1,
+        "text": "increases impedances : lower node poles"
+      },
+      {
+        "bbox": [
+          0.07457626595338987,
+          0.6243902440853658,
+          0.9118644015466102,
+          0.6829268294512195
+        ],
+        "confidence": 1,
+        "text": "Ouput shunt best for interconnect to next stage !"
+      },
+      {
+        "bbox": [
+          0.07457627735593214,
+          0.7463414627804879,
+          0.7254237349830508,
+          0.8097560969268294
+        ],
+        "confidence": 1,
+        "text": "Output series acts as current source !"
+      },
+      {
+        "bbox": [
+          0.7220339078780179,
+          0.9365853663662694,
+          0.9355932169807389,
+          0.9756097554471544
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen mus 1316"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0364_01_1316.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Also sometimes a real current source must be built.",
+        "pdf_page": 364,
+        "printed_page": 371,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Shunt feedback will be used when we want to decrease the impedance level of an interconnection between two circuit blocks.",
+      "pdf_page": 364,
+      "printed_page": 371,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This causes a severe reduction in bandwidth when the interconnect is at too high an impedance level.",
+      "pdf_page": 364,
+      "printed_page": 371,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, we need to generate a circuit with high output impedance and a precise current.",
+      "pdf_page": 364,
+      "printed_page": 371,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

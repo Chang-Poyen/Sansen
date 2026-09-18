@@ -1,0 +1,43 @@
+184 Chapter #6
+This is illustrated for the voltage amplifier in which all other capacitances are omitted.
+The advantage of this zero is that it greatly compensates the phase shift of the pole. The net
+result is a small change in phase shift.
+The influence on the Phase Margin of this pole-zero pair is therefore negligible.
+As a result, the capacitance C at node 2 can be ignored. We have now found two reasons
+n2
+for that.
+067
+As a design example, let us
+take a GBW and C as
+L
+indicated.
+The g is readily calcu-
+m
+lated, and so is the current,
+provided the V −V is
+GS T
+chosen appropriately (to be
+0.2 V).
+By means of the K∞ factor
+we can calculate the
+required W/L.
+Now the L must be
+selected. In order to achieve
+some gain, we take about 3
+times the minimum channel
+length or 1 mm.
+The widths are then easily added. The nMOS has a smaller width as its K∞ is larger.
+We could try to verify whether the pole at node 2 is indeed negligible. For this purpose we
+must find f or rather the input capacitance C .
+T GS2
+A MOST has a C =kW with k=2 fF/mm if the minimum length is used. A MOST with a
+GS
+W/L=100 for a L=0.35 mm would have a W=35 mm and hence a C of 70 fF. Now both the
+GS
+L and W are three times larger. The C is 70×3×3=630 fF. Its f is about 300 MHz and
+GS2 T2
+f /4#76 MHz. Luckily, this pole is followed by zero!!!
+T2
+If we really do not want this pole-zero doublet below the GBW, we have to make the
+transistors smaller, deteriorating the gain. Another possibility is to make the transistors smaller
+and to add cascodes to increase the gain!

@@ -1,0 +1,502 @@
+{
+  "case_id": "SANSEN-1337",
+  "slide_id": "1337",
+  "chapter": 13,
+  "slide_number_in_chapter": 37,
+  "source": {
+    "pdf_page": 374,
+    "printed_page": 381
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0374_02_1337.jpg",
+      "pdf_page": 374,
+      "printed_page": 381,
+      "bbox_pt": [
+        91.52162,
+        361.68694,
+        374.54222,
+        558.19678
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 374,
+      "printed_page": 381,
+      "bbox_pt": [
+        0,
+        357.69751,
+        595,
+        797
+      ],
+      "text_raw": "The precise transconductor\nanalyzed before, has two\noutputs, one at the Drain as\nbefore, but also one at the\nSource of the output transis-\ntor. What is the difference?\nThe first difference is that\nthese two outputs have\nopposite polarities. Also, the\nloop gain is the same for\nboth, but not the actual\nclosed-loop voltage gains.\nThe first one A , at the\nv1\nDrain, is larger.\nThe output resistances are\nalso very different. The\nsecond one R , at the Source, is much smaller, because it is only of the order of magnitude\nOUT2\nof 1/g and it involves the loop gain LG. Connection of a capacitive load at the second output\nm\nwould give a pole at high frequencies only.",
+      "text": "The precise transconductor analyzed before, has two outputs, one at the Drain as before, but also one at the Source of the output transistor. What is the difference? The first difference is that these two outputs have opposite polarities. Also, the loop gain is the same for both, but not the actual closed-loop voltage gains. The first one A , at the v1 Drain, is larger. The output resistances are also very different. The second one R , at the Source, is much smaller, because it is only of the order of magnitude OUT2 of 1/g and it involves the loop gain LG. Connection of a capacitive load at the second output m would give a pole at high frequencies only."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The precise transconductor analyzed before, has two outputs, one at the Drain as before, but also one at the Source of the output transistor. What is the difference? The first difference is that these two outputs have opposite polarities. Also, the loop gain is the same for both, but not the actual closed-loop voltage gains. The first one A , at the v1 Drain, is larger. The output resistances are also very different. The second one R , at the Source, is much smaller, because it is only of the order of magnitude OUT2 of 1/g and it involves the loop gain LG. Connection of a capacitive load at the second output m would give a pole at high frequencies only.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Series-series feedback : two outputs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0374_02_1337.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0745762756900726,
+          0.08292682905923343,
+          0.7050847502663438,
+          0.14146341442508703
+        ],
+        "confidence": 1,
+        "text": "Series-series feedback : two outputs"
+      },
+      {
+        "bbox": [
+          0.572881355480226,
+          0.1902439019918699,
+          0.6338983046327683,
+          0.24390243857723581
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.49491525368644074,
+          0.23902439042682921,
+          0.5389830502966102,
+          0.2926829270121951
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.07118644127118642,
+          0.4341463414024389,
+          0.11864406838983049,
+          0.4780487804268292
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.36271186406779665,
+          0.4634146336097561,
+          0.40338983016949154,
+          0.5170731701951219
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.18305084766101695,
+          0.6000000003902438,
+          0.21016949172881355,
+          0.6390243906341464
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.11864407084745754,
+          0.8097560973658537,
+          0.4237288166101694,
+          0.8682926827317075
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RE12 = RE\" (R, + R2)"
+      },
+      {
+        "bbox": [
+          0.8101694917917676,
+          0.20975609742160284,
+          0.8474576273849879,
+          0.2585365852264808
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.657627119559322,
+          0.25365853741463407,
+          0.8915254246440677,
+          0.3365853666829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG= A0 R2+ R,"
+      },
+      {
+        "bbox": [
+          0.5525423727118643,
+          0.3707317069268292,
+          0.5762711862711865,
+          0.4097560971707317
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.7593220350847457,
+          0.399999999804878,
+          0.8779661028813559,
+          0.4487804876097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2+ R1"
+      },
+      {
+        "bbox": [
+          0.8847457623728815,
+          0.3951219507723578,
+          0.9322033894915256,
+          0.4487804873577236
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.5457627134915254,
+          0.42926829263414623,
+          0.708474577898305,
+          0.48292682921951213
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT1 Av1"
+      },
+      {
+        "bbox": [
+          0.7084745769491525,
+          0.43414634121951223,
+          0.7627118650847458,
+          0.463414633902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "=-"
+      },
+      {
+        "bbox": [
+          0.7932203394915255,
+          0.47317073156097567,
+          0.8440677971186441,
+          0.5268292681463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.8745762716949153,
+          0.47317073160278744,
+          0.9457627123728813,
+          0.5268292681881532
+        ],
+        "confidence": 1,
+        "text": "RE12"
+      },
+      {
+        "bbox": [
+          0.5559322032627119,
+          0.5463414630487805,
+          0.5728813558050847,
+          0.5756097557317074
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.49152542186440684,
+          0.5756097560365854,
+          0.6406779642372882,
+          0.6390243901829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RE VOUT2"
+      },
+      {
+        "bbox": [
+          0.7559322031779662,
+          0.5560975603048781,
+          0.8677966099576272,
+          0.6097560968902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2 + R1"
+      },
+      {
+        "bbox": [
+          0.6644067801694915,
+          0.5902439029756097,
+          0.7220338988135594,
+          0.6439024395609755
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av2"
+      },
+      {
+        "bbox": [
+          0.7898305088135594,
+          0.6341463414146341,
+          0.8237288138983052,
+          0.6780487804390244
+        ],
+        "confidence": 0.5,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.6677966113559322,
+          0.7219512194076656,
+          0.8338983062711864,
+          0.7756097559930315
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ROUT1 = RL"
+      },
+      {
+        "bbox": [
+          0.7932203396949152,
+          0.7999999999512195,
+          0.8644067803728813,
+          0.8536585365365853
+        ],
+        "confidence": 0.5,
+        "text": "1/gm"
+      },
+      {
+        "bbox": [
+          0.6677966113559322,
+          0.8341463411219512,
+          0.7864406791525423,
+          0.8878048777073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RouT2 ="
+      },
+      {
+        "bbox": [
+          0.7999999994491526,
+          0.858536584695122,
+          0.8508474570762712,
+          0.9121951212804879
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.7220338961694915,
+          0.9414634148292683,
+          0.9355932182033899,
+          0.9707317075121952
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen uus 1337"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0374_02_1337.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The precise transconductor analyzed before, has two outputs, one at the Drain as before, but also one at the Source of the output transistor.",
+        "pdf_page": 374,
+        "printed_page": 381,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The first one A , at the v1 Drain, is larger.",
+        "pdf_page": 374,
+        "printed_page": 381,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The second one R , at the Source, is much smaller, because it is only of the order of magnitude OUT2 of 1/g and it involves the loop gain LG.",
+        "pdf_page": 374,
+        "printed_page": 381,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Connection of a capacitive load at the second output m would give a pole at high frequencies only.",
+        "pdf_page": 374,
+        "printed_page": 381,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Also, the loop gain is the same for both, but not the actual closed-loop voltage gains.",
+      "pdf_page": 374,
+      "printed_page": 381,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The second one R , at the Source, is much smaller, because it is only of the order of magnitude OUT2 of 1/g and it involves the loop gain LG.",
+      "pdf_page": 374,
+      "printed_page": 381,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The second one R , at the Source, is much smaller, because it is only of the order of magnitude OUT2 of 1/g and it involves the loop gain LG.",
+      "pdf_page": 374,
+      "printed_page": 381,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1337-M01",
+      "ocr_text": "RE12 = RE\" (R, + R2)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11864407084745754,
+        0.8097560973658537,
+        0.4237288166101694,
+        0.8682926827317075
+      ],
+      "context_crop": "regions/SANSEN-1337_math_01.png",
+      "context_bbox_normalized": [
+        0.07864407084745753,
+        0.7097560973658538,
+        0.6537288166101695,
+        0.93
+      ],
+      "source_image": "slides/p0374_02_1337.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1337-M02",
+      "ocr_text": "LG= A0 R2+ R,",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.657627119559322,
+        0.25365853741463407,
+        0.8915254246440677,
+        0.3365853666829268
+      ],
+      "context_crop": "regions/SANSEN-1337_math_02.png",
+      "context_bbox_normalized": [
+        0.6176271195593219,
+        0.15365853741463406,
+        1,
+        0.4665853666829268
+      ],
+      "source_image": "slides/p0374_02_1337.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1337-M03",
+      "ocr_text": "=-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7084745769491525,
+        0.43414634121951223,
+        0.7627118650847458,
+        0.463414633902439
+      ],
+      "context_crop": "regions/SANSEN-1337_math_03.png",
+      "context_bbox_normalized": [
+        0.6684745769491525,
+        0.33414634121951226,
+        0.9927118650847457,
+        0.593414633902439
+      ],
+      "source_image": "slides/p0374_02_1337.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1337-M04",
+      "ocr_text": "ROUT1 = RL",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6677966113559322,
+        0.7219512194076656,
+        0.8338983062711864,
+        0.7756097559930315
+      ],
+      "context_crop": "regions/SANSEN-1337_math_04.png",
+      "context_bbox_normalized": [
+        0.6277966113559321,
+        0.6219512194076656,
+        1,
+        0.9056097559930315
+      ],
+      "source_image": "slides/p0374_02_1337.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1337-M05",
+      "ocr_text": "RouT2 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6677966113559322,
+        0.8341463411219512,
+        0.7864406791525423,
+        0.8878048777073171
+      ],
+      "context_crop": "regions/SANSEN-1337_math_05.png",
+      "context_bbox_normalized": [
+        0.6277966113559321,
+        0.7341463411219512,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0374_02_1337.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

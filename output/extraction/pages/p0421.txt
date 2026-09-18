@@ -1,0 +1,58 @@
+OVset and CMRR: random and systematic 429
+The crossover region is quite large however, as can be expected near the cross-over between
+weak and strong inversion (explained in Chapter 1).
+1517
+Besides the offset voltage, a
+differential pair has another
+specification, which also
+reflects the influences of
+the spreadings. It is the
+CMRR or Common-mode
+Rejection Ratio.
+Remember (from Chap-
+ter 3) that a differential pair
+has two inputs, which are
+better converted into a
+differential input v and a
+id
+common-mode (or average)
+input v . The same applies
+ic
+to the outputs. In this way
+insight can be built up about
+the actual operation.
+As a result, we find four different gains. Up till now we have concentrated on the differential-
+to-differential gain A . This gain is easy to calculate as it is the differential output voltage v
+dd od
+obtained for a differential input voltage v , when the common-mode input voltage v is zero.
+id ic
+In this case the differential-to-common-mode gain A does not play a role.
+dc
+If the differential pair is driven with a common-mode voltage however, the gain A may come
+dc
+in. It is defined as the differential output voltage v obtained for a common-mode input voltage
+od
+v , when the differential input voltage v is zero. This situation is sketched in this slide. A
+ic id
+common-mode input voltage v is applied and the differential output voltage v is measured.
+inc od
+The ratio of the two gains is the CMRR. It is infinity if gain A (and not A !) is zero. Note
+dc cc
+also that the CMRR does not play a role for a purely differential drive (v =0).
+ic
+1518
+In order to calculate the CMRR, we need to calculate the gain A . A common-mode input
+dc
+voltage v is then applied and the differential output voltage v is measured.
+inc od
+It is clear that no differential output voltage v can be detected if no delta’s occur. Both input
+od
+Gates and the common-Source point carry the same signal. The currents in both transistors are
+now the same and for equal load resistors R the output voltages are also the same. The
+L
+differential output voltage is then zero.
+Let us assume that a difference in load resistor is now present. Both transistors are still equal.
+In this, case the input voltage v causes a small current i to flow through the output resistance
+inc c
+R of the current source. This current is divided equally through both transistors and reaches
+B

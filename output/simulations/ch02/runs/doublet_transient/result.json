@@ -1,0 +1,26 @@
+{
+  "deck": "simulations/ch02/netlists/doublet_transient.scs",
+  "sha256": "532a1eba94dc4cf409441c3aa4e2fc76a06d5cc7117f20a14afe439d9070111c",
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "returncode": 0,
+    "output_dir": "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/doublet_transient/doublet_transient.raw",
+    "output_files": [
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/doublet_transient/doublet_transient.raw/logStatus",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/doublet_transient/doublet_transient.raw/tran.tran.tran",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/doublet_transient/doublet_transient.raw/logFile"
+    ],
+    "remote_host": "101.6.65.209",
+    "timings": {
+      "upload_total": 1.3117399170296267,
+      "remote_exec": 1.7243566249962896,
+      "download_total": 5.947294624056667,
+      "parse_results": 0.06685574998846278,
+      "total": 9.051955250033643
+    },
+    "command": "HOSTNAME=`hostname 2>/dev/null || echo localhost`; export HOSTNAME && export LD_LIBRARY_PATH=\"${LD_LIBRARY_PATH:-}\" && mkdir -p /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/fb9b12b1/doublet_transient.raw && csh -c ':; /eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/fb9b12b1/doublet_transient.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/fb9b12b1/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/fb9b12b1/doublet_transient.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus' & SPID=$!; echo $SPID > /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/fb9b12b1/spectre.pid; wait $SPID",
+    "spectre_command": "/eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/fb9b12b1/doublet_transient.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/fb9b12b1/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/fb9b12b1/doublet_transient.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus"
+  },
+  "wall_s": 9.053069114685059
+}

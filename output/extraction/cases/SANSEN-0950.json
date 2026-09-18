@@ -1,0 +1,124 @@
+{
+  "case_id": "SANSEN-0950",
+  "slide_id": "0950",
+  "chapter": 9,
+  "slide_number_in_chapter": 50,
+  "source": {
+    "pdf_page": 281,
+    "printed_page": 288
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0281_01_0950.jpg",
+      "pdf_page": 281,
+      "printed_page": 288,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 281,
+      "printed_page": 288,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        367.6625
+      ],
+      "text_raw": "Such a comparison has been\nmade based on experimental\nresults only.\nIn this layout, several\nopamps can be distin-\nguished, among which is the\nTCFC one. They all have\nsimilar sizes, as the load\ncapacitances were 150 pF\nfor all of them. The technol-\nogy was 0.35 mm CMOS.\nThe comparison is better\ncarried out in a Table as\nshown next.",
+      "text": "Such a comparison has been made based on experimental results only. In this layout, several opamps can be distinguished, among which is the TCFC one. They all have similar sizes, as the load capacitances were 150 pF for all of them. The technology was 0.35 mm CMOS. The comparison is better carried out in a Table as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Such a comparison has been made based on experimental results only. In this layout, several opamps can be distinguished, among which is the TCFC one. They all have similar sizes, as the load capacitances were 150 pF for all of them. The technology was 0.35 mm CMOS. The comparison is better carried out in a Table as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "TCFC and other 3-stage opamps",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0281_01_0950.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433095439173,
+          0.08292683006097556,
+          0.6520270336570944,
+          0.14634146420731708
+        ],
+        "confidence": 0.5,
+        "text": "TCFC and other 3-stage opamps"
+      },
+      {
+        "bbox": [
+          0.3445945954391892,
+          0.4000000004878048,
+          0.40202702787162164,
+          0.4292682931707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TCFC"
+      },
+      {
+        "bbox": [
+          0.7364864890202701,
+          0.9365853656097561,
+          0.9391891917229729,
+          0.965853658292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 0950"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The comparison is better carried out in a Table as shown next.",
+      "pdf_page": 281,
+      "printed_page": 288,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0281_01_0950.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

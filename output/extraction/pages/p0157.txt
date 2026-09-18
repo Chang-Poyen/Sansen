@@ -1,0 +1,49 @@
+Stability of operational amplifiers 161
+0524
+Finally, we have shifted the
+non-dominant pole f to a
+2
+value which is about three
+times the GBW.
+In this case the phase
+margin is close to 70°. The
+peaking is gone altogether.
+The amplitude curve is
+nicely rounded.
+This is what we want to
+design all our opamps for, a
+phase margin of around 70°,
+such that no peaking occurs.
+Where is this factor of
+three coming from?
+0525
+This factor of three is actu-
+ally a result of a calculation
+of the peaking and phase
+margin, of a two-pole
+system to which unity-gain
+feedback is applied. This is
+explained in all textbooks
+on feedback or control
+theory!
+When we take the expres-
+sion of amplifier A with low-
+frequency gain A and two
+0
+poles, we have to plug it in
+the feedback expression for
+unity gain. Actually, this
+feedback expression was
+G/(1+GH) but here H=1 and G=A. The closed-loop gain A is unity at low frequencies.
+c
+In this feedback expression, we can rewrite the coefficients in terms of resonant frequency f
+r
+and damping f (Greek letter d, zeta).
+Often parameter Q is used instead of f, then Q=1/2 f.
+It is clear that f gives the frequency at which peaking or resonance occurs. Parameter f
+r
+determines how high the peaking is. For zero f, the term in s vanishes and we obtain a zero
+denominator at frequency f . Therefore, we obtain an oscillator at frequency f .
+r r
+We will need values of f between 0.5 and 1 to avoid peaking. Actually when f=1, we have
+one double pole.

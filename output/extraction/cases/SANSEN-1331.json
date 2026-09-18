@@ -1,0 +1,628 @@
+{
+  "case_id": "SANSEN-1331",
+  "slide_id": "1331",
+  "chapter": 13,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 371,
+    "printed_page": 378
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0371_02_1331.jpg",
+      "pdf_page": 371,
+      "printed_page": 378,
+      "bbox_pt": [
+        91.521622,
+        431.44201699999996,
+        374.78981,
+        627.902008
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 371,
+      "printed_page": 378,
+      "bbox_pt": [
+        0,
+        427.45250000000027,
+        595,
+        797
+      ],
+      "text_raw": "A practical realization with\nonly bipolar transistors is\nshown in this slide. All cur-\nrent sources are substituted\nby resistors. This circuit can\nalso be realized easily with\ndiscrete components on a\nprinted circuit board.\nSince each stage gives a\nhigher DC voltage at the\noutput, the second stage\nmust be either a PNP tran-\nsistor or a NPN transistor\nwith an emitter resistor R .\nD\nTo avoid the reduction in\ngain of this resistor, a large\ncapacitance C is placed across it. This resistor does not come in for the gain calculations. This\nD\nis true for all frequencies higher than g /(2pC ).\nm2 D\nThe expressions of the loop gain, input and output resistances are all very much as before.\nThey are all a bit more complicated because a bipolar transistor has a finite input resistance r ,\np\nwhich shows up in most of the expressions.",
+      "text": "A practical realization with only bipolar transistors is shown in this slide. All current sources are substituted by resistors. This circuit can also be realized easily with discrete components on a printed circuit board. Since each stage gives a higher DC voltage at the output, the second stage must be either a PNP transistor or a NPN transistor with an emitter resistor R . D To avoid the reduction in gain of this resistor, a large capacitance C is placed across it. This resistor does not come in for the gain calculations. This D is true for all frequencies higher than g /(2pC ). m2 D The expressions of the loop gain, input and output resistances are all very much as before. They are all a bit more complicated because a bipolar transistor has a finite input resistance r , p which shows up in most of the expressions."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A practical realization with only bipolar transistors is shown in this slide. All current sources are substituted by resistors. This circuit can also be realized easily with discrete components on a printed circuit board. Since each stage gives a higher DC voltage at the output, the second stage must be either a PNP transistor or a NPN transistor with an emitter resistor R . D To avoid the reduction in gain of this resistor, a large capacitance C is placed across it. This resistor does not come in for the gain calculations. This D is true for all frequencies higher than g /(2pC ). m2 D The expressions of the loop gain, input and output resistances are all very much as before. They are all a bit more complicated because a bipolar transistor has a finite input resistance r , p which shows up in most of the expressions.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Series-shunt FB pair with resistances",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0371_02_1331.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108077702703,
+          0.09268292741463413,
+          0.7263513510472972,
+          0.15121951278048784
+        ],
+        "confidence": 1,
+        "text": "Series-shunt FB pair with resistances"
+      },
+      {
+        "bbox": [
+          0.3749999992398649,
+          0.2341463416463414,
+          0.4358108100506756,
+          0.2878048782317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ":RL2"
+      },
+      {
+        "bbox": [
+          0.24324324378378379,
+          0.2634146340487805,
+          0.2972972978378378,
+          0.3121951218536585
+        ],
+        "confidence": 1,
+        "text": "RL1"
+      },
+      {
+        "bbox": [
+          0.3682432430743244,
+          0.37073170716186254,
+          0.40540540523648655,
+          0.4048780486252772
+        ],
+        "confidence": 1,
+        "text": "Q2"
+      },
+      {
+        "bbox": [
+          0.21959459510135138,
+          0.4341463411585367,
+          0.2601351356418919,
+          0.46829268262195123
+        ],
+        "confidence": 1,
+        "text": "Q1"
+      },
+      {
+        "bbox": [
+          0.27702702662162165,
+          0.42439024404878045,
+          0.31756756716216217,
+          0.47804878063414624
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.06418918958333332,
+          0.47317073150406497,
+          0.11148648688063062,
+          0.5170731705284553
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.30405405468749996,
+          0.6097560973780488,
+          0.3547297303631757,
+          0.6634146339634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RD'"
+      },
+      {
+        "bbox": [
+          0.20924870543362079,
+          0.70601460989567,
+          0.365075621999387,
+          0.7622780753118107
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ry > 1/9m1"
+      },
+      {
+        "bbox": [
+          0.4189189195101351,
+          0.6097560974999999,
+          0.4662162168074324,
+          0.6634146340853658
+        ],
+        "confidence": 1,
+        "text": "CD"
+      },
+      {
+        "bbox": [
+          0.08108107837837841,
+          0.8243902439512195,
+          0.3513513486486487,
+          0.8780487805365854
+        ],
+        "confidence": 0.5,
+        "text": "Input loading : RIN"
+      },
+      {
+        "bbox": [
+          0.5270270275337838,
+          0.20487804865853665,
+          0.5878378383445946,
+          0.25853658524390255
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.7195945941722973,
+          0.1853658543902439,
+          0.8277027022804054,
+          0.2439024397560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2 + R1"
+      },
+      {
+        "bbox": [
+          0.638513514222973,
+          0.22439024351219516,
+          0.7094594601689189,
+          0.27317073131707326
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av="
+      },
+      {
+        "bbox": [
+          0.7500000003378379,
+          0.2634146346829269,
+          0.7905405408783784,
+          0.3170731712682927
+        ],
+        "confidence": 1,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.48310810851351343,
+          0.3121951217073171,
+          0.523648649054054,
+          0.3463414631707318
+        ],
+        "confidence": 1,
+        "text": "Q3"
+      },
+      {
+        "bbox": [
+          0.6179973755643612,
+          0.32092968719139414,
+          0.7333539755267503,
+          0.38150933602338966
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R11l5.2"
+      },
+      {
+        "bbox": [
+          0.871621622195946,
+          0.33170731697560973,
+          0.9290540546283784,
+          0.3804878047804878
+        ],
+        "confidence": 1,
+        "text": "RL2"
+      },
+      {
+        "bbox": [
+          0.5371621619087837,
+          0.3609756092073171,
+          0.6114864862331081,
+          0.40487804823170737
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG ="
+      },
+      {
+        "bbox": [
+          0.6587837834459459,
+          0.4048780482439025,
+          0.6993243239864864,
+          0.4585365848292683
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.7297297273648649,
+          0.37073170712195114,
+          0.9662162138513514,
+          0.4487804876097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m2l02 RL2 + Г02"
+      },
+      {
+        "bbox": [
+          0.6317567573902028,
+          0.48780487878048784,
+          0.9121621627956081,
+          0.5463414641463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = RINOL LG = 00"
+      },
+      {
+        "bbox": [
+          0.49324324489020266,
+          0.5414634148170732,
+          0.6250000016469595,
+          0.6243902440853658
+        ],
+        "confidence": 0.5,
+        "text": "RE VOUT"
+      },
+      {
+        "bbox": [
+          0.6317567540259009,
+          0.5609756098780487,
+          0.9594594567286037,
+          0.6146341464634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RINOL = r1+ B (RylRz )"
+      },
+      {
+        "bbox": [
+          0.6385135156531531,
+          0.6780487801626016,
+          0.7668918940315315,
+          0.7268292679674796
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RouT = -"
+      },
+      {
+        "bbox": [
+          0.7352050326528097,
+          0.6302646031471593,
+          0.917292454070046,
+          0.7319208144419382
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ROUTOL = 0"
+      },
+      {
+        "bbox": [
+          0.7668918914977478,
+          0.7170731709756096,
+          0.8141891887950451,
+          0.7560975612195121
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.7635135133868243,
+          0.795121950792683,
+          0.7804054052787162,
+          0.8292682922560977
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.8243243252815315,
+          0.7853658535772358,
+          0.9391891901463965,
+          0.8439024389430895
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RL2l/ro2"
+      },
+      {
+        "bbox": [
+          0.6013513531672298,
+          0.8243902434146342,
+          0.7466216234375,
+          0.8829268287804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ROUTOL ="
+      },
+      {
+        "bbox": [
+          0.7939189187500001,
+          0.8243902433536585,
+          0.8209459457770271,
+          0.8682926823780488
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.7466216225788289,
+          0.8634146351467573,
+          0.8040540550112614,
+          0.9024390230646249
+        ],
+        "confidence": 1,
+        "text": "9m3"
+      },
+      {
+        "bbox": [
+          0.7162162191126644,
+          0.9365853660162601,
+          0.9290540440630116,
+          0.9658536586991869
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 1331"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A practical realization with only bipolar transistors is shown in this slide.",
+      "pdf_page": 371,
+      "printed_page": 378,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "They are all a bit more complicated because a bipolar transistor has a finite input resistance r , p which shows up in most of the expressions.",
+      "pdf_page": 371,
+      "printed_page": 378,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0371_02_1331.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Since each stage gives a higher DC voltage at the output, the second stage must be either a PNP transistor or a NPN transistor with an emitter resistor R .",
+        "pdf_page": 371,
+        "printed_page": 378,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "D To avoid the reduction in gain of this resistor, a large capacitance C is placed across it.",
+      "pdf_page": 371,
+      "printed_page": 378,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This resistor does not come in for the gain calculations.",
+      "pdf_page": 371,
+      "printed_page": 378,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This D is true for all frequencies higher than g /(2pC ). m2 D The expressions of the loop gain, input and output resistances are all very much as before.",
+      "pdf_page": 371,
+      "printed_page": 378,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1331-M01",
+      "ocr_text": "Ry > 1/9m1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.20924870543362079,
+        0.70601460989567,
+        0.365075621999387,
+        0.7622780753118107
+      ],
+      "context_crop": "regions/SANSEN-1331_math_01.png",
+      "context_bbox_normalized": [
+        0.16924870543362078,
+        0.60601460989567,
+        0.595075621999387,
+        0.8922780753118107
+      ],
+      "source_image": "slides/p0371_02_1331.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1331-M02",
+      "ocr_text": "Av=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.638513514222973,
+        0.22439024351219516,
+        0.7094594601689189,
+        0.27317073131707326
+      ],
+      "context_crop": "regions/SANSEN-1331_math_02.png",
+      "context_bbox_normalized": [
+        0.5985135142229729,
+        0.13,
+        0.9394594601689189,
+        0.40317073131707326
+      ],
+      "source_image": "slides/p0371_02_1331.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1331-M03",
+      "ocr_text": "LG =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5371621619087837,
+        0.3609756092073171,
+        0.6114864862331081,
+        0.40487804823170737
+      ],
+      "context_crop": "regions/SANSEN-1331_math_03.png",
+      "context_bbox_normalized": [
+        0.49716216190878376,
+        0.2609756092073171,
+        0.8414864862331081,
+        0.5348780482317074
+      ],
+      "source_image": "slides/p0371_02_1331.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1331-M04",
+      "ocr_text": "RIN = RINOL LG = 00",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6317567573902028,
+        0.48780487878048784,
+        0.9121621627956081,
+        0.5463414641463414
+      ],
+      "context_crop": "regions/SANSEN-1331_math_04.png",
+      "context_bbox_normalized": [
+        0.5917567573902027,
+        0.38780487878048786,
+        1,
+        0.6763414641463414
+      ],
+      "source_image": "slides/p0371_02_1331.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1331-M05",
+      "ocr_text": "RINOL = r1+ B (RylRz )",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6317567540259009,
+        0.5609756098780487,
+        0.9594594567286037,
+        0.6146341464634146
+      ],
+      "context_crop": "regions/SANSEN-1331_math_05.png",
+      "context_bbox_normalized": [
+        0.5917567540259009,
+        0.46097560987804875,
+        1,
+        0.7446341464634146
+      ],
+      "source_image": "slides/p0371_02_1331.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1331-M06",
+      "ocr_text": "RouT = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6385135156531531,
+        0.6780487801626016,
+        0.7668918940315315,
+        0.7268292679674796
+      ],
+      "context_crop": "regions/SANSEN-1331_math_06.png",
+      "context_bbox_normalized": [
+        0.598513515653153,
+        0.5780487801626016,
+        0.9968918940315314,
+        0.8568292679674796
+      ],
+      "source_image": "slides/p0371_02_1331.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1331-M07",
+      "ocr_text": "ROUTOL = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7352050326528097,
+        0.6302646031471593,
+        0.917292454070046,
+        0.7319208144419382
+      ],
+      "context_crop": "regions/SANSEN-1331_math_07.png",
+      "context_bbox_normalized": [
+        0.6952050326528096,
+        0.5302646031471593,
+        1,
+        0.8619208144419382
+      ],
+      "source_image": "slides/p0371_02_1331.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1331-M08",
+      "ocr_text": "ROUTOL =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6013513531672298,
+        0.8243902434146342,
+        0.7466216234375,
+        0.8829268287804878
+      ],
+      "context_crop": "regions/SANSEN-1331_math_08.png",
+      "context_bbox_normalized": [
+        0.5613513531672297,
+        0.7243902434146342,
+        0.9766216234375,
+        0.93
+      ],
+      "source_image": "slides/p0371_02_1331.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

@@ -1,0 +1,441 @@
+{
+  "case_id": "SANSEN-0729",
+  "slide_id": "0729",
+  "chapter": 7,
+  "slide_number_in_chapter": 29,
+  "source": {
+    "pdf_page": 219,
+    "printed_page": 224
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0220_01_0729.jpg",
+      "pdf_page": 220,
+      "printed_page": 225,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 219,
+      "printed_page": 224,
+      "bbox_pt": [
+        0,
+        618.7805000000001,
+        595,
+        797
+      ],
+      "text_raw": "The second important advantage of a folded cascode OTA is that the input transistors can\noperate with their Gates beyond the supply lines. The common-mode input voltage range can\ninclude one of the supply rails!\nIn the circuit in this slide, the pMOST devices at the input still operate when the Gates are\nconnected to ground, or even below ground. The V values of the input transistors are easily\nGS",
+      "text": "The second important advantage of a folded cascode OTA is that the input transistors can operate with their Gates beyond the supply lines. The common-mode input voltage range can include one of the supply rails! In the circuit in this slide, the pMOST devices at the input still operate when the Gates are connected to ground, or even below ground. The V values of the input transistors are easily GS"
+    },
+    {
+      "pdf_page": 220,
+      "printed_page": 225,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        417.4875000000002
+      ],
+      "text_raw": "0.9 V (for V =0.7 V), which\nT\nis more than sufficient to\naccommodate the V and\nDS1\nV .\nDS10\nIf V is about 0.2 V and\nDS1\nV =0.5 V, then the input\nDS10\ntransistors can still operate\nwith their gates at 0.2 V\nbelow ground!\nA folded cascode opamp\ninclude the ground rail. This\nis why they have been often\nused for single-supply sys-\ntems such as automotive\napplications before, but now\nalso for all mixed-signal\napplications, in which the\nprocessors use only one single supply line.\nMoreover, connecting two folded cascodes in parallel, one with pMOSTs at the input and\nanother one with nMOSTs at the input, allows coverage of the full rail-to-rail range. This is\nhow rail-to-rail input opamps are put together! These are discussed in Chapter 11.",
+      "text": "0.9 V (for V =0.7 V), which T is more than sufficient to accommodate the V and DS1 V . DS10 If V is about 0.2 V and DS1 V =0.5 V, then the input DS10 transistors can still operate with their gates at 0.2 V below ground! A folded cascode opamp include the ground rail. This is why they have been often used for single-supply systems such as automotive applications before, but now also for all mixed-signal applications, in which the processors use only one single supply line. Moreover, connecting two folded cascodes in parallel, one with pMOSTs at the input and another one with nMOSTs at the input, allows coverage of the full rail-to-rail range. This is how rail-to-rail input opamps are put together! These are discussed in Chapter 11."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The second important advantage of a folded cascode OTA is that the input transistors can operate with their Gates beyond the supply lines. The common-mode input voltage range can include one of the supply rails! In the circuit in this slide, the pMOST devices at the input still operate when the Gates are connected to ground, or even below ground. The V values of the input transistors are easily GS\n\n0.9 V (for V =0.7 V), which T is more than sufficient to accommodate the V and DS1 V . DS10 If V is about 0.2 V and DS1 V =0.5 V, then the input DS10 transistors can still operate with their gates at 0.2 V below ground! A folded cascode opamp include the ground rail. This is why they have been often used for single-supply systems such as automotive applications before, but now also for all mixed-signal applications, in which the processors use only one single supply line. Moreover, connecting two folded cascodes in parallel, one with pMOSTs at the input and another one with nMOSTs at the input, allows coverage of the full rail-to-rail range. This is how rail-to-rail input opamps are put together! These are discussed in Chapter 11.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Folded cascode OTA: input to Vss rail",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0220_01_0729.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243299268017,
+          0.08292682898373982,
+          0.746621627224099,
+          0.14634146313008134
+        ],
+        "confidence": 1,
+        "text": "Folded cascode OTA: input to Vss rail"
+      },
+      {
+        "bbox": [
+          0.6418918925,
+          0.20975609756097557,
+          0.7027027033108109,
+          0.2682926829268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.2128378373310811,
+          0.2536585368292683,
+          0.25337837787162165,
+          0.28292682951219517
+        ],
+        "confidence": 1,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.38175675737612613,
+          0.263414633902439,
+          0.41891891953828825,
+          0.28780487780487807
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.5810810809121622,
+          0.26341463402439025,
+          0.6148648646959459,
+          0.2878048779268293
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.13513513552927928,
+          0.44878048772357726,
+          0.1587837841779279,
+          0.4731707316260163
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•."
+      },
+      {
+        "bbox": [
+          0.37162162115709463,
+          0.5658536587195122,
+          0.4087837833192568,
+          0.5902439026219513
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.5777027030743244,
+          0.39999999975609757,
+          0.6148648652364865,
+          0.43414634121951223
+        ],
+        "confidence": 1,
+        "text": "M8"
+      },
+      {
+        "bbox": [
+          0.5810810824746622,
+          0.4390243902439024,
+          0.6925675689611486,
+          0.4878048780487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4 VoUT"
+      },
+      {
+        "bbox": [
+          0.5777027030405405,
+          0.5609756095121952,
+          0.6114864868243243,
+          0.5951219509756098
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.7229729744256757,
+          0.26829268258536587,
+          0.8682432446959459,
+          0.32195121917073166
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V, = 0.7 V"
+      },
+      {
+        "bbox": [
+          0.7432432529527542,
+          0.3268292678048781,
+          0.9391891860112094,
+          0.36585365804878056
+        ],
+        "confidence": 0.5,
+        "text": "GS1-V+ = 0.2 V"
+      },
+      {
+        "bbox": [
+          0.7229729752702702,
+          0.3853658533170732,
+          0.9527027049999999,
+          0.4390243899024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs10-V+ = 0.5 V"
+      },
+      {
+        "bbox": [
+          0.7227540518985388,
+          0.5105556094369804,
+          0.8752189185367224,
+          0.55773707616761
+        ],
+        "confidence": 0.5,
+        "text": "V+ = 1.5 V"
+      },
+      {
+        "bbox": [
+          0.7228939312466753,
+          0.5749269324309673,
+          0.9426466038029598,
+          0.6299511190072522
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs3-V, = 0.2 V"
+      },
+      {
+        "bbox": [
+          0.5168918918918919,
+          0.6487804874390244,
+          0.5641891891891891,
+          0.6926829264634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "v2"
+      },
+      {
+        "bbox": [
+          0.43918918859797296,
+          0.809756097804878,
+          0.48648648589527027,
+          0.8390243904878047
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M10"
+      },
+      {
+        "bbox": [
+          0.5844594595504159,
+          0.8146341464540338,
+          0.648648648739605,
+          0.8439024391369606
+        ],
+        "confidence": 1,
+        "text": "M11"
+      },
+      {
+        "bbox": [
+          0.6516352654543316,
+          0.7972350796577083,
+          0.8416079754193931,
+          0.86130150600465
+        ],
+        "confidence": 0.5,
+        "text": "Vss = 0 Volt"
+      },
+      {
+        "bbox": [
+          0.7229729825698714,
+          0.9463414628455283,
+          0.9324324291418401,
+          0.980487804308943
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 0729"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0220_01_0729.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In the circuit in this slide, the pMOST devices at the input still operate when the Gates are connected to ground, or even below ground.",
+        "pdf_page": 219,
+        "printed_page": 224,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Moreover, connecting two folded cascodes in parallel, one with pMOSTs at the input and another one with nMOSTs at the input, allows coverage of the full rail-to-rail range.",
+        "pdf_page": 220,
+        "printed_page": 225,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0729-M01",
+      "ocr_text": "V, = 0.7 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7229729744256757,
+        0.26829268258536587,
+        0.8682432446959459,
+        0.32195121917073166
+      ],
+      "context_crop": "regions/SANSEN-0729_math_01.png",
+      "context_bbox_normalized": [
+        0.6829729744256756,
+        0.16829268258536587,
+        1,
+        0.45195121917073167
+      ],
+      "source_image": "slides/p0220_01_0729.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0729-M02",
+      "ocr_text": "GS1-V+ = 0.2 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7432432529527542,
+        0.3268292678048781,
+        0.9391891860112094,
+        0.36585365804878056
+      ],
+      "context_crop": "regions/SANSEN-0729_math_02.png",
+      "context_bbox_normalized": [
+        0.7032432529527541,
+        0.22682926780487808,
+        1,
+        0.49585365804878057
+      ],
+      "source_image": "slides/p0220_01_0729.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0729-M03",
+      "ocr_text": "VGs10-V+ = 0.5 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7229729752702702,
+        0.3853658533170732,
+        0.9527027049999999,
+        0.4390243899024391
+      ],
+      "context_crop": "regions/SANSEN-0729_math_03.png",
+      "context_bbox_normalized": [
+        0.6829729752702701,
+        0.2853658533170732,
+        1,
+        0.5690243899024391
+      ],
+      "source_image": "slides/p0220_01_0729.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0729-M04",
+      "ocr_text": "V+ = 1.5 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7227540518985388,
+        0.5105556094369804,
+        0.8752189185367224,
+        0.55773707616761
+      ],
+      "context_crop": "regions/SANSEN-0729_math_04.png",
+      "context_bbox_normalized": [
+        0.6827540518985388,
+        0.41055560943698044,
+        1,
+        0.68773707616761
+      ],
+      "source_image": "slides/p0220_01_0729.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0729-M05",
+      "ocr_text": "VGs3-V, = 0.2 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7228939312466753,
+        0.5749269324309673,
+        0.9426466038029598,
+        0.6299511190072522
+      ],
+      "context_crop": "regions/SANSEN-0729_math_05.png",
+      "context_bbox_normalized": [
+        0.6828939312466753,
+        0.4749269324309673,
+        1,
+        0.7599511190072522
+      ],
+      "source_image": "slides/p0220_01_0729.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0729-M06",
+      "ocr_text": "Vss = 0 Volt",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6516352654543316,
+        0.7972350796577083,
+        0.8416079754193931,
+        0.86130150600465
+      ],
+      "context_crop": "regions/SANSEN-0729_math_06.png",
+      "context_bbox_normalized": [
+        0.6116352654543316,
+        0.6972350796577084,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0220_01_0729.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

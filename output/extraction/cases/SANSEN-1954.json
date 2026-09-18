@@ -1,0 +1,184 @@
+{
+  "case_id": "SANSEN-1954",
+  "slide_id": "1954",
+  "chapter": 19,
+  "slide_number_in_chapter": 54,
+  "source": {
+    "pdf_page": 582,
+    "printed_page": 593
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0582_02_1954.jpg",
+      "pdf_page": 582,
+      "printed_page": 593,
+      "bbox_pt": [
+        91.521622,
+        355.608307,
+        374.78981,
+        552.068298
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 582,
+      "printed_page": 593,
+      "bbox_pt": [
+        0,
+        351.61885000000007,
+        595,
+        582.9065
+      ],
+      "text_raw": "All previous transconduc-\ntors can be tuned by chang-\ning a biasing current or\nvoltage. This allows tuning\nof the transconductance\nsuch that the time constant\nof the transconductor is\naccurately determined. This\nis the only way to be able to\nrealize higher-order filters.\nSuch circuits are discussed\nnext.",
+      "text": "All previous transconductors can be tuned by changing a biasing current or voltage. This allows tuning of the transconductance such that the time constant of the transconductor is accurately determined. This is the only way to be able to realize higher-order filters. Such circuits are discussed next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "All previous transconductors can be tuned by changing a biasing current or voltage. This allows tuning of the transconductance such that the time constant of the transconductor is accurately determined. This is the only way to be able to realize higher-order filters. Such circuits are discussed next.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0582_02_1954.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270053088803,
+          0.08292682944250873,
+          0.38175675458494207,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.128378380984556,
+          0.20975609735191636,
+          0.49324324584942086,
+          0.26829268271777007
+        ],
+        "confidence": 0.5,
+        "text": "• Active RC filters"
+      },
+      {
+        "bbox": [
+          0.12837837560328186,
+          0.30243902466898953,
+          0.5168918891167954,
+          0.36097561003484313
+        ],
+        "confidence": 1,
+        "text": "• MOSFET-C filters"
+      },
+      {
+        "bbox": [
+          0.13175675591216215,
+          0.4048780494512194,
+          0.39527026942567567,
+          0.4585365860365853
+        ],
+        "confidence": 0.5,
+        "text": "• GmC filters"
+      },
+      {
+        "bbox": [
+          0.1655405357685812,
+          0.4926829271341463,
+          0.547297292525338,
+          0.5463414637195122
+        ],
+        "confidence": 1,
+        "text": "• Transconductors"
+      },
+      {
+        "bbox": [
+          0.16514573374612213,
+          0.578174675407963,
+          0.35174616111593576,
+          0.6510936161614346
+        ],
+        "confidence": 0.5,
+        "text": "• Tuning"
+      },
+      {
+        "bbox": [
+          0.12837838077139635,
+          0.6829268290243903,
+          0.4155405429335585,
+          0.741463414390244
+        ],
+        "confidence": 1,
+        "text": "• Comparison"
+      },
+      {
+        "bbox": [
+          0.1047297491487518,
+          0.8439024390243902,
+          0.4966216152656622,
+          0.8829268292682927
+        ],
+        "confidence": 1,
+        "text": "Ref.: Silva-Martinez, Dehaene, .."
+      },
+      {
+        "bbox": [
+          0.7263513613987003,
+          0.9512195119512196,
+          0.9425675647274258,
+          0.9853658534146342
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1954"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This allows tuning of the transconductance such that the time constant of the transconductor is accurately determined.",
+      "pdf_page": 582,
+      "printed_page": 593,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0582_02_1954.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

@@ -1,0 +1,295 @@
+{
+  "case_id": "SANSEN-085",
+  "slide_id": "085",
+  "chapter": 8,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 235,
+    "printed_page": 241
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0235_01_085.jpg",
+      "pdf_page": 235,
+      "printed_page": 241,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 235,
+      "printed_page": 241,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        451.3685000000003
+      ],
+      "text_raw": "One example of such a\nCMFB amplifier is shown in\nthis slide.\nBoth output voltages are\nmeasured. Since we only\nwant feedback on the\ncommon-mode signals, we\nhave to cancel out the\ndifferential signals. This is\ndone at node 4.\nNow we have to close the\nloop with an amplifier, and\nfeed it to a common-mode\npoint. Any biasing point in\nthe circuit can be used for\nthat. For this amplifier it is\nnode 5.\nClearly, part of the circuit belongs to both the common-mode and the differential amplifier.\nFor example, transistors M3 and M4 are DC current sources for the differential signals, but\nsingle-transistor amplifiers for the common-mode signals.\nAlso, the CMFB amplifier is always connected in unity-gain feedback. Nodes 1 and 2 are at\nthe same time the input and output of the CMFB amplifier. It may thus require more power to\nensure stability.\nThe differential amplifier is evidently shown without feedback.\nBiasing voltage V is the independent biasing voltage. This could well have been the Gates of\nB\nthe NMOSTs M3/M4, as shown next.",
+      "text": "One example of such a CMFB amplifier is shown in this slide. Both output voltages are measured. Since we only want feedback on the common-mode signals, we have to cancel out the differential signals. This is done at node 4. Now we have to close the loop with an amplifier, and feed it to a common-mode point. Any biasing point in the circuit can be used for that. For this amplifier it is node 5. Clearly, part of the circuit belongs to both the common-mode and the differential amplifier. For example, transistors M3 and M4 are DC current sources for the differential signals, but single-transistor amplifiers for the common-mode signals. Also, the CMFB amplifier is always connected in unity-gain feedback. Nodes 1 and 2 are at the same time the input and output of the CMFB amplifier. It may thus require more power to ensure stability. The differential amplifier is evidently shown without feedback. Biasing voltage V is the independent biasing voltage. This could well have been the Gates of B the NMOSTs M3/M4, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "One example of such a CMFB amplifier is shown in this slide. Both output voltages are measured. Since we only want feedback on the common-mode signals, we have to cancel out the differential signals. This is done at node 4. Now we have to close the loop with an amplifier, and feed it to a common-mode point. Any biasing point in the circuit can be used for that. For this amplifier it is node 5. Clearly, part of the circuit belongs to both the common-mode and the differential amplifier. For example, transistors M3 and M4 are DC current sources for the differential signals, but single-transistor amplifiers for the common-mode signals. Also, the CMFB amplifier is always connected in unity-gain feedback. Nodes 1 and 2 are at the same time the input and output of the CMFB amplifier. It may thus require more power to ensure stability. The differential amplifier is evidently shown without feedback. Biasing voltage V is the independent biasing voltage. This could well have been the Gates of B the NMOSTs M3/M4, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Simple CMOS fully-diff. OTA with CMFB - 1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0235_01_085.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270715090082,
+          0.08292682899728998,
+          0.8783783828265764,
+          0.1414634143631437
+        ],
+        "confidence": 1,
+        "text": "Simple CMOS fully-diff. OTA with CMFB - 1"
+      },
+      {
+        "bbox": [
+          0.17905405472972968,
+          0.20000000073170732,
+          0.2398648655405405,
+          0.258536586097561
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.27364864847972975,
+          0.23902439011257037,
+          0.31756756739864866,
+          0.27317073157598504
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.2635135138231982,
+          0.31707317060975615,
+          0.3006756759853603,
+          0.3609756096341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Iв"
+      },
+      {
+        "bbox": [
+          0.4729729732432433,
+          0.2926829265853659,
+          0.5000000002702703,
+          0.32682926804878054
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B"
+      },
+      {
+        "bbox": [
+          0.0945945952027027,
+          0.44878048775609747,
+          0.15540540601351352,
+          0.49268292678048775
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN+"
+      },
+      {
+        "bbox": [
+          0.11614632057863084,
+          0.5394449097309372,
+          0.1946877927301036,
+          0.5869806571659719
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT-"
+      },
+      {
+        "bbox": [
+          0.5135135142798554,
+          0.44878048896789546,
+          0.5641891867336584,
+          0.487804876885763
+        ],
+        "confidence": 1,
+        "text": "VIN-"
+      },
+      {
+        "bbox": [
+          0.4763513523648649,
+          0.5414634146341464,
+          0.557432433445946,
+          0.5804878048780487
+        ],
+        "confidence": 0.5,
+        "text": "Vouт+"
+      },
+      {
+        "bbox": [
+          0.06756756718750001,
+          0.6292682920121951,
+          0.10472972934966217,
+          0.682926828597561
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.20270270296814674,
+          0.6195121948780489,
+          0.23986486513030889,
+          0.6731707314634148
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.19932432499999997,
+          0.7073170729268293,
+          0.253378379054054,
+          0.7463414631707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M3 ."
+      },
+      {
+        "bbox": [
+          0.1756756752364865,
+          0.780487804292683,
+          0.23310810766891896,
+          0.8390243896585367
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.43918918887950453,
+          0.7073170733739839,
+          0.4763513510416667,
+          0.7414634148373984
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.5844594559459461,
+          0.8487804879999998,
+          0.9358108072972974,
+          0.9073170733658535
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Control VouTcom› IDS5"
+      },
+      {
+        "bbox": [
+          0.7195945976599617,
+          0.9560975611382113,
+          0.9222972874751736,
+          0.9853658538211382
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 085"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "One example of such a CMFB amplifier is shown in this slide.",
+      "pdf_page": 235,
+      "printed_page": 241,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The differential amplifier is evidently shown without feedback.",
+      "pdf_page": 235,
+      "printed_page": 241,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This could well have been the Gates of B the NMOSTs M3/M4, as shown next.",
+      "pdf_page": 235,
+      "printed_page": 241,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0235_01_085.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Also, the CMFB amplifier is always connected in unity-gain feedback.",
+        "pdf_page": 235,
+        "printed_page": 241,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Also, the CMFB amplifier is always connected in unity-gain feedback.",
+      "pdf_page": 235,
+      "printed_page": 241,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It may thus require more power to ensure stability.",
+      "pdf_page": 235,
+      "printed_page": 241,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Biasing voltage V is the independent biasing voltage.",
+      "pdf_page": 235,
+      "printed_page": 241,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

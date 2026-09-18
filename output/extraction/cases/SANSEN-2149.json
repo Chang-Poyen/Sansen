@@ -1,0 +1,564 @@
+{
+  "case_id": "SANSEN-2149",
+  "slide_id": "2149",
+  "chapter": 21,
+  "slide_number_in_chapter": 49,
+  "source": {
+    "pdf_page": 650,
+    "printed_page": 661
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0651_01_2149.jpg",
+      "pdf_page": 651,
+      "printed_page": 662,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 650,
+      "printed_page": 661,
+      "bbox_pt": [
+        0,
+        594.8645,
+        595,
+        797
+      ],
+      "text_raw": "In this principle, the opamp is always reset to ground. In this way, the input switch always has\nthe maximum V , even for small supply voltages.\nGS\nIn order to understand the principle, let us neglect the level shifters V /2. Also, the voltage\ndd\npresented by the previous integrator is called V .\nin\nDuring phase 1 (red), the charge on capacitor C is Q , which is C V . The signal voltage at\n1 1 1 in\nthe output V is zero as this opamp is connected in unity-gain configuration (except for a DC\nout\nlevel shift).",
+      "text": "In this principle, the opamp is always reset to ground. In this way, the input switch always has the maximum V , even for small supply voltages. GS In order to understand the principle, let us neglect the level shifters V /2. Also, the voltage dd presented by the previous integrator is called V . in During phase 1 (red), the charge on capacitor C is Q , which is C V . The signal voltage at 1 1 1 in the output V is zero as this opamp is connected in unity-gain configuration (except for a DC out level shift)."
+    },
+    {
+      "pdf_page": 651,
+      "printed_page": 662,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        417.4875000000002
+      ],
+      "text_raw": "During phase 2 (blue),\nthis charge C V is transfer-\n1 in\nred to capacitor C . The\n2\ncharge on this capacitor\nchanges by an amount\nC V such that the output\n1 in\nvoltage V changes by an\nout\namount V C /C .\nin 1 2\nDuring this phase the pre-\nvious opamp is now reset to\nzero, as it is connected\nin unity-gain configuration\n(except for a DC level shift).\nEach opamp has zero at\nits output during one phase\nand the output voltage\nduring the other phase.\nThere is no problem with switches which have to pass a high signal level, and which have too\nsmall a drive voltage V .\nGS\nThe disadvantage however, is that the output voltages have to swing over a large range for\neach new clock phase. The Slew Rate must be quite high, leading to more power consumption\nin the opamps.",
+      "text": "During phase 2 (blue), this charge C V is transfer- 1 in red to capacitor C . The 2 charge on this capacitor changes by an amount C V such that the output 1 in voltage V changes by an out amount V C /C . in 1 2 During this phase the previous opamp is now reset to zero, as it is connected in unity-gain configuration (except for a DC level shift). Each opamp has zero at its output during one phase and the output voltage during the other phase. There is no problem with switches which have to pass a high signal level, and which have too small a drive voltage V . GS The disadvantage however, is that the output voltages have to swing over a large range for each new clock phase. The Slew Rate must be quite high, leading to more power consumption in the opamps."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this principle, the opamp is always reset to ground. In this way, the input switch always has the maximum V , even for small supply voltages. GS In order to understand the principle, let us neglect the level shifters V /2. Also, the voltage dd presented by the previous integrator is called V . in During phase 1 (red), the charge on capacitor C is Q , which is C V . The signal voltage at 1 1 1 in the output V is zero as this opamp is connected in unity-gain configuration (except for a DC out level shift).\n\nDuring phase 2 (blue), this charge C V is transfer- 1 in red to capacitor C . The 2 charge on this capacitor changes by an amount C V such that the output 1 in voltage V changes by an out amount V C /C . in 1 2 During this phase the previous opamp is now reset to zero, as it is connected in unity-gain configuration (except for a DC level shift). Each opamp has zero at its output during one phase and the output voltage during the other phase. There is no problem with switches which have to pass a high signal level, and which have too small a drive voltage V . GS The disadvantage however, is that the output voltages have to swing over a large range for each new clock phase. The Slew Rate must be quite high, leading to more power consumption in the opamps.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Reset-opamp integrator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0651_01_2149.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810818412162,
+          0.08780487725609754,
+          0.5000000007601352,
+          0.15121951140243906
+        ],
+        "confidence": 1,
+        "text": "Reset-opamp integrator"
+      },
+      {
+        "bbox": [
+          0.22968897707341876,
+          0.23390915665546286,
+          0.3108515650898257,
+          0.2636518185735448
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VddI 2 :"
+      },
+      {
+        "bbox": [
+          0.4695945949324324,
+          0.2585365851219512,
+          0.4966216219594594,
+          0.2975609753658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SA"
+      },
+      {
+        "bbox": [
+          0.4695945949324324,
+          0.3121951217073171,
+          0.5033783787162162,
+          0.3463414631707318
+        ],
+        "confidence": 1,
+        "text": "Ф1"
+      },
+      {
+        "bbox": [
+          0.4695945950168918,
+          0.414634146097561,
+          0.5033783788006756,
+          0.44390243878048774
+        ],
+        "confidence": 0.5,
+        "text": "Ф2"
+      },
+      {
+        "bbox": [
+          0.5168918910472973,
+          0.2536585368292683,
+          0.5844594586148648,
+          0.28292682951219517
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vdd / 2"
+      },
+      {
+        "bbox": [
+          0.3175675673986487,
+          0.4341463411707318,
+          0.34121621604729735,
+          0.46341463385365866
+        ],
+        "confidence": 0.5,
+        "text": "C1"
+      },
+      {
+        "bbox": [
+          0.2635135130743243,
+          0.497560975804878,
+          0.3074324319932432,
+          0.5365853660487805
+        ],
+        "confidence": 0.5,
+        "text": "Vin:"
+      },
+      {
+        "bbox": [
+          0.20932796304759885,
+          0.5698856874890648,
+          0.29742879590942184,
+          0.6008460193826135
+        ],
+        "confidence": 1,
+        "text": "previous"
+      },
+      {
+        "bbox": [
+          0.20945945983952705,
+          0.6048780492073171,
+          0.2668918922719595,
+          0.6390243906707318
+        ],
+        "confidence": 1,
+        "text": "stage"
+      },
+      {
+        "bbox": [
+          0.587837838429054,
+          0.4682926826829268,
+          0.6351351357263514,
+          0.49756097536585364
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.3682432430743243,
+          0.5512195125609756,
+          0.4087837836148649,
+          0.5804878052439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "/Ф]|"
+      },
+      {
+        "bbox": [
+          0.685810809839527,
+          0.26341463487804884,
+          0.891891890920608,
+          0.32195122024390255
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vout = 0 ... 1 V"
+      },
+      {
+        "bbox": [
+          0.6856866836970676,
+          0.3258506962387093,
+          0.885259259755945,
+          0.3814663772124136
+        ],
+        "confidence": 0.5,
+        "text": "Vout,av = 0.5 V"
+      },
+      {
+        "bbox": [
+          0.688700097317441,
+          0.42207050986942685,
+          0.8180566620196554,
+          0.4852465649402574
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vin = 0 V"
+      },
+      {
+        "bbox": [
+          0.68913023295575,
+          0.5507748720843495,
+          0.8818157081763015,
+          0.6053226890354498
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vaa/2 = 0.5 V"
+      },
+      {
+        "bbox": [
+          0.10795856979533687,
+          0.691952090879201,
+          0.20960900114480768,
+          0.7373162009419629
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "On Ф, :"
+      },
+      {
+        "bbox": [
+          0.1081081099223232,
+          0.741463413902439,
+          0.20608107645155077,
+          0.7853658529268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "On Ф2:"
+      },
+      {
+        "bbox": [
+          0.29054054210304053,
+          0.6878048787195121,
+          0.429054055616554,
+          0.741463415304878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Q, =C, Vin"
+      },
+      {
+        "bbox": [
+          0.29054054041385136,
+          0.7414634152439024,
+          0.36824324311655404,
+          0.7902439030487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Q, =0"
+      },
+      {
+        "bbox": [
+          0.6858108101914414,
+          0.6926829275609756,
+          0.7770270264076576,
+          0.7365853665853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vout = 0"
+      },
+      {
+        "bbox": [
+          0.5405405380912163,
+          0.7414634148170732,
+          0.7364864840371622,
+          0.7853658538414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Q2 +C,Vin Vout"
+      },
+      {
+        "bbox": [
+          0.10472971997466239,
+          0.8243902440243903,
+          0.8851351253800678,
+          0.8731707318292684
+        ],
+        "confidence": 1,
+        "text": "Level shift needed to avoid forward biased junctions !"
+      },
+      {
+        "bbox": [
+          0.6114864904560809,
+          0.8780487801829268,
+          0.9290540580236485,
+          0.9121951216463413
+        ],
+        "confidence": 0.5,
+        "text": "Keskin, .., JSSC July 02, 817-824"
+      },
+      {
+        "bbox": [
+          0.7229729755489864,
+          0.9365853656097561,
+          0.9290540566300676,
+          0.965853658292683
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 2149"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0651_01_2149.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The signal voltage at 1 1 1 in the output V is zero as this opamp is connected in unity-gain configuration (except for a DC out level shift).",
+        "pdf_page": 650,
+        "printed_page": 661,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The 2 charge on this capacitor changes by an amount C V such that the output 1 in voltage V changes by an out amount V C /C . in 1 2 During this phase the previous opamp is now reset to zero, as it is connected in unity-gain configuration (except for a DC level shift).",
+        "pdf_page": 651,
+        "printed_page": 662,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The signal voltage at 1 1 1 in the output V is zero as this opamp is connected in unity-gain configuration (except for a DC out level shift).",
+      "pdf_page": 650,
+      "printed_page": 661,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The 2 charge on this capacitor changes by an amount C V such that the output 1 in voltage V changes by an out amount V C /C . in 1 2 During this phase the previous opamp is now reset to zero, as it is connected in unity-gain configuration (except for a DC level shift).",
+      "pdf_page": 651,
+      "printed_page": 662,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Also, the voltage dd presented by the previous integrator is called V . in During phase 1 (red), the charge on capacitor C is Q , which is C V .",
+      "pdf_page": 650,
+      "printed_page": 661,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "During phase 2 (blue), this charge C V is transfer- 1 in red to capacitor C .",
+      "pdf_page": 651,
+      "printed_page": 662,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The 2 charge on this capacitor changes by an amount C V such that the output 1 in voltage V changes by an out amount V C /C . in 1 2 During this phase the previous opamp is now reset to zero, as it is connected in unity-gain configuration (except for a DC level shift).",
+      "pdf_page": 651,
+      "printed_page": 662,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Each opamp has zero at its output during one phase and the output voltage during the other phase.",
+      "pdf_page": 651,
+      "printed_page": 662,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS The disadvantage however, is that the output voltages have to swing over a large range for each new clock phase.",
+      "pdf_page": 651,
+      "printed_page": 662,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "GS In order to understand the principle, let us neglect the level shifters V /2.",
+      "pdf_page": 650,
+      "printed_page": 661,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2149-M01",
+      "ocr_text": "Vout = 0 ... 1 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.685810809839527,
+        0.26341463487804884,
+        0.891891890920608,
+        0.32195122024390255
+      ],
+      "context_crop": "regions/SANSEN-2149_math_01.png",
+      "context_bbox_normalized": [
+        0.645810809839527,
+        0.16341463487804883,
+        1,
+        0.45195122024390255
+      ],
+      "source_image": "slides/p0651_01_2149.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2149-M02",
+      "ocr_text": "Vout,av = 0.5 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6856866836970676,
+        0.3258506962387093,
+        0.885259259755945,
+        0.3814663772124136
+      ],
+      "context_crop": "regions/SANSEN-2149_math_02.png",
+      "context_bbox_normalized": [
+        0.6456866836970676,
+        0.22585069623870932,
+        1,
+        0.5114663772124136
+      ],
+      "source_image": "slides/p0651_01_2149.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2149-M03",
+      "ocr_text": "Vin = 0 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.688700097317441,
+        0.42207050986942685,
+        0.8180566620196554,
+        0.4852465649402574
+      ],
+      "context_crop": "regions/SANSEN-2149_math_03.png",
+      "context_bbox_normalized": [
+        0.6487000973174409,
+        0.32207050986942687,
+        1,
+        0.6152465649402574
+      ],
+      "source_image": "slides/p0651_01_2149.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2149-M04",
+      "ocr_text": "Vaa/2 = 0.5 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.68913023295575,
+        0.5507748720843495,
+        0.8818157081763015,
+        0.6053226890354498
+      ],
+      "context_crop": "regions/SANSEN-2149_math_04.png",
+      "context_bbox_normalized": [
+        0.64913023295575,
+        0.4507748720843495,
+        1,
+        0.7353226890354498
+      ],
+      "source_image": "slides/p0651_01_2149.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2149-M05",
+      "ocr_text": "Q, =C, Vin",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.29054054210304053,
+        0.6878048787195121,
+        0.429054055616554,
+        0.741463415304878
+      ],
+      "context_crop": "regions/SANSEN-2149_math_05.png",
+      "context_bbox_normalized": [
+        0.25054054210304055,
+        0.5878048787195121,
+        0.6590540556165541,
+        0.871463415304878
+      ],
+      "source_image": "slides/p0651_01_2149.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2149-M06",
+      "ocr_text": "Q, =0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.29054054041385136,
+        0.7414634152439024,
+        0.36824324311655404,
+        0.7902439030487804
+      ],
+      "context_crop": "regions/SANSEN-2149_math_06.png",
+      "context_bbox_normalized": [
+        0.2505405404138514,
+        0.6414634152439024,
+        0.5982432431165541,
+        0.9202439030487805
+      ],
+      "source_image": "slides/p0651_01_2149.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2149-M07",
+      "ocr_text": "Vout = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6858108101914414,
+        0.6926829275609756,
+        0.7770270264076576,
+        0.7365853665853659
+      ],
+      "context_crop": "regions/SANSEN-2149_math_07.png",
+      "context_bbox_normalized": [
+        0.6458108101914414,
+        0.5926829275609756,
+        1,
+        0.8665853665853659
+      ],
+      "source_image": "slides/p0651_01_2149.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

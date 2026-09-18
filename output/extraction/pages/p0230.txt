@@ -1,0 +1,48 @@
+Important opamp configurations 235
+Moreover, this opamp takes very little power. As a consequence, the GBW is fairly low.
+The noise is very high, however. The reasons are that the currents are small but especially
+that emitter followers are used at the input. They do not give voltage gain. As a result, all six
+transistors of the input stage contribute to the equivalent input noise.
+0748
+A two-stage bipolar opamp
+with JFETs at the input is
+shown in this slide.
+JFETs behave as MOSTs
+but with larger input cur-
+rents. Actually, their input
+currents are leakage cur-
+rents, because of the reverse
+biased input pn junctions.
+They are much smaller
+than for bipolar transistors
+though. Also, their thresh-
+old voltages are negative.
+They are depletion devices
+rather than enhancement
+devices such as MOSTs.
+They conduct at zero V . Also, their threshold voltage, called pinch-off voltage V , is usually
+GS P
+several Volts.
+These p-channel JFETs substitute the pnp transistors which were originally in this circuit.
+After all, this is just a two-stage operational amplifier with Miller compensation. With bipolar
+transistors at the input however, the Slew Rate is too small. JFETs have been used instead to
+increase the Slew Rate.
+They also give very little 1/f noise, which is an additional advantage for low-frequency circuits
+such as high-performance audio amplifiers.
+0749
+This is a two-stage opamp
+which has been the work-
+horse for all discrete analog
+electronics over decades of
+years.
+The only difference with
+any two-stage Miller com-
+pensated opamp is the
+input stage.
+Lateral pnp transistors
+have a low beta and cannot
+be used as input transistors.
+On the other hand, we defi-
+nitely want to use high-
+speed npn transistors in the
+second stage to shift the

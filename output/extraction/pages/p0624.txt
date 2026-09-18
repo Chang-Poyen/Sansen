@@ -1,0 +1,47 @@
+CMOS ADC and DAC principles 635
+2062
+The power consumption is
+plotted for an ADC for a
+certain input signal fre-
+quency, versus dynamic
+range.
+The bottom line is the one
+for noise as a source of error.
+The other ones are for mis-
+match, for two different
+technologies 0.7 and 0.5 mm
+CMOS.
+All the dots on top corre-
+spond with ADCs published
+in the JSSC.
+It is clear that these first-
+order estimates of the power
+for a certain dynamic range and frequency, are still far away for most realizations.
+It is also clear however, that mismatch line is a lot closer to the realizations than the noise
+curve. This means that mismatch as a source of error is a more realistic approximation of what
+can be achieved other than the noise.
+Also, these curves allow to estimate beforehand what power consumption is to be expected
+whenever an ADC is to be realized with a certain resolution and speed.
+2063
+Another way to see how
+physical limitations come in
+trying to beat the power-
+resolution-speed barrier, a
+more general plot is shown
+in this slide.
+It shows that at low fre-
+quencies, thermal noise
+establishes a limit to what
+SNR can be obtained (red).
+The lower curve of the two
+is for a resistance of 2 kV.
+At higher frequencies
+however, aperture uncer-
+tainty of the sampling comes
+in (blue). This is mainly
+jitter of the clocks. The lower curve of the three is for a jitter of 1 ps.
+At really high frequencies other ambiguities show up (green). They have to do with the
+uncertainty of the regenerative switching of the comparator. The left curve is for a 50 GHz clock.
+At the highest frequencies Heisenberg comes in (black). This is still far out, however.
+All the realizations (red dots) are still fairly far away from these physical limits. Remember
+however that between the noise curve and the dots, a mismatch curve has to be added.

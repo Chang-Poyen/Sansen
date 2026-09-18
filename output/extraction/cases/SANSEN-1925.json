@@ -1,0 +1,206 @@
+{
+  "case_id": "SANSEN-1925",
+  "slide_id": "1925",
+  "chapter": 19,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 568,
+    "printed_page": 579
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0568_01_1925.jpg",
+      "pdf_page": 568,
+      "printed_page": 579,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 568,
+      "printed_page": 579,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        429.4455100000002
+      ],
+      "text_raw": "For larger loop gain in the\nfeedback loop, the distor-\ntion is lower and the input\nrange larger.\nLocal feedback is possible\nby addition of only a few\ntransistors as shown on the\nleft. The input transistors\ncannot have any AC current\nas they have DC current\nsources in both Drain and\nSource. Only the pMOST\ndevices thus carry AC cur-\nrent. This current is deter-\nmined by the differential\ninput voltage which appears\nnearly unattenuated across transistor 2R. The output currents are then mirrored out.\nThis voltage-to-current conversion is even more accurate if a full operational amplifier is\ninserted in the feedback loop, instead of just one single transistor. The loop gain now includes\nthe open-loop gain of the operational amplifier. The distortion will now be very small.\nThis is only true at low frequencies, however, as the open-loop gain of an opamp drops quite\nrapidly versus frequency. For high frequencies the circuit on the left may be preferable.",
+      "text": "For larger loop gain in the feedback loop, the distortion is lower and the input range larger. Local feedback is possible by addition of only a few transistors as shown on the left. The input transistors cannot have any AC current as they have DC current sources in both Drain and Source. Only the pMOST devices thus carry AC current. This current is determined by the differential input voltage which appears nearly unattenuated across transistor 2R. The output currents are then mirrored out. This voltage-to-current conversion is even more accurate if a full operational amplifier is inserted in the feedback loop, instead of just one single transistor. The loop gain now includes the open-loop gain of the operational amplifier. The distortion will now be very small. This is only true at low frequencies, however, as the open-loop gain of an opamp drops quite rapidly versus frequency. For high frequencies the circuit on the left may be preferable."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For larger loop gain in the feedback loop, the distortion is lower and the input range larger. Local feedback is possible by addition of only a few transistors as shown on the left. The input transistors cannot have any AC current as they have DC current sources in both Drain and Source. Only the pMOST devices thus carry AC current. This current is determined by the differential input voltage which appears nearly unattenuated across transistor 2R. The output currents are then mirrored out. This voltage-to-current conversion is even more accurate if a full operational amplifier is inserted in the feedback loop, instead of just one single transistor. The loop gain now includes the open-loop gain of the operational amplifier. The distortion will now be very small. This is only true at low frequencies, however, as the open-loop gain of an opamp drops quite rapidly versus frequency. For high frequencies the circuit on the left may be preferable.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Increasing the IP by FB and high loop gain",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0568_01_1925.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269636824341,
+          0.07804877963414636,
+          0.8479729666385136,
+          0.14634146256097558
+        ],
+        "confidence": 1,
+        "text": "Increasing the IP by FB and high loop gain"
+      },
+      {
+        "bbox": [
+          0.24324324363738734,
+          0.6097560973577235,
+          0.2905405409346846,
+          0.6536585363821138
+        ],
+        "confidence": 1,
+        "text": "2R"
+      },
+      {
+        "bbox": [
+          0.6993243237837837,
+          0.5414634148292683,
+          0.7533783778378378,
+          0.5902439026341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.7094594597691442,
+          0.6048780491463415,
+          0.753378378688063,
+          0.6487804881707318
+        ],
+        "confidence": 1,
+        "text": "2R"
+      },
+      {
+        "bbox": [
+          0.14864864664575292,
+          0.8390243904878047,
+          0.4290540520511583,
+          0.882926829512195
+        ],
+        "confidence": 1,
+        "text": "Additional local FB"
+      },
+      {
+        "bbox": [
+          0.5878378337837838,
+          0.8390243904878047,
+          0.9121621581081082,
+          0.8878048782926828
+        ],
+        "confidence": 1,
+        "text": "More FB with opamps"
+      },
+      {
+        "bbox": [
+          0.7263513606667183,
+          0.946341463927245,
+          0.9391891856170654,
+          0.9853658530081301
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1925"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Local feedback is possible by addition of only a few transistors as shown on the left.",
+      "pdf_page": 568,
+      "printed_page": 579,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This current is determined by the differential input voltage which appears nearly unattenuated across transistor 2R.",
+      "pdf_page": 568,
+      "printed_page": 579,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0568_01_1925.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The input transistors cannot have any AC current as they have DC current sources in both Drain and Source.",
+        "pdf_page": 568,
+        "printed_page": 579,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For larger loop gain in the feedback loop, the distortion is lower and the input range larger.",
+      "pdf_page": 568,
+      "printed_page": 579,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Only the pMOST devices thus carry AC current.",
+      "pdf_page": 568,
+      "printed_page": 579,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The loop gain now includes the open-loop gain of the operational amplifier.",
+      "pdf_page": 568,
+      "printed_page": 579,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is only true at low frequencies, however, as the open-loop gain of an opamp drops quite rapidly versus frequency.",
+      "pdf_page": 568,
+      "printed_page": 579,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

@@ -1,0 +1,177 @@
+{
+  "case_id": "SANSEN-0815",
+  "slide_id": "0815",
+  "chapter": 8,
+  "slide_number_in_chapter": 15,
+  "source": {
+    "pdf_page": 240,
+    "printed_page": 246
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0240_01_0815.jpg",
+      "pdf_page": 240,
+      "printed_page": 246,
+      "bbox_pt": [
+        91.521622,
+        122.17825399999992,
+        374.78981,
+        318.638245
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 240,
+      "printed_page": 246,
+      "bbox_pt": [
+        0,
+        118.18869999999993,
+        595,
+        325.41089999999997
+      ],
+      "text_raw": "Now that we know how to\nderive the specifications of a\nfully-differential amplifier,\nlet us have a look at the\nthree most used ones. The\nfirst one uses MOSTs in\nthe linear region for the\ncommon-mode feedback.",
+      "text": "Now that we know how to derive the specifications of a fully-differential amplifier, let us have a look at the three most used ones. The first one uses MOSTs in the linear region for the common-mode feedback."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that we know how to derive the specifications of a fully-differential amplifier, let us have a look at the three most used ones. The first one uses MOSTs in the linear region for the common-mode feedback.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0240_01_0815.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270053088803,
+          0.08292682944250873,
+          0.38175675458494207,
+          0.13658536602787463
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09797297183277033,
+          0.28780487884146344,
+          0.4121621610219595,
+          0.35121951298780485
+        ],
+        "confidence": 1,
+        "text": "• Requirements"
+      },
+      {
+        "bbox": [
+          0.09797297896959445,
+          0.3609756095121952,
+          0.8175675735641891,
+          0.4292682924390244
+        ],
+        "confidence": 1,
+        "text": "• Fully-diff. amps with linear MOSTs"
+      },
+      {
+        "bbox": [
+          0.09797296706081092,
+          0.44390243834146337,
+          0.9324324265202704,
+          0.5121951212682927
+        ],
+        "confidence": 0.5,
+        "text": "• FDA's with error amp.& source followers"
+      },
+      {
+        "bbox": [
+          0.09797297922297284,
+          0.5219512188780489,
+          0.8040540603040539,
+          0.5853658530243903
+        ],
+        "confidence": 0.5,
+        "text": "• Folded cascode OTA without SF's"
+      },
+      {
+        "bbox": [
+          0.09797297195945948,
+          0.6146341469756097,
+          0.6858108097972972,
+          0.6780487811219512
+        ],
+        "confidence": 1,
+        "text": "• Other fully-differential amps"
+      },
+      {
+        "bbox": [
+          0.097887845833006,
+          0.6919811707199772,
+          0.3075175619329255,
+          0.7470432181666236
+        ],
+        "confidence": 1,
+        "text": "• Exercise"
+      },
+      {
+        "bbox": [
+          0.7195945932010135,
+          0.9414634151829269,
+          0.9324324310388513,
+          0.985365854207317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10-0s 0815"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Now that we know how to derive the specifications of a fully-differential amplifier, let us have a look at the three most used ones.",
+      "pdf_page": 240,
+      "printed_page": 246,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0240_01_0815.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

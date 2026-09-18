@@ -1,0 +1,296 @@
+{
+  "case_id": "SANSEN-1845",
+  "slide_id": "1845",
+  "chapter": 18,
+  "slide_number_in_chapter": 45,
+  "source": {
+    "pdf_page": 531,
+    "printed_page": 541
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0531_01_1845.jpg",
+      "pdf_page": 531,
+      "printed_page": 541,
+      "bbox_pt": [
+        91.52162,
+        122.52697999999998,
+        374.54215999999997,
+        318.98694
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 531,
+      "printed_page": 541,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        441.4035100000002
+      ],
+      "text_raw": "Before we end this section\non distortion of bipolar\ntransistors, this is probably\na good place to comment\nabout distortion in resistors\nand capacitors.\nDiffused resistors are\nfairly nonlinear as they are\nseparated from the substrate\nby a depletion layer. The\nvoltage across the resistor\nmodifies the thickness of the\ndepletion layer and the\nconductivity of the resistor.\nA resistor behaves as a\nJunction FET with a high\npinch-off (or threshold) voltage. Its effective V −V is very high and its distortion is relatively\nGS T\nlow. It is not negligible, however.\nPoly resistors and metal resistors do not have this depletion layer and are much more linear.\nThe same applies to capacitances.\nDiffusion capacitances are depletion layer capacitances and are very non-\nlinear. Metal-to-metal capacitances, on the other hand, are very linear. This also applies to poly-\nto-poly capacitances, some values are given in this slide.",
+      "text": "Before we end this section on distortion of bipolar transistors, this is probably a good place to comment about distortion in resistors and capacitors. Diffused resistors are fairly nonlinear as they are separated from the substrate by a depletion layer. The voltage across the resistor modifies the thickness of the depletion layer and the conductivity of the resistor. A resistor behaves as a Junction FET with a high pinch-off (or threshold) voltage. Its effective V −V is very high and its distortion is relatively GS T low. It is not negligible, however. Poly resistors and metal resistors do not have this depletion layer and are much more linear. The same applies to capacitances. Diffusion capacitances are depletion layer capacitances and are very nonlinear. Metal-to-metal capacitances, on the other hand, are very linear. This also applies to polyto-poly capacitances, some values are given in this slide."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Before we end this section on distortion of bipolar transistors, this is probably a good place to comment about distortion in resistors and capacitors. Diffused resistors are fairly nonlinear as they are separated from the substrate by a depletion layer. The voltage across the resistor modifies the thickness of the depletion layer and the conductivity of the resistor. A resistor behaves as a Junction FET with a high pinch-off (or threshold) voltage. Its effective V −V is very high and its distortion is relatively GS T low. It is not negligible, however. Poly resistors and metal resistors do not have this depletion layer and are much more linear. The same applies to capacitances. Diffusion capacitances are depletion layer capacitances and are very nonlinear. Metal-to-metal capacitances, on the other hand, are very linear. This also applies to polyto-poly capacitances, some values are given in this slide.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Distortion in a resistor or capacitor",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0531_01_1845.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08099262222939156,
+          0.07889762854864568,
+          0.7055083237819604,
+          0.14874580545830174
+        ],
+        "confidence": 1,
+        "text": "Distortion in a resistor or capacitor"
+      },
+      {
+        "bbox": [
+          0.11250001552281962,
+          0.2512195130327539,
+          0.9416666477063472,
+          0.3293413147347416
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R= Ro (1 +a,V+a2V2+...) EJFET with large Vp]"
+      },
+      {
+        "bbox": [
+          0.11186440903954797,
+          0.3853658541463414,
+          0.7288135615819209,
+          0.4439024395121951
+        ],
+        "confidence": 0.5,
+        "text": "For diffused resistors : a, = 5 ppm/V"
+      },
+      {
+        "bbox": [
+          0.510499567504111,
+          0.4421815234770856,
+          0.7441689648905648,
+          0.5211387508583498
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a, = 1 ppm/V2"
+      },
+      {
+        "bbox": [
+          0.11186440918644067,
+          0.5463414626829268,
+          0.5694915278305085,
+          0.619512194390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C= Co (1 +a,V+a,V2+...)"
+      },
+      {
+        "bbox": [
+          0.11186440867796611,
+          0.6975609762439023,
+          0.6881355951186441,
+          0.7609756103902439
+        ],
+        "confidence": 0.5,
+        "text": "For poly-poly caps : a, = 20 ppm/V"
+      },
+      {
+        "bbox": [
+          0.45358222077366933,
+          0.7613627852933796,
+          0.6828540610146651,
+          0.8232953676833972
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a, = 2 ppm/V="
+      },
+      {
+        "bbox": [
+          0.7152542399152542,
+          0.9317073168292683,
+          0.9254237314406779,
+          0.9609756095121952
+        ],
+        "confidence": 0.5,
+        "text": "Wilty Sansen 10.05 1845"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0531_01_1845.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1845-M01",
+      "ocr_text": "R= Ro (1 +a,V+a2V2+...) EJFET with large Vp]",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11250001552281962,
+        0.2512195130327539,
+        0.9416666477063472,
+        0.3293413147347416
+      ],
+      "context_crop": "regions/SANSEN-1845_math_01.png",
+      "context_bbox_normalized": [
+        0.07250001552281962,
+        0.1512195130327539,
+        1,
+        0.4593413147347416
+      ],
+      "source_image": "slides/p0531_01_1845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1845-M02",
+      "ocr_text": "For diffused resistors : a, = 5 ppm/V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.11186440903954797,
+        0.3853658541463414,
+        0.7288135615819209,
+        0.4439024395121951
+      ],
+      "context_crop": "regions/SANSEN-1845_math_02.png",
+      "context_bbox_normalized": [
+        0.07186440903954797,
+        0.2853658541463414,
+        0.9588135615819209,
+        0.5739024395121951
+      ],
+      "source_image": "slides/p0531_01_1845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1845-M03",
+      "ocr_text": "a, = 1 ppm/V2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.510499567504111,
+        0.4421815234770856,
+        0.7441689648905648,
+        0.5211387508583498
+      ],
+      "context_crop": "regions/SANSEN-1845_math_03.png",
+      "context_bbox_normalized": [
+        0.470499567504111,
+        0.34218152347708564,
+        0.9741689648905648,
+        0.6511387508583498
+      ],
+      "source_image": "slides/p0531_01_1845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1845-M04",
+      "ocr_text": "C= Co (1 +a,V+a,V2+...)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11186440918644067,
+        0.5463414626829268,
+        0.5694915278305085,
+        0.619512194390244
+      ],
+      "context_crop": "regions/SANSEN-1845_math_04.png",
+      "context_bbox_normalized": [
+        0.07186440918644066,
+        0.44634146268292685,
+        0.7994915278305085,
+        0.749512194390244
+      ],
+      "source_image": "slides/p0531_01_1845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1845-M05",
+      "ocr_text": "For poly-poly caps : a, = 20 ppm/V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.11186440867796611,
+        0.6975609762439023,
+        0.6881355951186441,
+        0.7609756103902439
+      ],
+      "context_crop": "regions/SANSEN-1845_math_05.png",
+      "context_bbox_normalized": [
+        0.07186440867796612,
+        0.5975609762439024,
+        0.9181355951186441,
+        0.8909756103902439
+      ],
+      "source_image": "slides/p0531_01_1845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1845-M06",
+      "ocr_text": "a, = 2 ppm/V=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.45358222077366933,
+        0.7613627852933796,
+        0.6828540610146651,
+        0.8232953676833972
+      ],
+      "context_crop": "regions/SANSEN-1845_math_06.png",
+      "context_bbox_normalized": [
+        0.41358222077366935,
+        0.6613627852933797,
+        0.912854061014665,
+        0.93
+      ],
+      "source_image": "slides/p0531_01_1845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

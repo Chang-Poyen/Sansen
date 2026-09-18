@@ -1,0 +1,177 @@
+{
+  "case_id": "SANSEN-1940",
+  "slide_id": "1940",
+  "chapter": 19,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 575,
+    "printed_page": 586
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0575_02_1940.jpg",
+      "pdf_page": 575,
+      "printed_page": 586,
+      "bbox_pt": [
+        91.521622,
+        409.518982,
+        374.78981,
+        605.978973
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 575,
+      "printed_page": 586,
+      "bbox_pt": [
+        0,
+        405.5295000000001,
+        595,
+        797
+      ],
+      "text_raw": "The same input arrange-\nments are used for the two\nparallel transconductors\nillustrated in this slide.\nAgain, a factor of n=4 is\ntaken for an equal biasing\ncurrents I .\ne\nThe resulting transcon-\nductance is now 36% less\nthan the transconductance\nof a differential pair with the\nsame total current. The\ninput range is about three\ntimes higher.\nIn order to increase the\ngain, a negative resistance is\nintroduced at the output to cancel out the output resistances. The negative resistance is about\n−2R (see Chapter 3).\nc",
+      "text": "The same input arrangements are used for the two parallel transconductors illustrated in this slide. Again, a factor of n=4 is taken for an equal biasing currents I . e The resulting transconductance is now 36% less than the transconductance of a differential pair with the same total current. The input range is about three times higher. In order to increase the gain, a negative resistance is introduced at the output to cancel out the output resistances. The negative resistance is about −2R (see Chapter 3). c"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The same input arrangements are used for the two parallel transconductors illustrated in this slide. Again, a factor of n=4 is taken for an equal biasing currents I . e The resulting transconductance is now 36% less than the transconductance of a differential pair with the same total current. The input range is about three times higher. In order to increase the gain, a negative resistance is introduced at the output to cancel out the output resistances. The negative resistance is about −2R (see Chapter 3). c",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Dual-input transconductor",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0575_02_1940.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027003800676,
+          0.08292683006097556,
+          0.5540540517314189,
+          0.14634146420731708
+        ],
+        "confidence": 1,
+        "text": "Dual-input transconductor"
+      },
+      {
+        "bbox": [
+          0.6756756769003378,
+          0.2390243907926829,
+          0.8952702714949323,
+          0.28292682981707307
+        ],
+        "confidence": 1,
+        "text": "7th order filter"
+      },
+      {
+        "bbox": [
+          0.6789960744874319,
+          0.2873657433752309,
+          0.8547877118049864,
+          0.3370245024225762
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 ... 10 MHz"
+      },
+      {
+        "bbox": [
+          0.672235545129064,
+          0.7458734886539524,
+          0.8480347216287143,
+          0.795589926389161
+        ],
+        "confidence": 1,
+        "text": "Input range"
+      },
+      {
+        "bbox": [
+          0.6756756780123875,
+          0.7999999996747967,
+          0.9560810834177929,
+          0.8585365850406503
+        ],
+        "confidence": 0.5,
+        "text": "96 mVptp (1% THD)"
+      },
+      {
+        "bbox": [
+          0.47297297760135126,
+          0.8731707314146342,
+          0.935810815439189,
+          0.9121951216585367
+        ],
+        "confidence": 0.5,
+        "text": "Ref. De Veirman, JSSC, March 92, 324-331"
+      },
+      {
+        "bbox": [
+          0.7263513492229731,
+          0.9560975611707317,
+          0.9391891870608109,
+          0.9853658538536586
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1940"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The same input arrangements are used for the two parallel transconductors illustrated in this slide.",
+      "pdf_page": 575,
+      "printed_page": 586,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0575_02_1940.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Again, a factor of n=4 is taken for an equal biasing currents I . e The resulting transconductance is now 36% less than the transconductance of a differential pair with the same total current.",
+      "pdf_page": 575,
+      "printed_page": 586,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In order to increase the gain, a negative resistance is introduced at the output to cancel out the output resistances.",
+      "pdf_page": 575,
+      "printed_page": 586,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

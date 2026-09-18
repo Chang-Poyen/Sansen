@@ -1,0 +1,40 @@
+302 Chapter #11
+113
+The first reason to require
+a rail-to-rail input range is
+to be able to maintain the
+same Signal-to-Noise ratio
+for smaller supply voltages.
+Indeed signal swings de-
+crease with the supply volt-
+age. A rail-to-rail swing at
+the input is the highest that
+can be obtained.
+For maximum output
+swing, a fully-differential
+operation is a must as well.
+At the output, it is easy to
+provide a rail-to-rail swing.
+We simply take two output
+transistors Drain to Drain. For a capacitive load, rail-to-rail is guaranteed.
+At the input, however, we do not need rail-to-rail operation.
+114
+To illustrate this last point,
+let us take this well known
+symmetrical opamp.
+For a capacitive load, it
+is obvious that the output
+can reach rail-to-rail output
+voltages. At the extremities,
+the output transistor goes
+into the linear region and
+the gain is reduced leading
+to distortion. It is still rail-
+to-rail, however.
+At the input, it is clear
+that a voltage is lost of
+V +V for the input
+GS1 DSsat9
+range, which is rather large.
+Some other circuitry is now required.
+Is this always required?

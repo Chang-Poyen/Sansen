@@ -1,0 +1,51 @@
+Coupling eVects in mixed analog-digital ICs 767
+It is impossible to predict which one of the three terms is dominant. It is probably the first or
+the second one as they only have one single factor involved. The last one has two factors.
+2447
+The PSRR from the nega-
+SS
+tive supply does not involve
+matching. Indeed at low fre-
+quencies, it is a result of cur-
+rents through resistors r
+o1
+and r .
+o4
+The current through resis-
+tor r flows through M3
+o1
+(and the input devices M1
+and M2). It is therefore mir-
+rored to M4 and injected as
+a current on node 1. From
+here it is amplified to the
+output in the same way as
+the signal current from the
+input transistors M1 and
+M2.
+The current through r is also injected as a current on node 1. It is now added to the
+o4
+previous current.
+2448
+At high frequencies, the situ-
+ation is again somewhat
+more complicated.
+The dominant capaci-
+tances are added in the cir-
+cuit schematic. They are the
+coupling capacitors between
+the supply line and node 1,
+the output of the input
+stage.
+Calculation of the
+PSRR shows however,
+SS
+that this capacitor is not
+that important. The PSRR
+SS
+is zero dB anyway. This
+means that any signal at the
+negative supply reaches the output terminal unattenuated.
+This clearly proves that single-ended opamps cannot be used for mixed-signal analog
+processing.
+What is the origin of this 0 dB?

@@ -1,0 +1,48 @@
+Design of multistage operational amplifiers 283
+0940
+Another low-power three-
+stage amplifier is shown in
+this slide. Again the second
+compensation capacitance
+C is taken away from
+m2
+shunting the output stage. It
+is used as capacitance C ,
+a
+which is driven by its own
+driver with transconduct-
+ance g . This driver is
+ma
+an AC boosting amplifier
+towards the second node of
+the amplifier, whence its
+name.
+The main purpose is
+again not to shunt the
+output stage and to generate a left-hand zero to compensate one of the non-dominant poles. In
+this way the power consumption is expected to be less than a single-stage amplifier with the
+same GBW and C .
+L
+An important additional design parameter is A . It is the gain of the additional amplifier
+2h
+when C acts as a short, or at high frequencies.
+a
+0941
+The expression of the open-
+loop gain A is given in this
+v
+slide. Now we have 4 poles
+and 3 zero’s. The first non-
+dominant pole v coincides
+1
+with the first zero however,
+and will be cancelled out.
+Moreover, the next non-
+dominant pole v increases
+2
+with gain A . Increasing
+2h
+this gain shifts this non-
+dominant pole to higher fre-
+quencies, allowing a higher
+GBW as well.

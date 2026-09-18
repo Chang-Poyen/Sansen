@@ -1,0 +1,189 @@
+{
+  "case_id": "SANSEN-1887",
+  "slide_id": "1887",
+  "chapter": 18,
+  "slide_number_in_chapter": 87,
+  "source": {
+    "pdf_page": 552,
+    "printed_page": 562
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0552_01_1887.jpg",
+      "pdf_page": 552,
+      "printed_page": 562,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 552,
+      "printed_page": 562,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        355.85397
+      ],
+      "text_raw": "As distortion refers to any\ndeviation from the ideal sine\nwave, for a sinusoidal input\nwaveform, many other\nsources of distortion can\noccur.\nA few of them are listed\nhere. This list will never be\nexhaustive however. Each\nnew application may give\nrise to a new kind of\ndistortion.",
+      "text": "As distortion refers to any deviation from the ideal sine wave, for a sinusoidal input waveform, many other sources of distortion can occur. A few of them are listed here. This list will never be exhaustive however. Each new application may give rise to a new kind of distortion."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As distortion refers to any deviation from the ideal sine wave, for a sinusoidal input waveform, many other sources of distortion can occur. A few of them are listed here. This list will never be exhaustive however. Each new application may give rise to a new kind of distortion.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0552_01_1887.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270060810817,
+          0.0780487810731707,
+          0.38175675466216225,
+          0.1365853664390244
+        ],
+        "confidence": 0.5,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10135135722972964,
+          0.23902439009756093,
+          0.6891891950675675,
+          0.29268292668292684
+        ],
+        "confidence": 0.5,
+        "text": "• Definitions : HD, IM, intercept point, ."
+      },
+      {
+        "bbox": [
+          0.1013513538127413,
+          0.3121951217073171,
+          0.44594594840733587,
+          0.3560975607317074
+        ],
+        "confidence": 1,
+        "text": "• Distortion in a MOST"
+      },
+      {
+        "bbox": [
+          0.14527027331081072,
+          0.3853658533658537,
+          0.4493243273648648,
+          0.4243902436097562
+        ],
+        "confidence": 1,
+        "text": "• Single-ended amplifier"
+      },
+      {
+        "bbox": [
+          0.14527027195945946,
+          0.44878048819512206,
+          0.4222972989864865,
+          0.4878048784390244
+        ],
+        "confidence": 1,
+        "text": "• Differential amplifier"
+      },
+      {
+        "bbox": [
+          0.10135135219594595,
+          0.5219512199999999,
+          0.6114864873310811,
+          0.570731707804878
+        ],
+        "confidence": 1,
+        "text": "• Distortion in a bipolar transistor"
+      },
+      {
+        "bbox": [
+          0.10135135368806303,
+          0.5951219516260162,
+          0.6655405428772522,
+          0.6439024394308943
+        ],
+        "confidence": 1,
+        "text": "• Reduction of distortion by feedback"
+      },
+      {
+        "bbox": [
+          0.10135135595439179,
+          0.6731707323170731,
+          0.4763513559543918,
+          0.7219512201219511
+        ],
+        "confidence": 1,
+        "text": "• Distortion in an opamp"
+      },
+      {
+        "bbox": [
+          0.09797297755791504,
+          0.7463414632055748,
+          0.7398648694498069,
+          0.7951219510104529
+        ],
+        "confidence": 1,
+        "text": "• Other cases of distortion and guide lines"
+      },
+      {
+        "bbox": [
+          0.7195945919341217,
+          0.9365853660365854,
+          0.9324324297719595,
+          0.9707317075
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1887"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0552_01_1887.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

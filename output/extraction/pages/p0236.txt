@@ -1,0 +1,49 @@
+242 Chapter #8
+087
+The common-mode equiva-
+lent circuit is easily found
+by putting all differential
+devices in parallel and
+connecting them to the
+common-mode input signals.
+It is clear that node 1 is
+at the same time the input
+and the output of the
+CMFB amplifier. This is
+also the circuit that will be
+used, to derive the common-
+mode gain, bandwidth and
+GBW .
+CM
+Actually, the open-loop
+gain is B B g R , in
+1 2 m5 n1
+which B and B are the current gain factors of the two current mirrors. This gain is not so high
+1 2
+but only a small amount of gain is needed. The stabilization of the common-mode output voltage
+does not need to be so accurate. The outputs will both be at V above the negative supply.
+GS5,6
+For large swing, we increase the size of these V ’s.
+GS
+The GBW will evidently be given by the B B g /(2pC ). We have two input transistors
+CM 1 2 m5 L
+M5 and M6 but also two load capacitors. The GBW can therefore be made quite high, at the
+CM
+cost of a lot of power consumption though!
+088
+As a summary, let us repeat
+what the three tasks are of
+a CMFB amplifier.
+They have to measure the
+output voltages, cancel the
+differential signals and close
+the feedback loop.
+Also, the CMFB amplifier
+always operates in unity-
+gain.
+Finally, it is important to
+note that the gain of the
+CMFB amplifier is used to
+increase the Common-mode
+rejection ratio (as shown in
+Chapter 15).

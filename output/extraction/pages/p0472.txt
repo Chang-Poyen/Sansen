@@ -1,0 +1,47 @@
+Bandgap and current reference circuits 481
+1649
+An accurate current refer-
+ence can be realized without
+resistor if switched capaci-
+tors are used. We now know
+that a precise resistor can be
+realized by means of a
+switched-capacitor equiva-
+lent. This is used in the cir-
+cuit in this slide.
+When the switches are
+closed as shown, the refer-
+ence voltage is stored on
+capacitor C . Its charge is
+1
+then V C .
+ref 1
+During this same time,
+which lasts half a clock cycle
+T /2, the current through T3 is discharging C , which has the same size as C . This current
+c 2 1
+through T3 is equal to the reference current I .
+ref
+Note that both a positive and negative supply is used!
+When the switches are closed in the other way, the charges on C and C are made equal by
+1 2
+the integrator A1 with capacitor C . If not, the integrator adjusts the current through T1, T2
+3
+and T3, which also equals the I .
+ref
+The charges on C and C are equal in steady-state. The effective resistor is exactly as expected
+1 2
+for a switched-capacitor equivalent.
+The current is now very precise, as it only depends on a crystal oscillator clock and the
+absolute value of a capacitor. This is a lot more precise than the absolute value of a resistor!
+1650
+Both voltage and current
+references have been dis-
+cussed now. Both can be
+used in voltage and current
+regulators. Only one more
+kind of regulator will be dis-
+cussed here. It is a feedback
+circuit with variable load.
+As a consequence the design
+is not straightforward.

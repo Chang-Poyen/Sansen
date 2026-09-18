@@ -1,0 +1,237 @@
+{
+  "case_id": "SANSEN-2232",
+  "slide_id": "2232",
+  "chapter": 22,
+  "slide_number_in_chapter": 32,
+  "source": {
+    "pdf_page": 682,
+    "printed_page": 693
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0682_02_2232.jpg",
+      "pdf_page": 682,
+      "printed_page": 693,
+      "bbox_pt": [
+        91.521622,
+        455.358002,
+        374.78981,
+        651.817993
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 682,
+      "printed_page": 693,
+      "bbox_pt": [
+        0,
+        451.3685000000003,
+        595,
+        797
+      ],
+      "text_raw": "The circuit realization is\nshown in this slide. The two\ng blocks are the two input\nm\nMOSTs of the differential\npair M1/M2. The capacitors\nC and C are realized by\n1 2\nmeans of MOSTs.\nThe AGC is carried out\nas follows. If the signal\namplitude at node 1 is small,\nthen diode D1 is always\nreverse biased.\nIf the amplitude rises,\nthen the diode becomes for-\nward biased for the negative\ntips of the sine wave. This\nthreshold is set by the reference voltage at node 3.\nBecause of the forward biasing of diode D1, the voltage at node 3 is pulled down. The current\nin transistor M3 decreases. The transconductances g and g also decrease.\nm1 m2",
+      "text": "The circuit realization is shown in this slide. The two g blocks are the two input m MOSTs of the differential pair M1/M2. The capacitors C and C are realized by 1 2 means of MOSTs. The AGC is carried out as follows. If the signal amplitude at node 1 is small, then diode D1 is always reverse biased. If the amplitude rises, then the diode becomes forward biased for the negative tips of the sine wave. This threshold is set by the reference voltage at node 3. Because of the forward biasing of diode D1, the voltage at node 3 is pulled down. The current in transistor M3 decreases. The transconductances g and g also decrease. m1 m2"
+    },
+    {
+      "pdf_page": 683,
+      "printed_page": 694,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        190.18588964999992
+      ],
+      "text_raw": "The capacitance of transistor M3 reduces the ripple at node 3.\nA point of equilibrium is reached in this way, which depends on the voltage at node 3.",
+      "text": "The capacitance of transistor M3 reduces the ripple at node 3. A point of equilibrium is reached in this way, which depends on the voltage at node 3."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The circuit realization is shown in this slide. The two g blocks are the two input m MOSTs of the differential pair M1/M2. The capacitors C and C are realized by 1 2 means of MOSTs. The AGC is carried out as follows. If the signal amplitude at node 1 is small, then diode D1 is always reverse biased. If the amplitude rises, then the diode becomes forward biased for the negative tips of the sine wave. This threshold is set by the reference voltage at node 3. Because of the forward biasing of diode D1, the voltage at node 3 is pulled down. The current in transistor M3 decreases. The transconductances g and g also decrease. m1 m2\n\nThe capacitance of transistor M3 reduces the ripple at node 3. A point of equilibrium is reached in this way, which depends on the voltage at node 3.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Single-pin oscillator - 2",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0682_02_2232.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270105574328,
+          0.07804878128048776,
+          0.48648648483952706,
+          0.14146341542682928
+        ],
+        "confidence": 1,
+        "text": "Single-pin oscillator - 2"
+      },
+      {
+        "bbox": [
+          0.9189189187711149,
+          0.20975609743902446,
+          0.9493243241765204,
+          0.22926829256097558
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vdd"
+      },
+      {
+        "bbox": [
+          0.6722972969256756,
+          0.2243902440487805,
+          0.7094594590878378,
+          0.26829268307317067
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Tin"
+      },
+      {
+        "bbox": [
+          0.2837837836148649,
+          0.31707317019512193,
+          0.3074324322635135,
+          0.37073170678048784
+        ],
+        "confidence": 0.5,
+        "text": "U"
+      },
+      {
+        "bbox": [
+          0.047297297128378386,
+          0.49268292676422765,
+          0.09797297280405406,
+          0.5121951218861789
+        ],
+        "confidence": 1,
+        "text": "CLOCK"
+      },
+      {
+        "bbox": [
+          0.7297297295608108,
+          0.49756097502439034,
+          0.7601351349662163,
+          0.5560975603902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B"
+      },
+      {
+        "bbox": [
+          0.7567567573057432,
+          0.599999999695122,
+          0.8006756762246621,
+          0.6439024387195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "miei"
+      },
+      {
+        "bbox": [
+          0.9155405411036036,
+          0.7219512192682928,
+          0.9493243248873874,
+          0.7463414631707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- Vss"
+      },
+      {
+        "bbox": [
+          0.10472973173262545,
+          0.8292682924041811,
+          0.3851351371380309,
+          0.8780487802090592
+        ],
+        "confidence": 0.5,
+        "text": "10 MHz, 3.3 V, 0.35 mA"
+      },
+      {
+        "bbox": [
+          0.4290540590878378,
+          0.878048780195122,
+          0.9324324374662162,
+          0.9170731704390245
+        ],
+        "confidence": 1,
+        "text": "Ref. van den Homberg, JSSC July 99, 956-961"
+      },
+      {
+        "bbox": [
+          0.7297297318412161,
+          0.9512195117682928,
+          0.9391891913006756,
+          0.9853658532317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 1005 2232"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The circuit realization is shown in this slide.",
+      "pdf_page": 682,
+      "printed_page": 693,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0682_02_2232.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The current in transistor M3 decreases.",
+      "pdf_page": 682,
+      "printed_page": 693,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The transconductances g and g also decrease. m1 m2",
+      "pdf_page": 682,
+      "printed_page": 693,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A point of equilibrium is reached in this way, which depends on the voltage at node 3.",
+      "pdf_page": 683,
+      "printed_page": 694,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

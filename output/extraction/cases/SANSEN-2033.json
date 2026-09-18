@@ -1,0 +1,291 @@
+{
+  "case_id": "SANSEN-2033",
+  "slide_id": "2033",
+  "chapter": 20,
+  "slide_number_in_chapter": 33,
+  "source": {
+    "pdf_page": 608,
+    "printed_page": 619
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0608_02_2033.jpg",
+      "pdf_page": 608,
+      "printed_page": 619,
+      "bbox_pt": [
+        91.52162,
+        347.83562,
+        374.54222,
+        544.34546
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 608,
+      "printed_page": 619,
+      "bbox_pt": [
+        0,
+        343.84622,
+        595,
+        642.6965700000001
+      ],
+      "text_raw": "Such integrating or dual-\nslope ADC has many\nadvantages.\nThe result is independent\nof the actual values of the\nresistor R and capacitor\n1\nC . As long as the opamp\n1\nhas sufficient gain, it does\nnot affect the result. The lin-\nearity is high and so is the\nresolution.\nThe circuitry is actually\nfairly simple. Only opamps\nare used, an RC circuit and\nsome switches.\nThe converter is fairly\nslow, however. For a large input voltage, such as V itself, the counter has to count up over 2N\nref\nclock pulses and also down over as many pulses. The conversion time is thus quite long.\nFor slow digital voltmeters, this is an excellent solution. This is especially true if the hum of\nthe 50 Hz mains (60 Hz in USA) is synchronized by the clock. In this way the effect of the hum\nis cancelled.\nAt the input of an oscilloscope, higher speeds are required however, and less resolution.",
+      "text": "Such integrating or dualslope ADC has many advantages. The result is independent of the actual values of the resistor R and capacitor 1 C . As long as the opamp 1 has sufficient gain, it does not affect the result. The linearity is high and so is the resolution. The circuitry is actually fairly simple. Only opamps are used, an RC circuit and some switches. The converter is fairly slow, however. For a large input voltage, such as V itself, the counter has to count up over 2N ref clock pulses and also down over as many pulses. The conversion time is thus quite long. For slow digital voltmeters, this is an excellent solution. This is especially true if the hum of the 50 Hz mains (60 Hz in USA) is synchronized by the clock. In this way the effect of the hum is cancelled. At the input of an oscilloscope, higher speeds are required however, and less resolution."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Such integrating or dualslope ADC has many advantages. The result is independent of the actual values of the resistor R and capacitor 1 C . As long as the opamp 1 has sufficient gain, it does not affect the result. The linearity is high and so is the resolution. The circuitry is actually fairly simple. Only opamps are used, an RC circuit and some switches. The converter is fairly slow, however. For a large input voltage, such as V itself, the counter has to count up over 2N ref clock pulses and also down over as many pulses. The conversion time is thus quite long. For slow digital voltmeters, this is an excellent solution. This is especially true if the hum of the 50 Hz mains (60 Hz in USA) is synchronized by the clock. In this way the effect of the hum is cancelled. At the input of an oscilloscope, higher speeds are required however, and less resolution.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Integrating ADC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0608_02_2033.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627338983047,
+          0.07317073142857144,
+          0.38305084966101693,
+          0.14146341435540066
+        ],
+        "confidence": 1,
+        "text": "Integrating ADC"
+      },
+      {
+        "bbox": [
+          0.08135593084745764,
+          0.22439024411149822,
+          0.2711864393220339,
+          0.2731707319163763
+        ],
+        "confidence": 1,
+        "text": "Advantages:"
+      },
+      {
+        "bbox": [
+          0.08135593059322037,
+          0.278048780691057,
+          0.27457626957627124,
+          0.32195121971544716
+        ],
+        "confidence": 1,
+        "text": "High resolution"
+      },
+      {
+        "bbox": [
+          0.08111237433378184,
+          0.32017140225230867,
+          0.2477011866930906,
+          0.37251152363783646
+        ],
+        "confidence": 1,
+        "text": "High linearity"
+      },
+      {
+        "bbox": [
+          0.08135593454802256,
+          0.375609755894309,
+          0.3627118667514124,
+          0.4195121949186992
+        ],
+        "confidence": 1,
+        "text": "Low circuit complexity"
+      },
+      {
+        "bbox": [
+          0.07796610550847452,
+          0.4243902438414633,
+          0.3830508512711863,
+          0.46829268286585357
+        ],
+        "confidence": 1,
+        "text": "Mainly for voltmeters, ..."
+      },
+      {
+        "bbox": [
+          0.08135593709039539,
+          0.46829268276422753,
+          0.6677966150564971,
+          0.5170731705691056
+        ],
+        "confidence": 0.5,
+        "text": "Eliminates mains supply 50 Hz if T1 is n x 20 ms"
+      },
+      {
+        "bbox": [
+          0.08135593454237286,
+          0.5560975607317074,
+          0.3152542396271186,
+          0.6097560973170731
+        ],
+        "confidence": 1,
+        "text": "Disadvantages:"
+      },
+      {
+        "bbox": [
+          0.0812628281538316,
+          0.6091871139231357,
+          0.223821918461035,
+          0.6591055677909783
+        ],
+        "confidence": 0.5,
+        "text": "Very slow :"
+      },
+      {
+        "bbox": [
+          0.07796611008474558,
+          0.6585365850609757,
+          0.7491525507627117,
+          0.7121951216463415
+        ],
+        "confidence": 0.5,
+        "text": "Worst case for Vin = Vrer : 22n*1 clock cycli required !"
+      },
+      {
+        "bbox": [
+          0.1322033938256658,
+          0.7073170729268293,
+          0.6915254277239709,
+          0.7609756095121952
+        ],
+        "confidence": 0.5,
+        "text": "Ex. For n = 16 bit (64000) and Fclock = 1 MHz :"
+      },
+      {
+        "bbox": [
+          0.17627118461864408,
+          0.7609756103658536,
+          0.44406779478813563,
+          0.8097560981707317
+        ],
+        "confidence": 1,
+        "text": "7.6 s conversion time"
+      },
+      {
+        "bbox": [
+          0.08135593292372881,
+          0.7999999993292684,
+          0.3830508481779661,
+          0.8536585359146341
+        ],
+        "confidence": 0.5,
+        "text": "Mainly for voltmeters, .."
+      },
+      {
+        "bbox": [
+          0.7322033990644585,
+          0.941463413902439,
+          0.9389830471502306,
+          0.9853658529268292
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.09 2033"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0608_02_2033.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The result is independent of the actual values of the resistor R and capacitor 1 C .",
+      "pdf_page": 608,
+      "printed_page": 619,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As long as the opamp 1 has sufficient gain, it does not affect the result.",
+      "pdf_page": 608,
+      "printed_page": 619,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The conversion time is thus quite long.",
+      "pdf_page": 608,
+      "printed_page": 619,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2033-M01",
+      "ocr_text": "Worst case for Vin = Vrer : 22n*1 clock cycli required !",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.07796611008474558,
+        0.6585365850609757,
+        0.7491525507627117,
+        0.7121951216463415
+      ],
+      "context_crop": "regions/SANSEN-2033_math_01.png",
+      "context_bbox_normalized": [
+        0.037966110084745576,
+        0.5585365850609757,
+        0.9791525507627117,
+        0.8421951216463415
+      ],
+      "source_image": "slides/p0608_02_2033.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2033-M02",
+      "ocr_text": "Ex. For n = 16 bit (64000) and Fclock = 1 MHz :",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.1322033938256658,
+        0.7073170729268293,
+        0.6915254277239709,
+        0.7609756095121952
+      ],
+      "context_crop": "regions/SANSEN-2033_math_02.png",
+      "context_bbox_normalized": [
+        0.09220339382566578,
+        0.6073170729268293,
+        0.9215254277239708,
+        0.8909756095121952
+      ],
+      "source_image": "slides/p0608_02_2033.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

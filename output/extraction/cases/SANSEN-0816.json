@@ -1,0 +1,436 @@
+{
+  "case_id": "SANSEN-0816",
+  "slide_id": "0816",
+  "chapter": 8,
+  "slide_number_in_chapter": 16,
+  "source": {
+    "pdf_page": 240,
+    "printed_page": 246
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0240_02_0816.jpg",
+      "pdf_page": 240,
+      "printed_page": 246,
+      "bbox_pt": [
+        91.521622,
+        329.400452,
+        374.78981,
+        525.860443
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 240,
+      "printed_page": 246,
+      "bbox_pt": [
+        0,
+        325.41089999999997,
+        595,
+        797
+      ],
+      "text_raw": "This is probably the sim-\nplest possible CMFB ampli-\nfier.\nIt consists of a differential\npair, the current source of\nwhich consists of two tran-\nsistors M3 in the linear\nregion, with a V <\nDS3\nV −V .\nGS3 T\nThe three functions of the\nCMFB amplifier are clearly\ndistinguished.\nThe output voltages are\nmeasured by the two tran-\nsistors M3. Their Drains are\nconnected to cancel the\ndifferential signal and the feedback loop is closed.\nTransistors M3 are thus the input devices of the CMFB amplifier. This is why their g is in\nm3\nthe expression of the GBW .\nCM\nThe input transistors M1 of the differential pair function as cascodes for the CMFB.\nIt is clear that in the linear region, the transconductances are much smaller than in the\nsaturation region. The common-mode GBW is therefore smaller than the GBW . This is a\nCM DM\ndisadvantage!\nWhy do the transistors M3 operate in the linear region?\nThere are two reasons. First of all, to have an output voltage in the middle, we need a large\nV . So as not to loose a large voltage drop, we need a small V . Clearly M3 must be in the\nGS3 DS3\nlinear region.\nThe other reason is linearity. We need a linear cancellation of the differential signal to avoid\nthe reduction of the differential gain because of the feedback. Transistors in the linear region are\nvery linear indeed!",
+      "text": "This is probably the simplest possible CMFB amplifier. It consists of a differential pair, the current source of which consists of two transistors M3 in the linear region, with a V < DS3 V −V . GS3 T The three functions of the CMFB amplifier are clearly distinguished. The output voltages are measured by the two transistors M3. Their Drains are connected to cancel the differential signal and the feedback loop is closed. Transistors M3 are thus the input devices of the CMFB amplifier. This is why their g is in m3 the expression of the GBW . CM The input transistors M1 of the differential pair function as cascodes for the CMFB. It is clear that in the linear region, the transconductances are much smaller than in the saturation region. The common-mode GBW is therefore smaller than the GBW . This is a CM DM disadvantage! Why do the transistors M3 operate in the linear region? There are two reasons. First of all, to have an output voltage in the middle, we need a large V . So as not to loose a large voltage drop, we need a small V . Clearly M3 must be in the GS3 DS3 linear region. The other reason is linearity. We need a linear cancellation of the differential signal to avoid the reduction of the differential gain because of the feedback. Transistors in the linear region are very linear indeed!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This is probably the simplest possible CMFB amplifier. It consists of a differential pair, the current source of which consists of two transistors M3 in the linear region, with a V < DS3 V −V . GS3 T The three functions of the CMFB amplifier are clearly distinguished. The output voltages are measured by the two transistors M3. Their Drains are connected to cancel the differential signal and the feedback loop is closed. Transistors M3 are thus the input devices of the CMFB amplifier. This is why their g is in m3 the expression of the GBW . CM The input transistors M1 of the differential pair function as cascodes for the CMFB. It is clear that in the linear region, the transconductances are much smaller than in the saturation region. The common-mode GBW is therefore smaller than the GBW . This is a CM DM disadvantage! Why do the transistors M3 operate in the linear region? There are two reasons. First of all, to have an output voltage in the middle, we need a large V . So as not to loose a large voltage drop, we need a small V . Clearly M3 must be in the GS3 DS3 linear region. The other reason is linearity. We need a linear cancellation of the differential signal to avoid the reduction of the differential gain because of the feedback. Transistors in the linear region are very linear indeed!",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "CMFB amplifier with linear MOSTs",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0240_02_0816.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445945716216216,
+          0.08780487868292686,
+          0.7195945922972973,
+          0.15121951282926827
+        ],
+        "confidence": 1,
+        "text": "CMFB amplifier with linear MOSTs"
+      },
+      {
+        "bbox": [
+          0.33783783764076575,
+          0.36585365873983733,
+          0.3614864862894144,
+          0.400000000203252
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "11"
+      },
+      {
+        "bbox": [
+          0.3277027028716217,
+          0.42439024404878045,
+          0.36148648665540545,
+          0.4536585367317073
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.3277027025337838,
+          0.546341463292683,
+          0.3614864863175676,
+          0.570731707195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.5168918924831081,
+          0.28780487798780485,
+          0.5641891897804054,
+          0.33170731701219514
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5202702706418919,
+          0.4146341462926829,
+          0.5574324328040541,
+          0.4585365853170731
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.5135135137668919,
+          0.502439024105691,
+          0.5439189191722973,
+          0.5463414631300813
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "÷"
+      },
+      {
+        "bbox": [
+          0.5236486491216216,
+          0.7951219511219512,
+          0.5709459464189189,
+          0.8341463413658535
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.6587837820101352,
+          0.20487804902439022,
+          0.8716216198479729,
+          0.2439024392682927
+        ],
+        "confidence": 1,
+        "text": "Linear MOSTs:"
+      },
+      {
+        "bbox": [
+          0.6587837855011262,
+          0.2682926826016261,
+          0.8648648665822071,
+          0.3170731704065042
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDs3 = 200 mV"
+      },
+      {
+        "bbox": [
+          0.6621621601592664,
+          0.3853658538327527,
+          0.9425675655646718,
+          0.4390243904181186
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDs = B VDs(VGs-VT)"
+      },
+      {
+        "bbox": [
+          0.6653508629205762,
+          0.4426442303205014,
+          0.848162651531086,
+          0.5036972319103927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m3 = B VDs3"
+      },
+      {
+        "bbox": [
+          0.8175675685810811,
+          0.5756097572605784,
+          0.8783783793918919,
+          0.614634145178446
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.6586558772521924,
+          0.5993311436246583,
+          0.8041819642140933,
+          0.6592054409760303
+        ],
+        "confidence": 0.5,
+        "text": "GBWDM ="
+      },
+      {
+        "bbox": [
+          0.8074324325591217,
+          0.6390243895121951,
+          0.8918918920185811,
+          0.6975609748780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CL"
+      },
+      {
+        "bbox": [
+          0.8108108101773649,
+          0.7073170725609756,
+          0.874999999366554,
+          0.7560975603658537
+        ],
+        "confidence": 1,
+        "text": "9m3"
+      },
+      {
+        "bbox": [
+          0.6552517169564136,
+          0.7403981532642494,
+          0.8143428802823677,
+          0.7913091634481886
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBWCM = ="
+      },
+      {
+        "bbox": [
+          0.8006756766891893,
+          0.7804878048780488,
+          0.8817567577702703,
+          0.8195121951219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2л CL"
+      },
+      {
+        "bbox": [
+          0.6486486479729731,
+          0.858536586097561,
+          0.9189189182432432,
+          0.9024390251219513
+        ],
+        "confidence": 0.5,
+        "text": "is always smaller!"
+      },
+      {
+        "bbox": [
+          0.7158220094435163,
+          0.9375930159408246,
+          0.9263297502890677,
+          0.9824820287195022
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 0816"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0240_02_0816.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It consists of a differential pair, the current source of which consists of two transistors M3 in the linear region, with a V < DS3 V −V .",
+        "pdf_page": 240,
+        "printed_page": 246,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Their Drains are connected to cancel the differential signal and the feedback loop is closed.",
+        "pdf_page": 240,
+        "printed_page": 246,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Transistors M3 are thus the input devices of the CMFB amplifier.",
+      "pdf_page": 240,
+      "printed_page": 246,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The common-mode GBW is therefore smaller than the GBW .",
+      "pdf_page": 240,
+      "printed_page": 246,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We need a linear cancellation of the differential signal to avoid the reduction of the differential gain because of the feedback.",
+      "pdf_page": 240,
+      "printed_page": 246,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "It is clear that in the linear region, the transconductances are much smaller than in the saturation region.",
+      "pdf_page": 240,
+      "printed_page": 246,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0816-M01",
+      "ocr_text": "VDs3 = 200 mV",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6587837855011262,
+        0.2682926826016261,
+        0.8648648665822071,
+        0.3170731704065042
+      ],
+      "context_crop": "regions/SANSEN-0816_math_01.png",
+      "context_bbox_normalized": [
+        0.6187837855011261,
+        0.16829268260162608,
+        1,
+        0.4470731704065042
+      ],
+      "source_image": "slides/p0240_02_0816.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0816-M02",
+      "ocr_text": "IDs = B VDs(VGs-VT)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6621621601592664,
+        0.3853658538327527,
+        0.9425675655646718,
+        0.4390243904181186
+      ],
+      "context_crop": "regions/SANSEN-0816_math_02.png",
+      "context_bbox_normalized": [
+        0.6221621601592664,
+        0.2853658538327527,
+        1,
+        0.5690243904181186
+      ],
+      "source_image": "slides/p0240_02_0816.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0816-M03",
+      "ocr_text": "9m3 = B VDs3",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6653508629205762,
+        0.4426442303205014,
+        0.848162651531086,
+        0.5036972319103927
+      ],
+      "context_crop": "regions/SANSEN-0816_math_03.png",
+      "context_bbox_normalized": [
+        0.6253508629205762,
+        0.3426442303205014,
+        1,
+        0.6336972319103927
+      ],
+      "source_image": "slides/p0240_02_0816.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0816-M04",
+      "ocr_text": "GBWDM =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6586558772521924,
+        0.5993311436246583,
+        0.8041819642140933,
+        0.6592054409760303
+      ],
+      "context_crop": "regions/SANSEN-0816_math_04.png",
+      "context_bbox_normalized": [
+        0.6186558772521924,
+        0.49933114362465836,
+        1,
+        0.7892054409760303
+      ],
+      "source_image": "slides/p0240_02_0816.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0816-M05",
+      "ocr_text": "GBWCM = =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6552517169564136,
+        0.7403981532642494,
+        0.8143428802823677,
+        0.7913091634481886
+      ],
+      "context_crop": "regions/SANSEN-0816_math_05.png",
+      "context_bbox_normalized": [
+        0.6152517169564136,
+        0.6403981532642494,
+        1,
+        0.9213091634481886
+      ],
+      "source_image": "slides/p0240_02_0816.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

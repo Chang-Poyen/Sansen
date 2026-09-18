@@ -1,0 +1,79 @@
+[
+  {
+    "id": "mos_cs",
+    "module": "02-single-pole",
+    "model": "mos_cs",
+    "devices": [
+      "M_mos_cs"
+    ],
+    "rs": 0,
+    "cf": 0,
+    "cl": 3e-12
+  },
+  {
+    "id": "mos_miller",
+    "module": "03-miller",
+    "model": "mos_cs",
+    "devices": [
+      "M_mos_miller"
+    ],
+    "rs": 10000,
+    "cf": 5e-13,
+    "cl": 3e-12
+  },
+  {
+    "id": "mos_follower",
+    "module": "09-followers-hf",
+    "model": "mos_follower",
+    "devices": [
+      "M_mos_follower"
+    ],
+    "rs": 10000.0,
+    "cd_external": 2e-13,
+    "cl": 3e-12
+  },
+  {
+    "id": "mos_cascode",
+    "module": "13-cascode",
+    "model": "mos_cascode",
+    "devices": [
+      "M_mos_cascode_bottom",
+      "M_mos_cascode_top"
+    ],
+    "cl": 3e-12,
+    "cm_external": 1e-13
+  },
+  {
+    "id": "mos_inverter",
+    "module": "07-inverter-ac",
+    "model": "mos_inverter",
+    "devices": [
+      "M_mos_inverter_n",
+      "M_mos_inverter_p"
+    ],
+    "rs": 10000,
+    "cf": 2e-13,
+    "cl": 3e-12
+  },
+  {
+    "id": "mos_diode_load",
+    "module": "05-diode-loads",
+    "model": "mos_diode_load",
+    "devices": [
+      "M_mos_diode_load_n",
+      "M_mos_diode_load_p"
+    ],
+    "cl": 3e-12
+  },
+  {
+    "id": "mos_degen",
+    "module": "04-degeneration",
+    "model": "mos_degen",
+    "devices": [
+      "M_mos_degen"
+    ],
+    "rs": 1061.032953945969,
+    "rl": 10000,
+    "cl": 3e-12
+  }
+]

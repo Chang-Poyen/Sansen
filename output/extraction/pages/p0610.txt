@@ -1,0 +1,47 @@
+CMOS ADC and DAC principles 621
+Note that such ADC is quite simple as it consists of one single opamp (comparator) and a
+capacitor bank and some logic. The total number of unit capacitors is only 2N. Its power
+consumption can be quite low, especially if only low-frequencies have to be processed (see Scott,
+JSSC July 2003, 1123–1129).
+Because of the capacitor bank, the accuracy is limited by its matching, which is 10–12 bit,
+depending on the sizes of the capacitors (see Chapter 15). Its speed is limited by the speed of
+the opamp and the RC time constants of the switches, as in any switched-capacitor system (see
+Chapter 17).
+2036
+In the hold mode, the feed-
+back loop around the
+opamp is opened. As a
+result, the voltage V at the
+x
+input of the opamp can take
+any value.
+The bottom plates of the
+capacitors are now all con-
+nected to ground, pushing
+V to −V .
+x in
+At the same time, switch
+S1 switches in V rather
+ref
+than V .
+in
+2037
+The successive approxima-
+tion algorithm now takes
+place.
+Each bit is now cycled
+through a similar compari-
+son sequence, in order to
+find out the position of the
+input voltage on the binary
+scale. We start with the
+MSB by switching the
+bottom plate of the largest
+capacitor 16C to the refer-
+ence voltage (see slide). As
+the sum of all other capaci-
+tors 8C, 4C, 2C, ... equals
+16C, only half of the refer-
+ence voltage V is added to the −V voltage. The opamp input voltage V is illustrated, as
+ref in x
+shown in this slide.

@@ -1,0 +1,199 @@
+[
+  {
+    "id": "miller",
+    "module": "03-miller",
+    "passed": true,
+    "unit": "Hz (complex s divided by 2*pi)",
+    "spectre_poles": [
+      [
+        -300292.0,
+        0.0
+      ]
+    ],
+    "derived_poles": [
+      [
+        -300292.34545640636,
+        0.0
+      ]
+    ],
+    "spectre_zeros": [
+      [
+        636620000.0,
+        0.0
+      ]
+    ],
+    "derived_zeros": [
+      [
+        636619772.3675814,
+        0.0
+      ]
+    ],
+    "max_relative_pole_error": 1.150400306849807e-06,
+    "max_relative_zero_error": 3.5756416704738065e-07,
+    "docancel": false
+  },
+  {
+    "id": "follower_cancel",
+    "module": "09-followers-hf",
+    "passed": true,
+    "unit": "Hz (complex s divided by 2*pi)",
+    "spectre_poles": [
+      [
+        -4188290.0,
+        0.0
+      ],
+      [
+        -13262900.0,
+        0.0
+      ]
+    ],
+    "derived_poles": [
+      [
+        -13262911.924324611,
+        0.0
+      ],
+      [
+        -4188287.9761025086,
+        0.0
+      ]
+    ],
+    "spectre_zeros": [
+      [
+        -13262900.0,
+        0.0
+      ]
+    ],
+    "derived_zeros": [
+      [
+        -13262911.924324611,
+        0.0
+      ]
+    ],
+    "max_relative_pole_error": 8.990728943417232e-07,
+    "max_relative_zero_error": 8.990728943417232e-07,
+    "docancel": false
+  },
+  {
+    "id": "follower_center",
+    "module": "09-followers-hf",
+    "passed": true,
+    "unit": "Hz (complex s divided by 2*pi)",
+    "spectre_poles": [
+      [
+        -16753200.0,
+        32442300.0
+      ],
+      [
+        -16753200.0,
+        -32442300.0
+      ]
+    ],
+    "derived_poles": [
+      [
+        -16753151.904410034,
+        32442339.16113157
+      ],
+      [
+        -16753151.904410034,
+        -32442339.16113157
+      ]
+    ],
+    "spectre_zeros": [
+      [
+        -318310000.0,
+        0.0
+      ]
+    ],
+    "derived_zeros": [
+      [
+        -318309886.1837907,
+        0.0
+      ]
+    ],
+    "max_relative_pole_error": 1.6986556325671935e-06,
+    "max_relative_zero_error": 3.5756416704738065e-07,
+    "docancel": false
+  },
+  {
+    "id": "two_stage",
+    "module": "17-cascade",
+    "passed": true,
+    "unit": "Hz (complex s divided by 2*pi)",
+    "spectre_poles": [
+      [
+        -5201.46,
+        0.0
+      ],
+      [
+        -84692900.0,
+        0.0
+      ]
+    ],
+    "derived_poles": [
+      [
+        -84692907.38406396,
+        0.0
+      ],
+      [
+        -5201.46136209228,
+        0.0
+      ]
+    ],
+    "spectre_zeros": [
+      [
+        212207000.0,
+        0.0
+      ]
+    ],
+    "derived_zeros": [
+      [
+        212206590.78919378,
+        0.0
+      ]
+    ],
+    "max_relative_pole_error": 2.618672302287202e-07,
+    "max_relative_zero_error": 1.928360493889091e-06,
+    "docancel": false
+  },
+  {
+    "id": "gainboost_slow",
+    "module": "18-gain-boosting",
+    "passed": true,
+    "unit": "Hz (complex s divided by 2*pi)",
+    "spectre_poles": [
+      [
+        -339.157,
+        0.0
+      ],
+      [
+        -30671.0,
+        0.0
+      ]
+    ],
+    "derived_poles": [
+      [
+        -30670.969680000257,
+        0.0
+      ],
+      [
+        -339.15731947002786,
+        0.0
+      ]
+    ],
+    "spectre_zeros": [
+      [
+        -20802.0,
+        0.0
+      ]
+    ],
+    "derived_zeros": [
+      [
+        -20801.9801980198,
+        0.0
+      ]
+    ],
+    "max_relative_pole_error": 9.885569337946394e-07,
+    "max_relative_zero_error": 9.519276536420527e-07,
+    "docancel": false
+  }
+]

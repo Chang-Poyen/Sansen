@@ -1,0 +1,233 @@
+{
+  "case_id": "SANSEN-2161",
+  "slide_id": "2161",
+  "chapter": 21,
+  "slide_number_in_chapter": 61,
+  "source": {
+    "pdf_page": 657,
+    "printed_page": 668
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0657_01_2161.jpg",
+      "pdf_page": 657,
+      "printed_page": 668,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 657,
+      "printed_page": 668,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        417.4875000000002
+      ],
+      "text_raw": "In the switched-capacitor\nintegrator, shown in this\nslide, the input switch is\nreplaced by a resistor R. On\nphase W1P the sampling\ncapacitor C is charged to\nS\nthe output voltage of the\nfirst opamp. On phase W2\nthe charge is then transfer-\nred to integration capacitor\nC .\nI\nThe use of this resistor R\nhas several advantages. First\nof all, it avoids the need to\nuse a switch. This switch is\ndifficult to drive because of\nthe low supply voltage.\nMoreover, the linearity is quite high provided the ON-resistance of switch W1P can be\nmade small.\nThe drawback is that an additional time constant RC comes in, which may limit the high-\nS\nfrequency performance. This is a low-frequency solution.",
+      "text": "In the switched-capacitor integrator, shown in this slide, the input switch is replaced by a resistor R. On phase W1P the sampling capacitor C is charged to S the output voltage of the first opamp. On phase W2 the charge is then transferred to integration capacitor C . I The use of this resistor R has several advantages. First of all, it avoids the need to use a switch. This switch is difficult to drive because of the low supply voltage. Moreover, the linearity is quite high provided the ON-resistance of switch W1P can be made small. The drawback is that an additional time constant RC comes in, which may limit the high- S frequency performance. This is a low-frequency solution."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In the switched-capacitor integrator, shown in this slide, the input switch is replaced by a resistor R. On phase W1P the sampling capacitor C is charged to S the output voltage of the first opamp. On phase W2 the charge is then transferred to integration capacitor C . I The use of this resistor R has several advantages. First of all, it avoids the need to use a switch. This switch is difficult to drive because of the low supply voltage. Moreover, the linearity is quite high provided the ON-resistance of switch W1P can be made small. The drawback is that an additional time constant RC comes in, which may limit the high- S frequency performance. This is a low-frequency solution.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Switched-resistor integrator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0657_01_2161.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432691441439,
+          0.07804878101626012,
+          0.5743243269144144,
+          0.14146341516260164
+        ],
+        "confidence": 1,
+        "text": "Switched-resistor integrator"
+      },
+      {
+        "bbox": [
+          0.2830092282878805,
+          0.302534206220885,
+          0.35565259852961273,
+          0.3618798330519397
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R A"
+      },
+      {
+        "bbox": [
+          0.3040540545608108,
+          0.4195121948780488,
+          0.3445945951013514,
+          0.44878048756097555
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "MS"
+      },
+      {
+        "bbox": [
+          0.34121621577702704,
+          0.4146341459512195,
+          0.3986486482094595,
+          0.453658536195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "J+02"
+      },
+      {
+        "bbox": [
+          0.42229729818412165,
+          0.414634146097561,
+          0.4932432441300676,
+          0.45365853634146336
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ 01P"
+      },
+      {
+        "bbox": [
+          0.11443724911658573,
+          0.5966552876604011,
+          0.3044816650802484,
+          0.6570032494583479
+        ],
+        "confidence": 1,
+        "text": "Input switch"
+      },
+      {
+        "bbox": [
+          0.11824324345439187,
+          0.6487804885365854,
+          0.4459459461570946,
+          0.707317073902439
+        ],
+        "confidence": 1,
+        "text": "replaced by resistor R"
+      },
+      {
+        "bbox": [
+          0.11824324148648653,
+          0.7609756092195122,
+          0.6114864847297298,
+          0.814634145804878
+        ],
+        "confidence": 1,
+        "text": "Larger resistor for better linearity"
+      },
+      {
+        "bbox": [
+          0.11824323716216233,
+          0.8146341465243903,
+          0.6047297236486489,
+          0.8682926831097562
+        ],
+        "confidence": 1,
+        "text": "Smaller resistor for higher speed"
+      },
+      {
+        "bbox": [
+          0.6824324293074325,
+          0.8731707318902439,
+          0.9324324293074324,
+          0.9073170733536585
+        ],
+        "confidence": 1,
+        "text": "Ahn, .. ISSCC 05, 166-167"
+      },
+      {
+        "bbox": [
+          0.7263513612860877,
+          0.9414634142276422,
+          0.9358108078580564,
+          0.9756097556910569
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.0s 2161"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In the switched-capacitor integrator, shown in this slide, the input switch is replaced by a resistor R.",
+      "pdf_page": 657,
+      "printed_page": 668,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0657_01_2161.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The drawback is that an additional time constant RC comes in, which may limit the high- S frequency performance.",
+      "pdf_page": 657,
+      "printed_page": 668,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "On phase W1P the sampling capacitor C is charged to S the output voltage of the first opamp.",
+      "pdf_page": 657,
+      "printed_page": 668,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "On phase W2 the charge is then transferred to integration capacitor C .",
+      "pdf_page": 657,
+      "printed_page": 668,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Moreover, the linearity is quite high provided the ON-resistance of switch W1P can be made small.",
+      "pdf_page": 657,
+      "printed_page": 668,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

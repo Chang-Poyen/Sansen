@@ -1,0 +1,39 @@
+616 Chapter #20
+possible. As a result its W/L is made small (2–3) and its V −V is large, as large as 1 V,
+GS T
+provided the power supply allows this.
+To achieve a 99.7% INL, the current source matching must be at least 0.5%. The dimensions
+of the current source transistor M are then easily calculated. The cascode has been made as
+cs
+small as possible in this 0.35 mm CMOS technology.
+2026
+A layout of this realization
+is shown in this slide.
+Many blocks have been
+laid out by hand to reduce
+the dimensions to a mini-
+mum. This also applies to
+the dummy decoder men-
+tioned previousl.
+As a result, the dynamic
+performance is excellent, as
+shown in the next slide.
+2027
+A single-tone spectrum is
+shown in this slide.
+At low frequencies, an
+effective resolution is ob-
+tained of 74 dB or 11.7 bits.
+For a clock frequency of
+1 GHz, the maximum fre-
+quency on this plot is
+500 MHz. A resolution of
+70 dB is still achieved up to
+250 MHz signal frequency,
+which is still about 11.3 bits.
+At the highest frequency,
+the SFDR is 61 dB or about
+10 bits indeed. At this point
+the analog part consumes
+60 mW and the digital part 62 mW, all from 1.9 V power supply. This is for a 20 mA full-scale
+current. For a 16 mA full-scale current, the power consumption drops to 110 mW.

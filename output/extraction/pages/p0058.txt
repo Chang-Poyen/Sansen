@@ -1,0 +1,50 @@
+Amplifiers, source followers and cascodes 59
+0217
+Parallel feedback can be
+applied to a single transistor
+as well, which results in a
+diode-connected transistor.
+Connecting collector to
+base in a bipolar transistor,
+gives us a real base-emitter
+diode. In a MOST however,
+there is no gate-source
+diode. And yet, connecting
+the drain to the gate gives
+us something similar.
+Indeed the current volt-
+age characteristic is ob-
+tained by shifting the curve,
+separating the linear and
+the saturation region, which is at V =V −V , to the right by V .
+DS GS T T
+As a result, we can indeed use the current-voltage characteristic of a MOST in saturation.
+The resulting curve is very nonlinear however. It resembles somewhat, a diode characteristic.
+We will use this simple circuit to convert current to voltage.
+0218
+If we add a small-signal cur-
+rent to the DC current, then
+we find the small-signal
+equivalent circuit, as shown.
+The small-signal resis-
+tance r is then 1/g in par-
+ds m
+allel with the transistor
+output resistance r . Since
+DS
+the latter one is always sig-
+nificantly larger than 1/g ,
+m
+it can be simplified to 1/g
+m
+itself.
+The small-signal resis-
+tance of a diode connected
+MOST is thus always 1/g ,
+m
+very much as for a bipolar
+transistor.
+0219
+At high frequencies, this voltage-to-current converter performs quite well.
+Indeed adding the C and C , which are the two most important capacitances of a MOST,
+GS DS

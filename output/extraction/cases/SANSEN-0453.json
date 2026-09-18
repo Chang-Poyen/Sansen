@@ -1,0 +1,216 @@
+{
+  "case_id": "SANSEN-0453",
+  "slide_id": "0453",
+  "chapter": 4,
+  "slide_number_in_chapter": 53,
+  "source": {
+    "pdf_page": 140,
+    "printed_page": 143
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0141_01_0453.jpg",
+      "pdf_page": 141,
+      "printed_page": 144,
+      "bbox_pt": [
+        91.521622,
+        122.62661800000001,
+        374.78981,
+        319.08660899999995
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 140,
+      "printed_page": 143,
+      "bbox_pt": [
+        0,
+        654.6544500000001,
+        595,
+        797
+      ],
+      "text_raw": "For most of the amplifiers, a resistive source impedance was assumed. Indeed, many sensors are\nresistive such as Wheatstone bridge pressure sensors.",
+      "text": "For most of the amplifiers, a resistive source impedance was assumed. Indeed, many sensors are resistive such as Wheatstone bridge pressure sensors."
+    },
+    {
+      "pdf_page": 141,
+      "printed_page": 144,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        355.60480000000007
+      ],
+      "text_raw": "Many sensors are capaci-\ntive, however. Photodiodes\nand radiation detectors are\ncapacitive, but so are capac-\nitive accelerometers, micro-\nphones, etc. The question is\nthen, what transistor biasing\nprovides the best noise per-\nformance? This is called\ncapacitive noise matching.\nQuite often this analysis\nleads to complicated expres-\nsions. They have been sim-\nplified to the bare minimum.\nAlso the design plan has\nbeen simplified to a single\nequation.",
+      "text": "Many sensors are capacitive, however. Photodiodes and radiation detectors are capacitive, but so are capacitive accelerometers, microphones, etc. The question is then, what transistor biasing provides the best noise performance? This is called capacitive noise matching. Quite often this analysis leads to complicated expressions. They have been simplified to the bare minimum. Also the design plan has been simplified to a single equation."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For most of the amplifiers, a resistive source impedance was assumed. Indeed, many sensors are resistive such as Wheatstone bridge pressure sensors.\n\nMany sensors are capacitive, however. Photodiodes and radiation detectors are capacitive, but so are capacitive accelerometers, microphones, etc. The question is then, what transistor biasing provides the best noise performance? This is called capacitive noise matching. Quite often this analysis leads to complicated expressions. They have been simplified to the bare minimum. Also the design plan has been simplified to a single equation.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0141_01_0453.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.11148648239020281,
+          0.2243902445731707,
+          0.47972972563344607,
+          0.2780487811585366
+        ],
+        "confidence": 1,
+        "text": "• Definitions of noise"
+      },
+      {
+        "bbox": [
+          0.11148648324887393,
+          0.3073170734552846,
+          0.49999999676238743,
+          0.3609756100406504
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of an amplifier"
+      },
+      {
+        "bbox": [
+          0.11486486440033786,
+          0.3902439017682927,
+          0.46959459413006754,
+          0.4439024383536585
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a follower"
+      },
+      {
+        "bbox": [
+          0.11148648287162169,
+          0.47804878082926827,
+          0.47297296935810806,
+          0.5317073174146342
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a cascode"
+      },
+      {
+        "bbox": [
+          0.11148649176520262,
+          0.5609756090853659,
+          0.587837843116554,
+          0.6146341456707317
+        ],
+        "confidence": 1,
+        "text": "• Noise of a differential pair"
+      },
+      {
+        "bbox": [
+          0.11148649108108102,
+          0.6487804875609757,
+          0.5709459505405405,
+          0.7024390241463415
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a current mirror"
+      },
+      {
+        "bbox": [
+          0.11148648301158305,
+          0.7317073173867595,
+          0.5979729694980694,
+          0.7853658539721253
+        ],
+        "confidence": 1,
+        "text": "• Capacitive noise matching"
+      },
+      {
+        "bbox": [
+          0.07770269206081111,
+          0.8634146343292683,
+          0.9290540434121626,
+          0.8975609757926829
+        ],
+        "confidence": 1,
+        "text": "Ref.: Z.Y.Chang, W.Sansen, Low-noise wide-band amplifiers, Kluwer AP, 1991"
+      },
+      {
+        "bbox": [
+          0.7297297319679054,
+          0.9414634141463415,
+          0.9358108130489864,
+          0.980487804390244
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 a5 0453"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0141_01_0453.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "For most of the amplifiers, a resistive source impedance was assumed.",
+        "pdf_page": 140,
+        "printed_page": 143,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "For most of the amplifiers, a resistive source impedance was assumed.",
+      "pdf_page": 140,
+      "printed_page": 143,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

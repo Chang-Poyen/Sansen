@@ -1,0 +1,226 @@
+{
+  "case_id": "SANSEN-0628",
+  "slide_id": "0628",
+  "chapter": 6,
+  "slide_number_in_chapter": 28,
+  "source": {
+    "pdf_page": 191,
+    "printed_page": 195
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0191_02_0628.jpg",
+      "pdf_page": 191,
+      "printed_page": 195,
+      "bbox_pt": [
+        91.52162,
+        408.52249,
+        374.54222,
+        605.03233
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 191,
+      "printed_page": 195,
+      "bbox_pt": [
+        0,
+        404.53301000000016,
+        595,
+        654.65449
+      ],
+      "text_raw": "The three design choices\nhave to be selected first.\nWe choose the actual\nchannel length L . It can be\n6\nthe minimum channel\nlength or a somewhat larger\nvalue, depending on the gain\nrequired. However, this\nvalue of L sets the fre-\n6\nquency f .\nTH6\nThe value of i is now\neasily calculated as f /f .\nTH TH6\nThe capacitive load now\ndetermines the output tran-\nsistor width, and its current.\nAll other values are now\neasily derived.",
+      "text": "The three design choices have to be selected first. We choose the actual channel length L . It can be 6 the minimum channel length or a somewhat larger value, depending on the gain required. However, this value of L sets the fre- 6 quency f . TH6 The value of i is now easily calculated as f /f . TH TH6 The capacitive load now determines the output transistor width, and its current. All other values are now easily derived."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The three design choices have to be selected first. We choose the actual channel length L . It can be 6 the minimum channel length or a somewhat larger value, depending on the gain required. However, this value of L sets the fre- 6 quency f . TH6 The value of i is now easily calculated as f /f . TH TH6 The capacitive load now determines the output transistor width, and its current. All other values are now easily derived.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Design optimization for low speed Miller OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0191_02_0628.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626440677978,
+          0.08292682943089424,
+          0.888135586440678,
+          0.14146341479674795
+        ],
+        "confidence": 1,
+        "text": "Design optimization for low speed Miller OTA"
+      },
+      {
+        "bbox": [
+          0.06747326095798938,
+          0.2356417032483673,
+          0.3054707750684899,
+          0.291014964862911
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• Choose a By"
+      },
+      {
+        "bbox": [
+          0.06779660454237295,
+          0.3073170725853659,
+          0.650847452,
+          0.3658536579512195
+        ],
+        "confidence": 0.5,
+        "text": "• Find minimum fe for specified GBW"
+      },
+      {
+        "bbox": [
+          0.0666666860166178,
+          0.37724550995181216,
+          0.9250000021083815,
+          0.4439024390609668
+        ],
+        "confidence": 0.5,
+        "text": "• Choose channel length L6 (max. gain), which gives fтн6"
+      },
+      {
+        "bbox": [
+          0.06773194397793088,
+          0.45803616993551277,
+          0.28481043415437424,
+          0.5175735853236666
+        ],
+        "confidence": 0.5,
+        "text": "• Calculate ig"
+      },
+      {
+        "bbox": [
+          0.06779661444067789,
+          0.5317073170243902,
+          0.4949152585084745,
+          0.5951219511707316
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• We is calculated from CL •"
+      },
+      {
+        "bbox": [
+          0.20338982686440688,
+          0.6195121953252032,
+          0.6406779624576272,
+          0.6731707319105691
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "and determines IDsT6 and |D56"
+      },
+      {
+        "bbox": [
+          0.06779660556497188,
+          0.6975609756910569,
+          0.6203389784463278,
+          0.7560975610569105
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• C, is calculated from CL through ix"
+      },
+      {
+        "bbox": [
+          0.0677966046101696,
+          0.7756097554634147,
+          0.6372881300338984,
+          0.8390243896097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• 9m1 and Ips1 are calculated from Cc"
+      },
+      {
+        "bbox": [
+          0.06779661545762702,
+          0.8585365859512194,
+          0.6033898357966101,
+          0.9170731713170731
+        ],
+        "confidence": 0.5,
+        "text": "• Noise is determined by 9m1 or Cc"
+      },
+      {
+        "bbox": [
+          0.7322033992339501,
+          0.9414634151467572,
+          0.9355932168112473,
+          0.9804878042276423
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 0628"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "TH6 The value of i is now easily calculated as f /f .",
+      "pdf_page": 191,
+      "printed_page": 195,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "TH TH6 The capacitive load now determines the output transistor width, and its current.",
+      "pdf_page": 191,
+      "printed_page": 195,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "All other values are now easily derived.",
+      "pdf_page": 191,
+      "printed_page": 195,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0191_02_0628.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It can be 6 the minimum channel length or a somewhat larger value, depending on the gain required.",
+      "pdf_page": 191,
+      "printed_page": 195,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

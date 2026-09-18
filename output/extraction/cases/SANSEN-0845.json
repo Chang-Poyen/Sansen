@@ -1,0 +1,528 @@
+{
+  "case_id": "SANSEN-0845",
+  "slide_id": "0845",
+  "chapter": 8,
+  "slide_number_in_chapter": 45,
+  "source": {
+    "pdf_page": 255,
+    "printed_page": 261
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0255_01_0845.jpg",
+      "pdf_page": 255,
+      "printed_page": 261,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 255,
+      "printed_page": 261,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        477.2775100000003
+      ],
+      "text_raw": "The specifications to which\nthis amplifier has to be\ndesigned are the same.\nAgain, the total supply\nvoltage is 3 V. We want to\nmaximize again the output\nswing. All currents have to\nbe minimized.\nOnly one possible design\nemerges.\nThe other specifications\nsuch as Slew Rate, noise\ndensity, etc., are then veri-\nfied for comparison.\nAs a hint for this design,\nthe following steps have to\nbe taken.\nThe maximum output swing is the difference between the largest voltage at the output and\nthe smallest one. This determines the output swing, but also the average output voltage. This\nleads to the upper value of the reference voltage V and the value of V .\nr1 r2\nFrom the values of the GBW, the g can easily be derived. Choices for V −V and L lead\nm GS T\nto values of the current and the transistor size.\nIn this way, all currents are known, except for the currents in the source followers M5.\nThese currents, through transistors M5 determine the swing across resistors R , which has\na\nbeen derived before. The resistors R determine on their turn, the non-dominant poles.\na",
+      "text": "The specifications to which this amplifier has to be designed are the same. Again, the total supply voltage is 3 V. We want to maximize again the output swing. All currents have to be minimized. Only one possible design emerges. The other specifications such as Slew Rate, noise density, etc., are then verified for comparison. As a hint for this design, the following steps have to be taken. The maximum output swing is the difference between the largest voltage at the output and the smallest one. This determines the output swing, but also the average output voltage. This leads to the upper value of the reference voltage V and the value of V . r1 r2 From the values of the GBW, the g can easily be derived. Choices for V −V and L lead m GS T to values of the current and the transistor size. In this way, all currents are known, except for the currents in the source followers M5. These currents, through transistors M5 determine the swing across resistors R , which has a been derived before. The resistors R determine on their turn, the non-dominant poles. a"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The specifications to which this amplifier has to be designed are the same. Again, the total supply voltage is 3 V. We want to maximize again the output swing. All currents have to be minimized. Only one possible design emerges. The other specifications such as Slew Rate, noise density, etc., are then verified for comparison. As a hint for this design, the following steps have to be taken. The maximum output swing is the difference between the largest voltage at the output and the smallest one. This determines the output swing, but also the average output voltage. This leads to the upper value of the reference voltage V and the value of V . r1 r2 From the values of the GBW, the g can easily be derived. Choices for V −V and L lead m GS T to values of the current and the transistor size. In this way, all currents are known, except for the currents in the source followers M5. These currents, through transistors M5 determine the swing across resistors R , which has a been derived before. The resistors R determine on their turn, the non-dominant poles. a",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Fully-diff. amp. : Specifications",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0255_01_0845.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770269923986495,
+          0.0829268294207317,
+          0.631756753293919,
+          0.14634146356707312
+        ],
+        "confidence": 1,
+        "text": "Fully-diff. amp. : Specifications"
+      },
+      {
+        "bbox": [
+          0.08108108354729726,
+          0.1999999997560976,
+          0.32770270516891886,
+          0.24390243878048778
+        ],
+        "confidence": 1,
+        "text": "Techn: BICMOS"
+      },
+      {
+        "bbox": [
+          0.3581081097972973,
+          0.20000000073170732,
+          0.7027027043918919,
+          0.258536586097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Lmin = 0.8 um ; V, = 0.7 V"
+      },
+      {
+        "bbox": [
+          0.3547297334177928,
+          0.25853658487804876,
+          0.7972973009853603,
+          0.3268292678048781
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "K°\"= 60 HA/V2 & K°p = 30 MA/V2"
+      },
+      {
+        "bbox": [
+          0.354729730884009,
+          0.3268292687804878,
+          0.756756757911036,
+          0.3853658541463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VEn = 4 V/um & VEp = 6 V/um"
+      },
+      {
+        "bbox": [
+          0.3547297297297297,
+          0.3853658528658537,
+          0.7398648648648649,
+          0.4487804870121952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fn = 12 GHz & Gp = 4 GHz"
+      },
+      {
+        "bbox": [
+          0.07728165131008342,
+          0.5153805214541638,
+          0.16933996839143176,
+          0.5675463065225826
+        ],
+        "confidence": 1,
+        "text": "Specs:"
+      },
+      {
+        "bbox": [
+          0.07770270350506753,
+          0.8926829274390243,
+          0.18243243323479727,
+          0.9414634152439023
+        ],
+        "confidence": 1,
+        "text": "Verify:"
+      },
+      {
+        "bbox": [
+          0.2635135121283784,
+          0.5170731701463415,
+          0.5168918905067568,
+          0.5756097555121952
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBWDM = 10 MHz"
+      },
+      {
+        "bbox": [
+          0.26351351111486493,
+          0.5804878042926829,
+          0.5168918894932433,
+          0.6390243896585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBWсM = 20 MHz"
+      },
+      {
+        "bbox": [
+          0.5574324320382882,
+          0.5170731712601626,
+          0.6925675671734234,
+          0.580487805406504
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C,=3 pF"
+      },
+      {
+        "bbox": [
+          0.2635135149493243,
+          0.6439024387398373,
+          0.4358108122466216,
+          0.6878048777642276
+        ],
+        "confidence": 1,
+        "text": "all PM > 70°"
+      },
+      {
+        "bbox": [
+          0.2635135152027027,
+          0.707317072857143,
+          0.5000000016891892,
+          0.7609756094425087
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YDD/Vss = # 1.5 V"
+      },
+      {
+        "bbox": [
+          0.2635135147635135,
+          0.7707317068780487,
+          0.43581081206081085,
+          0.814634145902439
+        ],
+        "confidence": 1,
+        "text": "Maximum V"
+      },
+      {
+        "bbox": [
+          0.5270270264076576,
+          0.7756097566666668,
+          0.5844594588400901,
+          0.8097560981300814
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= V"
+      },
+      {
+        "bbox": [
+          0.42891146812462455,
+          0.7942168385368557,
+          0.5305479938715629,
+          0.8301734050450791
+        ],
+        "confidence": 1,
+        "text": "swingptp"
+      },
+      {
+        "bbox": [
+          0.5775988579625612,
+          0.7746465217535486,
+          0.7906443906015234,
+          0.8253534781982657
+        ],
+        "confidence": 1,
+        "text": "outmax - Voutmin"
+      },
+      {
+        "bbox": [
+          0.26328165011563476,
+          0.8275082029812121,
+          0.45293456988492187,
+          0.8846869212689824
+        ],
+        "confidence": 1,
+        "text": "Minimum Itot"
+      },
+      {
+        "bbox": [
+          0.26689189645270256,
+          0.8926829267479675,
+          0.5405405451013512,
+          0.9365853657723577
+        ],
+        "confidence": 0.5,
+        "text": "Slew Rate, Noise, ..."
+      },
+      {
+        "bbox": [
+          0.7195945919341217,
+          0.9512195123780488,
+          0.9324324297719595,
+          0.9853658538414635
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 0845"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This determines the output swing, but also the average output voltage.",
+      "pdf_page": 255,
+      "printed_page": 261,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This leads to the upper value of the reference voltage V and the value of V . r1 r2 From the values of the GBW, the g can easily be derived.",
+      "pdf_page": 255,
+      "printed_page": 261,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "These currents, through transistors M5 determine the swing across resistors R , which has a been derived before.",
+      "pdf_page": 255,
+      "printed_page": 261,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0255_01_0845.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In this way, all currents are known, except for the currents in the source followers M5.",
+        "pdf_page": 255,
+        "printed_page": 261,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0845-M01",
+      "ocr_text": "Lmin = 0.8 um ; V, = 0.7 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3581081097972973,
+        0.20000000073170732,
+        0.7027027043918919,
+        0.258536586097561
+      ],
+      "context_crop": "regions/SANSEN-0845_math_01.png",
+      "context_bbox_normalized": [
+        0.3181081097972973,
+        0.13,
+        0.9327027043918918,
+        0.38853658609756103
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0845-M02",
+      "ocr_text": "K°\"= 60 HA/V2 & K°p = 30 MA/V2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3547297334177928,
+        0.25853658487804876,
+        0.7972973009853603,
+        0.3268292678048781
+      ],
+      "context_crop": "regions/SANSEN-0845_math_02.png",
+      "context_bbox_normalized": [
+        0.3147297334177928,
+        0.15853658487804875,
+        1,
+        0.4568292678048781
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0845-M03",
+      "ocr_text": "VEn = 4 V/um & VEp = 6 V/um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.354729730884009,
+        0.3268292687804878,
+        0.756756757911036,
+        0.3853658541463414
+      ],
+      "context_crop": "regions/SANSEN-0845_math_03.png",
+      "context_bbox_normalized": [
+        0.314729730884009,
+        0.22682926878048779,
+        0.986756757911036,
+        0.5153658541463414
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0845-M04",
+      "ocr_text": "fn = 12 GHz & Gp = 4 GHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.3547297297297297,
+        0.3853658528658537,
+        0.7398648648648649,
+        0.4487804870121952
+      ],
+      "context_crop": "regions/SANSEN-0845_math_04.png",
+      "context_bbox_normalized": [
+        0.31472972972972973,
+        0.2853658528658537,
+        0.9698648648648649,
+        0.5787804870121952
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0845-M05",
+      "ocr_text": "GBWDM = 10 MHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2635135121283784,
+        0.5170731701463415,
+        0.5168918905067568,
+        0.5756097555121952
+      ],
+      "context_crop": "regions/SANSEN-0845_math_05.png",
+      "context_bbox_normalized": [
+        0.22351351212837842,
+        0.4170731701463415,
+        0.7468918905067568,
+        0.7056097555121952
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0845-M06",
+      "ocr_text": "GBWсM = 20 MHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.26351351111486493,
+        0.5804878042926829,
+        0.5168918894932433,
+        0.6390243896585366
+      ],
+      "context_crop": "regions/SANSEN-0845_math_06.png",
+      "context_bbox_normalized": [
+        0.22351351111486492,
+        0.4804878042926829,
+        0.7468918894932433,
+        0.7690243896585366
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0845-M07",
+      "ocr_text": "C,=3 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5574324320382882,
+        0.5170731712601626,
+        0.6925675671734234,
+        0.580487805406504
+      ],
+      "context_crop": "regions/SANSEN-0845_math_07.png",
+      "context_bbox_normalized": [
+        0.5174324320382881,
+        0.41707317126016263,
+        0.9225675671734234,
+        0.710487805406504
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0845-M08",
+      "ocr_text": "all PM > 70°",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.2635135149493243,
+        0.6439024387398373,
+        0.4358108122466216,
+        0.6878048777642276
+      ],
+      "context_crop": "regions/SANSEN-0845_math_08.png",
+      "context_bbox_normalized": [
+        0.22351351494932428,
+        0.5439024387398373,
+        0.6658108122466216,
+        0.8178048777642276
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0845-M09",
+      "ocr_text": "YDD/Vss = # 1.5 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2635135152027027,
+        0.707317072857143,
+        0.5000000016891892,
+        0.7609756094425087
+      ],
+      "context_crop": "regions/SANSEN-0845_math_09.png",
+      "context_bbox_normalized": [
+        0.2235135152027027,
+        0.607317072857143,
+        0.7300000016891892,
+        0.8909756094425088
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0845-M10",
+      "ocr_text": "= V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5270270264076576,
+        0.7756097566666668,
+        0.5844594588400901,
+        0.8097560981300814
+      ],
+      "context_crop": "regions/SANSEN-0845_math_10.png",
+      "context_bbox_normalized": [
+        0.48702702640765766,
+        0.6756097566666668,
+        0.8144594588400901,
+        0.93
+      ],
+      "source_image": "slides/p0255_01_0845.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

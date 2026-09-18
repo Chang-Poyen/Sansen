@@ -1,0 +1,48 @@
+58 Chapter #2
+The main problem of R is its noise. This is why in low-noise RF circuits, an inductor is
+S
+used instead.
+0215
+Inductors and capacitances
+do not give noise, at least
+not as long as their series
+loss resistance is zero. Only
+resistances give noise among
+the passives!
+Inserting an inductor
+makes both the trans-
+conductance and the out-
+put resistance frequency
+dependent.
+The input impedance Z
+inL
+however, which was capaci-
+tive without series R or L,
+becomes now purely resis-
+tive with value g L /C or
+m S GS
+L v . Indeed, the input capacitance C is tuned out by the inductor. Its input resistance can
+S T GS
+be easily designed to be 50 V to match an incoming 50 V transmission line (cable, antenna, etc.).
+In this way, a very-high-frequency low-noise amplifier can be designed (see Chapter 23).
+0216
+An easy way to realize such
+a series feedback resistor is
+to use a nMOST in the
+linear region. This is only
+possible however, if its V
+DS2
+is quite small, between 100
+and 200 mV. This is also the
+difference between the V ’s
+GS
+of the two transistors.
+It is not that easy to track
+the parameters of both tran-
+sistors. Indeed, MOST M1
+works in saturation, involv-
+ing parameter K∞, whereas
+transistor M2 operates as a
+resistor, with parameter KP.
+They differ by parameter n,
+which is always uncertain.

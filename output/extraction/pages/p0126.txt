@@ -1,0 +1,50 @@
+Noise performance of elementary transistor stages 129
+0424
+When a MOST is driven at
+its Bulk rather than at its
+Gate, then the Bulk trans-
+conductance g has to be
+mb
+used rather than the trans-
+conductance g . Remember
+m
+that their ratio is n−1 (see
+Chapter 1), which is not
+known accurately, but lies
+somewhere between 0.3
+and 0.5.
+The equivalent input
+noise voltages that are pre-
+sent at the Bulk, are then
+different. They are repeated
+at the Gate on the left. They
+are given by the expressions on the right. Both expressions contain the Bulk transconductance
+g squared. Since g is always smaller than g , the Bulk equivalent input noise is always
+mb mb m
+larger than the Gate equivalent input noise. This evidently applies to both the white noise and
+the 1/f noise.
+A Bulk drive is therefore not a good solution for noise.
+0425
+A bipolar transistor has two
+pn-junctions, through which
+current flows. As a result
+two sources of shot noise
+will have to be present. They
+are added in the small-signal
+model in this slide. They are
+white noise sources.
+One collector shot noise
+current source is added
+between collector and emit-
+ter. It is proportional to the
+collector current.
+The other one is between
+base and emitter and is
+proportional to the base
+current.
+Finally, a resistive base resistance noise voltage has to be added in series with the base input.
+Normally, the 1/f noise is added to the base shot noise current source. For a silicon transistor,
+an average value of the KF factor is given in this slide. Normally, the 1/f noise of a bipolar
+transistor is much lower than of a MOST because the current flows in the bulk, not at the surface.
+The 1/f noise is again inversely proportional to the emitter size A .
+EB

@@ -1,0 +1,55 @@
+502 Chapter #17
+For this purpose, a clock pulse of phase 2 is considered at time t . Note also,this time actually
+n
+corresponds to the end of the clock pulse, when all charge has been fully transferred. One period
+earlier, the clock pulse of phase 2 occurs at t . The other phase (phase 1) then occurs at t
+n−1 n−1/2
+at the end.
+The charge on capacitance aC during phase 1 is denoted by Q and is given in this slide. It
+aC1
+is available at time t . The charge on capacitor C is given by Q As switch 2 is open during
+n−1/2 C1.
+phase 1, we can as well take this charge at time t as at time t .
+n−1/2 n−1
+1734
+When switch 2 is closed (on
+phase 2), capacitor aC
+is fully discharged as the
+minus input of the opamp
+goes to zero because of
+the feedback. The gain is
+assumed to be sufficiently
+high to reduce the differ-
+ential input zero, whatever
+appears at the output.
+In this phase 2, the charge
+on capacitor ac C is zero
+and the charge on capacitor
+C changes to Q .
+C2
+Noting that the sum of
+the charges in phase 1,
+equals the sum of the charges in phase 2, gives the charge conservation equation. Note that this
+equation links the output voltage to the input voltage. The voltages appear at different times,
+however. In this form, this equation cannot be solved.
+1735
+The charge conservation
+equation is copied on top.
+All voltages are now con-
+verted into z-transforms.
+One delay corresponds to
+z−1.
+The gain V /V is now
+out in
+readily written. It shows
+that the gain equals a, the
+ratio of the two capacitors,
+multiplied by a factor in z.
+To see what this factor
+means in the frequency
+domain, z is substituted by
+exp( jvT ). For frequencies
+c
+much lower than the clock
+frequency f , this exponential can be developed into a power series, which can be cut off after jvT .
+c c

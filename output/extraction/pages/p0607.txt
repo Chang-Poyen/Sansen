@@ -1,0 +1,54 @@
+618 Chapter #20
+pJoule/Sample. At this point
+the resolution is only 4.5 bit,
+however.
+A more often used Figure
+of Merit also includes P/f
+s
+(or P/2BW), but supple-
+mented with the dynamic
+range 2N. For 4.5 bit, 2N
+is 22.6, which yields one
+over 1.4 pJoule/conversion.
+Low power ADCs presently
+reach values below 1 pJ/
+conversion.
+We will start with the
+integrating ones.
+2031
+Integrating or dual-slope
+converters can reach high
+resolutions because match-
+ing does not come in. The
+same components are used
+by the same integrator
+twice.
+It uses two time periods
+T and T . The first one is
+1 2
+constant whereas the second
+depends on the input signal.
+During the first time T ,
+1
+the input Voltage −V is
+in
+integrated with time con-
+stant R C during a con-
+1 1
+stant period T , which
+1
+equals 2N times the clock period T . A voltage V is reached, as is shown in the next slide.
+clk x
+During the second period T , the input Voltage V is integrated with the same time constant
+2 ref
+R C during such a time T , that the output voltage is again zero.
+1 1 2
+A counter is used to measure the times T and T . It counts up during time T and down
+1 2 1
+during time T .
+2
+A simple relationship exists between the two time periods T and T , as shown in this slide
+1 2
+and in the next slide.
+This counter therefore generates the digital equivalent B .
+out

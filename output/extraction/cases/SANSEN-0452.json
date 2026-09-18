@@ -1,0 +1,514 @@
+{
+  "case_id": "SANSEN-0452",
+  "slide_id": "0452",
+  "chapter": 4,
+  "slide_number_in_chapter": 52,
+  "source": {
+    "pdf_page": 140,
+    "printed_page": 143
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0140_02_0452.jpg",
+      "pdf_page": 140,
+      "printed_page": 143,
+      "bbox_pt": [
+        91.52162,
+        353.81464,
+        374.78981,
+        550.27463
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 140,
+      "printed_page": 143,
+      "bbox_pt": [
+        0,
+        349.8251,
+        595,
+        654.6544500000001
+      ],
+      "text_raw": "Finally, let us have a look\nat the noise performance of\nan opamp with resistive\nfeedback.\nWe assume that the over-\nall voltage gain is large, i.e.\nthat R is much larger than\n2\nR .\n1\nWe can distinguish three\nsources of noise, i.e. the two\nresistors and the opamp\nitself, which has an input\nnoise voltage source v .\nA\nCalculation of the contri-\nbutions of these three volt-\nage sources to the output\nand division by the voltage gain R /R , allows us to determine the total equivalent input noise\n2 1\nvoltage power.\nFor large gain, the noise voltage of the input resistor R and of the opamp are the dominant\n1\nnoise sources.\nThis is to be expected. The input resistor R is in series with the input signal. Also the opamps\n1\nnoise voltage is its equivalent input noise voltage. At the input, it appears unaltered.",
+      "text": "Finally, let us have a look at the noise performance of an opamp with resistive feedback. We assume that the overall voltage gain is large, i.e. that R is much larger than 2 R . 1 We can distinguish three sources of noise, i.e. the two resistors and the opamp itself, which has an input noise voltage source v . A Calculation of the contributions of these three voltage sources to the output and division by the voltage gain R /R , allows us to determine the total equivalent input noise 2 1 voltage power. For large gain, the noise voltage of the input resistor R and of the opamp are the dominant 1 noise sources. This is to be expected. The input resistor R is in series with the input signal. Also the opamps 1 noise voltage is its equivalent input noise voltage. At the input, it appears unaltered."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Finally, let us have a look at the noise performance of an opamp with resistive feedback. We assume that the overall voltage gain is large, i.e. that R is much larger than 2 R . 1 We can distinguish three sources of noise, i.e. the two resistors and the opamp itself, which has an input noise voltage source v . A Calculation of the contributions of these three voltage sources to the output and division by the voltage gain R /R , allows us to determine the total equivalent input noise 2 1 voltage power. For large gain, the noise voltage of the input resistor R and of the opamp are the dominant 1 noise sources. This is to be expected. The input resistor R is in series with the input signal. Also the opamps 1 noise voltage is its equivalent input noise voltage. At the input, it appears unaltered.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise of an opamp",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0140_02_0452.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946175193049,
+          0.08780487790940761,
+          0.4054054076978764,
+          0.14634146327526132
+        ],
+        "confidence": 1,
+        "text": "Noise of an opamp"
+      },
+      {
+        "bbox": [
+          0.3277027024493243,
+          0.1853658528861788,
+          0.3716216213682432,
+          0.27804877971544717
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rz"
+      },
+      {
+        "bbox": [
+          0.11486486524493242,
+          0.29756097621951216,
+          0.1520270274070946,
+          0.34634146402439026
+        ],
+        "confidence": 0.5,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.16554054087837838,
+          0.258536584796748,
+          0.24662162195945944,
+          0.32682926772357734
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvR12"
+      },
+      {
+        "bbox": [
+          0.10395010433225584,
+          0.5041275784411605,
+          0.19828482267562972,
+          0.5772983101484775
+        ],
+        "confidence": 0.5,
+        "text": "dViea"
+      },
+      {
+        "bbox": [
+          0.3412162158445946,
+          0.39512195146341456,
+          0.3783783780067568,
+          0.44878048804878046
+        ],
+        "confidence": 0.5,
+        "text": "A"
+      },
+      {
+        "bbox": [
+          0.3006756758727478,
+          0.5317073165040651,
+          0.37162162181869374,
+          0.5999999994308943
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvA?"
+      },
+      {
+        "bbox": [
+          0.06418919003378376,
+          0.8146341470731707,
+          0.13851351435810808,
+          0.8731707324390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dVieq"
+      },
+      {
+        "bbox": [
+          0.13160986763491644,
+          0.8036475828232985,
+          0.3819036508743326,
+          0.8695231456307072
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2= dVR12 + dVR2"
+      },
+      {
+        "bbox": [
+          0.45945946005067567,
+          0.19999999920731704,
+          0.5405405411317568,
+          0.26341463335365856
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvR22"
+      },
+      {
+        "bbox": [
+          0.6047297305743243,
+          0.2682926837195122,
+          0.6790540548986487,
+          0.3317073178658536
+        ],
+        "confidence": 0.5,
+        "text": "dVieq"
+      },
+      {
+        "bbox": [
+          0.6656318421330066,
+          0.24377059689859626,
+          0.8388422181508091,
+          0.336980882364488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 = ≤ dVout"
+      },
+      {
+        "bbox": [
+          0.5067567575337838,
+          0.37073170712195114,
+          0.5844594602364865,
+          0.41951219492682923
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.8378378381756757,
+          0.38536585359756104,
+          0.8648648652027026,
+          0.4195121950609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R."
+      },
+      {
+        "bbox": [
+          0.6081081070945946,
+          0.40975609670731705,
+          0.8378378368243243,
+          0.4780487796341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvout?= dVR1 ("
+      },
+      {
+        "bbox": [
+          0.837837837668919,
+          0.44878048743902443,
+          0.864864864695946,
+          0.4926829264634146
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.8851351350675675,
+          0.41463414604878057,
+          0.9121621620945946,
+          0.4439024387317074
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.6081081073479729,
+          0.536585365,
+          0.8175675668074324,
+          0.6048780479268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvout?= dVR2?"
+      },
+      {
+        "bbox": [
+          0.6075553275736969,
+          0.6387692286270276,
+          0.8687960289913621,
+          0.7124502830912283
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvout? = dvA (1 +"
+      },
+      {
+        "bbox": [
+          0.8749999996959461,
+          0.6829268287317073,
+          0.9121621618581083,
+          0.7365853653170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R,"
+      },
+      {
+        "bbox": [
+          0.395270272240991,
+          0.7707317070731708,
+          0.6317567587274775,
+          0.8975609753658538
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2) 2+ du,211+"
+      },
+      {
+        "bbox": [
+          0.6418918921621621,
+          0.775609755902439,
+          0.6689189191891892,
+          0.8146341461463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R."
+      },
+      {
+        "bbox": [
+          0.6654702881258163,
+          0.804247746877885,
+          0.9358810578203766,
+          0.8689229896042808
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-) 2 = dVR12+ dvA2"
+      },
+      {
+        "bbox": [
+          0.7229729824009525,
+          0.9414634140650405,
+          0.9290540505945428,
+          0.9756097555284552
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-0s 0452"
+      },
+      {
+        "bbox": [
+          0.9290540542229732,
+          0.6390243907926829,
+          0.9560810812500001,
+          0.6829268298170732
+        ],
+        "confidence": 1,
+        "text": "2"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A Calculation of the contributions of these three voltage sources to the output and division by the voltage gain R /R , allows us to determine the total equivalent input noise 2 1 voltage power.",
+      "pdf_page": 140,
+      "printed_page": 143,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0140_02_0452.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "We assume that the overall voltage gain is large, i.e. that R is much larger than 2 R . 1 We can distinguish three sources of noise, i.e. the two resistors and the opamp itself, which has an input noise voltage source v .",
+        "pdf_page": 140,
+        "printed_page": 143,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The input resistor R is in series with the input signal.",
+        "pdf_page": 140,
+        "printed_page": 143,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We assume that the overall voltage gain is large, i.e. that R is much larger than 2 R . 1 We can distinguish three sources of noise, i.e. the two resistors and the opamp itself, which has an input noise voltage source v .",
+      "pdf_page": 140,
+      "printed_page": 143,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A Calculation of the contributions of these three voltage sources to the output and division by the voltage gain R /R , allows us to determine the total equivalent input noise 2 1 voltage power.",
+      "pdf_page": 140,
+      "printed_page": 143,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For large gain, the noise voltage of the input resistor R and of the opamp are the dominant 1 noise sources.",
+      "pdf_page": 140,
+      "printed_page": 143,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "We assume that the overall voltage gain is large, i.e. that R is much larger than 2 R . 1 We can distinguish three sources of noise, i.e. the two resistors and the opamp itself, which has an input noise voltage source v .",
+      "pdf_page": 140,
+      "printed_page": 143,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0452-M01",
+      "ocr_text": "2= dVR12 + dVR2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.13160986763491644,
+        0.8036475828232985,
+        0.3819036508743326,
+        0.8695231456307072
+      ],
+      "context_crop": "regions/SANSEN-0452_math_01.png",
+      "context_bbox_normalized": [
+        0.09160986763491644,
+        0.7036475828232985,
+        0.6119036508743326,
+        0.93
+      ],
+      "source_image": "slides/p0140_02_0452.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0452-M02",
+      "ocr_text": "2 = ≤ dVout",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6656318421330066,
+        0.24377059689859626,
+        0.8388422181508091,
+        0.336980882364488
+      ],
+      "context_crop": "regions/SANSEN-0452_math_02.png",
+      "context_bbox_normalized": [
+        0.6256318421330066,
+        0.14377059689859625,
+        1,
+        0.466980882364488
+      ],
+      "source_image": "slides/p0140_02_0452.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0452-M03",
+      "ocr_text": "dvout?= dVR1 (",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6081081070945946,
+        0.40975609670731705,
+        0.8378378368243243,
+        0.4780487796341464
+      ],
+      "context_crop": "regions/SANSEN-0452_math_03.png",
+      "context_bbox_normalized": [
+        0.5681081070945946,
+        0.3097560967073171,
+        1,
+        0.6080487796341464
+      ],
+      "source_image": "slides/p0140_02_0452.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0452-M04",
+      "ocr_text": "dvout?= dVR2?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6081081073479729,
+        0.536585365,
+        0.8175675668074324,
+        0.6048780479268293
+      ],
+      "context_crop": "regions/SANSEN-0452_math_04.png",
+      "context_bbox_normalized": [
+        0.5681081073479729,
+        0.436585365,
+        1,
+        0.7348780479268293
+      ],
+      "source_image": "slides/p0140_02_0452.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0452-M05",
+      "ocr_text": "dvout? = dvA (1 +",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6075553275736969,
+        0.6387692286270276,
+        0.8687960289913621,
+        0.7124502830912283
+      ],
+      "context_crop": "regions/SANSEN-0452_math_05.png",
+      "context_bbox_normalized": [
+        0.5675553275736969,
+        0.5387692286270276,
+        1,
+        0.8424502830912283
+      ],
+      "source_image": "slides/p0140_02_0452.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0452-M06",
+      "ocr_text": "-) 2 = dVR12+ dvA2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6654702881258163,
+        0.804247746877885,
+        0.9358810578203766,
+        0.8689229896042808
+      ],
+      "context_crop": "regions/SANSEN-0452_math_06.png",
+      "context_bbox_normalized": [
+        0.6254702881258163,
+        0.704247746877885,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0140_02_0452.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

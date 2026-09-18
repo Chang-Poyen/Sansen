@@ -1,0 +1,344 @@
+{
+  "case_id": "SANSEN-0454",
+  "slide_id": "0454",
+  "chapter": 4,
+  "slide_number_in_chapter": 54,
+  "source": {
+    "pdf_page": 141,
+    "printed_page": 144
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0141_02_0454.jpg",
+      "pdf_page": 141,
+      "printed_page": 144,
+      "bbox_pt": [
+        91.521622,
+        359.59433,
+        374.78981,
+        556.0543210000001
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 141,
+      "printed_page": 144,
+      "bbox_pt": [
+        0,
+        355.60480000000007,
+        595,
+        797
+      ],
+      "text_raw": "A capacitive sensor can be\nrepresented by a current\nsource in parallel or a volt-\nage in series. The latter\nmodel is chosen as the calcu-\nlations are a bit simpler. The\noptimization provides the\nsame results.\nThe first preamplifier con-\nsists of a single transistor\nloaded by an ideal (or very-\nlow-noise) current source.\nIt is usually followed by\nanother amplifier to have\nmore gain.\nThe feedback loop is car-\nried out by means of a capacitance. Indeed capacitances don’t give any noise. Since the source\nis capacitive, the feedback element should also be capacitive!\nThe gain A is then simply given by the ratio of the two capacitances.\nv\nIn this case, the input transistor is the only noisy component. The question then is, what must\nbe its channel width W (for minimum channel length L) and its current I , for minimum\nopt DSopt\nnoise?\nWhat would be its SNR for an input signal of 10 mV ?\nRMS\nWe cannot forget that the input impedance of the MOST is also capacitive. Its C is\nGS\nproportional to the width W, for minimum channel length L. We will use minimum channel\nlength L, because we will end up with very large W/L ratio’s. It is preferable to use minimum\nchannel length then!",
+      "text": "A capacitive sensor can be represented by a current source in parallel or a voltage in series. The latter model is chosen as the calculations are a bit simpler. The optimization provides the same results. The first preamplifier consists of a single transistor loaded by an ideal (or verylow-noise) current source. It is usually followed by another amplifier to have more gain. The feedback loop is carried out by means of a capacitance. Indeed capacitances don’t give any noise. Since the source is capacitive, the feedback element should also be capacitive! The gain A is then simply given by the ratio of the two capacitances. v In this case, the input transistor is the only noisy component. The question then is, what must be its channel width W (for minimum channel length L) and its current I , for minimum opt DSopt noise? What would be its SNR for an input signal of 10 mV ? RMS We cannot forget that the input impedance of the MOST is also capacitive. Its C is GS proportional to the width W, for minimum channel length L. We will use minimum channel length L, because we will end up with very large W/L ratio’s. It is preferable to use minimum channel length then!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A capacitive sensor can be represented by a current source in parallel or a voltage in series. The latter model is chosen as the calculations are a bit simpler. The optimization provides the same results. The first preamplifier consists of a single transistor loaded by an ideal (or verylow-noise) current source. It is usually followed by another amplifier to have more gain. The feedback loop is carried out by means of a capacitance. Indeed capacitances don’t give any noise. Since the source is capacitive, the feedback element should also be capacitive! The gain A is then simply given by the ratio of the two capacitances. v In this case, the input transistor is the only noisy component. The question then is, what must be its channel width W (for minimum channel length L) and its current I , for minimum opt DSopt noise? What would be its SNR for an input signal of 10 mV ? RMS We cannot forget that the input impedance of the MOST is also capacitive. Its C is GS proportional to the width W, for minimum channel length L. We will use minimum channel length L, because we will end up with very large W/L ratio’s. It is preferable to use minimum channel length then!",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Capacitive-source amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0141_02_0454.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445945597972976,
+          0.08780487868292686,
+          0.5675675640878378,
+          0.15121951282926827
+        ],
+        "confidence": 1,
+        "text": "Capacitive-source amplifier"
+      },
+      {
+        "bbox": [
+          0.5810810807432432,
+          0.2341463409268293,
+          0.6216216212837837,
+          0.2878048775121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CF"
+      },
+      {
+        "bbox": [
+          0.09121621583614865,
+          0.521951218902439,
+          0.1283783779983108,
+          0.5707317067073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lin"
+      },
+      {
+        "bbox": [
+          0.2533783787837838,
+          0.5268292687804877,
+          0.3006756760810811,
+          0.5756097565853658
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.4493243238551051,
+          0.34634146268292687,
+          0.5675675670983484,
+          0.4780487797560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'os"
+      },
+      {
+        "bbox": [
+          0.7635135139358108,
+          0.3317073169105691,
+          0.8141891896114865,
+          0.3804878047154472
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avi"
+      },
+      {
+        "bbox": [
+          0.8412162158445946,
+          0.36585365868292685,
+          0.8783783780067569,
+          0.409756097707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cf"
+      },
+      {
+        "bbox": [
+          0.6621621627702704,
+          0.551219512097561,
+          0.7229729735810811,
+          0.5902439023414635
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.766891891089527,
+          0.4634146348780488,
+          0.9054054046030405,
+          0.5219512202439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ca = 5 pF"
+      },
+      {
+        "bbox": [
+          0.7668918914132883,
+          0.5219512199593495,
+          0.8986486481700451,
+          0.5756097565447154
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C, = 1 pF"
+      },
+      {
+        "bbox": [
+          0.6554054058558558,
+          0.6682926821138211,
+          0.925675676126126,
+          0.7170731699186992
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CGs = kW k= 2 fF/um"
+      },
+      {
+        "bbox": [
+          0.24999999434121634,
+          0.7951219513821137,
+          0.9290540483952704,
+          0.8536585367479674
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Wopt ? IDSopt ? S/Nopt for Vin = 10 mVRMS ?"
+      },
+      {
+        "bbox": [
+          0.7226234880582195,
+          0.9361613876191397,
+          0.9295663169840996,
+          0.9770890698909575
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 100s 0454"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0141_02_0454.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A capacitive sensor can be represented by a current source in parallel or a voltage in series.",
+        "pdf_page": 141,
+        "printed_page": 144,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The first preamplifier consists of a single transistor loaded by an ideal (or verylow-noise) current source.",
+        "pdf_page": 141,
+        "printed_page": 144,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Since the source is capacitive, the feedback element should also be capacitive!",
+        "pdf_page": 141,
+        "printed_page": 144,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is usually followed by another amplifier to have more gain.",
+      "pdf_page": 141,
+      "printed_page": 144,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain A is then simply given by the ratio of the two capacitances. v In this case, the input transistor is the only noisy component.",
+      "pdf_page": 141,
+      "printed_page": 144,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its C is GS proportional to the width W, for minimum channel length L.",
+      "pdf_page": 141,
+      "printed_page": 144,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0454-M01",
+      "ocr_text": "Ca = 5 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.766891891089527,
+        0.4634146348780488,
+        0.9054054046030405,
+        0.5219512202439025
+      ],
+      "context_crop": "regions/SANSEN-0454_math_01.png",
+      "context_bbox_normalized": [
+        0.726891891089527,
+        0.3634146348780488,
+        1,
+        0.6519512202439025
+      ],
+      "source_image": "slides/p0141_02_0454.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0454-M02",
+      "ocr_text": "C, = 1 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7668918914132883,
+        0.5219512199593495,
+        0.8986486481700451,
+        0.5756097565447154
+      ],
+      "context_crop": "regions/SANSEN-0454_math_02.png",
+      "context_bbox_normalized": [
+        0.7268918914132882,
+        0.4219512199593495,
+        1,
+        0.7056097565447154
+      ],
+      "source_image": "slides/p0141_02_0454.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0454-M03",
+      "ocr_text": "CGs = kW k= 2 fF/um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6554054058558558,
+        0.6682926821138211,
+        0.925675676126126,
+        0.7170731699186992
+      ],
+      "context_crop": "regions/SANSEN-0454_math_03.png",
+      "context_bbox_normalized": [
+        0.6154054058558558,
+        0.5682926821138211,
+        1,
+        0.8470731699186992
+      ],
+      "source_image": "slides/p0141_02_0454.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0454-M04",
+      "ocr_text": "Wopt ? IDSopt ? S/Nopt for Vin = 10 mVRMS ?",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.24999999434121634,
+        0.7951219513821137,
+        0.9290540483952704,
+        0.8536585367479674
+      ],
+      "context_crop": "regions/SANSEN-0454_math_04.png",
+      "context_bbox_normalized": [
+        0.20999999434121633,
+        0.6951219513821137,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0141_02_0454.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

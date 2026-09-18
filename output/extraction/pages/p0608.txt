@@ -1,0 +1,53 @@
+CMOS ADC and DAC principles 619
+2032
+A counter counts up during
+time T and down during
+1
+time T . In the first time T
+2 1
+the slope depends on the
+input voltage V , whereas
+in
+during the second time T ,
+2
+the slope is constant, such
+that this time T depends on
+2
+the input signal V .
+in
+A simple and very linear
+relationship exists between
+the two time periods T and
+1
+T , as shown in this slide.
+2
+2033
+Such integrating or dual-
+slope ADC has many
+advantages.
+The result is independent
+of the actual values of the
+resistor R and capacitor
+1
+C . As long as the opamp
+1
+has sufficient gain, it does
+not affect the result. The lin-
+earity is high and so is the
+resolution.
+The circuitry is actually
+fairly simple. Only opamps
+are used, an RC circuit and
+some switches.
+The converter is fairly
+slow, however. For a large input voltage, such as V itself, the counter has to count up over 2N
+ref
+clock pulses and also down over as many pulses. The conversion time is thus quite long.
+For slow digital voltmeters, this is an excellent solution. This is especially true if the hum of
+the 50 Hz mains (60 Hz in USA) is synchronized by the clock. In this way the effect of the hum
+is cancelled.
+At the input of an oscilloscope, higher speeds are required however, and less resolution.
+2034
+For such applications a SAR ADC is used.
+It consists of a Sample-and-hold at the input, to maintain a constant voltage during the
+conversion.

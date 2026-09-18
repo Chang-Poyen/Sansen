@@ -1,0 +1,46 @@
+78 Chapter #2
+The larger the output impedance, the larger the gain.
+Putting a cascode on top of a single-transistor amplifier is one of the most common design
+techniques to increase the gain. It will be used whenever we require more gain!
+Other gain techniques will be gain boosting, bootstrapping and current cancellation and
+starving schemes.
+0254
+Now that we know that a
+cascode enhances the gain
+considerably, we would like
+to know up tol what fre-
+quencies, a cascode manages
+to do this.
+When the output capaci-
+tance is the main capaci-
+tance, the GBW is as given
+in this slide.
+The Bandwidth for both
+cases must be different, as
+the output resistances differ
+widely.
+The GBW is the same for
+both, however.
+Indeed, in the case with a cascode, the gain is much larger but the bandwidth is equally lower.
+The GBW is thus the same. This is shown next.
+0255
+It is clear that a cascode
+enhances the gain at low
+frequencies.
+Compared to a single-
+stage amplifier, the gain at
+low frequencies is as large as
+the bandwidth is smaller. As
+a result the GBW is the
+same.
+This is only true if the
+load resistance is very high.
+In some wideband amplifi-
+ers, the load resistor is small,
+e.g. 50 V. In this case, the
+output resistance and the
+bandwidth are the same for
+both. The gain is also the same, but quite small, as is the GBW.
+In analog integrated circuits we normally use DC current sources as loads, in order to increase
+the gain. Therefore, we can conclude that such cascode stages only enhance the gain at low
+frequencies!

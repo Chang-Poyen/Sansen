@@ -1,0 +1,47 @@
+554 Chapter #18
+1871
+A different result is obtained
+when a low-pass filter is
+inserted between both
+stages. This better resembles
+a two-stage amplifier. The
+compensation capacitance
+exerts a low-pass filter char-
+acteristic to the first stage.
+The low-pass filter has a
+pole at frequency f . It is
+p
+combined with the gain
+block B , to be denoted by
+1
+gain B , which is nothing
+1p
+else than a filter block with
+low-frequency gain B .
+1
+A similar analysis as
+before again yields the coefficients d of the power series.
+1872
+Both distortion components
+IM and IM now contain
+2 3
+this low-pass filter charac-
+teristic, but inverted. Indeed
+a low-pass filter characteris-
+tic in the feedback loop
+yields a high pass filter char-
+acteristic. This is used to
+carry out noise shaping in
+all Sigma-delta modulators
+(see Chapter 21).
+In the IM characteristic,
+3
+the slope beyond pole fre-
+quency f , is 60 dB/decade,
+p
+which is quite steep indeed.
+Note that the rise starts at
+frequency f itself, without being affected by the loop gain.
+p
+Depending on the generator of distortion in the first stage, a different coefficient a emerges.
+For a differential pair it is evident that the third-order distortion of the input stage dominates.

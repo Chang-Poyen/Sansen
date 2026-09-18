@@ -1,0 +1,47 @@
+Systematic design of operational amplifiers 197
+0631
+As an introduction, it is
+good to carry out a DC
+analysis of an amplifier
+somewhere in the middle of
+the design space. This will
+not give accurate data, but
+is a good starting point
+to have some idea about
+possible DC currents and
+voltages.
+This is followed by a
+small-signal analysis, so that
+some elementary knowledge
+is obtained about orders of
+magnitude of transconduct-
+ances, output resistances,
+capacitances, etc.
+Experienced designers can leave out these two introductory steps.
+DC analysis comes next.
+Perhaps one of the most important specifications is the common-mode input range over which
+an amplifier can operate. This is actually the average input voltage range. For smaller and
+smaller supply voltages, this specification has become one of the most important.
+The maximum output voltage range is a lot easier to achieve. A rail-to-rail output range is
+quite feasible provided the output loads are purely resistive and provided only two transistors
+are used in the output stage with no cascodes.
+The maximum output current is normally the DC current of the output stage. In Chapter 11
+we will add class-AB output stages to be able to deliver more current.
+0632
+The AC analysis has been
+partially carried out.
+It is good practice to
+verify the impedance on all
+the nodes. It gives an idea
+on where to expect addi-
+tional poles, etc.
+The gain versus frequency
+is actually the only specifi-
+cation that we have fully
+studied.
+The GBW versus biasing
+is a misleading specification.
+When we have minimized
+the current consumption for
+a certain GBW, we can then
+no longer modify it. Changing the current would render that amplifier unstable or generated

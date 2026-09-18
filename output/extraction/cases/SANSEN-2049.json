@@ -1,0 +1,367 @@
+{
+  "case_id": "SANSEN-2049",
+  "slide_id": "2049",
+  "chapter": 20,
+  "slide_number_in_chapter": 49,
+  "source": {
+    "pdf_page": 616,
+    "printed_page": 627
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0617_01_2049.jpg",
+      "pdf_page": 617,
+      "printed_page": 628,
+      "bbox_pt": [
+        91.521622,
+        122.3774719999999,
+        374.78981,
+        318.83746299999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 616,
+      "printed_page": 627,
+      "bbox_pt": [
+        0,
+        594.8645700000001,
+        595,
+        797
+      ],
+      "text_raw": "Interpolation allows to reduce the number of preamplifiers and the input capacitance, the number\nof latches being the same, however. Folding can be used to reduce the number of latches. Most\noften interpolation is used in combination with folding to reduce both preamplifiers and latches,\nwhich leads to a more drastic reduction in power consumption.\nThe principle of folding is illustrated in this slide.\nAgain, a preamplifier is used, but a different one, however. It folds the input signal in a number\nof voltage or folding regions. In this example, there are eight folding regions. The folding rate is",
+      "text": "Interpolation allows to reduce the number of preamplifiers and the input capacitance, the number of latches being the same, however. Folding can be used to reduce the number of latches. Most often interpolation is used in combination with folding to reduce both preamplifiers and latches, which leads to a more drastic reduction in power consumption. The principle of folding is illustrated in this slide. Again, a preamplifier is used, but a different one, however. It folds the input signal in a number of voltage or folding regions. In this example, there are eight folding regions. The folding rate is"
+    },
+    {
+      "pdf_page": 617,
+      "printed_page": 628,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        379.8197750000001
+      ],
+      "text_raw": "therefore eight. The output\nvoltage of the folding circuit\nis the same for eight different\nvalues of the input voltage\nvin. A separate MSB ADC\nis required to discover in\nwhich of the eight folding\nregions the input voltage v\nin\nis actually present. This is a\n3-bit ADC in this example.\nThe LSBs are the deter-\nmined by a fine ADC, which\nis the same for all eight fold-\ning regions. The number\nof comparators is used\ndrastically.\nWe will see later that the\nfolding circuit is made up of as many differential pairs as the folding rate indicates. The input\ncapacitance is not decreased! This is why interpolation is usually added, to reduce the input\ncapacitance.\nA more detailed example of a 4-bit folding ADC is given next.",
+      "text": "therefore eight. The output voltage of the folding circuit is the same for eight different values of the input voltage vin. A separate MSB ADC is required to discover in which of the eight folding regions the input voltage v in is actually present. This is a 3-bit ADC in this example. The LSBs are the determined by a fine ADC, which is the same for all eight folding regions. The number of comparators is used drastically. We will see later that the folding circuit is made up of as many differential pairs as the folding rate indicates. The input capacitance is not decreased! This is why interpolation is usually added, to reduce the input capacitance. A more detailed example of a 4-bit folding ADC is given next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Interpolation allows to reduce the number of preamplifiers and the input capacitance, the number of latches being the same, however. Folding can be used to reduce the number of latches. Most often interpolation is used in combination with folding to reduce both preamplifiers and latches, which leads to a more drastic reduction in power consumption. The principle of folding is illustrated in this slide. Again, a preamplifier is used, but a different one, however. It folds the input signal in a number of voltage or folding regions. In this example, there are eight folding regions. The folding rate is\n\ntherefore eight. The output voltage of the folding circuit is the same for eight different values of the input voltage vin. A separate MSB ADC is required to discover in which of the eight folding regions the input voltage v in is actually present. This is a 3-bit ADC in this example. The LSBs are the determined by a fine ADC, which is the same for all eight folding regions. The number of comparators is used drastically. We will see later that the folding circuit is made up of as many differential pairs as the folding rate indicates. The input capacitance is not decreased! This is why interpolation is usually added, to reduce the input capacitance. A more detailed example of a 4-bit folding ADC is given next.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Folding ADC Analog preprocessing",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0617_01_2049.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432547297292,
+          0.07317073243902439,
+          0.709459460608108,
+          0.14634146414634142
+        ],
+        "confidence": 1,
+        "text": "Folding ADC Analog preprocessing"
+      },
+      {
+        "bbox": [
+          0.05743243202702703,
+          0.2878048775121951,
+          0.10472972932432432,
+          0.341463414097561
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.2905405390202703,
+          0.20975609776422766,
+          0.47297297145270273,
+          0.25365853678861794
+        ],
+        "confidence": 1,
+        "text": "folded signal"
+      },
+      {
+        "bbox": [
+          0.1520270260810811,
+          0.3073170734146342,
+          0.2466216206756757,
+          0.3512195124390244
+        ],
+        "confidence": 1,
+        "text": "folding"
+      },
+      {
+        "bbox": [
+          0.1621621623310811,
+          0.3512195127439024,
+          0.25000000016891893,
+          0.3951219517682927
+        ],
+        "confidence": 1,
+        "text": "circuit"
+      },
+      {
+        "bbox": [
+          0.36486486520270267,
+          0.30731707295731714,
+          0.4189189192567567,
+          0.3512195119817074
+        ],
+        "confidence": 1,
+        "text": "fine"
+      },
+      {
+        "bbox": [
+          0.36486486528716217,
+          0.34146341439024386,
+          0.43243243285472965,
+          0.39024390219512184
+        ],
+        "confidence": 1,
+        "text": "ADC"
+      },
+      {
+        "bbox": [
+          0.3512887109861781,
+          0.472897881386397,
+          0.4426302065000941,
+          0.5173460221587746
+        ],
+        "confidence": 1,
+        "text": "coarse"
+      },
+      {
+        "bbox": [
+          0.36486486418918923,
+          0.5073170733658536,
+          0.4324324317567568,
+          0.5560975611707317
+        ],
+        "confidence": 1,
+        "text": "ADC"
+      },
+      {
+        "bbox": [
+          0.530213126524094,
+          0.3261416042392482,
+          0.6049220071290183,
+          0.3714193718858516
+        ],
+        "confidence": 0.5,
+        "text": "LSBS"
+      },
+      {
+        "bbox": [
+          0.07432432621621615,
+          0.5853658534146342,
+          0.26351351540540535,
+          0.6292682924390245
+        ],
+        "confidence": 0.5,
+        "text": "A folded signal"
+      },
+      {
+        "bbox": [
+          0.10810810827702702,
+          0.8292682934146342,
+          0.1250000001689189,
+          0.8731707324390244
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.16216216199324326,
+          0.829268292195122,
+          0.18243243226351352,
+          0.8682926824390245
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.22635135101351353,
+          0.8292682922439024,
+          0.2668918915540541,
+          0.8731707312682926
+        ],
+        "confidence": 1,
+        "text": "3"
+      },
+      {
+        "bbox": [
+          0.270270269847973,
+          0.8243902440853659,
+          0.30405405363175675,
+          0.8780487806707317
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.35135135232263515,
+          0.8292682924390244,
+          0.42905405502533783,
+          0.8682926826829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "5 6"
+      },
+      {
+        "bbox": [
+          0.4729729733108108,
+          0.8292682924390244,
+          0.5067567570945946,
+          0.8731707314634147
+        ],
+        "confidence": 1,
+        "text": "7"
+      },
+      {
+        "bbox": [
+          0.5135135131418919,
+          0.8292682929268291,
+          0.550675675304054,
+          0.8731707319512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "8"
+      },
+      {
+        "bbox": [
+          0.5304054047297297,
+          0.48780487829268293,
+          0.6114864858108109,
+          0.5268292685365854
+        ],
+        "confidence": 1,
+        "text": "MSBs"
+      },
+      {
+        "bbox": [
+          0.5942997889245503,
+          0.5978682979371098,
+          0.8077272423522517,
+          0.6655463354409803
+        ],
+        "confidence": 1,
+        "text": "Folding rate 8"
+      },
+      {
+        "bbox": [
+          0.594594596096096,
+          0.6536585363685636,
+          0.8648648663663663,
+          0.7121951217344173
+        ],
+        "confidence": 1,
+        "text": "Less comparators"
+      },
+      {
+        "bbox": [
+          0.5945945926942567,
+          0.7073170724390244,
+          0.9493243224239866,
+          0.765853657804878
+        ],
+        "confidence": 1,
+        "text": "Same input capacitance"
+      },
+      {
+        "bbox": [
+          0.5777027030405405,
+          0.8390243907723577,
+          0.6250000003378379,
+          0.9024390249186991
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.7297297317989865,
+          0.9414634140243903,
+          0.9425675696368243,
+          0.9902439018292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 0s 2049"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The principle of folding is illustrated in this slide.",
+      "pdf_page": 616,
+      "printed_page": 627,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The LSBs are the determined by a fine ADC, which is the same for all eight folding regions.",
+      "pdf_page": 617,
+      "printed_page": 628,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0617_01_2049.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "therefore eight.",
+      "pdf_page": 617,
+      "printed_page": 628,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The input capacitance is not decreased!",
+      "pdf_page": 617,
+      "printed_page": 628,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

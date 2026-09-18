@@ -1,0 +1,54 @@
+Feedback transimpedance and current amplifiers 403
+1429
+Certainly, the most non-
+ideal feedback circuit that
+can be found, is the one
+using one single transistor
+and a parallel feedback
+combined with series feed-
+back. This is a case of severe
+input loading AND output
+loading. Everything will
+interact with everything.
+It is clear that in this
+case the feedback equa-
+tions cannot be applied. An
+attempt is not even made.
+The only way to obtain
+an accurate result is to sub-
+stitute the transistor by its equivalent circuit (with parameters g and r at low frequencies), and
+m o
+solve the Kirchoff equations.
+As a result, this is one of the most complicated feedback circuits, despite its simplicity.
+1430
+A nice example of shunt-
+shunt feedback is the right-
+leg drive used for measure-
+ments of small signals such
+as ECG, EEG, etc. on the
+human body. Such measure-
+ments are carried out by
+means of a differential
+amplifier, which provides a
+differential output voltage
+v .
+OUTd
+These measurements are
+disturbed however, by the
+injection of hum at 50 Hz
+coming from the mains.
+Each human body is capaci-
+tively coupled to the mains by capacitances of up to 150 pF. For a mains voltage of 220 V ,
+RMS
+this correspond to an injected current of about 10 mA . In order to suppress the effect of this
+RMS
+current, a common-mode shunt-shunt feedback loop is arranged. The voltage v on the body,
+B
+caused by the injected current i , is then considerably reduced.
+B
+The equivalent circuit is shown on the right. The average output voltage is taken (e.g. by
+means of two resistors as shown in Chapter 8), and fed to a common-mode amplifier with gain
+A . The common-mode gain of the differential amplifier has been taken to be unity.
+0
+The output of amplifier A is applied to the right leg of the body, through a resistor R . This
+0 P

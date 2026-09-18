@@ -1,0 +1,204 @@
+{
+  "case_id": "SANSEN-1847",
+  "slide_id": "1847",
+  "chapter": 18,
+  "slide_number_in_chapter": 47,
+  "source": {
+    "pdf_page": 532,
+    "printed_page": 542
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0532_01_1847.jpg",
+      "pdf_page": 532,
+      "printed_page": 542,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 532,
+      "printed_page": 542,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        368.6590100000001
+      ],
+      "text_raw": "The most common tech-\nnique to reduce the distor-\ntion is by application of\nfeedback.\nFeedback reduces distor-\ntion in two ways. First of all,\nit reduces the relative cur-\nrent swing. Secondly, it\nreduces the distortion by the\nfeedback factor (or loop\ngain).\nLet us investigate how the\ncoefficients of the power\nseries are affected by the\nfeedback. We will now cal-\nculate the actual distortion\ncomponents IM and IM . Index f is used to indicate that they are valid for a system with\n2f 3f\nfeedback.",
+      "text": "The most common technique to reduce the distortion is by application of feedback. Feedback reduces distortion in two ways. First of all, it reduces the relative current swing. Secondly, it reduces the distortion by the feedback factor (or loop gain). Let us investigate how the coefficients of the power series are affected by the feedback. We will now calculate the actual distortion components IM and IM . Index f is used to indicate that they are valid for a system with 2f 3f feedback."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The most common technique to reduce the distortion is by application of feedback. Feedback reduces distortion in two ways. First of all, it reduces the relative current swing. Secondly, it reduces the distortion by the feedback factor (or loop gain). Let us investigate how the coefficients of the power series are affected by the feedback. We will now calculate the actual distortion components IM and IM . Index f is used to indicate that they are valid for a system with 2f 3f feedback.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0532_01_1847.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270060810817,
+          0.0780487810731707,
+          0.38175675466216225,
+          0.1365853664390244
+        ],
+        "confidence": 0.5,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.13175676410472956,
+          0.2341463413414635,
+          0.7195946019425674,
+          0.2926829267073171
+        ],
+        "confidence": 0.5,
+        "text": "• Definitions : HD, IM, intercept point, .."
+      },
+      {
+        "bbox": [
+          0.13175676020270266,
+          0.3073170729268292,
+          0.47635135479729723,
+          0.3512195119512195
+        ],
+        "confidence": 0.5,
+        "text": "• Distortion in a MOST"
+      },
+      {
+        "bbox": [
+          0.17567567951858096,
+          0.38048780463414633,
+          0.48310811195101344,
+          0.4195121948780488
+        ],
+        "confidence": 1,
+        "text": "• Single-ended amplifier"
+      },
+      {
+        "bbox": [
+          0.17567567224099112,
+          0.44390243953700126,
+          0.4560810776463965,
+          0.4829268286178863
+        ],
+        "confidence": 1,
+        "text": "• Differential amplifier"
+      },
+      {
+        "bbox": [
+          0.13175675760135125,
+          0.5170731712195121,
+          0.6418918927364863,
+          0.5658536590243902
+        ],
+        "confidence": 0.5,
+        "text": "• Distortion in a bipolar transistor"
+      },
+      {
+        "bbox": [
+          0.12837838408783772,
+          0.590243902097561,
+          0.6993243300337837,
+          0.6439024386829268
+        ],
+        "confidence": 1,
+        "text": "• Reduction of distortion by feedback"
+      },
+      {
+        "bbox": [
+          0.13175675988175675,
+          0.6682926826829267,
+          0.5067567598817567,
+          0.7170731704878048
+        ],
+        "confidence": 0.5,
+        "text": "• Distortion in an opamp"
+      },
+      {
+        "bbox": [
+          0.13513513940033767,
+          0.7414634151829268,
+          0.7668918961570945,
+          0.7853658542073171
+        ],
+        "confidence": 1,
+        "text": "• Other cases of distortion and guide lines"
+      },
+      {
+        "bbox": [
+          0.7195946046419435,
+          0.9365853656097561,
+          0.935810807970669,
+          0.9707317070731708
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1847"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We will now calculate the actual distortion components IM and IM .",
+      "pdf_page": 532,
+      "printed_page": 542,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0532_01_1847.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Secondly, it reduces the distortion by the feedback factor (or loop gain).",
+      "pdf_page": 532,
+      "printed_page": 542,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

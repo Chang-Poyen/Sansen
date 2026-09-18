@@ -1,0 +1,592 @@
+{
+  "case_id": "SANSEN-0629",
+  "slide_id": "0629",
+  "chapter": 6,
+  "slide_number_in_chapter": 29,
+  "source": {
+    "pdf_page": 191,
+    "printed_page": 195
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0192_01_0629.jpg",
+      "pdf_page": 192,
+      "printed_page": 196,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 191,
+      "printed_page": 195,
+      "bbox_pt": [
+        0,
+        654.65449,
+        595,
+        797
+      ],
+      "text_raw": "A numerical example is worked out below.\nThe values speak for themselves.",
+      "text": "A numerical example is worked out below. The values speak for themselves."
+    },
+    {
+      "pdf_page": 192,
+      "printed_page": 196,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        357.69760965000006
+      ],
+      "text_raw": "However, the value of L\n6\ncould have been taken\nlarger than 0.5 mm. This\nwould have decreased the\nvalue of f and increased\nTH6\nthe inversion coefficient i .\n6\nFor example, doubling\nthe channel length to 1 mm,\ndecreases f to 480 MHz,\nTH6\nand increases i to 0.033. This\nhalves I to 0.16 mA.\nDST6\nCurrent I doubles to\nDS6\n5.5 mA, leaving the input\nstage current I un-\nDS1\nchanged at 1.6 mA. Also, the\ncompensation capacitance is\nthe same at 2.5 pF.\nThe FOM of this last opamp is 575 MHzpF/mA, which is quite impressive indeed.",
+      "text": "However, the value of L 6 could have been taken larger than 0.5 mm. This would have decreased the value of f and increased TH6 the inversion coefficient i . 6 For example, doubling the channel length to 1 mm, decreases f to 480 MHz, TH6 and increases i to 0.033. This halves I to 0.16 mA. DST6 Current I doubles to DS6 5.5 mA, leaving the input stage current I un- DS1 changed at 1.6 mA. Also, the compensation capacitance is the same at 2.5 pF. The FOM of this last opamp is 575 MHzpF/mA, which is quite impressive indeed."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A numerical example is worked out below. The values speak for themselves.\n\nHowever, the value of L 6 could have been taken larger than 0.5 mm. This would have decreased the value of f and increased TH6 the inversion coefficient i . 6 For example, doubling the channel length to 1 mm, decreases f to 480 MHz, TH6 and increases i to 0.033. This halves I to 0.16 mA. DST6 Current I doubles to DS6 5.5 mA, leaving the input stage current I un- DS1 changed at 1.6 mA. Also, the compensation capacitance is the same at 2.5 pF. The FOM of this last opamp is 575 MHzpF/mA, which is quite impressive indeed.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Design Es. for GBW = 1 MHz & CL = 5 pF",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0192_01_0629.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626485875711,
+          0.07804878069105692,
+          0.8338982987570622,
+          0.14146341483739833
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Design Es. for GBW = 1 MHz & CL = 5 pF"
+      },
+      {
+        "bbox": [
+          0.040340667079091404,
+          0.21172509360817804,
+          0.2815722427378573,
+          0.26614313409309487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• Choose a By"
+      },
+      {
+        "bbox": [
+          0.7186440690254238,
+          0.20975609731707312,
+          0.8169491537711865,
+          0.2585365851219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "232"
+      },
+      {
+        "bbox": [
+          0.040677962033898354,
+          0.27317073178861784,
+          0.5288135552542373,
+          0.33170731715447155
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• Minimum fT6 for GBW = 1 MHz"
+      },
+      {
+        "bbox": [
+          0.6845177941083365,
+          0.2715994762129237,
+          0.8748042429588065,
+          0.3332785719696406
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fт6 = 16 MHZ"
+      },
+      {
+        "bbox": [
+          0.04037639235205507,
+          0.3362684353798949,
+          0.5019418303155084,
+          0.4002369705473099
+        ],
+        "confidence": 0.5,
+        "text": "• Maximum channel length Ls"
+      },
+      {
+        "bbox": [
+          0.7084287081981696,
+          0.3363407631368228,
+          0.8712323063758045,
+          0.4002446066210965
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "L.= 0.5 um"
+      },
+      {
+        "bbox": [
+          0.16610169644067793,
+          0.4048780487317073,
+          0.3186440693220339,
+          0.4585365853170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "gives fTH6"
+      },
+      {
+        "bbox": [
+          0.6915254230169492,
+          0.40487804931707316,
+          0.8779661009830508,
+          0.45853658590243906
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fTH6 = 2 GHz"
+      },
+      {
+        "bbox": [
+          0.0406779622372882,
+          0.4634146336585365,
+          0.44067796223728817,
+          0.5121951214634146
+        ],
+        "confidence": 1,
+        "text": "• Inversion coefficient i is"
+      },
+      {
+        "bbox": [
+          0.7149434801337871,
+          0.46637501148586924,
+          0.8409887201157455,
+          0.5141127936618173
+        ],
+        "confidence": 1,
+        "text": "i= 0.008"
+      },
+      {
+        "bbox": [
+          0.04067796915254238,
+          0.5317073169337979,
+          0.467796613220339,
+          0.5902439022996515
+        ],
+        "confidence": 0.5,
+        "text": "• We is calculated from CL,"
+      },
+      {
+        "bbox": [
+          0.6983050844491526,
+          0.5268292675,
+          0.8847457624152543,
+          0.5902439016463416
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Wg = 417 um"
+      },
+      {
+        "bbox": [
+          0.11525423983050846,
+          0.5902439017560975,
+          0.9050847483050848,
+          0.6585365846829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "and determines IDst6 (K',= 70 pA/V2) |DST6 = 0.33 mA"
+      },
+      {
+        "bbox": [
+          0.11803226173095747,
+          0.6505731609153721,
+          0.41459867211893414,
+          0.7128930955742601
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "and determines Ds6"
+      },
+      {
+        "bbox": [
+          0.6915254250605327,
+          0.658536585087108,
+          0.8779661030266344,
+          0.7170731704529616
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "|DS6 = 2.7 MA"
+      },
+      {
+        "bbox": [
+          0.13898305690677956,
+          0.7219512192682928,
+          0.623728819618644,
+          0.7804878046341465
+        ],
+        "confidence": 0.5,
+        "text": "and determines Cn1 (k = 2 fF/um)"
+      },
+      {
+        "bbox": [
+          0.708389263994143,
+          0.7213832828844483,
+          0.8950005688430241,
+          0.7810557385558052
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cn1 = 0.83 pF"
+      },
+      {
+        "bbox": [
+          0.04067795915254255,
+          0.7853658535975611,
+          0.5966101625423731,
+          0.8487804877439026
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• C, is calculated from C, through &"
+      },
+      {
+        "bbox": [
+          0.7114555610378608,
+          0.7829729038767083,
+          0.8851546070273337,
+          0.8511734386042236
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C. = 2.5 pF"
+      },
+      {
+        "bbox": [
+          0.044067791892655445,
+          0.8536585366666667,
+          0.6101694868079097,
+          0.9121951220325203
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• 9m1 and lds1 are calculated from Cc"
+      },
+      {
+        "bbox": [
+          0.6983050866440678,
+          0.8536585361951219,
+          0.888135595118644,
+          0.9121951215609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DS1 = 1.6 HA"
+      },
+      {
+        "bbox": [
+          0.7322033877966102,
+          0.9512195123902439,
+          0.9355932183050847,
+          0.9804878050731708
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10 05 0629"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0192_01_0629.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This would have decreased the value of f and increased TH6 the inversion coefficient i . 6 For example, doubling the channel length to 1 mm, decreases f to 480 MHz, TH6 and increases i to 0.033.",
+      "pdf_page": 192,
+      "printed_page": 196,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0629-M01",
+      "ocr_text": "• Minimum fT6 for GBW = 1 MHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.040677962033898354,
+        0.27317073178861784,
+        0.5288135552542373,
+        0.33170731715447155
+      ],
+      "context_crop": "regions/SANSEN-0629_math_01.png",
+      "context_bbox_normalized": [
+        0.0006779620338983536,
+        0.17317073178861783,
+        0.7588135552542373,
+        0.46170731715447155
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M02",
+      "ocr_text": "fт6 = 16 MHZ",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6845177941083365,
+        0.2715994762129237,
+        0.8748042429588065,
+        0.3332785719696406
+      ],
+      "context_crop": "regions/SANSEN-0629_math_02.png",
+      "context_bbox_normalized": [
+        0.6445177941083364,
+        0.17159947621292368,
+        1,
+        0.4632785719696406
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M03",
+      "ocr_text": "L.= 0.5 um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7084287081981696,
+        0.3363407631368228,
+        0.8712323063758045,
+        0.4002446066210965
+      ],
+      "context_crop": "regions/SANSEN-0629_math_03.png",
+      "context_bbox_normalized": [
+        0.6684287081981696,
+        0.2363407631368228,
+        1,
+        0.5302446066210965
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M04",
+      "ocr_text": "fTH6 = 2 GHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6915254230169492,
+        0.40487804931707316,
+        0.8779661009830508,
+        0.45853658590243906
+      ],
+      "context_crop": "regions/SANSEN-0629_math_04.png",
+      "context_bbox_normalized": [
+        0.6515254230169492,
+        0.3048780493170732,
+        1,
+        0.5885365859024391
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M05",
+      "ocr_text": "i= 0.008",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.7149434801337871,
+        0.46637501148586924,
+        0.8409887201157455,
+        0.5141127936618173
+      ],
+      "context_crop": "regions/SANSEN-0629_math_05.png",
+      "context_bbox_normalized": [
+        0.674943480133787,
+        0.36637501148586926,
+        1,
+        0.6441127936618173
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M06",
+      "ocr_text": "Wg = 417 um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6983050844491526,
+        0.5268292675,
+        0.8847457624152543,
+        0.5902439016463416
+      ],
+      "context_crop": "regions/SANSEN-0629_math_06.png",
+      "context_bbox_normalized": [
+        0.6583050844491526,
+        0.42682926750000005,
+        1,
+        0.7202439016463416
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M07",
+      "ocr_text": "and determines IDst6 (K',= 70 pA/V2) |DST6 = 0.33 mA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.11525423983050846,
+        0.5902439017560975,
+        0.9050847483050848,
+        0.6585365846829269
+      ],
+      "context_crop": "regions/SANSEN-0629_math_07.png",
+      "context_bbox_normalized": [
+        0.07525423983050847,
+        0.49024390175609756,
+        1,
+        0.7885365846829269
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M08",
+      "ocr_text": "|DS6 = 2.7 MA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6915254250605327,
+        0.658536585087108,
+        0.8779661030266344,
+        0.7170731704529616
+      ],
+      "context_crop": "regions/SANSEN-0629_math_08.png",
+      "context_bbox_normalized": [
+        0.6515254250605327,
+        0.558536585087108,
+        1,
+        0.8470731704529616
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M09",
+      "ocr_text": "and determines Cn1 (k = 2 fF/um)",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.13898305690677956,
+        0.7219512192682928,
+        0.623728819618644,
+        0.7804878046341465
+      ],
+      "context_crop": "regions/SANSEN-0629_math_09.png",
+      "context_bbox_normalized": [
+        0.09898305690677955,
+        0.6219512192682928,
+        0.853728819618644,
+        0.9104878046341465
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M10",
+      "ocr_text": "Cn1 = 0.83 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.708389263994143,
+        0.7213832828844483,
+        0.8950005688430241,
+        0.7810557385558052
+      ],
+      "context_crop": "regions/SANSEN-0629_math_10.png",
+      "context_bbox_normalized": [
+        0.668389263994143,
+        0.6213832828844483,
+        1,
+        0.9110557385558052
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M11",
+      "ocr_text": "C. = 2.5 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7114555610378608,
+        0.7829729038767083,
+        0.8851546070273337,
+        0.8511734386042236
+      ],
+      "context_crop": "regions/SANSEN-0629_math_11.png",
+      "context_bbox_normalized": [
+        0.6714555610378607,
+        0.6829729038767083,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0629-M12",
+      "ocr_text": "DS1 = 1.6 HA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6983050866440678,
+        0.8536585361951219,
+        0.888135595118644,
+        0.9121951215609756
+      ],
+      "context_crop": "regions/SANSEN-0629_math_12.png",
+      "context_bbox_normalized": [
+        0.6583050866440677,
+        0.7536585361951219,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0192_01_0629.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

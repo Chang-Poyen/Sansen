@@ -1,0 +1,321 @@
+{
+  "case_id": "SANSEN-045",
+  "slide_id": "045",
+  "chapter": 4,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 115,
+    "printed_page": 118
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0116_01_045.jpg",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 115,
+      "printed_page": 118,
+      "bbox_pt": [
+        0,
+        639.70695,
+        595,
+        797
+      ],
+      "text_raw": "Fourier has explained how to convert any signal versus time into a signal versus frequency. For\nnoise, we obtain a curve which consists of two regions:\n– The region of white noise is flat and extends to very high frequencies (1013 Hz).",
+      "text": "Fourier has explained how to convert any signal versus time into a signal versus frequency. For noise, we obtain a curve which consists of two regions: – The region of white noise is flat and extends to very high frequencies (1013 Hz)."
+    },
+    {
+      "pdf_page": 116,
+      "printed_page": 119,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        451.36850000000027
+      ],
+      "text_raw": "– The region at low fre-\nquencies, which is called\npink or 1/f noise as the\nnoise power is inversely\nproportional to the\nfrequency.\nThe noise density is now the\nnoise power in an elemen-\ntary small frequency band\ndf. Its dimension is V2/Hz.\nTaking the square root\nyields VRMS/√Hz.\nThe integrated noise is the\ntotal noise power between\ntwo frequencies. This integ-\nral is easily taken when the\nnoise is white or flat. It is\nproportional to the difference in frequency. Noise is therefore integrated on a linear frequency\naxis. Bode diagrams are always presented with a logarithmic axis. They now give the wrong\npicture. They overemphasize the low-frequency noise.\nThe integrated noise (or also total noise) has V2 as a dimension or V when the square root\nRMS\nis taken.\nThe calculation of the integrated noise in the 1/f noise region involves another integral. The\nmain point is not to omit the lower bound frequency. The 1/f noise would go to infinity and so\ndoes the integrated noise. It would take an infinite time to measure that however!",
+      "text": "– The region at low frequencies, which is called pink or 1/f noise as the noise power is inversely proportional to the frequency. The noise density is now the noise power in an elementary small frequency band df. Its dimension is V2/Hz. Taking the square root yields VRMS/√Hz. The integrated noise is the total noise power between two frequencies. This integral is easily taken when the noise is white or flat. It is proportional to the difference in frequency. Noise is therefore integrated on a linear frequency axis. Bode diagrams are always presented with a logarithmic axis. They now give the wrong picture. They overemphasize the low-frequency noise. The integrated noise (or also total noise) has V2 as a dimension or V when the square root RMS is taken. The calculation of the integrated noise in the 1/f noise region involves another integral. The main point is not to omit the lower bound frequency. The 1/f noise would go to infinity and so does the integrated noise. It would take an infinite time to measure that however!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Fourier has explained how to convert any signal versus time into a signal versus frequency. For noise, we obtain a curve which consists of two regions: – The region of white noise is flat and extends to very high frequencies (1013 Hz).\n\n– The region at low frequencies, which is called pink or 1/f noise as the noise power is inversely proportional to the frequency. The noise density is now the noise power in an elementary small frequency band df. Its dimension is V2/Hz. Taking the square root yields VRMS/√Hz. The integrated noise is the total noise power between two frequencies. This integral is easily taken when the noise is white or flat. It is proportional to the difference in frequency. Noise is therefore integrated on a linear frequency axis. Bode diagrams are always presented with a logarithmic axis. They now give the wrong picture. They overemphasize the low-frequency noise. The integrated noise (or also total noise) has V2 as a dimension or V when the square root RMS is taken. The calculation of the integrated noise in the 1/f noise region involves another integral. The main point is not to omit the lower bound frequency. The 1/f noise would go to infinity and so does the integrated noise. It would take an infinite time to measure that however!",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Noise versus frequency",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0116_01_045.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08036210396776818,
+          0.08222229326947983,
+          0.48400596981084515,
+          0.1519959812369197
+        ],
+        "confidence": 1,
+        "text": "Noise versus frequency"
+      },
+      {
+        "bbox": [
+          0.09459459479729729,
+          0.2243902445365853,
+          0.14864864885135134,
+          0.2878048786829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VN"
+      },
+      {
+        "bbox": [
+          0.26351351479729723,
+          0.27804878024390245,
+          0.39189189317567563,
+          0.32195121926829273
+        ],
+        "confidence": 1,
+        "text": "1/f noise"
+      },
+      {
+        "bbox": [
+          0.5101351353885135,
+          0.3658536579268292,
+          0.5878378380912163,
+          0.43902438963414636
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvN?"
+      },
+      {
+        "bbox": [
+          0.5743243257239381,
+          0.21463414592334495,
+          0.9189189203185327,
+          0.27317073128919866
+        ],
+        "confidence": 1,
+        "text": "Noise density V2/Hz"
+      },
+      {
+        "bbox": [
+          0.7601351359121621,
+          0.30243902375609766,
+          0.9189189196959457,
+          0.36585365790243907
+        ],
+        "confidence": 1,
+        "text": "VRMS/VHz"
+      },
+      {
+        "bbox": [
+          0.6385135143581081,
+          0.39024390189024394,
+          0.8141891900337838,
+          0.4341463409146341
+        ],
+        "confidence": 1,
+        "text": "white noise"
+      },
+      {
+        "bbox": [
+          0.5101351348696912,
+          0.6634146343902438,
+          0.5472972970318534,
+          0.707317073414634
+        ],
+        "confidence": 1,
+        "text": "df"
+      },
+      {
+        "bbox": [
+          0.08108107753378385,
+          0.721951219695122,
+          0.3648648613175676,
+          0.7756097562804878
+        ],
+        "confidence": 1,
+        "text": "Integrated noise"
+      },
+      {
+        "bbox": [
+          0.1114864868243243,
+          0.829268292195122,
+          0.17229729763513513,
+          0.8682926824390245
+        ],
+        "confidence": 1,
+        "text": "RMS"
+      },
+      {
+        "bbox": [
+          0.33108108158783783,
+          0.8048780481097562,
+          0.4121621626689189,
+          0.858536584695122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V12 ="
+      },
+      {
+        "bbox": [
+          0.5740849803327637,
+          0.7734616161168463,
+          0.9225366462626094,
+          0.8606847249202
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "dvy2 df = V(F2-f,) dvN2"
+      },
+      {
+        "bbox": [
+          0.7229729777275292,
+          0.9414634152032522,
+          0.9189189107859843,
+          0.9756097566666667
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 045"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Fourier has explained how to convert any signal versus time into a signal versus frequency.",
+      "pdf_page": 115,
+      "printed_page": 118,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0116_01_045.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "– The region at low frequencies, which is called pink or 1/f noise as the noise power is inversely proportional to the frequency.",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is proportional to the difference in frequency.",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Noise is therefore integrated on a linear frequency axis.",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "For noise, we obtain a curve which consists of two regions: – The region of white noise is flat and extends to very high frequencies (1013 Hz).",
+      "pdf_page": 115,
+      "printed_page": 118,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Noise is therefore integrated on a linear frequency axis.",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Bode diagrams are always presented with a logarithmic axis.",
+      "pdf_page": 116,
+      "printed_page": 119,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-045-M01",
+      "ocr_text": "V12 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.33108108158783783,
+        0.8048780481097562,
+        0.4121621626689189,
+        0.858536584695122
+      ],
+      "context_crop": "regions/SANSEN-045_math_01.png",
+      "context_bbox_normalized": [
+        0.29108108158783785,
+        0.7048780481097562,
+        0.6421621626689189,
+        0.93
+      ],
+      "source_image": "slides/p0116_01_045.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-045-M02",
+      "ocr_text": "dvy2 df = V(F2-f,) dvN2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5740849803327637,
+        0.7734616161168463,
+        0.9225366462626094,
+        0.8606847249202
+      ],
+      "context_crop": "regions/SANSEN-045_math_02.png",
+      "context_bbox_normalized": [
+        0.5340849803327636,
+        0.6734616161168463,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0116_01_045.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

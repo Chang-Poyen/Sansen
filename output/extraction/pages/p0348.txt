@@ -1,0 +1,47 @@
+Class AB and driver amplifiers 355
+1236
+The first nMOST input cur-
+rent-feedback stage is put in
+parallel with a pMOST one.
+Their outputs are current
+mirrored to a high imped-
+ance output node, labeled
+with a big (red) dot. A
+second similar nMOST/
+pMOST current-feedback
+stage is then used as an
+output stage. This is thus
+a two-stage amplifier. The
+Miller compensation cap-
+acitance is clearly seen.
+The parallel nMOST/
+pMOST pair at the input
+provide nearly rail-to-rail input capability. Indeed, for low input common-mode voltages the
+nMOSTs shut off but the pMOSTs take over and vice versa. The rail itself cannot actually be
+reached because of a diode-connected transistor M2a (in the first stage). About 0.1 V is lost at
+both supply lines. No g −equalization is provided.
+m
+For a 10 kV/100 pF load, the GBW is 0.37 MHz and power dissipation
+0.25 mW (for ±5 V supply voltages).
+1237
+This amplifier has two
+output stages in parallel.
+The top one uses source fol-
+lowers. It can provide mod-
+erate voltage swing but with
+very low distortion.
+However, most of the gain
+and current (power) comes
+from the bottom amplifier.
+It consists of two error
+amplifiers followed by two
+output transistors, Drain to
+Drain. Some offset is built
+in the error amplifiers
+(shown on the right) so that
+the output devices are
+turned off for small output signals. In this way they do not generate cross-over distortion. The
+source follower amplifier carries out all the tasks.
+For large output swing, the source follower amplifier cannot follow any more. The class-AB
+power amplifier can still provide rail-to-rail output swing, even when the output devices end up
+in the linear region. The error amplifier still provides sufficient gain.

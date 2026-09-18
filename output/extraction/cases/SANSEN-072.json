@@ -1,0 +1,166 @@
+{
+  "case_id": "SANSEN-072",
+  "slide_id": "072",
+  "chapter": 7,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 206,
+    "printed_page": 211
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0206_02_072.jpg",
+      "pdf_page": 206,
+      "printed_page": 211,
+      "bbox_pt": [
+        91.521622,
+        421.47695999999996,
+        374.78981,
+        617.936951
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 206,
+      "printed_page": 211,
+      "bbox_pt": [
+        0,
+        417.4875000000002,
+        595,
+        703.55922
+      ],
+      "text_raw": "In this Chapter the trade\noffs between standard\nCMOS and BiCMOS are\nalso discussed. This is why\nsome known schematics are\nalso included.\nMost of the discussion is\non the symmetrical OTA\nand the folded cascode OTA\nas they are so often used.\nFinally, a list of published\nopamps are discussed to\nshow that the design prin-\nciples are applicable to most\nof them.\nWe recall the simplest\ndifferential voltage amplifier\nthat we have observed.",
+      "text": "In this Chapter the trade offs between standard CMOS and BiCMOS are also discussed. This is why some known schematics are also included. Most of the discussion is on the symmetrical OTA and the folded cascode OTA as they are so often used. Finally, a list of published opamps are discussed to show that the design principles are applicable to most of them. We recall the simplest differential voltage amplifier that we have observed."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter the trade offs between standard CMOS and BiCMOS are also discussed. This is why some known schematics are also included. Most of the discussion is on the symmetrical OTA and the folded cascode OTA as they are so often used. Finally, a list of published opamps are discussed to show that the design principles are applicable to most of them. We recall the simplest differential voltage amplifier that we have observed.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0206_02_072.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09121621979729726,
+          0.2780487798048781,
+          0.5033783819594594,
+          0.3463414627317074
+        ],
+        "confidence": 0.5,
+        "text": "• Simple CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.09459459777590086,
+          0.36097560959349595,
+          0.47635135453265764,
+          0.41951219495934966
+        ],
+        "confidence": 1,
+        "text": "• CMOS Miller OTA"
+      },
+      {
+        "bbox": [
+          0.09459459108108118,
+          0.4487804884390243,
+          0.6081081045945946,
+          0.5121951225853658
+        ],
+        "confidence": 1,
+        "text": "• Symmetrical CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.09121621942567568,
+          0.5317073168292683,
+          0.54054054375,
+          0.5853658534146342
+        ],
+        "confidence": 1,
+        "text": "• Folded cascode OTA"
+      },
+      {
+        "bbox": [
+          0.09121621939189181,
+          0.6146341460487805,
+          0.4087837869594594,
+          0.6731707314146342
+        ],
+        "confidence": 1,
+        "text": "• Other opamps"
+      },
+      {
+        "bbox": [
+          0.7229729703969596,
+          0.9414634148780487,
+          0.9290540514780407,
+          0.9804878051219511
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 072"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Finally, a list of published opamps are discussed to show that the design principles are applicable to most of them.",
+      "pdf_page": 206,
+      "printed_page": 211,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0206_02_072.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

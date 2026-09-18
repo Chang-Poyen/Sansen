@@ -1,0 +1,54 @@
+124 Chapter #4
+The channel noise current
+can easily be shifted to the
+input by dividing it by g
+m
+(and the power by g 2).
+m
+The two noise powers are
+then added at the input. In
+this way we obtain a ther-
+mal noise resistance R ,
+eff
+which is the sum of both
+sources. The channel noise
+gives the first contribution.
+The Gate resistor R is the
+G
+other one. The input noise
+voltage is called the equiva-
+lent input noise voltage. It
+is inversely proportional
+to transconductance g , at
+m
+least whilst the Gate resistor is small.
+At very high frequencies, a capacitance C appears across the Gate-Source terminals. As a
+GS
+result, for a low source resistance (typically 50 V) a noise current can flow through capacitance
+C as shown in this slide.
+GS
+This current is obviously correlated to the equivalent input voltage. Their powers cannot be
+added up. However, this noise current is only relevant at very high frequencies, beyond f /5. It
+T
+is only relevant in the noise optimization of LNA’s, VCO’s and RF mixers.
+0415
+The equivalent input noise
+voltage of a MOST can be
+made small by increasing
+the transconductance. This
+will require a small V −V
+GS T
+but a large W/L and current.
+This is only true if the
+Gate resistance is small. In
+this layout a MOST is
+shown with very large W/L.
+The poly Gate lines between
+the Sources and Drains have
+become very long, generat-
+ing a fairly large resistance.
+In order to avoid this
+resistance, it is better to
+divide the layout in several smaller blocks, such that the Gate contacts can be much closer to
+the middle of the Gate lines.
+The Gate resistance therefore depends very much on the layout style.

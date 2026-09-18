@@ -1,0 +1,152 @@
+{
+  "case_id": "SANSEN-1148",
+  "slide_id": "1148",
+  "chapter": 11,
+  "slide_number_in_chapter": 48,
+  "source": {
+    "pdf_page": 317,
+    "printed_page": 324
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0317_02_1148.jpg",
+      "pdf_page": 317,
+      "printed_page": 324,
+      "bbox_pt": [
+        91.521622,
+        421.47695999999996,
+        374.78981,
+        617.936951
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 317,
+      "printed_page": 324,
+      "bbox_pt": [
+        0,
+        417.4875000000001,
+        595,
+        797
+      ],
+      "text_raw": "The whole amplifier is\nshown in this slide.\nThe actual amplifier is at\nthe lower end. The top part\nis the biasing circuitry.\nThe input pairs have been\nduplicated twice. This adds\na small amount to the power\nconsumption, Since this is a\ntwo-stage amplifier how-\never, the power consump-\ntion is not that bad, as will\nbe shown in the compara-\ntive table at the end of this\nChapter.",
+      "text": "The whole amplifier is shown in this slide. The actual amplifier is at the lower end. The top part is the biasing circuitry. The input pairs have been duplicated twice. This adds a small amount to the power consumption, Since this is a two-stage amplifier however, the power consumption is not that bad, as will be shown in the comparative table at the end of this Chapter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The whole amplifier is shown in this slide. The actual amplifier is at the lower end. The top part is the biasing circuitry. The input pairs have been duplicated twice. This adds a small amount to the power consumption, Since this is a two-stage amplifier however, the power consumption is not that bad, as will be shown in the comparative table at the end of this Chapter.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Total amplifier schematic",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0317_02_1148.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270722972962,
+          0.07804878039024388,
+          0.5304054099324323,
+          0.1365853657560976
+        ],
+        "confidence": 1,
+        "text": "Total amplifier schematic"
+      },
+      {
+        "bbox": [
+          0.9054054061154407,
+          0.19024390260162605,
+          0.9594594569476221,
+          0.2195121952845529
+        ],
+        "confidence": 1,
+        "text": "Vext"
+      },
+      {
+        "bbox": [
+          0.6587837836824324,
+          0.7024390246829267,
+          0.7027027026013514,
+          0.7317073173658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "gUTPUT"
+      },
+      {
+        "bbox": [
+          0.6216216247635135,
+          0.8731707314634146,
+          0.9358108139527027,
+          0.9073170729268292
+        ],
+        "confidence": 0.5,
+        "text": "Ferri, . JSSC Oct.97, 1563-1567"
+      },
+      {
+        "bbox": [
+          0.7297297318834458,
+          0.9512195118292682,
+          0.9290540562077702,
+          0.9804878045121951
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1148"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The whole amplifier is shown in this slide.",
+      "pdf_page": 317,
+      "printed_page": 324,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This adds a small amount to the power consumption, Since this is a two-stage amplifier however, the power consumption is not that bad, as will be shown in the comparative table at the end of this Chapter.",
+      "pdf_page": 317,
+      "printed_page": 324,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0317_02_1148.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

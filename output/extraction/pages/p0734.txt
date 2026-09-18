@@ -1,0 +1,43 @@
+746 Chapter #24
+247
+Do all digital gates cause
+current spikes? The answer
+is negative. Current spikes
+are typical for CMOS logic.
+No current is consumed in
+either the zero output state
+or the output state. Current
+is only consumed during
+the transition. This is the
+strength of CMOS logic.
+The static power consump-
+tion is very low but
+increases with the clock
+frequency.
+Several other loc families
+exist which consume current
+continuously. ECL in bipolar technology or current-mode logic in CMOS (see slide) are good
+examples. As current is consumed continuously, the power consumption is high. The advantage
+however, is that the current spikes are hardly visible.
+248
+Even class-A amplifiers can
+cause current spikes. An
+example is shown in this
+slide of a symmetrical
+class-A OTA.
+When it is used in a
+switched-capacitor filter,
+current spikes are found at
+each clock cycle. Indeed,
+charging load capacitance
+C fast, generates a current
+L
+spike from the positive
+supply through M8 and C .
+L
+In the same way, will
+the discharge of this load
+capacitance C cause a cur-
+L
+rent spike through M6 to ground?
+These spikes are not as large as in a class-AB circuit, they are not invisible, however.

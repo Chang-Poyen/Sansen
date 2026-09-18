@@ -1,0 +1,354 @@
+{
+  "case_id": "SANSEN-1634",
+  "slide_id": "1634",
+  "chapter": 16,
+  "slide_number_in_chapter": 34,
+  "source": {
+    "pdf_page": 464,
+    "printed_page": 473
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0464_02_1634.jpg",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "bbox_pt": [
+        91.521622,
+        421.47695999999996,
+        374.78981,
+        617.936951
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 464,
+      "printed_page": 473,
+      "bbox_pt": [
+        0,
+        417.4875000000002,
+        595,
+        797
+      ],
+      "text_raw": "Mismatch between the two\ntransistors of the PTAT cell\nis still a problem. This is\nwhy it is better to use the\nsame transistor, provided it\ncan be switched in and out.\nDuring phase 1 of the\nswitches, the pnp transistors\ncarries current I only. The\nB2\namplifier is in unity gain.\nThe output voltage is there-\nfore V only.\nBE\nDuring phase 2 of the\nswitches, all switches are\nopen. All voltages are now\non hold.\nDuring phase 3 of the switches, the pnp transistor carries a current I +I . The transistor\nB1 B2\nnow increases its V by DV . Moreover, the opamp has now a gain, set by the two capacitors.\nBE BE\nThis DV is therefore amplified and added to the output voltage held before.\nBE\nAs a result, the total output voltage is the bandgap reference voltage.",
+      "text": "Mismatch between the two transistors of the PTAT cell is still a problem. This is why it is better to use the same transistor, provided it can be switched in and out. During phase 1 of the switches, the pnp transistors carries current I only. The B2 amplifier is in unity gain. The output voltage is therefore V only. BE During phase 2 of the switches, all switches are open. All voltages are now on hold. During phase 3 of the switches, the pnp transistor carries a current I +I . The transistor B1 B2 now increases its V by DV . Moreover, the opamp has now a gain, set by the two capacitors. BE BE This DV is therefore amplified and added to the output voltage held before. BE As a result, the total output voltage is the bandgap reference voltage."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Mismatch between the two transistors of the PTAT cell is still a problem. This is why it is better to use the same transistor, provided it can be switched in and out. During phase 1 of the switches, the pnp transistors carries current I only. The B2 amplifier is in unity gain. The output voltage is therefore V only. BE During phase 2 of the switches, all switches are open. All voltages are now on hold. During phase 3 of the switches, the pnp transistor carries a current I +I . The transistor B1 B2 now increases its V by DV . Moreover, the opamp has now a gain, set by the two capacitors. BE BE This DV is therefore amplified and added to the output voltage held before. BE As a result, the total output voltage is the bandgap reference voltage.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Single-junction CMOS Bandgap reference",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0464_02_1634.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108515390389,
+          0.08780487783197832,
+          0.814189193262012,
+          0.14634146319783192
+        ],
+        "confidence": 1,
+        "text": "Single-junction CMOS Bandgap reference"
+      },
+      {
+        "bbox": [
+          0.2736486489653716,
+          0.25365853631097557,
+          0.3243243246410473,
+          0.3268292680182927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "D"
+      },
+      {
+        "bbox": [
+          0.3209459453378378,
+          0.2780487806341463,
+          0.3817567561486486,
+          0.32195121965853657
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'B2"
+      },
+      {
+        "bbox": [
+          0.16891891841216217,
+          0.27804878053658544,
+          0.21959459408783782,
+          0.3219512195609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'B1"
+      },
+      {
+        "bbox": [
+          0.1722972978716216,
+          0.4292682932195122,
+          0.2364864870608108,
+          0.4829268298048781
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SW2"
+      },
+      {
+        "bbox": [
+          0.15524123250729654,
+          0.4772451839992269,
+          0.2569209313482885,
+          0.5227548154585328
+        ],
+        "confidence": 0.5,
+        "text": "t: open"
+      },
+      {
+        "bbox": [
+          0.15202702810810811,
+          0.5219512192682928,
+          0.2601351362162162,
+          0.565853658292683
+        ],
+        "confidence": 0.5,
+        "text": "t2: open"
+      },
+      {
+        "bbox": [
+          0.15162958901562176,
+          0.5636993273277409,
+          0.27404608529247726,
+          0.6167884784775837
+        ],
+        "confidence": 0.5,
+        "text": "tg: closed"
+      },
+      {
+        "bbox": [
+          0.6553334101124821,
+          0.4727168937935291,
+          0.8311530777224444,
+          0.5321611584613193
+        ],
+        "confidence": 0.5,
+        "text": "Vout ~ ДVBE"
+      },
+      {
+        "bbox": [
+          0.40202702604166674,
+          0.707317073292683,
+          0.5202702692849099,
+          0.7804878050000001
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "61 C2"
+      },
+      {
+        "bbox": [
+          0.5912162158361486,
+          0.57560975625,
+          0.6520270266469594,
+          0.6292682928353659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SW1"
+      },
+      {
+        "bbox": [
+          0.5979729704673423,
+          0.6439024392276423,
+          0.898648646143018,
+          0.6975609758130082
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ty: closed : Vout = VBE1"
+      },
+      {
+        "bbox": [
+          0.5979729740202703,
+          0.702439024097561,
+          0.70270270375,
+          0.7414634143414635
+        ],
+        "confidence": 0.5,
+        "text": "t2: open"
+      },
+      {
+        "bbox": [
+          0.5979729715878379,
+          0.7463414629756097,
+          0.7432432418581082,
+          0.7902439019999999
+        ],
+        "confidence": 0.5,
+        "text": "tz: open +"
+      },
+      {
+        "bbox": [
+          0.7432432452364864,
+          0.7121951222926829,
+          0.9425675695608109,
+          0.8048780491219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C,+C2AVBE21"
+      },
+      {
+        "bbox": [
+          0.7702702698310812,
+          0.785365853804878,
+          0.81418918875,
+          0.8390243903902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.587837842018581,
+          0.8731707313414634,
+          0.9222973014780405,
+          0.9121951215853659
+        ],
+        "confidence": 1,
+        "text": "Ref. Gilbert, ACD, Kluwer 1995"
+      },
+      {
+        "bbox": [
+          0.709459462162162,
+          0.946341463109756,
+          0.9256756783783782,
+          0.9804878045731706
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1634"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0464_02_1634.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The B2 amplifier is in unity gain.",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output voltage is therefore V only.",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The transistor B1 B2 now increases its V by DV .",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Moreover, the opamp has now a gain, set by the two capacitors.",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "BE BE This DV is therefore amplified and added to the output voltage held before.",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "BE As a result, the total output voltage is the bandgap reference voltage.",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "During phase 1 of the switches, the pnp transistors carries current I only.",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "BE During phase 2 of the switches, all switches are open.",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "During phase 3 of the switches, the pnp transistor carries a current I +I .",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "This is why it is better to use the same transistor, provided it can be switched in and out.",
+      "pdf_page": 464,
+      "printed_page": 473,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1634-M01",
+      "ocr_text": "ty: closed : Vout = VBE1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5979729704673423,
+        0.6439024392276423,
+        0.898648646143018,
+        0.6975609758130082
+      ],
+      "context_crop": "regions/SANSEN-1634_math_01.png",
+      "context_bbox_normalized": [
+        0.5579729704673423,
+        0.5439024392276424,
+        1,
+        0.8275609758130082
+      ],
+      "source_image": "slides/p0464_02_1634.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

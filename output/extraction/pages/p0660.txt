@@ -1,0 +1,41 @@
+L ow-power sigma-delta AD converters 671
+2167
+Full feedforward means that
+the input signal is fed
+directly to the quantizer. As
+a result, the noise transfer
+function H (z) is the same as
+e
+in a conventional topology
+but the signal transfer func-
+tion H (z) is unity. This sug-
+x
+gests that the distortion is a
+lot less in the full-feedfor-
+ward topology.
+Indeed, the signal goes
+directly to the quantizer
+without passing through the
+loop filter integrators. These
+filters only process the
+quantization error, which is much smaller in amplitude than the signal itself. The distortion will
+be a lot less indeed. The overload level can be higher and so is the dynamic range.
+2168
+A 4th-order single-bit
+sigma-delta converter with
+full feedforward is shown in
+this slide. Eight gain coeffi-
+cients have to be deter-
+mined, which is only
+possible by optimization of
+the SNR and by equaliza-
+tion of the swings at the
+integrator outputs. This is
+achieved by means of behav-
+ioral simulation. One of the
+many possible solutions is
+indicated.
+Remember that the signal
+gain is unity and that the
+loop filters only process the quantization noise. This reduces the distortion considerably, as
+shown next.

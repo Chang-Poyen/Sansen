@@ -1,0 +1,167 @@
+{
+  "case_id": "SANSEN-2227",
+  "slide_id": "2227",
+  "chapter": 22,
+  "slide_number_in_chapter": 27,
+  "source": {
+    "pdf_page": 680,
+    "printed_page": 691
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0680_01_2227.jpg",
+      "pdf_page": 680,
+      "printed_page": 691,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 680,
+      "printed_page": 691,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        343.8462
+      ],
+      "text_raw": "Let us now observe some\nfull oscillator circuits.\nCircuitry is added to pro-\nvide AGC but also to buffer\nthe output.",
+      "text": "Let us now observe some full oscillator circuits. Circuitry is added to provide AGC but also to buffer the output."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us now observe some full oscillator circuits. Circuitry is added to provide AGC but also to buffer the output.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0680_01_2227.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270099474477,
+          0.07317073192411927,
+          0.3851351334271772,
+          0.13170731728997287
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09797297578124997,
+          0.2829268289939024,
+          0.5472973001055743,
+          0.34634146314024394
+        ],
+        "confidence": 0.5,
+        "text": "• Oscillation principles"
+      },
+      {
+        "bbox": [
+          0.09793161256425587,
+          0.3607230532390293,
+          0.297338661691783,
+          0.42952084860452566
+        ],
+        "confidence": 0.5,
+        "text": "* Crystals"
+      },
+      {
+        "bbox": [
+          0.09459459138513518,
+          0.4487804884390243,
+          0.6520270238175676,
+          0.5121951225853658
+        ],
+        "confidence": 0.5,
+        "text": "* Single-transistor oscillator"
+      },
+      {
+        "bbox": [
+          0.09797296940154442,
+          0.5317073173867596,
+          0.5979729694015443,
+          0.5853658539721255
+        ],
+        "confidence": 1,
+        "text": "• MOST oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09166667755166516,
+          0.6144578312290404,
+          0.8250000074483342,
+          0.6807228909095139
+        ],
+        "confidence": 1,
+        "text": "• Bipolar-transistor oscillator circuits"
+      },
+      {
+        "bbox": [
+          0.09459459203265771,
+          0.6975609761382113,
+          0.45608107851914415,
+          0.7609756102845529
+        ],
+        "confidence": 1,
+        "text": "• Other oscillators"
+      },
+      {
+        "bbox": [
+          0.7229729745945945,
+          0.9414634141463415,
+          0.9391891908108108,
+          0.9902439019512196
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2227"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0680_01_2227.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

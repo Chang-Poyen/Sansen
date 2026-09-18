@@ -1,0 +1,205 @@
+{
+  "case_id": "SANSEN-219",
+  "slide_id": "219",
+  "chapter": 21,
+  "slide_number_in_chapter": 9,
+  "source": {
+    "pdf_page": 630,
+    "printed_page": 641
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0630_02_219.jpg",
+      "pdf_page": 630,
+      "printed_page": 641,
+      "bbox_pt": [
+        91.52162,
+        479.27393,
+        374.54222,
+        675.78377
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 630,
+      "printed_page": 641,
+      "bbox_pt": [
+        0,
+        475.2845796500001,
+        595,
+        797
+      ],
+      "text_raw": "A 4th-order Mash (or cas-\ncaded) topology has four\nfilter sections for 4th order\nnoise shaping. Only two of\nthem are in a single feedback\nloop. Stability is easily\nachieved.\nIt has three outputs how-\never, which are fed to a\nso-called noise-cancellation\ncircuit. This means that the\nthree outputs must receive\nthe right gain and the right\ndelay so that the noise can-\ncels. Matching will now be\nan issue. However, many\nrealizations have shown that matching is not really a problem.",
+      "text": "A 4th-order Mash (or cascaded) topology has four filter sections for 4th order noise shaping. Only two of them are in a single feedback loop. Stability is easily achieved. It has three outputs however, which are fed to a so-called noise-cancellation circuit. This means that the three outputs must receive the right gain and the right delay so that the noise cancels. Matching will now be an issue. However, many realizations have shown that matching is not really a problem."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A 4th-order Mash (or cascaded) topology has four filter sections for 4th order noise shaping. Only two of them are in a single feedback loop. Stability is easily achieved. It has three outputs however, which are fed to a so-called noise-cancellation circuit. This means that the three outputs must receive the right gain and the right delay so that the noise cancels. Matching will now be an issue. However, many realizations have shown that matching is not really a problem.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Mash Sigma-delta topologies (2-1-1)",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0630_02_219.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626338983069,
+          0.07804877969512192,
+          0.711864398983051,
+          0.14146341384146344
+        ],
+        "confidence": 1,
+        "text": "Mash Sigma-delta topologies (2-1-1)"
+      },
+      {
+        "bbox": [
+          0.2983050851694915,
+          0.2536585360365854,
+          0.3728813563559322,
+          0.29756097506097556
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a,Kz)"
+      },
+      {
+        "bbox": [
+          0.3016949144915254,
+          0.45853658463414626,
+          0.3694915246610169,
+          0.51707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "N a/e)"
+      },
+      {
+        "bbox": [
+          0.3830508466779662,
+          0.3024390239512196,
+          0.4677966093898306,
+          0.34634146297560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V1/(4,4)"
+      },
+      {
+        "bbox": [
+          0.3254237284745763,
+          0.3609756091707317,
+          0.4813559318644068,
+          0.4195121945365854
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "97 0- 14"
+      },
+      {
+        "bbox": [
+          0.38305084698305086,
+          0.5121951215121952,
+          0.43728813511864406,
+          0.5560975605365853
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vlla,"
+      },
+      {
+        "bbox": [
+          0.38305084657627114,
+          0.5756097555609756,
+          0.4779661008135593,
+          0.6292682921463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0.-Bx"
+      },
+      {
+        "bbox": [
+          0.30847457647457627,
+          0.6780487800487804,
+          0.3694915256271186,
+          0.7219512190731706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- a,Ко)"
+      },
+      {
+        "bbox": [
+          0.796610169279661,
+          0.36097560908536586,
+          0.8271186438559323,
+          0.41463414567073176
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "D"
+      },
+      {
+        "bbox": [
+          0.722033901380843,
+          0.9414634147967479,
+          0.9254237189581405,
+          0.9707317074796747
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 219"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "However, many realizations have shown that matching is not really a problem.",
+      "pdf_page": 630,
+      "printed_page": 641,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0630_02_219.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This means that the three outputs must receive the right gain and the right delay so that the noise cancels.",
+      "pdf_page": 630,
+      "printed_page": 641,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

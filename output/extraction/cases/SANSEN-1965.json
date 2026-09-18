@@ -1,0 +1,458 @@
+{
+  "case_id": "SANSEN-1965",
+  "slide_id": "1965",
+  "chapter": 19,
+  "slide_number_in_chapter": 65,
+  "source": {
+    "pdf_page": 587,
+    "printed_page": 598
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0588_01_1965.jpg",
+      "pdf_page": 588,
+      "printed_page": 599,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 587,
+      "printed_page": 598,
+      "bbox_pt": [
+        0,
+        618.7805,
+        595,
+        797
+      ],
+      "text_raw": "For sake of comparison, three realizations for the same application are listed. They all aim at\nan IF filter for FM. The center frequency is 10.7 MHz and the passband is about 250 kHz. The\nfirst is realized by a switched-capacitor techniques, the second uses RC components around\nopamps and the third uses Gm blocks such as differential pairs, capacitors and tunable resistors.\nIt is clear that the first two realizations suffer from insufficient gain at this fairly high frequency.",
+      "text": "For sake of comparison, three realizations for the same application are listed. They all aim at an IF filter for FM. The center frequency is 10.7 MHz and the passband is about 250 kHz. The first is realized by a switched-capacitor techniques, the second uses RC components around opamps and the third uses Gm blocks such as differential pairs, capacitors and tunable resistors. It is clear that the first two realizations suffer from insufficient gain at this fairly high frequency."
+    },
+    {
+      "pdf_page": 588,
+      "printed_page": 599,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        355.7045100000001
+      ],
+      "text_raw": "As a result, the distortion\nincreases and the dynamic\nrange decreases. This is\nespecially true for the SC\nrealization, where the DR\nsuffers from clock injection\nand charge redistribution.\nMoreover, the power con-\nsumption of the Gm-RC\nrealization is better as\nsimple differential pairs pro-\nvide much better perfor-\nmance at high frequencies\nthan full operational\namplifiers.\nIt can be concluded that\nfrom 10 MHz on Gm-C and\nGm-RC filters are the best choice.\nA more elaborate comparison follows at the end of this Chapter.",
+      "text": "As a result, the distortion increases and the dynamic range decreases. This is especially true for the SC realization, where the DR suffers from clock injection and charge redistribution. Moreover, the power consumption of the Gm-RC realization is better as simple differential pairs provide much better performance at high frequencies than full operational amplifiers. It can be concluded that from 10 MHz on Gm-C and Gm-RC filters are the best choice. A more elaborate comparison follows at the end of this Chapter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For sake of comparison, three realizations for the same application are listed. They all aim at an IF filter for FM. The center frequency is 10.7 MHz and the passband is about 250 kHz. The first is realized by a switched-capacitor techniques, the second uses RC components around opamps and the third uses Gm blocks such as differential pairs, capacitors and tunable resistors. It is clear that the first two realizations suffer from insufficient gain at this fairly high frequency.\n\nAs a result, the distortion increases and the dynamic range decreases. This is especially true for the SC realization, where the DR suffers from clock injection and charge redistribution. Moreover, the power consumption of the Gm-RC realization is better as simple differential pairs provide much better performance at high frequencies than full operational amplifiers. It can be concluded that from 10 MHz on Gm-C and Gm-RC filters are the best choice. A more elaborate comparison follows at the end of this Chapter.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Comparison of 10.7 MHz filters",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0588_01_1965.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07796610450847449,
+          0.07317073146341468,
+          0.6406779689152542,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Comparison of 10.7 MHz filters"
+      },
+      {
+        "bbox": [
+          0.07784492224743267,
+          0.32106748493104265,
+          0.29842626142083045,
+          0.38624959160039896
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f, (BW = 250 kHz)"
+      },
+      {
+        "bbox": [
+          0.08135593088135594,
+          0.40975609712195116,
+          0.2203389817288136,
+          0.45365853614634144
+        ],
+        "confidence": 1,
+        "text": "Order filter"
+      },
+      {
+        "bbox": [
+          0.08113617940753376,
+          0.5006350893432058,
+          0.26801636222334413,
+          0.5530234503668994
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vin @ IM3= 1%"
+      },
+      {
+        "bbox": [
+          0.0808649995771317,
+          0.5816495505130257,
+          0.2648977113173992,
+          0.6427406967495383
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "DR @ IM3= 1%"
+      },
+      {
+        "bbox": [
+          0.08078939042340272,
+          0.6742627494311167,
+          0.22768518375629468,
+          0.7306152996585843
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Power ($V)"
+      },
+      {
+        "bbox": [
+          0.0813085211427893,
+          0.7656068818998121,
+          0.20343724377007347,
+          0.8148809217498144
+        ],
+        "confidence": 1,
+        "text": "Chip area"
+      },
+      {
+        "bbox": [
+          0.3728813563438257,
+          0.19999999979094074,
+          0.43050847498789346,
+          0.25853658515679445
+        ],
+        "confidence": 1,
+        "text": "SC"
+      },
+      {
+        "bbox": [
+          0.5418855513057113,
+          0.19782362422345423,
+          0.6648941112277518,
+          0.2607129606001096
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OTA-C"
+      },
+      {
+        "bbox": [
+          0.7254237294745762,
+          0.1999999997560976,
+          0.8576271193050847,
+          0.2585365851219512
+        ],
+        "confidence": 1,
+        "text": "Gm-RC"
+      },
+      {
+        "bbox": [
+          0.3558867574452185,
+          0.3168366825421578,
+          0.47801154899464254,
+          0.366090146287275
+        ],
+        "confidence": 1,
+        "text": "10.7 MHz"
+      },
+      {
+        "bbox": [
+          0.3796610167231638,
+          0.4097560968292683,
+          0.3999999997740113,
+          0.45365853585365845
+        ],
+        "confidence": 1,
+        "text": "6"
+      },
+      {
+        "bbox": [
+          0.5448817356181066,
+          0.30813784514181286,
+          0.6686775843998862,
+          0.3747889847500565
+        ],
+        "confidence": 0.5,
+        "text": "12.5 MHz"
+      },
+      {
+        "bbox": [
+          0.7318468705127011,
+          0.32008994082426034,
+          0.8512039763497311,
+          0.372592986999589
+        ],
+        "confidence": 0.5,
+        "text": "10.7 MHz"
+      },
+      {
+        "bbox": [
+          0.5661016947740114,
+          0.4097560971544716,
+          0.5898305083333334,
+          0.45853658495934957
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.7457627120338983,
+          0.409756098097561,
+          0.7694915255932204,
+          0.4634146346829269
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.35593220413135596,
+          0.5024390242073171,
+          0.47457627192796614,
+          0.5512195120121951
+        ],
+        "confidence": 0.5,
+        "text": "0.24 VRMS"
+      },
+      {
+        "bbox": [
+          0.5457627106101695,
+          0.49756097570731705,
+          0.6711864394237288,
+          0.5560975610731708
+        ],
+        "confidence": 0.5,
+        "text": "0.32 VRMS"
+      },
+      {
+        "bbox": [
+          0.732203390819209,
+          0.4975609755691057,
+          0.8508474586158191,
+          0.5512195121544715
+        ],
+        "confidence": 0.5,
+        "text": "0.71 VRMS"
+      },
+      {
+        "bbox": [
+          0.3627118643502825,
+          0.5804878044308943,
+          0.44406779655367234,
+          0.6341463410162602
+        ],
+        "confidence": 0.5,
+        "text": "34 dB"
+      },
+      {
+        "bbox": [
+          0.5491525425343018,
+          0.5902439025319396,
+          0.6237288137207425,
+          0.629268292775842
+        ],
+        "confidence": 0.5,
+        "text": "51 dB"
+      },
+      {
+        "bbox": [
+          0.7320348868469425,
+          0.5847531591697629,
+          0.8171176554326648,
+          0.634759032407931
+        ],
+        "confidence": 1,
+        "text": "68 dB"
+      },
+      {
+        "bbox": [
+          0.35246592583894004,
+          0.6775038181886521,
+          0.5187205189930714,
+          0.7273742347833668
+        ],
+        "confidence": 0.5,
+        "text": "500 mW(*5)"
+      },
+      {
+        "bbox": [
+          0.5186440726271185,
+          0.6731707315243902,
+          0.9050847505932201,
+          0.7268292681097561
+        ],
+        "confidence": 0.5,
+        "text": "360 mW(# 6) 220 mW($ 2.5)"
+      },
+      {
+        "bbox": [
+          0.36949152610169494,
+          0.7609756091463415,
+          0.45762711932203387,
+          0.8097560969512195
+        ],
+        "confidence": 0.5,
+        "text": "2 mm?"
+      },
+      {
+        "bbox": [
+          0.5525423715254237,
+          0.7609756099999999,
+          0.6610169477966101,
+          0.809756097804878
+        ],
+        "confidence": 1,
+        "text": "7.8 mm?"
+      },
+      {
+        "bbox": [
+          0.7355932210169494,
+          0.7609756091463415,
+          0.8237288142372883,
+          0.8097560969512195
+        ],
+        "confidence": 1,
+        "text": "6 mm?"
+      },
+      {
+        "bbox": [
+          0.7219150107546247,
+          0.9355713396828411,
+          0.9391019417828291,
+          0.9912579251789527
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willty Sansen 1ans 1965"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0588_01_1965.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is clear that the first two realizations suffer from insufficient gain at this fairly high frequency.",
+      "pdf_page": 587,
+      "printed_page": 598,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the distortion increases and the dynamic range decreases.",
+      "pdf_page": 588,
+      "printed_page": 599,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1965-M01",
+      "ocr_text": "f, (BW = 250 kHz)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07784492224743267,
+        0.32106748493104265,
+        0.29842626142083045,
+        0.38624959160039896
+      ],
+      "context_crop": "regions/SANSEN-1965_math_01.png",
+      "context_bbox_normalized": [
+        0.03784492224743267,
+        0.22106748493104264,
+        0.5284262614208305,
+        0.516249591600399
+      ],
+      "source_image": "slides/p0588_01_1965.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1965-M02",
+      "ocr_text": "Vin @ IM3= 1%",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08113617940753376,
+        0.5006350893432058,
+        0.26801636222334413,
+        0.5530234503668994
+      ],
+      "context_crop": "regions/SANSEN-1965_math_02.png",
+      "context_bbox_normalized": [
+        0.04113617940753376,
+        0.4006350893432058,
+        0.4980163622233441,
+        0.6830234503668994
+      ],
+      "source_image": "slides/p0588_01_1965.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1965-M03",
+      "ocr_text": "DR @ IM3= 1%",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0808649995771317,
+        0.5816495505130257,
+        0.2648977113173992,
+        0.6427406967495383
+      ],
+      "context_crop": "regions/SANSEN-1965_math_03.png",
+      "context_bbox_normalized": [
+        0.040864999577131696,
+        0.4816495505130257,
+        0.49489771131739924,
+        0.7727406967495383
+      ],
+      "source_image": "slides/p0588_01_1965.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

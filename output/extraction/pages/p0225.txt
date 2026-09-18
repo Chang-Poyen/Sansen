@@ -1,0 +1,48 @@
+230 Chapter #7
+example, then the g ratio is 0.71 and the transconductance goes up by a factor of about 3. We
+m
+could push this a bit more of course!
+A full OTA realization is shown next.
+0739
+This is clearly a symmet-
+rical CMOS OTA, with a
+B factor of three. The
+input devices have negative
+series resistances to increase
+the input transconductance.
+Two more transistors M5
+and M6 are added to avoid
+latch-up of the input stage.
+After all, negative resistors
+are used in oscillators, in
+comparators, in flip-flops,
+etc., because they are regen-
+erative. They may cause
+latch-up when overdriven.
+Transistors M5 and M6
+have to prevent this.
+Such an Operational Transconductor Amplifier is also called Transconductor, because it allows
+larger input voltages with low distortion.
+0740
+Another transconductor
+with high-speed capability is
+shown in this slide.
+It is little more than a
+differential single-stage volt-
+age amplifier with cascodes.
+However, the input tran-
+sistors operate in the linear
+region. This is achieved on
+purpose to avoid distortion,
+when driven with large
+input signal levels.
+Indeed, in the linear
+region the current is propor-
+tional to V , not to V 2.
+GS GS
+As a result, the transcon-
+ductance is constant provided V can be kept constant.
+DS
+This is achieved by fixing the voltage across resistor R by means of a constant current I .
+D D
+Obviously, the transconductance in the linear region is smaller than in saturation. Lower

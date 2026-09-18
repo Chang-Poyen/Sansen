@@ -1,0 +1,51 @@
+Important opamp configurations 219
+0717
+Can BiCMOS provide sim-
+ilar power savings as for a
+Miller OTA?
+The answer is negative.
+The current sources are
+the only candidates to be
+implemented in bipolar. The
+input devices are better
+MOSTs. They provide less
+input biasing current and
+higher Slew Rate.
+There are two considera-
+tions:
+1. The npn transistors cer-
+tainly have a higher g
+m
+but this advantage is not
+really exploited in a current mirror. They also have a higher f , at least within a particular
+T
+BiCMOS process. They may not have a higher f however, than the nMOSTs in a more
+T
+advanced standard CMOS process, offered at the same time.
+2. Bipolar transistors have a relatively large collector-substrate capacitance C . As a result, the
+CS
+parasitic capacitance at nodes 1 and 2 are probably a lot larger than those given by f .
+T
+As a conclusion, a BiCMOS symmetrical OTA is probably not faster than a CMOS equivalent.
+For the same GBW it probably does not draw less current than the CMOS.
+0718
+The previous symmetrical
+OTA’s all had too little gain.
+Cascodes are now added to
+increase the gain. Gain
+boosting could even be
+applied to the output cas-
+codes M10 and M12 to
+boost the gain even more.
+Note that cascodes are
+added on both sides, to
+preserve symmetry. Also
+note that a current mirror
+is taken (with M7–M10)
+which allows a large output
+swing. Indeed the output
+voltage can swing to within
+0.4 V of the supply voltage, without transistors M8/M10 or M6/M12 entering the linear region.
+The insertion of cascodes increases the gain but not the GBW. The cascodes only increase the
+gain at low frequencies, as previously shown. Moreover, the gain at low frequencies can be
+increased even more by application of gain boosting to the cascodes M10 and M12. This is a

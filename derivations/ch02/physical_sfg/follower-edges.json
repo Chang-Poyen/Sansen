@@ -1,0 +1,162 @@
+[
+  {
+    "id": "E01",
+    "source": "vg",
+    "target": "vgs",
+    "gain": "1",
+    "constraint": "F1",
+    "law": "栅源端电压定义（KVL）"
+  },
+  {
+    "id": "E02",
+    "source": "vo",
+    "target": "vgs",
+    "gain": "-1",
+    "constraint": "F1",
+    "law": "栅源端电压定义（KVL）"
+  },
+  {
+    "id": "E03",
+    "source": "vgs",
+    "target": "im",
+    "gain": "gm",
+    "constraint": "F2",
+    "law": "MOS 跨导源的本构关系"
+  },
+  {
+    "id": "E04",
+    "source": "vgs",
+    "target": "iG",
+    "gain": "s*Cg",
+    "constraint": "F3",
+    "law": "Cg 的本构关系"
+  },
+  {
+    "id": "E05",
+    "source": "vg",
+    "target": "iD",
+    "gain": "s*Cd",
+    "constraint": "F4",
+    "law": "Cd 的本构关系"
+  },
+  {
+    "id": "E06",
+    "source": "iG",
+    "target": "iR",
+    "gain": "1",
+    "constraint": "F5",
+    "law": "栅极 KCL"
+  },
+  {
+    "id": "E07",
+    "source": "iD",
+    "target": "iR",
+    "gain": "1",
+    "constraint": "F5",
+    "law": "栅极 KCL"
+  },
+  {
+    "id": "E08",
+    "source": "iR",
+    "target": "vR",
+    "gain": "Rs",
+    "constraint": "F6",
+    "law": "Rs 的本构关系"
+  },
+  {
+    "id": "E09",
+    "source": "vi",
+    "target": "vg",
+    "gain": "1",
+    "constraint": "F7",
+    "law": "输入串联支路 KVL"
+  },
+  {
+    "id": "E10",
+    "source": "vR",
+    "target": "vg",
+    "gain": "-1",
+    "constraint": "F7",
+    "law": "输入串联支路 KVL"
+  },
+  {
+    "id": "E11",
+    "source": "vo",
+    "target": "iB",
+    "gain": "GB",
+    "constraint": "F8",
+    "law": "偏置支路 GB 的本构关系"
+  },
+  {
+    "id": "E12",
+    "source": "vo",
+    "target": "iL",
+    "gain": "s*CL",
+    "constraint": "F9",
+    "law": "CL 的本构关系"
+  },
+  {
+    "id": "E13",
+    "source": "vo",
+    "target": "iDS",
+    "gain": "s*CDS",
+    "constraint": "F10",
+    "law": "CDS 的本构关系"
+  },
+  {
+    "id": "E14",
+    "source": "im",
+    "target": "io",
+    "gain": "1",
+    "constraint": "F11",
+    "law": "源极输出节点 KCL"
+  },
+  {
+    "id": "E15",
+    "source": "iG",
+    "target": "io",
+    "gain": "1",
+    "constraint": "F11",
+    "law": "源极输出节点 KCL"
+  },
+  {
+    "id": "E16",
+    "source": "it",
+    "target": "io",
+    "gain": "1",
+    "constraint": "F11",
+    "law": "源极输出节点 KCL"
+  },
+  {
+    "id": "E17",
+    "source": "iB",
+    "target": "io",
+    "gain": "-1",
+    "constraint": "F11",
+    "law": "源极输出节点 KCL"
+  },
+  {
+    "id": "E18",
+    "source": "iL",
+    "target": "io",
+    "gain": "-1",
+    "constraint": "F11",
+    "law": "源极输出节点 KCL"
+  },
+  {
+    "id": "E19",
+    "source": "iDS",
+    "target": "io",
+    "gain": "-1",
+    "constraint": "F11",
+    "law": "源极输出节点 KCL"
+  },
+  {
+    "id": "E20",
+    "source": "io",
+    "target": "vo",
+    "gain": "ro",
+    "constraint": "F12",
+    "law": "ro 的本构关系"
+  }
+]

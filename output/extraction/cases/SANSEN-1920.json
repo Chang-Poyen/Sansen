@@ -1,0 +1,164 @@
+{
+  "case_id": "SANSEN-1920",
+  "slide_id": "1920",
+  "chapter": 19,
+  "slide_number_in_chapter": 20,
+  "source": {
+    "pdf_page": 565,
+    "printed_page": 576
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0565_02_1920.jpg",
+      "pdf_page": 565,
+      "printed_page": 576,
+      "bbox_pt": [
+        91.52162,
+        371.85124,
+        374.54222,
+        568.36108
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 565,
+      "printed_page": 576,
+      "bbox_pt": [
+        0,
+        367.86181000000005,
+        595,
+        797
+      ],
+      "text_raw": "Such filters are usually\ndriven by an input voltage.\nThis is not necessary,\nhowever.\nAs an example, let us take\nthe second-order GmC filter\nshown in this slide. Moving\nthe input transconductor g\n1\ntowards the output, gives\nthe same transfer function\nbut for the current ratio\nI /I , rather than for the\nout in\nvoltage ratio V /V .\nout in\nVoltage GmC filters can\neasily be converted into cur-\nrent GmC filters. However,\nwe will see later that in general, current-mode filters have a lower SNR (by about 20 dB) than\nvoltage-mode filters. This is why voltage mode filters are normally preferred.\nLet us now investigate some important transconductor circuits.",
+      "text": "Such filters are usually driven by an input voltage. This is not necessary, however. As an example, let us take the second-order GmC filter shown in this slide. Moving the input transconductor g 1 towards the output, gives the same transfer function but for the current ratio I /I , rather than for the out in voltage ratio V /V . out in Voltage GmC filters can easily be converted into current GmC filters. However, we will see later that in general, current-mode filters have a lower SNR (by about 20 dB) than voltage-mode filters. This is why voltage mode filters are normally preferred. Let us now investigate some important transconductor circuits."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Such filters are usually driven by an input voltage. This is not necessary, however. As an example, let us take the second-order GmC filter shown in this slide. Moving the input transconductor g 1 towards the output, gives the same transfer function but for the current ratio I /I , rather than for the out in voltage ratio V /V . out in Voltage GmC filters can easily be converted into current GmC filters. However, we will see later that in general, current-mode filters have a lower SNR (by about 20 dB) than voltage-mode filters. This is why voltage mode filters are normally preferred. Let us now investigate some important transconductor circuits.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Voltage-mode & current-mode filters",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0565_02_1920.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07415046698940812,
+          0.06615085143280708,
+          0.7358484753812249,
+          0.14360832825805603
+        ],
+        "confidence": 1,
+        "text": "Voltage-mode & current-mode filters"
+      },
+      {
+        "bbox": [
+          0.10508474616949151,
+          0.31707317053658535,
+          0.14576271227118642,
+          0.3560975607804877
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.545762711822034,
+          0.31707317024390247,
+          0.6169491525,
+          0.35609756048780494
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "a Voue"
+      },
+      {
+        "bbox": [
+          0.4101694922881356,
+          0.3512195118902439,
+          0.471186441440678,
+          0.4048780484756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "—Cz"
+      },
+      {
+        "bbox": [
+          0.13898305176865056,
+          0.6536585370731707,
+          0.16610169422005003,
+          0.6829268297560975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "D-"
+      },
+      {
+        "bbox": [
+          0.5694915258644068,
+          0.7024390242439024,
+          0.6135593224745762,
+          0.7463414632682925
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.7254237333017469,
+          0.9512195127642277,
+          0.9389830424044681,
+          0.9853658542276423
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen mus 1920"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "As an example, let us take the second-order GmC filter shown in this slide.",
+      "pdf_page": 565,
+      "printed_page": 576,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0565_02_1920.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

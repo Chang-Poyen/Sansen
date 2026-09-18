@@ -1,0 +1,47 @@
+Important opamp configurations 231
+distortion always goes together with lower gain though! Feedback does this too, exchanging
+gain for low distortion.
+In order to boost the high-frequency performance, two small capacitances are added by means
+of transistors M5 and M6. They are added to compensate the input capacitances C of the
+GS
+input transistors. They are connected to nodes at opposite polarity. For a size of about one
+third, compensation can be achieved. This is why they are drawn smaller!
+0741
+This is the first fully rail-to-
+rail amplifier that we will
+discuss, is shown in this
+slide. It provides rail-to-rail
+capability at both the input
+and the output. It can be
+connected in unity gain as a
+buffer. It has a class AB
+output stage to be able to
+provide large output cur-
+rents indeed.
+At the input two folded
+cascode stages are con-
+nected in parallel. The
+common-mode input range
+thus includes both supply
+lines.
+Their outputs are applied to two differential current amplifiers, ending up at the Gates of the
+two large output devices. These devices are the output stage.
+We have a two-stage Miller opamp. The compensation capacitances are clearly distinguished.
+However, they connect directly Drain to Gate. Perhaps it is better to find a path through one
+of the cascodes. For example C may be better connected to the source of M14!
+c2
+The Gates of the output transistors are at very high impedance. It may not appear like that
+because these nodes are also connected to two Sources of transistors MA3 and MA4. Sources
+suggest impedance levels of 1/g . This is not the case here however, as these two transistors are
+m
+bootstrapped out. This is explained later.
+The rail-to-rail input stage can cause large variations in GBW, however. This is examined first.
+0742
+Indeed, for common-mode or average input signals in the middle, both input stages are in
+operation. The total transconductance is now the sum of the transconductances of the nMOSTs
+and pMOSTs at the input.
+For higher common-mode input signals however, the pMOSTs are shut off. The transconduct-
+ance is now only half. The same is true for low common-mode input signals. The total transcon-
+ductance has a bell shape versus the input common-mode input voltage, as shown in this slide,
+and so does the GBW.
+This gives a lot of distortion.

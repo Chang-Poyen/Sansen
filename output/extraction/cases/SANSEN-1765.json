@@ -1,0 +1,398 @@
+{
+  "case_id": "SANSEN-1765",
+  "slide_id": "1765",
+  "chapter": 17,
+  "slide_number_in_chapter": 65,
+  "source": {
+    "pdf_page": 507,
+    "printed_page": 517
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0507_02_1765.jpg",
+      "pdf_page": 507,
+      "printed_page": 517,
+      "bbox_pt": [
+        91.52162,
+        347.73596,
+        374.78981,
+        544.19595
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 507,
+      "printed_page": 517,
+      "bbox_pt": [
+        0,
+        343.74652000000003,
+        595,
+        797
+      ],
+      "text_raw": "A comparison between\nswitched-capacitor and\nswitched-current filters is\nnow imperative.\nIn a switched-capacitor\nfilter a charge is stored on\na capacitor. The signal is\ntherefore a voltage. The\naccuracy depends on the full\ncharge transfer from one\ncapacitor to another. This\nalso depends on the match-\ning of these two capacitors.\nMismatch, clock injection\nand charge distribution\nlimit the dynamic range to\nabout 70 dB without excessive precautions.\nIn a switched-current filter a charge is a result of a current flowing during a certain amount\nof time, determined by the clock period. The signal is a current. The accuracy depends on the\nmatching of transistor sizes.\nMismatch, clock injection and charge distribution limit the dynamic range to about 50 dB\nwithout excessive precautions.\nThe main difference is that in a switched-current filter the charge transfer is less accurate\nbecause of the worse mismatch between transistors than between capacitors. The main advantage\nof switched-current filters is that they reach higher frequencies because they do not use opamps,\njust current-mirrors.\nIt is clear that such a comparison can only be of first-order. A full comparison would take a\nfull workshop.",
+      "text": "A comparison between switched-capacitor and switched-current filters is now imperative. In a switched-capacitor filter a charge is stored on a capacitor. The signal is therefore a voltage. The accuracy depends on the full charge transfer from one capacitor to another. This also depends on the matching of these two capacitors. Mismatch, clock injection and charge distribution limit the dynamic range to about 70 dB without excessive precautions. In a switched-current filter a charge is a result of a current flowing during a certain amount of time, determined by the clock period. The signal is a current. The accuracy depends on the matching of transistor sizes. Mismatch, clock injection and charge distribution limit the dynamic range to about 50 dB without excessive precautions. The main difference is that in a switched-current filter the charge transfer is less accurate because of the worse mismatch between transistors than between capacitors. The main advantage of switched-current filters is that they reach higher frequencies because they do not use opamps, just current-mirrors. It is clear that such a comparison can only be of first-order. A full comparison would take a full workshop."
+    },
+    {
+      "pdf_page": 508,
+      "printed_page": 518,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        166.36939999999993
+      ],
+      "text_raw": "Another comparison between all important filter types will be given at the end of\nChapter 19.",
+      "text": "Another comparison between all important filter types will be given at the end of Chapter 19."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A comparison between switched-capacitor and switched-current filters is now imperative. In a switched-capacitor filter a charge is stored on a capacitor. The signal is therefore a voltage. The accuracy depends on the full charge transfer from one capacitor to another. This also depends on the matching of these two capacitors. Mismatch, clock injection and charge distribution limit the dynamic range to about 70 dB without excessive precautions. In a switched-current filter a charge is a result of a current flowing during a certain amount of time, determined by the clock period. The signal is a current. The accuracy depends on the matching of transistor sizes. Mismatch, clock injection and charge distribution limit the dynamic range to about 50 dB without excessive precautions. The main difference is that in a switched-current filter the charge transfer is less accurate because of the worse mismatch between transistors than between capacitors. The main advantage of switched-current filters is that they reach higher frequencies because they do not use opamps, just current-mirrors. It is clear that such a comparison can only be of first-order. A full comparison would take a full workshop.\n\nAnother comparison between all important filter types will be given at the end of Chapter 19.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Comparison SC - SI",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0507_02_1765.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432633258253,
+          0.07317073143631436,
+          0.435810812819069,
+          0.1414634143631437
+        ],
+        "confidence": 1,
+        "text": "Comparison SC - SI"
+      },
+      {
+        "bbox": [
+          0.2871621625723938,
+          0.22926829243902436,
+          0.34459459500482625,
+          0.28292682902439026
+        ],
+        "confidence": 1,
+        "text": "SC"
+      },
+      {
+        "bbox": [
+          0.08445946106418917,
+          0.3707317069512195,
+          0.21283783944256754,
+          0.4195121947560976
+        ],
+        "confidence": 1,
+        "text": "Signal:"
+      },
+      {
+        "bbox": [
+          0.2600282922770842,
+          0.365358683636243,
+          0.3784852230046562,
+          0.4200071713785972
+        ],
+        "confidence": 1,
+        "text": "Voltage"
+      },
+      {
+        "bbox": [
+          0.18581080979729736,
+          0.4390243907804878,
+          0.4628378368243244,
+          0.49268292736585373
+        ],
+        "confidence": 1,
+        "text": "Charge on linear C"
+      },
+      {
+        "bbox": [
+          0.27361633246959255,
+          0.5071453655194358,
+          0.3851674497222517,
+          0.551391220339129
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Q=CV"
+      },
+      {
+        "bbox": [
+          0.0844594581081081,
+          0.5707317080487805,
+          0.46959459324324315,
+          0.6292682934146342
+        ],
+        "confidence": 0.5,
+        "text": "Accuracy : Capacitor ratio"
+      },
+      {
+        "bbox": [
+          0.2804054044932433,
+          0.6243902441951219,
+          0.3716216207094595,
+          0.6829268295609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0.2 %"
+      },
+      {
+        "bbox": [
+          0.08412921650219572,
+          0.6959891034978,
+          0.19289780851186897,
+          0.7479133344920478
+        ],
+        "confidence": 0.5,
+        "text": "Amps :"
+      },
+      {
+        "bbox": [
+          0.08108108036317568,
+          0.7609756103658536,
+          0.17905405333614866,
+          0.8097560981707317
+        ],
+        "confidence": 1,
+        "text": "S/N+D"
+      },
+      {
+        "bbox": [
+          0.2665917865169205,
+          0.6864802153491433,
+          0.3989487523809474,
+          0.7525441753547406
+        ],
+        "confidence": 1,
+        "text": "Opamps"
+      },
+      {
+        "bbox": [
+          0.2730520019822673,
+          0.7444406418413431,
+          0.36883988800901063,
+          0.8116569195453494
+        ],
+        "confidence": 0.5,
+        "text": "70 dB"
+      },
+      {
+        "bbox": [
+          0.7229729733671172,
+          0.22926829247967473,
+          0.7702702706644144,
+          0.28292682906504063
+        ],
+        "confidence": 1,
+        "text": "SI"
+      },
+      {
+        "bbox": [
+          0.6858108118806306,
+          0.36585365821138205,
+          0.814189190259009,
+          0.41463414601626014
+        ],
+        "confidence": 1,
+        "text": "Current"
+      },
+      {
+        "bbox": [
+          0.6210961837523519,
+          0.4373738441494889,
+          0.9431017907387329,
+          0.49842494304281737
+        ],
+        "confidence": 0.5,
+        "text": "Charge on MOST CGs"
+      },
+      {
+        "bbox": [
+          0.7060810822635135,
+          0.5073170729878048,
+          0.800675676858108,
+          0.5512195120121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Q=1t"
+      },
+      {
+        "bbox": [
+          0.638513515226834,
+          0.5707317071428571,
+          0.8783783800916989,
+          0.6146341461672474
+        ],
+        "confidence": 0.5,
+        "text": "MOST area ratio"
+      },
+      {
+        "bbox": [
+          0.7128378386148648,
+          0.6341463411707318,
+          0.7905405413175675,
+          0.6829268289756099
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 %"
+      },
+      {
+        "bbox": [
+          0.638513514679054,
+          0.6926829266097562,
+          0.8716216227871622,
+          0.7463414631951221
+        ],
+        "confidence": 1,
+        "text": "Current mirrors"
+      },
+      {
+        "bbox": [
+          0.6957054244266022,
+          0.7503997426502255,
+          0.7907810639451338,
+          0.8105758662925654
+        ],
+        "confidence": 0.5,
+        "text": "50 dB"
+      },
+      {
+        "bbox": [
+          0.7162162180743243,
+          0.9414634143902438,
+          0.9391891910472973,
+          0.9902439021951219
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 N1765"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In a switched-current filter a charge is a result of a current flowing during a certain amount of time, determined by the clock period.",
+      "pdf_page": 507,
+      "printed_page": 517,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0507_02_1765.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The signal is therefore a voltage.",
+      "pdf_page": 507,
+      "printed_page": 517,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The accuracy depends on the full charge transfer from one capacitor to another.",
+      "pdf_page": 507,
+      "printed_page": 517,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This also depends on the matching of these two capacitors.",
+      "pdf_page": 507,
+      "printed_page": 517,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Mismatch, clock injection and charge distribution limit the dynamic range to about 70 dB without excessive precautions.",
+      "pdf_page": 507,
+      "printed_page": 517,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The accuracy depends on the matching of transistor sizes.",
+      "pdf_page": 507,
+      "printed_page": 517,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Mismatch, clock injection and charge distribution limit the dynamic range to about 50 dB without excessive precautions.",
+      "pdf_page": 507,
+      "printed_page": 517,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1765-M01",
+      "ocr_text": "Q=CV",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.27361633246959255,
+        0.5071453655194358,
+        0.3851674497222517,
+        0.551391220339129
+      ],
+      "context_crop": "regions/SANSEN-1765_math_01.png",
+      "context_bbox_normalized": [
+        0.23361633246959254,
+        0.4071453655194358,
+        0.6151674497222517,
+        0.681391220339129
+      ],
+      "source_image": "slides/p0507_02_1765.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1765-M02",
+      "ocr_text": "Q=1t",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7060810822635135,
+        0.5073170729878048,
+        0.800675676858108,
+        0.5512195120121951
+      ],
+      "context_crop": "regions/SANSEN-1765_math_02.png",
+      "context_bbox_normalized": [
+        0.6660810822635135,
+        0.40731707298780484,
+        1,
+        0.6812195120121951
+      ],
+      "source_image": "slides/p0507_02_1765.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

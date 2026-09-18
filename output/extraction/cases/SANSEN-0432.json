@@ -1,0 +1,200 @@
+{
+  "case_id": "SANSEN-0432",
+  "slide_id": "0432",
+  "chapter": 4,
+  "slide_number_in_chapter": 32,
+  "source": {
+    "pdf_page": 130,
+    "printed_page": 133
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0130_01_0432.jpg",
+      "pdf_page": 130,
+      "printed_page": 133,
+      "bbox_pt": [
+        91.521622,
+        242.05719,
+        374.78981,
+        438.517181
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 130,
+      "printed_page": 133,
+      "bbox_pt": [
+        0,
+        238.0675749999997,
+        595,
+        463.3265
+      ],
+      "text_raw": "Now that we know how\nan amplifier performs with\nrespect to low noise, let us\nobserve the two other single-\ntransistor stages. They are\nthe source follower and the\ncascode.\nWe will find that the noise\nperformance of a source\nfollower is really poor\nwhereas a cascode performs\nbeautifully!",
+      "text": "Now that we know how an amplifier performs with respect to low noise, let us observe the two other singletransistor stages. They are the source follower and the cascode. We will find that the noise performance of a source follower is really poor whereas a cascode performs beautifully!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that we know how an amplifier performs with respect to low noise, let us observe the two other singletransistor stages. They are the source follower and the cascode. We will find that the noise performance of a source follower is really poor whereas a cascode performs beautifully!",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0130_01_0432.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.11486486747104248,
+          0.21951219491289198,
+          0.4797297323359073,
+          0.26829268271777007
+        ],
+        "confidence": 0.5,
+        "text": "• Definitions of noise"
+      },
+      {
+        "bbox": [
+          0.11148649040540534,
+          0.3024390241463415,
+          0.5033783822972973,
+          0.3560975607317074
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of an amplifier"
+      },
+      {
+        "bbox": [
+          0.11486486708192566,
+          0.3853658534756097,
+          0.4695945968116554,
+          0.4341463412804878
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a follower"
+      },
+      {
+        "bbox": [
+          0.11486486188063069,
+          0.47317073203252025,
+          0.47297296998873883,
+          0.5219512198373983
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a cascode"
+      },
+      {
+        "bbox": [
+          0.1114864807432434,
+          0.556097561402439,
+          0.5709459402027028,
+          0.6097560979878048
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a current mirror"
+      },
+      {
+        "bbox": [
+          0.11148648168918927,
+          0.6439024393658537,
+          0.591216211418919,
+          0.6975609759512195
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a differential pair"
+      },
+      {
+        "bbox": [
+          0.11148648162162175,
+          0.7268292686341463,
+          0.5979729681081083,
+          0.7804878052195122
+        ],
+        "confidence": 1,
+        "text": "• Capacitive noise matching"
+      },
+      {
+        "bbox": [
+          0.7297297314527026,
+          0.9414634142439025,
+          0.9358108125337836,
+          0.9804878044878048
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 a5 0432"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We will find that the noise performance of a source follower is really poor whereas a cascode performs beautifully!",
+      "pdf_page": 130,
+      "printed_page": 133,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0130_01_0432.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "They are the source follower and the cascode.",
+        "pdf_page": 130,
+        "printed_page": 133,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "We will find that the noise performance of a source follower is really poor whereas a cascode performs beautifully!",
+        "pdf_page": 130,
+        "printed_page": 133,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

@@ -1,0 +1,201 @@
+{
+  "case_id": "SANSEN-1636",
+  "slide_id": "1636",
+  "chapter": 16,
+  "slide_number_in_chapter": 36,
+  "source": {
+    "pdf_page": 465,
+    "printed_page": 474
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0465_02_1636.jpg",
+      "pdf_page": 465,
+      "printed_page": 474,
+      "bbox_pt": [
+        91.521622,
+        443.399964,
+        374.78981,
+        639.859955
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 465,
+      "printed_page": 474,
+      "bbox_pt": [
+        0,
+        439.41050000000024,
+        595,
+        797
+      ],
+      "text_raw": "As bandgap reference volt-\nages are always 1.2 V, we\ncan wonder how to achieve\na reference voltage with\nvalue below 1 V.\nIndeed, the only physical\nconstant available is this\nbandgap voltage. How can\nthe properties of this band-\ngap voltage be exploited at\nlower supply voltages?\nThe answer will lie in the\nconversion of this bandgap\nreference voltage into cur-\nrents, which are then\nsummed up to lower output\nreference voltages. The requirement on the supply voltage will be that we need at least one single\nV and some mV’s. We can bias the bipolar transistor at very low currents, which may yield\nBE\nV values down to 0.5 V. In this case, a minimum supply voltage could be reached of the same\nBE\norder of magnitude.",
+      "text": "As bandgap reference voltages are always 1.2 V, we can wonder how to achieve a reference voltage with value below 1 V. Indeed, the only physical constant available is this bandgap voltage. How can the properties of this bandgap voltage be exploited at lower supply voltages? The answer will lie in the conversion of this bandgap reference voltage into currents, which are then summed up to lower output reference voltages. The requirement on the supply voltage will be that we need at least one single V and some mV’s. We can bias the bipolar transistor at very low currents, which may yield BE V values down to 0.5 V. In this case, a minimum supply voltage could be reached of the same BE order of magnitude."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As bandgap reference voltages are always 1.2 V, we can wonder how to achieve a reference voltage with value below 1 V. Indeed, the only physical constant available is this bandgap voltage. How can the properties of this bandgap voltage be exploited at lower supply voltages? The answer will lie in the conversion of this bandgap reference voltage into currents, which are then summed up to lower output reference voltages. The requirement on the supply voltage will be that we need at least one single V and some mV’s. We can bias the bipolar transistor at very low currents, which may yield BE V values down to 0.5 V. In this case, a minimum supply voltage could be reached of the same BE order of magnitude.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0465_02_1636.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108086993246,
+          0.0926829274390244,
+          0.38175675654560814,
+          0.14146341524390238
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.1011756700877477,
+          0.2862868732715351,
+          0.3380135211223761,
+          0.34785946919349353
+        ],
+        "confidence": 1,
+        "text": "• Principles"
+      },
+      {
+        "bbox": [
+          0.10135134659346856,
+          0.3658536580081302,
+          0.6790540492961713,
+          0.4292682921544716
+        ],
+        "confidence": 1,
+        "text": "• Bipolar bandgap references"
+      },
+      {
+        "bbox": [
+          0.09718226782408042,
+          0.4397125912187734,
+          0.6627885139475233,
+          0.5217112674257808
+        ],
+        "confidence": 1,
+        "text": "• CMOS bandgap references"
+      },
+      {
+        "bbox": [
+          0.0979729775337837,
+          0.5317073167073171,
+          0.645270274831081,
+          0.5951219508536586
+        ],
+        "confidence": 0.5,
+        "text": "• Bandgap references < 1 V"
+      },
+      {
+        "bbox": [
+          0.10135135000000003,
+          0.6146341470121951,
+          0.5067567554054054,
+          0.668292683597561
+        ],
+        "confidence": 1,
+        "text": "• Current references"
+      },
+      {
+        "bbox": [
+          0.10304739967435839,
+          0.6736668591338077,
+          0.45424758075906857,
+          0.7688305022031913
+        ],
+        "confidence": 0.5,
+        "text": "• LDO Regulators"
+      },
+      {
+        "bbox": [
+          0.11148649014639629,
+          0.8390243909756098,
+          0.6418918955518017,
+          0.88292683
+        ],
+        "confidence": 1,
+        "text": "Ref.: B. Gilbert, G.Meijer, ACD, Kluwer 1995"
+      },
+      {
+        "bbox": [
+          0.7094594567567568,
+          0.9365853662195122,
+          0.9256756729729732,
+          0.9756097564634146
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 1636"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0465_02_1636.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1636-M01",
+      "ocr_text": "• Bandgap references < 1 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.0979729775337837,
+        0.5317073167073171,
+        0.645270274831081,
+        0.5951219508536586
+      ],
+      "context_crop": "regions/SANSEN-1636_math_01.png",
+      "context_bbox_normalized": [
+        0.0579729775337837,
+        0.4317073167073171,
+        0.875270274831081,
+        0.7251219508536586
+      ],
+      "source_image": "slides/p0465_02_1636.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

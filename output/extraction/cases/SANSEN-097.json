@@ -1,0 +1,367 @@
+{
+  "case_id": "SANSEN-097",
+  "slide_id": "097",
+  "chapter": 9,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 259,
+    "printed_page": 266
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0259_01_097.jpg",
+      "pdf_page": 259,
+      "printed_page": 266,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 259,
+      "printed_page": 266,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        439.4105000000002
+      ],
+      "text_raw": "A two-stage amplifier has\ntwo high-impedance points.\nThey need to be connected\nby a compensation capaci-\ntance C to provide pole\nc\nsplitting and to generate a\ndominant pole. The GBW is\ntherefore determined by this\ncompensation capacitance\nC .\nc\nFor stability, the non-\ndominant pole is now deter-\nmined by the load capaci-\ntance C . It must be\nL\nsufficiently large compared\nto the GBW, to provide a\nsufficient phase margin. A ratio of three is taken for a phase margin of about 70°.\nSince we have two stages, we have two time constants. They are the ones for the GBW and\nthe one for the non-dominant pole. The latter one is the output time constant. It is the output\ng divided by the load capacitance C . It is normally set at two to three times the GBW\nm3 L\ndepending on the phase margin required.",
+      "text": "A two-stage amplifier has two high-impedance points. They need to be connected by a compensation capacitance C to provide pole c splitting and to generate a dominant pole. The GBW is therefore determined by this compensation capacitance C . c For stability, the nondominant pole is now determined by the load capacitance C . It must be L sufficiently large compared to the GBW, to provide a sufficient phase margin. A ratio of three is taken for a phase margin of about 70°. Since we have two stages, we have two time constants. They are the ones for the GBW and the one for the non-dominant pole. The latter one is the output time constant. It is the output g divided by the load capacitance C . It is normally set at two to three times the GBW m3 L depending on the phase margin required."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A two-stage amplifier has two high-impedance points. They need to be connected by a compensation capacitance C to provide pole c splitting and to generate a dominant pole. The GBW is therefore determined by this compensation capacitance C . c For stability, the nondominant pole is now determined by the load capacitance C . It must be L sufficiently large compared to the GBW, to provide a sufficient phase margin. A ratio of three is taken for a phase margin of about 70°. Since we have two stages, we have two time constants. They are the ones for the GBW and the one for the non-dominant pole. The latter one is the output time constant. It is the output g divided by the load capacitance C . It is normally set at two to three times the GBW m3 L depending on the phase margin required.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "2-stage Miller CMOS OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0259_01_097.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432087355216,
+          0.07804878066202092,
+          0.5574324289816603,
+          0.14146341480836244
+        ],
+        "confidence": 1,
+        "text": "2-stage Miller CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.412162162804054,
+          0.4341463413170732,
+          0.4763513519932432,
+          0.4780487803414635
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.06418918950289575,
+          0.5463414632752613,
+          0.10810810842181467,
+          0.5951219510801394
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.4797297295045045,
+          0.5317073166260162,
+          0.520270270045045,
+          0.5853658532113821
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.24662162145270275,
+          0.6341463408292684,
+          0.28378378361486495,
+          0.6975609749756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "÷"
+      },
+      {
+        "bbox": [
+          0.20270270293918918,
+          0.6926829262926829,
+          0.2736486488851351,
+          0.7463414628780488
+        ],
+        "confidence": 0.5,
+        "text": "9m1:"
+      },
+      {
+        "bbox": [
+          0.35135135189189187,
+          0.5999999997560975,
+          0.40540540594594593,
+          0.6341463412195122
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.35135135046452703,
+          0.697560975609756,
+          0.422297296410473,
+          0.7463414634146341
+        ],
+        "confidence": 0.5,
+        "text": "19m2"
+      },
+      {
+        "bbox": [
+          0.8412162156418919,
+          0.22926829219512201,
+          0.905405404831081,
+          0.27804878
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.6993243250422297,
+          0.25853658515243905,
+          0.8141891899070945,
+          0.30243902417682933
+        ],
+        "confidence": 0.5,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.8243243253378378,
+          0.29756097560975614,
+          0.9256756766891893,
+          0.35609756097560974
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2т Cс"
+      },
+      {
+        "bbox": [
+          0.8412162157094595,
+          0.38536585321138217,
+          0.908783783277027,
+          0.43902438979674796
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.7229729718327702,
+          0.41463414554878053,
+          0.8209459448057432,
+          0.47804877969512205
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd1 ="
+      },
+      {
+        "bbox": [
+          0.8243243252364865,
+          0.4585365859512195,
+          0.9222972982094594,
+          0.5170731713170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 CL"
+      },
+      {
+        "bbox": [
+          0.6993243225929054,
+          0.8195121958536585,
+          0.8986486469172298,
+          0.8780487812195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd1 = 3 GBW"
+      },
+      {
+        "bbox": [
+          0.7364864892454953,
+          0.9317073165040649,
+          0.9290540568130629,
+          0.9658536579674796
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10as 097"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The GBW is therefore determined by this compensation capacitance C . c For stability, the nondominant pole is now determined by the load capacitance C .",
+      "pdf_page": 259,
+      "printed_page": 266,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It must be L sufficiently large compared to the GBW, to provide a sufficient phase margin.",
+      "pdf_page": 259,
+      "printed_page": 266,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0259_01_097.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "They need to be connected by a compensation capacitance C to provide pole c splitting and to generate a dominant pole.",
+        "pdf_page": 259,
+        "printed_page": 266,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The GBW is therefore determined by this compensation capacitance C . c For stability, the nondominant pole is now determined by the load capacitance C .",
+      "pdf_page": 259,
+      "printed_page": 266,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is normally set at two to three times the GBW m3 L depending on the phase margin required.",
+      "pdf_page": 259,
+      "printed_page": 266,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "It must be L sufficiently large compared to the GBW, to provide a sufficient phase margin.",
+      "pdf_page": 259,
+      "printed_page": 266,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A ratio of three is taken for a phase margin of about 70°.",
+      "pdf_page": 259,
+      "printed_page": 266,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is normally set at two to three times the GBW m3 L depending on the phase margin required.",
+      "pdf_page": 259,
+      "printed_page": 266,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-097-M01",
+      "ocr_text": "GBW =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6993243250422297,
+        0.25853658515243905,
+        0.8141891899070945,
+        0.30243902417682933
+      ],
+      "context_crop": "regions/SANSEN-097_math_01.png",
+      "context_bbox_normalized": [
+        0.6593243250422297,
+        0.15853658515243904,
+        1,
+        0.43243902417682933
+      ],
+      "source_image": "slides/p0259_01_097.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-097-M02",
+      "ocr_text": "fnd1 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7229729718327702,
+        0.41463414554878053,
+        0.8209459448057432,
+        0.47804877969512205
+      ],
+      "context_crop": "regions/SANSEN-097_math_02.png",
+      "context_bbox_normalized": [
+        0.6829729718327702,
+        0.31463414554878055,
+        1,
+        0.608048779695122
+      ],
+      "source_image": "slides/p0259_01_097.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-097-M03",
+      "ocr_text": "fnd1 = 3 GBW",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6993243225929054,
+        0.8195121958536585,
+        0.8986486469172298,
+        0.8780487812195122
+      ],
+      "context_crop": "regions/SANSEN-097_math_03.png",
+      "context_bbox_normalized": [
+        0.6593243225929054,
+        0.7195121958536586,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0259_01_097.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

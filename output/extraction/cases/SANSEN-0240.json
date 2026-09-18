@@ -1,0 +1,419 @@
+{
+  "case_id": "SANSEN-0240",
+  "slide_id": "0240",
+  "chapter": 2,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 69,
+    "printed_page": 70
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0069_02_0240.jpg",
+      "pdf_page": 69,
+      "printed_page": 70,
+      "bbox_pt": [
+        91.521622,
+        479.27398700000003,
+        374.78981,
+        675.733978
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 69,
+      "printed_page": 70,
+      "bbox_pt": [
+        0,
+        475.2845000000001,
+        595,
+        797
+      ],
+      "text_raw": "A Source follower is an ideal\nbuffer in the sense that it\ntranslates an input voltage\nunattenuated (if the Bulk is\nconnected to the Source)\nfrom an infinite impedance\nat the input to a mere 1/g\nm\nto the output.\nThis is not true for its\nbipolar equivalent, an emit-\nter follower.\nA bipolar transistor has\nBase current. As a result it\nhas a finite input resistance\n(r ). This causes an addi-\np\ntional term in the expression\nof the output resistance. This term is the sum of all the resistances, seen at the input, divided by",
+      "text": "A Source follower is an ideal buffer in the sense that it translates an input voltage unattenuated (if the Bulk is connected to the Source) from an infinite impedance at the input to a mere 1/g m to the output. This is not true for its bipolar equivalent, an emitter follower. A bipolar transistor has Base current. As a result it has a finite input resistance (r ). This causes an addip tional term in the expression of the output resistance. This term is the sum of all the resistances, seen at the input, divided by"
+    },
+    {
+      "pdf_page": 70,
+      "printed_page": 71,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        237.02124999999978
+      ],
+      "text_raw": "b+1 or simply b. A bipolar transistor only provides a limited amount of isolation between input\nand output, which is about b. The higher the beta the better the isolation. A MOST, which has\na beta of infinity also provides infinite isolation.\nThe same is true for the input resistance. It can never be infinite, as for a MOST source\nfollower. It will be the resistance seen at the emitter, multiplied by the beta. This may be\ninsufficient for some preamplifiers (microphone, etc). This is why, quite often, a few emitter\nfollowers are cascaded.",
+      "text": "b+1 or simply b. A bipolar transistor only provides a limited amount of isolation between input and output, which is about b. The higher the beta the better the isolation. A MOST, which has a beta of infinity also provides infinite isolation. The same is true for the input resistance. It can never be infinite, as for a MOST source follower. It will be the resistance seen at the emitter, multiplied by the beta. This may be insufficient for some preamplifiers (microphone, etc). This is why, quite often, a few emitter followers are cascaded."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A Source follower is an ideal buffer in the sense that it translates an input voltage unattenuated (if the Bulk is connected to the Source) from an infinite impedance at the input to a mere 1/g m to the output. This is not true for its bipolar equivalent, an emitter follower. A bipolar transistor has Base current. As a result it has a finite input resistance (r ). This causes an addip tional term in the expression of the output resistance. This term is the sum of all the resistances, seen at the input, divided by\n\nb+1 or simply b. A bipolar transistor only provides a limited amount of isolation between input and output, which is about b. The higher the beta the better the isolation. A MOST, which has a beta of infinity also provides infinite isolation. The same is true for the input resistance. It can never be infinite, as for a MOST source follower. It will be the resistance seen at the emitter, multiplied by the beta. This may be insufficient for some preamplifiers (microphone, etc). This is why, quite often, a few emitter followers are cascaded.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Emitter follower",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0069_02_0240.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432222490348,
+          0.0829268295121951,
+          0.3682432411438224,
+          0.136585366097561
+        ],
+        "confidence": 1,
+        "text": "Emitter follower"
+      },
+      {
+        "bbox": [
+          0.37837837778716216,
+          0.24878048735772362,
+          0.4560810804898649,
+          0.3024390239430894
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ROUT"
+      },
+      {
+        "bbox": [
+          0.398648647972973,
+          0.3707317067682927,
+          0.4594594587837838,
+          0.414634145792683
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.4358108105292793,
+          0.48780487756097557,
+          0.4831081078265766,
+          0.5463414629268293
+        ],
+        "confidence": 0.5,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.0641891897804054,
+          0.5365853657926829,
+          0.11148648707770269,
+          0.5902439023780487
+        ],
+        "confidence": 0.5,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.35135135118243244,
+          0.6780487801742161,
+          0.37499999983108107,
+          0.7219512191986064
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.4222972964527027,
+          0.6780487805284553,
+          0.5236486478040541,
+          0.7414634146747967
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RstrB"
+      },
+      {
+        "bbox": [
+          0.23648648753378376,
+          0.7170731703902439,
+          0.3412162172635135,
+          0.7707317069756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RouT ="
+      },
+      {
+        "bbox": [
+          0.3918918920608109,
+          0.72195122,
+          0.41891891908783785,
+          0.7609756102439024
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.3378378371621622,
+          0.7560975610365854,
+          0.39189189121621626,
+          0.8097560976219512
+        ],
+        "confidence": 1,
+        "text": "9m"
+      },
+      {
+        "bbox": [
+          0.4391891894256757,
+          0.7560975604878049,
+          0.5033783786148649,
+          0.804878048292683
+        ],
+        "confidence": 0.5,
+        "text": "ß+1"
+      },
+      {
+        "bbox": [
+          0.08783784130067564,
+          0.839024389512195,
+          0.3986486521114864,
+          0.8975609748780488
+        ],
+        "confidence": 1,
+        "text": "Limited isolation !"
+      },
+      {
+        "bbox": [
+          0.6418918915781854,
+          0.3170731707665505,
+          0.6858108104971042,
+          0.3804878049128919
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.8513513507432432,
+          0.3707317074146341,
+          0.9121621615540539,
+          0.4097560976585366
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.564189188597973,
+          0.39512195134146344,
+          0.6114864858952703,
+          0.4439024391463414
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.5743243247888512,
+          0.5365853665243903,
+          0.6182432437077702,
+          0.590243903109756
+        ],
+        "confidence": 1,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.8277027023986486,
+          0.48780487751219526,
+          0.8716216213175675,
+          0.541463414097561
+        ],
+        "confidence": 1,
+        "text": "RE"
+      },
+      {
+        "bbox": [
+          0.6013513528840349,
+          0.7170731699186992,
+          0.7094594545483975,
+          0.7658536577235773
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = 1,"
+      },
+      {
+        "bbox": [
+          0.7027027055743243,
+          0.7121951219512195,
+          0.9324324353040541,
+          0.7707317073170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ rg+ (B+1)RE"
+      },
+      {
+        "bbox": [
+          0.7229729825135651,
+          0.9268292688052938,
+          0.9358108074639122,
+          0.9658536578861788
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0240"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0069_02_0240.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A Source follower is an ideal buffer in the sense that it translates an input voltage unattenuated (if the Bulk is connected to the Source) from an infinite impedance at the input to a mere 1/g m to the output.",
+        "pdf_page": 69,
+        "printed_page": 70,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This is not true for its bipolar equivalent, an emitter follower.",
+        "pdf_page": 69,
+        "printed_page": 70,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "A bipolar transistor has Base current.",
+        "pdf_page": 69,
+        "printed_page": 70,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It can never be infinite, as for a MOST source follower.",
+        "pdf_page": 70,
+        "printed_page": 71,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It will be the resistance seen at the emitter, multiplied by the beta.",
+        "pdf_page": 70,
+        "printed_page": 71,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This is why, quite often, a few emitter followers are cascaded.",
+        "pdf_page": 70,
+        "printed_page": 71,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result it has a finite input resistance (r ).",
+      "pdf_page": 69,
+      "printed_page": 70,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A bipolar transistor only provides a limited amount of isolation between input and output, which is about b.",
+      "pdf_page": 70,
+      "printed_page": 71,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0240-M01",
+      "ocr_text": "RouT =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.23648648753378376,
+        0.7170731703902439,
+        0.3412162172635135,
+        0.7707317069756098
+      ],
+      "context_crop": "regions/SANSEN-0240_math_01.png",
+      "context_bbox_normalized": [
+        0.19648648753378375,
+        0.6170731703902439,
+        0.5712162172635135,
+        0.9007317069756098
+      ],
+      "source_image": "slides/p0069_02_0240.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0240-M02",
+      "ocr_text": "RIN = 1,",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6013513528840349,
+        0.7170731699186992,
+        0.7094594545483975,
+        0.7658536577235773
+      ],
+      "context_crop": "regions/SANSEN-0240_math_02.png",
+      "context_bbox_normalized": [
+        0.5613513528840348,
+        0.6170731699186992,
+        0.9394594545483975,
+        0.8958536577235773
+      ],
+      "source_image": "slides/p0069_02_0240.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "08-followers-dc",
+    "title": "源极与射极跟随器：DC",
+    "summary_zh": "由输出节点 KCL 求跟随增益、输出阻抗与衬底固定时的体效应。",
+    "html": "../derivations/ch02/08-followers-dc.html",
+    "markdown": "../derivations/ch02/08-followers-dc.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "源极与射极跟随器：DC",
+    "case_ids": [
+      "follower_dc"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#08-followers-dc",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

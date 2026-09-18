@@ -1,0 +1,53 @@
+Noise performance of elementary transistor stages 135
+transistor, squared. Even if this gain is very low, as in deep submicron CMOS, the squaring will
+make sure that the noise of M2 is neglected.
+As a result, the noise of a two-transistor cascode is the same as for the input transistor. And
+yet the cascode does contribute to the gain! This is why cascodes are so frequently used!
+0436
+Another way to look at the
+noise performance is to con-
+centrate on the cascode
+only.
+Current source i is the
+S
+input current source,
+coming eventually from
+another transistor. Current
+source i is the cascode
+N
+noise current.
+For large values of load
+resistor R , we find that the
+L
+cascode noise current i is
+N
+simply multiplied by R
+S
+toward the output. The
+input signal current i is
+S
+multiplied by a much larger factor, i.e. g r R , or g R times greater than i .
+m DS S m S N
+This factor g R is therefore the value by which the input current is more amplified than the
+m S
+cascode noise current. This is why the noise of the cascode is negligible.
+This factor g R depends on R however. If the cascode is not driven by a real current source,
+m S S
+with large output resistance, then this noise reduction decreases, as shown next.
+0437
+Indeed, the voltage gains
+across the cascode are
+shown, versus load resis-
+tance R .
+L
+For a high load resistance,
+the gain reduction g R is
+m S
+clearly visible.
+This means that the cas-
+code cannot be driven by a
+low resistance, or by a volt-
+age source, as suggested in
+some wideband amplifiers.
+The noise performance then
+deteriorates really badly.

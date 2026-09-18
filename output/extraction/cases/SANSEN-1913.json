@@ -1,0 +1,417 @@
+{
+  "case_id": "SANSEN-1913",
+  "slide_id": "1913",
+  "chapter": 19,
+  "slide_number_in_chapter": 13,
+  "source": {
+    "pdf_page": 561,
+    "printed_page": 572
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0562_01_1913.jpg",
+      "pdf_page": 562,
+      "printed_page": 573,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 561,
+      "printed_page": 572,
+      "bbox_pt": [
+        0,
+        570.9485,
+        595,
+        797
+      ],
+      "text_raw": "The tuning circuit is a Phase-locked loop. It generates the filter control voltage V , as a result\nc\nof a feedback loop.\nThis loop consists of a Voltage-controlled oscillator (VCO), which generates a frequency\n(phase), which is compared to the reference frequency (phase) of the clock in the phase detector.\nThe output of this phase detector, which is actually a multiplier, contains the sum and the\ndifference of the input frequencies. The sum frequency is a high frequency and is filtered out by\nthe low-pass loop filter. The difference frequency is a slowly varying signal, which is fed back to\nthe VCO. This is control frequency V indeed.\nc\nThe VCO uses the same opamps as in the filter. Also, the capacitors and MOST resistors are",
+      "text": "The tuning circuit is a Phase-locked loop. It generates the filter control voltage V , as a result c of a feedback loop. This loop consists of a Voltage-controlled oscillator (VCO), which generates a frequency (phase), which is compared to the reference frequency (phase) of the clock in the phase detector. The output of this phase detector, which is actually a multiplier, contains the sum and the difference of the input frequencies. The sum frequency is a high frequency and is filtered out by the low-pass loop filter. The difference frequency is a slowly varying signal, which is fed back to the VCO. This is control frequency V indeed. c The VCO uses the same opamps as in the filter. Also, the capacitors and MOST resistors are"
+    },
+    {
+      "pdf_page": 562,
+      "printed_page": 573,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        381.61350000000016
+      ],
+      "text_raw": "of the same order of magni-\ntude as the ones in the filter,\nfor good matching. A con-\ntrol Voltage V is obtained\nc\nwhich generates a VCO fre-\nquency f , which is locked to\nc\nthe external clock frequency.\nAs a result, the filter fre-\nquencies are also locked to\nthe external clock frequency.\nThis clock is most often a\ncrystal oscillator with high\naccuracy (see Chapter 22).\nThe filter frequencies can be\nexpected to have similar\nhigh accuracies.\nThe main disadvantage of\nsuch a tuning circuit is that a lot of additional circuitry is required and that the VCO frequency\nf is in the same region as the filter frequency. Leakage from the VCO to the signal path is thus\nc\nhard to avoid. Other tuning schemes will be discussed later.",
+      "text": "of the same order of magnitude as the ones in the filter, for good matching. A control Voltage V is obtained c which generates a VCO frequency f , which is locked to c the external clock frequency. As a result, the filter frequencies are also locked to the external clock frequency. This clock is most often a crystal oscillator with high accuracy (see Chapter 22). The filter frequencies can be expected to have similar high accuracies. The main disadvantage of such a tuning circuit is that a lot of additional circuitry is required and that the VCO frequency f is in the same region as the filter frequency. Leakage from the VCO to the signal path is thus c hard to avoid. Other tuning schemes will be discussed later."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The tuning circuit is a Phase-locked loop. It generates the filter control voltage V , as a result c of a feedback loop. This loop consists of a Voltage-controlled oscillator (VCO), which generates a frequency (phase), which is compared to the reference frequency (phase) of the clock in the phase detector. The output of this phase detector, which is actually a multiplier, contains the sum and the difference of the input frequencies. The sum frequency is a high frequency and is filtered out by the low-pass loop filter. The difference frequency is a slowly varying signal, which is fed back to the VCO. This is control frequency V indeed. c The VCO uses the same opamps as in the filter. Also, the capacitors and MOST resistors are\n\nof the same order of magnitude as the ones in the filter, for good matching. A control Voltage V is obtained c which generates a VCO frequency f , which is locked to c the external clock frequency. As a result, the filter frequencies are also locked to the external clock frequency. This clock is most often a crystal oscillator with high accuracy (see Chapter 22). The filter frequencies can be expected to have similar high accuracies. The main disadvantage of such a tuning circuit is that a lot of additional circuitry is required and that the VCO frequency f is in the same region as the filter frequency. Leakage from the VCO to the signal path is thus c hard to avoid. Other tuning schemes will be discussed later.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "PLL tuning",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0562_01_1913.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07752607408001277,
+          0.07680919631365546,
+          0.28733879254875616,
+          0.14270300221292653
+        ],
+        "confidence": 1,
+        "text": "PLL tuning"
+      },
+      {
+        "bbox": [
+          0.043918919932432396,
+          0.20975609731707312,
+          0.10472973074324321,
+          0.23414634121951217
+        ],
+        "confidence": 1,
+        "text": "CLOCK"
+      },
+      {
+        "bbox": [
+          0.1554054046875,
+          0.3024390238414634,
+          0.36824324252533785,
+          0.34634146286585366
+        ],
+        "confidence": 1,
+        "text": "VOLTAGE - CONTROLLED"
+      },
+      {
+        "bbox": [
+          0.17905405118243256,
+          0.3463414636585366,
+          0.3513513484797299,
+          0.3707317075609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OSCILLATOR (VCO)"
+      },
+      {
+        "bbox": [
+          0.23986486513030886,
+          0.37560975588850176,
+          0.27702702729247103,
+          0.4146341461324041
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ivc"
+      },
+      {
+        "bbox": [
+          0.31756756832770267,
+          0.8682926826829269,
+          0.37837837913851347,
+          0.8975609753658538
+        ],
+        "confidence": 1,
+        "text": "Filter"
+      },
+      {
+        "bbox": [
+          0.49318740914482495,
+          0.21429449590119165,
+          0.5777585387117393,
+          0.2442420884736597
+        ],
+        "confidence": 1,
+        "text": "VOLTAGE"
+      },
+      {
+        "bbox": [
+          0.47972973119369366,
+          0.24390243951219515,
+          0.5945945960585586,
+          0.273170732195122
+        ],
+        "confidence": 1,
+        "text": "COMPARATOR"
+      },
+      {
+        "bbox": [
+          0.49662162060810816,
+          0.512195122195122,
+          0.5777027016891892,
+          0.5414634148780487
+        ],
+        "confidence": 1,
+        "text": "VOLTAGE"
+      },
+      {
+        "bbox": [
+          0.47972973164414406,
+          0.5463414631707318,
+          0.5945945965090089,
+          0.5707317070731708
+        ],
+        "confidence": 1,
+        "text": "COMPARATOR"
+      },
+      {
+        "bbox": [
+          0.4154979850314637,
+          0.7070561194206872,
+          0.543961472398836,
+          0.7514804671818879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LOÕP FILTER"
+      },
+      {
+        "bbox": [
+          0.736486486936937,
+          0.23414634203252027,
+          0.8513513518018019,
+          0.26829268349593494
+        ],
+        "confidence": 1,
+        "text": "Problems:"
+      },
+      {
+        "bbox": [
+          0.7364864887246622,
+          0.28292682902439026,
+          0.9155405427787162,
+          0.3121951217073171
+        ],
+        "confidence": 1,
+        "text": "Master/slave for"
+      },
+      {
+        "bbox": [
+          0.7533783780968468,
+          0.33170731764227634,
+          0.9189189186373873,
+          0.365853659105691
+        ],
+        "confidence": 1,
+        "text": "each pole/zero"
+      },
+      {
+        "bbox": [
+          0.7330503708950074,
+          0.38005054534959715,
+          0.9088415184879128,
+          0.42970555250261966
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VCO + PLL at fc"
+      },
+      {
+        "bbox": [
+          0.7364864843581082,
+          0.4292682928780488,
+          0.949324322195946,
+          0.46829268312195116
+        ],
+        "confidence": 1,
+        "text": "Signal feedthrough"
+      },
+      {
+        "bbox": [
+          0.7533783784206081,
+          0.4731707309756097,
+          0.8040540540962837,
+          0.5317073163414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "at fo"
+      },
+      {
+        "bbox": [
+          0.6383813641671334,
+          0.6188063391120399,
+          0.6994564716384964,
+          0.6446082954748805
+        ],
+        "confidence": 0.5,
+        "text": "PHASE"
+      },
+      {
+        "bbox": [
+          0.6249999998310811,
+          0.6487804877628258,
+          0.7229729728040541,
+          0.6731707316652649
+        ],
+        "confidence": 1,
+        "text": "DETECTOR"
+      },
+      {
+        "bbox": [
+          0.7500000007882882,
+          0.6097560975609756,
+          0.7972972980855855,
+          0.6390243902439025
+        ],
+        "confidence": 1,
+        "text": "Ref."
+      },
+      {
+        "bbox": [
+          0.7500000027027026,
+          0.6487804877439025,
+          0.9662162189189187,
+          0.6829268292073172
+        ],
+        "confidence": 1,
+        "text": "Banu JSSC Dec.85,"
+      },
+      {
+        "bbox": [
+          0.7500000019144143,
+          0.687804877886179,
+          0.8648648667792792,
+          0.7170731705691058
+        ],
+        "confidence": 1,
+        "text": "1114-1121"
+      },
+      {
+        "bbox": [
+          0.7500000087523039,
+          0.7268292689430895,
+          0.962837833702651,
+          0.7658536580239744
+        ],
+        "confidence": 1,
+        "text": "Krummenacher, JS"
+      },
+      {
+        "bbox": [
+          0.746621623536036,
+          0.765853658292683,
+          0.9763513532657657,
+          0.8048780485365854
+        ],
+        "confidence": 1,
+        "text": "SC June 88, 750-758"
+      },
+      {
+        "bbox": [
+          0.7465385444405899,
+          0.8042290103165916,
+          0.9088668650211497,
+          0.8494295256914963
+        ],
+        "confidence": 1,
+        "text": "Khoury, JSSC"
+      },
+      {
+        "bbox": [
+          0.7466216212415541,
+          0.8439024396341462,
+          0.9527027023226351,
+          0.8926829274390243
+        ],
+        "confidence": 1,
+        "text": "Dec.91, 1988-1997"
+      },
+      {
+        "bbox": [
+          0.7263513531418918,
+          0.9512195118536585,
+          0.9391891909797296,
+          0.9853658533170732
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1913"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This loop consists of a Voltage-controlled oscillator (VCO), which generates a frequency (phase), which is compared to the reference frequency (phase) of the clock in the phase detector.",
+      "pdf_page": 561,
+      "printed_page": 572,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0562_01_1913.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It generates the filter control voltage V , as a result c of a feedback loop.",
+      "pdf_page": 561,
+      "printed_page": 572,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the filter frequencies are also locked to the external clock frequency.",
+      "pdf_page": 562,
+      "printed_page": 573,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Leakage from the VCO to the signal path is thus c hard to avoid.",
+      "pdf_page": 562,
+      "printed_page": 573,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "The tuning circuit is a Phase-locked loop.",
+      "pdf_page": 561,
+      "printed_page": 572,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This loop consists of a Voltage-controlled oscillator (VCO), which generates a frequency (phase), which is compared to the reference frequency (phase) of the clock in the phase detector.",
+      "pdf_page": 561,
+      "printed_page": 572,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output of this phase detector, which is actually a multiplier, contains the sum and the difference of the input frequencies.",
+      "pdf_page": 561,
+      "printed_page": 572,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

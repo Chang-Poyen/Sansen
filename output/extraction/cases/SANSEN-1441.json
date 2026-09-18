@@ -1,0 +1,603 @@
+{
+  "case_id": "SANSEN-1441",
+  "slide_id": "1441",
+  "chapter": 14,
+  "slide_number_in_chapter": 41,
+  "source": {
+    "pdf_page": 401,
+    "printed_page": 409
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0401_01_1441.jpg",
+      "pdf_page": 401,
+      "printed_page": 409,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 401,
+      "printed_page": 409,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        417.4875000000001
+      ],
+      "text_raw": "In order to find the band-\nwidth, we have to find the\nnode with the largest time\nconstant. This is most likely\nthe input node. Indeed the\ncapacitance C at the input\nP\nis the sum of the diode\ncapacitance C and the\nD\ninput capacitance C of the\nGS\ninput transistor. Since they\nare about the same, because\nof noise matching (see\nChapter 4), we can as well\ntake 2C for C .\nD P\nThis time constant is then\nR C /A A . It is smaller, or\nF P 1 2\nthe BW is larger for smaller R and larger gains A and A .\nF 1 2\nThe A BW product however only depends on the diode capacitance C and the two gains A\nR D 1\nand A .\n2\nIn order to increase the gain A we have to increase load resistor R . The capacitance at that\n1 L\nDrain will cause a second pole however, as shown next.",
+      "text": "In order to find the bandwidth, we have to find the node with the largest time constant. This is most likely the input node. Indeed the capacitance C at the input P is the sum of the diode capacitance C and the D input capacitance C of the GS input transistor. Since they are about the same, because of noise matching (see Chapter 4), we can as well take 2C for C . D P This time constant is then R C /A A . It is smaller, or F P 1 2 the BW is larger for smaller R and larger gains A and A . F 1 2 The A BW product however only depends on the diode capacitance C and the two gains A R D 1 and A . 2 In order to increase the gain A we have to increase load resistor R . The capacitance at that 1 L Drain will cause a second pole however, as shown next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to find the bandwidth, we have to find the node with the largest time constant. This is most likely the input node. Indeed the capacitance C at the input P is the sum of the diode capacitance C and the D input capacitance C of the GS input transistor. Since they are about the same, because of noise matching (see Chapter 4), we can as well take 2C for C . D P This time constant is then R C /A A . It is smaller, or F P 1 2 the BW is larger for smaller R and larger gains A and A . F 1 2 The A BW product however only depends on the diode capacitance C and the two gains A R D 1 and A . 2 In order to increase the gain A we have to increase load resistor R . The capacitance at that 1 L Drain will cause a second pole however, as shown next.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈跨阻放大器与电流放大器",
+  "title": "Current detector with voltage amplifier",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0401_01_1441.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243301520269,
+          0.0829268290243903,
+          0.7736486544763512,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Current detector with voltage amplifier"
+      },
+      {
+        "bbox": [
+          0.6114864868524774,
+          0.1902439023170731,
+          0.6554054057713964,
+          0.2341463413414634
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.6148648645608108,
+          0.26341463365853657,
+          0.652027026722973,
+          0.31219512146341466
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TIN"
+      },
+      {
+        "bbox": [
+          0.351351351722973,
+          0.28780487858536585,
+          0.3952702706418919,
+          0.34146341517073164
+        ],
+        "confidence": 0.5,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.2804054047972973,
+          0.4390243894146342,
+          0.3614864858783784,
+          0.5219512186829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ZRL"
+      },
+      {
+        "bbox": [
+          0.4054054067567567,
+          0.4195121958536585,
+          0.5270270283783783,
+          0.4780487812195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A= A,A2"
+      },
+      {
+        "bbox": [
+          0.459459459839527,
+          0.5707317079268293,
+          0.4966216220016892,
+          0.6195121957317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A2"
+      },
+      {
+        "bbox": [
+          0.08095278757358997,
+          0.7356029997175564,
+          0.256885053190342,
+          0.7863482194366755
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cp =Cp + CGs"
+      },
+      {
+        "bbox": [
+          0.28705326373455825,
+          0.7360130913515801,
+          0.40889268395006184,
+          0.7859381278982408
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,= 9mRL"
+      },
+      {
+        "bbox": [
+          0.08783784324324306,
+          0.8292682926829268,
+          0.4121621675675674,
+          0.8682926829268293
+        ],
+        "confidence": 0.5,
+        "text": "Noise matching : Cp = Cgs"
+      },
+      {
+        "bbox": [
+          0.8344594592905404,
+          0.1853658531219512,
+          0.858108107939189,
+          0.2390243897073171
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6822297307460029,
+          0.2617560957047542,
+          0.8633783757861541,
+          0.3553170728031727
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,A2 1 + RF"
+      },
+      {
+        "bbox": [
+          0.8783783788175675,
+          0.26341463409756094,
+          0.9222972977364865,
+          0.31707317068292684
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cр"
+      },
+      {
+        "bbox": [
+          0.939189189358108,
+          0.3024390247804878,
+          0.9628378380067567,
+          0.34146341502439026
+        ],
+        "confidence": 0.5,
+        "text": "S"
+      },
+      {
+        "bbox": [
+          0.8648648644003377,
+          0.3268292684756098,
+          0.9391891887246621,
+          0.3853658538414635
+        ],
+        "confidence": 0.5,
+        "text": "A,A2"
+      },
+      {
+        "bbox": [
+          0.6114864870495496,
+          0.41463414617886185,
+          0.6790540546171171,
+          0.46341463398373983
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6790540544481982,
+          0.45365853634146336,
+          0.7027027030968469,
+          0.4780487802439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.6283783779983108,
+          0.4878048773780488,
+          0.6655405401604729,
+          0.5414634139634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TIn"
+      },
+      {
+        "bbox": [
+          0.8175675677787162,
+          0.4146341469512196,
+          0.8412162164273649,
+          0.46341463475609757
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.8648648645270272,
+          0.48780487756097557,
+          0.9054054050675677,
+          0.5365853653658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ср"
+      },
+      {
+        "bbox": [
+          0.7500000012246623,
+          0.5219512195731707,
+          0.8479729741976353,
+          0.5756097561585366
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + RF"
+      },
+      {
+        "bbox": [
+          0.9290540538006756,
+          0.5268292684756097,
+          0.9493243240709459,
+          0.5609756099390244
+        ],
+        "confidence": 0.5,
+        "text": "S"
+      },
+      {
+        "bbox": [
+          0.841216215160473,
+          0.5560975607317074,
+          0.9256756746199325,
+          0.614634146097561
+        ],
+        "confidence": 1,
+        "text": "A,A2"
+      },
+      {
+        "bbox": [
+          0.5168918912162163,
+          0.6243902434146342,
+          0.5912162155405406,
+          0.6731707312195122
+        ],
+        "confidence": 1,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.7432432438626126,
+          0.6243902444308943,
+          0.8243243249436937,
+          0.6878048785772357
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,A2"
+      },
+      {
+        "bbox": [
+          0.6351351347691442,
+          0.6682926825609756,
+          0.6858108104448198,
+          0.7121951215853658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T="
+      },
+      {
+        "bbox": [
+          0.7092668223405486,
+          0.7013058035387192,
+          0.8718142560390482,
+          0.762108830808036
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + R=CpS"
+      },
+      {
+        "bbox": [
+          0.8378378388513514,
+          0.8000000003048782,
+          0.9189189199324325,
+          0.8634146344512196
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,A2"
+      },
+      {
+        "bbox": [
+          0.5506756778716216,
+          0.8439024386585365,
+          0.8141891913851351,
+          0.8975609752439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "AR BW (THzS) ="
+      },
+      {
+        "bbox": [
+          0.8344594602477476,
+          0.8829268292682927,
+          0.9290540548423423,
+          0.9414634146341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 C."
+      },
+      {
+        "bbox": [
+          0.7229729756334459,
+          0.9365853655487804,
+          0.9358108134712837,
+          0.970731707012195
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1441"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In order to find the bandwidth, we have to find the node with the largest time constant.",
+      "pdf_page": 401,
+      "printed_page": 409,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The capacitance at that 1 L Drain will cause a second pole however, as shown next.",
+      "pdf_page": 401,
+      "printed_page": 409,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0401_01_1441.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The capacitance at that 1 L Drain will cause a second pole however, as shown next.",
+        "pdf_page": 401,
+        "printed_page": 409,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In order to find the bandwidth, we have to find the node with the largest time constant.",
+      "pdf_page": 401,
+      "printed_page": 409,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "F 1 2 The A BW product however only depends on the diode capacitance C and the two gains A R D 1 and A . 2 In order to increase the gain A we have to increase load resistor R .",
+      "pdf_page": 401,
+      "printed_page": 409,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1441-M01",
+      "ocr_text": "A= A,A2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4054054067567567,
+        0.4195121958536585,
+        0.5270270283783783,
+        0.4780487812195122
+      ],
+      "context_crop": "regions/SANSEN-1441_math_01.png",
+      "context_bbox_normalized": [
+        0.3654054067567567,
+        0.31951219585365853,
+        0.7570270283783783,
+        0.6080487812195122
+      ],
+      "source_image": "slides/p0401_01_1441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1441-M02",
+      "ocr_text": "Cp =Cp + CGs",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08095278757358997,
+        0.7356029997175564,
+        0.256885053190342,
+        0.7863482194366755
+      ],
+      "context_crop": "regions/SANSEN-1441_math_02.png",
+      "context_bbox_normalized": [
+        0.040952787573589965,
+        0.6356029997175564,
+        0.48688505319034203,
+        0.9163482194366755
+      ],
+      "source_image": "slides/p0401_01_1441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1441-M03",
+      "ocr_text": "A,= 9mRL",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.28705326373455825,
+        0.7360130913515801,
+        0.40889268395006184,
+        0.7859381278982408
+      ],
+      "context_crop": "regions/SANSEN-1441_math_03.png",
+      "context_bbox_normalized": [
+        0.24705326373455824,
+        0.6360130913515801,
+        0.6388926839500618,
+        0.9159381278982408
+      ],
+      "source_image": "slides/p0401_01_1441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1441-M04",
+      "ocr_text": "Noise matching : Cp = Cgs",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08783784324324306,
+        0.8292682926829268,
+        0.4121621675675674,
+        0.8682926829268293
+      ],
+      "context_crop": "regions/SANSEN-1441_math_04.png",
+      "context_bbox_normalized": [
+        0.04783784324324306,
+        0.7292682926829268,
+        0.6421621675675674,
+        0.93
+      ],
+      "source_image": "slides/p0401_01_1441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1441-M05",
+      "ocr_text": "=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6790540544481982,
+        0.45365853634146336,
+        0.7027027030968469,
+        0.4780487802439024
+      ],
+      "context_crop": "regions/SANSEN-1441_math_05.png",
+      "context_bbox_normalized": [
+        0.6390540544481982,
+        0.3536585363414634,
+        0.9327027030968469,
+        0.6080487802439024
+      ],
+      "source_image": "slides/p0401_01_1441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1441-M06",
+      "ocr_text": "T=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6351351347691442,
+        0.6682926825609756,
+        0.6858108104448198,
+        0.7121951215853658
+      ],
+      "context_crop": "regions/SANSEN-1441_math_06.png",
+      "context_bbox_normalized": [
+        0.5951351347691441,
+        0.5682926825609756,
+        0.9158108104448198,
+        0.8421951215853658
+      ],
+      "source_image": "slides/p0401_01_1441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1441-M07",
+      "ocr_text": "1 + R=CpS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7092668223405486,
+        0.7013058035387192,
+        0.8718142560390482,
+        0.762108830808036
+      ],
+      "context_crop": "regions/SANSEN-1441_math_07.png",
+      "context_bbox_normalized": [
+        0.6692668223405486,
+        0.6013058035387192,
+        1,
+        0.892108830808036
+      ],
+      "source_image": "slides/p0401_01_1441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1441-M08",
+      "ocr_text": "AR BW (THzS) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5506756778716216,
+        0.8439024386585365,
+        0.8141891913851351,
+        0.8975609752439024
+      ],
+      "context_crop": "regions/SANSEN-1441_math_08.png",
+      "context_bbox_normalized": [
+        0.5106756778716216,
+        0.7439024386585366,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0401_01_1441.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback transimpedance and current amplifiers"
+}

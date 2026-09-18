@@ -1,0 +1,288 @@
+{
+  "case_id": "SANSEN-1729",
+  "slide_id": "1729",
+  "chapter": 17,
+  "slide_number_in_chapter": 29,
+  "source": {
+    "pdf_page": 489,
+    "printed_page": 499
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0489_02_1729.jpg",
+      "pdf_page": 489,
+      "printed_page": 499,
+      "bbox_pt": [
+        91.52162,
+        373.64495999999997,
+        374.54215999999997,
+        570.10492
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 489,
+      "printed_page": 499,
+      "bbox_pt": [
+        0,
+        369.65551000000005,
+        595,
+        797
+      ],
+      "text_raw": "The bandwidth of the\nanalog signal is limited. Its\nspectral content is limited\nto f .\ns\nWhen this signal is\nsampled by clock frequency\nf , it is actually multiplied\nc\nby this clock frequency. Its\nspectrum appears as two\nsidebands on both sides of\nthe clock frequency, as\nshown in the middle.\nNote that the signal\nbands appear on all the har-\nmonics of the clock\nfrequency.\nCare has to be taken that the frequency bands do not overlap. This is called aliasing. To avoid\noverlap, the signal frequency f must be smaller than half the clock frequency f . This is called\ns c\nthe Nyquist criterion.\nWhen the signal bandwidth f is too large, aliasing occurs (at the bottom), the information in\ns\nthe overlap frequency band does not know to which band it belongs. It is lost. Aliasing must be\navoided at all cost. To achieve this, a low-pass filter is applied before sampling. This filter is\nnormally a passive filter. It is called an anti-aliasing filter.",
+      "text": "The bandwidth of the analog signal is limited. Its spectral content is limited to f . s When this signal is sampled by clock frequency f , it is actually multiplied c by this clock frequency. Its spectrum appears as two sidebands on both sides of the clock frequency, as shown in the middle. Note that the signal bands appear on all the harmonics of the clock frequency. Care has to be taken that the frequency bands do not overlap. This is called aliasing. To avoid overlap, the signal frequency f must be smaller than half the clock frequency f . This is called s c the Nyquist criterion. When the signal bandwidth f is too large, aliasing occurs (at the bottom), the information in s the overlap frequency band does not know to which band it belongs. It is lost. Aliasing must be avoided at all cost. To achieve this, a low-pass filter is applied before sampling. This filter is normally a passive filter. It is called an anti-aliasing filter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The bandwidth of the analog signal is limited. Its spectral content is limited to f . s When this signal is sampled by clock frequency f , it is actually multiplied c by this clock frequency. Its spectrum appears as two sidebands on both sides of the clock frequency, as shown in the middle. Note that the signal bands appear on all the harmonics of the clock frequency. Care has to be taken that the frequency bands do not overlap. This is called aliasing. To avoid overlap, the signal frequency f must be smaller than half the clock frequency f . This is called s c the Nyquist criterion. When the signal bandwidth f is too large, aliasing occurs (at the bottom), the information in s the overlap frequency band does not know to which band it belongs. It is lost. Aliasing must be avoided at all cost. To achieve this, a low-pass filter is applied before sampling. This filter is normally a passive filter. It is called an anti-aliasing filter.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Slide 1729",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0489_02_1729.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07742447764009443,
+          0.08509140032216922,
+          0.21410094269074326,
+          0.14905494149261522
+        ],
+        "confidence": 1,
+        "text": "Spectra"
+      },
+      {
+        "bbox": [
+          0.10158067067659633,
+          0.2576390732292829,
+          0.33909730017043904,
+          0.3228487317822436
+        ],
+        "confidence": 1,
+        "text": "Input signal vin"
+      },
+      {
+        "bbox": [
+          0.10169491822033892,
+          0.4487804875000001,
+          0.33898305381355925,
+          0.5024390240853659
+        ],
+        "confidence": 1,
+        "text": "Sampled signal"
+      },
+      {
+        "bbox": [
+          0.125118122295856,
+          0.5101715204089391,
+          0.3223395097387519,
+          0.5776333576192455
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(,/2 >> fsignal"
+      },
+      {
+        "bbox": [
+          0.11186440440677971,
+          0.6975609757560975,
+          0.34915254000000007,
+          0.7512195123414634
+        ],
+        "confidence": 1,
+        "text": "Sampled signal"
+      },
+      {
+        "bbox": [
+          0.14558378492881482,
+          0.7648075266303864,
+          0.32221282876653995,
+          0.8303144245334566
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f,/2 < fsignal"
+      },
+      {
+        "bbox": [
+          0.1620017823605248,
+          0.8253640010260095,
+          0.30918466075780365,
+          0.8917091693490611
+        ],
+        "confidence": 1,
+        "text": "Nyquist !"
+      },
+      {
+        "bbox": [
+          0.40677966227712514,
+          0.20487804869918702,
+          0.4338983047285246,
+          0.22926829260162607
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V."
+      },
+      {
+        "bbox": [
+          0.38305084851694915,
+          0.3999999998170731,
+          0.46779661122881355,
+          0.453658536402439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Youtl"
+      },
+      {
+        "bbox": [
+          0.3830508475847458,
+          0.6780487811585366,
+          0.45423728826271187,
+          0.7317073177439024
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(Youtl"
+      },
+      {
+        "bbox": [
+          0.7322033894067798,
+          0.8682926823170732,
+          0.7728813555084746,
+          0.9170731701219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "of,"
+      },
+      {
+        "bbox": [
+          0.8440677962994351,
+          0.8731707318292683,
+          0.8813559318926554,
+          0.9170731708536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3t."
+      },
+      {
+        "bbox": [
+          0.7186440656949153,
+          0.9463414636097561,
+          0.9288135572203391,
+          0.975609756292683
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-35 N1729"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Its spectrum appears as two sidebands on both sides of the clock frequency, as shown in the middle.",
+      "pdf_page": 489,
+      "printed_page": 499,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0489_02_1729.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The bandwidth of the analog signal is limited.",
+      "pdf_page": 489,
+      "printed_page": 499,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its spectral content is limited to f . s When this signal is sampled by clock frequency f , it is actually multiplied c by this clock frequency.",
+      "pdf_page": 489,
+      "printed_page": 499,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When the signal bandwidth f is too large, aliasing occurs (at the bottom), the information in s the overlap frequency band does not know to which band it belongs.",
+      "pdf_page": 489,
+      "printed_page": 499,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1729-M01",
+      "ocr_text": "(,/2 >> fsignal",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.125118122295856,
+        0.5101715204089391,
+        0.3223395097387519,
+        0.5776333576192455
+      ],
+      "context_crop": "regions/SANSEN-1729_math_01.png",
+      "context_bbox_normalized": [
+        0.085118122295856,
+        0.4101715204089391,
+        0.5523395097387519,
+        0.7076333576192455
+      ],
+      "source_image": "slides/p0489_02_1729.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1729-M02",
+      "ocr_text": "f,/2 < fsignal",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.14558378492881482,
+        0.7648075266303864,
+        0.32221282876653995,
+        0.8303144245334566
+      ],
+      "context_crop": "regions/SANSEN-1729_math_02.png",
+      "context_bbox_normalized": [
+        0.10558378492881482,
+        0.6648075266303864,
+        0.55221282876654,
+        0.93
+      ],
+      "source_image": "slides/p0489_02_1729.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

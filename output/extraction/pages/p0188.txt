@@ -1,0 +1,58 @@
+192 Chapter #6
+that C can easily be described as a function of the transistor width; the k parameter is
+GS
+about 2 fF/mm.
+Parameter c sets the ratio between f and C . We have taken 3 many times, let us take 2 for
+nd c
+this example.
+The maximum GBW can now easily be described as a fraction c of the non-dominant pole.
+Also, note that C can be described in terms of the width of the output transistor. Obviously,
+L
+the larger the C , the more current we will need to drive it, and the larger the transistor width
+L
+becomes!
+0622
+The last expression of C
+L
+can now be substituted in
+the expression of the GBW.
+We now take the general
+expression of g from the
+m
+first Chapter on models.
+Remember that this is the
+expression which spans both
+the strong inversion and
+velocity saturation regions.
+These are the regions which
+we will use for high speed.
+Substitution of this g
+m
+expression in the one of the
+GBW, yields an expression
+in which only V −V and
+GS T
+L are left as parameters.
+This is not surprising at all. We have known all along that these are the two choices that we
+have to make for any transistor in the signal path.
+It is surprising, however, to find that the maximum GBW does not depend on the load
+capacitance.
+Actually, increasing the load capacitance increases the width of the output transistor and its
+current. The speed of the output transistor mainly depends on its length!
+The speed of a MOST is better represented by parameter f . This is why we now try to
+T
+substitute the transistor parameters V −V and L by parameter f .
+GS T T
+0623
+The expression of parameter f for both the weak inversion and velocity saturation regions are
+T
+taken from Chapter 1. Clearly, it depends on V −V and L, very much as the GBW does.
+GS T
+Substitution now yields a final expression of the GBW with only f as a parameter.
+T
+For the values previously chosen, we find that the maximum GBW is about 1/16 of the f of
+T
+the output device.
+A two-stage Miller CMOS OTA can have a GBW of 5 GHz, provided we select a CMOS
+technology where an f of 80 GHz can be obtained. Checking the f curves of Chapter 1, we find
+T T

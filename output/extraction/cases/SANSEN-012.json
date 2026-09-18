@@ -1,0 +1,182 @@
+{
+  "case_id": "SANSEN-012",
+  "slide_id": "012",
+  "chapter": 1,
+  "slide_number_in_chapter": 2,
+  "source": {
+    "pdf_page": 1,
+    "printed_page": 1
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0001_02_012.jpg",
+      "pdf_page": 1,
+      "printed_page": 1,
+      "bbox_pt": [
+        91.521622,
+        491.231995,
+        374.78981,
+        687.691986
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 1,
+      "printed_page": 1,
+      "bbox_pt": [
+        0,
+        487.24250000000035,
+        595,
+        703.55922
+      ],
+      "text_raw": "For the design of analog\nintegrated circuits, we need\nto be able to predict the per-\nformance by means of\nsimple expressions. As a\nresult, simple models are\nrequired. This means that\nthe small-signal operation of\neach transistor must be\ndescribed by means of as\nfew equations as possible.\nClearly the performance of\nthe circuit can then only be\ndescribed in an approximate\nway. The main advantage\nhowever, is that transistor",
+      "text": "For the design of analog integrated circuits, we need to be able to predict the performance by means of simple expressions. As a result, simple models are required. This means that the small-signal operation of each transistor must be described by means of as few equations as possible. Clearly the performance of the circuit can then only be described in an approximate way. The main advantage however, is that transistor"
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        285.9493999999996
+      ],
+      "text_raw": "sizing and current levels can easily be derived from such simple expressions. They can then be\nused to simulate the circuit performance by means of a conventional circuit simulator such as\nSPICE or ELDO.\nIn these simulators, models are used which are much more accurate but also much more\ncomplicated. These simulations are required afterwards to verify the circuit performance. The\ninitial design with simple models is the first step in the design procedure. They are aimed\nindeed at the determination of all transistor currents and sizes, according to the specifications\nimposed.\nWe start with MOST devices, although the bipolar transistor are historically first. Nowadays\nthe number of MOS transistors integrated on chips, vastly outnumber the bipolar ones.",
+      "text": "sizing and current levels can easily be derived from such simple expressions. They can then be used to simulate the circuit performance by means of a conventional circuit simulator such as SPICE or ELDO. In these simulators, models are used which are much more accurate but also much more complicated. These simulations are required afterwards to verify the circuit performance. The initial design with simple models is the first step in the design procedure. They are aimed indeed at the determination of all transistor currents and sizes, according to the specifications imposed. We start with MOST devices, although the bipolar transistor are historically first. Nowadays the number of MOS transistors integrated on chips, vastly outnumber the bipolar ones."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For the design of analog integrated circuits, we need to be able to predict the performance by means of simple expressions. As a result, simple models are required. This means that the small-signal operation of each transistor must be described by means of as few equations as possible. Clearly the performance of the circuit can then only be described in an approximate way. The main advantage however, is that transistor\n\nsizing and current levels can easily be derived from such simple expressions. They can then be used to simulate the circuit performance by means of a conventional circuit simulator such as SPICE or ELDO. In these simulators, models are used which are much more accurate but also much more complicated. These simulations are required afterwards to verify the circuit performance. The initial design with simple models is the first step in the design procedure. They are aimed indeed at the determination of all transistor currents and sizes, according to the specifications imposed. We start with MOST devices, although the bipolar transistor are historically first. Nowadays the number of MOS transistors integrated on chips, vastly outnumber the bipolar ones.",
+  "schema_version": "1.0",
+  "chapter_title": "MOS 晶体管与双极型晶体管的比较",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0001_02_012.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270487451739,
+          0.07804878031358886,
+          0.3817567589285714,
+          0.13170731689895465
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.12162162577220074,
+          0.3170731705574912,
+          0.7027027068532818,
+          0.3707317071428571
+        ],
+        "confidence": 1,
+        "text": "• Models of MOST transistors"
+      },
+      {
+        "bbox": [
+          0.11824324324324324,
+          0.42926829331707306,
+          0.7263513513513513,
+          0.4926829274634146
+        ],
+        "confidence": 1,
+        "text": "• Models of Bipolar transistors"
+      },
+      {
+        "bbox": [
+          0.11824323395270292,
+          0.541463414695122,
+          0.8614864771959461,
+          0.6048780488414635
+        ],
+        "confidence": 1,
+        "text": "• Comparison of MOSTs and Bipolars"
+      },
+      {
+        "bbox": [
+          0.10472973581081065,
+          0.8439024397560976,
+          0.8209459520270268,
+          0.8878048787804879
+        ],
+        "confidence": 1,
+        "text": "Ref.: W. Sansen : Analog Design Essentials, Springer 2006"
+      },
+      {
+        "bbox": [
+          0.7331081126937454,
+          0.9463414640650407,
+          0.932432424130579,
+          0.9853658531459257
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 012"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "sizing and current levels can easily be derived from such simple expressions.",
+      "pdf_page": 2,
+      "printed_page": 2,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0001_02_012.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, simple models are required.",
+      "pdf_page": 1,
+      "printed_page": 1,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Clearly the performance of the circuit can then only be described in an approximate way.",
+      "pdf_page": 1,
+      "printed_page": 1,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Comparison of MOST and bipolar transistors"
+}

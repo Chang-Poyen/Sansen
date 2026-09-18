@@ -1,0 +1,42 @@
+512 Chapter #17
+1754
+An alternative circuit con-
+figuration is a biquadratic
+filter. It is a second-order
+filter configuration with
+local and overall feedback.
+It contains two operational
+amplifiers, as shown in this
+slide.
+The transfer characteristic
+is of second-order in both
+the numerator and denomi-
+nator. It has two poles and
+zeros. Filter design consists
+of positioning the poles
+and zeros accordingly. The
+reader is referred to the
+general references on the introductory slide.
+For higher-order filters, several biquads can be cascaded.
+Finally, note that the C’s in the expression refer to capacitor ratios. The unit capacitance has
+to be selected. It is usually around 0.25 pF.
+Nowadays, such filters are realized in a fulyl-differential version to reject substrate noise.
+1755
+Finally, we have to have a
+look at the specifications of
+the opamps used in such
+switched-capacitor filters.
+After all, they take most of
+the power consumption.
+They are necessary to
+guarantee full charge
+transfer from the input
+(sampling) capacitor to the
+output (integration) capaci-
+tor. They need therefore
+high gain and low offset.
+Moreover, they have to
+settle to within 0.05% in as
+short a time as possible, to
+allow use of high-frequency clocks.
+This is now discussed in more detail.

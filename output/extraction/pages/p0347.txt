@@ -1,0 +1,42 @@
+354 Chapter #12
+1234
+Translinear circuits for the
+definition of the quiescent
+currents in the output tran-
+sistors have the disadvan-
+tage that the maximum
+output current is limited.
+Several more other prin-
+ciples are therefore investi-
+gated. The first one is the
+application of current feed-
+back to obtain an expanding
+characteristic.
+1235
+A simple but very current-
+efficient realization is shown
+in this slide.
+On the left is a conven-
+tional differential pair
+loaded with a folded cas-
+code. Its output current is
+simply B times the circular
+current of the differential
+pair. The currents are indi-
+cated by arrows.
+This output current is
+limited to the B times I
+bias
+however as every differen-
+tial pair has a limiting
+characteristic.
+The addition of just one single transistor changes the operation drastically and converts this
+stage into a class-AB amplifier. Transistor M4B is added, which forms a current mirror with
+M4A as well. It provides current feedback to the differential pair.
+Two equal currents now flow from supply to supply. The first one flows through transistors
+M2A, M1A and M4B. The other one flows through M2B, M3 and M4A, and is multiplied with
+B towards the output. These currents are not limited by the biasing current I . They can be
+bias
+much larger depending on the transistor sizes. They have an expanding or class-AB characteristic.
+Clearly, these currents can only increase. Another stage with pMOSTs at the input is now
+required to have expanding currents in both directions. This is shown next.

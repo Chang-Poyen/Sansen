@@ -1,0 +1,44 @@
+280 Chapter #9
+0934
+For really low power con-
+sumption, other configura-
+tions must be found. They
+will all try to generate extra
+zeros in the left half of the
+complex plane, in order to
+cancel one of the non-domi-
+nant poles, without how-
+ever, taking too much extra
+power consumption.
+Three configurations will
+be discussed. The last two
+achieve considerable sav-
+ings in power consumption,
+beyond that which can be
+achieved with a single stage.
+0935
+The first configuration is
+close to the NGCC shown
+previously. It also uses two
+feedforward stages. The only
+difference with the NGCC
+amplifier is the nulling resis-
+tor R in series with
+n2
+the second compensation
+capacitance. This is a well
+known technique of generat-
+ing a zero in the left-half-
+plane, at least when this
+resistor R is made larger
+n2
+than 1/g (see Chapter 4).
+m3
+Again, the feedforward
+stages are used to cancel out
+the zero’s. This time, however, transconductance g is made larger in order to generate left-
+mf0
+hand zeros. As a result, the complex non-dominant poles are made to cancel with a pair of
+complex left-hand zero’s.
+For a 3rd-order Butterworth realization, this gives a GBW which is 6.8 times larger than a
+NMC realization with the same load capacitance and power consumption.

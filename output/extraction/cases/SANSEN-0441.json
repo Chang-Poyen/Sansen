@@ -1,0 +1,187 @@
+{
+  "case_id": "SANSEN-0441",
+  "slide_id": "0441",
+  "chapter": 4,
+  "slide_number_in_chapter": 41,
+  "source": {
+    "pdf_page": 134,
+    "printed_page": 137
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0134_02_0441.jpg",
+      "pdf_page": 134,
+      "printed_page": 137,
+      "bbox_pt": [
+        91.521622,
+        481.266968,
+        374.78981,
+        677.726959
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 134,
+      "printed_page": 137,
+      "bbox_pt": [
+        0,
+        477.27750000000015,
+        595,
+        797
+      ],
+      "text_raw": "After the noise analysis of\nthe single-transistor con-\nfigurations, we now consider\nthe two-transistor configur-\nations.\nA current mirror is taken\nfirst now, followed by\ndifferential pairs.\nWe already know that a\ncurrent source transistor\nshould be designed with\nlarge V −V or small\nGS T\nW/L. Let us see whether this\napplies to all current sources\nand mirrors.",
+      "text": "After the noise analysis of the single-transistor configurations, we now consider the two-transistor configurations. A current mirror is taken first now, followed by differential pairs. We already know that a current source transistor should be designed with large V −V or small GS T W/L. Let us see whether this applies to all current sources and mirrors."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "After the noise analysis of the single-transistor configurations, we now consider the two-transistor configurations. A current mirror is taken first now, followed by differential pairs. We already know that a current source transistor should be designed with large V −V or small GS T W/L. Let us see whether this applies to all current sources and mirrors.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管级的噪声性能",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0134_02_0441.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.11148648973817567,
+          0.2195121944512195,
+          0.4797297329814189,
+          0.2731707310365854
+        ],
+        "confidence": 1,
+        "text": "• Definitions of noise"
+      },
+      {
+        "bbox": [
+          0.11486486761583006,
+          0.3073170729268293,
+          0.5000000027509652,
+          0.3609756095121952
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of an amplifier"
+      },
+      {
+        "bbox": [
+          0.11486486841216209,
+          0.39512195092682934,
+          0.4695945981418918,
+          0.4439024387317074
+        ],
+        "confidence": 1,
+        "text": "• Noise of a follower"
+      },
+      {
+        "bbox": [
+          0.11148648327702708,
+          0.4780487810243903,
+          0.47297296976351355,
+          0.5317073176097561
+        ],
+        "confidence": 0.5,
+        "text": "• Noise of a cascode"
+      },
+      {
+        "bbox": [
+          0.1112456465713004,
+          0.5600997349597062,
+          0.5677787177283949,
+          0.6149006012495428
+        ],
+        "confidence": 0.5,
+        "text": "+ Noise of a current mirror"
+      },
+      {
+        "bbox": [
+          0.11148649248310796,
+          0.6487804875000001,
+          0.5912162222128376,
+          0.7024390240853658
+        ],
+        "confidence": 1,
+        "text": "• Noise of a differential pair"
+      },
+      {
+        "bbox": [
+          0.11148648162162175,
+          0.7317073174146341,
+          0.5979729681081083,
+          0.785365854
+        ],
+        "confidence": 1,
+        "text": "• Capacitive noise matching"
+      },
+      {
+        "bbox": [
+          0.7293193356952704,
+          0.9409555025211395,
+          0.9363032757166823,
+          0.9818062535140772
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 05 0441"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0134_02_0441.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "We already know that a current source transistor should be designed with large V −V or small GS T W/L.",
+        "pdf_page": 134,
+        "printed_page": 137,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Noise performance of elementary transistor stages"
+}

@@ -1,0 +1,55 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>教材差异与待厘清 · Sansen 第二章</title><link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/ch02.css"></head><body><header><div class="eyebrow">ANALOG DESIGN ESSENTIALS · CHAPTER 02</div><h1>教材差异与待厘清</h1><p>从电路方程到教材结论 · 每步必要近似 · 原图与讲解可追溯</p></header><div class="layout"><nav aria-label="第二章推导"><a href="index.html" class="">第二章总览</a><a href="00-conventions.html" class="">共同模型与假设</a><h3 style="font-size:14px;padding:12px">SFG 分析案例</h3><a href="03-miller.html" class="">03 · 米勒反馈与 RHP 零点</a><a href="09-followers-hf.html" class="">09 · 源极跟随器：极点、零点与峰化</a><a href="18-gain-boosting.html" class="">18 · 调节型共源共栅级与增益增强</a><details><summary>其他推导（17 组）</summary><a href="01-intrinsic-gain.html" class="">01 · 单管增益与 MOS／BJT 比较</a><a href="02-single-pole.html" class="">02 · 单极点、GBW 与尺寸数值题</a><a href="04-degeneration.html" class="">04 · 源极负反馈与可调跨导</a><a href="05-diode-loads.html" class="">05 · 二极管连接与有源负载</a><a href="06-inverter-dc.html" class="">06 · CMOS 反相器：DC 与匹配</a><a href="07-inverter-ac.html" class="">07 · CMOS 反相器：完整频率响应</a><a href="08-followers-dc.html" class="">08 · 源极与射极跟随器：DC</a><a href="10-emitter-hf.html" class="">10 · 射极跟随器：有限 β 与高频阻抗</a><a href="11-active-inductors.html" class="">11 · 有源电感与差分调谐负载</a><a href="12-common-gate.html" class="">12 · 共栅级的输入、输出与跨阻</a><a href="13-cascode.html" class="">13 · 共源共栅级：有限输出电阻的完整式</a><a href="14-cascode-miller.html" class="">14 · 共源共栅级的米勒电容</a><a href="15-cascode-middle-cap.html" class="">15 · 共源共栅级中间节点电容</a><a href="16-telescopic-folded.html" class="">16 · 套筒式与折叠式共源共栅级</a><a href="17-cascade.html" class="">17 · 级联与米勒补偿</a><a href="19-doublet-settling.html" class="">19 · 极零对与高精度建立过程</a><a href="20-port-summary.html" class="">20 · MOS／BJT 端口量总结</a></details><a href="discrepancies.html">教材差异与待厘清</a><a href="../../extraction/index.html">案例与幻灯片数据库 ↗</a></nav><main><article><h1>第二章：教材公式差异与待厘清项目</h1>
+<p>这份表区分模型、符号与近似的限制，并非将所有差异都判成教材错误。对应推导保留完整方程；待厘清式不算已证明。</p>
+<h2>D01 · 0216 · 线性区 M2 的 Cgs2</h2>
+<p><strong>拓扑条件</strong> · PDF 57／书本 58</p>
+<p>原图 M2 源极接地时 Cgs2 直接接输入与地，不能套用 M1 源极的自举因子；M2 栅极扰动也须包含其 gm2。</p>
+<p><a href="04-degeneration.html">查看完整推导</a> · <a href="04-degeneration.md">Markdown</a></p>
+<h2>D02 · 0221 · 输入输出 DC 相等与尺寸比</h2>
+<p><strong>DC 一致性</strong> · PDF 60／书本 61</p>
+<p>同 Vt、同 Vov 且相等电流时，平方律要求相等尺寸比；不能同时独立指定任意尺寸增益比。</p>
+<p><a href="05-diode-loads.html">查看完整推导</a> · <a href="05-diode-loads.md">Markdown</a></p>
+<h2>D03 · 0229 · 并联输出电阻</h2>
+<p><strong>代数系数</strong> · PDF 64／书本 65</p>
+<p>若 go 指单管导纳，ro/2=1/(2go)；正文所写 2/go 不相等。</p>
+<p><a href="07-inverter-ac.html">查看完整推导</a> · <a href="07-inverter-ac.md">Markdown</a></p>
+<h2>D04 · 0231 · 反相器的输入主导 GBW</h2>
+<p><strong>符号系数</strong> · PDF 65／书本 66</p>
+<p>若 gm、ro、fT 均使用单管定义，匹配反相器的输入主导 GBW 为 fT ro/(2Rs)；原式的二倍差异需区分单管与总量。</p>
+<p><a href="07-inverter-ac.html">查看完整推导</a> · <a href="07-inverter-ac.md">Markdown</a></p>
+<h2>D05 · 0232 · 反相器前馈零点</h2>
+<p><strong>符号系数</strong> · PDF 65／书本 66</p>
+<p>跨接总电容对应的零点为 Gm/CF；Gm 是 NMOS 与 PMOS 跨导之和。</p>
+<p><a href="07-inverter-ac.html">查看完整推导</a> · <a href="07-inverter-ac.md">Markdown</a></p>
+<h2>D06 · 0242 · 复极点区间与相消</h2>
+<p><strong>近似范围</strong> · PDF 71／书本 72</p>
+<p>精确区间须解判别式；图中的宽度量不能直接当精确上下界比。1/Rs 相消近似还需 Cgd 远小于 Cgs。</p>
+<p><a href="09-followers-hf.html">查看完整推导</a> · <a href="09-followers-hf.md">Markdown</a></p>
+<h2>D07 · 0243 · 输出阻抗的 gmu</h2>
+<p><strong>渐近式差异</strong> · PDF 71／书本 72</p>
+<p>完整分母代入零点得到 gm=Cgs/[Rs(Cgs+Cgd)]；教材带 Cds 的估式不等于一般精确相消条件。</p>
+<p><a href="09-followers-hf.html">查看完整推导</a> · <a href="09-followers-hf.md">Markdown</a></p>
+<h2>D08 · 0244 · BJT 的 gmr 与 gmu</h2>
+<p><strong>待厘清</strong> · PDF 72／书本 73</p>
+<p>保留有限 β 和 Cpi=CjE+gm tauF 后须重解判别式；教材 gmr 不能由本组冻结电容模型重现，尚需原模型或符号说明。gmu 也只在列出的额外条件下接近相消解。</p>
+<p><a href="10-emitter-hf.html">查看完整推导</a> · <a href="10-emitter-hf.md">Markdown</a></p>
+<h2>D09 · 0245 · 有源电感的串联电阻</h2>
+<p><strong>频带条件</strong> · PDF 72／书本 73</p>
+<p>Rs 是简化模型的高频阻抗极限；低频 Taylor 等效的串联电阻是 1/gm，L=(Rs−1/gm)/omegaT。</p>
+<p><a href="11-active-inductors.html">查看完整推导</a> · <a href="11-active-inductors.md">Markdown</a></p>
+<h2>D10 · 0247 · 差分电感与半电路</h2>
+<p><strong>端口定义</strong> · PDF 73／书本 74</p>
+<p>跨两输出端的差分电感为每半边等效电感的两倍；调谐电容也须依同一端口定义换算。</p>
+<p><a href="11-active-inductors.html">查看完整推导</a> · <a href="11-active-inductors.md">Markdown</a></p>
+<h2>D11 · 0256 · No 米勒 effect 的语义</h2>
+<p><strong>近似范围</strong> · PDF 78／书本 79</p>
+<p>跨接电容与 RHP 零点仍在完整模型中；此叙述仅指某参数区域的主极点不受米勒放大项主导。</p>
+<p><a href="14-cascode-miller.html">查看完整推导</a> · <a href="14-cascode-miller.md">Markdown</a></p>
+<h2>D12 · 0264 · 辅助 GBW 与原共源共栅级 BW 对齐</h2>
+<p><strong>模型限制</strong> · PDF 82／书本 83</p>
+<p>在明列的 B(s) 单极点模型中，精确相消条件指向 go2/CL，并非原共源共栅级主极点；不能当成普遍设计等式。</p>
+<p><a href="18-gain-boosting.html">查看完整推导</a> · <a href="18-gain-boosting.md">Markdown</a></p>
+<h2>D13 · 0265 · Step response 的快慢留数</h2>
+<p><strong>时间近似</strong> · PDF 83／书本 84</p>
+<p>精确快慢系数之和等于 1；将快系数直接写成 1 会牺牲 t=0 的一致性，只能视为小留数或晚时间近似。</p>
+<p><a href="19-doublet-settling.html">查看完整推导</a> · <a href="19-doublet-settling.md">Markdown</a></p>
+</article><footer>本地静态文档 · 所有字体与图片保存在本地。数值曲线来自指定模型，理论推导曲线与 Spectre 结果分开标示；已增加 MOS1 教学模型仿真，尚无 晶圆厂 PDK 验证。<br><a href="README.md">使用与重建说明</a> · <a href="verification.json">代数验算记录</a> · <a href="coverage.json">逐张覆盖索引</a></footer></main></div></body></html>

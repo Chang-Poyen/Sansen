@@ -1,0 +1,48 @@
+[
+  {
+    "id": "baseline",
+    "module": "19-doublet-settling",
+    "passed": true,
+    "max_absolute_error": 4.925277246714543e-06,
+    "samples": 6640,
+    "settling_0_1pct_s": 1.100914686239897e-06,
+    "rates_rad_s": [
+      6283185.307179586
+    ],
+    "weights": [
+      1.0
+    ]
+  },
+  {
+    "id": "tail",
+    "module": "19-doublet-settling",
+    "passed": true,
+    "max_absolute_error": 4.908642992296208e-06,
+    "samples": 6640,
+    "settling_0_1pct_s": 0.00018464067569224,
+    "rates_rad_s": [
+      12441.706693028047,
+      6346141.824172713
+    ],
+    "weights": [
+      0.009939927029285802,
+      0.9900600729707142
+    ]
+  },
+  {
+    "id": "overshoot",
+    "module": "19-doublet-settling",
+    "passed": true,
+    "max_absolute_error": 4.943560928394319e-06,
+    "samples": 6640,
+    "settling_0_1pct_s": 3.074067569223624e-05,
+    "rates_rad_s": [
+      76169.26341502565,
+      6219582.41437892
+    ],
+    "weights": [
+      -0.010353022210574795,
+      1.0103530222105748
+    ]
+  }
+]

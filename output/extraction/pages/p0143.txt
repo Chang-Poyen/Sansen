@@ -1,0 +1,60 @@
+146 Chapter #4
+0457
+This expression is given
+again, together with a plot
+of the input noise versus
+width W.
+There is clearly a mini-
+mum. It is obtained at the
+point where the transistor
+input capacitance C ,
+GS
+equals the sum of capaci-
+tances, seen by the
+transistor.
+For example if the sensor
+capacitance C =5 pF, a
+a
+feedback capacitance of
+C =1 pF provides a voltage
+f
+gain of 5. The optimum
+width is the W =6/0.002=3000 mm or 3 mm.
+opt
+In practice we prefer an operating point on the left of this optimum. The noise is not much
+worse but the size can be as much as half !
+Now that we know the transistor width, we have to know in which technology (L and K∞) we
+will realize this amplifier. Choosing a V −V =0.2 V then gives us the current I and the
+GS T DSopt
+transconductance g .
+mopt
+For example for L=0.13 mm, for which K∞ =150 mA/V2, I =138 mA and g =1.38 S.
+n DSopt mopt
+The noise resistance 2/3g is then 0.48 V. This is a very low value indeed!
+mopt
+0458
+In order to obtain the SNR,
+we must find the total or
+integrated noise. The band-
+width BW is approximated
+by the f of that input device,
+T
+divided by the gain.
+Parameter f is determined
+T
+by the input capacitance
+C and the transcon-
+GSopt
+ductance g . In this
+mopt
+example, it is 36 GHz.
+The noise bandwidth is
+now 57% larger or 57 GHz.
+Finally the SNR is then
+the ratio of the input signal
+to the total noise. The result
+is easily calculated!
+At the optimum the noise power is twice as high, corresponding to 0.48√2 or 0.68 V. The
+noise density is then about 0.1 nV /√Hz. The integrated noise is then 24 mV .
+RMS RMS
+The SNR is finally 417 or 52 dB. This is not band for a 36 GHz amplifier!

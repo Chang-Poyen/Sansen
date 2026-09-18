@@ -1,0 +1,361 @@
+{
+  "case_id": "SANSEN-0343",
+  "slide_id": "0343",
+  "chapter": 3,
+  "slide_number_in_chapter": 43,
+  "source": {
+    "pdf_page": 109,
+    "printed_page": 111
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0109_01_0343.jpg",
+      "pdf_page": 109,
+      "printed_page": 111,
+      "bbox_pt": [
+        91.52162,
+        122.37743999999998,
+        374.54215999999997,
+        318.8374
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 109,
+      "printed_page": 111,
+      "bbox_pt": [
+        0,
+        118.38797,
+        595,
+        451.56774500000023
+      ],
+      "text_raw": "Bootstrapping has been\nintroduced to increase the\ninput impedance of biopo-\ntential preamplifiers.\nBoth opamps A1 and A2\nform an instrumentation\namplifier with the three\nresistors R (twice) and R .\n1 2\nIts gain is set to a precise\nvalue of 2R /R by these\n1 2\nresistors.\nMoreover, the input\nimpedances, at the + termi-\nnals of the opamps are very\nhigh. This is necessary not\nto draw any current from\nthe electrodes (sensors).\nThe input sensors are always decoupled from the opamp inputs by means of capacitors C .\nIN\nHowever, the + inputs of the opamps must be biased at a particular voltage. This is done by\nmeans of the resistors R /R . As a result the average output voltage is set by the biasing\n3 4\nvoltage V .\nB\nThe input impedance is reduced considerably by these resistors R /R . This why the bootstrap\n3 4\ncapacitances C are added. They bootstrap the resistors R . Because of the feedback action of\nB 3\nthe opamp, the voltage across resistor R is nearly the same. It looks like a resistor with value\n3\ninfinity. It is bootstrapped out.\nThe input impedance is then exceedingly high!",
+      "text": "Bootstrapping has been introduced to increase the input impedance of biopotential preamplifiers. Both opamps A1 and A2 form an instrumentation amplifier with the three resistors R (twice) and R . 1 2 Its gain is set to a precise value of 2R /R by these 1 2 resistors. Moreover, the input impedances, at the + terminals of the opamps are very high. This is necessary not to draw any current from the electrodes (sensors). The input sensors are always decoupled from the opamp inputs by means of capacitors C . IN However, the + inputs of the opamps must be biased at a particular voltage. This is done by means of the resistors R /R . As a result the average output voltage is set by the biasing 3 4 voltage V . B The input impedance is reduced considerably by these resistors R /R . This why the bootstrap 3 4 capacitances C are added. They bootstrap the resistors R . Because of the feedback action of B 3 the opamp, the voltage across resistor R is nearly the same. It looks like a resistor with value 3 infinity. It is bootstrapped out. The input impedance is then exceedingly high!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Bootstrapping has been introduced to increase the input impedance of biopotential preamplifiers. Both opamps A1 and A2 form an instrumentation amplifier with the three resistors R (twice) and R . 1 2 Its gain is set to a precise value of 2R /R by these 1 2 resistors. Moreover, the input impedances, at the + terminals of the opamps are very high. This is necessary not to draw any current from the electrodes (sensors). The input sensors are always decoupled from the opamp inputs by means of capacitors C . IN However, the + inputs of the opamps must be biased at a particular voltage. This is done by means of the resistors R /R . As a result the average output voltage is set by the biasing 3 4 voltage V . B The input impedance is reduced considerably by these resistors R /R . This why the bootstrap 3 4 capacitances C are added. They bootstrap the resistors R . Because of the feedback action of B 3 the opamp, the voltage across resistor R is nearly the same. It looks like a resistor with value 3 infinity. It is bootstrapped out. The input impedance is then exceedingly high!",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Bootstrapping for high input impedance",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0109_01_0343.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135592638418092,
+          0.08780487817073168,
+          0.7796610111299436,
+          0.1512195123170732
+        ],
+        "confidence": 1,
+        "text": "Bootstrapping for high input impedance"
+      },
+      {
+        "bbox": [
+          0.27796610132203387,
+          0.20975609702439024,
+          0.3220338979322034,
+          0.26341463360975603
+        ],
+        "confidence": 0.5,
+        "text": "CIN"
+      },
+      {
+        "bbox": [
+          0.18983050690677972,
+          0.27804877975609754,
+          0.3220338967372882,
+          0.33658536512195125
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VINA -H"
+      },
+      {
+        "bbox": [
+          0.3016949158474576,
+          0.3560975609146342,
+          0.3491525429661017,
+          0.4097560975000001
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R,:"
+      },
+      {
+        "bbox": [
+          0.24406779690072636,
+          0.49756097547038325,
+          0.28474576300242127,
+          0.5463414632752613
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.3898305081920904,
+          0.3365853654065041,
+          0.4305084742937853,
+          0.39024390199187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cв"
+      },
+      {
+        "bbox": [
+          0.3898305081355932,
+          0.580487804207317,
+          0.43050847423728816,
+          0.634146340792683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ca"
+      },
+      {
+        "bbox": [
+          0.5593220335593221,
+          0.2439024392682927,
+          0.6067796606779661,
+          0.287804878292683
+        ],
+        "confidence": 1,
+        "text": "A1"
+      },
+      {
+        "bbox": [
+          0.5627118640000001,
+          0.37560975624390247,
+          0.603389830101695,
+          0.42926829282926826
+        ],
+        "confidence": 1,
+        "text": "R,"
+      },
+      {
+        "bbox": [
+          0.5254237283777241,
+          0.429268292891986,
+          0.5864406775302664,
+          0.4780487806968641
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.48135593169491525,
+          0.5121951220121951,
+          0.5220338977966101,
+          0.565853658597561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R,"
+      },
+      {
+        "bbox": [
+          0.5661016946779661,
+          0.5609756092682927,
+          0.5966101692542373,
+          0.6097560970731708
+        ],
+        "confidence": 1,
+        "text": "R,"
+      },
+      {
+        "bbox": [
+          0.7084745752966103,
+          0.3170731708536585,
+          0.7864406769915255,
+          0.35609756109756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT+"
+      },
+      {
+        "bbox": [
+          0.3016949156610169,
+          0.687804878,
+          0.34237288176271186,
+          0.7414634145853658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R,"
+      },
+      {
+        "bbox": [
+          0.19322033796610172,
+          0.7560975609756098,
+          0.3152542362711864,
+          0.8146341463414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN- -H"
+      },
+      {
+        "bbox": [
+          0.27796610132203387,
+          0.8390243897560976,
+          0.3220338979322034,
+          0.8878048775609756
+        ],
+        "confidence": 0.5,
+        "text": "CIN"
+      },
+      {
+        "bbox": [
+          0.511864407118644,
+          0.7707317070731708,
+          0.5322033901694915,
+          0.7951219509756099
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.562711864086629,
+          0.8000000002168022,
+          0.6203389827306968,
+          0.8585365855826559
+        ],
+        "confidence": 1,
+        "text": "A2"
+      },
+      {
+        "bbox": [
+          0.7050847449491525,
+          0.726829268390244,
+          0.7864406771525424,
+          0.7756097561951221
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT-"
+      },
+      {
+        "bbox": [
+          0.6915254241694915,
+          0.8390243908780487,
+          0.7491525428135593,
+          0.9024390250243902
+        ],
+        "confidence": 0.5,
+        "text": "ZIN"
+      },
+      {
+        "bbox": [
+          0.755932203940678,
+          0.8439024387195122,
+          0.8000000005508474,
+          0.8878048777439025
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.8067796615254238,
+          0.8439024396341462,
+          0.908474576779661,
+          0.8926829274390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "00 1!!"
+      },
+      {
+        "bbox": [
+          0.7152542403073966,
+          0.9365853661788617,
+          0.9220338883931687,
+          0.9756097564227642
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen :G-05 0343"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0109_01_0343.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Bootstrapping has been introduced to increase the input impedance of biopotential preamplifiers.",
+      "pdf_page": 109,
+      "printed_page": 111,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Both opamps A1 and A2 form an instrumentation amplifier with the three resistors R (twice) and R . 1 2 Its gain is set to a precise value of 2R /R by these 1 2 resistors.",
+      "pdf_page": 109,
+      "printed_page": 111,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result the average output voltage is set by the biasing 3 4 voltage V .",
+      "pdf_page": 109,
+      "printed_page": 111,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0343-M01",
+      "ocr_text": "=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.755932203940678,
+        0.8439024387195122,
+        0.8000000005508474,
+        0.8878048777439025
+      ],
+      "context_crop": "regions/SANSEN-0343_math_01.png",
+      "context_bbox_normalized": [
+        0.7159322039406779,
+        0.7439024387195122,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0109_01_0343.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

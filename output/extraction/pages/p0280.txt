@@ -1,0 +1,41 @@
+Design of multistage operational amplifiers 287
+0948
+A circuit realization is
+shown in this slide.
+As usual, it starts with a
+folded cascode. A current
+mirror is used as a second
+stage. Output transistor
+M32 is driven by the output
+of the first stage. The output
+stage operates in class AB.
+Hence, it does not limit the
+Slew Rate. The Slew Rate
+will now be determined by
+the DC current of the first
+stage and compensation
+capacitance Cm1.
+The cascode is series with
+compensation capacitance Cm2 is realized with transistor M26. Its transconductance is twice
+the transconductance of transistor M21, which is the amplifying transistor of the second stage.
+Indeed, current mirror M24/M25 ensures a current ratio of two. Factor k is fairly precisely two
+t
+as well.
+0949
+As many different configu-
+rations have been discussed,
+they have to be compared
+with some kind of Figure
+of Merit.
+Such a Figure of Merit
+normally includes the power
+dissipation for a certain
+GBW and load capacitance.
+However, two different
+FOMs exist. One of them
+takes into account the
+actual power dissipation in
+mW, whereas the other one
+takes only the current into
+account. The difference is
+the supply voltage used.

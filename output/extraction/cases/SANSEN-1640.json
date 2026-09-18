@@ -1,0 +1,218 @@
+{
+  "case_id": "SANSEN-1640",
+  "slide_id": "1640",
+  "chapter": 16,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 467,
+    "printed_page": 476
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0467_02_1640.jpg",
+      "pdf_page": 467,
+      "printed_page": 476,
+      "bbox_pt": [
+        91.52162,
+        467.31597999999997,
+        374.78981,
+        663.77597
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 467,
+      "printed_page": 476,
+      "bbox_pt": [
+        0,
+        463.32647000000014,
+        595,
+        797
+      ],
+      "text_raw": "The startup circuit is added\nin this slide.\nWhen the supply voltage\nis turned up, the resistor\ndoes not yet carry any cur-\nrent, and turns on transistor\nM . This also turns on the\nS\nbandgap reference.\nThe npn current mirror\nthen starts conducting and\nturns on the pMOST cur-\nrent mirror, the Gates of\nwhich are always set at a\nbiasing voltage V .The\nB\nresistor now carries a large\ncurrent, such that the Gate\nof M is close to the supply voltage. Transistor M is turned off again. It does not influence the\nS S\ncurrent balance in the bandgap reference.",
+      "text": "The startup circuit is added in this slide. When the supply voltage is turned up, the resistor does not yet carry any current, and turns on transistor M . This also turns on the S bandgap reference. The npn current mirror then starts conducting and turns on the pMOST current mirror, the Gates of which are always set at a biasing voltage V .The B resistor now carries a large current, such that the Gate of M is close to the supply voltage. Transistor M is turned off again. It does not influence the S S current balance in the bandgap reference."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The startup circuit is added in this slide. When the supply voltage is turned up, the resistor does not yet carry any current, and turns on transistor M . This also turns on the S bandgap reference. The npn current mirror then starts conducting and turns on the pMOST current mirror, the Gates of which are always set at a biasing voltage V .The B resistor now carries a large current, such that the Gate of M is close to the supply voltage. Transistor M is turned off again. It does not influence the S S current balance in the bandgap reference.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Start-up circuit",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0467_02_1640.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108303571425,
+          0.08780487777003487,
+          0.3547297316843629,
+          0.14634146313588847
+        ],
+        "confidence": 1,
+        "text": "Start-up circuit"
+      },
+      {
+        "bbox": [
+          0.24662162193532816,
+          0.4634146340069686,
+          0.2905405408542471,
+          0.5121951218118467
+        ],
+        "confidence": 1,
+        "text": "Ms"
+      },
+      {
+        "bbox": [
+          0.4527027023986486,
+          0.5560975603902439,
+          0.49662162131756754,
+          0.6146341457560976
+        ],
+        "confidence": 1,
+        "text": "Ro"
+      },
+      {
+        "bbox": [
+          0.28378378398648646,
+          0.8292682931219513,
+          0.3108108110135135,
+          0.8731707321463416
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.44594594621621625,
+          0.8390243899512195,
+          0.4729729732432433,
+          0.878048780195122
+        ],
+        "confidence": 1,
+        "text": "n"
+      },
+      {
+        "bbox": [
+          0.662162162027027,
+          0.2390243897073171,
+          0.689189189054054,
+          0.2926829262926829
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.8817567575168919,
+          0.4292682926219513,
+          0.9425675683277027,
+          0.4829268292073171
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.8851102890656253,
+          0.551085763452124,
+          0.9729978210678423,
+          0.5854996000941335
+        ],
+        "confidence": 1,
+        "text": "0.536 V"
+      },
+      {
+        "bbox": [
+          0.5608108094172298,
+          0.795121951402439,
+          0.6722972959037162,
+          0.8487804879878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2 = R1"
+      },
+      {
+        "bbox": [
+          0.7094594573310811,
+          0.9463414636097561,
+          0.922297295168919,
+          0.975609756292683
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 1640"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0467_02_1640.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The npn current mirror then starts conducting and turns on the pMOST current mirror, the Gates of which are always set at a biasing voltage V .The B resistor now carries a large current, such that the Gate of M is close to the supply voltage.",
+        "pdf_page": 467,
+        "printed_page": 476,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1640-M01",
+      "ocr_text": "R2 = R1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5608108094172298,
+        0.795121951402439,
+        0.6722972959037162,
+        0.8487804879878049
+      ],
+      "context_crop": "regions/SANSEN-1640_math_01.png",
+      "context_bbox_normalized": [
+        0.5208108094172298,
+        0.695121951402439,
+        0.9022972959037162,
+        0.93
+      ],
+      "source_image": "slides/p0467_02_1640.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

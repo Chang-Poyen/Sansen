@@ -1,0 +1,213 @@
+{
+  "case_id": "SANSEN-1750",
+  "slide_id": "1750",
+  "chapter": 17,
+  "slide_number_in_chapter": 50,
+  "source": {
+    "pdf_page": 500,
+    "printed_page": 510
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0500_01_1750.jpg",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 500,
+      "printed_page": 510,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "As the input signal is stored\nand amplified in the next\nclock phase, the offset volt-\nage can also be stored and\nsubtracted in the next phase.\nIn this way, the offset of the\nopamp can be cancelled out.\nAn example of such a can-\ncellation circuit is shown in\nthis slide.\nIf the offset v were zero\nos\nthen it is clear that the gain\nis accurately zero. In the\npresence of an offset voltage\nv , we want to discover\nos\nhow much of this offset is\nmeasured at the output.\nFor this purpose, charge\nconservation is applied.",
+      "text": "As the input signal is stored and amplified in the next clock phase, the offset voltage can also be stored and subtracted in the next phase. In this way, the offset of the opamp can be cancelled out. An example of such a cancellation circuit is shown in this slide. If the offset v were zero os then it is clear that the gain is accurately zero. In the presence of an offset voltage v , we want to discover os how much of this offset is measured at the output. For this purpose, charge conservation is applied."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As the input signal is stored and amplified in the next clock phase, the offset voltage can also be stored and subtracted in the next phase. In this way, the offset of the opamp can be cancelled out. An example of such a cancellation circuit is shown in this slide. If the offset v were zero os then it is clear that the gain is accurately zero. In the presence of an offset voltage v , we want to discover os how much of this offset is measured at the output. For this purpose, charge conservation is applied.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Offset compensation",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0500_01_1750.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432797297289,
+          0.08292682907317073,
+          0.43918919283783775,
+          0.14146341443902433
+        ],
+        "confidence": 1,
+        "text": "Offset compensation"
+      },
+      {
+        "bbox": [
+          0.06756756701858109,
+          0.40975609689024395,
+          0.1249999994510135,
+          0.46341463347560974
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.20608108110923423,
+          0.4048780483739838,
+          0.2567567567849099,
+          0.45365853617886187
+        ],
+        "confidence": 0.5,
+        "text": "aC"
+      },
+      {
+        "bbox": [
+          0.5472972964104731,
+          0.4878048773780488,
+          0.6317567558699325,
+          0.5414634139634147
+        ],
+        "confidence": 1,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.5405405422297297,
+          0.6780487798536586,
+          0.7094594611486487,
+          0.7512195115609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,= az12"
+      },
+      {
+        "bbox": [
+          0.5371621599324324,
+          0.7609756091219513,
+          0.8277027004729729,
+          0.8243902432682927
+        ],
+        "confidence": 1,
+        "text": "independent of vos"
+      },
+      {
+        "bbox": [
+          0.5540540558277027,
+          0.8682926833536585,
+          0.9324324342060811,
+          0.902439024817073
+        ],
+        "confidence": 1,
+        "text": "Gregorian, IEEE Proc. Aug 83, 941-986"
+      },
+      {
+        "bbox": [
+          0.7162162179054054,
+          0.9414634141463415,
+          0.9391891908783784,
+          0.9902439019512196
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 1005 N1750"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "An example of such a cancellation circuit is shown in this slide.",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0500_01_1750.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If the offset v were zero os then it is clear that the gain is accurately zero.",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "As the input signal is stored and amplified in the next clock phase, the offset voltage can also be stored and subtracted in the next phase.",
+      "pdf_page": 500,
+      "printed_page": 510,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1750-M01",
+      "ocr_text": "A,= az12",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5405405422297297,
+        0.6780487798536586,
+        0.7094594611486487,
+        0.7512195115609757
+      ],
+      "context_crop": "regions/SANSEN-1750_math_01.png",
+      "context_bbox_normalized": [
+        0.5005405422297297,
+        0.5780487798536587,
+        0.9394594611486486,
+        0.8812195115609757
+      ],
+      "source_image": "slides/p0500_01_1750.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

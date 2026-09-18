@@ -1,0 +1,50 @@
+L ow-power sigma-delta AD converters 647
+2119
+The actual power efficiency
+g can be expressed in terms
+of an equivalent resistor R .
+eq
+It is also clearly a function
+of the output current.
+This loss resistor R is
+eq
+proportional to the number
+of stages n, but inversely
+proportional to the clock
+frequency f and the size of
+the capacitor C used. There
+is an additional non-linear
+factor in this expression,
+which includes the switch
+resistance. This factor is less
+important to have an idea
+about the orders of magnitude.
+It can be concluded that a voltage multiplier generates an output voltage with the highest
+efficiency, provided as few stages are used as possible, but with the highest possible capacitor
+and clock frequency.
+Unfortunately, these are exactly the same conditions for a maximum of injection of spikes in
+the substrate. Coupling to the sensitive analog parts can now be expected. This will be discussed
+in more detail in Chapter 24.
+2120
+Voltage multipliers show
+several more drawbacks.
+They generate higher
+voltage than the supply volt-
+age. Care must be taken not
+to exceed the maximum
+voltage on the thin Gate
+oxides.
+At about 0.8 V/nm thick-
+ness an oxide breaks down.
+A CMOS technology of
+0.18 mm has an oxide thick-
+ness of about 1/50th or
+3.6 nm. This would break
+down under a voltage of
+about 2.9 V. The standard
+supply voltage for 0.18 mm CMOS is 1.8 V. This is sufficiently far from the breakdown voltage.
+However, if voltage multiplies are added, care has to be take not to end up too close to the
+breakdown voltage. If not, reliability issues appear.
+A CMOS technology of 90 nm has an oxide thickness of about 1.8 nm, corresponding to a
+breakdown voltage of about 1.5 V. The supply voltage is 1.3 V. Voltage multipliers are therefore
+excluded!

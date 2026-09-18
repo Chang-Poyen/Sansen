@@ -1,0 +1,56 @@
+764 Chapter #24
+the current mirror is con-
+stant up to a frequency
+g /2pC or f . This is evi-
+m GS T
+dently higher than all fre-
+quencies of interest.
+Note that capacitance C
+p
+is a coupling capacitor
+between the positive supply
+line and the output of the
+input transistor. It is usually
+a lot larger than the output
+capacitor of the transistor
+only.
+2442
+Let us now have a look at
+the PSRR of a simple
+DD
+OTA, as shown in this slide.
+A detailed analysis has
+shown that the most impor-
+tant components are r and
+o1
+r . Indeed, the current
+o5
+caused by a small signal on
+the positive supply voltage
+v flows through M4,
+DD
+through resistor r and
+o1
+through M2 to the output.
+The current through r
+o5
+reaches the output directly.
+The PSRR of this gain
+DD
+block is now the ratio of
+both gains given in this slide. It has a very similar expression as the small-signal voltage gain.
+It is also large at low frequencies as it includes the g r products of the transistors in the
+m o
+signal path.
+It will be reduced at higher frequencies.
+2443
+The PSRR at higher frequency is of much higher importance as digital blocks on chips are
+DD
+more likely going to work at high clock frequencies. These are the frequencies which are expected
+to be rejected by the analog circuits.
+At high frequencies, the coupling is mainly carried out by the capacitors C and C . The
+n4 n5DD
+first one C is a capacitance from node 4 to ground. Capacitor C is the coupling capacitance
+n4 n5DD
+between node 5 (at the output) and the V supply line. Again, this capacitance can be a great
+DD

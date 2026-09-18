@@ -1,0 +1,372 @@
+{
+  "case_id": "SANSEN-0325",
+  "slide_id": "0325",
+  "chapter": 3,
+  "slide_number_in_chapter": 25,
+  "source": {
+    "pdf_page": 100,
+    "printed_page": 102
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0100_01_0325.jpg",
+      "pdf_page": 100,
+      "printed_page": 102,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 100,
+      "printed_page": 102,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        415.4945000000002
+      ],
+      "text_raw": "For a differential pair with\nbipolar transistors, a similar\nreasoning can be applied.\nFor a large input signal (as\nfor a digital input drive) all\ncurrent flows in one transis-\ntor and the other ones is off.\nThe maximum output volt-\nage is reached, i.e. R I . The\nL B\ndifferential pair therefore\nbehaves as a limiter, when\noverdriven.\nIn this case we have to\nuse the full current expres-\nsion. Taking into account\nthat\n– the input voltage is applied between both v ’s and that\nBE\n– the sum of the currents is still I ,\nB\nwe can fairly easily find the differential output current i , which is twice the Collector current\nOd\nin one transistor. This expression consists of exponentials. It is clear that this differential output\ncurrent i is very nonlinear, as shown next.\nOd",
+      "text": "For a differential pair with bipolar transistors, a similar reasoning can be applied. For a large input signal (as for a digital input drive) all current flows in one transistor and the other ones is off. The maximum output voltage is reached, i.e. R I . The L B differential pair therefore behaves as a limiter, when overdriven. In this case we have to use the full current expression. Taking into account that – the input voltage is applied between both v ’s and that BE – the sum of the currents is still I , B we can fairly easily find the differential output current i , which is twice the Collector current Od in one transistor. This expression consists of exponentials. It is clear that this differential output current i is very nonlinear, as shown next. Od"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For a differential pair with bipolar transistors, a similar reasoning can be applied. For a large input signal (as for a digital input drive) all current flows in one transistor and the other ones is off. The maximum output voltage is reached, i.e. R I . The L B differential pair therefore behaves as a limiter, when overdriven. In this case we have to use the full current expression. Taking into account that – the input voltage is applied between both v ’s and that BE – the sum of the currents is still I , B we can fairly easily find the differential output current i , which is twice the Collector current Od in one transistor. This expression consists of exponentials. It is clear that this differential output current i is very nonlinear, as shown next. Od",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Bipolar Voltage diff. amp. : large input signals",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0100_01_0325.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.06756757340733588,
+          0.0829268290243903,
+          0.8851351409749034,
+          0.1463414631707317
+        ],
+        "confidence": 1,
+        "text": "Bipolar Voltage diff. amp. : large input signals"
+      },
+      {
+        "bbox": [
+          0.15540540608108105,
+          0.25365853673170724,
+          0.2229729736486486,
+          0.3268292684390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "lod"
+      },
+      {
+        "bbox": [
+          0.21264870902791036,
+          0.29640980908689585,
+          0.33802696976927304,
+          0.342614580733535
+        ],
+        "confidence": 1,
+        "text": "= tanh"
+      },
+      {
+        "bbox": [
+          0.3648648645511583,
+          0.24878048738675962,
+          0.41554054022683395,
+          0.30731707275261333
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vịd"
+      },
+      {
+        "bbox": [
+          0.33783783787162164,
+          0.33658536526829264,
+          0.4358108108445946,
+          0.39512195063414635
+        ],
+        "confidence": 0.5,
+        "text": "2 kT/q"
+      },
+      {
+        "bbox": [
+          0.5438281568539285,
+          0.29696250476437125,
+          0.6656312987829363,
+          0.33718383536055074
+        ],
+        "confidence": 0.5,
+        "text": "tanh x ="
+      },
+      {
+        "bbox": [
+          0.6790540530405405,
+          0.2634146344878049,
+          0.7804054043918919,
+          0.30731707351219506
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ex -e-x"
+      },
+      {
+        "bbox": [
+          0.7969484411015068,
+          0.262014470057615,
+          0.9361596704773976,
+          0.33798552915899893
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 2ex-1"
+      },
+      {
+        "bbox": [
+          0.6790540527027028,
+          0.33658536609756096,
+          0.7871621608108109,
+          0.3756097563414633
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ex + e-x"
+      },
+      {
+        "bbox": [
+          0.837772699029939,
+          0.3362296195592549,
+          0.9392543300254059,
+          0.37596550201596457
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2ex + 1"
+      },
+      {
+        "bbox": [
+          0.07770269771959472,
+          0.45365853585365845,
+          0.5844594544763514,
+          0.5121951212195122
+        ],
+        "confidence": 1,
+        "text": "Via is the differential input voltage"
+      },
+      {
+        "bbox": [
+          0.07770270755308879,
+          0.5219512192682927,
+          0.7567567616071429,
+          0.5756097558536586
+        ],
+        "confidence": 1,
+        "text": "iod is the differential output current (9mVia) or"
+      },
+      {
+        "bbox": [
+          0.24662162514478767,
+          0.5853658533101045,
+          0.7398648683880309,
+          0.6439024386759581
+        ],
+        "confidence": 0.5,
+        "text": "twice the circular current 9m Via /2"
+      },
+      {
+        "bbox": [
+          0.07432431853885146,
+          0.6487804885365854,
+          0.6047297239442568,
+          0.707317073902439
+        ],
+        "confidence": 0.5,
+        "text": "In is the total DC current in the pair"
+      },
+      {
+        "bbox": [
+          0.09090729304101758,
+          0.8119904861493404,
+          0.3212548748528709,
+          0.8758143884655502
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Note that 9m ="
+      },
+      {
+        "bbox": [
+          0.33445946040540536,
+          0.8536585363902439,
+          0.429054055,
+          0.9024390241951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 kT/q"
+      },
+      {
+        "bbox": [
+          0.7195945968749999,
+          0.9414634140853658,
+          0.9290540563344594,
+          0.9853658531097561
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 0325"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Taking into account that – the input voltage is applied between both v ’s and that BE – the sum of the currents is still I , B we can fairly easily find the differential output current i , which is twice the Collector current Od in one transistor.",
+      "pdf_page": 100,
+      "printed_page": 102,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is clear that this differential output current i is very nonlinear, as shown next.",
+      "pdf_page": 100,
+      "printed_page": 102,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0100_01_0325.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Taking into account that – the input voltage is applied between both v ’s and that BE – the sum of the currents is still I , B we can fairly easily find the differential output current i , which is twice the Collector current Od in one transistor.",
+        "pdf_page": 100,
+        "printed_page": 102,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The L B differential pair therefore behaves as a limiter, when overdriven.",
+      "pdf_page": 100,
+      "printed_page": 102,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0325-M01",
+      "ocr_text": "= tanh",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.21264870902791036,
+        0.29640980908689585,
+        0.33802696976927304,
+        0.342614580733535
+      ],
+      "context_crop": "regions/SANSEN-0325_math_01.png",
+      "context_bbox_normalized": [
+        0.17264870902791035,
+        0.19640980908689584,
+        0.568026969769273,
+        0.472614580733535
+      ],
+      "source_image": "slides/p0100_01_0325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0325-M02",
+      "ocr_text": "tanh x =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5438281568539285,
+        0.29696250476437125,
+        0.6656312987829363,
+        0.33718383536055074
+      ],
+      "context_crop": "regions/SANSEN-0325_math_02.png",
+      "context_bbox_normalized": [
+        0.5038281568539285,
+        0.19696250476437124,
+        0.8956312987829362,
+        0.46718383536055075
+      ],
+      "source_image": "slides/p0100_01_0325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0325-M03",
+      "ocr_text": "= 2ex-1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7969484411015068,
+        0.262014470057615,
+        0.9361596704773976,
+        0.33798552915899893
+      ],
+      "context_crop": "regions/SANSEN-0325_math_03.png",
+      "context_bbox_normalized": [
+        0.7569484411015067,
+        0.16201447005761502,
+        1,
+        0.46798552915899894
+      ],
+      "source_image": "slides/p0100_01_0325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0325-M04",
+      "ocr_text": "Note that 9m =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09090729304101758,
+        0.8119904861493404,
+        0.3212548748528709,
+        0.8758143884655502
+      ],
+      "context_crop": "regions/SANSEN-0325_math_04.png",
+      "context_bbox_normalized": [
+        0.05090729304101758,
+        0.7119904861493405,
+        0.551254874852871,
+        0.93
+      ],
+      "source_image": "slides/p0100_01_0325.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

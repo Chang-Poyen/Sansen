@@ -1,0 +1,177 @@
+{
+  "case_id": "SANSEN-2312",
+  "slide_id": "2312",
+  "chapter": 23,
+  "slide_number_in_chapter": 12,
+  "source": {
+    "pdf_page": 705,
+    "printed_page": 717
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0705_01_2312.jpg",
+      "pdf_page": 705,
+      "printed_page": 717,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 705,
+      "printed_page": 717,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        367.812
+      ],
+      "text_raw": "Now that the input imped-\nance matching, the Noise\nFigure and IIP3 have been\nintroduced, they all have to\nbe derived for various cir-\ncuit configuration.\nAt these high frequencies,\nonly simple circuits can be\nused. A single transistor\namplifier is used more often,\nfollowed by a cascode\namplifier. This is why they\nare discussed first.",
+      "text": "Now that the input impedance matching, the Noise Figure and IIP3 have been introduced, they all have to be derived for various circuit configuration. At these high frequencies, only simple circuits can be used. A single transistor amplifier is used more often, followed by a cascode amplifier. This is why they are discussed first."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that the input impedance matching, the Noise Figure and IIP3 have been introduced, they all have to be derived for various circuit configuration. At these high frequencies, only simple circuits can be used. A single transistor amplifier is used more often, followed by a cascode amplifier. This is why they are discussed first.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0705_01_2312.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432173423431,
+          0.07804878073170729,
+          0.3851351325450451,
+          0.136585366097561
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459460138513505,
+          0.2926829274146341,
+          0.7871621689527026,
+          0.3512195127804878
+        ],
+        "confidence": 1,
+        "text": "• Noise Figure and Impedance Matching"
+      },
+      {
+        "bbox": [
+          0.09459460043918912,
+          0.3902439022926829,
+          0.6790540598986485,
+          0.4439024388780488
+        ],
+        "confidence": 1,
+        "text": "• LNA specifications and linearity"
+      },
+      {
+        "bbox": [
+          0.09121622111486472,
+          0.48780487780487813,
+          0.5810810859797296,
+          0.541463414390244
+        ],
+        "confidence": 1,
+        "text": "• Input amplifier or cascode"
+      },
+      {
+        "bbox": [
+          0.09459460010135126,
+          0.5853658534146342,
+          0.645270275777027,
+          0.6390243900000001
+        ],
+        "confidence": 1,
+        "text": "• Non-quasi-static MOST model"
+      },
+      {
+        "bbox": [
+          0.09459459790540534,
+          0.6829268290731707,
+          0.4256756789864865,
+          0.7317073168780488
+        ],
+        "confidence": 1,
+        "text": "• More realizations"
+      },
+      {
+        "bbox": [
+          0.0945945992229729,
+          0.7804878046341465,
+          0.5574324370608107,
+          0.8341463412195123
+        ],
+        "confidence": 1,
+        "text": "• Inductive ESD protection"
+      },
+      {
+        "bbox": [
+          0.7195945932010135,
+          0.9414634152439023,
+          0.9324324310388513,
+          0.9902439030487804
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2312"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Now that the input impedance matching, the Noise Figure and IIP3 have been introduced, they all have to be derived for various circuit configuration.",
+      "pdf_page": 705,
+      "printed_page": 717,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0705_01_2312.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

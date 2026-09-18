@@ -1,0 +1,175 @@
+{
+  "case_id": "SANSEN-0620",
+  "slide_id": "0620",
+  "chapter": 6,
+  "slide_number_in_chapter": 20,
+  "source": {
+    "pdf_page": 187,
+    "printed_page": 191
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0187_01_0620.jpg",
+      "pdf_page": 187,
+      "printed_page": 191,
+      "bbox_pt": [
+        91.521622,
+        205.236451,
+        374.78981,
+        401.696442
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 187,
+      "printed_page": 191,
+      "bbox_pt": [
+        0,
+        201.24689999999975,
+        595,
+        463.32640000000004
+      ],
+      "text_raw": "Finally, the third design\nplan is to start with a selec-\ntion of the current in the\ninput stage.\nA possible reason to go\nfor this design plan, could\nbe the noise performance.\nAfter all the equivalent\ninput noise voltage will\ndepend on the transcon-\nductances of the MOSTs in\nthe input stage.\nAgain, a minimum is\nreached when we plot the\ntotal area versus g .\nm1\nOnce C becomes C\nc L\ndivided by 2–3, then we obtain a value of g which is similar to the values obtained by the\nm1\nprevious design plans.\nHowever, it is not worked out any further.",
+      "text": "Finally, the third design plan is to start with a selection of the current in the input stage. A possible reason to go for this design plan, could be the noise performance. After all the equivalent input noise voltage will depend on the transconductances of the MOSTs in the input stage. Again, a minimum is reached when we plot the total area versus g . m1 Once C becomes C c L divided by 2–3, then we obtain a value of g which is similar to the values obtained by the m1 previous design plans. However, it is not worked out any further."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Finally, the third design plan is to start with a selection of the current in the input stage. A possible reason to go for this design plan, could be the noise performance. After all the equivalent input noise voltage will depend on the transconductances of the MOSTs in the input stage. Again, a minimum is reached when we plot the total area versus g . m1 Once C becomes C c L divided by 2–3, then we obtain a value of g which is similar to the values obtained by the m1 previous design plans. However, it is not worked out any further.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA : Design vs Ips1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0187_01_0620.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432827280393,
+          0.0731707315853658,
+          0.7060810850295607,
+          0.14146341451219513
+        ],
+        "confidence": 0.5,
+        "text": "Miller CMOS OTA : Design vs Ips1"
+      },
+      {
+        "bbox": [
+          0.09106774036540544,
+          0.2287389055741984,
+          0.16568901825187343,
+          0.2737001184767327
+        ],
+        "confidence": 1,
+        "text": "Area"
+      },
+      {
+        "bbox": [
+          0.28029365048620636,
+          0.3455810339843941,
+          0.405517158238496,
+          0.3861262858772283
+        ],
+        "confidence": 1,
+        "text": "Area M6"
+      },
+      {
+        "bbox": [
+          0.4997994952032447,
+          0.42350991888633116,
+          0.6218221239874243,
+          0.48380715451478484
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Area Cc"
+      },
+      {
+        "bbox": [
+          0.11486486455518019,
+          0.5658536580487804,
+          0.1587837834740991,
+          0.624390243414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.6756756768158784,
+          0.7170731713414633,
+          0.7736486497888514,
+          0.7658536591463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• 9m1"
+      },
+      {
+        "bbox": [
+          0.7331081101351351,
+          0.9414634144390244,
+          0.935810812837838,
+          0.9804878046829268
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0620"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "feedback",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0187_01_0620.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "After all the equivalent input noise voltage will depend on the transconductances of the MOSTs in the input stage.",
+      "pdf_page": 187,
+      "printed_page": 191,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Again, a minimum is reached when we plot the total area versus g . m1 Once C becomes C c L divided by 2–3, then we obtain a value of g which is similar to the values obtained by the m1 previous design plans.",
+      "pdf_page": 187,
+      "printed_page": 191,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

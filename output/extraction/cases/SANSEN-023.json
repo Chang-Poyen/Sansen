@@ -1,0 +1,176 @@
+{
+  "case_id": "SANSEN-023",
+  "slide_id": "023",
+  "chapter": 2,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 50,
+    "printed_page": 51
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0051_01_023.jpg",
+      "pdf_page": 51,
+      "printed_page": 52,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 50,
+      "printed_page": 51,
+      "bbox_pt": [
+        0,
+        630.7385,
+        595,
+        703.5592200000001
+      ],
+      "text_raw": "After all, only a few elementary circuit blocks can be identified. One single transistor can be\nused as an amplifier, a source follower or a cascode. Moreover, gain boosting can be applied to\na cascode, which is little more than a cascode combined with an amplifier. Obviously a MOST\ncan also be used as a switch.",
+      "text": "After all, only a few elementary circuit blocks can be identified. One single transistor can be used as an amplifier, a source follower or a cascode. Moreover, gain boosting can be applied to a cascode, which is little more than a cascode combined with an amplifier. Obviously a MOST can also be used as a switch."
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": 52,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        331.88820000000004
+      ],
+      "text_raw": "With two transistors two\nmore configurations can be\nidentified. They are the\ndifferential pair and the cur-\nrent mirror. Combined, they\ngive rise to a full four-tran-\nsistor differential voltage\nand current amplifier. One\nversion of this differential\ncurrent amplifier has as\nmany as four inputs, which\nmakes it a very versatile\nbuilding block indeed.\nWe start with an ampli-\nfier, using only one single\ntransistor.",
+      "text": "With two transistors two more configurations can be identified. They are the differential pair and the current mirror. Combined, they give rise to a full four-transistor differential voltage and current amplifier. One version of this differential current amplifier has as many as four inputs, which makes it a very versatile building block indeed. We start with an amplifier, using only one single transistor."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "After all, only a few elementary circuit blocks can be identified. One single transistor can be used as an amplifier, a source follower or a cascode. Moreover, gain boosting can be applied to a cascode, which is little more than a cascode combined with an amplifier. Obviously a MOST can also be used as a switch.\n\nWith two transistors two more configurations can be identified. They are the differential pair and the current mirror. Combined, they give rise to a full four-transistor differential voltage and current amplifier. One version of this differential current amplifier has as many as four inputs, which makes it a very versatile building block indeed. We start with an amplifier, using only one single transistor.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0051_01_023.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270219594592,
+          0.07804877975609759,
+          0.38175675625,
+          0.1365853651219513
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.14189189551158302,
+          0.3317073168641115,
+          0.6486486522683398,
+          0.3902439022299651
+        ],
+        "confidence": 1,
+        "text": "• Single-transistor amplifiers"
+      },
+      {
+        "bbox": [
+          0.14189189603040533,
+          0.42439024378048784,
+          0.47297297711148634,
+          0.47317073158536593
+        ],
+        "confidence": 0.5,
+        "text": "• Source followers"
+      },
+      {
+        "bbox": [
+          0.14189189338803088,
+          0.517073170522648,
+          0.35135135284749036,
+          0.5658536583275261
+        ],
+        "confidence": 1,
+        "text": "• Cascodes"
+      },
+      {
+        "bbox": [
+          0.7195946040788804,
+          0.9317073175857816,
+          0.9290540506508491,
+          0.9707317066666666
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 023"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0051_01_023.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "One single transistor can be used as an amplifier, a source follower or a cascode.",
+        "pdf_page": 50,
+        "printed_page": 51,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Moreover, gain boosting can be applied to a cascode, which is little more than a cascode combined with an amplifier.",
+      "pdf_page": 50,
+      "printed_page": 51,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_applicable",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "本页为章节脉络，无独立小信号模型需建图。"
+  },
+  "simulation_status": "not_started_theory_and_nodal_checks_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "00-conventions",
+    "title": "章节脉络与共同模型",
+    "summary_zh": "目录与基本电路分类；导入单管放大器，无独立待推导公式。",
+    "html": "../derivations/ch02/00-conventions.html",
+    "markdown": "../derivations/ch02/00-conventions.md",
+    "status": "context_reviewed_no_independent_derivation",
+    "discrepancy_ids": [],
+    "sfg": "not_applicable",
+    "sfg_reason": "本页为章节脉络，无独立小信号模型需建图。"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

@@ -1,0 +1,182 @@
+{
+  "case_id": "SANSEN-031",
+  "slide_id": "031",
+  "chapter": 3,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 87,
+    "printed_page": 89
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0087_01_031.jpg",
+      "pdf_page": 87,
+      "printed_page": 89,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 87,
+      "printed_page": 89,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        415.49450000000013
+      ],
+      "text_raw": "All analog circuits are built\nup by use of a very limited\nnumber of elementary build-\ning blocks. Thorough know-\nledge of these simple blocks\nis therefore essential in\nobtaining insight into more\ncomplicated circuit sche-\nmatics. This is why they are\nconsidered separately and\nanalyzed in great detail.\nWe now have a complete\nknowledge of single-transis-\ntor circuits. Now we will\nconcentrate on the study\nof current mirrors and\ndifferential pair. These form\nthe cornerstone of all\nanalog design.",
+      "text": "All analog circuits are built up by use of a very limited number of elementary building blocks. Thorough knowledge of these simple blocks is therefore essential in obtaining insight into more complicated circuit schematics. This is why they are considered separately and analyzed in great detail. We now have a complete knowledge of single-transistor circuits. Now we will concentrate on the study of current mirrors and differential pair. These form the cornerstone of all analog design."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "All analog circuits are built up by use of a very limited number of elementary building blocks. Thorough knowledge of these simple blocks is therefore essential in obtaining insight into more complicated circuit schematics. This is why they are considered separately and analyzed in great detail. We now have a complete knowledge of single-transistor circuits. Now we will concentrate on the study of current mirrors and differential pair. These form the cornerstone of all analog design.",
+  "schema_version": "1.0",
+  "chapter_title": "差分电压放大器与电流放大器",
+  "title": "Slide 031",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0087_01_031.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.35472972787162166,
+          0.2487804871951219,
+          0.6655405386824325,
+          0.32195121890243905
+        ],
+        "confidence": 1,
+        "text": "Differential"
+      },
+      {
+        "bbox": [
+          0.10472972792792797,
+          0.3268292675067751,
+          0.9020270252252253,
+          0.46829268214092146
+        ],
+        "confidence": 1,
+        "text": "Voltage & Current amplifiers"
+      },
+      {
+        "bbox": [
+          0.0691583723603344,
+          0.6143091091260487,
+          0.11186167549123172,
+          0.8597741598001151
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Bis:SeDaS:SAD10)"
+      },
+      {
+        "bbox": [
+          0.3812269037412018,
+          0.5946818573380871,
+          0.6354205447851999,
+          0.6606918975282489
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.310810810472973,
+          0.72195122,
+          0.6756756753378379,
+          0.770731707804878
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.38175676086711696,
+          0.7902439021951221,
+          0.6283783824887386,
+          0.8341463412195123
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.35472973361486476,
+          0.8731707314634147,
+          0.6655405444256756,
+          0.9024390241463416
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.719594593285473,
+          0.9560975613414634,
+          0.9189189176097973,
+          0.9853658540243903
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 031"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0087_01_031.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "All analog circuits are built up by use of a very limited number of elementary building blocks.",
+      "pdf_page": 87,
+      "printed_page": 89,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Thorough knowledge of these simple blocks is therefore essential in obtaining insight into more complicated circuit schematics.",
+      "pdf_page": 87,
+      "printed_page": 89,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Differential voltage and current amplifiers"
+}

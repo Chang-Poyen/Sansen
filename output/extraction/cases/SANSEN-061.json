@@ -1,0 +1,167 @@
+{
+  "case_id": "SANSEN-061",
+  "slide_id": "061",
+  "chapter": 6,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 177,
+    "printed_page": 181
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0177_01_061.jpg",
+      "pdf_page": 177,
+      "printed_page": 181,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 177,
+      "printed_page": 181,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        362.6800000000001
+      ],
+      "text_raw": "In the previous Chapter we\nlearned all we need about\nthe stability of an opera-\ntional transconductance\namplifier, to be able to\nimplement it by means of\nMOST devices.\nNow we would like to\nrefine the design plan. Up\ntill now we have arbitrarily\nchosen the compensation\ncapacitances. The question\nis, how can we improve on\nthat?\nFinally, we have now\nfocused on a few specifica-\ntions only, which are the GBW and the Phase Margin. Surely there are many more specifications.\nThey are elaborated on in this Chapter.",
+      "text": "In the previous Chapter we learned all we need about the stability of an operational transconductance amplifier, to be able to implement it by means of MOST devices. Now we would like to refine the design plan. Up till now we have arbitrarily chosen the compensation capacitances. The question is, how can we improve on that? Finally, we have now focused on a few specifications only, which are the GBW and the Phase Margin. Surely there are many more specifications. They are elaborated on in this Chapter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In the previous Chapter we learned all we need about the stability of an operational transconductance amplifier, to be able to implement it by means of MOST devices. Now we would like to refine the design plan. Up till now we have arbitrarily chosen the compensation capacitances. The question is, how can we improve on that? Finally, we have now focused on a few specifications only, which are the GBW and the Phase Margin. Surely there are many more specifications. They are elaborated on in this Chapter.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Slide 061",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0177_01_061.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.22635135618243243,
+          0.24878048760975613,
+          0.7094594642905405,
+          0.3365853656585366
+        ],
+        "confidence": 1,
+        "text": "Systematic Design"
+      },
+      {
+        "bbox": [
+          0.14864864175675685,
+          0.3512195124390244,
+          0.837837830945946,
+          0.44390243926829265
+        ],
+        "confidence": 1,
+        "text": "of Operational Amplifiers"
+      },
+      {
+        "bbox": [
+          0.3812210030310243,
+          0.6380930766922114,
+          0.6354232529188516,
+          0.7003574586591512
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.310810810472973,
+          0.7170731712682927,
+          0.6756756753378379,
+          0.7707317078536585
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.38175675688344596,
+          0.775609755487805,
+          0.6283783785050676,
+          0.824390243292683
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.3412162109797299,
+          0.8536585368292682,
+          0.6554054001689191,
+          0.8878048782926828
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7297297390450965,
+          0.9414634151467572,
+          0.9290540504819301,
+          0.9804878042276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 061"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0177_01_061.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Finally, we have now focused on a few specifications only, which are the GBW and the Phase Margin.",
+      "pdf_page": 177,
+      "printed_page": 181,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

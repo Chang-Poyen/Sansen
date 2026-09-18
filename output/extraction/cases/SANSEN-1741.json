@@ -1,0 +1,298 @@
+{
+  "case_id": "SANSEN-1741",
+  "slide_id": "1741",
+  "chapter": 17,
+  "slide_number_in_chapter": 41,
+  "source": {
+    "pdf_page": 495,
+    "printed_page": 505
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0495_02_1741.jpg",
+      "pdf_page": 495,
+      "printed_page": 505,
+      "bbox_pt": [
+        91.52162,
+        397.56098,
+        374.54222,
+        594.07082
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 495,
+      "printed_page": 505,
+      "bbox_pt": [
+        0,
+        393.5715100000001,
+        595,
+        797
+      ],
+      "text_raw": "Capacitor aC is now float-\ning. Two more switches are\nnecessary. However, the\nratio a will be insensitive\nto the parasitic junction\ncapacitances.\nSimilar functions are car-\nried out during the two\nphases. During phase 1,\ncapacitor aC is charged to\nthe input voltage. During\nphase 2, this capacitor aC is\ndischarged to zero, forcing\nits charge towards C.\nLet us now see how the\nparasitic junction capaci-\ntances of all four switches come in. If they do not, the gain A is accurately equal to a.\nv\nThe operation of this SC integrator is illustrated even better by showing the circuit first with\nthe clocks closed on phase 1, and then on 2.",
+      "text": "Capacitor aC is now floating. Two more switches are necessary. However, the ratio a will be insensitive to the parasitic junction capacitances. Similar functions are carried out during the two phases. During phase 1, capacitor aC is charged to the input voltage. During phase 2, this capacitor aC is discharged to zero, forcing its charge towards C. Let us now see how the parasitic junction capacitances of all four switches come in. If they do not, the gain A is accurately equal to a. v The operation of this SC integrator is illustrated even better by showing the circuit first with the clocks closed on phase 1, and then on 2."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Capacitor aC is now floating. Two more switches are necessary. However, the ratio a will be insensitive to the parasitic junction capacitances. Similar functions are carried out during the two phases. During phase 1, capacitor aC is charged to the input voltage. During phase 2, this capacitor aC is discharged to zero, forcing its charge towards C. Let us now see how the parasitic junction capacitances of all four switches come in. If they do not, the gain A is accurately equal to a. v The operation of this SC integrator is illustrated even better by showing the circuit first with the clocks closed on phase 1, and then on 2.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Stray Insensitive SC integrator",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0495_02_1741.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0711864475847456,
+          0.07804878030487805,
+          0.6237288204661015,
+          0.14146341445121946
+        ],
+        "confidence": 1,
+        "text": "Stray Insensitive SC integrator"
+      },
+      {
+        "bbox": [
+          0.5830508478813559,
+          0.19999999947154468,
+          0.6881355936440677,
+          0.2634146336178862
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C, = C"
+      },
+      {
+        "bbox": [
+          0.288135594,
+          0.278048779707317,
+          0.42033898383050844,
+          0.35609756019512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C,= aC"
+      },
+      {
+        "bbox": [
+          0.09152542351694916,
+          0.453658536097561,
+          0.1152542370762712,
+          0.4926829263414634
+        ],
+        "confidence": 1,
+        "text": "IN"
+      },
+      {
+        "bbox": [
+          0.7762711857288136,
+          0.429268292097561,
+          0.861016948440678,
+          0.4878048774634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Your"
+      },
+      {
+        "bbox": [
+          0.6169491523486682,
+          0.6878048775261324,
+          0.6576271184503631,
+          0.7609756092334495
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9"
+      },
+      {
+        "bbox": [
+          0.5322033899717514,
+          0.7268292689430895,
+          0.6101694916666667,
+          0.8048780494308944
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,="
+      },
+      {
+        "bbox": [
+          0.6677966096327683,
+          0.7268292684146342,
+          0.7322033892937853,
+          0.7902439025609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= а"
+      },
+      {
+        "bbox": [
+          0.7152542358050848,
+          0.9414634152439023,
+          0.9355932188559323,
+          0.9902439030487804
+        ],
+        "confidence": 0.5,
+        "text": "willy Sansen 1005 N1741"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "If they do not, the gain A is accurately equal to a. v The operation of this SC integrator is illustrated even better by showing the circuit first with the clocks closed on phase 1, and then on 2.",
+      "pdf_page": 495,
+      "printed_page": 505,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0495_02_1741.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If they do not, the gain A is accurately equal to a. v The operation of this SC integrator is illustrated even better by showing the circuit first with the clocks closed on phase 1, and then on 2.",
+      "pdf_page": 495,
+      "printed_page": 505,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "During phase 1, capacitor aC is charged to the input voltage.",
+      "pdf_page": 495,
+      "printed_page": 505,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "During phase 2, this capacitor aC is discharged to zero, forcing its charge towards C.",
+      "pdf_page": 495,
+      "printed_page": 505,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If they do not, the gain A is accurately equal to a. v The operation of this SC integrator is illustrated even better by showing the circuit first with the clocks closed on phase 1, and then on 2.",
+      "pdf_page": 495,
+      "printed_page": 505,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1741-M01",
+      "ocr_text": "C, = C",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5830508478813559,
+        0.19999999947154468,
+        0.6881355936440677,
+        0.2634146336178862
+      ],
+      "context_crop": "regions/SANSEN-1741_math_01.png",
+      "context_bbox_normalized": [
+        0.5430508478813558,
+        0.13,
+        0.9181355936440677,
+        0.3934146336178862
+      ],
+      "source_image": "slides/p0495_02_1741.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1741-M02",
+      "ocr_text": "C,= aC",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.288135594,
+        0.278048779707317,
+        0.42033898383050844,
+        0.35609756019512195
+      ],
+      "context_crop": "regions/SANSEN-1741_math_02.png",
+      "context_bbox_normalized": [
+        0.248135594,
+        0.178048779707317,
+        0.6503389838305085,
+        0.48609756019512196
+      ],
+      "source_image": "slides/p0495_02_1741.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1741-M03",
+      "ocr_text": "A,=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5322033899717514,
+        0.7268292689430895,
+        0.6101694916666667,
+        0.8048780494308944
+      ],
+      "context_crop": "regions/SANSEN-1741_math_03.png",
+      "context_bbox_normalized": [
+        0.49220338997175145,
+        0.6268292689430895,
+        0.8401694916666667,
+        0.93
+      ],
+      "source_image": "slides/p0495_02_1741.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1741-M04",
+      "ocr_text": "= а",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6677966096327683,
+        0.7268292684146342,
+        0.7322033892937853,
+        0.7902439025609757
+      ],
+      "context_crop": "regions/SANSEN-1741_math_04.png",
+      "context_bbox_normalized": [
+        0.6277966096327683,
+        0.6268292684146343,
+        0.9622033892937852,
+        0.9202439025609757
+      ],
+      "source_image": "slides/p0495_02_1741.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

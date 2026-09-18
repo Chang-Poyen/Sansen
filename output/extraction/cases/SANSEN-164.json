@@ -1,0 +1,221 @@
+{
+  "case_id": "SANSEN-164",
+  "slide_id": "164",
+  "chapter": 16,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 449,
+    "printed_page": 458
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0449_02_164.jpg",
+      "pdf_page": 449,
+      "printed_page": 458,
+      "bbox_pt": [
+        91.52162,
+        372.6485,
+        374.78981,
+        569.1084900000001
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 449,
+      "printed_page": 458,
+      "bbox_pt": [
+        0,
+        368.6590100000001,
+        595,
+        618.7805000000001
+      ],
+      "text_raw": "The physics of a bipolar\ntransistor is reviewed to\nexamine where the absolute\naccuracy and temperature\ncoefficient are coming from.\nA correction circuit is added\nto equalize the output volt-\nage over temperature.\nSeveral realizations are\nnow discussed in both bipo-\nlar and CMOS technologies.\nFor supply voltages below\n1 V, it is still possible to use\nthe same principle, but some\nmore resistors must be\nadded.\nFinally, a current reference is derived from the bandgap reference, by proper use of a few\nresistances.",
+      "text": "The physics of a bipolar transistor is reviewed to examine where the absolute accuracy and temperature coefficient are coming from. A correction circuit is added to equalize the output voltage over temperature. Several realizations are now discussed in both bipolar and CMOS technologies. For supply voltages below 1 V, it is still possible to use the same principle, but some more resistors must be added. Finally, a current reference is derived from the bandgap reference, by proper use of a few resistances."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The physics of a bipolar transistor is reviewed to examine where the absolute accuracy and temperature coefficient are coming from. A correction circuit is added to equalize the output voltage over temperature. Several realizations are now discussed in both bipolar and CMOS technologies. For supply voltages below 1 V, it is still possible to use the same principle, but some more resistors must be added. Finally, a current reference is derived from the bandgap reference, by proper use of a few resistances.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0449_02_164.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108086993246,
+          0.0926829274390244,
+          0.38175675654560814,
+          0.14146341524390238
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.13485959855771643,
+          0.28574594660876695,
+          0.3381133703654128,
+          0.34840039532732636
+        ],
+        "confidence": 1,
+        "text": "Principles"
+      },
+      {
+        "bbox": [
+          0.09797296716216226,
+          0.3658536585853659,
+          0.6790540482432433,
+          0.4292682927317073
+        ],
+        "confidence": 1,
+        "text": "• Bipolar bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135135162162165,
+          0.443902439707317,
+          0.6621621624324324,
+          0.5121951226341463
+        ],
+        "confidence": 1,
+        "text": "• CMOS bandgap references"
+      },
+      {
+        "bbox": [
+          0.10135134608108118,
+          0.5268292676097561,
+          0.6418918866216217,
+          0.5951219505365853
+        ],
+        "confidence": 0.5,
+        "text": "• Bandgap references < 1 V"
+      },
+      {
+        "bbox": [
+          0.10135135000000003,
+          0.609756098292683,
+          0.5067567554054054,
+          0.6682926836585366
+        ],
+        "confidence": 1,
+        "text": "• Current references"
+      },
+      {
+        "bbox": [
+          0.09974648453671998,
+          0.6748908452615676,
+          0.4541625585162782,
+          0.7680421890026357
+        ],
+        "confidence": 1,
+        "text": "• LDO Regulators"
+      },
+      {
+        "bbox": [
+          0.11148647775900931,
+          0.8390243903252033,
+          0.635135126407658,
+          0.8829268293495934
+        ],
+        "confidence": 1,
+        "text": "Ref.: B.Gilbert, G.Meijer, ACD, Kluwer 1995"
+      },
+      {
+        "bbox": [
+          0.7094594620354729,
+          0.9463414631707318,
+          0.9155405431165541,
+          0.9756097558536586
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-0s 164"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The physics of a bipolar transistor is reviewed to examine where the absolute accuracy and temperature coefficient are coming from.",
+      "pdf_page": 449,
+      "printed_page": 458,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Finally, a current reference is derived from the bandgap reference, by proper use of a few resistances.",
+      "pdf_page": 449,
+      "printed_page": 458,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0449_02_164.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "A correction circuit is added to equalize the output voltage over temperature.",
+      "pdf_page": 449,
+      "printed_page": 458,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-164-M01",
+      "ocr_text": "• Bandgap references < 1 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.10135134608108118,
+        0.5268292676097561,
+        0.6418918866216217,
+        0.5951219505365853
+      ],
+      "context_crop": "regions/SANSEN-164_math_01.png",
+      "context_bbox_normalized": [
+        0.06135134608108118,
+        0.42682926760975615,
+        0.8718918866216216,
+        0.7251219505365853
+      ],
+      "source_image": "slides/p0449_02_164.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

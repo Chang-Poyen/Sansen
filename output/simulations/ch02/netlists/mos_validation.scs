@@ -1,0 +1,56 @@
+simulator lang=spectre
+global 0
+// EDUCATIONAL MOS1 only: chosen textbook-like constants, not a foundry PDK.
+// MOS terminal order: D G S B.
+model N_EDU mos1 type=n vto=0.45 kp=100u lambda=0.1 gamma=0 phi=0.7 tox=10n cgso=0 cgdo=0 cbd=0 cbs=0
+model P_EDU mos1 type=p vto=-0.45 kp=100u lambda=0.1 gamma=0 phi=0.7 tox=10n cgso=0 cgdo=0 cbd=0 cbs=0
+
+opts options reltol=1e-7 vabstol=1e-10 iabstol=1e-15 gmin=1e-16
+VDD (vdd 0) vsource dc=3
+V_mos_cs_in (mos_cs_in 0) vsource dc=0.65 mag=1
+M_mos_cs (mos_cs mos_cs_in 0 0) N_EDU w=0.00017135959928672 l=2u
+I_mos_cs (vdd mos_cs) isource dc=0.00018849555921539
+C_mos_cs_load (mos_cs 0) capacitor c=3e-12
+V_mos_miller_in (mos_miller_in 0) vsource dc=0.65 mag=1
+R_mos_miller_source (mos_miller_in mos_miller_g) resistor r=10000
+M_mos_miller (mos_miller mos_miller_g 0 0) N_EDU w=0.00017135959928672 l=2u
+I_mos_miller (vdd mos_miller) isource dc=0.00018849555921539
+C_mos_miller_load (mos_miller 0) capacitor c=3e-12
+C_mos_miller_feedback (mos_miller_g mos_miller) capacitor c=5e-13
+V_mos_follower_in (mos_follower_in 0) vsource dc=1.65 mag=1
+R_mos_follower_source (mos_follower_in mos_follower_g) resistor r=10000
+V_mos_follower_drain (mos_follower_d 0) vsource dc=2
+M_mos_follower (mos_follower_d mos_follower_g mos_follower mos_follower) N_EDU w=0.00017135959928672 l=2u
+I_mos_follower (mos_follower 0) isource dc=0.00018849555921539
+C_mos_follower_load (mos_follower 0) capacitor c=3e-12
+C_mos_follower_gate_drain (mos_follower_g mos_follower_d) capacitor c=2e-13
+V_mos_cascode_in (mos_cascode_in 0) vsource dc=0.65 mag=1
+V_mos_cascode_bias (mos_cascode_bias 0) vsource dc=1.65
+M_mos_cascode_bottom (mos_cascode_x mos_cascode_in 0 0) N_EDU w=0.00017135959928672 l=2u
+M_mos_cascode_top (mos_cascode mos_cascode_bias mos_cascode_x mos_cascode_x) N_EDU w=0.00017135959928672 l=2u
+I_mos_cascode (vdd mos_cascode) isource dc=0.00018849555921539
+C_mos_cascode_load (mos_cascode 0) capacitor c=3e-12
+C_mos_cascode_middle (mos_cascode_x 0) capacitor c=1e-13
+V_mos_inverter_supply (mos_inverter_supply 0) vsource dc=1.3
+V_mos_inverter_in (mos_inverter_in 0) vsource dc=0.65 mag=1
+R_mos_inverter_source (mos_inverter_in mos_inverter_g) resistor r=10000
+M_mos_inverter_n (mos_inverter mos_inverter_g 0 0) N_EDU w=0.00017135959928672 l=2u
+M_mos_inverter_p (mos_inverter mos_inverter_g mos_inverter_supply mos_inverter_supply) P_EDU w=0.00017135959928672 l=2u
+C_mos_inverter_load (mos_inverter 0) capacitor c=3e-12
+C_mos_inverter_feedback (mos_inverter_g mos_inverter) capacitor c=2e-13
+V_mos_diode_load_supply (mos_diode_load_supply 0) vsource dc=1.3
+V_mos_diode_load_in (mos_diode_load_in 0) vsource dc=0.65 mag=1
+M_mos_diode_load_n (mos_diode_load mos_diode_load_in 0 0) N_EDU w=0.00017135959928672 l=2u
+M_mos_diode_load_p (mos_diode_load mos_diode_load mos_diode_load_supply mos_diode_load_supply) P_EDU w=0.00017135959928672 l=2u
+C_mos_diode_load_load (mos_diode_load 0) capacitor c=3e-12
+V_mos_degen_in (mos_degen_in 0) vsource dc=0.85 mag=1
+M_mos_degen (mos_degen mos_degen_in mos_degen_s mos_degen_s) N_EDU w=0.00017135959928672 l=2u
+R_mos_degen_source (mos_degen_s 0) resistor r=1061.032953946
+R_mos_degen_load (mos_degen 0) resistor r=10000
+I_mos_degen (vdd mos_degen) isource dc=0.00030849555921539
+C_mos_degen_load (mos_degen 0) capacitor c=3e-12
+dcOp dc
+ac ac start=1 stop=10G dec=60
+save mos_cs mos_miller mos_follower mos_cascode mos_inverter mos_diode_load mos_degen
+save M_mos_cs:gm M_mos_cs:gds M_mos_cs:ids M_mos_cs:vgs M_mos_cs:vds M_mos_cs:vdsat M_mos_cs:region M_mos_cs:cgs M_mos_cs:cgd M_mos_cs:cgb M_mos_cs:cbd M_mos_cs:cbs M_mos_miller:gm M_mos_miller:gds M_mos_miller:ids M_mos_miller:vgs M_mos_miller:vds M_mos_miller:vdsat M_mos_miller:region M_mos_miller:cgs M_mos_miller:cgd M_mos_miller:cgb M_mos_miller:cbd M_mos_miller:cbs M_mos_follower:gm M_mos_follower:gds M_mos_follower:ids M_mos_follower:vgs M_mos_follower:vds M_mos_follower:vdsat M_mos_follower:region M_mos_follower:cgs M_mos_follower:cgd M_mos_follower:cgb M_mos_follower:cbd M_mos_follower:cbs M_mos_cascode_bottom:gm M_mos_cascode_bottom:gds M_mos_cascode_bottom:ids M_mos_cascode_bottom:vgs M_mos_cascode_bottom:vds M_mos_cascode_bottom:vdsat M_mos_cascode_bottom:region M_mos_cascode_bottom:cgs M_mos_cascode_bottom:cgd M_mos_cascode_bottom:cgb M_mos_cascode_bottom:cbd M_mos_cascode_bottom:cbs M_mos_cascode_top:gm M_mos_cascode_top:gds M_mos_cascode_top:ids M_mos_cascode_top:vgs M_mos_cascode_top:vds M_mos_cascode_top:vdsat M_mos_cascode_top:region M_mos_cascode_top:cgs M_mos_cascode_top:cgd M_mos_cascode_top:cgb M_mos_cascode_top:cbd M_mos_cascode_top:cbs M_mos_inverter_n:gm M_mos_inverter_n:gds M_mos_inverter_n:ids M_mos_inverter_n:vgs M_mos_inverter_n:vds M_mos_inverter_n:vdsat M_mos_inverter_n:region M_mos_inverter_n:cgs M_mos_inverter_n:cgd M_mos_inverter_n:cgb M_mos_inverter_n:cbd M_mos_inverter_n:cbs M_mos_inverter_p:gm M_mos_inverter_p:gds M_mos_inverter_p:ids M_mos_inverter_p:vgs M_mos_inverter_p:vds M_mos_inverter_p:vdsat M_mos_inverter_p:region M_mos_inverter_p:cgs M_mos_inverter_p:cgd M_mos_inverter_p:cgb M_mos_inverter_p:cbd M_mos_inverter_p:cbs M_mos_diode_load_n:gm M_mos_diode_load_n:gds M_mos_diode_load_n:ids M_mos_diode_load_n:vgs M_mos_diode_load_n:vds M_mos_diode_load_n:vdsat M_mos_diode_load_n:region M_mos_diode_load_n:cgs M_mos_diode_load_n:cgd M_mos_diode_load_n:cgb M_mos_diode_load_n:cbd M_mos_diode_load_n:cbs M_mos_diode_load_p:gm M_mos_diode_load_p:gds M_mos_diode_load_p:ids M_mos_diode_load_p:vgs M_mos_diode_load_p:vds M_mos_diode_load_p:vdsat M_mos_diode_load_p:region M_mos_diode_load_p:cgs M_mos_diode_load_p:cgd M_mos_diode_load_p:cgb M_mos_diode_load_p:cbd M_mos_diode_load_p:cbs M_mos_degen:gm M_mos_degen:gds M_mos_degen:ids M_mos_degen:vgs M_mos_degen:vds M_mos_degen:vdsat M_mos_degen:region M_mos_degen:cgs M_mos_degen:cgd M_mos_degen:cgb M_mos_degen:cbd M_mos_degen:cbs
+saveOptions options save=selected

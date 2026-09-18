@@ -1,0 +1,27 @@
+{
+  "deck": "simulations/ch02/netlists/pz_gainboost_slow.scs",
+  "sha256": "a6c0dbd63b43a9a86992a19e85df234457c5131297817fae259cc9a0be076dcd",
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "returncode": 0,
+    "output_dir": "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_gainboost_slow/pz_gainboost_slow.raw",
+    "output_files": [
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_gainboost_slow/pz_gainboost_slow.raw/ac.ac",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_gainboost_slow/pz_gainboost_slow.raw/logStatus",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_gainboost_slow/pz_gainboost_slow.raw/poles.pz",
+      "/Users/zhangboyan/Documents/Program_debug/Sansen/output/simulations/ch02/runs/pz_gainboost_slow/pz_gainboost_slow.raw/logFile"
+    ],
+    "remote_host": "101.6.65.209",
+    "timings": {
+      "upload_total": 1.2744576249970123,
+      "remote_exec": 1.6280897079850547,
+      "download_total": 5.825474748970009,
+      "parse_results": 0.0016865000361576676,
+      "total": 8.73156204202678
+    },
+    "command": "HOSTNAME=`hostname 2>/dev/null || echo localhost`; export HOSTNAME && export LD_LIBRARY_PATH=\"${LD_LIBRARY_PATH:-}\" && mkdir -p /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/44ec16e6/pz_gainboost_slow.raw && csh -c ':; /eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/44ec16e6/pz_gainboost_slow.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/44ec16e6/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/44ec16e6/pz_gainboost_slow.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus' & SPID=$!; echo $SPID > /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/44ec16e6/spectre.pid; wait $SPID",
+    "spectre_command": "/eda/cadence/SPECTRE181/bin/spectre -64 /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/44ec16e6/pz_gainboost_slow.scs +escchars +log /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/44ec16e6/spectre.out -format psfascii -raw /tmp/virtuoso_bridge_poyen/zhangboyan/virtuoso_bridge_spectre/44ec16e6/pz_gainboost_slow.raw +lqtimeout 30 -maxw 5 -maxn 5 +logstatus"
+  },
+  "wall_s": 8.73267412185669
+}

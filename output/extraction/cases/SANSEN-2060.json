@@ -1,0 +1,342 @@
+{
+  "case_id": "SANSEN-2060",
+  "slide_id": "2060",
+  "chapter": 20,
+  "slide_number_in_chapter": 60,
+  "source": {
+    "pdf_page": 622,
+    "printed_page": 633
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0623_01_2060.jpg",
+      "pdf_page": 623,
+      "printed_page": 634,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 622,
+      "printed_page": 633,
+      "bbox_pt": [
+        0,
+        654.65438035,
+        595,
+        797
+      ],
+      "text_raw": "Speed and resolution are actually linked to the power consumption. Their relation is even fixed\nfor a certain CMOS technology.",
+      "text": "Speed and resolution are actually linked to the power consumption. Their relation is even fixed for a certain CMOS technology."
+    },
+    {
+      "pdf_page": 623,
+      "printed_page": 634,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        391.57850000000013
+      ],
+      "text_raw": "If resolution is linked to\nthe accuracy, as determined\nby matching, or the error,\nthen we recall from\nChapter 15 on offset, that\nthis error is inversely pro-\nportional to the area WL of\nthe MOST.\nOn the other hand, the\ntransistor width W is pro-\nportional to the current or\nthe power consumption.\nAlso the channel length L is\ninversely proportional to\nthe speed. As a result, for a\ncertain CMOS technology,\nthe speed accuracy over\npower ratio is about constant.\nBefore we calculate this constant, let us first of all, try to better understand what this means.\nIf this is true, then the realization of an ADC at higher frequency always requires more power.\nAlso, a higher resolution always requires more power.",
+      "text": "If resolution is linked to the accuracy, as determined by matching, or the error, then we recall from Chapter 15 on offset, that this error is inversely proportional to the area WL of the MOST. On the other hand, the transistor width W is proportional to the current or the power consumption. Also the channel length L is inversely proportional to the speed. As a result, for a certain CMOS technology, the speed accuracy over power ratio is about constant. Before we calculate this constant, let us first of all, try to better understand what this means. If this is true, then the realization of an ADC at higher frequency always requires more power. Also, a higher resolution always requires more power."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Speed and resolution are actually linked to the power consumption. Their relation is even fixed for a certain CMOS technology.\n\nIf resolution is linked to the accuracy, as determined by matching, or the error, then we recall from Chapter 15 on offset, that this error is inversely proportional to the area WL of the MOST. On the other hand, the transistor width W is proportional to the current or the power consumption. Also the channel length L is inversely proportional to the speed. As a result, for a certain CMOS technology, the speed accuracy over power ratio is about constant. Before we calculate this constant, let us first of all, try to better understand what this means. If this is true, then the realization of an ADC at higher frequency always requires more power. Also, a higher resolution always requires more power.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Impact of device mismatch on resolution/power",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0623_01_2060.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108696911195,
+          0.08780487780487811,
+          0.9054054112934363,
+          0.15121951195121952
+        ],
+        "confidence": 1,
+        "text": "Impact of device mismatch on resolution/power"
+      },
+      {
+        "bbox": [
+          0.08041718264086493,
+          0.23205358847393676,
+          0.601873256711151,
+          0.3090136636662719
+        ],
+        "confidence": 0.5,
+        "text": "Two transistors : o 2(Error) ~"
+      },
+      {
+        "bbox": [
+          0.6216216218243243,
+          0.21463414678048776,
+          0.6486486488513514,
+          0.25853658580487804
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6114864858108109,
+          0.28292682946341463,
+          0.6790540533783784,
+          0.3317073172682927
+        ],
+        "confidence": 1,
+        "text": "WL"
+      },
+      {
+        "bbox": [
+          0.8513513505912161,
+          0.20975609762195124,
+          0.912162161402027,
+          0.26341463420731703
+        ],
+        "confidence": 0.5,
+        "text": "AVT"
+      },
+      {
+        "bbox": [
+          0.7635135143243243,
+          0.2536585361463415,
+          0.8445945954054054,
+          0.3073170727317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "OvT="
+      },
+      {
+        "bbox": [
+          0.8479729723817566,
+          0.2731707312195122,
+          0.9256756750844594,
+          0.3317073165853659
+        ],
+        "confidence": 1,
+        "text": "VWL"
+      },
+      {
+        "bbox": [
+          0.08992173981850275,
+          0.36750160832364775,
+          0.41340922781767137,
+          0.45541705676829325
+        ],
+        "confidence": 0.5,
+        "text": "(Accuracy) 2 ~ WL"
+      },
+      {
+        "bbox": [
+          0.09797297823057423,
+          0.48780487774390247,
+          0.9391891944467904,
+          0.5463414631097562
+        ],
+        "confidence": 0.5,
+        "text": "By design : increasing W increases Ids and Power"
+      },
+      {
+        "bbox": [
+          0.2905405385472973,
+          0.5853658542439024,
+          0.861486484493243,
+          0.643902439609756
+        ],
+        "confidence": 1,
+        "text": "decreasing L increases the speed"
+      },
+      {
+        "bbox": [
+          0.10135135342060812,
+          0.6975609753963415,
+          0.4324324345016892,
+          0.7512195119817073
+        ],
+        "confidence": 1,
+        "text": "Speed x (Accuracy)"
+      },
+      {
+        "bbox": [
+          0.4358108076858108,
+          0.731707316402439,
+          0.7939189157939189,
+          0.7853658529878049
+        ],
+        "confidence": 1,
+        "text": "= Technol. constant"
+      },
+      {
+        "bbox": [
+          0.1959459449662162,
+          0.7804878043902439,
+          0.3074324314527027,
+          0.829268292195122
+        ],
+        "confidence": 1,
+        "text": "Power"
+      },
+      {
+        "bbox": [
+          0.6148648619256758,
+          0.8536585367317073,
+          0.9087837808445945,
+          0.8878048781951219
+        ],
+        "confidence": 0.5,
+        "text": "Ref. Kinget, ...\"Analog VLSI ..\""
+      },
+      {
+        "bbox": [
+          0.6148648745743759,
+          0.8878048778048782,
+          0.8108108076328311,
+          0.9219512192682928
+        ],
+        "confidence": 1,
+        "text": "pp 67, Kluwer 1997."
+      },
+      {
+        "bbox": [
+          0.7331081101773649,
+          0.9414634142073172,
+          0.9324324345016892,
+          0.9756097556707318
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 2060"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "If resolution is linked to the accuracy, as determined by matching, or the error, then we recall from Chapter 15 on offset, that this error is inversely proportional to the area WL of the MOST.",
+      "pdf_page": 623,
+      "printed_page": 634,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Before we calculate this constant, let us first of all, try to better understand what this means.",
+      "pdf_page": 623,
+      "printed_page": 634,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0623_01_2060.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "If resolution is linked to the accuracy, as determined by matching, or the error, then we recall from Chapter 15 on offset, that this error is inversely proportional to the area WL of the MOST.",
+      "pdf_page": 623,
+      "printed_page": 634,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "On the other hand, the transistor width W is proportional to the current or the power consumption.",
+      "pdf_page": 623,
+      "printed_page": 634,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also the channel length L is inversely proportional to the speed.",
+      "pdf_page": 623,
+      "printed_page": 634,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, for a certain CMOS technology, the speed accuracy over power ratio is about constant.",
+      "pdf_page": 623,
+      "printed_page": 634,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2060-M01",
+      "ocr_text": "OvT=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7635135143243243,
+        0.2536585361463415,
+        0.8445945954054054,
+        0.3073170727317074
+      ],
+      "context_crop": "regions/SANSEN-2060_math_01.png",
+      "context_bbox_normalized": [
+        0.7235135143243243,
+        0.15365853614634148,
+        1,
+        0.4373170727317074
+      ],
+      "source_image": "slides/p0623_01_2060.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2060-M02",
+      "ocr_text": "= Technol. constant",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.4358108076858108,
+        0.731707316402439,
+        0.7939189157939189,
+        0.7853658529878049
+      ],
+      "context_crop": "regions/SANSEN-2060_math_02.png",
+      "context_bbox_normalized": [
+        0.39581080768581084,
+        0.631707316402439,
+        1,
+        0.9153658529878049
+      ],
+      "source_image": "slides/p0623_01_2060.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

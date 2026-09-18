@@ -1,0 +1,53 @@
+Coupling eVects in mixed analog-digital ICs 763
+that all mixed-signal circuits must be made full-differential. As a result, the power consumption
+increases drastically (more than doubles!).
+For full-differential circuitry, the limit is now reached by mismatch. This is also the case for
+CMRR. Actually, what the PSRR is for the rejection of power-supply-line noise is the CMRR
+for the rejection of ground noise.
+Its definition is therefore easily established.
+2440
+This Bode diagram shows
+the gain A of an amplifier
+v
+for a differential input. It is
+high at low frequencies (A )
+v0
+but decreases with a slope of
+−20 dB/decade until the
+GBW is reached.
+The gain A of this
+DD
+amplifier is also shown with
+the positive power supply
+v as an input. It is rather
+DD
+low at low frequencies
+(A ) but does not change
+DD0
+all that much at high fre-
+quencies. The reason is that
+at high frequencies, capaci-
+tive coupling prevents the output voltage to become really small. The output becomes constant
+as a result of a ratio of some capacitors, usually the load capacitor C and some parasitic
+L
+coupling capacitor C . If C is 2 pF and C is 0.1 pF, the ratio is now 20 or 26 dB.
+n L n
+The PSRR is now defined as the ratio of the gain A to the differential input to the gain A
+v DD
+of the supply voltage. It is high at low frequencies and low at high frequencies. At the GBW
+however, the gain A is unity. At this frequency, the PSRR equals the inverse of the gain A .
+v DD
+It is an excellent measure of the PSRR at high frequencies.
+For the example in this slide, the PSRR is 26 dB at the GBW.
+At this frequency, the PSRR is rather small, because it is a ratio of two capacitors, the load
+capacitor and some parasitic coupling capacitor.
+2441
+What components play an important role in PSRR?
+An example is given in this slide of a current amplifier. The impedance at the Gates of
+transistors M1 and M2 is low. Does this mean that the PSRR is large at high frequencies?
+At low frequencies, all capacitances can be left out. In this case, output resistor r determines
+o
+the current to the current mirror. The output current is therefore small.
+At high frequencies, the parasitic coupling capacitance C takes over the role of r . The current
+p o
+to the current mirror now increases with frequency and so does the output current. The gain of

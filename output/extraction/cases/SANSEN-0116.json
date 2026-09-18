@@ -1,0 +1,314 @@
+{
+  "case_id": "SANSEN-0116",
+  "slide_id": "0116",
+  "chapter": 1,
+  "slide_number_in_chapter": 16,
+  "source": {
+    "pdf_page": 9,
+    "printed_page": 9
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0009_02_0116.jpg",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "bbox_pt": [
+        91.52162,
+        395.16937,
+        374.54222,
+        591.67921
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 9,
+      "printed_page": 9,
+      "bbox_pt": [
+        0,
+        391.1799100000001,
+        595,
+        797
+      ],
+      "text_raw": "To have a time constant of\n0.5 ns with 4 pF we need a\nswitch resistance of 125 V.\nThis will, to a large extent,\ndepend on the value of\nV −V used. Indeed, as\nGS T\nsoon as the switch turns on,\nthe output voltage is still at\nzero Volt and V −V =\nGS T\n2 V. At the end of the\nswitching in, the output\nvoltage has risen to 0.6 V: it\nhas become the same as the\ninput voltage. The V −V\nGS T\nhas decreased by 0.6 V\ntowards V −V =1.4 V.\nGS T\nThe average value is now V −V =1.7 V.\nGS T\nFor a transistor size W/L=1, the on-resistance is thus 2 kV (using KP=300 mA/V2). This is\n8× larger than what we can allow. We thus have to take a W/L of 8.\nNote that we will have great difficulties in switching large input voltages. Indeed, for v =\nOUT\nv =2 V, the V has become zero. As a result, the resistor has become infinity: the switch\nIN GS\ncannot be switched on any more!!\nNote also that we have forgotten to take into account the bulk effect. Indeed, V is not zero,\nBS\nit is 0.6 V. The parasitic JFET will play as well as we will see later.",
+      "text": "To have a time constant of 0.5 ns with 4 pF we need a switch resistance of 125 V. This will, to a large extent, depend on the value of V −V used. Indeed, as GS T soon as the switch turns on, the output voltage is still at zero Volt and V −V = GS T 2 V. At the end of the switching in, the output voltage has risen to 0.6 V: it has become the same as the input voltage. The V −V GS T has decreased by 0.6 V towards V −V =1.4 V. GS T The average value is now V −V =1.7 V. GS T For a transistor size W/L=1, the on-resistance is thus 2 kV (using KP=300 mA/V2). This is 8× larger than what we can allow. We thus have to take a W/L of 8. Note that we will have great difficulties in switching large input voltages. Indeed, for v = OUT v =2 V, the V has become zero. As a result, the resistor has become infinity: the switch IN GS cannot be switched on any more!! Note also that we have forgotten to take into account the bulk effect. Indeed, V is not zero, BS it is 0.6 V. The parasitic JFET will play as well as we will see later."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "To have a time constant of 0.5 ns with 4 pF we need a switch resistance of 125 V. This will, to a large extent, depend on the value of V −V used. Indeed, as GS T soon as the switch turns on, the output voltage is still at zero Volt and V −V = GS T 2 V. At the end of the switching in, the output voltage has risen to 0.6 V: it has become the same as the input voltage. The V −V GS T has decreased by 0.6 V towards V −V =1.4 V. GS T The average value is now V −V =1.7 V. GS T For a transistor size W/L=1, the on-resistance is thus 2 kV (using KP=300 mA/V2). This is 8× larger than what we can allow. We thus have to take a W/L of 8. Note that we will have great difficulties in switching large input voltages. Indeed, for v = OUT v =2 V, the V has become zero. As a result, the resistor has become infinity: the switch IN GS cannot be switched on any more!! Note also that we have forgotten to take into account the bulk effect. Indeed, V is not zero, BS it is 0.6 V. The parasitic JFET will play as well as we will see later.",
+  "schema_version": "1.0",
+  "chapter_title": "MOS 晶体管与双极型晶体管的比较",
+  "title": "Example : Analog switch on CL",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0009_02_0116.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627189830507,
+          0.07804878112195124,
+          0.6338983057966101,
+          0.14146341526829265
+        ],
+        "confidence": 1,
+        "text": "Example : Analog switch on CL"
+      },
+      {
+        "bbox": [
+          0.18305084802259886,
+          0.21951219500000008,
+          0.25084745819209037,
+          0.2829268291463415
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.054237287768361585,
+          0.35609756044715457,
+          0.11186440641242938,
+          0.419512194593496
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.31186440610169497,
+          0.36097561,
+          0.3932203383050848,
+          0.4195121953658536
+        ],
+        "confidence": 0.5,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.4542372923050847,
+          0.214634146195122,
+          0.8711864448474574,
+          0.25853658521951217
+        ],
+        "confidence": 0.5,
+        "text": "We want to switch 0.6 V to a"
+      },
+      {
+        "bbox": [
+          0.4508474598305085,
+          0.2682926837195122,
+          0.8711864428813559,
+          0.3317073178658536
+        ],
+        "confidence": 1,
+        "text": "load capacitance C, of 4 pF."
+      },
+      {
+        "bbox": [
+          0.4542372903177966,
+          0.32682926817073177,
+          0.8033898326906779,
+          0.38536585353658537
+        ],
+        "confidence": 1,
+        "text": "We want to do this fast,"
+      },
+      {
+        "bbox": [
+          0.45423728497175153,
+          0.3853658539430894,
+          0.8338983019209041,
+          0.4390243905284552
+        ],
+        "confidence": 1,
+        "text": "with time constant 0.5 ns."
+      },
+      {
+        "bbox": [
+          0.4542372905762712,
+          0.43902438956097556,
+          0.847457629559322,
+          0.5073170724878049
+        ],
+        "confidence": 0.5,
+        "text": "Supply voltage VDD = 2.5 V"
+      },
+      {
+        "bbox": [
+          0.45398134886742414,
+          0.5010905097327275,
+          0.6002559413801691,
+          0.5623241232819367
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V+ = 0.5 V"
+      },
+      {
+        "bbox": [
+          0.4542372899152541,
+          0.5609756104878049,
+          0.8881355949999998,
+          0.6195121958536586
+        ],
+        "confidence": 1,
+        "text": "Use standard 0.35 um CMOS."
+      },
+      {
+        "bbox": [
+          0.45390944315036197,
+          0.6764208725618873,
+          0.5562600466742629,
+          0.7235791277900694
+        ],
+        "confidence": 1,
+        "text": "Choose"
+      },
+      {
+        "bbox": [
+          0.4542372901355933,
+          0.72195122,
+          0.8169491545423729,
+          0.770731707804878
+        ],
+        "confidence": 1,
+        "text": "minimum channel length and"
+      },
+      {
+        "bbox": [
+          0.4542372909322033,
+          0.7707317080487806,
+          0.7186440705932202,
+          0.8292682934146342
+        ],
+        "confidence": 0.5,
+        "text": "find an average VGs!"
+      },
+      {
+        "bbox": [
+          0.7288135608232446,
+          0.941463414390244,
+          0.9389830523486682,
+          0.9853658534146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Wilty Sansen W-s 0116"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0009_02_0116.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This will, to a large extent, depend on the value of V −V used.",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The V −V GS T has decreased by 0.6 V towards V −V =1.4 V.",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "GS T For a transistor size W/L=1, the on-resistance is thus 2 kV (using KP=300 mA/V2).",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We thus have to take a W/L of 8.",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, the resistor has become infinity: the switch IN GS cannot be switched on any more!!",
+      "pdf_page": 9,
+      "printed_page": 9,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0116-M01",
+      "ocr_text": "Supply voltage VDD = 2.5 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.4542372905762712,
+        0.43902438956097556,
+        0.847457629559322,
+        0.5073170724878049
+      ],
+      "context_crop": "regions/SANSEN-0116_math_01.png",
+      "context_bbox_normalized": [
+        0.41423729057627123,
+        0.3390243895609756,
+        1,
+        0.6373170724878049
+      ],
+      "source_image": "slides/p0009_02_0116.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0116-M02",
+      "ocr_text": "V+ = 0.5 V",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.45398134886742414,
+        0.5010905097327275,
+        0.6002559413801691,
+        0.5623241232819367
+      ],
+      "context_crop": "regions/SANSEN-0116_math_02.png",
+      "context_bbox_normalized": [
+        0.41398134886742416,
+        0.40109050973272753,
+        0.8302559413801691,
+        0.6923241232819367
+      ],
+      "source_image": "slides/p0009_02_0116.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Comparison of MOST and bipolar transistors"
+}

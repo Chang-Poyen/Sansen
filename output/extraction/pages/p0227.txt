@@ -1,0 +1,48 @@
+232 Chapter #7
+Some circuitry has to be
+added to equalize the trans-
+conductance over the full
+common-mode input range.
+In other words, for low
+common-mode input volt-
+ages, we need to double
+the transconductance of the
+pMOSTs; for high voltages,
+we need to double the
+transconductances of the
+nMOSTs.
+Various circuits can be
+devised to carry out such a
+task. One of these is
+explained next. The others
+are discussed in Chapter 11.
+0743
+The input stage of the rail-
+to-rail opamp is repeated in
+this slide.
+The current which flows
+in a branch is indicated by
+the thickness of line. The
+input circuit is repeated
+twice, once for a common-
+mode input voltage halfway
+the supply voltages. The
+other is the situation when
+the inputs are connected to
+the positive supply.
+When the inputs are half-
+way the supply voltage, the
+DC currents through all
+input devices are equal (and about 5 mA). However the DC current source for the pMOST
+differential pair carries a current of 20 mA. Indeed, half of this current flows through a cascode
+MN3 to a current mirror which serves the nMOST differential pair.
+When the input voltage goes up, towards the positive supply voltage, then the V of this
+GS
+cascode transistor MN3 is increased, such that it takes the full 20 mA. As a result, the nMOST
+differential pair receives the full 20 mA. On the other hand, the pMOST differential pair is left
+without DC current.
+As a consequence, the current in the nMOST pair is multiplied by 2. This is not sufficient if
+the input devices work in saturation. This is sufficient if the input devices work in the weak
+inversion region. Doubling the current then doubles the transconductance.
+The sizes of the input devices are so large that the input devices are more likely going to work
+in weak inversion. After all, the GBW is only 14 MHz, which is quite feasible in weak inversion.

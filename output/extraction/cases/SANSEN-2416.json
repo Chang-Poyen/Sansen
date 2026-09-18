@@ -1,0 +1,360 @@
+{
+  "case_id": "SANSEN-2416",
+  "slide_id": "2416",
+  "chapter": 24,
+  "slide_number_in_chapter": 16,
+  "source": {
+    "pdf_page": 738,
+    "printed_page": 750
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0738_02_2416.jpg",
+      "pdf_page": 738,
+      "printed_page": 750,
+      "bbox_pt": [
+        91.521622,
+        428.452515,
+        374.78981,
+        624.912506
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 738,
+      "printed_page": 750,
+      "bbox_pt": [
+        0,
+        424.4630000000002,
+        595,
+        797
+      ],
+      "text_raw": "In this example, we try to\nfind out what is a reasonable\nnumber of pins.\nThe maximum number of\npins is nine. This is evidently\nrarely acceptable. Some of\nthe pins can be combined to\nreduce this number, as\nexplained now.\nThe nine pins can be\ndivided into four for the\nanalog part, four for the dig-\nital part and one for the\nscreen in the middle. This\nscreen is a metal plate with\na certain width to physically\nseparate the analog blocks from the digital ones as far as necessary. It should also go as deep\nas possible. It is therefore connected to an underlying deep diffusion.\nThe four pins of the analog part are the following:\n– the positive supply line\n– the ground line",
+      "text": "In this example, we try to find out what is a reasonable number of pins. The maximum number of pins is nine. This is evidently rarely acceptable. Some of the pins can be combined to reduce this number, as explained now. The nine pins can be divided into four for the analog part, four for the digital part and one for the screen in the middle. This screen is a metal plate with a certain width to physically separate the analog blocks from the digital ones as far as necessary. It should also go as deep as possible. It is therefore connected to an underlying deep diffusion. The four pins of the analog part are the following: – the positive supply line – the ground line"
+    },
+    {
+      "pdf_page": 739,
+      "printed_page": 751,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        245.5413649999997
+      ],
+      "text_raw": "– the substrate (bulk)\n– the guard rings.\nOccasionally, the substrate can be connected to one of the supply lines (positive supply or\nground). This is not always advisable however, as will be shown later.\nThe guard rings are diffusions surrounding the most sensitive analog amplifiers. They are\nmeant to take up noise coming laterally from the digital parts. Of course, they do not pick up\na great deal of noise arriving vertically. This will also be discussed later in more detail.\nDigital blocks can also have four pins, although in practice only two of them are used, the\npositive supply line and ground.",
+      "text": "– the substrate (bulk) – the guard rings. Occasionally, the substrate can be connected to one of the supply lines (positive supply or ground). This is not always advisable however, as will be shown later. The guard rings are diffusions surrounding the most sensitive analog amplifiers. They are meant to take up noise coming laterally from the digital parts. Of course, they do not pick up a great deal of noise arriving vertically. This will also be discussed later in more detail. Digital blocks can also have four pins, although in practice only two of them are used, the positive supply line and ground."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this example, we try to find out what is a reasonable number of pins. The maximum number of pins is nine. This is evidently rarely acceptable. Some of the pins can be combined to reduce this number, as explained now. The nine pins can be divided into four for the analog part, four for the digital part and one for the screen in the middle. This screen is a metal plate with a certain width to physically separate the analog blocks from the digital ones as far as necessary. It should also go as deep as possible. It is therefore connected to an underlying deep diffusion. The four pins of the analog part are the following: – the positive supply line – the ground line\n\n– the substrate (bulk) – the guard rings. Occasionally, the substrate can be connected to one of the supply lines (positive supply or ground). This is not always advisable however, as will be shown later. The guard rings are diffusions surrounding the most sensitive analog amplifiers. They are meant to take up noise coming laterally from the digital parts. Of course, they do not pick up a great deal of noise arriving vertically. This will also be discussed later in more detail. Digital blocks can also have four pins, although in practice only two of them are used, the positive supply line and ground.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Pin connections to A & D",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0738_02_2416.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432709037161,
+          0.08292682899390247,
+          0.5168918946579392,
+          0.13658536557926826
+        ],
+        "confidence": 0.5,
+        "text": "Pin connections to A & D"
+      },
+      {
+        "bbox": [
+          0.1553299038737791,
+          0.2433326065617588,
+          0.27710252822466197,
+          0.2786186132566455
+        ],
+        "confidence": 1,
+        "text": "Dig. Guard"
+      },
+      {
+        "bbox": [
+          0.7736486484844218,
+          0.23902439020325206,
+          0.8986486484844218,
+          0.2682926828861789
+        ],
+        "confidence": 1,
+        "text": "An. Ground"
+      },
+      {
+        "bbox": [
+          0.8074324331424679,
+          0.32682926853658534,
+          0.8614864839746492,
+          0.3512195124390244
+        ],
+        "confidence": 1,
+        "text": "Bulk"
+      },
+      {
+        "bbox": [
+          0.21283783819285557,
+          0.3707317076422765,
+          0.23986486360894627,
+          0.40000000032520333
+        ],
+        "confidence": 0.5,
+        "text": "a"
+      },
+      {
+        "bbox": [
+          0.1554054040540541,
+          0.424390244097561,
+          0.2905405391891892,
+          0.45365853678048784
+        ],
+        "confidence": 1,
+        "text": "Dig. Ground"
+      },
+      {
+        "bbox": [
+          0.32432432511261255,
+          0.5512195117073171,
+          0.39189189268018015,
+          0.5804878043902439
+        ],
+        "confidence": 1,
+        "text": "Digital"
+      },
+      {
+        "bbox": [
+          0.7533783773648648,
+          0.565853658902439,
+          0.8682432422297297,
+          0.5951219515853658
+        ],
+        "confidence": 1,
+        "text": "An. Guard"
+      },
+      {
+        "bbox": [
+          0.8513513511824324,
+          0.6341463410731707,
+          0.8749999998310809,
+          0.6731707313170732
+        ],
+        "confidence": 1,
+        "text": "b"
+      },
+      {
+        "bbox": [
+          0.7905405411036036,
+          0.6634146339024392,
+          0.8243243248873874,
+          0.6878048778048781
+        ],
+        "confidence": 1,
+        "text": "Die"
+      },
+      {
+        "bbox": [
+          0.7904662299200194,
+          0.6823433254614454,
+          0.8987229565715977,
+          0.7127786247532887
+        ],
+        "confidence": 1,
+        "text": "Conductive"
+      },
+      {
+        "bbox": [
+          0.8344594619712967,
+          0.7073170730081302,
+          0.8885135128034781,
+          0.7365853656910569
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ероху"
+      },
+      {
+        "bbox": [
+          0.7905405418355855,
+          0.7365853656097562,
+          0.8682432445382883,
+          0.7609756095121952
+        ],
+        "confidence": 0.5,
+        "text": "Packagя"
+      },
+      {
+        "bbox": [
+          0.0742624658897009,
+          0.7215452308178164,
+          0.1960078074226401,
+          0.7613815979829865
+        ],
+        "confidence": 1,
+        "text": "Dig.Supply"
+      },
+      {
+        "bbox": [
+          0.1993243245608108,
+          0.7414634143414635,
+          0.22297297320945947,
+          0.7804878045853659
+        ],
+        "confidence": 0.5,
+        "text": "d"
+      },
+      {
+        "bbox": [
+          0.21948104071820568,
+          0.7697932058390454,
+          0.35146490083717474,
+          0.8058165504837315
+        ],
+        "confidence": 1,
+        "text": "Separation"
+      },
+      {
+        "bbox": [
+          0.4763513495495496,
+          0.7463414629268293,
+          0.5912162144144144,
+          0.7756097556097561
+        ],
+        "confidence": 1,
+        "text": "Substrate"
+      },
+      {
+        "bbox": [
+          0.5337837850929054,
+          0.7902439022560975,
+          0.6385135148226351,
+          0.8146341461585366
+        ],
+        "confidence": 1,
+        "text": "Contacts"
+      },
+      {
+        "bbox": [
+          0.18581080929054059,
+          0.8682926823170732,
+          0.43581080929054056,
+          0.9170731701219513
+        ],
+        "confidence": 1,
+        "text": "Requires 7/9 pins !!!"
+      },
+      {
+        "bbox": [
+          0.8309564129805173,
+          0.8430055027029975,
+          0.9460706121291593,
+          0.8789457171857468
+        ],
+        "confidence": 1,
+        "text": "An.Supply"
+      },
+      {
+        "bbox": [
+          0.5337837862331082,
+          0.8829268296951219,
+          0.9324324348817568,
+          0.9170731711585365
+        ],
+        "confidence": 1,
+        "text": "Ref. Ingels etal, JSSC July 97, 1136-1141"
+      },
+      {
+        "bbox": [
+          0.729729732626178,
+          0.9512195124390244,
+          0.9425675575765251,
+          0.9853658539024389
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10 0s 2416"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In this example, we try to find out what is a reasonable number of pins.",
+      "pdf_page": 738,
+      "printed_page": 750,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Some of the pins can be combined to reduce this number, as explained now.",
+      "pdf_page": 738,
+      "printed_page": 750,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is not always advisable however, as will be shown later.",
+      "pdf_page": 739,
+      "printed_page": 751,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0738_02_2416.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It is therefore connected to an underlying deep diffusion.",
+        "pdf_page": 738,
+        "printed_page": 750,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Occasionally, the substrate can be connected to one of the supply lines (positive supply or ground).",
+        "pdf_page": 739,
+        "printed_page": 751,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is therefore connected to an underlying deep diffusion.",
+      "pdf_page": 738,
+      "printed_page": 750,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

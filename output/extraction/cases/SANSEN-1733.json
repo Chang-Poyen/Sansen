@@ -1,0 +1,414 @@
+{
+  "case_id": "SANSEN-1733",
+  "slide_id": "1733",
+  "chapter": 17,
+  "slide_number_in_chapter": 33,
+  "source": {
+    "pdf_page": 491,
+    "printed_page": 501
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0491_02_1733.jpg",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "bbox_pt": [
+        91.52162,
+        431.44196,
+        374.54222,
+        627.9518
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 491,
+      "printed_page": 501,
+      "bbox_pt": [
+        0,
+        427.4524103500002,
+        595,
+        797
+      ],
+      "text_raw": "In order to find the transfer\ncharacteristic of a sampled-\ndata filter in z, charge con-\nservation is used. There are\nother more formal tech-\nniques (see Laker-Sansen,\nMcGrawHill 1994), but\ncharge conservation is the\neasiest one, although it may\nnot always work.\nAn example is given of a\nsimple integrator.\nAn analog integrator has\na transfer characteristic,\nwhich is well known, as\nshown on the top left. What\nis now the transfer characteristic of the sampled-data inverter shown on top right? The resistor\nhas been substituted by its sampled-data equivalent and called aC.\nIn order to find the transfer characteristic in z, charge conservation is applied. This means\nthat we add up the charges on the capacitors in phase 1, and equate it to the charges in phase\n2. Indeed, charges cannot disappear as currents cannot disappear (laws of Kirchoff ).",
+      "text": "In order to find the transfer characteristic of a sampleddata filter in z, charge conservation is used. There are other more formal techniques (see Laker-Sansen, McGrawHill 1994), but charge conservation is the easiest one, although it may not always work. An example is given of a simple integrator. An analog integrator has a transfer characteristic, which is well known, as shown on the top left. What is now the transfer characteristic of the sampled-data inverter shown on top right? The resistor has been substituted by its sampled-data equivalent and called aC. In order to find the transfer characteristic in z, charge conservation is applied. This means that we add up the charges on the capacitors in phase 1, and equate it to the charges in phase 2. Indeed, charges cannot disappear as currents cannot disappear (laws of Kirchoff )."
+    },
+    {
+      "pdf_page": 492,
+      "printed_page": 502,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        219.18389999999977
+      ],
+      "text_raw": "For this purpose, a clock pulse of phase 2 is considered at time t . Note also,this time actually\nn\ncorresponds to the end of the clock pulse, when all charge has been fully transferred. One period\nearlier, the clock pulse of phase 2 occurs at t . The other phase (phase 1) then occurs at t\nn−1 n−1/2\nat the end.\nThe charge on capacitance aC during phase 1 is denoted by Q and is given in this slide. It\naC1\nis available at time t . The charge on capacitor C is given by Q As switch 2 is open during\nn−1/2 C1.\nphase 1, we can as well take this charge at time t as at time t .\nn−1/2 n−1",
+      "text": "For this purpose, a clock pulse of phase 2 is considered at time t . Note also,this time actually n corresponds to the end of the clock pulse, when all charge has been fully transferred. One period earlier, the clock pulse of phase 2 occurs at t . The other phase (phase 1) then occurs at t n−1 n−1/2 at the end. The charge on capacitance aC during phase 1 is denoted by Q and is given in this slide. It aC1 is available at time t . The charge on capacitor C is given by Q As switch 2 is open during n−1/2 C1. phase 1, we can as well take this charge at time t as at time t . n−1/2 n−1"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to find the transfer characteristic of a sampleddata filter in z, charge conservation is used. There are other more formal techniques (see Laker-Sansen, McGrawHill 1994), but charge conservation is the easiest one, although it may not always work. An example is given of a simple integrator. An analog integrator has a transfer characteristic, which is well known, as shown on the top left. What is now the transfer characteristic of the sampled-data inverter shown on top right? The resistor has been substituted by its sampled-data equivalent and called aC. In order to find the transfer characteristic in z, charge conservation is applied. This means that we add up the charges on the capacitors in phase 1, and equate it to the charges in phase 2. Indeed, charges cannot disappear as currents cannot disappear (laws of Kirchoff ).\n\nFor this purpose, a clock pulse of phase 2 is considered at time t . Note also,this time actually n corresponds to the end of the clock pulse, when all charge has been fully transferred. One period earlier, the clock pulse of phase 2 occurs at t . The other phase (phase 1) then occurs at t n−1 n−1/2 at the end. The charge on capacitance aC during phase 1 is denoted by Q and is given in this slide. It aC1 is available at time t . The charge on capacitor C is given by Q As switch 2 is open during n−1/2 C1. phase 1, we can as well take this charge at time t as at time t . n−1/2 n−1",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "SC-Integrator in phase 1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0491_02_1733.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07118644173728807,
+          0.07804877963414636,
+          0.5084745773305085,
+          0.14634146256097558
+        ],
+        "confidence": 1,
+        "text": "SC-Integrator in phase 1"
+      },
+      {
+        "bbox": [
+          0.3389830519322034,
+          0.30731707287804877,
+          0.4474576282033898,
+          0.35609756068292686
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-Vin(s)"
+      },
+      {
+        "bbox": [
+          0.2067796626694915,
+          0.33658536560975616,
+          0.33898305249999994,
+          0.38536585341463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yout(s) ="
+      },
+      {
+        "bbox": [
+          0.36271186474576267,
+          0.3707317067682927,
+          0.4237288138983051,
+          0.414634145792683
+        ],
+        "confidence": 1,
+        "text": "SRC"
+      },
+      {
+        "bbox": [
+          0.06779661059322034,
+          0.5560975606910569,
+          0.11864406822033899,
+          0.5999999997154472
+        ],
+        "confidence": 1,
+        "text": "Ф2"
+      },
+      {
+        "bbox": [
+          0.06779661019774011,
+          0.6731707320731708,
+          0.11864406782485874,
+          0.717073171097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф1"
+      },
+      {
+        "bbox": [
+          0.47796610129943495,
+          0.6097560978455285,
+          0.525423728418079,
+          0.6536585368699187
+        ],
+        "confidence": 1,
+        "text": "Ф1"
+      },
+      {
+        "bbox": [
+          0.17961000486777784,
+          0.8094486956881334,
+          0.3492035572793907,
+          0.8686000846473203
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "tn-1 tn-1/2 th"
+      },
+      {
+        "bbox": [
+          0.36610169416949156,
+          0.8048780490243902,
+          0.4406779653559322,
+          0.8487804880487804
+        ],
+        "confidence": 1,
+        "text": "time"
+      },
+      {
+        "bbox": [
+          0.6135593222316384,
+          0.26829268333333334,
+          0.6440677968079096,
+          0.3170731711382113
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "₴"
+      },
+      {
+        "bbox": [
+          0.603389830338983,
+          0.33658536646341464,
+          0.650847457457627,
+          0.38536585426829273
+        ],
+        "confidence": 0.5,
+        "text": "aC"
+      },
+      {
+        "bbox": [
+          0.5627118656779662,
+          0.6048780495731707,
+          0.8813559334745763,
+          0.6682926837195121
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Qaci= aC Vmm(n-1/2)"
+      },
+      {
+        "bbox": [
+          0.5627118661440678,
+          0.6829268284756098,
+          0.7423728830932202,
+          0.7463414626219513
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Qc1=-CV"
+      },
+      {
+        "bbox": [
+          0.7322033881779662,
+          0.6878048784146341,
+          0.8644067780084747,
+          0.7463414637804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "out (n-1)"
+      },
+      {
+        "bbox": [
+          0.5694915267312348,
+          0.765853658989547,
+          0.9152542385956416,
+          0.8292682931358885
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Voui (n-1/2) = Vuu(n-1)"
+      },
+      {
+        "bbox": [
+          0.7186440722283006,
+          0.9512195127642277,
+          0.9355932118394963,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 N1733"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In order to find the transfer characteristic of a sampleddata filter in z, charge conservation is used.",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "An analog integrator has a transfer characteristic, which is well known, as shown on the top left.",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "What is now the transfer characteristic of the sampled-data inverter shown on top right?",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0491_02_1733.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "In order to find the transfer characteristic of a sampleddata filter in z, charge conservation is used.",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "An analog integrator has a transfer characteristic, which is well known, as shown on the top left.",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "What is now the transfer characteristic of the sampled-data inverter shown on top right?",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In order to find the transfer characteristic in z, charge conservation is applied.",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This means that we add up the charges on the capacitors in phase 1, and equate it to the charges in phase 2.",
+      "pdf_page": 491,
+      "printed_page": 501,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For this purpose, a clock pulse of phase 2 is considered at time t .",
+      "pdf_page": 492,
+      "printed_page": 502,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "One period earlier, the clock pulse of phase 2 occurs at t .",
+      "pdf_page": 492,
+      "printed_page": 502,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The other phase (phase 1) then occurs at t n−1 n−1/2 at the end.",
+      "pdf_page": 492,
+      "printed_page": 502,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1733-M01",
+      "ocr_text": "Yout(s) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2067796626694915,
+        0.33658536560975616,
+        0.33898305249999994,
+        0.38536585341463414
+      ],
+      "context_crop": "regions/SANSEN-1733_math_01.png",
+      "context_bbox_normalized": [
+        0.16677966266949149,
+        0.23658536560975615,
+        0.5689830524999999,
+        0.5153658534146341
+      ],
+      "source_image": "slides/p0491_02_1733.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1733-M02",
+      "ocr_text": "Qaci= aC Vmm(n-1/2)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5627118656779662,
+        0.6048780495731707,
+        0.8813559334745763,
+        0.6682926837195121
+      ],
+      "context_crop": "regions/SANSEN-1733_math_02.png",
+      "context_bbox_normalized": [
+        0.5227118656779661,
+        0.5048780495731707,
+        1,
+        0.7982926837195121
+      ],
+      "source_image": "slides/p0491_02_1733.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1733-M03",
+      "ocr_text": "Qc1=-CV",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5627118661440678,
+        0.6829268284756098,
+        0.7423728830932202,
+        0.7463414626219513
+      ],
+      "context_crop": "regions/SANSEN-1733_math_03.png",
+      "context_bbox_normalized": [
+        0.5227118661440677,
+        0.5829268284756098,
+        0.9723728830932202,
+        0.8763414626219513
+      ],
+      "source_image": "slides/p0491_02_1733.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1733-M04",
+      "ocr_text": "Voui (n-1/2) = Vuu(n-1)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5694915267312348,
+        0.765853658989547,
+        0.9152542385956416,
+        0.8292682931358885
+      ],
+      "context_crop": "regions/SANSEN-1733_math_04.png",
+      "context_bbox_normalized": [
+        0.5294915267312348,
+        0.6658536589895471,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0491_02_1733.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

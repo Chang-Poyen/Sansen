@@ -1,0 +1,378 @@
+{
+  "case_id": "SANSEN-133",
+  "slide_id": "133",
+  "chapter": 13,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 357,
+    "printed_page": 364
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0357_01_133.jpg",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "bbox_pt": [
+        91.521622,
+        211.11584500000004,
+        374.78981,
+        407.575836
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 357,
+      "printed_page": 364,
+      "bbox_pt": [
+        0,
+        207.1262499999998,
+        595,
+        570.9484500000003
+      ],
+      "text_raw": "An ideal feedback loop\nconsists of a unidirectional\namplifier (from left to right)\nand a unidirectional feed-\nback circuit (from right to\nleft). This amplifier usually\nconsists of a few transistors\nor even a full operational\namplifier. As a result it pro-\nvides a lot of gain.\nThe feedback circuit usu-\nally consists of a few passive\ndevices. They will set the\nclosed-loop gain as shown\nnext.\nTwo equations describe\nthe operation of this feedback circuit. The error voltage v is the difference between the actual\ne\ninput voltage v and the feedback voltage Hv . It is amplified towards the output itself by G.\nin out\nThe closed-loop gain is then easily extracted from the two equations. Its numerator is simply\nthe gain G itself. The denominator however, is 1+GH. The quantity GH is called the loop gain\nLG. It is the gain, going around in the loop. Since the gain G is always quite large, the loop\ngain is also quite large. As a result the closed-loop gain can easily be approximated by 1/H.\nThis is the reason why H usually consists of passive devices such as resistors or capacitors.\nTheir ratio can be made quite accurate. As a result, the feedback amplifier has a closed-loop\ngain which is reasonably accurate, whereas the open-loop gain G can vary a lot depending on\ntransistor parameters, temperature, etc. Feedback is thus the most important technique to realize\namplifiers with accurate gain.",
+      "text": "An ideal feedback loop consists of a unidirectional amplifier (from left to right) and a unidirectional feedback circuit (from right to left). This amplifier usually consists of a few transistors or even a full operational amplifier. As a result it provides a lot of gain. The feedback circuit usually consists of a few passive devices. They will set the closed-loop gain as shown next. Two equations describe the operation of this feedback circuit. The error voltage v is the difference between the actual e input voltage v and the feedback voltage Hv . It is amplified towards the output itself by G. in out The closed-loop gain is then easily extracted from the two equations. Its numerator is simply the gain G itself. The denominator however, is 1+GH. The quantity GH is called the loop gain LG. It is the gain, going around in the loop. Since the gain G is always quite large, the loop gain is also quite large. As a result the closed-loop gain can easily be approximated by 1/H. This is the reason why H usually consists of passive devices such as resistors or capacitors. Their ratio can be made quite accurate. As a result, the feedback amplifier has a closed-loop gain which is reasonably accurate, whereas the open-loop gain G can vary a lot depending on transistor parameters, temperature, etc. Feedback is thus the most important technique to realize amplifiers with accurate gain."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An ideal feedback loop consists of a unidirectional amplifier (from left to right) and a unidirectional feedback circuit (from right to left). This amplifier usually consists of a few transistors or even a full operational amplifier. As a result it provides a lot of gain. The feedback circuit usually consists of a few passive devices. They will set the closed-loop gain as shown next. Two equations describe the operation of this feedback circuit. The error voltage v is the difference between the actual e input voltage v and the feedback voltage Hv . It is amplified towards the output itself by G. in out The closed-loop gain is then easily extracted from the two equations. Its numerator is simply the gain G itself. The denominator however, is 1+GH. The quantity GH is called the loop gain LG. It is the gain, going around in the loop. Since the gain G is always quite large, the loop gain is also quite large. As a result the closed-loop gain can easily be approximated by 1/H. This is the reason why H usually consists of passive devices such as resistors or capacitors. Their ratio can be made quite accurate. As a result, the feedback amplifier has a closed-loop gain which is reasonably accurate, whereas the open-loop gain G can vary a lot depending on transistor parameters, temperature, etc. Feedback is thus the most important technique to realize amplifiers with accurate gain.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Ideal feedback",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0357_01_133.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108324887382,
+          0.09268292658536592,
+          0.34121621838400895,
+          0.1414634143902439
+        ],
+        "confidence": 1,
+        "text": "Ideal feedback"
+      },
+      {
+        "bbox": [
+          0.17905405365990992,
+          0.22439024349593495,
+          0.233108107713964,
+          0.27317073130081293
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.7398648656418919,
+          0.22439024380487804,
+          0.8175675683445947,
+          0.273170731609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.496621621410473,
+          0.26829268231707315,
+          0.5270270268158784,
+          0.31707317012195124
+        ],
+        "confidence": 1,
+        "text": "G"
+      },
+      {
+        "bbox": [
+          0.5033783785135135,
+          0.41951219560975606,
+          0.5304054055405405,
+          0.46829268341463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "H"
+      },
+      {
+        "bbox": [
+          0.09432161022170543,
+          0.5780629140332775,
+          0.35500271101549236,
+          0.6463273333098174
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ve = VIN - H VouT"
+      },
+      {
+        "bbox": [
+          0.09797297533783779,
+          0.6731707317682926,
+          0.287162164527027,
+          0.7365853659146341
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT = G Vg"
+      },
+      {
+        "bbox": [
+          0.4984867215325075,
+          0.5694513062602763,
+          0.627019311625347,
+          0.6511394847181411
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT ="
+      },
+      {
+        "bbox": [
+          0.6824324327364866,
+          0.565853658292683,
+          0.7128378381418919,
+          0.6097560973170731
+        ],
+        "confidence": 1,
+        "text": "G"
+      },
+      {
+        "bbox": [
+          0.510135135641892,
+          0.668292683597561,
+          0.5574324329391892,
+          0.7219512201829268
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.6418918926351351,
+          0.6585365848780488,
+          0.7567567575,
+          0.7073170726829269
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + GH"
+      },
+      {
+        "bbox": [
+          0.4425675713682432,
+          0.7609756094715446,
+          0.8986486524493242,
+          0.8146341460569105
+        ],
+        "confidence": 0.5,
+        "text": "if the loop gain LG = GH >>"
+      },
+      {
+        "bbox": [
+          0.0844594509290542,
+          0.8682926834146342,
+          0.895270261739865,
+          0.9073170736585365
+        ],
+        "confidence": 1,
+        "text": "Gray, Hurst, Lewis, Meyer: Design of analog integrated circuits, Wiley 2001"
+      },
+      {
+        "bbox": [
+          0.7162162192815833,
+          0.9365853660162601,
+          0.9189189090967952,
+          0.9658536586991869
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 133"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "They will set the closed-loop gain as shown next.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0357_01_133.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result it provides a lot of gain.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "They will set the closed-loop gain as shown next.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is amplified towards the output itself by G. in out The closed-loop gain is then easily extracted from the two equations.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its numerator is simply the gain G itself.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The quantity GH is called the loop gain LG.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is the gain, going around in the loop.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Since the gain G is always quite large, the loop gain is also quite large.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result the closed-loop gain can easily be approximated by 1/H.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "As a result the closed-loop gain can easily be approximated by 1/H.",
+      "pdf_page": 357,
+      "printed_page": 364,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-133-M01",
+      "ocr_text": "Ve = VIN - H VouT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09432161022170543,
+        0.5780629140332775,
+        0.35500271101549236,
+        0.6463273333098174
+      ],
+      "context_crop": "regions/SANSEN-133_math_01.png",
+      "context_bbox_normalized": [
+        0.05432161022170543,
+        0.4780629140332775,
+        0.5850027110154924,
+        0.7763273333098174
+      ],
+      "source_image": "slides/p0357_01_133.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-133-M02",
+      "ocr_text": "VoUT = G Vg",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09797297533783779,
+        0.6731707317682926,
+        0.287162164527027,
+        0.7365853659146341
+      ],
+      "context_crop": "regions/SANSEN-133_math_02.png",
+      "context_bbox_normalized": [
+        0.05797297533783779,
+        0.5731707317682926,
+        0.517162164527027,
+        0.8665853659146341
+      ],
+      "source_image": "slides/p0357_01_133.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-133-M03",
+      "ocr_text": "VOUT =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.4984867215325075,
+        0.5694513062602763,
+        0.627019311625347,
+        0.6511394847181411
+      ],
+      "context_crop": "regions/SANSEN-133_math_03.png",
+      "context_bbox_normalized": [
+        0.4584867215325075,
+        0.4694513062602763,
+        0.857019311625347,
+        0.7811394847181411
+      ],
+      "source_image": "slides/p0357_01_133.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-133-M04",
+      "ocr_text": "if the loop gain LG = GH >>",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.4425675713682432,
+        0.7609756094715446,
+        0.8986486524493242,
+        0.8146341460569105
+      ],
+      "context_crop": "regions/SANSEN-133_math_04.png",
+      "context_bbox_normalized": [
+        0.4025675713682432,
+        0.6609756094715447,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0357_01_133.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

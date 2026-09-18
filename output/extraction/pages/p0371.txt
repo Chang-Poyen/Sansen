@@ -1,0 +1,59 @@
+378 Chapter #13
+1330
+When a bipolar transistor is
+used at the input, then the
+input resistance is no longer
+infinity. Because of the series
+feedback at the input, it is
+increased by the loop gain
+LG but not infinity. This is
+why the input resistance
+loads the source resistance
+R . In the circuit in this slide
+S
+a source resistor R has been
+S
+added. This input loading is
+only present when the in-
+put voltage source has an
+internal source resistance
+R , which is comparable to
+S
+the input resistance R .
+IN
+In addition, this source resistance R forms a low-pass filter with the input
+S
+capacitance of this amplifier. The input resistance without feedback R is easily found as it
+INOL
+is a single-transistor amplifier with emitter degeneration. The emitter resistor is about R in
+1
+parallel with R .
+2
+The output resistance is quite small as calculated before. An output capacitive load would
+cause an output pole at fairly high frequencies.
+1331
+A practical realization with
+only bipolar transistors is
+shown in this slide. All cur-
+rent sources are substituted
+by resistors. This circuit can
+also be realized easily with
+discrete components on a
+printed circuit board.
+Since each stage gives a
+higher DC voltage at the
+output, the second stage
+must be either a PNP tran-
+sistor or a NPN transistor
+with an emitter resistor R .
+D
+To avoid the reduction in
+gain of this resistor, a large
+capacitance C is placed across it. This resistor does not come in for the gain calculations. This
+D
+is true for all frequencies higher than g /(2pC ).
+m2 D
+The expressions of the loop gain, input and output resistances are all very much as before.
+They are all a bit more complicated because a bipolar transistor has a finite input resistance r ,
+p
+which shows up in most of the expressions.

@@ -1,0 +1,45 @@
+252 Chapter #8
+0827
+The error amplifier for the
+CMFB is now on the right.
+The differential amplifier is
+just a conventional two-
+stage Miller amplifier with a
+symmetrical amplifier as an
+input stage.
+The GBW is therefore
+DM
+easily obtained.
+The biasing of the input
+pair is provided by the
+CMFB as shown next.
+0828
+The error amplifier consists
+of two differential pairs
+M58–61, each of them being
+connected to an output of
+the differential amplifier.
+They compare the outputs
+directly to ground, which
+is obviously halfway the
+supply voltages.
+The average output volt-
+age is well defined.
+The cancellation of the
+differential signals is now
+carried out at the outputs of
+these two differential pairs
+and fed back to the current
+source M5/M6 of the input pair.
+The GBW is thus determined by the common-mode pairs M58–61, as given in this slide.
+CM
+Again a factor of two is lost because only one output is taken of these pairs.
+It can be set at any value though, higher than the GBW if required.
+CM
+The main advantage of this CMFB configuration is that it takes less power and yet provides
+a wide-band CMFB amplifier. However, the only non-dominant pole added is at the gates
+of M5/M6.
+The main disadvantage of this solution is that the output swing is limited by the common-
+mode input range of the CMFB amplifier. The differential pair M58/M59 limits the range to
+about 2.8(V −V ). The output swing of the differential amplifier is rail-to-rail.
+GS T

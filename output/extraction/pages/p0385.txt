@@ -1,0 +1,59 @@
+Feedback transimpedance and current amplifiers 393
+149
+A transistor example of such
+a shunt-shunt feedback
+amplifier is shown in this
+slide. The open-loop ampli-
+fier consists of a single-tran-
+sistor amplifier followed by
+a source-follower, in order
+to provide a low output
+resistance. Its value is 1/g .
+m2
+The gain of the amplifier
+is readily found to be g r ,
+m1 o1
+which is again the loop gain.
+This loop gain LG is not so
+large. Its value is barely 100
+and yet, all feedback rules
+still apply.
+The closed-loop input resistance is now R divided by the loop gain. Output resistor 1/g is
+F m2
+obviously negligible with respect to R .
+F
+The closed-loop output resistance is then 1/g divided by the loop gain. It is now very small,
+m2
+or quasi zero.
+1410
+Resistors can be used
+instead of the current
+sources as well. Moreover,
+the input current source can
+be substituted by a MOST,
+which is M3 in the examples
+in this slide. In addition, the
+DC current source of the
+source follower M2 can now
+be left out. The DC current
+through M2 is the same as
+the DC current through
+input transistor M3.
+In this case, the transresis-
+tance A is again R . The
+R F
+voltage gain v /v is
+OUT IN
+then g R .
+m3 F
+In the example on the right, the output v is now taken at the Gate of the source follower
+OUT1
+M2, rather than at its Source. The transresistance A is again R . The loop gain is the same as
+R1 F
+in the example on the left but the output resistance will be higher.
+Another output can be taken, when another resistor R is added, as shown in the example on
+1
+the right. In this case the gain is increased by a ratio (R +R )/R .
+1 2 2
+However, both circuits are variations on the theme of shunt-shunt feedback pairs. These
+variations are mainly used to realize wide-band amplifiers, up to several GHz’s.

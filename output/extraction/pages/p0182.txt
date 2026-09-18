@@ -1,0 +1,54 @@
+186 Chapter #6
+The input stage has an
+output resistance which is
+the inverse of g , which is
+024
+a short way of stating
+g +g .
+o2 o4
+This circuit can be simpli-
+fied to a two-node circuit
+with two transconductances
+and a RC circuit from each
+node to ground. Obviously,
+there are two nodes, but also
+a compensation capacitance
+C to split them up.
+c
+All values given are for
+1 MHz/10 pF realization,
+which will be used for all
+numerical examples from
+now on. These values have also been used for the pole-zero position diagrams in the previous
+Chapter.
+How exactly these values have been obtained, will be explained when we discuss the design
+plans next.
+0611
+The gains are now easily cal-
+culated. We have two stages
+so we have two gains A
+v1
+and A , and a total gain A .
+v2 v
+The bandwidth is obvi-
+ously due to the Miller effect
+of capacitance C , as
+c
+expected.
+The GBW is now the pro-
+duct of both. It is exactly
+what we have anticipated.
+Also, the non-dominant
+pole is again what we have
+derived in the previous
+Chapter. Again, normally C
+c
+is about 3 times C .
+n1
+0612
+For this particular amplifier, the pole-zero position and Bode diagrams are sketched in this slide.
+For zero C , two poles are found, which are clearly too close together. Peaking would occur
+c
+if feedback is applied.
+This capacitance has been increased to about 1 pF. In this case the dominant pole has
+decreased a lot but what is more important is that the non-dominant pole has moved out until

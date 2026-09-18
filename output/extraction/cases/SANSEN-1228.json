@@ -1,0 +1,193 @@
+{
+  "case_id": "SANSEN-1228",
+  "slide_id": "1228",
+  "chapter": 12,
+  "slide_number_in_chapter": 28,
+  "source": {
+    "pdf_page": 344,
+    "printed_page": 351
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0344_01_1228.jpg",
+      "pdf_page": 344,
+      "printed_page": 351,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 344,
+      "printed_page": 351,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "The full amplifier is shown\nin this slide. The three stages\nare used to increase the gain,\nyielding very low distortion.\nThe first and second\nstages are symmetrical\namplifiers. The third stage\nconsists of two output\ndevices with the quiescent-\ncurrent control described in\nthe previous slide. Nested\nMiller compensation is\nused.\nIts GBW is 5 MHz. It\ngives only −80 dB THD at\n10 kHz in 81 V in parallel\nwith 15 pF. The quiescent\ncurrent is 1.4 mA.",
+      "text": "The full amplifier is shown in this slide. The three stages are used to increase the gain, yielding very low distortion. The first and second stages are symmetrical amplifiers. The third stage consists of two output devices with the quiescentcurrent control described in the previous slide. Nested Miller compensation is used. Its GBW is 5 MHz. It gives only −80 dB THD at 10 kHz in 81 V in parallel with 15 pF. The quiescent current is 1.4 mA."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The full amplifier is shown in this slide. The three stages are used to increase the gain, yielding very low distortion. The first and second stages are symmetrical amplifiers. The third stage consists of two output devices with the quiescentcurrent control described in the previous slide. Nested Miller compensation is used. Its GBW is 5 MHz. It gives only −80 dB THD at 10 kHz in 81 V in parallel with 15 pF. The quiescent current is 1.4 mA.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Translinear le Control",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0344_01_1228.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0743243202027028,
+          0.08292682931707318,
+          0.48648648236486497,
+          0.1463414634634146
+        ],
+        "confidence": 1,
+        "text": "Translinear le Control"
+      },
+      {
+        "bbox": [
+          0.7802387321658472,
+          0.32598572518978697,
+          0.9089504583802819,
+          0.38133135118346906
+        ],
+        "confidence": 0.5,
+        "text": "3 stage"
+      },
+      {
+        "bbox": [
+          0.7701495093881692,
+          0.3845146618564921,
+          0.9325531960147065,
+          0.43499753274927266
+        ],
+        "confidence": 1,
+        "text": "Class-AB"
+      },
+      {
+        "bbox": [
+          0.7700894766233952,
+          0.44761745350569626,
+          0.9326132231138738,
+          0.503602057573615
+        ],
+        "confidence": 1,
+        "text": "Amplifier"
+      },
+      {
+        "bbox": [
+          0.7756964498576233,
+          0.5810914532121445,
+          0.9335291110481718,
+          0.633805347474691
+        ],
+        "confidence": 0.5,
+        "text": "o control"
+      },
+      {
+        "bbox": [
+          0.6993243271537162,
+          0.8536585362804877,
+          0.9256756785050676,
+          0.8878048777439024
+        ],
+        "confidence": 1,
+        "text": "Ref. Op 't Eynde, JSSC"
+      },
+      {
+        "bbox": [
+          0.6992109981781846,
+          0.8867976986015365,
+          0.8615998126403823,
+          0.9278364490406918
+        ],
+        "confidence": 1,
+        "text": "Febr.90, 265-273"
+      },
+      {
+        "bbox": [
+          0.7297297317567567,
+          0.9463414629268293,
+          0.9391891912162162,
+          0.9853658531707318
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 1228"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The full amplifier is shown in this slide.",
+      "pdf_page": 344,
+      "printed_page": 351,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0344_01_1228.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "It gives only −80 dB THD at 10 kHz in 81 V in parallel with 15 pF.",
+        "pdf_page": 344,
+        "printed_page": 351,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The three stages are used to increase the gain, yielding very low distortion.",
+      "pdf_page": 344,
+      "printed_page": 351,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

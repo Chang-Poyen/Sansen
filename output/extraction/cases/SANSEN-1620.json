@@ -1,0 +1,265 @@
+{
+  "case_id": "SANSEN-1620",
+  "slide_id": "1620",
+  "chapter": 16,
+  "slide_number_in_chapter": 20,
+  "source": {
+    "pdf_page": 457,
+    "printed_page": 466
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0457_02_1620.jpg",
+      "pdf_page": 457,
+      "printed_page": 466,
+      "bbox_pt": [
+        91.52162,
+        402.54352,
+        374.54215999999997,
+        599.00348
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 457,
+      "printed_page": 466,
+      "bbox_pt": [
+        0,
+        398.5543089500002,
+        595,
+        654.65457965
+      ],
+      "text_raw": "Operational amplifiers can\nprovide much more loop\ngain than a transistor pair.\nIn this bandgap reference,\nthe opamp finds an out-\nput voltage such that\nthe differential input zero\nbecomes zero. If the resistors\nR are chosen such that they\ntake up about 0.6 V, then\nthe output voltage is about\n1.2 V. The output imped-\nance is obviously very low,\nat least at low frequencies.\nThe same applies to the\nbandgap reference on the\nright. Its PSRR is worse however because transistors are used, with their collectors connected\nto the power supply.",
+      "text": "Operational amplifiers can provide much more loop gain than a transistor pair. In this bandgap reference, the opamp finds an output voltage such that the differential input zero becomes zero. If the resistors R are chosen such that they take up about 0.6 V, then the output voltage is about 1.2 V. The output impedance is obviously very low, at least at low frequencies. The same applies to the bandgap reference on the right. Its PSRR is worse however because transistors are used, with their collectors connected to the power supply."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Operational amplifiers can provide much more loop gain than a transistor pair. In this bandgap reference, the opamp finds an output voltage such that the differential input zero becomes zero. If the resistors R are chosen such that they take up about 0.6 V, then the output voltage is about 1.2 V. The output impedance is obviously very low, at least at low frequencies. The same applies to the bandgap reference on the right. Its PSRR is worse however because transistors are used, with their collectors connected to the power supply.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Bipolar Bandgap references with opamps",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0457_02_1620.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135592620338998,
+          0.08780487868292686,
+          0.7966101634915256,
+          0.15121951282926827
+        ],
+        "confidence": 1,
+        "text": "Bipolar Bandgap references with opamps"
+      },
+      {
+        "bbox": [
+          0.21016949178907718,
+          0.2780487803252032,
+          0.2576271189077213,
+          0.3463414632520325
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ER"
+      },
+      {
+        "bbox": [
+          0.5457627107344633,
+          0.39024390295163536,
+          0.620338981920904,
+          0.42926829203252037
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 :п"
+      },
+      {
+        "bbox": [
+          0.6200513601504027,
+          0.39873582499706695,
+          0.7528299933973903,
+          0.4646788102526107
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "≤ RpTAT"
+      },
+      {
+        "bbox": [
+          0.21016949234866827,
+          0.5170731706968641,
+          0.3254237296368039,
+          0.5804878048432056
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= RpTAT"
+      },
+      {
+        "bbox": [
+          0.39322033847457627,
+          0.5804878043414634,
+          0.45084745711864405,
+          0.6341463409268293
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.8372881353559322,
+          0.56097561,
+          0.8610169489152543,
+          0.5951219514634146
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.827118643457627,
+          0.6487804879512195,
+          0.8881355926101694,
+          0.7024390245365854
+        ],
+        "confidence": 0.5,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.15932203446327683,
+          0.7414634151219512,
+          0.20000000056497175,
+          0.770731707804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ":n"
+      },
+      {
+        "bbox": [
+          0.7016949139830508,
+          0.829268292886179,
+          0.8542372868644067,
+          0.8731707319105692
+        ],
+        "confidence": 1,
+        "text": "Bad PSRR"
+      },
+      {
+        "bbox": [
+          0.7084745859571139,
+          0.9365853663662694,
+          0.922033895059835,
+          0.9756097554471544
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 10c6 1620"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In this bandgap reference, the opamp finds an output voltage such that the differential input zero becomes zero.",
+      "pdf_page": 457,
+      "printed_page": 466,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0457_02_1620.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Its PSRR is worse however because transistors are used, with their collectors connected to the power supply.",
+        "pdf_page": 457,
+        "printed_page": 466,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Operational amplifiers can provide much more loop gain than a transistor pair.",
+      "pdf_page": 457,
+      "printed_page": 466,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1620-M01",
+      "ocr_text": "≤ RpTAT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6200513601504027,
+        0.39873582499706695,
+        0.7528299933973903,
+        0.4646788102526107
+      ],
+      "context_crop": "regions/SANSEN-1620_math_01.png",
+      "context_bbox_normalized": [
+        0.5800513601504027,
+        0.29873582499706697,
+        0.9828299933973903,
+        0.5946788102526107
+      ],
+      "source_image": "slides/p0457_02_1620.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1620-M02",
+      "ocr_text": "= RpTAT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.21016949234866827,
+        0.5170731706968641,
+        0.3254237296368039,
+        0.5804878048432056
+      ],
+      "context_crop": "regions/SANSEN-1620_math_02.png",
+      "context_bbox_normalized": [
+        0.17016949234866827,
+        0.4170731706968641,
+        0.5554237296368039,
+        0.7104878048432056
+      ],
+      "source_image": "slides/p0457_02_1620.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

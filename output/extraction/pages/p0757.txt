@@ -1,0 +1,46 @@
+Coupling eVects in mixed analog-digital ICs 769
+2451
+Another two-stage Miller
+amplifier is shown in this
+slide. It uses a symmetrical
+OTA as a first stage.
+Cascodes are used as well. It
+is therefore evident that the
+compensation capacitor is
+led through a cascode,
+which is here M10.
+As a result the PSRR is
+SS
+enhanced as well.
+The actual expression is
+shown in this slide.
+It is a ratio of capacitors
+involving a large number of
+parasitic capacitances. It
+will be larger than 0 dB, but
+not significantly!
+2452
+The PSRR for a symmetri-
+SS
+cal OTA by itself is shown
+in this slide. It is mainly
+determined by mismatches.
+At low frequencies it is
+determined by the resistance
+at node 5.
+At high frequencies (at
+GBW) however, it is deter-
+mined by the difference in
+coupling capacitance from
+the supply line to the nodes
+4 and 5. Because node 4 is
+the output node and node 5
+is not, the coupling capaci-
+tor C is likely to be much
+n4SS
+larger than the one on the other side C .
+n5SS
+As a result, the simplest expression of the PSRR is the ratio of C to this coupling capacitor
+SS L
+C . Again, values of 20 dB can be expected.
+n4SS

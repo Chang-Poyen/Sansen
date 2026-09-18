@@ -1,0 +1,489 @@
+{
+  "case_id": "SANSEN-064",
+  "slide_id": "064",
+  "chapter": 6,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 178,
+    "printed_page": 182
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0178_02_064.jpg",
+      "pdf_page": 178,
+      "printed_page": 182,
+      "bbox_pt": [
+        91.521622,
+        407.525971,
+        374.78981,
+        603.985962
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 178,
+      "printed_page": 182,
+      "bbox_pt": [
+        0,
+        403.5365000000002,
+        595,
+        797
+      ],
+      "text_raw": "Before we focus on the non-\ndominant poles, let us find\nout how much GBW can be\nexpected from such a simple\namplifier. We know already\nthat it is the best for low-\npower consumption. What\ndoes this mean in actual\nnumbers?\nThe simplest Figure of\nMerit (FOM) for opamps is\nthe one with the GBW, the\nC and the power consump-\nL\ntion. Later on, some other\nspecifications could be\nadded, such as noise, or\nswing, etc.\nInstead of the power consumption, the current consumption can also be taken.\nFor this purpose, a differential configuration has been taken as sketched in this slide. The\neffective load capacitance is now only half of what we would have for a single-ended output. On\nthe other hand, there is also no current mirror to double the output current. This OTA is\nrepresentative for a single-stage amplifier!\nWe find that for a 10 mA total current, a load capacitance of 1 pF can still yield a GBW of",
+      "text": "Before we focus on the nondominant poles, let us find out how much GBW can be expected from such a simple amplifier. We know already that it is the best for lowpower consumption. What does this mean in actual numbers? The simplest Figure of Merit (FOM) for opamps is the one with the GBW, the C and the power consump- L tion. Later on, some other specifications could be added, such as noise, or swing, etc. Instead of the power consumption, the current consumption can also be taken. For this purpose, a differential configuration has been taken as sketched in this slide. The effective load capacitance is now only half of what we would have for a single-ended output. On the other hand, there is also no current mirror to double the output current. This OTA is representative for a single-stage amplifier! We find that for a 10 mA total current, a load capacitance of 1 pF can still yield a GBW of"
+    },
+    {
+      "pdf_page": 179,
+      "printed_page": 183,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        189.2888999999999
+      ],
+      "text_raw": "10 MHz. Even easier to remember is that with 1 mA, a 1 MHz GBW can be achieved for a 1pF\nload capacitance.\nThis gives a FOM of 1000 in MHzpF/mA. Actually, it is slightly less, i.e. 800. We will see\nhowever, that this is an excellent result, when we compare with other OTA’s in the next Chapter.",
+      "text": "10 MHz. Even easier to remember is that with 1 mA, a 1 MHz GBW can be achieved for a 1pF load capacitance. This gives a FOM of 1000 in MHzpF/mA. Actually, it is slightly less, i.e. 800. We will see however, that this is an excellent result, when we compare with other OTA’s in the next Chapter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Before we focus on the nondominant poles, let us find out how much GBW can be expected from such a simple amplifier. We know already that it is the best for lowpower consumption. What does this mean in actual numbers? The simplest Figure of Merit (FOM) for opamps is the one with the GBW, the C and the power consump- L tion. Later on, some other specifications could be added, such as noise, or swing, etc. Instead of the power consumption, the current consumption can also be taken. For this purpose, a differential configuration has been taken as sketched in this slide. The effective load capacitance is now only half of what we would have for a single-ended output. On the other hand, there is also no current mirror to double the output current. This OTA is representative for a single-stage amplifier! We find that for a 10 mA total current, a load capacitance of 1 pF can still yield a GBW of\n\n10 MHz. Even easier to remember is that with 1 mA, a 1 MHz GBW can be achieved for a 1pF load capacitance. This gives a FOM of 1000 in MHzpF/mA. Actually, it is slightly less, i.e. 800. We will see however, that this is an excellent result, when we compare with other OTA’s in the next Chapter.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "CMOS OTA : Maximum GBW",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0178_02_064.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445946283783778,
+          0.08780487777439028,
+          0.6250000033783784,
+          0.14146341435975607
+        ],
+        "confidence": 1,
+        "text": "CMOS OTA : Maximum GBW"
+      },
+      {
+        "bbox": [
+          0.2635135140878378,
+          0.351219512,
+          0.32094594652027025,
+          0.399999999804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+ ІB"
+      },
+      {
+        "bbox": [
+          0.39189189152027026,
+          0.4341463409756098,
+          0.4358108104391892,
+          0.48292682878048776
+        ],
+        "confidence": 1,
+        "text": "V+"
+      },
+      {
+        "bbox": [
+          0.27027026986486485,
+          0.5121951220487806,
+          0.3108108104054054,
+          0.5609756098536586
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.07432432529560809,
+          0.6292682926219513,
+          0.15202702799831078,
+          0.6731707316463416
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT+"
+      },
+      {
+        "bbox": [
+          0.3614864853603604,
+          0.6243902431707317,
+          0.43581080968468466,
+          0.668292682195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT-"
+      },
+      {
+        "bbox": [
+          0.45608107922297303,
+          0.23902439078048787,
+          0.6418918900337839,
+          0.3121951224878049
+        ],
+        "confidence": 0.5,
+        "text": "GBW = 9m1"
+      },
+      {
+        "bbox": [
+          0.5709459466779279,
+          0.32195121943089433,
+          0.6587837845157657,
+          0.38048780479674793
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 CL"
+      },
+      {
+        "bbox": [
+          0.7128378390202702,
+          0.27317073128048786,
+          0.8074324336148648,
+          0.31707317030487814
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1="
+      },
+      {
+        "bbox": [
+          0.7939189177027027,
+          0.31707317087804876,
+          0.9155405393243243,
+          0.37073170746341466
+        ],
+        "confidence": 0.5,
+        "text": "VGS1-VT"
+      },
+      {
+        "bbox": [
+          0.8277027025337838,
+          0.439024389804878,
+          0.8513513511824324,
+          0.4829268288292683
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.5067194751879496,
+          0.4827008150009291,
+          0.6621994476149053,
+          0.5368113792560619
+        ],
+        "confidence": 0.5,
+        "text": "GBWmax="
+      },
+      {
+        "bbox": [
+          0.672068224311724,
+          0.5252838693680152,
+          0.888742590824538,
+          0.5966673502774092
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VGs1-VT 2T GL"
+      },
+      {
+        "bbox": [
+          0.8648648655827703,
+          0.6341463412195123,
+          0.9222972980152028,
+          0.6634146339024392
+        ],
+        "confidence": 1,
+        "text": "0.2 V"
+      },
+      {
+        "bbox": [
+          0.418918924197635,
+          0.7024390239634147,
+          0.8412162214949322,
+          0.7463414629878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1в = 10 JA CL =1 pF GBWmax ="
+      },
+      {
+        "bbox": [
+          0.8375270805946392,
+          0.7005450041678836,
+          0.932743187318734,
+          0.7384793888627972
+        ],
+        "confidence": 1,
+        "text": "10 MHz"
+      },
+      {
+        "bbox": [
+          0.8851351347635136,
+          0.7560975612195122,
+          0.9222972969256757,
+          0.7902439026829269
+        ],
+        "confidence": 0.5,
+        "text": "[8)"
+      },
+      {
+        "bbox": [
+          0.6147066015165593,
+          0.7797088234143549,
+          0.7400231311771709,
+          0.8349253242316306
+        ],
+        "confidence": 1,
+        "text": "GBW.CL"
+      },
+      {
+        "bbox": [
+          0.5067567569200451,
+          0.8243902439674797,
+          0.6114864866497748,
+          0.8634146342113821
+        ],
+        "confidence": 0.5,
+        "text": "FOM ="
+      },
+      {
+        "bbox": [
+          0.7635135147694322,
+          0.8243902436585366,
+          0.7905405401855229,
+          0.8487804875609757
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.7938509154832806,
+          0.818939383580491,
+          0.9493923225787,
+          0.8591093995203432
+        ],
+        "confidence": 0.5,
+        "text": "1000 [800]"
+      },
+      {
+        "bbox": [
+          0.6722972976351351,
+          0.8731707315447155,
+          0.6925675679054054,
+          0.9024390242276423
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B"
+      },
+      {
+        "bbox": [
+          0.8006483686025261,
+          0.8729667753515843,
+          0.9223246074099981,
+          0.90752102890651
+        ],
+        "confidence": 1,
+        "text": "MHzpF/mA"
+      },
+      {
+        "bbox": [
+          0.7263513481418921,
+          0.9463414635772357,
+          0.9189189157094596,
+          0.9756097562601626
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 064"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Before we focus on the nondominant poles, let us find out how much GBW can be expected from such a simple amplifier.",
+      "pdf_page": 178,
+      "printed_page": 182,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We find that for a 10 mA total current, a load capacitance of 1 pF can still yield a GBW of",
+      "pdf_page": 178,
+      "printed_page": 182,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We will see however, that this is an excellent result, when we compare with other OTA’s in the next Chapter.",
+      "pdf_page": 179,
+      "printed_page": 183,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0178_02_064.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-064-M01",
+      "ocr_text": "GBW = 9m1",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.45608107922297303,
+        0.23902439078048787,
+        0.6418918900337839,
+        0.3121951224878049
+      ],
+      "context_crop": "regions/SANSEN-064_math_01.png",
+      "context_bbox_normalized": [
+        0.41608107922297305,
+        0.13902439078048787,
+        0.8718918900337839,
+        0.4421951224878049
+      ],
+      "source_image": "slides/p0178_02_064.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-064-M02",
+      "ocr_text": "9m1=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7128378390202702,
+        0.27317073128048786,
+        0.8074324336148648,
+        0.31707317030487814
+      ],
+      "context_crop": "regions/SANSEN-064_math_02.png",
+      "context_bbox_normalized": [
+        0.6728378390202702,
+        0.17317073128048785,
+        1,
+        0.44707317030487814
+      ],
+      "source_image": "slides/p0178_02_064.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-064-M03",
+      "ocr_text": "GBWmax=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5067194751879496,
+        0.4827008150009291,
+        0.6621994476149053,
+        0.5368113792560619
+      ],
+      "context_crop": "regions/SANSEN-064_math_03.png",
+      "context_bbox_normalized": [
+        0.4667194751879496,
+        0.3827008150009291,
+        0.8921994476149053,
+        0.6668113792560619
+      ],
+      "source_image": "slides/p0178_02_064.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-064-M04",
+      "ocr_text": "1в = 10 JA CL =1 pF GBWmax =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.418918924197635,
+        0.7024390239634147,
+        0.8412162214949322,
+        0.7463414629878049
+      ],
+      "context_crop": "regions/SANSEN-064_math_04.png",
+      "context_bbox_normalized": [
+        0.378918924197635,
+        0.6024390239634148,
+        1,
+        0.8763414629878049
+      ],
+      "source_image": "slides/p0178_02_064.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-064-M05",
+      "ocr_text": "FOM =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5067567569200451,
+        0.8243902439674797,
+        0.6114864866497748,
+        0.8634146342113821
+      ],
+      "context_crop": "regions/SANSEN-064_math_05.png",
+      "context_bbox_normalized": [
+        0.4667567569200451,
+        0.7243902439674798,
+        0.8414864866497748,
+        0.93
+      ],
+      "source_image": "slides/p0178_02_064.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-064-M06",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.7635135147694322,
+        0.8243902436585366,
+        0.7905405401855229,
+        0.8487804875609757
+      ],
+      "context_crop": "regions/SANSEN-064_math_06.png",
+      "context_bbox_normalized": [
+        0.7235135147694322,
+        0.7243902436585367,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0178_02_064.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

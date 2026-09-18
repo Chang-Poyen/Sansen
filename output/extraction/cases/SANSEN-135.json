@@ -1,0 +1,463 @@
+{
+  "case_id": "SANSEN-135",
+  "slide_id": "135",
+  "chapter": 13,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 358,
+    "printed_page": 365
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0358_02_135.jpg",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "bbox_pt": [
+        91.521622,
+        335.777985,
+        374.78981,
+        532.237976
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 358,
+      "printed_page": 365,
+      "bbox_pt": [
+        0,
+        331.7884,
+        595,
+        797
+      ],
+      "text_raw": "It is clear that the loop gain\nLG is the most important\ncharacteristic of a feedback\namplifier. Therefore, its\nvalue must be calculated\nfirst.\nThe loop gain LG is cal-\nculated by breaking the loop\nand by calculating the gain,\ngoing around the loop. The\nDC conditions must be\nmaintained, only the AC\nloop is broken.\nIdeally it makes no\ndifference where the loop\nis broken. The loop gain\nshould be independent of where the loop is broken. Therefore, we try to find an easy place, a\nplace where the calculations are easy. This is the case for any connection where the difference\nbetween the resistance, left and right are the largest.\nIn the example in this slide, the output resistance of the operational amplifier is quite low,\ncertainly a lot lower than resistor R . Therefore, we break in between. We apply a voltage source\nF\n(as the output resistance of the opamp was low) and we calculate the voltage going around the\nloop. This gives a value A . However, the voltage on both sides of the resistor R are the same\n0 F\nas there is no current flowing through it.\nWhat happened to the input current source? Since we have applied another input source v ,\nIN\nwe must remove the input current source (called the independent source). For calculating the\nloop gain, we replace an independent current source by its internal resistance (which is infinity).\nIndependent voltage sources are replaced by their internal resistance as well, which is just about\nzero or a short-circuit.",
+      "text": "It is clear that the loop gain LG is the most important characteristic of a feedback amplifier. Therefore, its value must be calculated first. The loop gain LG is calculated by breaking the loop and by calculating the gain, going around the loop. The DC conditions must be maintained, only the AC loop is broken. Ideally it makes no difference where the loop is broken. The loop gain should be independent of where the loop is broken. Therefore, we try to find an easy place, a place where the calculations are easy. This is the case for any connection where the difference between the resistance, left and right are the largest. In the example in this slide, the output resistance of the operational amplifier is quite low, certainly a lot lower than resistor R . Therefore, we break in between. We apply a voltage source F (as the output resistance of the opamp was low) and we calculate the voltage going around the loop. This gives a value A . However, the voltage on both sides of the resistor R are the same 0 F as there is no current flowing through it. What happened to the input current source? Since we have applied another input source v , IN we must remove the input current source (called the independent source). For calculating the loop gain, we replace an independent current source by its internal resistance (which is infinity). Independent voltage sources are replaced by their internal resistance as well, which is just about zero or a short-circuit."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "It is clear that the loop gain LG is the most important characteristic of a feedback amplifier. Therefore, its value must be calculated first. The loop gain LG is calculated by breaking the loop and by calculating the gain, going around the loop. The DC conditions must be maintained, only the AC loop is broken. Ideally it makes no difference where the loop is broken. The loop gain should be independent of where the loop is broken. Therefore, we try to find an easy place, a place where the calculations are easy. This is the case for any connection where the difference between the resistance, left and right are the largest. In the example in this slide, the output resistance of the operational amplifier is quite low, certainly a lot lower than resistor R . Therefore, we break in between. We apply a voltage source F (as the output resistance of the opamp was low) and we calculate the voltage going around the loop. This gives a value A . However, the voltage on both sides of the resistor R are the same 0 F as there is no current flowing through it. What happened to the input current source? Since we have applied another input source v , IN we must remove the input current source (called the independent source). For calculating the loop gain, we replace an independent current source by its internal resistance (which is infinity). Independent voltage sources are replaced by their internal resistance as well, which is just about zero or a short-circuit.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Calculation loop gain or return ratio",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0358_02_135.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108150337832,
+          0.08780487725609754,
+          0.7162162166385134,
+          0.15121951140243906
+        ],
+        "confidence": 1,
+        "text": "Calculation loop gain or return ratio"
+      },
+      {
+        "bbox": [
+          0.27027027055984554,
+          0.22439024376306627,
+          0.31081081110038605,
+          0.27317073156794425
+        ],
+        "confidence": 0.5,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.2668918925253378,
+          0.2780487803048781,
+          0.3175675682010135,
+          0.3219512193292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.3209459450675676,
+          0.3560975604390244,
+          0.4155405396621622,
+          0.4097560970243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUTY"
+      },
+      {
+        "bbox": [
+          0.304054054420045,
+          0.45853658520325213,
+          0.34797297333896393,
+          0.5170731705691057
+        ],
+        "confidence": 0.5,
+        "text": "Ao"
+      },
+      {
+        "bbox": [
+          0.38513513838682434,
+          0.20975609707317078,
+          0.6722973005489865,
+          0.24878048731707314
+        ],
+        "confidence": 1,
+        "text": "Low output resistance !"
+      },
+      {
+        "bbox": [
+          0.6351351360472972,
+          0.26829268273170737,
+          0.7263513522635134,
+          0.31707317053658535
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YouT"
+      },
+      {
+        "bbox": [
+          0.564189189695946,
+          0.2926829272125435,
+          0.6486486491554054,
+          0.3463414637979094
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG ="
+      },
+      {
+        "bbox": [
+          0.7297297301097974,
+          0.3024390251219513,
+          0.9020270274070946,
+          0.3609756104878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "=AvoL= Ao"
+      },
+      {
+        "bbox": [
+          0.6655405400337837,
+          0.34146341473170727,
+          0.7162162157094595,
+          0.39024390253658536
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.45608108158783783,
+          0.3707317071707317,
+          0.5067567572635135,
+          0.41463414619512196
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.6722972959121623,
+          0.42439024453658525,
+          0.8851351337500001,
+          0.48780487868292677
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ao =104 ... 106"
+      },
+      {
+        "bbox": [
+          0.6756756774324324,
+          0.5219512193170731,
+          0.851351353108108,
+          0.5609756095609756
+        ],
+        "confidence": 0.5,
+        "text": "OL Open Loop"
+      },
+      {
+        "bbox": [
+          0.08445946608108096,
+          0.6146341461463415,
+          0.746621628243243,
+          0.6634146339512195
+        ],
+        "confidence": 1,
+        "text": "Independent sources : voltage source to zero"
+      },
+      {
+        "bbox": [
+          0.4218852222904501,
+          0.6544647787347309,
+          0.7844490514546973,
+          0.7178672244581016
+        ],
+        "confidence": 1,
+        "text": "current source to infinity"
+      },
+      {
+        "bbox": [
+          0.08783784283301155,
+          0.7707317070383275,
+          0.7871621671573359,
+          0.8195121948432055
+        ],
+        "confidence": 1,
+        "text": "Break loop where impedances are very different"
+      },
+      {
+        "bbox": [
+          0.08783783323479749,
+          0.8195121944512196,
+          0.5574324278293921,
+          0.8731707310365854
+        ],
+        "confidence": 0.5,
+        "text": "Find the loop gain = return ratio"
+      },
+      {
+        "bbox": [
+          0.7162162192815833,
+          0.9365853660162601,
+          0.9189189090967952,
+          0.9658536586991869
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 135"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Therefore, its value must be calculated first.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The loop gain LG is calculated by breaking the loop and by calculating the gain, going around the loop.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, we try to find an easy place, a place where the calculations are easy.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0358_02_135.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This is the case for any connection where the difference between the resistance, left and right are the largest.",
+        "pdf_page": 358,
+        "printed_page": 365,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "We apply a voltage source F (as the output resistance of the opamp was low) and we calculate the voltage going around the loop.",
+        "pdf_page": 358,
+        "printed_page": 365,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "What happened to the input current source?",
+        "pdf_page": 358,
+        "printed_page": 365,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "Since we have applied another input source v , IN we must remove the input current source (called the independent source).",
+        "pdf_page": 358,
+        "printed_page": 365,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "For calculating the loop gain, we replace an independent current source by its internal resistance (which is infinity).",
+        "pdf_page": 358,
+        "printed_page": 365,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is clear that the loop gain LG is the most important characteristic of a feedback amplifier.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, its value must be calculated first.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The loop gain LG is calculated by breaking the loop and by calculating the gain, going around the loop.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The loop gain should be independent of where the loop is broken.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, we try to find an easy place, a place where the calculations are easy.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Therefore, we break in between.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Since we have applied another input source v , IN we must remove the input current source (called the independent source).",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For calculating the loop gain, we replace an independent current source by its internal resistance (which is infinity).",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "It is clear that the loop gain LG is the most important characteristic of a feedback amplifier.",
+      "pdf_page": 358,
+      "printed_page": 365,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-135-M01",
+      "ocr_text": "LG =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.564189189695946,
+        0.2926829272125435,
+        0.6486486491554054,
+        0.3463414637979094
+      ],
+      "context_crop": "regions/SANSEN-135_math_01.png",
+      "context_bbox_normalized": [
+        0.524189189695946,
+        0.19268292721254351,
+        0.8786486491554054,
+        0.4763414637979094
+      ],
+      "source_image": "slides/p0358_02_135.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-135-M02",
+      "ocr_text": "=AvoL= Ao",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7297297301097974,
+        0.3024390251219513,
+        0.9020270274070946,
+        0.3609756104878049
+      ],
+      "context_crop": "regions/SANSEN-135_math_02.png",
+      "context_bbox_normalized": [
+        0.6897297301097973,
+        0.2024390251219513,
+        1,
+        0.4909756104878049
+      ],
+      "source_image": "slides/p0358_02_135.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-135-M03",
+      "ocr_text": "Ao =104 ... 106",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6722972959121623,
+        0.42439024453658525,
+        0.8851351337500001,
+        0.48780487868292677
+      ],
+      "context_crop": "regions/SANSEN-135_math_03.png",
+      "context_bbox_normalized": [
+        0.6322972959121622,
+        0.32439024453658527,
+        1,
+        0.6178048786829268
+      ],
+      "source_image": "slides/p0358_02_135.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-135-M04",
+      "ocr_text": "Find the loop gain = return ratio",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08783783323479749,
+        0.8195121944512196,
+        0.5574324278293921,
+        0.8731707310365854
+      ],
+      "context_crop": "regions/SANSEN-135_math_04.png",
+      "context_bbox_normalized": [
+        0.04783783323479749,
+        0.7195121944512196,
+        0.787432427829392,
+        0.93
+      ],
+      "source_image": "slides/p0358_02_135.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

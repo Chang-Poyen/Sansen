@@ -1,0 +1,53 @@
+Amplifiers, source followers and cascodes 55
+029
+As an exercise, let us design
+a single-transistor amplifier
+for a GBW=100 MHz and
+a C =3 pF.
+L
+The technology is shown
+in this slide. The minimum
+channel length is 0.5 mm.
+The required g is readily
+m
+calculated to be about 2 mS
+(or 2 mMhos).
+We choose V −V =
+GS T
+0.2 V. This transconduct-
+ance of 2 mS thus requires
+0.2 mA current. Using the
+current expression in strong
+inversion yields W/L=100.
+We choose L#4×L =2 mm, to obtain some gain.
+min
+As a result W=200 mm.
+The FOM is 1500 MHzpF/mA, which is not bad! After all only one transistor is involved!!
+Most opamps later on will have FOMs between 100 and 200, at least the better ones!
+0210
+If no load capacitance is
+present, but a large input
+capacitance C , then the
+GS
+bandwidth is determined at
+the input. This is also true
+for many sensor and bio-
+medical preamplifiers where
+the source resistance can be
+quite high (>1 MV).
+In this case, the BW is
+simply given by the RC pro-
+duct at the input.
+The GBW on the other
+hand, is not as simple as
+before. Many transistor
+parameters now play a role.
+Some of them can be bundled in the high-frequency parameter f .
+T
+For high-frequency performance, it is not sufficient however to make f large. Rather the
+T
+product f r must be optimized, which is a technological challenge indeed!
+T DS
+The channel length does not seem to play a role; both W and V −V must be made small!!!
+GS T
+All surprising results indeed!

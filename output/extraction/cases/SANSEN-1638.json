@@ -1,0 +1,460 @@
+{
+  "case_id": "SANSEN-1638",
+  "slide_id": "1638",
+  "chapter": 16,
+  "slide_number_in_chapter": 38,
+  "source": {
+    "pdf_page": 466,
+    "printed_page": 475
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0466_02_1638.jpg",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "bbox_pt": [
+        91.521622,
+        455.25839299999996,
+        374.78981,
+        651.718384
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 466,
+      "printed_page": 475,
+      "bbox_pt": [
+        0,
+        451.26892500000025,
+        595,
+        797
+      ],
+      "text_raw": "In this realization, an\nopamp is used which oper-\nates on supply voltages\nbelow 1 V. As a result, a real\nsub-1V bandgap reference\nemerges. BiCMOS is used,\nhowever, rather than stan-\ndard CMOS.\nThe principle is similar to\nthe one previously men-\ntioned. The opamp equal-\nizes its input voltages by use\nof feedback. This voltage is\nsimply V . All pMOSTs\nBE\nhave again equal currents.\nThe current through resis-\ntor R is thus PTAT. It is added to a current V /R . This sum also flows through the output\n0 BE 2\ntransistor. Resistor R then sets the output reference voltage, which is here about 0.54 V.\n3\nRecently, a full CMOS version has been added by the same authors (Cabrini, ESSCIRC 2005)",
+      "text": "In this realization, an opamp is used which operates on supply voltages below 1 V. As a result, a real sub-1V bandgap reference emerges. BiCMOS is used, however, rather than standard CMOS. The principle is similar to the one previously mentioned. The opamp equalizes its input voltages by use of feedback. This voltage is simply V . All pMOSTs BE have again equal currents. The current through resistor R is thus PTAT. It is added to a current V /R . This sum also flows through the output 0 BE 2 transistor. Resistor R then sets the output reference voltage, which is here about 0.54 V. 3 Recently, a full CMOS version has been added by the same authors (Cabrini, ESSCIRC 2005)"
+    },
+    {
+      "pdf_page": 467,
+      "printed_page": 476,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        183.30993999999987
+      ],
+      "text_raw": "with 7 ppm/°C over −50°C to 160°C consuming only 26 mW at 1 V supply voltage. A folded\ncascode is then used as an opamp.",
+      "text": "with 7 ppm/°C over −50°C to 160°C consuming only 26 mW at 1 V supply voltage. A folded cascode is then used as an opamp."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this realization, an opamp is used which operates on supply voltages below 1 V. As a result, a real sub-1V bandgap reference emerges. BiCMOS is used, however, rather than standard CMOS. The principle is similar to the one previously mentioned. The opamp equalizes its input voltages by use of feedback. This voltage is simply V . All pMOSTs BE have again equal currents. The current through resistor R is thus PTAT. It is added to a current V /R . This sum also flows through the output 0 BE 2 transistor. Resistor R then sets the output reference voltage, which is here about 0.54 V. 3 Recently, a full CMOS version has been added by the same authors (Cabrini, ESSCIRC 2005)\n\nwith 7 ppm/°C over −50°C to 160°C consuming only 26 mW at 1 V supply voltage. A folded cascode is then used as an opamp.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "CMOS Bandgap with supply < 1 V",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0466_02_1638.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108483952693,
+          0.08780487771341461,
+          0.6824324361908782,
+          0.15121951185975613
+        ],
+        "confidence": 0.5,
+        "text": "CMOS Bandgap with supply < 1 V"
+      },
+      {
+        "bbox": [
+          0.08108108199324322,
+          0.2829268289268293,
+          0.17229729820945944,
+          0.3365853655121951
+        ],
+        "confidence": 0.5,
+        "text": "Vref ="
+      },
+      {
+        "bbox": [
+          0.17905405515202705,
+          0.2536585365447155,
+          0.3108108119087838,
+          0.33658536581300813
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R3VBE +"
+      },
+      {
+        "bbox": [
+          0.1790540536739865,
+          0.3170731700609757,
+          0.22297297259290538,
+          0.3707317066463415
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.17567567646396393,
+          0.3902439022764228,
+          0.27027027105855855,
+          0.4390243900813008
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R3 kT"
+      },
+      {
+        "bbox": [
+          0.23648648640202705,
+          0.4243902433536585,
+          0.33108108099662165,
+          0.4682926823780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "— In n"
+      },
+      {
+        "bbox": [
+          0.17567567645270268,
+          0.45853658590243906,
+          0.26013513591216214,
+          0.5121951224878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ro q"
+      },
+      {
+        "bbox": [
+          0.4020270277702703,
+          0.24878048760975613,
+          0.4763513520945946,
+          0.278048780292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 : 1"
+      },
+      {
+        "bbox": [
+          0.662162162027027,
+          0.23902438975609752,
+          0.689189189054054,
+          0.2878048775609756
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.45945946024774764,
+          0.5707317072357723,
+          0.506756757545045,
+          0.6048780486991869
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Roi"
+      },
+      {
+        "bbox": [
+          0.3918918924324324,
+          0.6097560983414634,
+          0.5202702708108108,
+          0.6878048788292682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IpTAT l5"
+      },
+      {
+        "bbox": [
+          0.8885135137246623,
+          0.23902439073170734,
+          0.9189189191300676,
+          0.2780487809756098
+        ],
+        "confidence": 1,
+        "text": "1V"
+      },
+      {
+        "bbox": [
+          0.8817567557854729,
+          0.2975609757926829,
+          0.9594594584881756,
+          0.3414634148170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "92 4A"
+      },
+      {
+        "bbox": [
+          0.8817567575168919,
+          0.4292682926219513,
+          0.9425675683277027,
+          0.4829268292073171
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.895270270608108,
+          0.5121951216260162,
+          0.9155405408783782,
+          0.5414634143089431
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.8851067256743108,
+          0.5510857691859107,
+          0.9730013844589194,
+          0.5903776441412508
+        ],
+        "confidence": 1,
+        "text": "0.536 V"
+      },
+      {
+        "bbox": [
+          0.8918918922972973,
+          0.6243902445365853,
+          0.9391891895945945,
+          0.6878048786829267
+        ],
+        "confidence": 0.5,
+        "text": "R3"
+      },
+      {
+        "bbox": [
+          0.07094594547297298,
+          0.7853658538536585,
+          0.11824324277027028,
+          0.8146341465365854
+        ],
+        "confidence": 1,
+        "text": "Ref.:"
+      },
+      {
+        "bbox": [
+          0.07094594435810815,
+          0.8195121953170732,
+          0.2297297281418919,
+          0.848780488
+        ],
+        "confidence": 1,
+        "text": "Malcovati, JSSC"
+      },
+      {
+        "bbox": [
+          0.06756756528716222,
+          0.8536585367682927,
+          0.2499999977195947,
+          0.8878048782317073
+        ],
+        "confidence": 1,
+        "text": "July 01, 1076-1081"
+      },
+      {
+        "bbox": [
+          0.2837837836148649,
+          0.8292682922439024,
+          0.3074324322635135,
+          0.8731707312682926
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.39527027063626125,
+          0.7951219511382114,
+          0.43918918955518016,
+          0.8536585365040651
+        ],
+        "confidence": 0.5,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.44594594614864863,
+          0.8390243906341464,
+          0.47297297317567566,
+          0.8780487808780488
+        ],
+        "confidence": 1,
+        "text": "n"
+      },
+      {
+        "bbox": [
+          0.580791004433299,
+          0.6032384871018582,
+          0.696236025469808,
+          0.6504200491999194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "kT In n"
+      },
+      {
+        "bbox": [
+          0.5912162163851351,
+          0.6390243907317072,
+          0.6148648650337837,
+          0.6682926834146341
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-"
+      },
+      {
+        "bbox": [
+          0.5878378380067568,
+          0.6731707321463415,
+          0.6114864866554054,
+          0.7170731711707318
+        ],
+        "confidence": 0.5,
+        "text": "q"
+      },
+      {
+        "bbox": [
+          0.6351351345016891,
+          0.6731707318902439,
+          0.6858108101773649,
+          0.7268292684756098
+        ],
+        "confidence": 1,
+        "text": "Ro"
+      },
+      {
+        "bbox": [
+          0.5641891899070945,
+          0.7902439022865854,
+          0.6790540547719595,
+          0.8536585364329268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2 = R1"
+      },
+      {
+        "bbox": [
+          0.7094594621199324,
+          0.9463414631707318,
+          0.9222972999577702,
+          0.9756097558536586
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-0s 1638"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0466_02_1638.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, a real sub-1V bandgap reference emerges.",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The opamp equalizes its input voltages by use of feedback.",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "All pMOSTs BE have again equal currents.",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The current through resistor R is thus PTAT.",
+      "pdf_page": 466,
+      "printed_page": 475,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1638-M01",
+      "ocr_text": "Vref =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08108108199324322,
+        0.2829268289268293,
+        0.17229729820945944,
+        0.3365853655121951
+      ],
+      "context_crop": "regions/SANSEN-1638_math_01.png",
+      "context_bbox_normalized": [
+        0.04108108199324322,
+        0.1829268289268293,
+        0.4022972982094595,
+        0.4665853655121951
+      ],
+      "source_image": "slides/p0466_02_1638.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1638-M02",
+      "ocr_text": "R2 = R1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5641891899070945,
+        0.7902439022865854,
+        0.6790540547719595,
+        0.8536585364329268
+      ],
+      "context_crop": "regions/SANSEN-1638_math_02.png",
+      "context_bbox_normalized": [
+        0.5241891899070945,
+        0.6902439022865854,
+        0.9090540547719594,
+        0.93
+      ],
+      "source_image": "slides/p0466_02_1638.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

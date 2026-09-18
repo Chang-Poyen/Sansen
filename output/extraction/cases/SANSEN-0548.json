@@ -1,0 +1,320 @@
+{
+  "case_id": "SANSEN-0548",
+  "slide_id": "0548",
+  "chapter": 5,
+  "slide_number_in_chapter": 48,
+  "source": {
+    "pdf_page": 170,
+    "printed_page": 174
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0170_02_0548.jpg",
+      "pdf_page": 170,
+      "printed_page": 174,
+      "bbox_pt": [
+        91.521622,
+        383.759461,
+        374.78981,
+        580.219452
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 170,
+      "printed_page": 174,
+      "bbox_pt": [
+        0,
+        379.77000000000004,
+        595,
+        797
+      ],
+      "text_raw": "As an example, let us take a\ntwo-stage opamp with a\nGBW of 50 MHz for a C\nL\nof 2 pF.\nWe resort to the same\ndesign plan as before. We\nchoose C to be 1 pF, half\nc\nthe value of C . We will\nL\nrefine this choice in the next\nChapter.\nFor a chosen C , the g\nc m1\nis easily calculated. For a\nV −V of 0.2 V, its current\nGS T\nis ten times larger, or 31 mA.\nNote that 1/g is 3.2 kV\nm1\nand 1/3g is about 1 kV.\nm1\nFor the second stage we recall that f must be three times higher than the GBW. Its g is\nnd m2\nalso readily calculated. The current is now eight times higher than the current in the input\ntransistor or 252 mA and 1/g is 400 V.\nm2\nWe now have to position R between 400 V and 1 kV. Doing this on a logarithmic scale means\nc\nthat we have to take a harmonic average. This gives about 640 V.\nThe advantage of doing this is that the tolerance is larger and the same in both directions.\nThis resistor can have an absolute tolerance of 60%, which makes it quite easy to achieve!",
+      "text": "As an example, let us take a two-stage opamp with a GBW of 50 MHz for a C L of 2 pF. We resort to the same design plan as before. We choose C to be 1 pF, half c the value of C . We will L refine this choice in the next Chapter. For a chosen C , the g c m1 is easily calculated. For a V −V of 0.2 V, its current GS T is ten times larger, or 31 mA. Note that 1/g is 3.2 kV m1 and 1/3g is about 1 kV. m1 For the second stage we recall that f must be three times higher than the GBW. Its g is nd m2 also readily calculated. The current is now eight times higher than the current in the input transistor or 252 mA and 1/g is 400 V. m2 We now have to position R between 400 V and 1 kV. Doing this on a logarithmic scale means c that we have to take a harmonic average. This gives about 640 V. The advantage of doing this is that the tolerance is larger and the same in both directions. This resistor can have an absolute tolerance of 60%, which makes it quite easy to achieve!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "As an example, let us take a two-stage opamp with a GBW of 50 MHz for a C L of 2 pF. We resort to the same design plan as before. We choose C to be 1 pF, half c the value of C . We will L refine this choice in the next Chapter. For a chosen C , the g c m1 is easily calculated. For a V −V of 0.2 V, its current GS T is ten times larger, or 31 mA. Note that 1/g is 3.2 kV m1 and 1/3g is about 1 kV. m1 For the second stage we recall that f must be three times higher than the GBW. Its g is nd m2 also readily calculated. The current is now eight times higher than the current in the input transistor or 252 mA and 1/g is 400 V. m2 We now have to position R between 400 V and 1 kV. Doing this on a logarithmic scale means c that we have to take a harmonic average. This gives about 640 V. The advantage of doing this is that the tolerance is larger and the same in both directions. This resistor can have an absolute tolerance of 60%, which makes it quite easy to achieve!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "Exercise of 2-stage opamp",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0170_02_0548.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0810810778233591,
+          0.09268292696864111,
+          0.5371621589044402,
+          0.15121951233449482
+        ],
+        "confidence": 1,
+        "text": "Exercise of 2-stage opamp"
+      },
+      {
+        "bbox": [
+          0.09797297506756755,
+          0.21951219570731706,
+          0.5033783804729729,
+          0.27804878107317077
+        ],
+        "confidence": 0.5,
+        "text": "GBW = 50 MHz for CL = 2 pF"
+      },
+      {
+        "bbox": [
+          0.09797297474662149,
+          0.2780487813414634,
+          0.5033783801520268,
+          0.3463414642682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Find IostilDsz ; Cc and Rc!"
+      },
+      {
+        "bbox": [
+          0.09459459169481986,
+          0.42439024443089424,
+          0.7804054025056306,
+          0.48780487857723576
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Choose Cc =1 pF > 9m1 = 2m C GBW = 315 uS"
+      },
+      {
+        "bbox": [
+          0.46621621168918925,
+          0.48780487814634155,
+          0.918918914391892,
+          0.5463414635121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDS1 = 31.5 HA & 1/9m1 ~ 3.2 kS"
+      },
+      {
+        "bbox": [
+          0.09583336122887735,
+          0.6317073170219883,
+          0.8833333302988996,
+          0.6927710811754456
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd = 150 MHz > 9m2 = 2t CL4GBW = 89m1 = 2520 uS"
+      },
+      {
+        "bbox": [
+          0.49662162149493244,
+          0.6926829259756098,
+          0.9324324323057432,
+          0.7609756089024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IDS2 = 252 HA & 1/9m2 = 400 ₽"
+      },
+      {
+        "bbox": [
+          0.09797297550675665,
+          0.8146341456585366,
+          0.9054054079391891,
+          0.8829268285853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "400 S2 < Rc < 1 KS : Rc = 1/N2.5 = 400/2.5 ≥ 640 $2 $ 60%"
+      },
+      {
+        "bbox": [
+          0.726351361173475,
+          0.936585365691057,
+          0.9290540509886871,
+          0.9756097559349594
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-0s 0548"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "For a chosen C , the g c m1 is easily calculated.",
+      "pdf_page": 170,
+      "printed_page": 174,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Its g is nd m2 also readily calculated.",
+      "pdf_page": 170,
+      "printed_page": 174,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0170_02_0548.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0548-M01",
+      "ocr_text": "GBW = 50 MHz for CL = 2 pF",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.09797297506756755,
+        0.21951219570731706,
+        0.5033783804729729,
+        0.27804878107317077
+      ],
+      "context_crop": "regions/SANSEN-0548_math_01.png",
+      "context_bbox_normalized": [
+        0.05797297506756755,
+        0.13,
+        0.7333783804729729,
+        0.4080487810731708
+      ],
+      "source_image": "slides/p0170_02_0548.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0548-M02",
+      "ocr_text": "Choose Cc =1 pF > 9m1 = 2m C GBW = 315 uS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09459459169481986,
+        0.42439024443089424,
+        0.7804054025056306,
+        0.48780487857723576
+      ],
+      "context_crop": "regions/SANSEN-0548_math_02.png",
+      "context_bbox_normalized": [
+        0.05459459169481986,
+        0.32439024443089426,
+        1,
+        0.6178048785772358
+      ],
+      "source_image": "slides/p0170_02_0548.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0548-M03",
+      "ocr_text": "IDS1 = 31.5 HA & 1/9m1 ~ 3.2 kS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.46621621168918925,
+        0.48780487814634155,
+        0.918918914391892,
+        0.5463414635121951
+      ],
+      "context_crop": "regions/SANSEN-0548_math_03.png",
+      "context_bbox_normalized": [
+        0.4262162116891893,
+        0.38780487814634157,
+        1,
+        0.6763414635121952
+      ],
+      "source_image": "slides/p0170_02_0548.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0548-M04",
+      "ocr_text": "fnd = 150 MHz > 9m2 = 2t CL4GBW = 89m1 = 2520 uS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09583336122887735,
+        0.6317073170219883,
+        0.8833333302988996,
+        0.6927710811754456
+      ],
+      "context_crop": "regions/SANSEN-0548_math_04.png",
+      "context_bbox_normalized": [
+        0.05583336122887735,
+        0.5317073170219884,
+        1,
+        0.8227710811754456
+      ],
+      "source_image": "slides/p0170_02_0548.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0548-M05",
+      "ocr_text": "IDS2 = 252 HA & 1/9m2 = 400 ₽",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.49662162149493244,
+        0.6926829259756098,
+        0.9324324323057432,
+        0.7609756089024391
+      ],
+      "context_crop": "regions/SANSEN-0548_math_05.png",
+      "context_bbox_normalized": [
+        0.45662162149493246,
+        0.5926829259756098,
+        1,
+        0.8909756089024391
+      ],
+      "source_image": "slides/p0170_02_0548.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0548-M06",
+      "ocr_text": "400 S2 < Rc < 1 KS : Rc = 1/N2.5 = 400/2.5 ≥ 640 $2 $ 60%",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09797297550675665,
+        0.8146341456585366,
+        0.9054054079391891,
+        0.8829268285853659
+      ],
+      "context_crop": "regions/SANSEN-0548_math_06.png",
+      "context_bbox_normalized": [
+        0.057972975506756654,
+        0.7146341456585367,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0170_02_0548.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

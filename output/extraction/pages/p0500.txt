@@ -1,0 +1,43 @@
+510 Chapter #17
+1750
+As the input signal is stored
+and amplified in the next
+clock phase, the offset volt-
+age can also be stored and
+subtracted in the next phase.
+In this way, the offset of the
+opamp can be cancelled out.
+An example of such a can-
+cellation circuit is shown in
+this slide.
+If the offset v were zero
+os
+then it is clear that the gain
+is accurately zero. In the
+presence of an offset voltage
+v , we want to discover
+os
+how much of this offset is
+measured at the output.
+For this purpose, charge
+conservation is applied.
+1751
+The same circuit is shown
+twice, once during clock
+phase 1 (on the left) and
+once during clock phase 2
+(on the right).
+In both clock phases, the
+charges are written on both
+capacitors aC and C. The
+equation of the sum of
+the charges, shows that the
+offset voltage v cancels
+os
+altogether. Indeed, it
+appears in all terms. As a
+result it cancels out.
+This technique is also
+used to cancel the 1/f noise
+of MOST amplifiers. At very low frequencies, 1/f noise resembles offset. It is now cancelled out
+at the cost of a small increase of the thermal noise.

@@ -1,0 +1,350 @@
+{
+  "case_id": "SANSEN-175",
+  "slide_id": "175",
+  "chapter": 17,
+  "slide_number_in_chapter": 5,
+  "source": {
+    "pdf_page": 477,
+    "printed_page": 487
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0477_01_175.jpg",
+      "pdf_page": 477,
+      "printed_page": 487,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 477,
+      "printed_page": 487,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        487.2425100000004
+      ],
+      "text_raw": "Substitution of all resistors\nby switched capacitors\nyields a circuit with only\ncapacitors and switches, and\nan opamp.\nSubstitution of all R’s in\nthe expressions gives only\nC’s. The low-frequency gain\nA is now a ratio of capaci-\nv0\ntors, which can be made\neven more accurate, than a\nratio of resistors.\nThe cut-off frequency\nf now depends on a\n−3dB\nratio of capacitors as well,\nand on the absolute value of\nclock frequency f . This latter frequency is normally derived from a crystal oscillator and is very\nc\naccurate indeed (see Chapter 22). The ratio of capacitors can be made quite accurate as well.\nThe larger we make the capacitors in area the better the matching will be (see Chapter 15).\nValues of less than 0.2% can be reached.\nAs a result, a fully integratable low-pass filter can be realized at low frequencies. There are\nonly two drawbacks. It can only function at signal frequencies much lower than the clock\nfrequency. Moreover the ratio of the signal frequency to the clock frequency is determined by a\ncapacitor ratio. Large values of this ratio are not easy to realize. The signal frequency cannot\nthus allowed to be too large but not too small either!\nFinally, note how the charges flow in this circuit. On phase 1 the input voltage is stored on\nC . On phase 2 the node goes back to zero as it is connected to the input of the opamp. All the\n1\ncharge of C is now transferred to capacitor C , which changes the output voltage accordingly.\n1 2\nThe charge is conserved and hence C V =C V .\n1 IN 2 OUT",
+      "text": "Substitution of all resistors by switched capacitors yields a circuit with only capacitors and switches, and an opamp. Substitution of all R’s in the expressions gives only C’s. The low-frequency gain A is now a ratio of capaciv0 tors, which can be made even more accurate, than a ratio of resistors. The cut-off frequency f now depends on a −3dB ratio of capacitors as well, and on the absolute value of clock frequency f . This latter frequency is normally derived from a crystal oscillator and is very c accurate indeed (see Chapter 22). The ratio of capacitors can be made quite accurate as well. The larger we make the capacitors in area the better the matching will be (see Chapter 15). Values of less than 0.2% can be reached. As a result, a fully integratable low-pass filter can be realized at low frequencies. There are only two drawbacks. It can only function at signal frequencies much lower than the clock frequency. Moreover the ratio of the signal frequency to the clock frequency is determined by a capacitor ratio. Large values of this ratio are not easy to realize. The signal frequency cannot thus allowed to be too large but not too small either! Finally, note how the charges flow in this circuit. On phase 1 the input voltage is stored on C . On phase 2 the node goes back to zero as it is connected to the input of the opamp. All the 1 charge of C is now transferred to capacitor C , which changes the output voltage accordingly. 1 2 The charge is conserved and hence C V =C V . 1 IN 2 OUT"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Substitution of all resistors by switched capacitors yields a circuit with only capacitors and switches, and an opamp. Substitution of all R’s in the expressions gives only C’s. The low-frequency gain A is now a ratio of capaciv0 tors, which can be made even more accurate, than a ratio of resistors. The cut-off frequency f now depends on a −3dB ratio of capacitors as well, and on the absolute value of clock frequency f . This latter frequency is normally derived from a crystal oscillator and is very c accurate indeed (see Chapter 22). The ratio of capacitors can be made quite accurate as well. The larger we make the capacitors in area the better the matching will be (see Chapter 15). Values of less than 0.2% can be reached. As a result, a fully integratable low-pass filter can be realized at low frequencies. There are only two drawbacks. It can only function at signal frequencies much lower than the clock frequency. Moreover the ratio of the signal frequency to the clock frequency is determined by a capacitor ratio. Large values of this ratio are not easy to realize. The signal frequency cannot thus allowed to be too large but not too small either! Finally, note how the charges flow in this circuit. On phase 1 the input voltage is stored on C . On phase 2 the node goes back to zero as it is connected to the input of the opamp. All the 1 charge of C is now transferred to capacitor C , which changes the output voltage accordingly. 1 2 The charge is conserved and hence C V =C V . 1 IN 2 OUT",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Low-Pass Filter with switched C's",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0477_01_175.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432865990986,
+          0.07317073113821138,
+          0.682432436768018,
+          0.1414634140650407
+        ],
+        "confidence": 1,
+        "text": "Low-Pass Filter with switched C's"
+      },
+      {
+        "bbox": [
+          0.1081081079391892,
+          0.30243902406504064,
+          0.13513513496621624,
+          0.341463414308943
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.3040540537443694,
+          0.3170731701626017,
+          0.35472972942004505,
+          0.38536585308943094
+        ],
+        "confidence": 0.5,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.8040540544932433,
+          0.3463414632682926,
+          0.8479729734121623,
+          0.3999999998536585
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.7398648642905407,
+          0.39512195146341456,
+          0.7972972967229731,
+          0.4292682929268292
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "TIM."
+      },
+      {
+        "bbox": [
+          0.05743243293918918,
+          0.4146341462439025,
+          0.10810810861486486,
+          0.46341463404878047
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YIN"
+      },
+      {
+        "bbox": [
+          0.35472973026061777,
+          0.4536585364459931,
+          0.4290540545849421,
+          0.5024390242508712
+        ],
+        "confidence": 1,
+        "text": "YOUT"
+      },
+      {
+        "bbox": [
+          0.46621621651182427,
+          0.49268292658536583,
+          0.4898648651604729,
+          0.5219512192682927
+        ],
+        "confidence": 1,
+        "text": "IN"
+      },
+      {
+        "bbox": [
+          0.08445945885135135,
+          0.8243902433658536,
+          0.1520270264189189,
+          0.8780487799512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1.3ab"
+      },
+      {
+        "bbox": [
+          0.20270270233108106,
+          0.7024390245853658,
+          0.23986486449324323,
+          0.7609756099512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C2"
+      },
+      {
+        "bbox": [
+          0.20608108169341216,
+          0.7756097559756097,
+          0.30405405466638513,
+          0.8439024389024389
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Fc C2"
+      },
+      {
+        "bbox": [
+          0.19256756686776066,
+          0.858536585574913,
+          0.29054053984073364,
+          0.907317073379791
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2т C"
+      },
+      {
+        "bbox": [
+          0.8547297288851352,
+          0.5317073165243902,
+          0.9290540532094596,
+          0.5756097555487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YoUT"
+      },
+      {
+        "bbox": [
+          0.3445945885472974,
+          0.6682926831219511,
+          0.9493243182770272,
+          0.7268292684878047
+        ],
+        "confidence": 1,
+        "text": "High accuracy: only ratio's of C: 0.2%"
+      },
+      {
+        "bbox": [
+          0.3479729693412163,
+          0.7317073172560976,
+          0.9290540504222973,
+          0.7902439026219512
+        ],
+        "confidence": 0.5,
+        "text": "Only capacitors to drive : low power !"
+      },
+      {
+        "bbox": [
+          0.3445945987499998,
+          0.7902439018048781,
+          0.8006756798310809,
+          0.8536585359512195
+        ],
+        "confidence": 1,
+        "text": "Tunable & easy to integrate !"
+      },
+      {
+        "bbox": [
+          0.347972978885135,
+          0.8634146349999999,
+          0.8277027086148647,
+          0.9317073179268293
+        ],
+        "confidence": 0.5,
+        "text": "But : only for frequencies «< fc"
+      },
+      {
+        "bbox": [
+          0.7195945975473491,
+          0.9512195124390244,
+          0.9290540441193177,
+          0.9853658539024389
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 N175"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This latter frequency is normally derived from a crystal oscillator and is very c accurate indeed (see Chapter 22).",
+      "pdf_page": 477,
+      "printed_page": 487,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Moreover the ratio of the signal frequency to the clock frequency is determined by a capacitor ratio.",
+      "pdf_page": 477,
+      "printed_page": 487,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0477_01_175.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "On phase 2 the node goes back to zero as it is connected to the input of the opamp.",
+        "pdf_page": 477,
+        "printed_page": 487,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The low-frequency gain A is now a ratio of capaciv0 tors, which can be made even more accurate, than a ratio of resistors.",
+      "pdf_page": 477,
+      "printed_page": 487,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The cut-off frequency f now depends on a −3dB ratio of capacitors as well, and on the absolute value of clock frequency f .",
+      "pdf_page": 477,
+      "printed_page": 487,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "As a result, a fully integratable low-pass filter can be realized at low frequencies.",
+      "pdf_page": 477,
+      "printed_page": 487,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The signal frequency cannot thus allowed to be too large but not too small either!",
+      "pdf_page": 477,
+      "printed_page": 487,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "On phase 1 the input voltage is stored on C .",
+      "pdf_page": 477,
+      "printed_page": 487,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "On phase 2 the node goes back to zero as it is connected to the input of the opamp.",
+      "pdf_page": 477,
+      "printed_page": 487,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-175-M01",
+      "ocr_text": "But : only for frequencies «< fc",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.347972978885135,
+        0.8634146349999999,
+        0.8277027086148647,
+        0.9317073179268293
+      ],
+      "context_crop": "regions/SANSEN-175_math_01.png",
+      "context_bbox_normalized": [
+        0.30797297888513503,
+        0.763414635,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0477_01_175.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

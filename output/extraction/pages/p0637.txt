@@ -1,0 +1,42 @@
+648 Chapter #21
+Another disadvantage of voltage multipliers is that clock drivers are required to drive all the
+capacitors. They take additional power and cause large spikes into the substrate. Substrate noise
+and coupling is now hard to avoid.
+2121
+An interesting example of a
+voltage multiplier, which
+has been designed according
+to the rules of the previous
+slides, is given in this slide.
+It provides an output
+voltage which tracks the
+supply voltage V but is
+DD
+always 1 V higher. This
+difference of 1 V is used
+to realize a rail-to-rail in-
+put amplifier with only
+one single input pair (see
+Chapter 11). As a result, the
+distortion can be made less
+than −80 dB.
+This operates with only two stages but with a fairly high clock frequency of 10 MHz. The
+capacitors are selected fairly small. The ripple on this DC supply has been reduced by taking a
+large capacitor C . Together with the voltage gain of transistor M5, this capacitor C allows a
+o o
+reduction of the ripple to a mere 5 mV, for a 60 mA output current. This was necessary as the
+voltage multiplier is not used only for Gate drives but to supply DC current to input
+differential pair.
+It works for supply voltages of 1.8 V to 3.3V. It has been realized in 0.5 mm CMOS.
+For more details the reader is referred to the paper in reference.
+2122
+If switches cannot be used
+any more because of the low
+supply voltage, the whole
+opamp can be switched.
+This is called the switched-
+opamp approach.
+This is discussed next.
+The principles are ex-
+plained first, followed by a
+few realizations.

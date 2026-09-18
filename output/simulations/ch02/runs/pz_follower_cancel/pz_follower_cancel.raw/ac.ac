@@ -1,0 +1,331 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "18.1.0.077"
+"date" "10:45:13 AM, Tue Sep 15, 2026"
+"design" ""
+"analysis type" "ac"
+"analysis name" "ac"
+"analysis description" "AC Analysis `ac': freq = (1 Hz -> 1 THz)"
+"xVecSorted" "ascending"
+"tolerance.relative" 0.00100000
+"start" 1.00000
+"stop" 1.00000e+12
+"operating point producer" "ac"
+TYPE
+"sweep" FLOAT DOUBLE PROP(
+"key" "sweep"
+)
+"V" COMPLEX DOUBLE PROP(
+"units" "V"
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"I" COMPLEX DOUBLE PROP(
+"units" "A"
+"key" "branch"
+"tolerance" 1.00000e-12
+)
+"MMF" COMPLEX DOUBLE PROP(
+"units" "A*turn"
+"key" "node"
+"tolerance" 1.00000e-12
+)
+"Wb" COMPLEX DOUBLE PROP(
+"units" "Wb"
+"key" "node"
+"tolerance" 1.00000e-09
+)
+"Temp" COMPLEX DOUBLE PROP(
+"units" "C"
+"key" "node"
+"tolerance" 0.000100000
+)
+"Pwr" COMPLEX DOUBLE PROP(
+"units" "W"
+"key" "node"
+"tolerance" 1.00000e-09
+)
+"U" COMPLEX DOUBLE PROP(
+"units" ""
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"V/Sec" COMPLEX DOUBLE PROP(
+"units" "V/s"
+"key" "node"
+"tolerance" 0.000100000
+)
+"I/Sec" COMPLEX DOUBLE PROP(
+"units" "A/s"
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"1/Sec" COMPLEX DOUBLE PROP(
+"units" "1/s"
+"key" "node"
+"tolerance" 0.000100000
+)
+"HOD" COMPLEX DOUBLE PROP(
+"units" ""
+"key" "node"
+"tolerance" 0.0100000
+)
+"Q" COMPLEX DOUBLE PROP(
+"units" "Coul"
+"key" "node"
+"tolerance" 1.00000e-15
+)
+SWEEP
+"freq" "sweep" PROP(
+"sweep_direction" 0
+"units" "Hz"
+"plot" 0
+"grid" 3
+)
+TRACE
+"follower_cancel" "V"
+VALUE
+"freq" 1.000000000000000e+00
+"follower_cancel" (1.00000 -2.38761e-07)
+"freq" 1.258925411794167e+00
+"follower_cancel" (1.00000 -3.00582e-07)
+"freq" 1.584893192461114e+00
+"follower_cancel" (1.00000 -3.78411e-07)
+"freq" 1.995262314968880e+00
+"follower_cancel" (1.00000 -4.76391e-07)
+"freq" 2.511886431509581e+00
+"follower_cancel" (1.00000 -5.99741e-07)
+"freq" 3.162277660168380e+00
+"follower_cancel" (1.00000 -7.55029e-07)
+"freq" 3.981071705534974e+00
+"follower_cancel" (1.00000 -9.50525e-07)
+"freq" 5.011872336272725e+00
+"follower_cancel" (1.00000 -1.19664e-06)
+"freq" 6.309573444801935e+00
+"follower_cancel" (1.00000 -1.50648e-06)
+"freq" 7.943282347242818e+00
+"follower_cancel" (1.00000 -1.89655e-06)
+"freq" 1.000000000000001e+01
+"follower_cancel" (1.00000 -2.38761e-06)
+"freq" 1.258925411794168e+01
+"follower_cancel" (1.00000 -3.00582e-06)
+"freq" 1.584893192461115e+01
+"follower_cancel" (1.00000 -3.78411e-06)
+"freq" 1.995262314968881e+01
+"follower_cancel" (1.00000 -4.76391e-06)
+"freq" 2.511886431509582e+01
+"follower_cancel" (1.00000 -5.99741e-06)
+"freq" 3.162277660168382e+01
+"follower_cancel" (1.00000 -7.55029e-06)
+"freq" 3.981071705534977e+01
+"follower_cancel" (1.00000 -9.50525e-06)
+"freq" 5.011872336272729e+01
+"follower_cancel" (1.00000 -1.19664e-05)
+"freq" 6.309573444801940e+01
+"follower_cancel" (1.00000 -1.50648e-05)
+"freq" 7.943282347242825e+01
+"follower_cancel" (1.00000 -1.89655e-05)
+"freq" 1.000000000000001e+02
+"follower_cancel" (1.00000 -2.38761e-05)
+"freq" 1.258925411794169e+02
+"follower_cancel" (1.00000 -3.00582e-05)
+"freq" 1.584893192461116e+02
+"follower_cancel" (1.00000 -3.78411e-05)
+"freq" 1.995262314968883e+02
+"follower_cancel" (1.00000 -4.76391e-05)
+"freq" 2.511886431509584e+02
+"follower_cancel" (1.00000 -5.99741e-05)
+"freq" 3.162277660168385e+02
+"follower_cancel" (1.00000 -7.55029e-05)
+"freq" 3.981071705534980e+02
+"follower_cancel" (1.00000 -9.50525e-05)
+"freq" 5.011872336272732e+02
+"follower_cancel" (1.00000 -0.000119664)
+"freq" 6.309573444801945e+02
+"follower_cancel" (1.00000 -0.000150648)
+"freq" 7.943282347242831e+02
+"follower_cancel" (1.00000 -0.000189655)
+"freq" 1.000000000000002e+03
+"follower_cancel" (1.00000 -0.000238761)
+"freq" 1.258925411794170e+03
+"follower_cancel" (1.00000 -0.000300582)
+"freq" 1.584893192461117e+03
+"follower_cancel" (1.00000 -0.000378411)
+"freq" 1.995262314968884e+03
+"follower_cancel" (1.00000 -0.000476391)
+"freq" 2.511886431509586e+03
+"follower_cancel" (1.00000 -0.000599740)
+"freq" 3.162277660168386e+03
+"follower_cancel" (0.999999 -0.000755028)
+"freq" 3.981071705534981e+03
+"follower_cancel" (0.999999 -0.000950524)
+"freq" 5.011872336272734e+03
+"follower_cancel" (0.999999 -0.00119664)
+"freq" 6.309573444801948e+03
+"follower_cancel" (0.999998 -0.00150648)
+"freq" 7.943282347242834e+03
+"follower_cancel" (0.999996 -0.00189654)
+"freq" 1.000000000000003e+04
+"follower_cancel" (0.999994 -0.00238760)
+"freq" 1.258925411794171e+04
+"follower_cancel" (0.999991 -0.00300580)
+"freq" 1.584893192461118e+04
+"follower_cancel" (0.999986 -0.00378405)
+"freq" 1.995262314968885e+04
+"follower_cancel" (0.999977 -0.00476380)
+"freq" 2.511886431509587e+04
+"follower_cancel" (0.999964 -0.00599719)
+"freq" 3.162277660168388e+04
+"follower_cancel" (0.999943 -0.00754986)
+"freq" 3.981071705534984e+04
+"follower_cancel" (0.999910 -0.00950439)
+"freq" 5.011872336272738e+04
+"follower_cancel" (0.999857 -0.0119647)
+"freq" 6.309573444801952e+04
+"follower_cancel" (0.999773 -0.0150614)
+"freq" 7.943282347242841e+04
+"follower_cancel" (0.999640 -0.0189586)
+"freq" 1.000000000000003e+05
+"follower_cancel" (0.999430 -0.0238625)
+"freq" 1.258925411794172e+05
+"follower_cancel" (0.999097 -0.0300311)
+"freq" 1.584893192461119e+05
+"follower_cancel" (0.998570 -0.0377870)
+"freq" 1.995262314968887e+05
+"follower_cancel" (0.997736 -0.0475312)
+"freq" 2.511886431509589e+05
+"follower_cancel" (0.996416 -0.0597591)
+"freq" 3.162277660168391e+05
+"follower_cancel" (0.994332 -0.0750749)
+"freq" 3.981071705534988e+05
+"follower_cancel" (0.991046 -0.0942014)
+"freq" 5.011872336272742e+05
+"follower_cancel" (0.985883 -0.117975)
+"freq" 6.309573444801958e+05
+"follower_cancel" (0.977809 -0.147305)
+"freq" 7.943282347242847e+05
+"follower_cancel" (0.965280 -0.183070)
+"freq" 1.000000000000004e+06
+"follower_cancel" (0.946068 -0.225884)
+"freq" 1.258925411794172e+06
+"follower_cancel" (0.917137 -0.275675)
+"freq" 1.584893192461120e+06
+"follower_cancel" (0.874742 -0.331012)
+"freq" 1.995262314968888e+06
+"follower_cancel" (0.815030 -0.388273)
+"freq" 2.511886431509591e+06
+"follower_cancel" (0.735462 -0.441087)
+"freq" 3.162277660168393e+06
+"follower_cancel" (0.636915 -0.480889)
+"freq" 3.981071705534990e+06
+"follower_cancel" (0.525349 -0.499357)
+"freq" 5.011872336272745e+06
+"follower_cancel" (0.411193 -0.492050)
+"freq" 6.309573444801961e+06
+"follower_cancel" (0.305859 -0.460770)
+"freq" 7.943282347242852e+06
+"follower_cancel" (0.217538 -0.412572)
+"freq" 1.000000000000005e+07
+"follower_cancel" (0.149239 -0.356323)
+"freq" 1.258925411794173e+07
+"follower_cancel" (0.0996515 -0.299535)
+"freq" 1.584893192461121e+07
+"follower_cancel" (0.0652764 -0.247013)
+"freq" 1.995262314968889e+07
+"follower_cancel" (0.0422033 -0.201053)
+"freq" 2.511886431509592e+07
+"follower_cancel" (0.0270498 -0.162229)
+"freq" 3.162277660168395e+07
+"follower_cancel" (0.0172393 -0.130162)
+"freq" 3.981071705534992e+07
+"follower_cancel" (0.0109469 -0.104053)
+"freq" 5.011872336272748e+07
+"follower_cancel" (0.00693507 -0.0829878)
+"freq" 6.309573444801965e+07
+"follower_cancel" (0.00438696 -0.0660887)
+"freq" 7.943282347242856e+07
+"follower_cancel" (0.00277247 -0.0525812)
+"freq" 1.000000000000005e+08
+"follower_cancel" (0.00175110 -0.0418095)
+"freq" 1.258925411794174e+08
+"follower_cancel" (0.00110559 -0.0332320)
+"freq" 1.584893192461122e+08
+"follower_cancel" (0.000697863 -0.0264079)
+"freq" 1.995262314968891e+08
+"follower_cancel" (0.000440435 -0.0209819)
+"freq" 2.511886431509594e+08
+"follower_cancel" (0.000277941 -0.0166692)
+"freq" 3.162277660168397e+08
+"follower_cancel" (0.000175387 -0.0132422)
+"freq" 3.981071705534995e+08
+"follower_cancel" (0.000110669 -0.0105193)
+"freq" 5.011872336272751e+08
+"follower_cancel" (6.98301e-05 -0.00835615)
+"freq" 6.309573444801968e+08
+"follower_cancel" (4.40610e-05 -0.00663770)
+"freq" 7.943282347242861e+08
+"follower_cancel" (2.78010e-05 -0.00527260)
+"freq" 1.000000000000006e+09
+"follower_cancel" (1.75414e-05 -0.00418821)
+"freq" 1.258925411794175e+09
+"follower_cancel" (1.10680e-05 -0.00332684)
+"freq" 1.584893192461123e+09
+"follower_cancel" (6.98345e-06 -0.00264261)
+"freq" 1.995262314968892e+09
+"follower_cancel" (4.40627e-06 -0.00209911)
+"freq" 2.511886431509595e+09
+"follower_cancel" (2.78017e-06 -0.00166738)
+"freq" 3.162277660168399e+09
+"follower_cancel" (1.75417e-06 -0.00132445)
+"freq" 3.981071705534997e+09
+"follower_cancel" (1.10681e-06 -0.00105205)
+"freq" 5.011872336272755e+09
+"follower_cancel" (6.98349e-07 -0.000835673)
+"freq" 6.309573444801973e+09
+"follower_cancel" (4.40629e-07 -0.000663799)
+"freq" 7.943282347242867e+09
+"follower_cancel" (2.78018e-07 -0.000527274)
+"freq" 1.000000000000006e+10
+"follower_cancel" (1.75418e-07 -0.000418829)
+"freq" 1.258925411794176e+10
+"follower_cancel" (1.10681e-07 -0.000332688)
+"freq" 1.584893192461124e+10
+"follower_cancel" (6.98350e-08 -0.000264263)
+"freq" 1.995262314968893e+10
+"follower_cancel" (4.40629e-08 -0.000209912)
+"freq" 2.511886431509597e+10
+"follower_cancel" (2.78018e-08 -0.000166739)
+"freq" 3.162277660168401e+10
+"follower_cancel" (1.75418e-08 -0.000132445)
+"freq" 3.981071705535000e+10
+"follower_cancel" (1.10681e-08 -0.000105205)
+"freq" 5.011872336272758e+10
+"follower_cancel" (6.98350e-09 -8.35673e-05)
+"freq" 6.309573444801977e+10
+"follower_cancel" (4.40629e-09 -6.63799e-05)
+"freq" 7.943282347242871e+10
+"follower_cancel" (2.78018e-09 -5.27274e-05)
+"freq" 1.000000000000007e+11
+"follower_cancel" (1.75418e-09 -4.18829e-05)
+"freq" 1.258925411794176e+11
+"follower_cancel" (1.10681e-09 -3.32688e-05)
+"freq" 1.584893192461125e+11
+"follower_cancel" (6.98350e-10 -2.64263e-05)
+"freq" 1.995262314968894e+11
+"follower_cancel" (4.40629e-10 -2.09912e-05)
+"freq" 2.511886431509599e+11
+"follower_cancel" (2.78018e-10 -1.66739e-05)
+"freq" 3.162277660168403e+11
+"follower_cancel" (1.75418e-10 -1.32445e-05)
+"freq" 3.981071705535002e+11
+"follower_cancel" (1.10681e-10 -1.05205e-05)
+"freq" 5.011872336272761e+11
+"follower_cancel" (6.98350e-11 -8.35673e-06)
+"freq" 6.309573444801980e+11
+"follower_cancel" (4.40629e-11 -6.63799e-06)
+"freq" 7.943282347242875e+11
+"follower_cancel" (2.78018e-11 -5.27274e-06)
+"freq" 1.000000000000000e+12
+"follower_cancel" (1.75418e-11 -4.18829e-06)
+END

@@ -1,0 +1,179 @@
+{
+  "case_id": "SANSEN-244",
+  "slide_id": "244",
+  "chapter": 24,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 732,
+    "printed_page": 744
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0732_02_244.jpg",
+      "pdf_page": 732,
+      "printed_page": 744,
+      "bbox_pt": [
+        91.521622,
+        445.393006,
+        374.78981,
+        641.852997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 732,
+      "printed_page": 744,
+      "bbox_pt": [
+        0,
+        441.40350000000024,
+        595,
+        797
+      ],
+      "text_raw": "Let us concentrate first on\nthe generation of the noise\nin the substrate.\nTransmission in the sub-\nstrate, or coupling to the\nanalog parts through the\nsubstrate comes next.\nThe pickup by the analog\ncircuits is the final Section.",
+      "text": "Let us concentrate first on the generation of the noise in the substrate. Transmission in the substrate, or coupling to the analog parts through the substrate comes next. The pickup by the analog circuits is the final Section."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Let us concentrate first on the generation of the noise in the substrate. Transmission in the substrate, or coupling to the analog parts through the substrate comes next. The pickup by the analog circuits is the final Section.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Slide 244",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0732_02_244.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07392583106354422,
+          0.08075254695369438,
+          0.2098579544023982,
+          0.13875964768700944
+        ],
+        "confidence": 1,
+        "text": "Outline"
+      },
+      {
+        "bbox": [
+          0.1351351414273647,
+          0.21951219487804874,
+          0.6385135198057431,
+          0.27804878024390245
+        ],
+        "confidence": 1,
+        "text": "\" Circuit noise generation"
+      },
+      {
+        "bbox": [
+          0.13120352256698478,
+          0.3103088039693198,
+          0.598675186583296,
+          0.3859302786307981
+        ],
+        "confidence": 1,
+        "text": "• Circuit noise coupling"
+      },
+      {
+        "bbox": [
+          0.18243243527992276,
+          0.3999999998606272,
+          0.5810810839285714,
+          0.4585365852264809
+        ],
+        "confidence": 1,
+        "text": "•Power supply pinning"
+      },
+      {
+        "bbox": [
+          0.17905405064189198,
+          0.46829268229268295,
+          0.5337837803716217,
+          0.5317073164390245
+        ],
+        "confidence": 1,
+        "text": "\"Substrate coupling"
+      },
+      {
+        "bbox": [
+          0.17905405084459464,
+          0.5560975603902439,
+          0.5135135103040541,
+          0.6146341457560976
+        ],
+        "confidence": 1,
+        "text": "• Circuit placement"
+      },
+      {
+        "bbox": [
+          0.13175675021114874,
+          0.6487804878658535,
+          0.6554053988597974,
+          0.712195122012195
+        ],
+        "confidence": 0.5,
+        "text": "- Rejection of circuit noise"
+      },
+      {
+        "bbox": [
+          0.18237554796568178,
+          0.7313933230889761,
+          0.3108676971125093,
+          0.7808017984531028
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- PSRR"
+      },
+      {
+        "bbox": [
+          0.7297297391014029,
+          0.941463413902439,
+          0.9324324289166147,
+          0.9853658529268292
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 05 244"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0732_02_244.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

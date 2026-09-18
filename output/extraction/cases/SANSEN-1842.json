@@ -1,0 +1,344 @@
+{
+  "case_id": "SANSEN-1842",
+  "slide_id": "1842",
+  "chapter": 18,
+  "slide_number_in_chapter": 42,
+  "source": {
+    "pdf_page": 529,
+    "printed_page": 539
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0529_02_1842.jpg",
+      "pdf_page": 529,
+      "printed_page": 539,
+      "bbox_pt": [
+        91.52162,
+        383.75946,
+        374.78981,
+        580.21945
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 529,
+      "printed_page": 539,
+      "bbox_pt": [
+        0,
+        379.76999,
+        595,
+        797
+      ],
+      "text_raw": "For example, if a relative\ncurrent swing is used with\na maximum of 10%, then\nthe IM is 0.125%. Only\n3\n1.8 mV input signal will\nRMS\nnow be needed.\nThe IP is quite small.\n3\nIt is only 50 mV or\nRMS\n−13 dBm.\nFor an input voltage of\n100 mV peak. The bipolar\ntransistor is overdriven.\nPower series cannot be used\nany more, but Bessel func-\ntions. We do not develop\nthis topic any more.",
+      "text": "For example, if a relative current swing is used with a maximum of 10%, then the IM is 0.125%. Only 3 1.8 mV input signal will RMS now be needed. The IP is quite small. 3 It is only 50 mV or RMS −13 dBm. For an input voltage of 100 mV peak. The bipolar transistor is overdriven. Power series cannot be used any more, but Bessel functions. We do not develop this topic any more."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For example, if a relative current swing is used with a maximum of 10%, then the IM is 0.125%. Only 3 1.8 mV input signal will RMS now be needed. The IP is quite small. 3 It is only 50 mV or RMS −13 dBm. For an input voltage of 100 mV peak. The bipolar transistor is overdriven. Power series cannot be used any more, but Bessel functions. We do not develop this topic any more.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Numerical example",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0529_02_1842.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108336148648,
+          0.08780487853658536,
+          0.4222972995777027,
+          0.14634146390243896
+        ],
+        "confidence": 1,
+        "text": "Numerical example"
+      },
+      {
+        "bbox": [
+          0.0979729683840091,
+          0.22926829284552852,
+          0.6486486440596848,
+          0.2878048782113821
+        ],
+        "confidence": 1,
+        "text": "1. Relative current swing is 10 %"
+      },
+      {
+        "bbox": [
+          0.09797297945945938,
+          0.3073170727804879,
+          0.7466216281081081,
+          0.38536585326829265
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Yp =0.1 gives IM2 = 5 % (HD2 = 2.5%)"
+      },
+      {
+        "bbox": [
+          0.3716216181949807,
+          0.39024390250871077,
+          0.8513513479247105,
+          0.4585365854355401
+        ],
+        "confidence": 0.5,
+        "text": "IMz = 0.125 % (HDz = 0.04 %)"
+      },
+      {
+        "bbox": [
+          0.10135134624155413,
+          0.46829268301829274,
+          0.9189189138091217,
+          0.5414634147256098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "As a result Vbep = Yp(KT /q)= 2.6 mVp (1.8 mVRMs)"
+      },
+      {
+        "bbox": [
+          0.09797296511824345,
+          0.5414634136585367,
+          0.9222972894425677,
+          0.6195121941463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1P3 = 18 (kT /q) = 74 mVp or 50 mVRMs Or -13 dBm"
+      },
+      {
+        "bbox": [
+          0.10774616258683023,
+          0.6699630067553636,
+          0.3854970799699727,
+          0.7446711428719497
+        ],
+        "confidence": 0.5,
+        "text": "2. Vbep = 100 mV"
+      },
+      {
+        "bbox": [
+          0.14583334859166042,
+          0.7463414633334337,
+          0.8124999980750061,
+          0.8195121950407507
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "then yp = 0.1/0.026 = 4 (must be << 1 !!)"
+      },
+      {
+        "bbox": [
+          0.14527026782094593,
+          0.819512194207317,
+          0.7871621597128378,
+          0.8926829259146342
+        ],
+        "confidence": 0.5,
+        "text": "gives IM2 = ?? Too high distortion !!"
+      },
+      {
+        "bbox": [
+          0.7159832944562844,
+          0.9312898201045919,
+          0.9292949924419592,
+          0.9669437880782545
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-os 1842"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0529_02_1842.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "For an input voltage of 100 mV peak.",
+      "pdf_page": 529,
+      "printed_page": 539,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1842-M01",
+      "ocr_text": "Yp =0.1 gives IM2 = 5 % (HD2 = 2.5%)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09797297945945938,
+        0.3073170727804879,
+        0.7466216281081081,
+        0.38536585326829265
+      ],
+      "context_crop": "regions/SANSEN-1842_math_01.png",
+      "context_bbox_normalized": [
+        0.057972979459459374,
+        0.20731707278048792,
+        0.976621628108108,
+        0.5153658532682927
+      ],
+      "source_image": "slides/p0529_02_1842.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1842-M02",
+      "ocr_text": "IMz = 0.125 % (HDz = 0.04 %)",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.3716216181949807,
+        0.39024390250871077,
+        0.8513513479247105,
+        0.4585365854355401
+      ],
+      "context_crop": "regions/SANSEN-1842_math_02.png",
+      "context_bbox_normalized": [
+        0.3316216181949807,
+        0.2902439025087108,
+        1,
+        0.5885365854355401
+      ],
+      "source_image": "slides/p0529_02_1842.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1842-M03",
+      "ocr_text": "As a result Vbep = Yp(KT /q)= 2.6 mVp (1.8 mVRMs)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.10135134624155413,
+        0.46829268301829274,
+        0.9189189138091217,
+        0.5414634147256098
+      ],
+      "context_crop": "regions/SANSEN-1842_math_03.png",
+      "context_bbox_normalized": [
+        0.06135134624155413,
+        0.36829268301829277,
+        1,
+        0.6714634147256098
+      ],
+      "source_image": "slides/p0529_02_1842.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1842-M04",
+      "ocr_text": "1P3 = 18 (kT /q) = 74 mVp or 50 mVRMs Or -13 dBm",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09797296511824345,
+        0.5414634136585367,
+        0.9222972894425677,
+        0.6195121941463415
+      ],
+      "context_crop": "regions/SANSEN-1842_math_04.png",
+      "context_bbox_normalized": [
+        0.05797296511824345,
+        0.4414634136585367,
+        1,
+        0.7495121941463415
+      ],
+      "source_image": "slides/p0529_02_1842.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1842-M05",
+      "ocr_text": "2. Vbep = 100 mV",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.10774616258683023,
+        0.6699630067553636,
+        0.3854970799699727,
+        0.7446711428719497
+      ],
+      "context_crop": "regions/SANSEN-1842_math_05.png",
+      "context_bbox_normalized": [
+        0.06774616258683022,
+        0.5699630067553636,
+        0.6154970799699727,
+        0.8746711428719497
+      ],
+      "source_image": "slides/p0529_02_1842.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1842-M06",
+      "ocr_text": "then yp = 0.1/0.026 = 4 (must be << 1 !!)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.14583334859166042,
+        0.7463414633334337,
+        0.8124999980750061,
+        0.8195121950407507
+      ],
+      "context_crop": "regions/SANSEN-1842_math_06.png",
+      "context_bbox_normalized": [
+        0.10583334859166041,
+        0.6463414633334337,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0529_02_1842.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1842-M07",
+      "ocr_text": "gives IM2 = ?? Too high distortion !!",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.14527026782094593,
+        0.819512194207317,
+        0.7871621597128378,
+        0.8926829259146342
+      ],
+      "context_crop": "regions/SANSEN-1842_math_07.png",
+      "context_bbox_normalized": [
+        0.10527026782094592,
+        0.719512194207317,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0529_02_1842.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

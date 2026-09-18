@@ -1,0 +1,406 @@
+{
+  "case_id": "SANSEN-0717",
+  "slide_id": "0717",
+  "chapter": 7,
+  "slide_number_in_chapter": 17,
+  "source": {
+    "pdf_page": 214,
+    "printed_page": 219
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0214_01_0717.jpg",
+      "pdf_page": 214,
+      "printed_page": 219,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 214,
+      "printed_page": 219,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        439.41050000000024
+      ],
+      "text_raw": "Can BiCMOS provide sim-\nilar power savings as for a\nMiller OTA?\nThe answer is negative.\nThe current sources are\nthe only candidates to be\nimplemented in bipolar. The\ninput devices are better\nMOSTs. They provide less\ninput biasing current and\nhigher Slew Rate.\nThere are two considera-\ntions:\n1. The npn transistors cer-\ntainly have a higher g\nm\nbut this advantage is not\nreally exploited in a current mirror. They also have a higher f , at least within a particular\nT\nBiCMOS process. They may not have a higher f however, than the nMOSTs in a more\nT\nadvanced standard CMOS process, offered at the same time.\n2. Bipolar transistors have a relatively large collector-substrate capacitance C . As a result, the\nCS\nparasitic capacitance at nodes 1 and 2 are probably a lot larger than those given by f .\nT\nAs a conclusion, a BiCMOS symmetrical OTA is probably not faster than a CMOS equivalent.\nFor the same GBW it probably does not draw less current than the CMOS.",
+      "text": "Can BiCMOS provide similar power savings as for a Miller OTA? The answer is negative. The current sources are the only candidates to be implemented in bipolar. The input devices are better MOSTs. They provide less input biasing current and higher Slew Rate. There are two considerations: 1. The npn transistors certainly have a higher g m but this advantage is not really exploited in a current mirror. They also have a higher f , at least within a particular T BiCMOS process. They may not have a higher f however, than the nMOSTs in a more T advanced standard CMOS process, offered at the same time. 2. Bipolar transistors have a relatively large collector-substrate capacitance C . As a result, the CS parasitic capacitance at nodes 1 and 2 are probably a lot larger than those given by f . T As a conclusion, a BiCMOS symmetrical OTA is probably not faster than a CMOS equivalent. For the same GBW it probably does not draw less current than the CMOS."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Can BiCMOS provide similar power savings as for a Miller OTA? The answer is negative. The current sources are the only candidates to be implemented in bipolar. The input devices are better MOSTs. They provide less input biasing current and higher Slew Rate. There are two considerations: 1. The npn transistors certainly have a higher g m but this advantage is not really exploited in a current mirror. They also have a higher f , at least within a particular T BiCMOS process. They may not have a higher f however, than the nMOSTs in a more T advanced standard CMOS process, offered at the same time. 2. Bipolar transistors have a relatively large collector-substrate capacitance C . As a result, the CS parasitic capacitance at nodes 1 and 2 are probably a lot larger than those given by f . T As a conclusion, a BiCMOS symmetrical OTA is probably not faster than a CMOS equivalent. For the same GBW it probably does not draw less current than the CMOS.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Symmetrical BiCMOS OTA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0214_01_0717.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08445945533783789,
+          0.09268292741463413,
+          0.577702698581081,
+          0.15121951278048784
+        ],
+        "confidence": 1,
+        "text": "Symmetrical BiCMOS OTA"
+      },
+      {
+        "bbox": [
+          0.3310810814864864,
+          0.28292682902439026,
+          0.371621622027027,
+          0.3170731704878049
+        ],
+        "confidence": 1,
+        "text": "M9"
+      },
+      {
+        "bbox": [
+          0.5405405409459458,
+          0.28780487780487807,
+          0.5810810814864864,
+          0.32195121926829273
+        ],
+        "confidence": 1,
+        "text": "M8"
+      },
+      {
+        "bbox": [
+          0.5472972962162163,
+          0.4000000001463415,
+          0.6554054043243244,
+          0.4634146342926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4 VOUT"
+      },
+      {
+        "bbox": [
+          0.6688684600610213,
+          0.26788421694434605,
+          0.8378883009200994,
+          0.31260358734437954
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW = B -"
+      },
+      {
+        "bbox": [
+          0.8378378387668919,
+          0.23902439018292687,
+          0.9121621630912162,
+          0.29268292676829266
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.8243243253040541,
+          0.30731707317073176,
+          0.922297298277027,
+          0.36585365853658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CL"
+      },
+      {
+        "bbox": [
+          0.844594594054054,
+          0.37560975541463415,
+          0.9054054048648649,
+          0.44390243834146337
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "FT4"
+      },
+      {
+        "bbox": [
+          0.7398648640202704,
+          0.41463414554878053,
+          0.8209459451013514,
+          0.47804877969512205
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fnd ~"
+      },
+      {
+        "bbox": [
+          0.83445945875,
+          0.4634146343902439,
+          0.905405404695946,
+          0.5073170734146342
+        ],
+        "confidence": 1,
+        "text": "3+B"
+      },
+      {
+        "bbox": [
+          0.42567567527027034,
+          0.5268292685365853,
+          0.46621621581081085,
+          0.56097561
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.06756756733108109,
+          0.7121951215609755,
+          0.10472972949324325,
+          0.751219511804878
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.28378378422297296,
+          0.6341463412682928,
+          0.32770270314189187,
+          0.6926829266341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.3277027028716217,
+          0.6439024395609756,
+          0.35810810827702705,
+          0.6975609761463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.2702702690033784,
+          0.7170731709756096,
+          0.3716216203547298,
+          0.7463414636585365
+        ],
+        "confidence": 1,
+        "text": "M3 M4"
+      },
+      {
+        "bbox": [
+          0.5304054048564188,
+          0.7170731709146342,
+          0.5743243237753378,
+          0.7512195123780487
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.6385135159628379,
+          0.6292682925609756,
+          0.9324324348817568,
+          0.6829268291463415
+        ],
+        "confidence": 0.5,
+        "text": "9m4NPN > 9m4NMOS"
+      },
+      {
+        "bbox": [
+          0.6047297320704633,
+          0.6975609755052264,
+          0.9324324347731661,
+          0.760975609651568
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CCSANPN > CDBANMOS"
+      },
+      {
+        "bbox": [
+          0.6047297301942568,
+          0.8146341469512195,
+          0.8986486491131758,
+          0.8634146347560975
+        ],
+        "confidence": 0.5,
+        "text": "BiCMOS > CMOS"
+      },
+      {
+        "bbox": [
+          0.8952702697972973,
+          0.7756097563414633,
+          0.9425675670945945,
+          0.8682926831707316
+        ],
+        "confidence": 1,
+        "text": "?"
+      },
+      {
+        "bbox": [
+          0.7195945976036554,
+          0.9414634148780487,
+          0.9256756657972458,
+          0.9756097563414633
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0717"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0214_01_0717.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Bipolar transistors have a relatively large collector-substrate capacitance C .",
+        "pdf_page": 214,
+        "printed_page": 219,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the CS parasitic capacitance at nodes 1 and 2 are probably a lot larger than those given by f .",
+      "pdf_page": 214,
+      "printed_page": 219,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "T As a conclusion, a BiCMOS symmetrical OTA is probably not faster than a CMOS equivalent.",
+      "pdf_page": 214,
+      "printed_page": 219,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0717-M01",
+      "ocr_text": "GBW = B -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6688684600610213,
+        0.26788421694434605,
+        0.8378883009200994,
+        0.31260358734437954
+      ],
+      "context_crop": "regions/SANSEN-0717_math_01.png",
+      "context_bbox_normalized": [
+        0.6288684600610213,
+        0.16788421694434605,
+        1,
+        0.44260358734437955
+      ],
+      "source_image": "slides/p0214_01_0717.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0717-M02",
+      "ocr_text": "9m4NPN > 9m4NMOS",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6385135159628379,
+        0.6292682925609756,
+        0.9324324348817568,
+        0.6829268291463415
+      ],
+      "context_crop": "regions/SANSEN-0717_math_02.png",
+      "context_bbox_normalized": [
+        0.5985135159628379,
+        0.5292682925609756,
+        1,
+        0.8129268291463415
+      ],
+      "source_image": "slides/p0214_01_0717.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0717-M03",
+      "ocr_text": "CCSANPN > CDBANMOS",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6047297320704633,
+        0.6975609755052264,
+        0.9324324347731661,
+        0.760975609651568
+      ],
+      "context_crop": "regions/SANSEN-0717_math_03.png",
+      "context_bbox_normalized": [
+        0.5647297320704633,
+        0.5975609755052265,
+        1,
+        0.890975609651568
+      ],
+      "source_image": "slides/p0214_01_0717.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0717-M04",
+      "ocr_text": "BiCMOS > CMOS",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6047297301942568,
+        0.8146341469512195,
+        0.8986486491131758,
+        0.8634146347560975
+      ],
+      "context_crop": "regions/SANSEN-0717_math_04.png",
+      "context_bbox_normalized": [
+        0.5647297301942568,
+        0.7146341469512195,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0214_01_0717.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

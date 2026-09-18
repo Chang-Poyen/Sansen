@@ -1,0 +1,31 @@
+digraph miller_sfg {
+rankdir=TB; bgcolor="white"; pad=0.35; nodesep=0.45; ranksep=0.7;
+node [fontname="Helvetica",fontsize=17,color="#22696b",penwidth=1.4];
+edge [fontname="Helvetica",fontsize=13,color="#416b68",fontcolor="#234b52",arrowsize=0.75];
+vi [label="vi\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=2];
+vg [label="vg\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+vF [label="vF\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+im [label="im\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+iF [label="iF\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+iR [label="iR\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+vR [label="vR\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+io [label="io\n[A]",shape=box,style="rounded,filled",fillcolor="#fff1d9",peripheries=1];
+vo [label="vo\n[V]",shape=ellipse,style="filled",fillcolor="#edf5f2",peripheries=1];
+{rank=same; vi;}
+{rank=same; vg;}
+{rank=same; vF; im;}
+{rank=same; iF;}
+{rank=same; iR; io;}
+{rank=same; vR; vo;}
+vg -> im [label="gm [M1]",constraint=true,color="#416b68"];
+vg -> vF [label="1 [M2]",constraint=true,color="#416b68"];
+vo -> vF [label="-1 [M2]",constraint=false,color="#ac4752"];
+vF -> iF [label="s*CF [M3]",constraint=true,color="#416b68"];
+iF -> iR [label="1 [M4]",constraint=true,color="#416b68"];
+iR -> vR [label="Rs [M5]",constraint=true,color="#416b68"];
+vi -> vg [label="1 [M6]",constraint=true,color="#416b68"];
+vR -> vg [label="-1 [M6]",constraint=false,color="#ac4752"];
+iF -> io [label="1 [M7]",constraint=true,color="#416b68"];
+im -> io [label="-1 [M7]",constraint=true,color="#ac4752"];
+io -> vo [label="ro [M8]",constraint=true,color="#416b68"];
+}

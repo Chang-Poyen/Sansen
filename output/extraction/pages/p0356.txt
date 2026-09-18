@@ -1,0 +1,47 @@
+131
+Feedback is used in almost
+all analog amplifiers and
+filters. A thorough under-
+standing is therefore a
+necessity for whoever wants
+to build up insight in the
+art of analog circuit design.
+This understanding can
+be gradually developed by
+reviewing the principles and
+by applying them to the four
+basic types of feedback.
+Many publications and
+books are devoted to feed-
+back. Most of them origi-
+nate from circuit theory,
+however. They inevitably start from the description of the amplifier and the feedback network
+by means of matrices. This very formal approach is not always necessary. In most cases, the
+concepts of open and closed-loop gain and of the loop gain are sufficient to obtain the most
+important specifications such as the closed-loop gain, the bandwidth and the input-and output
+impedances. For the impedance at an inner node, the rule of Blackman is necessary. On the
+other hand, most designers could not care less about the inner nodes. Therefore, Blackman is
+omitted. The simplest possible approach is envisaged here to learn all about feedback.
+In this Chapter, we focus first on voltage and transconductance amplifiers. The next chapter
+will introduce transimpedance and current amplifiers.
+132
+First of all, we want to
+learn about the definitions.
+For example, what is the
+actual loop gain? For large
+values of the loop gain, it is
+the ratio of the open-loop
+gain and the closed-loop
+gain, or simply the differ-
+ence if we use dB. For exam-
+ple, an operational amplifier
+(shortened to opamp) with
+an open-loop gain of 85 dB,
+which is used in a negative
+feedback loop resulting in a
+gain of 10 or 20 dB, has a
+loop gain of 65 dB.
+This loop gain is the gain by which the characteristics of the amplifier are improved such as
+the precision of the gain. It also reduces the noise and the distortion, but above all it improves
+the bandwidth a great deal.
+363

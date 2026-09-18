@@ -1,0 +1,184 @@
+{
+  "case_id": "SANSEN-1969",
+  "slide_id": "1969",
+  "chapter": 19,
+  "slide_number_in_chapter": 69,
+  "source": {
+    "pdf_page": 590,
+    "printed_page": 601
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0590_01_1969.jpg",
+      "pdf_page": 590,
+      "printed_page": 601,
+      "bbox_pt": [
+        91.521622,
+        265.97314499999993,
+        374.78981,
+        462.433136
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 590,
+      "printed_page": 601,
+      "bbox_pt": [
+        0,
+        261.98357499999963,
+        595,
+        487.2425
+      ],
+      "text_raw": "Since several types of filters\nhave been introduced up till\nnow, a comparison in terms\nof dynamic range and fre-\nquency capability is manda-\ntory. As a third axis the\npower consumption could\nbe added. This is left to the\nreader however.",
+      "text": "Since several types of filters have been introduced up till now, a comparison in terms of dynamic range and frequency capability is mandatory. As a third axis the power consumption could be added. This is left to the reader however."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Since several types of filters have been introduced up till now, a comparison in terms of dynamic range and frequency capability is mandatory. As a third axis the power consumption could be added. This is left to the reader however.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0590_01_1969.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270641891884,
+          0.08292682993902434,
+          0.3817567604729729,
+          0.13658536652439024
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.10472973231177607,
+          0.31219512177700337,
+          0.4662162187982625,
+          0.36585365836236927
+        ],
+        "confidence": 1,
+        "text": "• Active RC filters"
+      },
+      {
+        "bbox": [
+          0.10472972638513517,
+          0.409756098097561,
+          0.4864864831418919,
+          0.4634146346829269
+        ],
+        "confidence": 1,
+        "text": "• MOSFET-C filters"
+      },
+      {
+        "bbox": [
+          0.10472972698479732,
+          0.5073170738414634,
+          0.3716216188766892,
+          0.5609756104268292
+        ],
+        "confidence": 0.5,
+        "text": "• GmC filters"
+      },
+      {
+        "bbox": [
+          0.10135135165540536,
+          0.6048780493658537,
+          0.38851351381756755,
+          0.6634146347317074
+        ],
+        "confidence": 1,
+        "text": "• Comparison"
+      },
+      {
+        "bbox": [
+          0.08108107260135154,
+          0.7707317074634148,
+          0.9290540455743245,
+          0.814634146487805
+        ],
+        "confidence": 1,
+        "text": "Ref.: Tsividis, Voorman, Integrated Cont.-time filters, IEEE Press 1993"
+      },
+      {
+        "bbox": [
+          0.14189189570945943,
+          0.8146341462439024,
+          0.5236486524662162,
+          0.8634146340487804
+        ],
+        "confidence": 1,
+        "text": "J. Silva-Martinez, Kluwer 1993,"
+      },
+      {
+        "bbox": [
+          0.14527026560810816,
+          0.8585365855121952,
+          0.6114864818243244,
+          0.9024390245365855
+        ],
+        "confidence": 1,
+        "text": "W. Dehaene, JSSC, July 1997, 977-988"
+      },
+      {
+        "bbox": [
+          0.7263513606667183,
+          0.946341463927245,
+          0.9391891856170654,
+          0.9853658530081301
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 1969"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0590_01_1969.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "As a third axis the power consumption could be added.",
+      "pdf_page": 590,
+      "printed_page": 601,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

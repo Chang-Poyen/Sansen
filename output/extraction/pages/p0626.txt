@@ -1,0 +1,47 @@
+211
+Low power consumption is
+not always a result of low
+supply voltages. The addi-
+tional signal processing
+required to maintain the
+same or maybe an even
+better dynamic range des-
+pite the reduction in supply
+voltage, may cause addi-
+tional power consumption.
+Good examples are
+sigma-delta (or delta-sigma)
+analog-to-digital converters.
+Their lowest supply voltage
+is 0.6 and even 0.5 V, which
+is largely sufficient to
+be embedded in 65 and even 45 nm CMOS. The problem in these converters is that they have
+to maintain the same dynamic range as their 1.8 V and higher counterparts.
+A low supply voltage always assumes that all circuit techniques are also applied to reduce the
+power consumption. This Chapter explains what circuit techniques are available to realize low
+power Delta-Sigma converters at very low supply voltages.
+Many of these circuit techniques will become important once nanometer CMOS have become
+mainstream.
+212
+To initiate this Chapter, a
+few essential aspects of
+Delta-Sigma converters are
+reviewed. This is a very
+short introduction to Delta-
+Sigma converters. For more
+thorough understanding,
+the reader is referred to
+more detailed references
+such as Northsworthy
+(Wiley), Schreier (Wiley)
+and Johns-Martin (Wiley).
+Most low-power Delta-
+Sigma converters use
+switched-capacitor filters for
+the noise shaping. Switches
+become a problem however, for such low supply voltages. They are discussed first.
+Rather than use switches, the opamps can be switched themselves. Today, many very-low-
+voltage Sigma-Delta converters use this technique. The principle will be explained, followed by
+a number of design examples.
+Finally, some of the most recent low-voltage Delta-sigma converters are discussed. Some of
+637

@@ -1,0 +1,49 @@
+Class AB and driver amplifiers 353
+The quiescent current is set by the translinear loop M58/M55 and M57/M56 such that the
+current through the output transistor is about I times the ratio of M58 to M57.
+B2
+1232
+On the total schematic, the
+four output transistors with
+their amplifier, are easily
+recognized. The amplifier
+is shown with unity-gain
+feedback.
+Actually, this is a three-
+stage amplifier. The input
+stage is a folded cascode.
+Distributed Miller compen-
+sation is applied however,
+not nested Miller. This
+method of compensation is
+much less transparent.
+The CMFB amplifier is in
+the middle, with M20/M21
+and R2/R3.
+1233
+A three-stage class-AB
+amplifier is shown in this
+slide which uses feedforward
+to boost the high-frequency
+performance. The first stage
+is single-ended, which is
+not good for CMRR. The
+second stage is a non-invert-
+ing amplifier which uses a
+current mirror. The third
+stage consists again of
+pMOST and nMOST
+devices Drain to Drain. The
+nMOST is driven by an
+emitter follower to drive the
+large C capacitor. The
+GS8
+pMOST is driven by a level shifter M10/M11, which is bootstrapped out for AC operation.
+The compensation is not a pure case of nested Miller compensation. Compensation capacitor
+C determines the GBW. The other capacitors provide feedforward.
+c
+The quiescent current in the output transistors is set by two translinear loops consisting of
+M9/M11 with M17/M12 for the pMOST output transistor M9, and of M8/M10 with M13/M15
+for the nMOST.
+The total current consumption (on 5 V) is 0.35 mA. About 22 mA can be delivered to a low-
+resistance load.

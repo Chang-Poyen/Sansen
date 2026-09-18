@@ -1,0 +1,117 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "18.1.0.077"
+"date" "10:38:37 AM, Tue Sep 15, 2026"
+"design" ""
+"analysis type" "dc"
+"analysis name" "dcOp"
+"analysis description" "DC Analysis `dcOp'"
+"xVecSorted" "unsorted"
+"tolerance.relative" 1.00000e-07
+"reltol" 1.00000e-07
+"abstol(V)" 1.00000e-10
+"abstol(I)" 1.00000e-15
+"temp" 27.0000
+"tnom" 27.0000
+"tempeffects" "all"
+"gmindc" 1.00000e-16
+TYPE
+"LogicV" FLOAT DOUBLE PROP(
+"key" "node"
+)
+"V" FLOAT DOUBLE PROP(
+"units" "V"
+"key" "node"
+"tolerance" 1.00000e-10
+)
+"I" FLOAT DOUBLE PROP(
+"units" "A"
+"key" "branch"
+"tolerance" 1.00000e-15
+)
+"MMF" FLOAT DOUBLE PROP(
+"units" "A*turn"
+"key" "node"
+"tolerance" 1.00000e-12
+)
+"Wb" FLOAT DOUBLE PROP(
+"units" "Wb"
+"key" "node"
+"tolerance" 1.00000e-09
+)
+"Temp" FLOAT DOUBLE PROP(
+"units" "C"
+"key" "node"
+"tolerance" 0.000100000
+)
+"Pwr" FLOAT DOUBLE PROP(
+"units" "W"
+"key" "node"
+"tolerance" 1.00000e-09
+)
+"U" FLOAT DOUBLE PROP(
+"units" ""
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"V/Sec" FLOAT DOUBLE PROP(
+"units" "V/s"
+"key" "node"
+"tolerance" 0.000100000
+)
+"I/Sec" FLOAT DOUBLE PROP(
+"units" "A/s"
+"key" "node"
+"tolerance" 1.00000e-06
+)
+"1/Sec" FLOAT DOUBLE PROP(
+"units" "1/s"
+"key" "node"
+"tolerance" 0.000100000
+)
+"HOD" FLOAT DOUBLE PROP(
+"units" ""
+"key" "node"
+"tolerance" 0.0100000
+)
+"Q" FLOAT DOUBLE PROP(
+"units" "Coul"
+"key" "node"
+"tolerance" 1.00000e-15
+)
+VALUE
+"vin" "V" 0.000000000000000e+00
+"intrinsic" "V" 0.000000000000000e+00
+"loaded_cs" "V" 0.000000000000000e+00
+"miller" "V" 0.000000000000000e+00
+"miller_low_rs" "V" 0.000000000000000e+00
+"miller_high_rs" "V" 0.000000000000000e+00
+"degeneration" "V" 0.000000000000000e+00
+"degeneration_zin" "V" 0.000000000000000e+00
+"diode_z" "V" 0.000000000000000e+00
+"diode_load" "V" 0.000000000000000e+00
+"inverter_dc" "V" 0.000000000000000e+00
+"inverter_ac" "V" 0.000000000000000e+00
+"follower_dc" "V" 0.000000000000000e+00
+"follower_cancel" "V" 0.000000000000000e+00
+"follower_cancel_z" "V" 0.000000000000000e+00
+"follower_book" "V" 0.000000000000000e+00
+"follower_book_z" "V" 0.000000000000000e+00
+"follower_center" "V" 0.000000000000000e+00
+"follower_center_z" "V" 0.000000000000000e+00
+"bjt_follower_z" "V" 0.000000000000000e+00
+"active_inductor" "V" 0.000000000000000e+00
+"common_gate" "V" 0.000000000000000e+00
+"cascode" "V" 0.000000000000000e+00
+"cascode_miller" "V" 0.000000000000000e+00
+"cascode_cm_small" "V" 0.000000000000000e+00
+"cascode_cm_large" "V" 0.000000000000000e+00
+"telescopic" "V" 0.000000000000000e+00
+"folded" "V" 0.000000000000000e+00
+"two_stage" "V" 0.000000000000000e+00
+"gainboost_slow" "V" 0.000000000000000e+00
+"gainboost_fast" "V" 0.000000000000000e+00
+"bjt_degen_gain" "V" 0.000000000000000e+00
+"bjt_degen_zout" "V" 0.000000000000000e+00
+END

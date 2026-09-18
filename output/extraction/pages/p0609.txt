@@ -1,0 +1,50 @@
+620 Chapter #20
+This is followed by a com-
+parator, which generates the
+bits by successive approxi-
+mation. The bits are fed
+back through a DAC to
+close the loop. The succes-
+sive-approximation register
+compares the incoming volt-
+age to the next binary value
+as shown in this slide.
+Assume that the input
+voltage is 0.4 V (the refer-
+ence voltage is 1 V).
+In a first comparison
+0.4 V is found to be less than
+1 V. This yields a digital 0,
+which is the MSB.
+The interval is now divided by 2 and the incoming voltage is compared to
+0.5 V. This again yields a digital 0.
+The interval is now divided by 2 and the incoming voltage is compared to 0.25 V. This now
+yields a digital 1. Moreover, this 1 is used as a control signal to indicate that in the next
+comparison the interval 0.25 to 0.375 has to be selected, not the one between 0.125 and 0.25 V.
+This sequence is continued for N comparisons or N bits.
+This successive approximation takes only N clock cycles. It is therefore much faster than an
+integrating ADC. It is sensitive to the offset of the comparator, however.
+2035
+As a DAC, a charge redistri-
+bution DAC is often used as
+shown in this slide.
+It consists of an opamp
+and a binary bank of capaci-
+tors. In this example a 5-bit
+capacitor bank is selected
+for a 5-bit AD Conversion.
+It uses 3 phases, i.e. the
+sample mode, the hold
+mode and the bit cycling
+phase.
+The picture is repeated
+three times, each time with
+adjusted positions of the
+switches.
+In the sample mode, all bottom plates of the capacitors are connected to the input voltage
+V . All top plates are connected to the virtual ground of the opamp. All capacitors thus sample
+in
+the input voltage V .
+in
+The voltage V at the input of the opamp is therefore zero and so is the output voltage.
+x

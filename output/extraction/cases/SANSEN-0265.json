@@ -1,0 +1,434 @@
+{
+  "case_id": "SANSEN-0265",
+  "slide_id": "0265",
+  "chapter": 2,
+  "slide_number_in_chapter": 65,
+  "source": {
+    "pdf_page": 83,
+    "printed_page": 84
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0083_01_0265.jpg",
+      "pdf_page": 83,
+      "printed_page": 84,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 83,
+      "printed_page": 84,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        463.3265000000003
+      ],
+      "text_raw": "If a pole-zero doublet occurs\nin the middle of the Bode\ndiagram, then the settling\ntime is ruined.\nThe settling is the time\nrequired to reach the final\nvalue of the output voltage,\nwithin a certain error. For\nexample, when we take an\nopamp with unity-gain feed-\nback, then the bandwidth\nBW coincides with the\nGBW. When we apply a\nstep waveform to that\namplifier, we expect the\noutput to follow with a time\nconstant 1/(2pGBW), as described by an exponential.\nTo reach a settling time of 0.1%, we need to wait ln(1000) or 6.9 times this time constant.\nWhen we have a pole-zero doublet at fairly low frequencies f , with a large spreading Df ,\npz pz\nthen an additional exponential shows up in the time response, with a much larger time constant\n1/(2pf ).\npz\nIt will take much more time to reach the final output voltage within 0.1%. The 0.1% settling\ntime is much longer.\nIn all switching applications, such as switched-capacitor filters, the settling time determines\nwhat is the minimum width of the clock pulses. It determines the maximum frequency of such a\nsystem (see Chapter 14). In such systems, pole-zero doublets must be avoided at all cost!",
+      "text": "If a pole-zero doublet occurs in the middle of the Bode diagram, then the settling time is ruined. The settling is the time required to reach the final value of the output voltage, within a certain error. For example, when we take an opamp with unity-gain feedback, then the bandwidth BW coincides with the GBW. When we apply a step waveform to that amplifier, we expect the output to follow with a time constant 1/(2pGBW), as described by an exponential. To reach a settling time of 0.1%, we need to wait ln(1000) or 6.9 times this time constant. When we have a pole-zero doublet at fairly low frequencies f , with a large spreading Df , pz pz then an additional exponential shows up in the time response, with a much larger time constant 1/(2pf ). pz It will take much more time to reach the final output voltage within 0.1%. The 0.1% settling time is much longer. In all switching applications, such as switched-capacitor filters, the settling time determines what is the minimum width of the clock pulses. It determines the maximum frequency of such a system (see Chapter 14). In such systems, pole-zero doublets must be avoided at all cost!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "If a pole-zero doublet occurs in the middle of the Bode diagram, then the settling time is ruined. The settling is the time required to reach the final value of the output voltage, within a certain error. For example, when we take an opamp with unity-gain feedback, then the bandwidth BW coincides with the GBW. When we apply a step waveform to that amplifier, we expect the output to follow with a time constant 1/(2pGBW), as described by an exponential. To reach a settling time of 0.1%, we need to wait ln(1000) or 6.9 times this time constant. When we have a pole-zero doublet at fairly low frequencies f , with a large spreading Df , pz pz then an additional exponential shows up in the time response, with a much larger time constant 1/(2pf ). pz It will take much more time to reach the final output voltage within 0.1%. The 0.1% settling time is much longer. In all switching applications, such as switched-capacitor filters, the settling time determines what is the minimum width of the clock pulses. It determines the maximum frequency of such a system (see Chapter 14). In such systems, pole-zero doublets must be avoided at all cost!",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Pole-zero doublet and settling time",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0083_01_0265.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270885135123,
+          0.08292682907317073,
+          0.6925675737162161,
+          0.14146341443902433
+        ],
+        "confidence": 1,
+        "text": "Pole-zero doublet and settling time"
+      },
+      {
+        "bbox": [
+          0.07432432402027027,
+          0.23414634097560982,
+          0.11148648618243243,
+          0.2829268287804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av"
+      },
+      {
+        "bbox": [
+          0.07094594557432432,
+          0.317073170292683,
+          0.11486486449324323,
+          0.3609756093170732
+        ],
+        "confidence": 0.5,
+        "text": "Avo"
+      },
+      {
+        "bbox": [
+          0.38851351456925676,
+          0.2341463421341463,
+          0.47972973078547293,
+          0.2878048787195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUT 4"
+      },
+      {
+        "bbox": [
+          0.4054054050957207,
+          0.3463414629674797,
+          0.4493243240146397,
+          0.3999999995528456
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.5168918911317567,
+          0.3853658531707318,
+          0.5844594586993243,
+          0.42439024341463416
+        ],
+        "confidence": 0.5,
+        "text": "TGBW"
+      },
+      {
+        "bbox": [
+          0.26013513506756764,
+          0.5804878043902439,
+          0.3277027026351352,
+          0.6292682921951219
+        ],
+        "confidence": 0.5,
+        "text": ", Afpz"
+      },
+      {
+        "bbox": [
+          0.1722972964864865,
+          0.6536585360487804,
+          0.26013513432432434,
+          0.7073170726341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BW fpz"
+      },
+      {
+        "bbox": [
+          0.32432432375000003,
+          0.6585365855609756,
+          0.38175675618243243,
+          0.6878048782439025
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.39864864847972975,
+          0.6536585361585366,
+          0.41216216199324324,
+          0.6878048776219513
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.12499999843750001,
+          0.7804878055487805,
+          0.3783783768158784,
+          0.8341463421341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VouT =VIN [1 - exp (-"
+      },
+      {
+        "bbox": [
+          0.38513513400900906,
+          0.8146341464227642,
+          0.4527027015765766,
+          0.8487804878861789
+        ],
+        "confidence": 1,
+        "text": "TGBW"
+      },
+      {
+        "bbox": [
+          0.07432432918074311,
+          0.873170731402439,
+          0.46283784269425665,
+          0.9073170728658535
+        ],
+        "confidence": 1,
+        "text": "Kamath, etal, JSSC Dec.74, pp. 347-352"
+      },
+      {
+        "bbox": [
+          0.5506756767314189,
+          0.7804878045731708,
+          0.6351351361908784,
+          0.824390243597561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• еxp (-"
+      },
+      {
+        "bbox": [
+          0.496621622339527,
+          0.814634146097561,
+          0.5540540547719595,
+          0.8439024387804879
+        ],
+        "confidence": 0.5,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.6351351347297298,
+          0.8146341464390244,
+          0.6756756752702703,
+          0.8536585366829269
+        ],
+        "confidence": 0.5,
+        "text": "Tpz"
+      },
+      {
+        "bbox": [
+          0.9087837836148649,
+          0.6536585361585366,
+          0.9290540538851352,
+          0.6878048776219513
+        ],
+        "confidence": 1,
+        "text": "t"
+      },
+      {
+        "bbox": [
+          0.7601351347490347,
+          0.7073170733449476,
+          0.8141891888030888,
+          0.7512195123693379
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fpz*"
+      },
+      {
+        "bbox": [
+          0.8445945947635135,
+          0.6780487802926829,
+          0.8614864866554054,
+          0.7073170729756098
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.8243243250675676,
+          0.7317073170731707,
+          0.8986486493918919,
+          0.7804878048780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 Tрz"
+      },
+      {
+        "bbox": [
+          0.7331081085810811,
+          0.8341463410731706,
+          0.8141891896621621,
+          0.8731707313170731
+        ],
+        "confidence": 0.5,
+        "text": "GBW="
+      },
+      {
+        "bbox": [
+          0.8209459475225224,
+          0.8634146342276422,
+          0.915540542117117,
+          0.9073170732520325
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 TGBW"
+      },
+      {
+        "bbox": [
+          0.719594604191493,
+          0.9268292675609756,
+          0.9358108075202185,
+          0.9707317065853658
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0265"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "When we have a pole-zero doublet at fairly low frequencies f , with a large spreading Df , pz pz then an additional exponential shows up in the time response, with a much larger time constant 1/(2pf ). pz It will take much more time to reach the final output voltage within 0.1%.",
+      "pdf_page": 83,
+      "printed_page": 84,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In all switching applications, such as switched-capacitor filters, the settling time determines what is the minimum width of the clock pulses.",
+      "pdf_page": 83,
+      "printed_page": 84,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It determines the maximum frequency of such a system (see Chapter 14).",
+      "pdf_page": 83,
+      "printed_page": 84,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0083_01_0265.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "For example, when we take an opamp with unity-gain feedback, then the bandwidth BW coincides with the GBW.",
+      "pdf_page": 83,
+      "printed_page": 84,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "If a pole-zero doublet occurs in the middle of the Bode diagram, then the settling time is ruined.",
+      "pdf_page": 83,
+      "printed_page": 84,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "When we have a pole-zero doublet at fairly low frequencies f , with a large spreading Df , pz pz then an additional exponential shows up in the time response, with a much larger time constant 1/(2pf ). pz It will take much more time to reach the final output voltage within 0.1%.",
+      "pdf_page": 83,
+      "printed_page": 84,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0265-M01",
+      "ocr_text": "VouT =VIN [1 - exp (-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.12499999843750001,
+        0.7804878055487805,
+        0.3783783768158784,
+        0.8341463421341463
+      ],
+      "context_crop": "regions/SANSEN-0265_math_01.png",
+      "context_bbox_normalized": [
+        0.0849999984375,
+        0.6804878055487805,
+        0.6083783768158784,
+        0.93
+      ],
+      "source_image": "slides/p0083_01_0265.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0265-M02",
+      "ocr_text": "GBW=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7331081085810811,
+        0.8341463410731706,
+        0.8141891896621621,
+        0.8731707313170731
+      ],
+      "context_crop": "regions/SANSEN-0265_math_02.png",
+      "context_bbox_normalized": [
+        0.6931081085810811,
+        0.7341463410731707,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0083_01_0265.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "19-doublet-settling",
+    "title": "极零对与高精度建立过程",
+    "summary_zh": "从闭环传输作部分分式，显示幅值较小的慢模态留数如何限制建立时间。",
+    "html": "../derivations/ch02/19-doublet-settling.html",
+    "markdown": "../derivations/ch02/19-doublet-settling.md",
+    "status": "derived_with_source_notes",
+    "discrepancy_ids": [
+      "D13"
+    ],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "极零对与高精度建立过程",
+    "case_ids": [
+      "baseline",
+      "tail",
+      "overshoot"
+    ],
+    "linear_count": 0,
+    "mos_count": 0,
+    "pz_count": 0,
+    "transient_count": 3,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#19-doublet-settling",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

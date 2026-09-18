@@ -1,0 +1,147 @@
+{
+  "case_id": "SANSEN-1911",
+  "slide_id": "1911",
+  "chapter": 19,
+  "slide_number_in_chapter": 11,
+  "source": {
+    "pdf_page": 561,
+    "printed_page": 572
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0561_01_1911.jpg",
+      "pdf_page": 561,
+      "printed_page": 572,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 561,
+      "printed_page": 572,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        344.74300000000005
+      ],
+      "text_raw": "A similar fifth-order ladder\nfilter is shown in this slide.\nIt is a fully differential\nfilter indeed to cancel out\neven-order distortion. All\ncapacitors are fixed but the\nMOST resistors can be\ntuned by means of the con-\ntrol voltage at all the Gates.\nA sixth opamp is used to\nconvert the single-ended\ninput into a differential one.",
+      "text": "A similar fifth-order ladder filter is shown in this slide. It is a fully differential filter indeed to cancel out even-order distortion. All capacitors are fixed but the MOST resistors can be tuned by means of the control voltage at all the Gates. A sixth opamp is used to convert the single-ended input into a differential one."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A similar fifth-order ladder filter is shown in this slide. It is a fully differential filter indeed to cancel out even-order distortion. All capacitors are fixed but the MOST resistors can be tuned by means of the control voltage at all the Gates. A sixth opamp is used to convert the single-ended input into a differential one.",
+  "schema_version": "1.0",
+  "chapter_title": "连续时间滤波器",
+  "title": "Fifth-order low-pass filter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0561_01_1911.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270381274132,
+          0.08292682968641119,
+          0.5371621632722008,
+          0.14146341505226478
+        ],
+        "confidence": 1,
+        "text": "Fifth-order low-pass filter"
+      },
+      {
+        "bbox": [
+          0.27027026989864866,
+          0.7902439025365855,
+          0.3074324320608108,
+          0.8292682927804879
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "YIN"
+      },
+      {
+        "bbox": [
+          0.07770270324324323,
+          0.8878048777560976,
+          0.1317567572972973,
+          0.9268292680000001
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V:N"
+      },
+      {
+        "bbox": [
+          0.5675675721283783,
+          0.8829268289634146,
+          0.9324324369932431,
+          0.9170731704268291
+        ],
+        "confidence": 1,
+        "text": "Ref. Tsividis, JSSC Feb.86, 15-30"
+      },
+      {
+        "bbox": [
+          0.7263513535050675,
+          0.9512195117682928,
+          0.9391891913429052,
+          0.9853658532317074
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1911"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A similar fifth-order ladder filter is shown in this slide.",
+      "pdf_page": 561,
+      "printed_page": 572,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0561_01_1911.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Continuous-time filters"
+}

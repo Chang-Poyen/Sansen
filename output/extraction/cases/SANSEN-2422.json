@@ -1,0 +1,179 @@
+{
+  "case_id": "SANSEN-2422",
+  "slide_id": "2422",
+  "chapter": 24,
+  "slide_number_in_chapter": 22,
+  "source": {
+    "pdf_page": 741,
+    "printed_page": 753
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0741_02_2422.jpg",
+      "pdf_page": 741,
+      "printed_page": 753,
+      "bbox_pt": [
+        91.52162,
+        391.53217,
+        374.78981,
+        587.99216
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 741,
+      "printed_page": 753,
+      "bbox_pt": [
+        0,
+        387.5426850000001,
+        595,
+        606.82251
+      ],
+      "text_raw": "Now that we have a better\nview on how to cope with\nthe bonding wire inductors,\nlet us see how the substrate\nitself plays a role.\nIt is clear that the sub-\nstrate is most responsible for\nthe transmission of the noise\nfrom the digital part to the\nanalog part.",
+      "text": "Now that we have a better view on how to cope with the bonding wire inductors, let us see how the substrate itself plays a role. It is clear that the substrate is most responsible for the transmission of the noise from the digital part to the analog part."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that we have a better view on how to cope with the bonding wire inductors, let us see how the substrate itself plays a role. It is clear that the substrate is most responsible for the transmission of the noise from the digital part to the analog part.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Slide 2422",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0741_02_2422.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07392583106354422,
+          0.08075254695369438,
+          0.2098579544023982,
+          0.13875964768700944
+        ],
+        "confidence": 1,
+        "text": "Outline"
+      },
+      {
+        "bbox": [
+          0.13513513620495488,
+          0.21463414686991866,
+          0.6351351362049549,
+          0.2780487810162602
+        ],
+        "confidence": 1,
+        "text": "• Circuit noise generation"
+      },
+      {
+        "bbox": [
+          0.13513514075168903,
+          0.31707317158536585,
+          0.5979729785895269,
+          0.3853658545121952
+        ],
+        "confidence": 1,
+        "text": "• Circuit noise coupling"
+      },
+      {
+        "bbox": [
+          0.18243243527992276,
+          0.40487804860627175,
+          0.5810810839285714,
+          0.45853658519163765
+        ],
+        "confidence": 1,
+        "text": "\"Power supply pinning"
+      },
+      {
+        "bbox": [
+          0.1782764062357843,
+          0.47225571784462983,
+          0.5345558051797111,
+          0.537844515437165
+        ],
+        "confidence": 1,
+        "text": "\"Substrate coupling"
+      },
+      {
+        "bbox": [
+          0.17905405070945948,
+          0.5560975611707317,
+          0.513513510168919,
+          0.6146341465365854
+        ],
+        "confidence": 1,
+        "text": "• Circuit placement"
+      },
+      {
+        "bbox": [
+          0.13513513189189197,
+          0.6487804884390244,
+          0.6554054021621623,
+          0.7121951225853658
+        ],
+        "confidence": 1,
+        "text": "• Rejection of circuit noise"
+      },
+      {
+        "bbox": [
+          0.18243243334942086,
+          0.7317073168641115,
+          0.31081081172779923,
+          0.7804878046689895
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• PSRR"
+      },
+      {
+        "bbox": [
+          0.7297297342590607,
+          0.9463414640650407,
+          0.9391891808310294,
+          0.9853658531459257
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 2422"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0741_02_2422.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

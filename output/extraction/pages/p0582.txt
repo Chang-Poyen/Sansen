@@ -1,0 +1,42 @@
+Continuous-time filters 593
+1953
+Another example of a
+transconductor which uses
+MOSTs in the linear region
+at the input is shown in this
+slide. It also has a pseudo-
+differential input.
+The cascode biasing volt-
+age V is sufficiently low to
+b
+keep all input devices in the
+linear region.
+MOSTs in the linear
+region are also used as feed-
+back resistors across the
+differential opamp. Tuning
+is therefore carried out by
+means of tuning voltage VN.
+1954
+All previous transconduc-
+tors can be tuned by chang-
+ing a biasing current or
+voltage. This allows tuning
+of the transconductance
+such that the time constant
+of the transconductor is
+accurately determined. This
+is the only way to be able to
+realize higher-order filters.
+Such circuits are discussed
+next.
+1955
+Filters are constructed by putting a number of transconductors in series or in a feedback loop.
+At the beginning of this Section on Transconductors a good example is given of a biquad
+consisting of four transconductors.
+The characteristic frequencies of such a filter are determined by the Gm/C ratios. In order to
+be able to match these frequencies, accurate values of Gm must be achieved. Indeed, accurate
+ratios of capacitances are already available (see Chapter 15). The ratios have to be realized
+between the load capacitances C of several Gm blocks. The parasitic capacitances C will render
+L p
+these ratios less accurate. This is compensated however, by adjusting the Gm values.

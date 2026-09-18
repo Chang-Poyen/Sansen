@@ -1,0 +1,56 @@
+462 Chapter #16
+emitter follower is usually added, or an additional current mirror, as illustrated in the realizations
+later on.
+The other characteristic is the output noise. Since this reference voltage is probably used to
+bias a number of circuits, its output noise risks entering the circuitry. This has to be avoided.
+1611
+The main question with
+respect to noise, is whether
+to use large currents with
+small resistors or vice-versa.
+The expressions for the
+current and the added volt-
+age V are repeated in this
+C
+slide. Parameter A is intro-
+duced to shorten the writ-
+ing. It is about 0.12 V,
+corresponding to a nr pro-
+duct of 100.
+The voltage V is still
+C
+about 0.6 V.
+The main noise sources
+are the two npn transistors
+Q1 and Q2, and the two resistors R and R . The noise contributions of the resistors dominate
+1 2
+because they are larger than the 1/g values of the transistors.
+m
+The noise of the top transistors Q4 and Q5 can be neglected by proper choice of their V −V
+GS T
+or by addition of series resistors.
+It is clear that by choosing larger currents, the resistors must be smaller. Is this advantageous
+for the output noise voltage?
+1612
+The equivalent input noise
+voltage due to the two resis-
+tors is given in this slide.
+The voltage noise of resis-
+tor R appears directly in
+1
+series with the output. The
+noise of the other resistor R
+2
+is transformed towards the
+output by the resistor ratio
+and factor n. Its contribution
+to the output is a lot larger
+than that of resistor R .
+1
+Actually, the noise of R
+2
+is amplified to the output
+whereas the noise of R is
+1
+not.
+How can the output noise then be minimized?

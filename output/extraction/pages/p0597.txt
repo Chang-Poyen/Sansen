@@ -1,0 +1,48 @@
+608 Chapter #20
+2011
+Possibly the simplest DAC
+is shown in this slide.
+It uses a string of equal
+resistors, which allows all
+possible voltage fractions of
+the reference Voltage V
+REF
+to be obtained. These frac-
+tions are added depending
+on the switches B and
+buffered toward the output.
+It is clear that many resis-
+tors are required for high
+resolution DAC’s of this
+type. Moreover, matching
+between the resistors R
+limits the resolution to 6–8
+bit.
+2012
+Much fewer resistors are
+required if they are binary
+weighted. Currents are also
+added rather than voltages.
+It is clear that matching
+plays an important role
+again. This is a problem as
+the resistors have widely
+different values: for a 8 bit
+converter the largest resistor
+is 256 times larger than the
+smallest one.
+This is remedied by the
+arrangement on the next
+slide.
+The main disadvantage is
+probably that this converter is prone to glitches. Consider the transition from (B0B1B2B3 =)
+0111 to 1000. In the first case, the current flowing into the opamp is 1/8+1/4+1/2=0.875 times
+V /R. In the other case the current is V /R itself. There is smooth transition expected from
+REF REF
+0.875 to 1 indeed.
+If however, mismatch is such that 0.875 is higher than 1, then the conversion curve is no
+longer monotonic. A glitch now occurs!
+2013
+In this DAC only resistors are used of two sizes r and 2R. Actually, all resistors have equal size
+but for 2R two resistors are put in series. This greatly facilitates the matching between the
+resistors (see Chapter 15). A resolution of 10 bit is fairly easily achieved.

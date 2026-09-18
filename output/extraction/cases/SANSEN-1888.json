@@ -1,0 +1,205 @@
+{
+  "case_id": "SANSEN-1888",
+  "slide_id": "1888",
+  "chapter": 18,
+  "slide_number_in_chapter": 88,
+  "source": {
+    "pdf_page": 552,
+    "printed_page": 562
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0552_02_1888.jpg",
+      "pdf_page": 552,
+      "printed_page": 562,
+      "bbox_pt": [
+        91.52162,
+        359.84343,
+        374.54222,
+        556.3532700000001
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 552,
+      "printed_page": 562,
+      "bbox_pt": [
+        0,
+        355.85397,
+        595,
+        797
+      ],
+      "text_raw": "Too small a Slew-Rate can\nprevent to pass the high fre-\nquency slope of sine wave,\nwhich is reached when the\nsine wave goes through zero.\nWhen the Slew-Rate is\nmuch too low, a triangular\nwaveform then results,\ngiving excessive HD (more\n3\nthan 10%). This is clearly to\nbe avoided.\nA MOST as a switch will\ngive distortion as well as its\nresistance depends on the\nV , which is the difference\nGS\nbetween the Gate drive volt-\nage and the signal output voltage at the Source. This effect is especially detrimental at low supply\nvoltages (<1.8 V). This will be discussed in more detail in Chapter 21.\nAt high frequencies, it is actually no longer possible to use power series and phasors to correct\nthe response for frequency dependence. The power series must be substituted by Volterra series.\nAs they can only be applied to simple circuits, they are seldom used.\nIn continuous-time filters, discussed in the next Chapter, some more techniques are used to\ncancel the distortion. This is possible provided sufficient matching can be reached. Some examples\nwill be given in the next Chapter.\nFinally, some simple guidelines are added to allow reduction of distortion.",
+      "text": "Too small a Slew-Rate can prevent to pass the high frequency slope of sine wave, which is reached when the sine wave goes through zero. When the Slew-Rate is much too low, a triangular waveform then results, giving excessive HD (more 3 than 10%). This is clearly to be avoided. A MOST as a switch will give distortion as well as its resistance depends on the V , which is the difference GS between the Gate drive voltage and the signal output voltage at the Source. This effect is especially detrimental at low supply voltages (<1.8 V). This will be discussed in more detail in Chapter 21. At high frequencies, it is actually no longer possible to use power series and phasors to correct the response for frequency dependence. The power series must be substituted by Volterra series. As they can only be applied to simple circuits, they are seldom used. In continuous-time filters, discussed in the next Chapter, some more techniques are used to cancel the distortion. This is possible provided sufficient matching can be reached. Some examples will be given in the next Chapter. Finally, some simple guidelines are added to allow reduction of distortion."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Too small a Slew-Rate can prevent to pass the high frequency slope of sine wave, which is reached when the sine wave goes through zero. When the Slew-Rate is much too low, a triangular waveform then results, giving excessive HD (more 3 than 10%). This is clearly to be avoided. A MOST as a switch will give distortion as well as its resistance depends on the V , which is the difference GS between the Gate drive voltage and the signal output voltage at the Source. This effect is especially detrimental at low supply voltages (<1.8 V). This will be discussed in more detail in Chapter 21. At high frequencies, it is actually no longer possible to use power series and phasors to correct the response for frequency dependence. The power series must be substituted by Volterra series. As they can only be applied to simple circuits, they are seldom used. In continuous-time filters, discussed in the next Chapter, some more techniques are used to cancel the distortion. This is possible provided sufficient matching can be reached. Some examples will be given in the next Chapter. Finally, some simple guidelines are added to allow reduction of distortion.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Other cases of distortion and guide lines",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0552_02_1888.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07421725863451141,
+          0.07076708032497503,
+          0.7834372914072868,
+          0.14570476584952008
+        ],
+        "confidence": 1,
+        "text": "Other cases of distortion and guide lines"
+      },
+      {
+        "bbox": [
+          0.1220339004237287,
+          0.26341463481707317,
+          0.6169491546610169,
+          0.31707317140243907
+        ],
+        "confidence": 1,
+        "text": "• Distortion caused by limited SR"
+      },
+      {
+        "bbox": [
+          0.12203389542372885,
+          0.33658536609756096,
+          0.4677966072881356,
+          0.38536585390243894
+        ],
+        "confidence": 0.5,
+        "text": "• Distortion of a switch"
+      },
+      {
+        "bbox": [
+          0.1254237269491526,
+          0.40975609717770034,
+          0.610169489661017,
+          0.46341463376306624
+        ],
+        "confidence": 1,
+        "text": "• Distortion at high frequencies :"
+      },
+      {
+        "bbox": [
+          0.21016949564164644,
+          0.48780487783972126,
+          0.7864406820823244,
+          0.5365853656445994
+        ],
+        "confidence": 1,
+        "text": "Volterra series instead of power series"
+      },
+      {
+        "bbox": [
+          0.12542373273607746,
+          0.5609756095470384,
+          0.6745762751089588,
+          0.6097560973519165
+        ],
+        "confidence": 1,
+        "text": "• Distortion in continuous-time filters"
+      },
+      {
+        "bbox": [
+          0.12542372743341407,
+          0.6390243904878048,
+          0.3186440664164649,
+          0.6829268295121951
+        ],
+        "confidence": 1,
+        "text": "• Guide lines"
+      },
+      {
+        "bbox": [
+          0.7186440722847978,
+          0.9365853664227644,
+          0.9322033813875189,
+          0.9707317078861789
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 1888"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "graph",
+      "frequency_response",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0552_02_1888.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "A MOST as a switch will give distortion as well as its resistance depends on the V , which is the difference GS between the Gate drive voltage and the signal output voltage at the Source.",
+        "pdf_page": 552,
+        "printed_page": 562,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "A MOST as a switch will give distortion as well as its resistance depends on the V , which is the difference GS between the Gate drive voltage and the signal output voltage at the Source.",
+      "pdf_page": 552,
+      "printed_page": 562,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "At high frequencies, it is actually no longer possible to use power series and phasors to correct the response for frequency dependence.",
+      "pdf_page": 552,
+      "printed_page": 562,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Too small a Slew-Rate can prevent to pass the high frequency slope of sine wave, which is reached when the sine wave goes through zero.",
+      "pdf_page": 552,
+      "printed_page": 562,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "This is possible provided sufficient matching can be reached.",
+      "pdf_page": 552,
+      "printed_page": 562,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

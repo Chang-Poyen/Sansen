@@ -1,0 +1,558 @@
+{
+  "case_id": "SANSEN-0736",
+  "slide_id": "0736",
+  "chapter": 7,
+  "slide_number_in_chapter": 36,
+  "source": {
+    "pdf_page": 223,
+    "printed_page": 228
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0223_02_0736.jpg",
+      "pdf_page": 223,
+      "printed_page": 228,
+      "bbox_pt": [
+        91.521622,
+        467.21637,
+        374.78981,
+        663.676361
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 223,
+      "printed_page": 228,
+      "bbox_pt": [
+        0,
+        463.2269250000003,
+        595,
+        797
+      ],
+      "text_raw": "A very conventional two-\nstage Miller opamp with\nbipolar transistors is shown\nin this slide. It can be used\nfor supply voltages down\nto ±1.5 V.\nEach high-impedance\npoint is indicated by means\nof a red dot. It is clearly a\ntwo-stage amplifier with a\nclass AB output stage.\nThe GBW is obviously\ndetermined by the input\ntransconductance and the\n30 pF compensation capaci-\ntance. Bipolar transistors\nhave sufficient transconductance not to have problems with positive zeros.\nWith bipolar transistors, an emitter follower is required between input and second stage. This",
+      "text": "A very conventional twostage Miller opamp with bipolar transistors is shown in this slide. It can be used for supply voltages down to ±1.5 V. Each high-impedance point is indicated by means of a red dot. It is clearly a two-stage amplifier with a class AB output stage. The GBW is obviously determined by the input transconductance and the 30 pF compensation capacitance. Bipolar transistors have sufficient transconductance not to have problems with positive zeros. With bipolar transistors, an emitter follower is required between input and second stage. This"
+    },
+    {
+      "pdf_page": 224,
+      "printed_page": 229,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        237.12093999999968
+      ],
+      "text_raw": "transistor is T5. A level shifter T6 then follows to reduce the voltage to about 0.7 V, the V of\nBE\ntransistor T8. This level shifter is also required to reach this low supply voltage.\nIn the input stage, series resistors of 10 kV are used to increase the Slew-Rate.\nThe output stage consists of two emitter followers. As a consequence twice a V of about\nBE\n0.7 V is lost in the output swing. For such large supply voltages, we do not mind so much. For\nsmaller supply voltages or larger output swings we must use two Collector-to-collector output\ndevices, as we have previously seen in most opamps.\nDiodes T13/T14 are used to set the quiescent current in the output devices.",
+      "text": "transistor is T5. A level shifter T6 then follows to reduce the voltage to about 0.7 V, the V of BE transistor T8. This level shifter is also required to reach this low supply voltage. In the input stage, series resistors of 10 kV are used to increase the Slew-Rate. The output stage consists of two emitter followers. As a consequence twice a V of about BE 0.7 V is lost in the output swing. For such large supply voltages, we do not mind so much. For smaller supply voltages or larger output swings we must use two Collector-to-collector output devices, as we have previously seen in most opamps. Diodes T13/T14 are used to set the quiescent current in the output devices."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A very conventional twostage Miller opamp with bipolar transistors is shown in this slide. It can be used for supply voltages down to ±1.5 V. Each high-impedance point is indicated by means of a red dot. It is clearly a two-stage amplifier with a class AB output stage. The GBW is obviously determined by the input transconductance and the 30 pF compensation capacitance. Bipolar transistors have sufficient transconductance not to have problems with positive zeros. With bipolar transistors, an emitter follower is required between input and second stage. This\n\ntransistor is T5. A level shifter T6 then follows to reduce the voltage to about 0.7 V, the V of BE transistor T8. This level shifter is also required to reach this low supply voltage. In the input stage, series resistors of 10 kV are used to increase the Slew-Rate. The output stage consists of two emitter followers. As a consequence twice a V of about BE 0.7 V is lost in the output swing. For such large supply voltages, we do not mind so much. For smaller supply voltages or larger output swings we must use two Collector-to-collector output devices, as we have previously seen in most opamps. Diodes T13/T14 are used to set the quiescent current in the output devices.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Slide 0736",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0223_02_0736.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08086328130324662,
+          0.08161496902513432,
+          0.2468394190315511,
+          0.1427752729318309
+        ],
+        "confidence": 1,
+        "text": "LM 4250"
+      },
+      {
+        "bbox": [
+          0.14864864847972975,
+          0.20487804798780485,
+          0.22297297280405406,
+          0.26829268213414625
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "P23 Ix"
+      },
+      {
+        "bbox": [
+          0.19594594577702704,
+          0.2536585360365854,
+          0.23648648631756758,
+          0.29756097506097556
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T1O"
+      },
+      {
+        "bbox": [
+          0.1959459453265766,
+          0.35609756146341454,
+          0.2601351345157658,
+          0.3853658541463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+10gA"
+      },
+      {
+        "bbox": [
+          0.1351351360923423,
+          0.45853658512195117,
+          0.19256756852477475,
+          0.49268292658536583
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "10k"
+      },
+      {
+        "bbox": [
+          0.19594594497466217,
+          0.4341463418902438,
+          0.27364864767736485,
+          0.507317073597561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R§LOK"
+      },
+      {
+        "bbox": [
+          0.24662162191722972,
+          0.6926829266463415,
+          0.2702702705658784,
+          0.7170731705487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T4"
+      },
+      {
+        "bbox": [
+          0.10810810799549549,
+          0.7658536577235773,
+          0.17567567556306304,
+          0.8146341455284553
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "85 3 5K"
+      },
+      {
+        "bbox": [
+          0.3243243252111486,
+          0.5219512192073171,
+          0.39527027115709457,
+          0.5560975606707318
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "С. 30рг"
+      },
+      {
+        "bbox": [
+          0.42229729712837843,
+          0.26829268280487806,
+          0.44932432415540546,
+          0.2878048779268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T11"
+      },
+      {
+        "bbox": [
+          0.42567567581081084,
+          0.6439024392682926,
+          0.44594594608108107,
+          0.6682926831707316
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T6"
+      },
+      {
+        "bbox": [
+          0.5236486480855855,
+          0.26829268317073174,
+          0.5574324318693694,
+          0.2926829270731708
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T12"
+      },
+      {
+        "bbox": [
+          0.5236486492117117,
+          0.4097560973170732,
+          0.5574324329954955,
+          0.43414634121951223
+        ],
+        "confidence": 1,
+        "text": "713"
+      },
+      {
+        "bbox": [
+          0.5236486492117117,
+          0.5024390241463415,
+          0.5574324329954955,
+          0.5268292680487804
+        ],
+        "confidence": 1,
+        "text": "T14"
+      },
+      {
+        "bbox": [
+          0.5304054052364865,
+          0.6682926827235771,
+          0.5506756755067568,
+          0.6926829266260162
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "т8"
+      },
+      {
+        "bbox": [
+          0.6148648655405405,
+          0.21463414734187924,
+          0.655405406081081,
+          0.2536585352597467
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "\"oc"
+      },
+      {
+        "bbox": [
+          0.6587837826013514,
+          0.21951219536585365,
+          0.7297297285472973,
+          0.2439024392682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 1.5Y"
+      },
+      {
+        "bbox": [
+          0.5641891896114866,
+          0.4243902437195122,
+          0.5979729733952703,
+          0.4487804876219512
+        ],
+        "confidence": 1,
+        "text": "R17"
+      },
+      {
+        "bbox": [
+          0.6148648644707206,
+          0.409756097804878,
+          0.6385135131193693,
+          0.43414634170731703
+        ],
+        "confidence": 1,
+        "text": "50"
+      },
+      {
+        "bbox": [
+          0.6013513511824324,
+          0.5365853657560975,
+          0.6351351349662163,
+          0.5560975608780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3 50"
+      },
+      {
+        "bbox": [
+          0.625000000563063,
+          0.3512195119512196,
+          0.6587837843468468,
+          0.37560975585365863
+        ],
+        "confidence": 0.5,
+        "text": "T15"
+      },
+      {
+        "bbox": [
+          0.6283783794481982,
+          0.4536585362601626,
+          0.6925675686373874,
+          0.48292682894308947
+        ],
+        "confidence": 0.5,
+        "text": "100 R9"
+      },
+      {
+        "bbox": [
+          0.6925675683339094,
+          0.4585365853658536,
+          0.7432432407877124,
+          0.4878048780487805
+        ],
+        "confidence": 1,
+        "text": "Your"
+      },
+      {
+        "bbox": [
+          0.6283783779983108,
+          0.6048780489634147,
+          0.6587837834037162,
+          0.6292682928658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T16"
+      },
+      {
+        "bbox": [
+          0.6114073847546727,
+          0.7848158992538423,
+          0.7399439699696484,
+          0.8249401969773799
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VIE * - 1,5 %"
+      },
+      {
+        "bbox": [
+          0.6993243200450452,
+          0.5317073170731708,
+          0.9560810768018019,
+          0.5707317073170732
+        ],
+        "confidence": 0.5,
+        "text": "RL GBW = 0.25 MHz"
+      },
+      {
+        "bbox": [
+          0.7803666929888543,
+          0.5948521829461989,
+          0.9426062831955161,
+          0.6441722108325663
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SR = 0.2 V/u"
+      },
+      {
+        "bbox": [
+          0.7905405399774775,
+          0.6585365857723577,
+          0.9121621615990991,
+          0.7073170735772357
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "4 = 10 A"
+      },
+      {
+        "bbox": [
+          0.7768826732754333,
+          0.7209954454082153,
+          0.9291984058705162,
+          0.7716874803389329
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "тот = 90 JA"
+      },
+      {
+        "bbox": [
+          0.763416185748233,
+          0.7749504626485937,
+          0.9359081357060033,
+          0.8299275865603815
+        ],
+        "confidence": 0.5,
+        "text": "38 nVRMS/VHz"
+      },
+      {
+        "bbox": [
+          0.7195945967905406,
+          0.9365853653658537,
+          0.92905405625,
+          0.9756097556097562
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10-05 0736"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "A very conventional twostage Miller opamp with bipolar transistors is shown in this slide.",
+      "pdf_page": 223,
+      "printed_page": 228,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The GBW is obviously determined by the input transconductance and the 30 pF compensation capacitance.",
+      "pdf_page": 223,
+      "printed_page": 228,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0223_02_0736.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "With bipolar transistors, an emitter follower is required between input and second stage.",
+        "pdf_page": 223,
+        "printed_page": 228,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The output stage consists of two emitter followers.",
+        "pdf_page": 224,
+        "printed_page": 229,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "For smaller supply voltages or larger output swings we must use two Collector-to-collector output devices, as we have previously seen in most opamps.",
+        "pdf_page": 224,
+        "printed_page": 229,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In the input stage, series resistors of 10 kV are used to increase the Slew-Rate.",
+      "pdf_page": 224,
+      "printed_page": 229,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0736-M01",
+      "ocr_text": "= 1.5Y",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6587837826013514,
+        0.21951219536585365,
+        0.7297297285472973,
+        0.2439024392682927
+      ],
+      "context_crop": "regions/SANSEN-0736_math_01.png",
+      "context_bbox_normalized": [
+        0.6187837826013514,
+        0.13,
+        0.9597297285472973,
+        0.3739024392682927
+      ],
+      "source_image": "slides/p0223_02_0736.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0736-M02",
+      "ocr_text": "RL GBW = 0.25 MHz",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.6993243200450452,
+        0.5317073170731708,
+        0.9560810768018019,
+        0.5707317073170732
+      ],
+      "context_crop": "regions/SANSEN-0736_math_02.png",
+      "context_bbox_normalized": [
+        0.6593243200450452,
+        0.4317073170731708,
+        1,
+        0.7007317073170732
+      ],
+      "source_image": "slides/p0223_02_0736.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0736-M03",
+      "ocr_text": "SR = 0.2 V/u",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7803666929888543,
+        0.5948521829461989,
+        0.9426062831955161,
+        0.6441722108325663
+      ],
+      "context_crop": "regions/SANSEN-0736_math_03.png",
+      "context_bbox_normalized": [
+        0.7403666929888543,
+        0.4948521829461989,
+        1,
+        0.7741722108325663
+      ],
+      "source_image": "slides/p0223_02_0736.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0736-M04",
+      "ocr_text": "4 = 10 A",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7905405399774775,
+        0.6585365857723577,
+        0.9121621615990991,
+        0.7073170735772357
+      ],
+      "context_crop": "regions/SANSEN-0736_math_04.png",
+      "context_bbox_normalized": [
+        0.7505405399774775,
+        0.5585365857723578,
+        1,
+        0.8373170735772357
+      ],
+      "source_image": "slides/p0223_02_0736.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0736-M05",
+      "ocr_text": "тот = 90 JA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7768826732754333,
+        0.7209954454082153,
+        0.9291984058705162,
+        0.7716874803389329
+      ],
+      "context_crop": "regions/SANSEN-0736_math_05.png",
+      "context_bbox_normalized": [
+        0.7368826732754332,
+        0.6209954454082153,
+        1,
+        0.9016874803389329
+      ],
+      "source_image": "slides/p0223_02_0736.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

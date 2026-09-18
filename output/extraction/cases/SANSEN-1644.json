@@ -1,0 +1,223 @@
+{
+  "case_id": "SANSEN-1644",
+  "slide_id": "1644",
+  "chapter": 16,
+  "slide_number_in_chapter": 44,
+  "source": {
+    "pdf_page": 469,
+    "printed_page": 478
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0469_02_1644.jpg",
+      "pdf_page": 469,
+      "printed_page": 478,
+      "bbox_pt": [
+        91.52162,
+        359.69397000000004,
+        374.54215999999997,
+        556.15393
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 469,
+      "printed_page": 478,
+      "bbox_pt": [
+        0,
+        355.70462000000003,
+        595,
+        606.8225
+      ],
+      "text_raw": "The most accurate way to\nconvert a voltage into a cur-\nrent is the use of an opamp.\nThe reference voltage is\nimposed across the resistor.\nThe output current is\nexactly the same as the cur-\nrent through this resistor.\nThe main error is caused\nby the offset of the opamp.\nThe temperature coeffi-\ncient is determined by the\ntemperature coefficients of\nthe bandgap reference and\nthat of the resistor. One\ncould be made to com-\npensate the other, depending on the application.",
+      "text": "The most accurate way to convert a voltage into a current is the use of an opamp. The reference voltage is imposed across the resistor. The output current is exactly the same as the current through this resistor. The main error is caused by the offset of the opamp. The temperature coefficient is determined by the temperature coefficients of the bandgap reference and that of the resistor. One could be made to compensate the other, depending on the application."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The most accurate way to convert a voltage into a current is the use of an opamp. The reference voltage is imposed across the resistor. The output current is exactly the same as the current through this resistor. The main error is caused by the offset of the opamp. The temperature coefficient is determined by the temperature coefficients of the bandgap reference and that of the resistor. One could be made to compensate the other, depending on the application.",
+  "schema_version": "1.0",
+  "chapter_title": "带隙基准与电流基准电路",
+  "title": "Voltage-current converter",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0469_02_1644.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135593601694914,
+          0.08780487780487811,
+          0.5389830546610169,
+          0.1463414631707317
+        ],
+        "confidence": 1,
+        "text": "Voltage-current converter"
+      },
+      {
+        "bbox": [
+          0.42033898245762713,
+          0.2390243896341464,
+          0.5118644061864407,
+          0.31219512134146343
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "flout"
+      },
+      {
+        "bbox": [
+          0.4440677964745763,
+          0.5951219507804878,
+          0.47118644054237285,
+          0.639024389804878
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.18644067716101698,
+          0.6195121953048781,
+          0.2508474568220339,
+          0.6731707318902439
+        ],
+        "confidence": 1,
+        "text": "Vref"
+      },
+      {
+        "bbox": [
+          0.6508474581355932,
+          0.3219512201463415,
+          0.7152542377966102,
+          0.3853658542926829
+        ],
+        "confidence": 1,
+        "text": "Vret"
+      },
+      {
+        "bbox": [
+          0.5661016955649716,
+          0.3658536581707317,
+          0.6440677972598868,
+          0.4195121947560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "out"
+      },
+      {
+        "bbox": [
+          0.66779661,
+          0.3999999996864112,
+          0.6983050845762713,
+          0.4439024387108014
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.566101691220339,
+          0.5317073172682927,
+          0.9355932166440679,
+          0.5804878050731708
+        ],
+        "confidence": 1,
+        "text": "Temperature coefficient :"
+      },
+      {
+        "bbox": [
+          0.5693062746127221,
+          0.5986017945953253,
+          0.7425581346332465,
+          0.650178692751468
+        ],
+        "confidence": 1,
+        "text": "depends on"
+      },
+      {
+        "bbox": [
+          0.5694915258353511,
+          0.6682926828222998,
+          0.6271186444794189,
+          0.7219512194076656
+        ],
+        "confidence": 1,
+        "text": "Vret"
+      },
+      {
+        "bbox": [
+          0.5694915251271186,
+          0.7365853660670731,
+          0.6169491522457627,
+          0.7804878050914634
+        ],
+        "confidence": 0.5,
+        "text": "R!"
+      },
+      {
+        "bbox": [
+          0.7050847480932203,
+          0.9317073164634148,
+          0.9254237311440678,
+          0.9804878042682927
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sanson 10€6 1644"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The temperature coefficient is determined by the temperature coefficients of the bandgap reference and that of the resistor.",
+      "pdf_page": 469,
+      "printed_page": 478,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0469_02_1644.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "One could be made to compensate the other, depending on the application.",
+      "pdf_page": 469,
+      "printed_page": 478,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Bandgap and current reference circuits"
+}

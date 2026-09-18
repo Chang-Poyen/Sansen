@@ -1,0 +1,44 @@
+482 Chapter #16
+1651
+Both kind of regulators are
+shown in this slide.
+The left one uses the
+output transistor in source-
+follower configuration, the
+right one as an amplifier. As
+a consequence the right one
+has one more stage in the
+feedback loop. It is therefore
+much more prone to
+instability.
+It is preferred however,
+because the voltage drop
+across the output device can
+be smaller. Hence, the power
+dissipation is smaller.
+The stability problem is even worse noticing that the load impedance can vary greatly. Output
+currents can vary over three or more orders of magnitude. The equivalent load resistors vary as
+much. The transconductance of the output transistor varies a lot as well. Remember that the
+non-dominant pole is determined by this transconductance.
+The compensation devices will have to cover a wide range of output loads. The only way
+to avoid very large compensation capacitances is to try compensation schemas which track
+the load.
+1652
+In this Chapter, all impor-
+tant aspects of bandgap and
+current references have been
+covered. Bandgap references
+have been discussed in great
+detail, in both bipolar and
+CMOS technologies.
+They can be made to
+operate below 1 V supply
+voltage.
+Current references are
+actually non-existing. Either
+discrete or MOST channel
+resistances are required
+for the voltage-current con-
+version.
+Finally, we have to remember that these references are required in ADCs but also in voltage
+and current regulators. The stability of these feedback loops is not always as obvious.

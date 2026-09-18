@@ -1,0 +1,53 @@
+432 Chapter #15
+1522
+Up till now only random
+effects have been examined.
+They lead to a random offset
+and random CMRR, which
+are linked by each other.
+Systematic errors can also
+occur. In general, they are
+the result of systematic
+asymmetries. In principle,
+they can be avoided by
+proper design, as they are
+systematic. They give rise to
+a systematic offset and sys-
+tematic CMRR which are
+also linked.
+Some examples are given
+next.
+1523
+A first source of systematic
+error is caused by the sys-
+tematic asymmetry of a cur-
+rent mirror. Even without
+random errors, a difference
+in Drain-Source voltage v ,
+DS
+causes a small difference in
+output current Di , which
+out
+always has the same sign.
+It can easily be calculated,
+leading to the expression in
+this slide.
+The larger the channel
+length, the more horizontal
+the curves are and the
+smaller the output current
+difference. It can never be made zero however, as it is just about impossible to make v exactly
+DS1
+equal to v .
+DS2
+1524
+Another source of systematic error is a result of the common-mode drive v of a differential
+inc
+pair, as shown in this slide. The systematic asymmetry of the current mirror gives a differential
+output current i . This current can then be compensated at the input by a differential input
+OUT
+voltage or offset voltage v .
+osc
+In order to calculate the offset voltage required to compensate for the output current caused
+by the common-mode input voltage v , a small signal equivalent circuit is sketched.
+inc

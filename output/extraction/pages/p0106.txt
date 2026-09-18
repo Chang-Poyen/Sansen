@@ -1,0 +1,50 @@
+108 Chapter #3
+0337
+Now that we have a good
+understanding of current
+mirrors and voltage pairs,
+let us combine them in
+differential voltage and cur-
+rent amplifiers.
+All subsequent circuits
+are actually combinations
+of current mirrors and
+differential pairs, with as
+the primary requirement, to
+increase the gain but also
+to convert the differential
+output in a single-ended
+one. This is necessary to
+avoid differential pairs in a
+second stage of an amplifier.
+Most opamps will indeed use just a single-transistor amplifier as a second stage. The simplest
+amplifier usually provides the widest bandwidth. A single transistor is hard to beat!
+0338
+The amplifier in this slide is
+called an OTA. It consists of
+one differential pair loaded
+by a simple current mirror.
+It has thus one single
+output indeed.
+On the left, the DC cur-
+rent flows are shown. The
+width of the arrow corres-
+ponds to the size of the cur-
+rent. The current source I
+DD
+is divided by two over both
+input devices, and is taken
+up by the negative supply.
+Obviously, both supply cur-
+rents are the same, as no
+current can escape. Indeed, no current can escape at the output!
+On the right, the currents are shown when an input voltage is applied. This voltage is such
+that the current in M1 increases, causing a decrease by the same amount in the other transistor
+M2. The current source receives this larger current in M3 and forces the same current through M4.
+At the output there is a big difference between what is offered by M2 and what is required by
+M4. This difference is the output current. It flows through the load impedance Z , and causes
+L
+an output voltage.
+Again the supply currents and the current through load Z must add up correctly, to keep
+L
+Kirchoff happy!

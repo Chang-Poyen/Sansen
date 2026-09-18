@@ -1,0 +1,43 @@
+Systematic design of operational amplifiers 187
+it is almost three times the
+GBW.
+The zero is still too far to
+bother us!
+The result is a CMOS
+Miller OTA with a gain of
+about 3000 or 70 dB, a
+bandwidth of about 300 Hz
+and a GBW of 1 MHz.
+The total power con-
+sumption is 27 mA. Its FOM
+is therefore 370 MHzpF/mA
+which is an excellent value
+for a two-stage amplifier.
+Actually, anything that is
+better than 100 is good!
+0613
+The question remains. How
+has this Miller OTA been
+designed. Can we do better?
+Can we obtain a better
+FOM?
+We will see that there are
+three ways to obtain the
+same optimum in terms of
+minimum power consump-
+tion. Any design plan can
+now be adopted.
+0614
+Since we only have two specifications up till now, we only have two equations, one for the GBW
+and one for the stability.
+As a result, when we require a specific GBW for a specific C , we simply have to solve these
+L
+two equations.
+The problem is that we have three variables. They are the current in the first stage (or g ),
+m1
+the current in the second stage (or g ) and the compensation capacitance C .
+m6 c
+Up till now, we have chosen the compensation capacitance, which allows us to solve the two
+equations, since they only have two variables g and g .
+m1 m6
+This is indeed the first possible design plan.

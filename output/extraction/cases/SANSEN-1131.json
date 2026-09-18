@@ -1,0 +1,157 @@
+{
+  "case_id": "SANSEN-1131",
+  "slide_id": "1131",
+  "chapter": 11,
+  "slide_number_in_chapter": 31,
+  "source": {
+    "pdf_page": 309,
+    "printed_page": 316
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0309_01_1131.jpg",
+      "pdf_page": 309,
+      "printed_page": 316,
+      "bbox_pt": [
+        91.52162,
+        122.52701000000002,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 309,
+      "printed_page": 316,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        405.52951000000013
+      ],
+      "text_raw": "The feedback loop acts on a\nreplica of the input stage.\nThe input stage is copied,\nwith the same transistor\nsizes and currents. The\ncorresponding inputs are\nconnected. The outputs of\nthe replicas are shorted to\ncancel out the differential\nsignals. In this way, the total\ncurrent is measured in such\na pair, regardless of whether\nit is on, off or halfway.\nThe averaged outputs\nnow lead to current mirrors\nto be summed towards\npoint S.\nReplica is an ideal way to bias transistors without actually contacting the sensitive nodes, and\nwithout feedback. A few more examples are given.",
+      "text": "The feedback loop acts on a replica of the input stage. The input stage is copied, with the same transistor sizes and currents. The corresponding inputs are connected. The outputs of the replicas are shorted to cancel out the differential signals. In this way, the total current is measured in such a pair, regardless of whether it is on, off or halfway. The averaged outputs now lead to current mirrors to be summed towards point S. Replica is an ideal way to bias transistors without actually contacting the sensitive nodes, and without feedback. A few more examples are given."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The feedback loop acts on a replica of the input stage. The input stage is copied, with the same transistor sizes and currents. The corresponding inputs are connected. The outputs of the replicas are shorted to cancel out the differential signals. In this way, the total current is measured in such a pair, regardless of whether it is on, off or halfway. The averaged outputs now lead to current mirrors to be summed towards point S. Replica is an ideal way to bias transistors without actually contacting the sensitive nodes, and without feedback. A few more examples are given.",
+  "schema_version": "1.0",
+  "chapter_title": "轨到轨输入与输出放大器",
+  "title": "Current regulator FB loop : replica biasing",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0309_01_1131.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431478040562,
+          0.0780487805487805,
+          0.8378378282939192,
+          0.14146341469512191
+        ],
+        "confidence": 1,
+        "text": "Current regulator FB loop : replica biasing"
+      },
+      {
+        "bbox": [
+          0.3243243250337838,
+          0.3512195128292682,
+          0.40202702773648646,
+          0.41463414697560963
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ", 21вр"
+      },
+      {
+        "bbox": [
+          0.1891891887668919,
+          0.4682926825203252,
+          0.24662162119932432,
+          0.5170731703252033
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9 mр"
+      },
+      {
+        "bbox": [
+          0.6249999995777028,
+          0.4682926825203252,
+          0.6824324320101351,
+          0.5170731703252033
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9mр"
+      },
+      {
+        "bbox": [
+          0.8918918911486486,
+          0.7512195122439025,
+          0.966216215472973,
+          0.8146341463902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ",21вр"
+      },
+      {
+        "bbox": [
+          0.729729731722973,
+          0.951219511902439,
+          0.9290540560472973,
+          0.9804878045853659
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-05 1131"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0309_01_1131.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The corresponding inputs are connected.",
+        "pdf_page": 309,
+        "printed_page": 316,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Rail-to-rail input and output amplifiers"
+}

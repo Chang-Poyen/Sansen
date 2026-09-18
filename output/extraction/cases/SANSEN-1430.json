@@ -1,0 +1,336 @@
+{
+  "case_id": "SANSEN-1430",
+  "slide_id": "1430",
+  "chapter": 14,
+  "slide_number_in_chapter": 30,
+  "source": {
+    "pdf_page": 395,
+    "printed_page": 403
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0395_02_1430.jpg",
+      "pdf_page": 395,
+      "printed_page": 403,
+      "bbox_pt": [
+        91.52162,
+        395.56799,
+        374.54215999999997,
+        592.02795
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 395,
+      "printed_page": 403,
+      "bbox_pt": [
+        0,
+        391.5786096500001,
+        595,
+        797
+      ],
+      "text_raw": "A nice example of shunt-\nshunt feedback is the right-\nleg drive used for measure-\nments of small signals such\nas ECG, EEG, etc. on the\nhuman body. Such measure-\nments are carried out by\nmeans of a differential\namplifier, which provides a\ndifferential output voltage\nv .\nOUTd\nThese measurements are\ndisturbed however, by the\ninjection of hum at 50 Hz\ncoming from the mains.\nEach human body is capaci-\ntively coupled to the mains by capacitances of up to 150 pF. For a mains voltage of 220 V ,\nRMS\nthis correspond to an injected current of about 10 mA . In order to suppress the effect of this\nRMS\ncurrent, a common-mode shunt-shunt feedback loop is arranged. The voltage v on the body,\nB\ncaused by the injected current i , is then considerably reduced.\nB\nThe equivalent circuit is shown on the right. The average output voltage is taken (e.g. by\nmeans of two resistors as shown in Chapter 8), and fed to a common-mode amplifier with gain\nA . The common-mode gain of the differential amplifier has been taken to be unity.\n0\nThe output of amplifier A is applied to the right leg of the body, through a resistor R . This\n0 P",
+      "text": "A nice example of shuntshunt feedback is the rightleg drive used for measurements of small signals such as ECG, EEG, etc. on the human body. Such measurements are carried out by means of a differential amplifier, which provides a differential output voltage v . OUTd These measurements are disturbed however, by the injection of hum at 50 Hz coming from the mains. Each human body is capacitively coupled to the mains by capacitances of up to 150 pF. For a mains voltage of 220 V , RMS this correspond to an injected current of about 10 mA . In order to suppress the effect of this RMS current, a common-mode shunt-shunt feedback loop is arranged. The voltage v on the body, B caused by the injected current i , is then considerably reduced. B The equivalent circuit is shown on the right. The average output voltage is taken (e.g. by means of two resistors as shown in Chapter 8), and fed to a common-mode amplifier with gain A . The common-mode gain of the differential amplifier has been taken to be unity. 0 The output of amplifier A is applied to the right leg of the body, through a resistor R . This 0 P"
+    },
+    {
+      "pdf_page": 396,
+      "printed_page": 404,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        189.2889399999998
+      ],
+      "text_raw": "resistor is needed for safety, in case the electronics break down. Typical values are 0.5 to 1 MV.\nThe body itself is modeled by a few resistances R and R . Their values are of the order of\nA B\nmagnitude of 10 kV.\nThe voltage on the body v is reduced by the loop gain!\nB",
+      "text": "resistor is needed for safety, in case the electronics break down. Typical values are 0.5 to 1 MV. The body itself is modeled by a few resistances R and R . Their values are of the order of A B magnitude of 10 kV. The voltage on the body v is reduced by the loop gain! B"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A nice example of shuntshunt feedback is the rightleg drive used for measurements of small signals such as ECG, EEG, etc. on the human body. Such measurements are carried out by means of a differential amplifier, which provides a differential output voltage v . OUTd These measurements are disturbed however, by the injection of hum at 50 Hz coming from the mains. Each human body is capacitively coupled to the mains by capacitances of up to 150 pF. For a mains voltage of 220 V , RMS this correspond to an injected current of about 10 mA . In order to suppress the effect of this RMS current, a common-mode shunt-shunt feedback loop is arranged. The voltage v on the body, B caused by the injected current i , is then considerably reduced. B The equivalent circuit is shown on the right. The average output voltage is taken (e.g. by means of two resistors as shown in Chapter 8), and fed to a common-mode amplifier with gain A . The common-mode gain of the differential amplifier has been taken to be unity. 0 The output of amplifier A is applied to the right leg of the body, through a resistor R . This 0 P\n\nresistor is needed for safety, in case the electronics break down. Typical values are 0.5 to 1 MV. The body itself is modeled by a few resistances R and R . Their values are of the order of A B magnitude of 10 kV. The voltage on the body v is reduced by the loop gain! B",
+  "schema_version": "1.0",
+  "chapter_title": "反馈跨阻放大器与电流放大器",
+  "title": "Shunt-shunt feedback in Right-leg drive",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0395_02_1430.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08135592347457647,
+          0.08780487810975612,
+          0.7796610082203392,
+          0.15121951225609753
+        ],
+        "confidence": 1,
+        "text": "Shunt-shunt feedback in Right-leg drive"
+      },
+      {
+        "bbox": [
+          0.30169491555084743,
+          0.3658536591463415,
+          0.393220339279661,
+          0.4146341469512196
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VoUTd"
+      },
+      {
+        "bbox": [
+          0.7152542370056497,
+          0.24390243910569098,
+          0.7491525420903955,
+          0.2926829269105691
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "iB"
+      },
+      {
+        "bbox": [
+          0.7016949149152542,
+          0.37073170678048784,
+          0.7423728810169491,
+          0.4243902433658536
+        ],
+        "confidence": 1,
+        "text": "RA"
+      },
+      {
+        "bbox": [
+          0.24406779644067797,
+          0.5073170733658535,
+          0.26101694898305083,
+          0.5365853660487804
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.4881355927118644,
+          0.478048780609756,
+          0.5288135588135593,
+          0.5268292684146341
+        ],
+        "confidence": 1,
+        "text": "Ao"
+      },
+      {
+        "bbox": [
+          0.7525423726440678,
+          0.5268292685365853,
+          0.7762711862033899,
+          0.56097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B"
+      },
+      {
+        "bbox": [
+          0.8610169495338983,
+          0.478048781097561,
+          0.8983050851271187,
+          0.526829268902439
+        ],
+        "confidence": 0.5,
+        "text": "Ap"
+      },
+      {
+        "bbox": [
+          0.2576271183050848,
+          0.5512195117073171,
+          0.29830508440677966,
+          0.5999999995121952
+        ],
+        "confidence": 0.5,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.6949152536440678,
+          0.5463414634756099,
+          0.7423728807627119,
+          0.6000000000609756
+        ],
+        "confidence": 0.5,
+        "text": "RB"
+      },
+      {
+        "bbox": [
+          0.4677966105423728,
+          0.658536585902439,
+          0.5118644071525423,
+          0.7121951224878049
+        ],
+        "confidence": 1,
+        "text": "Rp"
+      },
+      {
+        "bbox": [
+          0.8406779658192092,
+          0.6585365849593496,
+          0.881355931920904,
+          0.7073170727642276
+        ],
+        "confidence": 1,
+        "text": "Rp"
+      },
+      {
+        "bbox": [
+          0.6576271190508474,
+          0.7804878047317072,
+          0.6983050851525423,
+          0.8243902437560975
+        ],
+        "confidence": 1,
+        "text": "VB"
+      },
+      {
+        "bbox": [
+          0.09126814668985568,
+          0.8024646339854989,
+          0.2578843990071226,
+          0.8463158537209934
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "iв = 10 pARMs"
+      },
+      {
+        "bbox": [
+          0.08813558957627124,
+          0.8536585367479674,
+          0.5254237251694915,
+          0.9024390245528455
+        ],
+        "confidence": 0.5,
+        "text": "for 220 VRMS (50 Hz) through 150 pF"
+      },
+      {
+        "bbox": [
+          0.7355932210381356,
+          0.7756097559756098,
+          0.8474576278177967,
+          0.8341463413414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rp + RB"
+      },
+      {
+        "bbox": [
+          0.7457627118079097,
+          0.8487804882113821,
+          0.8338983050282486,
+          0.8975609760162602
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ag + 1"
+      },
+      {
+        "bbox": [
+          0.7186440724542892,
+          0.9268292677235771,
+          0.9288135510485358,
+          0.9609756091869918
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10-06 1430"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "B The equivalent circuit is shown on the right.",
+      "pdf_page": 395,
+      "printed_page": 403,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The average output voltage is taken (e.g. by means of two resistors as shown in Chapter 8), and fed to a common-mode amplifier with gain A .",
+      "pdf_page": 395,
+      "printed_page": 403,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0395_02_1430.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The average output voltage is taken (e.g. by means of two resistors as shown in Chapter 8), and fed to a common-mode amplifier with gain A .",
+      "pdf_page": 395,
+      "printed_page": 403,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The common-mode gain of the differential amplifier has been taken to be unity. 0 The output of amplifier A is applied to the right leg of the body, through a resistor R .",
+      "pdf_page": 395,
+      "printed_page": 403,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The voltage on the body v is reduced by the loop gain!",
+      "pdf_page": 396,
+      "printed_page": 404,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1430-M01",
+      "ocr_text": "iв = 10 pARMs",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.09126814668985568,
+        0.8024646339854989,
+        0.2578843990071226,
+        0.8463158537209934
+      ],
+      "context_crop": "regions/SANSEN-1430_math_01.png",
+      "context_bbox_normalized": [
+        0.05126814668985568,
+        0.702464633985499,
+        0.48788439900712266,
+        0.93
+      ],
+      "source_image": "slides/p0395_02_1430.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback transimpedance and current amplifiers"
+}

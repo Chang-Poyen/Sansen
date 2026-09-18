@@ -1,0 +1,166 @@
+{
+  "case_id": "SANSEN-221",
+  "slide_id": "221",
+  "chapter": 22,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 666,
+    "printed_page": 677
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0666_01_221.jpg",
+      "pdf_page": 666,
+      "printed_page": 677,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 666,
+      "printed_page": 677,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        344.74300000000005
+      ],
+      "text_raw": "Oscillators are required as\nreferences of frequency. All\nclocks are for (micro)proces-\nsors but all timing circuits\nalso need a clock.\nThe highest precision is\nobtained by using a crystal\nas a reference. Without a lot\nof effort, 0.1% precision is\neasily achieved.\nThis is why we start this\nchapter with crystal oscilla-\ntors. It will be shown that\nonly one single transistor is\nrequired to make a crystal\noscillator.",
+      "text": "Oscillators are required as references of frequency. All clocks are for (micro)processors but all timing circuits also need a clock. The highest precision is obtained by using a crystal as a reference. Without a lot of effort, 0.1% precision is easily achieved. This is why we start this chapter with crystal oscillators. It will be shown that only one single transistor is required to make a crystal oscillator."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Oscillators are required as references of frequency. All clocks are for (micro)processors but all timing circuits also need a clock. The highest precision is obtained by using a crystal as a reference. Without a lot of effort, 0.1% precision is easily achieved. This is why we start this chapter with crystal oscillators. It will be shown that only one single transistor is required to make a crystal oscillator.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Slide 221",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0666_01_221.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.06680662238112639,
+          0.5877113669072693,
+          0.11905276123734407,
+          0.8641938699143673
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GIG: SEDESI SRDIanG"
+      },
+      {
+        "bbox": [
+          0.1385135090653154,
+          0.2926829260162602,
+          0.8614864820382884,
+          0.3902439016260162
+        ],
+        "confidence": 1,
+        "text": "Design of crystal oscillators"
+      },
+      {
+        "bbox": [
+          0.3812269037412018,
+          0.5946818573380871,
+          0.6354205447851999,
+          0.6606918975282489
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.310810810472973,
+          0.72195122,
+          0.6756756753378379,
+          0.770731707804878
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.3783783815033784,
+          0.7902439021951221,
+          0.6283783815033783,
+          0.8390243900000001
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.347972976858108,
+          0.8731707314634147,
+          0.6587837876689189,
+          0.9024390241463416
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7263513607230245,
+          0.9512195116260161,
+          0.9290540505382363,
+          0.9853658530894308
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 221"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It will be shown that only one single transistor is required to make a crystal oscillator.",
+      "pdf_page": 666,
+      "printed_page": 677,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0666_01_221.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

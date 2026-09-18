@@ -1,0 +1,44 @@
+130 Chapter #4
+0426
+Again the noise sources can
+be combined at the input, in
+order to be able to compare
+them to the input signal.
+The collector shot noise
+has to be divided by g 2 in
+m
+order to be translated into
+an input voltage.
+The base shot noise
+remains where it is.
+As a result, two equiva-
+lent noise sources are found,
+a voltage noise source and a
+current noise source, which
+is actually the base shot
+noise. Which one is domi-
+nant will depend on the source impedance, as we will see later.
+The equivalent input noise voltage obviously also includes the base and emitter resistances.
+Note that the expression of the equivalent input voltage is very similar to the one for MOST.
+The only difference is that now the coefficient of 1/g is 1/2 instead of 2/3. This is small difference
+m
+indeed. We cannot forget however that for the same DC current the transconductance of a
+bipolar transistor is about 4 times larger than for a MOST. Its equivalent input noise voltage
+will therefore decrease.
+0427
+Now that we know what the
+noise models are for a
+MOST and a bipolar tran-
+sistor, we want to use them
+to calculate the SNR of an
+amplifier, a cascode, etc.
+Moreover we have used
+ideal current sources for the
+biasing and as active loads.
+All the current sources have
+to be realized by means
+of transistors, which also
+exhibit noise.
+0428
+Addition of an active load M2 to a single-transistor amplifier M1, gives the circuit in this slide.
+The equivalent input noise source of the load transistor M2 is shown explicitly. It is in series

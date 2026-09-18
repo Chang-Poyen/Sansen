@@ -1,0 +1,529 @@
+{
+  "case_id": "SANSEN-0626",
+  "slide_id": "0626",
+  "chapter": 6,
+  "slide_number_in_chapter": 26,
+  "source": {
+    "pdf_page": 190,
+    "printed_page": 194
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0190_02_0626.jpg",
+      "pdf_page": 190,
+      "printed_page": 194,
+      "bbox_pt": [
+        91.52162,
+        395.56795999999997,
+        374.54222,
+        592.0778
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 190,
+      "printed_page": 194,
+      "bbox_pt": [
+        0,
+        391.5785100000001,
+        595,
+        797
+      ],
+      "text_raw": "A numerical example is\nworked out in this slide.\nThe very first design\nchoices to be made are for\nthe three design parameters.\nThe minimum f value is\nT\na direct result from these\nchoices. We now have to dis-\ncover which channel length\ncan deliver such high f\nT\nvalues. Note that this is the\nactual channel length used,\nwhich may be 2–3 times\nhigher than the minimum\nchannel length of a particu-\nlar CMOS technology. Here\nthey are taken the same, because we do not have a lot of room left: 80 GHz f is quite high indeed.\nT\nThe transistor width is a direct result of the load capacitance. It determines both the current\nand the value of C .\nn1\nThe compensation capacitance C is a fraction a of C .\nc L1\nClearly, C comes out to be 1/3 of C since b was 3.\nn1 c\nFrom the GBW we finally obtain g and I .\nm1 DS1\nThe total current consumption is 3.56 mA, which is quite high because of the large GBW and\nload capacitance. Its FOM however, is 561 MHzpF/mA, which is not bad at all!",
+      "text": "A numerical example is worked out in this slide. The very first design choices to be made are for the three design parameters. The minimum f value is T a direct result from these choices. We now have to discover which channel length can deliver such high f T values. Note that this is the actual channel length used, which may be 2–3 times higher than the minimum channel length of a particular CMOS technology. Here they are taken the same, because we do not have a lot of room left: 80 GHz f is quite high indeed. T The transistor width is a direct result of the load capacitance. It determines both the current and the value of C . n1 The compensation capacitance C is a fraction a of C . c L1 Clearly, C comes out to be 1/3 of C since b was 3. n1 c From the GBW we finally obtain g and I . m1 DS1 The total current consumption is 3.56 mA, which is quite high because of the large GBW and load capacitance. Its FOM however, is 561 MHzpF/mA, which is not bad at all!"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "A numerical example is worked out in this slide. The very first design choices to be made are for the three design parameters. The minimum f value is T a direct result from these choices. We now have to discover which channel length can deliver such high f T values. Note that this is the actual channel length used, which may be 2–3 times higher than the minimum channel length of a particular CMOS technology. Here they are taken the same, because we do not have a lot of room left: 80 GHz f is quite high indeed. T The transistor width is a direct result of the load capacitance. It determines both the current and the value of C . n1 The compensation capacitance C is a fraction a of C . c L1 Clearly, C comes out to be 1/3 of C since b was 3. n1 c From the GBW we finally obtain g and I . m1 DS1 The total current consumption is 3.56 mA, which is quite high because of the large GBW and load capacitance. Its FOM however, is 561 MHzpF/mA, which is not bad at all!",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Design Es. for GBW = 0.4 GHz & CL = 5 pF",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0190_02_0626.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627677966093,
+          0.07804878017421601,
+          0.857627124237288,
+          0.14146341432055753
+        ],
+        "confidence": 0.5,
+        "text": "Design Es. for GBW = 0.4 GHz & CL = 5 pF"
+      },
+      {
+        "bbox": [
+          0.0641185400329191,
+          0.2024442688430561,
+          0.2986560590676119,
+          0.25600526315413297
+        ],
+        "confidence": 0.5,
+        "text": "• Choose a By"
+      },
+      {
+        "bbox": [
+          0.06440677898305089,
+          0.27317073243902446,
+          0.5728813552542373,
+          0.33170731780487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• Minimum f6 for GBW = 0.4 GHz"
+      },
+      {
+        "bbox": [
+          0.06440677584745769,
+          0.3512195122764228,
+          0.5220338944915255,
+          0.4097560976422764
+        ],
+        "confidence": 1,
+        "text": "• Maximum channel length L6"
+      },
+      {
+        "bbox": [
+          0.18644068092009683,
+          0.424390243554007,
+          0.6000000029539951,
+          0.4829268289198607
+        ],
+        "confidence": 0.5,
+        "text": "for a chosen VGss-V,= 0.2 V"
+      },
+      {
+        "bbox": [
+          0.06440678605932186,
+          0.4975609753048781,
+          0.5762711928389829,
+          0.551219511890244
+        ],
+        "confidence": 0.5,
+        "text": "• L is taken to be the minimum L"
+      },
+      {
+        "bbox": [
+          0.06440678319209034,
+          0.5756097559349593,
+          0.4881355967514124,
+          0.634146341300813
+        ],
+        "confidence": 0.5,
+        "text": "• We is calculated from CL•"
+      },
+      {
+        "bbox": [
+          0.16232399945306797,
+          0.643193584459115,
+          0.6988131951959176,
+          0.7198802621592507
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "and determines Ips6 (K',= 70 MA/V2)"
+      },
+      {
+        "bbox": [
+          0.16271186555084746,
+          0.721951220304878,
+          0.6406779672457628,
+          0.7853658544512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "and determines C,1 (k = 2 fF/um)"
+      },
+      {
+        "bbox": [
+          0.06440677483050859,
+          0.7951219520731707,
+          0.61355931720339,
+          0.8634146349999999
+        ],
+        "confidence": 0.5,
+        "text": "• C is calculated from C, through a"
+      },
+      {
+        "bbox": [
+          0.06440677400000008,
+          0.8731707318048781,
+          0.6305084689152544,
+          0.9317073171707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "• 9mt and Ids1 are calculated from Cc"
+      },
+      {
+        "bbox": [
+          0.738983051016949,
+          0.19024390307317074,
+          0.8372881357627118,
+          0.25365853721951215
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 3 2"
+      },
+      {
+        "bbox": [
+          0.7218350551649149,
+          0.2717548712010951,
+          0.918842910079176,
+          0.3331231761282698
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "fт6 = 6.4 GHz"
+      },
+      {
+        "bbox": [
+          0.7285869097388519,
+          0.34988635194057305,
+          0.8917520765613823,
+          0.4110892571767941
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "L6 = 0.5 um"
+      },
+      {
+        "bbox": [
+          0.7151923204813405,
+          0.5751986271100399,
+          0.9017568274000376,
+          0.6345574727975338
+        ],
+        "confidence": 0.5,
+        "text": "Wg = 417 um"
+      },
+      {
+        "bbox": [
+          0.7152542347457628,
+          0.6536585366463415,
+          0.9186440652542374,
+          0.7073170732317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'D56 = 2.3 mA"
+      },
+      {
+        "bbox": [
+          0.7287770405126578,
+          0.7265652285946987,
+          0.9152907537674247,
+          0.7807518472135476
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cn1 = 0.83 pF"
+      },
+      {
+        "bbox": [
+          0.7320553400793732,
+          0.7991536285357628,
+          0.905232794106452,
+          0.8642610066813063
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc = 2.5pF"
+      },
+      {
+        "bbox": [
+          0.7152542359745763,
+          0.8731707319207317,
+          0.9254237275,
+          0.9268292685060975
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "|DS1 = 0.63 mA"
+      },
+      {
+        "bbox": [
+          0.7322033877966102,
+          0.9512195123902439,
+          0.9355932183050847,
+          0.9804878050731708
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10 05 0626"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "It determines both the current and the value of C . n1 The compensation capacitance C is a fraction a of C . c L1 Clearly, C comes out to be 1/3 of C since b was 3. n1 c From the GBW we finally obtain g and I . m1 DS1 The total current consumption is 3.56 mA, which is quite high because of the large GBW and load capacitance.",
+      "pdf_page": 190,
+      "printed_page": 194,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0190_02_0626.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0626-M01",
+      "ocr_text": "• Minimum f6 for GBW = 0.4 GHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.06440677898305089,
+        0.27317073243902446,
+        0.5728813552542373,
+        0.33170731780487805
+      ],
+      "context_crop": "regions/SANSEN-0626_math_01.png",
+      "context_bbox_normalized": [
+        0.024406778983050888,
+        0.17317073243902445,
+        0.8028813552542373,
+        0.46170731780487806
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M02",
+      "ocr_text": "for a chosen VGss-V,= 0.2 V",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.18644068092009683,
+        0.424390243554007,
+        0.6000000029539951,
+        0.4829268289198607
+      ],
+      "context_crop": "regions/SANSEN-0626_math_02.png",
+      "context_bbox_normalized": [
+        0.14644068092009682,
+        0.32439024355400703,
+        0.8300000029539951,
+        0.6129268289198607
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M03",
+      "ocr_text": "and determines Ips6 (K',= 70 MA/V2)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.16232399945306797,
+        0.643193584459115,
+        0.6988131951959176,
+        0.7198802621592507
+      ],
+      "context_crop": "regions/SANSEN-0626_math_03.png",
+      "context_bbox_normalized": [
+        0.12232399945306796,
+        0.543193584459115,
+        0.9288131951959175,
+        0.8498802621592507
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M04",
+      "ocr_text": "and determines C,1 (k = 2 fF/um)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.16271186555084746,
+        0.721951220304878,
+        0.6406779672457628,
+        0.7853658544512194
+      ],
+      "context_crop": "regions/SANSEN-0626_math_04.png",
+      "context_bbox_normalized": [
+        0.12271186555084745,
+        0.621951220304878,
+        0.8706779672457627,
+        0.9153658544512194
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M05",
+      "ocr_text": "fт6 = 6.4 GHz",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7218350551649149,
+        0.2717548712010951,
+        0.918842910079176,
+        0.3331231761282698
+      ],
+      "context_crop": "regions/SANSEN-0626_math_05.png",
+      "context_bbox_normalized": [
+        0.6818350551649148,
+        0.1717548712010951,
+        1,
+        0.4631231761282698
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M06",
+      "ocr_text": "L6 = 0.5 um",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7285869097388519,
+        0.34988635194057305,
+        0.8917520765613823,
+        0.4110892571767941
+      ],
+      "context_crop": "regions/SANSEN-0626_math_06.png",
+      "context_bbox_normalized": [
+        0.6885869097388518,
+        0.24988635194057304,
+        1,
+        0.5410892571767941
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M07",
+      "ocr_text": "Wg = 417 um",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.7151923204813405,
+        0.5751986271100399,
+        0.9017568274000376,
+        0.6345574727975338
+      ],
+      "context_crop": "regions/SANSEN-0626_math_07.png",
+      "context_bbox_normalized": [
+        0.6751923204813405,
+        0.4751986271100399,
+        1,
+        0.7645574727975338
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M08",
+      "ocr_text": "'D56 = 2.3 mA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7152542347457628,
+        0.6536585366463415,
+        0.9186440652542374,
+        0.7073170732317073
+      ],
+      "context_crop": "regions/SANSEN-0626_math_08.png",
+      "context_bbox_normalized": [
+        0.6752542347457627,
+        0.5536585366463416,
+        1,
+        0.8373170732317073
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M09",
+      "ocr_text": "Cn1 = 0.83 pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7287770405126578,
+        0.7265652285946987,
+        0.9152907537674247,
+        0.7807518472135476
+      ],
+      "context_crop": "regions/SANSEN-0626_math_09.png",
+      "context_bbox_normalized": [
+        0.6887770405126578,
+        0.6265652285946988,
+        1,
+        0.9107518472135476
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M10",
+      "ocr_text": "Cc = 2.5pF",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7320553400793732,
+        0.7991536285357628,
+        0.905232794106452,
+        0.8642610066813063
+      ],
+      "context_crop": "regions/SANSEN-0626_math_10.png",
+      "context_bbox_normalized": [
+        0.6920553400793732,
+        0.6991536285357628,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0626-M11",
+      "ocr_text": "|DS1 = 0.63 mA",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7152542359745763,
+        0.8731707319207317,
+        0.9254237275,
+        0.9268292685060975
+      ],
+      "context_crop": "regions/SANSEN-0626_math_11.png",
+      "context_bbox_normalized": [
+        0.6752542359745762,
+        0.7731707319207317,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0190_02_0626.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}

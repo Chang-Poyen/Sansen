@@ -1,0 +1,45 @@
+548 Chapter #18
+only possible when the Bulk can be connected to the source or when the nMOST is in a p-well.
+However, CMOS processes have normally a n-well. A nMOST source follower has normally its
+Bulk connected to ground. This causes a lot of distortion, as shown next.
+1859
+Indeed, when the Bulk is
+connected to ground, the
+parasitic JFET becomes
+active (see Chapter 1), and
+the gain becomes smaller
+than unity.
+In this case, the threshold
+voltage V depends on the
+T
+output voltage through
+parameter c, which repre-
+sents the body effect as
+explained in Chapter 1. The
+relation between input and
+output voltage is now easily
+derived. It is clearly a non-
+linear relationship.
+1860
+This nonlinear relationship
+is plotted in this slide. The
+slope of this curve decreases
+for larger input and output
+voltages. It is actually 1/n in
+which n contains g (see
+Chapter 1).
+This nonlinear relation-
+ship gives rise to a power
+series. The coefficients are
+given for specific values of
+the transistor parameters.
+It is obvious that a source
+follower, which cannot be
+embedded in a separate well,
+cannot be used, if distortion
+is of any concern!
+1861
+The inclusion of series resistors in the source is used very often to enlarge the input range of a
+differential pair. In principle this can be done by taking large values of V −V . If this is not
+GS T
+sufficient, series resistors R must be inserted.

@@ -1,0 +1,219 @@
+{
+  "case_id": "SANSEN-0812",
+  "slide_id": "0812",
+  "chapter": 8,
+  "slide_number_in_chapter": 12,
+  "source": {
+    "pdf_page": 238,
+    "printed_page": 244
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0238_02_0812.jpg",
+      "pdf_page": 238,
+      "printed_page": 244,
+      "bbox_pt": [
+        91.521622,
+        385.602967,
+        374.78981,
+        582.062958
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 238,
+      "printed_page": 244,
+      "bbox_pt": [
+        0,
+        381.6135000000001,
+        595,
+        797
+      ],
+      "text_raw": "For differential operation,\nthe differential input voltage\nsees a load capacitance\nC , as indicated in this\nINDM\nslide.\nThe differential load\ncapacitance is quite small. It\nonly contains the mutual\ncapacitance and half of all\nthe others.",
+      "text": "For differential operation, the differential input voltage sees a load capacitance C , as indicated in this INDM slide. The differential load capacitance is quite small. It only contains the mutual capacitance and half of all the others."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "For differential operation, the differential input voltage sees a load capacitance C , as indicated in this INDM slide. The differential load capacitance is quite small. It only contains the mutual capacitance and half of all the others.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Load capacitance CINDM",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0238_02_0812.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027057432432,
+          0.08292682923344952,
+          0.5033783814189189,
+          0.14634146337979093
+        ],
+        "confidence": 1,
+        "text": "Load capacitance CINDM"
+      },
+      {
+        "bbox": [
+          0.18243243313626126,
+          0.4292682924796748,
+          0.2668918925957207,
+          0.47317073150406497
+        ],
+        "confidence": 1,
+        "text": "VINDM"
+      },
+      {
+        "bbox": [
+          0.41216216182432436,
+          0.42926829223577245,
+          0.4594594591216216,
+          0.48292682882113824
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "См"
+      },
+      {
+        "bbox": [
+          0.5472972969932431,
+          0.32682926853658534,
+          0.5777027023986486,
+          0.3707317075609756
+        ],
+        "confidence": 0.5,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.5439189197635134,
+          0.4243902445121952,
+          0.6182432440878377,
+          0.4731707323170732
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6114864861486486,
+          0.28292682873170727,
+          0.658783783445946,
+          0.33658536531707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cs"
+      },
+      {
+        "bbox": [
+          0.6047297294160232,
+          0.560975609303136,
+          0.6554054050916989,
+          0.6243902434494774
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cs"
+      },
+      {
+        "bbox": [
+          0.42567567331081085,
+          0.7365853658536585,
+          0.6148648625,
+          0.7951219512195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CF+CL+CS"
+      },
+      {
+        "bbox": [
+          0.23261434740838202,
+          0.766827419725701,
+          0.4227910534647191,
+          0.828294534616195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CINDM = Cм +"
+      },
+      {
+        "bbox": [
+          0.5033783782094594,
+          0.8048780483414634,
+          0.5270270268581081,
+          0.8487804873658535
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.7195945932010135,
+          0.946341463902439,
+          0.9324324310388513,
+          0.9853658541463415
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 0812"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0238_02_0812.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0812-M01",
+      "ocr_text": "CINDM = Cм +",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.23261434740838202,
+        0.766827419725701,
+        0.4227910534647191,
+        0.828294534616195
+      ],
+      "context_crop": "regions/SANSEN-0812_math_01.png",
+      "context_bbox_normalized": [
+        0.19261434740838201,
+        0.666827419725701,
+        0.6527910534647191,
+        0.93
+      ],
+      "source_image": "slides/p0238_02_0812.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

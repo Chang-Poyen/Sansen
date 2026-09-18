@@ -1,0 +1,541 @@
+{
+  "case_id": "SANSEN-173",
+  "slide_id": "173",
+  "chapter": 17,
+  "slide_number_in_chapter": 3,
+  "source": {
+    "pdf_page": 476,
+    "printed_page": 486
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0476_01_173.jpg",
+      "pdf_page": 476,
+      "printed_page": 486,
+      "bbox_pt": [
+        91.52162,
+        122.57681000000002,
+        374.78981,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 476,
+      "printed_page": 486,
+      "bbox_pt": [
+        0,
+        118.58731,
+        595,
+        475.18495500000034
+      ],
+      "text_raw": "Switching a capacitor in and\nout at the rate of a high-\nfrequency clock passes a\ncharge, which is peaked.\nIndeed, a clock is taken\nwith frequency f , which has\nc\ntwo non-overlapping phases\nW1 and W2, which are both\nsomewhat smaller than half\nthe period T .\nc\nCharging capacitor C to\nvoltage V during phase W1\n1\nand discharging capacitor\nC to voltage V during\n2\nphase W2, passes a charge\nC(V −V ) from the input\n1 2\nto the output terminal during period T .\nc\nThe current which flows out of the output terminal is peaked, as it only flows at the beginning\nof phase W2. Its average however, I , can be regarded as an average current flowing from the\nav\ninput to the output terminal, as a result of the voltage difference V −V . It can be regarded as\n1 2\na current flowing between a voltage V −V because of a resistor R.\n1 2\nA switched capacitor now behaves as a resistor, provided averages are taken. This is true for\nlow frequencies which are very low compared to the clock frequency.\nThe equivalent resistance R is 1/f C. It can be increased in size for small values of clock\nc\nfrequency and capacitor. For 100 kHz and 1 pF we already find a resistance of 10 MV, a value\nwhich is impossible to integrate otherwise.",
+      "text": "Switching a capacitor in and out at the rate of a highfrequency clock passes a charge, which is peaked. Indeed, a clock is taken with frequency f , which has c two non-overlapping phases W1 and W2, which are both somewhat smaller than half the period T . c Charging capacitor C to voltage V during phase W1 1 and discharging capacitor C to voltage V during 2 phase W2, passes a charge C(V −V ) from the input 1 2 to the output terminal during period T . c The current which flows out of the output terminal is peaked, as it only flows at the beginning of phase W2. Its average however, I , can be regarded as an average current flowing from the av input to the output terminal, as a result of the voltage difference V −V . It can be regarded as 1 2 a current flowing between a voltage V −V because of a resistor R. 1 2 A switched capacitor now behaves as a resistor, provided averages are taken. This is true for low frequencies which are very low compared to the clock frequency. The equivalent resistance R is 1/f C. It can be increased in size for small values of clock c frequency and capacitor. For 100 kHz and 1 pF we already find a resistance of 10 MV, a value which is impossible to integrate otherwise."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Switching a capacitor in and out at the rate of a highfrequency clock passes a charge, which is peaked. Indeed, a clock is taken with frequency f , which has c two non-overlapping phases W1 and W2, which are both somewhat smaller than half the period T . c Charging capacitor C to voltage V during phase W1 1 and discharging capacitor C to voltage V during 2 phase W2, passes a charge C(V −V ) from the input 1 2 to the output terminal during period T . c The current which flows out of the output terminal is peaked, as it only flows at the beginning of phase W2. Its average however, I , can be regarded as an average current flowing from the av input to the output terminal, as a result of the voltage difference V −V . It can be regarded as 1 2 a current flowing between a voltage V −V because of a resistor R. 1 2 A switched capacitor now behaves as a resistor, provided averages are taken. This is true for low frequencies which are very low compared to the clock frequency. The equivalent resistance R is 1/f C. It can be increased in size for small values of clock c frequency and capacitor. For 100 kHz and 1 pF we already find a resistance of 10 MV, a value which is impossible to integrate otherwise.",
+  "schema_version": "1.0",
+  "chapter_title": "开关电容滤波器",
+  "title": "Principle",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0476_01_173.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07399211868407307,
+          0.08090204820093305,
+          0.24019707381086125,
+          0.14348819523015843
+        ],
+        "confidence": 1,
+        "text": "Principle"
+      },
+      {
+        "bbox": [
+          0.22972972985641893,
+          0.21463414689024385,
+          0.27364864877533784,
+          0.25853658591463413
+        ],
+        "confidence": 0.5,
+        "text": "av"
+      },
+      {
+        "bbox": [
+          0.3209459464949324,
+          0.22439024353658532,
+          0.3648648654138513,
+          0.2731707313414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ф2"
+      },
+      {
+        "bbox": [
+          0.08108108019425678,
+          0.6390243895121951,
+          0.15878378289695946,
+          0.6975609748780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "av="
+      },
+      {
+        "bbox": [
+          0.08108108019425678,
+          0.8097560967682927,
+          0.15878378289695946,
+          0.8731707309146343
+        ],
+        "confidence": 0.5,
+        "text": "lav="
+      },
+      {
+        "bbox": [
+          0.32770270291385134,
+          0.4536585371341464,
+          0.3581081083192567,
+          0.49756097615853667
+        ],
+        "confidence": 1,
+        "text": "Q"
+      },
+      {
+        "bbox": [
+          0.17905405351351353,
+          0.580487804,
+          0.24662162108108107,
+          0.6682926820487805
+        ],
+        "confidence": 0.5,
+        "text": "Qav"
+      },
+      {
+        "bbox": [
+          0.29054054177927924,
+          0.5853658534146342,
+          0.43918919042792787,
+          0.6536585363414635
+        ],
+        "confidence": 0.5,
+        "text": "C(V,-Vz)"
+      },
+      {
+        "bbox": [
+          0.24324324265202704,
+          0.6390243903658536,
+          0.29054053994932433,
+          0.678048780609756
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.1824324321669884,
+          0.6731707312195122,
+          0.2331081078426641,
+          0.7414634141463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Tc"
+      },
+      {
+        "bbox": [
+          0.17905405407818534,
+          0.7609756092682927,
+          0.3040540540781853,
+          0.829268292195122
+        ],
+        "confidence": 0.5,
+        "text": "(V,-Vz)"
+      },
+      {
+        "bbox": [
+          0.22635135097128378,
+          0.8536585367682927,
+          0.25675675637668915,
+          0.8975609757926829
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.7297297279983109,
+          0.19999999999999996,
+          0.8682432415118244,
+          0.25853658536585367
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Tc = 1/fc"
+      },
+      {
+        "bbox": [
+          0.5135135134121621,
+          0.3121951225365853,
+          0.5641891890878378,
+          0.37073170790243903
+        ],
+        "confidence": 1,
+        "text": "ф2"
+      },
+      {
+        "bbox": [
+          0.5236486493581081,
+          0.4243902438048781,
+          0.594594595304054,
+          0.4829268291707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "12 -"
+      },
+      {
+        "bbox": [
+          0.6486486489140926,
+          0.4292682924390244,
+          0.6858108110762547,
+          0.4829268290243902
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A."
+      },
+      {
+        "bbox": [
+          0.7195945937781532,
+          0.4195121950406504,
+          0.8175675667511261,
+          0.48780487796747973
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "av_ A"
+      },
+      {
+        "bbox": [
+          0.527027022972973,
+          0.5219512187804878,
+          0.9189189148648649,
+          0.5804878041463415
+        ],
+        "confidence": 1,
+        "text": "• Non overlapping clocks"
+      },
+      {
+        "bbox": [
+          0.5270270226351351,
+          0.585365853902439,
+          0.8783783739864864,
+          0.634146341707317
+        ],
+        "confidence": 1,
+        "text": "• Switches are MOSTs"
+      },
+      {
+        "bbox": [
+          0.6114864862162162,
+          0.6682926831707316,
+          0.6385135132432432,
+          0.7121951221951218
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "T"
+      },
+      {
+        "bbox": [
+          0.7263513511824324,
+          0.6682926824390244,
+          0.7466216214527027,
+          0.7073170726829269
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.543918919527027,
+          0.7121951216585366,
+          0.6047297303378378,
+          0.7609756094634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R ="
+      },
+      {
+        "bbox": [
+          0.672297297508446,
+          0.7219512198170731,
+          0.6959459461570947,
+          0.7463414637195122
+        ],
+        "confidence": 1,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.7060810811776062,
+          0.7560975614634146,
+          0.766891891988417,
+          0.8243902443902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f.C"
+      },
+      {
+        "bbox": [
+          0.5067567621199323,
+          0.8780487801219512,
+          0.9358108161739862,
+          0.9170731703658537
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "For C = 1 pF & f, = 100 kHz R= 10 MQ"
+      },
+      {
+        "bbox": [
+          0.7225571670716541,
+          0.9459264944996895,
+          0.929556984481685,
+          0.9868160251467812
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s N173"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is true for low frequencies which are very low compared to the clock frequency.",
+      "pdf_page": 476,
+      "printed_page": 486,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "For 100 kHz and 1 pF we already find a resistance of 10 MV, a value which is impossible to integrate otherwise.",
+      "pdf_page": 476,
+      "printed_page": 486,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0476_01_173.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Its average however, I , can be regarded as an average current flowing from the av input to the output terminal, as a result of the voltage difference V −V .",
+      "pdf_page": 476,
+      "printed_page": 486,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It can be increased in size for small values of clock c frequency and capacitor.",
+      "pdf_page": 476,
+      "printed_page": 486,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Switching a capacitor in and out at the rate of a highfrequency clock passes a charge, which is peaked.",
+      "pdf_page": 476,
+      "printed_page": 486,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Indeed, a clock is taken with frequency f , which has c two non-overlapping phases W1 and W2, which are both somewhat smaller than half the period T . c Charging capacitor C to voltage V during phase W1 1 and discharging capacitor C to voltage V during 2 phase W2, passes a charge C(V −V ) from the input 1 2 to the output terminal during period T . c The current which flows out of the output terminal is peaked, as it only flows at the beginning of phase W2.",
+      "pdf_page": 476,
+      "printed_page": 486,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "It can be regarded as 1 2 a current flowing between a voltage V −V because of a resistor R. 1 2 A switched capacitor now behaves as a resistor, provided averages are taken.",
+      "pdf_page": 476,
+      "printed_page": 486,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-173-M01",
+      "ocr_text": "av=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08108108019425678,
+        0.6390243895121951,
+        0.15878378289695946,
+        0.6975609748780488
+      ],
+      "context_crop": "regions/SANSEN-173_math_01.png",
+      "context_bbox_normalized": [
+        0.041081080194256776,
+        0.5390243895121951,
+        0.3887837828969595,
+        0.8275609748780488
+      ],
+      "source_image": "slides/p0476_01_173.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-173-M02",
+      "ocr_text": "lav=",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.08108108019425678,
+        0.8097560967682927,
+        0.15878378289695946,
+        0.8731707309146343
+      ],
+      "context_crop": "regions/SANSEN-173_math_02.png",
+      "context_bbox_normalized": [
+        0.041081080194256776,
+        0.7097560967682928,
+        0.3887837828969595,
+        0.93
+      ],
+      "source_image": "slides/p0476_01_173.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-173-M03",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.24324324265202704,
+        0.6390243903658536,
+        0.29054053994932433,
+        0.678048780609756
+      ],
+      "context_crop": "regions/SANSEN-173_math_03.png",
+      "context_bbox_normalized": [
+        0.20324324265202703,
+        0.5390243903658536,
+        0.5205405399493244,
+        0.808048780609756
+      ],
+      "source_image": "slides/p0476_01_173.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-173-M04",
+      "ocr_text": "Tc = 1/fc",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7297297279983109,
+        0.19999999999999996,
+        0.8682432415118244,
+        0.25853658536585367
+      ],
+      "context_crop": "regions/SANSEN-173_math_04.png",
+      "context_bbox_normalized": [
+        0.6897297279983109,
+        0.13,
+        1,
+        0.38853658536585367
+      ],
+      "source_image": "slides/p0476_01_173.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-173-M05",
+      "ocr_text": "R =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.543918919527027,
+        0.7121951216585366,
+        0.6047297303378378,
+        0.7609756094634147
+      ],
+      "context_crop": "regions/SANSEN-173_math_05.png",
+      "context_bbox_normalized": [
+        0.5039189195270269,
+        0.6121951216585366,
+        0.8347297303378378,
+        0.8909756094634147
+      ],
+      "source_image": "slides/p0476_01_173.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-173-M06",
+      "ocr_text": "=",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.672297297508446,
+        0.7219512198170731,
+        0.6959459461570947,
+        0.7463414637195122
+      ],
+      "context_crop": "regions/SANSEN-173_math_06.png",
+      "context_bbox_normalized": [
+        0.632297297508446,
+        0.6219512198170731,
+        0.9259459461570947,
+        0.8763414637195122
+      ],
+      "source_image": "slides/p0476_01_173.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-173-M07",
+      "ocr_text": "For C = 1 pF & f, = 100 kHz R= 10 MQ",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5067567621199323,
+        0.8780487801219512,
+        0.9358108161739862,
+        0.9170731703658537
+      ],
+      "context_crop": "regions/SANSEN-173_math_07.png",
+      "context_bbox_normalized": [
+        0.4667567621199323,
+        0.7780487801219512,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0476_01_173.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Switched-capacitor filters"
+}

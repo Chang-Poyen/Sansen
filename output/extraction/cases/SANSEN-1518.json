@@ -1,0 +1,610 @@
+{
+  "case_id": "SANSEN-1518",
+  "slide_id": "1518",
+  "chapter": 15,
+  "slide_number_in_chapter": 18,
+  "source": {
+    "pdf_page": 421,
+    "printed_page": 429
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0422_01_1518.jpg",
+      "pdf_page": 422,
+      "printed_page": 430,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 421,
+      "printed_page": 429,
+      "bbox_pt": [
+        0,
+        570.9485000000002,
+        595,
+        797
+      ],
+      "text_raw": "In order to calculate the CMRR, we need to calculate the gain A . A common-mode input\ndc\nvoltage v is then applied and the differential output voltage v is measured.\ninc od\nIt is clear that no differential output voltage v can be detected if no delta’s occur. Both input\nod\nGates and the common-Source point carry the same signal. The currents in both transistors are\nnow the same and for equal load resistors R the output voltages are also the same. The\nL\ndifferential output voltage is then zero.\nLet us assume that a difference in load resistor is now present. Both transistors are still equal.\nIn this, case the input voltage v causes a small current i to flow through the output resistance\ninc c\nR of the current source. This current is divided equally through both transistors and reaches\nB",
+      "text": "In order to calculate the CMRR, we need to calculate the gain A . A common-mode input dc voltage v is then applied and the differential output voltage v is measured. inc od It is clear that no differential output voltage v can be detected if no delta’s occur. Both input od Gates and the common-Source point carry the same signal. The currents in both transistors are now the same and for equal load resistors R the output voltages are also the same. The L differential output voltage is then zero. Let us assume that a difference in load resistor is now present. Both transistors are still equal. In this, case the input voltage v causes a small current i to flow through the output resistance inc c R of the current source. This current is divided equally through both transistors and reaches B"
+    },
+    {
+      "pdf_page": 422,
+      "printed_page": 430,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        381.61350000000004
+      ],
+      "text_raw": "the output resistors. A\ndifferential output voltage\nv thus develops as given in\nod\nthis slide. Gain A is thus\ndc\nreadily obtained.\nDivision by the differ-\nential gain g R , yields the\nm L\nCMRR.\nIt is clear that the CMRR\ndepends on the output resis-\ntance of the current source.\nIt can be made large by use\nof cascodes.\nAs an example, for a g R\nm B\nof 30 and a DR /R of 1%,\nL L\nthe CMRR is about 6000\nor 75 dB.",
+      "text": "the output resistors. A differential output voltage v thus develops as given in od this slide. Gain A is thus dc readily obtained. Division by the differential gain g R , yields the m L CMRR. It is clear that the CMRR depends on the output resistance of the current source. It can be made large by use of cascodes. As an example, for a g R m B of 30 and a DR /R of 1%, L L the CMRR is about 6000 or 75 dB."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to calculate the CMRR, we need to calculate the gain A . A common-mode input dc voltage v is then applied and the differential output voltage v is measured. inc od It is clear that no differential output voltage v can be detected if no delta’s occur. Both input od Gates and the common-Source point carry the same signal. The currents in both transistors are now the same and for equal load resistors R the output voltages are also the same. The L differential output voltage is then zero. Let us assume that a difference in load resistor is now present. Both transistors are still equal. In this, case the input voltage v causes a small current i to flow through the output resistance inc c R of the current source. This current is divided equally through both transistors and reaches B\n\nthe output resistors. A differential output voltage v thus develops as given in od this slide. Gain A is thus dc readily obtained. Division by the differential gain g R , yields the m L CMRR. It is clear that the CMRR depends on the output resistance of the current source. It can be made large by use of cascodes. As an example, for a g R m B of 30 and a DR /R of 1%, L L the CMRR is about 6000 or 75 dB.",
+  "schema_version": "1.0",
+  "chapter_title": "失调与共模抑制比：随机误差及系统误差",
+  "title": "Random CMRR in differential pair -2",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0422_01_1518.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432433006756742,
+          0.08780487884146337,
+          0.7364864922297296,
+          0.1512195129878049
+        ],
+        "confidence": 1,
+        "text": "Random CMRR in differential pair -2"
+      },
+      {
+        "bbox": [
+          0.1655405410472973,
+          0.25365853658536586,
+          0.216216216722973,
+          0.31219512195121957
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.10810810912162158,
+          0.34146341455284557,
+          0.1689189199324324,
+          0.38536585357723574
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vo1"
+      },
+      {
+        "bbox": [
+          0.1655405408445946,
+          0.38536585292682923,
+          0.2432432435472973,
+          0.45853658463414626
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ic2,"
+      },
+      {
+        "bbox": [
+          0.2972972971283784,
+          0.3756097557317073,
+          0.31756756739864866,
+          0.40487804841463415
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.253378378856982,
+          0.41463414613821137,
+          0.31081081128941446,
+          0.45853658516260165
+        ],
+        "confidence": 0.5,
+        "text": "Vod"
+      },
+      {
+        "bbox": [
+          0.3547297283361487,
+          0.27804878060975613,
+          0.4662162148226352,
+          0.3268292684146341
+        ],
+        "confidence": 0.5,
+        "text": "RL+AR"
+      },
+      {
+        "bbox": [
+          0.4121621625723938,
+          0.3414634144250872,
+          0.46959459500482625,
+          0.3902439022299652
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vo2"
+      },
+      {
+        "bbox": [
+          0.341216215472973,
+          0.38536585297560977,
+          0.422297296554054,
+          0.453658535902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ic12"
+      },
+      {
+        "bbox": [
+          0.08783783837837837,
+          0.4585365852682928,
+          0.14189189243243244,
+          0.49756097551219525
+        ],
+        "confidence": 1,
+        "text": "Vinc"
+      },
+      {
+        "bbox": [
+          0.6418918924324325,
+          0.2292682924878049,
+          0.6959459464864866,
+          0.278048780292683
+        ],
+        "confidence": 0.5,
+        "text": "Vod"
+      },
+      {
+        "bbox": [
+          0.5540540547015765,
+          0.2585365850000001,
+          0.6317567574042793,
+          0.3121951215853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Adc ="
+      },
+      {
+        "bbox": [
+          0.7702702701013513,
+          0.25853658591463413,
+          0.8175675673986487,
+          0.3024390249390243
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "#0"
+      },
+      {
+        "bbox": [
+          0.6478991827700266,
+          0.289852658539409,
+          0.7890761926618458,
+          0.366586201191074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vic |Vid=0"
+      },
+      {
+        "bbox": [
+          0.553933993743732,
+          0.42860101059813305,
+          0.6825524918499926,
+          0.4787160632632852
+        ],
+        "confidence": 0.5,
+        "text": "Vic = Vinc"
+      },
+      {
+        "bbox": [
+          0.7804054056467182,
+          0.42439024379790946,
+          0.814189189430502,
+          0.47804878038327525
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ic"
+      },
+      {
+        "bbox": [
+          0.5540540520270271,
+          0.5414634148292683,
+          0.7567567547297298,
+          0.600000000195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vod = ARL i_/2"
+      },
+      {
+        "bbox": [
+          0.8479729734515765,
+          0.39024390235772355,
+          0.905405405884009,
+          0.43902439016260164
+        ],
+        "confidence": 0.5,
+        "text": "Vinc"
+      },
+      {
+        "bbox": [
+          0.8513513509712838,
+          0.45853658463414626,
+          0.8952702698902026,
+          0.51707317
+        ],
+        "confidence": 0.5,
+        "text": "RB"
+      },
+      {
+        "bbox": [
+          0.15878378384009012,
+          0.6634146335772357,
+          0.21283783789414418,
+          0.731707316504065
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ict"
+      },
+      {
+        "bbox": [
+          0.15202702756756756,
+          0.7463414632682928,
+          0.20608108162162161,
+          0.7999999998536585
+        ],
+        "confidence": 0.5,
+        "text": "RB"
+      },
+      {
+        "bbox": [
+          0.33445945976914415,
+          0.7463414632113821,
+          0.3716216219313063,
+          0.7999999997967479
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Iв"
+      },
+      {
+        "bbox": [
+          0.4662162166666667,
+          0.7121951219105691,
+          0.5202702707207207,
+          0.765853658495935
+        ],
+        "confidence": 1,
+        "text": "Adc"
+      },
+      {
+        "bbox": [
+          0.5202702701689189,
+          0.717073170487805,
+          0.5439189188175676,
+          0.741463414390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.5608108117398648,
+          0.6780487807317073,
+          0.6351351360641891,
+          0.7365853660975609
+        ],
+        "confidence": 0.5,
+        "text": "ARL"
+      },
+      {
+        "bbox": [
+          0.557432431722973,
+          0.7414634146829269,
+          0.6283783776689189,
+          0.7951219512682928
+        ],
+        "confidence": 0.5,
+        "text": "2 RB"
+      },
+      {
+        "bbox": [
+          0.6754937314792407,
+          0.701442603879527,
+          0.814371136181917,
+          0.7570939801850838
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CMRR ="
+      },
+      {
+        "bbox": [
+          0.8074324337837837,
+          0.6731707324999999,
+          0.9222972986486486,
+          0.7365853666463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2 9m RB"
+      },
+      {
+        "bbox": [
+          0.807125491835812,
+          0.7547795596865889,
+          0.9158474826788889,
+          0.8110740986032
+        ],
+        "confidence": 1,
+        "text": "ARL/RL"
+      },
+      {
+        "bbox": [
+          0.7094594621199324,
+          0.946341463109756,
+          0.9222972999577702,
+          0.9804878045731706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Willy Sansen 100s 1518"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In order to calculate the CMRR, we need to calculate the gain A .",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0422_01_1518.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Both input od Gates and the common-Source point carry the same signal.",
+        "pdf_page": 421,
+        "printed_page": 429,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In this, case the input voltage v causes a small current i to flow through the output resistance inc c R of the current source.",
+        "pdf_page": 421,
+        "printed_page": 429,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "It is clear that the CMRR depends on the output resistance of the current source.",
+        "pdf_page": 422,
+        "printed_page": 430,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In order to calculate the CMRR, we need to calculate the gain A .",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The currents in both transistors are now the same and for equal load resistors R the output voltages are also the same.",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Both transistors are still equal.",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This current is divided equally through both transistors and reaches B",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "A differential output voltage v thus develops as given in od this slide.",
+      "pdf_page": 422,
+      "printed_page": 430,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Gain A is thus dc readily obtained.",
+      "pdf_page": 422,
+      "printed_page": 430,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Division by the differential gain g R , yields the m L CMRR.",
+      "pdf_page": 422,
+      "printed_page": 430,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is clear that the CMRR depends on the output resistance of the current source.",
+      "pdf_page": 422,
+      "printed_page": 430,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "Let us assume that a difference in load resistor is now present.",
+      "pdf_page": 421,
+      "printed_page": 429,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1518-M01",
+      "ocr_text": "Adc =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5540540547015765,
+        0.2585365850000001,
+        0.6317567574042793,
+        0.3121951215853659
+      ],
+      "context_crop": "regions/SANSEN-1518_math_01.png",
+      "context_bbox_normalized": [
+        0.5140540547015765,
+        0.1585365850000001,
+        0.8617567574042793,
+        0.4421951215853659
+      ],
+      "source_image": "slides/p0422_01_1518.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1518-M02",
+      "ocr_text": "Vic |Vid=0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6478991827700266,
+        0.289852658539409,
+        0.7890761926618458,
+        0.366586201191074
+      ],
+      "context_crop": "regions/SANSEN-1518_math_02.png",
+      "context_bbox_normalized": [
+        0.6078991827700265,
+        0.189852658539409,
+        1,
+        0.496586201191074
+      ],
+      "source_image": "slides/p0422_01_1518.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1518-M03",
+      "ocr_text": "Vic = Vinc",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.553933993743732,
+        0.42860101059813305,
+        0.6825524918499926,
+        0.4787160632632852
+      ],
+      "context_crop": "regions/SANSEN-1518_math_03.png",
+      "context_bbox_normalized": [
+        0.5139339937437319,
+        0.32860101059813307,
+        0.9125524918499925,
+        0.6087160632632852
+      ],
+      "source_image": "slides/p0422_01_1518.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1518-M04",
+      "ocr_text": "Vod = ARL i_/2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5540540520270271,
+        0.5414634148292683,
+        0.7567567547297298,
+        0.600000000195122
+      ],
+      "context_crop": "regions/SANSEN-1518_math_04.png",
+      "context_bbox_normalized": [
+        0.514054052027027,
+        0.4414634148292683,
+        0.9867567547297298,
+        0.730000000195122
+      ],
+      "source_image": "slides/p0422_01_1518.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1518-M05",
+      "ocr_text": "=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5202702701689189,
+        0.717073170487805,
+        0.5439189188175676,
+        0.741463414390244
+      ],
+      "context_crop": "regions/SANSEN-1518_math_05.png",
+      "context_bbox_normalized": [
+        0.48027027016891893,
+        0.617073170487805,
+        0.7739189188175676,
+        0.871463414390244
+      ],
+      "source_image": "slides/p0422_01_1518.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1518-M06",
+      "ocr_text": "CMRR =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6754937314792407,
+        0.701442603879527,
+        0.814371136181917,
+        0.7570939801850838
+      ],
+      "context_crop": "regions/SANSEN-1518_math_06.png",
+      "context_bbox_normalized": [
+        0.6354937314792407,
+        0.601442603879527,
+        1,
+        0.8870939801850838
+      ],
+      "source_image": "slides/p0422_01_1518.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Offset and CMRR: random and systematic"
+}

@@ -1,0 +1,167 @@
+{
+  "case_id": "SANSEN-1238",
+  "slide_id": "1238",
+  "chapter": 12,
+  "slide_number_in_chapter": 38,
+  "source": {
+    "pdf_page": 349,
+    "printed_page": 356
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0349_01_1238.jpg",
+      "pdf_page": 349,
+      "printed_page": 356,
+      "bbox_pt": [
+        91.521622,
+        206.13336200000003,
+        374.78981,
+        402.593353
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 349,
+      "printed_page": 356,
+      "bbox_pt": [
+        0,
+        202.14374999999984,
+        595,
+        427.45250000000004
+      ],
+      "text_raw": "More recent technologies\nuse smaller channel lengths.\nAs a consequence, the\nsupply voltage has become\nsmaller as well. There is a\nneed for class-AB stages for\nsupply voltages of 1.5 V\nand less.\nTranslinear circuits can-\nnot be used any more.\nSeveral examples are given\nnext.",
+      "text": "More recent technologies use smaller channel lengths. As a consequence, the supply voltage has become smaller as well. There is a need for class-AB stages for supply voltages of 1.5 V and less. Translinear circuits cannot be used any more. Several examples are given next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "More recent technologies use smaller channel lengths. As a consequence, the supply voltage has become smaller as well. There is a need for class-AB stages for supply voltages of 1.5 V and less. Translinear circuits cannot be used any more. Several examples are given next.",
+  "schema_version": "1.0",
+  "chapter_title": "AB 类放大器与驱动放大器",
+  "title": "Slide 1238",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0349_01_1238.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07426716284805253,
+          0.08261751994435751,
+          0.2128950012921179,
+          0.13689467482032225
+        ],
+        "confidence": 1,
+        "text": "Outline"
+      },
+      {
+        "bbox": [
+          0.16216215675675683,
+          0.26829268321951216,
+          0.7027026972972974,
+          0.31707317102439014
+        ],
+        "confidence": 1,
+        "text": "• Problems of class AB drivers"
+      },
+      {
+        "bbox": [
+          0.16216216507601341,
+          0.3512195129268293,
+          0.5709459488597972,
+          0.4097560982926829
+        ],
+        "confidence": 1,
+        "text": "• Cross-coupled quads"
+      },
+      {
+        "bbox": [
+          0.16554054451013503,
+          0.43414634219512194,
+          0.48986486883445934,
+          0.49268292756097565
+        ],
+        "confidence": 1,
+        "text": "• Adaptive biasing"
+      },
+      {
+        "bbox": [
+          0.15833334041708436,
+          0.5170731713009701,
+          0.8625000105204153,
+          0.5853658542277993
+        ],
+        "confidence": 1,
+        "text": "• la control with translinear circuits, etc."
+      },
+      {
+        "bbox": [
+          0.16216216908783776,
+          0.5999999998048781,
+          0.8547297366554053,
+          0.6585365851707317
+        ],
+        "confidence": 1,
+        "text": "• Current feedback and other principles"
+      },
+      {
+        "bbox": [
+          0.16216216219031532,
+          0.687804878495935,
+          0.6250000000281531,
+          0.7414634150813008
+        ],
+        "confidence": 1,
+        "text": "• Low-Voltage realizations"
+      },
+      {
+        "bbox": [
+          0.7263513542477996,
+          0.9414634150406505,
+          0.9391891791981468,
+          0.9853658540650406
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 1238"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0349_01_1238.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Class AB and driver amplifiers"
+}

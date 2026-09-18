@@ -1,0 +1,382 @@
+{
+  "case_id": "SANSEN-2440",
+  "slide_id": "2440",
+  "chapter": 24,
+  "slide_number_in_chapter": 40,
+  "source": {
+    "pdf_page": 751,
+    "printed_page": 763
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0751_01_2440.jpg",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "bbox_pt": [
+        91.521622,
+        235.13140900000008,
+        374.78981,
+        431.5914
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 751,
+      "printed_page": 763,
+      "bbox_pt": [
+        0,
+        231.14189999999974,
+        595,
+        594.8645000000002
+      ],
+      "text_raw": "This Bode diagram shows\nthe gain A of an amplifier\nv\nfor a differential input. It is\nhigh at low frequencies (A )\nv0\nbut decreases with a slope of\n−20 dB/decade until the\nGBW is reached.\nThe gain A of this\nDD\namplifier is also shown with\nthe positive power supply\nv as an input. It is rather\nDD\nlow at low frequencies\n(A ) but does not change\nDD0\nall that much at high fre-\nquencies. The reason is that\nat high frequencies, capaci-\ntive coupling prevents the output voltage to become really small. The output becomes constant\nas a result of a ratio of some capacitors, usually the load capacitor C and some parasitic\nL\ncoupling capacitor C . If C is 2 pF and C is 0.1 pF, the ratio is now 20 or 26 dB.\nn L n\nThe PSRR is now defined as the ratio of the gain A to the differential input to the gain A\nv DD\nof the supply voltage. It is high at low frequencies and low at high frequencies. At the GBW\nhowever, the gain A is unity. At this frequency, the PSRR equals the inverse of the gain A .\nv DD\nIt is an excellent measure of the PSRR at high frequencies.\nFor the example in this slide, the PSRR is 26 dB at the GBW.\nAt this frequency, the PSRR is rather small, because it is a ratio of two capacitors, the load\ncapacitor and some parasitic coupling capacitor.",
+      "text": "This Bode diagram shows the gain A of an amplifier v for a differential input. It is high at low frequencies (A ) v0 but decreases with a slope of −20 dB/decade until the GBW is reached. The gain A of this DD amplifier is also shown with the positive power supply v as an input. It is rather DD low at low frequencies (A ) but does not change DD0 all that much at high frequencies. The reason is that at high frequencies, capacitive coupling prevents the output voltage to become really small. The output becomes constant as a result of a ratio of some capacitors, usually the load capacitor C and some parasitic L coupling capacitor C . If C is 2 pF and C is 0.1 pF, the ratio is now 20 or 26 dB. n L n The PSRR is now defined as the ratio of the gain A to the differential input to the gain A v DD of the supply voltage. It is high at low frequencies and low at high frequencies. At the GBW however, the gain A is unity. At this frequency, the PSRR equals the inverse of the gain A . v DD It is an excellent measure of the PSRR at high frequencies. For the example in this slide, the PSRR is 26 dB at the GBW. At this frequency, the PSRR is rather small, because it is a ratio of two capacitors, the load capacitor and some parasitic coupling capacitor."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This Bode diagram shows the gain A of an amplifier v for a differential input. It is high at low frequencies (A ) v0 but decreases with a slope of −20 dB/decade until the GBW is reached. The gain A of this DD amplifier is also shown with the positive power supply v as an input. It is rather DD low at low frequencies (A ) but does not change DD0 all that much at high frequencies. The reason is that at high frequencies, capacitive coupling prevents the output voltage to become really small. The output becomes constant as a result of a ratio of some capacitors, usually the load capacitor C and some parasitic L coupling capacitor C . If C is 2 pF and C is 0.1 pF, the ratio is now 20 or 26 dB. n L n The PSRR is now defined as the ratio of the gain A to the differential input to the gain A v DD of the supply voltage. It is high at low frequencies and low at high frequencies. At the GBW however, the gain A is unity. At this frequency, the PSRR equals the inverse of the gain A . v DD It is an excellent measure of the PSRR at high frequencies. For the example in this slide, the PSRR is 26 dB at the GBW. At this frequency, the PSRR is rather small, because it is a ratio of two capacitors, the load capacitor and some parasitic coupling capacitor.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "PSRR : definitions",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0751_01_2440.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07094594180743251,
+          0.08292682945121954,
+          0.4020270228885136,
+          0.13658536603658533
+        ],
+        "confidence": 1,
+        "text": "PSRR : definitions"
+      },
+      {
+        "bbox": [
+          0.08783783752815316,
+          0.20975609780487803,
+          0.12499999969031532,
+          0.26829268317073174
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A"
+      },
+      {
+        "bbox": [
+          0.12162161980574329,
+          0.2048780490853659,
+          0.26689189007601355,
+          0.2585365856707318
+        ],
+        "confidence": 0.5,
+        "text": "4 PSRRo"
+      },
+      {
+        "bbox": [
+          0.16891891955236485,
+          0.35121951219512193,
+          0.2195945952280405,
+          0.4
+        ],
+        "confidence": 1,
+        "text": "Avo"
+      },
+      {
+        "bbox": [
+          0.37500000054898647,
+          0.42439024390243896,
+          0.4189189194679054,
+          0.47317073170731705
+        ],
+        "confidence": 0.5,
+        "text": "Av"
+      },
+      {
+        "bbox": [
+          0.27027026953828837,
+          0.6292682930081301,
+          0.3141891884572073,
+          0.6585365856910569
+        ],
+        "confidence": 1,
+        "text": "BW"
+      },
+      {
+        "bbox": [
+          0.08108108091216215,
+          0.648780487707317,
+          0.13175675658783784,
+          0.6780487803902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0 dB"
+      },
+      {
+        "bbox": [
+          0.16216216296452698,
+          0.7512195128658536,
+          0.23310810891047293,
+          0.8048780494512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ADDo"
+      },
+      {
+        "bbox": [
+          0.3648648653153153,
+          0.7756097560162601,
+          0.41891891936936937,
+          0.8243902438211382
+        ],
+        "confidence": 1,
+        "text": "ADD"
+      },
+      {
+        "bbox": [
+          0.533783785304054,
+          0.2634146334756098,
+          0.6959459474662162,
+          0.3170731700609757
+        ],
+        "confidence": 0.5,
+        "text": "PSRR ="
+      },
+      {
+        "bbox": [
+          0.7229729727759009,
+          0.20487804833333334,
+          0.7601351349380631,
+          0.25853658491869913
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,"
+      },
+      {
+        "bbox": [
+          0.7128378372635136,
+          0.3024390237073171,
+          0.7837837832094595,
+          0.37073170663414634
+        ],
+        "confidence": 1,
+        "text": "ADD"
+      },
+      {
+        "bbox": [
+          0.533783782179054,
+          0.4439024392073171,
+          0.6621621605574324,
+          0.4975609757926829
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "PSRR"
+      },
+      {
+        "bbox": [
+          0.6554054043074324,
+          0.48780487823170726,
+          0.7432432421452703,
+          0.5317073172560975
+        ],
+        "confidence": 1,
+        "text": "IGBW"
+      },
+      {
+        "bbox": [
+          0.5168918911317567,
+          0.6292682929268292,
+          0.5777027019425676,
+          0.658536585609756
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.6452702705839768,
+          0.8439024388850174,
+          0.6891891895028958,
+          0.8926829266898955
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.7499615126669537,
+          0.6388012884621758,
+          0.9122006518114387,
+          0.6977840771063617
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ADDIGBW"
+      },
+      {
+        "bbox": [
+          0.8614864860472974,
+          0.7365853652682928,
+          0.912162161722973,
+          0.7951219506341465
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.8614864869932433,
+          0.8195121950243902,
+          0.9121621626689189,
+          0.8682926828292682
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cn"
+      },
+      {
+        "bbox": [
+          0.7297297323902026,
+          0.9512195118902438,
+          0.9425675702280405,
+          0.9853658533536584
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 2440"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This Bode diagram shows the gain A of an amplifier v for a differential input.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain A of this DD amplifier is also shown with the positive power supply v as an input.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0751_01_2440.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This Bode diagram shows the gain A of an amplifier v for a differential input.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is high at low frequencies (A ) v0 but decreases with a slope of −20 dB/decade until the GBW is reached.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The gain A of this DD amplifier is also shown with the positive power supply v as an input.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The output becomes constant as a result of a ratio of some capacitors, usually the load capacitor C and some parasitic L coupling capacitor C .",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If C is 2 pF and C is 0.1 pF, the ratio is now 20 or 26 dB. n L n The PSRR is now defined as the ratio of the gain A to the differential input to the gain A v DD of the supply voltage.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "At the GBW however, the gain A is unity.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "At this frequency, the PSRR equals the inverse of the gain A . v DD It is an excellent measure of the PSRR at high frequencies.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "This Bode diagram shows the gain A of an amplifier v for a differential input.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is high at low frequencies (A ) v0 but decreases with a slope of −20 dB/decade until the GBW is reached.",
+      "pdf_page": 751,
+      "printed_page": 763,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2440-M01",
+      "ocr_text": "PSRR =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.533783785304054,
+        0.2634146334756098,
+        0.6959459474662162,
+        0.3170731700609757
+      ],
+      "context_crop": "regions/SANSEN-2440_math_01.png",
+      "context_bbox_normalized": [
+        0.49378378530405403,
+        0.16341463347560978,
+        0.9259459474662162,
+        0.4470731700609757
+      ],
+      "source_image": "slides/p0751_01_2440.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

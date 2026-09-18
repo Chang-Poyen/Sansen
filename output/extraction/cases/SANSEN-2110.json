@@ -1,0 +1,429 @@
+{
+  "case_id": "SANSEN-2110",
+  "slide_id": "2110",
+  "chapter": 21,
+  "slide_number_in_chapter": 10,
+  "source": {
+    "pdf_page": 631,
+    "printed_page": 642
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0631_01_2110.jpg",
+      "pdf_page": 631,
+      "printed_page": 642,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 631,
+      "printed_page": 642,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        445.3895000000003
+      ],
+      "text_raw": "The values of the SNR\nwhich can be achieved\ndepending on the values of\nthe three design variables\nare given in this slide.\nHowever, for all of them\nsingle-bit quantization is\ntaken.\nThe SNR is given versus\nthe OSR and for different\norders of noise-shaping. The\nhigher the OSR and the\nnoise-shaping order, the\nhigher the SNR.\nThe same SNR can there-\nfore be achieved for either\nhigher OSR or for higher noise-shaping. For example, 80 dB SNR (corresponding to 13 bit\nresolution) can be realized by either an OSR of only 14 requiring 4th order noise shaping, or by\nan OSR of 50 allowing only 2nd order noise shaping. Which one is preferable?\nFourth-order noise shaping may require a Mash topology, which requires tougher matching\nconditions. High OSR values on the other hand, require higher-speed opamps which require\nmore power consumption.\nThis is the trade-off. For high-speed Sigma-Delta converters low values of OSR’s are preferred,\nleading to stability and matching considerations. For low-power Sigma-Delta converters, low\nvalues of OSR’s are also preferred, leading to similar considerations.",
+      "text": "The values of the SNR which can be achieved depending on the values of the three design variables are given in this slide. However, for all of them single-bit quantization is taken. The SNR is given versus the OSR and for different orders of noise-shaping. The higher the OSR and the noise-shaping order, the higher the SNR. The same SNR can therefore be achieved for either higher OSR or for higher noise-shaping. For example, 80 dB SNR (corresponding to 13 bit resolution) can be realized by either an OSR of only 14 requiring 4th order noise shaping, or by an OSR of 50 allowing only 2nd order noise shaping. Which one is preferable? Fourth-order noise shaping may require a Mash topology, which requires tougher matching conditions. High OSR values on the other hand, require higher-speed opamps which require more power consumption. This is the trade-off. For high-speed Sigma-Delta converters low values of OSR’s are preferred, leading to stability and matching considerations. For low-power Sigma-Delta converters, low values of OSR’s are also preferred, leading to similar considerations."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The values of the SNR which can be achieved depending on the values of the three design variables are given in this slide. However, for all of them single-bit quantization is taken. The SNR is given versus the OSR and for different orders of noise-shaping. The higher the OSR and the noise-shaping order, the higher the SNR. The same SNR can therefore be achieved for either higher OSR or for higher noise-shaping. For example, 80 dB SNR (corresponding to 13 bit resolution) can be realized by either an OSR of only 14 requiring 4th order noise shaping, or by an OSR of 50 allowing only 2nd order noise shaping. Which one is preferable? Fourth-order noise shaping may require a Mash topology, which requires tougher matching conditions. High OSR values on the other hand, require higher-speed opamps which require more power consumption. This is the trade-off. For high-speed Sigma-Delta converters low values of OSR’s are preferred, leading to stability and matching considerations. For low-power Sigma-Delta converters, low values of OSR’s are also preferred, leading to similar considerations.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "SNR vs OSR for single-bit EA",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0631_01_2110.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432645270266,
+          0.08292682990243905,
+          0.5979729751013513,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "SNR vs OSR for single-bit EA"
+      },
+      {
+        "bbox": [
+          0.08445945977316602,
+          0.1853658534494773,
+          0.12837837869208493,
+          0.2243902436933798
+        ],
+        "confidence": 1,
+        "text": "200"
+      },
+      {
+        "bbox": [
+          0.07427600407006954,
+          0.25338560485536377,
+          0.19261589060653886,
+          0.29783391077622046
+        ],
+        "confidence": 1,
+        "text": "SNR (dB)"
+      },
+      {
+        "bbox": [
+          0.08445945924831083,
+          0.3170731712195122,
+          0.12837837816722975,
+          0.35609756146341454
+        ],
+        "confidence": 1,
+        "text": "160"
+      },
+      {
+        "bbox": [
+          0.20945945933277027,
+          0.2634146346341464,
+          0.2533783782516892,
+          0.30243902487804875
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B=1"
+      },
+      {
+        "bbox": [
+          0.08445945974903474,
+          0.443902438815331,
+          0.12500000028957528,
+          0.48292682905923345
+        ],
+        "confidence": 1,
+        "text": "120"
+      },
+      {
+        "bbox": [
+          0.15878378270270274,
+          0.49268292697560967,
+          0.26689189081081083,
+          0.536585366
+        ],
+        "confidence": 1,
+        "text": "Stability"
+      },
+      {
+        "bbox": [
+          0.6451508840069571,
+          0.5019652543799158,
+          0.746741008343406,
+          0.5565713292015741
+        ],
+        "confidence": 1,
+        "text": "Power"
+      },
+      {
+        "bbox": [
+          0.0945945947635135,
+          0.5756097563763065,
+          0.1250000001689189,
+          0.614634146620209
+        ],
+        "confidence": 1,
+        "text": "80"
+      },
+      {
+        "bbox": [
+          0.8750000000337839,
+          0.22926829239024382,
+          0.9121621621959459,
+          0.2585365850731707
+        ],
+        "confidence": 0.5,
+        "text": "n=5"
+      },
+      {
+        "bbox": [
+          0.875000000126689,
+          0.3268292679268292,
+          0.9121621622888512,
+          0.35609756060975606
+        ],
+        "confidence": 0.5,
+        "text": "n=4"
+      },
+      {
+        "bbox": [
+          0.8716216216216216,
+          0.43414634117886175,
+          0.9121621621621622,
+          0.4682926826422764
+        ],
+        "confidence": 1,
+        "text": "n=3"
+      },
+      {
+        "bbox": [
+          0.8716216216216216,
+          0.5414634143495936,
+          0.9121621621621622,
+          0.5756097558130081
+        ],
+        "confidence": 1,
+        "text": "n=2"
+      },
+      {
+        "bbox": [
+          0.8749999995354729,
+          0.6390243904878048,
+          0.9121621616976351,
+          0.6682926831707316
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "n=1"
+      },
+      {
+        "bbox": [
+          0.0945945948902027,
+          0.7024390248780488,
+          0.1250000002956081,
+          0.7414634151219512
+        ],
+        "confidence": 1,
+        "text": "40"
+      },
+      {
+        "bbox": [
+          0.10810810788288289,
+          0.8292682919512195,
+          0.12837837815315317,
+          0.8731707309756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0"
+      },
+      {
+        "bbox": [
+          0.12162162157939191,
+          0.8682926834756097,
+          0.15878378374155408,
+          0.9121951225
+        ],
+        "confidence": 1,
+        "text": "10"
+      },
+      {
+        "bbox": [
+          0.33783783745777024,
+          0.8682926823780488,
+          0.3749999996199324,
+          0.912195121402439
+        ],
+        "confidence": 1,
+        "text": "20"
+      },
+      {
+        "bbox": [
+          0.4695945951858108,
+          0.8682926834756097,
+          0.8952702708614864,
+          0.9121951225
+        ],
+        "confidence": 1,
+        "text": "30 Oversampling ratio OSR 100"
+      },
+      {
+        "bbox": [
+          0.7263513539695946,
+          0.941463414390244,
+          0.935810813429054,
+          0.9707317070731708
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 2110"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0631_01_2110.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The values of the SNR which can be achieved depending on the values of the three design variables are given in this slide.",
+      "pdf_page": 631,
+      "printed_page": 642,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The same SNR can therefore be achieved for either higher OSR or for higher noise-shaping.",
+      "pdf_page": 631,
+      "printed_page": 642,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2110-M01",
+      "ocr_text": "B=1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.20945945933277027,
+        0.2634146346341464,
+        0.2533783782516892,
+        0.30243902487804875
+      ],
+      "context_crop": "regions/SANSEN-2110_math_01.png",
+      "context_bbox_normalized": [
+        0.16945945933277026,
+        0.16341463463414638,
+        0.48337837825168917,
+        0.43243902487804875
+      ],
+      "source_image": "slides/p0631_01_2110.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2110-M02",
+      "ocr_text": "n=5",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.8750000000337839,
+        0.22926829239024382,
+        0.9121621621959459,
+        0.2585365850731707
+      ],
+      "context_crop": "regions/SANSEN-2110_math_02.png",
+      "context_bbox_normalized": [
+        0.8350000000337838,
+        0.13,
+        1,
+        0.3885365850731707
+      ],
+      "source_image": "slides/p0631_01_2110.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2110-M03",
+      "ocr_text": "n=4",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.875000000126689,
+        0.3268292679268292,
+        0.9121621622888512,
+        0.35609756060975606
+      ],
+      "context_crop": "regions/SANSEN-2110_math_03.png",
+      "context_bbox_normalized": [
+        0.835000000126689,
+        0.2268292679268292,
+        1,
+        0.48609756060975606
+      ],
+      "source_image": "slides/p0631_01_2110.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2110-M04",
+      "ocr_text": "n=3",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.8716216216216216,
+        0.43414634117886175,
+        0.9121621621621622,
+        0.4682926826422764
+      ],
+      "context_crop": "regions/SANSEN-2110_math_04.png",
+      "context_bbox_normalized": [
+        0.8316216216216216,
+        0.33414634117886177,
+        1,
+        0.5982926826422764
+      ],
+      "source_image": "slides/p0631_01_2110.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2110-M05",
+      "ocr_text": "n=2",
+      "confidence": 1,
+      "bbox_normalized": [
+        0.8716216216216216,
+        0.5414634143495936,
+        0.9121621621621622,
+        0.5756097558130081
+      ],
+      "context_crop": "regions/SANSEN-2110_math_05.png",
+      "context_bbox_normalized": [
+        0.8316216216216216,
+        0.4414634143495936,
+        1,
+        0.7056097558130081
+      ],
+      "source_image": "slides/p0631_01_2110.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2110-M06",
+      "ocr_text": "n=1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8749999995354729,
+        0.6390243904878048,
+        0.9121621616976351,
+        0.6682926831707316
+      ],
+      "context_crop": "regions/SANSEN-2110_math_06.png",
+      "context_bbox_normalized": [
+        0.8349999995354729,
+        0.5390243904878048,
+        1,
+        0.7982926831707317
+      ],
+      "source_image": "slides/p0631_01_2110.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

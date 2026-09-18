@@ -1,0 +1,407 @@
+{
+  "case_id": "SANSEN-0264",
+  "slide_id": "0264",
+  "chapter": 2,
+  "slide_number_in_chapter": 64,
+  "source": {
+    "pdf_page": 82,
+    "printed_page": 83
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0082_02_0264.jpg",
+      "pdf_page": 82,
+      "printed_page": 83,
+      "bbox_pt": [
+        91.521622,
+        419.3844,
+        374.78981,
+        615.844391
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 82,
+      "printed_page": 83,
+      "bbox_pt": [
+        0,
+        415.39492500000017,
+        595,
+        797
+      ],
+      "text_raw": "It is obvious that the gain\nboosting amplifier, which\nwas just one transistor\nbefore, can be replaced by a\nfull operational amplifier\nwith large gain A . Its non-\ngb\ninverting input is connected\nto a biasing voltage V . The\nB\nfeedback loop will ensure\nthat the voltage at the\nsource of transistor M2 is\nkept as constant as possible.\nIn this case, full gain is\nadded on top of the gain\ncharacteristic of the cascode.\nObviously, this is only\nrequired if real high gains are required at real low frequencies. This is the case, for example, in\nlow-distortion amplifiers at audio frequencies and below.\nHowever, the design of such a gain boosting stage is not trivial. It has its own gain A ,\ngb\nbandwidth BW , and hence GBW . We have to make sure that the GBW coincides exactly\ngb gb\nwith the BW of the original cascode amplifier, if not a pole-zero doublet occurs. Such a doublet\nis lethal for the settling time of that amplifier, as explained next.",
+      "text": "It is obvious that the gain boosting amplifier, which was just one transistor before, can be replaced by a full operational amplifier with large gain A . Its nongb inverting input is connected to a biasing voltage V . The B feedback loop will ensure that the voltage at the source of transistor M2 is kept as constant as possible. In this case, full gain is added on top of the gain characteristic of the cascode. Obviously, this is only required if real high gains are required at real low frequencies. This is the case, for example, in low-distortion amplifiers at audio frequencies and below. However, the design of such a gain boosting stage is not trivial. It has its own gain A , gb bandwidth BW , and hence GBW . We have to make sure that the GBW coincides exactly gb gb with the BW of the original cascode amplifier, if not a pole-zero doublet occurs. Such a doublet is lethal for the settling time of that amplifier, as explained next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "It is obvious that the gain boosting amplifier, which was just one transistor before, can be replaced by a full operational amplifier with large gain A . Its nongb inverting input is connected to a biasing voltage V . The B feedback loop will ensure that the voltage at the source of transistor M2 is kept as constant as possible. In this case, full gain is added on top of the gain characteristic of the cascode. Obviously, this is only required if real high gains are required at real low frequencies. This is the case, for example, in low-distortion amplifiers at audio frequencies and below. However, the design of such a gain boosting stage is not trivial. It has its own gain A , gb bandwidth BW , and hence GBW . We have to make sure that the GBW coincides exactly gb gb with the BW of the original cascode amplifier, if not a pole-zero doublet occurs. Such a doublet is lethal for the settling time of that amplifier, as explained next.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Gain boosting",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0082_02_0264.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07729564043893666,
+          0.07451113084898553,
+          0.3281097690053693,
+          0.14500106544460534
+        ],
+        "confidence": 1,
+        "text": "Gain boosting"
+      },
+      {
+        "bbox": [
+          0.15540540561655403,
+          0.2780487811585366,
+          0.2060810812922297,
+          0.3317073177439025
+        ],
+        "confidence": 1,
+        "text": "Agb"
+      },
+      {
+        "bbox": [
+          0.057432433234797284,
+          0.30731707304878053,
+          0.12162162242398647,
+          0.3560975608536585
+        ],
+        "confidence": 1,
+        "text": "+VB"
+      },
+      {
+        "bbox": [
+          0.378378377660473,
+          0.3170731700609757,
+          0.44256756684966214,
+          0.3707317066463415
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.11824324361486487,
+          0.5560975614634146,
+          0.1621621625337838,
+          0.6048780492682927
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.3040540541385135,
+          0.42439024341463416,
+          0.35135135143581075,
+          0.46341463365853663
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.31081081135979727,
+          0.5707317070731708,
+          0.3547297302787162,
+          0.6097560973170731
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.07432432662584455,
+          0.7658536583536585,
+          0.4425675698690878,
+          0.8243902437195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av = Agb(9m Ds)1(9m°Ds)2"
+      },
+      {
+        "bbox": [
+          0.46959459445945945,
+          0.1999999994146342,
+          0.5168918917567568,
+          0.2585365847804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "|AI"
+      },
+      {
+        "bbox": [
+          0.47297297250000003,
+          0.3170731701463415,
+          0.5270270265540541,
+          0.3756097555121951
+        ],
+        "confidence": 1,
+        "text": "Agb"
+      },
+      {
+        "bbox": [
+          0.5912162166554054,
+          0.1853658542439024,
+          0.6689189193581081,
+          0.2439024396097561
+        ],
+        "confidence": 1,
+        "text": "BWgb"
+      },
+      {
+        "bbox": [
+          0.5608108100929055,
+          0.536585365304878,
+          0.6452702695523649,
+          0.5804878043292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "¡Acasc"
+      },
+      {
+        "bbox": [
+          0.6216216232685812,
+          0.7609756095121952,
+          0.7533783800253379,
+          0.8195121948780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBWgb 'z"
+      },
+      {
+        "bbox": [
+          0.8344594587837838,
+          0.76097561,
+          0.9020270263513513,
+          0.7951219514634147
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.9155405405405406,
+          0.7609756093292683,
+          0.9425675675675675,
+          0.795121950792683
+        ],
+        "confidence": 1,
+        "text": "f"
+      },
+      {
+        "bbox": [
+          0.8074324324605856,
+          0.8439024392682926,
+          0.8445945946227478,
+          0.8731707319512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "=-"
+      },
+      {
+        "bbox": [
+          0.841216215608108,
+          0.8097560970243902,
+          0.9087837831756755,
+          0.8634146336097561
+        ],
+        "confidence": 0.5,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.8310810819256755,
+          0.8780487805691056,
+          0.932432433277027,
+          0.946341463495935
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T GL"
+      },
+      {
+        "bbox": [
+          0.7229729789099616,
+          0.9365853664227644,
+          0.9358108038603087,
+          0.9707317078861789
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 0264"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "frequency_response",
+      "feedback",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Such a doublet is lethal for the settling time of that amplifier, as explained next.",
+      "pdf_page": 82,
+      "printed_page": 83,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0082_02_0264.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Its nongb inverting input is connected to a biasing voltage V .",
+        "pdf_page": 82,
+        "printed_page": 83,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The B feedback loop will ensure that the voltage at the source of transistor M2 is kept as constant as possible.",
+        "pdf_page": 82,
+        "printed_page": 83,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "It is obvious that the gain boosting amplifier, which was just one transistor before, can be replaced by a full operational amplifier with large gain A .",
+      "pdf_page": 82,
+      "printed_page": 83,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In this case, full gain is added on top of the gain characteristic of the cascode.",
+      "pdf_page": 82,
+      "printed_page": 83,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "However, the design of such a gain boosting stage is not trivial.",
+      "pdf_page": 82,
+      "printed_page": 83,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It has its own gain A , gb bandwidth BW , and hence GBW .",
+      "pdf_page": 82,
+      "printed_page": 83,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "In this case, full gain is added on top of the gain characteristic of the cascode.",
+      "pdf_page": 82,
+      "printed_page": 83,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0264-M01",
+      "ocr_text": "Av = Agb(9m Ds)1(9m°Ds)2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.07432432662584455,
+        0.7658536583536585,
+        0.4425675698690878,
+        0.8243902437195122
+      ],
+      "context_crop": "regions/SANSEN-0264_math_01.png",
+      "context_bbox_normalized": [
+        0.03432432662584455,
+        0.6658536583536585,
+        0.6725675698690878,
+        0.93
+      ],
+      "source_image": "slides/p0082_02_0264.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0264-M02",
+      "ocr_text": "=-",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8074324324605856,
+        0.8439024392682926,
+        0.8445945946227478,
+        0.8731707319512194
+      ],
+      "context_crop": "regions/SANSEN-0264_math_02.png",
+      "context_bbox_normalized": [
+        0.7674324324605856,
+        0.7439024392682926,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0082_02_0264.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "used",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "电压／电流混合节点；辅助级展开为已有网表的受控源、电阻、电容模型，不采用 B(s) 黑盒边。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "18-gain-boosting",
+    "title": "调节型共源共栅级与增益增强",
+    "summary_zh": "保留辅助放大器的负号与单极点模型，检查增加的极零对和相消条件。",
+    "html": "../derivations/ch02/18-gain-boosting.html",
+    "markdown": "../derivations/ch02/18-gain-boosting.md",
+    "status": "derived_with_source_notes",
+    "discrepancy_ids": [
+      "D12"
+    ],
+    "sfg": "used",
+    "sfg_reason": "电压／电流混合节点；辅助级展开为已有网表的受控源、电阻、电容模型，不采用 B(s) 黑盒边。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "调节型共源共栅级与增益增强",
+    "case_ids": [
+      "gainboost_slow",
+      "gainboost_fast",
+      "gainboost_slow"
+    ],
+    "linear_count": 2,
+    "mos_count": 0,
+    "pz_count": 1,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#18-gain-boosting",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

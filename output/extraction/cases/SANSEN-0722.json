@@ -1,0 +1,173 @@
+{
+  "case_id": "SANSEN-0722",
+  "slide_id": "0722",
+  "chapter": 7,
+  "slide_number_in_chapter": 22,
+  "source": {
+    "pdf_page": 216,
+    "printed_page": 221
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0216_02_0722.jpg",
+      "pdf_page": 216,
+      "printed_page": 221,
+      "bbox_pt": [
+        91.521622,
+        409.768067,
+        374.78981,
+        606.228058
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 216,
+      "printed_page": 221,
+      "bbox_pt": [
+        0,
+        405.77865000000014,
+        595,
+        642.6964
+      ],
+      "text_raw": "The other ‘‘most used’’ oper-\national transconductance\namplifier is the folded cas-\ncode OTA.\nMany designers limit\nthemselves to folded cas-\ncode OTA’s only. It is there-\nfore important to figure out\nwhat exactly the advantages\nand disadvantages are. Also,\nwhich design plan delivers\nthe best performance in\nterms of power consump-\ntion, noise, etc.",
+      "text": "The other ‘‘most used’’ operational transconductance amplifier is the folded cascode OTA. Many designers limit themselves to folded cascode OTA’s only. It is therefore important to figure out what exactly the advantages and disadvantages are. Also, which design plan delivers the best performance in terms of power consumption, noise, etc."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The other ‘‘most used’’ operational transconductance amplifier is the folded cascode OTA. Many designers limit themselves to folded cascode OTA’s only. It is therefore important to figure out what exactly the advantages and disadvantages are. Also, which design plan delivers the best performance in terms of power consumption, noise, etc.",
+  "schema_version": "1.0",
+  "chapter_title": "常用运算放大器电路",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0216_02_0722.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270460304052,
+          0.08292682905487803,
+          0.3817567586570946,
+          0.13658536564024393
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09459459344031533,
+          0.27804878105691055,
+          0.5033783772240991,
+          0.3463414639837399
+        ],
+        "confidence": 0.5,
+        "text": "• Simple CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.09797297601351347,
+          0.36097561028455283,
+          0.4763513543918918,
+          0.42439024443089424
+        ],
+        "confidence": 0.5,
+        "text": "• CMOS Miller OTA"
+      },
+      {
+        "bbox": [
+          0.09459459215733594,
+          0.44390243947735186,
+          0.6114864840492278,
+          0.5073170736236934
+        ],
+        "confidence": 1,
+        "text": "• Symmetrical CMOS OTA"
+      },
+      {
+        "bbox": [
+          0.09459459966216195,
+          0.5268292675609756,
+          0.5405405456081079,
+          0.5853658529268292
+        ],
+        "confidence": 0.5,
+        "text": "• Folded cascode OTA"
+      },
+      {
+        "bbox": [
+          0.09381534787075475,
+          0.6106889789269206,
+          0.4128255153792667,
+          0.6784297682008107
+        ],
+        "confidence": 1,
+        "text": "• Other opamps"
+      },
+      {
+        "bbox": [
+          0.7195945967567567,
+          0.941463414390244,
+          0.935810812972973,
+          0.9853658534146342
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 100s 0722"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0216_02_0722.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Many designers limit themselves to folded cascode OTA’s only.",
+      "pdf_page": 216,
+      "printed_page": 221,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "It is therefore important to figure out what exactly the advantages and disadvantages are.",
+      "pdf_page": 216,
+      "printed_page": 221,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Important opamp configurations"
+}

@@ -1,0 +1,56 @@
+20 Chapter #1
+Even if both curves are not quite touching each other, so that the transistor has to ‘‘jump’’
+from one to the other, this is still a fairly accurate representation of the transition region.
+0136
+This transition region is
+clearly visible when we plot
+g /I . This ratio is nearly
+m DS
+as important as the g itself,
+m
+as it explains what the cur-
+rent efficiency is of a MOST.
+This ratio is plotted
+versus current, normalized
+with respect to the tran-
+sition current I . As a
+DSt
+result for unity I /I both
+DS DSt
+models provide the same
+g /I ratio, as expected.
+m DS
+At lower currents this
+ratio is constant and is given
+by 1/(nkT/q). This value is
+about 1/40mV or 25 V−1. It is always smaller than for a Bipolar transistor where it is 1/26mV
+or 38 V−1 or about 40 V−1.
+At higher currents this g /I ratio decreases as it is inversely proportional to V −V . For
+m DS GS T
+example, at V =0.2 V, this ratio is about 10. More accurate descriptions will follow.
+GS
+It is already clear however, that a MOST provides much less transconducance than a bipolar
+transistor at the same current. The ratio is a factor of about four. In other words, for the same
+transconductance, a bipolar transistor only needs four times less current than the MOST. Portable
+applications will now consume less current if they are realized by means of bipolar transistors!
+Finally, note that a real MOST does not follow the two models: it follows a smooth line from
+one to the other, as explained next.
+0137
+This smooth transition
+between weak and strong
+inversion is best
+described by the EKV
+model [Enz], explained in
+this slide. It uses a function
+which contains the square of
+a natural log function of an
+exponential. The variable is
+v, which is V −V , nor-
+GS T
+malized to a quantity V
+GSTt
+or simply 2nkT/q. This
+includes factor n, which
+depends on some biasing
+voltages, which is usually
+between 70 and 80 mV.

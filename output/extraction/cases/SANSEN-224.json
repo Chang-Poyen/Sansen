@@ -1,0 +1,388 @@
+{
+  "case_id": "SANSEN-224",
+  "slide_id": "224",
+  "chapter": 22,
+  "slide_number_in_chapter": 4,
+  "source": {
+    "pdf_page": 667,
+    "printed_page": 678
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0667_02_224.jpg",
+      "pdf_page": 667,
+      "printed_page": 678,
+      "bbox_pt": [
+        91.521622,
+        347.885437,
+        374.78981,
+        544.3454280000001
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 667,
+      "printed_page": 678,
+      "bbox_pt": [
+        0,
+        343.896,
+        595,
+        797
+      ],
+      "text_raw": "Another way to write the\nBarkhausen criterion is\ngiven by the split analysis.\nThe amplifier is now rep-\nresented by the impedance\nZ and the feedback ele-\ncircuit\nment by the resonator\nimpedance.\nAs the circuit maintains\noscillation by itself, no cur-\nrent is needed from outside.\nIts total input admittance is\nzero. The sum of the imped-\nances must also be zero.\nThe Barkhausen criterion\ncan now be stated as given\nby the two expressions in this slide. Rather than the amplitude and phase, the Real and Imaginary\nparts are used now. They are obviously related as reminded in the Appendix.\nWe will see later, that the first expression determines the minimum gain required, and the\nother the actual frequency of oscillation.",
+      "text": "Another way to write the Barkhausen criterion is given by the split analysis. The amplifier is now represented by the impedance Z and the feedback elecircuit ment by the resonator impedance. As the circuit maintains oscillation by itself, no current is needed from outside. Its total input admittance is zero. The sum of the impedances must also be zero. The Barkhausen criterion can now be stated as given by the two expressions in this slide. Rather than the amplitude and phase, the Real and Imaginary parts are used now. They are obviously related as reminded in the Appendix. We will see later, that the first expression determines the minimum gain required, and the other the actual frequency of oscillation."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Another way to write the Barkhausen criterion is given by the split analysis. The amplifier is now represented by the impedance Z and the feedback elecircuit ment by the resonator impedance. As the circuit maintains oscillation by itself, no current is needed from outside. Its total input admittance is zero. The sum of the impedances must also be zero. The Barkhausen criterion can now be stated as given by the two expressions in this slide. Rather than the amplitude and phase, the Real and Imaginary parts are used now. They are obviously related as reminded in the Appendix. We will see later, that the first expression determines the minimum gain required, and the other the actual frequency of oscillation.",
+  "schema_version": "1.0",
+  "chapter_title": "晶体振荡器设计",
+  "title": "Split analysis",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0667_02_224.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07732011345644517,
+          0.07492507589009312,
+          0.3145717818194493,
+          0.14458711883353592
+        ],
+        "confidence": 1,
+        "text": "Split analysis"
+      },
+      {
+        "bbox": [
+          0.4457974187494083,
+          0.23817282647685656,
+          0.604878259195262,
+          0.29841253926178646
+        ],
+        "confidence": 0.5,
+        "text": "Yres + Ycirc"
+      },
+      {
+        "bbox": [
+          0.3208468404116768,
+          0.3166804076527907,
+          0.4223964013709515,
+          0.37112446949033595
+        ],
+        "confidence": 1,
+        "text": "Zcircuit"
+      },
+      {
+        "bbox": [
+          0.5405044669575253,
+          0.33629022708307876,
+          0.7500360705902718,
+          0.3905390415496016
+        ],
+        "confidence": 0.5,
+        "text": "Yres + Ycirc = 0"
+      },
+      {
+        "bbox": [
+          0.5608108109797296,
+          0.4097560973519164,
+          0.5844594596283783,
+          0.4487804875958188
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.6486486484797298,
+          0.40975609723577233,
+          0.6756756755067568,
+          0.4487804874796748
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.5979729733952702,
+          0.4439024388414634,
+          0.631756757179054,
+          0.4878048778658537
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.64527027125,
+          0.44390243946341457,
+          0.7500000009797297,
+          0.48780487848780485
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-=0"
+      },
+      {
+        "bbox": [
+          0.06407478924185557,
+          0.4725482941694473,
+          0.20281710726636198,
+          0.5274517060346817
+        ],
+        "confidence": 1,
+        "text": "Zresonator"
+      },
+      {
+        "bbox": [
+          0.5472972977316602,
+          0.4780487804181184,
+          0.608108108542471,
+          0.5365853657839721
+        ],
+        "confidence": 1,
+        "text": "Zres"
+      },
+      {
+        "bbox": [
+          0.6351351346706081,
+          0.47317073091463424,
+          0.6925675671030406,
+          0.5365853650609756
+        ],
+        "confidence": 1,
+        "text": "Zcir"
+      },
+      {
+        "bbox": [
+          0.5472972986697635,
+          0.5658536585365853,
+          0.7668918932643581,
+          0.6439024390243903
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Zairc + Zres = 0"
+      },
+      {
+        "bbox": [
+          0.5641891907939188,
+          0.6390243909756098,
+          0.699324325929054,
+          0.6975609763414634
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Zres -circ"
+      },
+      {
+        "bbox": [
+          0.07500002127887187,
+          0.734146340606116,
+          0.9666666398322398,
+          0.8012048201012809
+        ],
+        "confidence": 0.5,
+        "text": "Oscillation if Re (Zcirc+Zres) = 0 sets the minimum gain !"
+      },
+      {
+        "bbox": [
+          0.2972972948198199,
+          0.8390243903658537,
+          0.5945945921171172,
+          0.9024390245121953
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Im (<circ+Zres) = 0"
+      },
+      {
+        "bbox": [
+          0.6081081115287161,
+          0.8390243895731707,
+          0.9155405439611486,
+          0.8926829261585366
+        ],
+        "confidence": 1,
+        "text": "sets the frequency !"
+      },
+      {
+        "bbox": [
+          0.7263513535472972,
+          0.9512195117682928,
+          0.9290540562499998,
+          0.9853658532317074
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 224"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "We will see later, that the first expression determines the minimum gain required, and the other the actual frequency of oscillation.",
+      "pdf_page": 667,
+      "printed_page": 678,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0667_02_224.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We will see later, that the first expression determines the minimum gain required, and the other the actual frequency of oscillation.",
+      "pdf_page": 667,
+      "printed_page": 678,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "Rather than the amplitude and phase, the Real and Imaginary parts are used now.",
+      "pdf_page": 667,
+      "printed_page": 678,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-224-M01",
+      "ocr_text": "Yres + Ycirc = 0",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5405044669575253,
+        0.33629022708307876,
+        0.7500360705902718,
+        0.3905390415496016
+      ],
+      "context_crop": "regions/SANSEN-224_math_01.png",
+      "context_bbox_normalized": [
+        0.5005044669575253,
+        0.23629022708307876,
+        0.9800360705902718,
+        0.5205390415496016
+      ],
+      "source_image": "slides/p0667_02_224.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-224-M02",
+      "ocr_text": "-=0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.64527027125,
+        0.44390243946341457,
+        0.7500000009797297,
+        0.48780487848780485
+      ],
+      "context_crop": "regions/SANSEN-224_math_02.png",
+      "context_bbox_normalized": [
+        0.60527027125,
+        0.3439024394634146,
+        0.9800000009797297,
+        0.6178048784878049
+      ],
+      "source_image": "slides/p0667_02_224.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-224-M03",
+      "ocr_text": "Zairc + Zres = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5472972986697635,
+        0.5658536585365853,
+        0.7668918932643581,
+        0.6439024390243903
+      ],
+      "context_crop": "regions/SANSEN-224_math_03.png",
+      "context_bbox_normalized": [
+        0.5072972986697635,
+        0.46585365853658534,
+        0.9968918932643581,
+        0.7739024390243903
+      ],
+      "source_image": "slides/p0667_02_224.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-224-M04",
+      "ocr_text": "Oscillation if Re (Zcirc+Zres) = 0 sets the minimum gain !",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.07500002127887187,
+        0.734146340606116,
+        0.9666666398322398,
+        0.8012048201012809
+      ],
+      "context_crop": "regions/SANSEN-224_math_04.png",
+      "context_bbox_normalized": [
+        0.03500002127887187,
+        0.6341463406061161,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0667_02_224.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-224-M05",
+      "ocr_text": "Im (<circ+Zres) = 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.2972972948198199,
+        0.8390243903658537,
+        0.5945945921171172,
+        0.9024390245121953
+      ],
+      "context_crop": "regions/SANSEN-224_math_05.png",
+      "context_bbox_normalized": [
+        0.25729729481981994,
+        0.7390243903658538,
+        0.8245945921171172,
+        0.93
+      ],
+      "source_image": "slides/p0667_02_224.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of crystal oscillators"
+}

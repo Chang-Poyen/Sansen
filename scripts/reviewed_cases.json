@@ -1,0 +1,351 @@
+{
+  "025": {
+    "title": "单管放大器：增益与尺寸",
+    "review_scope": "listed_fields_only; 源极 slide and paired commentary inspected",
+    "summary_zh": "本页的设计结论是以较长沟道及较小过驱动电压提高增益；正文补充这会受到电流、噪声与信噪比需求限制。正文给的尺寸与电压是本书情境下的建议值，不能直接当作所有工艺的规则。",
+    "formulas": [],
+    "graph_conclusions_zh": [],
+    "topology_zh": [],
+    "conditions_zh": [
+      "原文建议 L 至少约为最小沟道长度的 4–5 倍，V_GS−V_T 约 0.15–0.2 V。",
+      "原文提醒再降低过驱动电压会进入弱反转，并讨论较小电流对噪声及 SNR 的取舍。"
+    ],
+    "title_original": "Single-transistor amplifier - 2"
+  },
+  "027": {
+    "title": "增益、带宽与增益带宽积",
+    "review_scope": "listed_fields_only; all three displayed equations transcribed",
+    "summary_zh": "单管共源级只有输出负载电容时，带宽由输出 RC 时常数决定；增益带宽积只包含跨导与负载电容。",
+    "formulas": [
+      {
+        "latex": "A_{v0}=g_m r_{DS}",
+        "meaning_zh": "幻灯片使用正值表示低频增益大小；有号的共源电压增益另含反相符号。"
+      },
+      {
+        "latex": "BW=\\frac{1}{2\\pi r_{DS}C_L}",
+        "meaning_zh": "输出端单极点的 −3 dB 带宽，单位 Hz。"
+      },
+      {
+        "latex": "GBW=\\frac{g_m}{2\\pi C_L}",
+        "meaning_zh": "在本页单极点模型下，A_v0 × BW；与 r_DS 无关。"
+      }
+    ],
+    "topology_zh": [
+      "NMOS 的源极接地，栅极由 v_in 驱动，漏极为 v_out。",
+      "偏置电流源 I_L 接到漏极；C_L 从输出接地。r_DS 是器件小信号输出电阻。"
+    ],
+    "graph_conclusions_zh": [
+      "波特图在下一张 028，与本页公式配对。"
+    ],
+    "conditions_zh": [
+      "原文明示：本页仅保留负载电容 C_L。",
+      "图面模型判读：偏置电流源视为理想；若有有限负载电阻或其他显著电容，不能直接沿用本页的 r_DS 与单极点式。"
+    ],
+    "related_slide_ids": [
+      "028"
+    ],
+    "title_original": "Gain, Bandwidth and Gain-bandwidth"
+  },
+  "028": {
+    "title": "增益、带宽与增益带宽积的关系",
+    "review_scope": "listed_fields_only; 波特 plot and equations inspected",
+    "summary_zh": "本页以幅频与相频图说明 027 的单极点增益、带宽及增益带宽积之间的关系。",
+    "formulas": [
+      {
+        "latex": "A_{v0}=g_m r_{DS}",
+        "meaning_zh": "低频增益大小。"
+      },
+      {
+        "latex": "GBW=\\frac{g_m}{2\\pi C_L}",
+        "meaning_zh": "增益带宽积。"
+      },
+      {
+        "latex": "\\phi(A_v)=-45^\\circ\\quad\\mathrm{at}\\ BW",
+        "meaning_zh": "幻灯片显示相对低频值的单极点相位延迟。"
+      }
+    ],
+    "topology_zh": [
+      "沿用幻灯片 027 的共源级；本页本身没有重画电路。"
+    ],
+    "graph_conclusions_zh": [
+      "幅度渐近线在 BW 后以 −20 dB/decade 下降，并在标成 GBW 的位置穿越单位增益。",
+      "相位在 BW 处为 −45°，高频趋近 −90°；图中不含共源级的固定反相 180°。"
+    ],
+    "conditions_zh": [
+      "图面判读：折线为波特渐近线，并非极点附近的精确幅度。",
+      "核对注记：把单位增益交越频率直接标成 GBW，使用了高低频增益差足够大时的近似。"
+    ],
+    "related_slide_ids": [
+      "027"
+    ],
+    "title_original": "Gain Av, BW and GBW"
+  },
+  "0210": {
+    "title": "输入电容对增益与带宽的影响",
+    "review_scope": "listed_fields_only; displayed equations transcribed",
+    "summary_zh": "只保留输入电容时，信号源电阻 R_S 与 C_GS 决定带宽。原文指出优化 f_T 本身不足，还要考虑 f_T r_DS。",
+    "formulas": [
+      {
+        "latex": "A_{v0}=g_m r_{DS}",
+        "meaning_zh": "低频增益大小。"
+      },
+      {
+        "latex": "BW=\\frac{1}{2\\pi R_S C_{GS}}",
+        "meaning_zh": "输入 RC 带宽。"
+      },
+      {
+        "latex": "GBW=\\frac{g_m}{2\\pi C_{GS}}\\frac{r_{DS}}{R_S}=f_T\\frac{r_{DS}}{R_S}\\sim\\frac{1}{W C_{ox}}\\frac{1}{V_{GS}-V_T}",
+        "meaning_zh": "最后的 ~ 为幻灯片所列的尺度关系，不应当作含全部常数的严格等式。"
+      }
+    ],
+    "topology_zh": [
+      "共源级的源极接地，漏极为输出并接偏置电流源。",
+      "v_in 经 R_S 接栅极；C_GS 位于栅极与地之间。"
+    ],
+    "graph_conclusions_zh": [],
+    "conditions_zh": [
+      "原文明示：没有负载电容，只考虑较大的输入电容。",
+      "图面判读：本页 f_T 表达式创建在所保留的 C_GS 简化模型上；不要自动套到含 C_GD 等寄生的完整模型。"
+    ],
+    "title_original": "Gain, Bandwidth and Gain-bandwidth — input capacitance"
+  },
+  "0211": {
+    "title": "反馈电容对增益与带宽的影响",
+    "review_scope": "listed_fields_only; all displayed equations transcribed",
+    "summary_zh": "输入与输出间的 C_F 产生米勒效应，放大输入所见电容；在幻灯片的近似模型下，GBW 只取决于 R_S 与 C_F。",
+    "formulas": [
+      {
+        "latex": "A_{v0}=g_m r_{DS}",
+        "meaning_zh": "低频增益大小。"
+      },
+      {
+        "latex": "BW=\\frac{1}{2\\pi R_S A_{v0} C_F}",
+        "meaning_zh": "原图所列的米勒主导带宽式；包含大增益近似。"
+      },
+      {
+        "latex": "GBW=\\frac{1}{2\\pi R_S C_F}",
+        "meaning_zh": "本页近似模型下的增益带宽积。"
+      }
+    ],
+    "topology_zh": [
+      "v_in 经 R_S 连到共源 NMOS 栅极。",
+      "C_F 跨接栅极与漏极；漏极是输出，并接偏置电流源，源极接地。"
+    ],
+    "graph_conclusions_zh": [],
+    "conditions_zh": [
+      "原文明示：这是单独加入一个反馈电容的情况。",
+      "跨页核对：0212 给出 (1+A_v0)C_F；此页改为 A_v0 C_F，隐含 A_v0 ≫ 1 的近似。",
+      "模型判读：输入米勒时常数须主导；尚未推导完整双向电容模型、其他极点与零点。"
+    ],
+    "related_slide_ids": [
+      "0212"
+    ],
+    "title_original": "Gain, Bandwidth and Gain-bandwidth — 反馈 capacitance"
+  },
+  "0212": {
+    "title": "米勒效应",
+    "review_scope": "listed_fields_only; both circuits and displayed equations inspected",
+    "summary_zh": "本页把输入—输出跨接电容转成输入所见的米勒等效电容。正文特别强调，此图的等效仅针对输入阻抗。",
+    "formulas": [
+      {
+        "latex": "A_{v0}=g_m r_{DS}",
+        "meaning_zh": "正值代表共源级增益大小。"
+      },
+      {
+        "latex": "C_{FM}=(1+A_{v0})C_F",
+        "meaning_zh": "反相增益下输入端所见的米勒电容。"
+      }
+    ],
+    "topology_zh": [
+      "左图：R_S 串在信号源与栅极之间，C_F 从栅极跨到输出漏极。",
+      "右图：输入等效电路以 C_FM 从栅极接地。两图的源极都接地。"
+    ],
+    "graph_conclusions_zh": [],
+    "conditions_zh": [
+      "原文明示：米勒替换仅适用于此处输入所见阻抗，不能以右图直接计算输出阻抗。",
+      "核对注记：使用 A_v0 代表增益时须确认适用频段；将 1+A_v0 简化为 A_v0 是额外近似。"
+    ],
+    "related_slide_ids": [
+      "0211"
+    ],
+    "title_original": "米勒 effect"
+  },
+  "0242": {
+    "title": "带容性负载的源极跟随器",
+    "review_scope": "listed_fields_only; graph and selected equations inspected; not all symbols normalized",
+    "summary_zh": "此页以跨导为参数，标示源极跟随器的复极点区域及增益峰化。正文说明加入栅极对地电容可以改变、缩小容易峰化的区域。",
+    "formulas": [
+      {
+        "latex": "g_{mr}=\\frac{1}{R_S}\\frac{C_L+C_{DS}+C_{GS}}{C_{DG}}",
+        "meaning_zh": "原图标出的复极点区域中心跨导。"
+      },
+      {
+        "latex": "g_{mu}=\\frac{1}{R_S}",
+        "meaning_zh": "原文指出此处非主导极点与零点相消，得到一阶下降特性。"
+      }
+    ],
+    "topology_zh": [
+      "本页是前文源极跟随器的响应图，没有重画完整电路；连接关系须回看同节前页。"
+    ],
+    "graph_conclusions_zh": [
+      "红色区域对应复极点及幅度峰化；蓝色条件 g_mu 对应一阶下降特性。",
+      "原文指出增加栅极对地电容 C_DG 可作为补偿，并改变峰化最严重时的跨导。"
+    ],
+    "conditions_zh": [
+      "符号依本图保留；C_DG、C_DGt 与带撇号电容需连同前页定义使用。",
+      "此处只转录两个清楚公式，其余公式仍保留原图及 OCR 候选。"
+    ],
+    "title_original": "源极跟随器 with CL load"
+  },
+  "0243": {
+    "title": "源极跟随器的输出阻抗",
+    "review_scope": "listed_fields_only; plot and displayed equations inspected",
+    "summary_zh": "源极跟随器输出阻抗可能因复极点而峰化，也可能在较大电流下先上升而呈感性。适当的 g_mu 可使零点与极点相消。",
+    "formulas": [
+      {
+        "latex": "g_{mr}=\\frac{1}{R_S}\\frac{C_{GS}+C_{DS}}{C_{DG}}",
+        "meaning_zh": "本图峰化区域的代表跨导。"
+      },
+      {
+        "latex": "g_{mu}\\approx\\frac{1}{R_S}\\frac{C_{GS}+C_{DS}}{C_{GS}+C_{DG}}",
+        "meaning_zh": "原图明示为近似式。"
+      },
+      {
+        "latex": "f_z=\\frac{1}{2\\pi R_S C_{GS}}",
+        "meaning_zh": "图中零点频率。"
+      },
+      {
+        "latex": "f_{d,highm}=\\frac{1}{2\\pi R_S C_{DG}}",
+        "meaning_zh": "原图所标的大跨导端频率式；下标依图转录。"
+      }
+    ],
+    "topology_zh": [
+      "此页没有重画电路；输出阻抗的组件定义沿用前文源极跟随器模型。"
+    ],
+    "graph_conclusions_zh": [
+      "g_m 接近 g_mr 时的红色曲线出现阻抗峰值。",
+      "大电流时零点先于两个极点出现，阻抗先上升，图中标为 Inductive。",
+      "正文指出调整到 g_mu 可得到宽带近似电阻性输出，阻值为 1/g_mu。"
+    ],
+    "conditions_zh": [
+      "g_mu 的 ≈ 号已保留；本步没有补造省略的推导。",
+      "原文提醒 R_S 很小时所需电流可能过大。"
+    ],
+    "title_original": "源极跟随器: Output impedance"
+  },
+  "0244": {
+    "title": "射极跟随器的输出阻抗",
+    "review_scope": "listed_fields_only; graph and selected equation inspected",
+    "summary_zh": "射极跟随器同样可能出现复极点峰化与感性输出阻抗；正文指出这些效应比源极跟随器更明显。",
+    "formulas": [
+      {
+        "latex": "L=\\frac{R_S}{\\omega_T}",
+        "meaning_zh": "原图给出的等效感性量表达式。"
+      }
+    ],
+    "topology_zh": [
+      "此页本身没有完整电路；组件定义沿用同节射极跟随器模型。"
+    ],
+    "graph_conclusions_zh": [
+      "g_m 接近 g_mr 时输出阻抗严重峰化。",
+      "较大电流时阻抗先上升、再平坦、最后下降，呈现强烈感性。",
+      "调整至 g_mu 可使零点与第一极点相消，在较宽带段得到电阻性输出。"
+    ],
+    "conditions_zh": [
+      "原文指出小 R_S 可能使达成 g_mu 所需电流过大。",
+      "本笔仅核对曲线结论与等效电感式；其他公式仍以原图为准。"
+    ],
+    "title_original": "射极跟随器: Output impedance"
+  },
+  "0512": {
+    "title": "有限阻带衰减的低通滤波器",
+    "review_scope": "listed_fields_only; topology, plot and displayed equations inspected",
+    "summary_zh": "非反相运放的反馈支路由 R2 与 C 串联而成；高频增益落到有限平台，低频则呈积分器型态。",
+    "formulas": [
+      {
+        "latex": "A_{v0}=1+\\frac{R_2}{R_1}",
+        "meaning_zh": "本页以 A_v0 标记高频有限增益平台，不是此电路的 DC 增益。"
+      },
+      {
+        "latex": "A_v=A_{v0}\\frac{1+j f/f_z}{j f/f_z}",
+        "meaning_zh": "原图转移式，含原点极点与有限频率零点。"
+      },
+      {
+        "latex": "f_z=\\frac{1}{2\\pi RC},\\quad R=R_1+R_2",
+        "meaning_zh": "零点频率。"
+      }
+    ],
+    "topology_zh": [
+      "v_in 接运放正输入。",
+      "负输入经 R1 接地；输出经电容 C 与 R2 串联返回负输入。"
+    ],
+    "graph_conclusions_zh": [
+      "幅度在零点前以 −20 dB/decade 下降，之后趋向 A_v0 平台。",
+      "相位由低频 −90° 趋向高频 0°。"
+    ],
+    "conditions_zh": [
+      "模型判读：图中公式使用理想闭环运放关系，忽略运放自身的有限带宽。",
+      "此处有原点极点，不能把 A_v0 解读为有限的零频增益。"
+    ],
+    "title_original": "Low-pass filter with finite attenuation"
+  },
+  "0513": {
+    "title": "增益与带宽的权衡",
+    "review_scope": "listed_fields_only; plot and displayed product relation inspected",
+    "summary_zh": "图中降低闭环增益时，带宽相应增加；教材使用主极点模型说明增益与带宽的交换。",
+    "formulas": [
+      {
+        "latex": "A_o f_1=A_c f_{1c}=GBW",
+        "meaning_zh": "幻灯片所列增益—带宽积关系；两组闭环设置都画在同一张图中。"
+      }
+    ],
+    "topology_zh": [
+      "此页是开环及闭环响应比较图，未重画电路。"
+    ],
+    "graph_conclusions_zh": [
+      "闭环增益越低，图中的对应截止频率越高。",
+      "正文把单位增益缓冲器的带宽与 GBW 对应。"
+    ],
+    "conditions_zh": [
+      "正文以一个内部主极点说明；图标增益带宽交换不能无条件延伸到多个重要极点或明显峰化的系统。",
+      "精确闭环因子与高环路增益近似需在后续推导列出。"
+    ],
+    "title_original": "Exchange of gain and bandwidth"
+  },
+  "0514": {
+    "title": "开环与闭环增益",
+    "review_scope": "listed_fields_only; all displayed equations and block connections inspected",
+    "summary_zh": "负反馈方块图显示误差信号先经前向增益 G，再由 H 返回输入相减；当环路增益很大，闭环增益近似由 H 决定。",
+    "formulas": [
+      {
+        "latex": "v_\\varepsilon=v_{IN}-H v_{OUT}",
+        "meaning_zh": "加总节点采负反馈。"
+      },
+      {
+        "latex": "v_{OUT}=G v_\\varepsilon",
+        "meaning_zh": "前向增益方块关系。"
+      },
+      {
+        "latex": "A_c=\\frac{v_{OUT}}{v_{IN}}=\\frac{G}{1+GH}\\approx\\frac{1}{H}",
+        "meaning_zh": "前式是此线性方块模型的关系，最后一步为近似。"
+      },
+      {
+        "latex": "T=GH\\gg 1",
+        "meaning_zh": "幻灯片明列的近似条件。"
+      }
+    ],
+    "topology_zh": [
+      "v_IN 与 −H·v_OUT 在加总节点生成 v_epsilon。",
+      "G 将 v_epsilon 映射到 v_OUT；H 从 v_OUT 回到加总节点的负端。"
+    ],
+    "graph_conclusions_zh": [
+      "本页为反馈方块图，没有波特曲线。"
+    ],
+    "conditions_zh": [
+      "原文明列 GH=T≫1，才使用 A_c≈1/H。",
+      "一致性核对：正文将环路增益说成开／闭环增益之比，属简化说法；依本页公式该比值是 1+GH，与 GH 只在大环路增益时近似相等。",
+      "适合后续 SFG 分析，但本步只抽取原有方块关系。"
+    ],
+    "title_original": "Open- and closed-loop gain"
+  }
+}

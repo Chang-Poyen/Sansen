@@ -1,0 +1,387 @@
+{
+  "case_id": "SANSEN-0261",
+  "slide_id": "0261",
+  "chapter": 2,
+  "slide_number_in_chapter": 61,
+  "source": {
+    "pdf_page": 80,
+    "printed_page": 81
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0081_01_0261.jpg",
+      "pdf_page": 81,
+      "printed_page": 82,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 80,
+      "printed_page": 81,
+      "bbox_pt": [
+        0,
+        570.9485,
+        595,
+        797
+      ],
+      "text_raw": "Indeed a cascode is actually a single-stage amplifier with gain enhancement (at low frequencies).\nThis means that one single node is at high impedance. This is the node where the gain is realized\nand where the signal swing is large. This is also evident from the node where the load capacitance\ndetermines the dominant pole.\nIn such a single-stage amplifier the GBW is always determined by that load capacitance and\nthe input transconductance.\nA cascade amplifier is actually a two stage amplifier. This means that two nodes in that circuit\nare at high impedance. This also means that there are two nodes where the capacitance to\nground gives a pole. Two poles can create stability problems. This problem can be eliminated",
+      "text": "Indeed a cascode is actually a single-stage amplifier with gain enhancement (at low frequencies). This means that one single node is at high impedance. This is the node where the gain is realized and where the signal swing is large. This is also evident from the node where the load capacitance determines the dominant pole. In such a single-stage amplifier the GBW is always determined by that load capacitance and the input transconductance. A cascade amplifier is actually a two stage amplifier. This means that two nodes in that circuit are at high impedance. This also means that there are two nodes where the capacitance to ground gives a pole. Two poles can create stability problems. This problem can be eliminated"
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": 82,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "by adding a Miller capaci-\ntance across the second\nstage, as explained in\nChapter 5. It is called a com-\npensation capacitance C .\nc\nIn such a two-stage\namplifier the GBW is always\ndetermined by that compen-\nsation capacitance and the\ninput transconductance.\nObviously, any addition\nof capacitance usually in-\ncreases the power consump-\ntion. From this point of\nview, a single-stage amplifier\nis usually better. One excep-\ntion may be the output\nswing. If only one transistor is used for the current source I , then the output swing is only\nB2\n0.4 V less than the supply voltage.",
+      "text": "by adding a Miller capacitance across the second stage, as explained in Chapter 5. It is called a compensation capacitance C . c In such a two-stage amplifier the GBW is always determined by that compensation capacitance and the input transconductance. Obviously, any addition of capacitance usually increases the power consumption. From this point of view, a single-stage amplifier is usually better. One exception may be the output swing. If only one transistor is used for the current source I , then the output swing is only B2 0.4 V less than the supply voltage."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Indeed a cascode is actually a single-stage amplifier with gain enhancement (at low frequencies). This means that one single node is at high impedance. This is the node where the gain is realized and where the signal swing is large. This is also evident from the node where the load capacitance determines the dominant pole. In such a single-stage amplifier the GBW is always determined by that load capacitance and the input transconductance. A cascade amplifier is actually a two stage amplifier. This means that two nodes in that circuit are at high impedance. This also means that there are two nodes where the capacitance to ground gives a pole. Two poles can create stability problems. This problem can be eliminated\n\nby adding a Miller capacitance across the second stage, as explained in Chapter 5. It is called a compensation capacitance C . c In such a two-stage amplifier the GBW is always determined by that compensation capacitance and the input transconductance. Obviously, any addition of capacitance usually increases the power consumption. From this point of view, a single-stage amplifier is usually better. One exception may be the output swing. If only one transistor is used for the current source I , then the output swing is only B2 0.4 V less than the supply voltage.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Cascode versus cascade",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0081_01_0261.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270619369364,
+          0.08292682906504067,
+          0.49662162511261254,
+          0.13658536565040647
+        ],
+        "confidence": 1,
+        "text": "Cascode versus cascade"
+      },
+      {
+        "bbox": [
+          0.5236486525,
+          0.2048780484878049,
+          0.9087837876351351,
+          0.25365853629268287
+        ],
+        "confidence": 1,
+        "text": "Two-stage Miller amplifier"
+      },
+      {
+        "bbox": [
+          0.17567567550675678,
+          0.40487804819512196,
+          0.21283783766891892,
+          0.4634146335609757
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+."
+      },
+      {
+        "bbox": [
+          0.3885135142736486,
+          0.36585365841463413,
+          0.44932432508445946,
+          0.4048780486585366
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.2939189183699325,
+          0.4341463417682927,
+          0.3378378372888514,
+          0.46829268323170736
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.8581081070382884,
+          0.46829268300813,
+          0.9222972962274777,
+          0.5121951220325203
+        ],
+        "confidence": 1,
+        "text": "Vout"
+      },
+      {
+        "bbox": [
+          0.10472972932432431,
+          0.5609756092195123,
+          0.15202702662162162,
+          0.6146341458048781
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.30067567561936936,
+          0.5756097557317073,
+          0.34121621615990994,
+          0.6195121947560975
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.45270270236486476,
+          0.5560975604878049,
+          0.5067567564189188,
+          0.6146341458536586
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.6351351354391892,
+          0.5804878047317074,
+          0.6655405408445947,
+          0.614634146195122
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.763513513795045,
+          0.5804878053906597,
+          0.8277027029842341,
+          0.6195121933085272
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.15866694095229397,
+          0.7993508452628566,
+          0.28727900820066415,
+          0.8494296420217409
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.301271855155425,
+          0.7569583903418731,
+          0.3924880778153866,
+          0.8361549481079268
+        ],
+        "confidence": 0.5,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.2939189183277027,
+          0.8487804879573171,
+          0.3885135129222973,
+          0.9121951221036586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2T CL"
+      },
+      {
+        "bbox": [
+          0.6925675670045045,
+          0.7658536580487805,
+          0.7668918913288288,
+          0.8243902434146342
+        ],
+        "confidence": 0.5,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.5438170379013147,
+          0.7994499320313981,
+          0.6690208020177567,
+          0.8493305552673333
+        ],
+        "confidence": 0.5,
+        "text": "GBW ="
+      },
+      {
+        "bbox": [
+          0.7229729756334459,
+          0.9365853655487804,
+          0.9358108134712837,
+          0.970731707012195
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0261"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is also evident from the node where the load capacitance determines the dominant pole.",
+      "pdf_page": 80,
+      "printed_page": 81,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In such a single-stage amplifier the GBW is always determined by that load capacitance and the input transconductance.",
+      "pdf_page": 80,
+      "printed_page": 81,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "by adding a Miller capacitance across the second stage, as explained in Chapter 5.",
+      "pdf_page": 81,
+      "printed_page": 82,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0081_01_0261.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "If only one transistor is used for the current source I , then the output swing is only B2 0.4 V less than the supply voltage.",
+        "pdf_page": 81,
+        "printed_page": 82,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Indeed a cascode is actually a single-stage amplifier with gain enhancement (at low frequencies).",
+      "pdf_page": 80,
+      "printed_page": 81,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This is the node where the gain is realized and where the signal swing is large.",
+      "pdf_page": 80,
+      "printed_page": 81,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Obviously, any addition of capacitance usually increases the power consumption.",
+      "pdf_page": 81,
+      "printed_page": 82,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0261-M01",
+      "ocr_text": "GBW =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.15866694095229397,
+        0.7993508452628566,
+        0.28727900820066415,
+        0.8494296420217409
+      ],
+      "context_crop": "regions/SANSEN-0261_math_01.png",
+      "context_bbox_normalized": [
+        0.11866694095229396,
+        0.6993508452628566,
+        0.5172790082006642,
+        0.93
+      ],
+      "source_image": "slides/p0081_01_0261.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0261-M02",
+      "ocr_text": "GBW =",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.5438170379013147,
+        0.7994499320313981,
+        0.6690208020177567,
+        0.8493305552673333
+      ],
+      "context_crop": "regions/SANSEN-0261_math_02.png",
+      "context_bbox_normalized": [
+        0.5038170379013147,
+        0.6994499320313982,
+        0.8990208020177567,
+        0.93
+      ],
+      "source_image": "slides/p0081_01_0261.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "17-cascade",
+    "title": "级联与米勒补偿",
+    "summary_zh": "先说明负载限制，再推导两级补偿的极点分离、GBW 与 RHP 零点。",
+    "html": "../derivations/ch02/17-cascade.html",
+    "markdown": "../derivations/ch02/17-cascade.md",
+    "status": "derived_in_stated_model",
+    "discrepancy_ids": [],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "级联与米勒补偿",
+    "case_ids": [
+      "two_stage",
+      "two_stage"
+    ],
+    "linear_count": 1,
+    "mos_count": 0,
+    "pz_count": 1,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#17-cascade",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

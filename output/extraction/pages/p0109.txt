@@ -1,0 +1,57 @@
+DiVerential voltage and current amplifiers 111
+0343
+Bootstrapping has been
+introduced to increase the
+input impedance of biopo-
+tential preamplifiers.
+Both opamps A1 and A2
+form an instrumentation
+amplifier with the three
+resistors R (twice) and R .
+1 2
+Its gain is set to a precise
+value of 2R /R by these
+1 2
+resistors.
+Moreover, the input
+impedances, at the + termi-
+nals of the opamps are very
+high. This is necessary not
+to draw any current from
+the electrodes (sensors).
+The input sensors are always decoupled from the opamp inputs by means of capacitors C .
+IN
+However, the + inputs of the opamps must be biased at a particular voltage. This is done by
+means of the resistors R /R . As a result the average output voltage is set by the biasing
+3 4
+voltage V .
+B
+The input impedance is reduced considerably by these resistors R /R . This why the bootstrap
+3 4
+capacitances C are added. They bootstrap the resistors R . Because of the feedback action of
+B 3
+the opamp, the voltage across resistor R is nearly the same. It looks like a resistor with value
+3
+infinity. It is bootstrapped out.
+The input impedance is then exceedingly high!
+0344
+In a similar way, a load
+resistor R of an amplifier
+can be bootstrapped out, in
+order to make its effective
+value much higher, also
+rendering the voltage gain
+much higher. An example is
+given in this slide.
+The amplifier simply con-
+sists of transistor Q1, fol-
+lowed by an emitter follower
+with transistor Q2. Its volt-
+age gain would normally be
+g R. Depending on the
+m1
+actual DC current, this gain
+is not all that high.
+Load resistor R is not connected to the supply voltage however, but to another emitter follower
+Q3, which is connected to the output voltage over three diode connected transistors, each
+carrying about 0.6 V. The DC voltage across resistor R is thus also about 0.6 V.

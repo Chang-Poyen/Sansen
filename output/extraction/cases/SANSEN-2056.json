@@ -1,0 +1,222 @@
+{
+  "case_id": "SANSEN-2056",
+  "slide_id": "2056",
+  "chapter": 20,
+  "slide_number_in_chapter": 56,
+  "source": {
+    "pdf_page": 621,
+    "printed_page": 632
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0621_01_2056.jpg",
+      "pdf_page": 621,
+      "printed_page": 632,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 621,
+      "printed_page": 632,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        355.85400000000004
+      ],
+      "text_raw": "This circuit is shown twice,\nonce for phase 1 (in red) and\nonce for phase 2 (in blue).\nTwo capacitors are used Cf\nand Cs and several switches,\nclosing on phase 1 or on\nphase 2.\nWhen the phase 1\nswitches are closed, both\ncapacitors are in parallel.\nThey sample the input volt-\nages Vres(i) which is the\noutput of the previous stage.",
+      "text": "This circuit is shown twice, once for phase 1 (in red) and once for phase 2 (in blue). Two capacitors are used Cf and Cs and several switches, closing on phase 1 or on phase 2. When the phase 1 switches are closed, both capacitors are in parallel. They sample the input voltages Vres(i) which is the output of the previous stage."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This circuit is shown twice, once for phase 1 (in red) and once for phase 2 (in blue). Two capacitors are used Cf and Cs and several switches, closing on phase 1 or on phase 2. When the phase 1 switches are closed, both capacitors are in parallel. They sample the input voltages Vres(i) which is the output of the previous stage.",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Multiplying DAC : Phase 1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0621_01_2056.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432263513514,
+          0.07317073097560978,
+          0.5540540523648648,
+          0.1463414626829268
+        ],
+        "confidence": 0.5,
+        "text": "Multiplying DAC : Phase 1"
+      },
+      {
+        "bbox": [
+          0.28716216203547296,
+          0.2585365849390244,
+          0.3175675674408784,
+          0.2926829264024391
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cf"
+      },
+      {
+        "bbox": [
+          0.07432432516891889,
+          0.30243902420731705,
+          0.14189189273648645,
+          0.3365853656707317
+        ],
+        "confidence": 1,
+        "text": "Vres(i)"
+      },
+      {
+        "bbox": [
+          0.29054054003378377,
+          0.3707317076422765,
+          0.3209459454391892,
+          0.40000000032520333
+        ],
+        "confidence": 1,
+        "text": "Cs"
+      },
+      {
+        "bbox": [
+          0.47958170295138364,
+          0.37964387945995526,
+          0.5710939706053902,
+          0.41547807094510447
+        ],
+        "confidence": 1,
+        "text": "Vres(i+1)"
+      },
+      {
+        "bbox": [
+          0.07094594537162163,
+          0.43414634160975607,
+          0.1283783778040541,
+          0.46829268307317073
+        ],
+        "confidence": 1,
+        "text": "VDAC"
+      },
+      {
+        "bbox": [
+          0.28716216228885133,
+          0.5951219517073171,
+          0.3175675676942567,
+          0.6341463419512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cf"
+      },
+      {
+        "bbox": [
+          0.07094594683277025,
+          0.6439024388414634,
+          0.1418918927787162,
+          0.6682926827439024
+        ],
+        "confidence": 0.5,
+        "text": "Vres(i)"
+      },
+      {
+        "bbox": [
+          0.48310810923423425,
+          0.7219512193495935,
+          0.5506756768018018,
+          0.7512195120325204
+        ],
+        "confidence": 1,
+        "text": "Vres(i+"
+      },
+      {
+        "bbox": [
+          0.7331081054898649,
+          0.9512195123780488,
+          0.9425675649493244,
+          0.9853658538414635
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 gs 2056"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This circuit is shown twice, once for phase 1 (in red) and once for phase 2 (in blue).",
+      "pdf_page": 621,
+      "printed_page": 632,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0621_01_2056.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "When the phase 1 switches are closed, both capacitors are in parallel.",
+        "pdf_page": 621,
+        "printed_page": 632,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "This circuit is shown twice, once for phase 1 (in red) and once for phase 2 (in blue).",
+      "pdf_page": 621,
+      "printed_page": 632,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Two capacitors are used Cf and Cs and several switches, closing on phase 1 or on phase 2.",
+      "pdf_page": 621,
+      "printed_page": 632,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "When the phase 1 switches are closed, both capacitors are in parallel.",
+      "pdf_page": 621,
+      "printed_page": 632,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

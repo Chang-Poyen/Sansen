@@ -1,0 +1,36 @@
+624 Chapter #20
+Extrapolation shows that
+by 2008, the 8 bit flash
+ADCs will probably reach 1
+GS/s and the 6-bit ones 12
+GS/s, which is quite impres-
+sive indeed!
+2042
+In order to reduce the
+number of comparators in a
+flash converter, two flash
+converters can be selected,
+with lower resolution.
+This is called a sub-rang-
+ing or two-step ADC and is
+shown in this slide for an
+8-bit converter.
+Two 4-bit flash ADC’s are
+used instead of a single 8-bit
+ADC. The number of com-
+parators is reduced from 256
+to two times 16 or 32, plus
+a DAC. The power con-
+sumption will be smaller,
+but the input capacitances will also be smaller. Indeed only 16 input capacitances are in parallel
+at the input.
+It works as follows. The first 4-bit flash ADC gives the first four MSBs. The resulting
+quantization error is obtained by taking the difference of the input voltage and the analog value
+of a 4-bit DAC connected to the first 4-bit ADC. This difference is multiplied by 16 to make it
+easier for the second 4-bit ADC, which then provides the four LSBs.
+Such a two-step ADC takes more clock cycles than a single flash ADC. It has more latency.
+Moreover, both 4-bit ADCs must have 8-bit accuracy. Digital correction can be used to alleviate
+this problem.
+2043
+To further reduce the number of input comparators, interpolation and folding can be used.
+Interpolation is discussed first.

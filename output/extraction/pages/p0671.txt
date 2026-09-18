@@ -1,0 +1,58 @@
+682 Chapter #22
+However, between both resonant frequencies the crystal behaves as an inductor. The transitions
+are very steep because the quality factor is so high. The crystal now behaves as an inductor from
+the series resonant frequency f to the parallel resonant frequency f .
+s p
+We will use this inductor to make an oscillator together with a capacitive amplifier. We want
+this oscillator to operate as close as possible to the series resonant frequency f as this is the
+s
+frequency which is the closest to the internal electromechanical operation of the crystal. Moreover,
+it is the frequency which is the least dependent on the package and mounting capacitances,
+which are hard to predict.
+We will see however, that it is impossible to make an oscillator at the series resonant frequency
+f . It would take infinite current! We will try to be as close as possible however, depending on
+s
+the current that we are allowed to use. This will be the only free design choice!
+2211
+The actual expressions of
+the series resonant fre-
+quency f and the parallel
+s
+resonant frequency f are
+p
+given in this slide. The series
+one is as described in this
+slide. The parallel resonant
+frequency f on the other
+p
+hand is determined by both
+capacitances in series, as
+clearly found by inspection
+of the model. This frequency
+is always somewhat larger
+than the series one. If we
+find that C is about 200
+p
+times larger than C , then
+s
+v 2 is approximately 0.5% larger than v 2. Also, v is now about 0.25% larger than v .
+p s p s
+The impedance of the series RLC circuit can now be described as given in this slide. We will
+rewrite this impedance now after introduction of the pulling factor p.
+This pulling factor p is the dimensionless parameter which says how far the actual operating
+frequency is from the series resonance frequency f .
+s
+Introduction of this factor p and of the frequency f , gives another expression of the impedance
+s
+of the series RLC circuit. It says that this impedance is a resistor R in series with an inductor.
+s
+This inductor is larger the more we deviate from series resonance. We will use this simple model
+to find the oscillation condition of the oscillator.
+2212
+The terms series or parallel resonance are often attributed to the circuit configuration. We will
+see that this is wrong, however!
+Series and parallel resonance have only to do with the operating point of the oscillator.
+For zero or very small pulling factor p, the operating point is close to f . In this case, we
+s
+clearly have a series oscillator. For a fairly large p, the operating point is close to f . We will
+p

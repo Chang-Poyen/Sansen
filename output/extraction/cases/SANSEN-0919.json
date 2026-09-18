@@ -1,0 +1,150 @@
+{
+  "case_id": "SANSEN-0919",
+  "slide_id": "0919",
+  "chapter": 9,
+  "slide_number_in_chapter": 19,
+  "source": {
+    "pdf_page": 265,
+    "printed_page": 272
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0265_02_0919.jpg",
+      "pdf_page": 265,
+      "printed_page": 272,
+      "bbox_pt": [
+        91.52162,
+        371.85129,
+        374.78981,
+        568.31128
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 265,
+      "printed_page": 272,
+      "bbox_pt": [
+        0,
+        367.86181000000005,
+        595,
+        797
+      ],
+      "text_raw": "Now that we know how to\nstabilize a three-stage ampli-\nfier, that we know how to\nchoose the two variables p\nand q, or even better p and\nf – we use this procedure to\ndesign such an amplifier.\nHowever, there are sev-\neral configurations. We\nwill start with the conven-\ntional Nested Miller Com-\npensation (NMC) and then\ngradually add other branch-\nes such as feedforward,\nmulti-path branches, etc.",
+      "text": "Now that we know how to stabilize a three-stage amplifier, that we know how to choose the two variables p and q, or even better p and f – we use this procedure to design such an amplifier. However, there are several configurations. We will start with the conventional Nested Miller Compensation (NMC) and then gradually add other branches such as feedforward, multi-path branches, etc."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Now that we know how to stabilize a three-stage amplifier, that we know how to choose the two variables p and q, or even better p and f – we use this procedure to design such an amplifier. However, there are several configurations. We will start with the conventional Nested Miller Compensation (NMC) and then gradually add other branches such as feedforward, multi-path branches, etc.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0265_02_0919.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270487451739,
+          0.08292682909407667,
+          0.3817567589285714,
+          0.13658536567944246
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.13175675277027027,
+          0.3121951221463415,
+          0.5304054014189189,
+          0.3707317075121952
+        ],
+        "confidence": 1,
+        "text": "• Design procedure"
+      },
+      {
+        "bbox": [
+          0.1312425117279387,
+          0.3945475636149458,
+          0.6052876208324045,
+          0.4651475871172026
+        ],
+        "confidence": 1,
+        "text": "• Nested-Miller designs"
+      },
+      {
+        "bbox": [
+          0.13175675315315324,
+          0.4975609757723577,
+          0.5641891855855856,
+          0.5560975611382113
+        ],
+        "confidence": 1,
+        "text": "• Low-power designs"
+      },
+      {
+        "bbox": [
+          0.13175676038851342,
+          0.5902439021341463,
+          0.42229730092905393,
+          0.6536585362804878
+        ],
+        "confidence": 1,
+        "text": "• Comparison"
+      },
+      {
+        "bbox": [
+          0.7364864844594595,
+          0.9317073173170732,
+          0.939189187162162,
+          0.9658536587804879
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.a5 0919"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0265_02_0919.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

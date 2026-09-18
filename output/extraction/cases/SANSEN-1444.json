@@ -1,0 +1,531 @@
+{
+  "case_id": "SANSEN-1444",
+  "slide_id": "1444",
+  "chapter": 14,
+  "slide_number_in_chapter": 44,
+  "source": {
+    "pdf_page": 402,
+    "printed_page": 410
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0402_02_1444.jpg",
+      "pdf_page": 402,
+      "printed_page": 410,
+      "bbox_pt": [
+        91.521622,
+        479.27398700000003,
+        374.78981,
+        675.733978
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 402,
+      "printed_page": 410,
+      "bbox_pt": [
+        0,
+        475.2845000000004,
+        595,
+        797
+      ],
+      "text_raw": "This photo current detector\nis a shunt-shunt feedback\npair, preceded by a cascode\nagain. The main reason is to\nhave an input impedance\nwhich is independent of fre-\nquency, not to interact with\nthe current source. A cas-\ncode has an input resistance\nof 1/g , which goes up to\nm1\nvery high frequencies.\nThe transresistance is\nsimply R , as the input cur-\nF\nrent flows through the cas-\ncode into resistor R . The\nF\nGate of transistor M2 is at\na low resistance because of the feedback.",
+      "text": "This photo current detector is a shunt-shunt feedback pair, preceded by a cascode again. The main reason is to have an input impedance which is independent of frequency, not to interact with the current source. A cascode has an input resistance of 1/g , which goes up to m1 very high frequencies. The transresistance is simply R , as the input cur- F rent flows through the cascode into resistor R . The F Gate of transistor M2 is at a low resistance because of the feedback."
+    },
+    {
+      "pdf_page": 403,
+      "printed_page": 411,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        237.12093999999968
+      ],
+      "text_raw": "The loop gain is A . The bandwidth is increased by this loop gain. Also, the output resistance\nv2\nR is decreased by that same loop gain.\nOUT\nThe dominant time constant is at the Drain of transistor M1. It has a fairly large capacitance\nbecause of the Miller effect across transistor M2. Moreover, resistor R is fairly high to have\nL1\nhigh gain. The time constants at the nodes are smaller. For example, at the input node, the time\nconstant is g /C , which is the f of the transistor M1. The time constant at the Drain of\nm1 GS1 T\ntransistor M2 is too small since the capacitance at this node contains mainly the output\ncapacitance of transistor M2. The input capacitance of transistor M3 is bootstrapped as transistor\nM3 is a Source follower.",
+      "text": "The loop gain is A . The bandwidth is increased by this loop gain. Also, the output resistance v2 R is decreased by that same loop gain. OUT The dominant time constant is at the Drain of transistor M1. It has a fairly large capacitance because of the Miller effect across transistor M2. Moreover, resistor R is fairly high to have L1 high gain. The time constants at the nodes are smaller. For example, at the input node, the time constant is g /C , which is the f of the transistor M1. The time constant at the Drain of m1 GS1 T transistor M2 is too small since the capacitance at this node contains mainly the output capacitance of transistor M2. The input capacitance of transistor M3 is bootstrapped as transistor M3 is a Source follower."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This photo current detector is a shunt-shunt feedback pair, preceded by a cascode again. The main reason is to have an input impedance which is independent of frequency, not to interact with the current source. A cascode has an input resistance of 1/g , which goes up to m1 very high frequencies. The transresistance is simply R , as the input cur- F rent flows through the cascode into resistor R . The F Gate of transistor M2 is at a low resistance because of the feedback.\n\nThe loop gain is A . The bandwidth is increased by this loop gain. Also, the output resistance v2 R is decreased by that same loop gain. OUT The dominant time constant is at the Drain of transistor M1. It has a fairly large capacitance because of the Miller effect across transistor M2. Moreover, resistor R is fairly high to have L1 high gain. The time constants at the nodes are smaller. For example, at the input node, the time constant is g /C , which is the f of the transistor M1. The time constant at the Drain of m1 GS1 T transistor M2 is too small since the capacitance at this node contains mainly the output capacitance of transistor M2. The input capacitance of transistor M3 is bootstrapped as transistor M3 is a Source follower.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈跨阻放大器与电流放大器",
+  "title": "Current detector with input cascode",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0402_02_1444.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432692567563,
+          0.08292682990243905,
+          0.7128378404391892,
+          0.14634146404878046
+        ],
+        "confidence": 1,
+        "text": "Current detector with input cascode"
+      },
+      {
+        "bbox": [
+          0.16216216241554055,
+          0.49268292658536583,
+          0.19256756782094595,
+          0.5414634143902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.22972972918074325,
+          0.3365853660670731,
+          0.3175675670185811,
+          0.40000000021341453
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ZRL1"
+      },
+      {
+        "bbox": [
+          0.24662162162162163,
+          0.5170731712195121,
+          0.28716216216216217,
+          0.5560975614634146
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.2736486483445946,
+          0.663414633707317,
+          0.3108108105067568,
+          0.7073170727317073
+        ],
+        "confidence": 0.5,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.40540540584459467,
+          0.3268292687804878,
+          0.4560810815202703,
+          0.3756097565853658
+        ],
+        "confidence": 0.5,
+        "text": "RL2"
+      },
+      {
+        "bbox": [
+          0.37500000015202706,
+          0.4634146343170732,
+          0.41216216231418923,
+          0.49756097578048775
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.4155405402364865,
+          0.4926829263414634,
+          0.4527027023986487,
+          0.5414634141463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RF"
+      },
+      {
+        "bbox": [
+          0.4020270264189189,
+          0.5512195124390245,
+          0.4628378372297297,
+          0.5951219514634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "W"
+      },
+      {
+        "bbox": [
+          0.07770270545366795,
+          0.7902439021254356,
+          0.4628378405888032,
+          0.8536585362717771
+        ],
+        "confidence": 0.5,
+        "text": "Zin independent of f !"
+      },
+      {
+        "bbox": [
+          0.06756756628378383,
+          0.8634146345365854,
+          0.4594594581756757,
+          0.9024390247804879
+        ],
+        "confidence": 1,
+        "text": "Vanisri, etal, JSSC June 95, pp. 677-685"
+      },
+      {
+        "bbox": [
+          0.5168918922015766,
+          0.4195121948780487,
+          0.5540540543637388,
+          0.45853658512195117
+        ],
+        "confidence": 0.5,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.5202702695945947,
+          0.6097560977439025,
+          0.5743243236486487,
+          0.6634146343292683
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RE"
+      },
+      {
+        "bbox": [
+          0.7736486491554054,
+          0.20487804941463417,
+          0.8310810815878379,
+          0.2682926835609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avz"
+      },
+      {
+        "bbox": [
+          0.628378379527027,
+          0.2487804875609756,
+          0.7432432443918918,
+          0.2926829265853659
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BW = -"
+      },
+      {
+        "bbox": [
+          0.712542084676366,
+          0.29546018747974523,
+          0.9057011622949391,
+          0.3581983525210407
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "27 RFl/RL1Cт"
+      },
+      {
+        "bbox": [
+          0.6283783755067568,
+          0.40000000079268294,
+          0.9324324295608108,
+          0.46341463493902435
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "C, = CGs2 + Avz°GD2"
+      },
+      {
+        "bbox": [
+          0.5979729722550675,
+          0.48780487743902434,
+          0.6621621614442567,
+          0.5365853652439023
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.7363535987587134,
+          0.5063751406130025,
+          0.9325653234266492,
+          0.5667955909631359
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av2 = 9m2RL2"
+      },
+      {
+        "bbox": [
+          0.648648648902027,
+          0.6390243900914634,
+          0.6891891894425676,
+          0.6926829266768292
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.5067567585135134,
+          0.8048780487317073,
+          0.6824324341891892,
+          0.8585365853170731
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rg» 1/9m1"
+      },
+      {
+        "bbox": [
+          0.7359507142141971,
+          0.6204621438877522,
+          0.9295898250886825,
+          0.6868549284716116
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT = RF lIN"
+      },
+      {
+        "bbox": [
+          0.85810810871139,
+          0.7170731706271778,
+          0.9425675681708494,
+          0.7707317072125437
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1/9 m3"
+      },
+      {
+        "bbox": [
+          0.7364864879222973,
+          0.7560975604878049,
+          0.8513513527871621,
+          0.8146341458536586
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RoUT ="
+      },
+      {
+        "bbox": [
+          0.8716216212274774,
+          0.7999999995528455,
+          0.9256756752815315,
+          0.8536585361382114
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avz"
+      },
+      {
+        "bbox": [
+          0.7229729825135651,
+          0.9317073175857816,
+          0.9358108074639122,
+          0.9707317066666666
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.0s 1444"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0402_02_1444.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "The main reason is to have an input impedance which is independent of frequency, not to interact with the current source.",
+        "pdf_page": 402,
+        "printed_page": 410,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The F Gate of transistor M2 is at a low resistance because of the feedback.",
+        "pdf_page": 402,
+        "printed_page": 410,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "OUT The dominant time constant is at the Drain of transistor M1.",
+        "pdf_page": 403,
+        "printed_page": 411,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The time constant at the Drain of m1 GS1 T transistor M2 is too small since the capacitance at this node contains mainly the output capacitance of transistor M2.",
+        "pdf_page": 403,
+        "printed_page": 411,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The input capacitance of transistor M3 is bootstrapped as transistor M3 is a Source follower.",
+        "pdf_page": 403,
+        "printed_page": 411,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The main reason is to have an input impedance which is independent of frequency, not to interact with the current source.",
+      "pdf_page": 402,
+      "printed_page": 410,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The loop gain is A .",
+      "pdf_page": 403,
+      "printed_page": 411,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The bandwidth is increased by this loop gain.",
+      "pdf_page": 403,
+      "printed_page": 411,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also, the output resistance v2 R is decreased by that same loop gain.",
+      "pdf_page": 403,
+      "printed_page": 411,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Moreover, resistor R is fairly high to have L1 high gain.",
+      "pdf_page": 403,
+      "printed_page": 411,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1444-M01",
+      "ocr_text": "BW = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.628378379527027,
+        0.2487804875609756,
+        0.7432432443918918,
+        0.2926829265853659
+      ],
+      "context_crop": "regions/SANSEN-1444_math_01.png",
+      "context_bbox_normalized": [
+        0.588378379527027,
+        0.1487804875609756,
+        0.9732432443918918,
+        0.4226829265853659
+      ],
+      "source_image": "slides/p0402_02_1444.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1444-M02",
+      "ocr_text": "C, = CGs2 + Avz°GD2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6283783755067568,
+        0.40000000079268294,
+        0.9324324295608108,
+        0.46341463493902435
+      ],
+      "context_crop": "regions/SANSEN-1444_math_02.png",
+      "context_bbox_normalized": [
+        0.5883783755067568,
+        0.30000000079268296,
+        1,
+        0.5934146349390244
+      ],
+      "source_image": "slides/p0402_02_1444.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1444-M03",
+      "ocr_text": "Av2 = 9m2RL2",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7363535987587134,
+        0.5063751406130025,
+        0.9325653234266492,
+        0.5667955909631359
+      ],
+      "context_crop": "regions/SANSEN-1444_math_03.png",
+      "context_bbox_normalized": [
+        0.6963535987587134,
+        0.4063751406130025,
+        1,
+        0.6967955909631359
+      ],
+      "source_image": "slides/p0402_02_1444.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1444-M04",
+      "ocr_text": "VOUT = RF lIN",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7359507142141971,
+        0.6204621438877522,
+        0.9295898250886825,
+        0.6868549284716116
+      ],
+      "context_crop": "regions/SANSEN-1444_math_04.png",
+      "context_bbox_normalized": [
+        0.6959507142141971,
+        0.5204621438877522,
+        1,
+        0.8168549284716116
+      ],
+      "source_image": "slides/p0402_02_1444.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1444-M05",
+      "ocr_text": "RoUT =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7364864879222973,
+        0.7560975604878049,
+        0.8513513527871621,
+        0.8146341458536586
+      ],
+      "context_crop": "regions/SANSEN-1444_math_05.png",
+      "context_bbox_normalized": [
+        0.6964864879222973,
+        0.6560975604878049,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0402_02_1444.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback transimpedance and current amplifiers"
+}

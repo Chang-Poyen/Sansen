@@ -1,0 +1,51 @@
+L ow-noise amplifiers 713
+its s is −20 dB. It is clear that reflections will especially occur at the LNA input and less at
+11
+the antenna terminal.
+235
+If a transmission line with
+characteristic impedance is
+terminated in a resistor with
+the same value, then a divi-
+sion by two occurs.
+This is shown in this slide.
+A voltage source with value
+v has an internal resistance
+s
+R. It is matched by a trans-
+mission line with load aR. It
+now presents a resistance
+aR to the voltage source.
+For perfect matching the
+load resistance equals the
+source resistance and a= 1.
+Usually, the load resistance
+is somewhat different; a is larger or smaller.
+In this case, what is the Noise Figure?
+Both the signal power S and noise power N are readily calculated at the output.
+out out
+The Noise Figure, which is defined as the ratio of the total noise at the output, divided by the
+noise due only to the source resistance (see Chapter 4), is obtained as given in this slide.
+For perfect impedance matching, a is unity and the Noise Figure is 2 or 3 dB.
+This is a typical value for resistive terminations, as shown next.
+236
+If a single transistor is taken
+as a LNA, to which a resis-
+tor aR is added for proper
+termination, then it is clear
+that the only design parame-
+ter left is the transconduct-
+ance g . Indeed, the Noise
+m
+Figure is given in two cases,
+with perfect matching (a=
+1) and without aR.
+Matching (a=1) is
+required to avoid reflec-
+tions. The NF is higher,
+however. If no matching
+resistance is present (a=0),
+then the NF can be higher.
+Both conditions are plotted versus transconductance g .
+m
+Deviations from the matching condition can give higher Noise Figures.

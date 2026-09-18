@@ -1,0 +1,49 @@
+Noise performance of elementary transistor stages 125
+0416
+This is also very much the
+case for the Substrate
+resistance.
+Even if the Substrate con-
+tact is shorted to the Source
+contact, it is impossible
+to avoid the presence of
+a Substrate resistance. Its
+value evidently depends on
+whether the substrate has a
+back contact or not. It is
+difficult to calculate its value
+because it is a distributed
+resistance. It will always be
+present.
+This resistance gives
+noise, which has to be included in the small-signal diagram.
+0417
+The noise of the Bulk or
+Substrate resistance R is
+B
+included. It is multiplied by
+the Bulk transconductance
+g , to be transferred to the
+mb
+output. Then it has to be
+divided again by the trans-
+conductance g itself, to be
+m
+transferred to the Gate. The
+ratio g /g applies in the
+mb m
+parameter n−1.
+The total equivalent input
+noise voltage includes the
+contribution of the substrate
+resistance R , multiplied by
+B
+(n−1)2.
+Again, the value of this resistance R depends on the layout. For low-noise performance, a
+B
+large substrate contact will have to be designed.
+0418
+The last contribution to the equivalent input noise voltage is given by the series resistance in
+the Source itself. Normally, this is quite small, but depending on the effective channel length.
+It is easy to show (see next slide) that the noise of the Source resistor can simply be added to
+the noise of the Gate resistor. It is as if the Source resistor itself can be added to the Gate resistor.

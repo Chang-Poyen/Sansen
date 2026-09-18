@@ -1,0 +1,630 @@
+{
+  "case_id": "SANSEN-0938",
+  "slide_id": "0938",
+  "chapter": 9,
+  "slide_number_in_chapter": 38,
+  "source": {
+    "pdf_page": 275,
+    "printed_page": 282
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0275_01_0938.jpg",
+      "pdf_page": 275,
+      "printed_page": 282,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 275,
+      "printed_page": 282,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        429.4455100000001
+      ],
+      "text_raw": "The approximate expression\nof the open-loop gain is\ngiven in this slide. As\nexpected, three poles show\nup and two zero’s. The\nGBW is the same as for any\nthree-stage amplifier with an\noverall Miller capacitance\nC .\nm1\nNote, however, that the\nfirst non-dominant pole\ncoincides with the first zero.\nThey now cancel each other.\nFor stability, transcon-\nductance g must be\nm3\nsufficiently large or compen-\nsation capacitance C .\nm1\nRelatively large values are used for C to avoid excessive power consumption.\nm1\nFor a 3rd-order Butterworth realization, this PFC configuration gives a GBW which is about\n6 times larger than a NMC realization with the same load capacitance and power consumption.",
+      "text": "The approximate expression of the open-loop gain is given in this slide. As expected, three poles show up and two zero’s. The GBW is the same as for any three-stage amplifier with an overall Miller capacitance C . m1 Note, however, that the first non-dominant pole coincides with the first zero. They now cancel each other. For stability, transconductance g must be m3 sufficiently large or compensation capacitance C . m1 Relatively large values are used for C to avoid excessive power consumption. m1 For a 3rd-order Butterworth realization, this PFC configuration gives a GBW which is about 6 times larger than a NMC realization with the same load capacitance and power consumption."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The approximate expression of the open-loop gain is given in this slide. As expected, three poles show up and two zero’s. The GBW is the same as for any three-stage amplifier with an overall Miller capacitance C . m1 Note, however, that the first non-dominant pole coincides with the first zero. They now cancel each other. For stability, transconductance g must be m3 sufficiently large or compensation capacitance C . m1 Relatively large values are used for C to avoid excessive power consumption. m1 For a 3rd-order Butterworth realization, this PFC configuration gives a GBW which is about 6 times larger than a NMC realization with the same load capacitance and power consumption.",
+  "schema_version": "1.0",
+  "chapter_title": "多级运算放大器设计",
+  "title": "PFC Equations",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0275_01_0938.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457627393220333,
+          0.08292682907317073,
+          0.349152545118644,
+          0.14146341443902433
+        ],
+        "confidence": 0.5,
+        "text": "PFC Equations"
+      },
+      {
+        "bbox": [
+          0.36271186423728813,
+          0.1902439020121951,
+          0.3830508472881356,
+          0.22439024347560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "S"
+      },
+      {
+        "bbox": [
+          0.21016949334745758,
+          0.20975609707317078,
+          0.35593220521186436,
+          0.2682926824390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Adc (1 +"
+      },
+      {
+        "bbox": [
+          0.35254237328813554,
+          0.2585365851219512,
+          0.3932203393898304,
+          0.3024390241463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Q1"
+      },
+      {
+        "bbox": [
+          0.3999999998305085,
+          0.21463414595121955,
+          0.42372881338983054,
+          0.253658536195122
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.0644067807118644,
+          0.2780487801463415,
+          0.16949152647457627,
+          0.3317073167317073
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "A,(s) ="
+      },
+      {
+        "bbox": [
+          0.1864406786440678,
+          0.32682926775609755,
+          0.2881355938983051,
+          0.38048780434146345
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "11+3"
+      },
+      {
+        "bbox": [
+          0.28465071357444394,
+          0.3456174921629309,
+          0.38992555410716706,
+          0.37633372762614303
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-11+"
+      },
+      {
+        "bbox": [
+          0.40677966122033893,
+          0.321951219902439,
+          0.43389830528813556,
+          0.3609756101463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "S"
+      },
+      {
+        "bbox": [
+          0.40338983081920904,
+          0.38536585353658537,
+          0.44067796641242934,
+          0.42926829256097565
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "@1"
+      },
+      {
+        "bbox": [
+          0.0711864359745764,
+          0.5073170732317073,
+          0.4474576224152544,
+          0.5707317073780488
+        ],
+        "confidence": 0.5,
+        "text": "Adc = 9m19m29m3R,R2R3"
+      },
+      {
+        "bbox": [
+          0.08135593300847456,
+          0.6390243898170732,
+          0.1457627126694915,
+          0.6829268288414635
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0d ="
+      },
+      {
+        "bbox": [
+          0.447457627161017,
+          0.17560975548780489,
+          0.4847457627542373,
+          0.22439024329268298
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "$2"
+      },
+      {
+        "bbox": [
+          0.44745762728813554,
+          0.3463414637804878,
+          0.467796610338983,
+          0.37560975646341466
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.49491525383050855,
+          0.3073170735609756,
+          0.5355932199322034,
+          0.3560975613658537
+        ],
+        "confidence": 0.5,
+        "text": "s?"
+      },
+      {
+        "bbox": [
+          0.47796610220338986,
+          0.3853658534843205,
+          0.549152542881356,
+          0.4292682925087108
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "001 02"
+      },
+      {
+        "bbox": [
+          0.5457627120338983,
+          0.3463414652280581,
+          0.5627118645762711,
+          0.38536585314592564
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ")"
+      },
+      {
+        "bbox": [
+          0.8305084753389831,
+          0.2390243901219512,
+          0.8915254244915255,
+          0.2878048779268292
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.7525423729830509,
+          0.2780487809756097,
+          0.8169491526440679,
+          0.3268292687804878
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0, ="
+      },
+      {
+        "bbox": [
+          0.8237288145762712,
+          0.30731707317073176,
+          0.905084746779661,
+          0.36585365853658536
+        ],
+        "confidence": 0.5,
+        "text": "20m2"
+      },
+      {
+        "bbox": [
+          0.8237288128474577,
+          0.39024390185365854,
+          0.9016949145423729,
+          0.44878048721951225
+        ],
+        "confidence": 1,
+        "text": "29m3"
+      },
+      {
+        "bbox": [
+          0.7525423730790961,
+          0.4390243897560976,
+          0.816949152740113,
+          0.4975609751219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "002 ="
+      },
+      {
+        "bbox": [
+          0.8406779664745762,
+          0.4682926835121951,
+          0.8847457630847456,
+          0.5268292688780487
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.8474576280932202,
+          0.5463414634756099,
+          0.9254237297881355,
+          0.6000000000609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "29m3"
+      },
+      {
+        "bbox": [
+          0.7525423743502824,
+          0.5951219508130081,
+          0.8406779675706213,
+          0.6390243898373983
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(03 = -"
+      },
+      {
+        "bbox": [
+          0.8508474570338984,
+          0.6195121943902439,
+          0.9118644061864408,
+          0.6780487797560976
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cm1"
+      },
+      {
+        "bbox": [
+          0.07118644003389832,
+          0.8195121952682928,
+          0.13559321969491528,
+          0.8634146342926831
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "QUG"
+      },
+      {
+        "bbox": [
+          0.18644067995157382,
+          0.6731707315679443,
+          0.4644067816464891,
+          0.7317073169337979
+        ],
+        "confidence": 0.5,
+        "text": "Cm19m29m3R,R2R3"
+      },
+      {
+        "bbox": [
+          0.18644067844632767,
+          0.7756097559349594,
+          0.24406779709039547,
+          0.8243902437398375
+        ],
+        "confidence": 1,
+        "text": "9m1"
+      },
+      {
+        "bbox": [
+          0.1830508481016949,
+          0.8439024390243902,
+          0.24745762776271185,
+          0.9024390243902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cm1"
+      },
+      {
+        "bbox": [
+          0.5456178427011072,
+          0.8088116345305597,
+          0.7120092735720686,
+          0.864359097552187
+        ],
+        "confidence": 1,
+        "text": "Stability :"
+      },
+      {
+        "bbox": [
+          0.7322033890508474,
+          0.7756097555609756,
+          0.8169491517627119,
+          0.8292682921463415
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "29m3"
+      },
+      {
+        "bbox": [
+          0.8237288133898305,
+          0.8097560971707317,
+          0.8474576269491525,
+          0.8487804874146341
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ">"
+      },
+      {
+        "bbox": [
+          0.8677966106053268,
+          0.7853658535191638,
+          0.9288135597578692,
+          0.8341463413240418
+        ],
+        "confidence": 1,
+        "text": "9m2"
+      },
+      {
+        "bbox": [
+          0.7491525428135593,
+          0.8536585365365853,
+          0.7932203394237288,
+          0.9073170731219512
+        ],
+        "confidence": 1,
+        "text": "CL"
+      },
+      {
+        "bbox": [
+          0.8677966107796611,
+          0.8536585365365853,
+          0.9288135599322035,
+          0.9073170731219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cm1"
+      },
+      {
+        "bbox": [
+          0.7322033944316904,
+          0.9317073176422765,
+          0.9389830425174623,
+          0.9658536591056911
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.05 0938"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "As expected, three poles show up and two zero’s.",
+      "pdf_page": 275,
+      "printed_page": 282,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0275_01_0938.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The approximate expression of the open-loop gain is given in this slide.",
+      "pdf_page": 275,
+      "printed_page": 282,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The approximate expression of the open-loop gain is given in this slide.",
+      "pdf_page": 275,
+      "printed_page": 282,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0938-M01",
+      "ocr_text": "A,(s) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.0644067807118644,
+        0.2780487801463415,
+        0.16949152647457627,
+        0.3317073167317073
+      ],
+      "context_crop": "regions/SANSEN-0938_math_01.png",
+      "context_bbox_normalized": [
+        0.024406780711864397,
+        0.17804878014634148,
+        0.3994915264745763,
+        0.4617073167317073
+      ],
+      "source_image": "slides/p0275_01_0938.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0938-M02",
+      "ocr_text": "Adc = 9m19m29m3R,R2R3",
+      "confidence": 0.5,
+      "bbox_normalized": [
+        0.0711864359745764,
+        0.5073170732317073,
+        0.4474576224152544,
+        0.5707317073780488
+      ],
+      "context_crop": "regions/SANSEN-0938_math_02.png",
+      "context_bbox_normalized": [
+        0.031186435974576397,
+        0.4073170732317073,
+        0.6774576224152544,
+        0.7007317073780488
+      ],
+      "source_image": "slides/p0275_01_0938.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0938-M03",
+      "ocr_text": "0d =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.08135593300847456,
+        0.6390243898170732,
+        0.1457627126694915,
+        0.6829268288414635
+      ],
+      "context_crop": "regions/SANSEN-0938_math_03.png",
+      "context_bbox_normalized": [
+        0.04135593300847456,
+        0.5390243898170732,
+        0.3757627126694915,
+        0.8129268288414635
+      ],
+      "source_image": "slides/p0275_01_0938.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0938-M04",
+      "ocr_text": "0, =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7525423729830509,
+        0.2780487809756097,
+        0.8169491526440679,
+        0.3268292687804878
+      ],
+      "context_crop": "regions/SANSEN-0938_math_04.png",
+      "context_bbox_normalized": [
+        0.7125423729830509,
+        0.1780487809756097,
+        1,
+        0.4568292687804878
+      ],
+      "source_image": "slides/p0275_01_0938.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0938-M05",
+      "ocr_text": "002 =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7525423730790961,
+        0.4390243897560976,
+        0.816949152740113,
+        0.4975609751219512
+      ],
+      "context_crop": "regions/SANSEN-0938_math_05.png",
+      "context_bbox_normalized": [
+        0.7125423730790961,
+        0.3390243897560976,
+        1,
+        0.6275609751219512
+      ],
+      "source_image": "slides/p0275_01_0938.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0938-M06",
+      "ocr_text": "(03 = -",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7525423743502824,
+        0.5951219508130081,
+        0.8406779675706213,
+        0.6390243898373983
+      ],
+      "context_crop": "regions/SANSEN-0938_math_06.png",
+      "context_bbox_normalized": [
+        0.7125423743502823,
+        0.49512195081300814,
+        1,
+        0.7690243898373983
+      ],
+      "source_image": "slides/p0275_01_0938.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0938-M07",
+      "ocr_text": ">",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8237288133898305,
+        0.8097560971707317,
+        0.8474576269491525,
+        0.8487804874146341
+      ],
+      "context_crop": "regions/SANSEN-0938_math_07.png",
+      "context_bbox_normalized": [
+        0.7837288133898305,
+        0.7097560971707317,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0275_01_0938.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Design of multistage operational amplifiers"
+}

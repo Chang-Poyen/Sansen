@@ -1,0 +1,164 @@
+{
+  "case_id": "SANSEN-2177",
+  "slide_id": "2177",
+  "chapter": 21,
+  "slide_number_in_chapter": 77,
+  "source": {
+    "pdf_page": 665,
+    "printed_page": 676
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0665_01_2177.jpg",
+      "pdf_page": 665,
+      "printed_page": 676,
+      "bbox_pt": [
+        91.52162,
+        122.52697,
+        374.54215999999997,
+        318.93713
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 665,
+      "printed_page": 676,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        797
+      ],
+      "text_raw": "In this Chapter, an overview\nis given of the techniques\nwhich are available to\nreduce the supply voltage\nand the power consumption\nin sigma-delta converters.\nThe main problem at low\nsupply voltages is the input\nsampling switch and the\nincrease of the distortion.\nThis can be remedied by the\nswitched-opamp technique\nand also by a number of\nclever circuit techniques.\nThey have all been dis-\ncussed and compared for a\ngenerally accepted FOM.",
+      "text": "In this Chapter, an overview is given of the techniques which are available to reduce the supply voltage and the power consumption in sigma-delta converters. The main problem at low supply voltages is the input sampling switch and the increase of the distortion. This can be remedied by the switched-opamp technique and also by a number of clever circuit techniques. They have all been discussed and compared for a generally accepted FOM."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In this Chapter, an overview is given of the techniques which are available to reduce the supply voltage and the power consumption in sigma-delta converters. The main problem at low supply voltages is the input sampling switch and the increase of the distortion. This can be remedied by the switched-opamp technique and also by a number of clever circuit techniques. They have all been discussed and compared for a generally accepted FOM.",
+  "schema_version": "1.0",
+  "chapter_title": "低功耗 ΣΔ 模数转换器",
+  "title": "Table of contents",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0665_01_2177.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07457626900726391,
+          0.07804878069686416,
+          0.3796610147699757,
+          0.13658536606271776
+        ],
+        "confidence": 1,
+        "text": "Table of contents"
+      },
+      {
+        "bbox": [
+          0.09152542000000012,
+          0.32682926882113816,
+          0.5864406742372883,
+          0.3902439029674796
+        ],
+        "confidence": 1,
+        "text": "+ Delta-sigma modulation"
+      },
+      {
+        "bbox": [
+          0.0915254211622276,
+          0.42439024439024386,
+          0.505084743196126,
+          0.4926829273170732
+        ],
+        "confidence": 0.5,
+        "text": "• The switch problem"
+      },
+      {
+        "bbox": [
+          0.09152541669491546,
+          0.5317073179268292,
+          0.7016949082203392,
+          0.6000000008536586
+        ],
+        "confidence": 1,
+        "text": "• The switched-opamp solution"
+      },
+      {
+        "bbox": [
+          0.08813558498305096,
+          0.6341463417560975,
+          0.9118643985423729,
+          0.7024390246829267
+        ],
+        "confidence": 1,
+        "text": "* Other low-power Delta-sigma converters"
+      },
+      {
+        "bbox": [
+          0.7220339005508474,
+          0.9317073165853659,
+          0.9355932225847458,
+          0.9707317068292683
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2177"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "They have all been discussed and compared for a generally accepted FOM.",
+      "pdf_page": 665,
+      "printed_page": 676,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0665_01_2177.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The main problem at low supply voltages is the input sampling switch and the increase of the distortion.",
+      "pdf_page": 665,
+      "printed_page": 676,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-power sigma-delta AD converters"
+}

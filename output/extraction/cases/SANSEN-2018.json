@@ -1,0 +1,551 @@
+{
+  "case_id": "SANSEN-2018",
+  "slide_id": "2018",
+  "chapter": 20,
+  "slide_number_in_chapter": 18,
+  "source": {
+    "pdf_page": 600,
+    "printed_page": 611
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0600_02_2018.jpg",
+      "pdf_page": 600,
+      "printed_page": 611,
+      "bbox_pt": [
+        91.52162,
+        443.39995999999996,
+        374.78981,
+        639.85995
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 600,
+      "printed_page": 611,
+      "bbox_pt": [
+        0,
+        439.4105100000003,
+        595,
+        797
+      ],
+      "text_raw": "The matching of the current\nsources is now discussed in\nmore detail.\nIn the binary implementa-\ntion, each bit directly steers\na current source with a\nvalue that is twice as large\nas that of the next less sig-\nnificant bit, while in the\nunary implementation each\nbit steers a number of unit\ncurrent sources.\nComparing the perfor-\nmance of these two architec-\ntures shows that the binary\narchitecture has a larger\nDNL and glitch energy error, but since this architecture requires no thermometer decoder (as\nthe unary implementation does) it has a lower power and area consumption.\nA combination of the advantages of the two architectures is found in the segmented architecture.\nHere the LSBs are implemented in a binary way while the MSBs are implemented in a unary way.",
+      "text": "The matching of the current sources is now discussed in more detail. In the binary implementation, each bit directly steers a current source with a value that is twice as large as that of the next less significant bit, while in the unary implementation each bit steers a number of unit current sources. Comparing the performance of these two architectures shows that the binary architecture has a larger DNL and glitch energy error, but since this architecture requires no thermometer decoder (as the unary implementation does) it has a lower power and area consumption. A combination of the advantages of the two architectures is found in the segmented architecture. Here the LSBs are implemented in a binary way while the MSBs are implemented in a unary way."
+    },
+    {
+      "pdf_page": 601,
+      "printed_page": 612,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        225.1628999999997
+      ],
+      "text_raw": "As a conclusion, one can state that in CMOS the best architecture to achieve a high update\nrate and a high linearity is the segmented current steering architecture.\nIn the unary implementation, the DNL error equals about s(I)/I, in which s(I) is the standard\ndeviation on a unary current source. In the binary implementation however, at half-scale\ntransition, 2N−1 unit current sources are switched off. The DNL error is thererfore much larger.\nFor the segmented architecture, the DNL error is in between.\nHow much standard deviation s(I)/I is actually required?",
+      "text": "As a conclusion, one can state that in CMOS the best architecture to achieve a high update rate and a high linearity is the segmented current steering architecture. In the unary implementation, the DNL error equals about s(I)/I, in which s(I) is the standard deviation on a unary current source. In the binary implementation however, at half-scale transition, 2N−1 unit current sources are switched off. The DNL error is thererfore much larger. For the segmented architecture, the DNL error is in between. How much standard deviation s(I)/I is actually required?"
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "The matching of the current sources is now discussed in more detail. In the binary implementation, each bit directly steers a current source with a value that is twice as large as that of the next less significant bit, while in the unary implementation each bit steers a number of unit current sources. Comparing the performance of these two architectures shows that the binary architecture has a larger DNL and glitch energy error, but since this architecture requires no thermometer decoder (as the unary implementation does) it has a lower power and area consumption. A combination of the advantages of the two architectures is found in the segmented architecture. Here the LSBs are implemented in a binary way while the MSBs are implemented in a unary way.\n\nAs a conclusion, one can state that in CMOS the best architecture to achieve a high update rate and a high linearity is the segmented current steering architecture. In the unary implementation, the DNL error equals about s(I)/I, in which s(I) is the standard deviation on a unary current source. In the binary implementation however, at half-scale transition, 2N−1 unit current sources are switched off. The DNL error is thererfore much larger. For the segmented architecture, the DNL error is in between. How much standard deviation s(I)/I is actually required?",
+  "schema_version": "1.0",
+  "chapter_title": "CMOS 模数与数模转换原理",
+  "title": "Binary, unary, segmented DAC",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0600_02_2018.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432431875000005,
+          0.0829268293658536,
+          0.6317567511824325,
+          0.14146341473170732
+        ],
+        "confidence": 1,
+        "text": "Binary, unary, segmented DAC"
+      },
+      {
+        "bbox": [
+          0.17567567179054064,
+          0.1951219514634146,
+          0.4864864826013514,
+          0.22439024414634146
+        ],
+        "confidence": 1,
+        "text": "Migh Resolution CMOS Current-Steering DAC"
+      },
+      {
+        "bbox": [
+          0.0641891904451078,
+          0.22439024382113826,
+          0.09121621586119848,
+          0.2487804877235773
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "BO"
+      },
+      {
+        "bbox": [
+          0.0641891904451078,
+          0.29756097602866316,
+          0.09121621586119848,
+          0.31707316998759694
+        ],
+        "confidence": 1,
+        "text": "81"
+      },
+      {
+        "bbox": [
+          0.06418918969594593,
+          0.3658536589554926,
+          0.09459459510135133,
+          0.38536585291442627
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B2"
+      },
+      {
+        "bbox": [
+          0.06081081070945948,
+          0.42926829214634143,
+          0.13175675665540543,
+          0.4829268287317072
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "B3 0 B"
+      },
+      {
+        "bbox": [
+          0.5135135137162162,
+          0.2243902443902439,
+          0.5878378380405405,
+          0.273170732195122
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "вo p'"
+      },
+      {
+        "bbox": [
+          0.5135135135472974,
+          0.2829268286341463,
+          0.6114864865202703,
+          0.3463414627804877
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "в gệa"
+      },
+      {
+        "bbox": [
+          0.5135135149324324,
+          0.3560975607317073,
+          0.6554054068243242,
+          0.4195121948780487
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "вфор0\""
+      },
+      {
+        "bbox": [
+          0.29729729845778313,
+          0.3560975613821138,
+          0.35135134928996453,
+          0.38048780528455284
+        ],
+        "confidence": 1,
+        "text": "SPECS"
+      },
+      {
+        "bbox": [
+          0.28716216341808076,
+          0.44390243878048774,
+          0.31418918883417146,
+          0.4682926826829268
+        ],
+        "confidence": 1,
+        "text": "INL"
+      },
+      {
+        "bbox": [
+          0.2871621627252252,
+          0.4682926826829268,
+          0.320945946509009,
+          0.49268292658536583
+        ],
+        "confidence": 0.5,
+        "text": "DNL"
+      },
+      {
+        "bbox": [
+          0.2871621613738739,
+          0.49268292707317063,
+          0.3344594586711712,
+          0.5170731709756097
+        ],
+        "confidence": 1,
+        "text": "Glitch"
+      },
+      {
+        "bbox": [
+          0.28716216064189193,
+          0.521951219593496,
+          0.37837837685810816,
+          0.546341463495935
+        ],
+        "confidence": 1,
+        "text": "Monotonicity"
+      },
+      {
+        "bbox": [
+          0.28716216295045044,
+          0.5463414638335413,
+          0.3344594602477477,
+          0.5658536577924751
+        ],
+        "confidence": 1,
+        "text": "Power"
+      },
+      {
+        "bbox": [
+          0.2871621608108109,
+          0.5902439026829268,
+          0.36824324189189195,
+          0.6146341465853659
+        ],
+        "confidence": 1,
+        "text": "Complexity"
+      },
+      {
+        "bbox": [
+          0.5399950685004771,
+          0.5008352161040854,
+          0.635680608519332,
+          0.5723355151391345
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "фффф"
+      },
+      {
+        "bbox": [
+          0.2635135123310811,
+          0.7609756099390244,
+          0.3581081069256757,
+          0.7853658538414634
+        ],
+        "confidence": 1,
+        "text": "SEGMENTED"
+      },
+      {
+        "bbox": [
+          0.41891891959459454,
+          0.7317073168902439,
+          0.4729729736486486,
+          0.7853658534756097
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "80 0"
+      },
+      {
+        "bbox": [
+          0.41554054041385136,
+          0.8097560968292683,
+          0.49324324311655404,
+          0.8682926821951219
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Brga"
+      },
+      {
+        "bbox": [
+          0.513513513133446,
+          0.6926829275609756,
+          0.6317567563766892,
+          0.7512195129268293
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ва 0900"
+      },
+      {
+        "bbox": [
+          0.5135135147297297,
+          0.7560975606829269,
+          0.6351351363513513,
+          0.8243902436097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•фффé"
+      },
+      {
+        "bbox": [
+          0.5404315264055469,
+          0.8336973281487712,
+          0.6555144218391274,
+          0.8931319397716514
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "bó00 a"
+      },
+      {
+        "bbox": [
+          0.7128378389780405,
+          0.19512195091463413,
+          0.8040540551942568,
+          0.23902438993902442
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "G (AI) ="
+      },
+      {
+        "bbox": [
+          0.7195945953265765,
+          0.2682926827235772,
+          0.8074324331644144,
+          0.3121951217479675
+        ],
+        "confidence": 1,
+        "text": "Binary"
+      },
+      {
+        "bbox": [
+          0.7128378376689188,
+          0.3512195128658536,
+          0.8141891890202702,
+          0.4048780494512194
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V2N - 1"
+      },
+      {
+        "bbox": [
+          0.8141891885135135,
+          0.34146341487804877,
+          0.8682432425675676,
+          0.38048780512195113
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "o (l)"
+      },
+      {
+        "bbox": [
+          0.8682432426689188,
+          0.3658536587804878,
+          0.9256756751013513,
+          0.40000000024390236
+        ],
+        "confidence": 1,
+        "text": "LSB"
+      },
+      {
+        "bbox": [
+          0.7229729736204955,
+          0.45365853638211384,
+          0.8006756763231981,
+          0.497560975406504
+        ],
+        "confidence": 1,
+        "text": "Unary"
+      },
+      {
+        "bbox": [
+          0.7466216215202702,
+          0.5073170736097562,
+          0.7972972971959459,
+          0.5512195126341464
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "G (l)"
+      },
+      {
+        "bbox": [
+          0.8006756751013514,
+          0.5365853660975609,
+          0.8581081075337839,
+          0.5707317075609756
+        ],
+        "confidence": 1,
+        "text": "LSB"
+      },
+      {
+        "bbox": [
+          0.7228908552681962,
+          0.6335292627276032,
+          0.8615686069639839,
+          0.6737878098824718
+        ],
+        "confidence": 1,
+        "text": "Segmented"
+      },
+      {
+        "bbox": [
+          0.7229729752027027,
+          0.6780487802926829,
+          0.9459459481756756,
+          0.7073170729756098
+        ],
+        "confidence": 0.5,
+        "text": "B LSBs & N-B MSBs"
+      },
+      {
+        "bbox": [
+          0.7025501009418005,
+          0.7603071509905075,
+          0.8143417889845186,
+          0.8153026040574497
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "V2B+1-1"
+      },
+      {
+        "bbox": [
+          0.8209459453125,
+          0.7512195124390243,
+          0.8716216209881756,
+          0.7902439026829268
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "o (l)"
+      },
+      {
+        "bbox": [
+          0.8749999995213965,
+          0.7756097563414633,
+          0.9324324319538289,
+          0.8146341465853658
+        ],
+        "confidence": 1,
+        "text": "LSB"
+      },
+      {
+        "bbox": [
+          0.7567567589949323,
+          0.8634146340853659,
+          0.9358108130489864,
+          0.8975609755487806
+        ],
+        "confidence": 0.5,
+        "text": "Van den Bosch, ..,"
+      },
+      {
+        "bbox": [
+          0.7567567583192567,
+          0.8975609753658538,
+          0.8817567583192567,
+          0.9268292680487805
+        ],
+        "confidence": 1,
+        "text": "Kluwer 2004"
+      },
+      {
+        "bbox": [
+          0.7331081180428445,
+          0.9560975606504065,
+          0.9425675646148132,
+          0.9853658533333333
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 as 2018"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Comparing the performance of these two architectures shows that the binary architecture has a larger DNL and glitch energy error, but since this architecture requires no thermometer decoder (as the unary implementation does) it has a lower power and area consumption.",
+      "pdf_page": 600,
+      "printed_page": 611,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0600_02_2018.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "In the binary implementation, each bit directly steers a current source with a value that is twice as large as that of the next less significant bit, while in the unary implementation each bit steers a number of unit current sources.",
+        "pdf_page": 600,
+        "printed_page": 611,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In the unary implementation, the DNL error equals about s(I)/I, in which s(I) is the standard deviation on a unary current source.",
+        "pdf_page": 601,
+        "printed_page": 612,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a conclusion, one can state that in CMOS the best architecture to achieve a high update rate and a high linearity is the segmented current steering architecture.",
+      "pdf_page": 601,
+      "printed_page": 612,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In the unary implementation, the DNL error equals about s(I)/I, in which s(I) is the standard deviation on a unary current source.",
+      "pdf_page": 601,
+      "printed_page": 612,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [
+    {
+      "text": "The DNL error is thererfore much larger.",
+      "pdf_page": 601,
+      "printed_page": 612,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2018-M01",
+      "ocr_text": "G (AI) =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7128378389780405,
+        0.19512195091463413,
+        0.8040540551942568,
+        0.23902438993902442
+      ],
+      "context_crop": "regions/SANSEN-2018_math_01.png",
+      "context_bbox_normalized": [
+        0.6728378389780405,
+        0.13,
+        1,
+        0.3690243899390244
+      ],
+      "source_image": "slides/p0600_02_2018.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "CMOS ADC and DAC principles"
+}

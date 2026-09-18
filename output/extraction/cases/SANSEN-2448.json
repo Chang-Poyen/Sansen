@@ -1,0 +1,386 @@
+{
+  "case_id": "SANSEN-2448",
+  "slide_id": "2448",
+  "chapter": 24,
+  "slide_number_in_chapter": 48,
+  "source": {
+    "pdf_page": 755,
+    "printed_page": 767
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0755_02_2448.jpg",
+      "pdf_page": 755,
+      "printed_page": 767,
+      "bbox_pt": [
+        91.521622,
+        443.399964,
+        374.78981,
+        639.859955
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 755,
+      "printed_page": 767,
+      "bbox_pt": [
+        0,
+        439.41050000000007,
+        595,
+        797
+      ],
+      "text_raw": "At high frequencies, the situ-\nation is again somewhat\nmore complicated.\nThe dominant capaci-\ntances are added in the cir-\ncuit schematic. They are the\ncoupling capacitors between\nthe supply line and node 1,\nthe output of the input\nstage.\nCalculation of the\nPSRR shows however,\nSS\nthat this capacitor is not\nthat important. The PSRR\nSS\nis zero dB anyway. This\nmeans that any signal at the\nnegative supply reaches the output terminal unattenuated.\nThis clearly proves that single-ended opamps cannot be used for mixed-signal analog\nprocessing.\nWhat is the origin of this 0 dB?",
+      "text": "At high frequencies, the situation is again somewhat more complicated. The dominant capacitances are added in the circuit schematic. They are the coupling capacitors between the supply line and node 1, the output of the input stage. Calculation of the PSRR shows however, SS that this capacitor is not that important. The PSRR SS is zero dB anyway. This means that any signal at the negative supply reaches the output terminal unattenuated. This clearly proves that single-ended opamps cannot be used for mixed-signal analog processing. What is the origin of this 0 dB?"
+    },
+    {
+      "pdf_page": 756,
+      "printed_page": 768,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        195.26789999999983
+      ],
+      "text_raw": "At high frequencies, transistor M6 behaves as a small resistance with value 1/g . As a result\nm6\nthe negative line is nearly shorted to the output line. The attenuation from supply line to output\nis therefore zero.",
+      "text": "At high frequencies, transistor M6 behaves as a small resistance with value 1/g . As a result m6 the negative line is nearly shorted to the output line. The attenuation from supply line to output is therefore zero."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "At high frequencies, the situation is again somewhat more complicated. The dominant capacitances are added in the circuit schematic. They are the coupling capacitors between the supply line and node 1, the output of the input stage. Calculation of the PSRR shows however, SS that this capacitor is not that important. The PSRR SS is zero dB anyway. This means that any signal at the negative supply reaches the output terminal unattenuated. This clearly proves that single-ended opamps cannot be used for mixed-signal analog processing. What is the origin of this 0 dB?\n\nAt high frequencies, transistor M6 behaves as a small resistance with value 1/g . As a result m6 the negative line is nearly shorted to the output line. The attenuation from supply line to output is therefore zero.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Miller CMOS OTA - PSRRss",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0755_02_2448.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108474903471,
+          0.08780487787456448,
+          0.5945945982625482,
+          0.14146341445993027
+        ],
+        "confidence": 1,
+        "text": "Miller CMOS OTA - PSRRss"
+      },
+      {
+        "bbox": [
+          0.2668918915118243,
+          0.24878048731707314,
+          0.3108108104307432,
+          0.2878048775609756
+        ],
+        "confidence": 1,
+        "text": "M7"
+      },
+      {
+        "bbox": [
+          0.09459459438344595,
+          0.31707317,
+          0.12499999978885135,
+          0.3756097553658536
+        ],
+        "confidence": 1,
+        "text": "5"
+      },
+      {
+        "bbox": [
+          0.5878378371621622,
+          0.21463414646341472,
+          0.6418918912162163,
+          0.2634146342682927
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.5608108111486486,
+          0.26829268268292683,
+          0.6013513516891892,
+          0.3073170729268293
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.6216216211824325,
+          0.3268292674634147,
+          0.8006756752364865,
+          0.4097560967317073
+        ],
+        "confidence": 0.5,
+        "text": "PSRRss"
+      },
+      {
+        "bbox": [
+          0.8851351350675675,
+          0.3317073175609756,
+          0.925675675608108,
+          0.3804878053658536
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "="
+      },
+      {
+        "bbox": [
+          0.7939189179054056,
+          0.37560975624390247,
+          0.8952702692567569,
+          0.41951219526829264
+        ],
+        "confidence": 0.5,
+        "text": "IGBW"
+      },
+      {
+        "bbox": [
+          0.587837838429054,
+          0.40487804861788623,
+          0.658783784375,
+          0.4536585364227642
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.17905405371621624,
+          0.48780487829268293,
+          0.21283783750000002,
+          0.5219512197560976
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.2804054056949807,
+          0.48292682905923345,
+          0.3209459462355212,
+          0.5219512193031358
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.4560810807432433,
+          0.44878048727642283,
+          0.5033783780405405,
+          0.5121951214227642
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.5641891891891891,
+          0.6341463418536586,
+          0.6047297297297297,
+          0.673170732097561
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.1249999998310811,
+          0.6536585362195122,
+          0.15878378361486487,
+          0.7121951215853658
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.11148648648648649,
+          0.7414634151219512,
+          0.15202702702702703,
+          0.7804878053658536
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.34797297253378384,
+          0.7365853661463414,
+          0.39189189145270276,
+          0.7756097563902439
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.4594594586824325,
+          0.7414634147317074,
+          0.5371621613851352,
+          0.7902439025365855
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cniss"
+      },
+      {
+        "bbox": [
+          0.5945945950168918,
+          0.7951219511382114,
+          0.6452702706925675,
+          0.8439024389430895
+        ],
+        "confidence": 1,
+        "text": "Vss"
+      },
+      {
+        "bbox": [
+          0.7128378378137067,
+          0.6341463406968643,
+          0.8986486486245174,
+          0.741463413867596
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + Cniss"
+      },
+      {
+        "bbox": [
+          0.8277027023166024,
+          0.7268292684320558,
+          0.8817567563706563,
+          0.7951219513588851
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Cc"
+      },
+      {
+        "bbox": [
+          0.7193280699398348,
+          0.8220519993497685,
+          0.936077338548959,
+          0.8803870244858323
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 1 or 0 dB"
+      },
+      {
+        "bbox": [
+          0.7297297389324839,
+          0.9365853663662694,
+          0.9358108071260742,
+          0.9756097554471544
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2448"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Calculation of the PSRR shows however, SS that this capacitor is not that important.",
+      "pdf_page": 755,
+      "printed_page": 767,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0755_02_2448.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result m6 the negative line is nearly shorted to the output line.",
+      "pdf_page": 756,
+      "printed_page": 768,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The attenuation from supply line to output is therefore zero.",
+      "pdf_page": 756,
+      "printed_page": 768,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2448-M01",
+      "ocr_text": "=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8851351350675675,
+        0.3317073175609756,
+        0.925675675608108,
+        0.3804878053658536
+      ],
+      "context_crop": "regions/SANSEN-2448_math_01.png",
+      "context_bbox_normalized": [
+        0.8451351350675674,
+        0.2317073175609756,
+        1,
+        0.5104878053658536
+      ],
+      "source_image": "slides/p0755_02_2448.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2448-M02",
+      "ocr_text": "= 1 or 0 dB",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7193280699398348,
+        0.8220519993497685,
+        0.936077338548959,
+        0.8803870244858323
+      ],
+      "context_crop": "regions/SANSEN-2448_math_02.png",
+      "context_bbox_normalized": [
+        0.6793280699398347,
+        0.7220519993497685,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0755_02_2448.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

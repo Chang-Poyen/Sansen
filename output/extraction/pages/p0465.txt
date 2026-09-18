@@ -1,0 +1,50 @@
+474 Chapter #16
+1635
+It is clear that a MOST in
+weak inversion has an expo-
+nential current-voltage rela-
+tion, which is nearly as good
+as that of a bipolar transis-
+tor. In this way the bipolar
+bandgap references can
+probably be duplicated in
+CMOS.
+There are some important
+differences, however. First of
+all, for weak inversion the
+currents are small and the
+resistors are large, which is
+bad for noise.
+Also, MOST have larger
+offset voltages. The errors are therefore larger as well.
+Also, the coefficient I does not have the same temperature coefficient as in bipolar. It is less
+DS0
+reproducible.
+Finally, the exponential of this MOST in weak inversion contains a factor n, which contains
+a depletion capacitance, which is voltage dependent. Its value is therefore not very reproduc-
+ible either.
+It is now clear that with MOSTs in weak inversion, the same precision can be obtained as
+with bipolar transistors.
+1636
+As bandgap reference volt-
+ages are always 1.2 V, we
+can wonder how to achieve
+a reference voltage with
+value below 1 V.
+Indeed, the only physical
+constant available is this
+bandgap voltage. How can
+the properties of this band-
+gap voltage be exploited at
+lower supply voltages?
+The answer will lie in the
+conversion of this bandgap
+reference voltage into cur-
+rents, which are then
+summed up to lower output
+reference voltages. The requirement on the supply voltage will be that we need at least one single
+V and some mV’s. We can bias the bipolar transistor at very low currents, which may yield
+BE
+V values down to 0.5 V. In this case, a minimum supply voltage could be reached of the same
+BE
+order of magnitude.

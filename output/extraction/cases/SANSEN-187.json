@@ -1,0 +1,202 @@
+{
+  "case_id": "SANSEN-187",
+  "slide_id": "187",
+  "chapter": 18,
+  "slide_number_in_chapter": 7,
+  "source": {
+    "pdf_page": 512,
+    "printed_page": 522
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0512_01_187.jpg",
+      "pdf_page": 512,
+      "printed_page": 522,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 512,
+      "printed_page": 522,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        393.5715000000001
+      ],
+      "text_raw": "When the input voltage\nbecomes too large, clipping\noccurs of the output voltage.\nThis is called a hard\nnonlinearity.\nAt this point, the distor-\ntion is very large, more than\n10% for example. Few\napplications can tolerate\nsuch large values. We will\nlimit ourselves to low levels\nof distortion, of the level of\n0.1% (–60 dB) down to\n0.001% (–100 dB) depend-\ning on the application.\nWe are therefore only\ninterested in soft nonlineari-\nties, which give small\namounts of distortion only.",
+      "text": "When the input voltage becomes too large, clipping occurs of the output voltage. This is called a hard nonlinearity. At this point, the distortion is very large, more than 10% for example. Few applications can tolerate such large values. We will limit ourselves to low levels of distortion, of the level of 0.1% (–60 dB) down to 0.001% (–100 dB) depending on the application. We are therefore only interested in soft nonlinearities, which give small amounts of distortion only."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "When the input voltage becomes too large, clipping occurs of the output voltage. This is called a hard nonlinearity. At this point, the distortion is very large, more than 10% for example. Few applications can tolerate such large values. We will limit ourselves to low levels of distortion, of the level of 0.1% (–60 dB) down to 0.001% (–100 dB) depending on the application. We are therefore only interested in soft nonlinearities, which give small amounts of distortion only.",
+  "schema_version": "1.0",
+  "chapter_title": "基本晶体管电路的失真",
+  "title": "Soft and hard non-linearity",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0512_01_187.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07382470344169963,
+          0.07331737675145533,
+          0.5579754611024366,
+          0.1419681062332222
+        ],
+        "confidence": 1,
+        "text": "Soft and hard non-linearity"
+      },
+      {
+        "bbox": [
+          0.06081081220439184,
+          0.2000000001219513,
+          0.17229729869087834,
+          0.2682926830487805
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "* VoUT"
+      },
+      {
+        "bbox": [
+          0.3581081073648649,
+          0.29268292624390246,
+          0.4459459452027027,
+          0.35121951160975606
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.43243243207046334,
+          0.46341463435540065,
+          0.483108107746139,
+          0.502439024599303
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "→ t"
+      },
+      {
+        "bbox": [
+          0.8614864857094594,
+          0.2975609750243903,
+          0.9459459451689188,
+          0.3560975603902439
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.9020270266891893,
+          0.4585365856097561,
+          0.9290540537162163,
+          0.5073170734146342
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "•t"
+      },
+      {
+        "bbox": [
+          0.42567567601351347,
+          0.6341463412804877,
+          0.47972973006756753,
+          0.6926829266463415
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.8682432427027027,
+          0.6390243903902438,
+          0.9222972967567568,
+          0.6926829269756097
+        ],
+        "confidence": 0.5,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.14999999957687518,
+          0.8253012056787739,
+          0.18333333333979154,
+          0.8734939742409047
+        ],
+        "confidence": 1,
+        "text": "t"
+      },
+      {
+        "bbox": [
+          0.719594597716268,
+          0.9365853652845527,
+          0.9256756659098584,
+          0.9707317067479674
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10a5 187"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "distortion"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0512_01_187.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "We will limit ourselves to low levels of distortion, of the level of 0.1% (–60 dB) down to 0.001% (–100 dB) depending on the application.",
+      "pdf_page": 512,
+      "printed_page": 522,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "We are therefore only interested in soft nonlinearities, which give small amounts of distortion only.",
+      "pdf_page": 512,
+      "printed_page": 522,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Distortion in elementary transistor circuits"
+}

@@ -1,0 +1,49 @@
+Feedback transimpedance and current amplifiers 401
+1425
+There are many ways to
+realize that opamp on the
+previous slide. Normally, an
+opamp has a differential
+pair at the input. A differ-
+ential input is also possible
+however, by use of one
+single transistor. The gate is
+the minus input, whereas the
+source acts as the positive
+input. It is connected to
+ground.
+Since the transistor circuit
+is no more than a transistor
+realization of the opamp
+block, the same equations
+are valid as before. The values of the closed-loop gain and loop gain LG are readily copied. The
+gain A is now simply g r .
+0 m1 o1
+The results will not be as accurate as before however, because the gains are a bit too small
+with only one single amplifying transistor.
+As a result, the input resistance at the minus input R will not be that small. It is called R ,
+G G
+and calculated as before. It will have to be added to the input series resistor R to give the input
+S
+resistance R seen by the input voltage source.
+IN
+1426
+Even with an ideal input
+current source, input load-
+ing also shows up when
+the input resistance of the
+amplifier is not large. In this
+case, there is an interaction
+between feedback resistor
+R and input resistance r
+F p1
+– they are in parallel for the
+input resistance. Moreover,
+they cause a voltage division
+in the loop gain LG.
+The output resistance will
+be quite small again,
+because a Source follower is
+used at the output. The
+output resistance without feedback is the output resistance of an emitter follower Q2. It must
+be divided by the loop gain to obtain the closed-loop output resistance.

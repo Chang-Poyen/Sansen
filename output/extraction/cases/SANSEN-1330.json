@@ -1,0 +1,560 @@
+{
+  "case_id": "SANSEN-1330",
+  "slide_id": "1330",
+  "chapter": 13,
+  "slide_number_in_chapter": 30,
+  "source": {
+    "pdf_page": 371,
+    "printed_page": 378
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0371_01_1330.jpg",
+      "pdf_page": 371,
+      "printed_page": 378,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 371,
+      "printed_page": 378,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        427.45250000000027
+      ],
+      "text_raw": "When a bipolar transistor is\nused at the input, then the\ninput resistance is no longer\ninfinity. Because of the series\nfeedback at the input, it is\nincreased by the loop gain\nLG but not infinity. This is\nwhy the input resistance\nloads the source resistance\nR . In the circuit in this slide\nS\na source resistor R has been\nS\nadded. This input loading is\nonly present when the in-\nput voltage source has an\ninternal source resistance\nR , which is comparable to\nS\nthe input resistance R .\nIN\nIn addition, this source resistance R forms a low-pass filter with the input\nS\ncapacitance of this amplifier. The input resistance without feedback R is easily found as it\nINOL\nis a single-transistor amplifier with emitter degeneration. The emitter resistor is about R in\n1\nparallel with R .\n2\nThe output resistance is quite small as calculated before. An output capacitive load would\ncause an output pole at fairly high frequencies.",
+      "text": "When a bipolar transistor is used at the input, then the input resistance is no longer infinity. Because of the series feedback at the input, it is increased by the loop gain LG but not infinity. This is why the input resistance loads the source resistance R . In the circuit in this slide S a source resistor R has been S added. This input loading is only present when the input voltage source has an internal source resistance R , which is comparable to S the input resistance R . IN In addition, this source resistance R forms a low-pass filter with the input S capacitance of this amplifier. The input resistance without feedback R is easily found as it INOL is a single-transistor amplifier with emitter degeneration. The emitter resistor is about R in 1 parallel with R . 2 The output resistance is quite small as calculated before. An output capacitive load would cause an output pole at fairly high frequencies."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "When a bipolar transistor is used at the input, then the input resistance is no longer infinity. Because of the series feedback at the input, it is increased by the loop gain LG but not infinity. This is why the input resistance loads the source resistance R . In the circuit in this slide S a source resistor R has been S added. This input loading is only present when the input voltage source has an internal source resistance R , which is comparable to S the input resistance R . IN In addition, this source resistance R forms a low-pass filter with the input S capacitance of this amplifier. The input resistance without feedback R is easily found as it INOL is a single-transistor amplifier with emitter degeneration. The emitter resistor is about R in 1 parallel with R . 2 The output resistance is quite small as calculated before. An output capacitive load would cause an output pole at fairly high frequencies.",
+  "schema_version": "1.0",
+  "chapter_title": "反馈电压放大器与跨导放大器",
+  "title": "Series-shunt pair in BiCMOS",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0371_01_1330.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.08108108091216218,
+          0.08780487857723573,
+          0.5945945944256757,
+          0.15121951272357725
+        ],
+        "confidence": 1,
+        "text": "Series-shunt pair in BiCMOS"
+      },
+      {
+        "bbox": [
+          0.4797297302364865,
+          0.19999999987804884,
+          0.5405405410472973,
+          0.25365853646341474
+        ],
+        "confidence": 1,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.17229729766891894,
+          0.3512195119512196,
+          0.20945945983108108,
+          0.38536585341463414
+        ],
+        "confidence": 1,
+        "text": "Q1"
+      },
+      {
+        "bbox": [
+          0.33783783817567564,
+          0.34634146380487807,
+          0.3783783787162162,
+          0.38536585404878054
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.439189189527027,
+          0.39512195101626024,
+          0.47972973006756753,
+          0.4292682924796748
+        ],
+        "confidence": 1,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.06756756719594594,
+          0.4536585360487805,
+          0.11148648611486486,
+          0.5073170726341464
+        ],
+        "confidence": 1,
+        "text": "Rs"
+      },
+      {
+        "bbox": [
+          0.06081081047297298,
+          0.5560975606097561,
+          0.10810810777027027,
+          0.5999999996341464
+        ],
+        "confidence": 1,
+        "text": "VIN"
+      },
+      {
+        "bbox": [
+          0.26013513479729733,
+          0.4243902433658536,
+          0.30067567533783784,
+          0.4780487799512195
+        ],
+        "confidence": 1,
+        "text": "R2"
+      },
+      {
+        "bbox": [
+          0.21621621573359073,
+          0.5317073165505227,
+          0.2972972968146718,
+          0.6048780482578398
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "3R1"
+      },
+      {
+        "bbox": [
+          0.24977716809322872,
+          0.7012363532612125,
+          0.3988714790599266,
+          0.7621782843577314
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R, > 1/9m1"
+      },
+      {
+        "bbox": [
+          0.07770270045045048,
+          0.839024390406504,
+          0.34797297072072075,
+          0.8878048782113821
+        ],
+        "confidence": 0.5,
+        "text": "Input loading : RIN"
+      },
+      {
+        "bbox": [
+          0.38513513543074324,
+          0.8390243900609756,
+          0.40878378407939187,
+          0.8634146339634147
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "00"
+      },
+      {
+        "bbox": [
+          0.48648648631756763,
+          0.49756097520325204,
+          0.5135135133445946,
+          0.5463414630081301
+        ],
+        "confidence": 1,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.4763513518822393,
+          0.5658536583275262,
+          0.5506756762065637,
+          0.6146341461324043
+        ],
+        "confidence": 0.5,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6756756763935811,
+          0.1999999992682927,
+          0.8006756763935811,
+          0.2585365846341463
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R2 + R1"
+      },
+      {
+        "bbox": [
+          0.604729729850386,
+          0.22926829310104524,
+          0.6824324325530887,
+          0.28780487846689895
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av="
+      },
+      {
+        "bbox": [
+          0.6081081076013514,
+          0.36585365874564457,
+          0.6790540535472973,
+          0.40487804898954693
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LG="
+      },
+      {
+        "bbox": [
+          0.837837838277027,
+          0.4146341462439025,
+          0.8817567571959459,
+          0.46341463404878047
+        ],
+        "confidence": 0.5,
+        "text": "R1"
+      },
+      {
+        "bbox": [
+          0.6047297313907657,
+          0.4585365852032519,
+          0.80405405571509,
+          0.50731707300813
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9m1°o1 9m2'o2"
+      },
+      {
+        "bbox": [
+          0.8141891898648648,
+          0.4926829267247387,
+          0.9087837844594594,
+          0.5463414633101045
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "R,+R2"
+      },
+      {
+        "bbox": [
+          0.6081081103603604,
+          0.5951219508536585,
+          0.8783783806306307,
+          0.6487804874390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RIN = RINOL LG = ∞0"
+      },
+      {
+        "bbox": [
+          0.6081081054054055,
+          0.6975609757317073,
+          0.9324324297297298,
+          0.7512195123170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RINOL = ra1+ B (RylIR2)"
+      },
+      {
+        "bbox": [
+          0.7263513504729731,
+          0.785365853804878,
+          0.8141891883108109,
+          0.8390243903902439
+        ],
+        "confidence": 0.5,
+        "text": "1/9m3"
+      },
+      {
+        "bbox": [
+          0.6081081073600385,
+          0.824390244076655,
+          0.7128378370897682,
+          0.8780487806620209
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "RoUT ="
+      },
+      {
+        "bbox": [
+          0.8243243233952703,
+          0.8243902440853659,
+          0.8986486477195946,
+          0.8682926831097562
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "= 0"
+      },
+      {
+        "bbox": [
+          0.7398648653716217,
+          0.8585365851219513,
+          0.7905405410472973,
+          0.9024390241463416
+        ],
+        "confidence": 1,
+        "text": "LG"
+      },
+      {
+        "bbox": [
+          0.7162162191126644,
+          0.9365853660162601,
+          0.9290540440630116,
+          0.9658536586991869
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10 0s 1330"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "The emitter resistor is about R in 1 parallel with R . 2 The output resistance is quite small as calculated before.",
+      "pdf_page": 371,
+      "printed_page": 378,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0371_01_1330.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This is why the input resistance loads the source resistance R .",
+        "pdf_page": 371,
+        "printed_page": 378,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "In the circuit in this slide S a source resistor R has been S added.",
+        "pdf_page": 371,
+        "printed_page": 378,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "This input loading is only present when the input voltage source has an internal source resistance R , which is comparable to S the input resistance R .",
+        "pdf_page": 371,
+        "printed_page": 378,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "IN In addition, this source resistance R forms a low-pass filter with the input S capacitance of this amplifier.",
+        "pdf_page": 371,
+        "printed_page": 378,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The input resistance without feedback R is easily found as it INOL is a single-transistor amplifier with emitter degeneration.",
+        "pdf_page": 371,
+        "printed_page": 378,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "The emitter resistor is about R in 1 parallel with R . 2 The output resistance is quite small as calculated before.",
+        "pdf_page": 371,
+        "printed_page": 378,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "Because of the series feedback at the input, it is increased by the loop gain LG but not infinity.",
+      "pdf_page": 371,
+      "printed_page": 378,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-1330-M01",
+      "ocr_text": "R, > 1/9m1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.24977716809322872,
+        0.7012363532612125,
+        0.3988714790599266,
+        0.7621782843577314
+      ],
+      "context_crop": "regions/SANSEN-1330_math_01.png",
+      "context_bbox_normalized": [
+        0.20977716809322872,
+        0.6012363532612125,
+        0.6288714790599266,
+        0.8921782843577314
+      ],
+      "source_image": "slides/p0371_01_1330.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1330-M02",
+      "ocr_text": "Av=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.604729729850386,
+        0.22926829310104524,
+        0.6824324325530887,
+        0.28780487846689895
+      ],
+      "context_crop": "regions/SANSEN-1330_math_02.png",
+      "context_bbox_normalized": [
+        0.5647297298503859,
+        0.13,
+        0.9124324325530887,
+        0.41780487846689895
+      ],
+      "source_image": "slides/p0371_01_1330.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1330-M03",
+      "ocr_text": "LG=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6081081076013514,
+        0.36585365874564457,
+        0.6790540535472973,
+        0.40487804898954693
+      ],
+      "context_crop": "regions/SANSEN-1330_math_03.png",
+      "context_bbox_normalized": [
+        0.5681081076013513,
+        0.2658536587456446,
+        0.9090540535472973,
+        0.5348780489895469
+      ],
+      "source_image": "slides/p0371_01_1330.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1330-M04",
+      "ocr_text": "RIN = RINOL LG = ∞0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6081081103603604,
+        0.5951219508536585,
+        0.8783783806306307,
+        0.6487804874390244
+      ],
+      "context_crop": "regions/SANSEN-1330_math_04.png",
+      "context_bbox_normalized": [
+        0.5681081103603604,
+        0.4951219508536585,
+        1,
+        0.7787804874390244
+      ],
+      "source_image": "slides/p0371_01_1330.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1330-M05",
+      "ocr_text": "RINOL = ra1+ B (RylIR2)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6081081054054055,
+        0.6975609757317073,
+        0.9324324297297298,
+        0.7512195123170732
+      ],
+      "context_crop": "regions/SANSEN-1330_math_05.png",
+      "context_bbox_normalized": [
+        0.5681081054054055,
+        0.5975609757317073,
+        1,
+        0.8812195123170732
+      ],
+      "source_image": "slides/p0371_01_1330.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1330-M06",
+      "ocr_text": "RoUT =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6081081073600385,
+        0.824390244076655,
+        0.7128378370897682,
+        0.8780487806620209
+      ],
+      "context_crop": "regions/SANSEN-1330_math_06.png",
+      "context_bbox_normalized": [
+        0.5681081073600385,
+        0.724390244076655,
+        0.9428378370897682,
+        0.93
+      ],
+      "source_image": "slides/p0371_01_1330.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-1330-M07",
+      "ocr_text": "= 0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.8243243233952703,
+        0.8243902440853659,
+        0.8986486477195946,
+        0.8682926831097562
+      ],
+      "context_crop": "regions/SANSEN-1330_math_07.png",
+      "context_bbox_normalized": [
+        0.7843243233952703,
+        0.7243902440853659,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0371_01_1330.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Feedback voltage and transconductance amplifiers"
+}

@@ -1,0 +1,304 @@
+{
+  "case_id": "SANSEN-2347",
+  "slide_id": "2347",
+  "chapter": 23,
+  "slide_number_in_chapter": 47,
+  "source": {
+    "pdf_page": 722,
+    "printed_page": 734
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0722_02_2347.jpg",
+      "pdf_page": 722,
+      "printed_page": 734,
+      "bbox_pt": [
+        91.521622,
+        397.560975,
+        374.78981,
+        594.020966
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 722,
+      "printed_page": 734,
+      "bbox_pt": [
+        0,
+        393.5715000000001,
+        595,
+        797
+      ],
+      "text_raw": "An interesting technique to\nreduce the noise contributed\nby the input MOST M1, is\nthe circuit schematic in this\nslide.\nIn this amplifier, the\nsignal itself is inverted from\ninput to output, as in most\namplifiers. The voltage\ncaused by the noise current\nI of input transistor M1\nn,1\nis not inverted, however.\nSummation of both signals,\nwith the proper scaling will\ncancel out the contribution\nof the noise current I to\nn,1\nthe output.\nThe appropriate expressions are given in this slide.\nThe full circuit is given next.",
+      "text": "An interesting technique to reduce the noise contributed by the input MOST M1, is the circuit schematic in this slide. In this amplifier, the signal itself is inverted from input to output, as in most amplifiers. The voltage caused by the noise current I of input transistor M1 n,1 is not inverted, however. Summation of both signals, with the proper scaling will cancel out the contribution of the noise current I to n,1 the output. The appropriate expressions are given in this slide. The full circuit is given next."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "An interesting technique to reduce the noise contributed by the input MOST M1, is the circuit schematic in this slide. In this amplifier, the signal itself is inverted from input to output, as in most amplifiers. The voltage caused by the noise current I of input transistor M1 n,1 is not inverted, however. Summation of both signals, with the proper scaling will cancel out the contribution of the noise current I to n,1 the output. The appropriate expressions are given in this slide. The full circuit is given next.",
+  "schema_version": "1.0",
+  "chapter_title": "低噪声放大器",
+  "title": "Noise-cancellation principle",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0722_02_2347.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432021396403,
+          0.08292682939024387,
+          0.5675675634572073,
+          0.1463414635365854
+        ],
+        "confidence": 1,
+        "text": "Noise-cancellation principle"
+      },
+      {
+        "bbox": [
+          0.40202702811293434,
+          0.39024390306620216,
+          0.5743243254102316,
+          0.4780487811149825
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "p.f.t"
+      },
+      {
+        "bbox": [
+          0.4527026998310813,
+          0.6634146346589523,
+          0.6385135106418921,
+          0.7024390237398374
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "/p-: Noise Voltage"
+      },
+      {
+        "bbox": [
+          0.4560810840653152,
+          0.7170731704065041,
+          0.6351351381193693,
+          0.7463414630894308
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "- -*: Noise Current|"
+      },
+      {
+        "bbox": [
+          0.4626557684561487,
+          0.7548259788139262,
+          0.6386955801833116,
+          0.8110276833509225
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Signal Voitage"
+      },
+      {
+        "bbox": [
+          0.7939189179054054,
+          0.25853658457317075,
+          0.8885135125,
+          0.32195121871951227
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Rs ln,1"
+      },
+      {
+        "bbox": [
+          0.6959459465878378,
+          0.317073170292683,
+          0.760135135777027,
+          0.3707317068780488
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vx="
+      },
+      {
+        "bbox": [
+          0.7700102336632648,
+          0.3400552138870485,
+          0.919178957001624,
+          0.4014082042003225
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + 9m1Rs"
+      },
+      {
+        "bbox": [
+          0.7635135155827703,
+          0.46829268286585357,
+          0.9290540561233108,
+          0.5317073170121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(R +Rs) |n,1"
+      },
+      {
+        "bbox": [
+          0.6959459462837838,
+          0.521951218902439,
+          0.7635135138513514,
+          0.5707317067073171
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Vy ="
+      },
+      {
+        "bbox": [
+          0.7736486499155406,
+          0.5463414633333333,
+          0.9256756769425676,
+          0.604878048699187
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1 + 9m1Rs"
+      },
+      {
+        "bbox": [
+          0.6722972992117117,
+          0.6829268291463415,
+          0.9020270289414414,
+          0.7365853657317074
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT = Avx + Vy"
+      },
+      {
+        "bbox": [
+          0.6756756789273648,
+          0.770731707195122,
+          0.9358108140625,
+          0.8097560974390244
+        ],
+        "confidence": 1,
+        "text": "cancels the noise"
+      },
+      {
+        "bbox": [
+          0.5810810855152027,
+          0.8682926826219511,
+          0.9358108152449324,
+          0.9024390240853658
+        ],
+        "confidence": 1,
+        "text": "Bruccoleri,.., JSSC Febr.04, 275-282"
+      },
+      {
+        "bbox": [
+          0.7263513558243762,
+          0.9512195127642277,
+          0.9324324240179664,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 2347"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "noise"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0722_02_2347.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-2347-M01",
+      "ocr_text": "Vx=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6959459465878378,
+        0.317073170292683,
+        0.760135135777027,
+        0.3707317068780488
+      ],
+      "context_crop": "regions/SANSEN-2347_math_01.png",
+      "context_bbox_normalized": [
+        0.6559459465878378,
+        0.217073170292683,
+        0.9901351357770269,
+        0.5007317068780488
+      ],
+      "source_image": "slides/p0722_02_2347.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2347-M02",
+      "ocr_text": "Vy =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6959459462837838,
+        0.521951218902439,
+        0.7635135138513514,
+        0.5707317067073171
+      ],
+      "context_crop": "regions/SANSEN-2347_math_02.png",
+      "context_bbox_normalized": [
+        0.6559459462837838,
+        0.42195121890243903,
+        0.9935135138513513,
+        0.7007317067073171
+      ],
+      "source_image": "slides/p0722_02_2347.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-2347-M03",
+      "ocr_text": "VOUT = Avx + Vy",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6722972992117117,
+        0.6829268291463415,
+        0.9020270289414414,
+        0.7365853657317074
+      ],
+      "context_crop": "regions/SANSEN-2347_math_03.png",
+      "context_bbox_normalized": [
+        0.6322972992117116,
+        0.5829268291463415,
+        1,
+        0.8665853657317074
+      ],
+      "source_image": "slides/p0722_02_2347.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Low-noise amplifiers"
+}

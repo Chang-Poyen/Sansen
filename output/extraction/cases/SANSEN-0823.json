@@ -1,0 +1,321 @@
+{
+  "case_id": "SANSEN-0823",
+  "slide_id": "0823",
+  "chapter": 8,
+  "slide_number_in_chapter": 23,
+  "source": {
+    "pdf_page": 244,
+    "printed_page": 250
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0244_01_0823.jpg",
+      "pdf_page": 244,
+      "printed_page": 250,
+      "bbox_pt": [
+        91.52162,
+        122.52695999999992,
+        374.54222,
+        319.03679999999997
+      ],
+      "native_size_px": [
+        590,
+        409
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 244,
+      "printed_page": 250,
+      "bbox_pt": [
+        0,
+        118.53743999999995,
+        595,
+        381.6135100000001
+      ],
+      "text_raw": "This fully-differential ampli-\nfier uses two equal resistors\nR to cancel out the\ndifferential signals. In this\nway a common-mode bias-\ning voltage is obtained for\nthe Gates of transistors M2.\nConsequently, there is no\nbiasing problem. Current\nsource I determines all\nB\ncurrents.\nThe main disadvantage is\nthat the resistors R must be\nincreased in size to ensure a\nlot of gain. An easy solution\nis to insert source followers\nbetween the Drains of the input transistors M1 and the two resistors R, as shown next. Smaller\nvalues of R are then possible.",
+      "text": "This fully-differential amplifier uses two equal resistors R to cancel out the differential signals. In this way a common-mode biasing voltage is obtained for the Gates of transistors M2. Consequently, there is no biasing problem. Current source I determines all B currents. The main disadvantage is that the resistors R must be increased in size to ensure a lot of gain. An easy solution is to insert source followers between the Drains of the input transistors M1 and the two resistors R, as shown next. Smaller values of R are then possible."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "This fully-differential amplifier uses two equal resistors R to cancel out the differential signals. In this way a common-mode biasing voltage is obtained for the Gates of transistors M2. Consequently, there is no biasing problem. Current source I determines all B currents. The main disadvantage is that the resistors R must be increased in size to ensure a lot of gain. An easy solution is to insert source followers between the Drains of the input transistors M1 and the two resistors R, as shown next. Smaller values of R are then possible.",
+  "schema_version": "1.0",
+  "chapter_title": "全差分放大器",
+  "title": "Fully-differential amplifier with resistive CMFB",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0244_01_0823.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.06666665825000015,
+          0.07073170832562603,
+          0.9166666582500003,
+          0.14390244003294317
+        ],
+        "confidence": 1,
+        "text": "Fully-differential amplifier with resistive CMFB"
+      },
+      {
+        "bbox": [
+          0.20338982995762717,
+          0.3560975612195122,
+          0.24745762656779666,
+          0.39512195146341456
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.5254237286440678,
+          0.35609756081300814,
+          0.5661016947457628,
+          0.3951219510569106
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.06440678027118643,
+          0.5268292680975609,
+          0.1254237294237288,
+          0.575609755902439
+        ],
+        "confidence": 0.5,
+        "text": "Vint"
+      },
+      {
+        "bbox": [
+          0.32542372843220335,
+          0.5365853660365854,
+          0.35593220300847456,
+          0.5804878050609755
+        ],
+        "confidence": 1,
+        "text": "R"
+      },
+      {
+        "bbox": [
+          0.21355932152542376,
+          0.5853658529878049,
+          0.27457627067796614,
+          0.6390243895731708
+        ],
+        "confidence": 0.5,
+        "text": "Vo1"
+      },
+      {
+        "bbox": [
+          0.6576271160677967,
+          0.31219512209756095,
+          0.9152542347118645,
+          0.36585365868292685
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Av = 9m1 (R // To)"
+      },
+      {
+        "bbox": [
+          0.6608641655301926,
+          0.39894065181391936,
+          0.8374409156874357,
+          0.4547178852168229
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Гo = 101//T02"
+      },
+      {
+        "bbox": [
+          0.6576271181920904,
+          0.5365853654471545,
+          0.7186440673446328,
+          0.5853658532520325
+        ],
+        "confidence": 0.5,
+        "text": "Vin2"
+      },
+      {
+        "bbox": [
+          0.5084745767514124,
+          0.5902439022764229,
+          0.5661016953954802,
+          0.6390243900813009
+        ],
+        "confidence": 1,
+        "text": "Vo2"
+      },
+      {
+        "bbox": [
+          0.36271186381355935,
+          0.7756097563414633,
+          0.4101694909322034,
+          0.8146341465853658
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.6440677947215496,
+          0.707317073414634,
+          0.9084745743825665,
+          0.7512195124390243
+        ],
+        "confidence": 1,
+        "text": "Linear resistors R"
+      },
+      {
+        "bbox": [
+          0.6440677985169492,
+          0.7609756095121952,
+          0.796610171398305,
+          0.8097560973170732
+        ],
+        "confidence": 1,
+        "text": "To cancel"
+      },
+      {
+        "bbox": [
+          0.6440677980677966,
+          0.8243902443902439,
+          0.9186440692542372,
+          0.8731707321951219
+        ],
+        "confidence": 1,
+        "text": "differential signals"
+      },
+      {
+        "bbox": [
+          0.7186440773695433,
+          0.946341463927245,
+          0.9322033864722644,
+          0.9853658530081301
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0823"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "Current source I determines all B currents.",
+      "pdf_page": 244,
+      "printed_page": 250,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "An easy solution is to insert source followers between the Drains of the input transistors M1 and the two resistors R, as shown next.",
+      "pdf_page": 244,
+      "printed_page": 250,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0244_01_0823.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Current source I determines all B currents.",
+        "pdf_page": 244,
+        "printed_page": 250,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "An easy solution is to insert source followers between the Drains of the input transistors M1 and the two resistors R, as shown next.",
+        "pdf_page": 244,
+        "printed_page": 250,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "This fully-differential amplifier uses two equal resistors R to cancel out the differential signals.",
+      "pdf_page": 244,
+      "printed_page": 250,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The main disadvantage is that the resistors R must be increased in size to ensure a lot of gain.",
+      "pdf_page": 244,
+      "printed_page": 250,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0823-M01",
+      "ocr_text": "Av = 9m1 (R // To)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6576271160677967,
+        0.31219512209756095,
+        0.9152542347118645,
+        0.36585365868292685
+      ],
+      "context_crop": "regions/SANSEN-0823_math_01.png",
+      "context_bbox_normalized": [
+        0.6176271160677966,
+        0.21219512209756095,
+        1,
+        0.49585365868292686
+      ],
+      "source_image": "slides/p0244_01_0823.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0823-M02",
+      "ocr_text": "Гo = 101//T02",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6608641655301926,
+        0.39894065181391936,
+        0.8374409156874357,
+        0.4547178852168229
+      ],
+      "context_crop": "regions/SANSEN-0823_math_02.png",
+      "context_bbox_normalized": [
+        0.6208641655301925,
+        0.2989406518139194,
+        1,
+        0.5847178852168229
+      ],
+      "source_image": "slides/p0244_01_0823.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Fully-differential amplifiers"
+}

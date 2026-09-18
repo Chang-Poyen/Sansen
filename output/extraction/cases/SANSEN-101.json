@@ -1,0 +1,167 @@
+{
+  "case_id": "SANSEN-101",
+  "slide_id": "101",
+  "chapter": 10,
+  "slide_number_in_chapter": 1,
+  "source": {
+    "pdf_page": 284,
+    "printed_page": 291
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0284_01_101.jpg",
+      "pdf_page": 284,
+      "printed_page": 291,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 284,
+      "printed_page": 291,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        367.812
+      ],
+      "text_raw": "Instead of voltages, currents\ncan be used at the inputs as\nwell. They lead to current-\ninput amplifiers.\nThey are discussed in this\nChapter.",
+      "text": "Instead of voltages, currents can be used at the inputs as well. They lead to currentinput amplifiers. They are discussed in this Chapter."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Instead of voltages, currents can be used at the inputs as well. They lead to currentinput amplifiers. They are discussed in this Chapter.",
+  "schema_version": "1.0",
+  "chapter_title": "电流输入型运算放大器",
+  "title": "Slide 101",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0284_01_101.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.30733137031220403,
+          0.26736708440834267,
+          0.6892902544740759,
+          0.35702316060701356
+        ],
+        "confidence": 1,
+        "text": "Current-input"
+      },
+      {
+        "bbox": [
+          0.18581081467483102,
+          0.3756097558536584,
+          0.8040540579180742,
+          0.463414633902439
+        ],
+        "confidence": 1,
+        "text": "Operational Amplifiers"
+      },
+      {
+        "bbox": [
+          0.36439433652181785,
+          0.5749556905017097,
+          0.6185773840484093,
+          0.6364204560969364
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.29391891849662166,
+          0.7024390249999999,
+          0.6587837833614866,
+          0.751219512804878
+        ],
+        "confidence": 1,
+        "text": "KULeuven, ESAT-MICAS"
+      },
+      {
+        "bbox": [
+          0.3614864885698198,
+          0.7707317070731706,
+          0.6114864885698198,
+          0.8195121948780487
+        ],
+        "confidence": 1,
+        "text": "Leuven, Belgium"
+      },
+      {
+        "bbox": [
+          0.32770270793918904,
+          0.8536585363414635,
+          0.6418918971283782,
+          0.8878048778048782
+        ],
+        "confidence": 1,
+        "text": "willy.sansen@esat.kuleuven.be"
+      },
+      {
+        "bbox": [
+          0.7128378393158783,
+          0.9560975607317074,
+          0.8310810825591215,
+          0.9853658534146342
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen"
+      },
+      {
+        "bbox": [
+          0.8513513504222974,
+          0.9560975612195121,
+          0.9256756747466216,
+          0.9853658539024389
+        ],
+        "confidence": 0.5,
+        "text": "10.05 101"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0284_01_101.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Current-input operational amplifiers"
+}

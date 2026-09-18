@@ -1,0 +1,464 @@
+{
+  "case_id": "SANSEN-0229",
+  "slide_id": "0229",
+  "chapter": 2,
+  "slide_number_in_chapter": 29,
+  "source": {
+    "pdf_page": 63,
+    "printed_page": 64
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0064_01_0229.jpg",
+      "pdf_page": 64,
+      "printed_page": 65,
+      "bbox_pt": [
+        91.521622,
+        122.5768129999999,
+        374.78981,
+        319.03680399999996
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 63,
+      "printed_page": 64,
+      "bbox_pt": [
+        0,
+        654.6545,
+        595,
+        797
+      ],
+      "text_raw": "In order to calculate the gain at low frequencies, we need to know the output resistance. It is\nthe parallel combination of both output resistances. This is highest when both resistances are",
+      "text": "In order to calculate the gain at low frequencies, we need to know the output resistance. It is the parallel combination of both output resistances. This is highest when both resistances are"
+    },
+    {
+      "pdf_page": 64,
+      "printed_page": 65,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        451.26892500000025
+      ],
+      "text_raw": "equal. This is why normally\nboth V L products are also\nE\nmade the same. The total\noutput resistance is then\nr /2, also written as 2/g .\nDS DS\nThe voltage gain is then\nsimply given by the product\nof the total transconduct-\nance with the total output\nresistance, which is g /g .\nm DS\nThis can easily be rewritten\nas shown in this slide.\nNote that the current is\nnot included, a result which\nwe had found already for a\nsingle-transistor amplifier.\nThis is not surprising as here\nwe have two transistors in parallel, for small-signal operation.\nAlso note, that the voltage gain goes up when the supply voltage goes down. An optimum\nsupply voltage is thus found where the V values are about 0.2 V. This supply voltage is thus\nGS\n2(V +0.2), which is 1.1 V for a V of 0.35 V. In deep submicron CMOS this is quite a reasonable\nT T\nvalue indeed!\nIf the supply voltage is larger, only small values of the gain are possible. More complicated\ncircuits are then needed to enhance the voltage gain. Cascodes can be used for example, and\ngain-boosting, but also bootstrapping and current-cancellation and -starving techniques.",
+      "text": "equal. This is why normally both V L products are also E made the same. The total output resistance is then r /2, also written as 2/g . DS DS The voltage gain is then simply given by the product of the total transconductance with the total output resistance, which is g /g . m DS This can easily be rewritten as shown in this slide. Note that the current is not included, a result which we had found already for a single-transistor amplifier. This is not surprising as here we have two transistors in parallel, for small-signal operation. Also note, that the voltage gain goes up when the supply voltage goes down. An optimum supply voltage is thus found where the V values are about 0.2 V. This supply voltage is thus GS 2(V +0.2), which is 1.1 V for a V of 0.35 V. In deep submicron CMOS this is quite a reasonable T T value indeed! If the supply voltage is larger, only small values of the gain are possible. More complicated circuits are then needed to enhance the voltage gain. Cascodes can be used for example, and gain-boosting, but also bootstrapping and current-cancellation and -starving techniques."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "In order to calculate the gain at low frequencies, we need to know the output resistance. It is the parallel combination of both output resistances. This is highest when both resistances are\n\nequal. This is why normally both V L products are also E made the same. The total output resistance is then r /2, also written as 2/g . DS DS The voltage gain is then simply given by the product of the total transconductance with the total output resistance, which is g /g . m DS This can easily be rewritten as shown in this slide. Note that the current is not included, a result which we had found already for a single-transistor amplifier. This is not surprising as here we have two transistors in parallel, for small-signal operation. Also note, that the voltage gain goes up when the supply voltage goes down. An optimum supply voltage is thus found where the V values are about 0.2 V. This supply voltage is thus GS 2(V +0.2), which is 1.1 V for a V of 0.35 V. In deep submicron CMOS this is quite a reasonable T T value indeed! If the supply voltage is larger, only small values of the gain are possible. More complicated circuits are then needed to enhance the voltage gain. Cascodes can be used for example, and gain-boosting, but also bootstrapping and current-cancellation and -starving techniques.",
+  "schema_version": "1.0",
+  "chapter_title": "放大器、源极跟随器与共源共栅级",
+  "title": "Analog amplifier: AC gain Av",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0064_01_0229.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.0777027045608108,
+          0.07317073102439031,
+          0.6148648667229728,
+          0.14146341395121953
+        ],
+        "confidence": 1,
+        "text": "Analog amplifier: AC gain Av"
+      },
+      {
+        "bbox": [
+          0.07094594558397685,
+          0.4780487800348432,
+          0.12837837801640928,
+          0.5414634141811847
+        ],
+        "confidence": 1,
+        "text": "Vin"
+      },
+      {
+        "bbox": [
+          0.3040540533445946,
+          0.20487804912195118,
+          0.37499999929054056,
+          0.2585365857073171
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.28378378344594596,
+          0.26341463483739835,
+          0.3918918915540541,
+          0.3463414641056911
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "LiDSA"
+      },
+      {
+        "bbox": [
+          0.2804054048310811,
+          0.3804878050243903,
+          0.3378378372635135,
+          0.42439024404878045
+        ],
+        "confidence": 1,
+        "text": "M2"
+      },
+      {
+        "bbox": [
+          0.3682432439189189,
+          0.4292682925853659,
+          0.4358108114864864,
+          0.4780487803902439
+        ],
+        "confidence": 1,
+        "text": "Yout"
+      },
+      {
+        "bbox": [
+          0.2905405409628378,
+          0.5268292681300814,
+          0.34121621663851354,
+          0.5756097559349594
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.5304054077069257,
+          0.2487804876524391,
+          0.8986486509501688,
+          0.3219512193597561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "If VEnLn =VEpLp= V="
+      },
+      {
+        "bbox": [
+          0.5033783776013513,
+          0.6780487798536586,
+          0.5945945938175675,
+          0.741463414
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Avo="
+      },
+      {
+        "bbox": [
+          0.6148648656531531,
+          0.38536585418699176,
+          0.9121621629504504,
+          0.4487804883333333
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "9DSn = 9DSp = 9Ds"
+      },
+      {
+        "bbox": [
+          0.6587837809966217,
+          0.4878048781707316,
+          0.8817567539695947,
+          0.5560975610975609
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "(9Ds = 1/rDs)"
+      },
+      {
+        "bbox": [
+          0.6283783776013513,
+          0.6390243903902438,
+          0.706081080304054,
+          0.712195122097561
+        ],
+        "confidence": 1,
+        "text": "29m"
+      },
+      {
+        "bbox": [
+          0.6283783791216216,
+          0.7121951226829268,
+          0.7162162169594595,
+          0.785365854390244
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "29Ds"
+      },
+      {
+        "bbox": [
+          0.8040540534346847,
+          0.6292682928455284,
+          0.8783783777590091,
+          0.6975609757723576
+        ],
+        "confidence": 1,
+        "text": "2VE"
+      },
+      {
+        "bbox": [
+          0.7635135130550192,
+          0.6975609749825784,
+          0.841216215757722,
+          0.7853658530313589
+        ],
+        "confidence": 0.5,
+        "text": "VDD"
+      },
+      {
+        "bbox": [
+          0.7939189187500001,
+          0.7951219508130082,
+          0.8209459457770271,
+          0.8439024386178862
+        ],
+        "confidence": 1,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.8310810815878379,
+          0.7560975615853658,
+          0.9054054059121622,
+          0.8292682932926828
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "-VT"
+      },
+      {
+        "bbox": [
+          0.7229729825135651,
+          0.9317073175857816,
+          0.9358108074639122,
+          0.9707317066666666
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0229"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In order to calculate the gain at low frequencies, we need to know the output resistance.",
+      "pdf_page": 63,
+      "printed_page": 64,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "DS DS The voltage gain is then simply given by the product of the total transconductance with the total output resistance, which is g /g . m DS This can easily be rewritten as shown in this slide.",
+      "pdf_page": 64,
+      "printed_page": 65,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0064_01_0229.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "This is not surprising as here we have two transistors in parallel, for small-signal operation.",
+        "pdf_page": 64,
+        "printed_page": 65,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "In order to calculate the gain at low frequencies, we need to know the output resistance.",
+      "pdf_page": 63,
+      "printed_page": 64,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "equal.",
+      "pdf_page": 64,
+      "printed_page": 65,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "DS DS The voltage gain is then simply given by the product of the total transconductance with the total output resistance, which is g /g . m DS This can easily be rewritten as shown in this slide.",
+      "pdf_page": 64,
+      "printed_page": 65,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Also note, that the voltage gain goes up when the supply voltage goes down.",
+      "pdf_page": 64,
+      "printed_page": 65,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "An optimum supply voltage is thus found where the V values are about 0.2 V.",
+      "pdf_page": 64,
+      "printed_page": 65,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This supply voltage is thus GS 2(V +0.2), which is 1.1 V for a V of 0.35 V.",
+      "pdf_page": 64,
+      "printed_page": 65,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "If the supply voltage is larger, only small values of the gain are possible.",
+      "pdf_page": 64,
+      "printed_page": 65,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "More complicated circuits are then needed to enhance the voltage gain.",
+      "pdf_page": 64,
+      "printed_page": 65,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0229-M01",
+      "ocr_text": "If VEnLn =VEpLp= V=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5304054077069257,
+        0.2487804876524391,
+        0.8986486509501688,
+        0.3219512193597561
+      ],
+      "context_crop": "regions/SANSEN-0229_math_01.png",
+      "context_bbox_normalized": [
+        0.4904054077069257,
+        0.1487804876524391,
+        1,
+        0.45195121935975613
+      ],
+      "source_image": "slides/p0064_01_0229.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0229-M02",
+      "ocr_text": "Avo=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.5033783776013513,
+        0.6780487798536586,
+        0.5945945938175675,
+        0.741463414
+      ],
+      "context_crop": "regions/SANSEN-0229_math_02.png",
+      "context_bbox_normalized": [
+        0.4633783776013513,
+        0.5780487798536587,
+        0.8245945938175675,
+        0.871463414
+      ],
+      "source_image": "slides/p0064_01_0229.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0229-M03",
+      "ocr_text": "9DSn = 9DSp = 9Ds",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6148648656531531,
+        0.38536585418699176,
+        0.9121621629504504,
+        0.4487804883333333
+      ],
+      "context_crop": "regions/SANSEN-0229_math_03.png",
+      "context_bbox_normalized": [
+        0.5748648656531531,
+        0.2853658541869918,
+        1,
+        0.5787804883333333
+      ],
+      "source_image": "slides/p0064_01_0229.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0229-M04",
+      "ocr_text": "(9Ds = 1/rDs)",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.6587837809966217,
+        0.4878048781707316,
+        0.8817567539695947,
+        0.5560975610975609
+      ],
+      "context_crop": "regions/SANSEN-0229_math_04.png",
+      "context_bbox_normalized": [
+        0.6187837809966217,
+        0.3878048781707316,
+        1,
+        0.6860975610975609
+      ],
+      "source_image": "slides/p0064_01_0229.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "not_needed",
+    "method": "topology_and_explanatory_value_reviewed",
+    "reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation_status": "derivation_group_representative_models_verified",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "derivation": {
+    "module_id": "07-inverter-ac",
+    "title": "CMOS 反相器：完整频率响应",
+    "summary_zh": "以二节点矩阵保留输入、输出与跨接电容，核对单管／总跨导的系数。",
+    "html": "../derivations/ch02/07-inverter-ac.html",
+    "markdown": "../derivations/ch02/07-inverter-ac.md",
+    "status": "derived_with_source_notes",
+    "discrepancy_ids": [
+      "D03"
+    ],
+    "sfg": "not_needed",
+    "sfg_reason": "此组以微分、KCL 或矩阵即可说明机制，没有必要另画 SFG。"
+  },
+  "simulation": {
+    "status": "representative_models_verified",
+    "title": "CMOS 反相器：完整频率响应",
+    "case_ids": [
+      "inverter_ac",
+      "mos_inverter"
+    ],
+    "linear_count": 1,
+    "mos_count": 1,
+    "pz_count": 0,
+    "transient_count": 0,
+    "scope_zh": "本推导组的代表模型已完成 Spectre 验证；覆盖范围以所列网表为准，未逐一搭建所有幻灯片电路。",
+    "html": "../../simulations/ch02/index.html#07-inverter-ac",
+    "markdown": "../../simulations/ch02/report.md"
+  },
+  "chapter_title_original": "Amplifiers, source followers and cascodes"
+}

@@ -1,0 +1,49 @@
+662 Chapter #21
+During phase 2 (blue),
+this charge C V is transfer-
+1 in
+red to capacitor C . The
+2
+charge on this capacitor
+changes by an amount
+C V such that the output
+1 in
+voltage V changes by an
+out
+amount V C /C .
+in 1 2
+During this phase the pre-
+vious opamp is now reset to
+zero, as it is connected
+in unity-gain configuration
+(except for a DC level shift).
+Each opamp has zero at
+its output during one phase
+and the output voltage
+during the other phase.
+There is no problem with switches which have to pass a high signal level, and which have too
+small a drive voltage V .
+GS
+The disadvantage however, is that the output voltages have to swing over a large range for
+each new clock phase. The Slew Rate must be quite high, leading to more power consumption
+in the opamps.
+2150
+The opamp configuration is
+shown in this slide.
+It is a pseudo-differential
+amplifier. It consists of two
+equal but separate amplifi-
+ers. Two stages are used for
+high gain and for large
+output swing.
+The GBW and the SR are
+quite high in view of the
+clock frequency of 10 MHz.
+The power consumption is
+quite low.
+Note that again DC
+level shifters are required
+between outputs and inputs.
+For maximum output swing the average output voltage is 0.5 V (for a 1 V supply voltage)
+whereas the average input voltage is close to ground. Such a level shifter can be realized by a
+few switches and an additional capacitor, as shown before.

@@ -1,0 +1,151 @@
+{
+  "case_id": "SANSEN-2429",
+  "slide_id": "2429",
+  "chapter": 24,
+  "slide_number_in_chapter": 29,
+  "source": {
+    "pdf_page": 745,
+    "printed_page": 757
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0745_02_2429.jpg",
+      "pdf_page": 745,
+      "printed_page": 757,
+      "bbox_pt": [
+        91.521622,
+        373.644959,
+        374.78981,
+        570.1049499999999
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 745,
+      "printed_page": 757,
+      "bbox_pt": [
+        0,
+        369.65550000000013,
+        595,
+        797
+      ],
+      "text_raw": "Guard rings are ideal to\nscreen away currents com-\ning in horizontally. This is\nillustrated in this slide.\nGuard rings are highly-\ndoped diffusion rings\naround a sensitive transistor\nor amplifier stage, with the\nsame doping as the under-\nlying material. In a p− epi-\ntaxial layer, they are shallow\np+ diffusions, as shown in\nthis slide.\nTheir purpose is to pick\nup the current which comes\nin horizontally along the\nepitaxial layer and along the surface and to lead it outside.\nThe substrate contact (on the right) is normally separate. Moreover it is better connected to\na separate pin as well, as shown on top.\nIf the substrate contact and guard ring contact are connected together, to save a pin, as shown\nat the bottom, the current from the substrate contact can re-enter the silicon through the guard-\nring contact and reach the transistor. This is better to be avoided.",
+      "text": "Guard rings are ideal to screen away currents coming in horizontally. This is illustrated in this slide. Guard rings are highlydoped diffusion rings around a sensitive transistor or amplifier stage, with the same doping as the underlying material. In a p− epitaxial layer, they are shallow p+ diffusions, as shown in this slide. Their purpose is to pick up the current which comes in horizontally along the epitaxial layer and along the surface and to lead it outside. The substrate contact (on the right) is normally separate. Moreover it is better connected to a separate pin as well, as shown on top. If the substrate contact and guard ring contact are connected together, to save a pin, as shown at the bottom, the current from the substrate contact can re-enter the silicon through the guardring contact and reach the transistor. This is better to be avoided."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Guard rings are ideal to screen away currents coming in horizontally. This is illustrated in this slide. Guard rings are highlydoped diffusion rings around a sensitive transistor or amplifier stage, with the same doping as the underlying material. In a p− epitaxial layer, they are shallow p+ diffusions, as shown in this slide. Their purpose is to pick up the current which comes in horizontally along the epitaxial layer and along the surface and to lead it outside. The substrate contact (on the right) is normally separate. Moreover it is better connected to a separate pin as well, as shown on top. If the substrate contact and guard ring contact are connected together, to save a pin, as shown at the bottom, the current from the substrate contact can re-enter the silicon through the guardring contact and reach the transistor. This is better to be avoided.",
+  "schema_version": "1.0",
+  "chapter_title": "数模混合集成电路中的耦合效应",
+  "title": "Different Bondpads for Guard Rings",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0745_02_2429.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432322635144,
+          0.08292683006097556,
+          0.7229729718750001,
+          0.14634146420731708
+        ],
+        "confidence": 1,
+        "text": "Different Bondpads for Guard Rings"
+      },
+      {
+        "bbox": [
+          0.668918922339527,
+          0.48780487780487813,
+          0.9425675709881756,
+          0.5268292680487806
+        ],
+        "confidence": 0.5,
+        "text": "P+ bulk is single node"
+      },
+      {
+        "bbox": [
+          0.7293857638380934,
+          0.9457256344813975,
+          0.9428534262369729,
+          0.9869175589719772
+        ],
+        "confidence": 1,
+        "text": "Willy Sansen 10.0s 2429"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "This is illustrated in this slide.",
+      "pdf_page": 745,
+      "printed_page": 757,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "In a p− epitaxial layer, they are shallow p+ diffusions, as shown in this slide.",
+      "pdf_page": 745,
+      "printed_page": 757,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Moreover it is better connected to a separate pin as well, as shown on top.",
+      "pdf_page": 745,
+      "printed_page": 757,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0745_02_2429.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [
+      {
+        "text": "Moreover it is better connected to a separate pin as well, as shown on top.",
+        "pdf_page": 745,
+        "printed_page": 757,
+        "origin": "book_commentary_text_layer"
+      },
+      {
+        "text": "If the substrate contact and guard ring contact are connected together, to save a pin, as shown at the bottom, the current from the substrate contact can re-enter the silicon through the guardring contact and reach the transistor.",
+        "pdf_page": 745,
+        "printed_page": 757,
+        "origin": "book_commentary_text_layer"
+      }
+    ],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "unassessed",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Coupling effects in mixed analog-digital ICs"
+}

@@ -1,0 +1,46 @@
+90 Chapter #3
+033
+We begin with the current
+mirror first because it is
+a simpler circuit to under-
+stand.
+Later on we will discuss
+the differential pair as a first
+full-differential amplifier. It
+will be followed by many
+more differential amplifiers.
+We need them because they
+are insensitive to substrate
+noise and ground bounces.
+They are therefore necessary
+in all mixed-signal design,
+where analog circuits are
+added on the substrate as
+digital systems.
+034
+The input of a current
+mirror consists of a diode-
+connected transistor.
+Connecting Collector to
+Base in a bipolar transistor,
+gives us a real base-emitter
+diode. In a MOST however,
+there is no Gate-Source
+diode. However, connecting
+the Drain to the Gate pro-
+vides us with something
+similar.
+Indeed, the current
+voltage characteristic is
+obtained by shifting the
+curve, separating the linear
+and the saturation region, which is at V =V −V , to the right by V .
+DS GS T T
+As a result, we can use the current-voltage characteristic of a MOST in saturation. The
+resulting curve is very nonlinear, however. It resembles somewhat, a diode characteristic.
+We will use this simple circuit to convert current to voltage.
+035
+Addition of a single-transistor amplifier to the diode connected MOST, yields a current mirror.
+The amplifier compensates the nonlinearity of the diode to provide a perfectly linear current
+ratio B.
+This circuit will be utilized for both biasing and for wideband current amplification.

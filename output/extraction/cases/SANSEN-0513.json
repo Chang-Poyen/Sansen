@@ -1,0 +1,448 @@
+{
+  "case_id": "SANSEN-0513",
+  "slide_id": "0513",
+  "chapter": 5,
+  "slide_number_in_chapter": 13,
+  "source": {
+    "pdf_page": 151,
+    "printed_page": 155
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0151_01_0513.jpg",
+      "pdf_page": 151,
+      "printed_page": 155,
+      "bbox_pt": [
+        91.521622,
+        122.52700899999991,
+        374.78981,
+        318.98699999999997
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 151,
+      "printed_page": 155,
+      "bbox_pt": [
+        0,
+        118.53739999999993,
+        595,
+        429.4455000000002
+      ],
+      "text_raw": "An opamp always has one\ninternal dominant pole. It\noccurs at frequency f . It is\n1\nnormally caused by one\nof the bigger capacitances\ninside the amplifier.\nThe product of the open-\nloop gain A and this pole\no\nfrequency f is the GBW.\n1\nThe GBW is the product of\nthe gain and the bandwidth,\nfor each setting of the gain.\nIndeed, the ratio of the\ntwo resistors, in an inverting\namplifier for example, sets\nthe closed-loop gain A . The\nc\ncorresponding bandwidth is the f . Their product is again the GBW.\n1c\nIn the case of a unity-gain buffer, the bandwidth coincides with the GBW, which is the\nmaximum frequency at which this opamp can be used.\nAn opamp allows therefore, an exchange gain for bandwidth. The lower the closed-loop gain,\nthe higher the bandwidth. The product is always the GBW.\nAn opamp is a very versatile building block.",
+      "text": "An opamp always has one internal dominant pole. It occurs at frequency f . It is 1 normally caused by one of the bigger capacitances inside the amplifier. The product of the openloop gain A and this pole o frequency f is the GBW. 1 The GBW is the product of the gain and the bandwidth, for each setting of the gain. Indeed, the ratio of the two resistors, in an inverting amplifier for example, sets the closed-loop gain A . The c corresponding bandwidth is the f . Their product is again the GBW. 1c In the case of a unity-gain buffer, the bandwidth coincides with the GBW, which is the maximum frequency at which this opamp can be used. An opamp allows therefore, an exchange gain for bandwidth. The lower the closed-loop gain, the higher the bandwidth. The product is always the GBW. An opamp is a very versatile building block."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "representative_case_visually_reviewed",
+  "commentary_text": "An opamp always has one internal dominant pole. It occurs at frequency f . It is 1 normally caused by one of the bigger capacitances inside the amplifier. The product of the openloop gain A and this pole o frequency f is the GBW. 1 The GBW is the product of the gain and the bandwidth, for each setting of the gain. Indeed, the ratio of the two resistors, in an inverting amplifier for example, sets the closed-loop gain A . The c corresponding bandwidth is the f . Their product is again the GBW. 1c In the case of a unity-gain buffer, the bandwidth coincides with the GBW, which is the maximum frequency at which this opamp can be used. An opamp allows therefore, an exchange gain for bandwidth. The lower the closed-loop gain, the higher the bandwidth. The product is always the GBW. An opamp is a very versatile building block.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的稳定性",
+  "title": "增益与带宽的权衡",
+  "title_status": "visually_reviewed",
+  "ocr": {
+    "path": "ocr/p0151_01_0513.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07770270631334453,
+          0.08292682899390247,
+          0.6554054090160473,
+          0.14634146314024388
+        ],
+        "confidence": 1,
+        "text": "Exchange of gain and bandwidth"
+      },
+      {
+        "bbox": [
+          0.09121621706081079,
+          0.1902439023170731,
+          0.15878378462837836,
+          0.2390243901219512
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "IAI A"
+      },
+      {
+        "bbox": [
+          0.09459459493243241,
+          0.2585365859024391,
+          0.13513513547297296,
+          0.3121951224878049
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ao"
+      },
+      {
+        "bbox": [
+          0.09459459418918921,
+          0.35609756112195123,
+          0.13513513472972974,
+          0.409756097707317
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ac"
+      },
+      {
+        "bbox": [
+          0.17567567271959464,
+          0.21463414646341472,
+          0.4121621592060811,
+          0.2634146342682927
+        ],
+        "confidence": 1,
+        "text": "Loop gain (1+T)"
+      },
+      {
+        "bbox": [
+          0.09459459493243241,
+          0.4780487810243903,
+          0.13513513547297296,
+          0.5317073176097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ac"
+      },
+      {
+        "bbox": [
+          0.1114864863597973,
+          0.6048780484146341,
+          0.12837837825168918,
+          0.634146341097561
+        ],
+        "confidence": 1,
+        "text": "1"
+      },
+      {
+        "bbox": [
+          0.09797297358108108,
+          0.6585365852682926,
+          0.1587837843918919,
+          0.7073170730731706
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "ФАА"
+      },
+      {
+        "bbox": [
+          0.11148648663127411,
+          0.7170731709059233,
+          0.13851351365830114,
+          0.7414634148083623
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "0°"
+      },
+      {
+        "bbox": [
+          0.08783783720439192,
+          0.7951219514634146,
+          0.13851351288006758,
+          0.8243902441463414
+        ],
+        "confidence": 1,
+        "text": "-90°"
+      },
+      {
+        "bbox": [
+          0.07770270326576577,
+          0.8682926823577235,
+          0.13851351407657658,
+          0.9024390238211382
+        ],
+        "confidence": 0.5,
+        "text": "-180°"
+      },
+      {
+        "bbox": [
+          0.17229729712837838,
+          0.7756097559891599,
+          0.2027027025337838,
+          0.7951219511111111
+        ],
+        "confidence": 0.5,
+        "text": "450"
+      },
+      {
+        "bbox": [
+          0.3581081086993243,
+          0.6390243902439025,
+          0.4054054059966216,
+          0.6878048780487804
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "f1c"
+      },
+      {
+        "bbox": [
+          0.42567567618243246,
+          0.6390243901463414,
+          0.4763513518581081,
+          0.6878048779512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1º1c"
+      },
+      {
+        "bbox": [
+          0.510135135304054,
+          0.5463414631010454,
+          0.5878378380067567,
+          0.5902439021254356
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.6551569837201029,
+          0.246522173819272,
+          0.9225457141558608,
+          0.3144534397665675
+        ],
+        "confidence": 1,
+        "text": "Ao open loop gain"
+      },
+      {
+        "bbox": [
+          0.6554054083108108,
+          0.35609756068292686,
+          0.9459459488513513,
+          0.41463414604878057
+        ],
+        "confidence": 0.5,
+        "text": "Ac closed loop gain"
+      },
+      {
+        "bbox": [
+          0.7364864861908783,
+          0.5463414641463414,
+          0.8344594591638513,
+          0.6048780495121951
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ao 1="
+      },
+      {
+        "bbox": [
+          0.7364864860219594,
+          0.634146342195122,
+          0.8479729725084458,
+          0.6926829275609756
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ac f1c="
+      },
+      {
+        "bbox": [
+          0.7364864874155405,
+          0.7268292678861789,
+          0.847972973902027,
+          0.7853658532520326
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "Ac f1c="
+      },
+      {
+        "bbox": [
+          0.7331081081925677,
+          0.8195121956707317,
+          0.8141891892736487,
+          0.8634146346951219
+        ],
+        "confidence": 1,
+        "text": "GBW"
+      },
+      {
+        "bbox": [
+          0.7331081126937454,
+          0.9512195127642277,
+          0.932432424130579,
+          0.9853658542276423
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 10.05 0513"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "frequency_response",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [],
+  "circuit": {
+    "image": "slides/p0151_01_0513.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "The product of the openloop gain A and this pole o frequency f is the GBW. 1 The GBW is the product of the gain and the bandwidth, for each setting of the gain.",
+      "pdf_page": 151,
+      "printed_page": 155,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Indeed, the ratio of the two resistors, in an inverting amplifier for example, sets the closed-loop gain A .",
+      "pdf_page": 151,
+      "printed_page": 155,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The c corresponding bandwidth is the f .",
+      "pdf_page": 151,
+      "printed_page": 155,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "Their product is again the GBW. 1c In the case of a unity-gain buffer, the bandwidth coincides with the GBW, which is the maximum frequency at which this opamp can be used.",
+      "pdf_page": 151,
+      "printed_page": 155,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "An opamp allows therefore, an exchange gain for bandwidth.",
+      "pdf_page": 151,
+      "printed_page": 155,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "The lower the closed-loop gain, the higher the bandwidth.",
+      "pdf_page": 151,
+      "printed_page": 155,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0513-M01",
+      "ocr_text": "Ao 1=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7364864861908783,
+        0.5463414641463414,
+        0.8344594591638513,
+        0.6048780495121951
+      ],
+      "context_crop": "regions/SANSEN-0513_math_01.png",
+      "context_bbox_normalized": [
+        0.6964864861908783,
+        0.44634146414634146,
+        1,
+        0.7348780495121952
+      ],
+      "source_image": "slides/p0151_01_0513.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0513-M02",
+      "ocr_text": "Ac f1c=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7364864860219594,
+        0.634146342195122,
+        0.8479729725084458,
+        0.6926829275609756
+      ],
+      "context_crop": "regions/SANSEN-0513_math_02.png",
+      "context_bbox_normalized": [
+        0.6964864860219594,
+        0.534146342195122,
+        1,
+        0.8226829275609756
+      ],
+      "source_image": "slides/p0151_01_0513.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0513-M03",
+      "ocr_text": "Ac f1c=",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7364864874155405,
+        0.7268292678861789,
+        0.847972973902027,
+        0.7853658532520326
+      ],
+      "context_crop": "regions/SANSEN-0513_math_03.png",
+      "context_bbox_normalized": [
+        0.6964864874155404,
+        0.6268292678861789,
+        1,
+        0.9153658532520326
+      ],
+      "source_image": "slides/p0151_01_0513.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [
+    {
+      "kind": "bode_graph",
+      "path": "regions/SANSEN-0513_bode_graph.png",
+      "bbox_normalized": [
+        0.067,
+        0.175,
+        0.648,
+        0.902
+      ],
+      "source_image": "slides/p0151_01_0513.jpg",
+      "status": "region_manually_located_not_netlist_verified"
+    }
+  ],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "reviewed_extraction": {
+    "title": "增益与带宽的权衡",
+    "review_scope": "listed_fields_only; plot and displayed product relation inspected",
+    "summary_zh": "图中降低闭环增益时，带宽相应增加；教材使用主极点模型说明增益与带宽的交换。",
+    "formulas": [
+      {
+        "latex": "A_o f_1=A_c f_{1c}=GBW",
+        "meaning_zh": "幻灯片所列增益—带宽积关系；两组闭环设置都画在同一张图中。"
+      }
+    ],
+    "topology_zh": [
+      "此页是开环及闭环响应比较图，未重画电路。"
+    ],
+    "graph_conclusions_zh": [
+      "闭环增益越低，图中的对应截止频率越高。",
+      "正文把单位增益缓冲器的带宽与 GBW 对应。"
+    ],
+    "conditions_zh": [
+      "正文以一个内部主极点说明；图标增益带宽交换不能无条件延伸到多个重要极点或明显峰化的系统。",
+      "精确闭环因子与高环路增益近似需在后续推导列出。"
+    ],
+    "title_original": "Exchange of gain and bandwidth"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Stability of operational amplifiers"
+}

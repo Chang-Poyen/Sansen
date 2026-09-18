@@ -1,0 +1,461 @@
+{
+  "case_id": "SANSEN-0639",
+  "slide_id": "0639",
+  "chapter": 6,
+  "slide_number_in_chapter": 39,
+  "source": {
+    "pdf_page": 197,
+    "printed_page": 201
+  },
+  "slide_images": [
+    {
+      "path": "slides/p0197_02_0639.jpg",
+      "pdf_page": 197,
+      "printed_page": 201,
+      "bbox_pt": [
+        91.521622,
+        467.31597899999997,
+        374.78981,
+        663.77597
+      ],
+      "native_size_px": [
+        591,
+        410
+      ],
+      "extraction": "native_embedded_image"
+    }
+  ],
+  "commentary_segments": [
+    {
+      "pdf_page": 197,
+      "printed_page": 201,
+      "bbox_pt": [
+        0,
+        463.3265000000003,
+        595,
+        797
+      ],
+      "text_raw": "Whenever an opamp is\ndriven with a large input\nvoltage, slewing occurs at\nthe output.\nLarge input voltages are\nused to try to make the\nopamp go faster.\nIn this case, the input\ntransistors are overdriven,\ni.e. one is on and the other\nis off, as illustrated in this\nslide.\nThe input transistor\nwhich is on, now operates as\na cascode, driven by the\ntotal input stage current I .\nB1\nThe current mirror then\ndraws the same current from the compensation capacitance C .\nc",
+      "text": "Whenever an opamp is driven with a large input voltage, slewing occurs at the output. Large input voltages are used to try to make the opamp go faster. In this case, the input transistors are overdriven, i.e. one is on and the other is off, as illustrated in this slide. The input transistor which is on, now operates as a cascode, driven by the total input stage current I . B1 The current mirror then draws the same current from the compensation capacitance C . c"
+    },
+    {
+      "pdf_page": 198,
+      "printed_page": 202,
+      "bbox_pt": [
+        0,
+        112,
+        595,
+        207.22584034999977
+      ],
+      "text_raw": "We have a situation where a capacitance C is driven by a constant current. As a result, the\nc\nvoltage slope across it, is constant and called the Slew Rate SR.\nThis SR appears at the output as the V is still about constant. Indeed, transistor M6 still\nGS6\nconducts as if nothing has happened!\nThis SR limits the steepest possible slope at the output of the opamp.\nClearly, this phenomenon works in both directions.",
+      "text": "We have a situation where a capacitance C is driven by a constant current. As a result, the c voltage slope across it, is constant and called the Slew Rate SR. This SR appears at the output as the V is still about constant. Indeed, transistor M6 still GS6 conducts as if nothing has happened! This SR limits the steepest possible slope at the output of the opamp. Clearly, this phenomenon works in both directions."
+    }
+  ],
+  "extraction_status": "source_extracted",
+  "semantic_review_status": "unreviewed",
+  "commentary_text": "Whenever an opamp is driven with a large input voltage, slewing occurs at the output. Large input voltages are used to try to make the opamp go faster. In this case, the input transistors are overdriven, i.e. one is on and the other is off, as illustrated in this slide. The input transistor which is on, now operates as a cascode, driven by the total input stage current I . B1 The current mirror then draws the same current from the compensation capacitance C . c\n\nWe have a situation where a capacitance C is driven by a constant current. As a result, the c voltage slope across it, is constant and called the Slew Rate SR. This SR appears at the output as the V is still about constant. Indeed, transistor M6 still GS6 conducts as if nothing has happened! This SR limits the steepest possible slope at the output of the opamp. Clearly, this phenomenon works in both directions.",
+  "schema_version": "1.0",
+  "chapter_title": "运算放大器的系统化设计",
+  "title": "Miller CMOS OTA : Slew Rate - 1",
+  "title_status": "ocr_unverified",
+  "ocr": {
+    "path": "ocr/p0197_02_0639.json",
+    "status": "ok",
+    "lines": [
+      {
+        "bbox": [
+          0.07432432010135145,
+          0.07804877975609759,
+          0.6824324282094596,
+          0.1365853651219513
+        ],
+        "confidence": 0.5,
+        "text": "Miller CMOS OTA : Slew Rate - 1"
+      },
+      {
+        "bbox": [
+          0.2635135139189189,
+          0.2487804875609756,
+          0.30405405445945943,
+          0.28292682902439026
+        ],
+        "confidence": 1,
+        "text": "M7"
+      },
+      {
+        "bbox": [
+          0.5810810817145271,
+          0.21463414640243905,
+          0.6317567573902028,
+          0.26829268298780484
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VDo"
+      },
+      {
+        "bbox": [
+          0.29054054017454956,
+          0.40000000008130077,
+          0.33445945909346847,
+          0.44878048788617886
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'в1"
+      },
+      {
+        "bbox": [
+          0.5067567564470721,
+          0.26829268313008137,
+          0.5439189186092342,
+          0.3024390245934959
+        ],
+        "confidence": 1,
+        "text": "M5"
+      },
+      {
+        "bbox": [
+          0.5101351352702703,
+          0.3951219518048781,
+          0.5439189190540541,
+          0.4536585371707317
+        ],
+        "confidence": 1,
+        "text": "4"
+      },
+      {
+        "bbox": [
+          0.5608108115202702,
+          0.39999999990243906,
+          0.6317567574662162,
+          0.44878048770731704
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "VOUT"
+      },
+      {
+        "bbox": [
+          0.6959459468388031,
+          0.20975609794425087,
+          0.9358108117036681,
+          0.26341463452961666
+        ],
+        "confidence": 1,
+        "text": "Switch input :"
+      },
+      {
+        "bbox": [
+          0.7331081068012258,
+          0.31219512016177,
+          0.7702702721852607,
+          0.3658536613992056
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "+"
+      },
+      {
+        "bbox": [
+          0.7668918928209459,
+          0.30731707298780486,
+          0.8412162171452703,
+          0.3414634144512195
+        ],
+        "confidence": 0.30000001192092896,
+        "text": ">1"
+      },
+      {
+        "bbox": [
+          0.7331081087500001,
+          0.3804878042926829,
+          0.8378378384797298,
+          0.43902438965853663
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "v. >0"
+      },
+      {
+        "bbox": [
+          0.3626734854998159,
+          0.4295319722072992,
+          0.47452520347450444,
+          0.5125906411347478
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "1B1 Cc"
+      },
+      {
+        "bbox": [
+          0.17229729780405406,
+          0.5121951216463415,
+          0.21283783834459458,
+          0.5463414631097562
+        ],
+        "confidence": 1,
+        "text": "M1"
+      },
+      {
+        "bbox": [
+          0.5641891889358108,
+          0.5609756092073171,
+          0.5979729727195946,
+          0.6048780482317073
+        ],
+        "confidence": 1,
+        "text": "RL"
+      },
+      {
+        "bbox": [
+          0.11148648624517374,
+          0.6487804880487804,
+          0.1452702700289575,
+          0.7024390246341462
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "2"
+      },
+      {
+        "bbox": [
+          0.1081081079391892,
+          0.7463414632682928,
+          0.14189189172297298,
+          0.7756097559512195
+        ],
+        "confidence": 0.5,
+        "text": "M3"
+      },
+      {
+        "bbox": [
+          0.5101351346283785,
+          0.6829268294512195,
+          0.550675675168919,
+          0.7170731709146342
+        ],
+        "confidence": 1,
+        "text": "M6"
+      },
+      {
+        "bbox": [
+          0.3479729734375,
+          0.746341463109756,
+          0.38513513559966217,
+          0.7804878045731706
+        ],
+        "confidence": 1,
+        "text": "M4"
+      },
+      {
+        "bbox": [
+          0.5743243236486487,
+          0.7902439025000001,
+          0.6283783777027028,
+          0.8439024390853659
+        ],
+        "confidence": 0.5,
+        "text": "•Vss"
+      },
+      {
+        "bbox": [
+          0.7162162175916988,
+          0.5707317070383274,
+          0.9087837851592664,
+          0.6487804875261324
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SR = AVouT"
+      },
+      {
+        "bbox": [
+          0.8378378374324325,
+          0.6536585367804878,
+          0.878378377972973,
+          0.6926829270243903
+        ],
+        "confidence": 1,
+        "text": "At"
+      },
+      {
+        "bbox": [
+          0.8175675679335586,
+          0.7365853657317074,
+          0.8614864868524774,
+          0.7902439023170732
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "'B1"
+      },
+      {
+        "bbox": [
+          0.7195945951978765,
+          0.7707317070731708,
+          0.8040540546573359,
+          0.814634146097561
+        ],
+        "confidence": 0.30000001192092896,
+        "text": "SR ="
+      },
+      {
+        "bbox": [
+          0.7293236978188954,
+          0.9423584700092682,
+          0.9363811094251427,
+          0.9874200047978186
+        ],
+        "confidence": 0.5,
+        "text": "Willy Sansen 1005 0639"
+      }
+    ],
+    "warning": "OCR confidence is not mathematical correctness. Subscripts, signs and fractions need visual verification."
+  },
+  "content_tags": {
+    "values": [
+      "circuit",
+      "graph",
+      "feedback"
+    ],
+    "method": "keyword_candidates_not_visual_inventory"
+  },
+  "analysis_objective_excerpts": [
+    {
+      "text": "In this case, the input transistors are overdriven, i.e. one is on and the other is off, as illustrated in this slide.",
+      "pdf_page": 197,
+      "printed_page": 201,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "circuit": {
+    "image": "slides/p0197_02_0639.jpg",
+    "topology_status": "not_netlist_verified",
+    "connection_description_excerpts": [],
+    "devices": null,
+    "connections": null
+  },
+  "source_conclusions": [
+    {
+      "text": "As a result, the c voltage slope across it, is constant and called the Slew Rate SR.",
+      "pdf_page": 198,
+      "printed_page": 202,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This SR limits the steepest possible slope at the output of the opamp.",
+      "pdf_page": 198,
+      "printed_page": 202,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "graph_conclusion_excerpts": [
+    {
+      "text": "As a result, the c voltage slope across it, is constant and called the Slew Rate SR.",
+      "pdf_page": 198,
+      "printed_page": 202,
+      "origin": "book_commentary_text_layer"
+    },
+    {
+      "text": "This SR limits the steepest possible slope at the output of the opamp.",
+      "pdf_page": 198,
+      "printed_page": 202,
+      "origin": "book_commentary_text_layer"
+    }
+  ],
+  "explicit_assumption_excerpts": [],
+  "inferred_assumptions": [],
+  "formula_candidates": [
+    {
+      "id": "SANSEN-0639-M01",
+      "ocr_text": ">1",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7668918928209459,
+        0.30731707298780486,
+        0.8412162171452703,
+        0.3414634144512195
+      ],
+      "context_crop": "regions/SANSEN-0639_math_01.png",
+      "context_bbox_normalized": [
+        0.7268918928209459,
+        0.20731707298780486,
+        1,
+        0.47146341445121953
+      ],
+      "source_image": "slides/p0197_02_0639.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0639-M02",
+      "ocr_text": "v. >0",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7331081087500001,
+        0.3804878042926829,
+        0.8378378384797298,
+        0.43902438965853663
+      ],
+      "context_crop": "regions/SANSEN-0639_math_02.png",
+      "context_bbox_normalized": [
+        0.6931081087500001,
+        0.28048780429268294,
+        1,
+        0.5690243896585366
+      ],
+      "source_image": "slides/p0197_02_0639.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0639-M03",
+      "ocr_text": "SR = AVouT",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7162162175916988,
+        0.5707317070383274,
+        0.9087837851592664,
+        0.6487804875261324
+      ],
+      "context_crop": "regions/SANSEN-0639_math_03.png",
+      "context_bbox_normalized": [
+        0.6762162175916988,
+        0.47073170703832745,
+        1,
+        0.7787804875261324
+      ],
+      "source_image": "slides/p0197_02_0639.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    },
+    {
+      "id": "SANSEN-0639-M04",
+      "ocr_text": "SR =",
+      "confidence": 0.30000001192092896,
+      "bbox_normalized": [
+        0.7195945951978765,
+        0.7707317070731708,
+        0.8040540546573359,
+        0.814634146097561
+      ],
+      "context_crop": "regions/SANSEN-0639_math_04.png",
+      "context_bbox_normalized": [
+        0.6795945951978765,
+        0.6707317070731709,
+        1,
+        0.93
+      ],
+      "source_image": "slides/p0197_02_0639.jpg",
+      "status": "ocr_candidate_requires_visual_review",
+      "latex": null
+    }
+  ],
+  "verified_visual_regions": [],
+  "sfg_triage": {
+    "priority": "candidate",
+    "method": "keyword_triage_only",
+    "reason": "需核对小信号模型与反馈结构后才能决定分析方法。"
+  },
+  "simulation_status": "not_started_step_1_only",
+  "quality": {
+    "source_pairing": "label_font_position_and_sequence_checked",
+    "math_text_layer_warning": "正文内的上下标、希腊字母及特殊符号可能错位；公式以原图为准。",
+    "extractive_fields": "以上 excerpt 字段是原文候选摘录，不是逐张人工判读的结论。"
+  },
+  "commentary_status": "present",
+  "chapter_title_original": "Systematic design of operational amplifiers"
+}
